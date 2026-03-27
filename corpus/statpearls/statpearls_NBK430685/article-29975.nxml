@@ -1,0 +1,2861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-29975" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Biochemistry, Tertiary Protein Structure</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Ragupathi</surname>
+            <given-names>Ashwin</given-names>
+          </name>
+          <aff>New York Institute of Technology, College of Osteopathic Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Mastrogiannis</surname>
+            <given-names>Alexander J.</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Rahimi</surname>
+            <given-names>Nader</given-names>
+          </name>
+          <aff>Boston University Medical Campus, Boston, MA</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Ashwin Ragupathi declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Alexander Mastrogiannis declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Nader Rahimi declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>1</day>
+          <month>12</month>
+          <year>2025</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-29975.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Proteins constitute essential biomolecules&#x000a0;with biological functions, including catalysis, signaling, and structural support, that depend on their 3-dimensional conformations.<xref ref-type="bibr" rid="article-29975.r1">[1]</xref> Protein structure is organized hierarchically into primary (amino acid sequence), secondary (local motifs such as &#x003b1;-helices and &#x003b2;-sheets), tertiary (overall fold of a single polypeptide chain), and quaternary (assembly of multiple subunits) levels.<xref ref-type="bibr" rid="article-29975.r2">[2]</xref><xref ref-type="bibr" rid="article-29975.r3">[3]</xref><xref ref-type="bibr" rid="article-29975.r4">[4]</xref><xref ref-type="bibr" rid="article-29975.r5">[5]</xref><xref ref-type="bibr" rid="article-29975.r6">[6]</xref>&#x000a0;Among these levels, tertiary structure determines functional specificity and contributes to cellular stability. Tertiary folding is stabilized primarily by noncovalent interactions and is highly sensitive to mutations, misfolding, and environmental stress.</p>
+        <p>Alterations in tertiary structure are implicated in diverse pathologies, including neurodegenerative diseases, cancer, and inherited protein misfolding disorders.&#x000a0;This activity examines the biochemical principles underlying tertiary protein structure, the factors governing its formation, and the clinical consequences of structural alterations.</p>
+      </sec>
+      <sec id="article-29975.s2" sec-type="Fundamentals">
+        <title>Fundamentals</title>
+        <p>
+<bold>Defining Tertiary Protein Structure</bold>
+</p>
+        <p>Tertiary structure denotes the unique 3-dimensional conformation adopted by a single polypeptide chain. This complex folding integrates the spatial arrangement of secondary structural elements, such as &#x003b1;-helices and &#x003b2;-sheets, with the precise orientation of all amino acid side chains (R groups).<xref ref-type="bibr" rid="article-29975.r7">[7]</xref> The tertiary structure is the fully folded, functional state of the protein essential for specific biological activity.<xref ref-type="bibr" rid="article-29975.r8">[8]</xref></p>
+        <p>Tertiary structures frequently contain&#x000a0;1 or more protein domains&#x02014;self-stabilizing regions of a polypeptide that fold independently into compact 3-dimensional units.<xref ref-type="bibr" rid="article-29975.r9">[9]</xref><xref ref-type="bibr" rid="article-29975.r10">[10]</xref><xref ref-type="bibr" rid="article-29975.r11">[11]</xref>&#x000a0;Many proteins are composed of multiple domains, which act as modular building blocks evolutionarily reused across different proteins to support diverse functions.<xref ref-type="bibr" rid="article-29975.r12">[12]</xref><xref ref-type="bibr" rid="article-29975.r13">[13]</xref>&#x000a0;This modularity implies that protein folding proceeds through semiautonomous units, enhancing structural robustness by reducing complexity and the risk of misfolding.</p>
+        <p>Domains typically range from 50 to 250 amino acids, with smaller domains, such as zinc fingers, stabilized by metal ions or disulfide bonds.<xref ref-type="bibr" rid="article-29975.r14">[14]</xref><xref ref-type="bibr" rid="article-29975.r15">[15]</xref><xref ref-type="bibr" rid="article-29975.r16">[16]</xref> Each domain forms a hydrophobic core constructed from secondary structures connected by loops. Domain architecture&#x02014;including number, type, and arrangement&#x02014;critically determines protein function, interaction potential, and the accessibility and specificity of active sites,&#x000a0;influenced by domain orientation and flexibility within the tertiary structure.<xref ref-type="bibr" rid="article-29975.r17">[17]</xref><xref ref-type="bibr" rid="article-29975.r18">[18]</xref><xref ref-type="bibr" rid="article-29975.r19">[19]</xref><xref ref-type="bibr" rid="article-29975.r20">[20]</xref></p>
+      </sec>
+      <sec id="article-29975.s3" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>
+<bold>Consequences of Misfolding</bold>
+</p>
+        <p>Protein misfolding is a critical focus in biomedical research due to its extensive implications for human health. Misfolded proteins frequently lose intended biological activity, as improperly formed active sites or binding regions render them functionally inactive, resulting in deficiencies in essential cellular processes.</p>
+        <p>In some instances, misfolding produces a gain of toxic function. Exposed hydrophobic regions or newly acquired harmful properties promote aberrant interactions and aggregation.<xref ref-type="bibr" rid="article-29975.r21">[21]</xref> These aggregates often form insoluble amyloid fibrils that accumulate in tissues, particularly within the central nervous system, causing cellular damage and death.<xref ref-type="bibr" rid="article-29975.r22">[22]</xref><xref ref-type="bibr" rid="article-29975.r23">[23]</xref><xref ref-type="bibr" rid="article-29975.r24">[24]</xref> Distinguishing between simple loss of&#x000a0;activity&#x000a0;and toxic gain of function is essential for understanding disease pathogenesis, as the latter can lead to widespread and progressive cellular injury. &#x0201c;Entanglement&#x0201d; misfolds exemplify particularly stable conformations that evade cellular quality control, representing a challenging form of toxic gain-of-function.<xref ref-type="bibr" rid="article-29975.r25">[25]</xref></p>
+        <p>Accumulation of misfolded proteins can overwhelm cellular protein quality control systems, including molecular chaperones and degradation pathways such as the ubiquitin-proteasome system.<xref ref-type="bibr" rid="article-29975.r26">[26]</xref><xref ref-type="bibr" rid="article-29975.r27">[27]</xref> This overload activates stress responses, including the unfolded protein response, and can trigger chronic inflammation, further exacerbating cellular injury.<xref ref-type="bibr" rid="article-29975.r28">[28]</xref></p>
+      </sec>
+      <sec id="article-29975.s4" sec-type="Molecular Level&#x0000d;&#x0000a;">
+        <title>Molecular Level
+</title>
+        <p>
+<bold>Forces Stabilizing Tertiary Structure</bold>
+</p>
+        <p>The tertiary structure of a protein, representing its intricate 3-dimensional conformation, is stabilized by a network of interactions involving amino acid side chains and the polypeptide backbone. These interactions frequently occur between residues distant in the linear sequence and are essential for maintaining the folded conformation. Stabilizing forces are classified as noncovalent&#x02014;including hydrogen bonds, ionic interactions, van der Waals forces, and hydrophobic effects&#x02014;and covalent, such as disulfide bonds.<xref ref-type="bibr" rid="article-29975.r29">[29]</xref><xref ref-type="bibr" rid="article-29975.r30">[30]</xref></p>
+        <p>
+<bold>Noncovalent Interactions</bold>
+</p>
+        <p>Noncovalent interactions are distinguished from covalent bonds by their reversibility and relatively low individual energy contributions. When occurring in large numbers, these interactions are sufficient to drive protein folding and maintain structural stability. The different types are discussed below.</p>
+        <p>
+<bold>Hydrophobic effect</bold>
+</p>
+        <p>The hydrophobic effect is considered one of the most significant noncovalent forces stabilizing protein tertiary structure, not due to the strength of individual interactions but because of their prevalence throughout the polypeptide chain.<xref ref-type="bibr" rid="article-29975.r31">[31]</xref> This effect constitutes a primary driving force in protein folding.<xref ref-type="bibr" rid="article-29975.r32">[32]</xref></p>
+        <p>Nonpolar amino acid residues, such as valine, leucine, phenylalanine, and tryptophan, preferentially cluster within the protein interior to minimize exposure to the surrounding aqueous environment. This behavior is fundamentally governed by thermodynamic principles, specifically the 2nd Law, which dictates that systems tend to maximize entropy.</p>
+        <p>Water, a polar solvent, forms an extensive hydrogen-bonded network. The presence of hydrophobic residues disrupts favorable water interactions, leading to the formation of highly ordered, cage-like structures&#x02014;referred to as "clathrate cages"&#x02014;around nonpolar surfaces. Water molecules confined within these cages experience restricted motion and reduced entropy relative to the bulk solvent.<xref ref-type="bibr" rid="article-29975.r33">[33]</xref></p>
+        <p>Clustering of hydrophobic residues during folding reduces the total surface area exposed to water, minimizing clathrate formation and releasing ordered water molecules back into the bulk phase. The resulting entropic gain renders hydrophobic collapse thermodynamically favorable, promoting the formation of a compact, energetically stable structure.</p>
+        <p>This principle also explains the propensity for protein misfolding to result in aggregation. Exposed hydrophobic residues, normally buried within the protein interior, may interact aberrantly with one another or with other misfolded proteins, facilitating the formation of insoluble aggregates.<xref ref-type="bibr" rid="article-29975.r34">[34]</xref><xref ref-type="bibr" rid="article-29975.r35">[35]</xref><xref ref-type="bibr" rid="article-29975.r36">[36]</xref></p>
+        <p>Hydrophobic interactions are regarded as the most significant noncovalent forces stabilizing polypeptide conformation, not because individual interactions are strong,&#x000a0;but because their cumulative prevalence is significant. This effect constitutes a primary driving force in protein folding, promoting the formation of a compact, energetically favorable structure. Nonpolar amino acid residues, including valine, leucine, phenylalanine, and tryptophan, preferentially localize within the protein interior, where shielding from the aqueous environment minimizes unfavorable water interactions.</p>
+        <p>
+<bold>Hydrogen bonds</bold>
+</p>
+        <p>Hydrogen bonds form primarily between the side chains of polar amino acids, including those containing hydroxyl, amino, or carboxyl groups, as well as between backbone carboxyl oxygen atoms and hydrogen donors. These interactions are essential for stabilizing protein tertiary structure and mediating protein interactions with other molecules. Hydrogen bonds exhibit high directionality, achieving maximum strength when donor and acceptor atoms are colinear and decreasing significantly when misaligned. While the hydrophobic effect drives initial folding by promoting inward positioning of nonpolar residues, hydrogen bonding refines the tertiary structure, particularly at the protein surface and at active sites, where molecular recognition and specificity are critical.<xref ref-type="bibr" rid="article-29975.r37">[37]</xref></p>
+        <p>
+<bold>Ionic bonds</bold>
+</p>
+        <p>Ionic bonds, or salt linkages (bridges), arise from electrostatic attraction between oppositely charged side chains, typically between the positively charged ammonium group of basic amino acids (eg, lysine) and the negatively charged carboxylate group of acidic amino acids (eg, aspartate).<xref ref-type="bibr" rid="article-29975.r38">[38]</xref> These interactions stabilize specific regions of the folded protein and are often termed "salt bridges," combining both ionic and hydrogen bonding components. Salt bridges constitute critical noncovalent forces in biological systems, contributing substantially to protein stability. While hydrophobic interactions drive initial folding, salt linkages reinforce the final conformation, ensuring structural precision and functional integrity.<xref ref-type="bibr" rid="article-29975.r39">[39]</xref><xref ref-type="bibr" rid="article-29975.r40">[40]</xref></p>
+        <p>
+<bold>Van der Waals forces</bold>
+</p>
+        <p>Van der Waals forces are weak, short-range interactions comprising both attractive and repulsive components.<xref ref-type="bibr" rid="article-29975.r41">[41]</xref> Attraction arises from transient dipoles generated by momentary fluctuations in electron distribution between neighboring atoms, whereas repulsion occurs when atoms approach sufficiently close for their electron orbitals to overlap.<xref ref-type="bibr" rid="article-29975.r42">[42]</xref><xref ref-type="bibr" rid="article-29975.r43">[43]</xref><xref ref-type="bibr" rid="article-29975.r44">[44]</xref><xref ref-type="bibr" rid="article-29975.r45">[45]</xref> The optimal separation, at which attraction is maximized and repulsion minimized, is termed the "Van der Waals contact distance." Although individually weak, the cumulative effect of numerous Van der Waals interactions within the densely packed protein interior contributes substantially to overall stability. These forces are essential for the precise and efficient packing of amino acid side chains in the protein core.<xref ref-type="bibr" rid="article-29975.r46">[46]</xref>&#x000a0;</p>
+        <p>
+<bold>Covalent Interactions</bold>
+</p>
+        <p>Covalent interactions differ from noncovalent interactions in that they involve permanent electron-sharing bonds with high individual energy. Disulfide bonds&#x000a0;comprise the primary covalent interactions in proteins because their strength and permanence provide robust stabilization of tertiary and quaternary structures, particularly in extracellular environments where long-term structural integrity is required.</p>
+        <p>
+<bold>Disulfide bonds</bold>
+</p>
+        <p>Disulfide linkages are covalent bonds formed between the sulfur-containing sulfhydryl (&#x02014;SH) groups of&#x000a0;2 cysteine residues. As proteins fold, pairs of cysteine residues that approach each other undergo oxidation of their &#x02014;SH groups, resulting in disulfide bond formation (&#x02014;S&#x02014;S&#x02014;).<xref ref-type="bibr" rid="article-29975.r47">[47]</xref>&#x000a0;These bonds are substantially stronger than noncovalent interactions and serve as robust stabilizing elements.</p>
+        <p>Disulfide linkages can connect different regions within a single polypeptide chain or join separate chains, contributing to both tertiary and quaternary structure stability, as exemplified by proteins such as insulin.<xref ref-type="bibr" rid="article-29975.r48">[48]</xref><xref ref-type="bibr" rid="article-29975.r49">[49]</xref>&#x000a0;Disulfide bridges are particularly prevalent in extracellular proteins, where they function as permanent structural anchors, providing long-term stability under harsh or oxidizing conditions. Owing to their strength, disulfide bonds require chemical reduction using agents such as dithiothreitol or &#x003b2;-mercaptoethanol to achieve complete denaturation during experimental protocols, including Western blot analysis.<xref ref-type="bibr" rid="article-29975.r50">[50]</xref></p>
+        <table-wrap id="article-29975.table0" position="float" orientation="portrait">
+          <caption>
+            <title>Table. Summary of Forces Stabilizing Tertiary Structures</title>
+          </caption>
+          <table style="width: 800px;" border="1" cellspacing="1" cellpadding="5">
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">
+<bold>Interaction Type</bold>
+</td>
+                <td rowspan="1" colspan="1">&#x000a0;<bold>Nature of Force</bold></td>
+                <td rowspan="1" colspan="1">&#x000a0;<bold>Key Participants</bold></td>
+                <td rowspan="1" colspan="1">
+<bold>Relative Strength (kcal/mol)</bold>
+</td>
+                <td rowspan="1" colspan="1">&#x000a0;<bold>Primary Role and Characteristics</bold></td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Noncovalent</td>
+                <td rowspan="1" colspan="1">Hydrophobic effect, entropy-driven (thermodynamic)</td>
+                <td rowspan="1" colspan="1">Nonpolar side chains (Val, Leu, Phe, Trp)</td>
+                <td rowspan="1" colspan="1">Not applicable (emergent property)</td>
+                <td rowspan="1" colspan="1">Primary driving force for initial protein collapse; buries nonpolar residues to maximize solvent entropy.</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">&#x000a0;</td>
+                <td rowspan="1" colspan="1">Hydrogen bond, electrostatic (dipole-dipole)</td>
+                <td rowspan="1" colspan="1">Backbone C=O, N-H; polar side chains (Ser, Thr, Asn, Gln)</td>
+                <td rowspan="1" colspan="1">1-5</td>
+                <td rowspan="1" colspan="1">Fine-tunes structure and provides specificity; crucial for secondary structure (&#x003b1;-helices, &#x003b2;-sheets) and molecular recognition.</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">&#x000a0;</td>
+                <td rowspan="1" colspan="1">Ionic bond (salt bridge), electrostatic (charge-charge)</td>
+                <td rowspan="1" colspan="1">Oppositely charged side chains (Lys, Arg; Asp, Glu)</td>
+                <td rowspan="1" colspan="1">5-10 (in vacuum), 1-5 (in water)</td>
+                <td rowspan="1" colspan="1">Locks in conformation; stabilizes tertiary and quaternary structure; critical for surface recognition and catalysis.</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">&#x000a0;</td>
+                <td rowspan="1" colspan="1">Van der Waals forces, fluctuating dipoles</td>
+                <td rowspan="1" colspan="1">All atoms in proximity</td>
+                <td rowspan="1" colspan="1">0.1-1 (per pair)</td>
+                <td rowspan="1" colspan="1">Optimizes core packing; cumulative effect provides substantial stability in densely packed protein interior.</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Covalent</td>
+                <td rowspan="1" colspan="1">Disulfide bond, covalent electron sharing</td>
+                <td rowspan="1" colspan="1">2&#x000a0;Cys residues</td>
+                <td rowspan="1" colspan="1">~60</td>
+                <td rowspan="1" colspan="1">Permanent structural anchor; provides robust stabilization of tertiary and quaternary structure, especially in extracellular proteins.</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <p>Note:&#x000a0;The 3-letter abbreviations for amino acids used in the table are&#x000a0;the following: Val = Valine; Leu&#x000a0;= Leucine; Phe&#x000a0;= Phenylalanine; Trp&#x000a0;= Tryptophan; Ser&#x000a0;=&#x000a0;Serine; Thr&#x000a0;=&#x000a0;Threonine; Asn&#x000a0;=&#x000a0;Asparagine; Gln&#x000a0;=&#x000a0;Glutamine; Lys&#x000a0;=&#x000a0;Lysine; Arg&#x000a0;=&#x000a0;Arginine; Asp&#x000a0;=&#x000a0;Aspartic acid; Glu&#x000a0;=&#x000a0;Glutamic acid; Cys&#x000a0;=&#x000a0;Cysteine.</p>
+      </sec>
+      <sec id="article-29975.s5" sec-type="Function">
+        <title>Function</title>
+        <p>The direct relationship between a protein&#x02019;s 3-dimensional structure and its biological function constitutes a fundamental principle of molecular biology. Tertiary structure defines the specific geometry and chemical environment of binding sites for ligands, substrates, and interaction partners, which are essential for proper activity and regulation. Disruption of the native conformation, as occurs with misfolding, can lead to loss of function or toxic gain of function, contributing to a spectrum of protein-misfolding diseases, including neurodegenerative and systemic disorders. This strict dependence on correct folding emphasizes the critical role of cellular quality control mechanisms, including molecular chaperones and degradation pathways, in maintaining protein integrity.<xref ref-type="bibr" rid="article-29975.r51">[51]</xref><xref ref-type="bibr" rid="article-29975.r52">[52]</xref><xref ref-type="bibr" rid="article-29975.r53">[53]</xref></p>
+      </sec>
+      <sec id="article-29975.s6" sec-type="Testing">
+        <title>Testing</title>
+        <p>
+<bold>Methods for Determining Protein Structure</bold>
+</p>
+        <p>X-ray crystallography, nuclear magnetic resonance spectroscopy, cryogenic electron microscopy, and circular dichroism spectroscopy are complementary techniques in structural biology, each providing distinct insights into protein architecture. X-ray crystallography yields high-resolution, static snapshots of well-ordered crystalline proteins. Nuclear magnetic resonance spectroscopy captures dynamic, solution-state conformations, particularly useful for smaller, flexible proteins. Cryogenic electron microscopy excels in resolving large, heterogeneous, or membrane-associated complexes that are difficult to crystallize.&#x000a0;Circular dichroism spectroscopy allows rapid, real-time assessment of protein folding, secondary structure content, and conformational changes.</p>
+        <p>Selection of a specific technique depends on factors such as protein size, flexibility, stability, and membrane association, as well as the nature of the structural information desired. In many studies, an integrated, multimethod approach is employed to achieve a comprehensive understanding of protein structure and function. Such methodological synergy is essential for investigating protein folding, stability, and misfolding, and ongoing technological advancements in these approaches continue to enhance elucidation of biological mechanisms and development of therapeutics targeting protein-misfolding disorders.<xref ref-type="bibr" rid="article-29975.r54">[54]</xref><xref ref-type="bibr" rid="article-29975.r55">[55]</xref></p>
+      </sec>
+      <sec id="article-29975.s7" sec-type="Pathophysiology">
+        <title>Pathophysiology</title>
+        <p>
+<bold>Protein Misfolding Diseases</bold>
+</p>
+        <p>Many neurodegenerative and systemic disorders are driven by protein misfolding and subsequent aggregation. Despite involving distinct proteins, these conditions share a characteristic feature: the accumulation of amyloid fibrils and other aggregated protein deposits.<xref ref-type="bibr" rid="article-29975.r56">[56]</xref> This commonality indicates a convergent pathological mechanism in which an initial trigger, such as a genetic mutation or spontaneous misfolding event, initiates a cascade of aggregation, cellular dysfunction, and tissue degeneration. Recognition of this shared pathway provides therapeutic opportunities, enabling the development of broad-spectrum strategies that target common mechanisms rather than individual, disease-specific proteins.<xref ref-type="bibr" rid="article-29975.r57">[57]</xref></p>
+        <p>
+<bold>Prion Diseases</bold>
+</p>
+        <p>Prion diseases, also known as transmissible spongiform encephalopathies, constitute a distinct class of fatal neurodegenerative disorders caused by infectious misfolded proteins. In these conditions, misfolded prion protein (PrP^Sc^) induces conformational conversion of the normal cellular isoform (PrP^C^) into the pathogenic structure. This process is hypothesized to be facilitated by an unidentified cellular factor, termed &#x0201c;protein X,&#x0201d; which brings PrP^C^ and PrP^Sc^ into proximity to promote misfolding.</p>
+        <p>The pathogenic PrP^Sc^ isoform exhibits marked resistance to proteolytic degradation, resulting in accumulation as amyloid fibrils within the brain and other affected tissues. These deposits produce the characteristic spongiform vacuolation, neuronal loss, and progressive cell death that define transmissible spongiform encephalopathies. Representative examples include scrapie in sheep, chronic wasting disease in deer, bovine spongiform encephalopathy in cattle, and Creutzfeldt-Jakob disease in humans.<xref ref-type="bibr" rid="article-29975.r58">[58]</xref></p>
+        <p>Prion diseases are transmissible through ingestion of contaminated material or iatrogenic exposure, such as via surgical instruments. The remarkable structural stability of prions confers resistance to conventional chemical and physical denaturation, creating significant challenges for sterilization and containment. All recognized prion diseases are progressive, currently untreatable, and universally fatal.<xref ref-type="bibr" rid="article-29975.r59">[59]</xref></p>
+        <p>
+<bold>Neurodegenerative Diseases</bold>
+</p>
+        <p>Misfolded proteins are central to a broad class of neurodegenerative disorders, many of which progress via prion-like mechanisms. In these conditions, a misfolded protein functions as a nucleating seed, inducing the misfolding and aggregation of normally folded counterparts and spreading pathology throughout the nervous system in a self-perpetuating manner.</p>
+        <p>In Alzheimer disease,&#x000a0;2 hallmark protein aggregates are observed: extracellular amyloid plaques and intracellular neurofibrillary tangles. Amyloid plaques are composed primarily of amyloid-&#x003b2; (A&#x003b2;) peptides, generated through sequential cleavage of the amyloid precursor protein by &#x003b2;-secretase and &#x003b3;-secretase. The amyloid-&#x003b2;42 (A&#x003b2;42) isoform&#x000a0;exhibits a high propensity for aggregation due to its hydrophobic properties. Although dense fibrils constitute plaques, soluble amyloid-&#x003b2; oligomers are currently considered the most neurotoxic species.</p>
+        <p>Neurofibrillary tangles arise from hyperphosphorylated &#x003c4; protein, which, under normal conditions, stabilizes microtubules within neurons. In Alzheimer disease, &#x003c4; detaches from microtubules, misfolds, and aggregates, impairing axonal transport and disrupting synaptic integrity. Evidence indicates a synergistic interaction between amyloid-&#x003b2; and&#x000a0;&#x003c4;, in which amyloid-&#x003b2; accumulation may initiate or accelerate&#x000a0;&#x003c4; pathology, culminating in widespread synaptic dysfunction, neuronal loss, and the cognitive decline characteristic of dementia.<xref ref-type="bibr" rid="article-29975.r60">[60]</xref></p>
+        <p>In Parkinson disease, the primary pathological hallmark is the aggregation of &#x003b1;-synuclein into intracellular inclusions known as Lewy bodies. These inclusions disrupt cellular homeostasis and precipitate the degeneration of dopaminergic neurons in the substantia nigra, producing the characteristic motor deficits.<xref ref-type="bibr" rid="article-29975.r61">[61]</xref><xref ref-type="bibr" rid="article-29975.r62">[62]</xref>&#x000a0;Huntington disease arises from an expanded polyglutamine repeat, encoded by consecutive cytosine-adenine-guanine (CAG) codons, within the huntingtin gene. The resulting mutant huntingtin protein forms toxic aggregates that accumulate predominantly in the striatum and cerebral cortex, driving progressive motor, cognitive, and psychiatric impairment.<xref ref-type="bibr" rid="article-29975.r63">[63]</xref>&#x000a0;</p>
+        <p>
+<bold>Sickle Cell Anemia</bold>
+</p>
+        <p>Sickle cell anemia illustrates how a single amino acid substitution can profoundly alter protein structure and function, producing systemic physiological effects. This monogenic disorder results from a point mutation in the &#x003b2;-globin gene, in which a polar glutamic acid is replaced by a nonpolar valine at codon&#x000a0;6 due to a cytosine-to-adenine transversion.<xref ref-type="bibr" rid="article-29975.r64">[64]</xref></p>
+        <p>The substitution generates a hydrophobic patch on the surface of hemoglobin S. Under low-oxygen conditions, this valine interacts with hydrophobic regions on adjacent hemoglobin S molecules, promoting polymerization into rigid fibers. These fibers distort red blood cells into stiff, sickle-shaped forms, reducing their flexibility and impairing oxygen transport. The resulting vascular occlusion, ischemia, and pain crises, together with increased hemolysis, drive the clinical manifestations of the disease. Membrane damage caused by oxidative and mechanical stress further exacerbates pathology.</p>
+        <p>Homozygous individuals experience severe symptoms, whereas heterozygous carriers, exhibiting sickle cell trait, are typically asymptomatic. This trait confers a selective advantage against malaria, accounting for its persistence in endemic regions.<xref ref-type="bibr" rid="article-29975.r65">[65]</xref></p>
+      </sec>
+      <sec id="article-29975.s8" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>In Alzheimer disease, current treatments include cholinesterase inhibitors, such as donepezil and rivastigmine, and N-methyl-D-aspartate receptor antagonists, such as memantine, which provide symptomatic relief. Anti-amyloid agents aim to reduce amyloid plaque burden and have demonstrated potential in slowing cognitive decline.<xref ref-type="bibr" rid="article-29975.r66">[66]</xref><xref ref-type="bibr" rid="article-29975.r67">[67]</xref><xref ref-type="bibr" rid="article-29975.r68">[68]</xref></p>
+        <p>For proteinopathies characterized by misfolding and aggregation, molecular, chemical, or pharmacological chaperones are under investigation to facilitate proper folding, prevent aggregation, or promote degradation of pathogenic proteins. In animal models, these chaperones have exhibited potent neuroprotective effects by modulating early aberrant protein interactions.<xref ref-type="bibr" rid="article-29975.r69">[69]</xref></p>
+        <p>No curative therapy currently exists for prion diseases.&#x000a0;Management is limited to supportive care and experimental approaches targeting prion propagation.<xref ref-type="bibr" rid="article-29975.r70">[70]</xref><xref ref-type="bibr" rid="article-29975.r71">[71]</xref></p>
+        <p>In Parkinson disease, dopamine replacement strategies, including levodopa, dopamine agonists, and monoamine oxidase B inhibitors, constitute the mainstay of symptomatic management.<xref ref-type="bibr" rid="article-29975.r72">[72]</xref><xref ref-type="bibr" rid="article-29975.r73">[73]</xref>&#x000a0; Disease-modifying therapies aimed at preventing &#x003b1;-synuclein aggregation are under development.<xref ref-type="bibr" rid="article-29975.r74">[74]</xref><xref ref-type="bibr" rid="article-29975.r75">[75]</xref></p>
+        <p>For Huntington disease, treatment remains primarily symptomatic, with agents such as tetrabenazine employed to control chorea. Gene-silencing approaches are currently under investigation.</p>
+        <p>Established interventions in sickle cell anemia include hydroxyurea to stimulate fetal hemoglobin production, chronic blood transfusions to reduce sickling events, and curative bone marrow or hematopoietic stem cell transplantation.<xref ref-type="bibr" rid="article-29975.r76">[76]</xref><xref ref-type="bibr" rid="article-29975.r77">[77]</xref> Emerging CRISPR-Cas9 gene-editing strategies aim to correct the causative mutation or enhance fetal hemoglobin expression.<xref ref-type="bibr" rid="article-29975.r78">[78]</xref><xref ref-type="bibr" rid="article-29975.r79">[79]</xref><xref ref-type="bibr" rid="article-29975.r80">[80]</xref></p>
+        <p>Continued, in-depth investigation of protein misfolding mechanisms is critical for elucidating the root causes of these conditions. Such research holds the potential to transform currently incurable disorders into preventable or treatable diseases, fundamentally altering the landscape of modern medicine.</p>
+      </sec>
+      <sec id="article-29975.s9">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=29975&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=29975">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/29975/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=29975">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-29975.s10">
+        <title>References</title>
+        <ref id="article-29975.r1">
+          <label>1</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>LaPelusa</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kaushik</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Physiology, Proteins</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2022</year>
+            <month>11</month>
+            <day>14</day>
+            <pub-id pub-id-type="pmid">32310450</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>SANGER</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>The arrangement of amino acids in proteins.</article-title>
+            <source>Adv Protein Chem</source>
+            <year>1952</year>
+            <volume>7</volume>
+            <fpage>1</fpage>
+            <page-range>1-67</page-range>
+            <pub-id pub-id-type="pmid">14933251</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Aasland</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Abrams</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Ampe</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Ball</surname>
+                <given-names>LJ</given-names>
+              </name>
+              <name>
+                <surname>Bedford</surname>
+                <given-names>MT</given-names>
+              </name>
+              <name>
+                <surname>Cesareni</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Gimona</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Hurley</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Jarchau</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Lehto</surname>
+                <given-names>VP</given-names>
+              </name>
+              <name>
+                <surname>Lemmon</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Linding</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Mayer</surname>
+                <given-names>BJ</given-names>
+              </name>
+              <name>
+                <surname>Nagai</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Sudol</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Walter</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Winder</surname>
+                <given-names>SJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Normalization of nomenclature for peptide motifs as ligands of modular protein domains.</article-title>
+            <source>FEBS Lett</source>
+            <year>2002</year>
+            <month>Feb</month>
+            <day>20</day>
+            <volume>513</volume>
+            <issue>1</issue>
+            <fpage>141</fpage>
+            <page-range>141-4</page-range>
+            <pub-id pub-id-type="pmid">11911894</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>D&#x000ed;az-Villanueva</surname>
+                <given-names>JF</given-names>
+              </name>
+              <name>
+                <surname>D&#x000ed;az-Molina</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Garc&#x000ed;a-Gonz&#x000e1;lez</surname>
+                <given-names>V</given-names>
+              </name>
+            </person-group>
+            <article-title>Protein Folding and Mechanisms of Proteostasis.</article-title>
+            <source>Int J Mol Sci</source>
+            <year>2015</year>
+            <month>Jul</month>
+            <day>28</day>
+            <volume>16</volume>
+            <issue>8</issue>
+            <fpage>17193</fpage>
+            <page-range>17193-230</page-range>
+            <pub-id pub-id-type="pmid">26225966</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Stiving</surname>
+                <given-names>AQ</given-names>
+              </name>
+              <name>
+                <surname>VanAernum</surname>
+                <given-names>ZL</given-names>
+              </name>
+              <name>
+                <surname>Busch</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Harvey</surname>
+                <given-names>SR</given-names>
+              </name>
+              <name>
+                <surname>Sarni</surname>
+                <given-names>SH</given-names>
+              </name>
+              <name>
+                <surname>Wysocki</surname>
+                <given-names>VH</given-names>
+              </name>
+            </person-group>
+            <article-title>Surface-Induced Dissociation: An Effective Method for Characterization of Protein Quaternary Structure.</article-title>
+            <source>Anal Chem</source>
+            <year>2019</year>
+            <month>Jan</month>
+            <day>02</day>
+            <volume>91</volume>
+            <issue>1</issue>
+            <fpage>190</fpage>
+            <page-range>190-209</page-range>
+            <pub-id pub-id-type="pmid">30412666</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Raicu</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Singh</surname>
+                <given-names>DR</given-names>
+              </name>
+            </person-group>
+            <article-title>FRET spectrometry: a new tool for the determination of protein quaternary structure in living cells.</article-title>
+            <source>Biophys J</source>
+            <year>2013</year>
+            <month>Nov</month>
+            <day>05</day>
+            <volume>105</volume>
+            <issue>9</issue>
+            <fpage>1937</fpage>
+            <page-range>1937-45</page-range>
+            <pub-id pub-id-type="pmid">24209838</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Du</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Xia</surname>
+                <given-names>YL</given-names>
+              </name>
+              <name>
+                <surname>Ai</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Liang</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Sang</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Ji</surname>
+                <given-names>XL</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>SQ</given-names>
+              </name>
+            </person-group>
+            <article-title>Insights into Protein-Ligand Interactions: Mechanisms, Models, and Methods.</article-title>
+            <source>Int J Mol Sci</source>
+            <year>2016</year>
+            <month>Jan</month>
+            <day>26</day>
+            <volume>17</volume>
+            <issue>2</issue>
+            <pub-id pub-id-type="pmid">26821017</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Xu</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Xie</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Luo</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Jia</surname>
+                <given-names>X</given-names>
+              </name>
+            </person-group>
+            <article-title>Revisiting Protein-Copolymer Binding Mechanisms: Insights beyond the "Lock-and-Key" Model.</article-title>
+            <source>J Phys Chem Lett</source>
+            <year>2024</year>
+            <month>Jan</month>
+            <day>25</day>
+            <volume>15</volume>
+            <issue>3</issue>
+            <fpage>773</fpage>
+            <page-range>773-781</page-range>
+            <pub-id pub-id-type="pmid">38227953</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Murzin</surname>
+                <given-names>AG</given-names>
+              </name>
+              <name>
+                <surname>Brenner</surname>
+                <given-names>SE</given-names>
+              </name>
+              <name>
+                <surname>Hubbard</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Chothia</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>SCOP: a structural classification of proteins database for the investigation of sequences and structures.</article-title>
+            <source>J Mol Biol</source>
+            <year>1995</year>
+            <month>Apr</month>
+            <day>07</day>
+            <volume>247</volume>
+            <issue>4</issue>
+            <fpage>536</fpage>
+            <page-range>536-40</page-range>
+            <pub-id pub-id-type="pmid">7723011</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wetlaufer</surname>
+                <given-names>DB</given-names>
+              </name>
+            </person-group>
+            <article-title>Nucleation, rapid folding, and globular intrachain regions in proteins.</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>1973</year>
+            <month>Mar</month>
+            <volume>70</volume>
+            <issue>3</issue>
+            <fpage>697</fpage>
+            <page-range>697-701</page-range>
+            <pub-id pub-id-type="pmid">4351801</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gianni</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Guydosh</surname>
+                <given-names>NR</given-names>
+              </name>
+              <name>
+                <surname>Khan</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Caldas</surname>
+                <given-names>TD</given-names>
+              </name>
+              <name>
+                <surname>Mayor</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>White</surname>
+                <given-names>GW</given-names>
+              </name>
+              <name>
+                <surname>DeMarco</surname>
+                <given-names>ML</given-names>
+              </name>
+              <name>
+                <surname>Daggett</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Fersht</surname>
+                <given-names>AR</given-names>
+              </name>
+            </person-group>
+            <article-title>Unifying features in protein-folding mechanisms.</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>2003</year>
+            <month>Nov</month>
+            <day>11</day>
+            <volume>100</volume>
+            <issue>23</issue>
+            <fpage>13286</fpage>
+            <page-range>13286-91</page-range>
+            <pub-id pub-id-type="pmid">14595026</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Porter</surname>
+                <given-names>LL</given-names>
+              </name>
+              <name>
+                <surname>Rose</surname>
+                <given-names>GD</given-names>
+              </name>
+            </person-group>
+            <article-title>A thermodynamic definition of protein domains.</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>2012</year>
+            <month>Jun</month>
+            <day>12</day>
+            <volume>109</volume>
+            <issue>24</issue>
+            <fpage>9420</fpage>
+            <page-range>9420-5</page-range>
+            <pub-id pub-id-type="pmid">22635268</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schmidt</surname>
+                <given-names>EE</given-names>
+              </name>
+              <name>
+                <surname>Davies</surname>
+                <given-names>CJ</given-names>
+              </name>
+            </person-group>
+            <article-title>The origins of polypeptide domains.</article-title>
+            <source>Bioessays</source>
+            <year>2007</year>
+            <month>Mar</month>
+            <volume>29</volume>
+            <issue>3</issue>
+            <fpage>262</fpage>
+            <page-range>262-70</page-range>
+            <pub-id pub-id-type="pmid">17295290</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Doolittle</surname>
+                <given-names>RF</given-names>
+              </name>
+            </person-group>
+            <article-title>The multiplicity of domains in proteins.</article-title>
+            <source>Annu Rev Biochem</source>
+            <year>1995</year>
+            <volume>64</volume>
+            <fpage>287</fpage>
+            <page-range>287-314</page-range>
+            <pub-id pub-id-type="pmid">7574483</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Carroll</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Genome engineering with zinc-finger nucleases.</article-title>
+            <source>Genetics</source>
+            <year>2011</year>
+            <month>Aug</month>
+            <volume>188</volume>
+            <issue>4</issue>
+            <fpage>773</fpage>
+            <page-range>773-82</page-range>
+            <pub-id pub-id-type="pmid">21828278</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Laity</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>BM</given-names>
+              </name>
+              <name>
+                <surname>Wright</surname>
+                <given-names>PE</given-names>
+              </name>
+            </person-group>
+            <article-title>Zinc finger proteins: new insights into structural and functional diversity.</article-title>
+            <source>Curr Opin Struct Biol</source>
+            <year>2001</year>
+            <month>Feb</month>
+            <volume>11</volume>
+            <issue>1</issue>
+            <fpage>39</fpage>
+            <page-range>39-46</page-range>
+            <pub-id pub-id-type="pmid">11179890</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bonchuk</surname>
+                <given-names>AN</given-names>
+              </name>
+              <name>
+                <surname>Georgiev</surname>
+                <given-names>PG</given-names>
+              </name>
+            </person-group>
+            <article-title>C2H2 proteins: Evolutionary aspects of domain architecture and diversification.</article-title>
+            <source>Bioessays</source>
+            <year>2024</year>
+            <month>Aug</month>
+            <volume>46</volume>
+            <issue>8</issue>
+            <fpage>e2400052</fpage>
+            <pub-id pub-id-type="pmid">38873893</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vaughn</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name>
+                <surname>Biren</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Ragupathi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Dyer</surname>
+                <given-names>RB</given-names>
+              </name>
+            </person-group>
+            <article-title>Site-Specific Tryptophan Labels Reveal Local Microsecond-Millisecond Motions of Dihydrofolate Reductase.</article-title>
+            <source>Molecules</source>
+            <year>2020</year>
+            <month>Aug</month>
+            <day>22</day>
+            <volume>25</volume>
+            <issue>17</issue>
+            <pub-id pub-id-type="pmid">32842574</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kozlowski</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Ragupathi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Dyer</surname>
+                <given-names>RB</given-names>
+              </name>
+            </person-group>
+            <article-title>Characterizing the Surface Coverage of Protein-Gold Nanoparticle Bioconjugates.</article-title>
+            <source>Bioconjug Chem</source>
+            <year>2018</year>
+            <month>Aug</month>
+            <day>15</day>
+            <volume>29</volume>
+            <issue>8</issue>
+            <fpage>2691</fpage>
+            <page-range>2691-2700</page-range>
+            <pub-id pub-id-type="pmid">30004227</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Reddish</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Vaughn</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name>
+                <surname>Fu</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Dyer</surname>
+                <given-names>RB</given-names>
+              </name>
+            </person-group>
+            <article-title>Ligand-Dependent Conformational Dynamics of Dihydrofolate Reductase.</article-title>
+            <source>Biochemistry</source>
+            <year>2016</year>
+            <month>Mar</month>
+            <day>15</day>
+            <volume>55</volume>
+            <issue>10</issue>
+            <fpage>1485</fpage>
+            <page-range>1485-93</page-range>
+            <pub-id pub-id-type="pmid">26901612</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Duennwald</surname>
+                <given-names>ML</given-names>
+              </name>
+            </person-group>
+            <article-title>Cellular stress responses in protein misfolding diseases.</article-title>
+            <source>Future Sci OA</source>
+            <year>2015</year>
+            <month>Sep</month>
+            <volume>1</volume>
+            <issue>2</issue>
+            <fpage>FSO42</fpage>
+            <pub-id pub-id-type="pmid">28031871</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chiti</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Dobson</surname>
+                <given-names>CM</given-names>
+              </name>
+            </person-group>
+            <article-title>Protein misfolding, functional amyloid, and human disease.</article-title>
+            <source>Annu Rev Biochem</source>
+            <year>2006</year>
+            <volume>75</volume>
+            <fpage>333</fpage>
+            <page-range>333-66</page-range>
+            <pub-id pub-id-type="pmid">16756495</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vidovi&#x00107;</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Rikalovic</surname>
+                <given-names>MG</given-names>
+              </name>
+            </person-group>
+            <article-title>Alpha-Synuclein Aggregation Pathway in Parkinson's Disease: Current Status and Novel Therapeutic Approaches.</article-title>
+            <source>Cells</source>
+            <year>2022</year>
+            <month>May</month>
+            <day>24</day>
+            <volume>11</volume>
+            <issue>11</issue>
+            <pub-id pub-id-type="pmid">35681426</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vadukul</surname>
+                <given-names>DM</given-names>
+              </name>
+              <name>
+                <surname>Al-Hilaly</surname>
+                <given-names>YK</given-names>
+              </name>
+              <name>
+                <surname>Serpell</surname>
+                <given-names>LC</given-names>
+              </name>
+            </person-group>
+            <article-title>Methods for Structural Analysis of Amyloid Fibrils in Misfolding Diseases.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2019</year>
+            <volume>1873</volume>
+            <fpage>109</fpage>
+            <page-range>109-122</page-range>
+            <pub-id pub-id-type="pmid">30341606</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rana</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Sitarik</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Petucci</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Jiang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Song</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>O'Brien</surname>
+                <given-names>EP</given-names>
+              </name>
+            </person-group>
+            <article-title>Non-covalent Lasso Entanglements in Folded Proteins: Prevalence, Functional Implications, and Evolutionary Significance.</article-title>
+            <source>J Mol Biol</source>
+            <year>2024</year>
+            <month>Mar</month>
+            <day>15</day>
+            <volume>436</volume>
+            <issue>6</issue>
+            <fpage>168459</fpage>
+            <pub-id pub-id-type="pmid">38296158</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Horovitz</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Reingewertz</surname>
+                <given-names>TH</given-names>
+              </name>
+              <name>
+                <surname>Cu&#x000e9;llar</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Valpuesta</surname>
+                <given-names>JM</given-names>
+              </name>
+            </person-group>
+            <article-title>Chaperonin Mechanisms: Multiple and (Mis)Understood?</article-title>
+            <source>Annu Rev Biophys</source>
+            <year>2022</year>
+            <month>May</month>
+            <day>09</day>
+            <volume>51</volume>
+            <fpage>115</fpage>
+            <page-range>115-133</page-range>
+            <pub-id pub-id-type="pmid">34982571</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pohl</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Dikic</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <article-title>Cellular quality control by the ubiquitin-proteasome system and autophagy.</article-title>
+            <source>Science</source>
+            <year>2019</year>
+            <month>Nov</month>
+            <day>15</day>
+            <volume>366</volume>
+            <issue>6467</issue>
+            <fpage>818</fpage>
+            <page-range>818-822</page-range>
+            <pub-id pub-id-type="pmid">31727826</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hetz</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Kaufman</surname>
+                <given-names>RJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Mechanisms, regulation and functions of the unfolded protein response.</article-title>
+            <source>Nat Rev Mol Cell Biol</source>
+            <year>2020</year>
+            <month>Aug</month>
+            <volume>21</volume>
+            <issue>8</issue>
+            <fpage>421</fpage>
+            <page-range>421-438</page-range>
+            <pub-id pub-id-type="pmid">32457508</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Newberry</surname>
+                <given-names>RW</given-names>
+              </name>
+              <name>
+                <surname>Raines</surname>
+                <given-names>RT</given-names>
+              </name>
+            </person-group>
+            <article-title>Secondary Forces in Protein Folding.</article-title>
+            <source>ACS Chem Biol</source>
+            <year>2019</year>
+            <month>Aug</month>
+            <day>16</day>
+            <volume>14</volume>
+            <issue>8</issue>
+            <fpage>1677</fpage>
+            <page-range>1677-1686</page-range>
+            <pub-id pub-id-type="pmid">31243961</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pace</surname>
+                <given-names>CN</given-names>
+              </name>
+              <name>
+                <surname>Shirley</surname>
+                <given-names>BA</given-names>
+              </name>
+              <name>
+                <surname>McNutt</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gajiwala</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Forces contributing to the conformational stability of proteins.</article-title>
+            <source>FASEB J</source>
+            <year>1996</year>
+            <month>Jan</month>
+            <volume>10</volume>
+            <issue>1</issue>
+            <fpage>75</fpage>
+            <page-range>75-83</page-range>
+            <pub-id pub-id-type="pmid">8566551</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>KAUZMANN</surname>
+                <given-names>W</given-names>
+              </name>
+            </person-group>
+            <article-title>Some factors in the interpretation of protein denaturation.</article-title>
+            <source>Adv Protein Chem</source>
+            <year>1959</year>
+            <volume>14</volume>
+            <fpage>1</fpage>
+            <page-range>1-63</page-range>
+            <pub-id pub-id-type="pmid">14404936</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>van Dijk</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Hoogeveen</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Abeln</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>The hydrophobic temperature dependence of amino acids directly calculated from protein structures.</article-title>
+            <source>PLoS Comput Biol</source>
+            <year>2015</year>
+            <month>May</month>
+            <volume>11</volume>
+            <issue>5</issue>
+            <fpage>e1004277</fpage>
+            <pub-id pub-id-type="pmid">26000449</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lins</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Brasseur</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>The hydrophobic effect in protein folding.</article-title>
+            <source>FASEB J</source>
+            <year>1995</year>
+            <month>Apr</month>
+            <volume>9</volume>
+            <issue>7</issue>
+            <fpage>535</fpage>
+            <page-range>535-40</page-range>
+            <pub-id pub-id-type="pmid">7737462</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kirchner</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Stubbs</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Marx</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Fast anomalous diffusion of small hydrophobic species in water.</article-title>
+            <source>Phys Rev Lett</source>
+            <year>2002</year>
+            <month>Nov</month>
+            <day>18</day>
+            <volume>89</volume>
+            <issue>21</issue>
+            <fpage>215901</fpage>
+            <pub-id pub-id-type="pmid">12443432</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jiang</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Cao</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Cheung</surname>
+                <given-names>PP</given-names>
+              </name>
+              <name>
+                <surname>Zheng</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Leung</surname>
+                <given-names>CWT</given-names>
+              </name>
+              <name>
+                <surname>Peng</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Shuai</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Tang</surname>
+                <given-names>BZ</given-names>
+              </name>
+              <name>
+                <surname>Yao</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Huang</surname>
+                <given-names>X</given-names>
+              </name>
+            </person-group>
+            <article-title>Real-time monitoring of hydrophobic aggregation reveals a critical role of cooperativity in hydrophobic effect.</article-title>
+            <source>Nat Commun</source>
+            <year>2017</year>
+            <month>May</month>
+            <day>31</day>
+            <volume>8</volume>
+            <fpage>15639</fpage>
+            <pub-id pub-id-type="pmid">28561067</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zhou</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Huang</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Margulis</surname>
+                <given-names>CJ</given-names>
+              </name>
+              <name>
+                <surname>Berne</surname>
+                <given-names>BJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Hydrophobic collapse in multidomain protein folding.</article-title>
+            <source>Science</source>
+            <year>2004</year>
+            <month>Sep</month>
+            <day>10</day>
+            <volume>305</volume>
+            <issue>5690</issue>
+            <fpage>1605</fpage>
+            <page-range>1605-9</page-range>
+            <pub-id pub-id-type="pmid">15361621</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pace</surname>
+                <given-names>CN</given-names>
+              </name>
+              <name>
+                <surname>Fu</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Lee Fryar</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Landua</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Trevino</surname>
+                <given-names>SR</given-names>
+              </name>
+              <name>
+                <surname>Schell</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Thurlkill</surname>
+                <given-names>RL</given-names>
+              </name>
+              <name>
+                <surname>Imura</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Scholtz</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Gajiwala</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Sevcik</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Urbanikova</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Myers</surname>
+                <given-names>JK</given-names>
+              </name>
+              <name>
+                <surname>Takano</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Hebert</surname>
+                <given-names>EJ</given-names>
+              </name>
+              <name>
+                <surname>Shirley</surname>
+                <given-names>BA</given-names>
+              </name>
+              <name>
+                <surname>Grimsley</surname>
+                <given-names>GR</given-names>
+              </name>
+            </person-group>
+            <article-title>Contribution of hydrogen bonds to protein stability.</article-title>
+            <source>Protein Sci</source>
+            <year>2014</year>
+            <month>May</month>
+            <volume>23</volume>
+            <issue>5</issue>
+            <fpage>652</fpage>
+            <page-range>652-61</page-range>
+            <pub-id pub-id-type="pmid">24591301</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hinzman</surname>
+                <given-names>MW</given-names>
+              </name>
+              <name>
+                <surname>Essex</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Park</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Salt bridge as a gatekeeper against partial unfolding.</article-title>
+            <source>Protein Sci</source>
+            <year>2016</year>
+            <month>May</month>
+            <volume>25</volume>
+            <issue>5</issue>
+            <fpage>999</fpage>
+            <page-range>999-1009</page-range>
+            <pub-id pub-id-type="pmid">26916981</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Park</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Odelius</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gaffney</surname>
+                <given-names>KJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Ultrafast dynamics of hydrogen bond exchange in aqueous ionic solutions.</article-title>
+            <source>J Phys Chem B</source>
+            <year>2009</year>
+            <month>Jun</month>
+            <day>04</day>
+            <volume>113</volume>
+            <issue>22</issue>
+            <fpage>7825</fpage>
+            <page-range>7825-35</page-range>
+            <pub-id pub-id-type="pmid">19435307</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Marcus</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Hefter</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Ion pairing.</article-title>
+            <source>Chem Rev</source>
+            <year>2006</year>
+            <month>Nov</month>
+            <volume>106</volume>
+            <issue>11</issue>
+            <fpage>4585</fpage>
+            <page-range>4585-621</page-range>
+            <pub-id pub-id-type="pmid">17091929</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chen</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Stites</surname>
+                <given-names>WE</given-names>
+              </name>
+            </person-group>
+            <article-title>Packing is a key selection factor in the evolution of protein hydrophobic cores.</article-title>
+            <source>Biochemistry</source>
+            <year>2001</year>
+            <month>Dec</month>
+            <day>18</day>
+            <volume>40</volume>
+            <issue>50</issue>
+            <fpage>15280</fpage>
+            <page-range>15280-9</page-range>
+            <pub-id pub-id-type="pmid">11735410</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yang</surname>
+                <given-names>YX</given-names>
+              </name>
+              <name>
+                <surname>Zhu</surname>
+                <given-names>BT</given-names>
+              </name>
+            </person-group>
+            <article-title>Further exploration of the quantitative distance-energy and contact number-energy relationships for predicting the binding affinity of protein-ligand complexes.</article-title>
+            <source>Biophys J</source>
+            <year>2025</year>
+            <month>Apr</month>
+            <day>01</day>
+            <volume>124</volume>
+            <issue>7</issue>
+            <fpage>1166</fpage>
+            <page-range>1166-1177</page-range>
+            <pub-id pub-id-type="pmid">40017034</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Li</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Nussinov</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>A set of van der Waals and coulombic radii of protein atoms for molecular and solvent-accessible surface calculation, packing evaluation, and docking.</article-title>
+            <source>Proteins</source>
+            <year>1998</year>
+            <month>Jul</month>
+            <day>01</day>
+            <volume>32</volume>
+            <issue>1</issue>
+            <fpage>111</fpage>
+            <page-range>111-27</page-range>
+            <pub-id pub-id-type="pmid">9672047</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chen</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Zhen</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Meng</surname>
+                <given-names>FJ</given-names>
+              </name>
+              <name>
+                <surname>Yu</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Xu</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Lone Pair-&#x003c0; Interactions in Organic Reactions.</article-title>
+            <source>Chem Rev</source>
+            <year>2024</year>
+            <month>Dec</month>
+            <day>11</day>
+            <volume>124</volume>
+            <issue>23</issue>
+            <fpage>13370</fpage>
+            <page-range>13370-13396</page-range>
+            <pub-id pub-id-type="pmid">39535080</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gryn'ova</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Coote</surname>
+                <given-names>ML</given-names>
+              </name>
+              <name>
+                <surname>Corminboeuf</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Theory and practice of uncommon molecular electronic configurations.</article-title>
+            <source>Wiley Interdiscip Rev Comput Mol Sci</source>
+            <year>2015</year>
+            <season>Nov-Dec</season>
+            <volume>5</volume>
+            <issue>6</issue>
+            <fpage>440</fpage>
+            <page-range>440-459</page-range>
+            <pub-id pub-id-type="pmid">27774112</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r46">
+          <label>46</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Behe</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Lattman</surname>
+                <given-names>EE</given-names>
+              </name>
+              <name>
+                <surname>Rose</surname>
+                <given-names>GD</given-names>
+              </name>
+            </person-group>
+            <article-title>The protein-folding problem: the native fold determines packing, but does packing determine the native fold?</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>1991</year>
+            <month>May</month>
+            <day>15</day>
+            <volume>88</volume>
+            <issue>10</issue>
+            <fpage>4195</fpage>
+            <page-range>4195-9</page-range>
+            <pub-id pub-id-type="pmid">2034665</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r47">
+          <label>47</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Woycechowsky</surname>
+                <given-names>KJ</given-names>
+              </name>
+              <name>
+                <surname>Raines</surname>
+                <given-names>RT</given-names>
+              </name>
+            </person-group>
+            <article-title>Native disulfide bond formation in proteins.</article-title>
+            <source>Curr Opin Chem Biol</source>
+            <year>2000</year>
+            <month>Oct</month>
+            <volume>4</volume>
+            <issue>5</issue>
+            <fpage>533</fpage>
+            <page-range>533-9</page-range>
+            <pub-id pub-id-type="pmid">11006541</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r48">
+          <label>48</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Liu</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Weiss</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Arunagiri</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Yong</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Rege</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Sun</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Haataja</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Kaufman</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Arvan</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Biosynthesis, structure, and folding of the insulin precursor protein.</article-title>
+            <source>Diabetes Obes Metab</source>
+            <year>2018</year>
+            <month>Sep</month>
+            <volume>20 Suppl 2</volume>
+            <issue>Suppl 2</issue>
+            <fpage>28</fpage>
+            <page-range>28-50</page-range>
+            <pub-id pub-id-type="pmid">30230185</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r49">
+          <label>49</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rege</surname>
+                <given-names>NK</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Yang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Dhayalan</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Wickramasinghe</surname>
+                <given-names>NP</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>YS</given-names>
+              </name>
+              <name>
+                <surname>Rahimi</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Guo</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Haataja</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Sun</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Ismail-Beigi</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Phillips</surname>
+                <given-names>NB</given-names>
+              </name>
+              <name>
+                <surname>Arvan</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Weiss</surname>
+                <given-names>MA</given-names>
+              </name>
+            </person-group>
+            <article-title>Evolution of insulin at the edge of foldability and its medical implications.</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>2020</year>
+            <month>Nov</month>
+            <day>24</day>
+            <volume>117</volume>
+            <issue>47</issue>
+            <fpage>29618</fpage>
+            <page-range>29618-29628</page-range>
+            <pub-id pub-id-type="pmid">33154160</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r50">
+          <label>50</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Zubair</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Launico</surname>
+                <given-names>MV</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Western Blot: Principles, Procedures, and Clinical Applications</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2025</year>
+            <month>12</month>
+            <day>1</day>
+            <pub-id pub-id-type="pmid">31194430</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r51">
+          <label>51</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Stollar</surname>
+                <given-names>EJ</given-names>
+              </name>
+              <name>
+                <surname>Smith</surname>
+                <given-names>DP</given-names>
+              </name>
+            </person-group>
+            <article-title>Uncovering protein structure.</article-title>
+            <source>Essays Biochem</source>
+            <year>2020</year>
+            <month>Oct</month>
+            <day>08</day>
+            <volume>64</volume>
+            <issue>4</issue>
+            <fpage>649</fpage>
+            <page-range>649-680</page-range>
+            <pub-id pub-id-type="pmid">32975287</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r52">
+          <label>52</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Winklhofer</surname>
+                <given-names>KF</given-names>
+              </name>
+              <name>
+                <surname>Tatzelt</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Haass</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>The two faces of protein misfolding: gain- and loss-of-function in neurodegenerative diseases.</article-title>
+            <source>EMBO J</source>
+            <year>2008</year>
+            <month>Jan</month>
+            <day>23</day>
+            <volume>27</volume>
+            <issue>2</issue>
+            <fpage>336</fpage>
+            <page-range>336-49</page-range>
+            <pub-id pub-id-type="pmid">18216876</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r53">
+          <label>53</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Helm</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Sch&#x000f6;ls</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Hauser</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Towards Personalized Allele-Specific Antisense Oligonucleotide Therapies for Toxic Gain-of-Function Neurodegenerative Diseases.</article-title>
+            <source>Pharmaceutics</source>
+            <year>2022</year>
+            <month>Aug</month>
+            <day>16</day>
+            <volume>14</volume>
+            <issue>8</issue>
+            <pub-id pub-id-type="pmid">36015334</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r54">
+          <label>54</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dobson</surname>
+                <given-names>CM</given-names>
+              </name>
+            </person-group>
+            <article-title>Protein folding and misfolding.</article-title>
+            <source>Nature</source>
+            <year>2003</year>
+            <month>Dec</month>
+            <day>18</day>
+            <volume>426</volume>
+            <issue>6968</issue>
+            <fpage>884</fpage>
+            <page-range>884-90</page-range>
+            <pub-id pub-id-type="pmid">14685248</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r55">
+          <label>55</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sekhar</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Rumfeldt</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Broom</surname>
+                <given-names>HR</given-names>
+              </name>
+              <name>
+                <surname>Doyle</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name>
+                <surname>Bouvignies</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Meiering</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name>
+                <surname>Kay</surname>
+                <given-names>LE</given-names>
+              </name>
+            </person-group>
+            <article-title>Thermal fluctuations of immature SOD1 lead to separate folding and misfolding pathways.</article-title>
+            <source>Elife</source>
+            <year>2015</year>
+            <month>Jun</month>
+            <day>23</day>
+            <volume>4</volume>
+            <fpage>e07296</fpage>
+            <pub-id pub-id-type="pmid">26099300</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r56">
+          <label>56</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Moreno-Gonzalez</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Soto</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Misfolded protein aggregates: mechanisms, structures and potential for disease transmission.</article-title>
+            <source>Semin Cell Dev Biol</source>
+            <year>2011</year>
+            <month>Jul</month>
+            <volume>22</volume>
+            <issue>5</issue>
+            <fpage>482</fpage>
+            <page-range>482-7</page-range>
+            <pub-id pub-id-type="pmid">21571086</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r57">
+          <label>57</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Shorter</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Designer protein disaggregases to counter neurodegenerative disease.</article-title>
+            <source>Curr Opin Genet Dev</source>
+            <year>2017</year>
+            <month>Jun</month>
+            <volume>44</volume>
+            <fpage>1</fpage>
+            <page-range>1-8</page-range>
+            <pub-id pub-id-type="pmid">28208059</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r58">
+          <label>58</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Hall</surname>
+                <given-names>WA</given-names>
+              </name>
+              <name>
+                <surname>Masood</surname>
+                <given-names>W</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Creutzfeldt-Jakob Disease</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2025</year>
+            <month>6</month>
+            <day>23</day>
+            <pub-id pub-id-type="pmid">29939637</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r59">
+          <label>59</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Noor</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Baqai</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Naveed</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Naveed</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Rehman</surname>
+                <given-names>SS</given-names>
+              </name>
+              <name>
+                <surname>Aslam</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Lakdawala</surname>
+                <given-names>FM</given-names>
+              </name>
+              <name>
+                <surname>Memon</surname>
+                <given-names>WA</given-names>
+              </name>
+              <name>
+                <surname>Rani</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Khan</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Imran</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Farooqui</surname>
+                <given-names>SK</given-names>
+              </name>
+            </person-group>
+            <article-title>Creutzfeldt-Jakob disease: A comprehensive review of current understanding and research.</article-title>
+            <source>J Neurol Sci</source>
+            <year>2024</year>
+            <month>Dec</month>
+            <day>15</day>
+            <volume>467</volume>
+            <fpage>123293</fpage>
+            <pub-id pub-id-type="pmid">39546829</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r60">
+          <label>60</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Kumar</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Sidhu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Lui</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Tsao</surname>
+                <given-names>JW</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Alzheimer Disease</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2024</year>
+            <month>2</month>
+            <day>12</day>
+            <pub-id pub-id-type="pmid">29763097</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r61">
+          <label>61</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Parkinson</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>An essay on the shaking palsy. 1817.</article-title>
+            <source>J Neuropsychiatry Clin Neurosci</source>
+            <year>2002</year>
+            <season>Spring</season>
+            <volume>14</volume>
+            <issue>2</issue>
+            <fpage>223</fpage>
+            <page-range>223-36; discussion 222</page-range>
+            <pub-id pub-id-type="pmid">11983801</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r62">
+          <label>62</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Zafar</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lui</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Yaddanapudi</surname>
+                <given-names>SS</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Parkinson Disease</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2025</year>
+            <month>9</month>
+            <day>15</day>
+            <pub-id pub-id-type="pmid">29261972</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r63">
+          <label>63</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Ajitkumar</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Lui</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>De Jesus</surname>
+                <given-names>O</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Huntington Disease</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2025</year>
+            <month>4</month>
+            <day>6</day>
+            <pub-id pub-id-type="pmid">32644592</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r64">
+          <label>64</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>PAULING</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>ITANO</surname>
+                <given-names>HA</given-names>
+              </name>
+            </person-group>
+            <article-title>Sickle cell anemia a molecular disease.</article-title>
+            <source>Science</source>
+            <year>1949</year>
+            <month>Nov</month>
+            <day>25</day>
+            <volume>110</volume>
+            <issue>2865</issue>
+            <fpage>543</fpage>
+            <page-range>543-8</page-range>
+            <pub-id pub-id-type="pmid">15395398</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r65">
+          <label>65</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Mangla</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Agarwal</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Maruvada</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Sickle Cell Anemia</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2023</year>
+            <month>9</month>
+            <day>4</day>
+            <pub-id pub-id-type="pmid">29489205</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r66">
+          <label>66</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Shah</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Royston</surname>
+                <given-names>MC</given-names>
+              </name>
+            </person-group>
+            <article-title>Donezepil for dementia.</article-title>
+            <source>J R Soc Med</source>
+            <year>1997</year>
+            <month>Oct</month>
+            <volume>90</volume>
+            <issue>10</issue>
+            <fpage>531</fpage>
+            <page-range>531-2</page-range>
+            <pub-id pub-id-type="pmid">9488008</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r67">
+          <label>67</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Giannakis</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Konitsiotis</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Anti-Amyloid Agents: A Self-Fulfilling prophecy.</article-title>
+            <source>J Clin Neurosci</source>
+            <year>2025</year>
+            <month>Jul</month>
+            <volume>137</volume>
+            <fpage>111338</fpage>
+            <pub-id pub-id-type="pmid">40393205</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r68">
+          <label>68</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cummings</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Osse</surname>
+                <given-names>AML</given-names>
+              </name>
+              <name>
+                <surname>Cammann</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Powell</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Anti-Amyloid Monoclonal Antibodies for the Treatment of Alzheimer's Disease.</article-title>
+            <source>BioDrugs</source>
+            <year>2024</year>
+            <month>Jan</month>
+            <volume>38</volume>
+            <issue>1</issue>
+            <fpage>5</fpage>
+            <page-range>5-22</page-range>
+            <pub-id pub-id-type="pmid">37955845</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r69">
+          <label>69</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Balch</surname>
+                <given-names>WE</given-names>
+              </name>
+              <name>
+                <surname>Morimoto</surname>
+                <given-names>RI</given-names>
+              </name>
+              <name>
+                <surname>Dillin</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kelly</surname>
+                <given-names>JW</given-names>
+              </name>
+            </person-group>
+            <article-title>Adapting proteostasis for disease intervention.</article-title>
+            <source>Science</source>
+            <year>2008</year>
+            <month>Feb</month>
+            <day>15</day>
+            <volume>319</volume>
+            <issue>5865</issue>
+            <fpage>916</fpage>
+            <page-range>916-9</page-range>
+            <pub-id pub-id-type="pmid">18276881</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r70">
+          <label>70</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ironside</surname>
+                <given-names>JW</given-names>
+              </name>
+              <name>
+                <surname>Ritchie</surname>
+                <given-names>DL</given-names>
+              </name>
+              <name>
+                <surname>Head</surname>
+                <given-names>MW</given-names>
+              </name>
+            </person-group>
+            <article-title>Prion diseases.</article-title>
+            <source>Handb Clin Neurol</source>
+            <year>2017</year>
+            <volume>145</volume>
+            <fpage>393</fpage>
+            <page-range>393-403</page-range>
+            <pub-id pub-id-type="pmid">28987186</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r71">
+          <label>71</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Takada</surname>
+                <given-names>LT</given-names>
+              </name>
+              <name>
+                <surname>Geschwind</surname>
+                <given-names>MD</given-names>
+              </name>
+            </person-group>
+            <article-title>Prion diseases.</article-title>
+            <source>Semin Neurol</source>
+            <year>2013</year>
+            <month>Sep</month>
+            <volume>33</volume>
+            <issue>4</issue>
+            <fpage>348</fpage>
+            <page-range>348-56</page-range>
+            <pub-id pub-id-type="pmid">24234356</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r72">
+          <label>72</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bloem</surname>
+                <given-names>BR</given-names>
+              </name>
+              <name>
+                <surname>Okun</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Klein</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Parkinson's disease.</article-title>
+            <source>Lancet</source>
+            <year>2021</year>
+            <month>Jun</month>
+            <day>12</day>
+            <volume>397</volume>
+            <issue>10291</issue>
+            <fpage>2284</fpage>
+            <page-range>2284-2303</page-range>
+            <pub-id pub-id-type="pmid">33848468</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r73">
+          <label>73</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mohanty</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Dubey</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name>
+                <surname>Panigrahi</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Singh</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Rathi</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Nath</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Acetylcholinesterase Inhibitor-Based Nose&#x02011;to&#x02011;Brain Delivery of Donepezil&#x02011;Loaded Lipid Nanoemulsion for Alzheimer's Therapy.</article-title>
+            <source>Zhongguo Ying Yong Sheng Li Xue Za Zhi</source>
+            <year>2025</year>
+            <month>Aug</month>
+            <day>18</day>
+            <volume>41</volume>
+            <fpage>e20250020</fpage>
+            <pub-id pub-id-type="pmid">40820521</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r74">
+          <label>74</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lashuel</surname>
+                <given-names>HA</given-names>
+              </name>
+              <name>
+                <surname>Overk</surname>
+                <given-names>CR</given-names>
+              </name>
+              <name>
+                <surname>Oueslati</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Masliah</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>The many faces of &#x003b1;-synuclein: from structure and toxicity to therapeutic target.</article-title>
+            <source>Nat Rev Neurosci</source>
+            <year>2013</year>
+            <month>Jan</month>
+            <volume>14</volume>
+            <issue>1</issue>
+            <fpage>38</fpage>
+            <page-range>38-48</page-range>
+            <pub-id pub-id-type="pmid">23254192</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r75">
+          <label>75</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kim</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Ra</surname>
+                <given-names>EA</given-names>
+              </name>
+              <name>
+                <surname>Kweon</surname>
+                <given-names>SH</given-names>
+              </name>
+              <name>
+                <surname>Seo</surname>
+                <given-names>BA</given-names>
+              </name>
+              <name>
+                <surname>Ko</surname>
+                <given-names>HS</given-names>
+              </name>
+              <name>
+                <surname>Oh</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Advanced human iPSC-based preclinical model for Parkinson's disease with optogenetic alpha-synuclein aggregation.</article-title>
+            <source>Cell Stem Cell</source>
+            <year>2023</year>
+            <month>Jul</month>
+            <day>06</day>
+            <volume>30</volume>
+            <issue>7</issue>
+            <fpage>973</fpage>
+            <page-range>973-986.e11</page-range>
+            <pub-id pub-id-type="pmid">37339636</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r76">
+          <label>76</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>McGann</surname>
+                <given-names>PT</given-names>
+              </name>
+              <name>
+                <surname>Ware</surname>
+                <given-names>RE</given-names>
+              </name>
+            </person-group>
+            <article-title>Hydroxyurea therapy for sickle cell anemia.</article-title>
+            <source>Expert Opin Drug Saf</source>
+            <year>2015</year>
+            <volume>14</volume>
+            <issue>11</issue>
+            <fpage>1749</fpage>
+            <page-range>1749-58</page-range>
+            <pub-id pub-id-type="pmid">26366626</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r77">
+          <label>77</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Brandow</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Liem</surname>
+                <given-names>RI</given-names>
+              </name>
+            </person-group>
+            <article-title>Advances in the diagnosis and treatment of sickle cell disease.</article-title>
+            <source>J Hematol Oncol</source>
+            <year>2022</year>
+            <month>Mar</month>
+            <day>03</day>
+            <volume>15</volume>
+            <issue>1</issue>
+            <fpage>20</fpage>
+            <pub-id pub-id-type="pmid">35241123</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r78">
+          <label>78</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Frangoul</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Altshuler</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Cappellini</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>YS</given-names>
+              </name>
+              <name>
+                <surname>Domm</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Eustace</surname>
+                <given-names>BK</given-names>
+              </name>
+              <name>
+                <surname>Foell</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>de la Fuente</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Grupp</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Handgretinger</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Ho</surname>
+                <given-names>TW</given-names>
+              </name>
+              <name>
+                <surname>Kattamis</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kernytsky</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Lekstrom-Himes</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Locatelli</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Mapara</surname>
+                <given-names>MY</given-names>
+              </name>
+              <name>
+                <surname>de Montalembert</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Rondelli</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Sharma</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Sheth</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Soni</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Steinberg</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Wall</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Yen</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Corbacioglu</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>CRISPR-Cas9 Gene Editing for Sickle Cell Disease and &#x003b2;-Thalassemia.</article-title>
+            <source>N Engl J Med</source>
+            <year>2021</year>
+            <month>Jan</month>
+            <day>21</day>
+            <volume>384</volume>
+            <issue>3</issue>
+            <fpage>252</fpage>
+            <page-range>252-260</page-range>
+            <pub-id pub-id-type="pmid">33283989</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r79">
+          <label>79</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Park</surname>
+                <given-names>SH</given-names>
+              </name>
+              <name>
+                <surname>Bao</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>CRISPR/Cas9 gene editing for curing sickle cell disease.</article-title>
+            <source>Transfus Apher Sci</source>
+            <year>2021</year>
+            <month>Feb</month>
+            <volume>60</volume>
+            <issue>1</issue>
+            <fpage>103060</fpage>
+            <pub-id pub-id-type="pmid">33455878</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29975.r80">
+          <label>80</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Singh</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Irfan</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Fatima</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Nazir</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Verma</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Akilimali</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Revolutionary breakthrough: FDA approves CASGEVY, the first CRISPR/Cas9 gene therapy for sickle cell disease.</article-title>
+            <source>Ann Med Surg (Lond)</source>
+            <year>2024</year>
+            <month>Aug</month>
+            <volume>86</volume>
+            <issue>8</issue>
+            <fpage>4555</fpage>
+            <page-range>4555-4559</page-range>
+            <pub-id pub-id-type="pmid">39118728</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

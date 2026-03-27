@@ -2,5 +2,5 @@
 We implement our own IR system from scratch that supports our custom implemented RAG pipeline to a local LLAMA model.
 
 
-
-Hello
+# Link to book format corpus is derived from.
+https://www.ncbi.nlm.nih.gov/books/NBK430685/

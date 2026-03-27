@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-95302" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Type I and Type II Errors and Statistical Power</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Shreffler</surname>
+            <given-names>Jacob</given-names>
+          </name>
+          <aff>University of Louisville School of Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Huecker</surname>
+            <given-names>Martin R.</given-names>
+          </name>
+          <aff>University of Louisville</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Jacob Shreffler declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Martin Huecker declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>13</day>
+          <month>3</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-95302.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Healthcare professionals, when determining the impact of patient interventions in clinical studies or research endeavors that provide evidence for clinical practice, must distinguish well-designed studies with valid results from studies with research design or statistical flaws. This&#x000a0;topic&#x000a0;helps providers determine the likelihood of type I or type II errors and judge the adequacy of statistical power (see <bold>Table.</bold> Type I and Type II Errors and Statistical Power). Then, one can decide whether or not the evidence provided should be implemented in practice or used to guide future studies.</p>
+      </sec>
+      <sec id="article-95302.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>Understanding the concepts discussed in this&#x000a0;topic&#x000a0;allows healthcare providers to accurately and thoroughly assess the results and validity of medical research. Without understanding type I and II errors and power analysis, clinicians could make poor clinical decisions without evidence to support them.</p>
+        <p>
+<bold>Type I and Type II Errors</bold>
+</p>
+        <p>Type I and Type II errors can lead to confusion as providers assess medical literature. A vignette that illustrates the errors is The Boy Who Cried Wolf. First, the citizens commit a type I error by believing there is a wolf when there is not. Second, the citizens commit a type II error by believing there is no wolf when there is one. A type I error occurs when, in research, we reject the null hypothesis and erroneously state that the study found significant differences when there was no difference. In other words, it is equivalent to saying that the groups or variables differ when, in fact, they do not or have false positives.<xref ref-type="bibr" rid="article-95302.r1">[1]</xref>&#x000a0;</p>
+        <p>Here&#x000a0;is a sample research hypothesis: Drug 23 will&#x000a0;significantly reduce symptoms associated with Disease A&#x000a0;compared to Drug 22. If we were to state that Drug 23 significantly reduced symptoms of Disease A compared to Drug 22 when it did not, this would be a type I error. Committing a type I error can be very grave in specific scenarios. For example, if we did move ahead with Drug 23 based on our research findings, even though there was no difference between groups, and the drug costs significantly more money for patients or has more side effects, then we would raise healthcare costs, cause iatrogenic harm, and not improve clinical outcomes. If a p-value is used to examine type I error, the lower the p-value, the lower the likelihood of the type I error to occur.</p>
+        <p>A type II error occurs when we declare no differences or associations between study groups when, in fact, there were.<xref ref-type="bibr" rid="article-95302.r2">[2]</xref>&#x000a0;As with type I errors, type II errors in certain cause problems. Picture an example with a new, less invasive surgical technique developed and tested compared to the more invasive standard care. Researchers would seek to show no differences between patients receiving the&#x000a0;2 treatment methods in health outcomes (noninferiority study). If, however, the less invasive procedure resulted in less favorable health outcomes, it would be a severe error. Table 1 provides a depiction of type I and type II errors. (See Type I and Type II Errors and Statistical Power Table 1)&#x000a0;</p>
+        <p>
+<bold>Power</bold>
+</p>
+        <p>A concept closely aligned to type II error is statistical power. Statistical power is a crucial part of the research process that is most valuable in the design and planning phases of studies, though it requires assessment when interpreting results. Power is the ability to reject a null hypothesis that is indeed false correctly.<xref ref-type="bibr" rid="article-95302.r3">[3]</xref>&#x000a0;Unfortunately, many studies lack sufficient power and should be presented as having inconclusive findings.<xref ref-type="bibr" rid="article-95302.r4">[4]</xref>&#x000a0;Power is the probability of a study to make correct decisions or detect an effect when one exists.<xref ref-type="bibr" rid="article-95302.r3">[3]</xref><xref ref-type="bibr" rid="article-95302.r5">[5]</xref></p>
+        <p>The power of a statistical test depends on the significance level set by the researcher, the sample size, and the effect size or the extent to which the groups differ based on treatment.<xref ref-type="bibr" rid="article-95302.r3">[3]</xref>&#x000a0;Statistical power is critical for healthcare providers to decide how many patients to enroll in clinical studies.<xref ref-type="bibr" rid="article-95302.r4">[4]</xref>&#x000a0;Power is strongly associated with sample size; when the sample size is large, power is generally not an issue.<xref ref-type="bibr" rid="article-95302.r6">[6]</xref>&#x000a0;Thus, when conducting a study with a low sample size and, ultimately, low power, researchers should be aware of the likelihood of a type II error. The greater the N within a study, the more likely a researcher will reject the null hypothesis. The concern with this approach is that a very large sample could show a statistically significant finding due to the ability to detect small differences in the dataset; thus, using p values alone based on a large sample can be troublesome.</p>
+        <p>It is essential to recognize that power can be deemed adequate with a smaller sample <italic toggle="yes">if the</italic>&#x000a0;effect size is large.<xref ref-type="bibr" rid="article-95302.r6">[6]</xref>&#x000a0;What is an acceptable level of power? Many researchers agree that a power of 80% or higher is credible enough to determine the effects of research studies.<xref ref-type="bibr" rid="article-95302.r3">[3]</xref>&#x000a0;Ultimately, studies with lower power find fewer true effects than studies with higher power; thus, clinicians should be aware of the likelihood of a power issue resulting in a type II error.<xref ref-type="bibr" rid="article-95302.r7">[7]</xref>&#x000a0;Unfortunately, many researchers and providers who assess medical literature do not scrutinize power analyses. Studies with low power may inhibit future work as they cannot detect actual effects with variables; this could lead to potential impacts remaining undiscovered or noted as ineffective when they may be.<xref ref-type="bibr" rid="article-95302.r7">[7]</xref></p>
+        <p>Medical researchers should invest time conducting power analyses to distinguish a difference or association sufficiently.<xref ref-type="bibr" rid="article-95302.r3">[3]</xref>&#x000a0;Luckily, there are many tables of power values and statistical software packages that can help determine study power and guide researchers in study design and analysis. If choosing statistical software to calculate power, the following are necessary for entry: the predetermined alpha level, proposed sample size, and effect size the investigator(s) aims to detect.<xref ref-type="bibr" rid="article-95302.r2">[2]</xref>&#x000a0;By utilizing power calculations on the front end, researchers can determine an adequate sample size to compute effect and determine, based on statistical findings, that sufficient power was observed.<xref ref-type="bibr" rid="article-95302.r2">[2]</xref></p>
+      </sec>
+      <sec id="article-95302.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>By limiting type I and type II errors, healthcare providers can ensure patients' decisions based on research outputs are safe.<xref ref-type="bibr" rid="article-95302.r8">[8]</xref>&#x000a0;Additionally, while power analysis can be time-consuming, making inferences on low-powered studies can be inaccurate and irresponsible. By utilizing adequately designed studies, balancing the likelihood of type I and type II errors, and understanding power, providers, and researchers can determine which studies are clinically significant and should be implemented into practice.</p>
+      </sec>
+      <sec id="article-95302.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>All physicians, nurses, pharmacists, and other healthcare professionals should strive to understand the concepts of Type I and II errors and power. These individuals should maintain the ability to review and incorporate new literature for evidence-based and safe care. They also more effectively work in teams with other professionals.&#x000a0;</p>
+      </sec>
+      <sec id="article-95302.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=95302&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=95302">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/95302/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=95302">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-95302.s6">
+        <fig id="article-95302.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Type I and Type II Errors and Statistical Power&#x000a0; Contributed by M Huecker, MD and J Shreffler, PhD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Type__I__and__Type__II__Errors__and__Statistical__Power__-__Table__1" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-95302.s7">
+        <title>References</title>
+        <ref id="article-95302.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lieberman</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Cunningham</surname>
+                <given-names>WA</given-names>
+              </name>
+            </person-group>
+            <article-title>Type I and Type II error concerns in fMRI research: re-balancing the scale.</article-title>
+            <source>Soc Cogn Affect Neurosci</source>
+            <year>2009</year>
+            <month>Dec</month>
+            <volume>4</volume>
+            <issue>4</issue>
+            <fpage>423</fpage>
+            <page-range>423-8</page-range>
+            <pub-id pub-id-type="pmid">20035017</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95302.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Singh</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>A shift from significance test to hypothesis test through power analysis in medical research.</article-title>
+            <source>J Postgrad Med</source>
+            <year>2006</year>
+            <season>Apr-Jun</season>
+            <volume>52</volume>
+            <issue>2</issue>
+            <fpage>148</fpage>
+            <page-range>148-50</page-range>
+            <pub-id pub-id-type="pmid">16679686</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95302.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bezeau</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Graves</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistical power and effect sizes of clinical neuropsychology research.</article-title>
+            <source>J Clin Exp Neuropsychol</source>
+            <year>2001</year>
+            <month>Jun</month>
+            <volume>23</volume>
+            <issue>3</issue>
+            <fpage>399</fpage>
+            <page-range>399-406</page-range>
+            <pub-id pub-id-type="pmid">11419453</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95302.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Keen</surname>
+                <given-names>HI</given-names>
+              </name>
+              <name>
+                <surname>Pile</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Hill</surname>
+                <given-names>CL</given-names>
+              </name>
+            </person-group>
+            <article-title>The prevalence of underpowered randomized clinical trials in rheumatology.</article-title>
+            <source>J Rheumatol</source>
+            <year>2005</year>
+            <month>Nov</month>
+            <volume>32</volume>
+            <issue>11</issue>
+            <fpage>2083</fpage>
+            <page-range>2083-8</page-range>
+            <pub-id pub-id-type="pmid">16265683</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95302.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gaskin</surname>
+                <given-names>CJ</given-names>
+              </name>
+              <name>
+                <surname>Happell</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Power, effects, confidence, and significance: an investigation of statistical practices in nursing research.</article-title>
+            <source>Int J Nurs Stud</source>
+            <year>2014</year>
+            <month>May</month>
+            <volume>51</volume>
+            <issue>5</issue>
+            <fpage>795</fpage>
+            <page-range>795-806</page-range>
+            <pub-id pub-id-type="pmid">24207028</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95302.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Algina</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Olejnik</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Conducting power analyses for ANOVA and ANCOVA in between-subjects designs.</article-title>
+            <source>Eval Health Prof</source>
+            <year>2003</year>
+            <month>Sep</month>
+            <volume>26</volume>
+            <issue>3</issue>
+            <fpage>288</fpage>
+            <page-range>288-314</page-range>
+            <pub-id pub-id-type="pmid">12971201</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95302.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ueki</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Sakaguchi</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Importance of Awareness of Type II Error.</article-title>
+            <source>Ann Thorac Surg</source>
+            <year>2018</year>
+            <month>Jan</month>
+            <volume>105</volume>
+            <issue>1</issue>
+            <fpage>333</fpage>
+            <pub-id pub-id-type="pmid">29233341</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95302.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Leon</surname>
+                <given-names>AC</given-names>
+              </name>
+            </person-group>
+            <article-title>Multiplicity-adjusted sample size requirements: a strategy to maintain statistical power with Bonferroni adjustments.</article-title>
+            <source>J Clin Psychiatry</source>
+            <year>2004</year>
+            <month>Nov</month>
+            <volume>65</volume>
+            <issue>11</issue>
+            <fpage>1511</fpage>
+            <page-range>1511-4</page-range>
+            <pub-id pub-id-type="pmid">15554764</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

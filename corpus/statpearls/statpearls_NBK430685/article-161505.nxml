@@ -1,0 +1,3552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-161505" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Pharmacogenomics Overview</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Guolin Wen</surname>
+            <given-names>Alexander</given-names>
+          </name>
+          <aff>Dana Farber Cancer Institute</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Wen</surname>
+            <given-names>Sidney</given-names>
+          </name>
+          <aff>Emory</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Patel</surname>
+            <given-names>Preeti</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Alexander Guolin Wen declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Sidney Wen declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Preeti Patel declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>2</day>
+          <month>8</month>
+          <year>2025</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-161505.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Pharmacogenetics originated from intermittent genetic studies that focused on drug responses related to specific gene mutations. Over time, as more pharmacogenetic discoveries came to light, the term <italic toggle="yes">pharmacogenetics</italic>&#x000a0;gained prominence&#x000a0;after it was coined by German physician Friedrich Vogel in 1959.<xref ref-type="bibr" rid="article-161505.r1">[1]</xref>&#x000a0;Pharmacogenomics, similar to other terms ending in <italic toggle="yes">-omics</italic>, focuses on pharmacological connections, facilitating structured recognition in this specialized field.</p>
+        <p>Alcohol metabolism has been extensively studied through pharmacogenetics. The primary&#x000a0;enzymes involved in alcohol metabolism are alcohol dehydrogenase (ADH) and aldehyde dehydrogenase (ALDH); their encoding genes exhibit polymorphisms.<xref ref-type="bibr" rid="article-161505.r2">[2]</xref><xref ref-type="bibr" rid="article-161505.r3">[3]</xref></p>
+        <p>Isoniazid is another historically significant drug in pharmacogenetic research.&#x000a0;Notably, this drug is widely used in the treatment of tuberculosis. <italic toggle="yes">N</italic>-acetyltransferase 2 (NAT2) is the primary enzyme responsible for catalyzing the acetylation of isoniazid, and NAT2 genotyping can identify slow acetylators and predict the rate of acetylation.<xref ref-type="bibr" rid="article-161505.r4">[4]</xref> Several NAT2 alleles&#x02014;<italic toggle="yes">NAT2&#x02217;5</italic>, <italic toggle="yes">NAT2&#x02217;6</italic>, <italic toggle="yes">NAT2&#x02217;7</italic>, and <italic toggle="yes">NAT2&#x02217;14</italic>&#x02014;have substantially decreased acetylation activity and are common in Caucasian and African populations.<xref ref-type="bibr" rid="article-161505.r5">[5]</xref>&#x000a0;The prevalence of slow acetylators in the Asian populations (10%-20%) is much lower compared to that in Caucasians and Africans (&#x0003e;50%).<xref ref-type="bibr" rid="article-161505.r4">[4]</xref></p>
+        <p>Over the years, pharmacogenomics has developed several tributaries. The hepatic metabolism of drugs is catalyzed by enzymes, including the cytochrome P450 (CYP) system, whose polymorphism has expanded to several dozen CYP genotypes.<xref ref-type="bibr" rid="article-161505.r6">[6]</xref>&#x000a0;Studies of these phenotypes, their involvement in drug metabolism, and their vulnerability to exogenous inhibition and induction have always made the headlines.<xref ref-type="bibr" rid="article-161505.r7">[7]</xref>&#x000a0;On the other hand, ATP-binding cassette transporters, such as P-glycoproteins (P-gp), facilitate the movement of exogenous agents across the cell membrane. The presence of ABC gene polymorphisms and altered P-gp expression is essential for drug response and interaction.<xref ref-type="bibr" rid="article-161505.r8">[8]</xref>&#x000a0;A major advancement&#x000a0;in pharmacogenomics is the approval of histology-agnostic therapies by the United States Food and Drug Administration, in which drugs are indicated based on the presence of specific genetic alterations rather than the tumor's tissue of origin. These approvals permit the use of targeted therapies across multiple cancer types when tumors harbor the relevant companion diagnostic mutation.[<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.cancer.gov/about-cancer/treatment/types/agnostic-cancer-therapies-hp-pdq">National Cancer Institute. Agnostic Cancer Therapies (PDQ&#x000ae;)&#x02013;Health Professional Version</ext-link>]</p>
+        <p>The continuous evolution of genomic sequencing technologies improves the ability to identify clinically relevant genetic alterations with greater accuracy and efficiency. As a result, incorporating genomic data into medical practice represents a significant shift toward more personalized and effective patient treatment strategies.</p>
+        <p>Given the intricate and evolving nature of this field, a comprehensive review of pharmacogenomics is essential for the continued advancement and integration of pharmacogenomic applications in clinical settings. This review highlights key developments and practical considerations in implementing pharmacogenomics.</p>
+      </sec>
+      <sec id="article-161505.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>In the 100,000 Genomes Project, germline whole-genome sequencing of 76,805 individuals revealed actionable pharmacogenetic variants in dihydropyrimidine dehydrogenase (DPYD), nudix hydrolase 15 (NUDT15), thiopurine S-methyltransferase (TPMT), and uridine diphosphate glucuronosyltransferase 1A1 (UGT1A1) in 62.7% of the cohort, suggesting that 6%&#x000a0;to 10% of individuals may benefit from&#x000a0;safer and more effective therapy through genotype-guided dose adjustments or alternative regimens. A phenome-wide association study confirmed a statistically significant relationship between DPYD variants and toxicities related to fluoropyrimidines. The National Health Service's incorporation of DPYD testing in 2020 facilitated timely clinical intervention. Moreover, comprehensive next-generation sequencing (NGS) allows detection of variants beyond standard panels, such as <italic toggle="yes">UGT1A1*28</italic>, and supports longitudinal reanalysis as novel evidence emerges. However, the predominance of European ancestry data highlights an urgent need for broader, multi-ethnic studies to ensure unbiased implementation of pharmacogenomics.<xref ref-type="bibr" rid="article-161505.r9">[9]</xref></p>
+      </sec>
+      <sec id="article-161505.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>
+<bold>Genes and Alcohol Use Disorder</bold>
+</p>
+        <p>Alcoholism is the most common form of substance use disorder. Genotype studies have focused on the <italic toggle="yes">ADH1B</italic>&#x000a0;gene. The <italic toggle="yes">ADH1B*2</italic> or <italic toggle="yes">ADH1B*3</italic> variants are associated with faster ethanol metabolism.<xref ref-type="bibr" rid="article-161505.r10">[10]</xref>&#x000a0;In contrast, the <italic toggle="yes">ADH1B*1</italic> or <italic toggle="yes">ADH1C*2</italic> variants are deemed slow ethanol metabolizers and exhibit a higher probability of alcohol-related toxicities.<xref ref-type="bibr" rid="article-161505.r2">[2]</xref>&#x000a0;Polymorphisms also occur in ALDH. The ALDH polymorphic phenotypes include&#x000a0;rapid metabolizers&#x000a0;and slow metabolizers. Expression of an inactive form of the ALDH2 isoenzyme, commonly found in Asian populations, results in impaired acetaldehyde metabolism, with apparent symptoms including flushing, nausea, and vomiting. Differences in ADH and ALDH may contribute to the genetically determined predisposition for excessive alcohol intake.<xref ref-type="bibr" rid="article-161505.r3">[3]</xref></p>
+        <p>Alcohol can interact with several medications, leading to severe adverse effects. Disulfiram inhibits ALDH, leading to the accumulation of acetaldehyde and triggering a disulfiram-like reaction characterized by symptoms such as flushing, nausea, vomiting, headache, and hypotension. Certain cephalosporins&#x02014;such as cefotetan and cefoperazone&#x02014;possess a similar effect by inhibiting aldehyde metabolism. Metronidazole may also induce a disulfiram-like reaction, although evidence for nitazoxanide, tinidazole, and nimorazole is less clear. Combining alcohol with these drugs can lead to severe discomfort and should be strictly avoided. This drug-drug interaction affects the ALDH rapid metabolizers more than the ALDH slow metabolizers.&#x000a0;</p>
+        <p>A small portion of ethanol is metabolized by the cytochrome P450 2E1 (CYP2E1) enzyme.<xref ref-type="bibr" rid="article-161505.r11">[11]</xref>&#x000a0;CYP2E1 also metabolizes certain prescription drugs, including acetaminophen, isoniazid, and chlorzoxazone. Although phenobarbital is rarely used in alcohol withdrawal today, it may still be required in certain cases. Notably, some studies have shown&#x000a0;that phenobarbital increases CYP2E1 protein expression and is a potent inducer of CYP3A.<xref ref-type="bibr" rid="article-161505.r12">[12]</xref><xref ref-type="bibr" rid="article-161505.r13">[13]</xref>&#x000a0;As&#x000a0;CYP2E1 can also be induced by chronic alcohol consumption,&#x000a0;the interaction between phenobarbital and ethanol is theoretically controversial.<xref ref-type="bibr" rid="article-161505.r11">[11]</xref>&#x000a0;Further research is needed to clarify the long-term effects of phenobarbital on alcoholism.</p>
+        <p>
+<bold>Cytochrome P450 Gene Polymorphism in Drug Metabolism</bold>
+</p>
+        <p>CYP isoenzymes play a fundamental role in the oxidative metabolism of a wide range of therapeutic agents, serving as a primary pathway for drug biotransformation. These enzymes are essential for the metabolic breakdown and elimination of medications, ensuring that drugs achieve their intended therapeutic effects while eliminating unintended toxic effects. Advances in genetic research have led to the identification of 57 functional genes, classified into 18 families, in the human genome. Each of these genes encodes various CYP isoenzymes that contribute to the metabolism of drugs.<xref ref-type="bibr" rid="article-161505.r6">[6]</xref>&#x000a0;The activity of these enzymes&#x000a0;is influenced by both genetic and environmental factors, resulting in highly variable function among individuals.</p>
+        <p>One of the most significant environmental influences on CYP enzyme activity, exemplified by drug-drug interactions, can result in either the induction or inhibition of specific CYP isoenzymes. For example, CYP3A4, one of the most clinically significant CYP enzymes, can be induced by certain medications, leading to increased metabolism and reduced efficacy of co-administered drugs. Conversely, CYP3A4 inhibition can slow drug metabolism, increasing the risk of drug accumulation and adverse effects. These interactions highlight the importance of understanding CYP function in clinical practice to optimize drug therapy and minimize risks associated with altered metabolism.</p>
+        <p>The pharmacogenomic significance of CYP enzymes stems from the highly polymorphic nature of many <italic toggle="yes">CYP</italic> genes involved in xenobiotic metabolism. Variations in these genes can lead to significant interindividual differences in drug metabolism, with prevalence varying across different populations and ethnic groups. These polymorphisms give rise to distinct metabolic phenotypes, including poor metabolizers, intermediate metabolizers, normal metabolizers, and rapid and ultrarapid metabolizers.<xref ref-type="bibr" rid="article-161505.r14">[14]</xref></p>
+        <p>Clinically relevant polymorphic variations are frequently observed in key <italic toggle="yes">CYP</italic> genes, including <italic toggle="yes">CYP2C9</italic>, <italic toggle="yes">CYP2C19</italic>, <italic toggle="yes">CYP2D6</italic>, and <italic toggle="yes">CYP3A4</italic>, as they are responsible for metabolizing a significant proportion of commonly prescribed medications.<xref ref-type="bibr" rid="article-161505.r6">[6]</xref>&#x000a0;For instance, CYP2C19 polymorphisms play a crucial role in the metabolism of proton pump inhibitors (PPIs) and certain antiplatelet medications. A study demonstrated that co-administration of omeprazole with clopidogrel resulted in a 30% reduction in platelet aggregation inhibition compared to clopidogrel alone.[<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.medsafe.govt.nz/profs/puarticles/clopidogrelandomeprazole.htm">MEDSAFE. Clopidogrel and omeprazole - interaction now confirmed</ext-link>] Identifying these genetic differences allows for more personalized treatment approaches, reducing adverse drug reactions and improving therapeutic outcomes. CYP2C19 serves as a primary metabolic pathway for the elimination of PPIs. PPIs, such as&#x000a0;rabeprazole,&#x000a0;are also eliminated through nonenzymatic mechanisms&#x000a0;and are consequently&#x000a0;less affected by CYP2C19 genetic variability. Therefore, rabeprazole&#x000a0;may&#x000a0;be preferred in conjunction with clopidogrel if PPI administration is necessary.<xref ref-type="bibr" rid="article-161505.r15">[15]</xref><xref ref-type="bibr" rid="article-161505.r16">[16]</xref>[<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2012/019810s096lbl.pdf">U.S. Drug &#x00026; Food Administration. PRILOSEC (omeprazole) Label</ext-link>]</p>
+        <p>Variations in CYP2D6 can impact the metabolism of opioids, antidepressants, and antipsychotics. Atomoxetine, a selective serotonin/norepinephrine reuptake inhibitor, undergoes hepatic metabolism that is subject to CYP2D6 polymorphism. The physiologically based pharmacokinetic features of atomoxetine differ among various CYP2D6 genotypes.<xref ref-type="bibr" rid="article-161505.r17">[17]</xref>&#x000a0;Therefore, the starting dose needs to be reduced in poor metabolizers to prevent elevated serum drug levels.<xref ref-type="bibr" rid="article-161505.r18">[18]</xref>&#x000a0;</p>
+        <p>Due to the opioid crisis, it is essential to recognize how genetic differences affect drug metabolism. Codeine is converted to morphine by the enzyme CYP2D6. In ultrarapid metabolizers, this conversion happens too quickly, resulting in high morphine levels that can lead to dangerous respiratory depression and death. Because of this risk, codeine should not be used in children younger than 12. Tramadol is also activated by CYP2D6. In ultrarapid metabolizers, tramadol produces higher amounts of its active metabolite in the blood and breast milk, which can lead to fatal respiratory depression. Tramadol is contraindicated in children younger than&#x000a0;12 and in adolescents recovering from tonsillectomy or adenoidectomy, where the airway is more vulnerable. Breastfeeding is also not recommended during tramadol use due to the potential transfer of active metabolites through breast milk.<xref ref-type="bibr" rid="article-161505.r19">[19]</xref></p>
+        <p>CYP3A4 plays a significant role in the metabolism of many chemotherapeutic and anticancer drugs. The prescribing information for venetoclax notes that co-administration with P-gp inhibitors or potent or moderate CYP3A4 inhibitors increases venetoclax exposure, potentially increasing the risk of tumor lysis syndrome and other adverse effects.[<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/208573s013lbl.pdf">U.S. Drug &#x00026; Food Administration. Venetoclax Label</ext-link>] Concomitant use with omeprazole, a CYP3A4 inhibitor, may necessitate venetoclax dose adjustments.&#x000a0;</p>
+        <p>To assess CYP enzyme function and predict drug metabolism, various CYP testing methods are available; however, genotyping remains the gold standard for this purpose. Historically, actual enzyme activity was measured by observing probe drugs, compounds, and their metabolites; however, this approach is now considered obsolete.&#x000a0;Genotyping assays analyze specific genetic variants within <italic toggle="yes">CYP</italic> genes, identifying known polymorphisms that influence enzyme activity. Polymerase chain reaction tests, performed using cheek swabs rather than blood or saliva samples, provide valuable insights into an individual's metabolic phenotype. Advances in NGS and pharmacogenomic panel testing enable the comprehensive screening of multiple CYP genes simultaneously, providing a broader understanding of an individual's potential for drug metabolism. By integrating CYP testing into clinical decision-making, healthcare providers can tailor drug therapy more precisely, enhancing both efficacy and safety in patient care. A recent meta-analysis suggests that matched targeted therapies guided by NGS modestly delay disease progression in advanced or refractory solid and hematological cancers, with limited evidence for improvements in overall survival and quality of life. Further research is warranted to strengthen the clinical utility of pharmacogenomic-guided therapy.<xref ref-type="bibr" rid="article-161505.r20">[20]</xref>&#x000a0;</p>
+        <p>
+<bold>Gene-Drug Pairs in Drug Metabolism</bold>
+</p>
+        <p>Besides the CYP system, other gene-drug pairs play a vital role in drug metabolism. Notable examples include the <italic toggle="yes">DPYD</italic>&#x000a0;gene and its interaction with 5-fluorouracil; the <italic toggle="yes">UGT1A1</italic> gene and its interaction with irinotecan; and the <italic toggle="yes">TPMT</italic> gene and its interaction with azathioprine.<xref ref-type="bibr" rid="article-161505.r21">[21]</xref><xref ref-type="bibr" rid="article-161505.r22">[22]</xref><xref ref-type="bibr" rid="article-161505.r21">[21]</xref> All 3 cases represent a gene that encodes an enzyme, which in turn catalyzes the metabolism of drug(s). This concept of gene-drug pair represents a&#x000a0;gene-enzyme-drug axis.</p>
+        <p>
+<bold>Uridine diphosphate glucuronosyltransferase:&#x000a0;</bold>UGT is a family of enzymes responsible for glucuronidation, a phase II metabolism process that conjugates glucuronic acid to drugs, endogenous compounds, and toxins to enhance their solubility for excretion. These enzymes are primarily found in the liver but are also present in the intestines and kidneys. UGT enzymes metabolize various substances, including bilirubin, steroids, thyroid hormones, and drugs, such as morphine and acetaminophen.&#x000a0;UGT enzymes are classified into families, with UGT1A (UGT1A1, UGT1A3, and UGT1A4) and UGT2B (UGT2B7, UGT2B15, and UGT2B17) being the most significant in drug metabolism.&#x000a0;Genetic variations in UGT enzymes can affect drug clearance and response, as observed in conditions such as Gilbert syndrome, where reduced UGT1A1 activity results in mild hyperbilirubinemia. Understanding UGT function is essential for predicting drug metabolism and personalized medicine approaches.<xref ref-type="bibr" rid="article-161505.r23">[23]</xref></p>
+        <p>The UGT1A1 enzyme, encoded by the <italic toggle="yes">UGT1A1</italic> gene, plays a critical role in metabolizing both endogenous compounds and xenobiotics, including bilirubin and various drugs. The glucuronidation of bilirubin, an essential biochemical process that facilitates its excretion, is one of the primary functions of this enzyme. Specific genetic variants, such as the <italic toggle="yes">UGT1A1*28/*28</italic> homozygous and <italic toggle="yes">UGT1A1*6/*28</italic> heterozygous genotypes, result in reduced enzyme activity and impaired SN-38 (govitecan) conjugation, thereby increasing the likelihood of toxic effects.<xref ref-type="bibr" rid="article-161505.r24">[24]</xref>&#x000a0;Similarly, irinotecan is metabolized to SN-38, which is responsible for its antitumor activity.<xref ref-type="bibr" rid="article-161505.r25">[25]</xref> Impaired UGT1A1-mediated glucuronidation of SN-38 leads to its accumulation, thereby increasing the risk of severe toxicities.</p>
+        <p>Furthermore, UGT1A1 polymorphisms can influence the glucuronidation of other drugs, including etoposide,&#x000a0;as it may lead to worsened toxicity. Other clinically significant antineoplastic agents include nilotinib, pazopanib, and belinostat.<xref ref-type="bibr" rid="article-161505.r26">[26]</xref>[<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations">U.S. Food &#x00026; Drug Administration. Table of Pharmacogenetic Associations</ext-link>]</p>
+        <p>Integrase inhibitors&#x02014;including dolutegravir, cabotegravir, and raltegravir&#x02014;play a crucial role in the management of HIV infections by preventing viral DNA from integrating into the host genome.<xref ref-type="bibr" rid="article-161505.r27">[27]</xref><xref ref-type="bibr" rid="article-161505.r28">[28]</xref>&#x000a0;These drugs are substrates undergoing metabolism primarily through UGT1A1, which facilitates their glucuronidation and subsequent elimination from the body. UGT1A1 polymorphism can impact drug metabolism and lead to interindividual differences in drug exposure.</p>
+        <p>Several known UGT1A1 inhibitors have been discovered, including atazanavir, gemfibrozil, and indinavir.[<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/020571s048lbl.pdf">U.S. Food &#x00026; Drug Administration. Irinotecan Label</ext-link>] Another example is enasidenib, which functions as both a substrate and an inhibitor of UGT1A1 and has been linked to hyperbilirubinemia (14% overall incidence; 8% grade 3-4), potentially due to off-target binding to UGT1A1.<xref ref-type="bibr" rid="article-161505.r29">[29]</xref>&#x000a0;Recognizing genetic variability in UGT1A1 is essential for applying personalized medicine strategies, particularly in determining appropriate drug dosages and minimizing adverse effects.</p>
+        <p>
+<bold>Dihydropyrimidine dehydrogenase:&#x000a0;</bold>DPYD, encoded by the <italic toggle="yes">DPYD</italic> gene, is responsible for breaking down fluoropyrimidine-based drugs, including 5-FU, into inactive metabolites. This enzyme plays a key role in uracil clearance, ensuring that these medications do not accumulate to toxic levels. Capecitabine and tegafur are prodrugs that exert their cytotoxicity through the active metabolite 5-FU,&#x000a0;and they are subject to the risk of DPD deficiency.<xref ref-type="bibr" rid="article-161505.r30">[30]</xref><xref ref-type="bibr" rid="article-161505.r31">[31]</xref><xref ref-type="bibr" rid="article-161505.r32">[32]</xref>&#x000a0;Tegafur is not approved by the Food and Drug Administration (FDA); however, it has been commercially available in other countries&#x000a0;as a single-component product or co-formulated with uracil or gimeracil/oteracil.<xref ref-type="bibr" rid="article-161505.r33">[33]</xref><xref ref-type="bibr" rid="article-161505.r34">[34]</xref></p>
+        <p>However, genetic variations in DPYD can lead to reduced DPD enzyme activity, resulting in impaired metabolism and increased exposure to active metabolites of fluoropyrimidines. This impaired metabolism can elevate the risk of severe or life-threatening toxicities, such as those associated with 5-FU therapy, emphasizing the necessity of DPD testing to optimize fluoropyrimidine-based chemotherapy. Prior testing for DPD deficiency is essential in preventing adverse drug reactions and improving treatment safety.</p>
+        <p>To assess the activity of UGT1A1 and the DPD enzymes, various testing methods are available; however, genotyping remains the gold standard due to its high throughput and accuracy. Genotyping assays analyze specific genetic variants to identify known polymorphisms that influence enzyme activity. Advances in NGS and pharmacogenomic panel testing enable the simultaneous comprehensive screening of multiple <italic toggle="yes">UGT1A1</italic> genes or the <italic toggle="yes">DPYD</italic> gene, providing a broader understanding of an individual's potential for drug metabolism.<xref ref-type="bibr" rid="article-161505.r35">[35]</xref></p>
+        <p>
+<bold>Human leukocyte antigen:&#x000a0;</bold>The human leukocyte antigen (<italic toggle="yes">HLA</italic>) gene family plays a crucial role in immune system function; specific HLA alleles are linked to drug hypersensitivity reactions. Among these, the HLA-B58:01 allele is strongly associated with severe cutaneous adverse reactions such as Stevens-Johnson syndrome and toxic epidermal necrolysis in patients treated with allopurinol.<xref ref-type="bibr" rid="article-161505.r36">[36]</xref> Clinical pharmacogenetic guidelines recommend screening for HLA-B58:01 before initiating allopurinol therapy to minimize the risk of life-threatening hypersensitivity.<xref ref-type="bibr" rid="article-161505.r37">[37]</xref> Similarly, the HLA-B15:02 allele is associated with carbamazepine-induced Stevens-Johnson syndrome and toxic epidermal necrolysis, particularly in East Asian populations. In contrast, the HLA-A31:01 allele has been associated with more severe carbamazepine hypersensitivity reactions, including drug reaction with eosinophilia and systemic symptoms.<xref ref-type="bibr" rid="article-161505.r38">[38]</xref></p>
+        <p>
+<bold>Thiopurine S-methyltransferase:&#x000a0;</bold>The TPMT enzyme, encoded by the <italic toggle="yes">TPMT</italic> gene, plays a crucial role in metabolizing thiopurines. Drugs, including azathioprine, 6-mercaptopurine, and thioguanine, are used in the treatment of leukemia or autoimmune diseases and undergo TPMT-mediated methylation to generate metabolites. However, specific TPMT genetic variants result in significantly reduced TPMT enzyme activity, leading to altered drug metabolism, drug accumulation, and an increased risk of severe side effects, such as myelosuppression.<xref ref-type="bibr" rid="article-161505.r39">[39]</xref>&#x000a0;Genotyping is available for TPMT variant alleles, with <italic toggle="yes">TPMT*2</italic>, <italic toggle="yes">TPMT*3A</italic>, and <italic toggle="yes">TPMT*3C</italic> being the most common, collectively accounting for over 90% of inactivating variants.&#x000a0;However, rare or previously unidentified variants may not be detected using variant-specific genotyping methods. Additionally, tests are available to measure mercaptopurine metabolites, including thioguanine nucleotides and methyl-mercaptopurine nucleotides. Phenotype testing is another option, but it may yield inaccurate results.<xref ref-type="bibr" rid="article-161505.r40">[40]</xref></p>
+        <p>All these&#x000a0;gene-drug pairs highlight a crucial gene-drug interaction, demonstrating how genetic variations can impact both the efficacy and safety of thiopurine therapy. Personalized dosing regimens and routine monitoring are necessary to optimize therapeutic outcomes while mitigating the risk of adverse reactions.</p>
+        <p>
+<bold>Drug Transporters and Genes</bold>
+</p>
+        <p>Drug transporters are involved in drug absorption, distribution, and elimination, as they determine a drug's fate in the body. These transporters are proteins that regulate the transportation of drugs by facilitating or restricting their movement across cellular membranes. The&#x000a0;genes and variants of these transporters, subject to the nature of polymorphism, may exhibit different transport behaviors and result in varied&#x000a0;outcomes. Drug-transporting systems are classified into 2 major families as follows:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>ATP-binding cassette (ABC) transporters are active efflux mechanisms that utilize ATP to extrude drugs against concentration gradients.</p>
+          </list-item>
+          <list-item>
+            <p>Solute carrier (SLC) transporters facilitate passive or secondary active transport of drugs across cellular membranes.<xref ref-type="bibr" rid="article-161505.r41">[41]</xref>&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>
+<bold>ATP-binding cassette transporters:&#x000a0;</bold>ABC transporters A-D and G are transmembrane proteins that transport both exogenous and endogenous compounds, including sterols, lipids, and drugs. These transporters contribute to essential physiological processes such as lipoprotein biogenesis, detoxification of toxins, or resistance to drugs. Some are even involved in disease pathways resulting from transporter dysfunction. Humans have 48 ABC transporter genes, classified into 7 subfamilies (ABCA to ABCG), which encode proteins that mediate the transport of diverse endogenous and exogenous substances, including lipids and drugs.<xref ref-type="bibr" rid="article-161505.r41">[41]</xref></p>
+        <p>Among these transporters, ABCB1, also known as P-gp, is a key efflux pump&#x000a0;that has been extensively studied for its role in drug transport and multidrug resistance.</p>
+        <p>ABCB1, also known as P-gp and multidrug resistance protein-1, is an ATP-dependent efflux transporter found in various tissues, including the intestines, liver, kidneys, blood-brain barrier, and placenta. ABCB1 plays a crucial role in drug absorption, distribution, and elimination by actively pumping drugs and other xenobiotics out of cells. Key Functions of the ABCB1 include limiting drug absorption in the intestines by pumping substrates back into the lumen, enhancing drug excretion to the biliary gland and urinary bladder, and expelling drugs at the blood-brain barrier away from the brain. The frequencies of ABCB1&#x000a0;variants G2677T/A and C3435T were reported as 64% and 61.6%, respectively, in the South Indian population, whereas the C1236T variant was estimated at 42.5% in the Slovak population.<xref ref-type="bibr" rid="article-161505.r42">[42]</xref><xref ref-type="bibr" rid="article-161505.r43">[43]</xref>&#x000a0;The ABCB1 variant C3435T has been associated with altered drug efflux and variable responses to antiepileptics, chemotherapeutics, and cardiovascular drugs.<xref ref-type="bibr" rid="article-161505.r44">[44]</xref>&#x000a0;ABCB1 polymorphism, including C1236T, G2677T, and C3435T variants, has been&#x000a0;shown to reduce the ABCB1-mediated efflux of tacrolimus and sirolimus in cell lines.<xref ref-type="bibr" rid="article-161505.r45">[45]</xref></p>
+        <p>ABCB1 is also involved in drug-drug interactions. Some known ABCB1 inhibitors include verapamil, diltiazem, and cyclosporine, as they can increase the bioavailability of ABCB1 substrates. In contrast, inducers, such as rifampin, can decrease its bioavailability. The ABC transporters are associated with drug resistance; for example, ABCB1 decreases intracellular drug concentration, thereby reducing drug efficacy. The BCRP (breast cancer resistance protein), also known as ABCG2, is an efflux pump that transports the anticancer drugs methotrexate and topotecan. Encoded by the <italic toggle="yes">ABCG2</italic> gene, ABCG2 is found in the liver, kidney, central nervous system, and gastrointestinal tract.<xref ref-type="bibr" rid="article-161505.r39">[39]</xref>&#x000a0;Overexpression of ABCG2 in cancer cells leads to multidrug resistance. A straightforward explanation is that drug absorption is limited in the ABCG2-overexpressing intestinal cells. Other evidence suggests that enhanced ABCG2 activity is involved in the epithelial-to-mesenchymal transition process, which is associated with cancer progression.<xref ref-type="bibr" rid="article-161505.r46">[46]</xref></p>
+        <p>
+<bold>Solute carrier transporters:&#x000a0;</bold>Human organic anion and cation transporters facilitate passive or secondary active transport of drugs and endogenous compounds, such as steroids, hormones, and neurotransmitters, across membranes. Depending on the electric charge on the substrates, SLC transporters are further categorized into organic anion transporting polypeptides (OATPs), organic cation transporters (OCTs), and organic anion transporters (OATs). Interestingly, SLC, by a different nomenclature, has also been used to refer to these transporters. SLC transporters belong to 2 SLC superfamilies&#x02014;SLCO (OATPs) and SLC22A (OATs&#x000a0;and&#x000a0;OCTs).<xref ref-type="bibr" rid="article-161505.r47">[47]</xref>&#x000a0;These transporters are widely expressed in epithelial tissues and play crucial roles in the absorption, distribution, and elimination of drugs.&#x000a0;</p>
+        <p>Specifically, OATPs are a class of polypeptides that mediate the transport of organic anions. These polypeptides use a variety of endogenous substances and exogenous drugs as substrates, playing a key role in their absorption and metabolism. OATPs&#x000a0;transport large, hydrophobic anions; mediate hepatic drug uptake; and affect the metabolism and toxicity of statins. The OATs transport small, hydrophilic anions and play a role in renal drug excretion. The OCTs transport organic cations and facilitate the renal clearance of metformin and other cationic drugs.<xref ref-type="bibr" rid="article-161505.r47">[47]</xref>&#x000a0;Expression varies by protein and tissue type and is regulated at multiple levels. The genes and mutation studies aid in understanding their function. Polymorphisms in these transporters influence drug pharmacokinetics, underscoring their significance in pharmacological therapy.<xref ref-type="bibr" rid="article-161505.r47">[47]</xref>&#x000a0;</p>
+        <p>OATP1B1, encoded by SLCO1B1, is specifically expressed on the basolateral membrane of hepatocytes and plays an indispensable role in the hepatic uptake and elimination of negatively charged (or amphipathic) organic compounds. Substrates of OATP1B1 include bile salts, steroid hormones, statins, bilirubin, thyroid hormones, prostaglandins, methotrexate, irinotecan, repaglinide, and some antiviral and anticancer drugs. Statins are known to be subject to SLCO1B1 polymorphism. Drug interactions with statins occur every day during combination therapy, according to numerous published studies. For instance, when statins are used in combination with cyclosporine, rifampin, and gemfibrozil, excessive exposure to statins may occur, potentially leading to rhabdomyolysis and life-threatening consequences due to drug interactions inhibiting the function of OATP1B1.&#x000a0;SLCO1B1 (OATP1B1) includes the c.521T&#x0003e;C variant that reduces statin uptake, thereby increasing the risk of statin-induced myopathy. SLC22A1 (OCT1) variants can influence the efficacy of metformin by altering its hepatic uptake.</p>
+        <p>Due to its critical role, the FDA and the European Medicines Agency recommend in vitro testing to evaluate potential drug-drug interactions involving the OATP1B1 transporter. Studies using SLCO1B1 knockout rat models have demonstrated that different statins are transported into cells with varying efficiency&#x000a0;through OATP1B1, which may result in&#x000a0;differences in their pharmacological effects. The FDA recommends using HEK293 cells transfected with OATP1B1 for in vitro testing to assess the potential inhibitory effects of drugs and the risk of drug interactions involving OATP1B1.<xref ref-type="bibr" rid="article-161505.r48">[48]</xref><xref ref-type="bibr" rid="article-161505.r49">[49]</xref>[<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.fda.gov/files/drugs/published/In-Vitro-Metabolism--and-Transporter--Mediated-Drug-Drug-Interaction-Studies-Guidance-for-Industry.pdf">FDA. In Vitro Metabolism- and Transporter-Mediated Drug-Drug Interaction Studies</ext-link>]</p>
+        <p>
+<bold>Bacterial Genes and Drug Resistance</bold>
+</p>
+        <p>Multidrug-resistant bacteria typically acquire specific resistance genes, making them resistant to different classes of antibiotics. Studies have shown that the co-existence of resistance genes and the emergence of multidrug-resistant strains have increased the complexity of treatment, requiring clinicians to choose antibiotics rationally based on the resistance profile. Common multidrug resistance genes include those associated with &#x003b2;-lactam antibiotics, aminoglycosides, fluoroquinolones, and sulfonamide.</p>
+        <p>The <italic toggle="yes">mecA</italic> gene is central to the development of methicillin-resistant characteristics in methicillin-resistant<italic toggle="yes">&#x000a0;Staphylococcus aureus</italic>. Bacteria carrying the <italic toggle="yes">mecA</italic> gene are resistant to many penicillin and cephalosporin antibiotics, including methicillin, and may require alternative treatments, such as vancomycin or linezolid. This gene encodes PBP2a (penicillin-binding protein 2a).<xref ref-type="bibr" rid="article-161505.r50">[50]</xref>&#x000a0;The PBP2a has a lower affinity for methicillin and functions to a greater degree as a normal transpeptidase in cell wall synthesis; as a result, methicillin has a less effective bactericidal outcome. Detection of the <italic toggle="yes">mecA</italic> gene is&#x000a0;crucial for diagnosing methicillin-resistant<italic toggle="yes">&#x000a0;Staphylococcus aureus</italic>&#x000a0;infections and informing the&#x000a0;appropriate treatment.</p>
+        <p>Over the past few decades, the &#x003b2;-lactamase gene family has been extensively investigated, with particular focus on carbapenemases, which have been the subject of numerous studies in the literature. Enterobacteriaceae strains carrying carbapenemase, also known as carbapenem-resistant Enterobacteriaceae (CRE), have been associated with nosocomial infections and significant treatment failures. For instance, some <italic toggle="yes">Klebsiella pneumoniae</italic> carrying the <italic toggle="yes">blaKPC</italic> gene are carbapenem-resistant. Various carbapenemase genes, including blaOXA-48, blaKPC, blaNDM-1, blaVIM, and blaIMP, have been identified in carbapenem-resistant microorganisms.<xref ref-type="bibr" rid="article-161505.r51">[51]</xref>&#x000a0;Other resistance genes, such as blaTEM, blaSHV, and blaCTX-M, encode &#x003b2;-lactamases that confer resistance to penicillin and cephalosporins. The blaCTX-M is a &#x003b2;-lactamase more specifically linked to resistance against extended-spectrum cephalosporins. Recent&#x000a0;research&#x000a0;has revealed that extra-spectrum beta-lactamases&#x000a0;can render cephalosporins ineffective, leading to multiple drug resistance and treatment failures. Polymerase chain reaction remains a highly sensitive and specific method for detecting these resistance genes, including the identification of particular types of extra-spectrum beta-lactamases.<xref ref-type="bibr" rid="article-161505.r52">[52]</xref></p>
+        <p>Other antibiotic-resistance genes are also reported in the literature. Aminoglycoside resistance genes such as <italic toggle="yes">aac(3)-I</italic> (aminoglycoside acetyltransferase (3)-I), <italic toggle="yes">aphA</italic> (aminoglycoside phosphotransferase A), and<italic toggle="yes"> ant(4')</italic> (aminoglycoside adenyltransferase 4') can be detected in a clinical setting and help avoid ineffective aminoglycoside treatments.<xref ref-type="bibr" rid="article-161505.r53">[53]</xref>&#x000a0;The <italic toggle="yes">tet</italic> gene (tetracycline resistance gene) and the <italic toggle="yes">sul</italic> gene (sulfonamide resistance gene) are also detectable in some pathogenic bacteria.<xref ref-type="bibr" rid="article-161505.r54">[54]</xref>&#x000a0;The 027 NAP1/BI strain of <italic toggle="yes">Clostridium difficile</italic>&#x02014;also referred to as<italic toggle="yes">&#x000a0;</italic>(North American pulsed-field electrophoresis type 1 or ribotype 027<italic toggle="yes">&#x02014;</italic>produces hypervirulent toxins.<xref ref-type="bibr" rid="article-161505.r55">[55]</xref>&#x000a0;This strain enables bacteria to evade the bactericidal effects of fluoroquinolones due to mutations in the drug's target.</p>
+        <p>
+<bold>Genes and Broad-Spectrum Drug Approvals</bold>
+</p>
+        <p>Tumor-agnostic approvals revolutionize cancer treatment by targeting specific genetic biomarkers regardless of tumor origin. These biomarkers include tumor mutational burden, mismatch repair deficiencies, microsatellite instability status, neurotrophic tyrosine receptor kinase gene fusions, rearranged during transfection fusions, and rapidly accelerated fibrosarcoma B-type mutations. This precision medicine approach enables therapies to address the genetic drivers of cancer, broadening treatment options and improving patient outcomes. FDA-approved agents are available for each of these actionable mutations, further advancing personalized oncology care (<bold>Table 1.</bold> Genetic Biomarkers and&#x000a0;FDA&#x000a0;Broad-Spectrum Drug Approvals).<xref ref-type="bibr" rid="article-161505.r56">[56]</xref><xref ref-type="bibr" rid="article-161505.r57">[57]</xref><xref ref-type="bibr" rid="article-161505.r58">[58]</xref><xref ref-type="bibr" rid="article-161505.r59">[59]</xref>[<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.cancer.gov/news-events/cancer-currents-blog/2022/fda-dabrafenib-trametinib-braf-solid-tumors">National Cancer Institute. Dabrafenib&#x02013;Trametinib Combination Approved for Solid Tumors with BRAF Mutations</ext-link>][<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.cancer.gov/news-events/cancer-currents-blog/2023/selpercatinib-ret-lung-medullary-thyroid">National Cancer Institute. Selpercatinib Slows Progression of RET-Positive Lung, Medullary Thyroid Cancers</ext-link>]</p>
+        <table-wrap id="article-161505.table0" position="float" orientation="portrait">
+          <caption>
+            <title>Table 1.&#x000a0;Genetic Biomarkers and FDA Broad-Spectrum Drug Approvals</title>
+          </caption>
+          <table style="width: 679px;" border="1" cellspacing="1" cellpadding="4">
+            <tbody>
+              <tr style="height: 25px;">
+                <td style="width: 126.562px; height: 25px;" rowspan="1" colspan="1">
+<bold>Genes/Biomarkers</bold>
+</td>
+                <td style="width: 253.438px; height: 25px;" rowspan="1" colspan="1">
+<bold>Mutation details</bold>
+</td>
+                <td style="width: 171px; height: 25px;" rowspan="1" colspan="1">
+<bold>Approved drug(s)</bold>
+</td>
+                <td style="width: 268px; height: 25px;" rowspan="1" colspan="1">
+<bold>Indications</bold>
+</td>
+              </tr>
+              <tr style="height: 25px;">
+                <td style="width: 126.562px; height: 25px;" rowspan="1" colspan="1">TMB</td>
+                <td style="width: 253.438px; height: 25px;" rowspan="1" colspan="1">High tumor mutational burden</td>
+                <td style="width: 171px; height: 25px;" rowspan="1" colspan="1">Pembrolizumab</td>
+                <td style="width: 268px; height: 25px;" rowspan="1" colspan="1">TMB &#x02265;10 mutations/Mb tumors</td>
+              </tr>
+              <tr style="height: 59px;">
+                <td style="width: 126.562px; height: 59px;" rowspan="1" colspan="1">
+<p>MSI/MMR</p>
+</td>
+                <td style="width: 253.438px; height: 59px;" rowspan="1" colspan="1">
+<p>High microsatellite instability</p>
+<p>Mismatch repair deficiency</p>
+</td>
+                <td style="width: 171px; height: 59px;" rowspan="1" colspan="1">
+<p>Pembrolizumab/dostarlimab</p>
+</td>
+                <td style="width: 268px; height: 59px;" rowspan="1" colspan="1">
+<p>MMRd/MSI-H solid tumors</p>
+</td>
+              </tr>
+              <tr style="height: 33px;">
+                <td style="width: 126.562px; height: 33px;" rowspan="1" colspan="1">BRAF</td>
+                <td style="width: 253.438px; height: 33px;" rowspan="1" colspan="1">BRAF V600E mutation</td>
+                <td style="width: 171px; height: 33px;" rowspan="1" colspan="1">
+<p>Dabrafenib + trametinib</p>
+</td>
+                <td style="width: 268px; height: 33px;" rowspan="1" colspan="1">BRAF V600E&#x02013;mutated solid tumors</td>
+              </tr>
+              <tr style="height: 33px;">
+                <td style="width: 126.562px; height: 33px;" rowspan="1" colspan="1">NTRK</td>
+                <td style="width: 253.438px; height: 33px;" rowspan="1" colspan="1">Positive NTRK fusion</td>
+                <td style="width: 171px; height: 33px;" rowspan="1" colspan="1">
+<p>Larotrectinib/entrectinib</p>
+</td>
+                <td style="width: 268px; height: 33px;" rowspan="1" colspan="1">NTRK fusion&#x02013;positive solid tumors</td>
+              </tr>
+              <tr style="height: 34px;">
+                <td style="width: 126.562px; height: 34px;" rowspan="1" colspan="1">RET</td>
+                <td style="width: 253.438px; height: 34px;" rowspan="1" colspan="1">Positive RET fusion</td>
+                <td style="width: 171px; height: 34px;" rowspan="1" colspan="1">Selpercatnib</td>
+                <td style="width: 268px; height: 34px;" rowspan="1" colspan="1">RET fusion&#x02013;positive solid tumors</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <p>FDA, Food and Drug Administration; TMB,&#x000a0;tumor mutational burden;&#x000a0;MSI,&#x000a0;microsatellite instability;&#x000a0;MMR,&#x000a0;mismatch repair; BRAF,&#x000a0;rapidly accelerated fibrosarcoma B-type;&#x000a0;NTRK,&#x000a0;neurotrophic tyrosine receptor kinase;&#x000a0;RET,&#x000a0;rearranged during transfection.</p>
+        <p>The landscape of tumor-agnostic therapies continues to evolve, with trastuzumab deruxtecan making strides toward tissue-agnostic approval. On April 5, 2024, the FDA approved this drug, marking the first tumor-agnostic indication for an antibody-drug conjugate and the first broad-spectrum approval for a HER2-targeted therapy. This approval applies to patients with unresectable or metastatic HER2-positive tumors who have an IHC 3+ status.</p>
+        <p>Other classes of drugs still have the potential to join the list of tumor-agnostic approvals. Isocitrate dehydrogenase (IDH) 1 and IDH2 mutations are common in cancers such as gallbladder cancer, gliomas, and acute myeloid leukemia, leading to the accumulation of 2-HG, which drives tumorigenesis. Targeted inhibitors, such as ivosidenib and enasidenib, reduce 2-HG levels, thereby restoring normal function. Vorasidenib, a&#x000a0;newly FDA-approved IDH inhibitor, shows benefits for some low-grade gliomas in the human brain. Olutasidenib, a selective IDH1 inhibitor, has demonstrated strong remission rates in patients with relapsed or refractory acute myeloid leukemia, resulting in FDA approval. As research advances, IDH-targeted therapies continue to show promise in improving patient outcomes.<xref ref-type="bibr" rid="article-161505.r60">[60]</xref>[<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.cancer.gov/news-events/cancer-currents-blog/2023/vorasidenib-low-grade-glioma-idh-mutations">National Cancer Institute. Vorasidenib Treatment Shows Promise for Some Low-Grade Gliomas</ext-link>]</p>
+        <p>
+<bold>Epigenetic Modifications and Drugs</bold>
+</p>
+        <p>The enzyme O<sup>6</sup>-methylguanine-DNA methyltransferase (MGMT) plays a crucial role in repairing DNA damage. The repair function of MGMT is vital for normal cellular processes, and its ability to directly reverse alkylation can contribute to the development of resistance to chemotherapeutic alkylating agents in cancer cells. Examples include temozolomide and dacarbazine, which are alkylators commonly used in the treatment of brain tumors, sarcoma, and lymphoma. The presence of MGMT in cancer cells can reduce the effectiveness of these drugs.</p>
+        <p>The role of MGMT methylation as a predictive biomarker was validated in the Stupp trial, which demonstrated a significantly greater survival benefit from adding temozolomide to standard radiotherapy in MGMT-methylated glioblastomas compared to the MGMT-unmethylated group. Subsequent long-term studies have reinforced the ongoing importance of MGMT gene promoter methylation in predicting sensitivity to temozolomide. In glioblastoma, MGMT promoter methylation serves as both a prognostic marker and a predictive indicator of response to alkylating agents.<xref ref-type="bibr" rid="article-161505.r61">[61]</xref></p>
+        <p>Histone modification is a notable example of epigenetic modification. Acetylation or methylation of histones can change the transformation of histones, and alter the exposed domains of the DNA double helix when binding.&#x000a0;These changes influence gene transcription and can significantly impact cellular response to drug therapies. For instance, histone deacetylation can lead to chemotherapy resistance by silencing genes related to apoptosis. Additionally, histones can undergo O-GlcNAcylation, where an <italic toggle="yes">N</italic>-acetylglucosamine (GlcNAc) molecule is added between the glycosyl and the serine or threonine residues of nuclear and cytoplasmic proteins. This modification, mediated by O-GlcNAcase, affects various cellular processes, including gene expression and transcription.<xref ref-type="bibr" rid="article-161505.r62">[62]</xref></p>
+        <p>IDH1 and IDH2 are enzymes involved in cellular metabolism through the conversion of isocitrate to alpha-ketoglutarate. Mutations in IDH1 and IDH2, in multiple types of human cancer, result in neomorphic enzymes that convert alpha-ketoglutarate to 2-hydroxyglutarate (2-HG). The elevated level of 2-HG, also known as an oncometabolite, inhibits &#x003b1;KG-dependent histone and DNA demethylases, ultimately impairing cellular differentiation.</p>
+        <p>
+<bold>Post-Transcription Modification and Drug Candidates</bold>
+</p>
+        <p>Carriers of the KRAS mutation in non&#x02013;small cell lung cancer lack a well-defined pocket on the KRAS protein surface where a small molecule can fit, making it challenging to design drugs. This characteristic&#x000a0;is often referred to as a featureless protein surface, which has historically made KRAS considered an undruggable target.<xref ref-type="bibr" rid="article-161505.r63">[63]</xref>&#x000a0;The addition of cyclophilin A as a chaperone alters the conformation of the KRAS protein, making the target more approachable to drugs. This mechanism serves as an excellent example of post-transcriptional modifications in precision oncology.</p>
+        <p>Phosphorylation plays a nominal role in gene regulation and drug response by modulating protein activity, stability, and interactions. Phosphorylation, a post-translational modification, can act as a switch to turn on or off a signal transduction pathway, potentially altering how cells respond to therapeutic agents.<xref ref-type="bibr" rid="article-161505.r63">[63]</xref>&#x000a0;Furthermore, kinases phosphorylate transcription factors, altering their ability to activate or repress gene transcription, which can determine the effectiveness of targeted cancer therapies. In drug resistance mechanisms, the loss of aberrant phosphorylation can reduce the efficacy of drugs.<xref ref-type="bibr" rid="article-161505.r64">[64]</xref>&#x000a0;Conversely, phosphorylation-based biomarkers can help predict a patient's response to kinase inhibitors, such as tyrosine kinase inhibitors used in the treatment of cystic fibrosis.<xref ref-type="bibr" rid="article-161505.r65">[65]</xref></p>
+        <p>Glycosylation, the enzymatic process by which sugars are attached to proteins or lipids, plays a significant role in modulating epigenetic modifications&#x02014;heritable changes in gene expression that do not involve alterations to the underlying DNA sequence. O-GlcNAcylation is a notable form of glycosylation that plays a crucial role in epigenetic regulation.&#x000a0;Androgen-repressed lncRNA LINC01126 drives the growth of castration-resistant prostate cancer by regulating the switch between O-GlcNAcylation and phosphorylation of the androgen receptor. Antisense oligonucleotides inhibit the growth of castration-resistant prostate cancer cells and have the potential to be developed into a therapeutic drug.<xref ref-type="bibr" rid="article-161505.r66">[66]</xref></p>
+      </sec>
+      <sec id="article-161505.s4" sec-type="Other Issues">
+        <title>Other Issues</title>
+        <p>Pseudocholinesterase deficiency is a pharmacogenetic disorder that affects the metabolism of ester anesthetics, such as succinylcholine, leading to prolonged apnea after anesthesia. This abnormality is caused by mutations in the <italic toggle="yes">BCHE</italic>&#x000a0;(butyrylcholinesterase) gene, which encodes the enzyme also known as pseudocholinesterase. These mutations impair the enzymatic breakdown of agents such as succinylcholine. Preoperative screening using the dibucaine number or butyrylcholinesterase genotyping can help identify individuals at risk.<xref ref-type="bibr" rid="article-161505.r67">[67]</xref><xref ref-type="bibr" rid="article-161505.r68">[68]</xref>&#x000a0;However, dibucaine number testing is not feasible during rapid sequence intubation, as it requires laboratory processing with a delayed turnaround, which is incompatible with the emergent need to secure the airway, unless the patient's history is already known.</p>
+        <p>In the 100,000 Genomes Project, germline whole-genome sequencing of 76,805 individuals revealed actionable pharmacogenetic variants in DPYD, NUDT15, TPMT, and UGT1A1 in 62.7% of the cohort, suggesting that 6% to 10% of patients can benefit from safer, more effective therapy through genotype-guided dose adjustments or alternative regimens. A phenome-wide association study confirmed a statistically significant relationship between DPYD variants and toxicities related to fluoropyrimidines. The National Health Service's incorporation of DPYD testing in 2020 facilitated timely clinical intervention. Moreover, comprehensive NGS allows detection of variants beyond standard panels, such as <italic toggle="yes">UGT1A1*28</italic>, and supports longitudinal reanalysis as novel evidence emerges. However, the predominance of European ancestry data highlights an urgent need for broader, multi-ethnic studies to ensure unbiased implementation of pharmacogenomics.<xref ref-type="bibr" rid="article-161505.r9">[9]</xref></p>
+      </sec>
+      <sec id="article-161505.s5" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>Pharmacogenomics and precision medicine are advancing rapidly, driven by breakthroughs in genomic sequencing, molecular diagnostics, and targeted therapies. Integrating genomic data into clinical practice has revolutionized patient care by enabling the identification of actionable genetic alterations and the development of personalized treatment strategies. Tumor-agnostic approvals mark a significant shift in oncology, allowing targeted therapies based on genetic biomarkers rather than cancer type. Pharmacogenetic testing plays a crucial role in optimizing drug selection and dosing, enhancing treatment efficacy while reducing adverse effects. As research progresses, continued innovation deepens our understanding of cancer biology and treatment responses, ultimately improving patient outcomes and quality of life.&#x000a0;According to the American Society of Health-System Pharmacists, pharmacists should understand pharmacogenomics to optimize patient care by recommending preemptive or reactive testing, designing drug regimens that account for a patient's genomic profile, and evaluating drug-drug and drug-gene interactions, comorbidities, and laboratory data.&#x000a0;Pharmacists should also educate healthcare providers on appropriate, cost-effective testing, communicate and document recommendations in electronic health records, empower patients to make informed decisions, and foster interdisciplinary collaboration. Furthermore, they should advocate for standardized terminology, such as SNOMED CT (Systematized Nomenclature of Medicine Clinical Terms) and LOINC (Logical Observation Identifiers Names and Codes), to ensure data interoperability, develop clinical decision-support tools, continuously update interpretations as evidence evolves, and advance the field through research and publication.<xref ref-type="bibr" rid="article-161505.r69">[69]</xref></p>
+        <p>Effective implementation of pharmacogenomics in healthcare relies on interdisciplinary collaboration among clinicians, advanced practice providers, pharmacists, and other healthcare professionals. By integrating genetic insights into medication management, teams can optimize drug selection, dosing, and safety, reducing adverse effects and improving patient outcomes. Strong interprofessional communication, ethical considerations, and shared decision-making ensure personalized, patient-centered care. Coordinated efforts in education, policy adherence, and data interpretation enhance team performance, fostering safer and more effective treatment strategies.</p>
+      </sec>
+      <sec id="article-161505.s6" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>Genetic test coordination: Nurses ensure timely TPMT/NUDT15 testing before thiopurine initiation to prevent myelosuppression.</p>
+          </list-item>
+          <list-item>
+            <p>Pharmacy interventions: Pharmacists adjust doses or suggest alternatives based on the results of genetic testing.</p>
+          </list-item>
+          <list-item>
+            <p>Clinical monitoring: Nurses closely monitor for early signs of infection or bleeding and promptly escalate care as needed.</p>
+          </list-item>
+          <list-item>
+            <p>Therapy adjustment: The healthcare team reviews labs and adjusts treatment through coordinated communication.</p>
+          </list-item>
+          <list-item>
+            <p>Ongoing safety: Regular monitoring and patient follow-up ensure&#x000a0;continued safety and treatment effectiveness.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-161505.s7" sec-type="Nursing, Allied Health, and Interprofessional Team Monitoring">
+        <title>Nursing, Allied Health, and Interprofessional Team Monitoring</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>Genetic test timing:&#x000a0;Nurses and allied health staff should integrate pharmacogenomics screening into patient care by reflecting ANA genomics competencies, promptly ordering indicated tests, and reviewing results before&#x000a0;therapy.&#x000a0;For example, Clinical Pharmacogenetics Implementation Consortium guidelines recommend HLA-B15:02 testing in patients&#x02014;especially those of Asian descent&#x02014;before starting carbamazepine, and HLA-B58:01 testing before prescribing allopurinol, as these alleles are strong predictors of Stevens-Johnson syndrome or toxic epidermal necrolysis.</p>
+          </list-item>
+          <list-item>
+            <p>Lab coordination and documentation:<bold>&#x000a0;</bold>Pharmacogenomics<bold>&#x000a0;</bold>testing should be incorporated into laboratory workflows and electronic health records. Pharmacogenomics<bold>&#x000a0;</bold>orders should be tracked, and results should be documented in the medical record. The American Society of Health-System Pharmacists recommends implementing systems that facilitate the communication of patient-specific pharmacogenomics results to all healthcare providers, including through discharge summaries.</p>
+          </list-item>
+          <list-item>
+            <p>Pre-prescription checks: Pre-prescription checks should ensure that genotype results are available to the prescriber before initiating the drug, in accordance with the Clinical Pharmacogenetics Implementation Consortium and FDA guidance.&#x000a0;Clinicians should respond to pharmacogenomics alerts or consult relevant guidelines, such as avoiding carbamazepine in patients with the HLA-B*15:02 allele, and closely monitor for gene-associated adverse drug reactions. The American College of Obstetricians and Gynecologists notes that pharmacogenetic data can improve drug safety and reduce adverse events, so nurses should monitor for signs of cutaneous&#x000a0;or other hypersensitivity in high-risk genotypes.</p>
+          </list-item>
+          <list-item>
+            <p>Patient/family education: Patients and their families should be educated about the rationale, scope, and implications of pharmacogenomics testing.&#x000a0;Clear information should be provided, along with informed consent when required, regarding the purpose of the test and its confidentiality.&#x000a0;Personalized educational materials about pharmacogenomics results are crucial. Nurses should explain how these results impact medication choices, encourage sharing them with all healthcare providers, and highlight the importance of adherence. Furthermore, nurses need to actively educate patients on pharmacogenomics&#x000a0;test results to improve ongoing care.</p>
+          </list-item>
+          <list-item>
+            <p>Quality monitoring: Quality monitoring involves assisting in tracking the outcomes of pharmacogenomics-informed care and meticulously documenting them to facilitate continuous improvement. Monitoring includes evaluating patient outcomes&#x000a0;and the economic benefits derived from pharmacogenomic testing.<xref ref-type="bibr" rid="article-161505.r70">[70]</xref>&#x000a0;Nursing&#x000a0;and allied health staff can assist by reporting adverse events, monitoring patient adherence, and providing real-world feedback to the team, thereby supporting the refinement of pharmacogenomics&#x000a0;protocols over time.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-161505.s8">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=161505&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=161505">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/161505/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=161505">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-161505.s9">
+        <title>References</title>
+        <ref id="article-161505.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Auwerx</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Sadler</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Reymond</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kutalik</surname>
+                <given-names>Z</given-names>
+              </name>
+            </person-group>
+            <article-title>From pharmacogenetics to pharmaco-omics: Milestones and future directions.</article-title>
+            <source>HGG Adv</source>
+            <year>2022</year>
+            <month>Apr</month>
+            <day>14</day>
+            <volume>3</volume>
+            <issue>2</issue>
+            <fpage>100100</fpage>
+            <pub-id pub-id-type="pmid">35373152</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lehner</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Gao</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Mackowiak</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Alcohol metabolism in alcohol use disorder: a potential therapeutic target.</article-title>
+            <source>Alcohol Alcohol</source>
+            <year>2024</year>
+            <month>Jan</month>
+            <day>11</day>
+            <volume>59</volume>
+            <issue>1</issue>
+            <pub-id pub-id-type="pmid">37950904</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ehrig</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Bosron</surname>
+                <given-names>WF</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>TK</given-names>
+              </name>
+            </person-group>
+            <article-title>Alcohol and aldehyde dehydrogenase.</article-title>
+            <source>Alcohol Alcohol</source>
+            <year>1990</year>
+            <volume>25</volume>
+            <issue>2-3</issue>
+            <fpage>105</fpage>
+            <page-range>105-16</page-range>
+            <pub-id pub-id-type="pmid">2198030</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wang</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Pradhan</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Zhong</surname>
+                <given-names>XB</given-names>
+              </name>
+              <name>
+                <surname>Ma</surname>
+                <given-names>X</given-names>
+              </name>
+            </person-group>
+            <article-title>Isoniazid metabolism and hepatotoxicity.</article-title>
+            <source>Acta Pharm Sin B</source>
+            <year>2016</year>
+            <month>Sep</month>
+            <volume>6</volume>
+            <issue>5</issue>
+            <fpage>384</fpage>
+            <page-range>384-392</page-range>
+            <pub-id pub-id-type="pmid">27709007</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Walker</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Ginsberg</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Hattis</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Johns</surname>
+                <given-names>DO</given-names>
+              </name>
+              <name>
+                <surname>Guyton</surname>
+                <given-names>KZ</given-names>
+              </name>
+              <name>
+                <surname>Sonawane</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Genetic polymorphism in N-Acetyltransferase (NAT): Population distribution of NAT1 and NAT2 activity.</article-title>
+            <source>J Toxicol Environ Health B Crit Rev</source>
+            <year>2009</year>
+            <volume>12</volume>
+            <issue>5-6</issue>
+            <fpage>440</fpage>
+            <page-range>440-72</page-range>
+            <pub-id pub-id-type="pmid">20183529</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hossam Abdelmonem</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Abdelaal</surname>
+                <given-names>NM</given-names>
+              </name>
+              <name>
+                <surname>Anwer</surname>
+                <given-names>EKE</given-names>
+              </name>
+              <name>
+                <surname>Rashwan</surname>
+                <given-names>AA</given-names>
+              </name>
+              <name>
+                <surname>Hussein</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Ahmed</surname>
+                <given-names>YF</given-names>
+              </name>
+              <name>
+                <surname>Khashana</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Hanna</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Abdelnaser</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Decoding the Role of CYP450 Enzymes in Metabolism and Disease: A Comprehensive Review.</article-title>
+            <source>Biomedicines</source>
+            <year>2024</year>
+            <month>Jul</month>
+            <day>02</day>
+            <volume>12</volume>
+            <issue>7</issue>
+            <pub-id pub-id-type="pmid">39062040</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zhou</surname>
+                <given-names>SF</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Chowbay</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Polymorphism of human cytochrome P450 enzymes and its clinical impact.</article-title>
+            <source>Drug Metab Rev</source>
+            <year>2009</year>
+            <volume>41</volume>
+            <issue>2</issue>
+            <fpage>89</fpage>
+            <page-range>89-295</page-range>
+            <pub-id pub-id-type="pmid">19514967</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Milojkovic</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Milacic</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Radovic</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Ljubisavljevic</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>MDR1 gene polymorphisms and P-glycoprotein expression in respiratory diseases.</article-title>
+            <source>Biomed Pap Med Fac Univ Palacky Olomouc Czech Repub</source>
+            <year>2015</year>
+            <month>Sep</month>
+            <volume>159</volume>
+            <issue>3</issue>
+            <fpage>341</fpage>
+            <page-range>341-6</page-range>
+            <pub-id pub-id-type="pmid">24993742</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Leong</surname>
+                <given-names>IUS</given-names>
+              </name>
+              <name>
+                <surname>Cabrera</surname>
+                <given-names>CP</given-names>
+              </name>
+              <name>
+                <surname>Cipriani</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Ross</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name>
+                <surname>Turner</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Stuckey</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Sanghvi</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Pasko</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Moutsianas</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Odhams</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Elgar</surname>
+                <given-names>GS</given-names>
+              </name>
+              <name>
+                <surname>Chan</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Giess</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Walker</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Foulger</surname>
+                <given-names>RE</given-names>
+              </name>
+              <name>
+                <surname>Williams</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name>
+                <surname>Daugherty</surname>
+                <given-names>LC</given-names>
+              </name>
+              <name>
+                <surname>Rueda-Martin</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Rhodes</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Niblock</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Pickard</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Marks</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Leigh</surname>
+                <given-names>SEA</given-names>
+              </name>
+              <name>
+                <surname>Welland</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Bleda</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Snow</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Deans</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Murugaesu</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Scott</surname>
+                <given-names>RH</given-names>
+              </name>
+              <name>
+                <surname>Barnes</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name>
+                <surname>Brown</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Rendon</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Hill</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Sosinsky</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Caulfield</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>McDonagh</surname>
+                <given-names>EM</given-names>
+              </name>
+            </person-group>
+            <article-title>Large-Scale Pharmacogenomics Analysis of Patients With Cancer Within the 100,000 Genomes Project Combining Whole-Genome Sequencing and Medical Records to Inform Clinical Practice.</article-title>
+            <source>J Clin Oncol</source>
+            <year>2025</year>
+            <month>Feb</month>
+            <day>20</day>
+            <volume>43</volume>
+            <issue>6</issue>
+            <fpage>682</fpage>
+            <page-range>682-693</page-range>
+            <pub-id pub-id-type="pmid">39481076</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Green</surname>
+                <given-names>RF</given-names>
+              </name>
+              <name>
+                <surname>Stoler</surname>
+                <given-names>JM</given-names>
+              </name>
+            </person-group>
+            <article-title>Alcohol dehydrogenase 1B genotype and fetal alcohol syndrome: a HuGE minireview.</article-title>
+            <source>Am J Obstet Gynecol</source>
+            <year>2007</year>
+            <month>Jul</month>
+            <volume>197</volume>
+            <issue>1</issue>
+            <fpage>12</fpage>
+            <page-range>12-25</page-range>
+            <pub-id pub-id-type="pmid">17618743</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Seitz</surname>
+                <given-names>HK</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>XD</given-names>
+              </name>
+            </person-group>
+            <article-title>The role of cytochrome P450 2E1 in ethanol-mediated carcinogenesis.</article-title>
+            <source>Subcell Biochem</source>
+            <year>2013</year>
+            <volume>67</volume>
+            <fpage>131</fpage>
+            <page-range>131-43</page-range>
+            <pub-id pub-id-type="pmid">23400919</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cantiello</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Carletti</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Giantin</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gardini</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Capolongo</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Cascio</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Pauletto</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Girolami</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Dacasto</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Nebbia</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Induction by Phenobarbital of Phase I and II Xenobiotic-Metabolizing Enzymes in Bovine Liver: An Overall Catalytic and Immunochemical Characterization.</article-title>
+            <source>Int J Mol Sci</source>
+            <year>2022</year>
+            <month>Mar</month>
+            <day>24</day>
+            <volume>23</volume>
+            <issue>7</issue>
+            <pub-id pub-id-type="pmid">35408925</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chilakapati</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Korrapati</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Shankar</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Hill</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Warbritton</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Latendresse</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Mehendale</surname>
+                <given-names>HM</given-names>
+              </name>
+            </person-group>
+            <article-title>Role of CYP2E1 and saturation kinetics in the bioactivation of thioacetamide: Effects of diet restriction and phenobarbital.</article-title>
+            <source>Toxicol Appl Pharmacol</source>
+            <year>2007</year>
+            <month>Feb</month>
+            <day>15</day>
+            <volume>219</volume>
+            <issue>1</issue>
+            <fpage>72</fpage>
+            <page-range>72-84</page-range>
+            <pub-id pub-id-type="pmid">17234228</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Li</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Pain</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Fabbri</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Wong</surname>
+                <given-names>WLE</given-names>
+              </name>
+              <name>
+                <surname>Lo</surname>
+                <given-names>CWH</given-names>
+              </name>
+              <name>
+                <surname>Ripke</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Cattaneo</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Souery</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Dernovsek</surname>
+                <given-names>MZ</given-names>
+              </name>
+              <name>
+                <surname>Henigsberg</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Hauser</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Lewis</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Mors</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Perroud</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Rietschel</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Uher</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Maier</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Baune</surname>
+                <given-names>BT</given-names>
+              </name>
+              <name>
+                <surname>Biernacka</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Bondolfi</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Domschke</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Kato</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>YL</given-names>
+              </name>
+              <name>
+                <surname>Serretti</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Tsai</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <name>
+                <surname>Weinshilboum</surname>
+                <given-names>R</given-names>
+              </name>
+              <collab>GSRD Consortium</collab>
+              <collab>Major Depressive Disorder Working Group of the Psychiatric Genomics Consortium</collab>
+              <name>
+                <surname>McIntosh</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Lewis</surname>
+                <given-names>CM</given-names>
+              </name>
+            </person-group>
+            <article-title>Meta-analysis of CYP2C19 and CYP2D6 metabolic activity on antidepressant response from 13 clinical studies using genotype imputation.</article-title>
+            <source>medRxiv</source>
+            <year>2023</year>
+            <month>Dec</month>
+            <day>11</day>
+            <pub-id pub-id-type="pmid">37425775</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nguyen</surname>
+                <given-names>JQ</given-names>
+              </name>
+              <name>
+                <surname>Crews</surname>
+                <given-names>KR</given-names>
+              </name>
+              <name>
+                <surname>Moore</surname>
+                <given-names>BT</given-names>
+              </name>
+              <name>
+                <surname>Kornegay</surname>
+                <given-names>NM</given-names>
+              </name>
+              <name>
+                <surname>Baker</surname>
+                <given-names>DK</given-names>
+              </name>
+              <name>
+                <surname>Hasan</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Campbell</surname>
+                <given-names>PK</given-names>
+              </name>
+              <name>
+                <surname>Dean</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Relling</surname>
+                <given-names>MV</given-names>
+              </name>
+              <name>
+                <surname>Hoffman</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Haidar</surname>
+                <given-names>CE</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinician adherence to pharmacogenomics prescribing recommendations in clinical decision support alerts.</article-title>
+            <source>J Am Med Inform Assoc</source>
+            <year>2022</year>
+            <month>Dec</month>
+            <day>13</day>
+            <volume>30</volume>
+            <issue>1</issue>
+            <fpage>132</fpage>
+            <page-range>132-138</page-range>
+            <pub-id pub-id-type="pmid">36228116</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lima</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Thomas</surname>
+                <given-names>CD</given-names>
+              </name>
+              <name>
+                <surname>Barbarino</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Desta</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Van Driest</surname>
+                <given-names>SL</given-names>
+              </name>
+              <name>
+                <surname>El Rouby</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Johnson</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Cavallari</surname>
+                <given-names>LH</given-names>
+              </name>
+              <name>
+                <surname>Shakhnovich</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Thacker</surname>
+                <given-names>DL</given-names>
+              </name>
+              <name>
+                <surname>Scott</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Schwab</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Uppugunduri</surname>
+                <given-names>CRS</given-names>
+              </name>
+              <name>
+                <surname>Formea</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name>
+                <surname>Franciosi</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Sangkuhl</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Gaedigk</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Klein</surname>
+                <given-names>TE</given-names>
+              </name>
+              <name>
+                <surname>Gammal</surname>
+                <given-names>RS</given-names>
+              </name>
+              <name>
+                <surname>Furuta</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical Pharmacogenetics Implementation Consortium (CPIC) Guideline for CYP2C19 and Proton Pump Inhibitor Dosing.</article-title>
+            <source>Clin Pharmacol Ther</source>
+            <year>2021</year>
+            <month>Jun</month>
+            <volume>109</volume>
+            <issue>6</issue>
+            <fpage>1417</fpage>
+            <page-range>1417-1423</page-range>
+            <pub-id pub-id-type="pmid">32770672</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kim</surname>
+                <given-names>SH</given-names>
+              </name>
+              <name>
+                <surname>Byeon</surname>
+                <given-names>JY</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>YH</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>YJ</given-names>
+              </name>
+              <name>
+                <surname>Jang</surname>
+                <given-names>CG</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>SY</given-names>
+              </name>
+            </person-group>
+            <article-title>Physiologically based pharmacokinetic modelling of atomoxetine with regard to CYP2D6 genotypes.</article-title>
+            <source>Sci Rep</source>
+            <year>2018</year>
+            <month>Aug</month>
+            <day>17</day>
+            <volume>8</volume>
+            <issue>1</issue>
+            <fpage>12405</fpage>
+            <pub-id pub-id-type="pmid">30120390</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Brown</surname>
+                <given-names>JT</given-names>
+              </name>
+              <name>
+                <surname>Bishop</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Sangkuhl</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Nurmi</surname>
+                <given-names>EL</given-names>
+              </name>
+              <name>
+                <surname>Mueller</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Dinh</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>Gaedigk</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Klein</surname>
+                <given-names>TE</given-names>
+              </name>
+              <name>
+                <surname>Caudle</surname>
+                <given-names>KE</given-names>
+              </name>
+              <name>
+                <surname>McCracken</surname>
+                <given-names>JT</given-names>
+              </name>
+              <name>
+                <surname>de Leon</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Leeder</surname>
+                <given-names>JS</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical Pharmacogenetics Implementation Consortium Guideline for Cytochrome P450 (CYP)2D6 Genotype and Atomoxetine Therapy.</article-title>
+            <source>Clin Pharmacol Ther</source>
+            <year>2019</year>
+            <month>Jul</month>
+            <volume>106</volume>
+            <issue>1</issue>
+            <fpage>94</fpage>
+            <page-range>94-102</page-range>
+            <pub-id pub-id-type="pmid">30801677</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Crews</surname>
+                <given-names>KR</given-names>
+              </name>
+              <name>
+                <surname>Monte</surname>
+                <given-names>AA</given-names>
+              </name>
+              <name>
+                <surname>Huddart</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Caudle</surname>
+                <given-names>KE</given-names>
+              </name>
+              <name>
+                <surname>Kharasch</surname>
+                <given-names>ED</given-names>
+              </name>
+              <name>
+                <surname>Gaedigk</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Dunnenberger</surname>
+                <given-names>HM</given-names>
+              </name>
+              <name>
+                <surname>Leeder</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Callaghan</surname>
+                <given-names>JT</given-names>
+              </name>
+              <name>
+                <surname>Samer</surname>
+                <given-names>CF</given-names>
+              </name>
+              <name>
+                <surname>Klein</surname>
+                <given-names>TE</given-names>
+              </name>
+              <name>
+                <surname>Haidar</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name>
+                <surname>Van Driest</surname>
+                <given-names>SL</given-names>
+              </name>
+              <name>
+                <surname>Ruano</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Sangkuhl</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Cavallari</surname>
+                <given-names>LH</given-names>
+              </name>
+              <name>
+                <surname>M&#x000fc;ller</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Prows</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Nagy</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Somogyi</surname>
+                <given-names>AA</given-names>
+              </name>
+              <name>
+                <surname>Skaar</surname>
+                <given-names>TC</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical Pharmacogenetics Implementation Consortium Guideline for CYP2D6, OPRM1, and COMT Genotypes and Select Opioid Therapy.</article-title>
+            <source>Clin Pharmacol Ther</source>
+            <year>2021</year>
+            <month>Oct</month>
+            <volume>110</volume>
+            <issue>4</issue>
+            <fpage>888</fpage>
+            <page-range>888-896</page-range>
+            <pub-id pub-id-type="pmid">33387367</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zhou</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Lauschke</surname>
+                <given-names>VM</given-names>
+              </name>
+            </person-group>
+            <article-title>The genetic landscape of major drug metabolizing cytochrome P450 genes-an updated analysis of population-scale sequencing data.</article-title>
+            <source>Pharmacogenomics J</source>
+            <year>2022</year>
+            <month>Dec</month>
+            <volume>22</volume>
+            <issue>5-6</issue>
+            <fpage>284</fpage>
+            <page-range>284-293</page-range>
+            <pub-id pub-id-type="pmid">36068297</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zhou</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Dagli Hernandez</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Lauschke</surname>
+                <given-names>VM</given-names>
+              </name>
+            </person-group>
+            <article-title>Population-scale predictions of DPD and TPMT phenotypes using a quantitative pharmacogene-specific ensemble classifier.</article-title>
+            <source>Br J Cancer</source>
+            <year>2020</year>
+            <month>Dec</month>
+            <volume>123</volume>
+            <issue>12</issue>
+            <fpage>1782</fpage>
+            <page-range>1782-1789</page-range>
+            <pub-id pub-id-type="pmid">32973300</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>de Moraes</surname>
+                <given-names>FCA</given-names>
+              </name>
+              <name>
+                <surname>de Almeida Barbosa</surname>
+                <given-names>AB</given-names>
+              </name>
+              <name>
+                <surname>Sano</surname>
+                <given-names>VKT</given-names>
+              </name>
+              <name>
+                <surname>Kelly</surname>
+                <given-names>FA</given-names>
+              </name>
+              <name>
+                <surname>Burbano</surname>
+                <given-names>RMR</given-names>
+              </name>
+            </person-group>
+            <article-title>Pharmacogenetics of DPYD and treatment-related mortality on fluoropyrimidine chemotherapy for cancer patients: a meta-analysis and trial sequential analysis.</article-title>
+            <source>BMC Cancer</source>
+            <year>2024</year>
+            <month>Sep</month>
+            <day>30</day>
+            <volume>24</volume>
+            <issue>1</issue>
+            <fpage>1210</fpage>
+            <pub-id pub-id-type="pmid">39350200</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bad&#x000e9;e</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Qiu</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Collier</surname>
+                <given-names>AC</given-names>
+              </name>
+              <name>
+                <surname>Takahashi</surname>
+                <given-names>RH</given-names>
+              </name>
+              <name>
+                <surname>Forrest</surname>
+                <given-names>WF</given-names>
+              </name>
+              <name>
+                <surname>Parrott</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Schmidt</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Fowler</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Characterization of the Ontogeny of Hepatic UDP-Glucuronosyltransferase Enzymes Based on Glucuronidation Activity Measured in Human Liver Microsomes.</article-title>
+            <source>J Clin Pharmacol</source>
+            <year>2019</year>
+            <month>Sep</month>
+            <volume>59 Suppl 1</volume>
+            <fpage>S42</fpage>
+            <page-range>S42-S55</page-range>
+            <pub-id pub-id-type="pmid">31502688</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rozenblit</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Lustberg</surname>
+                <given-names>MB</given-names>
+              </name>
+            </person-group>
+            <article-title>Sacituzumab govitecan: ascending the treatment algorithm in triple negative breast cancer.</article-title>
+            <source>Ann Transl Med</source>
+            <year>2022</year>
+            <month>Apr</month>
+            <volume>10</volume>
+            <issue>7</issue>
+            <fpage>390</fpage>
+            <pub-id pub-id-type="pmid">35530962</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lee</surname>
+                <given-names>YM</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>YH</given-names>
+              </name>
+              <name>
+                <surname>Ou</surname>
+                <given-names>DL</given-names>
+              </name>
+              <name>
+                <surname>Hsu</surname>
+                <given-names>CL</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Ko</surname>
+                <given-names>JY</given-names>
+              </name>
+              <name>
+                <surname>Hu</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Tan</surname>
+                <given-names>CT</given-names>
+              </name>
+            </person-group>
+            <article-title>SN-38, an active metabolite of irinotecan, enhances anti-PD-1 treatment efficacy in head and neck squamous cell carcinoma.</article-title>
+            <source>J Pathol</source>
+            <year>2023</year>
+            <month>Apr</month>
+            <volume>259</volume>
+            <issue>4</issue>
+            <fpage>428</fpage>
+            <page-range>428-440</page-range>
+            <pub-id pub-id-type="pmid">36641765</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Negoro</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Yano</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Yoshimura</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Suehiro</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Yamashita</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Kodawara</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Watanabe</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Tsukamoto</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Nakamura</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Kadowaki</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Morikawa</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Umeda</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Anzai</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ishizuka</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Goto</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Influence of UGT1A1 polymorphism on etoposide plus platinum-induced neutropenia in Japanese patients with small-cell lung cancer.</article-title>
+            <source>Int J Clin Oncol</source>
+            <year>2019</year>
+            <month>Mar</month>
+            <volume>24</volume>
+            <issue>3</issue>
+            <fpage>256</fpage>
+            <page-range>256-261</page-range>
+            <pub-id pub-id-type="pmid">30328531</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yagura</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Watanabe</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Kushida</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Tomishima</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Togami</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Hirano</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Takahashi</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Hirota</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Ikuma</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kasai</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Nishida</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Yoshino</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Yamazaki</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Uehira</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Shirasaka</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Impact of UGT1A1 gene polymorphisms on plasma dolutegravir trough concentrations and neuropsychiatric adverse events in Japanese individuals infected with HIV-1.</article-title>
+            <source>BMC Infect Dis</source>
+            <year>2017</year>
+            <month>Sep</month>
+            <day>16</day>
+            <volume>17</volume>
+            <issue>1</issue>
+            <fpage>622</fpage>
+            <pub-id pub-id-type="pmid">28915895</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Patel</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Xue</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>King</surname>
+                <given-names>KS</given-names>
+              </name>
+              <name>
+                <surname>Parham</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Ford</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lou</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Bakshi</surname>
+                <given-names>KK</given-names>
+              </name>
+              <name>
+                <surname>Sutton</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Margolis</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Hughes</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name>
+                <surname>Spreen</surname>
+                <given-names>WR</given-names>
+              </name>
+            </person-group>
+            <article-title>Evaluation of the effect of UGT1A1 polymorphisms on the pharmacokinetics of oral and long-acting injectable cabotegravir.</article-title>
+            <source>J Antimicrob Chemother</source>
+            <year>2020</year>
+            <month>Aug</month>
+            <day>01</day>
+            <volume>75</volume>
+            <issue>8</issue>
+            <fpage>2240</fpage>
+            <page-range>2240-2248</page-range>
+            <pub-id pub-id-type="pmid">32361755</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>DiNardo</surname>
+                <given-names>CD</given-names>
+              </name>
+              <name>
+                <surname>Venugopal</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lachowiez</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Takahashi</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Loghavi</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Montalban-Bravo</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Carraway</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Sekeres</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Sukkur</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Hammond</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Chien</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Maiti</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Masarova</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Sasaki</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Alvarado</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Kadia</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Short</surname>
+                <given-names>NJ</given-names>
+              </name>
+              <name>
+                <surname>Daver</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Borthakur</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Ravandi</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Kantarjian</surname>
+                <given-names>HM</given-names>
+              </name>
+              <name>
+                <surname>Patel</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Dezern</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Roboz</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Garcia-Manero</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Targeted therapy with the mutant IDH2 inhibitor enasidenib for high-risk IDH2-mutant myelodysplastic syndrome.</article-title>
+            <source>Blood Adv</source>
+            <year>2023</year>
+            <month>Jun</month>
+            <day>13</day>
+            <volume>7</volume>
+            <issue>11</issue>
+            <fpage>2378</fpage>
+            <page-range>2378-2387</page-range>
+            <pub-id pub-id-type="pmid">35973199</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Leung</surname>
+                <given-names>JS</given-names>
+              </name>
+            </person-group>
+            <article-title>Adjuvant S-1 chemotherapy after curative resection of gastric cancer.</article-title>
+            <source>Hong Kong Med J</source>
+            <year>2017</year>
+            <month>Jun</month>
+            <volume>23</volume>
+            <issue>3</issue>
+            <fpage>315</fpage>
+            <pub-id pub-id-type="pmid">28572524</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r31">
+          <label>31</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Dean</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Kane</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Fluorouracil Therapy and <italic>DPYD</italic> Genotype</chapter-title>
+            <person-group person-group-type="editor">
+              <name>
+                <surname>Pratt</surname>
+                <given-names>VM</given-names>
+              </name>
+              <name>
+                <surname>Scott</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Pirmohamed</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Esquivel</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Kattman</surname>
+                <given-names>BL</given-names>
+              </name>
+              <name>
+                <surname>Malheiro</surname>
+                <given-names>AJ</given-names>
+              </name>
+            </person-group>
+            <source>Medical Genetics Summaries [Internet]</source>
+            <publisher-name>National Center for Biotechnology Information (US)</publisher-name>
+            <publisher-loc>Bethesda (MD)</publisher-loc>
+            <year>2016</year>
+            <month>11</month>
+            <day>3</day>
+            <pub-id pub-id-type="pmid">28520376</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r32">
+          <label>32</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Dean</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Kane</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Capecitabine Therapy and <italic>DPYD</italic> Genotype</chapter-title>
+            <person-group person-group-type="editor">
+              <name>
+                <surname>Pratt</surname>
+                <given-names>VM</given-names>
+              </name>
+              <name>
+                <surname>Scott</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Pirmohamed</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Esquivel</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Kattman</surname>
+                <given-names>BL</given-names>
+              </name>
+              <name>
+                <surname>Malheiro</surname>
+                <given-names>AJ</given-names>
+              </name>
+            </person-group>
+            <source>Medical Genetics Summaries [Internet]</source>
+            <publisher-name>National Center for Biotechnology Information (US)</publisher-name>
+            <publisher-loc>Bethesda (MD)</publisher-loc>
+            <year>2016</year>
+            <month>9</month>
+            <day>15</day>
+            <pub-id pub-id-type="pmid">28520372</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kobayakawa</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kojima</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>Tegafur/gimeracil/oteracil (S-1) approved for the treatment of advanced gastric cancer in adults when given in combination with cisplatin: a review comparing it with other fluoropyrimidine-based therapies.</article-title>
+            <source>Onco Targets Ther</source>
+            <year>2011</year>
+            <volume>4</volume>
+            <fpage>193</fpage>
+            <page-range>193-201</page-range>
+            <pub-id pub-id-type="pmid">22162925</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hamaji</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Takeuchi</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Ozu</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Miyata</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Yamanashi</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Kawaguchi</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Hosono</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Adjuvant Therapy in Stage IB Non-Small Cell Lung Cancer: A Network Meta-Analysis of Tegafur-Uracil and Immune Checkpoint Inhibitors.</article-title>
+            <source>Semin Thorac Cardiovasc Surg</source>
+            <string-date>2025 Summer</string-date>
+            <volume>37</volume>
+            <issue>2</issue>
+            <fpage>210</fpage>
+            <page-range>210-216</page-range>
+            <pub-id pub-id-type="pmid">40254042</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kazmi</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Shrestha</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>TFD</given-names>
+              </name>
+              <name>
+                <surname>Foord</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Heesen</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Booth</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Dodwell</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Lord</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Yeoh</surname>
+                <given-names>KW</given-names>
+              </name>
+              <name>
+                <surname>Blagden</surname>
+                <given-names>SP</given-names>
+              </name>
+            </person-group>
+            <article-title>Next-generation sequencing for guiding matched targeted therapies in people with relapsed or metastatic cancer.</article-title>
+            <source>Cochrane Database Syst Rev</source>
+            <year>2025</year>
+            <month>Mar</month>
+            <day>24</day>
+            <volume>3</volume>
+            <issue>3</issue>
+            <fpage>CD014872</fpage>
+            <pub-id pub-id-type="pmid">40122129</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yu</surname>
+                <given-names>KH</given-names>
+              </name>
+              <name>
+                <surname>Yu</surname>
+                <given-names>CY</given-names>
+              </name>
+              <name>
+                <surname>Fang</surname>
+                <given-names>YF</given-names>
+              </name>
+            </person-group>
+            <article-title>Diagnostic utility of HLA-B*5801 screening in severe allopurinol hypersensitivity syndrome: an updated systematic review and meta-analysis.</article-title>
+            <source>Int J Rheum Dis</source>
+            <year>2017</year>
+            <month>Sep</month>
+            <volume>20</volume>
+            <issue>9</issue>
+            <fpage>1057</fpage>
+            <page-range>1057-1071</page-range>
+            <pub-id pub-id-type="pmid">28857441</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Saito</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Stamp</surname>
+                <given-names>LK</given-names>
+              </name>
+              <name>
+                <surname>Caudle</surname>
+                <given-names>KE</given-names>
+              </name>
+              <name>
+                <surname>Hershfield</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>McDonagh</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name>
+                <surname>Callaghan</surname>
+                <given-names>JT</given-names>
+              </name>
+              <name>
+                <surname>Tassaneeyakul</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Mushiroda</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Kamatani</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Goldspiel</surname>
+                <given-names>BR</given-names>
+              </name>
+              <name>
+                <surname>Phillips</surname>
+                <given-names>EJ</given-names>
+              </name>
+              <name>
+                <surname>Klein</surname>
+                <given-names>TE</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>MT</given-names>
+              </name>
+              <collab>Clinical Pharmacogenetics Implementation Consortium</collab>
+            </person-group>
+            <article-title>Clinical Pharmacogenetics Implementation Consortium (CPIC) guidelines for human leukocyte antigen B (HLA-B) genotype and allopurinol dosing: 2015 update.</article-title>
+            <source>Clin Pharmacol Ther</source>
+            <year>2016</year>
+            <month>Jan</month>
+            <volume>99</volume>
+            <issue>1</issue>
+            <fpage>36</fpage>
+            <page-range>36-7</page-range>
+            <pub-id pub-id-type="pmid">26094938</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chua</surname>
+                <given-names>HM</given-names>
+              </name>
+              <name>
+                <surname>Limenta</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ng</surname>
+                <given-names>CYL</given-names>
+              </name>
+              <name>
+                <surname>Lo</surname>
+                <given-names>EAG</given-names>
+              </name>
+            </person-group>
+            <article-title>Implementation of HLA-related genotype-guided prescribing in Singapore.</article-title>
+            <source>Am J Health Syst Pharm</source>
+            <year>2025</year>
+            <month>Feb</month>
+            <day>20</day>
+            <volume>82</volume>
+            <issue>5</issue>
+            <fpage>e285</fpage>
+            <page-range>e285-e293</page-range>
+            <pub-id pub-id-type="pmid">39405418</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jiang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Wen</surname>
+                <given-names>GA</given-names>
+              </name>
+            </person-group>
+            <article-title>Deciphering gene mutations in the efficacy and toxicity of antineoplastic drugs: an oncology pharmacist's perspective.</article-title>
+            <source>Front Pharmacol</source>
+            <year>2025</year>
+            <volume>16</volume>
+            <fpage>1574010</fpage>
+            <pub-id pub-id-type="pmid">40183077</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Azimi</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Jafariyan</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Khatami</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Mortazavi</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Azad</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Assessment of Thiopurine-based drugs according to Thiopurine S-methyltransferase genotype in patients with Acute Lymphoblastic Leukemia.</article-title>
+            <source>Iran J Ped Hematol Oncol</source>
+            <year>2014</year>
+            <volume>4</volume>
+            <issue>1</issue>
+            <fpage>32</fpage>
+            <page-range>32-8</page-range>
+            <pub-id pub-id-type="pmid">24734162</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Alam</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Locher</surname>
+                <given-names>KP</given-names>
+              </name>
+            </person-group>
+            <article-title>Structure and Mechanism of Human ABC Transporters.</article-title>
+            <source>Annu Rev Biophys</source>
+            <year>2023</year>
+            <month>May</month>
+            <day>09</day>
+            <volume>52</volume>
+            <fpage>275</fpage>
+            <page-range>275-300</page-range>
+            <pub-id pub-id-type="pmid">36737602</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Krivulcik</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Sedlak</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Bartosova</surname>
+                <given-names>Z</given-names>
+              </name>
+            </person-group>
+            <article-title>Frequency of the three most common polymorphisms in the MDR1 gene in Slovak population.</article-title>
+            <source>Neoplasma</source>
+            <year>2009</year>
+            <volume>56</volume>
+            <issue>2</issue>
+            <fpage>101</fpage>
+            <page-range>101-7</page-range>
+            <pub-id pub-id-type="pmid">19239322</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Umamaheswaran</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Krishna Kumar</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Kayathiri</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Rajan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Shewade</surname>
+                <given-names>DG</given-names>
+              </name>
+              <name>
+                <surname>Dkhar</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Manjunath</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Ushakiran</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Reneega</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Ritushree</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Adithan</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Inter and intra-ethnic differences in the distribution of the molecular variants of TPMT, UGT1A1 and MDR1 genes in the South Indian population.</article-title>
+            <source>Mol Biol Rep</source>
+            <year>2012</year>
+            <month>May</month>
+            <volume>39</volume>
+            <issue>5</issue>
+            <fpage>6343</fpage>
+            <page-range>6343-51</page-range>
+            <pub-id pub-id-type="pmid">22318545</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bloch</surname>
+                <given-names>KM</given-names>
+              </name>
+              <name>
+                <surname>Sills</surname>
+                <given-names>GJ</given-names>
+              </name>
+              <name>
+                <surname>Pirmohamed</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Alfirevic</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Pharmacogenetics of antiepileptic drug-induced hypersensitivity.</article-title>
+            <source>Pharmacogenomics</source>
+            <year>2014</year>
+            <month>Apr</month>
+            <volume>15</volume>
+            <issue>6</issue>
+            <fpage>857</fpage>
+            <page-range>857-68</page-range>
+            <pub-id pub-id-type="pmid">24897291</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wang</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Sun</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Deng</surname>
+                <given-names>YS</given-names>
+              </name>
+              <name>
+                <surname>Qiu</surname>
+                <given-names>XW</given-names>
+              </name>
+            </person-group>
+            <article-title>Effects of MDR1 1236C&#x02009;&#x0003e;&#x02009;T-2677G&#x02009;&#x0003e;&#x02009;T-3435C&#x02009;&#x0003e;&#x02009;T polymorphisms on the intracellular accumulation of tacrolimus, cyclosporine A, sirolimus and everolimus.</article-title>
+            <source>Xenobiotica</source>
+            <year>2019</year>
+            <month>Nov</month>
+            <volume>49</volume>
+            <issue>11</issue>
+            <fpage>1373</fpage>
+            <page-range>1373-1378</page-range>
+            <pub-id pub-id-type="pmid">30587068</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r46">
+          <label>46</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yano</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Tomono</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Ogihara</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Advances in Studies of P-Glycoprotein and Its Expression Regulators.</article-title>
+            <source>Biol Pharm Bull</source>
+            <year>2018</year>
+            <volume>41</volume>
+            <issue>1</issue>
+            <fpage>11</fpage>
+            <page-range>11-19</page-range>
+            <pub-id pub-id-type="pmid">29311472</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r47">
+          <label>47</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Roth</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Obaidat</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Hagenbuch</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>OATPs, OATs and OCTs: the organic anion and cation transporters of the SLCO and SLC22A gene superfamilies.</article-title>
+            <source>Br J Pharmacol</source>
+            <year>2012</year>
+            <month>Mar</month>
+            <volume>165</volume>
+            <issue>5</issue>
+            <fpage>1260</fpage>
+            <page-range>1260-87</page-range>
+            <pub-id pub-id-type="pmid">22013971</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r48">
+          <label>48</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kim</surname>
+                <given-names>YN</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>YJ</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Sohn</surname>
+                <given-names>JY</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>JY</given-names>
+              </name>
+              <name>
+                <surname>Choi</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Jung</surname>
+                <given-names>SG</given-names>
+              </name>
+              <name>
+                <surname>Joo</surname>
+                <given-names>WD</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Identification of Lynch Syndrome in Patients with Endometrial Cancer Based on a Germline Next Generation Sequencing Multigene Panel Test.</article-title>
+            <source>Cancers (Basel)</source>
+            <year>2022</year>
+            <month>Jul</month>
+            <day>13</day>
+            <volume>14</volume>
+            <issue>14</issue>
+            <pub-id pub-id-type="pmid">35884469</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r49">
+          <label>49</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>McFeely</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <name>
+                <surname>Ritchie</surname>
+                <given-names>TK</given-names>
+              </name>
+              <name>
+                <surname>Ragueneau-Majlessi</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <article-title>Variability in In Vitro OATP1B1/1B3 Inhibition Data: Impact of Incubation Conditions on Variability and Subsequent Drug Interaction Predictions.</article-title>
+            <source>Clin Transl Sci</source>
+            <year>2020</year>
+            <month>Jan</month>
+            <volume>13</volume>
+            <issue>1</issue>
+            <fpage>47</fpage>
+            <page-range>47-52</page-range>
+            <pub-id pub-id-type="pmid">31468718</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r50">
+          <label>50</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Clark</surname>
+                <given-names>SB</given-names>
+              </name>
+              <name>
+                <surname>Hicks</surname>
+                <given-names>MA</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Staphylococcal Pneumonia</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2023</year>
+            <month>8</month>
+            <day>8</day>
+            <pub-id pub-id-type="pmid">32644578</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r51">
+          <label>51</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Macesic</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Blakeway</surname>
+                <given-names>LV</given-names>
+              </name>
+              <name>
+                <surname>Stewart</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Hawkey</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Wyres</surname>
+                <given-names>KL</given-names>
+              </name>
+              <name>
+                <surname>Judd</surname>
+                <given-names>LM</given-names>
+              </name>
+              <name>
+                <surname>Wick</surname>
+                <given-names>RR</given-names>
+              </name>
+              <name>
+                <surname>Jenney</surname>
+                <given-names>AW</given-names>
+              </name>
+              <name>
+                <surname>Holt</surname>
+                <given-names>KE</given-names>
+              </name>
+              <name>
+                <surname>Peleg</surname>
+                <given-names>AY</given-names>
+              </name>
+            </person-group>
+            <article-title>Silent spread of mobile colistin resistance gene mcr-9.1 on IncHI2 'superplasmids' in clinical carbapenem-resistant Enterobacterales.</article-title>
+            <source>Clin Microbiol Infect</source>
+            <year>2021</year>
+            <month>Dec</month>
+            <volume>27</volume>
+            <issue>12</issue>
+            <fpage>1856.e7</fpage>
+            <page-range>1856.e7-1856.e13</page-range>
+            <pub-id pub-id-type="pmid">33915285</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r52">
+          <label>52</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kunze</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Moerer</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Steinmetz</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Schulze</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Quintel</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Perl</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Point-of-care multiplex PCR promises short turnaround times for microbial testing in hospital-acquired pneumonia--an observational pilot study in critical ill patients.</article-title>
+            <source>Ann Clin Microbiol Antimicrob</source>
+            <year>2015</year>
+            <month>Jun</month>
+            <day>13</day>
+            <volume>14</volume>
+            <fpage>33</fpage>
+            <pub-id pub-id-type="pmid">26071191</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r53">
+          <label>53</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Thacharodi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Lamont</surname>
+                <given-names>IL</given-names>
+              </name>
+            </person-group>
+            <article-title>Aminoglycoside-Modifying Enzymes Are Sufficient to Make <italic>Pseudomonas aeruginosa</italic> Clinically Resistant to Key Antibiotics.</article-title>
+            <source>Antibiotics (Basel)</source>
+            <year>2022</year>
+            <month>Jul</month>
+            <day>01</day>
+            <volume>11</volume>
+            <issue>7</issue>
+            <pub-id pub-id-type="pmid">35884138</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r54">
+          <label>54</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bong</surname>
+                <given-names>CW</given-names>
+              </name>
+              <name>
+                <surname>Low</surname>
+                <given-names>KY</given-names>
+              </name>
+              <name>
+                <surname>Chai</surname>
+                <given-names>LC</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>CW</given-names>
+              </name>
+            </person-group>
+            <article-title>Prevalence and Diversity of Antibiotic Resistant <italic>Escherichia coli</italic> From Anthropogenic-Impacted Larut River.</article-title>
+            <source>Front Public Health</source>
+            <year>2022</year>
+            <volume>10</volume>
+            <fpage>794513</fpage>
+            <pub-id pub-id-type="pmid">35356018</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r55">
+          <label>55</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>O'Connor</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Johnson</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Gerding</surname>
+                <given-names>DN</given-names>
+              </name>
+            </person-group>
+            <article-title>Clostridium difficile infection caused by the epidemic BI/NAP1/027 strain.</article-title>
+            <source>Gastroenterology</source>
+            <year>2009</year>
+            <month>May</month>
+            <volume>136</volume>
+            <issue>6</issue>
+            <fpage>1913</fpage>
+            <page-range>1913-24</page-range>
+            <pub-id pub-id-type="pmid">19457419</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r56">
+          <label>56</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Khasraw</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Walsh</surname>
+                <given-names>KM</given-names>
+              </name>
+              <name>
+                <surname>Heimberger</surname>
+                <given-names>AB</given-names>
+              </name>
+              <name>
+                <surname>Ashley</surname>
+                <given-names>DM</given-names>
+              </name>
+            </person-group>
+            <article-title>What is the Burden of Proof for Tumor Mutational Burden in gliomas?</article-title>
+            <source>Neuro Oncol</source>
+            <year>2020</year>
+            <month>Nov</month>
+            <day>30</day>
+            <volume>23</volume>
+            <issue>1</issue>
+            <fpage>17</fpage>
+            <page-range>17-22</page-range>
+            <pub-id pub-id-type="pmid">33252666</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r57">
+          <label>57</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cristescu</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Aurora-Garg</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Albright</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Xu</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>XQ</given-names>
+              </name>
+              <name>
+                <surname>Loboda</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Lang</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Jin</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Rubin</surname>
+                <given-names>EH</given-names>
+              </name>
+              <name>
+                <surname>Snyder</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Lunceford</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Tumor mutational burden predicts the efficacy of pembrolizumab monotherapy: a pan-tumor retrospective analysis of participants with advanced solid tumors.</article-title>
+            <source>J Immunother Cancer</source>
+            <year>2022</year>
+            <month>Jan</month>
+            <volume>10</volume>
+            <issue>1</issue>
+            <pub-id pub-id-type="pmid">35101941</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r58">
+          <label>58</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Manea</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Badiu</surname>
+                <given-names>DC</given-names>
+              </name>
+              <name>
+                <surname>Ploscaru</surname>
+                <given-names>IC</given-names>
+              </name>
+              <name>
+                <surname>Zgura</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Bacinschi</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Smarandache</surname>
+                <given-names>CG</given-names>
+              </name>
+              <name>
+                <surname>Serban</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Popescu</surname>
+                <given-names>CG</given-names>
+              </name>
+              <name>
+                <surname>Grigorean</surname>
+                <given-names>VT</given-names>
+              </name>
+              <name>
+                <surname>Botnarciuc</surname>
+                <given-names>V</given-names>
+              </name>
+            </person-group>
+            <article-title>A review of NTRK fusions in cancer.</article-title>
+            <source>Ann Med Surg (Lond)</source>
+            <year>2022</year>
+            <month>Jul</month>
+            <volume>79</volume>
+            <fpage>103893</fpage>
+            <pub-id pub-id-type="pmid">35860155</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r59">
+          <label>59</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Iannantuono</surname>
+                <given-names>GM</given-names>
+              </name>
+              <name>
+                <surname>Riondino</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Sganga</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Rosenfeld</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Guerriero</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Carlucci</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Capotondi</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Torino</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Roselli</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>NTRK Gene Fusions in Solid Tumors and TRK Inhibitors: A Systematic Review of Case Reports and Case Series.</article-title>
+            <source>J Pers Med</source>
+            <year>2022</year>
+            <month>Nov</month>
+            <day>02</day>
+            <volume>12</volume>
+            <issue>11</issue>
+            <pub-id pub-id-type="pmid">36579526</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r60">
+          <label>60</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Venugopal</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Watts</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Olutasidenib: from bench to bedside.</article-title>
+            <source>Blood Adv</source>
+            <year>2023</year>
+            <month>Aug</month>
+            <day>22</day>
+            <volume>7</volume>
+            <issue>16</issue>
+            <fpage>4358</fpage>
+            <page-range>4358-4365</page-range>
+            <pub-id pub-id-type="pmid">37196640</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r61">
+          <label>61</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chen</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Wen</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Unveiling the role of O(6)-methylguanine-DNA methyltransferase in cancer therapy: insights into alkylators, pharmacogenomics, and others.</article-title>
+            <source>Front Oncol</source>
+            <year>2024</year>
+            <volume>14</volume>
+            <fpage>1424797</fpage>
+            <pub-id pub-id-type="pmid">39055560</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r62">
+          <label>62</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dupas</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Lauzier</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>McGraw</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>O-GlcNAcylation: the sweet side of epigenetics.</article-title>
+            <source>Epigenetics Chromatin</source>
+            <year>2023</year>
+            <month>Dec</month>
+            <day>14</day>
+            <volume>16</volume>
+            <issue>1</issue>
+            <fpage>49</fpage>
+            <pub-id pub-id-type="pmid">38093337</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r63">
+          <label>63</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Huang</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Guo</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Fu</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>KRAS mutation: from undruggable to druggable in cancer.</article-title>
+            <source>Signal Transduct Target Ther</source>
+            <year>2021</year>
+            <month>Nov</month>
+            <day>15</day>
+            <volume>6</volume>
+            <issue>1</issue>
+            <fpage>386</fpage>
+            <pub-id pub-id-type="pmid">34776511</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r64">
+          <label>64</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tong</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Medikonda</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Zhao</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Ma</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Yi</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Xie</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Choi</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Yu</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lin</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Dong</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Huang</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Jin</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Lim</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Yang</surname>
+                <given-names>X</given-names>
+              </name>
+            </person-group>
+            <article-title>ACT001 reduces the expression of PD-L1 by inhibiting the phosphorylation of STAT3 in glioblastoma.</article-title>
+            <source>Theranostics</source>
+            <year>2020</year>
+            <volume>10</volume>
+            <issue>13</issue>
+            <fpage>5943</fpage>
+            <page-range>5943-5956</page-range>
+            <pub-id pub-id-type="pmid">32483429</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r65">
+          <label>65</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Huo</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Zeng</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>HY</given-names>
+              </name>
+              <name>
+                <surname>Lian</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Zhou</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Moses</surname>
+                <given-names>EJ</given-names>
+              </name>
+              <name>
+                <surname>Geng</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Lin</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Zhu</surname>
+                <given-names>X</given-names>
+              </name>
+            </person-group>
+            <article-title>Phosphorylation of FOXN3 by NEK6 promotes pulmonary fibrosis through Smad signaling.</article-title>
+            <source>Nat Commun</source>
+            <year>2025</year>
+            <month>Feb</month>
+            <day>21</day>
+            <volume>16</volume>
+            <issue>1</issue>
+            <fpage>1865</fpage>
+            <pub-id pub-id-type="pmid">39984467</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r66">
+          <label>66</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cai</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gong</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Tang</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Shu</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Zhou</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>He</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Long</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Gan</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>Androgen-repressed lncRNA LINC01126 drives castration-resistant prostate cancer by regulating the switch between O-GlcNAcylation and phosphorylation of androgen receptor.</article-title>
+            <source>Clin Transl Med</source>
+            <year>2024</year>
+            <month>Jan</month>
+            <volume>14</volume>
+            <issue>1</issue>
+            <fpage>e1531</fpage>
+            <pub-id pub-id-type="pmid">38214432</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r67">
+          <label>67</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Johnson-Gray</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Shaffer</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Pandey</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Allareddy</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Franzen</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Pseudocholinesterase Deficiency in Ambulatory Surgery: A Case Report.</article-title>
+            <source>Cureus</source>
+            <year>2025</year>
+            <month>Mar</month>
+            <volume>17</volume>
+            <issue>3</issue>
+            <fpage>e80492</fpage>
+            <pub-id pub-id-type="pmid">40225489</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r68">
+          <label>68</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Qu</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Sch&#x000fc;rmann</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Roth&#x000e4;mel</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>D&#x000f6;rk</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Klintschar</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Genetic Association Study of Acetylcholinesterase (<italic>ACHE</italic>) and Butyrylcholinesterase (<italic>BCHE</italic>) Variants in Sudden Infant Death Syndrome (SIDS).</article-title>
+            <source>Genes (Basel)</source>
+            <year>2024</year>
+            <month>Dec</month>
+            <day>23</day>
+            <volume>15</volume>
+            <issue>12</issue>
+            <pub-id pub-id-type="pmid">39766923</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r69">
+          <label>69</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Haidar</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name>
+                <surname>Petry</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Oxencis</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Douglas</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Hoffman</surname>
+                <given-names>JM</given-names>
+              </name>
+            </person-group>
+            <article-title>ASHP Statement on the Pharmacist's Role in Clinical Pharmacogenomics.</article-title>
+            <source>Am J Health Syst Pharm</source>
+            <year>2022</year>
+            <month>Apr</month>
+            <day>01</day>
+            <volume>79</volume>
+            <issue>8</issue>
+            <fpage>704</fpage>
+            <page-range>704-707</page-range>
+            <pub-id pub-id-type="pmid">34487145</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161505.r70">
+          <label>70</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fragala</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Keogh</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Goldberg</surname>
+                <given-names>SE</given-names>
+              </name>
+              <name>
+                <surname>Lorenz</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Shaman</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical and economic outcomes of a pharmacogenomics-enriched comprehensive medication management program in a self-insured employee population.</article-title>
+            <source>Pharmacogenomics J</source>
+            <year>2024</year>
+            <month>Oct</month>
+            <day>02</day>
+            <volume>24</volume>
+            <issue>5</issue>
+            <fpage>30</fpage>
+            <pub-id pub-id-type="pmid">39358335</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

@@ -1,0 +1,3258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-63819" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Human Factors in Medical Simulation </title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Pruden</surname>
+            <given-names>Carla</given-names>
+          </name>
+          <aff>Connecticut Children's</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Beecham</surname>
+            <given-names>Gabriel B.</given-names>
+          </name>
+          <aff>Imperial College Healthcare NHS Trust</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Waseem</surname>
+            <given-names>Muhammad</given-names>
+          </name>
+          <aff>Weill Cornell Medicine New York and New York Medical College, Valhalla NY</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Carla Pruden declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Gabriel Beecham declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Muhammad Waseem declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>2</day>
+          <month>6</month>
+          <year>2025</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-63819.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Macroergonomics is the formal study of work systems.<xref ref-type="bibr" rid="article-63819.r1">[1]</xref><bold>&#x000a0;</bold>In&#x000a0;health care, the human-task/tool interface represents the microsystem. Individuals interacting as teams or organizations represent mesosystems, whereas more complex sociotechnical interactions&#x000a0;create&#x000a0;the macrosystem. Regardless of which sub-system is being evaluated, the systems approach to human factors and ergonomics (HFE) always clearly maps the interventions to the macrosystem.<xref ref-type="bibr" rid="article-63819.r2">[2]</xref> A core principle of HFE is the balance of work systems to the active and adaptive roles of those who work within them.<xref ref-type="bibr" rid="article-63819.r3">[3]</xref></p>
+        <p>Quality improvement (QI) initiatives frequently employ training to reduce human error when things have gone wrong. However, it is a common misconception that HFE strives to eliminate human error. The paradigms of HFE more accurately align with creating systems resilient to unanticipated events using a thoughtful design process. Understanding&#x000a0;the interaction between systems and behaviors supports the goal of optimizing systems so things go as right as possible. To this end, modifying tools and techniques creates more sustainable improvements in safety than behavior modification through training alone.<xref ref-type="bibr" rid="article-63819.r4">[4]</xref></p>
+      </sec>
+      <sec id="article-63819.s2" sec-type="Function">
+        <title>Function</title>
+        <p>From a healthcare perspective, the primary goal of HFE&#x000a0;is to&#x000a0;optimize&#x000a0;technology and care system&#x000a0;design to achieve productivity, safety, efficiency, and quality in the care delivery process.<xref ref-type="bibr" rid="article-63819.r4">[4]</xref><bold>&#x000a0;</bold>Secondarily, this discipline aims to enhance the well-being, encompassing experience, joy, satisfaction, health, and safety, of all individuals interacting with the system, including patients, staff, and visitors.<xref ref-type="bibr" rid="article-63819.r5">[5]</xref>&#x000a0;To this end, human-centered design is a recent addition to human factor&#x02013;based methodologies. When effectively applied, the following elements are demonstrated through this approach:&#x000a0;<xref ref-type="bibr" rid="article-63819.r1">[1]</xref></p>
+        <list list-type="bullet">
+          <list-item>
+            <p>A clear understanding&#x000a0;of all system components, such as users, tasks, and environments</p>
+          </list-item>
+          <list-item>
+            <p>End-user involvement throughout the process</p>
+          </list-item>
+          <list-item>
+            <p>Iterative&#x000a0;refinement</p>
+          </list-item>
+          <list-item>
+            <p>Reflective of&#x000a0;user-centered evaluation</p>
+          </list-item>
+          <list-item>
+            <p>Inclusion of the entire&#x000a0;user experience</p>
+          </list-item>
+          <list-item>
+            <p>Incorporation of multidisciplinary perspectives</p>
+          </list-item>
+        </list>
+        <p>Using mixed-methods research, healthcare simulation can provide a platform for evaluating the impact of organizational design, policies, or procedures&#x000a0;on individual or team performance and safety using a&#x000a0;human-centered design approach.<xref ref-type="bibr" rid="article-63819.r4">[4]</xref> Functional task alignment is achieved by matching the objectives of the simulation session to the delivery format, modality, and location. Human factor evaluation tools are incorporated into structured debriefing sessions to identify latent safety threats and elucidate model behaviors for future Plan-Do-Study-Act&#x000a0;cycles. This approach can replicate complex clinical situations while maintaining a safe environment for errors, reflection, and growth. As a result,&#x000a0;simulation is transformative in its ability to explore frameworks&#x000a0;and then test and embed improvements. When applied to key HFE focus areas, such as cognitive engineering,&#x000a0;heuristics and decision making,&#x000a0;communication,&#x000a0;perception and performance,&#x000a0;safety,&#x000a0;training, and usability, simulation creates the synergism necessary to effectively fit the system to the human.<xref ref-type="bibr" rid="article-63819.r1">[1]</xref></p>
+      </sec>
+      <sec id="article-63819.s3" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>A recent systematic review highlighted the effective use of simulation for training and evaluating human factor skills. This approach is especially beneficial in critical care settings and situations with high acuity and low occurrence.</p>
+        <p>Improvement has been demonstrated when human factor skills are taught in conjunction with technical skills, but it is most clearly aligned when human factor skills are taught by themselves. For optimal impact, future research endeavors should consistently be explicit in describing which behavioral markers are being assessed and with which instruments. Outcome validity is further supported when a multimodal educational design is paired with a blinded assessment of video-recorded performance. Recommendations also included expanding studies to include assessments of attention skills, day-to-day applications of human factor skills, and how exactly transfer to practice is being measured.<xref ref-type="bibr" rid="article-63819.r6">[6]</xref></p>
+        <p>Immersive learning environments such as those supported by artificial intelligence (AI) and virtual and augmented realities demonstrate significant potential to support human factor simulation with their ability to simulate realistic experiences in cyber environments or synchronized digital overlays in the authentic environment. To address limitations with simulating psychomotor skills, some developers have incorporated pseudo-haptics, where audio (drill sounds) and visual cues (cursor speed) create the illusion of expected kinesthetic cues. Others facilitate embodiment and potential skill transfer by combining pseudo-haptics with a virtual hand experienced in the first-person perspective. The addition of software platforms that offer self-authoring and low-coding scenario development has increased customizability for participants, decreasing the likelihood of learner disengagement with static or predictable scenarios. These advancements allow individualized deliberate practice in safe settings to support mastery of skill acquisition.<xref ref-type="bibr" rid="article-63819.r7">[7]</xref></p>
+        <p>In a study comparing an AI-powered tutoring system comprising audiovisual metric-based feedback with scripted debriefing (VOA) delivered through remote expert instruction, researchers examined instructional effectiveness, measured by simulated procedural completion, and participants' cognitive and affective responses. The personalized responsiveness of the VOA platform allowed a spectrum of learner levels to receive personalized formative feedback. Students in the VOA group were more aware of their metrics and goals, which enabled them to set measurable performance objectives and achieve higher expertise. Furthermore, although participants in the instructor-led group reported stronger positive deactivating emotions, this supportive learning environment did not result in more expert performance. Over the 13-week study period, the use of the AI system demonstrated a cost savings of 53 expert facilitator hours, with comparable Objective Structured Assessment of Technical Skills scores between the groups.<xref ref-type="bibr" rid="article-63819.r8">[8]</xref></p>
+        <p>AI-supported simulation enables individuals to develop nontechnical skills, including communication and medical decision-making. Simulations incorporating big data analytics allow the collation of medical histories, demographics, genetics, and digital imaging to create realistic patient presentations. These data sources also inform disease prognosis and treatment responses based on participant interactions within the scenarios. Simulation systems using machine learning algorithms can analyze simulation participant data to identify institutional trends and opportunities for modeling best practices or areas of improvement.<xref ref-type="bibr" rid="article-63819.r7">[7]</xref> The synergism attained through AI and simulation beyond the training context has also been demonstrated. In a study using simulation to generate patient encounters, researchers evaluated a proposed error classification system applied to 2 stages of a generative AI system&#x02014;the input stage, involving a patient-facing large language model, and the output stage,&#x000a0;involving an ambient digital scribe. This assessment demonstrated that omission was the most frequent generative AI error, accounting for 42% of the large language model errors and 83% of those in the ambient digital scribe scenarios.&#x000a0;With the rapid pace of the virtual learning environment and AI-enabled technology development, simulation&#x000a0;is&#x000a0;critical for ensuring safe application in the healthcare environment.<xref ref-type="bibr" rid="article-63819.r9">[9]</xref></p>
+      </sec>
+      <sec id="article-63819.s4" sec-type="Curriculum Development">
+        <title>Curriculum Development</title>
+        <p>Studies on simulation-based training for human factor skills have been reported, the use of formative assessment across a range of settings, including:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Multiple professions, including emergency medical services, nursing, and medicine</p>
+          </list-item>
+          <list-item>
+            <p>Various disciplines, such as emergency medicine, adult, pediatric and neonatal critical care,&#x000a0;neurology, gastroenterology, anesthesiology, general surgery, trauma, otolaryngology, and psychiatry</p>
+          </list-item>
+          <list-item>
+            <p>Ancillary services, such as pharmacology, infection prevention and control,&#x000a0;social work, and law enforcement</p>
+          </list-item>
+        </list>
+        <p>Simulation for summative assessment most frequently involves the use of standardized patients or partial task trainers to evaluate individuals within a single profession in their initial stages of training. There is currently a lack of readily available assessment tools with the validity and reliability to meet the rigorous recommendations for summative assessment.<xref ref-type="bibr" rid="article-63819.r10">[10]</xref> More detailed descriptions of specific simulation-based interventions are included in the following sections.</p>
+      </sec>
+      <sec id="article-63819.s5" sec-type="Procedural Skills Assessment&#x0000d;&#x0000a;">
+        <title>Procedural Skills Assessment
+</title>
+        <p>Within healthcare education, human factor skills are commonly categorized as either technical or nontechnical. Technical skills typically refer to the medical and procedural knowledge necessary for delivering competent patient care.<xref ref-type="bibr" rid="article-63819.r11">[11]</xref> The following are examples of technical skills that are applicable across multiple specialties.</p>
+        <p>
+<bold>Individual&#x000a0;Procedural Skills</bold>
+</p>
+        <p>Collaborative efforts among infection prevention and control,&#x000a0;HPE, and in-situ simulation have been identified as key strategies for enhancing preparedness initiatives. After initiating practical&#x000a0;or virtual workshops, investigators from the Alberta Health Services group evaluated patient care simulations at the infection prevention and control&#x02013;system interface to target latent safety threats surrounding the use of personal protective equipment. By using structured debriefings that incorporated checklists, hospital policies, and protocols, investigators were not limited to relying solely&#x000a0;on an individual's process recall. The human limitations and individual differences identified through this process were subsequently incorporated into design&#x000a0;modifications (logistically matching the supply cart to&#x000a0;the donning and doffing guide) to improve the likelihood of safe and appropriate PPE use.<xref ref-type="bibr" rid="article-63819.r12">[12]</xref><bold>&#x000a0;</bold>Central line placement and management strategies incorporating HFE principles through simulated training that have yielded reductions in the frequency of central line-associated bloodstream infections are another infection prevention and control application.<xref ref-type="bibr" rid="article-63819.r13">[13]</xref></p>
+        <p>Medication prescribing is an inherently error-prone healthcare delivery skill generalizable across clinical settings.&#x000a0;Scenario-based simulations were integrated into a counterbalanced, crossover design study to assess the HFE-derived communication-human information processing model of medication prescribing. Researchers assessed usability, perceived workload, and error frequency concerning system alerts triggered during this process. After combining participant feedback with the efficiency linked to intrusive alerts, investigators redesigned the process, and a modestly significant reduction in workload was attained.<xref ref-type="bibr" rid="article-63819.r14">[14]</xref> Medication preparation and administration can also be error-prone. Using a modified&#x000a0;Human Error Assessment and Reduction Technique (HEART) during simulated sessions in the neonatal intensive care unit, researchers evaluated medication administration reliability. Observers identified several error-producing conditions, including limited time to detect or correct label errors, lack of independent output checks, and distractions. Conversely, results suggested that labels created using a human-centered design approach reduced the likelihood of these errors by more than 40%.<xref ref-type="bibr" rid="article-63819.r15">[15]</xref><bold>&#x000a0;</bold>A&#x000a0;randomized crossover study compared standard labeling practices to light-linking infusion line technology in an adult intensive care unit (ICU). Visual cues from the light-linking technology&#x000a0;reduced injection time, particularly in low-light settings. Additional results included improved usability and reduced task load.<xref ref-type="bibr" rid="article-63819.r16">[16]</xref></p>
+        <p>Pattern recognition in health care involves incorporating various sources of information to identify&#x000a0;trends that can aid in diagnosis, prognosis, and treatment planning. Recognizing and integrating information regarding life-threatening conditions is paramount in the critical care setting. Mixed-methods studies have also demonstrated the benefit of simulation in evaluating HFE associated with clinical pattern recognition and intervention in these circumstances.<xref ref-type="bibr" rid="article-63819.r17">[17]</xref> In the context of life-threatening arrhythmias,&#x000a0;a prospective study used in situ simulation in the emergency department to identify the limitations of a telemetry system.&#x000a0;Insights gained regarding physical/human&#x02013;machine interactions and organizational/human&#x02013;organization interactions elucidated the process improvements necessary to address telemetry-based detection and appropriate dispositioning of patients with life-threatening arrhythmias.<xref ref-type="bibr" rid="article-63819.r18">[18]</xref>&#x000a0;</p>
+        <p>
+<bold>Tool Development and Bundle Compliance</bold>
+</p>
+        <p>Simulation can be used to develop and modify clinical assessment tools and to optimize bundle customization and compliance.</p>
+        <p>Clinical handoff:<bold>&#x000a0;</bold>A systematic review of studies assessing clinical handover highlighted that multiple safety issues can be linked to suboptimal handoff performance. No ideal model was identified, although the most frequently studied tools were related to the Handoff CEX, and SBAR was the most commonly cited mnemonic. Standardized documentation and electronic templates were also often used to facilitate communication and care coordination. Outcomes indicated that role-play and simulation-based team training were better received than didactic approaches and more frequently associated with improved efficiency and effectiveness. Residents demonstrated skill transfer from the simulated to the clinical environment, reducing technical errors, critical information omissions, handover duration, and time-related tasks. Although the overall improvement in the health and well-being of patients and the positive impact are evident,&#x000a0;there are still opportunities to specify which behaviors represent best practices.<xref ref-type="bibr" rid="article-63819.r17">[17]</xref></p>
+        <p>Endoscopy:<bold>&#x000a0;</bold>Through collaboration between organizational, educational, and clinical leads,&#x000a0;the Joint Advisory Group for Gastrointestinal Endoscopy&#x000a0;developed the Improving Safety and Reducing Error in Endoscopy (ISREE) strategy.&#x000a0;As part of this initiative, their endoscopic nontechnical skills program incorporated simulation training in human factor skills.&#x000a0;Simulation training improved individual and team performance&#x000a0;and enhanced the detection of&#x000a0;latent errors in the clinical environment.<xref ref-type="bibr" rid="article-63819.r19">[19]</xref></p>
+        <p>Airway management: Using change ideas generated during&#x000a0;biweekly tabletop simulations based on the Institute for Healthcare Improvement (IHI) model for improvement, a team from an adult emergency department developed a color-coded airway cart to reduce the time required to access complex airway management equipment. The improvement concepts generated during the debriefings translated into increased provider comfort after clinical intubations, as demonstrated&#x000a0;by a 76% improvement from baseline (319 seconds down to 76 seconds) over 6 months.<xref ref-type="bibr" rid="article-63819.r20">[20]</xref> The National Emergency Airway Registry for Children (NEAR4KIDS) Airway Safety Quality Improvement Bundle is a QI tool to improve the safety of tracheal intubations. A single-center retrospective study used translational simulation to optimize bundle customization. Assessments 9 months following the intervention resulted in statistically significant improvement in bundle compliance (93.7% with&#x000a0;<italic toggle="yes">P</italic>&#x0003c;.001) and apneic oxygenation (77.9% with&#x000a0;<italic toggle="yes">P</italic>&#x0003c;.001).<xref ref-type="bibr" rid="article-63819.r21">[21]</xref>&#x000a0;Similarly, in a multisite prospective mixed-methods study, the National Emergency Airway Registry for Pediatric Emergency Medicine (NEAR4PEM) collaborative&#x000a0;used&#x000a0;2 simulated scenarios to evaluate pre-intubation checklist usability. Checklist usage resulted in the verbalization of 93% of items and a greater than 80% completion rate. Participant comments suggested that the checklist facilitated a shared mental model, helped to offload the team leader cognitively, and prompted contingency planning.<xref ref-type="bibr" rid="article-63819.r22">[22]</xref> For ENT specialists, a modified Delphi approach was used to develop an assessment tool for use during pediatric tracheostomy emergencies in the simulated and clinical environment. This process resulted in a 22-item assessment tool incorporating 12 tracheostomy-specific items, 4 team and personnel items, and 6 equipment items, which could be used to generate additional QI initiatives<italic toggle="yes">.</italic><xref ref-type="bibr" rid="article-63819.r23">[23]</xref></p>
+      </sec>
+      <sec id="article-63819.s6" sec-type="Medical Decision Making and Leadership Development">
+        <title>Medical Decision Making and Leadership Development</title>
+        <p>
+<bold>Nontechnical Skills</bold>
+</p>
+        <p>Nontechnical skills are defined by expert consensus as a<italic toggle="yes">&#x000a0;set of social (communication and teamwork) and cognitive (analytical and personal behavior) skills that support high-quality, safe, effective, and efficient interprofessional care within the complex healthcare system.</italic><xref ref-type="bibr" rid="article-63819.r24">[24]</xref><italic toggle="yes"><bold>&#x000a0;</bold></italic>The Human Factor Skills for Healthcare Instrument represents an international, multidisciplinary&#x000a0;collaboration to improve the assessment of human factor skills in the clinical setting. After undergoing an iterative approach to tool refinement, the final instrument was evaluated with 711 trainees and demonstrated a valid and reliable assessment of self-efficacy in nontechnical skills across multiple clinical professions.<xref ref-type="bibr" rid="article-63819.r25">[25]</xref><bold>&#x000a0;</bold>When investigators adapted this tool to the nonclinical setting, it retained its features,&#x000a0;with a Cronbach's alpha of 0.93. The final 12-item Human Factors Skills for Healthcare Instrument-Auxiliary version&#x000a0;(HuFSHI-A) instrument demonstrated sensitivity to change after simulated training, with a large effect size (<italic toggle="yes">P</italic>&#x0003c;.0001 and <italic toggle="yes">d</italic>&#x0003e;0.7).<xref ref-type="bibr" rid="article-63819.r26">[26]</xref></p>
+        <p>
+<bold>Communication</bold>
+</p>
+        <p>Of the 10 human factors&#x000a0;considered most relevant for patient safety, the World Health Organization (WHO) identified communication failure as a&#x000a0;significant and recurrent&#x000a0;contributor&#x000a0;to adverse events. The&#x000a0;WHO emphasized a clear relationship between communication skills, teamwork, and simulation-based medical education.<xref ref-type="bibr" rid="article-63819.r27">[27]</xref> In high-acuity situations, increasing illness severity&#x000a0;correlates with increased directive-style leadership. However, there&#x000a0;remains ample opportunity to&#x000a0;inform HFE and simulation&#x000a0;literature&#x000a0;regarding ideal leadership communication styles.&#x000a0;Additional communication-related topics that warrant further clarification include outer-loop communications, including how team members&#x000a0;decide which information is relevant to the team leader or when it is most appropriate to provide updates.<xref ref-type="bibr" rid="article-63819.r28">[28]</xref><bold>&#x000a0;</bold>In a study using interprofessional simulation to evaluate&#x000a0;the&#x000a0;response to&#x000a0;neurologic emergencies, investigators identified clear communication concepts. The concepts included&#x000a0;approaches such as stating the obvious, announcing what you are doing, and repeating information to ensure accuracy. Moreover, although the development of a flat hierarchy was considered conducive to all team members being heard, assertive communication was a requisite expectation of each team member's role to best support error prevention and other patient safety principles.<xref ref-type="bibr" rid="article-63819.r29">[29]</xref></p>
+        <p>Effective patient communication skills are also critical for healthcare leaders. Nursing professional development practitioners at a pediatric tertiary care center developed standardized patient simulations to&#x000a0;train&#x000a0;interdisciplinary healthcare providers in assessing, identifying, and intervening with adolescents at risk for suicide&#x000a0;in any clinical setting. These healthcare providers&#x000a0;supplemented existing curricula by integrating standardized patient simulations&#x000a0;using the&#x000a0;HEEADSSS assessment to deliver communication-focused education. After this pilot, they&#x000a0;demonstrated increased confidence, clinical competency regarding&#x000a0;psychosocial interviews, and use of the HEEADSSS tool. In addition, they were able to increase the number of social work referrals for modifiable risk factors of suicide.<xref ref-type="bibr" rid="article-63819.r30">[30]</xref>&#x000a0;</p>
+        <p>
+<bold>Cognitive&#x000a0;Load and Clinical Decision-Making</bold>
+</p>
+        <p>Simulated scenarios delivered in a pediatric intensive care unit (PICU) allowed researchers to evaluate 20 types of tasks surrounding the institution of multimodal monitoring. Structured debriefing included elements of Hierarchical Task Analysis, Cognitive Task Analysis, and usability testing. In addition to providing insight into participant thought processes, the think-aloud simulation method enabled investigators to provide insight to participants regarding the information available on the platform. This study highlights the dichotomous ability of technology to either support or hinder technical tasks and the utility of simulation methodology to support the HFE evaluation process.<xref ref-type="bibr" rid="article-63819.r17">[17]</xref><bold>&#x000a0;</bold>Simulated outpatient encounters have also been used to test the usability of different ambient digital scribe products.<xref ref-type="bibr" rid="article-63819.r31">[31]</xref>&#x000a0;</p>
+        <p>Pediatric hospitalists have described a framework for advancing QI and research regarding clinical decision support tools. Traditional QI methodologies, such as the 5 Why's and Systems Engineering Initiative for Patient Safety (SEIPS) model, are first used to define the clinical problem and understand the associated work system. Next, alignment between the clinical decision support and the intended improvements is confirmed by developing clinical decision support utilization metrics and carefully selected balancing and process-outcome measures. Simulation subsequently provides a platform for the iterative process of usability heuristics as representative groups of participants perform their workflow using the clinical decision support tool. Integrating assessment tools such as&#x000a0;the 5 Rights of clinical decision support (information, time, person, channel, and format) into a structured debriefing process&#x000a0;allows investigators to evaluate interface validity from a human-centered design perspective and to incorporate user feedback into the Plan-Do-Study-Act cycles of tool reiteration.<xref ref-type="bibr" rid="article-63819.r32">[32]</xref>&#x000a0;</p>
+        <p>
+<bold>Situational&#x000a0;Awareness</bold>
+</p>
+        <p>Leaders of high-performance&#x000a0;teams also rely on the critical skill of situational awareness.&#x000a0;Three cognitive levels of situational awareness include the perception of available information, the comprehension/interpretation of&#x000a0;the&#x000a0;perceived information, and the anticipation of future events based on this comprehension/interpretation. When used in the simulated setting, the Situation&#x000a0;Present Assessment Method (SPAM) is a validated and reliable method for assessing situational awareness by evaluating latency periods. After warning the participant of a pending query, the&#x000a0;latency between this warning and&#x000a0;its acknowledgment is considered a measure of cognitive workload. However, the latency between&#x000a0;the query and the answer is&#x000a0;considered a proxy measure&#x000a0;of situational awareness. By carefully crafting the timing and the content of the queries, each level of situational awareness can undergo assessment.<xref ref-type="bibr" rid="article-63819.r33">[33]</xref><bold>&#x000a0;</bold>Situational awareness<bold>&#x000a0;</bold>in a Room of Improvement training&#x000a0;during a simulated ICU shift handover demonstrated improvement in actual detection rates and improved handling of patient safety hazards. This learning effect was sustained for 12 weeks, and the improved daily handling and discussion of errors translated to the clinical bedside.<xref ref-type="bibr" rid="article-63819.r34">[34]</xref></p>
+        <p>
+<bold>Team Leadership&#x000a0;</bold>
+</p>
+        <p>Although&#x000a0;no systematic reviews address team leadership assessment during a crisis, the Concise Assessment of Leader Management (CALM) tool shows promise for use in simulated and real pediatric crises. Applying this tool to the video reviews of actual pediatric emergencies, such as cardiac arrests and septic shock, investigators demonstrated a statistically significant correlation between the CALM score and time to epinephrine administration (<italic toggle="yes">P</italic>=.01) and a positive correlation with time to fluid administration. However, the latter was not statistically significant (<italic toggle="yes">P</italic>=.64).<xref ref-type="bibr" rid="article-63819.r35">[35]</xref></p>
+        <p>
+<bold>Error and Risk Management</bold>
+</p>
+        <p>Combining generic and domain-specific medical error classification systems can address diverse educational needs. Through simulation, participants can experience and analyze events under controlled conditions,&#x000a0;leading to the development of error mitigation and management strategies. The psychological safety and non-punitive culture of the simulated environment supports the view of&#x000a0;errors&#x000a0;as learning opportunities, further strengthening the overall safety culture in healthcare settings.<xref ref-type="bibr" rid="article-63819.r36">[36]</xref></p>
+        <p>From a countermeasure perspective, avoiding, capturing, and mitigating errors represent 3 patient safety lines of defense. Simulation is most effective when there is adequate task alignment, as reproducing required skills allows for successfully completing the tasks.<xref ref-type="bibr" rid="article-63819.r37">[37]</xref> With this in mind, a group created a low-cost, low-tech reproduction of psychological fidelity by creating an Escape Room designed to teach patient safety skills to medical students. This suitcase-sized, portable platform incorporated the clinical tasks of diagnosis, treatment, medication prescription, and calculation of an early warning score.&#x000a0;Successful task completion was rewarded with the codes necessary to open additional padlocks within the suitcase, thus enabling progression through the simulated scenario. Students successfully escaped the room by avoiding preventable harm to the patient.<xref ref-type="bibr" rid="article-63819.r38">[38]</xref></p>
+        <p>From an adverse event perspective, simulation has been applied in several ways to support investigation and mitigation efforts, including:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Using the high-fidelity simulation of key activities, such as an end-to-end major incident investigation, for training emergency investigators</p>
+          </list-item>
+          <list-item>
+            <p>Bringing relevant participants together from multiple organizations for testing, reviewing, and improving coordinated investigations to improve investigative infrastructure</p>
+          </list-item>
+          <list-item>
+            <p>Exploring contributory factors, developing and testing solutions through the simulated recreation of conditions&#x000a0;or events underlying serious safety incidents.</p>
+          </list-item>
+          <list-item>
+            <p>Probing systems vicariously to uncover latent safety threats while applying safety I and safety II principles&#x000a0;<xref ref-type="bibr" rid="article-63819.r39">[39]</xref></p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-63819.s7" sec-type="Continuing Education">
+        <title>Continuing Education</title>
+        <p>
+<bold>Facilitation and Competency Development in Interprofessional Education</bold>
+</p>
+        <p>Optimizing facilitator training and a structured approach is critical when delivering and debriefing interprofessional simulations. In order to develop structured facilitator guidelines, a group found that qualitative content analysis showed improvement when the&#x000a0;debriefings&#x000a0;had equitable involvement of nurses and clinicians and more emphasis on teamwork and communication.<xref ref-type="bibr" rid="article-63819.r40">[40]</xref><italic toggle="yes">&#x000a0;</italic>Similarly, thematic analysis demonstrated that interprofessional learning improved with these guidelines.&#x000a0;A&#x000a0;study identified 6 basic competencies for simulation facilitators&#x02014;knowledge of simulation training, education&#x000a0;or training development, education&#x000a0;or training performance, human factors, ethics in simulation, and assessment. For facilitators providing advanced levels of training, these additional 5 competencies were recommended&#x02014;policies and procedures, organization and coordination, research, QI, and crisis management.<xref ref-type="bibr" rid="article-63819.r41">[41]</xref></p>
+      </sec>
+      <sec id="article-63819.s8" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>
+<bold>Team Training</bold>
+</p>
+        <p>From an educational standpoint, transfer-appropriate processing occurs when the&#x000a0;cues available during information encoding&#x000a0;or memorization&#x000a0;are the same as those expected to be available during memory recall. This approach requires a&#x000a0;priori team task analysis&#x000a0;to determine appropriate&#x000a0;fidelity for task alignment for the task work skills related to individual performance and the teamwork skills&#x02014;cognitive, behavioral, and attitudinal&#x02014;representing the team's performance as a whole.<xref ref-type="bibr" rid="article-63819.r37">[37]</xref><italic toggle="yes">&#x000a0;</italic>For an assessment tool to be useful, its application to the task work or teamwork skills must be valid, reliable, sensitive, and feasible.</p>
+        <p>Multiple studies have focused on developing, evaluating, and refining assessment tools for teaching human factor skills in different environments. In 2019, a systematic review regarding the assessment of team function during a crisis addressed the validity and reliability of 13 tools.<bold>&#x000a0;</bold>Similar teamwork domains were included across tools and settings, although the emergency department represented the most frequent site for simulated performance. Measurement evidence indicated that the Team Emergency Assessment Measure (TEAM) tool was the most promising. However, both the TEAM and the Modified Non-Technical Skills Scale for Trauma (T-NOTECHS) were validated for simulated and clinical resuscitation assessments.<xref ref-type="bibr" rid="article-63819.r42">[42]</xref><xref ref-type="bibr" rid="article-63819.r43">[43]</xref>&#x000a0;In 2022,&#x000a0;a subsequent systematic review included 19 tools but supported the prior recommendation.<xref ref-type="bibr" rid="article-63819.r44">[44]</xref></p>
+        <p>A<italic toggle="yes">&#x000a0;</italic>review used the action, actor, context, target, time (AACTT) framework to evaluate teamwork in the operating room.<xref ref-type="bibr" rid="article-63819.r45">[45]</xref><italic toggle="yes">&#x000a0;</italic>Investigators noted multiple teamwork interventions currently cited in the literature, including:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Checklists, such as&#x000a0;Surgical Safety Checklists (SSC)</p>
+          </list-item>
+          <list-item>
+            <p>Communication tools, such as&#x000a0;Situation, Background, Assessment, Recommendation (SBAR),</p>
+          </list-item>
+          <list-item>
+            <p>Frameworks, such as Team Strategies and Tools to Enhance Performance and Patient Safety (TeamSTEPPS&#x02122;)</p>
+          </list-item>
+          <list-item>
+            <p>High-fidelity simulation training.&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>Protocol interventions demonstrated superior specificity by offering clear roles and focusing primarily on improving communication and reducing distractions. Clarity in role assignments improves accountability and collaboration in supporting shared mental models amongst interprofessional teams. Surgical Safety Checklist&#x000a0;was&#x000a0;referenced&#x000a0;in 9.6% of the studies, although the descriptions did not consistently specify the actor or target. Investigators suggest that mapping the components of future checklists to the AACTT framework improves the rigor of future studies.<xref ref-type="bibr" rid="article-63819.r46">[46]</xref></p>
+        <p>Optimized simulation-based team training can provide results that are translatable to patient outcomes. This concept is exemplified by the results of a prospective evaluation of the Medical Team Training program used by the Veterans Administration. Investigators identified a&#x000a0;dose-response relationship&#x000a0;between&#x000a0;training and mortality.<bold>&#x000a0;</bold>For every 3 months of training, there was a commensurate reduction of 0.5 deaths per 1000 operations.<xref ref-type="bibr" rid="article-63819.r47">[47]</xref> In an observational study&#x000a0;of the impact of ward culture on the escalation of care,&#x000a0;debriefing sessions revealed&#x000a0;that explicit permission to act empowered staff to facilitate this process. By protecting training time, participant attendance at these sessions was greater than 95%. The cost-benefit analysis revealed decreased PICU bed-associated costs by &#x000a3;801,600 per year (&#x000a3;2400 per day &#x000d7; 334 PICU bed days). Furthermore, these savings substantially exceeded the costs of regular team training. Investigators suggested that future research should include the financial impact&#x000a0;on healthcare providers of failure to rescue.<xref ref-type="bibr" rid="article-63819.r48">[48]</xref> In a multicenter study evaluating training for in-hospital cardiac arrest response, survival rates were significantly higher for patients in hospitals with more active participation in simulation training&#x000a0;(42.8% versus 31.8%; <italic toggle="yes">P&#x0003c;</italic>.0001). This effect was valid for large- and medium-sized hospitals and did not significantly change after adjusting for hospital-expected mortality through logistic regression. The adjusted odds ratio of&#x000a0;0.62 (CI 0.54-0.71; <italic toggle="yes">P&#x0003c;</italic>.001) represented an additional 151 potential lives saved&#x02014;a substantial benefit given a cost of only 1.1&#x000a0;additional&#x000a0;simulation sessions per 100 beds&#x000a0;per year per life saved.<xref ref-type="bibr" rid="article-63819.r49">[49]</xref></p>
+        <p>
+<bold>Just-in-Time/Just-in-Case</bold>
+</p>
+        <p>Commissioning during a pandemic presents its own unique set of challenges.<xref ref-type="bibr" rid="article-63819.r50">[50]</xref> The Quadruple Aim&#x02014;a set of 4 interdependent goals consists of (1) enhancing patient experience and safety, (2) improving population health, (3) reducing costs and preventing loss of revenue, and (4) improving wellness and satisfaction of healthcare workers, because&#x000a0;excellent health care is not possible without a physically and psychologically safe and healthy workforce. The first is addressed using simulation to develop and test new technologies, equipment, and protocols. Readiness training through telehealth and remote simulation creates virtual platforms that support population health. Usability testing of equipment and computer-based systems helps support a reduction in lost revenue by anticipating system performance and resilience.</p>
+        <p>Preparedness training creates psychological safety and supports staff wellness and satisfaction.<xref ref-type="bibr" rid="article-63819.r51">[51]</xref>&#x000a0;</p>
+        <p>
+<bold>Systems Integration Simulations</bold>
+</p>
+        <p>Simulation-based hospital design and clinical system testing have recently been used to evaluate new and repurposed clinical spaces. Methods including tabletops, full-scale mockups, and systems integration simulations are incorporated during a project's pre-construction, post-construction, and moving&#x000a0;or commissioning phases.&#x000a0;Promoting Excellence And Reflective Learning in Simulation (PEARLS) for System Integration is a&#x000a0;structured debriefing&#x000a0;framework&#x02014;an amalgamation of standard debriefing methods with an updated facilitation script to focus on identifying system issues and maximizing continuous improvement efforts.<xref ref-type="bibr" rid="article-63819.r52">[52]</xref>&#x000a0;Summarize, Anchor, Facilitate, Explore, Elicit (SAFEE) is a debriefing guide based on the Agency for Healthcare Research and Quality and Center for Health Design principles for simulation-based hospital design&#x000a0;testing to evaluate systems in the context of the architectural design of the built environment.<xref ref-type="bibr" rid="article-63819.r53">[53]</xref></p>
+        <p>Implementing simulation-based hospital design testing&#x000a0;in the schematic design phase helps mitigate the costs of any identified latent safety threats early in the project. In one example, a full-scale cardboard mockup was used to simulate 11 clinical areas in a 400-bed freestanding children's hospital. Debriefing sessions involving frontline participants yielded concerns that were categorized and prioritized through failure modes and effects analysis and shared with the architect team. Design changes were validated during a second round of simulations, resulting in a statistically significant reduction in criticality scores, especially those of higher severity.<xref ref-type="bibr" rid="article-63819.r54">[54]</xref> Of the 722 latent safety threats identified during simulations, 57% were able to be addressed before the build, resulting in a cost avoidance of $90 million. Post-construction modifications have been cost-prohibitive for 28% of the findings. Simulation-based clinical system testing represents a significant savings of $1.6 million (0.01% of the overall project expenditure).<xref ref-type="bibr" rid="article-63819.r55">[55]</xref> Executive team members at different institutions used this objective, user-informed approach to analyze the current state of a passageway and determine the risk-benefit ratio of creating a new throughway. Interprofessional critical care participants evaluated 2 simulations, with debriefing notes informing failure modes and effects analysis. Feedback prompted the multimillion-dollar project to build the new connector to improve integrated care and transport<italic toggle="yes">.</italic><xref ref-type="bibr" rid="article-63819.r56">[56]</xref>&#x000a0;</p>
+        <p>Another set of investigators used video-recorded simulations to develop a quantitative assessment instrument that compares latent safety threats in pre-construction versus clinical environments. Full-scale mockups of PICU and neonatal intensive care unit rooms included static design features such as drywall, patient care booms, medical gas ports, entries, exits, and outlets. Audiovisual equipment positioning was optimized to provide unobstructed views and sound capture at critical locations, including the simulated patient's airway, foot of bed, and the code cart. Latent safety threats in both environments were observed and stratified into hazard categories, with operational definitions that were iteratively refined by an interprofessional team with clinical and HFE expertise. This process resulted in the 6 categories comprising the Hazard Assessment and Remediation Tool (HART), which are to be used for subsequent video assessments by pairs of clinical and nonclinical reviewers. The HART instrument demonstrated excellent agreement with an overall inter-rater reliability (IRR) of 0.89% (95%&#x000a0;CI [0.843, 0.929]). Individual item IRR ranged from 0.76 for obstructed path to 0.93 for obstructed access to the patient. Infection risk, poor visibility, slip/trip/fall/injury, and obstructed access to equipment measured 0.92, 0.91, 0.89, and 0.88, respectively. With high IRR and in situ simulation comparison, the HART instrument enhances simulation-based&#x000a0;clinical system testing methods by providing a quantitative measurement to assess multiple iterations of pre-construction design modifications.<xref ref-type="bibr" rid="article-63819.r57">[57]</xref></p>
+        <p>In the post-construction setting, using simulation-based&#x000a0;clinical system testing with failure modes and effects analysis still retains the utility of proactively identifying latent safety threats in a newly constructed hospital. Threats were categorized and prioritized for remediation. Reassessment through simulation after countermeasure implementation demonstrated that 76% of these issues could be mitigated before commissioning. Investigators suggest that combining simulation-based&#x000a0;clinical system testing and failure modes and effects analysis with subsequent systems testing could be considered a new standard for proactively identifying and managing construction and commissioning-related risks.<xref ref-type="bibr" rid="article-63819.r58">[58]</xref> Similarly, simulation-based&#x000a0;clinical system testing was performed to evaluate issues around an interventional trauma operating room. The evaluation focused on 2 transport routes, operating room switching capabilities, and equipment use for latent safety threats during the transport of an exsanguinating trauma patient. In addition to debriefing and observation, metrics regarding time, distance, equipment count, and route considerations were collected. The identified threats led to improved C-arm use, time reductions, and a new process for changing operating room table tops.<xref ref-type="bibr" rid="article-63819.r59">[59]</xref>&#x000a0;During the&#x000a0;pre-move phase of a neonatal intensive unit transitioning from an open bay format to a single-family room design, investigators found that staff engagement in new process development increases enthusiasm and preparedness for impending changes.<xref ref-type="bibr" rid="article-63819.r60">[60]</xref><italic toggle="yes">&#x000a0;</italic></p>
+        <p>Simulation-based&#x000a0;clinical system testing also has applications in well-established environments. Comparison of latent safety threats at multiple sites across a healthcare system highlighted common opportunities for mitigating safety threats. Theme identification may even be generalizable for readiness efforts of hospitals unable to participate in the simulations. The holistic perspective of this approach provides healthcare leaders with the necessary data to prioritize latent safety threats, appropriately allocate resources, and track the effectiveness of countermeasure implementation.<xref ref-type="bibr" rid="article-63819.r61">[61]</xref>&#x000a0;</p>
+      </sec>
+      <sec id="article-63819.s9" sec-type="Pearls and Other Issues">
+        <title>Pearls and Other Issues</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>In addition to using QI to reduce errors, HFE principles can be used to optimize and sustain safety approaches.&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>To optimize the impact of simulation-based training, functional task alignment can be used to meet objectives with a structured debriefing in a psychologically safe environment to&#x000a0;facilitate reflection.</p>
+          </list-item>
+          <list-item>
+            <p>Didactics and workshops can be combined with simulation-based training for human factor skills to produce the most impactful participant experience and improvements.</p>
+          </list-item>
+          <list-item>
+            <p>The TEAM instrument is a promising assessment tool for evaluating human factor skills and teamwork in simulated and clinical environments.</p>
+          </list-item>
+          <list-item>
+            <p>Simulation plays a crucial role in supporting a human-centered design to develop and assess clinical support tools while integrating AI into the healthcare system.</p>
+          </list-item>
+          <list-item>
+            <p>Simulation-based hospital design or simulation-based&#x000a0;clinical system testing should be used to identify latent safety threats. Latent safety threat mitigation should be prioritized&#x000a0;using failure modes and effects analysis. Countermeasure implementation and effectiveness should be evaluated through systems integration simulations.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-63819.s10" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>After completing simulation-based, interprofessional training sessions through the Training In Non-technical Skills to Enhance Levels of Medicines Safety (TINSELS) program, study participants attended focus groups to capture the richness of the human experience and explore the concepts of nontechnical skill acquisition and safety development. For effective intergroup communication to develop, intergroup anxiety must be managed&#x02014;a task not adequately addressed within homogeneous professional groups. Investigators accomplished this goal by developing a cooperative goal structure, institutional&#x000a0;or normative support for these interactions, and the complexity of scripts. Researchers highlight the simulated environment as a means to support the pedagogical approach of exposure-based interprofessional team training.<xref ref-type="bibr" rid="article-63819.r62">[62]</xref></p>
+        <p>Leadership can foster a culture of habitual excellence through briefings and debriefings, demonstrating transparency and sharing challenges. Thoughtful&#x000a0;crafting and facilitation of the debriefing process is shown by establishing the following essential elements&#x02014;psychological safety, debriefing stance&#x000a0;or basic assumption, debriefing rules, and a shared mental model. In a meta-analysis of factors moderating the efficiency and effectiveness of debriefing, researchers revealed that&#x000a0;a general discussion of overall performance is enhanced&#x000a0;when reflecting on specific past events coupled&#x000a0;with cue-strategy associations. This intentional approach to debriefing allows&#x000a0;participants to examine actions and their underlying cognitions more deeply. Periods of silence provide for active listening and support&#x000a0;transitions between complex topics. This approach also allows facilitators to evaluate non-verbal communication and&#x000a0;determine if participants are ready to learn.<xref ref-type="bibr" rid="article-63819.r63">[63]</xref></p>
+        <p>Through&#x000a0;the simulation design process, contextual factors are augmented to optimize workflow representation, thus&#x000a0;promoting the natural execution of tasks.<xref ref-type="bibr" rid="article-63819.r64">[64]</xref><bold><italic toggle="yes">&#x000a0;</italic></bold>Participant motivation and engagement are&#x000a0;fueled&#x000a0;by the gamification inherent&#x000a0;in the&#x000a0;simulation delivery process, thus promoting teamwork and communication skills development.<xref ref-type="bibr" rid="article-63819.r38">[38]</xref><bold>&#x000a0;</bold>Functional task alignment can be confirmed by measuring participants' immersion in the simulation session.<xref ref-type="bibr" rid="article-63819.r65">[65]</xref><bold>&#x000a0;</bold>Collecting&#x000a0;performance metrics at the team level&#x000a0;helps support methodological alignment when evaluating critical teamwork processes.<xref ref-type="bibr" rid="article-63819.r66">[66]</xref> As previously noted, incorporating global rating or behavioral assessment tools into the debriefing session&#x000a0;allows for discussion of roles and expectations of the team as a whole.<xref ref-type="bibr" rid="article-63819.r67">[67]</xref> Finally, by&#x000a0;asking open-ended questions and confirming that learning objectives have been addressed, this critical component of successful healthcare simulation delivery&#x000a0;optimizes the reflective experience of the participants.<xref ref-type="bibr" rid="article-63819.r68">[68]</xref><bold><italic toggle="yes">&#x000a0;</italic></bold>By enabling teams and individuals to experience the appropriate conceptual, emotional, and physical fidelity of high-risk situations&#x000a0;without the potential for patient injury,&#x000a0;high fidelity simulation is well suited to assessing HFE<bold>&#x000a0;</bold>through crisis resource management.<xref ref-type="bibr" rid="article-63819.r47">[47]</xref></p>
+      </sec>
+      <sec id="article-63819.s11">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=63819&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=63819">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/63819/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=63819">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-63819.s12">
+        <title>References</title>
+        <ref id="article-63819.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Persson</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>A review of the design and development processes of simulation for training in healthcare - A technology-centered versus a human-centered perspective.</article-title>
+            <source>Appl Ergon</source>
+            <year>2017</year>
+            <month>Jan</month>
+            <volume>58</volume>
+            <fpage>314</fpage>
+            <page-range>314-326</page-range>
+            <pub-id pub-id-type="pmid">27633228</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vosper</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Hignett</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Bowie</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Twelve tips for embedding human factors and ergonomics principles in healthcare education.</article-title>
+            <source>Med Teach</source>
+            <year>2018</year>
+            <month>Apr</month>
+            <volume>40</volume>
+            <issue>4</issue>
+            <fpage>357</fpage>
+            <page-range>357-363</page-range>
+            <pub-id pub-id-type="pmid">29126356</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Carayon</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Wetterneck</surname>
+                <given-names>TB</given-names>
+              </name>
+              <name>
+                <surname>Rivera-Rodriguez</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Hundt</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Hoonakker</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Holden</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Gurses</surname>
+                <given-names>AP</given-names>
+              </name>
+            </person-group>
+            <article-title>Human factors systems approach to healthcare quality and patient safety.</article-title>
+            <source>Appl Ergon</source>
+            <year>2014</year>
+            <month>Jan</month>
+            <volume>45</volume>
+            <issue>1</issue>
+            <fpage>14</fpage>
+            <page-range>14-25</page-range>
+            <pub-id pub-id-type="pmid">23845724</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Russ</surname>
+                <given-names>AL</given-names>
+              </name>
+              <name>
+                <surname>Fairbanks</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Karsh</surname>
+                <given-names>BT</given-names>
+              </name>
+              <name>
+                <surname>Militello</surname>
+                <given-names>LG</given-names>
+              </name>
+              <name>
+                <surname>Saleem</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Wears</surname>
+                <given-names>RL</given-names>
+              </name>
+            </person-group>
+            <article-title>The science of human factors: separating fact from fiction.</article-title>
+            <source>BMJ Qual Saf</source>
+            <year>2013</year>
+            <month>Oct</month>
+            <volume>22</volume>
+            <issue>10</issue>
+            <fpage>802</fpage>
+            <page-range>802-8</page-range>
+            <pub-id pub-id-type="pmid">23592760</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Carayon</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Kianfar</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Xie</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Alyousef</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Wooldridge</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>A systematic review of mixed methods research on human factors and ergonomics in health care.</article-title>
+            <source>Appl Ergon</source>
+            <year>2015</year>
+            <month>Nov</month>
+            <volume>51</volume>
+            <fpage>291</fpage>
+            <page-range>291-321</page-range>
+            <pub-id pub-id-type="pmid">26154228</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Abildgren</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Lebahn-Hadidi</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Mogensen</surname>
+                <given-names>CB</given-names>
+              </name>
+              <name>
+                <surname>Toft</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Nielsen</surname>
+                <given-names>AB</given-names>
+              </name>
+              <name>
+                <surname>Frandsen</surname>
+                <given-names>TF</given-names>
+              </name>
+              <name>
+                <surname>Steffensen</surname>
+                <given-names>SV</given-names>
+              </name>
+              <name>
+                <surname>Hounsgaard</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>The effectiveness of improving healthcare teams' human factor skills using simulation-based training: a systematic review.</article-title>
+            <source>Adv Simul (Lond)</source>
+            <year>2022</year>
+            <month>May</month>
+            <day>07</day>
+            <volume>7</volume>
+            <issue>1</issue>
+            <fpage>12</fpage>
+            <pub-id pub-id-type="pmid">35526061</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Guraya</surname>
+                <given-names>SY</given-names>
+              </name>
+            </person-group>
+            <article-title>Transforming simulation in healthcare to enhance interprofessional collaboration leveraging big data analytics and artificial intelligence.</article-title>
+            <source>BMC Med Educ</source>
+            <year>2024</year>
+            <month>Aug</month>
+            <day>28</day>
+            <volume>24</volume>
+            <issue>1</issue>
+            <fpage>941</fpage>
+            <pub-id pub-id-type="pmid">39198809</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fazlollahi</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Bakhaidar</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Alsayegh</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Yilmaz</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Winkler-Schwartz</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Mirchi</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Langleben</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Ledwos</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Sabbagh</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Bajunaid</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Harley</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Del Maestro</surname>
+                <given-names>RF</given-names>
+              </name>
+            </person-group>
+            <article-title>Effect of Artificial Intelligence Tutoring vs Expert Instruction on Learning Simulated Surgical Skills Among Medical Students: A Randomized Clinical Trial.</article-title>
+            <source>JAMA Netw Open</source>
+            <year>2022</year>
+            <month>Feb</month>
+            <day>01</day>
+            <volume>5</volume>
+            <issue>2</issue>
+            <fpage>e2149008</fpage>
+            <pub-id pub-id-type="pmid">35191972</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hose</surname>
+                <given-names>BZ</given-names>
+              </name>
+              <name>
+                <surname>Handley</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Biro</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Reddy</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Krevat</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Hettinger</surname>
+                <given-names>AZ</given-names>
+              </name>
+              <name>
+                <surname>Ratwani</surname>
+                <given-names>RM</given-names>
+              </name>
+            </person-group>
+            <article-title>Development of a Preliminary Patient Safety Classification System for Generative AI.</article-title>
+            <source>BMJ Qual Saf</source>
+            <year>2025</year>
+            <month>Jan</month>
+            <day>28</day>
+            <volume>34</volume>
+            <issue>2</issue>
+            <fpage>130</fpage>
+            <page-range>130-132</page-range>
+            <pub-id pub-id-type="pmid">39753358</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bul&#x000e9;on</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Mattatia</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Minehart</surname>
+                <given-names>RD</given-names>
+              </name>
+              <name>
+                <surname>Rudolph</surname>
+                <given-names>JW</given-names>
+              </name>
+              <name>
+                <surname>Lois</surname>
+                <given-names>FJ</given-names>
+              </name>
+              <name>
+                <surname>Guillouet</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Philippon</surname>
+                <given-names>AL</given-names>
+              </name>
+              <name>
+                <surname>Brissaud</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Lefevre-Scelles</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Benhamou</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Lecomte</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Group</surname>
+                <given-names>TSAWS</given-names>
+              </name>
+              <name>
+                <surname>Bellot</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Crubl&#x000e9;</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Philippot</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Vanderlinden</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Batrancourt</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Boithias-Guerot</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Br&#x000e9;aud</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>de Vries</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Sibert</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>S&#x000e9;cheresse</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Boulant</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Delamarre</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Grillet</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Jund</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Mathurin</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Berthod</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Debien</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Gacia</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Der Sahakian</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Boet</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Oriot</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Chabot</surname>
+                <given-names>JM</given-names>
+              </name>
+            </person-group>
+            <article-title>Simulation-based summative assessment in healthcare: an overview of key principles for practice.</article-title>
+            <source>Adv Simul (Lond)</source>
+            <year>2022</year>
+            <month>Dec</month>
+            <day>28</day>
+            <volume>7</volume>
+            <issue>1</issue>
+            <fpage>42</fpage>
+            <pub-id pub-id-type="pmid">36578052</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Naik</surname>
+                <given-names>VN</given-names>
+              </name>
+              <name>
+                <surname>Brien</surname>
+                <given-names>SE</given-names>
+              </name>
+            </person-group>
+            <article-title>Review article: simulation: a means to address and improve patient safety.</article-title>
+            <source>Can J Anaesth</source>
+            <year>2013</year>
+            <month>Feb</month>
+            <volume>60</volume>
+            <issue>2</issue>
+            <fpage>192</fpage>
+            <page-range>192-200</page-range>
+            <pub-id pub-id-type="pmid">23239487</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jacob</surname>
+                <given-names>JT</given-names>
+              </name>
+              <name>
+                <surname>Herwaldt</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Durso</surname>
+                <given-names>FT</given-names>
+              </name>
+              <collab>CDC Prevention Epicenters Program</collab>
+            </person-group>
+            <article-title>Preventing healthcare-associated infections through human factors engineering.</article-title>
+            <source>Curr Opin Infect Dis</source>
+            <year>2018</year>
+            <month>Aug</month>
+            <volume>31</volume>
+            <issue>4</issue>
+            <fpage>353</fpage>
+            <page-range>353-358</page-range>
+            <pub-id pub-id-type="pmid">29846208</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jagneaux</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Caffery</surname>
+                <given-names>TS</given-names>
+              </name>
+              <name>
+                <surname>Musso</surname>
+                <given-names>MW</given-names>
+              </name>
+              <name>
+                <surname>Long</surname>
+                <given-names>AC</given-names>
+              </name>
+              <name>
+                <surname>Zatarain</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Stopa</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Freeman</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Quin</surname>
+                <given-names>CC</given-names>
+              </name>
+              <name>
+                <surname>Jones</surname>
+                <given-names>GN</given-names>
+              </name>
+            </person-group>
+            <article-title>Simulation-Based Education Enhances Patient Safety Behaviors During Central Venous Catheter Placement.</article-title>
+            <source>J Patient Saf</source>
+            <year>2021</year>
+            <month>Sep</month>
+            <day>01</day>
+            <volume>17</volume>
+            <issue>6</issue>
+            <fpage>425</fpage>
+            <page-range>425-429</page-range>
+            <pub-id pub-id-type="pmid">28984729</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Russ</surname>
+                <given-names>AL</given-names>
+              </name>
+              <name>
+                <surname>Zillich</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Melton</surname>
+                <given-names>BL</given-names>
+              </name>
+              <name>
+                <surname>Russell</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Spina</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Weiner</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Johnson</surname>
+                <given-names>EG</given-names>
+              </name>
+              <name>
+                <surname>Daggy</surname>
+                <given-names>JK</given-names>
+              </name>
+              <name>
+                <surname>McManus</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Hawsey</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Puleo</surname>
+                <given-names>AG</given-names>
+              </name>
+              <name>
+                <surname>Doebbeling</surname>
+                <given-names>BN</given-names>
+              </name>
+              <name>
+                <surname>Saleem</surname>
+                <given-names>JJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Applying human factors principles to alert design increases efficiency and reduces prescribing errors in a scenario-based simulation.</article-title>
+            <source>J Am Med Inform Assoc</source>
+            <year>2014</year>
+            <month>Oct</month>
+            <volume>21</volume>
+            <issue>e2</issue>
+            <fpage>e287</fpage>
+            <page-range>e287-96</page-range>
+            <pub-id pub-id-type="pmid">24668841</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Aceves-Gonzalez</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Caro-Rojas</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Rey-Galindo</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Aristizabal-Ruiz</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Hern&#x000e1;ndez-Cruz</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Estimating the impact of label design on reducing the risk of medication errors by applying HEART in drug administration.</article-title>
+            <source>Eur J Clin Pharmacol</source>
+            <year>2024</year>
+            <month>Apr</month>
+            <volume>80</volume>
+            <issue>4</issue>
+            <fpage>575</fpage>
+            <page-range>575-588</page-range>
+            <pub-id pub-id-type="pmid">38282080</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Huffman</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Butcher</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Gonzales</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Hampton</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Munn</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Saunders</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Russell</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Usability of Light-Linking Technology for Infusion Line Identification: A Simulation Study With ICU Nurses.</article-title>
+            <source>J Infus Nurs</source>
+            <string-date>2024 Nov-Dec 01</string-date>
+            <volume>47</volume>
+            <issue>6</issue>
+            <fpage>377</fpage>
+            <page-range>377-387</page-range>
+            <pub-id pub-id-type="pmid">39503517</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lin</surname>
+                <given-names>YL</given-names>
+              </name>
+              <name>
+                <surname>Guerguerian</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Tomasi</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Laussen</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Trbovich</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>"Usability of data integration and visualization software for multidisciplinary pediatric intensive care: a human factors approach to assessing technology".</article-title>
+            <source>BMC Med Inform Decis Mak</source>
+            <year>2017</year>
+            <month>Aug</month>
+            <day>14</day>
+            <volume>17</volume>
+            <issue>1</issue>
+            <fpage>122</fpage>
+            <pub-id pub-id-type="pmid">28806954</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kobayashi</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Parchuri</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Gardiner</surname>
+                <given-names>FG</given-names>
+              </name>
+              <name>
+                <surname>Paolucci</surname>
+                <given-names>GA</given-names>
+              </name>
+              <name>
+                <surname>Tomaselli</surname>
+                <given-names>NM</given-names>
+              </name>
+              <name>
+                <surname>Al-Rasheed</surname>
+                <given-names>RS</given-names>
+              </name>
+              <name>
+                <surname>Bertsch</surname>
+                <given-names>KS</given-names>
+              </name>
+              <name>
+                <surname>Devine</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Boss</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Gibbs</surname>
+                <given-names>FJ</given-names>
+              </name>
+              <name>
+                <surname>Goldlust</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Monti</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>O'Hearn</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Portelli</surname>
+                <given-names>DC</given-names>
+              </name>
+              <name>
+                <surname>Siegel</surname>
+                <given-names>NA</given-names>
+              </name>
+              <name>
+                <surname>Hemendinger</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Jay</surname>
+                <given-names>GD</given-names>
+              </name>
+            </person-group>
+            <article-title>Use of in situ simulation and human factors engineering to assess and improve emergency department clinical systems for timely telemetry-based detection of life-threatening arrhythmias.</article-title>
+            <source>BMJ Qual Saf</source>
+            <year>2013</year>
+            <month>Jan</month>
+            <volume>22</volume>
+            <issue>1</issue>
+            <fpage>72</fpage>
+            <page-range>72-83</page-range>
+            <pub-id pub-id-type="pmid">23060389</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ravindran</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Thomas-Gibson</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Murray</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Wood</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Improving safety and reducing error in endoscopy: simulation training in human factors.</article-title>
+            <source>Frontline Gastroenterol</source>
+            <year>2019</year>
+            <month>Apr</month>
+            <volume>10</volume>
+            <issue>2</issue>
+            <fpage>160</fpage>
+            <page-range>160-166</page-range>
+            <pub-id pub-id-type="pmid">31205657</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Butler</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kaushik</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Raudaschl</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Giles</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>From "Airway scares me" to "I would say I'm pretty comfortable": quality improvement for reducing time to obtain equipment for adult advanced airway management in a rural emergency department.</article-title>
+            <source>CJEM</source>
+            <year>2025</year>
+            <month>Mar</month>
+            <volume>27</volume>
+            <issue>3</issue>
+            <fpage>207</fpage>
+            <page-range>207-214</page-range>
+            <pub-id pub-id-type="pmid">39755767</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Colman</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Newman</surname>
+                <given-names>JW</given-names>
+              </name>
+              <name>
+                <surname>Nishisaki</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Register</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gillespie</surname>
+                <given-names>SE</given-names>
+              </name>
+              <name>
+                <surname>Hebbar</surname>
+                <given-names>KB</given-names>
+              </name>
+            </person-group>
+            <article-title>Translational Simulation Improves Compliance with the NEAR4KIDS Airway Safety Bundle in a Single-center PICU.</article-title>
+            <source>Pediatr Qual Saf</source>
+            <year>2021</year>
+            <season>May-Jun</season>
+            <volume>6</volume>
+            <issue>3</issue>
+            <fpage>e409</fpage>
+            <pub-id pub-id-type="pmid">34046538</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wing</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Goldman</surname>
+                <given-names>MP</given-names>
+              </name>
+              <name>
+                <surname>Prieto</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Miller</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Baluyot</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Tay</surname>
+                <given-names>KY</given-names>
+              </name>
+              <name>
+                <surname>Bharath</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Patel</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Greenwald</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Larsen</surname>
+                <given-names>EP</given-names>
+              </name>
+              <name>
+                <surname>Polikoff</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Kerrey</surname>
+                <given-names>BT</given-names>
+              </name>
+              <name>
+                <surname>Nishisaki</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Nagler</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Usability Testing Via Simulation: Optimizing the NEAR4PEM Preintubation Checklist With a Human Factors Approach.</article-title>
+            <source>Pediatr Emerg Care</source>
+            <year>2024</year>
+            <month>Aug</month>
+            <day>01</day>
+            <volume>40</volume>
+            <issue>8</issue>
+            <fpage>575</fpage>
+            <page-range>575-581</page-range>
+            <pub-id pub-id-type="pmid">39078284</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schiff</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Propst</surname>
+                <given-names>EJ</given-names>
+              </name>
+              <name>
+                <surname>Balakrishnan</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Johnson</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Lounsbury</surname>
+                <given-names>DW</given-names>
+              </name>
+              <name>
+                <surname>Brenner</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Tawfik</surname>
+                <given-names>MM</given-names>
+              </name>
+              <collab>Pediatric Tracheostomy Emergency Readiness Workgroup</collab>
+              <name>
+                <surname>Yang</surname>
+                <given-names>CJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Pediatric Tracheostomy Emergency Readiness Assessment Tool: International Consensus Recommendations.</article-title>
+            <source>Laryngoscope</source>
+            <year>2023</year>
+            <month>Dec</month>
+            <volume>133</volume>
+            <issue>12</issue>
+            <fpage>3588</fpage>
+            <page-range>3588-3601</page-range>
+            <pub-id pub-id-type="pmid">37114735</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gordon</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Baker</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Catchpole</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Darbyshire</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Schocken</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Devising a consensus definition and framework for non-technical skills in healthcare to support educational design: A modified Delphi study.</article-title>
+            <source>Med Teach</source>
+            <year>2015</year>
+            <volume>37</volume>
+            <issue>6</issue>
+            <fpage>572</fpage>
+            <page-range>572-7</page-range>
+            <pub-id pub-id-type="pmid">25244065</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Reedy</surname>
+                <given-names>GB</given-names>
+              </name>
+              <name>
+                <surname>Lavelle</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Simpson</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Anderson</surname>
+                <given-names>JE</given-names>
+              </name>
+            </person-group>
+            <article-title>Development of the Human Factors Skills for Healthcare Instrument: a valid and reliable tool for assessing interprofessional learning across healthcare practice settings.</article-title>
+            <source>BMJ Simul Technol Enhanc Learn</source>
+            <year>2017</year>
+            <month>Oct</month>
+            <volume>3</volume>
+            <issue>4</issue>
+            <fpage>135</fpage>
+            <page-range>135-141</page-range>
+            <pub-id pub-id-type="pmid">29354278</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lavelle</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Reedy</surname>
+                <given-names>GB</given-names>
+              </name>
+              <name>
+                <surname>Attoe</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Simpson</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Anderson</surname>
+                <given-names>JE</given-names>
+              </name>
+            </person-group>
+            <article-title>Beyond the clinical team: evaluating the human factors-oriented training of non-clinical professionals working in healthcare contexts.</article-title>
+            <source>Adv Simul (Lond)</source>
+            <year>2019</year>
+            <volume>4</volume>
+            <fpage>11</fpage>
+            <pub-id pub-id-type="pmid">31223489</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lawson</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Reid</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Morrow</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gardiner</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Simulation-based Education and Human Factors Training in Postgraduate Medical Education: A Northern Ireland Perspective.</article-title>
+            <source>Ulster Med J</source>
+            <year>2018</year>
+            <month>Oct</month>
+            <volume>87</volume>
+            <issue>3</issue>
+            <fpage>163</fpage>
+            <page-range>163-167</page-range>
+            <pub-id pub-id-type="pmid">30559538</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Taylor</surname>
+                <given-names>KL</given-names>
+              </name>
+              <name>
+                <surname>Ferri</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Yavorska</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Everett</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Parshuram</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>A description of communication patterns during CPR in ICU.</article-title>
+            <source>Resuscitation</source>
+            <year>2014</year>
+            <month>Oct</month>
+            <volume>85</volume>
+            <issue>10</issue>
+            <fpage>1342</fpage>
+            <page-range>1342-7</page-range>
+            <pub-id pub-id-type="pmid">25010785</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Galtrey</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name>
+                <surname>Styles</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Gosling</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Nirmalananthan</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Pereira</surname>
+                <given-names>AC</given-names>
+              </name>
+            </person-group>
+            <article-title>Acute neurology simulation training.</article-title>
+            <source>Pract Neurol</source>
+            <year>2018</year>
+            <month>Dec</month>
+            <volume>18</volume>
+            <issue>6</issue>
+            <fpage>477</fpage>
+            <page-range>477-484</page-range>
+            <pub-id pub-id-type="pmid">30045863</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Monahan</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Eaves</surname>
+                <given-names>CL</given-names>
+              </name>
+              <name>
+                <surname>Watson</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>Friese</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>McKenna</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Estrada-Ibarra</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Improving Adolescent Psychosocial Assessment through Standardized Patient Simulation: An Interdisciplinary Quality Improvement Initiative.</article-title>
+            <source>Int J Environ Res Public Health</source>
+            <year>2024</year>
+            <month>Feb</month>
+            <day>29</day>
+            <volume>21</volume>
+            <issue>3</issue>
+            <pub-id pub-id-type="pmid">38541283</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Biro</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Handley</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Mickler</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Reddy</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Kottamasu</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Ratwani</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Cobb</surname>
+                <given-names>NK</given-names>
+              </name>
+            </person-group>
+            <article-title>The value of simulation testing for the evaluation of ambient digital scribes: a case report.</article-title>
+            <source>J Am Med Inform Assoc</source>
+            <year>2025</year>
+            <month>May</month>
+            <day>01</day>
+            <volume>32</volume>
+            <issue>5</issue>
+            <fpage>928</fpage>
+            <page-range>928-931</page-range>
+            <pub-id pub-id-type="pmid">40116912</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Molloy</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Muthu</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Orenstein</surname>
+                <given-names>EW</given-names>
+              </name>
+              <name>
+                <surname>Shelov</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Luo</surname>
+                <given-names>BT</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical Decision Support Principles for Quality Improvement and Research.</article-title>
+            <source>Hosp Pediatr</source>
+            <year>2024</year>
+            <month>Apr</month>
+            <day>01</day>
+            <volume>14</volume>
+            <issue>4</issue>
+            <fpage>e219</fpage>
+            <page-range>e219-e224</page-range>
+            <pub-id pub-id-type="pmid">38545665</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Shelton</surname>
+                <given-names>CL</given-names>
+              </name>
+              <name>
+                <surname>Kinston</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Molyneux</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Ambrose</surname>
+                <given-names>LJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Real-time situation awareness assessment in critical illness management: adapting the situation present assessment method to clinical simulation.</article-title>
+            <source>BMJ Qual Saf</source>
+            <year>2013</year>
+            <month>Feb</month>
+            <volume>22</volume>
+            <issue>2</issue>
+            <fpage>163</fpage>
+            <page-range>163-7</page-range>
+            <pub-id pub-id-type="pmid">23211279</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Graf</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>R&#x000fc;st</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Koppenberg</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Filipovic</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Hautz</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Kaemmer</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Pietsch</surname>
+                <given-names>U</given-names>
+              </name>
+            </person-group>
+            <article-title>Enhancing patient safety: detection of in-hospital hazards and effect of training on detection (by training in a low-fidelity simulation Room of Improvement based on hospital-specific CIRS cases).</article-title>
+            <source>BMJ Open Qual</source>
+            <year>2024</year>
+            <month>May</month>
+            <day>29</day>
+            <volume>13</volume>
+            <issue>2</issue>
+            <pub-id pub-id-type="pmid">38816004</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Florez</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name>
+                <surname>Shepard</surname>
+                <given-names>LN</given-names>
+              </name>
+              <name>
+                <surname>Frey</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Justice</surname>
+                <given-names>LB</given-names>
+              </name>
+              <name>
+                <surname>Constand</surname>
+                <given-names>SE</given-names>
+              </name>
+              <name>
+                <surname>Gilbert</surname>
+                <given-names>GE</given-names>
+              </name>
+              <name>
+                <surname>Kessler</surname>
+                <given-names>DO</given-names>
+              </name>
+              <name>
+                <surname>Kerrey</surname>
+                <given-names>BT</given-names>
+              </name>
+              <name>
+                <surname>Calhoun</surname>
+                <given-names>AW</given-names>
+              </name>
+            </person-group>
+            <article-title>The Concise Assessment of Leader Management Tool: Evaluation of Healthcare Provider Leadership During Real-Life Pediatric Emergencies.</article-title>
+            <source>Simul Healthc</source>
+            <year>2023</year>
+            <month>Feb</month>
+            <day>01</day>
+            <volume>18</volume>
+            <issue>1</issue>
+            <fpage>24</fpage>
+            <page-range>24-31</page-range>
+            <pub-id pub-id-type="pmid">35533136</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Skrisovska</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Schwarz</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Kosinova</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Stourac</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Exploring medical error taxonomies and human factors in simulation-based healthcare education.</article-title>
+            <source>PLoS One</source>
+            <year>2025</year>
+            <volume>20</volume>
+            <issue>1</issue>
+            <fpage>e0317128</fpage>
+            <pub-id pub-id-type="pmid">39823397</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Petrosoniak</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Hicks</surname>
+                <given-names>CM</given-names>
+              </name>
+            </person-group>
+            <article-title>Beyond crisis resource management: new frontiers in human factors training for acute care medicine.</article-title>
+            <source>Curr Opin Anaesthesiol</source>
+            <year>2013</year>
+            <month>Dec</month>
+            <volume>26</volume>
+            <issue>6</issue>
+            <fpage>699</fpage>
+            <page-range>699-706</page-range>
+            <pub-id pub-id-type="pmid">24113265</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Backhouse</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Malik</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Escape into patient safety: bringing human factors to life for medical students.</article-title>
+            <source>BMJ Open Qual</source>
+            <year>2019</year>
+            <volume>8</volume>
+            <issue>1</issue>
+            <fpage>e000548</fpage>
+            <pub-id pub-id-type="pmid">31206043</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Macrae</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Imitating Incidents: How Simulation Can Improve Safety Investigation and Learning From Adverse Events.</article-title>
+            <source>Simul Healthc</source>
+            <year>2018</year>
+            <month>Aug</month>
+            <volume>13</volume>
+            <issue>4</issue>
+            <fpage>227</fpage>
+            <page-range>227-232</page-range>
+            <pub-id pub-id-type="pmid">29771816</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Picketts</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Warren</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Bohnert</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Diversity and inclusion in simulation: addressing ethical and psychological safety concerns when working with simulated participants.</article-title>
+            <source>BMJ Simul Technol Enhanc Learn</source>
+            <year>2021</year>
+            <volume>7</volume>
+            <issue>6</issue>
+            <fpage>590</fpage>
+            <page-range>590-599</page-range>
+            <pub-id pub-id-type="pmid">35520976</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ju</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Bochatay</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Werne</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Essakow</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Tsang</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Nottingham</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Franzon</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Lyndon</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>van Schaik</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Changing the conversation: impact of guidelines designed to optimize interprofessional facilitation of simulation-based team training.</article-title>
+            <source>Adv Simul (Lond)</source>
+            <year>2024</year>
+            <month>Oct</month>
+            <day>12</day>
+            <volume>9</volume>
+            <issue>1</issue>
+            <fpage>43</fpage>
+            <pub-id pub-id-type="pmid">39394595</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Freytag</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Stroben</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Hautz</surname>
+                <given-names>WE</given-names>
+              </name>
+              <name>
+                <surname>Schauber</surname>
+                <given-names>SK</given-names>
+              </name>
+              <name>
+                <surname>K&#x000e4;mmer</surname>
+                <given-names>JE</given-names>
+              </name>
+            </person-group>
+            <article-title>Rating the quality of teamwork-a comparison of novice and expert ratings using the Team Emergency Assessment Measure (TEAM) in simulated emergencies.</article-title>
+            <source>Scand J Trauma Resusc Emerg Med</source>
+            <year>2019</year>
+            <month>Feb</month>
+            <day>08</day>
+            <volume>27</volume>
+            <issue>1</issue>
+            <fpage>12</fpage>
+            <pub-id pub-id-type="pmid">30736821</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Boet</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Etherington</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Larrigan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Yin</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Khan</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Sullivan</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Jung</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Grantcharov</surname>
+                <given-names>TP</given-names>
+              </name>
+            </person-group>
+            <article-title>Measuring the teamwork performance of teams in crisis situations: a systematic review of assessment tools and their measurement properties.</article-title>
+            <source>BMJ Qual Saf</source>
+            <year>2019</year>
+            <month>Apr</month>
+            <volume>28</volume>
+            <issue>4</issue>
+            <fpage>327</fpage>
+            <page-range>327-337</page-range>
+            <pub-id pub-id-type="pmid">30309910</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gawronski</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Thekkan</surname>
+                <given-names>KR</given-names>
+              </name>
+              <name>
+                <surname>Genna</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Egman</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Sansone</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Erba</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Vittori</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Varano</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Dall'Oglio</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Tiozzo</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Chiusolo</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Instruments to evaluate non-technical skills during high fidelity simulation: A systematic review.</article-title>
+            <source>Front Med (Lausanne)</source>
+            <year>2022</year>
+            <volume>9</volume>
+            <fpage>986296</fpage>
+            <pub-id pub-id-type="pmid">36405618</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Presseau</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>McCleary</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Lorencatto</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Patey</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Grimshaw</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Francis</surname>
+                <given-names>JJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Action, actor, context, target, time (AACTT): a framework for specifying behaviour.</article-title>
+            <source>Implement Sci</source>
+            <year>2019</year>
+            <month>Dec</month>
+            <day>05</day>
+            <volume>14</volume>
+            <issue>1</issue>
+            <fpage>102</fpage>
+            <pub-id pub-id-type="pmid">31806037</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r46">
+          <label>46</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ghanmi</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Bondok</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Etherington</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Saddiki</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Lefebvre</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Berthelot</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Dion</surname>
+                <given-names>PM</given-names>
+              </name>
+              <name>
+                <surname>Raymond</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Seguin</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Sekhavati</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Islam</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Boet</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Optimizing Teamwork in the Operating Room: A Scoping Review of Actionable Teamwork Strategies.</article-title>
+            <source>Cureus</source>
+            <year>2024</year>
+            <month>May</month>
+            <volume>16</volume>
+            <issue>5</issue>
+            <fpage>e60522</fpage>
+            <pub-id pub-id-type="pmid">38883070</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r47">
+          <label>47</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wahr</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Prager</surname>
+                <given-names>RL</given-names>
+              </name>
+              <name>
+                <surname>Abernathy</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Martinez</surname>
+                <given-names>EA</given-names>
+              </name>
+              <name>
+                <surname>Salas</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Seifert</surname>
+                <given-names>PC</given-names>
+              </name>
+              <name>
+                <surname>Groom</surname>
+                <given-names>RC</given-names>
+              </name>
+              <name>
+                <surname>Spiess</surname>
+                <given-names>BD</given-names>
+              </name>
+              <name>
+                <surname>Searles</surname>
+                <given-names>BE</given-names>
+              </name>
+              <name>
+                <surname>Sundt</surname>
+                <given-names>TM</given-names>
+              </name>
+              <name>
+                <surname>Sanchez</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Shappell</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Culig</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Lazzara</surname>
+                <given-names>EH</given-names>
+              </name>
+              <name>
+                <surname>Fitzgerald</surname>
+                <given-names>DC</given-names>
+              </name>
+              <name>
+                <surname>Thourani</surname>
+                <given-names>VH</given-names>
+              </name>
+              <name>
+                <surname>Eghtesady</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Ikonomidis</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>England</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name>
+                <surname>Sellke</surname>
+                <given-names>FW</given-names>
+              </name>
+              <name>
+                <surname>Nussmeier</surname>
+                <given-names>NA</given-names>
+              </name>
+              <collab>American Heart Association Council on Cardiovascular Surgery and Anesthesia, Council on Cardiovascular and Stroke Nursing, and Council on Quality of Care and Outcomes Research</collab>
+            </person-group>
+            <article-title>Patient safety in the cardiac operating room: human factors and teamwork: a scientific statement from the American Heart Association.</article-title>
+            <source>Circulation</source>
+            <year>2013</year>
+            <month>Sep</month>
+            <day>03</day>
+            <volume>128</volume>
+            <issue>10</issue>
+            <fpage>1139</fpage>
+            <page-range>1139-69</page-range>
+            <pub-id pub-id-type="pmid">23918255</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r48">
+          <label>48</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Theilen</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Fraser</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Jones</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Leonard</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Simpson</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Regular in-situ simulation training of paediatric Medical Emergency Team leads to sustained improvements in hospital response to deteriorating patients, improved outcomes in intensive care and financial savings.</article-title>
+            <source>Resuscitation</source>
+            <year>2017</year>
+            <month>Jun</month>
+            <volume>115</volume>
+            <fpage>61</fpage>
+            <page-range>61-67</page-range>
+            <pub-id pub-id-type="pmid">28359769</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r49">
+          <label>49</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Josey</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Smith</surname>
+                <given-names>ML</given-names>
+              </name>
+              <name>
+                <surname>Kayani</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Young</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Kasperski</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Farrer</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Gerkin</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Theodorou</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Raschke</surname>
+                <given-names>RA</given-names>
+              </name>
+            </person-group>
+            <article-title>Hospitals with more-active participation in conducting standardized in-situ mock codes have improved survival after in-hospital cardiopulmonary arrest.</article-title>
+            <source>Resuscitation</source>
+            <year>2018</year>
+            <month>Dec</month>
+            <volume>133</volume>
+            <fpage>47</fpage>
+            <page-range>47-52</page-range>
+            <pub-id pub-id-type="pmid">30261220</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r50">
+          <label>50</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fuselli</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Raven</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Milloy</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Barnes</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Dub&#x000e9;</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kaba</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Commissioning Clinical Spaces During a Pandemic: Merging Methodologies of Human Factors and Simulation.</article-title>
+            <source>HERD</source>
+            <year>2022</year>
+            <month>Apr</month>
+            <volume>15</volume>
+            <issue>2</issue>
+            <fpage>277</fpage>
+            <page-range>277-292</page-range>
+            <pub-id pub-id-type="pmid">34961357</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r51">
+          <label>51</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wong</surname>
+                <given-names>AH</given-names>
+              </name>
+              <name>
+                <surname>Ahmed</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Ray</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Khan</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Hughes</surname>
+                <given-names>PG</given-names>
+              </name>
+              <name>
+                <surname>McCoy</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name>
+                <surname>Auerbach</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Barach</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Supporting the Quadruple Aim Using Simulation and Human Factors During COVID-19 Care.</article-title>
+            <source>Am J Med Qual</source>
+            <string-date>2021 Mar-Apr 01</string-date>
+            <volume>36</volume>
+            <issue>2</issue>
+            <fpage>73</fpage>
+            <page-range>73-83</page-range>
+            <pub-id pub-id-type="pmid">33830094</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r52">
+          <label>52</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dub&#x000e9;</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Reid</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Kaba</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Cheng</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Eppich</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Grant</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Stone</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>PEARLS for Systems Integration: A Modified PEARLS Framework for Debriefing Systems-Focused Simulations.</article-title>
+            <source>Simul Healthc</source>
+            <year>2019</year>
+            <month>Oct</month>
+            <volume>14</volume>
+            <issue>5</issue>
+            <fpage>333</fpage>
+            <page-range>333-342</page-range>
+            <pub-id pub-id-type="pmid">31135684</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r53">
+          <label>53</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Colman</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Dalpiaz</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Walter</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Chambers</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Hebbar</surname>
+                <given-names>KB</given-names>
+              </name>
+            </person-group>
+            <article-title>SAFEE: A Debriefing Tool to Identify Latent Conditions in Simulation-based Hospital Design Testing.</article-title>
+            <source>Adv Simul (Lond)</source>
+            <year>2020</year>
+            <volume>5</volume>
+            <fpage>14</fpage>
+            <pub-id pub-id-type="pmid">32733695</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r54">
+          <label>54</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Colman</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Edmond</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name>
+                <surname>Dalpiaz</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Walter</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Miller</surname>
+                <given-names>DC</given-names>
+              </name>
+              <name>
+                <surname>Hebbar</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Designing for Patient Safety and Efficiency: Simulation-Based Hospital Design Testing.</article-title>
+            <source>HERD</source>
+            <year>2020</year>
+            <month>Oct</month>
+            <volume>13</volume>
+            <issue>4</issue>
+            <fpage>68</fpage>
+            <page-range>68-80</page-range>
+            <pub-id pub-id-type="pmid">32367742</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r55">
+          <label>55</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Colman</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Chelette</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Woodward</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Chambers</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Stanley</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Walter</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lampe Heimbuch</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Webster</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Hebbar</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>The Business Case for Simulation-based Hospital Design Testing; $90M Saved in Costs Avoided.</article-title>
+            <source>Pediatr Qual Saf</source>
+            <year>2024</year>
+            <season>Nov-Dec</season>
+            <volume>9</volume>
+            <issue>6</issue>
+            <fpage>e775</fpage>
+            <pub-id pub-id-type="pmid">39553469</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r56">
+          <label>56</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dub&#x000e9;</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Martel</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Kumagai</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Suddes</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Cullen</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Laberge</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Applying Human Factors and Systems Simulation Methods to Inform a Multimillion-Dollar Healthcare Decision.</article-title>
+            <source>HERD</source>
+            <year>2024</year>
+            <month>Jul</month>
+            <volume>17</volume>
+            <issue>3</issue>
+            <fpage>209</fpage>
+            <page-range>209-219</page-range>
+            <pub-id pub-id-type="pmid">38439644</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r57">
+          <label>57</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Smith-Millman</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Daniels</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Gallagher</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Aspinwall</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Brightman</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Ubertini</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Borrero</surname>
+                <given-names>GU</given-names>
+              </name>
+              <name>
+                <surname>Palmo</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Weinstock</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Allan</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Hazard Assessment and Remediation Tool for Simulation-Based Healthcare Facility Design Testing.</article-title>
+            <source>HERD</source>
+            <year>2024</year>
+            <month>Jan</month>
+            <volume>17</volume>
+            <issue>1</issue>
+            <fpage>287</fpage>
+            <page-range>287-305</page-range>
+            <pub-id pub-id-type="pmid">37545401</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r58">
+          <label>58</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hazwani</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Hamam</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Caswell</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Madkhaly</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Al Saif</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Al Hassan</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Al Sweilem</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Arabi</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Proactive patient safety: enhancing hospital readiness through simulation-based clinical systems testing and healthcare failure mode and effect analysis.</article-title>
+            <source>Adv Simul (Lond)</source>
+            <year>2024</year>
+            <month>Jun</month>
+            <day>26</day>
+            <volume>9</volume>
+            <issue>1</issue>
+            <fpage>26</fpage>
+            <pub-id pub-id-type="pmid">38918877</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r59">
+          <label>59</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dub&#x000e9;</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Laberge</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Sigalet</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Shultz</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Vis</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Ball</surname>
+                <given-names>CG</given-names>
+              </name>
+              <name>
+                <surname>Kirkpatrick</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Biesbroek</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Evaluations for New Healthcare Environment Commissioning and Operational Decision Making Using Simulation and Human Factors: A Case Study of an Interventional Trauma Operating Room.</article-title>
+            <source>HERD</source>
+            <year>2021</year>
+            <month>Oct</month>
+            <volume>14</volume>
+            <issue>4</issue>
+            <fpage>442</fpage>
+            <page-range>442-456</page-range>
+            <pub-id pub-id-type="pmid">33706559</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r60">
+          <label>60</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dadiz</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Bender</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Robin</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Simulation-based operations testing in new neonatal healthcare environments.</article-title>
+            <source>Semin Perinatol</source>
+            <year>2023</year>
+            <month>Nov</month>
+            <volume>47</volume>
+            <issue>7</issue>
+            <fpage>151828</fpage>
+            <pub-id pub-id-type="pmid">37775365</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r61">
+          <label>61</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Holmes</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Chipman</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gray</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Pollick</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Piro</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Seften</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Craig</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Zanno</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Melendi</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Mallory</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Simulation-Based Clinical System Testing of Neonatal Resuscitation Readiness Across a Rural Health System Identifies Common Latent Safety Threats.</article-title>
+            <source>Jt Comm J Qual Patient Saf</source>
+            <year>2025</year>
+            <month>Mar</month>
+            <volume>51</volume>
+            <issue>3</issue>
+            <fpage>199</fpage>
+            <page-range>199-210</page-range>
+            <pub-id pub-id-type="pmid">39799068</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r62">
+          <label>62</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gordon</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Fell</surname>
+                <given-names>CW</given-names>
+              </name>
+              <name>
+                <surname>Box</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Farrell</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Stewart</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Learning health 'safety' within non-technical skills interprofessional simulation education: a qualitative study.</article-title>
+            <source>Med Educ Online</source>
+            <year>2017</year>
+            <volume>22</volume>
+            <issue>1</issue>
+            <fpage>1272838</fpage>
+            <pub-id pub-id-type="pmid">28178920</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r63">
+          <label>63</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Grant</surname>
+                <given-names>VJ</given-names>
+              </name>
+              <name>
+                <surname>Robinson</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Catena</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Eppich</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Cheng</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Difficult debriefing situations: A toolbox for simulation educators.</article-title>
+            <source>Med Teach</source>
+            <year>2018</year>
+            <month>Jul</month>
+            <volume>40</volume>
+            <issue>7</issue>
+            <fpage>703</fpage>
+            <page-range>703-712</page-range>
+            <pub-id pub-id-type="pmid">29792100</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r64">
+          <label>64</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Engstr&#x000f6;m</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Andersson Hagiwara</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Backlund</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Lebram</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Lundberg</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Johannesson</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Sterner</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Maurin S&#x000f6;derholm</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>The impact of contextualization on immersion in healthcare simulation.</article-title>
+            <source>Adv Simul (Lond)</source>
+            <year>2016</year>
+            <volume>1</volume>
+            <fpage>8</fpage>
+            <pub-id pub-id-type="pmid">29449977</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r65">
+          <label>65</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hagiwara</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Backlund</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>S&#x000f6;derholm</surname>
+                <given-names>HM</given-names>
+              </name>
+              <name>
+                <surname>Lundberg</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Lebram</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Engstr&#x000f6;m</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Measuring participants' immersion in healthcare simulation: the development of an instrument.</article-title>
+            <source>Adv Simul (Lond)</source>
+            <year>2016</year>
+            <volume>1</volume>
+            <fpage>17</fpage>
+            <pub-id pub-id-type="pmid">29449986</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r66">
+          <label>66</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tannenbaum</surname>
+                <given-names>SI</given-names>
+              </name>
+              <name>
+                <surname>Cerasoli</surname>
+                <given-names>CP</given-names>
+              </name>
+            </person-group>
+            <article-title>Do team and individual debriefs enhance performance? A meta-analysis.</article-title>
+            <source>Hum Factors</source>
+            <year>2013</year>
+            <month>Feb</month>
+            <volume>55</volume>
+            <issue>1</issue>
+            <fpage>231</fpage>
+            <page-range>231-45</page-range>
+            <pub-id pub-id-type="pmid">23516804</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r67">
+          <label>67</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Walker</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Brett</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>McKay</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Lambden</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Vincent</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Sevdalis</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Observational Skill-based Clinical Assessment tool for Resuscitation (OSCAR): development and validation.</article-title>
+            <source>Resuscitation</source>
+            <year>2011</year>
+            <month>Jul</month>
+            <volume>82</volume>
+            <issue>7</issue>
+            <fpage>835</fpage>
+            <page-range>835-44</page-range>
+            <pub-id pub-id-type="pmid">21481519</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63819.r68">
+          <label>68</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sawyer</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Eppich</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Brett-Fleegler</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Grant</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Cheng</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>More Than One Way to Debrief: A Critical Review of Healthcare Simulation Debriefing Methods.</article-title>
+            <source>Simul Healthc</source>
+            <year>2016</year>
+            <month>Jun</month>
+            <volume>11</volume>
+            <issue>3</issue>
+            <fpage>209</fpage>
+            <page-range>209-17</page-range>
+            <pub-id pub-id-type="pmid">27254527</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

@@ -1,0 +1,2368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-63871" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Simulation Training and Skill Assessment in Anesthesiology </title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Rothkrug</surname>
+            <given-names>Alexander</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Mahboobi</surname>
+            <given-names>Sohail K.</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Alexander Rothkrug declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Sohail Mahboobi declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>1</day>
+          <month>5</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-63871.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>The anesthesia patient safety foundation (APSF) was founded in 1985 with the timeless mission to ensure that &#x0201c;no patient shall be harmed by anesthesia.&#x0201d;<xref ref-type="bibr" rid="article-63871.r1">[1]</xref> This mission is still widely pursued, and progress has certainly been made in the last 30 years with simulation curriculum and advancement playing a significant role in the training of anesthesiologists. In its first year of operation, the APSF awarded&#x000a0;four grants to patient safety research,&#x000a0;to achieve its goal of improvement in patient safety.&#x000a0;In the 1999 report by the Institute of Medicine, To Err is Human, the&#x000a0;APSF was recognized as an organization that has made demonstratable positive impacts on patient safety.<xref ref-type="bibr" rid="article-63871.r2">[2]</xref>&#x000a0;The APSF can be credited with facilitating the growth of anesthesia simulation as a tool for education, training, research, and assessment.<xref ref-type="bibr" rid="article-63871.r3">[3]</xref> In 1988, the APSF took part in organizing a conference on medical simulation followed by an anesthesia simulator curriculum conference a year later in 1989. After that, a national conference on anesthesia simulation and its role in education took place in 1995.</p>
+        <p>Anesthesiology&#x02019;s stake in simulation dates as far back as the 1950s when anesthesiologist Dr. Peter Safar demonstrated the ability to perform mouth-to-mouth ventilation on a chemically paralyzed human volunteer.<xref ref-type="bibr" rid="article-63871.r4">[4]</xref>&#x000a0;Dr. Safar, together with Dr. Bjorn Lind and toy-maker Asmund Laerdal, went on to create the first resuscitation mannequin, Resusci Anne, in the 1960s.<xref ref-type="bibr" rid="article-63871.r5">[5]</xref>&#x000a0;Its use today in BLS education is a testament to the importance of the earliest simulation research and development.&#x000a0; Then, in the late 1960s, medical student Stephen Abrahamson and anesthesiologist Dr. J. Samuel Denson, along with engineers from Aerojet-General Corporation, developed the Sim One, a mannequin simulator controlled remotely by a computer, which has been used for educating anesthesiology residents in airway management.<xref ref-type="bibr" rid="article-63871.r6">[6]</xref><xref ref-type="bibr" rid="article-63871.r7">[7]</xref><xref ref-type="bibr" rid="article-63871.r8">[8]</xref>&#x000a0;Gaba and colleagues developed the virtual anesthesiology training simulation system in 1986, a true high-fidelity simulator.<xref ref-type="bibr" rid="article-63871.r9">[9]</xref><xref ref-type="bibr" rid="article-63871.r10">[10]</xref>&#x000a0;Unlike its predecessors, this model integrated with the actual operating room (OR) monitors, allowing a systems operator working behind the scene to simulate the physiologic response to hands-on input from trainees. This simulator&#x000a0;was used for training in intubation and handling endotracheal tube complications as well. A simulation&#x000a0;instructor could run through various scripts with trainees.&#x000a0;The focus on anesthesia Crisis Resource Management (CRM) began coming into its own in the 1990s, drawing inspiration from other industries such as aviation&#x02019;s Crew Resource Management.<xref ref-type="bibr" rid="article-63871.r11">[11]</xref>&#x000a0;The advent of high-fidelity simulators allowed for further studies evaluating their practicality in supporting the CRM curriculum.<xref ref-type="bibr" rid="article-63871.r10">[10]</xref><xref ref-type="bibr" rid="article-63871.r12">[12]</xref><xref ref-type="bibr" rid="article-63871.r13">[13]</xref></p>
+      </sec>
+      <sec id="article-63871.s2" sec-type="Function">
+        <title>Function</title>
+        <p>Low-fidelity mannequins used for cardiopulmonary resuscitation (CPR) training in basic and advanced life support (BLS/ACLS) courses differ significantly from high fidelity mannequins that have the capability of recording tidal volume, chest compression depth, and rate as well as respiratory rate.<xref ref-type="bibr" rid="article-63871.r14">[14]</xref>&#x000a0;In stressful or emergencies, the ability to retrieve knowledge stored in long-term memory becomes impaired, even in the most competent practitioners.&#x000a0;Simulation is particularly helpful for the practice of various clinical scenarios when anesthesia is performed outside the main hospital setting with less support, such as at an outpatient surgery center, where the staff may not have significant clinical experience in managing medical emergencies. Identifying weaknesses in a hospital system or areas where workflow may be impaired is another objective of simulation. The benefit of simulation, in this case, is uncovering and addressing unsafe or inefficient aspects of the work environment within a safe learning environment.<xref ref-type="bibr" rid="article-63871.r15">[15]</xref>&#x000a0;The higher the acuity of the situation, the more apparent these inefficiencies can become.<xref ref-type="bibr" rid="article-63871.r16">[16]</xref> For instance, in obstetric anesthesia, an &#x0201c;eclampsia box&#x0201d; was conceived through simulated drills&#x000a0;when it was determined that essential items needed to treat an eclamptic seizure promptly were challenging to find in a timely manner.<xref ref-type="bibr" rid="article-63871.r17">[17]</xref>&#x000a0;It is well known from other high-risk industries such as aviation and nuclear energy that simulation exercises within the work environment are most effective, but considering the staff and facility requirements, are often the most costly as well.<xref ref-type="bibr" rid="article-63871.r18">[18]</xref></p>
+        <p>In certain cases, scenarios enacted on simulation models may not truly reflect the actual time course for the disease and the treatments utilized.<xref ref-type="bibr" rid="article-63871.r19">[19]</xref>&#x000a0;Thus it remains difficult to assess the consequences and patient care outcomes from failing to complete certain treatment tasks.</p>
+        <p>In a review of 26 studies where augmented and mixed reality technology was used for medical education beyond surgery, the most common application of simulation exercises was to anatomy and anesthesiology procedures.<xref ref-type="bibr" rid="article-63871.r20">[20]</xref>&#x000a0;Augmented reality (AR) has been used for simulation of central vein catheterization, lumbar puncture, spinal needle insertion, and ultrasound examination for trauma.<xref ref-type="bibr" rid="article-63871.r21">[21]</xref><xref ref-type="bibr" rid="article-63871.r22">[22]</xref><xref ref-type="bibr" rid="article-63871.r23">[23]</xref><xref ref-type="bibr" rid="article-63871.r24">[24]</xref><xref ref-type="bibr" rid="article-63871.r25">[25]</xref><xref ref-type="bibr" rid="article-63871.r26">[26]</xref><xref ref-type="bibr" rid="article-63871.r27">[27]</xref>&#x000a0;While all of these studies demonstrated benefits over conventional learning techniques, more studies are needed to account for the variability in reporting and study designs, among the existing literature, before AR can gain wider acceptance as a complementary educational tool.</p>
+      </sec>
+      <sec id="article-63871.s3" sec-type="Continuing Education">
+        <title>Continuing Education</title>
+        <p>Simulation has been in use to earn credits for the maintenance of certification in anesthesia (MOCA). Weinger et al. examined the use of mannequin based simulation by 263 board-certified anesthesiologists during the simulation component of their maintenance of certification, which includes two 20 minutes duration emergency situations, to identify performance gaps and to establish psychometric properties of the assessment methods.<xref ref-type="bibr" rid="article-63871.r28">[28]</xref>&#x000a0;Successful study of simulation with summative aims may eventually shape the simulation curriculum.&#x000a0; With formative and educational&#x000a0;goals, the most common deficiencies identified in practicing anesthesiologists can be the topics of emphasis in the training of medical students and anesthesia residents.&#x000a0;What this study did differently from preceding studies was that it evaluated both the technical and non-technical aspects of clinical decision making and judgment.<xref ref-type="bibr" rid="article-63871.r29">[29]</xref>&#x000a0;The authors did not evaluate physicians individually and used shorter scenarios weighted more towards the assessment of technical performance. In this way, the authors were able to view subjects in a more clinically realistic environment, which integrates a team and the necessity for communication.<xref ref-type="bibr" rid="article-63871.r30">[30]</xref>&#x000a0; This also allowed them to identify key gaps in performance during crisis management, such as failing to escalate care when the first-line treatment modality failed, calling for help, interacting with and delegating roles to other team members, and following evidence-based guidelines. Specific examples of deficiencies in care observed in both simulation and actual clinical settings include failure to transfuse for hemorrhage or requesting the surgeon convert to open procedure, cardioversion for unstable arrhythmias, etc.<xref ref-type="bibr" rid="article-63871.r31">[31]</xref><xref ref-type="bibr" rid="article-63871.r32">[32]</xref><xref ref-type="bibr" rid="article-63871.r33">[33]</xref><xref ref-type="bibr" rid="article-63871.r34">[34]</xref>&#x000a0;When the anesthesiologist in the &#x0201c;hot seat&#x0201d; called a second physician for help, the performance was more likely to be better. Limitations to this form of study include physicians being unfamiliar with and having to adapt to the simulation environment. Real crisis outcomes may be superior to simulation if the physician is more familiar with their office/OR/team. Regardless, the simulation portion of MOCA has been viewed as realistic and applicable to practice by thousands of board-certified anesthesiologists.<xref ref-type="bibr" rid="article-63871.r35">[35]</xref><xref ref-type="bibr" rid="article-63871.r36">[36]</xref>&#x000a0;A drawback of current simulation evaluation is inter-rater variability or evaluator bias, which can contribute to disagreement in the ratings of technical and behavioral performances. There is currently no gold standard evaluation technique or method to achieve consistent, reliable ratings. The ability to video-tape and review simulation exercises may lead to future studies that develop a standardized method of evaluation. It remains difficult to determine if the addition of a simulation component to the MOCA every ten years will result in real-life improvements to how anesthesiologists manage emergency events.<xref ref-type="bibr" rid="article-63871.r37">[37]</xref>&#x000a0;When we look at the aviation and nuclear industries, they can practice simulation as frequently as every two months to annually. However, feedback gathered by the American Society of Anesthesiologists (ASA) Simulation and Editorial Board (SEB) has been overwhelmingly positive concerning the utility of the MOCA simulation courses, which began in 2010.<xref ref-type="bibr" rid="article-63871.r35">[35]</xref> Perhaps the most important figure is that as of 2014, after over 2700 participants have completed the course thus far, 94% reported changing at least one thing in their practice, and that correlates to real changes being made as a result of these simulation courses.<xref ref-type="bibr" rid="article-63871.r38">[38]</xref><xref ref-type="bibr" rid="article-63871.r39">[39]</xref></p>
+      </sec>
+      <sec id="article-63871.s4" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>The anesthesiology milestones project created by the American Board of Anesthesiology (ABA), together with the Accreditation Council for Graduate Medical Education (ACGME), consists of 6 general core competencies and several sub-competencies as well as serves as an anchor for post-graduate anesthesia education.<xref ref-type="bibr" rid="article-63871.r40">[40]</xref>&#x000a0;Performance is reported by training programs to the ACGME biannually.&#x000a0; Some sub-competencies, especially those within the realms of crisis management, professionalism,&#x000a0;ethical dilemmas, and communication, may sometimes be difficult to assess in the clinical setting. Simulation offers an outlet to educate and assess performance. One way this has been implemented is through&#x000a0;Objective Structured Clinical Examinations&#x000a0;(OSCEs).&#x000a0; In 2018, the ABA implemented an OSCE component in the applied exam taken by anesthesiology residents. In a survey of 66 anesthesiology residency programs, roughly one in three programs were incorporating OSCEs into their curriculum in preparation for the ABA exam.<xref ref-type="bibr" rid="article-63871.r41">[41]</xref>&#x000a0;75% of those programs&#x000a0;yet to do so had plans to create an OSCE curriculum of their own at some point.&#x000a0;Several academic institutions have shown success in preparing residents for the ABA exam as well as identifying deficiencies in certain competencies through OSCEs, despite the limitations that challenge programs in general, such as resources, faculty, and time.<xref ref-type="bibr" rid="article-63871.r42">[42]</xref><xref ref-type="bibr" rid="article-63871.r43">[43]</xref><xref ref-type="bibr" rid="article-63871.r44">[44]</xref></p>
+      </sec>
+      <sec id="article-63871.s5" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>
+<bold>COGNITIVE AIDS</bold>
+</p>
+        <p>The use of cognitive aids or algorithms is helpful in the retrieval of information during high-acuity situations that demand quick, yet efficient action by a healthcare provider and/or team of providers.&#x000a0; In industries such as aviation and nuclear energy, the use of cognitive aids is practically mandated, given the nature of regulations in these industries.&#x000a0; Limitations to the use of cognitive aids in healthcare include, but are not limited to, the complexity of steps listed in the aids, unclear or incomplete instructions, the stigma that utilizing a cognitive aid implies a suboptimal fund of knowledge and the extra steps involved in using the aid in a crisis.<xref ref-type="bibr" rid="article-63871.r45">[45]</xref>&#x000a0;The utility of a cognitive aid not only relies on the clinician's willingness to use it but largely on the design and ease of use of the aid itself. Experimental aids&#x000a0;geared towards reducing the time to find information through color-coding, content labeling, and clustering have demonstrated to be more favorable versus traditional step-wise aids in low-fidelity simulation.<xref ref-type="bibr" rid="article-63871.r46">[46]</xref>&#x000a0;[Level III] In a randomized control trial examining performance as well as perceived task load and anxiety in medical students learning difficult airway techniques using one of two cognitive aids, the performance was better in those that used the simpler vortex algorithm instead of the ASA difficult airway algorithm.<xref ref-type="bibr" rid="article-63871.r47">[47]</xref>&#x000a0;[Level II] Another pilot simulation study shows how the use of an obstetric anesthesia checklist in high-fidelity cesarean section simulation improved the management of peripartum hemorrhage and pre-eclampsia.<xref ref-type="bibr" rid="article-63871.r48">[48]</xref>&#x000a0;[Level III]</p>
+        <p>An extensive review of the existing literature involving the use of cognitive aids in anesthetic emergencies demonstrates improvement in technical skills. Although the impact of these aids on team coordination is not clearly established and requires further study.<xref ref-type="bibr" rid="article-63871.r49">[49]</xref>&#x000a0;Simulation is beneficial in allowing physicians in training to practice treating diseases such as malignant hyperthermia (MH), which has an incidence of 1 in 62,000 general anesthesia cases where succinylcholine is used, and other rare but potentially fatal conditions.<xref ref-type="bibr" rid="article-63871.r50">[50]</xref> In high-fidelity simulations of malignant hyperthermia in adult patients,&#x000a0;first and second-year anesthesia residents had significantly better treatment scores with more frequent use of cognitive aids.<xref ref-type="bibr" rid="article-63871.r19">[19]</xref>&#x000a0;[Level III] This result has been reproducible in cohorts of registered anesthesiologists using checklists to aid in the treatment of malignant hyperthermia as well.<xref ref-type="bibr" rid="article-63871.r51">[51]</xref>&#x000a0;[Level III] With respect to MH, cognitive aids could be improved by stressing the importance of administering dantrolene as early as possible and how to mix this medication properly.&#x000a0; Berkenstadt et al. developed an on-line electronic help system that includes cognitive aids to be used in point of care anesthesia scenarios, and it was shown to improve physician's performances in screen-based anesthesia simulations.<xref ref-type="bibr" rid="article-63871.r52">[52]</xref>&#x000a0;[Level III]</p>
+        <p>
+<bold>DEBRIEFING</bold>
+</p>
+        <p>Debriefing can be learner-guided or facilitator-guided, the latter being more commonly used and better studied.<xref ref-type="bibr" rid="article-63871.r53">[53]</xref><xref ref-type="bibr" rid="article-63871.r54">[54]</xref>&#x000a0;This may be because having a trained facilitator-led discussion allows learners to stay on task, promotes efficient use of the time, and to focus on the learning objectives.<xref ref-type="bibr" rid="article-63871.r55">[55]</xref>&#x000a0;Several 3-phase and multiphase conversation structures utilized in facilitator-guided post-event debriefing have been studied. While no single conversation structure can be definitively considered superior to the others, each has its benefits, and choosing which to use should be tailored to the clinical scenario.<xref ref-type="bibr" rid="article-63871.r53">[53]</xref>&#x000a0;A feature common to most structures is that each allocates a time to discuss the events that took place during the simulation and provides a summary of the key take-away points. Where some of these structures differ is that not all incorporate a phase to tackle any emotions experienced by the learners. While taking the time to address emotions can pave the way for a targeted and efficient discussion of the exercise, some models assume that healthcare professionals often deal with high-acuity scenarios and thus should already be equipped to recapitulate on the events objectively. For example, Rudolph et al.'s debriefing with a good judgment model consists of a reaction, analysis, and summary phase. The reaction phase is typically started by asking learners how they felt.<xref ref-type="bibr" rid="article-63871.r56">[56]</xref> Conversely, the diamond debriefing method does not include a specific phase dedicated to reaction; however, it does uniquely include an application phase that asks learners how they will apply the acquired skills and lessons to their clinical practice.<xref ref-type="bibr" rid="article-63871.r57">[57]</xref> A 4-phase method, promoting excellence and reflective learning in simulation, better known as PEARLS, builds off of the 3-phase debriefing with good judgment model but includes an additional description phase. The description phase focuses on key events and/or issues that transpired during the simulation with an overall aim to have the learners and facilitators develop a shared mental model before further debriefing conversation.<xref ref-type="bibr" rid="article-63871.r58">[58]</xref> Another widely used framework known as the team-guided team self-correction, advocacy-inquiry, and systemic-constructivist (TeamGAINS) model, has seven steps that are more team-centric, focusing on an individual within their system than in isolation.<xref ref-type="bibr" rid="article-63871.r59">[59]</xref></p>
+        <p>In one study that looked at the rates of debriefing that occurred after critical events at a large academic medical center, roughly half of the events were debriefed.<xref ref-type="bibr" rid="article-63871.r60">[60]</xref>&#x000a0;[Level III] Of those, events that were associated with communication breakdowns amongst team members were less likely to be debriefed than critical events, largely secondary to more focus on patient's pathophysiology. The authors noted that fewer than half of critical events truly undergo a comprehensive productive debriefing process. This study not only suggests that there may be an underlying apprehension to address communication barriers amongst team-members but further emphasizes the crucial role simulation plays as a primary means to prevent communication breakdown from occurring.</p>
+        <p>
+<bold>COMMUNICATION</bold>
+</p>
+        <p>Teamwork is paramount to anesthesia crisis resource management, especially when it relies on multidisciplinary decision-making.&#x000a0;In response to the institute of medicine's report, to err is human, as well as the public demand for improvement in patient safety, the agency for healthcare research and quality (AHRQ) and the department of defense (DOD) have developed a curriculum dubbed TeamSTEPPS (team strategies &#x00026; tools to enhance performance and patient safety) in 2006.<xref ref-type="bibr" rid="article-63871.r61">[61]</xref>&#x000a0;Based on several years of research into teamwork as it pertains to healthcare workers, TeamSTEPPS can be likened to a meta-analysis, put into practice. Teamwork, knowledge, skills, and abilities (KSAs) such as closed-loop communication, shared mental models, and adaptability are among several included in the building blocks of TeamSTEPPS.<xref ref-type="bibr" rid="article-63871.r61">[61]</xref>&#x000a0; Weller et al. coded different aspects of team-focused communications and studied how communication differs between simulated events and actual practice in real clinical scenarios in the operating room (OR).<xref ref-type="bibr" rid="article-63871.r62">[62]</xref>&#x000a0;They showed no significant difference in the quality of communication during simulated vs. real routine events, however, observed that significantly less and lower quality communication occurred during real OR crises vs. simulated crisis events. This only strengthens the case that simulation is a practical tool for practicing teamwork and communication, not only for anesthesiology training but also can be used widely in other specialties.</p>
+      </sec>
+      <sec id="article-63871.s6">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=63871&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=63871">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/63871/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=63871">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-63871.s7">
+        <title>References</title>
+        <ref id="article-63871.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Eichhorn</surname>
+                <given-names>JH</given-names>
+              </name>
+            </person-group>
+            <article-title>The Anesthesia Patient Safety Foundation at 25: a pioneering success in safety, 25th anniversary provokes reflection, anticipation.</article-title>
+            <source>Anesth Analg</source>
+            <year>2012</year>
+            <month>Apr</month>
+            <volume>114</volume>
+            <issue>4</issue>
+            <fpage>791</fpage>
+            <page-range>791-800</page-range>
+            <pub-id pub-id-type="pmid">22253277</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r2">
+          <label>2</label>
+          <element-citation publication-type="book">
+            <collab>Institute of Medicine (US) Committee on Quality of Health Care in America</collab>
+            <person-group person-group-type="editor">
+              <name>
+                <surname>Kohn</surname>
+                <given-names>LT</given-names>
+              </name>
+              <name>
+                <surname>Corrigan</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Donaldson</surname>
+                <given-names>MS</given-names>
+              </name>
+            </person-group>
+            <source>To Err is Human: Building a Safer Health System</source>
+            <publisher-name>National Academies Press (US)</publisher-name>
+            <publisher-loc>Washington (DC)</publisher-loc>
+            <year>2000</year>
+            <pub-id pub-id-type="pmid">25077248</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cooper</surname>
+                <given-names>JB</given-names>
+              </name>
+            </person-group>
+            <article-title>Towards patient safety in anaesthesia.</article-title>
+            <source>Ann Acad Med Singap</source>
+            <year>1994</year>
+            <month>Jul</month>
+            <volume>23</volume>
+            <issue>4</issue>
+            <fpage>552</fpage>
+            <page-range>552-7</page-range>
+            <pub-id pub-id-type="pmid">7979131</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sinz</surname>
+                <given-names>EH</given-names>
+              </name>
+            </person-group>
+            <article-title>Anesthesiology national CME program and ASA activities in simulation.</article-title>
+            <source>Anesthesiol Clin</source>
+            <year>2007</year>
+            <month>Jun</month>
+            <volume>25</volume>
+            <issue>2</issue>
+            <fpage>209</fpage>
+            <page-range>209-23</page-range>
+            <pub-id pub-id-type="pmid">17574186</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Grenvik</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Schaefer</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>From Resusci-Anne to Sim-Man: the evolution of simulators in medicine.</article-title>
+            <source>Crit Care Med</source>
+            <year>2004</year>
+            <month>Feb</month>
+            <volume>32</volume>
+            <issue>2 Suppl</issue>
+            <fpage>S56</fpage>
+            <page-range>S56-7</page-range>
+            <pub-id pub-id-type="pmid">15043230</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Abrahamson</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Sim One--a patient simulator ahead of its time.</article-title>
+            <source>Caduceus</source>
+            <year>1997</year>
+            <season>Autumn</season>
+            <volume>13</volume>
+            <issue>2</issue>
+            <fpage>29</fpage>
+            <page-range>29-41</page-range>
+            <pub-id pub-id-type="pmid">9509635</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Denson</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Abrahamson</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>A computer-controlled patient simulator.</article-title>
+            <source>JAMA</source>
+            <year>1969</year>
+            <month>Apr</month>
+            <day>21</day>
+            <volume>208</volume>
+            <issue>3</issue>
+            <fpage>504</fpage>
+            <page-range>504-8</page-range>
+            <pub-id pub-id-type="pmid">5818529</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Abrahamson</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Denson</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Wolf</surname>
+                <given-names>RM</given-names>
+              </name>
+            </person-group>
+            <article-title>Effectiveness of a simulator in training anesthesiology residents. 1969.</article-title>
+            <source>Qual Saf Health Care</source>
+            <year>2004</year>
+            <month>Oct</month>
+            <volume>13</volume>
+            <issue>5</issue>
+            <fpage>395</fpage>
+            <page-range>395-7</page-range>
+            <pub-id pub-id-type="pmid">15465945</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gaba</surname>
+                <given-names>DM</given-names>
+              </name>
+              <name>
+                <surname>DeAnda</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>A comprehensive anesthesia simulation environment: re-creating the operating room for research and training.</article-title>
+            <source>Anesthesiology</source>
+            <year>1988</year>
+            <month>Sep</month>
+            <volume>69</volume>
+            <issue>3</issue>
+            <fpage>387</fpage>
+            <page-range>387-94</page-range>
+            <pub-id pub-id-type="pmid">3415018</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gaba</surname>
+                <given-names>DM</given-names>
+              </name>
+              <name>
+                <surname>DeAnda</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>The response of anesthesia trainees to simulated critical incidents.</article-title>
+            <source>Anesth Analg</source>
+            <year>1989</year>
+            <month>Apr</month>
+            <volume>68</volume>
+            <issue>4</issue>
+            <fpage>444</fpage>
+            <page-range>444-51</page-range>
+            <pub-id pub-id-type="pmid">2929977</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Howard</surname>
+                <given-names>SK</given-names>
+              </name>
+              <name>
+                <surname>Gaba</surname>
+                <given-names>DM</given-names>
+              </name>
+              <name>
+                <surname>Fish</surname>
+                <given-names>KJ</given-names>
+              </name>
+              <name>
+                <surname>Yang</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Sarnquist</surname>
+                <given-names>FH</given-names>
+              </name>
+            </person-group>
+            <article-title>Anesthesia crisis resource management training: teaching anesthesiologists to handle critical incidents.</article-title>
+            <source>Aviat Space Environ Med</source>
+            <year>1992</year>
+            <month>Sep</month>
+            <volume>63</volume>
+            <issue>9</issue>
+            <fpage>763</fpage>
+            <page-range>763-70</page-range>
+            <pub-id pub-id-type="pmid">1524531</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Reznek</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Smith-Coggins</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Howard</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Kiran</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Harter</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Sowb</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Gaba</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Krummel</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Emergency medicine crisis resource management (EMCRM): pilot study of a simulation-based crisis management course for emergency medicine.</article-title>
+            <source>Acad Emerg Med</source>
+            <year>2003</year>
+            <month>Apr</month>
+            <volume>10</volume>
+            <issue>4</issue>
+            <fpage>386</fpage>
+            <page-range>386-9</page-range>
+            <pub-id pub-id-type="pmid">12670855</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Curtis</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Back</surname>
+                <given-names>AL</given-names>
+              </name>
+              <name>
+                <surname>Ford</surname>
+                <given-names>DW</given-names>
+              </name>
+              <name>
+                <surname>Downey</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Shannon</surname>
+                <given-names>SE</given-names>
+              </name>
+              <name>
+                <surname>Doorenbos</surname>
+                <given-names>AZ</given-names>
+              </name>
+              <name>
+                <surname>Kross</surname>
+                <given-names>EK</given-names>
+              </name>
+              <name>
+                <surname>Reinke</surname>
+                <given-names>LF</given-names>
+              </name>
+              <name>
+                <surname>Feemster</surname>
+                <given-names>LC</given-names>
+              </name>
+              <name>
+                <surname>Edlund</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Arnold</surname>
+                <given-names>RW</given-names>
+              </name>
+              <name>
+                <surname>O'Connor</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Engelberg</surname>
+                <given-names>RA</given-names>
+              </name>
+            </person-group>
+            <article-title>Effect of communication skills training for residents and nurse practitioners on quality of communication with patients with serious illness: a randomized trial.</article-title>
+            <source>JAMA</source>
+            <year>2013</year>
+            <month>Dec</month>
+            <day>04</day>
+            <volume>310</volume>
+            <issue>21</issue>
+            <fpage>2271</fpage>
+            <page-range>2271-81</page-range>
+            <pub-id pub-id-type="pmid">24302090</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ritt</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Bennett</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Todd</surname>
+                <given-names>DW</given-names>
+              </name>
+            </person-group>
+            <article-title>Simulation Training for the Office-Based Anesthesia Team.</article-title>
+            <source>Oral Maxillofac Surg Clin North Am</source>
+            <year>2017</year>
+            <month>May</month>
+            <volume>29</volume>
+            <issue>2</issue>
+            <fpage>169</fpage>
+            <page-range>169-178</page-range>
+            <pub-id pub-id-type="pmid">28279584</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wenk</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>P&#x000f6;pping</surname>
+                <given-names>DM</given-names>
+              </name>
+            </person-group>
+            <article-title>Simulation for anesthesia in obstetrics.</article-title>
+            <source>Best Pract Res Clin Anaesthesiol</source>
+            <year>2015</year>
+            <month>Mar</month>
+            <volume>29</volume>
+            <issue>1</issue>
+            <fpage>81</fpage>
+            <page-range>81-6</page-range>
+            <pub-id pub-id-type="pmid">25902469</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r16">
+          <label>16</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="editor">
+              <name>
+                <surname>Henriksen</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Battles</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Keyes</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Grady</surname>
+                <given-names>ML</given-names>
+              </name>
+            </person-group>
+            <source>Advances in Patient Safety: New Directions and Alternative Approaches (Vol. 3: Performance and Tools)</source>
+            <publisher-name>Agency for Healthcare Research and Quality (US)</publisher-name>
+            <publisher-loc>Rockville (MD)</publisher-loc>
+            <year>2008</year>
+            <month>08</month>
+            <pub-id pub-id-type="pmid">21249925</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Thompson</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Neal</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Clark</surname>
+                <given-names>V</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical risk management in obstetrics: eclampsia drills.</article-title>
+            <source>BMJ</source>
+            <year>2004</year>
+            <month>Jan</month>
+            <day>31</day>
+            <volume>328</volume>
+            <issue>7434</issue>
+            <fpage>269</fpage>
+            <page-range>269-71</page-range>
+            <pub-id pub-id-type="pmid">14751898</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gaba</surname>
+                <given-names>DM</given-names>
+              </name>
+            </person-group>
+            <article-title>The future vision of simulation in health care.</article-title>
+            <source>Qual Saf Health Care</source>
+            <year>2004</year>
+            <month>Oct</month>
+            <volume>13 Suppl 1</volume>
+            <issue>Suppl 1</issue>
+            <fpage>i2</fpage>
+            <page-range>i2-10</page-range>
+            <pub-id pub-id-type="pmid">15465951</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Harrison</surname>
+                <given-names>TK</given-names>
+              </name>
+              <name>
+                <surname>Manser</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Howard</surname>
+                <given-names>SK</given-names>
+              </name>
+              <name>
+                <surname>Gaba</surname>
+                <given-names>DM</given-names>
+              </name>
+            </person-group>
+            <article-title>Use of cognitive aids in a simulated anesthetic crisis.</article-title>
+            <source>Anesth Analg</source>
+            <year>2006</year>
+            <month>Sep</month>
+            <volume>103</volume>
+            <issue>3</issue>
+            <fpage>551</fpage>
+            <page-range>551-6</page-range>
+            <pub-id pub-id-type="pmid">16931660</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gerup</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Soerensen</surname>
+                <given-names>CB</given-names>
+              </name>
+              <name>
+                <surname>Dieckmann</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Augmented reality and mixed reality for healthcare education beyond surgery: an integrative review.</article-title>
+            <source>Int J Med Educ</source>
+            <year>2020</year>
+            <month>Jan</month>
+            <day>18</day>
+            <volume>11</volume>
+            <fpage>1</fpage>
+            <page-range>1-18</page-range>
+            <pub-id pub-id-type="pmid">31955150</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jeon</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Choi</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Evaluation of a simplified augmented reality device for ultrasound-guided vascular access in a vascular phantom.</article-title>
+            <source>J Clin Anesth</source>
+            <year>2014</year>
+            <month>Sep</month>
+            <volume>26</volume>
+            <issue>6</issue>
+            <fpage>485</fpage>
+            <page-range>485-9</page-range>
+            <pub-id pub-id-type="pmid">25204510</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Huang</surname>
+                <given-names>CY</given-names>
+              </name>
+              <name>
+                <surname>Thomas</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Alismail</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Cohen</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Almutairi</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Daher</surname>
+                <given-names>NS</given-names>
+              </name>
+              <name>
+                <surname>Terry</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Tan</surname>
+                <given-names>LD</given-names>
+              </name>
+            </person-group>
+            <article-title>The use of augmented reality glasses in central line simulation: "see one, simulate many, do one competently, and teach everyone".</article-title>
+            <source>Adv Med Educ Pract</source>
+            <year>2018</year>
+            <volume>9</volume>
+            <fpage>357</fpage>
+            <page-range>357-363</page-range>
+            <pub-id pub-id-type="pmid">29785148</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rochlen</surname>
+                <given-names>LR</given-names>
+              </name>
+              <name>
+                <surname>Levine</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Tait</surname>
+                <given-names>AR</given-names>
+              </name>
+            </person-group>
+            <article-title>First-Person Point-of-View-Augmented Reality for Central Line Insertion Training: A Usability and Feasibility Study.</article-title>
+            <source>Simul Healthc</source>
+            <year>2017</year>
+            <month>Feb</month>
+            <volume>12</volume>
+            <issue>1</issue>
+            <fpage>57</fpage>
+            <page-range>57-62</page-range>
+            <pub-id pub-id-type="pmid">27930431</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Robinson</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name>
+                <surname>Gravenstein</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Cooper</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Lizdas</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Luria</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Lampotang</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>A mixed-reality part-task trainer for subclavian venous access.</article-title>
+            <source>Simul Healthc</source>
+            <year>2014</year>
+            <month>Feb</month>
+            <volume>9</volume>
+            <issue>1</issue>
+            <fpage>56</fpage>
+            <page-range>56-64</page-range>
+            <pub-id pub-id-type="pmid">24310163</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Keri</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Sydor</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Ungi</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Holden</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>McGraw</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Mousavi</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Borschneck</surname>
+                <given-names>DP</given-names>
+              </name>
+              <name>
+                <surname>Fichtinger</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Jaeger</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Computerized training system for ultrasound-guided lumbar puncture on abnormal spine models: a randomized controlled trial.</article-title>
+            <source>Can J Anaesth</source>
+            <year>2015</year>
+            <month>Jul</month>
+            <volume>62</volume>
+            <issue>7</issue>
+            <fpage>777</fpage>
+            <page-range>777-84</page-range>
+            <pub-id pub-id-type="pmid">25804431</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sutherland</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Hashtrudi-Zaad</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Sellens</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Abolmaesumi</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Mousavi</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>An augmented reality haptic training simulator for spinal needle procedures.</article-title>
+            <source>IEEE Trans Biomed Eng</source>
+            <year>2013</year>
+            <month>Nov</month>
+            <volume>60</volume>
+            <issue>11</issue>
+            <fpage>3009</fpage>
+            <page-range>3009-18</page-range>
+            <pub-id pub-id-type="pmid">23269747</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wang</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Parsons</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Stone-McLean</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Rogers</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Boyd</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Hoover</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Meruvia-Pastor</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Gong</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Smith</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Augmented Reality as a Telemedicine Platform for Remote Procedural Training.</article-title>
+            <source>Sensors (Basel)</source>
+            <year>2017</year>
+            <month>Oct</month>
+            <day>10</day>
+            <volume>17</volume>
+            <issue>10</issue>
+            <pub-id pub-id-type="pmid">28994720</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Weinger</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name>
+                <surname>Banerjee</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Burden</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name>
+                <surname>McIvor</surname>
+                <given-names>WR</given-names>
+              </name>
+              <name>
+                <surname>Boulet</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Cooper</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Steadman</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Shotwell</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Slagle</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>DeMaria</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Torsher</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Sinz</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Levine</surname>
+                <given-names>AI</given-names>
+              </name>
+              <name>
+                <surname>Rask</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Davis</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Park</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Gaba</surname>
+                <given-names>DM</given-names>
+              </name>
+            </person-group>
+            <article-title>Simulation-based Assessment of the Management of Critical Events by Board-certified Anesthesiologists.</article-title>
+            <source>Anesthesiology</source>
+            <year>2017</year>
+            <month>Sep</month>
+            <volume>127</volume>
+            <issue>3</issue>
+            <fpage>475</fpage>
+            <page-range>475-489</page-range>
+            <pub-id pub-id-type="pmid">28671903</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Murray</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Boulet</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Avidan</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kras</surname>
+                <given-names>JF</given-names>
+              </name>
+              <name>
+                <surname>Henrichs</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Woodhouse</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Evers</surname>
+                <given-names>AS</given-names>
+              </name>
+            </person-group>
+            <article-title>Performance of residents and anesthesiologists in a simulation-based skill assessment.</article-title>
+            <source>Anesthesiology</source>
+            <year>2007</year>
+            <month>Nov</month>
+            <volume>107</volume>
+            <issue>5</issue>
+            <fpage>705</fpage>
+            <page-range>705-13</page-range>
+            <pub-id pub-id-type="pmid">18073544</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fletcher</surname>
+                <given-names>GC</given-names>
+              </name>
+              <name>
+                <surname>McGeorge</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Flin</surname>
+                <given-names>RH</given-names>
+              </name>
+              <name>
+                <surname>Glavin</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Maran</surname>
+                <given-names>NJ</given-names>
+              </name>
+            </person-group>
+            <article-title>The role of non-technical skills in anaesthesia: a review of current literature.</article-title>
+            <source>Br J Anaesth</source>
+            <year>2002</year>
+            <month>Mar</month>
+            <volume>88</volume>
+            <issue>3</issue>
+            <fpage>418</fpage>
+            <page-range>418-29</page-range>
+            <pub-id pub-id-type="pmid">11990277</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dutton</surname>
+                <given-names>RP</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Stephens</surname>
+                <given-names>LS</given-names>
+              </name>
+              <name>
+                <surname>Posner</surname>
+                <given-names>KL</given-names>
+              </name>
+              <name>
+                <surname>Davies</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Domino</surname>
+                <given-names>KB</given-names>
+              </name>
+            </person-group>
+            <article-title>Massive hemorrhage: a report from the anesthesia closed claims project.</article-title>
+            <source>Anesthesiology</source>
+            <year>2014</year>
+            <month>Sep</month>
+            <volume>121</volume>
+            <issue>3</issue>
+            <fpage>450</fpage>
+            <page-range>450-8</page-range>
+            <pub-id pub-id-type="pmid">25000278</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mhyre</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Ramachandran</surname>
+                <given-names>SK</given-names>
+              </name>
+              <name>
+                <surname>Kheterpal</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Morris</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Chan</surname>
+                <given-names>PS</given-names>
+              </name>
+              <collab>American Heart Association National Registry for Cardiopulmonary Resuscitation Investigators</collab>
+            </person-group>
+            <article-title>Delayed time to defibrillation after intraoperative and periprocedural cardiac arrest.</article-title>
+            <source>Anesthesiology</source>
+            <year>2010</year>
+            <month>Oct</month>
+            <volume>113</volume>
+            <issue>4</issue>
+            <fpage>782</fpage>
+            <page-range>782-93</page-range>
+            <pub-id pub-id-type="pmid">20808215</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Novick</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Lingard</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Cristancho</surname>
+                <given-names>SM</given-names>
+              </name>
+            </person-group>
+            <article-title>The call, the save, and the threat: understanding expert help-seeking behavior during nonroutine operative scenarios.</article-title>
+            <source>J Surg Educ</source>
+            <year>2015</year>
+            <season>Mar-Apr</season>
+            <volume>72</volume>
+            <issue>2</issue>
+            <fpage>302</fpage>
+            <page-range>302-9</page-range>
+            <pub-id pub-id-type="pmid">25451719</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Arriaga</surname>
+                <given-names>AF</given-names>
+              </name>
+              <name>
+                <surname>Gawande</surname>
+                <given-names>AA</given-names>
+              </name>
+              <name>
+                <surname>Raemer</surname>
+                <given-names>DB</given-names>
+              </name>
+              <name>
+                <surname>Jones</surname>
+                <given-names>DB</given-names>
+              </name>
+              <name>
+                <surname>Smink</surname>
+                <given-names>DS</given-names>
+              </name>
+              <name>
+                <surname>Weinstock</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Dwyer</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Lipsitz</surname>
+                <given-names>SR</given-names>
+              </name>
+              <name>
+                <surname>Peyre</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Pawlowski</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Muret-Wagstaff</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Gee</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Gordon</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Cooper</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Berry</surname>
+                <given-names>WR</given-names>
+              </name>
+              <collab>Harvard Surgical Safety Collaborative</collab>
+            </person-group>
+            <article-title>Pilot testing of a model for insurer-driven, large-scale multicenter simulation training for operating room teams.</article-title>
+            <source>Ann Surg</source>
+            <year>2014</year>
+            <month>Mar</month>
+            <volume>259</volume>
+            <issue>3</issue>
+            <fpage>403</fpage>
+            <page-range>403-10</page-range>
+            <pub-id pub-id-type="pmid">24263327</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>McIvor</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Burden</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Weinger</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name>
+                <surname>Steadman</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Simulation for maintenance of certification in anesthesiology: the first two years.</article-title>
+            <source>J Contin Educ Health Prof</source>
+            <year>2012</year>
+            <season>Fall</season>
+            <volume>32</volume>
+            <issue>4</issue>
+            <fpage>236</fpage>
+            <page-range>236-42</page-range>
+            <pub-id pub-id-type="pmid">23280526</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Steadman</surname>
+                <given-names>RH</given-names>
+              </name>
+              <name>
+                <surname>Burden</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name>
+                <surname>Huang</surname>
+                <given-names>YM</given-names>
+              </name>
+              <name>
+                <surname>Gaba</surname>
+                <given-names>DM</given-names>
+              </name>
+              <name>
+                <surname>Cooper</surname>
+                <given-names>JB</given-names>
+              </name>
+            </person-group>
+            <article-title>Practice improvements based on participation in simulation for the maintenance of certification in anesthesiology program.</article-title>
+            <source>Anesthesiology</source>
+            <year>2015</year>
+            <month>May</month>
+            <volume>122</volume>
+            <issue>5</issue>
+            <fpage>1154</fpage>
+            <page-range>1154-69</page-range>
+            <pub-id pub-id-type="pmid">25985025</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Weinger</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name>
+                <surname>Burden</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name>
+                <surname>Steadman</surname>
+                <given-names>RH</given-names>
+              </name>
+              <name>
+                <surname>Gaba</surname>
+                <given-names>DM</given-names>
+              </name>
+            </person-group>
+            <article-title>This is not a test!: Misconceptions surrounding the maintenance of certification in anesthesiology simulation course.</article-title>
+            <source>Anesthesiology</source>
+            <year>2014</year>
+            <month>Sep</month>
+            <volume>121</volume>
+            <issue>3</issue>
+            <fpage>655</fpage>
+            <page-range>655-9</page-range>
+            <pub-id pub-id-type="pmid">24821072</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Domino</surname>
+                <given-names>FJ</given-names>
+              </name>
+              <name>
+                <surname>Chopra</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Seligman</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Sullivan</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Quirk</surname>
+                <given-names>ME</given-names>
+              </name>
+            </person-group>
+            <article-title>The impact on medical practice of commitments to change following CME lectures: a randomized controlled trial.</article-title>
+            <source>Med Teach</source>
+            <year>2011</year>
+            <volume>33</volume>
+            <issue>9</issue>
+            <fpage>e495</fpage>
+            <page-range>e495-500</page-range>
+            <pub-id pub-id-type="pmid">21854144</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mazmanian</surname>
+                <given-names>PE</given-names>
+              </name>
+              <name>
+                <surname>Johnson</surname>
+                <given-names>RE</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Boothby</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Yeatts</surname>
+                <given-names>EJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Effects of a signature on rates of change: a randomized controlled trial involving continuing education and the commitment-to-change model.</article-title>
+            <source>Acad Med</source>
+            <year>2001</year>
+            <month>Jun</month>
+            <volume>76</volume>
+            <issue>6</issue>
+            <fpage>642</fpage>
+            <page-range>642-6</page-range>
+            <pub-id pub-id-type="pmid">11401812</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <article-title>The anesthesiology milestone project.</article-title>
+            <source>J Grad Med Educ</source>
+            <year>2014</year>
+            <month>Mar</month>
+            <volume>6</volume>
+            <issue>1 Suppl 1</issue>
+            <fpage>15</fpage>
+            <page-range>15-28</page-range>
+            <pub-id pub-id-type="pmid">24701262</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Isaak</surname>
+                <given-names>RS</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Arora</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Martinelli</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Zvara</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Stiegler</surname>
+                <given-names>MP</given-names>
+              </name>
+            </person-group>
+            <article-title>A Descriptive Survey of Anesthesiology Residency Simulation Programs: How Are Programs Preparing Residents for the New American Board of Anesthesiology APPLIED Certification Examination?</article-title>
+            <source>Anesth Analg</source>
+            <year>2017</year>
+            <month>Sep</month>
+            <volume>125</volume>
+            <issue>3</issue>
+            <fpage>991</fpage>
+            <page-range>991-998</page-range>
+            <pub-id pub-id-type="pmid">28632531</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rebel</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Srour</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>DiLorenzo</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Nguyen</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Ferrell</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Dwarakanatli</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Haas</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Schell</surname>
+                <given-names>RM</given-names>
+              </name>
+            </person-group>
+            <article-title>Ultrasound Skill and Application of Knowledge Assessment using an Innovative OSCE Competition-Based Simulation Approach.</article-title>
+            <source>J Educ Perioper Med</source>
+            <year>2016</year>
+            <season>Jul-Dec</season>
+            <volume>18</volume>
+            <issue>1</issue>
+            <fpage>E404</fpage>
+            <pub-id pub-id-type="pmid">27957515</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Miller</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Toy</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Schwengel</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Isaac</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Schiavi</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Development of a Simulated Objective Structured Clinical Exam for the APPLIED Certification Exam in Anesthesiology: A Two-Year Experience Informed by Feedback from Exam Candidates.</article-title>
+            <source>J Educ Perioper Med</source>
+            <year>2019</year>
+            <season>Oct-Dec</season>
+            <volume>21</volume>
+            <issue>4</issue>
+            <fpage>E633</fpage>
+            <pub-id pub-id-type="pmid">32123698</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tanaka</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Park</surname>
+                <given-names>YS</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Varner</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Kumar</surname>
+                <given-names>AH</given-names>
+              </name>
+              <name>
+                <surname>Sandhu</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Yumul</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>McCartney</surname>
+                <given-names>KT</given-names>
+              </name>
+              <name>
+                <surname>Spilka</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Macario</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Assessment Scores of a Mock Objective Structured Clinical Examination Administered to 99 Anesthesiology Residents at 8 Institutions.</article-title>
+            <source>Anesth Analg</source>
+            <year>2020</year>
+            <month>Aug</month>
+            <volume>131</volume>
+            <issue>2</issue>
+            <fpage>613</fpage>
+            <page-range>613-621</page-range>
+            <pub-id pub-id-type="pmid">32149757</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Morris</surname>
+                <given-names>AH</given-names>
+              </name>
+            </person-group>
+            <article-title>Decision support and safety of clinical environments.</article-title>
+            <source>Qual Saf Health Care</source>
+            <year>2002</year>
+            <month>Mar</month>
+            <volume>11</volume>
+            <issue>1</issue>
+            <fpage>69</fpage>
+            <page-range>69-75</page-range>
+            <pub-id pub-id-type="pmid">12078374</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r46">
+          <label>46</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Clebone</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Burian</surname>
+                <given-names>BK</given-names>
+              </name>
+              <name>
+                <surname>Tung</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>The effect of cognitive aid design on the perceived usability of critical event cognitive aids.</article-title>
+            <source>Acta Anaesthesiol Scand</source>
+            <year>2020</year>
+            <month>Mar</month>
+            <volume>64</volume>
+            <issue>3</issue>
+            <fpage>378</fpage>
+            <page-range>378-384</page-range>
+            <pub-id pub-id-type="pmid">31709509</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r47">
+          <label>47</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ambardekar</surname>
+                <given-names>AP</given-names>
+              </name>
+              <name>
+                <surname>Rosero</surname>
+                <given-names>EB</given-names>
+              </name>
+              <name>
+                <surname>Bhoja</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Green</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Rebal</surname>
+                <given-names>BA</given-names>
+              </name>
+              <name>
+                <surname>Minhajuddin</surname>
+                <given-names>AT</given-names>
+              </name>
+              <name>
+                <surname>Kosemund</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Guttman</surname>
+                <given-names>OT</given-names>
+              </name>
+              <name>
+                <surname>Mercier</surname>
+                <given-names>DW</given-names>
+              </name>
+            </person-group>
+            <article-title>A Randomized Controlled Trial Comparing Learners' Decision-making, Anxiety, and Task Load During a Simulated Airway Crisis Using Two Difficult Airway Aids.</article-title>
+            <source>Simul Healthc</source>
+            <year>2019</year>
+            <month>Apr</month>
+            <volume>14</volume>
+            <issue>2</issue>
+            <fpage>96</fpage>
+            <page-range>96-103</page-range>
+            <pub-id pub-id-type="pmid">30908420</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r48">
+          <label>48</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Alexander</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Newton</surname>
+                <given-names>MW</given-names>
+              </name>
+              <name>
+                <surname>McEvoy</surname>
+                <given-names>KG</given-names>
+              </name>
+              <name>
+                <surname>Newton</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Mungai</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>DiMiceli-Zsigmond</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Sileshi</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Watkins</surname>
+                <given-names>SC</given-names>
+              </name>
+              <name>
+                <surname>McEvoy</surname>
+                <given-names>MD</given-names>
+              </name>
+            </person-group>
+            <article-title>Development and Pilot Testing of a Context-Relevant Safe Anesthesia Checklist for Cesarean Delivery in East Africa.</article-title>
+            <source>Anesth Analg</source>
+            <year>2019</year>
+            <month>May</month>
+            <volume>128</volume>
+            <issue>5</issue>
+            <fpage>993</fpage>
+            <page-range>993-998</page-range>
+            <pub-id pub-id-type="pmid">30379674</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r49">
+          <label>49</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Marshall</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>The use of cognitive aids during emergencies in anesthesia: a review of the literature.</article-title>
+            <source>Anesth Analg</source>
+            <year>2013</year>
+            <month>Nov</month>
+            <volume>117</volume>
+            <issue>5</issue>
+            <fpage>1162</fpage>
+            <page-range>1162-71</page-range>
+            <pub-id pub-id-type="pmid">24029855</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r50">
+          <label>50</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Halliday</surname>
+                <given-names>NJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Malignant hyperthermia.</article-title>
+            <source>J Craniofac Surg</source>
+            <year>2003</year>
+            <month>Sep</month>
+            <volume>14</volume>
+            <issue>5</issue>
+            <fpage>800</fpage>
+            <page-range>800-2</page-range>
+            <pub-id pub-id-type="pmid">14501352</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r51">
+          <label>51</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hardy</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Gouin</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Damm</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Comp&#x000e8;re</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Veber</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Dureuil</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>The use of a checklist improves anaesthesiologists' technical and non-technical performance for simulated malignant hyperthermia management.</article-title>
+            <source>Anaesth Crit Care Pain Med</source>
+            <year>2018</year>
+            <month>Feb</month>
+            <volume>37</volume>
+            <issue>1</issue>
+            <fpage>17</fpage>
+            <page-range>17-23</page-range>
+            <pub-id pub-id-type="pmid">28939466</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r52">
+          <label>52</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Berkenstadt</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Yusim</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Katznelson</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Ziv</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Livingstone</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Perel</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>A novel point-of-care information system reduces anaesthesiologists' errors while managing case scenarios.</article-title>
+            <source>Eur J Anaesthesiol</source>
+            <year>2006</year>
+            <month>Mar</month>
+            <volume>23</volume>
+            <issue>3</issue>
+            <fpage>239</fpage>
+            <page-range>239-50</page-range>
+            <pub-id pub-id-type="pmid">16430796</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r53">
+          <label>53</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cheng</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Eppich</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Grant</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Sherbino</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Zendejas</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Cook</surname>
+                <given-names>DA</given-names>
+              </name>
+            </person-group>
+            <article-title>Debriefing for technology-enhanced simulation: a systematic review and meta-analysis.</article-title>
+            <source>Med Educ</source>
+            <year>2014</year>
+            <month>Jul</month>
+            <volume>48</volume>
+            <issue>7</issue>
+            <fpage>657</fpage>
+            <page-range>657-66</page-range>
+            <pub-id pub-id-type="pmid">24909527</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r54">
+          <label>54</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tannenbaum</surname>
+                <given-names>SI</given-names>
+              </name>
+              <name>
+                <surname>Cerasoli</surname>
+                <given-names>CP</given-names>
+              </name>
+            </person-group>
+            <article-title>Do team and individual debriefs enhance performance? A meta-analysis.</article-title>
+            <source>Hum Factors</source>
+            <year>2013</year>
+            <month>Feb</month>
+            <volume>55</volume>
+            <issue>1</issue>
+            <fpage>231</fpage>
+            <page-range>231-45</page-range>
+            <pub-id pub-id-type="pmid">23516804</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r55">
+          <label>55</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sawyer</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Eppich</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Brett-Fleegler</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Grant</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Cheng</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>More Than One Way to Debrief: A Critical Review of Healthcare Simulation Debriefing Methods.</article-title>
+            <source>Simul Healthc</source>
+            <year>2016</year>
+            <month>Jun</month>
+            <volume>11</volume>
+            <issue>3</issue>
+            <fpage>209</fpage>
+            <page-range>209-17</page-range>
+            <pub-id pub-id-type="pmid">27254527</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r56">
+          <label>56</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rudolph</surname>
+                <given-names>JW</given-names>
+              </name>
+              <name>
+                <surname>Simon</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Dufresne</surname>
+                <given-names>RL</given-names>
+              </name>
+              <name>
+                <surname>Raemer</surname>
+                <given-names>DB</given-names>
+              </name>
+            </person-group>
+            <article-title>There's no such thing as "nonjudgmental" debriefing: a theory and method for debriefing with good judgment.</article-title>
+            <source>Simul Healthc</source>
+            <year>2006</year>
+            <season>Spring</season>
+            <volume>1</volume>
+            <issue>1</issue>
+            <fpage>49</fpage>
+            <page-range>49-55</page-range>
+            <pub-id pub-id-type="pmid">19088574</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r57">
+          <label>57</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jaye</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Thomas</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Reedy</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>'The Diamond': a structure for simulation debrief.</article-title>
+            <source>Clin Teach</source>
+            <year>2015</year>
+            <month>Jun</month>
+            <volume>12</volume>
+            <issue>3</issue>
+            <fpage>171</fpage>
+            <page-range>171-5</page-range>
+            <pub-id pub-id-type="pmid">26009951</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r58">
+          <label>58</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Eppich</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Cheng</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Promoting Excellence and Reflective Learning in Simulation (PEARLS): development and rationale for a blended approach to health care simulation debriefing.</article-title>
+            <source>Simul Healthc</source>
+            <year>2015</year>
+            <month>Apr</month>
+            <volume>10</volume>
+            <issue>2</issue>
+            <fpage>106</fpage>
+            <page-range>106-15</page-range>
+            <pub-id pub-id-type="pmid">25710312</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r59">
+          <label>59</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kolbe</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Weiss</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Grote</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Knauth</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Dambach</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Spahn</surname>
+                <given-names>DR</given-names>
+              </name>
+              <name>
+                <surname>Grande</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>TeamGAINS: a tool for structured debriefings for simulation-based team trainings.</article-title>
+            <source>BMJ Qual Saf</source>
+            <year>2013</year>
+            <month>Jul</month>
+            <volume>22</volume>
+            <issue>7</issue>
+            <fpage>541</fpage>
+            <page-range>541-53</page-range>
+            <pub-id pub-id-type="pmid">23525093</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r60">
+          <label>60</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Arriaga</surname>
+                <given-names>AF</given-names>
+              </name>
+              <name>
+                <surname>Sweeney</surname>
+                <given-names>RE</given-names>
+              </name>
+              <name>
+                <surname>Clapp</surname>
+                <given-names>JT</given-names>
+              </name>
+              <name>
+                <surname>Muralidharan</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Burson</surname>
+                <given-names>RC</given-names>
+              </name>
+              <name>
+                <surname>Gordon</surname>
+                <given-names>EKB</given-names>
+              </name>
+              <name>
+                <surname>Falk</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Baranov</surname>
+                <given-names>DY</given-names>
+              </name>
+              <name>
+                <surname>Fleisher</surname>
+                <given-names>LA</given-names>
+              </name>
+            </person-group>
+            <article-title>Failure to Debrief after Critical Events in Anesthesia Is Associated with Failures in Communication during the Event.</article-title>
+            <source>Anesthesiology</source>
+            <year>2019</year>
+            <month>Jun</month>
+            <volume>130</volume>
+            <issue>6</issue>
+            <fpage>1039</fpage>
+            <page-range>1039-1048</page-range>
+            <pub-id pub-id-type="pmid">30829661</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r61">
+          <label>61</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>King</surname>
+                <given-names>HB</given-names>
+              </name>
+              <name>
+                <surname>Battles</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Baker</surname>
+                <given-names>DP</given-names>
+              </name>
+              <name>
+                <surname>Alonso</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Salas</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Webster</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Toomey</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Salisbury</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <chapter-title>TeamSTEPPS<sup>&#x02122;</sup>: Team Strategies and Tools to Enhance Performance and Patient Safety</chapter-title>
+            <person-group person-group-type="editor">
+              <name>
+                <surname>Henriksen</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Battles</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Keyes</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Grady</surname>
+                <given-names>ML</given-names>
+              </name>
+            </person-group>
+            <source>Advances in Patient Safety: New Directions and Alternative Approaches (Vol. 3: Performance and Tools)</source>
+            <publisher-name>Agency for Healthcare Research and Quality (US)</publisher-name>
+            <publisher-loc>Rockville (MD)</publisher-loc>
+            <year>2008</year>
+            <month>08</month>
+            <pub-id pub-id-type="pmid">21249942</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63871.r62">
+          <label>62</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Weller</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Henderson</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Webster</surname>
+                <given-names>CS</given-names>
+              </name>
+              <name>
+                <surname>Shulruf</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Torrie</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Davies</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Henderson</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Frampton</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Merry</surname>
+                <given-names>AF</given-names>
+              </name>
+            </person-group>
+            <article-title>Building the evidence on simulation validity: comparison of anesthesiologists' communication patterns in real and simulated cases.</article-title>
+            <source>Anesthesiology</source>
+            <year>2014</year>
+            <month>Jan</month>
+            <volume>120</volume>
+            <issue>1</issue>
+            <fpage>142</fpage>
+            <page-range>142-8</page-range>
+            <pub-id pub-id-type="pmid">23903023</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

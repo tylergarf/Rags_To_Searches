@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-26218" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Opioid, Risk Tool</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Brott</surname>
+            <given-names>Nathan R.</given-names>
+          </name>
+          <aff>University of Tennessee HSC</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Peterson</surname>
+            <given-names>Elisha</given-names>
+          </name>
+          <aff>Rush Medical College, Chicago, IL</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Cascella</surname>
+            <given-names>Marco</given-names>
+          </name>
+          <aff>Istituto Nazionale Tumori - IRCCS - Fondazione Pascale, Via Mariano Semmola 80100, Napoli. Italy</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Nathan Brott declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Elisha Peterson declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Marco Cascella declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>25</day>
+          <month>11</month>
+          <year>2022</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-26218.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Opioids are a class of&#x000a0;analgesics&#x000a0;commonly employed in the treatment of acute and chronic pain conditions.<xref ref-type="bibr" rid="article-26218.r1">[1]</xref>&#x000a0;Apart from the analgesic effects, the opioids used in clinical practice may interfere with different physiological functions, including stress, temperature, respiration, endocrine activity, gastrointestinal activity, memory, mood, and motivation. These opioid-induced effects are produced by activating opioid receptors located in the central and peripheral nervous systems. These opioid receptors are&#x000a0;an extensive family of receptors, including the Mu OPiate receptors (MOP, also indicated as MOR), the Delta OPiate receptors (DOPs or DORs), Kappa OPiate receptors (KOPs or KORs), and Nociceptin OPiate receptors (NOPs or NORs) also known&#x000a0;as opioid-receptor-like receptor 1 (ORL1). Moreover, other opioid receptors, such as the zeta, the epsilon, the lambda, and the iota opioid receptors, have also been characterized.<xref ref-type="bibr" rid="article-26218.r1">[1]</xref></p>
+        <p>The use of opioids in treating chronic non-cancer pain is a current area of controversy due to the potential risk of patient's physical dependence on opioid medications.<xref ref-type="bibr" rid="article-26218.r2">[2]</xref><xref ref-type="bibr" rid="article-26218.r3">[3]</xref><xref ref-type="bibr" rid="article-26218.r4">[4]</xref>&#x000a0;However, the alarming data about the deleterious effects of the misuse or abuse of opioids (opioid crisis) seems to have a geographical contextualization, being especially evident in North America and Canada, while in Europe, the problem appears to be less apparent.<xref ref-type="bibr" rid="article-26218.r5">[5]</xref><xref ref-type="bibr" rid="article-26218.r6">[6]</xref></p>
+        <p>Several tools have undergone development for&#x000a0;assessing the risk of developing opioid use disorder. The Opioid Risk Tool (ORT) is a validated screening instrument commonly used in practice to evaluate the risk of future aberrant opioid use among chronic nonmalignant pain patients who receive prescribed opioids for pain relief.<xref ref-type="bibr" rid="article-26218.r7">[7]</xref> In other words, the tool quantifies the risk of developing an opioid use disorder (OUD). The assumption is that there would be predisposing factors, including behavioral factors and factors strictly related to the patient's history and experiences. For instance, opioid-related aberrant behaviors include abuse, misuse, and diversion.<xref ref-type="bibr" rid="article-26218.r8">[8]</xref>&#x000a0;The matter is much more complicated as&#x000a0;a previous history of addiction to opioids or other substances is not the only predictive factor. In clinical practice, it is possible to note that many subjects with chronic pain syndromes that develop OUD do not have a prior history of addiction.</p>
+        <p>Webster et al. developed the ORT questionnaire., in 2005 as a self-performed screening tool designed&#x000a0;for use by adult patients in primary care settings before beginning opioid treatment for pain management.<xref ref-type="bibr" rid="article-26218.r9">[9]</xref> It consists of&#x000a0;10&#x000a0;scorable components. For some items, a different score is assigned depending on gender. The questionnaire asks patients to report on:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Family history of substance abuse including alcohol (Female=1; Male=3), illegal drugs (2;3), and/or prescription drugs (4;4)</p>
+          </list-item>
+          <list-item>
+            <p>Personal history of substance abuse including alcohol (Female=3; Male=3), illegal drugs (4;4), and/or prescription drugs (5;5)</p>
+          </list-item>
+          <list-item>
+            <p>Whether the patient's age range is between 16&#x000a0;to 45 years (1;1)</p>
+          </list-item>
+          <list-item>
+            <p>A history of preadolescent sexual abuse (3;0)</p>
+          </list-item>
+          <list-item>
+            <p>Psychological diseases, including attention deficit hyperactivity disorder (ADHD), obsessive-compulsive disorder (OCD), bipolar disorder, schizophrenia (2;2),&#x000a0;or depression (1;1)</p>
+          </list-item>
+        </list>
+        <p>Scores are summed, and a score of 3 or below suggests a low risk for future opioid abuse, while a score of 4 to 7 indicates moderate risk. A score of 8 or greater suggests a high risk of future&#x000a0;abusive drug-related behavior. According to the ORT, several interactive versions are available online, allowing quick calculation of a patient's risk.</p>
+        <p>Cheatle et al. have recently developed and validated a weighted ORT eliminating the gender-specific history of preadolescent sexual abuse. Of note, they found that this revised ORT was&#x000a0;able to predict better the development of OUD in&#x000a0;individuals with chronic nonmalignant pain on long-term opioid therapy.<xref ref-type="bibr" rid="article-26218.r7">[7]</xref></p>
+        <p>Other opioid risk screening tools include the Screener and Opioid Assessment for Patients with Pain Revised (SOAPP-R), developed to predict aberrant drug-related behaviors before initiation of long-term opioid therapy;<xref ref-type="bibr" rid="article-26218.r10">[10]</xref> the Diagnosis Intractability Risk Efficacy (DIRE) tool, the 17-item Current Opioid Misuse Measure (COMM) and its 9-item brief version, the 26-question Patient Medication Questionnaire (PMQ).<xref ref-type="bibr" rid="article-26218.r11">[11]</xref><xref ref-type="bibr" rid="article-26218.r12">[12]</xref><xref ref-type="bibr" rid="article-26218.r13">[13]</xref><xref ref-type="bibr" rid="article-26218.r14">[14]</xref>&#x000a0;&#x000a0;</p>
+      </sec>
+      <sec id="article-26218.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>Over the past several decades, there has been a significant increase in opioid use, misuse, and abuse. However, the phenomenon seems to be dramatic, especially in some geographical areas, while in others, such as Europe, the consumption and misuse or abuse of opioids are less alarming. This upward trend in opioid use started in the 1990s, especially in the United States, which is the largest consumer of opioid drugs globally, accounting for close to 80% of the opioids produced worldwide. Prescription opioids are now the leading drug of abuse, and their use can produce both medical and psychological side effects. Opioid overdose, indeed, is the most common cause of accidental death among young adults. As of 2018, predictions suggest that there could be close to 500000 opioid-related deaths in the United States over the next decade. The effects of the misuse of opioids are manifold. In the surgical setting, for instance, opioid misuse is associated with an increased risk of postoperative complications, postoperative death, and falls and fractures in the elderly.<xref ref-type="bibr" rid="article-26218.r8">[8]</xref><xref ref-type="bibr" rid="article-26218.r15">[15]</xref><xref ref-type="bibr" rid="article-26218.r16">[16]</xref><xref ref-type="bibr" rid="article-26218.r17">[17]</xref><xref ref-type="bibr" rid="article-26218.r18">[18]</xref></p>
+      </sec>
+      <sec id="article-26218.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Early identification of at-risk patients is an effective strategy in preventing aberrant opioid behavior. In the postsurgical setting, opioid abuse increases the risks of poor surgical outcomes, motor vehicle accidents, myocardial infarction, bone fractures, and death, among various other medical issues. Opioid-related adverse events have a direct positive correlation with the opioid dosages. Although the CDC has indicated there is insufficient evidence to determine the utility of opioid risk screening tools, some prescription guidelines suggest&#x000a0;using these instruments. In this context, the ORT has been adopted in clinical practice to evaluate the risk of future aberrant opioid behavior.<xref ref-type="bibr" rid="article-26218.r8">[8]</xref>&#x000a0;Indeed, the ORT is better for low-risk screening and may be more useful in large-volume medical practices due to its relative ease of use.<xref ref-type="bibr" rid="article-26218.r15">[15]</xref>&#x000a0;Furthermore, the tool is easy to perform as administration and scoring take less than 1 minute. Concerning the clinical significance of ORT,&#x000a0;although opioid use should not be stigmatized simply because a patient is considered "high risk" by the ORT, these patients should be treated with other modalities of pain control, such as non-invasive or minimally invasive treatments.</p>
+      </sec>
+      <sec id="article-26218.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>For patients with an established treatment plan involving opioid therapy, frequent follow-up is essential for all patients, no matter their risk stratification. Higher-risk patients require more frequent monitoring than lower-risk patients. Follow-ups may include re-screening of risk, urine drug screening, and observation for other clues of drug abuse. These clues may consist of requests for dose escalation, doctor shopping, forging prescriptions, requesting early prescriptions, unscheduled clinic visits, or emergency room visits with complaints of pain. Urine drug screening may identify illicit substances or non-use of prescribed medication. It is strongly recommended to collect a baseline urine drug screen to identify pre-existent drug abuse when present. These recommendations should involve interdisciplinary cooperation of physicians, nurses, and technicians to improve patient outcomes.<xref ref-type="bibr" rid="article-26218.r15">[15]</xref></p>
+      </sec>
+      <sec id="article-26218.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=26218&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=26218">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/26218/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=26218">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-26218.s6">
+        <title>References</title>
+        <ref id="article-26218.r1">
+          <label>1</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Herman</surname>
+                <given-names>TF</given-names>
+              </name>
+              <name>
+                <surname>Cascella</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Muzio</surname>
+                <given-names>MR</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Mu Receptors</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2024</year>
+            <month>6</month>
+            <day>8</day>
+            <pub-id pub-id-type="pmid">31855381</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26218.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pathan</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Williams</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Basic opioid pharmacology: an update.</article-title>
+            <source>Br J Pain</source>
+            <year>2012</year>
+            <month>Feb</month>
+            <volume>6</volume>
+            <issue>1</issue>
+            <fpage>11</fpage>
+            <page-range>11-6</page-range>
+            <pub-id pub-id-type="pmid">26516461</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26218.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Salsitz</surname>
+                <given-names>EA</given-names>
+              </name>
+            </person-group>
+            <article-title>Chronic Pain, Chronic Opioid Addiction: a Complex Nexus.</article-title>
+            <source>J Med Toxicol</source>
+            <year>2016</year>
+            <month>Mar</month>
+            <volume>12</volume>
+            <issue>1</issue>
+            <fpage>54</fpage>
+            <page-range>54-7</page-range>
+            <pub-id pub-id-type="pmid">26602212</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26218.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rhodes</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Wilson</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Robinson</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Hayden</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Asbridge</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>The effectiveness of prescription drug monitoring programs at reducing opioid-related harms and consequences: a systematic review.</article-title>
+            <source>BMC Health Serv Res</source>
+            <year>2019</year>
+            <month>Nov</month>
+            <day>01</day>
+            <volume>19</volume>
+            <issue>1</issue>
+            <fpage>784</fpage>
+            <pub-id pub-id-type="pmid">31675963</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26218.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bigal</surname>
+                <given-names>LM</given-names>
+              </name>
+              <name>
+                <surname>Bibeau</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Dumbar</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Patterns in opioid prescription in the United States by region and prescribers over a 4-year period.</article-title>
+            <source>J Opioid Manag</source>
+            <year>2019</year>
+            <season>Nov/Dec</season>
+            <volume>15</volume>
+            <issue>6</issue>
+            <fpage>499</fpage>
+            <page-range>499-506</page-range>
+            <pub-id pub-id-type="pmid">31850512</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26218.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Miceli</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Bednarova</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Rizzardo</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Cuomo</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Riccardi</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Vetrugno</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Bove</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Cascella</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Opioids prescriptions in pain therapy and risk of addiction: a one-year survey in Italy. Analysis of national opioids database.</article-title>
+            <source>Ann Ist Super Sanita</source>
+            <year>2018</year>
+            <season>Oct-Dec</season>
+            <volume>54</volume>
+            <issue>4</issue>
+            <fpage>370</fpage>
+            <page-range>370-374</page-range>
+            <pub-id pub-id-type="pmid">30575575</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26218.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cheatle</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Compton</surname>
+                <given-names>PA</given-names>
+              </name>
+              <name>
+                <surname>Dhingra</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Wasser</surname>
+                <given-names>TE</given-names>
+              </name>
+              <name>
+                <surname>O'Brien</surname>
+                <given-names>CP</given-names>
+              </name>
+            </person-group>
+            <article-title>Development of the Revised Opioid Risk Tool to Predict Opioid Use Disorder in Patients with Chronic Nonmalignant Pain.</article-title>
+            <source>J Pain</source>
+            <year>2019</year>
+            <month>Jul</month>
+            <volume>20</volume>
+            <issue>7</issue>
+            <fpage>842</fpage>
+            <page-range>842-851</page-range>
+            <pub-id pub-id-type="pmid">30690168</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26218.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Clark</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name>
+                <surname>Hurley</surname>
+                <given-names>RW</given-names>
+              </name>
+              <name>
+                <surname>Adams</surname>
+                <given-names>MCB</given-names>
+              </name>
+            </person-group>
+            <article-title>Re-assessing the Validity of the Opioid Risk Tool in a Tertiary Academic Pain Management Center Population.</article-title>
+            <source>Pain Med</source>
+            <year>2018</year>
+            <month>Jul</month>
+            <day>01</day>
+            <volume>19</volume>
+            <issue>7</issue>
+            <fpage>1382</fpage>
+            <page-range>1382-1395</page-range>
+            <pub-id pub-id-type="pmid">29408996</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26218.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Webster</surname>
+                <given-names>LR</given-names>
+              </name>
+              <name>
+                <surname>Webster</surname>
+                <given-names>RM</given-names>
+              </name>
+            </person-group>
+            <article-title>Predicting aberrant behaviors in opioid-treated patients: preliminary validation of the Opioid Risk Tool.</article-title>
+            <source>Pain Med</source>
+            <year>2005</year>
+            <season>Nov-Dec</season>
+            <volume>6</volume>
+            <issue>6</issue>
+            <fpage>432</fpage>
+            <page-range>432-42</page-range>
+            <pub-id pub-id-type="pmid">16336480</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26218.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Black</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>McCaffrey</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Villapiano</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Jamison</surname>
+                <given-names>RN</given-names>
+              </name>
+              <name>
+                <surname>Butler</surname>
+                <given-names>SF</given-names>
+              </name>
+            </person-group>
+            <article-title>Development and Validation of an Eight-Item Brief Form of the SOAPP-R (SOAPP-8).</article-title>
+            <source>Pain Med</source>
+            <year>2018</year>
+            <month>Oct</month>
+            <day>01</day>
+            <volume>19</volume>
+            <issue>10</issue>
+            <fpage>1982</fpage>
+            <page-range>1982-1987</page-range>
+            <pub-id pub-id-type="pmid">29024987</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26218.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Salmond</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Allread</surname>
+                <given-names>V</given-names>
+              </name>
+            </person-group>
+            <article-title>A Population Health Approach to America's Opioid Epidemic.</article-title>
+            <source>Orthop Nurs</source>
+            <year>2019</year>
+            <season>Mar/Apr</season>
+            <volume>38</volume>
+            <issue>2</issue>
+            <fpage>95</fpage>
+            <page-range>95-108</page-range>
+            <pub-id pub-id-type="pmid">30768537</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26218.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Butler</surname>
+                <given-names>SF</given-names>
+              </name>
+              <name>
+                <surname>Budman</surname>
+                <given-names>SH</given-names>
+              </name>
+              <name>
+                <surname>Fernandez</surname>
+                <given-names>KC</given-names>
+              </name>
+              <name>
+                <surname>Houle</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Benoit</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Katz</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Jamison</surname>
+                <given-names>RN</given-names>
+              </name>
+            </person-group>
+            <article-title>Development and validation of the Current Opioid Misuse Measure.</article-title>
+            <source>Pain</source>
+            <year>2007</year>
+            <month>Jul</month>
+            <volume>130</volume>
+            <issue>1-2</issue>
+            <fpage>144</fpage>
+            <page-range>144-56</page-range>
+            <pub-id pub-id-type="pmid">17493754</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26218.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>McCaffrey</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Black</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Villapiano</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Jamison</surname>
+                <given-names>RN</given-names>
+              </name>
+              <name>
+                <surname>Butler</surname>
+                <given-names>SF</given-names>
+              </name>
+            </person-group>
+            <article-title>Development of a Brief Version of the Current Opioid Misuse Measure (COMM): The COMM-9.</article-title>
+            <source>Pain Med</source>
+            <year>2019</year>
+            <month>Jan</month>
+            <day>01</day>
+            <volume>20</volume>
+            <issue>1</issue>
+            <fpage>113</fpage>
+            <page-range>113-118</page-range>
+            <pub-id pub-id-type="pmid">29237039</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26218.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Adams</surname>
+                <given-names>LL</given-names>
+              </name>
+              <name>
+                <surname>Gatchel</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Robinson</surname>
+                <given-names>RC</given-names>
+              </name>
+              <name>
+                <surname>Polatin</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Gajraj</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Deschner</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Noe</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Development of a self-report screening instrument for assessing potential opioid medication misuse in chronic pain patients.</article-title>
+            <source>J Pain Symptom Manage</source>
+            <year>2004</year>
+            <month>May</month>
+            <volume>27</volume>
+            <issue>5</issue>
+            <fpage>440</fpage>
+            <page-range>440-59</page-range>
+            <pub-id pub-id-type="pmid">15120773</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26218.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dale</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Edwards</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Ballantyne</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Opioid risk assessment in palliative medicine.</article-title>
+            <source>J Community Support Oncol</source>
+            <year>2016</year>
+            <month>Mar</month>
+            <volume>14</volume>
+            <issue>3</issue>
+            <fpage>94</fpage>
+            <page-range>94-100</page-range>
+            <pub-id pub-id-type="pmid">27058865</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26218.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Combs</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Hughes</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Ariagno</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Turcotte</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Opioid Epidemic.</article-title>
+            <source>Orthop Nurs</source>
+            <year>2019</year>
+            <season>Mar/Apr</season>
+            <volume>38</volume>
+            <issue>2</issue>
+            <fpage>92</fpage>
+            <page-range>92-94</page-range>
+            <pub-id pub-id-type="pmid">30882550</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26218.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Manchikanti</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Helm</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Fellows</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Janata</surname>
+                <given-names>JW</given-names>
+              </name>
+              <name>
+                <surname>Pampati</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Grider</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Boswell</surname>
+                <given-names>MV</given-names>
+              </name>
+            </person-group>
+            <article-title>Opioid epidemic in the United States.</article-title>
+            <source>Pain Physician</source>
+            <year>2012</year>
+            <month>Jul</month>
+            <volume>15</volume>
+            <issue>3 Suppl</issue>
+            <fpage>ES9</fpage>
+            <page-range>ES9-38</page-range>
+            <pub-id pub-id-type="pmid">22786464</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26218.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Clark</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Schumacher</surname>
+                <given-names>MA</given-names>
+              </name>
+            </person-group>
+            <article-title>America's Opioid Epidemic: Supply and Demand Considerations.</article-title>
+            <source>Anesth Analg</source>
+            <year>2017</year>
+            <month>Nov</month>
+            <volume>125</volume>
+            <issue>5</issue>
+            <fpage>1667</fpage>
+            <page-range>1667-1674</page-range>
+            <pub-id pub-id-type="pmid">29049112</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

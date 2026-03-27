@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-151566" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Quality Tools and Techniques (Fishbone Diagram, Pareto Chart, Process Map)</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Tagaram</surname>
+            <given-names>Sandhya Devi</given-names>
+          </name>
+          <aff>UMass Memorial Medical Center</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Chen</surname>
+            <given-names>Catherine</given-names>
+          </name>
+          <aff>Rutgers University - Robert Wood Johnson Medical School</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Sandhya Devi Tagaram declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Catherine Chen declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>6</day>
+          <month>9</month>
+          <year>2024</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-151566.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">In a dynamic and complex healthcare system, recognizing the role of quality in patient health outcomes and resource utilization is crucial. Various factors contribute to the gap between the ideal and existing states of healthcare delivery, including a lack of awareness of needs, resistance to new methods, and workforce shortages.</p>
+        <p>The establishment of the Joint Commission in 1951, Dr. Avedis Donabedian's structure-process-outcome framework for evaluating healthcare quality in 1966, the formation of the Agency for Healthcare Research and Quality (AHRQ) in 1989 and the Institute for Healthcare Improvement in 1991 are some of the historical milestones in the evolution of quality in healthcare.<xref ref-type="bibr" rid="article-151566.r1">[1]</xref>&#x000a0;The Institute of Medicine (IOM) reports, the&#x000a0;<italic toggle="yes">To Err Is Human</italic> in 2000 and the&#x000a0;<italic toggle="yes">Crossing the Quality Chasm </italic>in&#x000a0;2001, have paved the way for establishing a culture of patient safety and healthcare quality.<xref ref-type="bibr" rid="article-151566.r2">[2]</xref>&#x000a0;The IOM advocated for a redesign of the healthcare system to promote quality and safety by supporting front-line teams in identifying practices that hinder quality care and encouraging collective exploration to build a more robust healthcare system.<xref ref-type="bibr" rid="article-151566.r2">[2]</xref></p>
+        <p>The IOM defines quality as the measure of service offered to individuals and communities to achieve positive health outcomes<xref ref-type="bibr" rid="article-151566.r3">[3]</xref>. Health care aims to deliver safe, timely, effective, efficient, equitable, and patient-centered (STEP) care supported by evidence-based medicine.<xref ref-type="bibr" rid="article-151566.r4">[4]</xref>&#x000a0;A multidisciplinary team approach to quality improvement (QI) involves healthcare professionals, patients, and families, with each member playing a&#x000a0;vital&#x000a0;role in driving system-wide improvements and fostering organizational learning to improve health outcomes.<xref ref-type="bibr" rid="article-151566.r5">[5]</xref></p>
+        <p>QI in healthcare involves a wide range of tools and strategies. Common QI methodologies include the Model for Improvement, Plan-Do-Study-Act, Lean, and Six Sigma.<xref ref-type="bibr" rid="article-151566.r6">[6]</xref> These methodologies employ diverse QI tools to identify root causes, address process issues, prioritize change opportunities, and anticipate potential barriers&#x000a0;(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.ahrq.gov/evidencenow/tools/qi-essentials-toolkit.html">AHRQ. QI Toolkit</ext-link>).</p>
+        <p>This article focuses on 3 tools used in QI&#x02014;the Fishbone or Ishikawa Diagram, Pareto chart, and process mapping. These tools enable healthcare teams to identify and prioritize the root causes of the problem and decide on which aspects need to be acted on first.</p>
+        <p>
+<bold>Fishbone Diagram</bold>
+</p>
+        <p>The fishbone, also known as the cause-and-effect diagram, was introduced by Kaoru Ishikawa, who is often regarded as the father of Japanese quality for his contributions to quality management techniques <xref ref-type="bibr" rid="article-151566.r7">[7]</xref>. This diagram is used in QI to visualize a root cause analysis (RCA) of a problem and ideate on potential actionable changes. In the diagram, the head of the fish, typically on the right side, represents the problem that occurred or the area needing improvement. Each branch, also called the bone of the diagram, corresponds to a major category of causes related to the effect (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.cec.health.nsw.gov.au/CEC-Academy/quality-improvement-tools/cause-and-effect-diagrams">CEC. Quality Improvement tools</ext-link>). The teams brainstorm major causes and sub-causes by asking why the problem happened. These major causes can be categorized under the following (modifiable) headings&#x02014;methods&#x000a0;or systems, machine&#x000a0;or equipment, manpower&#x000a0;or people, materials, environment, and measurement (see&#x000a0;<bold>Image.&#x000a0;</bold>Fishbone Diagram).</p>
+        <p>The methods or systems category can include gaps in processes, training, or guidelines that lead to variability. The people or manpower category can relate to&#x000a0;issues with human resources, cognitive errors, knowledge gaps, or biases, such as authority bias, for example, following orders simply because they were given by a doctor. Depending on the specific type of effect being analyzed in the RCA, heuristic errors can be categorized under a separate bone. The environment category focuses on what was happening at the time of the error or surrounding factors that may have facilitated its occurrence.</p>
+        <p>Thus, the fishbone diagram enables the stakeholders to identify major and minor contributors to a problem. From this&#x000a0;comprehensive list, teams can develop successful process improvement initiatives and potential solutions through effective collaboration. &#x000a0;</p>
+        <p>
+<bold>Pareto Chart</bold>
+</p>
+        <p>Vilfredo Pareto originally introduced the Pareto principle based on his idea that 80% of the land was only owned by 20% of the Italian population (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.cec.health.nsw.gov.au/CEC-Academy/quality-improvement-tools/pareto-charts">CEC. Quality Improvement Tools</ext-link>). In health care, teams can apply the Pareto principle to identify the "vital few" factors that can most efficiently improve the quality of care. After root causes have been identified and causes of the issue have been quantified, factors whose cumulative contributions constitute approximately 80% of the causes of issues are considered the lowest-hanging fruits or the biggest bang for the buck. Factors that have relatively minor effects are considered the "trivial many" and constitute the remaining 20% of the causes (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.cec.health.nsw.gov.au/CEC-Academy/quality-improvement-tools/pareto-charts">CEC. Quality Improvement Tools</ext-link>). The most frequently used visual representation of the 80/20 rule is a Pareto chart<xref ref-type="bibr" rid="article-151566.r3">[3]</xref>.</p>
+        <p>The Pareto chart consists of 2 components&#x02014;a bar chart of the quantified causes ordered from most to least frequent and a line graph representing the cumulative percentage of contributions from different factors. To create a Pareto chart, first identify causes and then quantify the number of errors attributable to each cause. Pareto charts can be created in Excel using a table of causes and frequencies. The Pareto chart feature is categorized under Histogram Charts when&#x000a0;inserting a chart.</p>
+        <p>The example Pareto chart (see&#x000a0;<bold>Image.&#x000a0;</bold>Pareto Chart)&#x000a0;lists patient falls on a specific medical unit identified as the problem. The X-axis of the chart depicts the major categories of causes contributing to the problem. To determine which fall prevention strategies most efficiently promote patient safety, the bar graph is ordered left to right from most (vital few) to least (trivial many) frequent. The next step is to calculate the cumulative percentage curve&#x000a0;or line graph, which is depicted by connecting the dots at the first, second, and third contribute percentages, and so on. The line graph is overlaid on the bar chart, with its axis on the right side of the graph. The 80/20 rule is applied by identifying the point where the cumulative percentage line graph intersects with 80% on the percentage axis. Factors that fall to the left of this point are the vital few&#x000a0;or most impactful causes, whereas the factors to the right of the intersection are the trivial many. Working on the most frequent contributors to failure significantly impacts the given problem.<xref ref-type="bibr" rid="article-151566.r3">[3]</xref>&#x000a0;The 80/20 rule helps optimize where QI efforts and resources are most efficiently expended, especially when garnering support for QI projects and allotting resources.</p>
+        <p>
+<bold>Process Map</bold>
+</p>
+        <p>Process mapping was introduced by Frank Gilbreth in the early 1900s (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://ors.od.nih.gov/OD/OQM/Pages/Process-Mapping.aspx">NIH. Process Mapping</ext-link>). Unlike written standard operating procedures that outline the ideal process, process maps provide a detailed, step-by-step depiction of the actual procedures, revealing potential duplications, delays, decision points, variations, and inefficiencies (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://ors.od.nih.gov/OD/OQM/Pages/Process-Mapping.aspx">NIH. Process Mapping</ext-link>). Process mapping in health care typically requires the perspectives of diverse stakeholders to identify different levels of interwoven and complex processes <xref ref-type="bibr" rid="article-151566.r8">[8]</xref>. Other terms associated with process mapping include spaghetti diagrams (process maps with curved arrows instead of straight ones) and swim lanes (for complex processes with multiple parallel activities, such as discharge planning).</p>
+        <p>The process mapping begins by:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Determining the scope by identifying clear start and endpoints of workflow</p>
+          </list-item>
+          <list-item>
+            <p>Identifying and engaging stakeholders</p>
+          </list-item>
+          <list-item>
+            <p>Mapping the process workflow as a team.</p>
+          </list-item>
+        </list>
+        <p>Formats are flexible and may include sticky notes, whiteboards, and electronic software, such as MS Visio, Smart Draw, and PowerPoint. Shapes in the process map can be used to visually differentiate process types. The shapes represent start and end points, actions performed, delays, and decision points. Shapes may vary, and legends should be provided to the team. These shapes are connected by arrows to depict the direction of the process flow.<xref ref-type="bibr" rid="article-151566.r9">[9]</xref></p>
+        <p>In the example process map, a simplified flowchart illustrates the process of documenting medication reconciliations for patients admitted to hospital medicine through the emergency department&#x000a0;(see&#x000a0;<bold>Image.&#x000a0;</bold>Process Map). Steps in the process should be arranged in the correct order. Stakeholders, especially those on the front line, can help to determine accuracy and highlight any variations in the process. The draft process map should then be validated during a Gemba walk, which involves directly observing the actual workflow. Discrepancies and variations found can be corrected on the map.</p>
+        <p>The finalized current state process map can be used to develop targeted&#x000a0;QI plans. Process mapping also plays a crucial role in RCA. A future state plan can be discussed with stakeholders and redrawn to optimize team workflow during the QI project design.<xref ref-type="bibr" rid="article-151566.r9">[9]</xref></p>
+      </sec>
+      <sec id="article-151566.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>The effective use of QI principles by healthcare professionals is essential to achieve safe, evidence-based, patient-centered care. To implement successful QI programs, strong leadership across the organization is required to support frontline staff and offer training in QI methodologies to promote cultures of continuous learning.<xref ref-type="bibr" rid="article-151566.r5">[5]</xref>&#x000a0;Some common challenges for QI project implementation include resistance to change, lack of training in QI methodologies, time constraints, low motivation, competing priorities, lack of teamwork or stakeholder engagement, ineffective leadership, and organizational support.<xref ref-type="bibr" rid="article-151566.r10">[10]</xref>&#x000a0;</p>
+        <p>Complexity management and human factor training resources are key factors for team engagement.<xref ref-type="bibr" rid="article-151566.r11">[11]</xref>&#x000a0;Various QI methods and tools exist. Choosing the right methods and tools for each QI project can accelerate goal achievement. Fishbone diagrams, Pareto charts, and process maps are valuable tools for helping define areas of action and craft SMART (specific, measurable, achievable, relevant, time-bound) aims for project design. Whichever QI tools are used, keeping patient safety and experience top of mind while reducing waste and increasing the value of care is important.</p>
+      </sec>
+      <sec id="article-151566.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Medical errors pose a serious threat to public health in the United States.<xref ref-type="bibr" rid="article-151566.r12">[12]</xref>&#x000a0;Healthcare organizations must regularly conduct QI programs and promote systems-based learning, which empowers employees to apply the principles of healthcare quality to promote patient safety.<xref ref-type="bibr" rid="article-151566.r13">[13]</xref>&#x000a0;The introduction of the QI curriculum in early medical education and the promotion of safety culture in organizations improves healthcare efficiency and patient outcomes.<xref ref-type="bibr" rid="article-151566.r14">[14]</xref>&#x000a0;John Kotter&#x000a0;puts forth 8 principles to promote a patient safety culture:&#x000a0;<xref ref-type="bibr" rid="article-151566.r15">[15]</xref></p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Establishing a sense of urgency in change initiation</p>
+          </list-item>
+          <list-item>
+            <p>Building a powerful guiding coalition for goal alignment</p>
+          </list-item>
+          <list-item>
+            <p>Creating a vision to direct the change effort</p>
+          </list-item>
+          <list-item>
+            <p>Communicating the vision</p>
+          </list-item>
+          <list-item>
+            <p>Team empowerment to act on the vision</p>
+          </list-item>
+          <list-item>
+            <p>Generating short-term wins</p>
+          </list-item>
+          <list-item>
+            <p>Consolidating improvements to produce positive changes</p>
+          </list-item>
+          <list-item>
+            <p>Anchor new approaches in the organization's culture.</p>
+          </list-item>
+        </list>
+        <p>Effective change management involves a thorough understanding of the need for change and inclusive leadership. By fostering a collaborative approach, stakeholders can develop action plans that enhance healthcare efficiency and sustainability.<xref ref-type="bibr" rid="article-151566.r16">[16]</xref></p>
+      </sec>
+      <sec id="article-151566.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>The application of QI principles in health care has significantly evolved over the past century. Proficiency in RCA methodologies enables healthcare teams to improve patient care and mitigate medical errors. Please see StatPearls' companion resource,&#x000a0;"<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/point-of-care/131252">Root Cause Analysis and Medical Error Prevention</ext-link>," for more information. Effective leadership establishes vision, aligns, motivates, and inspires teams to bring positive and sustainable changes.<xref ref-type="bibr" rid="article-151566.r15">[15]</xref>&#x000a0;</p>
+        <p>Key steps for effective organizational performance include supportive QI leadership, collaborative teamwork, staff training in QI methodologies,&#x000a0;patient and team feedback utilization, and&#x000a0;success celebration (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.ahrq.gov/patient-safety/settings/hospital/resource/qitool/index.html">AHRQ. Toolkit for Using AHRQ Quality Indicators</ext-link>). Strong interprofessional networking, education, administrative support, and motivation are essential for&#x000a0;developing robust healthcare teams and patient safety champions, who are pivotal in delivering safe, evidence-based, patient-centered care.<xref ref-type="bibr" rid="article-151566.r17">[17]</xref></p>
+      </sec>
+      <sec id="article-151566.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=151566&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=151566">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/151566/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=151566">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-151566.s6">
+        <fig id="article-151566.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Fishbone Diagram. This fishbone diagram illustrates the root causes of&#x000a0;problems&#x000a0;related to high physical therapy (PT) consult volume, represented as the head of the fish.&#x000a0; In this example, 5 cause categories or bones are identified&#x02014;Systems, People, Environment, Materials, and Equipment.&#x000a0;EHR, electronic health record. Contributed by S Tagaram, MD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Fishbone__Diagram" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-151566.s7">
+        <fig id="article-151566.image.f2" position="float" orientation="portrait">
+          <caption>
+            <p>Process Map. This process map illustrates the medication reconciliation process in the emergency department (ED) for patients admitted to the hospitalist service.&#x000a0; The ovals here represent the start and end points of the process, rectangles denote the steps involved, and the diamond shape indicates a decision point. EMR, electronic medical record. Contributed by S Tagaram, MD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Process__Map2" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-151566.s8">
+        <fig id="article-151566.image.f3" position="float" orientation="portrait">
+          <caption>
+            <p>Pareto Chart. This Pareto chart for inpatient falls shows 5 causes. The left-side Y-axis displays the number of falls attributed to each cause. The right-side Y-axis shows the cumulative percentage contribution of these causes. The point where the orange line intersects with the horizontal solid blue 80% line indicates the most vital causes for the project. The vertical dotted blue line represents this transition from vital few to trivial many. In this example, the vital few could be either the first 2 or 3 causes on the left, depending on the resources allocated to the project, as the dotted line intersects the third cause (lack of mobility equipment). The 2 right-most causes (team communication and family attempt) contribute only 9% to the total. Efforts towards addressing these causes do not significantly impact the number of falls. Contributed by S Tagaram, MD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Pareto__Chart__2" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-151566.s9">
+        <title>References</title>
+        <ref id="article-151566.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Comfere</surname>
+                <given-names>NI</given-names>
+              </name>
+              <name>
+                <surname>Matulis</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>O'Horo</surname>
+                <given-names>JC</given-names>
+              </name>
+            </person-group>
+            <article-title>Quality improvement and healthcare: The Mayo Clinic quality Academy experience.</article-title>
+            <source>J Clin Tuberc Other Mycobact Dis</source>
+            <year>2020</year>
+            <month>Aug</month>
+            <volume>20</volume>
+            <fpage>100170</fpage>
+            <pub-id pub-id-type="pmid">32596515</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151566.r2">
+          <label>2</label>
+          <element-citation publication-type="book">
+            <collab>Institute of Medicine (US) Committee on Quality of Health Care in America</collab>
+            <source>Crossing the Quality Chasm: A New Health System for the 21st Century</source>
+            <publisher-name>National Academies Press (US)</publisher-name>
+            <publisher-loc>Washington (DC)</publisher-loc>
+            <year>2001</year>
+            <pub-id pub-id-type="pmid">25057539</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151566.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Alkiayat</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>A Practical Guide to Creating a Pareto Chart as a Quality Improvement Tool.</article-title>
+            <source>Glob J Qual Saf Healthc</source>
+            <year>2021</year>
+            <month>May</month>
+            <volume>4</volume>
+            <issue>2</issue>
+            <fpage>83</fpage>
+            <page-range>83-84</page-range>
+            <pub-id pub-id-type="pmid">37260788</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151566.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Atkinson</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Ingham</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Cheshire</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Went</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Defining quality and quality improvement.</article-title>
+            <source>Clin Med (Lond)</source>
+            <year>2010</year>
+            <month>Dec</month>
+            <volume>10</volume>
+            <issue>6</issue>
+            <fpage>537</fpage>
+            <page-range>537-9</page-range>
+            <pub-id pub-id-type="pmid">21413472</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151566.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Adams</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Quality improvement; part 1: introduction and overview.</article-title>
+            <source>BJA Educ</source>
+            <year>2018</year>
+            <month>Mar</month>
+            <volume>18</volume>
+            <issue>3</issue>
+            <fpage>89</fpage>
+            <page-range>89-94</page-range>
+            <pub-id pub-id-type="pmid">33456816</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151566.r6">
+          <label>6</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Puri</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Hollingshead</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name>
+                <surname>Tadi</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Quality Improvement</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2023</year>
+            <month>11</month>
+            <day>13</day>
+            <pub-id pub-id-type="pmid">32310557</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151566.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wong</surname>
+                <given-names>KC</given-names>
+              </name>
+            </person-group>
+            <article-title>Using an Ishikawa diagram as a tool to assist memory and retrieval of relevant medical cases from the medical literature.</article-title>
+            <source>J Med Case Rep</source>
+            <year>2011</year>
+            <month>Mar</month>
+            <day>29</day>
+            <volume>5</volume>
+            <fpage>120</fpage>
+            <pub-id pub-id-type="pmid">21447163</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151566.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Antonacci</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Lennox</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Barlow</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Evans</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Reed</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Process mapping in healthcare: a systematic review.</article-title>
+            <source>BMC Health Serv Res</source>
+            <year>2021</year>
+            <month>Apr</month>
+            <day>14</day>
+            <volume>21</volume>
+            <issue>1</issue>
+            <fpage>342</fpage>
+            <pub-id pub-id-type="pmid">33853610</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151566.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Heher</surname>
+                <given-names>YK</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>Process mapping: A cornerstone of quality improvement.</article-title>
+            <source>Cancer Cytopathol</source>
+            <year>2017</year>
+            <month>Dec</month>
+            <volume>125</volume>
+            <issue>12</issue>
+            <fpage>887</fpage>
+            <page-range>887-890</page-range>
+            <pub-id pub-id-type="pmid">29165909</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151566.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Madu</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Challenges in conducting quality improvement projects: reflections of a junior doctor.</article-title>
+            <source>Future Healthc J</source>
+            <year>2022</year>
+            <month>Nov</month>
+            <volume>9</volume>
+            <issue>3</issue>
+            <fpage>333</fpage>
+            <page-range>333-334</page-range>
+            <pub-id pub-id-type="pmid">36561816</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151566.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jones</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Vaux</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Olsson-Brown</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>How to get started in quality improvement.</article-title>
+            <source>BMJ</source>
+            <year>2019</year>
+            <month>Jan</month>
+            <day>17</day>
+            <volume>364</volume>
+            <fpage>k5408</fpage>
+            <pub-id pub-id-type="pmid">30655245</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151566.r12">
+          <label>12</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Rodziewicz</surname>
+                <given-names>TL</given-names>
+              </name>
+              <name>
+                <surname>Houseman</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Vaqar</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Hipskind</surname>
+                <given-names>JE</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Medical Error Reduction and Prevention</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2024</year>
+            <month>2</month>
+            <day>12</day>
+            <pub-id pub-id-type="pmid">29763131</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151566.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tossaint-Schoenmakers</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Versluis</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Chavannes</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Talboom-Kamp</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Kasteleyn</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>The Challenge of Integrating eHealth Into Health Care: Systematic Literature Review of the Donabedian Model of Structure, Process, and Outcome.</article-title>
+            <source>J Med Internet Res</source>
+            <year>2021</year>
+            <month>May</month>
+            <day>10</day>
+            <volume>23</volume>
+            <issue>5</issue>
+            <fpage>e27180</fpage>
+            <pub-id pub-id-type="pmid">33970123</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151566.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>de Barros</surname>
+                <given-names>LB</given-names>
+              </name>
+              <name>
+                <surname>Bassi</surname>
+                <given-names>LC</given-names>
+              </name>
+              <name>
+                <surname>Caldas</surname>
+                <given-names>LP</given-names>
+              </name>
+              <name>
+                <surname>Sarantopoulos</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Zeferino</surname>
+                <given-names>EBB</given-names>
+              </name>
+              <name>
+                <surname>Minatogawa</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Gasparino</surname>
+                <given-names>RC</given-names>
+              </name>
+            </person-group>
+            <article-title>Lean Healthcare Tools for Processes Evaluation: An Integrative Review.</article-title>
+            <source>Int J Environ Res Public Health</source>
+            <year>2021</year>
+            <month>Jul</month>
+            <day>10</day>
+            <volume>18</volume>
+            <issue>14</issue>
+            <pub-id pub-id-type="pmid">34299840</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151566.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Haas</surname>
+                <given-names>MRC</given-names>
+              </name>
+              <name>
+                <surname>Munzer</surname>
+                <given-names>BW</given-names>
+              </name>
+              <name>
+                <surname>Santen</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Hopson</surname>
+                <given-names>LR</given-names>
+              </name>
+              <name>
+                <surname>Haas</surname>
+                <given-names>NL</given-names>
+              </name>
+              <name>
+                <surname>Overbeek</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Peterson</surname>
+                <given-names>WJ</given-names>
+              </name>
+              <name>
+                <surname>Cranford</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Huang</surname>
+                <given-names>RD</given-names>
+              </name>
+            </person-group>
+            <article-title>#DidacticsRevolution: Applying Kotter's 8-Step Change Management Model to Residency Didactics.</article-title>
+            <source>West J Emerg Med</source>
+            <year>2019</year>
+            <month>Dec</month>
+            <day>19</day>
+            <volume>21</volume>
+            <issue>1</issue>
+            <fpage>65</fpage>
+            <page-range>65-70</page-range>
+            <pub-id pub-id-type="pmid">31913821</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151566.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Solow</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Perry</surname>
+                <given-names>TE</given-names>
+              </name>
+            </person-group>
+            <article-title>Change Management and Health Care Culture.</article-title>
+            <source>Anesthesiol Clin</source>
+            <year>2023</year>
+            <month>Dec</month>
+            <volume>41</volume>
+            <issue>4</issue>
+            <fpage>693</fpage>
+            <page-range>693-705</page-range>
+            <pub-id pub-id-type="pmid">37838377</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151566.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Brugman</surname>
+                <given-names>IM</given-names>
+              </name>
+              <name>
+                <surname>Visser</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Maaskant</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Geerlings</surname>
+                <given-names>SE</given-names>
+              </name>
+              <name>
+                <surname>Eskes</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>The Evaluation of an Interprofessional QI Program: A Qualitative Study.</article-title>
+            <source>Int J Environ Res Public Health</source>
+            <year>2022</year>
+            <month>Aug</month>
+            <day>15</day>
+            <volume>19</volume>
+            <issue>16</issue>
+            <pub-id pub-id-type="pmid">36011718</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

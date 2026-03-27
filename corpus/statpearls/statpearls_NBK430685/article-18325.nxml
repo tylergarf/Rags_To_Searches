@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-18325" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Variance</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Wadhwa</surname>
+            <given-names>Raoul R.</given-names>
+          </name>
+          <aff>Cleveland Clinic Lerner College of Med</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Azzam</surname>
+            <given-names>Daniel</given-names>
+          </name>
+          <aff>Gavin Herbert Eye Institute, University of California, Irvine, School of Medicine, Irvine, CA</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Raoul Wadhwa declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Daniel Azzam declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>17</day>
+          <month>7</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-18325.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Although the arithmetic mean of a set of numbers provides information about the center of that set, researchers need information about how the numbers are spread around that center to interpret the data correctly.<xref ref-type="bibr" rid="article-18325.r1">[1]</xref> The variance provides a quantitative measure of how closely the data set is spread around its center.<xref ref-type="bibr" rid="article-18325.r2">[2]</xref>&#x000a0;A variance of smaller magnitude (closer to zero) implies that the set of numbers is quite tightly clustered around the center. A variance of larger magnitude (farther from zero) implies that at least some of the numbers in the data set are far away from the center. Importantly: (1) the variance can never be less than zero; (2) the variance is only equal to zero when all the numbers in the data set are equal, i.e., when the data set is composed of the same number repeated many times. In addition to being a summary statistic, the variance is often incorporated into other statistical outputs, such as confidence intervals.<xref ref-type="bibr" rid="article-18325.r3">[3]</xref></p>
+      </sec>
+      <sec id="article-18325.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>Two concerns when considering variance in clinical and research contexts are: (1) using an appropriate reference population; (2) ensuring statistical assumptions are met when using variance to develop statistical results. When interpreting quantitative clinical measurements using reference ranges (developed using variance), it is of utmost importance to use the correct reference range. For instance, a reference range for resting heart rate is between 60 and 100 beats per minute. However, this only applies to the adult patient population. Using this reference range for the newborn population would naturally be inappropriate. Thus, while variance around the mean should remain in mind, the clinical context will decide which mean and variance will be used to construct an appropriate reference range. The second concern applies more to research contexts. When developing confidence intervals and other statistical values dependent on variance, researchers must keep in mind that the value of every statistical result is highly dependent on meeting appropriate assumptions. A formal methodological review by a trained statistician merits strong consideration in such situations. Ideally, a trained statistician should be involved in the initial design and implementation stages of research studies, in addition to the data analysis stage.</p>
+      </sec>
+      <sec id="article-18325.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Quantitative clinical values must always be interpreted not only with the average value in mind but also with the variance of the measure in the reference population. The variance (or a multiple of it) is often incorporated into a reference range provided with each lab result. For example, a resting heart rate of 65 beats per minute is generally not concerning. Although the mean resting heart rate might be in the 70s or 80s, the corresponding reference range (incorporating variance around the mean resting heart rate) is 60 to 100 beats per minute. Since 65 falls within this reference range, it does not fall far enough from the mean to be of concern. In this manner, knowing the variance is critical to interpreting any quantitative clinical measurement, including values that are part of the physical exam (e.g., heart rate, blood pressure) and laboratory results (e.g., hematocrit, serum sodium level).</p>
+        <p>Variance also plays a role in medication selection and dosing. We consider the case of levothyroxine, a T4 analog, and liothyronine, a T3 analog, as medications for the management of hypothyroidism. The reason clinicians generally prefer levothyroxine to liothyronine is because of levothyroxine&#x02019;s longer half-life. Since the body metabolizes levothyroxine more slowly, its levels are less variable and more stable across time. Levothyroxine&#x02019;s lower variance provides a patient with a more consistent thyroid hormone level, often making it more desirable in the management of hypothyroidism. Of course, other clinical reasons make a T4 analog-like levothyroxine a more desirable first-line therapy than a T3 analog-like liothyronine, including the peripheral physiologic conversion of T4 to T3 via deiodination. In summary, a robust conceptual understanding of variance can aid physician decision-making in the clinical setting.</p>
+      </sec>
+      <sec id="article-18325.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>The successful interdisciplinary care team involving both nurses and physicians must focus on both collaboration and communication to achieve good patient outcomes.<xref ref-type="bibr" rid="article-18325.r4">[4]</xref> It is essential to be aware of when to include information on the spread or variance of data in reports to the interprofessional team. An example of this is when a nurse reports to the care team that a patient&#x02019;s average heart rate over the previous 24 hour period was 65 beats per minute. The nurse neglected to mention the high variance or spread of the data, which means that some of the heart rate readings in the data set were far away from the center. Therefore, the physician may be unaware that the patient had bradycardia, which places the patient at higher morbidity and mortality.<xref ref-type="bibr" rid="article-18325.r5">[5]</xref>&#x000a0;[Level 3]</p>
+      </sec>
+      <sec id="article-18325.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=18325&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=18325">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/18325/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=18325">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-18325.s6">
+        <title>References</title>
+        <ref id="article-18325.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wissing</surname>
+                <given-names>DR</given-names>
+              </name>
+              <name>
+                <surname>Timm</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistics for the nonstatistician: Part I.</article-title>
+            <source>South Med J</source>
+            <year>2012</year>
+            <month>Mar</month>
+            <volume>105</volume>
+            <issue>3</issue>
+            <fpage>126</fpage>
+            <page-range>126-30</page-range>
+            <pub-id pub-id-type="pmid">22392207</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18325.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Tokita</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ishiguchi</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Is There a Common Summary Statistical Process for Representing the Mean and Variance? A Study Using Illustrations of Familiar Items.</article-title>
+            <source>Iperception</source>
+            <year>2018</year>
+            <season>Jan-Feb</season>
+            <volume>9</volume>
+            <issue>1</issue>
+            <fpage>2041669517747297</fpage>
+            <pub-id pub-id-type="pmid">29399318</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18325.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nakagawa</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Cuthill</surname>
+                <given-names>IC</given-names>
+              </name>
+            </person-group>
+            <article-title>Effect size, confidence interval and statistical significance: a practical guide for biologists.</article-title>
+            <source>Biol Rev Camb Philos Soc</source>
+            <year>2007</year>
+            <month>Nov</month>
+            <volume>82</volume>
+            <issue>4</issue>
+            <fpage>591</fpage>
+            <page-range>591-605</page-range>
+            <pub-id pub-id-type="pmid">17944619</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18325.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Foronda</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>MacWilliams</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>McArthur</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Interprofessional communication in healthcare: An integrative review.</article-title>
+            <source>Nurse Educ Pract</source>
+            <year>2016</year>
+            <month>Jul</month>
+            <volume>19</volume>
+            <fpage>36</fpage>
+            <page-range>36-40</page-range>
+            <pub-id pub-id-type="pmid">27428690</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18325.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Whitley</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Ball</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistics review 1: presenting and summarising data.</article-title>
+            <source>Crit Care</source>
+            <year>2002</year>
+            <month>Feb</month>
+            <volume>6</volume>
+            <issue>1</issue>
+            <fpage>66</fpage>
+            <page-range>66-71</page-range>
+            <pub-id pub-id-type="pmid">11940268</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

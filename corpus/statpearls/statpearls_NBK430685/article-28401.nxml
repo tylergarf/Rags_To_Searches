@@ -1,0 +1,1445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-28401" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Human Subjects Research Design</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Bayot</surname>
+            <given-names>Marlon L.</given-names>
+          </name>
+          <aff>Adventist University of the Philippines-College of Medicine; Coach MLB Consulting</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Moore</surname>
+            <given-names>Nicholas</given-names>
+          </name>
+          <aff>Medical College of Wisconsin Milwaukee, WI</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Brannan</surname>
+            <given-names>Janelle M.</given-names>
+          </name>
+          <aff>GDB Research and Statistical Consulting</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Brannan</surname>
+            <given-names>Grace D.</given-names>
+          </name>
+          <aff>GDB Research and Statistical Consulting/McLaren Macomb Hospital</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Marlon Bayot declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Nicholas Moore declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Janelle Brannan declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Grace Brannan declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>12</day>
+          <month>1</month>
+          <year>2026</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-28401.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Human subjects research is a highly regulated field of inquiry. The US Department of Health and Human Services (HHS) Code of Federal Regulations, Title 45, Part 46 (45 CFR 46), defines a "human subject" as &#x0201c;A living individual about whom an investigator (whether professional or student) conducting research:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Obtains information or biospecimens through intervention or interaction with the individual, and uses, studies, or analyzes the information or biospecimens; or</p>
+          </list-item>
+          <list-item>
+            <p>Obtains, uses, studies, analyzes, or generates identifiable private information or identifiable biospecimens.&#x0201d;</p>
+          </list-item>
+        </list>
+        <p>Research&#x000a0;itself is defined as &#x0201c;a systematic investigation, including research development, testing, and evaluation, designed to develop or contribute to generalizable knowledge.&#x0201d;<xref ref-type="bibr" rid="article-28401.r1">[1]</xref>&#x000a0;Human subjects research lies at the intersection of both&#x000a0;federal definitions and requires&#x000a0;Institutional Review Board approval prior to initiation, regardless of the study design. Topics may include hypothesis generation, assessment of patient satisfaction, or evaluation of medications, devices, processes, or health interventions.</p>
+        <p>Scientific research may be approached through various paradigms or philosophical frameworks that determine the conduct and interpretation of investigations.<xref ref-type="bibr" rid="article-28401.r2">[2]</xref>&#x000a0;A consistent paradigm across basic and clinical sciences in medical education is positivism, which emphasizes duality and objectivity, separating the researcher from the study participants to minimize bias.</p>
+        <p>Research studies are generally classified into&#x000a0;3 types:&#x000a0;qualitative, quantitative, and mixed-methods, the latter combining both approaches.<xref ref-type="bibr" rid="article-28401.r3">[3]</xref> Qualitative research collects nonnumerical data to explore concepts and experiences, whereas quantitative research focuses on collecting and statistically analyzing numerical data. Additional classifications exist based on study purpose and application,&#x000a0;such as health systems research and operational research.<xref ref-type="bibr" rid="article-28401.r4">[4]</xref><xref ref-type="bibr" rid="article-28401.r5">[5]</xref>&#x000a0;The present&#x000a0;activity focuses on the most common quantitative and qualitative research designs.</p>
+        <p>
+<bold>Quantitative Research</bold>
+</p>
+        <p>A research study may&#x000a0;be conducted to describe variables or determine associations between test (exposure) and outcome variables related to a specific research question. Quantitative research designs are further classified as interventional or noninterventional (observational). In interventional studies, the investigator introduces an intervention or manipulation across&#x000a0;1 or more groups and compares outcomes to analyze variables of interest. Randomization may or may not be employed. However, randomized controlled trials are regarded as the gold standard because random allocation minimizes bias. Interventional designs are commonly used in investigations of drugs, biologics, and medical devices.</p>
+        <p>In observational or noninterventional studies, data are collected on preidentified variables without investigator-imposed interventions or influence on the study population. Common observational designs include cohort, cross-sectional, and case-control studies.</p>
+        <p>A cohort study involves longitudinal observation of a population or populations with defined exposures to determine the incidence of specific diseases or conditions over time. This design can establish temporal and potentially causal relationships between exposures and outcomes.<xref ref-type="bibr" rid="article-28401.r6">[6]</xref> In contrast, a cross-sectional study examines a population at a single point in time and provides information such as disease prevalence. Case-control studies compare populations with a particular disease (cases) and populations without the disease (controls) to assess associations with prior risk exposures. A classic example involves comparing smoking history among patients with lung cancer and among individuals without lung cancer.</p>
+        <p>Before large-scale implementation, smaller feasibility studies&#x02014;commonly referred to as "pilot studies"&#x02014;refine methodology, assess practicality, and minimize potential bias. Pilot studies are a critical phase in the research process, enabling the assessment of feasibility, methodological rigor, and potential impact prior to large-scale implementation. Such studies commonly focus on elements including intervention design, study structure, trial conduct, intervention implementation, statistical analysis, and reporting.<xref ref-type="bibr" rid="article-28401.r7">[7]</xref></p>
+        <p>
+<bold>Qualitative Research</bold>
+</p>
+        <p>Qualitative research seeks to address open-ended questions that emerge during the investigative process. Unlike quantitative research, which focuses on measurable variables and numerical relationships, qualitative inquiry explores &#x0201c;how&#x0201d; and &#x0201c;why&#x0201d; phenomena occur. This approach aims to elucidate the underlying meanings, perceptions, and contextual factors that influence real-world experiences and behaviors. Qualitative methods may be employed independently, integrated with quantitative approaches in mixed-methods designs, or used to explain quantitative findings. Whereas quantitative studies identify statistical relationships or correlations, qualitative research provides interpretive depth by exploring the reasons underlying these associations.</p>
+        <p>Although healthcare research has traditionally emphasized quantitative methodologies, the growing recognition of qualitative research underscores its value in examining subjective aspects of care. Applications include investigations of patient experiences with healthcare services, perceptions of illness, quality-of-life assessments, and studies involving vulnerable populations.<xref ref-type="bibr" rid="article-28401.r8">[8]</xref></p>
+        <p>Multiple approaches are utilized in qualitative research, each offering distinct methods for exploring human experiences and social phenomena. Standard techniques include ethnography, grounded theory, phenomenology, photovoice, and narrative research.</p>
+        <p>Ethnography involves the researcher's immersion in the participants&#x02019; environment to gain insight into behaviors, interactions, and contextual factors relevant to the study's objective. On the other hand, grounded theory employs systematic observation of the population of interest to develop a theory that explains a particular phenomenon. Furthermore, phenomenology emphasizes the &#x0201c;lived experiences&#x0201d; of individuals as the basis for understanding and explaining human behavior and perception. While both grounded theory and phenomenology seek to generate conceptual understanding, grounded theory focuses on deriving theory from observed patterns. In contrast, phenomenology centers on participants&#x02019; subjective perspectives to explain a particular phenomenon.</p>
+        <p>Meanwhile, photovoice employs photographic documentation to represent and analyze the experiences of marginalized or underrepresented groups.<xref ref-type="bibr" rid="article-28401.r9">[9]</xref> Narrative research, another key approach, exemplifies qualitative inquiry&#x02019;s capacity to convey individual stories. Incorporating personal perspectives facilitates theory development by integrating real-world experiences and implications that quantitative research may overlook. Data collection methods in qualitative research include structured or semistructured interviews, focus groups, case studies, and reviews of existing records, such as medical documentation.</p>
+        <p>
+<bold>Mixed Methods and Triangulation Research</bold>
+</p>
+        <p>In certain instances, both qualitative and quantitative methods are combined within a single study design, referred to as "mixed-methods research." This approach facilitates both hypothesis generation and hypothesis testing, allowing for a more comprehensive understanding of complex research questions. The integration of numerical and nonnumerical data enhances the depth and applicability of findings by capturing both measurable outcomes and contextual insights.</p>
+        <p>For example, a cross-sectional study may identify a high prevalence of vaping among adolescents. To further elucidate the underlying motivations, a subsequent qualitative investigation, such as a focus group discussion, may be conducted. Similarly, a 2010 study demonstrated that the think-aloud technique, combined with protocol analysis, effectively described the complexity of healthcare professionals&#x02019; decision-making in critical care settings.<xref ref-type="bibr" rid="article-28401.r10">[10]</xref></p>
+        <p>"Triangulation research" also employs multiple methods to strengthen validity and minimize bias. Like mixed-methods designs, triangulation may incorporate both qualitative and quantitative approaches, but it can also involve various data sources, theoretical perspectives, or investigators to achieve methodological complementarity and enhance the credibility of results.<xref ref-type="bibr" rid="article-28401.r11">[11]</xref></p>
+      </sec>
+      <sec id="article-28401.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>A fundamental aspect of the research process involves identifying and formulating the research problem or question. An appropriately defined research problem must be ethical, researchable, significant, and feasible. Medical research aims not&#x000a0;only to expand the scientific literature but also to deliver findings that directly benefit patients and&#x000a0;relevant stakeholders.</p>
+        <p>Selection of the appropriate study design represents another critical consideration. Descriptive and qualitative research often precede quantitative investigations to establish a robust, meaningful, and feasible hypothesis suitable for subsequent testing.<xref ref-type="bibr" rid="article-28401.r12">[12]</xref> Each study design entails distinct strengths and risks of bias, as reflected in the established hierarchy of research evidence.<xref ref-type="bibr" rid="article-28401.r13">[13]</xref></p>
+        <p>Ensuring trust and legitimacy in research constitutes an additional challenge. Misinformation, social media, politicization, and commercial interests increasingly influence the contemporary research environment.&#x000a0;A proposed framework to strengthen trustworthiness incorporates proxies such as informed consent, anonymization, public engagement, openness, and accountability.<xref ref-type="bibr" rid="article-28401.r14">[14]</xref></p>
+        <p>
+<bold>Contemporary Frameworks for Scientific Transparency and Research Integrity</bold>
+</p>
+        <p>Recent frameworks emphasize scientific transparency and accountability, incorporating measures such as open data policies, protocol preregistration, anonymization of datasets, and active public engagement. The Ethics and Governance of Artificial Intelligence for Health (2021) of the World Health Organization (WHO) and the&#x000a0;Scientific Integrity Policy Update (2023) of the&#x000a0;National Institutes of Health (NIH) outline practical strategies to strengthen research credibility and societal trust.<xref ref-type="bibr" rid="article-28401.r15">[15]</xref>&#x000a0;(Source: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://osp.od.nih.gov/wp-content/uploads/2024/09/Final-NIH-Scientific-Integrity-Policy.pdf">NIH</ext-link>, 2024)</p>
+        <p>
+<bold>Regulatory Updates in Human Subjects Protection and Ethical Oversight</bold>
+</p>
+        <p>In 2022,&#x000a0;Subpart A of 45 CFR 46, also known as the Common Rule, underwent significant revision, emphasizing single&#x000a0;Institutional Review Board requirements for multisite research, the use of broad consent for secondary research involving identifiable biospecimens, and increased flexibility in electronic informed consent procedures. In October 2024, the HHS issued nonsubstantive amendments to subparts B, C, and D of 45 CFR 46. These amendments clarified protections for vulnerable populations, including pregnant women, fetuses, neonates, prisoners, and children; updated terminology distinguishing the &#x0201c;2018 Requirements&#x0201d; from the &#x0201c;pre-2018 Requirements&#x0201d; to align with the latest Common Rule provisions; and incorporated additional exemptions and technical corrections to improve regulatory clarity. (Source:&#x000a0;<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.hhs.gov/ohrp/regulations-and-policy/regulations/45-cfr-46/index.html">HHS</ext-link>, 2025)</p>
+      </sec>
+      <sec id="article-28401.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>The collective significance of research studies and their findings supports both clinical and public health objectives. The discovery of novel pharmacologic agents and therapeutic modalities is primarily achieved through randomized controlled trials, which remain the standard for evaluating efficacy and safety.<xref ref-type="bibr" rid="article-28401.r16">[16]</xref> Public health research, encompassing both medical and social sciences, employs a wide range of study designs, including qualitative studies, descriptive and analytic investigations, community-based trials, and operational research.<xref ref-type="bibr" rid="article-28401.r17">[17]</xref> These approaches are used to examine population characteristics, explore associations between exposures and health outcomes, and evaluate the effects of interventions, thereby generating evidence to inform policy and guide stakeholders.</p>
+        <p>In clinical contexts, case reports and case series enable clinicians, surgeons, and other specialists to document and describe rare diseases or unusual presentations systematically.<xref ref-type="bibr" rid="article-28401.r18">[18]</xref> Analytical studies may investigate associations between specific exposures and disease occurrence, while cohort studies examine outcomes among populations with defined exposure variables. Systematic reviews and meta-analyses are valuable for synthesizing previous research, with the former integrating qualitative evidence and the latter providing quantitative summaries of existing data.<xref ref-type="bibr" rid="article-28401.r19">[19]</xref><xref ref-type="bibr" rid="article-28401.r20">[20]</xref> Mixed-methods designs further enhance analytical depth by integrating quantitative and qualitative approaches to maximize interpretive and evidentiary value.<xref ref-type="bibr" rid="article-28401.r21">[21]</xref></p>
+        <p>Research is now a requirement for residency training programs across clinical specialties. Family medicine (family practice), in particular, has a broad scope for health and clinical research because of its central role in the organization, provision, and delivery of clinical services within the healthcare system.<xref ref-type="bibr" rid="article-28401.r22">[22]</xref></p>
+        <p>Artificial intelligence (AI) is increasingly being integrated into scientific research design and implementation to enhance efficiency and reduce the number of experimental iterations required. Recent advances have introduced large language models and AI systems capable of assisting in trial simulation, automated data extraction, and synthesis of clinical evidence.</p>
+        <p>In pharmaceutical research and development, for instance, projects often require substantial financial investment, extend over multiple years, yet still yield low approval rates for new therapeutics.<xref ref-type="bibr" rid="article-28401.r23">[23]</xref> AI-driven algorithms can assist in designing and optimizing experimental parameters, collecting and processing data, generating and testing hypotheses, and estimating experimental uncertainty.<xref ref-type="bibr" rid="article-28401.r24">[24]</xref></p>
+        <p>Several challenges remain despite AI's promise, including the need for appropriate software and hardware infrastructure, acquisition of reliable datasets, data and model standardization, ethical oversight, potential bias between industry and academic priorities, costs, and cybersecurity risks.<xref ref-type="bibr" rid="article-28401.r25">[25]</xref>&#x000a0;However, when developed within a rigorous and moral framework, AI possesses significant potential to transform scientific workflows.</p>
+        <p>
+<bold>Ethical and Regulatory Oversight in Artificial Intelligence-Driven Research</bold>
+</p>
+        <p>The integration of&#x000a0;AI in medical research has prompted the development of standardized reporting and ethical oversight mechanisms, including the Consolidated Standards of Reporting Trials&#x02013;Artificial Intelligence (CONSORT-AI) and Standard Protocol Items: Recommendations for Interventional Trials&#x02013;Artificial Intelligence (SPIRIT-AI) extensions, as well as the 2023 Artificial Intelligence/Machine Learning (AI/ML) Action Plan for medical research and software as a medical device of the US Food and Drug Administration (FDA).<xref ref-type="bibr" rid="article-28401.r26">[26]</xref> (Source: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.fda.gov/media/145022/download">FDA</ext-link>, 2021) Ensuring transparency, explainability, and reproducibility in AI-driven studies has become a regulatory and ethical priority, particularly for studies involving human subjects.&#x000a0;</p>
+        <p>Research studies, whether simple or complex and whether aided by AI or not, must adhere to systematic, methodologically sound processes to ensure scientific integrity. The research findings contribute to the advancement and application of evidence-based medicine.<xref ref-type="bibr" rid="article-28401.r27">[27]</xref> All research must be conducted within the bounds of medical ethics, free from bias, and directed toward the welfare of patients rather than solely the advancement of science.<xref ref-type="bibr" rid="article-28401.r28">[28]</xref></p>
+      </sec>
+      <sec id="article-28401.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>Interprofessional and interorganizational collaborations are fundamental components of effective healthcare systems.<xref ref-type="bibr" rid="article-28401.r29">[29]</xref> In 2010, the WHO developed a framework for Interprofessional Education (IPE) and collaborative practice to address growing global health challenges.<xref ref-type="bibr" rid="article-28401.r30">[30]</xref>&#x000a0;(Source: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.who.int/publications/i/item/framework-for-action-on-interprofessional-education-collaborative-practice">WHO</ext-link>, 2010) IPE serves as the foundation for meaningful collaboration in both clinical care and research.&#x000a0;The WHO&#x02019;s Health Workforce 2030 Strategy further expands on this foundation by highlighting digital collaboration, cross-sector integration, and equitable participation as key pillars of interprofessional practice.<xref ref-type="bibr" rid="article-28401.r31">[31]</xref></p>
+        <p>A related concept,&#x000a0;referred to as the "team science approach," emphasizes the integration of diverse perspectives across professions, organizations, and cultural or geographic backgrounds. This approach has become increasingly essential within healthcare systems of growing complexity.<xref ref-type="bibr" rid="article-28401.r32">[32]</xref> A systematic review identified team science as a critical element of interprofessional research collaboration.<xref ref-type="bibr" rid="article-28401.r33">[33]</xref></p>
+        <p>An example of successful implementation involved an interprofessional&#x000a0;initiative coordinated by an orthopedic trauma department in collaboration with 18 other departments, including cardiovascular and emergency medicine. The team identified a novel cluster of preoperative factors predictive of 12-month mortality among patients older than 65 years with hip fractures.<xref ref-type="bibr" rid="article-28401.r34">[34]</xref></p>
+        <p>Several challenges persist despite demonstrated benefits. Power dynamics between physicians, nurses, and other healthcare professionals can hinder collaboration and affect research productivity. Furthermore, the historically siloed education of healthcare professionals continues to impede the advancement of IPE. Future efforts should focus on enhancing inclusivity, promoting diversity, and building institutional capacity to strengthen collaborative research and clinical practice.<xref ref-type="bibr" rid="article-28401.r35">[35]</xref></p>
+      </sec>
+      <sec id="article-28401.s5" sec-type="Nursing, Allied Health, and Interprofessional Team Monitoring">
+        <title>Nursing, Allied Health, and Interprofessional Team Monitoring</title>
+        <p>Continued advancement in interprofessional collaboration remains essential in both clinical practice and research. A study evaluating satisfaction among members of hospital-based interprofessional teams identified several themes associated with higher satisfaction levels. In addition to expected factors such as collaboration and communication, shared leadership and innovation were also recognized as significant contributors.<xref ref-type="bibr" rid="article-28401.r36">[36]</xref>&#x000a0;Another study investigating barriers to enhancing palliative care research participation among nonphysician professionals identified inadequate training and mentorship as major obstacles. The nationwide survey included chaplains, nurse practitioners, pharmacists, and social workers.<xref ref-type="bibr" rid="article-28401.r37">[37]</xref></p>
+      </sec>
+      <sec id="article-28401.s6">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=28401&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=28401">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/28401/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=28401">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-28401.s7">
+        <title>References</title>
+        <ref id="article-28401.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bass</surname>
+                <given-names>PF</given-names>
+              </name>
+              <name>
+                <surname>Maloy</surname>
+                <given-names>JW</given-names>
+              </name>
+            </person-group>
+            <article-title>How to Determine if a Project Is Human Subjects Research, a Quality Improvement Project, or Both.</article-title>
+            <source>Ochsner J</source>
+            <year>2020</year>
+            <season>Spring</season>
+            <volume>20</volume>
+            <issue>1</issue>
+            <fpage>56</fpage>
+            <page-range>56-61</page-range>
+            <pub-id pub-id-type="pmid">32284684</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Park</surname>
+                <given-names>YS</given-names>
+              </name>
+              <name>
+                <surname>Konge</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Artino</surname>
+                <given-names>AR</given-names>
+              </name>
+            </person-group>
+            <article-title>The Positivism Paradigm of Research.</article-title>
+            <source>Acad Med</source>
+            <year>2020</year>
+            <month>May</month>
+            <volume>95</volume>
+            <issue>5</issue>
+            <fpage>690</fpage>
+            <page-range>690-694</page-range>
+            <pub-id pub-id-type="pmid">31789841</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r3">
+          <label>3</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Tenny</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Brannan</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Brannan</surname>
+                <given-names>GD</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Qualitative Study</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2022</year>
+            <month>9</month>
+            <day>18</day>
+            <pub-id pub-id-type="pmid">29262162</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cleland</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>The qualitative orientation in medical education research.</article-title>
+            <source>Korean J Med Educ</source>
+            <year>2017</year>
+            <month>Jun</month>
+            <volume>29</volume>
+            <issue>2</issue>
+            <fpage>61</fpage>
+            <page-range>61-71</page-range>
+            <pub-id pub-id-type="pmid">28597869</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Farrugia</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Petrisor</surname>
+                <given-names>BA</given-names>
+              </name>
+              <name>
+                <surname>Farrokhyar</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Bhandari</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Practical tips for surgical research: Research questions, hypotheses and objectives.</article-title>
+            <source>Can J Surg</source>
+            <year>2010</year>
+            <month>Aug</month>
+            <volume>53</volume>
+            <issue>4</issue>
+            <fpage>278</fpage>
+            <page-range>278-81</page-range>
+            <pub-id pub-id-type="pmid">20646403</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>R&#x000f6;hrig</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>du Prel</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Wachtlin</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Blettner</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Types of study in medical research: part 3 of a series on evaluation of scientific publications.</article-title>
+            <source>Dtsch Arztebl Int</source>
+            <year>2009</year>
+            <month>Apr</month>
+            <volume>106</volume>
+            <issue>15</issue>
+            <fpage>262</fpage>
+            <page-range>262-8</page-range>
+            <pub-id pub-id-type="pmid">19547627</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pfledderer</surname>
+                <given-names>CD</given-names>
+              </name>
+              <name>
+                <surname>von Klinggraeff</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Burkart</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>da Silva Bandeira</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Lubans</surname>
+                <given-names>DR</given-names>
+              </name>
+              <name>
+                <surname>Jago</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Okely</surname>
+                <given-names>AD</given-names>
+              </name>
+              <name>
+                <surname>van Sluijs</surname>
+                <given-names>EMF</given-names>
+              </name>
+              <name>
+                <surname>Ioannidis</surname>
+                <given-names>JPA</given-names>
+              </name>
+              <name>
+                <surname>Thrasher</surname>
+                <given-names>JF</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Beets</surname>
+                <given-names>MW</given-names>
+              </name>
+            </person-group>
+            <article-title>Consolidated guidance for behavioral intervention pilot and feasibility studies.</article-title>
+            <source>Pilot Feasibility Stud</source>
+            <year>2024</year>
+            <month>Apr</month>
+            <day>06</day>
+            <volume>10</volume>
+            <issue>1</issue>
+            <fpage>57</fpage>
+            <pub-id pub-id-type="pmid">38582840</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pyo</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Choi</surname>
+                <given-names>EY</given-names>
+              </name>
+              <name>
+                <surname>Jang</surname>
+                <given-names>SG</given-names>
+              </name>
+              <name>
+                <surname>Ock</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Qualitative Research in Healthcare: Necessity and Characteristics.</article-title>
+            <source>J Prev Med Public Health</source>
+            <year>2023</year>
+            <month>Jan</month>
+            <volume>56</volume>
+            <issue>1</issue>
+            <fpage>12</fpage>
+            <page-range>12-20</page-range>
+            <pub-id pub-id-type="pmid">36746418</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Im</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Pyo</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Jung</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Ock</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Qualitative Research in Healthcare: Data Analysis.</article-title>
+            <source>J Prev Med Public Health</source>
+            <year>2023</year>
+            <month>Mar</month>
+            <volume>56</volume>
+            <issue>2</issue>
+            <fpage>100</fpage>
+            <page-range>100-110</page-range>
+            <pub-id pub-id-type="pmid">37055353</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lundgr&#x000e9;n-Laine</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Salanter&#x000e4;</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Think-aloud technique and protocol analysis in clinical decision-making research.</article-title>
+            <source>Qual Health Res</source>
+            <year>2010</year>
+            <month>Apr</month>
+            <volume>20</volume>
+            <issue>4</issue>
+            <fpage>565</fpage>
+            <page-range>565-75</page-range>
+            <pub-id pub-id-type="pmid">19959822</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kawar</surname>
+                <given-names>LN</given-names>
+              </name>
+              <name>
+                <surname>Dunbar</surname>
+                <given-names>GB</given-names>
+              </name>
+              <name>
+                <surname>Aquino-Maneja</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name>
+                <surname>Flores</surname>
+                <given-names>SL</given-names>
+              </name>
+              <name>
+                <surname>Squier</surname>
+                <given-names>VR</given-names>
+              </name>
+              <name>
+                <surname>Failla</surname>
+                <given-names>KR</given-names>
+              </name>
+            </person-group>
+            <article-title>Quantitative, Qualitative, Mixed Methods, and Triangulation Research Simplified.</article-title>
+            <source>J Contin Educ Nurs</source>
+            <year>2024</year>
+            <month>Jul</month>
+            <volume>55</volume>
+            <issue>7</issue>
+            <fpage>338</fpage>
+            <page-range>338-344</page-range>
+            <pub-id pub-id-type="pmid">38567919</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Grimes</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Schulz</surname>
+                <given-names>KF</given-names>
+              </name>
+            </person-group>
+            <article-title>Descriptive studies: what they can and cannot do.</article-title>
+            <source>Lancet</source>
+            <year>2002</year>
+            <month>Jan</month>
+            <day>12</day>
+            <volume>359</volume>
+            <issue>9301</issue>
+            <fpage>145</fpage>
+            <page-range>145-9</page-range>
+            <pub-id pub-id-type="pmid">11809274</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Burns</surname>
+                <given-names>PB</given-names>
+              </name>
+              <name>
+                <surname>Rohrich</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Chung</surname>
+                <given-names>KC</given-names>
+              </name>
+            </person-group>
+            <article-title>The levels of evidence and their role in evidence-based medicine.</article-title>
+            <source>Plast Reconstr Surg</source>
+            <year>2011</year>
+            <month>Jul</month>
+            <volume>128</volume>
+            <issue>1</issue>
+            <fpage>305</fpage>
+            <page-range>305-310</page-range>
+            <pub-id pub-id-type="pmid">21701348</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Harvey</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Laurie</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Proxies of Trustworthiness: A Novel Framework to Support the Performance of Trust in Human Health Research.</article-title>
+            <source>J Bioeth Inq</source>
+            <year>2024</year>
+            <month>Dec</month>
+            <volume>21</volume>
+            <issue>4</issue>
+            <fpage>625</fpage>
+            <page-range>625-645</page-range>
+            <pub-id pub-id-type="pmid">38551757</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Katirai</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>The ethics of advancing artificial intelligence in healthcare: analyzing ethical considerations for Japan's innovative AI hospital system.</article-title>
+            <source>Front Public Health</source>
+            <year>2023</year>
+            <volume>11</volume>
+            <fpage>1142062</fpage>
+            <pub-id pub-id-type="pmid">37529426</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Spieth</surname>
+                <given-names>PM</given-names>
+              </name>
+              <name>
+                <surname>Kubasch</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Penzlin</surname>
+                <given-names>AI</given-names>
+              </name>
+              <name>
+                <surname>Illigens</surname>
+                <given-names>BM</given-names>
+              </name>
+              <name>
+                <surname>Barlinn</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Siepmann</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Randomized controlled trials - a matter of design.</article-title>
+            <source>Neuropsychiatr Dis Treat</source>
+            <year>2016</year>
+            <volume>12</volume>
+            <fpage>1341</fpage>
+            <page-range>1341-9</page-range>
+            <pub-id pub-id-type="pmid">27354804</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>McLeroy</surname>
+                <given-names>KR</given-names>
+              </name>
+              <name>
+                <surname>Norton</surname>
+                <given-names>BL</given-names>
+              </name>
+              <name>
+                <surname>Kegler</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Burdine</surname>
+                <given-names>JN</given-names>
+              </name>
+              <name>
+                <surname>Sumaya</surname>
+                <given-names>CV</given-names>
+              </name>
+            </person-group>
+            <article-title>Community-based interventions.</article-title>
+            <source>Am J Public Health</source>
+            <year>2003</year>
+            <month>Apr</month>
+            <volume>93</volume>
+            <issue>4</issue>
+            <fpage>529</fpage>
+            <page-range>529-33</page-range>
+            <pub-id pub-id-type="pmid">12660190</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Budgell</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Guidelines to the writing of case studies.</article-title>
+            <source>J Can Chiropr Assoc</source>
+            <year>2008</year>
+            <month>Dec</month>
+            <volume>52</volume>
+            <issue>4</issue>
+            <fpage>199</fpage>
+            <page-range>199-204</page-range>
+            <pub-id pub-id-type="pmid">19066690</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Haidich</surname>
+                <given-names>AB</given-names>
+              </name>
+            </person-group>
+            <article-title>Meta-analysis in medical research.</article-title>
+            <source>Hippokratia</source>
+            <year>2010</year>
+            <month>Dec</month>
+            <volume>14</volume>
+            <issue>Suppl 1</issue>
+            <fpage>29</fpage>
+            <page-range>29-37</page-range>
+            <pub-id pub-id-type="pmid">21487488</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Charrois</surname>
+                <given-names>TL</given-names>
+              </name>
+            </person-group>
+            <article-title>Systematic reviews: what do you need to know to get started?</article-title>
+            <source>Can J Hosp Pharm</source>
+            <year>2015</year>
+            <season>Mar-Apr</season>
+            <volume>68</volume>
+            <issue>2</issue>
+            <fpage>144</fpage>
+            <page-range>144-8</page-range>
+            <pub-id pub-id-type="pmid">25964686</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hansen</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>O'Brien</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Meckler</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Chang</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Guise</surname>
+                <given-names>JM</given-names>
+              </name>
+            </person-group>
+            <article-title>Understanding the value of mixed methods research: the Children's Safety Initiative-Emergency Medical Services.</article-title>
+            <source>Emerg Med J</source>
+            <year>2016</year>
+            <month>Jul</month>
+            <volume>33</volume>
+            <issue>7</issue>
+            <fpage>489</fpage>
+            <page-range>489-94</page-range>
+            <pub-id pub-id-type="pmid">26949970</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Green</surname>
+                <given-names>LA</given-names>
+              </name>
+            </person-group>
+            <article-title>The research domain of family medicine.</article-title>
+            <source>Ann Fam Med</source>
+            <year>2004</year>
+            <month>May</month>
+            <day>26</day>
+            <volume>2 Suppl 2</volume>
+            <issue>Suppl 2</issue>
+            <fpage>S23</fpage>
+            <page-range>S23-9</page-range>
+            <pub-id pub-id-type="pmid">15655084</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kolluri</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lin</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>W</given-names>
+              </name>
+            </person-group>
+            <article-title>Machine Learning and Artificial Intelligence in Pharmaceutical Research and Development: a Review.</article-title>
+            <source>AAPS J</source>
+            <year>2022</year>
+            <month>Jan</month>
+            <day>04</day>
+            <volume>24</volume>
+            <issue>1</issue>
+            <fpage>19</fpage>
+            <pub-id pub-id-type="pmid">34984579</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wang</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Fu</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Du</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Gao</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Huang</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Chandak</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Van Katwyk</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Deac</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Anandkumar</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Bergen</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Gomes</surname>
+                <given-names>CP</given-names>
+              </name>
+              <name>
+                <surname>Ho</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Kohli</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Lasenby</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Leskovec</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>TY</given-names>
+              </name>
+              <name>
+                <surname>Manrai</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Marks</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Ramsundar</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Song</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Sun</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Tang</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Veli&#x0010d;kovi&#x00107;</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Welling</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Coley</surname>
+                <given-names>CW</given-names>
+              </name>
+              <name>
+                <surname>Bengio</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Zitnik</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Scientific discovery in the age of artificial intelligence.</article-title>
+            <source>Nature</source>
+            <year>2023</year>
+            <month>Aug</month>
+            <volume>620</volume>
+            <issue>7972</issue>
+            <fpage>47</fpage>
+            <page-range>47-60</page-range>
+            <pub-id pub-id-type="pmid">37532811</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Messeri</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Crockett</surname>
+                <given-names>MJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Artificial intelligence and illusions of understanding in scientific research.</article-title>
+            <source>Nature</source>
+            <year>2024</year>
+            <month>Mar</month>
+            <volume>627</volume>
+            <issue>8002</issue>
+            <fpage>49</fpage>
+            <page-range>49-58</page-range>
+            <pub-id pub-id-type="pmid">38448693</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Liu</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Cruz Rivera</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Moher</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Calvert</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Denniston</surname>
+                <given-names>AK</given-names>
+              </name>
+              <collab>SPIRIT-AI and CONSORT-AI Working Group</collab>
+            </person-group>
+            <article-title>Reporting guidelines for clinical trial reports for interventions involving artificial intelligence: the CONSORT-AI extension.</article-title>
+            <source>Lancet Digit Health</source>
+            <year>2020</year>
+            <month>Oct</month>
+            <volume>2</volume>
+            <issue>10</issue>
+            <fpage>e537</fpage>
+            <page-range>e537-e548</page-range>
+            <pub-id pub-id-type="pmid">33328048</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r27">
+          <label>27</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Tenny</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Varacallo</surname>
+                <given-names>MA</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Evidence-Based Medicine</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2024</year>
+            <month>9</month>
+            <day>10</day>
+            <pub-id pub-id-type="pmid">29262040</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Simundi&#x00107;</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>Bias in research.</article-title>
+            <source>Biochem Med (Zagreb)</source>
+            <year>2013</year>
+            <volume>23</volume>
+            <issue>1</issue>
+            <fpage>12</fpage>
+            <page-range>12-5</page-range>
+            <pub-id pub-id-type="pmid">23457761</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Karam</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Brault</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Van Durme</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Macq</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparing interprofessional and interorganizational collaboration in healthcare: A systematic review of the qualitative research.</article-title>
+            <source>Int J Nurs Stud</source>
+            <year>2018</year>
+            <month>Mar</month>
+            <volume>79</volume>
+            <fpage>70</fpage>
+            <page-range>70-83</page-range>
+            <pub-id pub-id-type="pmid">29202313</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gilbert</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Yan</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Hoffman</surname>
+                <given-names>SJ</given-names>
+              </name>
+            </person-group>
+            <article-title>A WHO report: framework for action on interprofessional education and collaborative practice.</article-title>
+            <source>J Allied Health</source>
+            <year>2010</year>
+            <season>Fall</season>
+            <volume>39 Suppl 1</volume>
+            <fpage>196</fpage>
+            <page-range>196-7</page-range>
+            <pub-id pub-id-type="pmid">21174039</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>McIsaac</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Buchan</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Abu-Agla</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kawar</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Campbell</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Global Strategy on Human Resources for Health: Workforce 2030-A Five-Year Check-In.</article-title>
+            <source>Hum Resour Health</source>
+            <year>2024</year>
+            <month>Oct</month>
+            <day>03</day>
+            <volume>22</volume>
+            <issue>1</issue>
+            <fpage>68</fpage>
+            <pub-id pub-id-type="pmid">39363378</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ghamgosar</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Nemati-Anaraki</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Panahi</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Barriers and facilitators of conducting research with team science approach: a systematic review.</article-title>
+            <source>BMC Med Educ</source>
+            <year>2023</year>
+            <month>Sep</month>
+            <day>05</day>
+            <volume>23</volume>
+            <issue>1</issue>
+            <fpage>638</fpage>
+            <pub-id pub-id-type="pmid">37670349</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Little</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>St Hill</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Ware</surname>
+                <given-names>KB</given-names>
+              </name>
+              <name>
+                <surname>Swanoski</surname>
+                <given-names>MT</given-names>
+              </name>
+              <name>
+                <surname>Chapman</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Lutfiyya</surname>
+                <given-names>MN</given-names>
+              </name>
+              <name>
+                <surname>Cerra</surname>
+                <given-names>FB</given-names>
+              </name>
+            </person-group>
+            <article-title>Team science as interprofessional collaborative research practice: a systematic review of the science of team science literature.</article-title>
+            <source>J Investig Med</source>
+            <year>2017</year>
+            <month>Jan</month>
+            <volume>65</volume>
+            <issue>1</issue>
+            <fpage>15</fpage>
+            <page-range>15-22</page-range>
+            <pub-id pub-id-type="pmid">27619555</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gao</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Zhou</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Gao</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Shi</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Xie</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Tian</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Rui</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>Preoperative Indicators for 1-year Mortality in Elderly Individuals Following Hip Fracture Surgery Under A Multidisciplinary Team Co-Management Model: A Single-Centre Retrospective Observational Study.</article-title>
+            <source>Geriatr Orthop Surg Rehabil</source>
+            <year>2025</year>
+            <volume>16</volume>
+            <fpage>21514593251356135</fpage>
+            <pub-id pub-id-type="pmid">40575476</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Versluis</surname>
+                <given-names>MAC</given-names>
+              </name>
+              <name>
+                <surname>Jensen</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>de Carvalho-Filho</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Durning</surname>
+                <given-names>SJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Interprofessional Education as a Sandbox for Collaborative Play-Towards Health Equity.</article-title>
+            <source>Clin Teach</source>
+            <year>2025</year>
+            <month>Aug</month>
+            <volume>22</volume>
+            <issue>4</issue>
+            <fpage>e70143</fpage>
+            <pub-id pub-id-type="pmid">40579853</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Espinoza</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Peduzzi</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Agreli</surname>
+                <given-names>HF</given-names>
+              </name>
+              <name>
+                <surname>Sutherland</surname>
+                <given-names>MA</given-names>
+              </name>
+            </person-group>
+            <article-title>Interprofessional team member's satisfaction: a mixed methods study of a Chilean hospital.</article-title>
+            <source>Hum Resour Health</source>
+            <year>2018</year>
+            <month>Jul</month>
+            <day>11</day>
+            <volume>16</volume>
+            <issue>1</issue>
+            <fpage>30</fpage>
+            <pub-id pub-id-type="pmid">29996936</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28401.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Atayee</surname>
+                <given-names>RS</given-names>
+              </name>
+              <name>
+                <surname>Edmonds</surname>
+                <given-names>KP</given-names>
+              </name>
+              <name>
+                <surname>Kestenbaum</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Soriano</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>KC</given-names>
+              </name>
+            </person-group>
+            <article-title>Barriers to Research in Palliative Care: A National Survey of Nonphysician Interprofessional Team Members.</article-title>
+            <source>J Palliat Med</source>
+            <year>2025</year>
+            <month>Jun</month>
+            <volume>28</volume>
+            <issue>6</issue>
+            <fpage>792</fpage>
+            <page-range>792-798</page-range>
+            <pub-id pub-id-type="pmid">39930943</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

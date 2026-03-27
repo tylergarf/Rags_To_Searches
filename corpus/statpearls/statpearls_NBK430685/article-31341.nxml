@@ -1,0 +1,1608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-31341" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Western Blot: Principles, Procedures, and Clinical Applications</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Zubair</surname>
+            <given-names>Muhammad</given-names>
+          </name>
+          <aff>Pakistan Kidney &#x00026; Liver Institute and Research Centre - PKLI</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Launico</surname>
+            <given-names>Marjorie V.</given-names>
+          </name>
+          <aff>De La Salle Medical and Health Sciences Institute</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Muhammad Zubair declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Marjorie Launico declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>1</day>
+          <month>12</month>
+          <year>2025</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-31341.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>The term "Western blot" was introduced by Burnette in 1981, following the development of the Southern blot for DNA and the Northern blot for RNA in 1977.<xref ref-type="bibr" rid="article-31341.r1">[1]</xref><xref ref-type="bibr" rid="article-31341.r2">[2]</xref> Western blotting separates, detects, and identifies specific proteins within complex mixtures.<xref ref-type="bibr" rid="article-31341.r3">[3]</xref></p>
+        <p>The technique entails separating proteins by polyacrylamide gel electrophoresis (PAGE), after which the resolved proteins are immobilized onto a nitrocellulose or nylon membrane using an electric current that drives their transfer.<xref ref-type="bibr" rid="article-31341.r4">[4]</xref> Protein detection on the membrane is achieved using antibodies labeled with probes, including radioactive isotopes or enzymes.<xref ref-type="bibr" rid="article-31341.r5">[5]</xref> The use of labeled probes enhances detection sensitivity, achieving limits 10- to 100-fold lower than those attainable by direct immunoprecipitation or protein staining methods.<xref ref-type="bibr" rid="article-31341.r6">[6]</xref> Densitometric analysis of band intensity allows quantitative comparison of protein expression across experimental conditions, such as treatment effects or temporal variations.<xref ref-type="bibr" rid="article-31341.r7">[7]</xref></p>
+        <p>The Centers for Disease Control and Prevention no longer supports the use of the Western blot assay for diagnostic purposes. However, the technique remains integral to biomedical research for protein identification, quantification, and posttranslational modification analysis. Western blotting validates gene expression studies, confirms antibody specificity, and assesses signaling pathway activation in experimental models. In clinical laboratories, the assay supports confirmatory testing for infectious and autoimmune diseases, detection of disease-specific biomarkers, and evaluation of therapeutic protein expression in recombinant systems.</p>
+      </sec>
+      <sec id="article-31341.s2" sec-type="Specimen Requirements and Procedure">
+        <title>Specimen Requirements and Procedure</title>
+        <p>
+<bold>Principles of Western Blotting</bold>
+</p>
+        <p>The fundamental principles of Western blotting include equal loading of proteins, molecular-weight-based separation, electrophoretic transfer to a suitable membrane, and antibody-based detection.&#x000a0;Each component of the process is essential to achieve reproducible separation and specific detection of target proteins within complex mixtures&#x000a0;(see <bold>Image</bold>.&#x000a0;Key&#x000a0;Principles of&#x000a0;the Western Blot Procedure).</p>
+        <p>
+<bold>Equal loading of proteins</bold>
+</p>
+        <p>Accurate sample preparation is essential for reliable electrophoretic analysis. Western blot samples are prepared by extracting proteins using specialized lysis buffers that contain protease and phosphatase inhibitors. The extraction method must correspond to the sample type. Tissue samples are commonly processed by homogenization or sonication, whereas osmotic shock or detergent-mediated lysis is more appropriate for easily disrupted cells, such as erythrocytes or cultured cell lines. The composition of the lysis buffer must correspond to the subcellular localization of the target protein.<xref ref-type="bibr" rid="article-31341.r8">[8]</xref> For instance, the radioimmunoprecipitation assay buffer is more suitable for extracting nuclear and mitochondrial proteins.</p>
+        <p>Although uncommon, certain antibodies fail to recognize denatured protein epitopes. In such instances, mild lysis buffers that exclude detergents are preferred. Protease and phosphatase inhibitors preserve protein conformation and phosphorylation status by limiting degradation from endogenous enzymes released during cell disruption and exogenous enzymes present in the extraction microenvironment. These considerations underscore the necessity of selecting extraction conditions according to both the sample type and the biochemical characteristics of the target protein.</p>
+        <p>Each Western blot sample must contain an equivalent total protein concentration to ensure analytical validity. Unequal loading across lanes introduces variability that compromises quantitative interpretation. Protein concentration is commonly determined using the Bradford assay, a colorimetric method that measures dye-protein interactions.<xref ref-type="bibr" rid="article-31341.r9">[9]</xref> In this assay, Coomassie Brilliant Blue G-250 binds to protein molecules, producing a measurable shift in absorbance detected by spectrophotometry. Comparison with a standard curve derived from known protein concentrations enables calculation of the total protein content in experimental samples.<xref ref-type="bibr" rid="article-31341.r10">[10]</xref></p>
+        <p>All Western blot samples consist of&#x000a0;3 components: the protein extract, the cell lysis buffer, and the Laemmli sample buffer. The protein extract is diluted with lysis buffer to achieve the desired protein concentration, after which an equal volume of Laemmli buffer is added. Therefore, each sample maintains a 1:1 ratio of normalized protein extract to Laemmli buffer. Laemmli buffer [60 mM Tris-HCl, pH 6.8; 20% glycerol; 2% sodium dodecyl sulfate (SDS); 4% &#x003b2;-mercaptoethanol; 0.01% bromophenol blue] is specific to Western blot sample preparation, and each constituent serves a defined function in SDS-PAGE.<xref ref-type="bibr" rid="article-31341.r11">[11]</xref> Glycerol increases solution density, facilitating deposition into the sample wells.</p>
+        <p>Bromophenol blue is a nonreactive tracking dye that marks the electrophoretic front during migration. SDS is an anionic detergent that uniformly coats denatured proteins, producing a constant charge-to-mass ratio that neutralizes differences in native charge and shape, allowing migration to occur exclusively as a function of molecular weight.<xref ref-type="bibr" rid="article-31341.r12">[12]</xref> &#x003b2;-mercaptoethanol acts as a reducing agent that cleaves disulfide bonds.&#x000a0;Without this reagent, proteins containing such bonds partially retain tertiary structure and fail to migrate according to true molecular weight during electrophoresis.<xref ref-type="bibr" rid="article-31341.r13">[13]</xref></p>
+        <p>Tris-HCl at pH 6.8 forms part of the discontinuous buffer system, described in detail in the subsequent section. Samples are heated before loading to ensure complete denaturation and reduction of proteins to their primary structure, permitting electrophoretic separation based solely on monomeric molecular weight.<xref ref-type="bibr" rid="article-31341.r14">[14]</xref></p>
+        <p>
+<bold>Separation of proteins by molecular weight</bold>
+</p>
+        <p>Protein separation by molecular weight is accomplished through SDS-PAGE, which combines the use of a detergent and a discontinuous buffer system. PAGE is an analytical biochemical method that separates macromolecules, such as nucleic acids and proteins, based on electrophoretic mobility within a chemically inert gel matrix. When SDS, a potent anionic detergent, is incorporated, denatured proteins acquire a uniform charge-to-mass ratio. Under these conditions, electrophoretic mobility becomes dependent solely on molecular weight.</p>
+        <p>Larger proteins migrate more slowly than smaller ones due to frictional resistance within the gel. The gel matrix is produced through the polymerization of acrylamide and the crosslinking of N, N&#x02032;-methylenebisacrylamide, forming a molecular sieve that imparts the characteristic retarding effect. The pore size of this matrix&#x000a0;may be precisely modulated by altering the relative concentrations of acrylamide and N, N&#x02032;-methylenebisacrylamide, which vary inversely.<xref ref-type="bibr" rid="article-31341.r15">[15]</xref></p>
+        <p>Two gels of differing pore sizes are used in PAGE: the stacking gel and the resolving gel. The stacking gel aligns proteins into a compact band, ensuring simultaneous entry into the resolving gel. This effect results from the stacking gel&#x02019;s larger pore size and acidic environment. The resolving gel possesses a smaller pore size and a more basic pH, allowing effective separation of proteins according to molecular weight.<xref ref-type="bibr" rid="article-31341.r16">[16]</xref></p>
+        <p>The Laemmli discontinuous buffer system is the standard configuration for SDS-PAGE. This system employs a running buffer (25 mM Tris; 192 mM glycine; 0.1% SDS; pH~8.3) as the electrode buffer and Tris-HCl buffers for both the acidic stacking gel (pH~6.8) and the basic resolving gel (pH~8.8). The system exploits the pH-dependent charge behavior of glycine.<xref ref-type="bibr" rid="article-31341.r17">[17]</xref>&#x000a0;Glycine exists primarily as a zwitterion in an acidic environment but becomes&#x000a0;a glycinate anion&#x000a0;under basic conditions. During electrophoresis, the applied current drives glycinate ions into the stacking gel, where protonation converts them to the zwitterionic form, markedly reducing their mobility.<xref ref-type="bibr" rid="article-31341.r18">[18]</xref></p>
+        <p>In contrast, chloride from the Tris-HCl buffer dissociates from its counterion and migrates rapidly toward the anode. Proteins are positioned between a trailing front of glycine and a leading front of chloride, resulting in their simultaneous arrival at the resolving gel, a key step in achieving effective separation.<xref ref-type="bibr" rid="article-31341.r19">[19]</xref></p>
+        <p>The basic pH of the resolving gel promotes the reformation of glycinate anions at the interface between the stacking and resolving gels. From this interface, glycinate anions migrate past the protein front. The proteins enter the resolving gel in narrow, sharply defined bands, as the high-voltage zone created by the leading and trailing ions in the stacking gel dissipates. This configuration enables proteins to migrate more slowly through the resolving gel, facilitating separation according to molecular size due to the higher concentration of polyacrylamide.</p>
+        <p>Samples are electrophoresed in individual lanes alongside a molecular weight marker or protein ladder. The ladder typically occupies the first lane, with protein samples loaded into the remaining lanes. The ladder provides standard molecular weight bands used to determine the relative molecular weight of sample proteins.<xref ref-type="bibr" rid="article-31341.r20">[20]</xref></p>
+        <p>
+<bold>Electrophoretic transfer or blotting</bold>
+</p>
+        <p>Blotting refers to the electrophoretic transfer of gel contents onto an appropriate membrane. In Western blotting, these contents are proteins. Multiple blotting techniques and membrane types exist, yet the fundamental principle of electrophoretic transfer remains consistent across systems such as wet, semidry, and fast transfer. As in electrophoresis, negatively charged proteins migrate toward the anode, but blotting employs a transfer sandwich immersed in a modified electrode buffer. Towbin buffer (25 mM Tris, 192 mM glycine, 20% methanol, pH 8.3) serves as the standard medium, though minor adjustments may be made depending on the protein of interest.<xref ref-type="bibr" rid="article-31341.r21">[21]</xref></p>
+        <p>Methanol enhances protein adsorption onto the membrane by increasing hydrophobicity and promoting SDS removal. From cathode to anode, the transfer sandwich is arranged as filter paper, polyacrylamide gel, membrane, and filter paper.<xref ref-type="bibr" rid="article-31341.r22">[22]</xref> In wet transfer systems, fiber pads or sponges are added externally on both sides. The assembled sandwich is then exposed to a perpendicular electric current that drives protein migration from the gel onto the membrane.</p>
+        <p>Equilibration of the transfer sandwich in the buffer is essential for maximizing transfer efficiency. This step prevents desiccation of the gel and membrane, removes electrophoretic contaminants, and restores the gel to its original dimensions.<xref ref-type="bibr" rid="article-31341.r23">[23]</xref> During electrophoresis, increasing the voltage elevates the temperature and causes gel expansion. The use of a cold transfer buffer counteracts this&#x000a0;thermal expansion&#x000a0;by shrinking the gel to its proper size. Methanol in the buffer further contributes to temperature control by cooling the gel during equilibration.<xref ref-type="bibr" rid="article-31341.r24">[24]</xref></p>
+        <p>Each transfer system presents distinct advantages, with selection depending primarily on the target protein and laboratory workflow. Among the available systems, wet and semidry transfers are most widely employed.&#x000a0;The principal differences between the&#x000a0;2 systems involve the volume of the transfer buffer and the duration of transfer.&#x000a0;Wet transfer utilizes a tank system requiring a large buffer volume, whereas semidry transfer needs only minimal buffer to moisten the sandwich.<xref ref-type="bibr" rid="article-31341.r25">[25]</xref></p>
+        <p>Semidry transfer is more time-efficient, typically completing within&#x000a0;an hour, while wet transfer often requires overnight application at low voltage. Semidry transfer reduces both buffer consumption and transfer time&#x000a0;but exhibits limitations.<xref ref-type="bibr" rid="article-31341.r26">[26]</xref> Large proteins, including membrane receptors, are transferred inefficiently, resulting in reduced overall yield. Wet transfer provides higher efficiency across a broad protein size range and offers greater flexibility for diverse applications.<xref ref-type="bibr" rid="article-31341.r27">[27]</xref></p>
+        <p>When Drs. Burnette and Towbin published their seminal studies, electrophoretic transfer was performed on nitrocellulose membranes. These membranes remained the gold standard until the introduction of polyvinylidene difluoride (PVDF) membranes. PVDF membranes surpass nitrocellulose membranes in protein-binding capacity, chemical resistance, and transfer efficiency in the presence of SDS.<xref ref-type="bibr" rid="article-31341.r28">[28]</xref> PVDF enables greater protein adsorption, and its chemical resistance allows stripping and reprobing procedures. Transfer efficiency further improves with the addition of a small amount of SDS to the transfer buffer. Nonetheless, the heightened protein sensitivity of PVDF can contribute to increased background signal during analysis.<xref ref-type="bibr" rid="article-31341.r29">[29]</xref></p>
+        <p>Methanol in the transfer buffer can shrink nitrocellulose membranes and precipitate large proteins. Both membrane types are available in various pore sizes, which correlate directly with protein weight. Smaller proteins require smaller pores, although a pore size of 0.45 &#x000b5;m is suitable for most proteins.<xref ref-type="bibr" rid="article-31341.r30">[30]</xref> Recent advancements have introduced specialized membranes designed for near-infrared detection systems. Therefore, the selection of a membrane should depend on the target protein and the intended downstream detection method.</p>
+        <p>
+<bold>Antibody probing</bold>
+</p>
+        <p>Proteins are immobilized on the membrane after electrophoretic transfer, and&#x000a0;2 antibodies are used for probing and analysis. The primary antibody recognizes and binds a specific epitope on the target protein, enabling its detection on the membrane. The secondary antibody conjugates with a reporter molecule for visualization and binds indirectly to the target protein through the constant region of the primary antibody.<xref ref-type="bibr" rid="article-31341.r31">[31]</xref></p>
+        <p>Since membranes possess a strong affinity for proteins, they must be incubated in a blocking buffer to coat unoccupied surface areas before probing. The blocking buffer contains a protein with minimal affinity for both the target protein and antibodies. Common blocking agents include casein from powdered milk and bovine serum albumin. Although casein is inexpensive and suitable for most proteins, bovine serum albumin is preferred when detecting phosphorylated proteins due to potential cross-reactivity between casein and phosphorylation-specific antibodies. After blocking, the membrane is washed with TBS-T, a mixture of Tris-buffered saline and Tween-20. Tween-20, a nonionic detergent, removes loosely bound proteins from the membrane and reduces nonspecific interactions.<xref ref-type="bibr" rid="article-31341.r32">[32]</xref></p>
+        <p>Probing of primary and secondary antibodies is performed by incubating the membrane in a probing buffer containing either antibody diluted in TBS-T. The membrane is first incubated in the primary probing buffer, typically overnight at 4&#x000b0;C, followed by multiple washes in TBS-T to remove unbound antibodies.<xref ref-type="bibr" rid="article-31341.r33">[33]</xref> Subsequently, the membrane is incubated in the secondary probing buffer for approximately&#x000a0;1 hour and washed again. These washing steps are critical for minimizing background signal and ensuring analytical accuracy. The membrane is prepared for detection after probing and washing.</p>
+        <p>The secondary antibody is conjugated to a reporter molecule specific to the detection method. Autoradiography was once a standard approach for visualizing protein bands, using radiolabeled isotopes conjugated to the secondary antibody.<xref ref-type="bibr" rid="article-31341.r34">[34]</xref>&#x000a0;The use of this method has declined due to safety concerns associated with radioactive materials. Chemiluminescence is now more widely employed and relies on substrates that react with enzyme-conjugated secondary antibodies, typically horseradish peroxidase or alkaline phosphatase.<xref ref-type="bibr" rid="article-31341.r35">[35]</xref></p>
+        <p>The enzyme-mediated reaction generates luminescence that is captured using an imaging system. In newer approaches, secondary antibodies are conjugated with fluorophores that permit direct detection without substrates. Fluorescence-based detection has gained widespread application due to its capacity to simultaneously probe&#x000a0;2 target proteins using secondary antibodies labeled with distinct fluorophores. This dual-probing capability allows relative quantification of protein expression, with housekeeping proteins visualized alongside the protein of interest.</p>
+        <p>Band visualization serves multiple analytical purposes. The presence of a band confirms protein expression, whereas band density reflects relative expression levels. Housekeeping proteins are concurrently probed to facilitate normalization and comparison across samples.<xref ref-type="bibr" rid="article-31341.r36">[36]</xref> These ubiquitously expressed proteins serve as internal controls. Normalizing the band densities of target proteins to those of housekeeping proteins enables statistical assessment of expression differences between experimental conditions.<xref ref-type="bibr" rid="article-31341.r37">[37]</xref></p>
+      </sec>
+      <sec id="article-31341.s3" sec-type="Interfering Factors">
+        <title>Interfering Factors</title>
+        <p>Several limitations constrain the use of the Western blot technique. The procedure is intricate and time-intensive, with even minor deviations at any stage capable of compromising analytical accuracy.<xref ref-type="bibr" rid="article-31341.r38">[38]</xref> Nonspecific binding by the secondary antibody may result in the labeling of unintended proteins, thereby generating misleading bands. Inadequate transfer duration can impede the migration of high-molecular-weight proteins onto the membrane, producing incomplete or erroneous results. The method also requires technically skilled personnel to ensure reliable outcomes.<xref ref-type="bibr" rid="article-31341.r39">[39]</xref></p>
+        <p>Western blotting provides only semiquantitative information. Band intensity offers an approximate estimation rather than an exact measurement of protein molecular weight or abundance.<xref ref-type="bibr" rid="article-31341.r40">[40]</xref> Furthermore, the method depends entirely on the availability of suitable primary antibodies. Target proteins cannot be detected&#x000a0;without such antibodies.</p>
+      </sec>
+      <sec id="article-31341.s4" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Western blotting comprises multiple sequential steps, each contributing to the accuracy of the final outcome. The complexity of this process increases both the time and cost required for reliable results. Compared with the enzyme-linked immunosorbent assay (ELISA), Western blotting exhibits lower susceptibility to false-positive findings, particularly in the serologic diagnosis of HIV infection.<xref ref-type="bibr" rid="article-31341.r41">[41]</xref></p>
+        <p>Western blotting is widely employed for detecting anti-HIV antibodies in human serum and urine samples.<xref ref-type="bibr" rid="article-31341.r42">[42]</xref> Protein extracts from confirmed HIV-positive individuals are separated by electrophoresis and subsequently transferred to a nitrocellulose membrane. Specific antibodies are then applied to identify viral proteins on the membrane surface.<xref ref-type="bibr" rid="article-31341.r43">[43]</xref> Western blotting is typically performed following an enzyme-linked immunosorbent assay to confirm serologic results and provides greater analytical sensitivity.<xref ref-type="bibr" rid="article-31341.r44">[44]</xref> In modern commercial HIV Western blot kits, viral proteins are preaffixed to the membrane. When patient serum or urine samples are introduced, antibodies bind to these immobilized proteins, and anti-human immunoglobulin antibodies detect the resulting bands alongside quality control markers.<xref ref-type="bibr" rid="article-31341.r45">[45]</xref></p>
+        <p>Western blotting is also applied in the diagnostic evaluation of Lyme disease.&#x000a0;The method is likewise used to identify both atypical and classical forms of bovine spongiform encephalopathy.<xref ref-type="bibr" rid="article-31341.r46">[46]</xref><xref ref-type="bibr" rid="article-31341.r47">[47]</xref></p>
+        <p>The Western blot technique determines the presence, molecular weight, and relative abundance of target proteins within a sample, providing valuable analytical data across numerous fields of research.<xref ref-type="bibr" rid="article-31341.r48">[48]</xref>&#x000a0;This test&#x000a0;is widely employed to study protein-DNA and protein-protein interactions, posttranslational modifications, protein isoforms, antibody specificity, epitope mapping, and subcellular protein localization.</p>
+        <p>As an antibody-based analytical method, Western blotting enables high-throughput detection of proteins involved in noninfectious diseases with high reliability. In oncology, aberrant protein isoforms may serve as potential biomarkers of malignancy, while the detection of autoantibodies can indicate autoimmune pathologies.<xref ref-type="bibr" rid="article-31341.r49">[49]</xref></p>
+        <p>In molecular biology, proteins are often engineered through cloning techniques to include short amino acid sequences that act as epitope tags, such as the HA-tag derived from hemagglutinin&#x000a0;and the Myc-tag&#x000a0;containing the c-Myc&#x000a0;protein.&#x000a0;These tags represent foreign epitopes not naturally expressed in the studied system, facilitating the detection and quantification of the tagged protein amid native proteins.<xref ref-type="bibr" rid="article-31341.r50">[50]</xref> Antibodies specific to these tags identify both the presence and relative abundance of the engineered protein in Western blot analysis.</p>
+      </sec>
+      <sec id="article-31341.s5" sec-type="Quality Control and Lab Safety&#x0000d;&#x0000a;">
+        <title>Quality Control and Lab Safety
+</title>
+        <p>
+<bold>Quality Controls</bold>
+</p>
+        <p>Quality controls are essential to validate experimental findings. In Western blotting, positive, negative, loading, and no-primary-antibody controls are critical for ensuring experimental reliability. These controls are incorporated into dedicated lanes, with each sample modified according to control type. A positive control includes a sample known to contain the target protein, whereas a negative control contains a sample confirmed to lack the target protein. Such distinctions may range from different organ types to specific subcellular localizations. For example, when analyzing the expression of a nuclear protein, subcellular fractionation isolates the nuclear fraction, and a negative control assesses the quality of fractionation, nonspecific antibody binding, and potential false-positive results.</p>
+        <p>Positive controls confirm that the workflow is optimized, even in the absence of bands in sample lanes, and&#x000a0;may also verify a true negative result.<xref ref-type="bibr" rid="article-31341.r51">[51]</xref> A loading control typically consists of a housekeeping protein, such as &#x003b1;-tubulin or &#x003b2;-actin. Probing with antibodies specific to a housekeeping protein confirms equal protein loading across samples. False-positive results may arise from nonspecific secondary antibodies.&#x000a0;Therefore, secondary antibody specificity is assessed by omitting incubation with the primary antibody.</p>
+        <p>
+<bold>Troubleshooting</bold>
+</p>
+        <p>The Western blot&#x02019;s multistep workflow inherently introduces several potential sources of error.&#x000a0;This&#x000a0;course does not enumerate every potential error, its cause, or its correction, but focuses instead on the most common issues and their respective troubleshooting strategies.</p>
+        <p>
+<bold>Smiling of bands</bold>
+</p>
+        <p>Uneven migration of protein bands down the gel can result in a characteristic &#x0201c;smiling&#x0201d; pattern. This distortion commonly arises from air bubbles trapped within the gel, excessive voltage applied during electrophoresis, or overloading of samples. Air bubbles disrupt uniform electrical conductivity, leading to localized migration irregularities. Excessive voltage increases resistance and, consequently, temperature within the electrophoresis tank, producing heat pockets and elevated buffer temperatures that alter protein mobility.<xref ref-type="bibr" rid="article-31341.r52">[52]</xref> Rapid heating early in electrophoresis can accelerate band migration nonlinearly. Similarly, excessive sample volume can cause spillover between lanes, leading to skewed or distorted bands.</p>
+        <p>
+<bold>Absence of bands</bold>
+</p>
+        <p>An absence of signal in all sample lanes except the molecular weight ladder suggests several possible underlying issues. The first step&#x000a0;in addressing the issue is to identify the stage of the workflow where the error occurred. In most cases, the problem arises from poor transfer efficiency or inadequate antibody probing.</p>
+        <p>Membrane staining with Ponceau S, a reversible red dye compatible with downstream procedures, can help visualize protein bands. The presence of clearly defined bands on the membrane, particularly at the expected molecular weight of the target protein, indicates that transfer efficiency is unlikely to be the issue.</p>
+        <p>If no bands are visible after staining, the transfer parameters should be adjusted. Protein washout may occur when excessive transfer time or voltage causes proteins to migrate completely through the membrane onto the filter paper. Reducing either the transfer time or voltage slows the process, improving protein retention on the membrane and preventing washout.</p>
+        <p>Incomplete protein transfer may occur if few or no proteins are adsorbed onto the membrane. Staining the gel prior to transfer can help assess the directionality and efficiency of migration. Prominent bands remaining in the gel indicate that the transfer itself was insufficient, rather than an issue with excessive voltage or transfer time. Optimizing transfer conditions, including verifying transfer buffer quality, adjusting voltage or duration, and ensuring proper contact between the gel and membrane, can improve protein migration. For small target proteins, semidry transfer systems may provide superior results.</p>
+        <p>If a positive control lane fails to produce bands, the problem may arise from a faulty detection kit, suboptimal antibodies, or incorrect antibody concentration. Antibody concentration should be optimized through titration experiments to ensure accurate detection.</p>
+        <p>
+<bold>Multiple bands</bold>
+</p>
+        <p>Western blot detection should yield a single band per target protein. The appearance of multiple bands typically reflects nonspecific antibody binding.&#x000a0;This phenomenon is more prevalent when polyclonal antibodies or excessive antibody concentrations are used. As with single-band optimization, titration experiments can minimize nonspecific binding and enhance specificity.</p>
+        <p>
+<bold>High background with or without splotches</bold>
+</p>
+        <p>High background signals&#x000a0;may result from insufficient membrane blocking, excessive antibody concentrations, or a membrane that becomes dry. Extending the blocking duration or altering the protein used in the blocking buffer may reduce background. Antibody concentrations should be optimized through titration experiments. Inadequate washing also contributes to elevated background and can produce splotches on the membrane. Maintaining membranes in a hydrated state throughout the procedure is essential to minimize nonspecific signal.</p>
+        <p>
+<bold>Laboratory Safety</bold>
+</p>
+        <p>Standard laboratory safety protocols must be strictly followed. Acrylamide, used in gel casting, is a potent neurotoxin in its monomeric form but becomes chemically inert once polymerized. Appropriate precautions are required when handling this reagent to ensure laboratory safety.<xref ref-type="bibr" rid="article-31341.r53">[53]</xref></p>
+      </sec>
+      <sec id="article-31341.s6" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>Interprofessional healthcare team members involved in conditions requiring Western blot testing must possess a thorough understanding of test results and their clinical implications. Laboratory technicians and nursing staff play critical roles in sample collection and preparation, and their training is essential to ensure that samples meet quality standards for accurate analysis. Such collaboration reduces the risk of procedural errors and prevents invalid data that could result in misdiagnosis or inappropriate treatment.</p>
+        <p>Effective interprofessional coordination, training, and communication enhance the clinical validity of Western blot results. A well-integrated team approach ensures accurate interpretation and application of results in clinical decision-making, thereby improving diagnostic precision and patient outcomes.</p>
+      </sec>
+      <sec id="article-31341.s7">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=31341&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=31341">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/31341/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=31341">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-31341.s8">
+        <fig id="article-31341.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Key&#x000a0;Principles of the Western Blot Procedure. This image depicts 3 key principles of&#x000a0;the Western blot process. First, electrophoresis separates proteins using a discontinuous buffer system. Next, proteins are transferred from the gel onto a membrane using a wet-transfer sandwich. Finally, the membrane is probed with primary and secondary antibodies to detect specific target proteins. Contributed by Kartheek Gavini, MS</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="WBmsfinal" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-31341.s9">
+        <title>References</title>
+        <ref id="article-31341.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Burnette</surname>
+                <given-names>WN</given-names>
+              </name>
+            </person-group>
+            <article-title>"Western blotting": electrophoretic transfer of proteins from sodium dodecyl sulfate--polyacrylamide gels to unmodified nitrocellulose and radiographic detection with antibody and radioiodinated protein A.</article-title>
+            <source>Anal Biochem</source>
+            <year>1981</year>
+            <month>Apr</month>
+            <volume>112</volume>
+            <issue>2</issue>
+            <fpage>195</fpage>
+            <page-range>195-203</page-range>
+            <pub-id pub-id-type="pmid">6266278</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Alwine</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>Kemp</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Stark</surname>
+                <given-names>GR</given-names>
+              </name>
+            </person-group>
+            <article-title>Method for detection of specific RNAs in agarose gels by transfer to diazobenzyloxymethyl-paper and hybridization with DNA probes.</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>1977</year>
+            <month>Dec</month>
+            <volume>74</volume>
+            <issue>12</issue>
+            <fpage>5350</fpage>
+            <page-range>5350-4</page-range>
+            <pub-id pub-id-type="pmid">414220</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hnasko</surname>
+                <given-names>TS</given-names>
+              </name>
+              <name>
+                <surname>Hnasko</surname>
+                <given-names>RM</given-names>
+              </name>
+            </person-group>
+            <article-title>The Western Blot.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2015</year>
+            <volume>1318</volume>
+            <fpage>87</fpage>
+            <page-range>87-96</page-range>
+            <pub-id pub-id-type="pmid">26160567</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Eslami</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Lujan</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Western blotting: sample preparation to detection.</article-title>
+            <source>J Vis Exp</source>
+            <year>2010</year>
+            <month>Oct</month>
+            <day>14</day>
+            <issue>44</issue>
+            <pub-id pub-id-type="pmid">21189462</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gallagher</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Winston Tank Transfer Systems</surname>
+                <given-names>SE</given-names>
+              </name>
+              <name>
+                <surname>Fuller Tank Transfer Systems</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Hurrell Tank Transfer Systems Reversible Staining Of Proteins</surname>
+                <given-names>JGR</given-names>
+              </name>
+            </person-group>
+            <article-title>Immunoblotting and immunodetection.</article-title>
+            <source>Curr Protoc Immunol</source>
+            <year>2008</year>
+            <month>Nov</month>
+            <volume>Chapter 8</volume>
+            <fpage>8.10.1</fpage>
+            <page-range>8.10.1-8.10.28</page-range>
+            <pub-id pub-id-type="pmid">19016449</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hirano</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Western blot analysis.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2012</year>
+            <volume>926</volume>
+            <fpage>87</fpage>
+            <page-range>87-97</page-range>
+            <pub-id pub-id-type="pmid">22975958</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pillai-Kastoori</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Schutz-Geschwender</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name>
+                <surname>Harford</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>A systematic approach to quantitative Western blot analysis.</article-title>
+            <source>Anal Biochem</source>
+            <year>2020</year>
+            <month>Mar</month>
+            <day>15</day>
+            <volume>593</volume>
+            <fpage>113608</fpage>
+            <pub-id pub-id-type="pmid">32007473</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Peach</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Marsh</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Miskiewicz</surname>
+                <given-names>EI</given-names>
+              </name>
+              <name>
+                <surname>MacPhee</surname>
+                <given-names>DJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Solubilization of proteins: the importance of lysis buffer choice.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2015</year>
+            <volume>1312</volume>
+            <fpage>49</fpage>
+            <page-range>49-60</page-range>
+            <pub-id pub-id-type="pmid">26043989</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hammond</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Kruger</surname>
+                <given-names>NJ</given-names>
+              </name>
+            </person-group>
+            <article-title>The bradford method for protein quantitation.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>1988</year>
+            <volume>3</volume>
+            <fpage>25</fpage>
+            <page-range>25-32</page-range>
+            <pub-id pub-id-type="pmid">21400151</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kruger</surname>
+                <given-names>NJ</given-names>
+              </name>
+            </person-group>
+            <article-title>The Bradford method for protein quantitation.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>1994</year>
+            <volume>32</volume>
+            <fpage>9</fpage>
+            <page-range>9-15</page-range>
+            <pub-id pub-id-type="pmid">7951753</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Laemmli</surname>
+                <given-names>UK</given-names>
+              </name>
+            </person-group>
+            <article-title>Cleavage of structural proteins during the assembly of the head of bacteriophage T4.</article-title>
+            <source>Nature</source>
+            <year>1970</year>
+            <month>Aug</month>
+            <day>15</day>
+            <volume>227</volume>
+            <issue>5259</issue>
+            <fpage>680</fpage>
+            <page-range>680-5</page-range>
+            <pub-id pub-id-type="pmid">5432063</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Harlow</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Lane</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Immunoblotting: preparing protein solutions.</article-title>
+            <source>CSH Protoc</source>
+            <year>2006</year>
+            <month>Aug</month>
+            <day>01</day>
+            <volume>2006</volume>
+            <issue>3</issue>
+            <pub-id pub-id-type="pmid">22485846</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Litovchick</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Preparing Protein Solutions for Immunoblotting.</article-title>
+            <source>Cold Spring Harb Protoc</source>
+            <year>2018</year>
+            <month>Jul</month>
+            <day>02</day>
+            <volume>2018</volume>
+            <issue>7</issue>
+            <pub-id pub-id-type="pmid">29967277</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Heda</surname>
+                <given-names>GD</given-names>
+              </name>
+              <name>
+                <surname>Omotola</surname>
+                <given-names>OB</given-names>
+              </name>
+              <name>
+                <surname>Heda</surname>
+                <given-names>RP</given-names>
+              </name>
+              <name>
+                <surname>Avery</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Effects of Reusing Gel Electrophoresis and Electrotransfer Buffers on Western Blotting.</article-title>
+            <source>J Biomol Tech</source>
+            <year>2016</year>
+            <month>Sep</month>
+            <volume>27</volume>
+            <issue>3</issue>
+            <fpage>113</fpage>
+            <page-range>113-8</page-range>
+            <pub-id pub-id-type="pmid">27582639</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>HJERTEN</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>"Molecular-sieve" electrophoresis in cross-linked polyacrylamide gels.</article-title>
+            <source>J Chromatogr</source>
+            <year>1963</year>
+            <month>May</month>
+            <volume>11</volume>
+            <fpage>66</fpage>
+            <page-range>66-70</page-range>
+            <pub-id pub-id-type="pmid">13954823</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Green</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name>
+                <surname>Sambrook</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Polyacrylamide Gel Electrophoresis.</article-title>
+            <source>Cold Spring Harb Protoc</source>
+            <year>2020</year>
+            <month>Dec</month>
+            <day>01</day>
+            <volume>2020</volume>
+            <issue>12</issue>
+            <pub-id pub-id-type="pmid">33262236</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Smith</surname>
+                <given-names>BJ</given-names>
+              </name>
+            </person-group>
+            <article-title>SDS polyacrylamide gel electrophoresis of proteins.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>1994</year>
+            <volume>32</volume>
+            <fpage>23</fpage>
+            <page-range>23-34</page-range>
+            <pub-id pub-id-type="pmid">7524943</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Maizel</surname>
+                <given-names>JV</given-names>
+              </name>
+            </person-group>
+            <article-title>SDS polyacrylamide gel electrophoresis.</article-title>
+            <source>Trends Biochem Sci</source>
+            <year>2000</year>
+            <month>Dec</month>
+            <volume>25</volume>
+            <issue>12</issue>
+            <fpage>590</fpage>
+            <page-range>590-2</page-range>
+            <pub-id pub-id-type="pmid">11116183</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kurien</surname>
+                <given-names>BT</given-names>
+              </name>
+              <name>
+                <surname>Aggarwal</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Scofield</surname>
+                <given-names>RH</given-names>
+              </name>
+            </person-group>
+            <article-title>Protein Extraction from Gels: A Brief Review.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2019</year>
+            <volume>1855</volume>
+            <fpage>479</fpage>
+            <page-range>479-482</page-range>
+            <pub-id pub-id-type="pmid">30426441</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Brunelle</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Green</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>One-dimensional SDS-polyacrylamide gel electrophoresis (1D SDS-PAGE).</article-title>
+            <source>Methods Enzymol</source>
+            <year>2014</year>
+            <volume>541</volume>
+            <fpage>151</fpage>
+            <page-range>151-9</page-range>
+            <pub-id pub-id-type="pmid">24674069</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Towbin</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Staehelin</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Gordon</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Electrophoretic transfer of proteins from polyacrylamide gels to nitrocellulose sheets: procedure and some applications.</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>1979</year>
+            <month>Sep</month>
+            <volume>76</volume>
+            <issue>9</issue>
+            <fpage>4350</fpage>
+            <page-range>4350-4</page-range>
+            <pub-id pub-id-type="pmid">388439</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kurien</surname>
+                <given-names>BT</given-names>
+              </name>
+              <name>
+                <surname>Scofield</surname>
+                <given-names>RH</given-names>
+              </name>
+            </person-group>
+            <article-title>Western blotting: an introduction.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2015</year>
+            <volume>1312</volume>
+            <fpage>17</fpage>
+            <page-range>17-30</page-range>
+            <pub-id pub-id-type="pmid">26043986</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kurien</surname>
+                <given-names>BT</given-names>
+              </name>
+              <name>
+                <surname>Scofield</surname>
+                <given-names>RH</given-names>
+              </name>
+            </person-group>
+            <article-title>Introduction to protein blotting.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2009</year>
+            <volume>536</volume>
+            <fpage>9</fpage>
+            <page-range>9-22</page-range>
+            <pub-id pub-id-type="pmid">19378040</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kurien</surname>
+                <given-names>BT</given-names>
+              </name>
+              <name>
+                <surname>Scofield</surname>
+                <given-names>RH</given-names>
+              </name>
+            </person-group>
+            <article-title>Western blotting.</article-title>
+            <source>Methods</source>
+            <year>2006</year>
+            <month>Apr</month>
+            <volume>38</volume>
+            <issue>4</issue>
+            <fpage>283</fpage>
+            <page-range>283-93</page-range>
+            <pub-id pub-id-type="pmid">16483794</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jin</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Cerletti</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Western blotting of transforming growth factor beta 2. Optimization of the electrophoretic transfer.</article-title>
+            <source>Appl Theor Electrophor</source>
+            <year>1992</year>
+            <volume>3</volume>
+            <issue>2</issue>
+            <fpage>85</fpage>
+            <page-range>85-90</page-range>
+            <pub-id pub-id-type="pmid">1477118</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gari&#x00107;</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Humbert</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Fils-Aim&#x000e9;</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Korah</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Zarfabian</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Lebrun</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Ali</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Development of buffers for fast semidry transfer of proteins.</article-title>
+            <source>Anal Biochem</source>
+            <year>2013</year>
+            <month>Oct</month>
+            <day>15</day>
+            <volume>441</volume>
+            <issue>2</issue>
+            <fpage>182</fpage>
+            <page-range>182-4</page-range>
+            <pub-id pub-id-type="pmid">23872007</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Silva</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>McMahon</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>The fastest Western in town: a contemporary twist on the classic Western blot analysis.</article-title>
+            <source>J Vis Exp</source>
+            <year>2014</year>
+            <month>Feb</month>
+            <day>05</day>
+            <issue>84</issue>
+            <fpage>e51149</fpage>
+            <pub-id pub-id-type="pmid">24561642</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Komatsu</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Western Blotting Using PVDF Membranes and Its Downstream Applications.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2015</year>
+            <volume>1312</volume>
+            <fpage>227</fpage>
+            <page-range>227-36</page-range>
+            <pub-id pub-id-type="pmid">26044005</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Komatsu</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Western blotting/Edman sequencing using PVDF membrane.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2009</year>
+            <volume>536</volume>
+            <fpage>163</fpage>
+            <page-range>163-71</page-range>
+            <pub-id pub-id-type="pmid">19378055</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kim</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Western Blot Techniques.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2017</year>
+            <volume>1606</volume>
+            <fpage>133</fpage>
+            <page-range>133-139</page-range>
+            <pub-id pub-id-type="pmid">28501998</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kurien</surname>
+                <given-names>BT</given-names>
+              </name>
+              <name>
+                <surname>Danda</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Bachmann</surname>
+                <given-names>MP</given-names>
+              </name>
+              <name>
+                <surname>Scofield</surname>
+                <given-names>RH</given-names>
+              </name>
+            </person-group>
+            <article-title>SDS-PAGE to Immunoblot in One Hour.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2015</year>
+            <volume>1312</volume>
+            <fpage>449</fpage>
+            <page-range>449-54</page-range>
+            <pub-id pub-id-type="pmid">26044026</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mahmood</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Yang</surname>
+                <given-names>PC</given-names>
+              </name>
+            </person-group>
+            <article-title>Western blot: technique, theory, and trouble shooting.</article-title>
+            <source>N Am J Med Sci</source>
+            <year>2012</year>
+            <month>Sep</month>
+            <volume>4</volume>
+            <issue>9</issue>
+            <fpage>429</fpage>
+            <page-range>429-34</page-range>
+            <pub-id pub-id-type="pmid">23050259</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Liu</surname>
+                <given-names>ZQ</given-names>
+              </name>
+              <name>
+                <surname>Mahmood</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Yang</surname>
+                <given-names>PC</given-names>
+              </name>
+            </person-group>
+            <article-title>Western blot: technique, theory and trouble shooting.</article-title>
+            <source>N Am J Med Sci</source>
+            <year>2014</year>
+            <month>Mar</month>
+            <volume>6</volume>
+            <issue>3</issue>
+            <fpage>160</fpage>
+            <pub-id pub-id-type="pmid">24741558</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Madamanchi</surname>
+                <given-names>NR</given-names>
+              </name>
+              <name>
+                <surname>Runge</surname>
+                <given-names>MS</given-names>
+              </name>
+            </person-group>
+            <article-title>Western blotting.</article-title>
+            <source>Methods Mol Med</source>
+            <year>2001</year>
+            <volume>51</volume>
+            <fpage>245</fpage>
+            <page-range>245-56</page-range>
+            <pub-id pub-id-type="pmid">21331721</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Taylor</surname>
+                <given-names>SC</given-names>
+              </name>
+              <name>
+                <surname>Posch</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>The design of a quantitative western blot experiment.</article-title>
+            <source>Biomed Res Int</source>
+            <year>2014</year>
+            <volume>2014</volume>
+            <fpage>361590</fpage>
+            <pub-id pub-id-type="pmid">24738055</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>ALmohaimeed</surname>
+                <given-names>HM</given-names>
+              </name>
+              <name>
+                <surname>Mohammedsaleh</surname>
+                <given-names>ZM</given-names>
+              </name>
+              <name>
+                <surname>Batawi</surname>
+                <given-names>AH</given-names>
+              </name>
+              <name>
+                <surname>Balgoon</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Ramadan</surname>
+                <given-names>OI</given-names>
+              </name>
+              <name>
+                <surname>Baz</surname>
+                <given-names>HA</given-names>
+              </name>
+              <name>
+                <surname>Al Jaouni</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Ayuob</surname>
+                <given-names>NN</given-names>
+              </name>
+            </person-group>
+            <article-title>Synergistic Anti-inflammatory and Neuroprotective Effects of <italic>Cinnamomum cassia</italic> and Z<italic>ingiber officinale</italic> Alleviate Diabetes-Induced Hippocampal Changes in Male Albino Rats: Structural and Molecular Evidence.</article-title>
+            <source>Front Cell Dev Biol</source>
+            <year>2021</year>
+            <volume>9</volume>
+            <fpage>727049</fpage>
+            <pub-id pub-id-type="pmid">34568337</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bhakta</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Gavini</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Yang</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Lyman-Henley</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Parameshwaran</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Chronic traumatic stress impairs memory in mice: Potential roles of acetylcholine, neuroinflammation and corticotropin releasing factor expression in the hippocampus.</article-title>
+            <source>Behav Brain Res</source>
+            <year>2017</year>
+            <month>Sep</month>
+            <day>29</day>
+            <volume>335</volume>
+            <fpage>32</fpage>
+            <page-range>32-40</page-range>
+            <pub-id pub-id-type="pmid">28797603</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Meftahi</surname>
+                <given-names>GH</given-names>
+              </name>
+              <name>
+                <surname>Bahari</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Zarei Mahmoudabadi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Iman</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Jangravi</surname>
+                <given-names>Z</given-names>
+              </name>
+            </person-group>
+            <article-title>Applications of western blot technique: From bench to bedside.</article-title>
+            <source>Biochem Mol Biol Educ</source>
+            <year>2021</year>
+            <month>Jul</month>
+            <volume>49</volume>
+            <issue>4</issue>
+            <fpage>509</fpage>
+            <page-range>509-517</page-range>
+            <pub-id pub-id-type="pmid">33847452</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>L&#x000fc;ck</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Haitjema</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Heger</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Simple Western: Bringing the Western Blot into the Twenty-First Century.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2021</year>
+            <volume>2261</volume>
+            <fpage>481</fpage>
+            <page-range>481-488</page-range>
+            <pub-id pub-id-type="pmid">33421009</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ghosh</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Gilda</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>Gomes</surname>
+                <given-names>AV</given-names>
+              </name>
+            </person-group>
+            <article-title>The necessity of and strategies for improving confidence in the accuracy of western blots.</article-title>
+            <source>Expert Rev Proteomics</source>
+            <year>2014</year>
+            <month>Oct</month>
+            <volume>11</volume>
+            <issue>5</issue>
+            <fpage>549</fpage>
+            <page-range>549-60</page-range>
+            <pub-id pub-id-type="pmid">25059473</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Torian</surname>
+                <given-names>LV</given-names>
+              </name>
+              <name>
+                <surname>Forgione</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Punsalang</surname>
+                <given-names>AE</given-names>
+              </name>
+              <name>
+                <surname>Pirillo</surname>
+                <given-names>RE</given-names>
+              </name>
+              <name>
+                <surname>Oleszko</surname>
+                <given-names>WR</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparison of Multispot EIA with Western blot for confirmatory serodiagnosis of HIV.</article-title>
+            <source>J Clin Virol</source>
+            <year>2011</year>
+            <month>Dec</month>
+            <volume>52 Suppl 1</volume>
+            <fpage>S41</fpage>
+            <page-range>S41-4</page-range>
+            <pub-id pub-id-type="pmid">21995935</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Alexander</surname>
+                <given-names>TS</given-names>
+              </name>
+            </person-group>
+            <article-title>Human Immunodeficiency Virus Diagnostic Testing: 30 Years of Evolution.</article-title>
+            <source>Clin Vaccine Immunol</source>
+            <year>2016</year>
+            <month>Apr</month>
+            <volume>23</volume>
+            <issue>4</issue>
+            <fpage>249</fpage>
+            <page-range>249-53</page-range>
+            <pub-id pub-id-type="pmid">26936099</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Turner</surname>
+                <given-names>VF</given-names>
+              </name>
+            </person-group>
+            <article-title>HIV western blot test.</article-title>
+            <source>Med J Aust</source>
+            <year>1994</year>
+            <month>Jun</month>
+            <day>20</day>
+            <volume>160</volume>
+            <issue>12</issue>
+            <fpage>807</fpage>
+            <page-range>807-8</page-range>
+            <pub-id pub-id-type="pmid">8208208</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cordes</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Ryan</surname>
+                <given-names>ME</given-names>
+              </name>
+            </person-group>
+            <article-title>Pitfalls in HIV testing. Application and limitations of current tests.</article-title>
+            <source>Postgrad Med</source>
+            <year>1995</year>
+            <month>Nov</month>
+            <volume>98</volume>
+            <issue>5</issue>
+            <fpage>177</fpage>
+            <page-range>177-80, 185-6, 189</page-range>
+            <pub-id pub-id-type="pmid">7479453</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Houn</surname>
+                <given-names>HY</given-names>
+              </name>
+              <name>
+                <surname>Pappas</surname>
+                <given-names>AA</given-names>
+              </name>
+              <name>
+                <surname>Walker</surname>
+                <given-names>EM</given-names>
+              </name>
+            </person-group>
+            <article-title>Status of current clinical tests for human immunodeficiency virus (HIV): applications and limitations.</article-title>
+            <source>Ann Clin Lab Sci</source>
+            <year>1987</year>
+            <season>Sep-Oct</season>
+            <volume>17</volume>
+            <issue>5</issue>
+            <fpage>279</fpage>
+            <page-range>279-85</page-range>
+            <pub-id pub-id-type="pmid">3314657</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r46">
+          <label>46</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lloyd</surname>
+                <given-names>VK</given-names>
+              </name>
+              <name>
+                <surname>Hawkins</surname>
+                <given-names>RG</given-names>
+              </name>
+            </person-group>
+            <article-title>Under-Detection of Lyme Disease in Canada.</article-title>
+            <source>Healthcare (Basel)</source>
+            <year>2018</year>
+            <month>Oct</month>
+            <day>15</day>
+            <volume>6</volume>
+            <issue>4</issue>
+            <pub-id pub-id-type="pmid">30326576</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r47">
+          <label>47</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Porcario</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Hall</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Martucci</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Corona</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Iulini</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Perazzini</surname>
+                <given-names>AZ</given-names>
+              </name>
+              <name>
+                <surname>Acutis</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Hamir</surname>
+                <given-names>AN</given-names>
+              </name>
+              <name>
+                <surname>Loiacono</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name>
+                <surname>Greenlee</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Richt</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Caramelli</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Casalone</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Evaluation of two sets of immunohistochemical and Western blot confirmatory methods in the detection of typical and atypical BSE cases.</article-title>
+            <source>BMC Res Notes</source>
+            <year>2011</year>
+            <month>Sep</month>
+            <day>29</day>
+            <volume>4</volume>
+            <fpage>376</fpage>
+            <pub-id pub-id-type="pmid">21958476</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r48">
+          <label>48</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Martins-Gomes</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Silva</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>Western Blot Methodologies for Analysis of In Vitro Protein Expression Induced by Teratogenic Agents.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2018</year>
+            <volume>1797</volume>
+            <fpage>191</fpage>
+            <page-range>191-203</page-range>
+            <pub-id pub-id-type="pmid">29896693</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r49">
+          <label>49</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bass</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Wilkinson</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Rankin</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Phillips</surname>
+                <given-names>BE</given-names>
+              </name>
+              <name>
+                <surname>Szewczyk</surname>
+                <given-names>NJ</given-names>
+              </name>
+              <name>
+                <surname>Smith</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Atherton</surname>
+                <given-names>PJ</given-names>
+              </name>
+            </person-group>
+            <article-title>An overview of technical considerations for Western blotting applications to physiological research.</article-title>
+            <source>Scand J Med Sci Sports</source>
+            <year>2017</year>
+            <month>Jan</month>
+            <volume>27</volume>
+            <issue>1</issue>
+            <fpage>4</fpage>
+            <page-range>4-25</page-range>
+            <pub-id pub-id-type="pmid">27263489</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r50">
+          <label>50</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mishra</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Tiwari</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Gomes</surname>
+                <given-names>AV</given-names>
+              </name>
+            </person-group>
+            <article-title>Protein purification and analysis: next generation Western blotting techniques.</article-title>
+            <source>Expert Rev Proteomics</source>
+            <year>2017</year>
+            <month>Nov</month>
+            <volume>14</volume>
+            <issue>11</issue>
+            <fpage>1037</fpage>
+            <page-range>1037-1053</page-range>
+            <pub-id pub-id-type="pmid">28974114</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r51">
+          <label>51</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Geilfus</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name>
+                <surname>M&#x000fc;hling</surname>
+                <given-names>KH</given-names>
+              </name>
+              <name>
+                <surname>Z&#x000f6;rb</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>A methodical approach for improving the reliability of quantifiable two-dimensional Western blots.</article-title>
+            <source>J Immunol Methods</source>
+            <year>2010</year>
+            <month>Oct</month>
+            <day>31</day>
+            <volume>362</volume>
+            <issue>1-2</issue>
+            <fpage>89</fpage>
+            <page-range>89-94</page-range>
+            <pub-id pub-id-type="pmid">20837019</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r52">
+          <label>52</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Begum</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Murugesan</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Tangutur</surname>
+                <given-names>AD</given-names>
+              </name>
+            </person-group>
+            <article-title>Western blotting: a powerful staple in scientific and biomedical research.</article-title>
+            <source>Biotechniques</source>
+            <year>2022</year>
+            <month>Jun</month>
+            <volume>73</volume>
+            <issue>1</issue>
+            <fpage>58</fpage>
+            <page-range>58-69</page-range>
+            <pub-id pub-id-type="pmid">35775367</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31341.r53">
+          <label>53</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>M&#x000e9;nard</surname>
+                <given-names>AD</given-names>
+              </name>
+              <name>
+                <surname>Trant</surname>
+                <given-names>JF</given-names>
+              </name>
+            </person-group>
+            <article-title>A review and critique of academic lab safety research.</article-title>
+            <source>Nat Chem</source>
+            <year>2020</year>
+            <month>Jan</month>
+            <volume>12</volume>
+            <issue>1</issue>
+            <fpage>17</fpage>
+            <page-range>17-25</page-range>
+            <pub-id pub-id-type="pmid">31740762</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

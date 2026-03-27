@@ -1,0 +1,1373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-19112" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Physiology, Cellular Receptors</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Khalil</surname>
+            <given-names>Bassem</given-names>
+          </name>
+          <aff>Western Atlantic University School of Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Miller</surname>
+            <given-names>Eric J.</given-names>
+          </name>
+          <aff>SUNY Upstate Medical University</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Lappin</surname>
+            <given-names>Sarah L.</given-names>
+          </name>
+          <aff>Upstate University Hospital</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Bassem Khalil declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Eric Miller declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Sarah Lappin declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>19</day>
+          <month>9</month>
+          <year>2024</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-19112.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>The ability of cells to communicate is crucial for maintaining cell function and homeostasis. Cells communicate through gap junctions, juxtacrine signaling, or secreted chemical messengers. Gap junctions enable the direct transfer of signaling molecules between the cytoplasm of 2 connected cells. Juxtacrine signaling involves a membrane-bound chemical messenger that directly interacts with a receptor on the plasma membrane of an adjacent cell.</p>
+        <p>Secreted chemical messengers are released from the originating cell and are classified into the following 4 types:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Paracrine signaling molecules: target neighboring cells close to the release site.&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Autocrine signaling molecules: target the same cell that secreted them.&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Hormones: are released by endocrine cells and reach target cells in one or more distant body locations via blood circulation.</p>
+          </list-item>
+          <list-item>
+            <p>Neurotransmitters: are released by neurons and&#x000a0;affect&#x000a0;other neurons or effector cells near the&#x000a0;release site.&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>Signal transduction begins when a chemical messenger, acting as a ligand, binds to a specific cellular receptor on the target cell. This binding induces a conformational change in the receptor, leading to its activation. Depending on the receptor type, a sequence of signaling events occurs, leading to specific responses such as altered gene expression, changes in cell morphology, modulation of proliferation or growth rate, and adjustments in metabolism.</p>
+        <p>Although cellular receptors primarily bind to endogenous ligands, 2 notable exceptions exist&#x02014;pathogenic viruses, which can bind to host cellular receptors to infect a cell, and bacterial components, which can bind to receptors on immune cells to initiate an immune response.<xref ref-type="bibr" rid="article-19112.r1">[1]</xref></p>
+        <p>Cellular receptors can be either intracellular or cell surface proteins. Intracellular receptors that located in the cytoplasm or nucleus of target cells bind lipid-soluble chemical messengers. Cell surface receptors are transmembrane proteins that bind water-soluble chemical messengers.&#x000a0;</p>
+      </sec>
+      <sec id="article-19112.s2" sec-type="Cellular Level&#x0000d;&#x0000a;">
+        <title>Cellular Level
+</title>
+        <p>
+<bold>Types of&#x000a0;Chemical Messengers</bold>
+</p>
+        <p>Chemical messengers are classified as water-soluble (hydrophilic) or lipid-soluble (hydrophobic).</p>
+        <p>Hydrophobic chemical messengers include steroid hormones derived from cholesterol (eg, cortisol, testosterone, and estrogen), thyroid hormones, eicosanoids (eg, prostaglandins and leukotrienes), and gases (eg, nitric oxide). These messengers cross the cell membrane's lipid bilayer by simple diffusion and bind to intracellular receptors within target cells.</p>
+        <p>Hydrophilic chemical messengers include peptide hormones (eg,&#x000a0;glucagon and growth hormones), amino acid neurotransmitters (eg, glycine and glutamate), amino acid derivative neurotransmitters (eg, epinephrine and norepinephrine), peptide neurotransmitters (eg, substance P), cytokines (eg, interleukins and interferons), growth factors (eg, epidermal growth factor [EGF] and fibroblast growth factor [FGF]), and nucleotides and nucleosides (eg, adenosine triphosphate [ATP], adenosine diphosphate [ADP], and adenosine). As these messengers cannot cross the lipid bilayer of cell membranes, they bind to cell surface receptors on target cells.</p>
+        <p>
+<bold>Intracellular&#x000a0;Receptors</bold>
+</p>
+        <p>Intracellular receptors, also known as nuclear receptors, regulate cellular functions by altering gene expression. These receptors are classified into 2 types&#x02014;type I and type II nuclear receptors.</p>
+        <p>
+<bold>Type I intracellular receptors:</bold> In the inactive state, type I&#x000a0;nuclear receptors are found in the cytoplasm and are usually bound to a chaperone protein. Following the binding of a&#x000a0;ligand, the&#x000a0;receptor undergoes a conformational change that releases the chaperone protein and allows&#x000a0;the receptor to translocate to the nucleus. Once in the nucleus,&#x000a0;the ligand-receptor complex binds to&#x000a0;a specific DNA sequence and acts as a transcription factor to modulate the transcription of one or more genes. Type I intracellular receptors include&#x000a0;the glucocorticoid, androgen, and progesterone receptors.<xref ref-type="bibr" rid="article-19112.r2">[2]</xref>&#x000a0;</p>
+        <p>
+<bold>Type II intracellular receptors:</bold>&#x000a0;Type II intracellular receptors are located in the nucleus regardless of ligand-binding status. In the inactive state, these receptors are bound to co-repressor proteins. The co-repressor proteins are released upon ligand binding, allowing the receptor to bind to DNA and modulate gene expression. Type II intracellular receptors include retinoic acid and thyroid hormone receptors.<xref ref-type="bibr" rid="article-19112.r3">[3]</xref></p>
+        <p>
+<bold>Cell-Surface Receptors</bold>
+</p>
+        <p>Cell-surface receptors are transmembrane proteins embedded in the plasma membrane of target cells. These receptors consist of an extracellular domain containing the ligand-binding site, a transmembrane domain, and an intracellular domain that transmits the signal inside the cell. When a water-soluble ligand binds to a cell-surface receptor, it activates the receptor, initiating a signal transduction pathway that alters cellular function. The 3 types of cell-surface receptors include&#x000a0;G protein&#x02013;coupled receptors (GPCRs), ion channel receptors, and enzyme-linked receptors.&#x000a0;</p>
+        <p>
+<bold>G protein&#x02013;coupled receptors:&#x000a0;</bold>GPCRs are the largest family of cell surface receptors and are the target of around 30% of the drugs approved by the US Food and Drug Administration (FDA).<xref ref-type="bibr" rid="article-19112.r4">[4]</xref>&#x000a0;They are 7-pass transmembrane proteins with an intracellular domain coupled to a G protein. G proteins are heterotrimeric and comprise&#x000a0;G&#x003b1;-, G&#x003b2;-, and G&#x003b3; subunits. G&#x003b1; is bound to guanosine diphosphate (GDP) in its inactive form and is also associated with the G&#x003b2;- and G&#x003b3; subunits.</p>
+        <p>The binding of a ligand to a GPCR activates the receptor, enabling it to catalyze the exchange of GDP to guanosine triphosphate (GTP) on the&#x000a0;G&#x003b1; subunit. This exchange activates the G&#x003b1; subunit, causing it to dissociate from the G&#x003b2; and G&#x003b3; subunits, which remain together as a complex known as G&#x003b2;&#x003b3;. Both active G&#x003b1;-GTP and G&#x003b2;&#x003b3; then activate their downstream targets to modulate cellular functions. Termination of GPCR signaling involves the hydrolysis of GTP to GDP by the intrinsic GTPase activity of the G&#x003b1; subunit.<xref ref-type="bibr" rid="article-19112.r5">[5]</xref>&#x000a0;</p>
+        <p>The effect of GPCR activation on a target cell depends on the specific G protein it is coupled with and the associated signaling pathway. G proteins are classified based on the type of G&#x003b1; subunit they contain. The 4 types of G&#x003b1; subunits correspond to 4 families of G proteins, as mentioned below.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Gs (stimulatory) family: This activates adenylate cyclase, which catalyzes the conversion of ATP into cyclic adenosine monophosphate (cAMP). cAMP is a second messenger that activates protein kinase A (PKA), phosphorylating&#x000a0;downstream target proteins.&#x000a0;The effects of PKA activation depend on the cell type and available protein targets.&#x000a0;</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Gi (inhibitory) family: This inhibits adenylate cyclase, leading to decreased cAMP levels and PKA activity.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Gq family: This activates phospholipase C, which catalyzes the hydrolysis of&#x000a0;the membrane phospholipid called phosphatidylinositol 4,5-bisphosphate (PIP2) into inositol triphosphate (IP3) and diacylglycerol. IP3 is a&#x000a0;second messenger that diffuses through the cytoplasm to the endoplasmic reticulum, where it binds to IP3 receptors and releases Ca&#x000b2;<sup>+&#x000a0;</sup>ions&#x000a0;from the endoplasmic reticulum into the cytoplasm. In addition, diacylglycerol, another second messenger, remains in the membrane and, along with the increased intracellular Ca&#x000b2;<sup>+</sup>, activates protein kinase C (PKC), which phosphorylates various target proteins to elicit cellular responses.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>G12/13 family: This activates Rho family GTPases, which regulate the cytoskeleton and control cell movement.</p>
+          </list-item>
+        </list>
+        <p>Examples of GPCRs include adrenergic receptors, muscarinic acetylcholine receptors, dopamine receptors, and opioid receptors.</p>
+        <p>
+<bold>Ion channel receptors:&#x000a0;</bold>Ion&#x000a0;channel receptors are ligand-gated ion channels that open upon ligand binding, allowing the passage of specific ions (eg, Na+, K+, Ca&#x000b2;+, or Cl-) across the plasma membrane. Examples of ion channel receptors include nicotinic acetylcholine receptors and gamma-aminobutyric acid (GABA) type A receptors.&#x000a0;</p>
+        <p>
+<bold>Enzyme-linked receptors:&#x000a0;</bold>Enzyme-linked receptors either possess intrinsic enzymatic activity or activate an associated intracellular enzyme.</p>
+        <p>Most receptors with intrinsic enzymatic activity are receptor tyrosine kinases (RTKs). Ligand binding to an RTK induces dimerization and activation, leading to autophosphorylation on tyrosine residues. These phosphorylated tyrosine residues act as&#x000a0;docking sites for intracellular signaling molecules, which in turn activate kinases and initiate signaling cascades. Examples of RTKs include insulin receptors and growth factor receptors, such as the EGF and FGF receptors.</p>
+        <p>Additional types of receptors with intrinsic enzymatic activity include protein tyrosine phosphatases, which remove phosphate from phosphotyrosine residues; protein-serine/threonine kinases, which add phosphate on serine or threonine residues; and guanylyl cyclases, which catalyze the formation of cyclic guanosine monophosphate (cGMP).&#x000a0;</p>
+        <p>Other enzyme-linked receptors lack intrinsic enzymatic activity but activate intracellular enzymes. After ligand binding and activation, most of these receptors&#x000a0;directly activate a non-covalently associated cytoplasmic kinase. Most of these cytoplasmic kinases belong to the Src or Janus kinase (JAK) families of tyrosine kinases.&#x000a0;&#x000a0;</p>
+      </sec>
+      <sec id="article-19112.s3" sec-type="Development">
+        <title>Development</title>
+        <p>Embryonic development is a complex process that involves precise spatial and temporal regulation of cellular processes, including cell migration, differentiation, and proliferation. This process depends on coordinated and rapid cellular communication. Several chemical messengers, such as FGF, hedgehog proteins, Wnt, and transforming growth factor beta (TGF-&#x003b2;), are essential for proper embryonic development.<xref ref-type="bibr" rid="article-19112.r6">[6]</xref>&#x000a0;These messengers function by activating their respective cell surface receptors.&#x000a0;</p>
+        <p>FGF receptors are a family of RTKs that dimerize and autophosphorylate upon FGF binding.<xref ref-type="bibr" rid="article-19112.r6">[6]</xref>&#x000a0;Wnt binds to frizzled receptors (FZD), which are GPCRs, along with the co-receptors LRP5/6 (low-density lipoprotein [LDL] receptor&#x02013;related proteins).<xref ref-type="bibr" rid="article-19112.r7">[7]</xref>&#x000a0;Hedgehog binds to patched (Ptch) receptors, which are 12-pass transmembrane proteins that regulate the activity of the Smoothened (Smo) receptor, which is a GPCR. Hedgehog binding to Ptch relieves its inhibition of Smo, allowing Smo to become active and initiate downstream signaling pathways, including the canonical &#x003b2;-catenin pathway and non-canonical pathways. TGF-&#x003b2; receptors are serine/threonine kinase receptors.<xref ref-type="bibr" rid="article-19112.r8">[8]</xref>&#x000a0;TGF-&#x003b2;&#x000a0;binds to the TGF-&#x003b2; type II receptor, which then recruits and phosphorylates the TGF-&#x003b2; type I receptor. This activation leads to the phosphorylation and activation of SMAD proteins, which translocate to the nucleus to regulate gene expression.<xref ref-type="bibr" rid="article-19112.r9">[9]</xref></p>
+        <p>Signaling pathways activated downstream of FGF, Wnt, Hedgehog, and TGF-&#x003b2; are highly conserved and play crucial roles in coordinating the complex processes essential for proper vertebrate embryonic development. These processes include the formation and specification of germ layers and axis development.<xref ref-type="bibr" rid="article-19112.r6">[6]</xref></p>
+      </sec>
+      <sec id="article-19112.s4" sec-type="Organ Systems Involved">
+        <title>Organ Systems Involved</title>
+        <p>Regulation of body functions and maintenance of homeostasis depend on extensive and coordinated cell communication both within and between organ systems. Therefore, every organ system in the body relies on cellular receptors. This communication is crucial for a wide range of all body functions, including, but not limited to, development and growth coordination, proper immune responses, tissue repair and regeneration, neurotransmission, cellular processes such as cell cycle control and apoptosis, regulation of physiological parameters such as blood pressure, and the overall functioning of all organs.&#x000a0;</p>
+      </sec>
+      <sec id="article-19112.s5" sec-type="Pathophysiology">
+        <title>Pathophysiology</title>
+        <p>Several mechanisms can&#x000a0;affect the function of cellular receptors, which could lead to dysregulation of associated signaling&#x000a0;pathways and disease. The pathophysiology of cellular receptors involves changes in how ligands interact with receptors or in the receptors' own activity. These mechanisms include mutations affecting receptor function, overexpression, loss of expression, misfolding and degradation, altered trafficking, autoantibodies, ligand binding issues, receptor isoforms, and receptor cleavage. Additionally, certain viruses and bacteria can cause infectious diseases by hijacking the function of cellular receptors.&#x000a0;</p>
+        <p>
+<bold>Mutations Affecting Receptor Function</bold>
+</p>
+        <p>Point mutations, insertions, or deletions in the gene encoding a cellular receptor can alter the receptor's structure and function. These changes may result in either a dysfunctional receptor or one that is constitutively active.</p>
+        <p>
+<bold>Overexpression</bold>
+</p>
+        <p>Overexpression of cellular receptors occurs due to gene amplification, which increases the copy number of a receptor gene, or through overactivity of a gene promoter. This leads to upregulation of the signaling pathways associated with the receptor.&#x000a0;</p>
+        <p>
+<bold>Loss of Expression</bold>
+</p>
+        <p>Deletion of a cellular receptor gene results in the complete loss of expression. Epigenetic modifications, such as methylation and histone modification, can also silence a receptor gene, leading to reduced expression. This loss of expression leads to loss of function and downregulation of signaling pathways.&#x000a0;</p>
+        <p>
+<bold>Misfolding and Degradation</bold>
+</p>
+        <p>Mutations in&#x000a0;a receptor gene, errors in posttranslational modifications, or environmental factors (eg, oxidative stress) can lead to misfolding of cellular receptors. Misfolded receptors are typically retained in the endoplasmic reticulum and are often targeted for degradation.&#x000a0;</p>
+        <p>The normal physiology of cellular receptors involves regulatory turnover, whereby receptors that are no longer needed or are part of a signaling pathway that needs to be terminated are ubiquitinated and targeted for degradation by the proteasome. This process can also be triggered by specific signals that modulate signaling pathways. However, dysregulation of this degradation pathway can lead to abnormal downregulation of cellular receptors and contribute to disease.</p>
+        <p>
+<bold>Altered Trafficking</bold>
+</p>
+        <p>The proper functioning of cellular receptors requires them to be appropriately located within the cell, which is accomplished by cellular trafficking. For example, cell surface receptors must be transported from the rough endoplasmic reticulum to the Golgi apparatus and then to the membrane of a secretory vesicle, which subsequently fuses with the plasma membrane to insert the receptor. Defective trafficking can lead to reduced receptor numbers on the plasma membrane. This can result from defects in the cellular receptor itself, such as mutations or inappropriate posttranslational modifications; defects in the cellular trafficking machinery, including mutations in trafficking proteins or disruption of the cytoskeleton; disruption of protein-protein interactions, either between the receptor and chaperone proteins or with other proteins necessary for proper trafficking; environmental factors like nutrient availability; and infectious agents, such as viruses that hijack the cell's trafficking machinery.</p>
+        <p>
+<bold>Autoantibodies</bold>
+</p>
+        <p>In certain autoimmune disorders, autoantibodies target cellular receptors. The binding of these autoantibodies can block the binding of the endogenous ligand or alter the receptor's conformation, leading to its inhibition. Conversely, autoantibodies can also inappropriately activate a receptor, resulting in abnormal upregulation of the associated signaling pathway.&#x000a0;</p>
+        <p>
+<bold>Ligand Binding Issues</bold>
+</p>
+        <p>Mutations can change the receptor's binding affinity for its ligand, either increasing or decreasing it, leading to altered signaling. Additionally, competitive inhibition by other molecules that bind to the receptor's ligand-binding site may prevent normal ligand binding and receptor activation.</p>
+        <p>
+<bold>Receptor Isoforms and&#x000a0;</bold>
+<bold>Cleavage</bold>
+</p>
+        <p>Aberrant gene splicing can produce dysfunctional receptor isoforms. Some of these isoforms may form heterodimers with normal receptors, creating a dominant negative effect that impairs receptor function. Similarly, abnormal proteolytic cleavage of receptors can generate dysfunctional fragments that either lack signaling capability or exhibit altered functions.</p>
+        <p>
+<bold>Infectious Diseases</bold>
+</p>
+        <p>The pathophysiology of infectious diseases often involves hijacking cellular receptors or altering their function. For example, viruses frequently gain entry into host cells by binding to specific cellular receptors. Similarly, some bacterial toxins target specific receptors to exert their effects.</p>
+      </sec>
+      <sec id="article-19112.s6" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Dysregulation of cellular receptors and their associated signaling pathways, through one of the mechanisms described earlier, can lead to various human disorders. These include cancer, cardiovascular diseases, neurological disorders, metabolic and endocrine disorders, autoimmune diseases, and infectious diseases.</p>
+        <p>
+<bold>Cancer</bold>
+</p>
+        <p>Cellular receptors are crucial&#x000a0;in regulating cell proliferation, growth, and apoptosis by activating&#x000a0;signaling pathways. Disruption&#x000a0;of these pathways can lead to uncontrolled growth, evasion of apoptosis, and other cancer hallmarks. This disruption can occur through various mechanisms, including receptor overexpression and subsequent upregulation of associated signaling pathways, mutations causing constitutive receptor activation in the absence of a ligand, gene amplification leading to increased receptor density on the cell surface, upregulation of autocrine or paracrine signaling where cancer cells secrete excessive growth factors that act on themselves or neighboring cells, epigenetic modifications resulting in receptor overexpression or loss of negative regulation, and defective receptor internalization&#x000a0;that&#x000a0;prolongs and sustains signaling.</p>
+        <p>
+<bold>Cardiovascular Diseases</bold>
+</p>
+        <p>Dysregulation of cellular receptors contributes significantly to the development and progression of cardiovascular diseases such as hypertension, heart failure, atherosclerosis, coronary artery disease, and arrhythmias. For example, chronic activation of beta-1 adrenergic receptors elevates heart rate and contractility, which can lead to hypertension and increase the risk of arrhythmias.</p>
+        <p>On the other hand, downregulation or desensitization of beta-1 adrenergic receptors can impair cardiac function and contribute to the progression of heart failure.<xref ref-type="bibr" rid="article-19112.r10">[10]</xref>&#x000a0;Overactivation of angiotensin II receptors (AT1R) leads to vasoconstriction and increased blood volume, which could result in hypertension.<xref ref-type="bibr" rid="article-19112.r11">[11]</xref>&#x000a0;Dysregulation of endothelin receptors increases vascular tone, which contributes to atherosclerosis and coronary artery diseases.<xref ref-type="bibr" rid="article-19112.r12">[12]</xref>&#x000a0;Abnormal activation of platelet receptors (such as P2Y12, which is a GPCR) can lead to platelet activation and aggregation, abnormal clot formation, and&#x000a0;acute coronary syndrome.<xref ref-type="bibr" rid="article-19112.r13">[13]</xref>&#x000a0;</p>
+        <p>
+<bold>Neurological Diseases</bold>
+</p>
+        <p>Signaling initiated by neurotransmitters binding to their receptors is crucial for neurotransmission and&#x000a0;maintaining proper communication and function of neurons and glial cells. Dysregulation of these receptors&#x000a0;can alter neurotransmission, synaptic plasticity, neuronal survival, and inflammatory responses, contributing to&#x000a0;the manifestation of neurological symptoms and the development of neurological disorders. Examples are provided below.</p>
+        <p>
+<bold>
+<italic toggle="yes">N</italic>-methyl-D-aspartate receptor:</bold>
+<italic toggle="yes">N</italic>-methyl-D-aspartate receptors (NMDARs) are glutamate receptors that have a key role in synaptic plasticity and memory formation. Dysregulation of NMDAR activity, whether through excessive activation or inhibition, contributes to various neurological and psychological disorders. Hyperactivation of NMDARs leads to excitotoxicity, which plays a role in&#x000a0;epilepsy, Huntington disease, and Parkinson disease. In contrast, hypoactivation of NMDARs is associated with cognitive dysfunction and psychotic symptoms in schizophrenia.<xref ref-type="bibr" rid="article-19112.r14">[14]</xref></p>
+        <p>
+<bold>Dopamine receptors:</bold>&#x000a0;Dopamine receptors, especially D1 and D2, play a crucial role in regulating motor control, reward pathways, and cognition. In Parkinson disease, the loss of dopaminergic neurons reduces dopamine signaling through these receptors, leading to motor dysfunction.<xref ref-type="bibr" rid="article-19112.r15">[15]</xref>&#x000a0;In schizophrenia, dysregulation of dopamine receptor signaling, especially hyperactivation of D2 receptors, is linked to positive symptoms such as hallucinations and delusions.<xref ref-type="bibr" rid="article-19112.r16">[16]</xref>&#x000a0;</p>
+        <p>
+<bold>GABA receptors:</bold>&#x000a0;GABA receptors are the primary inhibitory receptors in the brain, and they are responsible for reducing neuronal excitability. Dysregulation of GABAergic signaling, including mutations in GABA receptor subunits or altered receptor expression, can disrupt the balance between excitation and inhibition, contributing to the development of epilepsy and anxiety disorders.<xref ref-type="bibr" rid="article-19112.r17">[17]</xref>&#x000a0;</p>
+        <p>
+<bold>Nerve growth factor receptor:</bold>&#x000a0;TrkA, a receptor for nerve growth factor (NGF), is crucial for the survival and function of specific neurons, particularly in the peripheral nervous system. Mutations or dysregulation of TrkA can result in autonomic neuropathies, where patients experience severe sensory and autonomic dysfunction due to the loss of NGF-mediated neuronal support.<xref ref-type="bibr" rid="article-19112.r18">[18]</xref></p>
+        <p>
+<bold>Endocrine and Metabolic Disorders</bold>
+</p>
+        <p>Hormones regulate metabolism, growth, reproduction, and homeostasis by binding to their cellular receptors. Dysregulation of these receptors disrupts normal hormonal signaling pathways, leading to excessive or insufficient hormonal responses. This imbalance contributes to various endocrine and metabolic disorders, as illustrated by the examples below.</p>
+        <p>
+<bold>Type 2 diabetes:</bold>&#x000a0;The insulin receptor is critical for glucose uptake in response to insulin. In type 2 diabetes, insulin resistance arises from decreased sensitivity of the insulin receptor or defects in post-receptor signaling. This results in impaired glucose uptake, hyperglycemia, and, eventually, the development of diabetes. Furthermore, mutations in the insulin receptor can cause severe insulin resistance syndromes, such as Donohue syndrome (leprechaunism).<xref ref-type="bibr" rid="article-19112.r19">[19]</xref>&#x000a0;</p>
+        <p>
+<bold>Graves Disease and congenital hypothyroidism:</bold>&#x000a0;The&#x000a0;thyroid-stimulating hormone receptor (TSHR) is essential for the synthesis and release of thyroid hormones. In Graves disease, an autoimmune disorder, antibodies mimic TSH and bind to the TSH receptor, leading to hyperthyroidism.<xref ref-type="bibr" rid="article-19112.r20">[20]</xref>&#x000a0;Conversely, mutations in the <italic toggle="yes">TSHR</italic> gene can cause congenital hypothyroidism, where impaired receptor function results in inadequate TSH&#x000a0;production.<xref ref-type="bibr" rid="article-19112.r21">[21]</xref>&#x000a0;</p>
+        <p>
+<bold>Hyperparathyroidism and pseudohypoparathyroidism:</bold>&#x000a0;The parathyroid hormone receptor (PTHR), primarily PTHR1, is crucial for calcium homeostasis. In hyperparathyroidism, whether due to parathyroid adenomas or secondary causes, excessive activation of PTHR1 leads to increased calcium release from bones, enhanced kidney calcium reabsorption, and hypercalcemia. In pseudohypoparathyroidism, mutations in the G&#x003b1;s subunit impair PTHR1 signaling, resulting in resistance to PTH and leading to hypocalcemia and hyperphosphatemia despite elevated PTH levels.</p>
+        <p>
+<bold>Androgen insensitivity syndrome:</bold>&#x000a0;The androgen receptor (AR) mediates the effects of androgens such as testosterone. In androgen insensitivity syndrome, mutations in the AR gene cause varying degrees of resistance to androgens. This results in a spectrum of phenotypes, ranging from complete development of female external genitalia to mild infertility in males.<xref ref-type="bibr" rid="article-19112.r22">[22]</xref>&#x000a0;&#x000a0;</p>
+        <p>
+<bold>McCune-Albright syndrome:</bold>&#x000a0;This syndrome is caused by a somatic mutation in the <italic toggle="yes">GNAS</italic> gene, which encodes the G&#x003b1;s subunit of Gs proteins.&#x000a0;The mutation leads to constitutive activation of G&#x003b1;s, resulting in increased cAMP production and excessive activation of downstream signaling pathways, which is independent of GPCR activation. Symptoms include light brown, irregularly shaped skin lesions (caf&#x000e9;-au-lait spots), precocious puberty, and fibrous dysplasia. The syndrome may also present with hyperthyroidism, Cushing syndrome, and either gigantism or acromegaly.<xref ref-type="bibr" rid="article-19112.r23">[23]</xref>&#x000a0;</p>
+        <p>
+<bold>Cushing syndrome and glucocorticoid resistance:</bold>&#x000a0;The glucocorticoid receptor mediates the effects of glucocorticoids such as cortisol, which are involved in stress responses, metabolism, and immune regulation. In Cushing syndrome, excessive activation of the glucocorticoid receptor, often due to prolonged exposure to high cortisol levels, leads to symptoms such as obesity, hypertension, and insulin resistance. Conversely, glucocorticoid resistance, caused by mutations in the gene encoding the glucocorticoid receptor, results in a reduced response to cortisol.</p>
+        <p>
+<bold>Familial hypercholesterolemia:</bold>&#x000a0;The LDL receptor is responsible for clearing LDL cholesterol from the bloodstream. In familial hypercholesterolemia, mutations in the LDL receptor gene result in reduced function or expression of LDL receptors, leading to elevated LDL cholesterol levels. This dysregulation contributes to the development of atherosclerosis and increases the risk of cardiovascular disease.<xref ref-type="bibr" rid="article-19112.r24">[24]</xref></p>
+        <p>
+<bold>Autoimmune Diseases</bold>
+</p>
+        <p>Dysregulation of cytokine receptors can lead to inappropriate immune responses. For example, upregulation of the tumor necrosis factor-alpha (TNF-&#x003b1;) receptor is associated with rheumatoid arthritis and inflammatory bowel disease. Additionally, abnormal activation of T-cell receptors plays a role in various autoimmune diseases, including rheumatoid arthritis, multiple sclerosis, and systemic lupus erythematosus.</p>
+        <p>Myasthenia gravis is an autoimmune disease characterized by symptoms such as muscle weakness, fatigue, drooping of the eyelid (ptosis), double vision (diplopia), and difficulty swallowing. These symptoms tend to worsen progressively, fluctuate in severity, and improve with rest. Approximately 80% of patients with myasthenia gravis produce autoantibodies against nicotinic acetylcholine receptors, which are ligand-gated ion channel receptors located on the surface of skeletal muscle cells at the neuromuscular junction. These receptors are crucial for muscle contraction.<xref ref-type="bibr" rid="article-19112.r25">[25]</xref>&#x000a0;&#x000a0;</p>
+        <p>
+<bold>Infectious Diseases</bold>
+</p>
+        <p>Viruses often bind to cell-surface receptors on host cells to gain entry, effectively hijacking these receptors for their own purposes. For instance, the HIV surface protein GP-120 must bind to the CCR5 receptor to enter human macrophages.<xref ref-type="bibr" rid="article-19112.r26">[26]</xref>&#x000a0;Individuals who are homozygous for a deletion in the CCR5 receptor are resistant to HIV strains that rely on this receptor for infection. Research is also exploring strategies to target and block the CCR5 receptor as a means to prevent HIV infection.<xref ref-type="bibr" rid="article-19112.r27">[27]</xref>&#x000a0;</p>
+        <p>The influenza virus infects epithelial cells in the upper and lower respiratory tracts. The viral surface protein hemagglutinin binds to sialic acid, a sugar found on the cell surface. The influenza virus binds to sialic acid, which acts as a cell receptor necessary for the virus to infect the cell.<xref ref-type="bibr" rid="article-19112.r28">[28]</xref>&#x000a0;Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), the virus responsible for COVID-19, binds to angiotensin-converting enzyme 2 (ACE2) and the type II transmembrane serine protease (TMPRSS2) coreceptor to enter host cells.<xref ref-type="bibr" rid="article-19112.r29">[29]</xref>&#x000a0;</p>
+        <p>
+<bold>Genetic Disorders</bold>
+</p>
+        <p>Inherited gain-of-function or loss-of-function mutations in genes coding cellular receptors can lead to genetic disorders, as mentioned below.</p>
+        <p>
+<bold>Achondroplasia:</bold>&#x000a0;An autosomal dominant genetic disorder caused by a gain-of-function mutation in FGF receptor-3 (FGFR3). FGFR3 is an RTK that is highly expressed in chondrocytes, particularly in the growth plate of developing bones. Infants with achondroplasia generally present with short limbs and digits, a saddle nose deformity, and a large head.</p>
+        <p>
+<bold>Familial hypercholesterolemia:</bold>&#x000a0;An autosomal dominant genetic disorder caused by a loss-of-function mutation in the LDL receptor. The LDL receptor plays a key role in clearing low-density lipoprotein (LDL) cholesterol from the bloodstream. In familial hypercholesterolemia, non-functional LDL receptors result in decreased LDL clearance, leading to elevated blood cholesterol levels and an increased risk of cardiovascular disease.<xref ref-type="bibr" rid="article-19112.r24">[24]</xref></p>
+      </sec>
+      <sec id="article-19112.s7">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=19112&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=19112">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/19112/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=19112">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-19112.s8">
+        <title>References</title>
+        <ref id="article-19112.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jones</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>The therapeutic potential of GLP-1 receptor biased agonism.</article-title>
+            <source>Br J Pharmacol</source>
+            <year>2022</year>
+            <month>Feb</month>
+            <volume>179</volume>
+            <issue>4</issue>
+            <fpage>492</fpage>
+            <page-range>492-510</page-range>
+            <pub-id pub-id-type="pmid">33880754</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kumar</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Freelander</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Lim</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Type 1 Nuclear Receptor Activity in Breast Cancer: Translating Preclinical Insights to the Clinic.</article-title>
+            <source>Cancers (Basel)</source>
+            <year>2021</year>
+            <month>Oct</month>
+            <day>03</day>
+            <volume>13</volume>
+            <issue>19</issue>
+            <pub-id pub-id-type="pmid">34638457</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Penvose</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Keenan</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Bray</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Ramlall</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Siggers</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Comprehensive study of nuclear receptor DNA binding provides a revised framework for understanding receptor specificity.</article-title>
+            <source>Nat Commun</source>
+            <year>2019</year>
+            <month>Jun</month>
+            <day>07</day>
+            <volume>10</volume>
+            <issue>1</issue>
+            <fpage>2514</fpage>
+            <pub-id pub-id-type="pmid">31175293</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Liu</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Anderson</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name>
+                <surname>Rajagopal</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lefkowitz</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Rockman</surname>
+                <given-names>HA</given-names>
+              </name>
+            </person-group>
+            <article-title>G Protein-Coupled Receptors: A Century of Research and Discovery.</article-title>
+            <source>Circ Res</source>
+            <year>2024</year>
+            <month>Jun</month>
+            <day>21</day>
+            <volume>135</volume>
+            <issue>1</issue>
+            <fpage>174</fpage>
+            <page-range>174-197</page-range>
+            <pub-id pub-id-type="pmid">38900852</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Lu</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Lan</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Lu</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>G protein-coupled receptors (GPCRs): advances in structures, mechanisms, and drug discovery.</article-title>
+            <source>Signal Transduct Target Ther</source>
+            <year>2024</year>
+            <month>Apr</month>
+            <day>10</day>
+            <volume>9</volume>
+            <issue>1</issue>
+            <fpage>88</fpage>
+            <pub-id pub-id-type="pmid">38594257</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kumar</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Goutam</surname>
+                <given-names>RS</given-names>
+              </name>
+              <name>
+                <surname>Park</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Functional Roles of FGF Signaling in Early Development of Vertebrate Embryos.</article-title>
+            <source>Cells</source>
+            <year>2021</year>
+            <month>Aug</month>
+            <day>20</day>
+            <volume>10</volume>
+            <issue>8</issue>
+            <pub-id pub-id-type="pmid">34440915</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chuan</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Pan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Jiang</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Shi</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Yang</surname>
+                <given-names>Z</given-names>
+              </name>
+            </person-group>
+            <article-title>Progress in the development of modulators targeting Frizzleds.</article-title>
+            <source>Pharmacol Res</source>
+            <year>2024</year>
+            <month>Aug</month>
+            <volume>206</volume>
+            <fpage>107286</fpage>
+            <pub-id pub-id-type="pmid">38936522</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jing</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Luo</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Lin</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Fan</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Zhou</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Hedgehog signaling in tissue homeostasis, cancers, and targeted therapies.</article-title>
+            <source>Signal Transduct Target Ther</source>
+            <year>2023</year>
+            <month>Aug</month>
+            <day>18</day>
+            <volume>8</volume>
+            <issue>1</issue>
+            <fpage>315</fpage>
+            <pub-id pub-id-type="pmid">37596267</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Deng</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Fan</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Xiao</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Tian</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Zheng</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>He</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>TGF-&#x003b2; signaling in health, disease, and therapeutics.</article-title>
+            <source>Signal Transduct Target Ther</source>
+            <year>2024</year>
+            <month>Mar</month>
+            <day>22</day>
+            <volume>9</volume>
+            <issue>1</issue>
+            <fpage>61</fpage>
+            <pub-id pub-id-type="pmid">38514615</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mahmood</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Ahmed</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>&#x003b2;-Adrenergic Receptor Desensitization/Down-Regulation in Heart Failure: A Friend or Foe?</article-title>
+            <source>Front Cardiovasc Med</source>
+            <year>2022</year>
+            <volume>9</volume>
+            <fpage>925692</fpage>
+            <pub-id pub-id-type="pmid">35845057</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rianto</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Hoang</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Revoori</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Sparks</surname>
+                <given-names>MA</given-names>
+              </name>
+            </person-group>
+            <article-title>Angiotensin receptors in the kidney and vasculature in hypertension and kidney disease.</article-title>
+            <source>Mol Cell Endocrinol</source>
+            <year>2021</year>
+            <month>Jun</month>
+            <day>01</day>
+            <volume>529</volume>
+            <fpage>111259</fpage>
+            <pub-id pub-id-type="pmid">33781840</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gupta</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Libby</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Barton</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Linking regulation of nitric oxide to endothelin-1: The Yin and Yang of vascular tone in the atherosclerotic plaque.</article-title>
+            <source>Atherosclerosis</source>
+            <year>2020</year>
+            <month>Jan</month>
+            <volume>292</volume>
+            <fpage>201</fpage>
+            <page-range>201-203</page-range>
+            <pub-id pub-id-type="pmid">31810569</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pradhan</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Tiwari</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Caminiti</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Salimei</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Muscoli</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Sethi</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Perrone</surname>
+                <given-names>MA</given-names>
+              </name>
+            </person-group>
+            <article-title>Ideal P2Y12 Inhibitor in Acute Coronary Syndrome: A Review and Current Status.</article-title>
+            <source>Int J Environ Res Public Health</source>
+            <year>2022</year>
+            <month>Jul</month>
+            <day>23</day>
+            <volume>19</volume>
+            <issue>15</issue>
+            <pub-id pub-id-type="pmid">35897347</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dong</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Yue</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Dong</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>N-methyl-D-aspartate receptor hypofunction as a potential contributor to the progression and manifestation of many neurological disorders.</article-title>
+            <source>Front Mol Neurosci</source>
+            <year>2023</year>
+            <volume>16</volume>
+            <fpage>1174738</fpage>
+            <pub-id pub-id-type="pmid">37396784</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Franco</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Reyes-Resina</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Navarro</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Dopamine in Health and Disease: Much More Than a Neurotransmitter.</article-title>
+            <source>Biomedicines</source>
+            <year>2021</year>
+            <month>Jan</month>
+            <day>22</day>
+            <volume>9</volume>
+            <issue>2</issue>
+            <pub-id pub-id-type="pmid">33499192</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Brisch</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Saniotis</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Wolf</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Bielau</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Bernstein</surname>
+                <given-names>HG</given-names>
+              </name>
+              <name>
+                <surname>Steiner</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Bogerts</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Braun</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Jankowski</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Kumaratilake</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Henneberg</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gos</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>The role of dopamine in schizophrenia from a neurobiological and evolutionary perspective: old fashioned, but still in vogue.</article-title>
+            <source>Front Psychiatry</source>
+            <year>2014</year>
+            <volume>5</volume>
+            <fpage>47</fpage>
+            <pub-id pub-id-type="pmid">24904434</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Perucca</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Bialer</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>White</surname>
+                <given-names>HS</given-names>
+              </name>
+            </person-group>
+            <article-title>New GABA-Targeting Therapies for the Treatment of Seizures and Epilepsy: I. Role of GABA as a Modulator of Seizure Activity and Recently Approved Medications Acting on the GABA System.</article-title>
+            <source>CNS Drugs</source>
+            <year>2023</year>
+            <month>Sep</month>
+            <volume>37</volume>
+            <issue>9</issue>
+            <fpage>755</fpage>
+            <page-range>755-779</page-range>
+            <pub-id pub-id-type="pmid">37603262</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Axelrod</surname>
+                <given-names>FB</given-names>
+              </name>
+              <name>
+                <surname>Gold-von Simson</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Hereditary sensory and autonomic neuropathies: types II, III, and IV.</article-title>
+            <source>Orphanet J Rare Dis</source>
+            <year>2007</year>
+            <month>Oct</month>
+            <day>03</day>
+            <volume>2</volume>
+            <fpage>39</fpage>
+            <pub-id pub-id-type="pmid">17915006</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r19">
+          <label>19</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Mesika</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Klar</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Falik Zaccai</surname>
+                <given-names>TC</given-names>
+              </name>
+            </person-group>
+            <chapter-title><italic>INSR</italic>-Related Severe Insulin Resistance Syndrome</chapter-title>
+            <person-group person-group-type="editor">
+              <name>
+                <surname>Adam</surname>
+                <given-names>MP</given-names>
+              </name>
+              <name>
+                <surname>Bick</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Mirzaa</surname>
+                <given-names>GM</given-names>
+              </name>
+              <name>
+                <surname>Pagon</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Wallace</surname>
+                <given-names>SE</given-names>
+              </name>
+              <name>
+                <surname>Amemiya</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <source>GeneReviews<sup>&#x000ae;</sup> [Internet]</source>
+            <publisher-name>University of Washington, Seattle</publisher-name>
+            <publisher-loc>Seattle (WA)</publisher-loc>
+            <year>2018</year>
+            <month>1</month>
+            <day>25</day>
+            <pub-id pub-id-type="pmid">29369573</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Smith</surname>
+                <given-names>TJ</given-names>
+              </name>
+              <name>
+                <surname>Heged&#x000fc;s</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Graves' Disease.</article-title>
+            <source>N Engl J Med</source>
+            <year>2016</year>
+            <month>Oct</month>
+            <day>20</day>
+            <volume>375</volume>
+            <issue>16</issue>
+            <fpage>1552</fpage>
+            <page-range>1552-1565</page-range>
+            <pub-id pub-id-type="pmid">27797318</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wassner</surname>
+                <given-names>AJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Congenital Hypothyroidism.</article-title>
+            <source>Clin Perinatol</source>
+            <year>2018</year>
+            <month>Mar</month>
+            <volume>45</volume>
+            <issue>1</issue>
+            <fpage>1</fpage>
+            <page-range>1-18</page-range>
+            <pub-id pub-id-type="pmid">29405999</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Delli Paoli</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Di Chiano</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Paoli</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Lenzi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Lombardo</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Pallotti</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Androgen insensitivity syndrome: a review.</article-title>
+            <source>J Endocrinol Invest</source>
+            <year>2023</year>
+            <month>Nov</month>
+            <volume>46</volume>
+            <issue>11</issue>
+            <fpage>2237</fpage>
+            <page-range>2237-2245</page-range>
+            <pub-id pub-id-type="pmid">37300628</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r23">
+          <label>23</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Szymczuk</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Florenzano</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>de Castro</surname>
+                <given-names>LF</given-names>
+              </name>
+              <name>
+                <surname>Collins</surname>
+                <given-names>MT</given-names>
+              </name>
+              <name>
+                <surname>Boyce</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Fibrous Dysplasia&#x000a0;/ McCune-Albright Syndrome</chapter-title>
+            <person-group person-group-type="editor">
+              <name>
+                <surname>Adam</surname>
+                <given-names>MP</given-names>
+              </name>
+              <name>
+                <surname>Bick</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Mirzaa</surname>
+                <given-names>GM</given-names>
+              </name>
+              <name>
+                <surname>Pagon</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Wallace</surname>
+                <given-names>SE</given-names>
+              </name>
+              <name>
+                <surname>Amemiya</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <source>GeneReviews<sup>&#x000ae;</sup> [Internet]</source>
+            <publisher-name>University of Washington, Seattle</publisher-name>
+            <publisher-loc>Seattle (WA)</publisher-loc>
+            <year>2015</year>
+            <month>2</month>
+            <day>26</day>
+            <pub-id pub-id-type="pmid">25719192</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Arnold</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Koenig</surname>
+                <given-names>W</given-names>
+              </name>
+            </person-group>
+            <article-title>Familial Hypercholesterolemia: Pitfalls and Challenges in Diagnosis and Treatment.</article-title>
+            <source>Rev Cardiovasc Med</source>
+            <year>2023</year>
+            <month>Aug</month>
+            <volume>24</volume>
+            <issue>8</issue>
+            <fpage>236</fpage>
+            <pub-id pub-id-type="pmid">39076699</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kaminski</surname>
+                <given-names>HJ</given-names>
+              </name>
+              <name>
+                <surname>Sikorski</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Coronel</surname>
+                <given-names>SI</given-names>
+              </name>
+              <name>
+                <surname>Kusner</surname>
+                <given-names>LL</given-names>
+              </name>
+            </person-group>
+            <article-title>Myasthenia gravis: the future is here.</article-title>
+            <source>J Clin Invest</source>
+            <year>2024</year>
+            <month>Jun</month>
+            <day>17</day>
+            <volume>134</volume>
+            <issue>12</issue>
+            <pub-id pub-id-type="pmid">39105625</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dragic</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Litwin</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Allaway</surname>
+                <given-names>GP</given-names>
+              </name>
+              <name>
+                <surname>Martin</surname>
+                <given-names>SR</given-names>
+              </name>
+              <name>
+                <surname>Huang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Nagashima</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Cayanan</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Maddon</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name>
+                <surname>Koup</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Moore</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Paxton</surname>
+                <given-names>WA</given-names>
+              </name>
+            </person-group>
+            <article-title>HIV-1 entry into CD4+ cells is mediated by the chemokine receptor CC-CKR-5.</article-title>
+            <source>Nature</source>
+            <year>1996</year>
+            <month>Jun</month>
+            <day>20</day>
+            <volume>381</volume>
+            <issue>6584</issue>
+            <fpage>667</fpage>
+            <page-range>667-73</page-range>
+            <pub-id pub-id-type="pmid">8649512</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kim</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name>
+                <surname>Giesler</surname>
+                <given-names>KE</given-names>
+              </name>
+              <name>
+                <surname>Tahirovic</surname>
+                <given-names>YA</given-names>
+              </name>
+              <name>
+                <surname>Truax</surname>
+                <given-names>VM</given-names>
+              </name>
+              <name>
+                <surname>Liotta</surname>
+                <given-names>DC</given-names>
+              </name>
+              <name>
+                <surname>Wilson</surname>
+                <given-names>LJ</given-names>
+              </name>
+            </person-group>
+            <article-title>CCR5 receptor antagonists in preclinical to phase II clinical development for treatment of HIV.</article-title>
+            <source>Expert Opin Investig Drugs</source>
+            <year>2016</year>
+            <month>Dec</month>
+            <volume>25</volume>
+            <issue>12</issue>
+            <fpage>1377</fpage>
+            <page-range>1377-1392</page-range>
+            <pub-id pub-id-type="pmid">27791451</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Stencel-Baerenwald</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>Reiss</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Reiter</surname>
+                <given-names>DM</given-names>
+              </name>
+              <name>
+                <surname>Stehle</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Dermody</surname>
+                <given-names>TS</given-names>
+              </name>
+            </person-group>
+            <article-title>The sweet spot: defining virus-sialic acid interactions.</article-title>
+            <source>Nat Rev Microbiol</source>
+            <year>2014</year>
+            <month>Nov</month>
+            <volume>12</volume>
+            <issue>11</issue>
+            <fpage>739</fpage>
+            <page-range>739-49</page-range>
+            <pub-id pub-id-type="pmid">25263223</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19112.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Carvajal</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Garc&#x000ed;a-Castillo</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Cuellar</surname>
+                <given-names>SV</given-names>
+              </name>
+              <name>
+                <surname>Campillay-V&#x000e9;liz</surname>
+                <given-names>CP</given-names>
+              </name>
+              <name>
+                <surname>Salazar-Ardiles</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Avellaneda</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Mu&#x000f1;oz</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Retamal-D&#x000ed;az</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Bueno</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Gonz&#x000e1;lez</surname>
+                <given-names>PA</given-names>
+              </name>
+              <name>
+                <surname>Kalergis</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Lay</surname>
+                <given-names>MK</given-names>
+              </name>
+            </person-group>
+            <article-title>New insights into the pathogenesis of SARS-CoV-2 during and after the COVID-19 pandemic.</article-title>
+            <source>Front Immunol</source>
+            <year>2024</year>
+            <volume>15</volume>
+            <fpage>1363572</fpage>
+            <pub-id pub-id-type="pmid">38911850</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

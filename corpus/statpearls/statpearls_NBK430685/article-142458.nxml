@@ -1,0 +1,2150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-142458" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Mass Spectrometer</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Garg</surname>
+            <given-names>Eshita</given-names>
+          </name>
+          <aff>Wright State University Boonshoft School of Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Zubair</surname>
+            <given-names>Muhammad</given-names>
+          </name>
+          <aff>Pakistan Kidney &#x00026; Liver Institute and Research Centre - PKLI</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Eshita Garg declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Muhammad Zubair declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>22</day>
+          <month>11</month>
+          <year>2024</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-142458.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Mass spectrometry (MS) is a highly effective qualitative and quantitative analytical technique used to identify and quantify a wide range of clinically relevant analytes.<xref ref-type="bibr" rid="article-142458.r1">[1]</xref>&#x000a0;Mass spectrometers expand analytical capabilities to various clinical applications when coupled with gas or liquid chromatography.<xref ref-type="bibr" rid="article-142458.r2">[2]</xref>&#x000a0;In addition, mass spectrometry is an essential analytical tool in proteomics due to its ability to identify and quantify proteins.<xref ref-type="bibr" rid="article-142458.r3">[3]</xref></p>
+        <p>Most mass spectrometry data are presented in units of the mass-to-charge ratio&#x000a0;(m/z), where m is the molecular weight of the ion (in daltons), and z is the number of charges present on the measured molecule.<xref ref-type="bibr" rid="article-142458.r4">[4]</xref> For small molecules (&#x0003c;1000 Da), there is typically only a single charge; therefore, the m/z value is the same as the mass of the molecular ion.<xref ref-type="bibr" rid="article-142458.r5">[5]</xref> However, when larger molecules such as proteins or peptides are measured, they typically carry multiple ionic charges, and, therefore, the z-value is an integer greater than 1. The m/z value is a fraction of the ion's mass in these cases.<xref ref-type="bibr" rid="article-142458.r6">[6]</xref></p>
+        <p>Sample preparation is crucial for successful mass spectrometry, particularly when analyzing complex matrices commonly encountered in clinical chemistry. This process typically involves one or more of the following steps&#x02014;protein precipitation followed by centrifugation or filtration, solid-phase extraction, liquid-liquid extraction, affinity enrichment, or derivatization.<xref ref-type="bibr" rid="article-142458.r7">[7]</xref> Derivatization is the process of chemically modifying the target compounds to make them more suitable for analysis by mass spectrometry.<xref ref-type="bibr" rid="article-142458.r8">[8]</xref>&#x000a0;This process typically involves the addition of some well-defined functional groups.<xref ref-type="bibr" rid="article-142458.r9">[9]</xref> The goals of derivatization vary depending on the application but typically include increased volatility, greater thermal stability, modified chromatographic properties, greater ionization efficiency, favorable fragmentation properties, or a combination of these.<xref ref-type="bibr" rid="article-142458.r10">[10]</xref></p>
+        <p>Mass spectrometers convert molecules into ions, which are then manipulated using electric and magnetic fields.<xref ref-type="bibr" rid="article-142458.r11">[11]</xref> This&#x000a0;process requires 3 main components&#x000a0;as follows:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Ion source:&#x000a0;A sample is placed into the mass spectrometer, which is then ionized by the apparatus.<xref ref-type="bibr" rid="article-142458.r12">[12]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Mass analyzer: Ions are sorted in the device based on their mass-to-charge ratio (m/z).&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Detector: Ions are measured and displayed on the mass spectrum chart.&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>Atoms and molecules must first be ionized before being accelerated through the mass spectrometer and detected.<xref ref-type="bibr" rid="article-142458.r13">[13]</xref> The sample molecule introduced into the mass spectrometer first gets a positive charge from an ionization source. This positive charge is achieved by removing a valence electron. Alternatively, protons can also be added to create a positive electrical charge. Once ionized, the molecule breaks apart into smaller fragments, then separated according to their mass-to-charge ratio in the mass analyzer.<xref ref-type="bibr" rid="article-142458.r1">[1]</xref> Of note, only the cationic fragments are separated. The neutral species in the mass spectrometer go undetected as they are either absorbed by the apparatus or removed by a vacuum. After the ions are separated, the detector quantifies the ions.<xref ref-type="bibr" rid="article-142458.r11">[11]</xref>&#x000a0;</p>
+        <p>A chart&#x000a0;is generated to analyze the mass spectrometer's results, with the mass-to-charge ratio (m/z) on the x-axis and the relative intensity on the y-axis.&#x000a0;<xref ref-type="bibr" rid="article-142458.r12">[12]</xref> For a given sample, the most abundant ion in the sample molecule is known as the base peak.<xref ref-type="bibr" rid="article-142458.r14">[14]</xref> This ion is set to 100% on the y-axis for its relative intensity, and all the remaining ion peaks are generated relative to this value. The molecular ion peak is known as the parent peak because it corresponds to the molecular weight of the sample.<xref ref-type="bibr" rid="article-142458.r15">[15]</xref> For example, if the specimen in the mass spectrometer is hexane, the m/z&#x000a0;is 86, as the molecular weight of hexane is 86 g/mol. In addition, if there is a peak at m/z=87, this is classified as the m+1 peak because all atoms have various isotopes.<xref ref-type="bibr" rid="article-142458.r11">[11]</xref></p>
+      </sec>
+      <sec id="article-142458.s2" sec-type="Specimen Requirements and Procedure">
+        <title>Specimen Requirements and Procedure</title>
+        <p>Before using the mass spectrometer, a sample must be prepared for ionization, typically by converting it into either a liquid or gaseous phase using chromatography techniques. The 2 types of chromatography procedures that are used to prepare the sample are gas chromatography and liquid chromatography.<xref ref-type="bibr" rid="article-142458.r16">[16]</xref></p>
+        <p>
+<bold>Gas Chromatography</bold>
+</p>
+        <p>Gas chromatography separates components of a mixture of gases and filters the passage of these molecules based on physical characteristics such as shape, size, molecular weight, and boiling point.&#x000a0;The&#x000a0;sample is diluted and vaporized in the chromatograph, where it is separated. After separation, the gases enter the mass spectrometer for analysis. Notably, a gas chromatography sample must be volatile, meaning it must be capable of entering the gas phase without breaking down in the mass spectrometer.<xref ref-type="bibr" rid="article-142458.r17">[17]</xref>&#x000a0;</p>
+        <p>
+<bold>Liquid Chromatography</bold>
+</p>
+        <p>Liquid chromatography separates samples based on interactions with the mobile and stationary phases, often depending on polarity. If a component's polarity differs from that of the mobile phase, it migrates more quickly through the chromatography column. The sample&#x000a0;is separated into bands of individual components that can be further analyzed in mass spectrometry.<xref ref-type="bibr" rid="article-142458.r18">[18]</xref>&#x000a0;Other techniques used for sample preparation include electrospray ionization, which uses high voltages to separate components, and fast atom bombardment, which uses a beam to generate ions from a solid phase.<xref ref-type="bibr" rid="article-142458.r19">[19]</xref><xref ref-type="bibr" rid="article-142458.r20">[20]</xref>&#x000a0;The types of samples that can be analyzed within mass spectrometry include proteins, nucleic acids, lipids, and fatty acids.<xref ref-type="bibr" rid="article-142458.r21">[21]</xref></p>
+      </sec>
+      <sec id="article-142458.s3" sec-type="Testing Procedures">
+        <title>Testing Procedures</title>
+        <p>In&#x000a0;mass spectrometry, several key components are involved in analyzing a sample.</p>
+        <p>
+<bold>Ionization</bold>
+</p>
+        <p>During ionization, atoms are ionized by removing an electron,&#x000a0;producing a positive ion known as a cation. Mass spectrometers only analyze positive ions. Cations are formed regardless of the present state of the atoms. For example, this is true even if there is initially a negative ion in the sample, such as fluoride, or an element that does not form ions, such as neon.<xref ref-type="bibr" rid="article-142458.r22">[22]</xref>&#x000a0;Inside the mass spectrometer, an electrical field is generated that emits electrons. These electrons return to the electron trap, forming collisions to knock off the electrons to create cations.<xref ref-type="bibr" rid="article-142458.r23">[23]</xref></p>
+        <p>The most common form of ionization used in gas chromatography/mass spectrometry (GC/MS) is electron ionization. This method requires a source of electrons in the form of a filament to which an electric potential is applied, typically at 70 eV.<xref ref-type="bibr" rid="article-142458.r24">[24]</xref> The molecules in the source are bombarded with high-energy electrons, resulting in the formation of charged molecular ions and fragments. Molecules break down into characteristic fragments according to their molecular structure.<xref ref-type="bibr" rid="article-142458.r25">[25]</xref>&#x000a0;The resulting ions and their relative proportions are reproducible, enabling the qualitative identification of compounds.<xref ref-type="bibr" rid="article-142458.r26">[26]</xref></p>
+        <p>Unlike electron ionization in GC/MS, most liquid chromatography/mass spectrometry (LC/MS) ionization techniques are conducted at atmospheric pressure. Electrospray ionization and atmospheric pressure chemical ionization are soft ionization techniques that leave the molecular ion largely intact in the source.<xref ref-type="bibr" rid="article-142458.r27">[27]</xref> Many LC/MS techniques use technologies after the source, in the mass analyzer, to fragment molecules and generate the daughter or fragment ions used in identification.<xref ref-type="bibr" rid="article-142458.r28">[28]</xref> However, ionization techniques in LC/MS produce fragments and, therefore, mass spectra that are somewhat less reproducible between instruments compared to the electron ionization method used in gas GC/MS.<xref ref-type="bibr" rid="article-142458.r29">[29]</xref></p>
+        <p>Electrospray ionization uses a combination of voltage, heat, and air to produce successively smaller droplets from the liquid, eluting off a chromatographic column.<xref ref-type="bibr" rid="article-142458.r30">[30]</xref> As the solvent evaporates, the droplets become more concentrated, significantly increasing charge per unit volume. Ions accumulated at the droplet surface desorb from the liquid into the gas phase, allowing these gas phase ions to enter the mass spectrometer for analysis.<xref ref-type="bibr" rid="article-142458.r31">[31]</xref> In addition, complete evaporation of the solvent liberates large ions, such as proteins, producing the necessary gas phase ions for analysis.<xref ref-type="bibr" rid="article-142458.r32">[32]</xref>&#x000a0;Atmospheric pressure chemical ionization produces ions using a combination of heat to completely vaporize the sample and plasma produced by an electrical discharge, commonly referred to as a corona discharge.<xref ref-type="bibr" rid="article-142458.r33">[33]</xref> The corona discharge ionizes the evaporated solvent, and through physical interaction with gaseous sample components, including the analytes of interest, positive or negative ions are formed.<xref ref-type="bibr" rid="article-142458.r34">[34]</xref></p>
+        <p>
+<bold>Acceleration</bold>
+</p>
+        <p>All ions undergo acceleration to achieve the same amount of kinetic energy. Cations pass through slits in the mass spectrometer apparatus and accelerate into the ion beam, allowing the mass analyzer to start separating the ions based on the mass-to-charge ratio.<xref ref-type="bibr" rid="article-142458.r35">[35]</xref></p>
+        <p>
+<bold>Deflection</bold>
+</p>
+        <p>A magnetic field deflects the cations based on their mass and charge. Mass and deflection are inversely proportional, whereas charge and deflection are directly proportional. Therefore, ions with a lower mass are deflected more, and ions with a higher positive charge experience greater deflection.<xref ref-type="bibr" rid="article-142458.r36">[36]</xref> This process allows the apparatus to determine the mass-to-charge ratio. The mass-to-charge ratio is denoted by m/z. For example, if an ion has a mass of 120 and a charge of 3+, the m/z ratio&#x000a0;is 40. Notably, most ions passing through the mass spectrometer carry a charge of 1+, meaning their mass (or molecular weight) is typically equivalent to the m/z value.<xref ref-type="bibr" rid="article-142458.r37">[37]</xref></p>
+        <p>
+<bold>Detection</bold>
+</p>
+        <p>In mass spectrometry, a detector quantifies the ions and removes certain ones. Positive ions are detected using the apparatus, whereas neutral ions are removed by the vacuum.<xref ref-type="bibr" rid="article-142458.r38">[38]</xref> The most common detection method&#x000a0;is the&#x000a0;electron multiplier.<xref ref-type="bibr" rid="article-142458.r39">[39]</xref>&#x000a0;In this detector, a series of dynodes with increasing potentials are linked. When ions strike the first dynode surface, electrons are emitted. These electrons are attracted to the next dynode, where more secondary electrons are emitted due to the higher potential of subsequent dynodes. A cascade of electrons is formed by the end of the chain of dynodes, resulting in overall signal amplification on the order of 1 million or greater.<xref ref-type="bibr" rid="article-142458.r40">[40]</xref></p>
+        <p>
+<bold>Vacuum</bold>
+</p>
+        <p>Mass spectrometers operate at low pressure, which creates a vacuum effect as there is less probability that ions collide with one another in the apparatus. This environment facilitates the proper separation of cations from the neutral ions, as the vacuum removes the neutral molecules.<xref ref-type="bibr" rid="article-142458.r41">[41]</xref></p>
+      </sec>
+      <sec id="article-142458.s4" sec-type="Interfering Factors">
+        <title>Interfering Factors</title>
+        <p>The primary sources of interference in mass spectrometry typically occur during sample preparation and the measurement of separated ions within the spectrometer.&#x000a0;Interference can occur due to inaccurate&#x000a0;sample handling when acquiring from patients or improper quality control.<xref ref-type="bibr" rid="article-142458.r42">[42]</xref> Interference&#x000a0;alters&#x000a0;the concentration of the molecules, which can result in the inaccuracy of the mass spectrometer graph due to potential contaminants or other ions appearing.<xref ref-type="bibr" rid="article-142458.r43">[43]</xref></p>
+      </sec>
+      <sec id="article-142458.s5" sec-type="Results, Reporting, and Critical Findings&#x0000d;&#x0000a;">
+        <title>Results, Reporting, and Critical Findings
+</title>
+        <p>Mass spectrometry&#x000a0;produces results for the mass-to-charge ratio of ions in a compound.<xref ref-type="bibr" rid="article-142458.r2">[2]</xref> The results are reproduced on a graph known as a mass spectrum, which plots the relative abundance of ions versus the mass-to-charge ratio.<xref ref-type="bibr" rid="article-142458.r3">[3]</xref> The spectra showcase elements and isotopes to configure a given compound's chemical identity and structure.<xref ref-type="bibr" rid="article-142458.r14">[14]</xref>&#x000a0;The graph should be&#x000a0;analyzed to deduce the structural quality of the compound based on the mass spectrometer. The graph&#x000a0;consists of 3 main components and an additional component depending on the isotopes present in the sample, which are relevant for determining the structure.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Molecular ion peak (or parent peak): This is the second-highest peak that corresponds directly to the compound in question. The m/z ratio directly correlates to the molecular weight. For example, if hexane is the compound, the m/z ratio is 86, reflecting its molecular weight of 86 g/mol.<xref ref-type="bibr" rid="article-142458.r44">[44]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Base peak: This is the ion with the highest relative abundance in the compound out of all the ions in the given sample. The relative intensity of this ion is set to 100%, and all other ion peaks are set relative to this value.<xref ref-type="bibr" rid="article-142458.r45">[45]</xref>&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>M+1 peak: This smaller peak corresponds to an isotope in the sample. For example, if the molecular weight of the specimen is 96 g/mol, the m/z ratio is 96. Thus, the m+1 peak is at an m/z of 97. Although it may seem confusing for an ion to have a mass greater than the compound itself, this occurs due to isotopes of elements, such as carbon and hydrogen, contributing to the formation of the m+1 peak.<xref ref-type="bibr" rid="article-142458.r46">[46]</xref>&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>M+2 peak: This is another small peak similar to the m+1 peak. Certain elements, such as chlorine and oxygen, have multiple isotopes, which is why these elements in a given compound can result in an m+2 peak.<xref ref-type="bibr" rid="article-142458.r46">[46]</xref></p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-142458.s6" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Mass spectrometry is applicable across diverse fields, including forensic toxicology, metabolomics, proteomics, pharma/biopharma, and clinical research. Specific applications of mass spectrometry include drug testing and discovery, food contamination detection, pesticide residue analysis, isotope ratio determination, protein identification, and carbon dating.<xref ref-type="bibr" rid="article-142458.r47">[47]</xref>&#x000a0;</p>
+        <p>
+<bold>Applications of Mass Spectrometry in the Diagnosis of Disease</bold>
+</p>
+        <p>Mass spectrometers are primarily used in clinical settings to diagnose diseases due to biomarkers. Biomarkers are used in diagnoses, prognoses, and treatment.<xref ref-type="bibr" rid="article-142458.r48">[48]</xref> For example, the enzyme amylase can be used as a biomarker for pancreatitis in disease diagnosis. Similarly, natriuretic peptides are monitored in patients with cardiovascular diseases to predict patient outcomes. Mass spectrometry can be used to examine the metabolic profile of pharmacologic agents to monitor the efficacy of certain therapies.<xref ref-type="bibr" rid="article-142458.r49">[49]</xref></p>
+        <p>Mass spectrometers can measure biomarkers, ranging in size from small molecules to large macromolecules.<xref ref-type="bibr" rid="article-142458.r50">[50]</xref> The principle of mass spectrometers also applies to human body samples such as plasma and serum blood, urine, saliva, sweat, and skin secretions.<xref ref-type="bibr" rid="article-142458.r2">[2]</xref> Using liquid or gas chromatography allows for biomarkers to be separated and analyzed in smaller pieces, which optimizes the sensitivity and specificity of the spectrometer. Thus, mass spectrometers thereby improve clinical decision-making.<xref ref-type="bibr" rid="article-142458.r6">[6]</xref>&#x000a0;Mass spectrometers analyze a sample and&#x000a0;its biomarker profile to diagnose disease. Of note, 2 critical biomarkers are proteins and lipids.<xref ref-type="bibr" rid="article-142458.r13">[13]</xref> In earlier examples, it was stated that enzymes, which are proteins, can be used to detect diseases. Similarly, a lipid panel has often been used to diagnose diseases such as metabolic syndrome.<xref ref-type="bibr" rid="article-142458.r1">[1]</xref></p>
+        <p>If the biomarker is a protein, the principles of proteomics can be applied to mass spectrometry.<xref ref-type="bibr" rid="article-142458.r13">[13]</xref>&#x000a0;Mass spectrometry has been used to quantify differences between 2 biological states of proteomes, a set of proteins produced in a specific organism. A protein sample is placed into the spectrometer, and the mass of the individual components of the protein is tagged based on the isotopes generated through spectral analyses.<xref ref-type="bibr" rid="article-142458.r2">[2]</xref> The mass spectrometer is useful in this setting because it generates spectral data for proteomes, allowing the human body to analyze proteins in urine and serum.<xref ref-type="bibr" rid="article-142458.r3">[3]</xref></p>
+        <p>If the biomarker is a lipid, the principles of lipidomics can be applied to generate a clinical profile for&#x000a0;the patient using mass spectrometry.<xref ref-type="bibr" rid="article-142458.r21">[21]</xref> Lipidomics consists of the lipid profile and set of reactions generated within biology. Lipids are&#x000a0;used for energy storage and assist in the endocrine regulation of the body system.<xref ref-type="bibr" rid="article-142458.r51">[51]</xref> Mass spectrometry has been used to characterize masses of important ingredients in lipid oxidation reactions, helping quantify the various molecules&#x000a0;of lipid reactions and, thus, their biological properties within the human body.<xref ref-type="bibr" rid="article-142458.r52">[52]</xref></p>
+        <p>
+<bold>Applications of Mass Spectrometry in COVID-19</bold>
+</p>
+        <p>During the peak of the coronavirus pandemic, many countries were hindered by inadequate testing due to supply chain shortages and inconsistencies in mass-produced testing kits. Clinical laboratories&#x000a0;thus created a method to use mass spectrometry. Nasal swab samples of patients were analyzed using mass spectrometry, and the pattern generated by the spectrum was used to categorize patients if they were COVID-19 positive or negative.<xref ref-type="bibr" rid="article-142458.r53">[53]</xref></p>
+        <p>
+<bold>Applications of Mass Spectrometry in Pharmaceuticals</bold>
+</p>
+        <p>Mass spectrometry plays a crucial role in the analysis of pharmaceutical drugs. The ionization process within the apparatus helps differentiate the molecules that create the drugs. This&#x000a0;capability is essential for conducting faster and more accurate screenings during clinical analysis of patient samples, leading to improved drug monitoring and safety.<xref ref-type="bibr" rid="article-142458.r54">[54]</xref></p>
+        <p>
+<bold>Applications of Mass Spectrometry in the Analysis of Glycans</bold>
+</p>
+        <p>Oligosaccharides are molecules formed by associating several monosaccharides linked through glycosidic bonds. Determining the complete structure of oligosaccharides is more complex compared to that of proteins or oligonucleotides. This process involves the determination of additional components as a consequence of the isomeric nature of monosaccharides and their capacity to form linear or branched oligosaccharides.<xref ref-type="bibr" rid="article-142458.r55">[55]</xref> Knowing the structure of an oligosaccharide requires not only the determination of its monosaccharide sequence and its branching pattern but also the isomer position and the anomeric configuration of each of its glycosidic bonds.<xref ref-type="bibr" rid="article-142458.r56">[56]</xref> Advances in glycobiology involve a comprehensive study of the structure, biosynthesis, and biology of sugars and saccharides. Mass spectrometry is emerging as an enabling technology in the field of glycomics and glycobiology.<xref ref-type="bibr" rid="article-142458.r57">[57]</xref></p>
+        <p>
+<bold>Applications of Mass Spectrometry in the Analysis of Oligonucleotides</bold>
+</p>
+        <p>Oligonucleotides, DNA or RNA, are linear polymers of nucleotides. These&#x000a0;nucleotides are composed of a nitrogenous base, a ribose sugar, and a phosphate group.<xref ref-type="bibr" rid="article-142458.r58">[58]</xref> Oligonucleotides may undergo several natural covalent modifications, which are commonly present in transfer&#x000a0;RNA and ribosomal&#x000a0;RNA, or unnatural ones resulting from reactions with exogenous compounds.<xref ref-type="bibr" rid="article-142458.r59">[59]</xref> Mass spectrometry plays a vital role in identifying these modifications and determining their structure&#x000a0;and position in the oligonucleotide.&#x000a0;This technique allows the determination of the molecular weight of oligonucleotides and, directly or indirectly, their sequences.<xref ref-type="bibr" rid="article-142458.r60">[60]</xref></p>
+        <p>
+<bold>Applications of Mass spectrometry in Environmental Analysis</bold>
+</p>
+        <p>Drinking water testing, pesticide screening and quantitation, soil contamination assessment, monitoring carbon dioxide levels and pollution and conducting trace elemental analysis of heavy metals leaching.<xref ref-type="bibr" rid="article-142458.r61">[61]</xref></p>
+        <p>
+<bold>Applications of Mass Spectrometry in Forensic Analysis</bold>
+</p>
+        <p>In forensic science, mass spectrometry is&#x000a0;used&#x000a0;to analyze trace evidence, such as fibers from carpets and polymers found in paints. Mass spectrometry is also essential in arson investigations to detect fire accelerants, confirm drug abuse, and&#x000a0;identify explosive residues in bombing investigations.<xref ref-type="bibr" rid="article-142458.r62">[62]</xref></p>
+      </sec>
+      <sec id="article-142458.s7" sec-type="Quality Control and Lab Safety&#x0000d;&#x0000a;">
+        <title>Quality Control and Lab Safety
+</title>
+        <p>When working in the laboratory, it is crucial to exercise caution while preparing samples before introducing the compound into the mass spectrometer for analysis. For example, using the proper measuring tools for accuracy during chromatography is essential.<xref ref-type="bibr" rid="article-142458.r63">[63]</xref> If quality control is not used, resultant peaks may form in the mass spectrum, which does not correspond to ions within the sample.<xref ref-type="bibr" rid="article-142458.r64">[64]</xref>&#x000a0;</p>
+        <p>Operating the mass spectrometer requires safety to be taken into consideration.&#x000a0;The mass spectrometer apparatus can have high temperatures, resulting in burns. Thus, it is important not to touch any part of the apparatus while the spectral data is generated. In addition, ionization occurs within the device, so it is essential to be cautious when running a mass spectrometer. Lastly, the samples placed in the spectrometer could be hazardous upon exposure to the skin or inhalation.<xref ref-type="bibr" rid="article-142458.r65">[65]</xref> Thus, wearing the appropriate personal protective equipment, such as safety glasses, long pants, closed-toed shoes, a long lab coat, and gloves, is highly recommended.<xref ref-type="bibr" rid="article-142458.r66">[66]</xref></p>
+      </sec>
+      <sec id="article-142458.s8" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>Interprofessional communication is essential when using mass spectrometers. For example, if a patient presents to the emergency department after ingesting an unknown compound, lab technicians and pathologists can analyze the patient's sample to identify the components present in the substance. This collaboration enables laboratory professionals to support healthcare workers, including nurses and physicians, in hospital or clinic settings.</p>
+        <p>In the emergency room,&#x000a0;clinicians play a crucial role in fostering this interprofessional environment by sharing the patient's medical history and physical examination findings. This information can help narrow the possible compounds in the patient's sample, facilitating a more accurate and timely diagnosis and treatment plan.</p>
+      </sec>
+      <sec id="article-142458.s9">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=142458&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=142458">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/142458/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=142458">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-142458.s10">
+        <title>References</title>
+        <ref id="article-142458.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kir&#x000e1;ly</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Dalmadin&#x000e9; Kiss</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>V&#x000e9;key</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Antal</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Lud&#x000e1;nyi</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>[Mass spectrometry: past and present].</article-title>
+            <source>Acta Pharm Hung</source>
+            <year>2016</year>
+            <volume>86</volume>
+            <issue>1</issue>
+            <fpage>3</fpage>
+            <page-range>3-11</page-range>
+            <pub-id pub-id-type="pmid">27295872</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Matthiesen</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Bunkenborg</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Introduction to mass spectrometry-based proteomics.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2013</year>
+            <volume>1007</volume>
+            <fpage>1</fpage>
+            <page-range>1-45</page-range>
+            <pub-id pub-id-type="pmid">23666720</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Annan</surname>
+                <given-names>RS</given-names>
+              </name>
+              <name>
+                <surname>Carr</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Neubert</surname>
+                <given-names>TA</given-names>
+              </name>
+            </person-group>
+            <article-title>Overview of peptide and protein analysis by mass spectrometry.</article-title>
+            <source>Curr Protoc Protein Sci</source>
+            <year>2010</year>
+            <month>Nov</month>
+            <volume>Chapter 16</volume>
+            <fpage>Unit16.1</fpage>
+            <pub-id pub-id-type="pmid">21104985</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Urban</surname>
+                <given-names>PL</given-names>
+              </name>
+            </person-group>
+            <article-title>Quantitative mass spectrometry: an overview.</article-title>
+            <source>Philos Trans A Math Phys Eng Sci</source>
+            <year>2016</year>
+            <month>Oct</month>
+            <day>28</day>
+            <volume>374</volume>
+            <issue>2079</issue>
+            <pub-id pub-id-type="pmid">27644965</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sugai</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Mass and Charge Measurements on Heavy Ions.</article-title>
+            <source>Mass Spectrom (Tokyo)</source>
+            <year>2017</year>
+            <volume>6</volume>
+            <issue>3</issue>
+            <fpage>S0074</fpage>
+            <pub-id pub-id-type="pmid">29302406</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Domon</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Aebersold</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Mass spectrometry and protein analysis.</article-title>
+            <source>Science</source>
+            <year>2006</year>
+            <month>Apr</month>
+            <day>14</day>
+            <volume>312</volume>
+            <issue>5771</issue>
+            <fpage>212</fpage>
+            <page-range>212-7</page-range>
+            <pub-id pub-id-type="pmid">16614208</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wilschefski</surname>
+                <given-names>SC</given-names>
+              </name>
+              <name>
+                <surname>Baxter</surname>
+                <given-names>MR</given-names>
+              </name>
+            </person-group>
+            <article-title>Inductively Coupled Plasma Mass Spectrometry: Introduction to Analytical Aspects.</article-title>
+            <source>Clin Biochem Rev</source>
+            <year>2019</year>
+            <month>Aug</month>
+            <volume>40</volume>
+            <issue>3</issue>
+            <fpage>115</fpage>
+            <page-range>115-133</page-range>
+            <pub-id pub-id-type="pmid">31530963</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Finoulst</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Pinkse</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Van Dongen</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Verhaert</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Sample preparation techniques for the untargeted LC-MS-based discovery of peptides in complex biological matrices.</article-title>
+            <source>J Biomed Biotechnol</source>
+            <year>2011</year>
+            <volume>2011</volume>
+            <fpage>245291</fpage>
+            <pub-id pub-id-type="pmid">22203783</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Guerrasio</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Haberhauer-Troyer</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Steiger</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Sauer</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Mattanovich</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Koellensperger</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Hann</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Measurement uncertainty of isotopologue fractions in fluxomics determined via mass spectrometry.</article-title>
+            <source>Anal Bioanal Chem</source>
+            <year>2013</year>
+            <month>Jun</month>
+            <volume>405</volume>
+            <issue>15</issue>
+            <fpage>5133</fpage>
+            <page-range>5133-46</page-range>
+            <pub-id pub-id-type="pmid">23559335</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vilbaste</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Tammekivi</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Leito</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <article-title>Uncertainty contribution of derivatization in gas chromatography/mass spectrometric analysis.</article-title>
+            <source>Rapid Commun Mass Spectrom</source>
+            <year>2020</year>
+            <month>Aug</month>
+            <day>30</day>
+            <volume>34</volume>
+            <issue>16</issue>
+            <fpage>e8704</fpage>
+            <pub-id pub-id-type="pmid">31845399</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Haag</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>Mass Analyzers and Mass Spectrometers.</article-title>
+            <source>Adv Exp Med Biol</source>
+            <year>2016</year>
+            <volume>919</volume>
+            <fpage>157</fpage>
+            <page-range>157-169</page-range>
+            <pub-id pub-id-type="pmid">27975216</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Olshina</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Sharon</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Mass Spectrometry: A Technique of Many Faces.</article-title>
+            <source>Q Rev Biophys</source>
+            <year>2016</year>
+            <month>Jan</month>
+            <volume>49</volume>
+            <pub-id pub-id-type="pmid">28100928</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bantscheff</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Schirle</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Sweetman</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Rick</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Kuster</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Quantitative mass spectrometry in proteomics: a critical review.</article-title>
+            <source>Anal Bioanal Chem</source>
+            <year>2007</year>
+            <month>Oct</month>
+            <volume>389</volume>
+            <issue>4</issue>
+            <fpage>1017</fpage>
+            <page-range>1017-31</page-range>
+            <pub-id pub-id-type="pmid">17668192</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Alexandrov</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Chernyavsky</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Becker</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>von Eggeling</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Nikolenko</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Analysis and interpretation of imaging mass spectrometry data by clustering mass-to-charge images according to their spatial similarity.</article-title>
+            <source>Anal Chem</source>
+            <year>2013</year>
+            <month>Dec</month>
+            <day>03</day>
+            <volume>85</volume>
+            <issue>23</issue>
+            <fpage>11189</fpage>
+            <page-range>11189-95</page-range>
+            <pub-id pub-id-type="pmid">24180335</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Buchberger</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name>
+                <surname>DeLaney</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Johnson</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Mass Spectrometry Imaging: A Review of Emerging Advancements and Future Insights.</article-title>
+            <source>Anal Chem</source>
+            <year>2018</year>
+            <month>Jan</month>
+            <day>02</day>
+            <volume>90</volume>
+            <issue>1</issue>
+            <fpage>240</fpage>
+            <page-range>240-265</page-range>
+            <pub-id pub-id-type="pmid">29155564</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bourgogne</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Wagner</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>[Sample preparation and bioanalysis in mass spectrometry].</article-title>
+            <source>Ann Biol Clin (Paris)</source>
+            <year>2015</year>
+            <season>Jan-Feb</season>
+            <volume>73</volume>
+            <issue>1</issue>
+            <fpage>11</fpage>
+            <page-range>11-23</page-range>
+            <pub-id pub-id-type="pmid">25582719</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fothergill</surname>
+                <given-names>WT</given-names>
+              </name>
+            </person-group>
+            <article-title>Gas chromatography. Technique.</article-title>
+            <source>Proc R Soc Med</source>
+            <year>1968</year>
+            <month>May</month>
+            <volume>61</volume>
+            <issue>5</issue>
+            <fpage>525</fpage>
+            <page-range>525-8</page-range>
+            <pub-id pub-id-type="pmid">5655250</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rappold</surname>
+                <given-names>BA</given-names>
+              </name>
+            </person-group>
+            <article-title>Review of the Use of Liquid Chromatography-Tandem Mass Spectrometry in Clinical Laboratories: Part I-Development.</article-title>
+            <source>Ann Lab Med</source>
+            <year>2022</year>
+            <month>Mar</month>
+            <day>01</day>
+            <volume>42</volume>
+            <issue>2</issue>
+            <fpage>121</fpage>
+            <page-range>121-140</page-range>
+            <pub-id pub-id-type="pmid">34635606</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Meher</surname>
+                <given-names>AK</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>YC</given-names>
+              </name>
+            </person-group>
+            <article-title>Electrospray Modifications for Advancing Mass Spectrometric Analysis.</article-title>
+            <source>Mass Spectrom (Tokyo)</source>
+            <year>2017</year>
+            <volume>6</volume>
+            <issue>Spec Iss</issue>
+            <fpage>S0057</fpage>
+            <pub-id pub-id-type="pmid">28573082</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hemling</surname>
+                <given-names>ME</given-names>
+              </name>
+            </person-group>
+            <article-title>Fast atom bombardment mass spectrometry and its application to the analysis of some peptides and proteins.</article-title>
+            <source>Pharm Res</source>
+            <year>1987</year>
+            <month>Feb</month>
+            <volume>4</volume>
+            <issue>1</issue>
+            <fpage>5</fpage>
+            <page-range>5-15</page-range>
+            <pub-id pub-id-type="pmid">3334162</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Z&#x000fc;llig</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>K&#x000f6;feler</surname>
+                <given-names>HC</given-names>
+              </name>
+            </person-group>
+            <article-title>HIGH RESOLUTION MASS SPECTROMETRY IN LIPIDOMICS.</article-title>
+            <source>Mass Spectrom Rev</source>
+            <year>2021</year>
+            <month>May</month>
+            <volume>40</volume>
+            <issue>3</issue>
+            <fpage>162</fpage>
+            <page-range>162-176</page-range>
+            <pub-id pub-id-type="pmid">32233039</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lin</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Chu</surname>
+                <given-names>ML</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>CH</given-names>
+              </name>
+            </person-group>
+            <article-title>A portable multiple ionization source biological mass spectrometer.</article-title>
+            <source>Analyst</source>
+            <year>2020</year>
+            <month>May</month>
+            <day>18</day>
+            <volume>145</volume>
+            <issue>10</issue>
+            <fpage>3495</fpage>
+            <page-range>3495-3504</page-range>
+            <pub-id pub-id-type="pmid">32186555</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Huang</surname>
+                <given-names>MZ</given-names>
+              </name>
+              <name>
+                <surname>Cheng</surname>
+                <given-names>SC</given-names>
+              </name>
+              <name>
+                <surname>Cho</surname>
+                <given-names>YT</given-names>
+              </name>
+              <name>
+                <surname>Shiea</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Ambient ionization mass spectrometry: a tutorial.</article-title>
+            <source>Anal Chim Acta</source>
+            <year>2011</year>
+            <month>Sep</month>
+            <day>19</day>
+            <volume>702</volume>
+            <issue>1</issue>
+            <fpage>1</fpage>
+            <page-range>1-15</page-range>
+            <pub-id pub-id-type="pmid">21819855</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Maciel</surname>
+                <given-names>EVS</given-names>
+              </name>
+              <name>
+                <surname>Pereira Dos Santos</surname>
+                <given-names>NG</given-names>
+              </name>
+              <name>
+                <surname>Vargas Medina</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Lan&#x000e7;as</surname>
+                <given-names>FM</given-names>
+              </name>
+            </person-group>
+            <article-title>Electron ionization mass spectrometry: Quo vadis?</article-title>
+            <source>Electrophoresis</source>
+            <year>2022</year>
+            <month>Aug</month>
+            <volume>43</volume>
+            <issue>15</issue>
+            <fpage>1587</fpage>
+            <page-range>1587-1600</page-range>
+            <pub-id pub-id-type="pmid">35531989</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Margolin Eren</surname>
+                <given-names>KJ</given-names>
+              </name>
+              <name>
+                <surname>Elkabets</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Amirav</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>A comparison of electron ionization mass spectra obtained at 70 eV, low electron energies, and with cold EI and their NIST library identification probabilities.</article-title>
+            <source>J Mass Spectrom</source>
+            <year>2020</year>
+            <month>Dec</month>
+            <volume>55</volume>
+            <issue>12</issue>
+            <fpage>e4646</fpage>
+            <pub-id pub-id-type="pmid">32996658</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Famiglini</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Palma</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Termopoli</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Cappiello</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>The history of electron ionization in LC-MS, from the early days to modern technologies: A review.</article-title>
+            <source>Anal Chim Acta</source>
+            <year>2021</year>
+            <month>Jul</month>
+            <day>04</day>
+            <volume>1167</volume>
+            <fpage>338350</fpage>
+            <pub-id pub-id-type="pmid">34049632</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Commisso</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Anesi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Dal Santo</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Guzzo</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Performance comparison of electrospray ionization and atmospheric pressure chemical ionization in untargeted and targeted liquid chromatography/mass spectrometry based metabolomics analysis of grapeberry metabolites.</article-title>
+            <source>Rapid Commun Mass Spectrom</source>
+            <year>2017</year>
+            <month>Feb</month>
+            <day>15</day>
+            <volume>31</volume>
+            <issue>3</issue>
+            <fpage>292</fpage>
+            <page-range>292-300</page-range>
+            <pub-id pub-id-type="pmid">27935129</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tian</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Bai</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>An</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>He</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Bi</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Song</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Abliz</surname>
+                <given-names>Z</given-names>
+              </name>
+            </person-group>
+            <article-title>Plasma metabolome analysis by integrated ionization rapid-resolution liquid chromatography/tandem mass spectrometry.</article-title>
+            <source>Rapid Commun Mass Spectrom</source>
+            <year>2013</year>
+            <month>Sep</month>
+            <day>30</day>
+            <volume>27</volume>
+            <issue>18</issue>
+            <fpage>2071</fpage>
+            <page-range>2071-80</page-range>
+            <pub-id pub-id-type="pmid">23943328</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Berisha</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Dold</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Guenther</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Desbenoit</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Takats</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Spengler</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>R&#x000f6;mpp</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>A comprehensive high-resolution mass spectrometry approach for characterization of metabolites by combination of ambient ionization, chromatography and imaging methods.</article-title>
+            <source>Rapid Commun Mass Spectrom</source>
+            <year>2014</year>
+            <month>Aug</month>
+            <day>30</day>
+            <volume>28</volume>
+            <issue>16</issue>
+            <fpage>1779</fpage>
+            <page-range>1779-91</page-range>
+            <pub-id pub-id-type="pmid">25559448</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tycova</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Prikryl</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Kotzianova</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Datinska</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Velebny</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Foret</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Electrospray: More than just an ionization source.</article-title>
+            <source>Electrophoresis</source>
+            <year>2021</year>
+            <month>Jan</month>
+            <volume>42</volume>
+            <issue>1-2</issue>
+            <fpage>103</fpage>
+            <page-range>103-121</page-range>
+            <pub-id pub-id-type="pmid">32841405</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wilm</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Principles of electrospray ionization.</article-title>
+            <source>Mol Cell Proteomics</source>
+            <year>2011</year>
+            <month>Jul</month>
+            <volume>10</volume>
+            <issue>7</issue>
+            <fpage>M111.009407</fpage>
+            <pub-id pub-id-type="pmid">21742801</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wilm</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Principles of electrospray ionization.</article-title>
+            <source>Mol Cell Proteomics</source>
+            <year>2011</year>
+            <month>May</month>
+            <day>19</day>
+            <pub-id pub-id-type="pmid">21597042</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pitman</surname>
+                <given-names>CN</given-names>
+              </name>
+              <name>
+                <surname>LaCourse</surname>
+                <given-names>WR</given-names>
+              </name>
+            </person-group>
+            <article-title>Desorption atmospheric pressure chemical ionization: A review.</article-title>
+            <source>Anal Chim Acta</source>
+            <year>2020</year>
+            <month>Sep</month>
+            <day>15</day>
+            <volume>1130</volume>
+            <fpage>146</fpage>
+            <page-range>146-154</page-range>
+            <pub-id pub-id-type="pmid">32892934</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Byrdwell</surname>
+                <given-names>WC</given-names>
+              </name>
+            </person-group>
+            <article-title>Atmospheric pressure chemical ionization mass spectrometry for analysis of lipids.</article-title>
+            <source>Lipids</source>
+            <year>2001</year>
+            <month>Apr</month>
+            <volume>36</volume>
+            <issue>4</issue>
+            <fpage>327</fpage>
+            <page-range>327-46</page-range>
+            <pub-id pub-id-type="pmid">11383683</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lee</surname>
+                <given-names>JK</given-names>
+              </name>
+              <name>
+                <surname>Banerjee</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Nam</surname>
+                <given-names>HG</given-names>
+              </name>
+              <name>
+                <surname>Zare</surname>
+                <given-names>RN</given-names>
+              </name>
+            </person-group>
+            <article-title>Acceleration of reaction in charged microdroplets.</article-title>
+            <source>Q Rev Biophys</source>
+            <year>2015</year>
+            <month>Nov</month>
+            <volume>48</volume>
+            <issue>4</issue>
+            <fpage>437</fpage>
+            <page-range>437-44</page-range>
+            <pub-id pub-id-type="pmid">26537403</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nier</surname>
+                <given-names>KA</given-names>
+              </name>
+            </person-group>
+            <article-title>Dempster's descendants-The core of the development of mass spectrometry.</article-title>
+            <source>J Mass Spectrom</source>
+            <year>2020</year>
+            <month>Aug</month>
+            <volume>55</volume>
+            <issue>8</issue>
+            <fpage>e4353</fpage>
+            <pub-id pub-id-type="pmid">30900786</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Budzikiewicz</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Grigsby</surname>
+                <given-names>RD</given-names>
+              </name>
+            </person-group>
+            <article-title>Mass spectrometry and isotopes: a century of research and discussion.</article-title>
+            <source>Mass Spectrom Rev</source>
+            <year>2006</year>
+            <season>Jan-Feb</season>
+            <volume>25</volume>
+            <issue>1</issue>
+            <fpage>146</fpage>
+            <page-range>146-57</page-range>
+            <pub-id pub-id-type="pmid">16134128</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Elliott</surname>
+                <given-names>AG</given-names>
+              </name>
+              <name>
+                <surname>Merenbloom</surname>
+                <given-names>SI</given-names>
+              </name>
+              <name>
+                <surname>Chakrabarty</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Williams</surname>
+                <given-names>ER</given-names>
+              </name>
+            </person-group>
+            <article-title>Single Particle Analyzer of Mass: A Charge Detection Mass Spectrometer with a Multi-Detector Electrostatic Ion Trap.</article-title>
+            <source>Int J Mass Spectrom</source>
+            <year>2017</year>
+            <month>Mar</month>
+            <volume>414</volume>
+            <fpage>45</fpage>
+            <page-range>45-55</page-range>
+            <pub-id pub-id-type="pmid">29129967</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Shan</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Gao</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Su</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Guo</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>Plasma and serum exosome markers analyzed by matrix-assisted laser desorption/ionization time-of-flight mass spectrometry coupled with electron multiplier.</article-title>
+            <source>Talanta</source>
+            <year>2022</year>
+            <month>Sep</month>
+            <day>01</day>
+            <volume>247</volume>
+            <fpage>123560</fpage>
+            <pub-id pub-id-type="pmid">35623246</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tsybin</surname>
+                <given-names>YO</given-names>
+              </name>
+              <name>
+                <surname>Witt</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Baykut</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>H&#x000e5;kansson</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Electron capture dissociation Fourier transform ion cyclotron resonance mass spectrometry in the electron energy range 0-50 eV.</article-title>
+            <source>Rapid Commun Mass Spectrom</source>
+            <year>2004</year>
+            <volume>18</volume>
+            <issue>14</issue>
+            <fpage>1607</fpage>
+            <page-range>1607-13</page-range>
+            <pub-id pub-id-type="pmid">15282786</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Guo</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Diao</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Yang</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Quantification and evaluation of ion transmission efficiency in two-stage vacuum chamber miniature mass spectrometer.</article-title>
+            <source>J Mass Spectrom</source>
+            <year>2022</year>
+            <month>Mar</month>
+            <volume>57</volume>
+            <issue>3</issue>
+            <fpage>e4816</fpage>
+            <pub-id pub-id-type="pmid">35229406</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Keller</surname>
+                <given-names>BO</given-names>
+              </name>
+              <name>
+                <surname>Sui</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Young</surname>
+                <given-names>AB</given-names>
+              </name>
+              <name>
+                <surname>Whittal</surname>
+                <given-names>RM</given-names>
+              </name>
+            </person-group>
+            <article-title>Interferences and contaminants encountered in modern mass spectrometry.</article-title>
+            <source>Anal Chim Acta</source>
+            <year>2008</year>
+            <month>Oct</month>
+            <day>03</day>
+            <volume>627</volume>
+            <issue>1</issue>
+            <fpage>71</fpage>
+            <page-range>71-81</page-range>
+            <pub-id pub-id-type="pmid">18790129</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kim</surname>
+                <given-names>BK</given-names>
+              </name>
+              <name>
+                <surname>Gwon</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name>
+                <surname>Kang</surname>
+                <given-names>WY</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>IK</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>HW</given-names>
+              </name>
+              <name>
+                <surname>Seong</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <name>
+                <surname>Cho</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Yoon</surname>
+                <given-names>YR</given-names>
+              </name>
+            </person-group>
+            <article-title>Rapid Interference-free Analysis of &#x003b2;-Lapachone in Clinical Samples Using Liquid Chromatography-Mass Spectrometry for a Pharmacokinetic Study in Humans.</article-title>
+            <source>Anal Sci</source>
+            <year>2021</year>
+            <month>Aug</month>
+            <day>10</day>
+            <volume>37</volume>
+            <issue>8</issue>
+            <fpage>1105</fpage>
+            <page-range>1105-1110</page-range>
+            <pub-id pub-id-type="pmid">33390413</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Goraczko</surname>
+                <given-names>AJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Molecular mass and location of the most abundant peak of the molecular ion isotopomeric cluster.</article-title>
+            <source>J Mol Model</source>
+            <year>2005</year>
+            <month>Sep</month>
+            <volume>11</volume>
+            <issue>4-5</issue>
+            <fpage>271</fpage>
+            <page-range>271-7</page-range>
+            <pub-id pub-id-type="pmid">15928922</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Steeves</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Gagne</surname>
+                <given-names>HM</given-names>
+              </name>
+              <name>
+                <surname>Buel</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Normalization of residual ions after removal of the base peak in electron impact mass spectrometry.</article-title>
+            <source>J Forensic Sci</source>
+            <year>2000</year>
+            <month>Jul</month>
+            <volume>45</volume>
+            <issue>4</issue>
+            <fpage>882</fpage>
+            <page-range>882-5</page-range>
+            <pub-id pub-id-type="pmid">10914589</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r46">
+          <label>46</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Grange</surname>
+                <given-names>AH</given-names>
+              </name>
+              <name>
+                <surname>Donnelly</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Sovocool</surname>
+                <given-names>GW</given-names>
+              </name>
+              <name>
+                <surname>Brumley</surname>
+                <given-names>WC</given-names>
+              </name>
+            </person-group>
+            <article-title>Determination of elemental compositions from mass peak profiles of the molecular ion (m) and the m + 1 and m + 2 ions.</article-title>
+            <source>Anal Chem</source>
+            <year>1996</year>
+            <month>Feb</month>
+            <day>01</day>
+            <volume>68</volume>
+            <issue>3</issue>
+            <fpage>553</fpage>
+            <page-range>553-60</page-range>
+            <pub-id pub-id-type="pmid">21619089</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r47">
+          <label>47</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>XW</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>QH</given-names>
+              </name>
+              <name>
+                <surname>Xu</surname>
+                <given-names>ZD</given-names>
+              </name>
+              <name>
+                <surname>Dou</surname>
+                <given-names>JJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Mass spectrometry-based metabolomics in health and medical science: a systematic review.</article-title>
+            <source>RSC Adv</source>
+            <year>2020</year>
+            <month>Jan</month>
+            <day>16</day>
+            <volume>10</volume>
+            <issue>6</issue>
+            <fpage>3092</fpage>
+            <page-range>3092-3104</page-range>
+            <pub-id pub-id-type="pmid">35497733</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r48">
+          <label>48</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Furlani</surname>
+                <given-names>IL</given-names>
+              </name>
+              <name>
+                <surname>da Cruz Nunes</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Canuto</surname>
+                <given-names>GAB</given-names>
+              </name>
+              <name>
+                <surname>Macedo</surname>
+                <given-names>AN</given-names>
+              </name>
+              <name>
+                <surname>Oliveira</surname>
+                <given-names>RV</given-names>
+              </name>
+            </person-group>
+            <article-title>Liquid Chromatography-Mass Spectrometry for Clinical Metabolomics: An Overview.</article-title>
+            <source>Adv Exp Med Biol</source>
+            <year>2021</year>
+            <volume>1336</volume>
+            <fpage>179</fpage>
+            <page-range>179-213</page-range>
+            <pub-id pub-id-type="pmid">34628633</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r49">
+          <label>49</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Heaney</surname>
+                <given-names>LM</given-names>
+              </name>
+              <name>
+                <surname>Jones</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Suzuki</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Mass spectrometry in medicine: a technology for the future?</article-title>
+            <source>Future Sci OA</source>
+            <year>2017</year>
+            <month>Aug</month>
+            <volume>3</volume>
+            <issue>3</issue>
+            <fpage>FSO213</fpage>
+            <pub-id pub-id-type="pmid">28884010</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r50">
+          <label>50</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Carneiro</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Radcenco</surname>
+                <given-names>AL</given-names>
+              </name>
+              <name>
+                <surname>Evaristo</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Monnerat</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Novel strategies for clinical investigation and biomarker discovery: a guide to applied metabolomics.</article-title>
+            <source>Horm Mol Biol Clin Investig</source>
+            <year>2019</year>
+            <month>Jan</month>
+            <day>17</day>
+            <volume>38</volume>
+            <issue>3</issue>
+            <pub-id pub-id-type="pmid">30653466</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r51">
+          <label>51</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Han</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Yang</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Gross</surname>
+                <given-names>RW</given-names>
+              </name>
+            </person-group>
+            <article-title>Multi-dimensional mass spectrometry-based shotgun lipidomics and novel strategies for lipidomic analyses.</article-title>
+            <source>Mass Spectrom Rev</source>
+            <year>2012</year>
+            <season>Jan-Feb</season>
+            <volume>31</volume>
+            <issue>1</issue>
+            <fpage>134</fpage>
+            <page-range>134-78</page-range>
+            <pub-id pub-id-type="pmid">21755525</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r52">
+          <label>52</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Del Carmen Piqueras</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Utility of Moderate and High-Resolution Mass Spectrometry for Class-Specific Lipid Identification and Quantification.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2017</year>
+            <volume>1609</volume>
+            <fpage>83</fpage>
+            <page-range>83-90</page-range>
+            <pub-id pub-id-type="pmid">28660576</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r53">
+          <label>53</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>SoRelle</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Patel</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Filkins</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Park</surname>
+                <given-names>JY</given-names>
+              </name>
+            </person-group>
+            <article-title>Mass Spectrometry for COVID-19.</article-title>
+            <source>Clin Chem</source>
+            <year>2020</year>
+            <month>Nov</month>
+            <day>01</day>
+            <volume>66</volume>
+            <issue>11</issue>
+            <fpage>1367</fpage>
+            <page-range>1367-1368</page-range>
+            <pub-id pub-id-type="pmid">32956447</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r54">
+          <label>54</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Loos</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Van Schepdael</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Cabooter</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Quantitative mass spectrometry methods for pharmaceutical analysis.</article-title>
+            <source>Philos Trans A Math Phys Eng Sci</source>
+            <year>2016</year>
+            <month>Oct</month>
+            <day>28</day>
+            <volume>374</volume>
+            <issue>2079</issue>
+            <pub-id pub-id-type="pmid">27644982</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r55">
+          <label>55</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zaia</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Mass spectrometry and glycomics.</article-title>
+            <source>OMICS</source>
+            <year>2010</year>
+            <month>Aug</month>
+            <volume>14</volume>
+            <issue>4</issue>
+            <fpage>401</fpage>
+            <page-range>401-18</page-range>
+            <pub-id pub-id-type="pmid">20443730</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r56">
+          <label>56</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wuhrer</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Glycomics using mass spectrometry.</article-title>
+            <source>Glycoconj J</source>
+            <year>2013</year>
+            <month>Jan</month>
+            <volume>30</volume>
+            <issue>1</issue>
+            <fpage>11</fpage>
+            <page-range>11-22</page-range>
+            <pub-id pub-id-type="pmid">22532006</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r57">
+          <label>57</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Leymarie</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Zaia</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Effective use of mass spectrometry for glycan and glycopeptide structural analysis.</article-title>
+            <source>Anal Chem</source>
+            <year>2012</year>
+            <month>Apr</month>
+            <day>03</day>
+            <volume>84</volume>
+            <issue>7</issue>
+            <fpage>3040</fpage>
+            <page-range>3040-8</page-range>
+            <pub-id pub-id-type="pmid">22360375</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r58">
+          <label>58</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Crain</surname>
+                <given-names>PF</given-names>
+              </name>
+              <name>
+                <surname>McCloskey</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>Applications of mass spectrometry to the characterization of oligonucleotides and nucleic acids.</article-title>
+            <source>Curr Opin Biotechnol</source>
+            <year>1998</year>
+            <month>Feb</month>
+            <volume>9</volume>
+            <issue>1</issue>
+            <fpage>25</fpage>
+            <page-range>25-34</page-range>
+            <pub-id pub-id-type="pmid">9503584</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r59">
+          <label>59</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Basiri</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Bartlett</surname>
+                <given-names>MG</given-names>
+              </name>
+            </person-group>
+            <article-title>LC-MS of oligonucleotides: applications in biomedical research.</article-title>
+            <source>Bioanalysis</source>
+            <year>2014</year>
+            <month>Jun</month>
+            <volume>6</volume>
+            <issue>11</issue>
+            <fpage>1525</fpage>
+            <page-range>1525-42</page-range>
+            <pub-id pub-id-type="pmid">25046052</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r60">
+          <label>60</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Meng</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Simmons-Willis</surname>
+                <given-names>TA</given-names>
+              </name>
+              <name>
+                <surname>Limbach</surname>
+                <given-names>PA</given-names>
+              </name>
+            </person-group>
+            <article-title>The use of mass spectrometry in genomics.</article-title>
+            <source>Biomol Eng</source>
+            <year>2004</year>
+            <month>Jan</month>
+            <volume>21</volume>
+            <issue>1</issue>
+            <fpage>1</fpage>
+            <page-range>1-13</page-range>
+            <pub-id pub-id-type="pmid">14715314</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r61">
+          <label>61</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hern&#x000e1;ndez</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Sancho</surname>
+                <given-names>JV</given-names>
+              </name>
+              <name>
+                <surname>Ib&#x000e1;&#x000f1;ez</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Abad</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Portol&#x000e9;s</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Mattioli</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Current use of high-resolution mass spectrometry in the environmental sciences.</article-title>
+            <source>Anal Bioanal Chem</source>
+            <year>2012</year>
+            <month>May</month>
+            <volume>403</volume>
+            <issue>5</issue>
+            <fpage>1251</fpage>
+            <page-range>1251-64</page-range>
+            <pub-id pub-id-type="pmid">22362279</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r62">
+          <label>62</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hoffmann</surname>
+                <given-names>WD</given-names>
+              </name>
+              <name>
+                <surname>Jackson</surname>
+                <given-names>GP</given-names>
+              </name>
+            </person-group>
+            <article-title>Forensic Mass Spectrometry.</article-title>
+            <source>Annu Rev Anal Chem (Palo Alto Calif)</source>
+            <year>2015</year>
+            <volume>8</volume>
+            <fpage>419</fpage>
+            <page-range>419-40</page-range>
+            <pub-id pub-id-type="pmid">26070716</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r63">
+          <label>63</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Masson</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Quality control techniques for routine analysis with liquid chromatography in laboratories.</article-title>
+            <source>J Chromatogr A</source>
+            <year>2007</year>
+            <month>Jul</month>
+            <day>27</day>
+            <volume>1158</volume>
+            <issue>1-2</issue>
+            <fpage>168</fpage>
+            <page-range>168-73</page-range>
+            <pub-id pub-id-type="pmid">17418222</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r64">
+          <label>64</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cooper</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name>
+                <surname>Charnock</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Taylor</surname>
+                <given-names>MJ</given-names>
+              </name>
+            </person-group>
+            <article-title>The prevalence of bulimia nervosa. A replication study.</article-title>
+            <source>Br J Psychiatry</source>
+            <year>1987</year>
+            <month>Nov</month>
+            <volume>151</volume>
+            <fpage>684</fpage>
+            <page-range>684-6</page-range>
+            <pub-id pub-id-type="pmid">3446313</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r65">
+          <label>65</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bonnel</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Stauber</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Applications of Mass Spectrometry Imaging for Safety Evaluation.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2017</year>
+            <volume>1641</volume>
+            <fpage>129</fpage>
+            <page-range>129-140</page-range>
+            <pub-id pub-id-type="pmid">28748461</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-142458.r66">
+          <label>66</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cornish</surname>
+                <given-names>NE</given-names>
+              </name>
+              <name>
+                <surname>Anderson</surname>
+                <given-names>NL</given-names>
+              </name>
+              <name>
+                <surname>Arambula</surname>
+                <given-names>DG</given-names>
+              </name>
+              <name>
+                <surname>Arduino</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Bryan</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Burton</surname>
+                <given-names>NC</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Dickson</surname>
+                <given-names>BA</given-names>
+              </name>
+              <name>
+                <surname>Giri</surname>
+                <given-names>JG</given-names>
+              </name>
+              <name>
+                <surname>Griffith</surname>
+                <given-names>NK</given-names>
+              </name>
+              <name>
+                <surname>Pentella</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Salerno</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Sandhu</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Snyder</surname>
+                <given-names>JW</given-names>
+              </name>
+              <name>
+                <surname>Tormey</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Wagar</surname>
+                <given-names>EA</given-names>
+              </name>
+              <name>
+                <surname>Weirich</surname>
+                <given-names>EG</given-names>
+              </name>
+              <name>
+                <surname>Campbell</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical Laboratory Biosafety Gaps: Lessons Learned from Past Outbreaks Reveal a Path to a Safer Future.</article-title>
+            <source>Clin Microbiol Rev</source>
+            <year>2021</year>
+            <month>Jun</month>
+            <day>16</day>
+            <volume>34</volume>
+            <issue>3</issue>
+            <fpage>e0012618</fpage>
+            <pub-id pub-id-type="pmid">34105993</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

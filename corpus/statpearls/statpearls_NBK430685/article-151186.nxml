@@ -1,0 +1,1502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-151186" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Nerve Conduction Studies and Electromyography </title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Ramani</surname>
+            <given-names>Praveen Kumar</given-names>
+          </name>
+          <aff>Duke University Medical Center</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Lui</surname>
+            <given-names>Forshing</given-names>
+          </name>
+          <aff>CA Northstate Uni, College of Med</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Arya</surname>
+            <given-names>Kapil</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Praveen Kumar Ramani declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Forshing Lui declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Kapil Arya declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>10</day>
+          <month>2</month>
+          <year>2025</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-151186.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Electrodiagnostic tests are electrophysiological techniques used to evaluate the function and integrity of neuromuscular components, including peripheral nerves, nerve roots, plexuses, the neuromuscular junction (NMJ), and muscles. These tests are classified into&#x000a0;2 primary types&#x02014;needle electromyography (EMG) and nerve conduction studies (NCS). Both NCS and EMG record electrical activity in the peripheral nerves and muscles. A detailed neurological examination should precede an EMG study,&#x000a0;which is often considered an extension of the clinical assessment performed&#x000a0;in suspected neuromuscular conditions.</p>
+        <p>Electrodiagnostic studies help localize lesions, differentiate between sensory and motor involvement, distinguish axonal from demyelinating patterns, and determine the condition&#x02019;s progression. NCS and EMG have various clinical indications, including studying pathophysiology, assessing disease severity, identifying the level of injury, and predicting prognosis.<xref ref-type="bibr" rid="article-151186.r1">[1]</xref><xref ref-type="bibr" rid="article-151186.r2">[2]</xref>&#x000a0;The most common clinical symptoms prompting requests for electrodiagnostic tests include numbness (73.6%), pain (5.3%), and weakness (13.9%). Less common symptoms include burning sensation (2.6%), tingling (1.4%), hypoesthesia (0.7%), and electric shock-like sensation (0.5%).<xref ref-type="bibr" rid="article-151186.r3">[3]</xref>&#x000a0;</p>
+        <p>NCS is&#x000a0;classified into 3 main types&#x02014;motor, sensory, and mixed. NCS provides data on nerve conduction velocity (NCV), the&#x000a0;amplitude of compound motor action potential (CMAP), and sensory nerve action potential (SNAP). NCV measures the speed of action potential conduction via saltatory conduction in large myelinated axons of the peripheral nerve. The number of axons in the sensory nerve determines SNAP, while the amplitude of CMAP reflects the integrated function of the motor axon, striated muscle, and NMJ. Repetitive nerve stimulation helps identify defects in both pre- and postsynaptic&#x000a0;NMJ disorders. By combining these procedures, it becomes possible to determine whether the motor, sensory, or peripheral nerve is damaged. In addition, it also distinguishes between axonal or myelin sheath injury and helps identify whether the injury is generalized, focal, or multifocal. A thorough understanding of the factors influencing nerve stimulation, recording techniques, and technical considerations for NCS and EMG is crucial for accurately interpreting the study.<xref ref-type="bibr" rid="article-151186.r4">[4]</xref></p>
+        <p>EMG evaluates muscle excitability and contractions under both physiological and pathological conditions. EMG is mainly classified into 2&#x000a0;main types&#x02014;noninvasive surface EMG and invasive intramuscular needle EMG. Surface EMG assesses a broad area of accessible muscles and is primarily used during NCS recordings of CMAP. Intramuscular needle EMG, performed by physicians trained in electrodiagnostic testing, provides a more detailed evaluation of muscle and nerve function. This test can be performed on both superficial and deep muscles, and it detects spontaneous muscle activity, the action potentials of single or multiple motor units, and their recruitment or interference patterns. Needle EMG helps assess and define underlying neurogenic or myopathic disorders, as well as detect active denervation and reinnervation.<xref ref-type="bibr" rid="article-151186.r5">[5]</xref>&#x000a0;Single-fiber EMG (SFEMG) is a&#x000a0;specialized form of EMG,&#x000a0;which is the most sensitive test for NMJ disorders.<xref ref-type="bibr" rid="article-151186.r6">[6]</xref></p>
+      </sec>
+      <sec id="article-151186.s2" sec-type="Anatomy and Physiology">
+        <title>Anatomy and Physiology</title>
+        <p>Each muscle fiber is composed of myofibrils surrounded by an enfolding plasma membrane known as the sarcolemma. The muscle fiber is further surrounded by 3 layers of connective tissue&#x02014;the epimysium, perimysium, and endomysium. The endomysium surrounds each muscle fiber, while the perimysium connects each fascicle within the muscle spindle. All fascicles are enclosed by the epimysium. The basic functional unit of EMG is the motor unit, which comprises a single motor neuron, its axon and branches, NMJs, and innervated muscle fibers.<xref ref-type="bibr" rid="article-151186.r7">[7]</xref></p>
+        <p>
+<bold>Generation of Muscle Action Potential</bold>
+</p>
+        <p>Ionic concentration differences across the sarcolemma create an electrochemical gradient. The normal resting membrane potential of muscle fibers is typically &#x02212;90 mV relative to the extracellular environment. An action potential is generated and propagates toward the NMJ when a motor unit is activated. This triggers muscle fiber depolarization due to electrochemical gradient shifts. Summation facilitates the depolarization of adjacent membrane segments, leading to muscle contraction. Assessing motor unit action potential is a key component of an EMG study.<xref ref-type="bibr" rid="article-151186.r2">[2]</xref>&#x000a0;Please see StatPearls' companion resource, "<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/point-of-care/115846">Electrodiagnostic Evaluation of Myopathy</ext-link>," for more information.</p>
+        <p>
+<bold>Generation of Nerve Action Potential, F-Wave, and H-Reflex</bold>
+</p>
+        <p>The resting membrane potential of peripheral nerves, such as muscle fibers, is approximately &#x02212;90 mV. External stimulation of a peripheral nerve triggers the opening of cationic channels along the nerve, generating an action potential that propagates in both directions. A surface electrode placed over the nerve can record this nerve action potential. NCV can then be calculated by measuring the distance the action potential travels and the time it takes to travel that distance.</p>
+        <p>Peripheral nerve stimulation generates a distal CMAP, recorded over the surface of a distal muscle, such as the abductor pollicis brevis, when electrical stimulation is applied to the median nerve at the wrist or elbow. Approximately 20 milliseconds later, a much smaller F-wave is recorded. This F-wave is caused by the peripheral motor nerve&#x02013;generated action potential traveling toward the spinal cord and then "backfiring" toward the same peripheral nerve.<xref ref-type="bibr" rid="article-151186.r8">[8]</xref><xref ref-type="bibr" rid="article-151186.r9">[9]</xref></p>
+        <p>The H-reflex is a more proximal response, representing a monosynaptic spinal reflex. When a peripheral sensory nerve is stimulated, such as the posterior tibial nerve at the ankle or knee, the nerve impulse travels up the sensory fibers to the spinal cord, where it synapses with the alpha-motor neuron. The impulse then travels back to the calf muscles along the motor nerve. As a result, the H-reflex has a longer latency, typically around 40 to 45 ms.<xref ref-type="bibr" rid="article-151186.r9">[9]</xref></p>
+        <p>
+<bold>Single-Fiber Electromyography</bold>
+</p>
+        <p>SFEMG is a highly specialized and selective technique that assesses the individual muscle fiber action potential (MFAP). A special concentric needle and a high-low frequency filter capture time-locked MFAPs within the same motor unit. This technique provides valuable insight into 2 key features of a motor unit&#x02014;jitter and fiber density.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Jitter is a sensitive measure of neuromuscular transmission that is currently the most sensitive test for NMJ disorders.</p>
+          </list-item>
+          <list-item>
+            <p>Fiber density, on the other hand, is a sensitive, indirect assessment of reinnervation within a motor unit by evaluating the local concentration of muscle fibers.<xref ref-type="bibr" rid="article-151186.r6">[6]</xref><xref ref-type="bibr" rid="article-151186.r10">[10]</xref></p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-151186.s3" sec-type="Indications">
+        <title>Indications</title>
+        <p>NCV studies are effective in assessing the pathophysiology of peripheral nerve disorders. Electrodiagnostic studies are typically performed as an adjunct to clinical examination. NCS is valuable in confirming clinical diagnoses and can also help identify subclinical conditions, localize focal nerve abnormalities, measure severity, and characterize the nature of the lesion.</p>
+        <p>Although NCS and EMG are necessary for a final diagnosis, certain conditions can often be identified through NCS alone. Common indications include focal nerve entrapments, demyelinating mononeuropathy, axonal loss mononeuropathy, preganglionic lesions, and both demyelinating and axonal polyneuropathies.<xref ref-type="bibr" rid="article-151186.r11">[11]</xref></p>
+        <p>EMG is indicated when upper motor neuron lesions, lower motor neuron lesions, anterior horn cell disorders, radiculopathies, plexopathies, mononeuropathies, NMJ disorders, or myopathic conditions are suspected.</p>
+        <p>
+<bold>Upper Motor Neuron Lesion</bold>
+</p>
+        <p>When a patient presents with weakness due to an upper motor neuron lesion, clinical findings typically include spasticity, hyperactive deep tendon reflexes, and a positive Babinski sign. Both NCS and EMG are usually normal. Needle EMG will show no spontaneous activity at rest, normal insertional activity, and normal motor unit action potential. However, the interference pattern will be reduced due to poor activation. Recruitment is typically normal.<xref ref-type="bibr" rid="article-151186.r12">[12]</xref>&#x000a0;Please see StatPearls' companion resource, "<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/point-of-care/115848">Electrodiagnostic Evaluation of Motor Neuron Disease</ext-link>," for more information.</p>
+        <p>
+<bold>Lower <bold>Motor&#x000a0;Neuron Lesion</bold></bold>
+</p>
+        <p>Clinically, patients with a lower motor neuron lesion typically present with weakness, muscle wasting, and decreased deep tendon reflexes. Needle EMG will initially show increased insertional activity, followed by the appearance of fibrillation potentials and positive waves. The motor unit action potential often increases due to reinnervation, while the interference pattern is reduced, similar to what is seen in upper motor neuron lesions.<xref ref-type="bibr" rid="article-151186.r12">[12]</xref>&#x000a0;Please see StatPearls' companion resource, "<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/point-of-care/115848">Electrodiagnostic Evaluation of Motor Neuron Disease</ext-link>," for more information.</p>
+        <p>
+<bold>Anterior Horn Cell Disorder</bold>
+</p>
+        <p>EMG is the most valuable tool for evaluating generalized lower motor neuron degeneration, such as in amyotrophic lateral sclerosis or motor neuron disease. EMG reveals signs of both active and chronic denervation across multiple body regions, including the tongue and upper and lower extremities. A diagnosis of amyotrophic lateral sclerosis requires both clinical evaluation and electrodiagnostic testing. EMG typically helps localize the lesion to the suspected region, provides evidence of electrophysiological dysfunction in clinically unaffected areas, and aids in ruling out other potential causes.<xref ref-type="bibr" rid="article-151186.r13">[13]</xref><xref ref-type="bibr" rid="article-151186.r14">[14]</xref>&#x000a0;Please see StatPearls' companion resource, "<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/point-of-care/115848">Electrodiagnostic Evaluation of Motor Neuron Disease</ext-link>," for more information.</p>
+        <p>
+<bold>Radiculopathies</bold>
+</p>
+        <p>EMG can accurately diagnose and localize cervical, thoracic, and lumbosacral radiculopathies. Typically, signs of denervation appear in a segmental distribution, corresponding to the same root but affecting multiple peripheral nerves.&#x000a0;Notably, the sensory nerve action potential (SNAP) remains normal, confirming that the lesion is outside the spinal canal. Please see StatPearls' companion resource, "<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/point-of-care/115845">Electrodiagnostic Evaluation of Lumbosacral Radiculopathy</ext-link>," for more information.</p>
+        <p>
+<bold>Plexopathies</bold>
+</p>
+        <p>Commonly referred conditions include brachial and lumbosacral plexopathies.<xref ref-type="bibr" rid="article-151186.r15">[15]</xref>&#x000a0;Electrodiagnostic evaluation in plexopathies aims to differentiate whether the lesion is preganglionic (involving the roots) or postganglionic (affecting the plexus itself). By assessing the preferential involvement of different nerves originating from a specific root and understanding the plexus anatomy, EMG testing can help identify the site of the lesion.<xref ref-type="bibr" rid="article-151186.r16">[16]</xref>&#x000a0;Please see StatPearls' companion resource, "<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/point-of-care/115841">Electrodiagnostic Evaluation of Brachial Plexopathies</ext-link>," for more information.</p>
+        <p>
+<bold>Neuromuscular Junction Disorders</bold>
+</p>
+        <p>NCS with surface EMG can be very helpful in diagnosing NMJ disorders. Myasthenia gravis is the prototype of postsynaptic NMJ disorders, where NCVs and MUAPs are typically normal. Repetitive nerve stimulation reveals a decremental response of over 10% with slow rates of stimulation (2-4 Hz) or fast rates. In contrast, presynaptic NMJ disorders, such as Lambert-Eaton myasthenic syndrome or botulism, often show small MUAPs and an incremental response with high stimulation rates (40-50 Hz).<xref ref-type="bibr" rid="article-151186.r17">[17]</xref>&#x000a0;SFEMG is the most sensitive diagnostic test for NMJ disorders. The typical finding is increased jitter or jitter block, which is diagnostic of NMJ disorders in patients presenting with variable weakness and no sensory impairment, along with a normal SNAP.<xref ref-type="bibr" rid="article-151186.r18">[18]</xref></p>
+        <p>
+<bold>Entrapment and Other Mononeuropathies</bold>
+</p>
+        <p>NCS is the most straightforward technique for identifying and confirming a clinical suspicion of mononeuropathies, particularly entrapment neuropathy. This helps define the location of the lesion or entrapment and assess its severity.</p>
+        <p>
+<bold>Polyneuropathies</bold>
+</p>
+        <p>NCS and EMG can help confirm the diagnosis of peripheral neuropathy and determine whether it is demyelinating, axonal, or mixed. NCVs, including proximal H-reflex and F-latency responses, are typically prolonged in demyelinating neuropathies. In axonal neuropathy, conduction velocities are usually normal, with low MUAPs.<xref ref-type="bibr" rid="article-151186.r19">[19]</xref>&#x000a0;Please see StatPearls' companion resource, "<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/point-of-care/115840">Electrodiagnostic Evaluation of Peripheral Neuropathy</ext-link>," for more information.</p>
+        <p>
+<bold>Myopathies and Myositis</bold>
+</p>
+        <p>EMG is very useful in diagnosing myopathies or polymyopathies. NCVs are typically normal. In these conditions, there is early recruitment of motor units, a full interference pattern, and lower overall amplitude, with no neurogenic changes. Myositis or polymyositis is characterized by muscle inflammation and prominent muscle membrane irritability, which is reflected in EMG findings of spontaneous activity, including fibrillation and positive sharp waves.<xref ref-type="bibr" rid="article-151186.r20">[20]</xref></p>
+      </sec>
+      <sec id="article-151186.s4" sec-type="Contraindications">
+        <title>Contraindications</title>
+        <p>Absolute contraindications include conditions that prevent the use of surface electrodes, such as areas covered by a splint or cast. Electrodiagnostic studies should also be avoided in cases of open skin infections, surface burns, or recent skin grafts. Additionally, EMG is generally contraindicated in extremities affected by lymphedema.<xref ref-type="bibr" rid="article-151186.r21">[21]</xref>&#x000a0;Patients with bleeding tendencies and suppressed immune responses should be evaluated on a case-by-case basis. EMG is contraindicated in patients with a platelet count below 50,000/dL.</p>
+        <p>EMG is performed with caution in patients taking antiplatelet or anticoagulant medications.<xref ref-type="bibr" rid="article-151186.r22">[22]</xref><xref ref-type="bibr" rid="article-151186.r23">[23]</xref> Several case reports and studies have demonstrated the safety of performing an EMG without discontinuing the anticoagulants or antiplatelets. Modifications may include avoiding muscles at noncompressible sites to minimize the risk of hematoma formation. In these patients, paraspinal muscle examination is generally avoided to reduce the risk of hematoma near spinal structures.<xref ref-type="bibr" rid="article-151186.r24">[24]</xref></p>
+        <p>For patients with implanted pacemakers and cardiac defibrillators, both devices have sensing and stimulation functions. Theoretically, stimulation during NCS could be misinterpreted as an abnormal cardiac rhythm, potentially triggering a countershock. However, studies have shown no significant clinical impact.<xref ref-type="bibr" rid="article-151186.r25">[25]</xref><xref ref-type="bibr" rid="article-151186.r26">[26]</xref> Several case reports and studies have demonstrated the safety of performing NCS in patients with modern bipolar implanted devices. However, guidelines advise against performing NCS in patients with intracardiac catheters and external pacing wires. Limited data are available on the safety of NCS in patients with unipolar implanted cardiac devices.<xref ref-type="bibr" rid="article-151186.r21">[21]</xref></p>
+        <p>Deep brain stimulators (DBS) and vagal nerve stimulators (VNS) rarely interfere with EMG recording, but they may cause artifacts.<xref ref-type="bibr" rid="article-151186.r27">[27]</xref> Some studies recommend turning off DBS before the procedure to minimize interference.</p>
+      </sec>
+      <sec id="article-151186.s5" sec-type="Equipment">
+        <title>Equipment</title>
+        <p>Electrodiagnostic equipment comprises both hardware and software components. This includes digital instrumentation for data sampling, storage, and signal processing, along with amplifiers, filters, a frequency analyzer, and a stimulator. The system also incorporates surface and needle electrodes for recording and stimulation.</p>
+        <p>
+<bold>Needle Electrodes</bold>
+</p>
+        <p>Only disposable needle electrodes are used to prevent the spread of infectious diseases. A screening questionnaire is typically provided to patients to assess the risk of infectious diseases. In standard procedures, either concentric or monopolar needles are used.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Concentric needles: These needles consist of&#x000a0;2 electrodes, with a central platinum electrode insulated by a steel cannula. The advantage of the concentric needle is that the tip of the needle serves as the active electrode, whereas the shaft acts as the reference. This design helps produce a sharp muscle action potential by minimizing distant activity.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Monopolar needles: These consist of a stainless steel core insulated with Teflon, except at the tip, which serves as the active electrode. A separate electrode placed on the skin functions as the reference. Other specialized microelectrodes, such as those used in SFEMG, are reserved for specific circumstances. Standardized protocols have been established to minimize the risk of electrical injuries.<xref ref-type="bibr" rid="article-151186.r28">[28]</xref></p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-151186.s6" sec-type="Personnel">
+        <title>Personnel</title>
+        <p>The American Board of Electrodiagnostic Medicine established guidelines and requirements for qualified physicians to perform electrodiagnostic studies. All needle studies should be conducted solely by a certified physician. In some cases, a trained assistant may perform NCS under the supervision of an appropriate physician.<xref ref-type="bibr" rid="article-151186.r29">[29]</xref></p>
+      </sec>
+      <sec id="article-151186.s7" sec-type="Preparation">
+        <title>Preparation</title>
+        <p>Patients are typically advised to keep their skin warm and dry, avoiding the application of creams or lotions. No other special preparations are required. Patients should notify the healthcare provider if they have intracardiac devices, DBS, or VNS or if they are taking anticoagulants or herbal supplements.</p>
+      </sec>
+      <sec id="article-151186.s8" sec-type="Technique or Treatment">
+        <title>Technique or Treatment</title>
+        <p>EMG and NCS are extensions of the neurological exam. After identifying a peripheral nervous system lesion through history and examination, the practitioner further localizes it to refine the focus of the electrodiagnostic study. This may involve assessing a specific radicular distribution or neurotome or testing multiple nerves originating from a plexus&#x000a0;if a broader evaluation is required. Indications include sensory or motor concerns with suspected pathology involving the nerve roots, plexus, peripheral nerves, NMJ, or muscles. Nerves in the affected region are stimulated in an antidromic manner, meaning the current travels opposite to the natural conduction path.</p>
+        <p>The normal physiological direction of current&#x000a0;for a sensory nerve is distal to proximal. In an antidromic recording, stimulation occurs proximally, and the recording is taken distally. In an orthodromic recording, the stimulated current travels along the natural conduction path, with distal stimulation and proximal recording.<xref ref-type="bibr" rid="article-151186.r30">[30]</xref> A ground electrode is placed between the stimulating and recording electrodes. The 2 primary parameters measured during NCS are conduction velocity and the amplitude of the stimulated response, including the SNAP or the motor nerve action potential.&#x000a0;</p>
+        <p>
+<bold>Motor Nerve Conduction Studies</bold>
+</p>
+        <p>In motor nerve conduction studies, stimulating electrodes are placed over the nerves, while recording electrodes are positioned over the muscles. The active recording electrode is placed on the muscle belly, the inactive electrode over an electrically inactive region, and the ground electrode between the stimulating and recording electrodes. Individual muscle action potentials summate to form the CMAP. Several measurements are evaluated in motor NCS. Latencies refer to the time interval between stimulation and the onset of the CMAP. Latencies measure the conduction time of the short conductive axon, expressed in milliseconds.<xref ref-type="bibr" rid="article-151186.r1">[1]</xref></p>
+        <p>Prolonged latency suggests a demyelinating injury. The CMAP amplitude is typically measured from the baseline to the negative peak and is expressed in millivolts. CMAP serves as a semiquantitative measure of the number of conducting axons between the electrodes, with reduced amplitude indicating axonal injury. CMAP duration refers to the duration of the evoked potential and is measured in milliseconds, reflecting the conduction rate of the various axons between the measuring electrodes. Conduction velocity measures the speed of conduction and is expressed in meters per second. A reduced conduction velocity suggests demyelinating injury.<xref ref-type="bibr" rid="article-151186.r31">[31]</xref></p>
+        <p>
+<bold>Sensory Nerve Conduction Studies</bold>
+</p>
+        <p>Sensory NCS measures the sensory action potential by stimulating the nerve at one point with a supramaximal impulse and recording at a distal site. When the potential is recorded toward the sensory receptors, it is termed an antidromic sensory NCS, whereas recording away from the receptors is referred to as an orthodromic NCS. Similar to motor NCS, several parameters are evaluated, including SNAP amplitudes, latencies, and conduction velocities.</p>
+        <p>SNAP latency is measured from the stimulus to the peak of the negative phase and is expressed in milliseconds. SNAP amplitude is calculated from the baseline to the peak and serves as a semiquantitative measure of the number of sensory axons between the 2 measuring electrodes. Sensory conduction velocity is determined similarly to motor conduction velocity.<xref ref-type="bibr" rid="article-151186.r1">[1]</xref></p>
+        <p>
+<bold>Mixed Nerve Conduction Studies</bold>
+</p>
+        <p>Mixed NCS involves measuring the action potential from both the motor and sensory axons. This is typically performed using an orthodromic technique.&#x000a0;</p>
+        <p>
+<bold>Other Electromyography Techniques</bold>
+</p>
+        <p>Additional techniques are outlined in the <bold>Indications</bold> section above.</p>
+        <p>
+<bold>Factors Affecting <bold>Nerve&#x000a0;Conduction&#x000a0;Studies</bold></bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Temperature:&#x000a0;Ideally, the arm temperature should be maintained between 30 &#x000b0;C and 36 &#x000b0;C, and the leg temperature between 30 &#x000b0;C and 36 &#x000b0;C. For every 1 &#x000b0;C of cooling, conduction velocity slows by 1.5 to 2.5 m/s, and distal velocity prolongs by 0.2 m/s. Both SNAP and CMAP increase by 1.7 per 1 &#x000b0;C of cooling.<xref ref-type="bibr" rid="article-151186.r32">[32]</xref></p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Age:&#x000a0;Patients between the ages of 5 and 60 typically have stable, standardized values. Age-corrected values are used for patients aged 5 and younger or 60 and older.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Height:&#x000a0;Longer nerves conduct more slowly. Distal nerves conduct slower than proximal nerves. Correction is usually needed for nerve segments that are outside the reference range. Conduction velocity decreases by 2 m/s for every 10 cm increase in height.<xref ref-type="bibr" rid="article-151186.r33">[33]</xref></p>
+          </list-item>
+        </list>
+        <p>Depending on the NCS results, specific myotomes are identified for further testing with EMG. Using a ground electrode, the practitioner inserts a monopolar EMG needle into muscles of interest while noting the pitch, tone, amplitude, and morphology of insertional electrical activity, as well as any electrical muscle activity with the muscle at rest. Spontaneous muscle activity at rest may suggest denervation or muscle inflammation. Similar activity is recorded when the patient generates a CMAP with maximal effort and muscle activation. An abnormal CMAP could indicate a myopathic process or muscle undergoing reinnervation.</p>
+        <p>By collecting NCS and EMG results, the pattern of normal or abnormal responses can help suggest the underlying pathology, such as radiculopathy, plexopathy, neuropathy (axonal, demyelinating, or mixed), neuromuscular junction disorder, or myopathy (degenerative or irritative).</p>
+      </sec>
+      <sec id="article-151186.s9" sec-type="Complications">
+        <title>Complications</title>
+        <p>Electrodiagnostic studies are generally safe and well tolerated by patients, with iatrogenic adverse effects being very rare. In NCS, transdermal electrical stimulation carries a theoretical risk of electrical complications. Needle EMG, similar to any needle insertion, carries potential risks such as infection, hemorrhage, tissue injury, and pneumothorax.</p>
+        <p>
+<bold>Electrical Complications</bold>
+</p>
+        <p>The electrical current used to stimulate the nerve may pose a risk for some patients. However, modern equipment is designed with built-in electrical insulation to prevent potential injury during an electrodiagnostic study. Regular maintenance of the equipment, along with the use of ground electrodes and grounded outlets, is essential to ensure safety. NCS have been shown to be safe in patients with peripheral and central intravenous lines, as well as those with modern implantable pacemakers and defibrillators with bipolar leads. However, studies performed in ICU settings require extra caution due to the presence of external wires and other electrical equipment, which can make patients more sensitive to microcurrents. Electrodiagnostic studies should be avoided in patients with external temporary pacemakers.<xref ref-type="bibr" rid="article-151186.r34">[34]</xref></p>
+        <p>
+<bold>Pneumothorax</bold>
+</p>
+        <p>Pneumothorax is the most serious iatrogenic complication of needle EMG. Although this complication is rare, the examination of certain muscles&#x02014;such as the serratus anterior, diaphragm, thoracic and lower cervical paraspinal muscles, rhomboid, and suprascapular muscles&#x02014;pose an increased risk. The best approach is to avoid sampling these muscles during routine studies.<xref ref-type="bibr" rid="article-151186.r35">[35]</xref> In cases where testing high-risk muscles is necessary, ultrasound guidance for needle placement can be utilized to minimize the risk.</p>
+        <p>
+<bold>Hemorrhage</bold>
+</p>
+        <p>Bleeding complications during needle EMG are extremely rare. Studies using magnetic resonance imaging (MRI) and ultrasound to examine muscles after needle EMG have shown that the risk of clinically symptomatic hematoma is very low, even in patients on anticoagulation or antiplatelet therapy. Notably, it is recommended that anticoagulation and antiplatelet medications not be discontinued prior to needle EMG. Strategies to further reduce the risk of hemorrhage include using the smallest gauge needle, limiting the number of needle insertions, avoiding deep muscles that cannot be externally compressed, and refraining from testing muscles near large vessels.<xref ref-type="bibr" rid="article-151186.r36">[36]</xref></p>
+        <p>
+<bold>Infections</bold>
+</p>
+        <p>The risk of infection has been significantly reduced with the use of disposable needles. However, a clean technique and appropriate caution are still recommended during the procedure. Infected areas of the skin should be avoided to minimize the risk of infections.</p>
+      </sec>
+      <sec id="article-151186.s10" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>EMG and NCS are valuable tools in diagnosing peripheral nerve and neuromuscular disorders. EMG is also used for surgical planning, prognosis, rehabilitation planning, and providing evidence for medical-legal purposes. The findings from EMG and NCS typically complement a thorough clinical evaluation and help rule out&#x000a0;certain conditions.<xref ref-type="bibr" rid="article-151186.r37">[37]</xref></p>
+      </sec>
+      <sec id="article-151186.s11" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>As outlined in the <bold>Indications</bold> section, EMG and NCS are essential diagnostic tools for various conditions. Enhancing knowledge of EMG and NCV, including their indications, contraindications, and techniques, will improve referral accuracy and patient outcomes.</p>
+        <p>Although neurologists typically administer these tests, other healthcare providers&#x000a0;can also be involved. Practitioners&#x000a0;from various disciplines, such as orthopedists, physical therapists, and chiropractors, must understand the significance of the results in guiding patient care and referrals. This underscores the importance of open communication within the interprofessional healthcare team. Accurate, up-to-date patient records are vital to ensure that all healthcare team members have access to the same information. This interprofessional approach will promote appropriate care and optimal patient outcomes.</p>
+      </sec>
+      <sec id="article-151186.s12">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=151186&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=151186">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/151186/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=151186">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-151186.s13">
+        <title>References</title>
+        <ref id="article-151186.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tavee</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Nerve conduction studies: Basic concepts.</article-title>
+            <source>Handb Clin Neurol</source>
+            <year>2019</year>
+            <volume>160</volume>
+            <fpage>217</fpage>
+            <page-range>217-224</page-range>
+            <pub-id pub-id-type="pmid">31277849</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kane</surname>
+                <given-names>NM</given-names>
+              </name>
+              <name>
+                <surname>Oware</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Nerve conduction and electromyography studies.</article-title>
+            <source>J Neurol</source>
+            <year>2012</year>
+            <month>Jul</month>
+            <volume>259</volume>
+            <issue>7</issue>
+            <fpage>1502</fpage>
+            <page-range>1502-8</page-range>
+            <pub-id pub-id-type="pmid">22614870</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>&#x00130;nceo&#x0011f;lu</surname>
+                <given-names>S&#x000c7;</given-names>
+              </name>
+              <name>
+                <surname>Ayy&#x00131;ld&#x00131;z</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Y&#x00131;lmaz</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Kuran</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>How much does clinical prediagnosis correlate with electrophysiological findings?: a retrospective study.</article-title>
+            <source>J Yeungnam Med Sci</source>
+            <year>2024</year>
+            <month>Jul</month>
+            <volume>41</volume>
+            <issue>3</issue>
+            <fpage>220</fpage>
+            <page-range>220-227</page-range>
+            <pub-id pub-id-type="pmid">38965681</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wilbourn</surname>
+                <given-names>AJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Nerve conduction studies. Types, components, abnormalities, and value in localization.</article-title>
+            <source>Neurol Clin</source>
+            <year>2002</year>
+            <month>May</month>
+            <volume>20</volume>
+            <issue>2</issue>
+            <fpage>305</fpage>
+            <page-range>305-38, v</page-range>
+            <pub-id pub-id-type="pmid">12152438</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>P&#x000e9;ter</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Andersson</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Hegyi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Finni</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Tarassova</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Cronin</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Grundstr&#x000f6;m</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Arndt</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparing Surface and Fine-Wire Electromyography Activity of Lower Leg Muscles at Different Walking Speeds.</article-title>
+            <source>Front Physiol</source>
+            <year>2019</year>
+            <volume>10</volume>
+            <fpage>1283</fpage>
+            <pub-id pub-id-type="pmid">31649557</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Juel</surname>
+                <given-names>VC</given-names>
+              </name>
+            </person-group>
+            <article-title>Single fiber electromyography.</article-title>
+            <source>Handb Clin Neurol</source>
+            <year>2019</year>
+            <volume>160</volume>
+            <fpage>303</fpage>
+            <page-range>303-310</page-range>
+            <pub-id pub-id-type="pmid">31277856</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Exeter</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Connell</surname>
+                <given-names>DA</given-names>
+              </name>
+            </person-group>
+            <article-title>Skeletal muscle: functional anatomy and pathophysiology.</article-title>
+            <source>Semin Musculoskelet Radiol</source>
+            <year>2010</year>
+            <month>Jun</month>
+            <volume>14</volume>
+            <issue>2</issue>
+            <fpage>97</fpage>
+            <page-range>97-105</page-range>
+            <pub-id pub-id-type="pmid">20486021</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zimnowodzki</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Butrum</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kimura</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>St&#x000e5;lberg</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Mahajan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Gao</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Emergence of F-waves after repetitive nerve stimulation.</article-title>
+            <source>Clin Neurophysiol Pract</source>
+            <year>2020</year>
+            <volume>5</volume>
+            <fpage>100</fpage>
+            <page-range>100-103</page-range>
+            <pub-id pub-id-type="pmid">32490291</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jerath</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Kimura</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>F wave, A wave, H reflex, and blink reflex.</article-title>
+            <source>Handb Clin Neurol</source>
+            <year>2019</year>
+            <volume>160</volume>
+            <fpage>225</fpage>
+            <page-range>225-239</page-range>
+            <pub-id pub-id-type="pmid">31277850</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Giannoccaro</surname>
+                <given-names>MP</given-names>
+              </name>
+              <name>
+                <surname>Paolucci</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Zenesini</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Di Stasi</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Donadio</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Avoni</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Liguori</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparison of ice pack test and single-fiber EMG diagnostic accuracy in patients referred for myasthenic ptosis.</article-title>
+            <source>Neurology</source>
+            <year>2020</year>
+            <month>Sep</month>
+            <day>29</day>
+            <volume>95</volume>
+            <issue>13</issue>
+            <fpage>e1800</fpage>
+            <page-range>e1800-e1806</page-range>
+            <pub-id pub-id-type="pmid">32788239</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Weber</surname>
+                <given-names>GA</given-names>
+              </name>
+            </person-group>
+            <article-title>Nerve conduction studies and their clinical applications.</article-title>
+            <source>Clin Podiatr Med Surg</source>
+            <year>1990</year>
+            <month>Jan</month>
+            <volume>7</volume>
+            <issue>1</issue>
+            <fpage>151</fpage>
+            <page-range>151-78</page-range>
+            <pub-id pub-id-type="pmid">2154310</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nepomuceno</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>McCutcheon</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Miller</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Gowens</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Oh</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Stover</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Blackstone</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Differential analyses of EMG findings in motor neuron lesions.</article-title>
+            <source>Am J Phys Med</source>
+            <year>1977</year>
+            <month>Feb</month>
+            <volume>56</volume>
+            <issue>1</issue>
+            <fpage>1</fpage>
+            <page-range>1-11</page-range>
+            <pub-id pub-id-type="pmid">189617</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Behnia</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kelly</surname>
+                <given-names>JJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Role of electromyography in amyotrophic lateral sclerosis.</article-title>
+            <source>Muscle Nerve</source>
+            <year>1991</year>
+            <month>Dec</month>
+            <volume>14</volume>
+            <issue>12</issue>
+            <fpage>1236</fpage>
+            <page-range>1236-41</page-range>
+            <pub-id pub-id-type="pmid">1766455</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cornblath</surname>
+                <given-names>DR</given-names>
+              </name>
+              <name>
+                <surname>Kuncl</surname>
+                <given-names>RW</given-names>
+              </name>
+              <name>
+                <surname>Mellits</surname>
+                <given-names>ED</given-names>
+              </name>
+              <name>
+                <surname>Quaskey</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Clawson</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Pestronk</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Drachman</surname>
+                <given-names>DB</given-names>
+              </name>
+            </person-group>
+            <article-title>Nerve conduction studies in amyotrophic lateral sclerosis.</article-title>
+            <source>Muscle Nerve</source>
+            <year>1992</year>
+            <month>Oct</month>
+            <volume>15</volume>
+            <issue>10</issue>
+            <fpage>1111</fpage>
+            <page-range>1111-5</page-range>
+            <pub-id pub-id-type="pmid">1406768</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ferrante</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Wilbourn</surname>
+                <given-names>AJ</given-names>
+              </name>
+            </person-group>
+            <article-title>The utility of various sensory nerve conduction responses in assessing brachial plexopathies.</article-title>
+            <source>Muscle Nerve</source>
+            <year>1995</year>
+            <month>Aug</month>
+            <volume>18</volume>
+            <issue>8</issue>
+            <fpage>879</fpage>
+            <page-range>879-89</page-range>
+            <pub-id pub-id-type="pmid">7630350</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rubin</surname>
+                <given-names>DI</given-names>
+              </name>
+            </person-group>
+            <article-title>Brachial and lumbosacral plexopathies: A review.</article-title>
+            <source>Clin Neurophysiol Pract</source>
+            <year>2020</year>
+            <volume>5</volume>
+            <fpage>173</fpage>
+            <page-range>173-193</page-range>
+            <pub-id pub-id-type="pmid">32954064</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tomschik</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Renaud</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>J&#x000e4;ger</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Paternostro</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Rath</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Rinner</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Zulehner</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Zimprich</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Cetin</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>The diagnostic and prognostic utility of repetitive nerve stimulation in patients with myasthenia gravis.</article-title>
+            <source>Sci Rep</source>
+            <year>2023</year>
+            <month>Feb</month>
+            <day>20</day>
+            <volume>13</volume>
+            <issue>1</issue>
+            <fpage>2985</fpage>
+            <pub-id pub-id-type="pmid">36806815</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kouyoumdjian</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Estephan</surname>
+                <given-names>EP</given-names>
+              </name>
+            </person-group>
+            <article-title>Electrophysiological evaluation of the neuromuscular junction: a brief review.</article-title>
+            <source>Arq Neuropsiquiatr</source>
+            <year>2023</year>
+            <month>Dec</month>
+            <volume>81</volume>
+            <issue>12</issue>
+            <fpage>1040</fpage>
+            <page-range>1040-1052</page-range>
+            <pub-id pub-id-type="pmid">38157872</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Callaghan</surname>
+                <given-names>BC</given-names>
+              </name>
+              <name>
+                <surname>Burke</surname>
+                <given-names>JF</given-names>
+              </name>
+              <name>
+                <surname>Feldman</surname>
+                <given-names>EL</given-names>
+              </name>
+            </person-group>
+            <article-title>Electrodiagnostic Tests in Polyneuropathy and Radiculopathy.</article-title>
+            <source>JAMA</source>
+            <year>2016</year>
+            <month>Jan</month>
+            <day>19</day>
+            <volume>315</volume>
+            <issue>3</issue>
+            <fpage>297</fpage>
+            <page-range>297-8</page-range>
+            <pub-id pub-id-type="pmid">26784779</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hokkoku</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Yamamoto</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Uchida</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Kondo</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Mukai</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Hatanaka</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Kono</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Shimizu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Kobayashi</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Sonoo</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Frequency of EMG abnormalities in idiopathic inflammatory myopathies under the EULAR/ACR classification criteria.</article-title>
+            <source>Medicine (Baltimore)</source>
+            <year>2024</year>
+            <month>Jan</month>
+            <day>26</day>
+            <volume>103</volume>
+            <issue>4</issue>
+            <fpage>e37105</fpage>
+            <pub-id pub-id-type="pmid">38277547</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gechev</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kane</surname>
+                <given-names>NM</given-names>
+              </name>
+              <name>
+                <surname>Koltzenburg</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Rao</surname>
+                <given-names>DG</given-names>
+              </name>
+              <name>
+                <surname>van der Star</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Potential risks of iatrogenic complications of nerve conduction studies (NCS) and electromyography (EMG).</article-title>
+            <source>Clin Neurophysiol Pract</source>
+            <year>2016</year>
+            <volume>1</volume>
+            <fpage>62</fpage>
+            <page-range>62-66</page-range>
+            <pub-id pub-id-type="pmid">30214961</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gertken</surname>
+                <given-names>JT</given-names>
+              </name>
+              <name>
+                <surname>Patel</surname>
+                <given-names>AT</given-names>
+              </name>
+              <name>
+                <surname>Boon</surname>
+                <given-names>AJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Electromyography and anticoagulation.</article-title>
+            <source>PM R</source>
+            <year>2013</year>
+            <month>May</month>
+            <volume>5</volume>
+            <issue>5 Suppl</issue>
+            <fpage>S3</fpage>
+            <page-range>S3-7</page-range>
+            <pub-id pub-id-type="pmid">23523707</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lynch</surname>
+                <given-names>SL</given-names>
+              </name>
+              <name>
+                <surname>Boon</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Smith</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Harper</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name>
+                <surname>Tanaka</surname>
+                <given-names>EM</given-names>
+              </name>
+            </person-group>
+            <article-title>Complications of needle electromyography: hematoma risk and correlation with anticoagulation and antiplatelet therapy.</article-title>
+            <source>Muscle Nerve</source>
+            <year>2008</year>
+            <month>Oct</month>
+            <volume>38</volume>
+            <issue>4</issue>
+            <fpage>1225</fpage>
+            <page-range>1225-30</page-range>
+            <pub-id pub-id-type="pmid">18785189</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>London</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Quint</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Haig</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Yamakawa</surname>
+                <given-names>KS</given-names>
+              </name>
+            </person-group>
+            <article-title>The risk of hematoma following extensive electromyography of the lumbar paraspinal muscles.</article-title>
+            <source>Muscle Nerve</source>
+            <year>2012</year>
+            <month>Jul</month>
+            <volume>46</volume>
+            <issue>1</issue>
+            <fpage>26</fpage>
+            <page-range>26-30</page-range>
+            <pub-id pub-id-type="pmid">22644875</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ohira</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Silcox</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Haygood</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Harper-King</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Alsharabati</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Lu</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Morgan</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name>
+                <surname>Young</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Claussen</surname>
+                <given-names>GC</given-names>
+              </name>
+              <name>
+                <surname>King</surname>
+                <given-names>PH</given-names>
+              </name>
+              <name>
+                <surname>Oh</surname>
+                <given-names>SJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Electromyography tests in patients with implanted cardiac devices are safe regardless of magnet placement.</article-title>
+            <source>Muscle Nerve</source>
+            <year>2013</year>
+            <month>Jan</month>
+            <volume>47</volume>
+            <issue>1</issue>
+            <fpage>17</fpage>
+            <page-range>17-22</page-range>
+            <pub-id pub-id-type="pmid">23042608</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schoeck</surname>
+                <given-names>AP</given-names>
+              </name>
+              <name>
+                <surname>Mellion</surname>
+                <given-names>ML</given-names>
+              </name>
+              <name>
+                <surname>Gilchrist</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Christian</surname>
+                <given-names>FV</given-names>
+              </name>
+            </person-group>
+            <article-title>Safety of nerve conduction studies in patients with implanted cardiac devices.</article-title>
+            <source>Muscle Nerve</source>
+            <year>2007</year>
+            <month>Apr</month>
+            <volume>35</volume>
+            <issue>4</issue>
+            <fpage>521</fpage>
+            <page-range>521-4</page-range>
+            <pub-id pub-id-type="pmid">17094099</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nandedkar</surname>
+                <given-names>SD</given-names>
+              </name>
+              <name>
+                <surname>Sheridan</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Bertoni</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Hiner</surname>
+                <given-names>BC</given-names>
+              </name>
+              <name>
+                <surname>Barkhaus</surname>
+                <given-names>PE</given-names>
+              </name>
+            </person-group>
+            <article-title>Deep brain stimulator artifact in needle electromyography: effects and distribution in paraspinal and upper limb muscle.</article-title>
+            <source>Muscle Nerve</source>
+            <year>2013</year>
+            <month>Apr</month>
+            <volume>47</volume>
+            <issue>4</issue>
+            <fpage>561</fpage>
+            <page-range>561-5</page-range>
+            <pub-id pub-id-type="pmid">23463685</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tankisi</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Burke</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Cui</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>de Carvalho</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kuwabara</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Nandedkar</surname>
+                <given-names>SD</given-names>
+              </name>
+              <name>
+                <surname>Rutkove</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>St&#x000e5;lberg</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>van Putten</surname>
+                <given-names>MJAM</given-names>
+              </name>
+              <name>
+                <surname>Fuglsang-Frederiksen</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Standards of instrumentation of EMG.</article-title>
+            <source>Clin Neurophysiol</source>
+            <year>2020</year>
+            <month>Jan</month>
+            <volume>131</volume>
+            <issue>1</issue>
+            <fpage>243</fpage>
+            <page-range>243-258</page-range>
+            <pub-id pub-id-type="pmid">31761717</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>McClellan</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>McLaughlin</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Quality in Electrodiagnostic Studies: A Guide for Referring Physicians.</article-title>
+            <source>Mo Med</source>
+            <year>2019</year>
+            <season>Sep-Oct</season>
+            <volume>116</volume>
+            <issue>5</issue>
+            <fpage>366</fpage>
+            <page-range>366-368</page-range>
+            <pub-id pub-id-type="pmid">31645784</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Valls-Sole</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Leote</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Pereira</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Antidromic vs orthodromic sensory median nerve conduction studies.</article-title>
+            <source>Clin Neurophysiol Pract</source>
+            <year>2016</year>
+            <volume>1</volume>
+            <fpage>18</fpage>
+            <page-range>18-25</page-range>
+            <pub-id pub-id-type="pmid">30214955</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Raynor</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name>
+                <surname>Ross</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Shefner</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Preston</surname>
+                <given-names>DC</given-names>
+              </name>
+            </person-group>
+            <article-title>Differentiation between axonal and demyelinating neuropathies: identical segments recorded from proximal and distal muscles.</article-title>
+            <source>Muscle Nerve</source>
+            <year>1995</year>
+            <month>Apr</month>
+            <volume>18</volume>
+            <issue>4</issue>
+            <fpage>402</fpage>
+            <page-range>402-8</page-range>
+            <pub-id pub-id-type="pmid">7715625</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yuasa</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Kishi</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Harabuchi</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Eguchi</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Arata</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Fujita</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Miyake</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>[Effects of age and skin temperature on peripheral nerve conduction velocity--a basic study for nerve conduction velocity measurement in worksite].</article-title>
+            <source>Sangyo Eiseigaku Zasshi</source>
+            <year>1996</year>
+            <month>Jul</month>
+            <volume>38</volume>
+            <issue>4</issue>
+            <fpage>158</fpage>
+            <page-range>158-64</page-range>
+            <pub-id pub-id-type="pmid">8865859</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Soudmand</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Ward</surname>
+                <given-names>LC</given-names>
+              </name>
+              <name>
+                <surname>Swift</surname>
+                <given-names>TR</given-names>
+              </name>
+            </person-group>
+            <article-title>Effect of height on nerve conduction velocity.</article-title>
+            <source>Neurology</source>
+            <year>1982</year>
+            <month>Apr</month>
+            <volume>32</volume>
+            <issue>4</issue>
+            <fpage>407</fpage>
+            <page-range>407-10</page-range>
+            <pub-id pub-id-type="pmid">7199664</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Al-Shekhlee</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Shapiro</surname>
+                <given-names>BE</given-names>
+              </name>
+              <name>
+                <surname>Preston</surname>
+                <given-names>DC</given-names>
+              </name>
+            </person-group>
+            <article-title>Iatrogenic complications and risks of nerve conduction studies and needle electromyography.</article-title>
+            <source>Muscle Nerve</source>
+            <year>2003</year>
+            <month>May</month>
+            <volume>27</volume>
+            <issue>5</issue>
+            <fpage>517</fpage>
+            <page-range>517-26</page-range>
+            <pub-id pub-id-type="pmid">12707972</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kim</surname>
+                <given-names>KH</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>GY</given-names>
+              </name>
+              <name>
+                <surname>Lim</surname>
+                <given-names>SG</given-names>
+              </name>
+              <name>
+                <surname>Park</surname>
+                <given-names>BK</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>DH</given-names>
+              </name>
+            </person-group>
+            <article-title>A More Precise Electromyographic Needle Approach for Examination of the Rhomboid Major.</article-title>
+            <source>PM R</source>
+            <year>2018</year>
+            <month>Dec</month>
+            <volume>10</volume>
+            <issue>12</issue>
+            <fpage>1380</fpage>
+            <page-range>1380-1384</page-range>
+            <pub-id pub-id-type="pmid">29783066</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bartl</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Krahn</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Riggert</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Paulus</surname>
+                <given-names>W</given-names>
+              </name>
+            </person-group>
+            <article-title>Needle EMG induced muscle bleeding complication after guideline approved discontinuation of anticoagulation.</article-title>
+            <source>Clin Neurophysiol Pract</source>
+            <year>2021</year>
+            <volume>6</volume>
+            <fpage>109</fpage>
+            <page-range>109-114</page-range>
+            <pub-id pub-id-type="pmid">33981918</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151186.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Izzo</surname>
+                <given-names>KL</given-names>
+              </name>
+              <name>
+                <surname>Aravabhumi</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical electromyography. Principles and practice.</article-title>
+            <source>Clin Podiatr Med Surg</source>
+            <year>1990</year>
+            <month>Jan</month>
+            <volume>7</volume>
+            <issue>1</issue>
+            <fpage>179</fpage>
+            <page-range>179-94</page-range>
+            <pub-id pub-id-type="pmid">2405986</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

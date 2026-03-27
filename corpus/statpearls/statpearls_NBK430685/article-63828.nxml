@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-63828" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Learning Taxonomies in Medical Simulation</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Orgill</surname>
+            <given-names>Britlyn D.</given-names>
+          </name>
+          <aff>Massachusetts General Hospital, Harvard Medical School</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Nolin</surname>
+            <given-names>James</given-names>
+          </name>
+          <aff>Alabama College of Osteopathic Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Britlyn Orgill declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>James Nolin declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>13</day>
+          <month>9</month>
+          <year>2022</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-63828.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Benjamin Bloom and colleagues&#x000a0;published the <italic toggle="yes">Taxonomy of Educational Objectives</italic> in 1956, the foundation&#x000a0;for educational objectives&#x000a0;and learning goals. Bloom's taxonomy&#x000a0;created&#x000a0;a common language&#x000a0;such that learning materials could be compared between institutions&#x000a0;and provided&#x000a0;a way to&#x000a0;assess what a curriculum offered within the learning domain. Based on this work, the 3 learning domains are&#x000a0;cognitive, affective, and psychomotor. See <bold>Image.&#x000a0;</bold>Bloom's Taxonomy.</p>
+        <p>Bloom's taxonomy is specific to the cognitive domain&#x000a0;and presents a hierarchical structure with&#x000a0;6 levels of learning:&#x000a0;</p>
+        <list list-type="order">
+          <list-item>
+            <p>Knowledge&#x000a0;(lowest level)</p>
+          </list-item>
+          <list-item>
+            <p>Comprehension</p>
+          </list-item>
+          <list-item>
+            <p>Application</p>
+          </list-item>
+          <list-item>
+            <p>Analysis</p>
+          </list-item>
+          <list-item>
+            <p>Synthesis</p>
+          </list-item>
+          <list-item>
+            <p>Evaluation&#x000a0;(highest level)</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Revised Edition</bold>
+</p>
+        <p>Bloom's taxonomy&#x000a0;was revised in 2001 by&#x000a0;Lorin&#x000a0;Anderson and&#x000a0;David&#x000a0;Krathwohl&#x000a0;(one of the authors of the original taxonomy). Regarding&#x000a0;this revision,&#x000a0;Krathwohl&#x000a0;commented on how&#x000a0;Bloom's&#x000a0;taxonomy&#x000a0;went from a unidimensional ladder of cognitive processes to a 2-dimensional structure of mental processes and types of knowledge. The knowledge dimension consisted of&#x000a0;factual knowledge, conceptual knowledge, procedural knowledge, and metacognitive knowledge&#x000a0;subtypes. The&#x000a0;dimension of cognitive processes&#x000a0;resembled&#x000a0;the original&#x000a0;taxonomy, with&#x000a0;6 levels,&#x000a0;but the names&#x000a0;were changed from nouns to verbs:</p>
+        <list list-type="order">
+          <list-item>
+            <p>Remember</p>
+          </list-item>
+          <list-item>
+            <p>Understand</p>
+          </list-item>
+          <list-item>
+            <p>Apply</p>
+          </list-item>
+          <list-item>
+            <p>Analyze</p>
+          </list-item>
+          <list-item>
+            <p>Evaluate</p>
+          </list-item>
+          <list-item>
+            <p>Create&#x000a0;<xref ref-type="bibr" rid="article-63828.r1">[1]</xref></p>
+          </list-item>
+        </list>
+        <p>
+<bold>Fink's&#x000a0;Taxonomy</bold>
+</p>
+        <p>Since Bloom's taxonomy was developed,&#x000a0;additional taxonomies have been&#x000a0;created for the cognitive, affective, and psychomotor domains. New taxonomies will continue to be designed to fit broader educational needs. One example of another taxonomy is Fink's <italic toggle="yes">Taxonomy of Significant Learning</italic>, which also consists of&#x000a0;6 parts:</p>
+        <list list-type="order">
+          <list-item>
+            <p>Learning how to learn</p>
+          </list-item>
+          <list-item>
+            <p>Foundational knowledge</p>
+          </list-item>
+          <list-item>
+            <p>Application</p>
+          </list-item>
+          <list-item>
+            <p>Integration</p>
+          </list-item>
+          <list-item>
+            <p>Human dimension</p>
+          </list-item>
+          <list-item>
+            <p>Caring&#x000a0;<xref ref-type="bibr" rid="article-63828.r2">[2]</xref></p>
+          </list-item>
+        </list>
+        <p>These taxonomies can help guide the creation of curriculum learning objectives&#x000a0;and reveal what a curriculum might be lacking. In medical education,&#x000a0;learning objectives often focus on knowledge more than the other domains.<xref ref-type="bibr" rid="article-63828.r3">[3]</xref>&#x000a0;The medical simulation field comprises various educational tools and approaches that can reach learning objectives across all&#x000a0;3 academic domains.&#x000a0;</p>
+      </sec>
+      <sec id="article-63828.s2" sec-type="Curriculum Development">
+        <title>Curriculum Development</title>
+        <p>Educational taxonomies, including Bloom's, can be used to develop educational objectives for a curriculum and identify pieces that may be missing from an existing curriculum. Bloom's taxonomy is&#x000a0;often presented with examples of verbs corresponding to each level, which can aid in identifying where a learning objective fits in the taxonomy. The revised taxonomy can be shown in a 4x6 table with knowledge and cognitive processes axes. The revised taxonomy has&#x000a0;4 kinds of knowledge:</p>
+        <list list-type="order">
+          <list-item>
+            <p><bold>Factual:</bold> Knowledge of terminology and specific details</p>
+          </list-item>
+          <list-item>
+            <p><bold>Conceptual:</bold> Knowledge of classifications, categories, principles, and theories</p>
+          </list-item>
+          <list-item>
+            <p><bold>Procedural:</bold>&#x000a0;Knowledge of subject-specific skills and techniques</p>
+          </list-item>
+          <list-item>
+            <p><bold>Metacognitive:</bold>&#x000a0;knowledge about oneself and knowledge about cognition</p>
+          </list-item>
+        </list>
+        <p>Considering these different types of knowledge against cognitive processes&#x000a0;can help create learning objectives that move beyond recalling factual knowledge.<xref ref-type="bibr" rid="article-63828.r4">[4]</xref>&#x000a0; Often, curricula overemphasize the lower levels of Bloom's taxonomy and knowledge subtypes.</p>
+        <p>
+<bold>Zheng et al</bold>
+</p>
+        <p>Zheng et al applied Bloom's taxonomy to show how first-year medical school courses in biology have exam questions focused on the knowledge, comprehension, and application levels of learning, whereas the MCAT had more high-level questions.<xref ref-type="bibr" rid="article-63828.r5">[5]</xref>&#x000a0;The art of medicine encompasses more than knowledge regurgitation, and using learning taxonomies can ensure that a curriculum moves learners beyond just remembering and recalling. Furthermore, aside from needing to function at higher levels in the cognitive domain, medicine calls for both emotional intelligence and fine motor abilities.&#x000a0;&#x000a0;</p>
+        <p>
+<bold>Simulation Scenarios</bold>
+</p>
+        <p>Simulation can incorporate the full breadth of educational opportunities&#x000a0;as learners are placed into seemingly real-life scenarios. Therefore, all 3&#x000a0; cognitive, affective, and psychomotor learning domains should be considered when designing a simulation scenario for medical education.<xref ref-type="bibr" rid="article-63828.r6">[6]</xref>&#x000a0;For example, a cognitive domain objective could be having the learner demonstrate proper calculations to get a particular drug concentration. An aim of showing adequate communication with other team members would be in the affective domain. An aim to show how to draw up a medication correctly would fall into the psychomotor domain.<xref ref-type="bibr" rid="article-63828.r7">[7]</xref>&#x000a0;Therefore, when creating a simulation, one can consider learning objectives beyond Bloom's traditional taxonomy and, in turn, encompass the full breadth of educational opportunity.</p>
+        <p>
+<bold>McIvor et al</bold>
+</p>
+        <p>Taxonomies can be used to facilitate&#x000a0;communication&#x000a0;across institutions about learning materials. Many educational taxonomies have been created since the original Bloom's taxonomy in 1956, and more continue to be developed. For example, in a multicenter trial, McIvor et al showed how creating a new taxonomy could compare how different simulation centers executed a standardized simulation.<xref ref-type="bibr" rid="article-63828.r8">[8]</xref>&#x000a0;This&#x000a0;topic demonstrates how new taxonomies can be developed to fill an educational gap.&#x000a0;</p>
+      </sec>
+      <sec id="article-63828.s3" sec-type="Procedural Skills Assessment&#x0000d;&#x0000a;">
+        <title>Procedural Skills Assessment
+</title>
+        <p>Teaching motor skills is incredibly important in medicine so learners are competent in performing procedures. Using the affective and psychomotor learning and cognitive domains can help improve curriculums for procedural-based specialties.<xref ref-type="bibr" rid="article-63828.r9">[9]</xref>&#x000a0;</p>
+        <p>
+<bold>Dave's Psychomotor Taxonomy</bold>
+</p>
+        <p>When creating a simulation for a surgical specialty, it might be helpful to use Dave's psychomotor taxonomy to help develop relevant learning objectives:<xref ref-type="bibr" rid="article-63828.r10">[10]</xref></p>
+        <list list-type="order">
+          <list-item>
+            <p>Imitation</p>
+          </list-item>
+          <list-item>
+            <p>Manipulation</p>
+          </list-item>
+          <list-item>
+            <p>Practical precision</p>
+          </list-item>
+          <list-item>
+            <p>Articulation</p>
+          </list-item>
+          <list-item>
+            <p>Naturalization&#x000a0;<xref ref-type="bibr" rid="article-63828.r10">[10]</xref></p>
+          </list-item>
+        </list>
+        <p>
+<bold>Simpson's Taxonomy</bold>
+</p>
+        <p>Another taxonomy devised for the psychomotor domain is Simpson's taxonomy, which presents&#x000a0;7 categories:</p>
+        <list list-type="order">
+          <list-item>
+            <p>Perception</p>
+          </list-item>
+          <list-item>
+            <p>Set</p>
+          </list-item>
+          <list-item>
+            <p>Guided response</p>
+          </list-item>
+          <list-item>
+            <p>Mechanism</p>
+          </list-item>
+          <list-item>
+            <p>Complex overt response</p>
+          </list-item>
+          <list-item>
+            <p>Adaptation</p>
+          </list-item>
+          <list-item>
+            <p>Origination&#x000a0;<xref ref-type="bibr" rid="article-63828.r6">[6]</xref></p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-63828.s4" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Medical simulation provides a way to integrate multiple levels of learning taxonomies across the learning domains, which can help improve training and clinical outcomes. For example, Chan et al demonstrated a pedagogy that moves beyond the cognitive domain and includes affective elements using standardized patients.<xref ref-type="bibr" rid="article-63828.r11">[11]</xref></p>
+      </sec>
+      <sec id="article-63828.s5" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>Healthcare team training has been demonstrated to improve patient outcomes.<xref ref-type="bibr" rid="article-63828.r12">[12]</xref>&#x000a0;Furthermore, simulation can teach ethics and place learners in scenarios where they must align their actions with their values.<xref ref-type="bibr" rid="article-63828.r13">[13]</xref>&#x000a0;The affective learning domain encompasses communication and teamwork and can help create learning objectives designed to improve healthcare teams. Krathwohl presented a taxonomy for the affective domain with&#x000a0;5 levels:</p>
+        <list list-type="order">
+          <list-item>
+            <p>Receiving</p>
+          </list-item>
+          <list-item>
+            <p>Responding</p>
+          </list-item>
+          <list-item>
+            <p>Valuing</p>
+          </list-item>
+          <list-item>
+            <p>Organization</p>
+          </list-item>
+          <list-item>
+            <p>Characterization by a value or value complex&#x000a0;<xref ref-type="bibr" rid="article-63828.r6">[6]</xref>&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>Incorporating learning objectives from the affective domain and those from the cognitive domain can create a more complete and encompassing simulation scenario and drive beneficial results for students' outcomes.&#x000a0;</p>
+      </sec>
+      <sec id="article-63828.s6">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=63828&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=63828">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/63828/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=63828">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-63828.s7">
+        <fig id="article-63828.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Bloom's Taxonomy. Benjamin Bloom and colleagues published the Taxonomy of Educational Objectives in 1956, which serves as the foundation for educational objectives and learning goals. Contributed by B Orgill, MD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="stat__pearls__blooms__revised__taxonomy__table" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-63828.s8">
+        <title>References</title>
+        <ref id="article-63828.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Adams</surname>
+                <given-names>NE</given-names>
+              </name>
+            </person-group>
+            <article-title>Bloom's taxonomy of cognitive learning objectives.</article-title>
+            <source>J Med Libr Assoc</source>
+            <year>2015</year>
+            <month>Jul</month>
+            <volume>103</volume>
+            <issue>3</issue>
+            <fpage>152</fpage>
+            <page-range>152-3</page-range>
+            <pub-id pub-id-type="pmid">26213509</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63828.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Branzetti</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Gisondi</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Hopson</surname>
+                <given-names>LR</given-names>
+              </name>
+              <name>
+                <surname>Regan</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Aiming Beyond Competent: The Application of the Taxonomy of Significant Learning to Medical Education.</article-title>
+            <source>Teach Learn Med</source>
+            <year>2019</year>
+            <season>Aug-Sep</season>
+            <volume>31</volume>
+            <issue>4</issue>
+            <fpage>466</fpage>
+            <page-range>466-478</page-range>
+            <pub-id pub-id-type="pmid">30686049</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63828.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>L&#x000e9;gar&#x000e9;</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Freitas</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Thompson-Leduc</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Borduas</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Luconi</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Boucher</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Witteman</surname>
+                <given-names>HO</given-names>
+              </name>
+              <name>
+                <surname>Jacques</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>The majority of accredited continuing professional development activities do not target clinical behavior change.</article-title>
+            <source>Acad Med</source>
+            <year>2015</year>
+            <month>Feb</month>
+            <volume>90</volume>
+            <issue>2</issue>
+            <fpage>197</fpage>
+            <page-range>197-202</page-range>
+            <pub-id pub-id-type="pmid">25354076</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63828.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Su</surname>
+                <given-names>WM</given-names>
+              </name>
+              <name>
+                <surname>Osisek</surname>
+                <given-names>PJ</given-names>
+              </name>
+            </person-group>
+            <article-title>The Revised Bloom's Taxonomy: implications for educating nurses.</article-title>
+            <source>J Contin Educ Nurs</source>
+            <year>2011</year>
+            <month>Jul</month>
+            <volume>42</volume>
+            <issue>7</issue>
+            <fpage>321</fpage>
+            <page-range>321-7</page-range>
+            <pub-id pub-id-type="pmid">21707023</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63828.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zheng</surname>
+                <given-names>AY</given-names>
+              </name>
+              <name>
+                <surname>Lawhorn</surname>
+                <given-names>JK</given-names>
+              </name>
+              <name>
+                <surname>Lumley</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Freeman</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Assessment. Application of Bloom's taxonomy debunks the "MCAT myth".</article-title>
+            <source>Science</source>
+            <year>2008</year>
+            <month>Jan</month>
+            <day>25</day>
+            <volume>319</volume>
+            <issue>5862</issue>
+            <fpage>414</fpage>
+            <page-range>414-5</page-range>
+            <pub-id pub-id-type="pmid">18218880</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63828.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Menix</surname>
+                <given-names>KD</given-names>
+              </name>
+            </person-group>
+            <article-title>Domains of learning: interdependent components of achievable learning outcomes.</article-title>
+            <source>J Contin Educ Nurs</source>
+            <year>1996</year>
+            <season>Sep-Oct</season>
+            <volume>27</volume>
+            <issue>5</issue>
+            <fpage>200</fpage>
+            <page-range>200-8</page-range>
+            <pub-id pub-id-type="pmid">9025407</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63828.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Taekman</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Hobbs</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Barber</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Phillips-Bute</surname>
+                <given-names>BG</given-names>
+              </name>
+              <name>
+                <surname>Wright</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Newman</surname>
+                <given-names>MF</given-names>
+              </name>
+              <name>
+                <surname>Stafford-Smith</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Preliminary report on the use of high-fidelity simulation in the training of study coordinators conducting a clinical research protocol.</article-title>
+            <source>Anesth Analg</source>
+            <year>2004</year>
+            <month>Aug</month>
+            <volume>99</volume>
+            <issue>2</issue>
+            <fpage>521</fpage>
+            <page-range>521-7, table of contents</page-range>
+            <pub-id pub-id-type="pmid">15271733</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63828.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>McIvor</surname>
+                <given-names>WR</given-names>
+              </name>
+              <name>
+                <surname>Banerjee</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Boulet</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Bekhuis</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Tseytlin</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Torsher</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>DeMaria</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Rask</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Shotwell</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Burden</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Cooper</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Gaba</surname>
+                <given-names>DM</given-names>
+              </name>
+              <name>
+                <surname>Levine</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Park</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Sinz</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Steadman</surname>
+                <given-names>RH</given-names>
+              </name>
+              <name>
+                <surname>Weinger</surname>
+                <given-names>MB</given-names>
+              </name>
+            </person-group>
+            <article-title>A Taxonomy of Delivery and Documentation Deviations During Delivery of High-Fidelity Simulations.</article-title>
+            <source>Simul Healthc</source>
+            <year>2017</year>
+            <month>Feb</month>
+            <volume>12</volume>
+            <issue>1</issue>
+            <fpage>1</fpage>
+            <page-range>1-8</page-range>
+            <pub-id pub-id-type="pmid">28146449</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63828.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kumar</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Rahman</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Adds</surname>
+                <given-names>PJ</given-names>
+              </name>
+            </person-group>
+            <article-title>An effective and novel method for teaching applied facial anatomy and related procedural skills to esthetic physicians.</article-title>
+            <source>Adv Med Educ Pract</source>
+            <year>2018</year>
+            <volume>9</volume>
+            <fpage>905</fpage>
+            <page-range>905-913</page-range>
+            <pub-id pub-id-type="pmid">30574007</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63828.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Costa</surname>
+                <given-names>GOFD</given-names>
+              </name>
+              <name>
+                <surname>Rocha</surname>
+                <given-names>HAL</given-names>
+              </name>
+              <name>
+                <surname>Moura J&#x000fa;nior</surname>
+                <given-names>LG</given-names>
+              </name>
+              <name>
+                <surname>Medeiros</surname>
+                <given-names>FDC</given-names>
+              </name>
+            </person-group>
+            <article-title>Taxonomy of educational objectives and learning theories in the training of laparoscopic surgical techniques in a simulation environment.</article-title>
+            <source>Rev Col Bras Cir</source>
+            <year>2018</year>
+            <month>Oct</month>
+            <day>18</day>
+            <volume>45</volume>
+            <issue>5</issue>
+            <fpage>e1954</fpage>
+            <pub-id pub-id-type="pmid">30379217</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63828.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chan</surname>
+                <given-names>KD</given-names>
+              </name>
+              <name>
+                <surname>Humphreys</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Mey</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Holland</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Rogers</surname>
+                <given-names>GD</given-names>
+              </name>
+            </person-group>
+            <article-title>Beyond communication training: The MaRIS model for developing medical students' human capabilities and personal resilience.</article-title>
+            <source>Med Teach</source>
+            <year>2020</year>
+            <month>Feb</month>
+            <volume>42</volume>
+            <issue>2</issue>
+            <fpage>187</fpage>
+            <page-range>187-195</page-range>
+            <pub-id pub-id-type="pmid">31608726</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63828.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hughes</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Gregory</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Joseph</surname>
+                <given-names>DL</given-names>
+              </name>
+              <name>
+                <surname>Sonesh</surname>
+                <given-names>SC</given-names>
+              </name>
+              <name>
+                <surname>Marlow</surname>
+                <given-names>SL</given-names>
+              </name>
+              <name>
+                <surname>Lacerenza</surname>
+                <given-names>CN</given-names>
+              </name>
+              <name>
+                <surname>Benishek</surname>
+                <given-names>LE</given-names>
+              </name>
+              <name>
+                <surname>King</surname>
+                <given-names>HB</given-names>
+              </name>
+              <name>
+                <surname>Salas</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Saving lives: A meta-analysis of team training in healthcare.</article-title>
+            <source>J Appl Psychol</source>
+            <year>2016</year>
+            <month>Sep</month>
+            <volume>101</volume>
+            <issue>9</issue>
+            <fpage>1266</fpage>
+            <page-range>1266-304</page-range>
+            <pub-id pub-id-type="pmid">27599089</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63828.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Krautscheid</surname>
+                <given-names>LC</given-names>
+              </name>
+            </person-group>
+            <article-title>Embedding Microethical Dilemmas in High-Fidelity Simulation Scenarios: Preparing Nursing Students for Ethical Practice.</article-title>
+            <source>J Nurs Educ</source>
+            <year>2017</year>
+            <month>Jan</month>
+            <day>01</day>
+            <volume>56</volume>
+            <issue>1</issue>
+            <fpage>55</fpage>
+            <page-range>55-58</page-range>
+            <pub-id pub-id-type="pmid">28118477</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

@@ -1,0 +1,2316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-20511" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Diffusion Tensor Imaging</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Ranzenberger</surname>
+            <given-names>Logan R.</given-names>
+          </name>
+          <aff>Michigan State Un, McLaren Health</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Das</surname>
+            <given-names>Joe M.</given-names>
+          </name>
+          <aff>Imperial College Healthcare NHS Trust, London</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Snyder</surname>
+            <given-names>Travis</given-names>
+          </name>
+          <aff>Touro</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Logan Ranzenberger declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Joe Das declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Travis Snyder declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>12</day>
+          <month>11</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-20511.s1" sec-type="Continuing Education Activity">
+        <title>Continuing Education Activity</title>
+        <p>Diffusion tensor imaging is an advanced magnetic resonance imaging modality that uses the Brownian motion of water molecules to provide data for images. This cutting-edge neuroimaging technique has allowed exploration of the intricate architecture of the brain. By capturing the direction and magnitude of water diffusion, DTI enables the visualization of neural pathways and connectivity, making it an indispensable tool for understanding brain anatomy, function, and pathology. This noninvasive and highly sensitive imaging method has opened new frontiers in neuroscience, clinical medicine, and research, shedding light on conditions such as traumatic brain injury, neurodegenerative diseases, and neurodevelopmental disorders. Diffusion tensor imaging has been shown to&#x000a0;assist with increased sensitivity and improved identification of pathology earlier in its process. This activity outlines the clinical significance and issues of concern with a relatively young and diagnostically powerful submodality of magnetic resonance imaging.</p>
+        <p>
+<bold>Objectives:</bold>
+<list list-type="bullet"><list-item><p>Identify the clinical significance of diffusion tensor imaging.</p></list-item><list-item><p>Assess&#x000a0;the physics of diffusion tensor imaging.</p></list-item><list-item><p>Identify the issues of concern for diffusion tensor imaging.</p></list-item><list-item><p>Collaborate&#x000a0;amongst&#x000a0;an interprofessional team to enhance awareness and utilization of this relatively new and diagnostically powerful submodality of magnetic resonance imaging, diffusion tensor imaging.</p></list-item></list>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=20511&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=20511">Access free multiple choice questions on this topic.</ext-link>
+</p>
+      </sec>
+      <sec id="article-20511.s2" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Advanced magnetic resonance (MR) neuroimaging modalities are becoming more available and useful as their value in the diagnosis and prognosis of central nervous system diseases&#x000a0;is more fully studied and understood. Specifically, diffusion tensor imaging (DTI) has become increasingly studied and utilized in recent years. It has become incorporated by many radiologists into routine clinical practice, with most research performed on traumatic brain injury (TBI). DTI is a variant of diffusion-weighted imaging (DWI) that utilizes a tissue water diffusion rate for image production. The first application of DWI to the human brain was performed in 1986 and since has become the gold standard for detecting acute stroke.<xref ref-type="bibr" rid="article-20511.r1">[1]</xref> DTI does not require contrast and is available on almost all modern MR scanners with relatively quick scan times for this sequence.<xref ref-type="bibr" rid="article-20511.r2">[2]</xref></p>
+        <p>Random thermal motion, or Brownian motion, is water molecular diffusion in three-dimensional (3D) space. Isotropy is defined as uniformity in all directions, and when applied to water molecules, isotropy occurs when the diffusion of water is entirely&#x000a0;uninhibited (such as water movement in a glass of water). Anisotropy is when there is a directionality in the diffusion of water present, and the movement of water is no longer random (such as water movement along straws placed in a glass). The greater the anisotropy, the more directional and linear the diffusion of water molecules.&#x000a0;Water molecules will diffuse differently through space depending on the tissue type, components, structure, architecture, and integrity;&#x000a0;these principles allow clinically significant imaging to occur, particularly the&#x000a0;DTI. The latter&#x000a0;measures the movement of water along axons, analogous to the straws in a glass of water.</p>
+        <p>As early as May 2002, medical literature reported that DTI showed abnormalities in patients who suffered from mild brain trauma as compared to normal control subjects. "This study included five patients with mild traumatic brain injury (three men and two women) and ten volunteers with no known neurological disorders (five men and five women)." This study reported abnormalities in the patients with a mild brain injury that were absent in the control subjects or the uninvolved sides of the injured patients' brains: "Patients displayed a significant reduction of diffusion anisotropy in several regions compared with the homologous ones in the contralateral hemisphere. Such differences were not observed in the control subjects. Significant reduction of diffusion anisotropy was also detected when diffusion tensor results from the patients were compared with those of the controls."<xref ref-type="bibr" rid="article-20511.r3">[3]</xref></p>
+        <p>DWI uses volume elements (voxels) as a statistical method for data collection. When a voxel contains scalar values constituting a vector, it is known as a tensor, where DTI receives its name and explains the additional information provided through DTI.<xref ref-type="bibr" rid="article-20511.r4">[4]</xref>&#x000a0;DTI MR settings can measure the diffusion of water along an axon in many directions; 6, 9, 33, and 90 directions are typical parameters used, with 33 directions and above increasing confidence in the accuracy. Ninety directions typically require upwards of 20 additional minutes in the MR scanner. Therefore, it may not be suitable for routine clinical practice. In effect, DTI will provide an indirect method of assessing neuroanatomy structure on a microscopic level using water molecules' degree of&#x000a0;anisotropy and structural orientation within a voxel. Therefore, the principal application for DTI is in the imaging of white matter, where the orientation, location, and anisotropy of the tracts can be&#x000a0;measured and evaluated. The architecture of the axons in parallel bundles and their myelin sheaths facilitate the diffusion of the water molecules preferentially along their main direction.</p>
+        <p>There are several measures calculated using DTI that can provide quantitative power. One of the most widely used DTI measures is fractional anisotropy (FA).<xref ref-type="bibr" rid="article-20511.r5">[5]</xref>&#x000a0;Others include mean diffusivity or apparent diffusion coefficient (ADC), radial (perpendicular) diffusivity, and axial (parallel) diffusivity. DTI uses mean diffusivity for the rate of molecular diffusion, FA for the summative direction of the diffusion, which provides a prominent vector, axial diffusivity for the rate of diffusion parallel to the main vector, and radial diffusivity for the rate of diffusion perpendicular to the main vector.</p>
+        <p>FA quantifies the directionality of diffusivity in a summative manner and is highly sensitive to change in microstructure; however, it can be nonspecific to the cause of change. Mean diffusivity quantifies cellular and membrane density, whereas an&#x000a0;increase in mean diffusivity indicates disease processes such as edema or necrosis. Radial diffusivity quantifies myelin neuropathology and increases with demyelination. Axial diffusivity quantifies axonal degeneration and increases with brain maturation.<xref ref-type="bibr" rid="article-20511.r6">[6]</xref><xref ref-type="bibr" rid="article-20511.r7">[7]</xref></p>
+        <p>FA values are numerical values based on the anisotropy of water along the axon, which reflects the health of the axon. Abnormal FA values indicate axonal damage. FA values can be calculated utilizing the region of interest (ROI) method, whole-brain analysis (Voxel-Based analysis), or tract-based spatial statistics. The whole-brain analysis is gaining popularity due to its automation and ability to analyze more tracts. The ROI method, where the regions to be analyzed are traced by a technologist and then analyzed by a computer, remains reliable and replicable.<xref ref-type="bibr" rid="article-20511.r8">[8]</xref><xref ref-type="bibr" rid="article-20511.r9">[9]</xref><xref ref-type="bibr" rid="article-20511.r10">[10]</xref><xref ref-type="bibr" rid="article-20511.r11">[11]</xref>&#x000a0;One of the more common and standardized ROI methods is the segmented corpus callosal values.<xref ref-type="bibr" rid="article-20511.r12">[12]</xref><xref ref-type="bibr" rid="article-20511.r13">[13]</xref><xref ref-type="bibr" rid="article-20511.r14">[14]</xref>&#x000a0;Being the largest axonal tract in the brain, damage to the corpus callosum is well described following head trauma and other pathologies (see <bold>Image.</bold> DTI of Corpus Callosum).<xref ref-type="bibr" rid="article-20511.r15">[15]</xref></p>
+        <p>FA values can vary depending on which of the above&#x000a0;3 analyzing methods is used and other factors such as MR technique and type of post-processing performed.<xref ref-type="bibr" rid="article-20511.r5">[5]</xref> Utilizing a standardized technique, FA values are highly reproducible and not technologist-dependent. They can be subjectively interpreted by a radiologist and roughly compared to select values in the literature.</p>
+        <p>Pediatric normal values are slightly less than those of adults. However, most changes occur by age 5, and 90% of adult FA values are achieved by 11 years of age in the corpus callosum.<xref ref-type="bibr" rid="article-20511.r16">[16]</xref>&#x000a0;After adulthood, FA values tend to&#x000a0;decrease with age linearly.</p>
+        <p>Additionally, FA values comparison across different scanners is now possible, even if those scanners utilize different techniques. This is achieved using 'human phantom phenomena' where a single subject is scanned on&#x000a0;2 different scanners, enabling a comparison between scanners by a scaling factor or even to normative databases performed on a different scanner(s).<xref ref-type="bibr" rid="article-20511.r17">[17]</xref><xref ref-type="bibr" rid="article-20511.r18">[18]</xref></p>
+        <p>Three-dimensional reconstructions of the tensor tracts are accomplished with computer modeling and can beautifully illustrate the fiber tracts identify pathology, and aid neurosurgeons (see <bold>Image.</bold>&#x000a0;3D Reconstructed DTI Image of Patient with Bilateral Post-Traumatic Frontal Contusions Compared to a Normal 3D DTI).</p>
+      </sec>
+      <sec id="article-20511.s3" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>DTI is generally&#x000a0;sensitive but has a lower specificity. Specificity can be increased by combining the interpretation of DTI with the patient's clinical history and the other findings on conventional imaging.</p>
+        <p>
+<bold>Artifacts and Noise</bold>
+</p>
+        <p>Artifacts are seen in all imaging modalities, including submodalities of magnetic resonance imaging (MRI), and have many causes. Artifacts can result in misinterpretation of imaging findings if the radiologist is unaware of these artifacts. With a thorough understanding of artifacts associated with DTI, measures should be taken to decrease the artifacts and to become more aware of unavoidable artifacts.</p>
+        <p>A limitation of DTI is that it currently&#x000a0;has a low signal-to-noise ratio (SNR),&#x000a0;which may increase scanning times. SNR compares the level of background noise to the level of the signal obtained. When the noise is too great compared to the signal (low SNR), image quality is poor. Two ways to improve this signal-to-noise ratio are to either increase scan times or reduce image resolution.<xref ref-type="bibr" rid="article-20511.r19">[19]</xref>&#x000a0;Long scan times can result in patient motion artifacts, which also can cause artifacts.</p>
+        <p>Voxels continue to decrease in size, but a current limitation in DTI is the size of voxels. Low anisotropy shown in a particular voxel may seem to represent unorganized tissue contained within. However, this may just be apparent, and what&#x000a0;actually&#x000a0;lies in the specific voxel is multiple anisotropic structures orientated in multiple directions, resulting in isotropy. This means that diffusion anisotropy will only show on DTI when all structures coursing a voxel align on a microscopic (microstructure, myelin sheath, protein filaments) and macroscopic (axons and dendrites) scale. In the cortex, low FA occurs because of macroscopic disorganization. As image resolution improves, the cortex will likely show higher patterns of anisotropy.</p>
+        <p>Other causes resulting in artifacts can include eddy currents and motion. Changing data acquisition methods can help decrease these artifacts.<xref ref-type="bibr" rid="article-20511.r20">[20]</xref></p>
+        <p>
+<bold>Acceptance</bold>
+</p>
+        <p>DTI has now moved beyond investigational research and is becoming incorporated into routine clinical practice. However, some have urged caution in interpreting DTI and other advanced imaging sequences at the individual level, including a 2018 Radiological Society of North America (RSNA) guideline statement.<xref ref-type="bibr" rid="article-20511.r21">[21]</xref><xref ref-type="bibr" rid="article-20511.r22">[22]</xref>&#x000a0;A minority of studies have not found a relationship between DTI and mild TBI, although the majority of the literature is supportive.<xref ref-type="bibr" rid="article-20511.r23">[23]</xref>&#x000a0;Given the different techniques for performing DTI and the wide variety of applications, this caution&#x000a0;is well-taken. However,&#x000a0;if the interpreting radiologist has experience in DTI and has developed a standardized, replicable technique concordant with the literature, particularly if a trauma database or normative database is available, these valid criticisms become moot, and DTI can be interpreted in individual patients. This approach has backing in the literature, and studies performed on individual patients demonstrate reproducibility and accuracy in diagnosing individual patients with TBI.<xref ref-type="bibr" rid="article-20511.r24">[24]</xref><xref ref-type="bibr" rid="article-20511.r25">[25]</xref><xref ref-type="bibr" rid="article-20511.r26">[26]</xref>&#x000a0;Specifically, DTI is most powerful when interpreted in concert with the clinical history and other findings on conventional imaging. The most comprehensive peer-review article on TBI and DTI concluded the following:</p>
+        <p>"Despite significant variability in sample characteristics, technical aspects of imaging, and analysis approaches, the consensus is that DTI effectively&#x000a0;differentiates patients with TBI and controls, regardless of the severity and timeframe following injury. Furthermore, many have established a relationship between DTI measures and TBI outcomes."<xref ref-type="bibr" rid="article-20511.r5">[5]</xref></p>
+        <p>DTI has proven to be highly sensitive to brain injury and a variety of pathological conditions and, in many instances, is becoming a routine part of clinical practice. Further research will continue to expand the application of DTI in evaluating neurological conditions.</p>
+      </sec>
+      <sec id="article-20511.s4" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Although much of the research on DTI has been in TBI, other applications include aid in diagnosis, prognosis, and classifications of stroke, brain tumors, neurodegenerative diseases, developmental disorders, neuropsychiatric disorders, movement disorders, and neurogenetic developmental disorders.<xref ref-type="bibr" rid="article-20511.r27">[27]</xref>&#x000a0;The following topics are a few examples of described uses of DTI.</p>
+        <p>
+<bold>TBI/Diffuse Axonal Injury</bold>
+</p>
+        <p>Diffuse axonal injury (DAI) can be seen in TBI. Diffuse axonal injury&#x000a0;is diffuse brain injury&#x000a0;damage to&#x000a0;axonal microstructures and can potentially appear normal on traditional&#x000a0;computed tomography (CT) and MRI when there is an absence of macroscopic tissue disruption. Additionally, if there are macroscopic findings of DAI on CT or MRI, it indicates poorer outcomes. A predominance of published literature on DTI is about diffuse axonal injury and its close correlation with decreased FA values throughout specified regions of the brain. The clinical effectiveness of DTI has been compared to control subjects for validation in various scenarios involving MRI to help diagnose a brain injury. There are numerous peer-reviewed and case-control studies in the medical literature allowing for individual evaluations of brain-injured patients using DTI. The comparison of cases (patients with a history of TBI) and controls (no history of TBI) utilizing DTI is an accepted methodology and standard technique utilized to demonstrate the clinical utility of DTI in adding incremental diagnostic information to structural MRI, multimodal MR studies, other imaging modalities, and the clinical condition.<xref ref-type="bibr" rid="article-20511.r28">[28]</xref><xref ref-type="bibr" rid="article-20511.r29">[29]</xref><xref ref-type="bibr" rid="article-20511.r30">[30]</xref><xref ref-type="bibr" rid="article-20511.r31">[31]</xref><xref ref-type="bibr" rid="article-20511.r23">[23]</xref> Additionally, peer-reviewed articles on DTI and TBI have demonstrated regional associations between findings on conventional imaging and FA values and 3D DTI.<xref ref-type="bibr" rid="article-20511.r32">[32]</xref></p>
+        <p>
+<bold>Carbon Monoxide Poisoning</bold>
+</p>
+        <p>DTI has utility for studying the brains of patients after carbon monoxide (CO) poisoning.<xref ref-type="bibr" rid="article-20511.r33">[33]</xref>&#x000a0;The peer-reviewed literature supports the use of DTI for identifying and longitudinally monitoring the changes in the brain that can occur secondary to CO poisoning.<xref ref-type="bibr" rid="article-20511.r34">[34]</xref>&#x000a0;DTI has been shown to demonstrate the evolution of white matter injury in CO encephalopathy progression over months and to correlate with neuropsychological deficits.<xref ref-type="bibr" rid="article-20511.r35">[35]</xref></p>
+        <p>DTI has also demonstrated evidence of demyelination with abnormal FA values in the central nervous system of patients who develop chronic neurological symptoms in the subacute phase after CO intoxication.<xref ref-type="bibr" rid="article-20511.r36">[36]</xref>&#x000a0;A decrease in FA values correlates with clinically observed neurological symptoms, and conversely, improvement in FA values&#x000a0;may&#x000a0;parallel improvement in the neurological condition.<xref ref-type="bibr" rid="article-20511.r37">[37]</xref></p>
+        <p>
+<bold>Hypoxic Brain Injury</bold>
+</p>
+        <p>A recent 2018 multicenter review article demonstrated that DTI might be more predictive of neurologic outcomes than conventional MRI in patients with cardiac arrest and hypoxic brain injury.<xref ref-type="bibr" rid="article-20511.r38">[38]</xref></p>
+        <p>
+<bold>Demyelination/Dysmyelination</bold>
+</p>
+        <p>As the brain develops, diffusivity declines, particularly in the direction myelination would be oriented.&#x000a0;Damage to the myelin sheath affects diffusivity.<xref ref-type="bibr" rid="article-20511.r39">[39]</xref>&#x000a0;DTI has been used in multiple sclerosis to monitor disease progression and correlate with clinical status.<xref ref-type="bibr" rid="article-20511.r40">[40]</xref> Suggestions are that radial diffusivity is a promising biomarker.<xref ref-type="bibr" rid="article-20511.r41">[41]</xref></p>
+        <p>
+<bold>Alzheimer disease</bold>
+</p>
+        <p>White matter diffusion alteration, measured by&#x000a0;DTI&#x000a0;in the hippocampal cingulum, correlates with tau pathology and may be a promising biomarker in preclinical Alzheimer disease.<xref ref-type="bibr" rid="article-20511.r42">[42]</xref></p>
+        <p>
+<bold>Neoplasia</bold>
+</p>
+        <p>The application of DTI in neoplasia is used mainly for surgical planning. With DTI and tractography, a more in-depth layout of neuroanatomy and specific eloquent white matter tracts can be seen, allowing a neurosurgeon to plan precise surgical approaches to minimize damage to the critical&#x000a0;tracts and preserve vital functions such as motor capabilities, language, and vision. DTI has even been used intraoperatively to compensate for shifting tissue to minimize complications.</p>
+        <p>Another application of DTI in neoplasia is using FA values. Correlations have been found between FA values and cell density. In neoplasia with high cell proliferation and density, such as glioblastomas, higher FA values have been reported.</p>
+        <p>Some neoplastic disease requires radiation, and DTI has found that FA decreases in areas targeted by radiation. Observing the changes of FA in the anatomy can potentially be used to monitor the dose distribution.</p>
+        <p>A deep convolutional neural network (deep learning) is being used in classifying the grades of gliomas based on their brain white matter networks derived from DTI.<xref ref-type="bibr" rid="article-20511.r43">[43]</xref></p>
+        <p>
+<bold>Epilepsy</bold>
+</p>
+        <p>The addition of the DTI sequence to the routine MRI protocol is&#x000a0;advantageous&#x000a0;in specific&#x000a0;pediatric patient groups with temporal lobe epilepsy or for the&#x000a0;planning of epilepsy surgery.<xref ref-type="bibr" rid="article-20511.r44">[44]</xref></p>
+        <p>
+<bold>Fetus/Neonate Imaging</bold>
+</p>
+        <p>A relatively new limb of DTI research shows correlations between DTI findings and developmental neuropathology in a fetus or neonate. Discovering the utility of DTI in fetuses and neonates has been hopeful for&#x000a0;patients with&#x000a0;limited diagnostic imaging options.<xref ref-type="bibr" rid="article-20511.r45">[45]</xref></p>
+        <p>
+<bold>Extracranial DTI Applications</bold>
+</p>
+        <p>Additional DTI applications include imaging of peripheral nerves, including the brachial plexus.<xref ref-type="bibr" rid="article-20511.r46">[46]</xref>&#x000a0;Spinal cord DTI imaging has also demonstrated promising results.<xref ref-type="bibr" rid="article-20511.r47">[47]</xref></p>
+        <p>
+<bold>White Matter Tractography and Future Research</bold>
+</p>
+        <p>Using the assumption that diffusion anisotropy represents white matter bundles, these bundles of aligned voxels can be parcellated, providing a 3D map of white matter bundle tracts. Fiber tracking or reconstruction by starting with a voxel and propagating forward following the anisotropic path until encountering isotropy is also known as tractography and can give insight into brain connectivity (see <bold>Image.</bold> Brain Tractography). Further study and mapping of these tracts, in conjunction&#x000a0;with functional MRI, resting state, and other MRI submodalities, remain topics of exciting cutting-edge research.<xref ref-type="bibr" rid="article-20511.r48">[48]</xref>&#x000a0;DTI remains in the research stage regarding neuropsychological conditions such as autism and ADHD.<xref ref-type="bibr" rid="article-20511.r49">[49]</xref><xref ref-type="bibr" rid="article-20511.r50">[50]</xref>&#x000a0;</p>
+      </sec>
+      <sec id="article-20511.s5" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>DTI&#x000a0;is a specialized diagnostic imaging tool utilizing diffusion-weighted imaging of MRI.&#x000a0;Using diffusion tensor imaging (DTI) necessitates a multifaceted approach involving various healthcare professionals, each contributing their unique skills and strategies to enhance patient-centered care, improve outcomes, ensure patient safety, and optimize interprofessional team performance. Physicians, advanced care practitioners, nurses, pharmacists, and other healthcare professionals involved in DTI must possess solid knowledge and skills in neuroimaging techniques, ensuring accurate data acquisition, analysis, and interpretation. Strategic planning is crucial in DTI, involving selecting appropriate imaging protocols and considering the clinical context of each patient, optimizing the diagnostic process and treatment decisions.</p>
+        <p>Furthermore, responsibilities extend to quality control, minimizing the risk of misdiagnosis and patient harm, and ensuring that findings are accurately reported. Interprofessional communication is essential for sharing critical information, discussing complex cases, and collectively deciding the best course of action. Effective care coordination in DTI involves seamless integration of findings into the patient's overall healthcare plan, ensuring that treatment aligns with the diagnostic results. By fostering collaboration among healthcare professionals, DTI can yield patient-centered care that not only maximizes the potential for positive outcomes but also prioritizes patient safety and team performance, making it a powerful tool in modern medicine.</p>
+        <p>Future research&#x000a0;will focus on expanding DTI's clinical utility by exploring its potential in emerging fields such as personalized medicine, neurorehabilitation, and early disease detection. Collaborations between multidisciplinary teams, including neuroscientists, radiologists, computer scientists, and clinicians, will be instrumental in pushing the boundaries of DTI and translating these advancements into real-world healthcare solutions, ultimately improving our understanding of the brain's intricacies and its implications for optimal health.</p>
+      </sec>
+      <sec id="article-20511.s6">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=20511&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=20511">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/20511/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=20511">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-20511.s7">
+        <fig id="article-20511.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>3D reconstructed DTI image on the left demonstrates marked bilateral frontal axonal thinning and fiber tract gaps in this patient with bilateral post-traumatic frontal contusions on conventional imaging. The image on right is a normal 3D DTI for comparison. Travis Snyder DO, SimonMed Centers Las Vegas NV</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="DTI__image" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-20511.s8">
+        <fig id="article-20511.image.f2" position="float" orientation="portrait">
+          <caption>
+            <p>Diffusion Tensor Imaging of Corpus Callosum Contributed by S Munakomi, MD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dti72" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-20511.s9">
+        <fig id="article-20511.image.f3" position="float" orientation="portrait">
+          <caption>
+            <p>Brain tractography Contributed by Sunil Munakomi, MD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="dti71" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-20511.s10">
+        <title>References</title>
+        <ref id="article-20511.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Le Bihan</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Breton</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Lallemand</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Grenier</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Cabanis</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Laval-Jeantet</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>MR imaging of intravoxel incoherent motions: application to diffusion and perfusion in neurologic disorders.</article-title>
+            <source>Radiology</source>
+            <year>1986</year>
+            <month>Nov</month>
+            <volume>161</volume>
+            <issue>2</issue>
+            <fpage>401</fpage>
+            <page-range>401-7</page-range>
+            <pub-id pub-id-type="pmid">3763909</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Soares</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Marques</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Alves</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Sousa</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>A hitchhiker's guide to diffusion tensor imaging.</article-title>
+            <source>Front Neurosci</source>
+            <year>2013</year>
+            <volume>7</volume>
+            <fpage>31</fpage>
+            <pub-id pub-id-type="pmid">23486659</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Arfanakis</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Cordes</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Haughton</surname>
+                <given-names>VM</given-names>
+              </name>
+              <name>
+                <surname>Carew</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Meyerand</surname>
+                <given-names>ME</given-names>
+              </name>
+            </person-group>
+            <article-title>Independent component analysis applied to diffusion tensor MRI.</article-title>
+            <source>Magn Reson Med</source>
+            <year>2002</year>
+            <month>Feb</month>
+            <volume>47</volume>
+            <issue>2</issue>
+            <fpage>354</fpage>
+            <page-range>354-63</page-range>
+            <pub-id pub-id-type="pmid">11810680</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Thaler</surname>
+                <given-names>HT</given-names>
+              </name>
+              <name>
+                <surname>Ferber</surname>
+                <given-names>PW</given-names>
+              </name>
+              <name>
+                <surname>Rottenberg</surname>
+                <given-names>DA</given-names>
+              </name>
+            </person-group>
+            <article-title>A statistical method for determining the proportions of gray matter, white matter, and CSF using computed tomography.</article-title>
+            <source>Neuroradiology</source>
+            <year>1978</year>
+            <volume>16</volume>
+            <fpage>133</fpage>
+            <page-range>133-5</page-range>
+            <pub-id pub-id-type="pmid">740152</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hulkower</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name>
+                <surname>Poliak</surname>
+                <given-names>DB</given-names>
+              </name>
+              <name>
+                <surname>Rosenbaum</surname>
+                <given-names>SB</given-names>
+              </name>
+              <name>
+                <surname>Zimmerman</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Lipton</surname>
+                <given-names>ML</given-names>
+              </name>
+            </person-group>
+            <article-title>A decade of DTI in traumatic brain injury: 10 years and 100 articles later.</article-title>
+            <source>AJNR Am J Neuroradiol</source>
+            <year>2013</year>
+            <season>Nov-Dec</season>
+            <volume>34</volume>
+            <issue>11</issue>
+            <fpage>2064</fpage>
+            <page-range>2064-74</page-range>
+            <pub-id pub-id-type="pmid">23306011</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Le Bihan</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Mangin</surname>
+                <given-names>JF</given-names>
+              </name>
+              <name>
+                <surname>Poupon</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Clark</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Pappata</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Molko</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Chabriat</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Diffusion tensor imaging: concepts and applications.</article-title>
+            <source>J Magn Reson Imaging</source>
+            <year>2001</year>
+            <month>Apr</month>
+            <volume>13</volume>
+            <issue>4</issue>
+            <fpage>534</fpage>
+            <page-range>534-46</page-range>
+            <pub-id pub-id-type="pmid">11276097</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Alexander</surname>
+                <given-names>AL</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>Lazar</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Field</surname>
+                <given-names>AS</given-names>
+              </name>
+            </person-group>
+            <article-title>Diffusion tensor imaging of the brain.</article-title>
+            <source>Neurotherapeutics</source>
+            <year>2007</year>
+            <month>Jul</month>
+            <volume>4</volume>
+            <issue>3</issue>
+            <fpage>316</fpage>
+            <page-range>316-29</page-range>
+            <pub-id pub-id-type="pmid">17599699</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Oh</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Suk Park</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Chan Song</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Ju Kim</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Hwang</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Chung</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kyoon Lyoo</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <article-title>Fractional anisotropy-based divisions of midsagittal corpus callosum.</article-title>
+            <source>Neuroreport</source>
+            <year>2005</year>
+            <month>Mar</month>
+            <day>15</day>
+            <volume>16</volume>
+            <issue>4</issue>
+            <fpage>317</fpage>
+            <page-range>317-20</page-range>
+            <pub-id pub-id-type="pmid">15729129</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hofer</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Frahm</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Topography of the human corpus callosum revisited--comprehensive fiber tractography using diffusion tensor magnetic resonance imaging.</article-title>
+            <source>Neuroimage</source>
+            <year>2006</year>
+            <month>Sep</month>
+            <volume>32</volume>
+            <issue>3</issue>
+            <fpage>989</fpage>
+            <page-range>989-94</page-range>
+            <pub-id pub-id-type="pmid">16854598</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kim</surname>
+                <given-names>EY</given-names>
+              </name>
+              <name>
+                <surname>Park</surname>
+                <given-names>HJ</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>DH</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>SK</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Measuring fractional anisotropy of the corpus callosum using diffusion tensor imaging: mid-sagittal versus axial imaging planes.</article-title>
+            <source>Korean J Radiol</source>
+            <year>2008</year>
+            <season>Sep-Oct</season>
+            <volume>9</volume>
+            <issue>5</issue>
+            <fpage>391</fpage>
+            <page-range>391-5</page-range>
+            <pub-id pub-id-type="pmid">18838846</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rutgers</surname>
+                <given-names>DR</given-names>
+              </name>
+              <name>
+                <surname>Fillard</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Paradot</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Tadi&#x000e9;</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Lasjaunias</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Ducreux</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Diffusion tensor imaging characteristics of the corpus callosum in mild, moderate, and severe traumatic brain injury.</article-title>
+            <source>AJNR Am J Neuroradiol</source>
+            <year>2008</year>
+            <month>Oct</month>
+            <volume>29</volume>
+            <issue>9</issue>
+            <fpage>1730</fpage>
+            <page-range>1730-5</page-range>
+            <pub-id pub-id-type="pmid">18617586</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Li</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Fan</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Jiang</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Jiang</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Yin</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Altered microstructure rather than morphology in the corpus callosum after lower limb amputation.</article-title>
+            <source>Sci Rep</source>
+            <year>2017</year>
+            <month>Mar</month>
+            <day>17</day>
+            <volume>7</volume>
+            <fpage>44780</fpage>
+            <pub-id pub-id-type="pmid">28303959</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rimkus</surname>
+                <given-names>Cde M</given-names>
+              </name>
+              <name>
+                <surname>Junqueira</surname>
+                <given-names>Tde F</given-names>
+              </name>
+              <name>
+                <surname>Callegaro</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Otaduy</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Leite</surname>
+                <given-names>Cda C</given-names>
+              </name>
+            </person-group>
+            <article-title>Segmented corpus callosum diffusivity correlates with the Expanded Disability Status Scale score in the early stages of relapsing-remitting multiple sclerosis.</article-title>
+            <source>Clinics (Sao Paulo)</source>
+            <year>2013</year>
+            <volume>68</volume>
+            <issue>8</issue>
+            <fpage>1115</fpage>
+            <page-range>1115-20</page-range>
+            <pub-id pub-id-type="pmid">24037007</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>L&#x000f6;vd&#x000e9;n</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Bodammer</surname>
+                <given-names>NC</given-names>
+              </name>
+              <name>
+                <surname>K&#x000fc;hn</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Kaufmann</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Sch&#x000fc;tze</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Tempelmann</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Heinze</surname>
+                <given-names>HJ</given-names>
+              </name>
+              <name>
+                <surname>D&#x000fc;zel</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Schmiedek</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Lindenberger</surname>
+                <given-names>U</given-names>
+              </name>
+            </person-group>
+            <article-title>Experience-dependent plasticity of white-matter microstructure extends into old age.</article-title>
+            <source>Neuropsychologia</source>
+            <year>2010</year>
+            <month>Nov</month>
+            <volume>48</volume>
+            <issue>13</issue>
+            <fpage>3878</fpage>
+            <page-range>3878-83</page-range>
+            <pub-id pub-id-type="pmid">20816877</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Parizel</surname>
+                <given-names>PM</given-names>
+              </name>
+              <name>
+                <surname>Ozsarlak</surname>
+              </name>
+              <name>
+                <surname>Van Goethem</surname>
+                <given-names>JW</given-names>
+              </name>
+              <name>
+                <surname>van den Hauwe</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Dillen</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Verlooy</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Cosyns</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>De Schepper</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>Imaging findings in diffuse axonal injury after closed head trauma.</article-title>
+            <source>Eur Radiol</source>
+            <year>1998</year>
+            <volume>8</volume>
+            <issue>6</issue>
+            <fpage>960</fpage>
+            <page-range>960-5</page-range>
+            <pub-id pub-id-type="pmid">9683701</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Feldman</surname>
+                <given-names>HM</given-names>
+              </name>
+              <name>
+                <surname>Yeatman</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>ES</given-names>
+              </name>
+              <name>
+                <surname>Barde</surname>
+                <given-names>LH</given-names>
+              </name>
+              <name>
+                <surname>Gaman-Bean</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Diffusion tensor imaging: a review for pediatric researchers and clinicians.</article-title>
+            <source>J Dev Behav Pediatr</source>
+            <year>2010</year>
+            <month>May</month>
+            <volume>31</volume>
+            <issue>4</issue>
+            <fpage>346</fpage>
+            <page-range>346-56</page-range>
+            <pub-id pub-id-type="pmid">20453582</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Palacios</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name>
+                <surname>Martin</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Boss</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Ezekiel</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Chang</surname>
+                <given-names>YS</given-names>
+              </name>
+              <name>
+                <surname>Yuh</surname>
+                <given-names>EL</given-names>
+              </name>
+              <name>
+                <surname>Vassar</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Schnyer</surname>
+                <given-names>DM</given-names>
+              </name>
+              <name>
+                <surname>MacDonald</surname>
+                <given-names>CL</given-names>
+              </name>
+              <name>
+                <surname>Crawford</surname>
+                <given-names>KL</given-names>
+              </name>
+              <name>
+                <surname>Irimia</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Toga</surname>
+                <given-names>AW</given-names>
+              </name>
+              <name>
+                <surname>Mukherjee</surname>
+                <given-names>P</given-names>
+              </name>
+              <collab>TRACK-TBI Investigators</collab>
+            </person-group>
+            <article-title>Toward Precision and Reproducibility of Diffusion Tensor Imaging: A Multicenter Diffusion Phantom and Traveling Volunteer Study.</article-title>
+            <source>AJNR Am J Neuroradiol</source>
+            <year>2017</year>
+            <month>Mar</month>
+            <volume>38</volume>
+            <issue>3</issue>
+            <fpage>537</fpage>
+            <page-range>537-545</page-range>
+            <pub-id pub-id-type="pmid">28007768</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Venkatraman</surname>
+                <given-names>VK</given-names>
+              </name>
+              <name>
+                <surname>Gonzalez</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name>
+                <surname>Landman</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Goh</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Reiter</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>An</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Resnick</surname>
+                <given-names>SM</given-names>
+              </name>
+            </person-group>
+            <article-title>Region of interest correction factors improve reliability of diffusion imaging measures within and across scanners and field strengths.</article-title>
+            <source>Neuroimage</source>
+            <year>2015</year>
+            <month>Oct</month>
+            <day>01</day>
+            <volume>119</volume>
+            <fpage>406</fpage>
+            <page-range>406-16</page-range>
+            <pub-id pub-id-type="pmid">26146196</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Farrell</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Landman</surname>
+                <given-names>BA</given-names>
+              </name>
+              <name>
+                <surname>Jones</surname>
+                <given-names>CK</given-names>
+              </name>
+              <name>
+                <surname>Smith</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Prince</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>van Zijl</surname>
+                <given-names>PC</given-names>
+              </name>
+              <name>
+                <surname>Mori</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Effects of signal-to-noise ratio on the accuracy and reproducibility of diffusion tensor imaging-derived fractional anisotropy, mean diffusivity, and principal eigenvector measurements at 1.5 T.</article-title>
+            <source>J Magn Reson Imaging</source>
+            <year>2007</year>
+            <month>Sep</month>
+            <volume>26</volume>
+            <issue>3</issue>
+            <fpage>756</fpage>
+            <page-range>756-67</page-range>
+            <pub-id pub-id-type="pmid">17729339</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rohde</surname>
+                <given-names>GK</given-names>
+              </name>
+              <name>
+                <surname>Barnett</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Basser</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name>
+                <surname>Marenco</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Pierpaoli</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Comprehensive approach for correction of motion and distortion in diffusion-weighted MRI.</article-title>
+            <source>Magn Reson Med</source>
+            <year>2004</year>
+            <month>Jan</month>
+            <volume>51</volume>
+            <issue>1</issue>
+            <fpage>103</fpage>
+            <page-range>103-14</page-range>
+            <pub-id pub-id-type="pmid">14705050</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Meltzer</surname>
+                <given-names>CC</given-names>
+              </name>
+              <name>
+                <surname>Sze</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Rommelfanger</surname>
+                <given-names>KS</given-names>
+              </name>
+              <name>
+                <surname>Kinlaw</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Banja</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Wolpe</surname>
+                <given-names>PR</given-names>
+              </name>
+            </person-group>
+            <article-title>Guidelines for the ethical use of neuroimages in medical testimony: report of a multidisciplinary consensus conference.</article-title>
+            <source>AJNR Am J Neuroradiol</source>
+            <year>2014</year>
+            <month>Apr</month>
+            <volume>35</volume>
+            <issue>4</issue>
+            <fpage>632</fpage>
+            <page-range>632-7</page-range>
+            <pub-id pub-id-type="pmid">23988754</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wintermark</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Sanelli</surname>
+                <given-names>PC</given-names>
+              </name>
+              <name>
+                <surname>Anzai</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Tsiouris</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Whitlow</surname>
+                <given-names>CT</given-names>
+              </name>
+              <collab>American College of Radiology Head Injury Institute</collab>
+            </person-group>
+            <article-title>Imaging evidence and recommendations for traumatic brain injury: advanced neuro- and neurovascular imaging techniques.</article-title>
+            <source>AJNR Am J Neuroradiol</source>
+            <year>2015</year>
+            <month>Feb</month>
+            <volume>36</volume>
+            <issue>2</issue>
+            <fpage>E1</fpage>
+            <page-range>E1-E11</page-range>
+            <pub-id pub-id-type="pmid">25424870</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mac Donald</surname>
+                <given-names>CL</given-names>
+              </name>
+              <name>
+                <surname>Johnson</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Cooper</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Nelson</surname>
+                <given-names>EC</given-names>
+              </name>
+              <name>
+                <surname>Werner</surname>
+                <given-names>NJ</given-names>
+              </name>
+              <name>
+                <surname>Shimony</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Snyder</surname>
+                <given-names>AZ</given-names>
+              </name>
+              <name>
+                <surname>Raichle</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Witherow</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Fang</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Flaherty</surname>
+                <given-names>SF</given-names>
+              </name>
+              <name>
+                <surname>Brody</surname>
+                <given-names>DL</given-names>
+              </name>
+            </person-group>
+            <article-title>Detection of blast-related traumatic brain injury in U.S. military personnel.</article-title>
+            <source>N Engl J Med</source>
+            <year>2011</year>
+            <month>Jun</month>
+            <day>02</day>
+            <volume>364</volume>
+            <issue>22</issue>
+            <fpage>2091</fpage>
+            <page-range>2091-100</page-range>
+            <pub-id pub-id-type="pmid">21631321</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bouix</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Pasternak</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Rathi</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Pelavin</surname>
+                <given-names>PE</given-names>
+              </name>
+              <name>
+                <surname>Zafonte</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Shenton</surname>
+                <given-names>ME</given-names>
+              </name>
+            </person-group>
+            <article-title>Increased gray matter diffusion anisotropy in patients with persistent post-concussive symptoms following mild traumatic brain injury.</article-title>
+            <source>PLoS One</source>
+            <year>2013</year>
+            <volume>8</volume>
+            <issue>6</issue>
+            <fpage>e66205</fpage>
+            <pub-id pub-id-type="pmid">23776631</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kim</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Branch</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Lipton</surname>
+                <given-names>ML</given-names>
+              </name>
+            </person-group>
+            <article-title>Whole brain approaches for identification of microstructural abnormalities in individual patients: comparison of techniques applied to mild traumatic brain injury.</article-title>
+            <source>PLoS One</source>
+            <year>2013</year>
+            <volume>8</volume>
+            <issue>3</issue>
+            <fpage>e59382</fpage>
+            <pub-id pub-id-type="pmid">23555665</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lipton</surname>
+                <given-names>ML</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Park</surname>
+                <given-names>YK</given-names>
+              </name>
+              <name>
+                <surname>Hulkower</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name>
+                <surname>Gardin</surname>
+                <given-names>TM</given-names>
+              </name>
+              <name>
+                <surname>Shifteh</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Zimmerman</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Lipton</surname>
+                <given-names>RB</given-names>
+              </name>
+              <name>
+                <surname>Branch</surname>
+                <given-names>CA</given-names>
+              </name>
+            </person-group>
+            <article-title>Robust detection of traumatic axonal injury in individual mild traumatic brain injury patients: intersubject variation, change over time and bidirectional changes in anisotropy.</article-title>
+            <source>Brain Imaging Behav</source>
+            <year>2012</year>
+            <month>Jun</month>
+            <volume>6</volume>
+            <issue>2</issue>
+            <fpage>329</fpage>
+            <page-range>329-42</page-range>
+            <pub-id pub-id-type="pmid">22684769</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tae</surname>
+                <given-names>WS</given-names>
+              </name>
+              <name>
+                <surname>Ham</surname>
+                <given-names>BJ</given-names>
+              </name>
+              <name>
+                <surname>Pyun</surname>
+                <given-names>SB</given-names>
+              </name>
+              <name>
+                <surname>Kang</surname>
+                <given-names>SH</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>BJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Current Clinical Applications of Diffusion-Tensor Imaging in Neurological Disorders.</article-title>
+            <source>J Clin Neurol</source>
+            <year>2018</year>
+            <month>Apr</month>
+            <volume>14</volume>
+            <issue>2</issue>
+            <fpage>129</fpage>
+            <page-range>129-140</page-range>
+            <pub-id pub-id-type="pmid">29504292</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yuh</surname>
+                <given-names>EL</given-names>
+              </name>
+              <name>
+                <surname>Cooper</surname>
+                <given-names>SR</given-names>
+              </name>
+              <name>
+                <surname>Mukherjee</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Yue</surname>
+                <given-names>JK</given-names>
+              </name>
+              <name>
+                <surname>Lingsma</surname>
+                <given-names>HF</given-names>
+              </name>
+              <name>
+                <surname>Gordon</surname>
+                <given-names>WA</given-names>
+              </name>
+              <name>
+                <surname>Valadka</surname>
+                <given-names>AB</given-names>
+              </name>
+              <name>
+                <surname>Okonkwo</surname>
+                <given-names>DO</given-names>
+              </name>
+              <name>
+                <surname>Schnyer</surname>
+                <given-names>DM</given-names>
+              </name>
+              <name>
+                <surname>Vassar</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Maas</surname>
+                <given-names>AI</given-names>
+              </name>
+              <name>
+                <surname>Manley</surname>
+                <given-names>GT</given-names>
+              </name>
+              <collab>TRACK-TBI INVESTIGATORS</collab>
+            </person-group>
+            <article-title>Diffusion tensor imaging for outcome prediction in mild traumatic brain injury: a TRACK-TBI study.</article-title>
+            <source>J Neurotrauma</source>
+            <year>2014</year>
+            <month>Sep</month>
+            <day>01</day>
+            <volume>31</volume>
+            <issue>17</issue>
+            <fpage>1457</fpage>
+            <page-range>1457-77</page-range>
+            <pub-id pub-id-type="pmid">24742275</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Aoki</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Inokuchi</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>A voxel-based meta-analysis of diffusion tensor imaging in mild traumatic brain injury.</article-title>
+            <source>Neurosci Biobehav Rev</source>
+            <year>2016</year>
+            <month>Jul</month>
+            <volume>66</volume>
+            <fpage>119</fpage>
+            <page-range>119-26</page-range>
+            <pub-id pub-id-type="pmid">27133211</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ewing-Cobbs</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Johnson</surname>
+                <given-names>CP</given-names>
+              </name>
+              <name>
+                <surname>Juranek</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>DeMaster</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Prasad</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Duque</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Kramer</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Cox</surname>
+                <given-names>CS</given-names>
+              </name>
+              <name>
+                <surname>Swank</surname>
+                <given-names>PR</given-names>
+              </name>
+            </person-group>
+            <article-title>Longitudinal diffusion tensor imaging after pediatric traumatic brain injury: Impact of age at injury and time since injury on pathway integrity.</article-title>
+            <source>Hum Brain Mapp</source>
+            <year>2016</year>
+            <month>Nov</month>
+            <volume>37</volume>
+            <issue>11</issue>
+            <fpage>3929</fpage>
+            <page-range>3929-3945</page-range>
+            <pub-id pub-id-type="pmid">27329317</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ware</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Biester</surname>
+                <given-names>RC</given-names>
+              </name>
+              <name>
+                <surname>Whipple</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Robinson</surname>
+                <given-names>KM</given-names>
+              </name>
+              <name>
+                <surname>Ross</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Nucifora</surname>
+                <given-names>PG</given-names>
+              </name>
+            </person-group>
+            <article-title>Combat-related Mild Traumatic Brain Injury: Association between Baseline Diffusion-Tensor Imaging Findings and Long-term Outcomes.</article-title>
+            <source>Radiology</source>
+            <year>2016</year>
+            <month>Jul</month>
+            <volume>280</volume>
+            <issue>1</issue>
+            <fpage>212</fpage>
+            <page-range>212-9</page-range>
+            <pub-id pub-id-type="pmid">27022770</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kou</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Tong</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Holshouser</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Benson</surname>
+                <given-names>RR</given-names>
+              </name>
+              <name>
+                <surname>Hu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Haacke</surname>
+                <given-names>EM</given-names>
+              </name>
+            </person-group>
+            <article-title>The role of advanced MR imaging findings as biomarkers of traumatic brain injury.</article-title>
+            <source>J Head Trauma Rehabil</source>
+            <year>2010</year>
+            <season>Jul-Aug</season>
+            <volume>25</volume>
+            <issue>4</issue>
+            <fpage>267</fpage>
+            <page-range>267-82</page-range>
+            <pub-id pub-id-type="pmid">20611045</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Xu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Rasmussen</surname>
+                <given-names>IA</given-names>
+              </name>
+              <name>
+                <surname>Lagopoulos</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>H&#x000e5;berg</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Diffuse axonal injury in severe traumatic brain injury visualized using high-resolution diffusion tensor imaging.</article-title>
+            <source>J Neurotrauma</source>
+            <year>2007</year>
+            <month>May</month>
+            <volume>24</volume>
+            <issue>5</issue>
+            <fpage>753</fpage>
+            <page-range>753-65</page-range>
+            <pub-id pub-id-type="pmid">17518531</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Terajima</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Igarashi</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Hirose</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Matsuzawa</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Nishizawa</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Nakada</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Serial assessments of delayed encephalopathy after carbon monoxide poisoning using magnetic resonance spectroscopy and diffusion tensor imaging on 3.0T system.</article-title>
+            <source>Eur Neurol</source>
+            <year>2008</year>
+            <volume>59</volume>
+            <issue>1-2</issue>
+            <fpage>55</fpage>
+            <page-range>55-61</page-range>
+            <pub-id pub-id-type="pmid">17917459</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chang</surname>
+                <given-names>CC</given-names>
+              </name>
+              <name>
+                <surname>Chang</surname>
+                <given-names>WN</given-names>
+              </name>
+              <name>
+                <surname>Lui</surname>
+                <given-names>CC</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>CF</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>YC</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>SS</given-names>
+              </name>
+              <name>
+                <surname>Lin</surname>
+                <given-names>YT</given-names>
+              </name>
+              <name>
+                <surname>Huang</surname>
+                <given-names>CW</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Longitudinal study of carbon monoxide intoxication by diffusion tensor imaging with neuropsychiatric correlation.</article-title>
+            <source>J Psychiatry Neurosci</source>
+            <year>2010</year>
+            <month>Mar</month>
+            <volume>35</volume>
+            <issue>2</issue>
+            <fpage>115</fpage>
+            <page-range>115-25</page-range>
+            <pub-id pub-id-type="pmid">20184809</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Beppu</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Nishimoto</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Ishigaki</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Fujiwara</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Yoshida</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Oikawa</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Kamada</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Sasaki</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ogasawara</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Assessment of damage to cerebral white matter fiber in the subacute phase after carbon monoxide poisoning using fractional anisotropy in diffusion tensor imaging.</article-title>
+            <source>Neuroradiology</source>
+            <year>2010</year>
+            <month>Aug</month>
+            <volume>52</volume>
+            <issue>8</issue>
+            <fpage>735</fpage>
+            <page-range>735-43</page-range>
+            <pub-id pub-id-type="pmid">20066405</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Beppu</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>The role of MR imaging in assessment of brain damage from carbon monoxide poisoning: a review of the literature.</article-title>
+            <source>AJNR Am J Neuroradiol</source>
+            <year>2014</year>
+            <month>Apr</month>
+            <volume>35</volume>
+            <issue>4</issue>
+            <fpage>625</fpage>
+            <page-range>625-31</page-range>
+            <pub-id pub-id-type="pmid">23598831</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Velly</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Perlbarg</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Boulier</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Adam</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Delphine</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Luyt</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name>
+                <surname>Battisti</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Torkomian</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Arbelot</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Chabanne</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Jean</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Di Perri</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Laureys</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Citerio</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Vargiolu</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Rohaut</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Bruder</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Girard</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Silva</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Cottenceau</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Tourdias</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Coulon</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Riou</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Naccache</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Gupta</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Benali</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Galanaud</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Puybasset</surname>
+                <given-names>L</given-names>
+              </name>
+              <collab>MRI-COMA Investigators</collab>
+            </person-group>
+            <article-title>Use of brain diffusion tensor imaging for the prediction of long-term neurological outcomes in patients after cardiac arrest: a multicentre, international, prospective, observational, cohort study.</article-title>
+            <source>Lancet Neurol</source>
+            <year>2018</year>
+            <month>Apr</month>
+            <volume>17</volume>
+            <issue>4</issue>
+            <fpage>317</fpage>
+            <page-range>317-326</page-range>
+            <pub-id pub-id-type="pmid">29500154</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Aung</surname>
+                <given-names>WY</given-names>
+              </name>
+              <name>
+                <surname>Mar</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Benzinger</surname>
+                <given-names>TL</given-names>
+              </name>
+            </person-group>
+            <article-title>Diffusion tensor MRI as a biomarker in axonal and myelin damage.</article-title>
+            <source>Imaging Med</source>
+            <year>2013</year>
+            <month>Oct</month>
+            <day>01</day>
+            <volume>5</volume>
+            <issue>5</issue>
+            <fpage>427</fpage>
+            <page-range>427-440</page-range>
+            <pub-id pub-id-type="pmid">24795779</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sbardella</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Tona</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Petsas</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Pantano</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>DTI Measurements in Multiple Sclerosis: Evaluation of Brain Damage and Clinical Implications.</article-title>
+            <source>Mult Scler Int</source>
+            <year>2013</year>
+            <volume>2013</volume>
+            <fpage>671730</fpage>
+            <pub-id pub-id-type="pmid">23606965</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Klistorner</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Fofanova</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Barnett</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Yiannikas</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Parratt</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>You</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Graham</surname>
+                <given-names>SL</given-names>
+              </name>
+            </person-group>
+            <article-title>Diffusivity in multiple sclerosis lesions: At the cutting edge?</article-title>
+            <source>Neuroimage Clin</source>
+            <year>2016</year>
+            <volume>12</volume>
+            <fpage>219</fpage>
+            <page-range>219-26</page-range>
+            <pub-id pub-id-type="pmid">27489769</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chen</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Abrigo</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Deng</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Shi</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>YX</given-names>
+              </name>
+              <name>
+                <surname>Chu</surname>
+                <given-names>WCW</given-names>
+              </name>
+              <collab>Alzheimer&#x02019;s Disease Neuroimaging Initiative</collab>
+            </person-group>
+            <article-title>Diffusion Changes in Hippocampal Cingulum in Early Biologically Defined Alzheimer's Disease.</article-title>
+            <source>J Alzheimers Dis</source>
+            <year>2023</year>
+            <volume>91</volume>
+            <issue>3</issue>
+            <fpage>1007</fpage>
+            <page-range>1007-1017</page-range>
+            <pub-id pub-id-type="pmid">36530082</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vidyadharan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Prabhakar Rao</surname>
+                <given-names>BVVSN</given-names>
+              </name>
+              <name>
+                <surname>Perumal</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Chandrasekharan</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Rajagopalan</surname>
+                <given-names>V</given-names>
+              </name>
+            </person-group>
+            <article-title>Deep Learning Classifies Low- and High-Grade Glioma Patients with High Accuracy, Sensitivity, and Specificity Based on Their Brain White Matter Networks Derived from Diffusion Tensor Imaging.</article-title>
+            <source>Diagnostics (Basel)</source>
+            <year>2022</year>
+            <month>Dec</month>
+            <day>19</day>
+            <volume>12</volume>
+            <issue>12</issue>
+            <pub-id pub-id-type="pmid">36553224</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Szmuda</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Szmuda</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Springer</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Rogowska</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Sabisz</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Dubaniewicz</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Mazurkiewicz-Be&#x00142;dzi&#x00144;ska</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Diffusion tensor tractography imaging in pediatric epilepsy - A systematic review.</article-title>
+            <source>Neurol Neurochir Pol</source>
+            <year>2016</year>
+            <volume>50</volume>
+            <issue>1</issue>
+            <fpage>1</fpage>
+            <page-range>1-6</page-range>
+            <pub-id pub-id-type="pmid">26851683</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zanin</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Ranjeva</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Confort-Gouny</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Guye</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Denis</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Cozzone</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name>
+                <surname>Girard</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>White matter maturation of normal human fetal brain. An in vivo diffusion tensor tractography study.</article-title>
+            <source>Brain Behav</source>
+            <year>2011</year>
+            <month>Nov</month>
+            <volume>1</volume>
+            <issue>2</issue>
+            <fpage>95</fpage>
+            <page-range>95-108</page-range>
+            <pub-id pub-id-type="pmid">22399089</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r46">
+          <label>46</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cauley</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Filippi</surname>
+                <given-names>CG</given-names>
+              </name>
+            </person-group>
+            <article-title>Diffusion-tensor imaging of small nerve bundles: cranial nerves, peripheral nerves, distal spinal cord, and lumbar nerve roots--clinical applications.</article-title>
+            <source>AJR Am J Roentgenol</source>
+            <year>2013</year>
+            <month>Aug</month>
+            <volume>201</volume>
+            <issue>2</issue>
+            <fpage>W326</fpage>
+            <page-range>W326-35</page-range>
+            <pub-id pub-id-type="pmid">23883249</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r47">
+          <label>47</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rutman</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Peterson</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Cohen</surname>
+                <given-names>WA</given-names>
+              </name>
+              <name>
+                <surname>Mossa-Basha</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Diffusion Tensor Imaging of the Spinal Cord: Clinical Value, Investigational Applications, and Technical Limitations.</article-title>
+            <source>Curr Probl Diagn Radiol</source>
+            <year>2018</year>
+            <season>Jul-Aug</season>
+            <volume>47</volume>
+            <issue>4</issue>
+            <fpage>257</fpage>
+            <page-range>257-269</page-range>
+            <pub-id pub-id-type="pmid">28869104</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r48">
+          <label>48</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chung</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>Hanson</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Adluru</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Alexander</surname>
+                <given-names>AL</given-names>
+              </name>
+              <name>
+                <surname>Davidson</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Pollak</surname>
+                <given-names>SD</given-names>
+              </name>
+            </person-group>
+            <article-title>Integrative Structural Brain Network Analysis in Diffusion Tensor Imaging.</article-title>
+            <source>Brain Connect</source>
+            <year>2017</year>
+            <month>Aug</month>
+            <volume>7</volume>
+            <issue>6</issue>
+            <fpage>331</fpage>
+            <page-range>331-346</page-range>
+            <pub-id pub-id-type="pmid">28657774</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r49">
+          <label>49</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>van Ewijk</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Heslenfeld</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Zwiers</surname>
+                <given-names>MP</given-names>
+              </name>
+              <name>
+                <surname>Buitelaar</surname>
+                <given-names>JK</given-names>
+              </name>
+              <name>
+                <surname>Oosterlaan</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Diffusion tensor imaging in attention deficit/hyperactivity disorder: a systematic review and meta-analysis.</article-title>
+            <source>Neurosci Biobehav Rev</source>
+            <year>2012</year>
+            <month>Apr</month>
+            <volume>36</volume>
+            <issue>4</issue>
+            <fpage>1093</fpage>
+            <page-range>1093-106</page-range>
+            <pub-id pub-id-type="pmid">22305957</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20511.r50">
+          <label>50</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chen</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Jiao</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Herskovits</surname>
+                <given-names>EH</given-names>
+              </name>
+            </person-group>
+            <article-title>Structural MRI in autism spectrum disorder.</article-title>
+            <source>Pediatr Res</source>
+            <year>2011</year>
+            <month>May</month>
+            <volume>69</volume>
+            <issue>5 Pt 2</issue>
+            <fpage>63R</fpage>
+            <page-range>63R-8R</page-range>
+            <pub-id pub-id-type="pmid">21289538</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

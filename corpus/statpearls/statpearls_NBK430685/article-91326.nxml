@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-91326" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>MUGA Scan</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Odak</surname>
+            <given-names>Mihir</given-names>
+          </name>
+          <aff>Jersey Shore University Medical Center</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Kayani</surname>
+            <given-names>Waleed T.</given-names>
+          </name>
+          <aff>Baylor College of Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Mihir Odak declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Waleed Kayani declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>25</day>
+          <month>7</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-91326.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Multigated acquisition (MUGA) scanning is a nuclear medicine imaging modality that aids providers evaluate the heart's structural and dynamic properties. They are imaging modalities with many names, including radionucleotide ventriculography (RVG) and gated equilibrium radionucleotide angiography (ERNA). However, all of these have the same goal of imaging the heart non-invasively. The idea behind MUGA scans is to take multiple pictures of the heart at various time points to create a composite film of multiple cardiac cycles and present it in two dimensions on the computer. This aids the provider in evaluating certain heart parameters at rest and/or while under stress. An awareness of these parameters is extremely beneficial, especially in cancer and cardiac patient populations, as cardiotoxic chemotherapy and heart disease carry a high mortality. With an enhanced view of cardiac structure and dynamics, the MUGA scan allows for a better understanding of patients' cardiac function, increased diagnostic and prognostic accuracy, and cardiac function tracking before, during, and after chemotherapy.</p>
+        <p>Several techniques are employed in MUGA imaging. These include first pass, equilibrium radionucleotide angiography (ERNA), and single-photon emission computed tomography (SPECT). The first pass technique involves delivering a radioactive isotope bolus and imaging the tagged blood path as it completes initial transit through the heart. This technique is ideal for determining right ventricular ejection fraction (RVEF) and examining intracardiac shunts.<xref ref-type="bibr" rid="article-91326.r1">[1]</xref>&#x000a0;In ERNA, the isotope is tagged to red blood cells (RBCs) and is given approximately 30 minutes to reach equilibrium in the patient, after which the patient is imaged with a camera.<xref ref-type="bibr" rid="article-91326.r2">[2]</xref>&#x000a0;SPECT is a technology that builds upon ERNA as it eliminates the need for manual background signal noise reduction. ERNA and SPECT are preferred modalities when evaluating left ventricular ejection fraction (LVEF), size, and wall motion.<xref ref-type="bibr" rid="article-91326.r1">[1]</xref><xref ref-type="bibr" rid="article-91326.r3">[3]</xref></p>
+        <p>As with many nuclear medicine tests, MUGA scans rely on radioactive isotopes administered and tagged to RBCs. The goal behind tagging RBCs with radioisotopes or tracers is to capture photons emitted by these isotopes using a gamma camera. These cameras are equipped with a sodium iodide crystal coupled to photomultipliers, which help convert the captured photon's energy into an image. Technetium-99m (Tc-99m) is the preferred radioisotope used in MUGA scans because it has a half-life of six hours&#x000a0;<xref ref-type="bibr" rid="article-91326.r4">[4]</xref>, and the heart receives adequate radiation to be picked up by the gamma camera. The radioisotope is also cleared by the kidneys and excreted in the urine. The camera illuminates the tagged blood, and in the process, the provider can evaluate the filling and pumping properties of the heart and can evaluate physical structures by comparing the illuminated blood pool to the darkened walls on the image.</p>
+      </sec>
+      <sec id="article-91326.s2" sec-type="Procedures">
+        <title>Procedures</title>
+        <p>Multigated acquisition (MUGA) scans rely on R wave progression to assess when to start collecting data; this is referred to as ECG gating. There are certain ECG parameters to ensure before collecting image data: &#x0003c;10% premature ventricular contractions (PVCs) and regular R-R intervals. To ensure these parameters, an ECG is obtained before initiating the study. Assessment of systolic function varies less with heart rate changes than the diastolic function, but heart rate variability should be taken into account when selecting an R-R interval as a gate.</p>
+        <p>The patient&#x02019;s blood is drawn via an IV line and is mixed with the radioactive isotope tracer and is then reintroduced to the patient via the same IV line. The tracer is given approximately 15&#x000a0;to 20 minutes to reach equilibrium in the circulation. This is adjusted in first-pass MUGA scanning, where a bolus of a radioisotope is given over a longer initial intravenous push, and the patient is imaged immediately. In non-first pass MUGA scanning, after the tracer reaches equilibrium, the ECG rhythm is evaluated for acceptable R-R progression, and once confirmed, the gamma camera is used to capture images. Typically, at least 16 images per R-R interval are obtained when assessing wall motion and left ventricle EF, while 32&#x000a0;to 64 images per R-R interval are obtained when assessing diastolic function. These images are taken in the left anterior oblique, anterior, and lateral views. The camera generally images the patient over 10 minutes in each of these views, for a total exam duration of approximately 30 minutes. Data is then processed to create left ventricle time-activity curves (LVTACs), and the first derivative curves and quantitative data are presented to the provider and patient.</p>
+      </sec>
+      <sec id="article-91326.s3" sec-type="Indications">
+        <title>Indications</title>
+        <p>Multigated acquisition (MUGA) scanning allows a provider to evaluate many heart parameters, including systolic and diastolic function, for any wall-motion abnormalities, valvular dysfunctions, and assessing these factors while the heart is at rest under stress. This can be used in the following clinical settings:</p>
+        <list list-type="order">
+          <list-item>
+            <p>Assessment of cardiac function in patients who are to receive chemotherapy, which may be potentially cardiotoxic</p>
+          </list-item>
+          <list-item>
+            <p>Assessment of the orientation of the heart and great vessels in the chest</p>
+          </list-item>
+          <list-item>
+            <p>Undiagnosed ischemic disease in the absence of myocardial infarction with hypodynamic wall motion</p>
+          </list-item>
+          <list-item>
+            <p>Determination of systolic or diastolic dysfunction in undiagnosed congestive heart failure patients by viewing ventricular filling and contraction</p>
+          </list-item>
+          <list-item>
+            <p>Evaluation of valve motion and associated ventricular function</p>
+          </list-item>
+          <list-item>
+            <p>Evaluation of cardiac function in a patient with chronic obstructive pulmonary disease (COPD)</p>
+          </list-item>
+          <list-item>
+            <p>Assessing for any intracardiac shunts</p>
+          </list-item>
+        </list>
+        <p>Despite these and other potential applications, the use of MUGA scans is largely limited in assessing cardiac functions in patients receiving cardiotoxic chemotherapy.<xref ref-type="bibr" rid="article-91326.r5">[5]</xref></p>
+      </sec>
+      <sec id="article-91326.s4" sec-type="Normal and Critical Findings">
+        <title>Normal and Critical Findings</title>
+        <p>Image acquisition is performed using the gamma camera in the left anterior oblique, anterior, and lateral views, as described above. Images acquired will show the blood pool in the ventricles at various points in the cardiac cycle. These blood pool changes over segments of the cardiac cycle can be used to assess the left ventricle EF and the diastolic function of the heart. As the blood is tagged with a tracer, it will appear bright on the image, while areas where no blood is pooling, such as the heart walls, will appear dark. With a determination of left ventricle EF, providers can make appropriate decisions on patient care, including whether to initiate potentially cardiotoxic chemotherapy or not.<xref ref-type="bibr" rid="article-91326.r6">[6]</xref></p>
+      </sec>
+      <sec id="article-91326.s5" sec-type="Complications">
+        <title>Complications</title>
+        <p>There are minimal risks to patients when they undergo a&#x000a0;multigated acquisition (MUGA) scan. However, the scan does utilize radioactive isotope tracers, so there is a risk of radiation exposure, although the total amount of radiation patients are exposed to is minimal.<xref ref-type="bibr" rid="article-91326.r6">[6]</xref>&#x000a0;As with any substance infused in the body, there is a risk of bleeding near the injection site and an allergic reaction to the substance infused.</p>
+      </sec>
+      <sec id="article-91326.s6" sec-type="Patient Safety and Education">
+        <title>Patient Safety and Education</title>
+        <p>Educating patients on the procedure, utility, and safety of the multigated acquisition (MUGA)&#x000a0;scan is of paramount importance. Patients must be told what the goal of the study is and what the provider hopes to evaluate. They must also be informed that the test involves injecting a radioactive substance tagged to blood to track its transit through the heart and be aware of the risks associated with this. Patients must be informed of the preparation needed for their specific type of MUGA.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>For a &#x0201c;resting&#x0201d; scan: it is preferred that a fasting state of 3&#x000a0; to 4 hours is maintained before the scan.</p>
+          </list-item>
+          <list-item>
+            <p>For an &#x0201c;exercise&#x0201d; scan: the patient may be required to exercise in between pictures. It is recommended the patient fasts for 3&#x000a0;to 4 hours before the study. It is also important to ensure that the patient is physically able and has no cardiac reasons precluding an exercise scan. If the patient cannot exercise, a pharmacological agent can be introduced to stress the heart for the study.</p>
+          </list-item>
+          <list-item>
+            <p>Rate control medications must be held before the study, as these can confound the study results.</p>
+          </list-item>
+          <list-item>
+            <p>A provider fully trained and certified in CPR and ACLS must accompany the patient as the study progresses, and appropriate equipment and medications must be present as the study is being conducted in the event cardiac arrest occurs.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-91326.s7" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>In current practice,&#x000a0;multigated acquisition (MUGA) scans have fallen out of favor compared to the more readily available echocardiogram. Newer technologies have offered providers the ability to carry ultrasound probes and connect them to mobile phones and view the ultrasound image on their cellular devices. This provides a quick assessment of LV function. There are, however, areas where noninvasive tests like MUGA can provide meaningful diagnostic and prognostic information before necessitating invasive cardiac evaluation.</p>
+        <p>The most common use of MUGA scanning is to evaluate patients on cardiotoxic chemotherapeutic regimens serially. Anthracyclines are common chemotherapeutic medications used to treat carcinomas, lymphomas, and sarcomas. Anthracyclines, including doxorubicin and daunorubicin, have been shown to cause a dose-dependent and cumulative anthracycline-induced cardiotoxicity (AIC) and, ultimately, congestive heart failure. This is thought to be due to topoisomerase-2-beta inhibition in cardiac myocytes, resulting in cell death pathways. The hazard ratio for AIC is 1.26 for patients receiving it for chemotherapy and carries an incidence of 65% at higher doses of 550mg/m.<xref ref-type="bibr" rid="article-91326.r7">[7]</xref>&#x000a0;</p>
+        <p>The risk is even greater for pediatric populations, as they may develop congestive heart failure decades after chemotherapy.<xref ref-type="bibr" rid="article-91326.r7">[7]</xref>&#x000a0;Although the risk of cardiotoxicity is high, patients have varying responses to chemotherapy. Therefore to track the heart's function, MUGA scans are performed. Current guidelines for patients about to start anthracyclines are to obtain a MUGA before initiating treatment for a baseline left ventricle EF. If the left ventricle EF is less than 30% at any time during treatment, then doxorubicin is not given or is discontinued. If the left ventricle EF is between 30%-50%, then MUGA is performed before each dose. If left ventricle EF is greater than 50%, then MUGA is performed at the dose of 250-300mg/m, then at 400-450mg/m, then before each higher dose administration.<xref ref-type="bibr" rid="article-91326.r8">[8]</xref>&#x000a0;Additionally, if the decrease in left ventricle EF is more than 10% compared to the previous study, doxorubicin is discontinued.<xref ref-type="bibr" rid="article-91326.r9">[9]</xref><xref ref-type="bibr" rid="article-91326.r6">[6]</xref>&#x000a0;</p>
+        <p>An echocardiogram is the preferred imaging modality for pediatric patients due to the absence of radiation; current practice recommendations are to perform a MUGA scan every five years in survivors of childhood malignancies as AIC has been reported from two to 15 years after completing chemotherapy. Although transthoracic echocardiogram can help track left ventricle EF, LV diastolic dysfunction is optimally assessed with nuclear ventriculographic tests like MUGA.<xref ref-type="bibr" rid="article-91326.r10">[10]</xref>&#x000a0;As MUGA scanning involves taking multiple pictures of the heart at various angles, it becomes superior to echocardiogram for accuracy of left ventricle EF, as it does not require geometric conformation and estimation of EF from certain areas of the ventricles.</p>
+        <p>Another area where the MUGA scan can be of clinical benefit is in cases of systolic heart failure. In such cases, the precise determination of LVEF is crucial in the decision-making process of whether to proceed with implantable cardioverter-defibrillators (ICD) or not; this is achieved with minimal variation via MUGA scan. Besides, the class 1 indications for cardiac resynchronization therapy (CRT) include an LVEF of less than 35%, a new left bundle branch block (LBBB) with a QRS duration of more than 150ms, and New York Heart Association (NYHA) grade-3 or ambulatory grade-4 heart failure.<xref ref-type="bibr" rid="article-91326.r11">[11]</xref>&#x000a0;Recent trials have shown that relying on electric dyssynchrony alone, inconsistently predicts outcomes for CRT candidates.<xref ref-type="bibr" rid="article-91326.r12">[12]</xref>&#x000a0;Therefore in CRT candidates, phase imaging in MUGA scans is a useful technique in identifying mechanical dyssynchrony and can make the decision-making process clearer for the provider for whether or not to proceed with CRT. Hence identification of mechanical dyssynchrony in the LV is an evolving area of MUGA scanning.<xref ref-type="bibr" rid="article-91326.r5">[5]</xref></p>
+        <p>Regional EF can help assess the health of the myocardium after a myocardial infarction (MI). MUGA can be greatly beneficial in this way. The change in radioisotope levels in one area of the LV can indicate how the blood pool behaves in that area. This can be tracked across various time points in the cardiac cycle and compared to other areas of the LV. A graphical representation of the regional function can be generated from this data and using the resulting curve, a provider can identify hypofunctioning myocardium areas. This becomes useful in tracking the progression of ischemic disease. Another nuclear imaging modality used in this scenario is the myocardial perfusion scan (MPS), in which areas of unsalvageable myocardium appear darker compared to well-perfused and healthy myocardium. In comparison, MPS can more accurately determine which areas of the myocardium are healthy and which are not. The drawback is that they take approximately 2 hours to perform, nearly 2 to 4 times as long as a MUGA scan.</p>
+        <p>A developing application of MUGA scans is for the routine assessment of diastolic dysfunction. Heart failure with preserved ejection fraction occurs due to the ventricles' failure to relax and fill adequately with blood. This type of heart failure accounts for approximately 50% of all heart failure cases, and the incidence of diastolic dysfunction is increasing yearly. One of the parameters obtained via the MUGA scan is the left ventricle time-activity curve (LVTAC), which reflects the radioisotope behavior, and therefore blood pool behavior at different time points in the cardiac cycle.<xref ref-type="bibr" rid="article-91326.r13">[13]</xref>&#x000a0;</p>
+        <p>Diastolic dysfunction is characterized by a prolonged isovolumetric relaxation phase, delayed rapid filling, and an increased atrial kick&#x000a0;<xref ref-type="bibr" rid="article-91326.r13">[13]</xref>, and these can all be visualized on the LVTAC. The peak diastolic filling rate can also be calculated by calculating the slope of the LVTAC diastolic phase. Additionally, by taking the first derivative of the LVTAC, one can determine the relationship between the atrial filling and ventricular filling via atrial peak and peak rapid filling phase via examining the derivative curve of the LVTAC.<xref ref-type="bibr" rid="article-91326.r13">[13]</xref></p>
+        <p>In summary, with the widespread use of echocardiography and the increasing use of magnetic resonance imaging for assessing LVEF and diastolic function, the MUGA scan is not very commonly applied. However, it still retains a place in assessing myocardial function in patients on cardiotoxic chemotherapy and in cases when precise, reproducible, and interpreter-independent assessment of LV function is desired.</p>
+      </sec>
+      <sec id="article-91326.s8">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=91326&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=91326">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/91326/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=91326">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-91326.s9">
+        <title>References</title>
+        <ref id="article-91326.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Paul</surname>
+                <given-names>AK</given-names>
+              </name>
+              <name>
+                <surname>Nabi</surname>
+                <given-names>HA</given-names>
+              </name>
+            </person-group>
+            <article-title>Gated myocardial perfusion SPECT: basic principles, technical aspects, and clinical applications.</article-title>
+            <source>J Nucl Med Technol</source>
+            <year>2004</year>
+            <month>Dec</month>
+            <volume>32</volume>
+            <issue>4</issue>
+            <fpage>179</fpage>
+            <page-range>179-87; quiz 188-9</page-range>
+            <pub-id pub-id-type="pmid">15576339</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-91326.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zhao</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Peng</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Xu</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Equilibrium radionuclide angiocardiography for the evaluation of right ventricular ejection fraction in patients with cardiac disorders.</article-title>
+            <source>Int J Clin Exp Med</source>
+            <year>2015</year>
+            <volume>8</volume>
+            <issue>10</issue>
+            <fpage>18144</fpage>
+            <page-range>18144-50</page-range>
+            <pub-id pub-id-type="pmid">26770412</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-91326.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Huang</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Nijjar</surname>
+                <given-names>PS</given-names>
+              </name>
+              <name>
+                <surname>Misialek</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Blaes</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Derrico</surname>
+                <given-names>NP</given-names>
+              </name>
+              <name>
+                <surname>Kazmirczak</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Klem</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Farzaneh-Far</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Shenoy</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Accuracy of left ventricular ejection fraction by contemporary multiple gated acquisition scanning in patients with cancer: comparison with cardiovascular magnetic resonance.</article-title>
+            <source>J Cardiovasc Magn Reson</source>
+            <year>2017</year>
+            <month>Mar</month>
+            <day>24</day>
+            <volume>19</volume>
+            <issue>1</issue>
+            <fpage>34</fpage>
+            <pub-id pub-id-type="pmid">28335788</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-91326.r4">
+          <label>4</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Kane</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Padda</surname>
+                <given-names>IS</given-names>
+              </name>
+              <name>
+                <surname>Patel</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Davis</surname>
+                <given-names>DD</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Technetium-99m</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2024</year>
+            <month>2</month>
+            <day>29</day>
+            <pub-id pub-id-type="pmid">32644439</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-91326.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mitra</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Basu</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Equilibrium radionuclide angiocardiography: Its usefulness in current practice and potential future applications.</article-title>
+            <source>World J Radiol</source>
+            <year>2012</year>
+            <month>Oct</month>
+            <day>28</day>
+            <volume>4</volume>
+            <issue>10</issue>
+            <fpage>421</fpage>
+            <page-range>421-30</page-range>
+            <pub-id pub-id-type="pmid">23150766</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-91326.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Manrique</surname>
+                <given-names>CR</given-names>
+              </name>
+              <name>
+                <surname>Park</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Tiwari</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Plana</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>Garcia</surname>
+                <given-names>MJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Diagnostic Strategies for Early Recognition of Cancer Therapeutics-Related Cardiac Dysfunction.</article-title>
+            <source>Clin Med Insights Cardiol</source>
+            <year>2017</year>
+            <volume>11</volume>
+            <fpage>1179546817697983</fpage>
+            <pub-id pub-id-type="pmid">28469492</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-91326.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Henriksen</surname>
+                <given-names>PA</given-names>
+              </name>
+            </person-group>
+            <article-title>Anthracycline cardiotoxicity: an update on mechanisms, monitoring and prevention.</article-title>
+            <source>Heart</source>
+            <year>2018</year>
+            <month>Jun</month>
+            <volume>104</volume>
+            <issue>12</issue>
+            <fpage>971</fpage>
+            <page-range>971-977</page-range>
+            <pub-id pub-id-type="pmid">29217634</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-91326.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Shureiqi</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Cantor</surname>
+                <given-names>SB</given-names>
+              </name>
+              <name>
+                <surname>Lippman</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Brenner</surname>
+                <given-names>DE</given-names>
+              </name>
+              <name>
+                <surname>Chernew</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Fendrick</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical and economic impact of multiple gated acquisition scan monitoring during anthracycline therapy.</article-title>
+            <source>Br J Cancer</source>
+            <year>2002</year>
+            <month>Jan</month>
+            <day>21</day>
+            <volume>86</volume>
+            <issue>2</issue>
+            <fpage>226</fpage>
+            <page-range>226-32</page-range>
+            <pub-id pub-id-type="pmid">11870511</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-91326.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nousiainen</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Jantunen</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Vanninen</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Hartikainen</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Early decline in left ventricular ejection fraction predicts doxorubicin cardiotoxicity in lymphoma patients.</article-title>
+            <source>Br J Cancer</source>
+            <year>2002</year>
+            <month>Jun</month>
+            <day>05</day>
+            <volume>86</volume>
+            <issue>11</issue>
+            <fpage>1697</fpage>
+            <page-range>1697-700</page-range>
+            <pub-id pub-id-type="pmid">12087452</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-91326.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Harake</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Franco</surname>
+                <given-names>VI</given-names>
+              </name>
+              <name>
+                <surname>Henkel</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Miller</surname>
+                <given-names>TL</given-names>
+              </name>
+              <name>
+                <surname>Lipshultz</surname>
+                <given-names>SE</given-names>
+              </name>
+            </person-group>
+            <article-title>Cardiotoxicity in childhood cancer survivors: strategies for prevention and management.</article-title>
+            <source>Future Cardiol</source>
+            <year>2012</year>
+            <month>Jul</month>
+            <volume>8</volume>
+            <issue>4</issue>
+            <fpage>647</fpage>
+            <page-range>647-70</page-range>
+            <pub-id pub-id-type="pmid">22871201</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-91326.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cheng</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name>
+                <surname>Huang</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>TJ</given-names>
+              </name>
+              <name>
+                <surname>Hsieh</surname>
+                <given-names>YC</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>KY</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>SA</given-names>
+              </name>
+            </person-group>
+            <article-title>An Overview of Current Cardiac Resynchronization Therapy.</article-title>
+            <source>Acta Cardiol Sin</source>
+            <year>2013</year>
+            <month>Nov</month>
+            <volume>29</volume>
+            <issue>6</issue>
+            <fpage>496</fpage>
+            <page-range>496-504</page-range>
+            <pub-id pub-id-type="pmid">27122750</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-91326.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tereshchenko</surname>
+                <given-names>LG</given-names>
+              </name>
+              <name>
+                <surname>Cheng</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Park</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Wold</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Meyer</surname>
+                <given-names>TE</given-names>
+              </name>
+              <name>
+                <surname>Gold</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name>
+                <surname>Mittal</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Singh</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Stein</surname>
+                <given-names>KM</given-names>
+              </name>
+              <name>
+                <surname>Ellenbogen</surname>
+                <given-names>KA</given-names>
+              </name>
+              <collab>SMART-AV Trial Investigators</collab>
+            </person-group>
+            <article-title>Novel measure of electrical dyssynchrony predicts response in cardiac resynchronization therapy: Results from the SMART-AV Trial.</article-title>
+            <source>Heart Rhythm</source>
+            <year>2015</year>
+            <month>Dec</month>
+            <volume>12</volume>
+            <issue>12</issue>
+            <fpage>2402</fpage>
+            <page-range>2402-10</page-range>
+            <pub-id pub-id-type="pmid">26272523</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-91326.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sachpekidis</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Sachpekidis</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Moralidis</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Arsos</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Equilibrium radionuclide ventriculography: still a clinically useful method for the assessment of cardiac function?</article-title>
+            <source>Hell J Nucl Med</source>
+            <year>2018</year>
+            <season>Sep-Dec</season>
+            <volume>21</volume>
+            <issue>3</issue>
+            <fpage>213</fpage>
+            <page-range>213-220</page-range>
+            <pub-id pub-id-type="pmid">30534636</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

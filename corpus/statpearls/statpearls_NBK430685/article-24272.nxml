@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-24272" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Physiology, Ligand Gated Chloride Channel</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Clar</surname>
+            <given-names>Derek T.</given-names>
+          </name>
+          <aff>Campbell University SOM</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Maani</surname>
+            <given-names>Christopher V.</given-names>
+          </name>
+          <aff>US Army; USUHS; BAMC; UTHSCSA; UIW</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Derek Clar declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Christopher Maani declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>7</day>
+          <month>8</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-24272.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Transport of substances across cellular membranes is one of the major topics explored to understand cellular function and growth. Among the forms of transport studied, ligand-gated ion channels (LGIC) are prevalent in pharmacological and medical settings &#x02013; serving as molecular targets in drug discovery.<xref ref-type="bibr" rid="article-24272.r1">[1]</xref> The ligand-gated chloride channel (LGCC) is a pertinent subtype of this family of transport proteins for the various roles they serve: the most crucial role being the modulation of inhibitory signaling in the nervous system. Gamma-aminobutyric acid (GABA) dependent channels, specifically the GABA-A subtype, and glycine dependent channels are the most well-known and heavily studied forms of LGCCs.<xref ref-type="bibr" rid="article-24272.r2">[2]</xref>&#x000a0;The study of these channels, known as GABA-A receptors and glycine receptors, has not only yielded valuable information in how neural transmission and modulation translates to voluntary/involuntary actions but also understands the pathophysiology of several neurologic disorders and clinical effects of agents that are used commonly in the clinical setting.<xref ref-type="bibr" rid="article-24272.r3">[3]</xref></p>
+      </sec>
+      <sec id="article-24272.s2" sec-type="Cellular Level&#x0000d;&#x0000a;">
+        <title>Cellular Level
+</title>
+        <p>All LGICs share similar protein structures, the variability in the subtypes relating to their central pore with a differing affinity for specific cations/anions.<xref ref-type="bibr" rid="article-24272.r2">[2]</xref> LGCC structures are pentameric transmembrane proteins, specific features of each described<xref ref-type="bibr" rid="article-24272.r4">[4]</xref><xref ref-type="bibr" rid="article-24272.r5">[5]</xref>:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p><italic toggle="yes">GABA-A receptors</italic> - involves two alpha-1 subunits, two beta-2 subunits, and one gamma-2 subunit all situated in a ring around an anionic selective pore. Within the protein conformation, several allosteric sites are present, two serving as active sites for GABA binding and identified binding sites of several pharmacological agents including benzodiazepines, barbiturates, zolpidem/zaleplon, and flumazenil.</p>
+          </list-item>
+          <list-item>
+            <p><italic toggle="yes">Glycine receptors</italic> &#x02013; involve three alpha-1 subunits and two beta subunits, situated in a ring around an anionic selective pore. Several allosteric active sites for glycine binding are present, as well as a binding site for strychnine &#x02013; a crystalline alkaloid used as a pesticide.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-24272.s3" sec-type="Function">
+        <title>Function</title>
+        <p>Both GABA-A and glycine receptors are present in the central nervous system (CNS): their primary roles contribute to synaptic inhibitory signaling. Of the two, GABA-A has been found more extensively throughout the nervous system &#x02013; the main concentration of receptors found in the thalamus (specifically the reticular nucleus), hypothalamus, basal ganglia, and hippocampus.<xref ref-type="bibr" rid="article-24272.r3">[3]</xref> GABA-A receptors within these areas function as negative feedback loops. Specific to the basal ganglia, these receptors work to regulate motor control. GABA-A receptors become heavily active in times when there are voluntary and/or involuntary impulses to decrease motor activity. As the impulse projects from the premotor/motor cortex, glutamate stimulate the cholinergic-dependent indirect path of the striatum, which in turn activates GABA release and transmission. This GABA signaling path can go on to inhibit substantia nigra and the external segment of globus pallidus, allowing the subthalamic nucleus to stimulate the internal segment of the globus pallidus to release more GABA to inhibit the signaling from the thalamus. This causes decreased signaling activity from the motor cortex to the cerebellum and lower motor neurons within the spinal column, ultimately reducing motor activation.<xref ref-type="bibr" rid="article-24272.r6">[6]</xref><xref ref-type="bibr" rid="article-24272.r7">[7]</xref> As will be discussed below, this GABAergic system has been found to be pertinent in understanding motor-related neurodegenerative diseases, Parkinson's and Huntington's diseases being the most classic examples.<xref ref-type="bibr" rid="article-24272.r8">[8]</xref><xref ref-type="bibr" rid="article-24272.r9">[9]</xref> Another disorder of similar nature is Alzheimer's disease, which will also merit discussion below. Though originally thought of as a disorder of imbalance between dopamine and acetylcholine signaling, recent studies suggest that remodeling of GABAergic transmission can also contribute to this disease&#x02019;s phenotype. This physiology, in turn, would suggest as well that GABA and its receptor are not solely involved in motor control but also serve a function in cognition, memory and learning, circadian rhythms, and adult neural development.<xref ref-type="bibr" rid="article-24272.r3">[3]</xref></p>
+        <p>As with GABA-A receptors, the glycine receptor plays a role in inhibitory neurotransmission. During fetal development, the original inhibitory receptor of the spinal cord is the GABA-A receptor; however, during the first postnatal week, glycine receptors cluster within the postsynaptic membranes of inhibitory neurons in the ventral horns of the spinal cord. Glycine signaling takes over as the predominant inhibitory signal in the spinal cord from GABA-A signaling and persists through adult neural development.<xref ref-type="bibr" rid="article-24272.r10">[10]</xref> The function of glycine signaling in the spinal cord is attributable to motor and reflex control through lower motor neurons; the classic description relates to flexor reflex-crossed extensor reflex. As one steps on a nociceptive stimulus with their foot, pain signals travel to the dorsal roots of the spinal cord and ascend towards the brain. At the same instant that afferent pain fibers activate, efferent motor neurons in the ventral roots at the same segment on the ipsilateral side are activated - stimulating the flexor muscles to lift the lower extremity away from the pain source. While the flexors of the ipsilateral side are activated, the extensors of the ipsilateral side are inhibited via glycine signaling so as not to resist the flexor muscles. On the contralateral side, glycine receptors are stimulated to inhibit the activation of flexor muscles resulting in no resistance to the contralateral extensor muscles which are activated to maintain balance as the affected lower extremity leaves the ground.<xref ref-type="bibr" rid="article-24272.r11">[11]</xref>&#x000a0;&#x000a0;&#x000a0;&#x000a0;&#x000a0;&#x000a0;&#x000a0;&#x000a0;&#x000a0;</p>
+      </sec>
+      <sec id="article-24272.s4" sec-type="Mechanism">
+        <title>Mechanism</title>
+        <p>To understand the mechanism of LGCCs, one must understand the physiology of neurotransmission and action potentials. At rest, a neuron&#x02019;s membrane potential exhibits -90 millivolts, produced by a high internal concentration of K+ and a high external concentration of Na+. As a neuron gets stimulated, the membrane potential begins to increase as the membrane becomes more permeable to Na+ via Na+/K+ pumps and voltage-gated Na+ channels. As the membrane potential reaches 0 millivolts, the neuron depolarizes allowing large amounts of Na+ into the neuron causing the membrane potential to &#x0201c;overshoot&#x0201d; as high as +60 millivolts. As the neuron returns to the resting state, it goes through a repolarization stage in which voltage-gated K+ channels and K+ leak channels return the neuron&#x02019;s membrane potential to resting at -90 millivolts.<xref ref-type="bibr" rid="article-24272.r12">[12]</xref></p>
+        <p>Relating to LGCCs and their mechanism of causing inhibitory signaling, both GABA-A receptors and glycine receptors work to increase intracellular concentrations of Cl- to put the neuron in a state of hyperpolarization. For GABA-A receptors these work in a pulsatile fashion opening and closing as each GABA molecule binds and unbinds their allosteric active sites.<xref ref-type="bibr" rid="article-24272.r13">[13]</xref> For glycine receptors, these channels produce a Cl-current when glycine is bound.<xref ref-type="bibr" rid="article-24272.r14">[14]</xref> Both receptors work to increase the concentration of Cl- within the neuron, resulting in more negative membrane potential. This negative charge would cause the depolarization threshold of a neuron to be much higher than normal, meaning it would require an increased influx of Na+ from a more potent stimulus for depolarization to occur and an action potential to fire &#x02013; thereby inhibiting neuronal cell signaling and decreasing frequency of neurotransmission.<xref ref-type="bibr" rid="article-24272.r12">[12]</xref>&#x000a0;</p>
+      </sec>
+      <sec id="article-24272.s5" sec-type="Pathophysiology">
+        <title>Pathophysiology</title>
+        <p>LGCCs are documented in correlation with the pathophysiology of several neurologic disorders. How they are involved can be related to their function in the CNS as outlined above. GABA-A receptors serve as modulators of motor control, cognition, and memory; defects of those functions are features in these disorders. Glycine receptors follow in a similar fashion, exhibiting effects in spinal cord signaling dysfunction.</p>
+        <p>
+<bold>For GABA-A Receptors</bold>
+<xref ref-type="bibr" rid="article-24272.r8">[8]</xref>
+<xref ref-type="bibr" rid="article-24272.r9">[9]</xref>
+<xref ref-type="bibr" rid="article-24272.r3">[3]</xref>&#x000a0; &#x000a0;</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Parkinson's disease &#x02013; a common neurodegenerative disorder that manifests as active tremor, muscle rigidity, and ataxia; results from the accumulation of alpha-synuclein particles, aka Lewy bodies, that cause neuronal cell death. This process is prevalent within the basal ganglia, causing loss of various signaling paths including those mediated by GABA-A receptors which contribute to loss of motor control seen in this disease. &#x000a0;&#x000a0;&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Huntington disease &#x02013; an autosomal dominant disorder known to result from hereditary (CAG)n repeat expansions within exon 1 of the huntingtin (htt) gene of Cr. 4, this manifests as a progressive decline in motor function as involuntary jerking (chorea) and muscle dystonia, as well as cognitive impairments. Reduced GABA-A receptor density and decreased GABA signaling within the striatum and cerebral cortex have been documented, resulting in an overall reduction of neuronal inhibitory signaling. &#x000a0;&#x000a0;&#x000a0;&#x000a0;&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Alzheimer's disease &#x02013; as stated above, originally thought to result from an imbalance of dopaminergic and cholinergic signaling within the striatum, hippocampus, and cerebral cortex due to neuronal cell death from neurofibrillary tangles and beta-amyloid plaques. The condition manifests as a progressive decline of cognition, memory, and ability to perform activities of daily living. Many studies remain equivocal on the exact involvement of GABA in this disease process, with some suggesting decreased concentrations of GABA due to dysfunctional synthesis, others suggesting a loss of GABA-A receptors within areas of the cerebral cortex. More studies will need to be done in this area to elicit GABA&#x02019;s role in pathogenesis.&#x000a0; &#x000a0; &#x000a0; &#x000a0;&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>
+<bold>For glycine Receptors</bold>
+<xref ref-type="bibr" rid="article-24272.r15">[15]</xref>
+<xref ref-type="bibr" rid="article-24272.r16">[16]</xref>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Hyperekplexia &#x02013; neurological disorder marked by generalized hypertonia, excessive startle response to tactile or acoustic stimuli, and nocturnal myoclonus; caused by several genetic loss-of-function mutations in glycine receptors and reduced glycine signaling within the CNS. Studies suggest that these patients exhibit increased pain sensitivity as well, though more research must be done to document the correlation of this finding. &#x000a0;&#x000a0;&#x000a0;&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Autism &#x02013; common neurodevelopmental condition with polygenic etiology; marked by a spectrum of varying degrees of developmental and cognitive delay with associated challenges in speech and social awareness. Suggestions of glycine&#x02019;s role in the embryonic development of individuals with autism relate to a specific set of glycine receptors that contain an alpha-2 subunit. These receptors are thought to promote the generation of excitatory neuron pathways in early development, and that a microdeletion of the gene that codes for this glycine receptor is implicated in the development of autism. More study will be necessary to clarify glycine&#x02019;s role in this developmental process. &#x000a0;&#x000a0;</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-24272.s6" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Besides understanding the pathophysiology related to LGCCs in several neurologic diseases, the main clinical significance of these channels stems from pharmacological studies. GABA-A receptors, specifically, are documented as the main drug target for several classes of drugs to achieve sedative, hypnotic, anesthetic, and anticonvulsive effects.<xref ref-type="bibr" rid="article-24272.r2">[2]</xref> The drug design of these agents has centered around the allosteric control of GABA-A receptors.<xref ref-type="bibr" rid="article-24272.r4">[4]</xref> The agents are as follows, with their physiologic and pharmacologic effects<xref ref-type="bibr" rid="article-24272.r17">[17]</xref><xref ref-type="bibr" rid="article-24272.r18">[18]</xref><xref ref-type="bibr" rid="article-24272.r19">[19]</xref><xref ref-type="bibr" rid="article-24272.r20">[20]</xref><xref ref-type="bibr" rid="article-24272.r21">[21]</xref>:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p><bold>Benzodiazepines</bold> &#x02013; when bound increase the frequency of channel opening events so to potentiate GABA&#x02019;s inhibitory effect; exhibits a dose-dependent level of sedation, rapid onset of sleep and prolonged stage 2 sleep, achieve stage III of general anesthesia, and effective anticonvulsant effect via generalized CNS depression</p>
+          </list-item>
+          <list-item>
+            <p><bold>Barbiturates</bold> &#x02013; when bound increase the duration of a channel being open so as to potentiate GABA&#x02019;s inhibitory effect; exhibits a dose-dependent level of sedation, rapid onset of sleep and prolonged stage 2 of sleep, shorter-acting anesthetic used for induction of anesthesia in shorter procedures, effective anticonvulsant effects in generalized tonic-clonic seizures &#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p><bold>Zolpidem, zaleplon</bold> &#x02013; work as GABA agonists; the main effects involve the sleep cycle decreasing the time to falling asleep, zolpidem specifically also decreasing REM sleep with minimal effect on slow-wave sleep stages whereas zaleplon has minimal effect on all stages of sleep.</p>
+          </list-item>
+          <list-item>
+            <p><bold>Flumazenil</bold> &#x02013; serves as a GABA antagonist; reverses the effects of inhibitory signaling and all agents described above.</p>
+          </list-item>
+        </list>
+        <p>Though there are no specific pharmacologic agents that target glycine receptors yet, it is pertinent to mention the effects of strychnine poisoning. Used as a pesticide, if one experienced high exposure this could result in effects related to glycine receptor antagonism. Symptoms include &#x0201c;awake seizures&#x0201d; described as painful muscle contractions while the patient is conscious - the clinical course lacking a post-ictal period normally seen in seizure activity. Treatment for this is benzodiazepine administration and supportive care with no residual neurologic deficits.<xref ref-type="bibr" rid="article-24272.r22">[22]</xref></p>
+      </sec>
+      <sec id="article-24272.s7">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=24272&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=24272">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/24272/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=24272">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-24272.s8">
+        <title>References</title>
+        <ref id="article-24272.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Calimet</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Simoes</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Changeux</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Karplus</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Taly</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Cecchini</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>A gating mechanism of pentameric ligand-gated ion channels.</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>2013</year>
+            <month>Oct</month>
+            <day>15</day>
+            <volume>110</volume>
+            <issue>42</issue>
+            <fpage>E3987</fpage>
+            <page-range>E3987-96</page-range>
+            <pub-id pub-id-type="pmid">24043807</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24272.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Alexander</surname>
+                <given-names>SP</given-names>
+              </name>
+              <name>
+                <surname>Peters</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Kelly</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Marrion</surname>
+                <given-names>NV</given-names>
+              </name>
+              <name>
+                <surname>Faccenda</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Harding</surname>
+                <given-names>SD</given-names>
+              </name>
+              <name>
+                <surname>Pawson</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Sharman</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Southan</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Davies</surname>
+                <given-names>JA</given-names>
+              </name>
+              <collab>CGTP Collaborators</collab>
+            </person-group>
+            <article-title>THE CONCISE GUIDE TO PHARMACOLOGY 2017/18: Ligand-gated ion channels.</article-title>
+            <source>Br J Pharmacol</source>
+            <year>2017</year>
+            <month>Dec</month>
+            <volume>174 Suppl 1</volume>
+            <issue>Suppl Suppl 1</issue>
+            <fpage>S130</fpage>
+            <page-range>S130-S159</page-range>
+            <pub-id pub-id-type="pmid">29055038</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24272.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Govindpani</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Calvo-Flores Guzm&#x000e1;n</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Vinnakota</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Waldvogel</surname>
+                <given-names>HJ</given-names>
+              </name>
+              <name>
+                <surname>Faull</surname>
+                <given-names>RL</given-names>
+              </name>
+              <name>
+                <surname>Kwakowsky</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Towards a Better Understanding of GABAergic Remodeling in Alzheimer's Disease.</article-title>
+            <source>Int J Mol Sci</source>
+            <year>2017</year>
+            <month>Aug</month>
+            <day>21</day>
+            <volume>18</volume>
+            <issue>8</issue>
+            <pub-id pub-id-type="pmid">28825683</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24272.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hernandez</surname>
+                <given-names>CC</given-names>
+              </name>
+              <name>
+                <surname>Macdonald</surname>
+                <given-names>RL</given-names>
+              </name>
+            </person-group>
+            <article-title>A structural look at GABA<sub>A</sub> receptor mutations linked to epilepsy syndromes.</article-title>
+            <source>Brain Res</source>
+            <year>2019</year>
+            <month>Jul</month>
+            <day>01</day>
+            <volume>1714</volume>
+            <fpage>234</fpage>
+            <page-range>234-247</page-range>
+            <pub-id pub-id-type="pmid">30851244</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24272.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Burgos</surname>
+                <given-names>CF</given-names>
+              </name>
+              <name>
+                <surname>Y&#x000e9;venes</surname>
+                <given-names>GE</given-names>
+              </name>
+              <name>
+                <surname>Aguayo</surname>
+                <given-names>LG</given-names>
+              </name>
+            </person-group>
+            <article-title>Structure and Pharmacologic Modulation of Inhibitory Glycine Receptors.</article-title>
+            <source>Mol Pharmacol</source>
+            <year>2016</year>
+            <month>Sep</month>
+            <volume>90</volume>
+            <issue>3</issue>
+            <fpage>318</fpage>
+            <page-range>318-25</page-range>
+            <pub-id pub-id-type="pmid">27401877</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24272.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Stagg</surname>
+                <given-names>CJ</given-names>
+              </name>
+              <name>
+                <surname>Bachtiar</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Johansen-Berg</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>The role of GABA in human motor learning.</article-title>
+            <source>Curr Biol</source>
+            <year>2011</year>
+            <month>Mar</month>
+            <day>22</day>
+            <volume>21</volume>
+            <issue>6</issue>
+            <fpage>480</fpage>
+            <page-range>480-4</page-range>
+            <pub-id pub-id-type="pmid">21376596</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24272.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hermans</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Leunissen</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Pauwels</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Cuypers</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Peeters</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Puts</surname>
+                <given-names>NAJ</given-names>
+              </name>
+              <name>
+                <surname>Edden</surname>
+                <given-names>RAE</given-names>
+              </name>
+              <name>
+                <surname>Swinnen</surname>
+                <given-names>SP</given-names>
+              </name>
+            </person-group>
+            <article-title>Brain GABA Levels Are Associated with Inhibitory Control Deficits in Older Adults.</article-title>
+            <source>J Neurosci</source>
+            <year>2018</year>
+            <month>Sep</month>
+            <day>05</day>
+            <volume>38</volume>
+            <issue>36</issue>
+            <fpage>7844</fpage>
+            <page-range>7844-7851</page-range>
+            <pub-id pub-id-type="pmid">30064995</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24272.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sanjari Moghaddam</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Zare-Shahabadi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Rahmani</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Rezaei</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Neurotransmission systems in Parkinson's disease.</article-title>
+            <source>Rev Neurosci</source>
+            <year>2017</year>
+            <month>Jul</month>
+            <day>26</day>
+            <volume>28</volume>
+            <issue>5</issue>
+            <fpage>509</fpage>
+            <page-range>509-536</page-range>
+            <pub-id pub-id-type="pmid">28328536</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24272.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hsu</surname>
+                <given-names>YT</given-names>
+              </name>
+              <name>
+                <surname>Chang</surname>
+                <given-names>YG</given-names>
+              </name>
+              <name>
+                <surname>Chern</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>Insights into GABA<sub>A</sub>ergic system alteration in Huntington's disease.</article-title>
+            <source>Open Biol</source>
+            <year>2018</year>
+            <month>Dec</month>
+            <day>05</day>
+            <volume>8</volume>
+            <issue>12</issue>
+            <pub-id pub-id-type="pmid">30518638</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24272.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nakahata</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Eto</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Murakoshi</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Watanabe</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kuriu</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Hirata</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Moorhouse</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Ishibashi</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Nabekura</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Activation-Dependent Rapid Postsynaptic Clustering of Glycine Receptors in Mature Spinal Cord Neurons.</article-title>
+            <source>eNeuro</source>
+            <year>2017</year>
+            <season>Jan-Feb</season>
+            <volume>4</volume>
+            <issue>1</issue>
+            <pub-id pub-id-type="pmid">28197549</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24272.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dafkin</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Green</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Olivier</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Mckinon</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Kerr</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Circadian variation of flexor withdrawal and crossed extensor reflexes in patients with restless legs syndrome.</article-title>
+            <source>J Sleep Res</source>
+            <year>2018</year>
+            <month>Oct</month>
+            <volume>27</volume>
+            <issue>5</issue>
+            <fpage>e12645</fpage>
+            <pub-id pub-id-type="pmid">29164719</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24272.r12">
+          <label>12</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Grider</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Jessu</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Kabir</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Physiology, Action Potential</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2023</year>
+            <month>5</month>
+            <day>8</day>
+            <pub-id pub-id-type="pmid">30844170</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24272.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Khatri</surname>
+                <given-names>SN</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>WC</given-names>
+              </name>
+              <name>
+                <surname>Yang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Pugh</surname>
+                <given-names>JR</given-names>
+              </name>
+            </person-group>
+            <article-title>Direction of action of presynaptic GABA<sub>A</sub> receptors is highly dependent on the level of receptor activation.</article-title>
+            <source>J Neurophysiol</source>
+            <year>2019</year>
+            <month>May</month>
+            <day>01</day>
+            <volume>121</volume>
+            <issue>5</issue>
+            <fpage>1896</fpage>
+            <page-range>1896-1905</page-range>
+            <pub-id pub-id-type="pmid">30892973</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24272.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Du</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>L&#x000fc;</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Cheng</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Gouaux</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Glycine receptor mechanism elucidated by electron cryo-microscopy.</article-title>
+            <source>Nature</source>
+            <year>2015</year>
+            <month>Oct</month>
+            <day>08</day>
+            <volume>526</volume>
+            <issue>7572</issue>
+            <fpage>224</fpage>
+            <page-range>224-9</page-range>
+            <pub-id pub-id-type="pmid">26344198</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24272.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vuilleumier</surname>
+                <given-names>PH</given-names>
+              </name>
+              <name>
+                <surname>Fritsche</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Schliessbach</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Schmitt</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Arendt-Nielsen</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Zeilhofer</surname>
+                <given-names>HU</given-names>
+              </name>
+              <name>
+                <surname>Curatolo</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Mutations affecting glycinergic neurotransmission in hyperekplexia increase pain sensitivity.</article-title>
+            <source>Brain</source>
+            <year>2018</year>
+            <month>Jan</month>
+            <day>01</day>
+            <volume>141</volume>
+            <issue>1</issue>
+            <fpage>63</fpage>
+            <page-range>63-71</page-range>
+            <pub-id pub-id-type="pmid">29149236</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24272.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pilorge</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Fassier</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Le Corronc</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Potey</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Bai</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>De Gois</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Delaby</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Assouline</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Guinchat</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Devillard</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Delorme</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Nygren</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>R&#x000e5;stam</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Meier</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>Otani</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Cheval</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>James</surname>
+                <given-names>VM</given-names>
+              </name>
+              <name>
+                <surname>Topf</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Dear</surname>
+                <given-names>TN</given-names>
+              </name>
+              <name>
+                <surname>Gillberg</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Leboyer</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Giros</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Gautron</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Hazan</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Harvey</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Legendre</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Betancur</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Genetic and functional analyses demonstrate a role for abnormal glycinergic signaling in autism.</article-title>
+            <source>Mol Psychiatry</source>
+            <year>2016</year>
+            <month>Jul</month>
+            <volume>21</volume>
+            <issue>7</issue>
+            <fpage>936</fpage>
+            <page-range>936-45</page-range>
+            <pub-id pub-id-type="pmid">26370147</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24272.r17">
+          <label>17</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Bounds</surname>
+                <given-names>CG</given-names>
+              </name>
+              <name>
+                <surname>Patel</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Benzodiazepines</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2024</year>
+            <month>1</month>
+            <day>30</day>
+            <pub-id pub-id-type="pmid">29261973</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24272.r18">
+          <label>18</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Suddock</surname>
+                <given-names>JT</given-names>
+              </name>
+              <name>
+                <surname>Kent</surname>
+                <given-names>KJ</given-names>
+              </name>
+              <name>
+                <surname>Regina</surname>
+                <given-names>AC</given-names>
+              </name>
+              <name>
+                <surname>Cain</surname>
+                <given-names>MD</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Barbiturate Toxicity</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2024</year>
+            <month>2</month>
+            <day>28</day>
+            <pub-id pub-id-type="pmid">29763050</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24272.r19">
+          <label>19</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Bouchette</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Akhondi</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Patel</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Quick</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Zolpidem</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2024</year>
+            <month>2</month>
+            <day>29</day>
+            <pub-id pub-id-type="pmid">28723037</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24272.r20">
+          <label>20</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>McNamara</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Spurling</surname>
+                <given-names>BC</given-names>
+              </name>
+              <name>
+                <surname>Bollu</surname>
+                <given-names>PC</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Chronic Insomnia</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2025</year>
+            <month>3</month>
+            <day>28</day>
+            <pub-id pub-id-type="pmid">30252392</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24272.r21">
+          <label>21</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Sharbaf Shoar</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Bistas</surname>
+                <given-names>KG</given-names>
+              </name>
+              <name>
+                <surname>Patel</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Saadabadi</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Flumazenil</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2024</year>
+            <month>2</month>
+            <day>29</day>
+            <pub-id pub-id-type="pmid">29262246</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24272.r22">
+          <label>22</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Otter</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>D'Orazio</surname>
+                <given-names>JL</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Strychnine Toxicity</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2023</year>
+            <month>8</month>
+            <day>7</day>
+            <pub-id pub-id-type="pmid">29083795</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

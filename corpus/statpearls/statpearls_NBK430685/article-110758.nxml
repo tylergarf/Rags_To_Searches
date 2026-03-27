@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-110758" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Survival Analysis</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Shreffler</surname>
+            <given-names>Jacob</given-names>
+          </name>
+          <aff>University of Louisville School of Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Huecker</surname>
+            <given-names>Martin R.</given-names>
+          </name>
+          <aff>University of Louisville</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Jacob Shreffler declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Martin Huecker declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>22</day>
+          <month>5</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-110758.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Survival analysis is widely used in evidence-based medicine to examine the time-to-event series.<xref ref-type="bibr" rid="article-110758.r1">[1]</xref>&#x000a0;Often used for survival/death events, time-to-event series can illustrate time to any dichotomous event.<xref ref-type="bibr" rid="article-110758.r2">[2]</xref>&#x000a0;Examples: the number of days before treatment allows an individual to go into remission; or the severity grade of disease and the hours in the hospital before being released. Using this method, one can compare patients and/or groups of patients.<xref ref-type="bibr" rid="article-110758.r1">[1]</xref>&#x000a0;Relationships between more than one group can use Kaplan-Meier estimations and log-rank tests, which are both nonparametric. Researchers interested in quantifying the effect of the comparison(s) can use Cox proportional hazard models.<xref ref-type="bibr" rid="article-110758.r2">[2]</xref>&#x000a0;Survival analysis techniques were first used for medical studies but have expanded to a variety of other disciplines including financial&#x000a0;services and engineering.<xref ref-type="bibr" rid="article-110758.r1">[1]</xref></p>
+      </sec>
+      <sec id="article-110758.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>Due to the frequency of utilization of survival analysis in medical literature, healthcare providers must understand common concepts and analyses associated with these techniques, including Kaplan-Meier, log-rank tests, and Cox proportional hazards models.</p>
+        <p>Survival analysis is used with a binary or dichotomous outcome of interest.<xref ref-type="bibr" rid="article-110758.r1">[1]</xref>&#x000a0;Typically, multiple groups are compared, for example, a group may have treatment A, and another group may have treatment B. The survival function is the probability of surviving (or not experiencing an event) up to a specified time point, whereas hazard rate is the rate of occurrence for the event within a given period.<xref ref-type="bibr" rid="article-110758.r3">[3]</xref>&#x000a0;To determine survival time, one must know the time of the original event at origin and the time of the final event.<xref ref-type="bibr" rid="article-110758.r4">[4]</xref>&#x000a0;Truncation helps&#x000a0;in determining a sample for survival analysis to limit bias; researchers should not choose subjects they know will likely (or not) experience an event in order to support their hypotheses.<xref ref-type="bibr" rid="article-110758.r3">[3]</xref></p>
+        <p>
+<bold>Censoring</bold>
+</p>
+        <p>Censoring is an important topic in survival analysis. Censored subjects never experienced the outcome of interest during the study specified timeframe. Whether or not an individual is censored should not be associated with whether or not the event occurred.<xref ref-type="bibr" rid="article-110758.r1">[1]</xref>&#x000a0;Left censoring occurs when an individual experienced the event before origin; right censoring occurs when an individual did not experience the event during the specified timeframe (occurred after, or unsure if and when the incident occurred).<xref ref-type="bibr" rid="article-110758.r3">[3]</xref>&#x000a0;Essentially, censoring means that the outcome of interest for that subject cannot be determined based on the study.<xref ref-type="bibr" rid="article-110758.r5">[5]</xref>&#x000a0;Survival analysis examines the time before an individual or group experiences the event or outcome of interest or until censored.<xref ref-type="bibr" rid="article-110758.r1">[1]</xref>&#x000a0;Ignoring or excluding censored subjects would bias the results.<xref ref-type="bibr" rid="article-110758.r3">[3]</xref>&#x000a0;While some study facets remain out of the control of the researchers, recruiting subjects into the study that have characteristics suggesting better study retention can limit censoring.</p>
+        <p>
+<bold>Life Tables</bold>
+</p>
+        <p>Life tables (also known as actuarial life tables) differ from other methods of survival analysis in that the observation outputs categorize into distinct time events.<xref ref-type="bibr" rid="article-110758.r6">[6]</xref><xref ref-type="bibr" rid="article-110758.r7">[7]</xref>&#x000a0;Life tables present outputs that show whether the case occurred, whether the individual was censored, and the time to that event.<xref ref-type="bibr" rid="article-110758.r8">[8]</xref>&#x000a0;When examining a life table, one can determine the proportion of patients experiencing an event (e.g., dying) during which interval the outcome occurred. Life tables can also denote which individuals were censored and which were not (experienced the event in the timeframe). Within these life tables, one should assume no changes in experiencing an event at different intervals. For example, if patients with breast cancer received a second drug halfway through the treatment, they may be less likely to experience the event of dying, thus potentially invalidating results. Life tables remain useful, but in 1958, Kaplan and Meier proposed a new method that removed the pre-fixed time interval requirement. With their method, the events/outcomes of interests are assessable as they happen regardless of specific time point intervals.<xref ref-type="bibr" rid="article-110758.r6">[6]</xref></p>
+        <p>
+<bold>&#x000a0;</bold>
+<bold>Kaplan-Meier Method</bold>
+</p>
+        <p>One of the most frequently used methods of survival analysis is the Kaplan-Meier (KM) approach. The KM method estimates the likelihood of survival.<xref ref-type="bibr" rid="article-110758.r9">[9]</xref>&#x000a0;This approach often utilizes a KM survival curve to represent the survival function.<xref ref-type="bibr" rid="article-110758.r3">[3]</xref>&#x000a0;Similar to life tables, the KM curves assume that those censored would have had similar outcomes, and those recruited later in the study have the same probabilities as those recruited earlier.<xref ref-type="bibr" rid="article-110758.r10">[10]</xref>&#x000a0;The KM plots a survival curve, which often reports median survival time(s), a reliable estimate if the majority of the observations are uncensored.<xref ref-type="bibr" rid="article-110758.r7">[7]</xref>&#x000a0;One can calculate confidence intervals (CIs) for KM probabilities and plot CIs in the survival curves to provide a range of possible values for the population based on the sample.<xref ref-type="bibr" rid="article-110758.r3">[3]</xref>&#x000a0;The curve itself does not provide information on whether or not the difference between the groups is significant. To do this, one can use the log-rank test.<xref ref-type="bibr" rid="article-110758.r1">[1]</xref></p>
+        <p>
+<bold>Log-rank </bold>
+</p>
+        <p>The log-rank test is a non-parametric test that compares two or more groups&#x02019; survival distributions.<xref ref-type="bibr" rid="article-110758.r5">[5]</xref>&#x000a0;This test, which assumes censoring is unrelated to prognosis, examines the null hypothesis (that there are no differences in distribution between the groups).<xref ref-type="bibr" rid="article-110758.r5">[5]</xref>&#x000a0;In other words, researchers can determine if curves between two different groups were statistically significant, i.e., if the event rate in one group is consistently higher than the other over time.<xref ref-type="bibr" rid="article-110758.r6">[6]</xref><xref ref-type="bibr" rid="article-110758.r7">[7]</xref>&#x000a0;Log-rank tests are utilized when a data set has censored observations; if one has no censored cases, the <italic toggle="yes">Wilcoxon rank-sum test </italic>can compare survival times.<xref ref-type="bibr" rid="article-110758.r11">[11]</xref><xref ref-type="bibr" rid="article-110758.r7">[7]</xref>&#x000a0;Researchers reporting log-rank tests should specify the entire distribution being tested, not a specific timeframe.<xref ref-type="bibr" rid="article-110758.r3">[3]</xref>&#x000a0;The log-rank test itself is limited in the sense that it cannot determine an estimate of the difference between groups, whereas a Cox proportional hazard model can.<xref ref-type="bibr" rid="article-110758.r3">[3]</xref></p>
+        <p>
+<bold>Cox Proportional Hazard Model</bold>
+</p>
+        <p>The Cox proportional hazards model is a semiparametric regression model that allows researchers to examine the effects of multiple variables on survival curves.<xref ref-type="bibr" rid="article-110758.r7">[7]</xref>&#x000a0;Semiparametric means that the method does not require a specific distribution of the survival function; however, it does assume a relationship between the covariates and outcome.<xref ref-type="bibr" rid="article-110758.r3">[3]</xref>&#x000a0;The output of the Cox model is presented in hazard ratios (HR).</p>
+        <p>Hazard, or the hazard function, refers to the chances of an event/outcome to occur within a unit of time, assuming that the subject has survived up to that time.<xref ref-type="bibr" rid="article-110758.r7">[7]</xref><xref ref-type="bibr" rid="article-110758.r5">[5]</xref>&#x000a0;The hazard ratio (HR) represents the ratio of the two different treatment groups.<xref ref-type="bibr" rid="article-110758.r3">[3]</xref>&#x000a0;As the value above 1 increases, the risk increases for the event associated with that variable. As HR decreases below 1, the risk decreases. Cox proportional hazards model investigates relationships of predictors in these analyses and develops HRs.<xref ref-type="bibr" rid="article-110758.r2">[2]</xref></p>
+        <p>An important assumption made by the Cox model is that the proportional hazards between the variables remain steady over time. Cox hazard models allow researchers to adjust for confounders and to form relative risk (RR) for individuals to experience an event based on risk factors.<xref ref-type="bibr" rid="article-110758.r1">[1]</xref><xref ref-type="bibr" rid="article-110758.r7">[7]</xref></p>
+      </sec>
+      <sec id="article-110758.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Software is available to compute KM survival curves, log-rank tests, and hazard regressions. This article covers the three most commonly used survival analyses in the medical literature; however, others exist.<xref ref-type="bibr" rid="article-110758.r5">[5]</xref>&#x000a0;By having a foundational understanding of the commonly used survival analyses addressed here, healthcare providers can properly assess survival analysis methods in literature to make evidence-based decisions in practice or their own clinical studies.</p>
+      </sec>
+      <sec id="article-110758.s4">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=110758&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=110758">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/110758/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=110758">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-110758.s5">
+        <title>References</title>
+        <ref id="article-110758.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Flynn</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Survival analysis.</article-title>
+            <source>J Clin Nurs</source>
+            <year>2012</year>
+            <month>Oct</month>
+            <volume>21</volume>
+            <issue>19-20</issue>
+            <fpage>2789</fpage>
+            <page-range>2789-97</page-range>
+            <pub-id pub-id-type="pmid">22860755</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-110758.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>George</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Seals</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Aban</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <article-title>Survival analysis and regression models.</article-title>
+            <source>J Nucl Cardiol</source>
+            <year>2014</year>
+            <month>Aug</month>
+            <volume>21</volume>
+            <issue>4</issue>
+            <fpage>686</fpage>
+            <page-range>686-94</page-range>
+            <pub-id pub-id-type="pmid">24810431</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-110758.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schober</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Vetter</surname>
+                <given-names>TR</given-names>
+              </name>
+            </person-group>
+            <article-title>Survival Analysis and Interpretation of Time-to-Event Data: The Tortoise and the Hare.</article-title>
+            <source>Anesth Analg</source>
+            <year>2018</year>
+            <month>Sep</month>
+            <volume>127</volume>
+            <issue>3</issue>
+            <fpage>792</fpage>
+            <page-range>792-798</page-range>
+            <pub-id pub-id-type="pmid">30015653</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-110758.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Leung</surname>
+                <given-names>KM</given-names>
+              </name>
+              <name>
+                <surname>Elashoff</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Afifi</surname>
+                <given-names>AA</given-names>
+              </name>
+            </person-group>
+            <article-title>Censoring issues in survival analysis.</article-title>
+            <source>Annu Rev Public Health</source>
+            <year>1997</year>
+            <volume>18</volume>
+            <fpage>83</fpage>
+            <page-range>83-104</page-range>
+            <pub-id pub-id-type="pmid">9143713</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-110758.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Thuijs</surname>
+                <given-names>DJFM</given-names>
+              </name>
+              <name>
+                <surname>Hickey</surname>
+                <given-names>GL</given-names>
+              </name>
+              <name>
+                <surname>Osnabrugge</surname>
+                <given-names>RLJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistical primer: basics of survival analysis for the cardiothoracic surgeon.</article-title>
+            <source>Interact Cardiovasc Thorac Surg</source>
+            <year>2018</year>
+            <month>Jul</month>
+            <day>01</day>
+            <volume>27</volume>
+            <issue>1</issue>
+            <fpage>1</fpage>
+            <page-range>1-4</page-range>
+            <pub-id pub-id-type="pmid">29800119</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-110758.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mathew</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Pandey</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Murthy</surname>
+                <given-names>NS</given-names>
+              </name>
+            </person-group>
+            <article-title>Survival analysis: caveats and pitfalls.</article-title>
+            <source>Eur J Surg Oncol</source>
+            <year>1999</year>
+            <month>Jun</month>
+            <volume>25</volume>
+            <issue>3</issue>
+            <fpage>321</fpage>
+            <page-range>321-9</page-range>
+            <pub-id pub-id-type="pmid">10336816</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-110758.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Young</surname>
+                <given-names>KD</given-names>
+              </name>
+              <name>
+                <surname>Menegazzi</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Lewis</surname>
+                <given-names>RJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistical methodology: IX. survival analysis.</article-title>
+            <source>Acad Emerg Med</source>
+            <year>1999</year>
+            <month>Mar</month>
+            <volume>6</volume>
+            <issue>3</issue>
+            <fpage>244</fpage>
+            <page-range>244-9</page-range>
+            <pub-id pub-id-type="pmid">10192678</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-110758.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ben&#x000ed;tez-Parejo</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Rodr&#x000ed;guez del &#x000c1;guila</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>P&#x000e9;rez-Vicente</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Survival analysis and Cox regression.</article-title>
+            <source>Allergol Immunopathol (Madr)</source>
+            <year>2011</year>
+            <season>Nov-Dec</season>
+            <volume>39</volume>
+            <issue>6</issue>
+            <fpage>362</fpage>
+            <page-range>362-73</page-range>
+            <pub-id pub-id-type="pmid">22014655</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-110758.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Koletsi</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Pandis</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Survival analysis, part 2: Kaplan-Meier method and the log-rank test.</article-title>
+            <source>Am J Orthod Dentofacial Orthop</source>
+            <year>2017</year>
+            <month>Oct</month>
+            <volume>152</volume>
+            <issue>4</issue>
+            <fpage>569</fpage>
+            <page-range>569-571</page-range>
+            <pub-id pub-id-type="pmid">28962743</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-110758.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bland</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Altman</surname>
+                <given-names>DG</given-names>
+              </name>
+            </person-group>
+            <article-title>Survival probabilities (the Kaplan-Meier method).</article-title>
+            <source>BMJ</source>
+            <year>1998</year>
+            <month>Dec</month>
+            <day>05</day>
+            <volume>317</volume>
+            <issue>7172</issue>
+            <fpage>1572</fpage>
+            <pub-id pub-id-type="pmid">9836663</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-110758.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Watanabe</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Applications of statistics to medical science, IV survival analysis.</article-title>
+            <source>J Nippon Med Sch</source>
+            <year>2012</year>
+            <volume>79</volume>
+            <issue>3</issue>
+            <fpage>176</fpage>
+            <page-range>176-81</page-range>
+            <pub-id pub-id-type="pmid">22791117</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

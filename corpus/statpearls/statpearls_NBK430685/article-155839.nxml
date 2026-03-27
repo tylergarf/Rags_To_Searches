@@ -1,0 +1,2925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-155839" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Electrophysiology Study and Ablation of Ventricular Tachycardia</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Tiwari </surname>
+            <given-names>Abhishek K.</given-names>
+          </name>
+          <aff>Ahalia Diabetes Hospital</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Elsharkawi</surname>
+            <given-names>Ali</given-names>
+          </name>
+          <aff>National Heart Institute</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Abhishek Tiwari declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Ali Elsharkawi declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>27</day>
+          <month>2</month>
+          <year>2025</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-155839.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Ventricular tachycardia (VT) is characterized by an abnormal electrical focus, or circuit, within the ventricular myocardium.&#x000a0;VT often presents with a rapid ventricular rate and a wide QRS complex on an electrocardiogram, hindering the ability of the heart to maintain an adequate cardiac output and a proper coronary flow, which may lead to symptoms such as dizziness, syncope, or even sudden cardiac death depending on the rate and duration of the arrhythmia. VT treatment options include antiarrhythmic medications, catheter ablation, and implantable cardiac defibrillators (ICDs). Antiarrhythmic medications can reduce an arrhythmia's recurrence but carry adverse events and risks, making catheter ablation a potentially definitive treatment if the arrhythmic focus or circuit is accurately identified and ablated.<xref ref-type="bibr" rid="article-155839.r1">[1]</xref></p>
+        <p>The success of VT ablation varies with the underlying condition and operator skills,&#x000a0;reaching above 90%&#x02014;with&#x000a0;the highest success rate in patients with normal hearts. Success rates in patients with scar or cardiomyopathy range between 50% to 75% at 6 to 12 months, and if there is a recurrence, 66%&#x000a0;of patients will have less frequent VT than before ablation. While ICDs provide critical emergency treatment, they do not prevent arrhythmia initiation and are thus used for arrhythmias that have proven to be resistant to ablation and medication.<xref ref-type="bibr" rid="article-155839.r2">[2]</xref></p>
+      </sec>
+      <sec id="article-155839.s2" sec-type="Anatomy and Physiology">
+        <title>Anatomy and Physiology</title>
+        <p>
+<bold>Physiology of&#x000a0;Ventricular Tachycardia</bold>
+</p>
+        <p>During VT, the ventricles&#x000a0;contract&#x000a0;dyssynchronously from the atria at a rate of 120 to 300 beats per minute. VT requires a suitable substrate for initiation and a conducive environment for propagation. Cardiac arrhythmias require enhanced or abnormal impulse formation and conduction disturbances. This interplay is often observed in structural heart diseases, ischemia, and infarction, all of which actively contribute to the development of arrhythmias. Catheter ablation has been used to treat cardiac rhythm disorders since it was first described in 1983.<xref ref-type="bibr" rid="article-155839.r3">[3]</xref>&#x000a0;Once the areas critical to the arrhythmia are identified, radiofrequency or cryoenergy is precisely delivered, creating a small burn or freeze of approximately 4 to 5 mm in diameter. The number of lesions required to treat VT differs. In the presence of scar tissue, ablations may be conducted within the scar and around its edges to eliminate the abnormal electrical circuit responsible for the VT. Electrophysiology study systematically assesses cardiac electrical stimulation, conduction, and arrhythmogenic potential, providing crucial insights into these mechanisms.<xref ref-type="bibr" rid="article-155839.r4">[4]</xref></p>
+        <p>The mechanisms of&#x000a0;cardiac arrhythmias can be&#x000a0;cataloged into&#x000a0;2 major categories:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p><bold>Enhanced or abnormal impulse formation&#x000a0;</bold>
+<list list-type="bullet"><list-item><p>Automaticity refers to the physiological property of cardiomyocytes to depolarize spontaneously. Under normal circumstances, the sinoatrial node, which has the highest intrinsic depolarization rate, regulates the heart rate. This process occurs due to a net inward current during phase 4 of the action potential, which refers to a positive current that allows Na<sup>+</sup> and K<sup>+</sup> ions to flow in.&#x000a0;Typically, atrial and ventricular cardiomyocytes do not depolarize spontaneously. However, these cells can develop that capability and exhibit repetitive impulse initiation or depolarization-induced automaticity. A tachyarrhythmia can occur when latent pacemaker cells with increased automaticity take over the role of the sinoatrial node.</p></list-item><list-item><p>Triggered activity arises from early afterdepolarizations (EADs) and delayed afterdepolarizations (DADs), depolarizations that follow and depend on previous action potentials. EADs can interrupt or delay the depolarization of a cardiomyocyte's membrane during the plateau phase (phase 2) or the action potential's final repolarization phase (phase 3). Both EADs and DADs can lead to premature beats and, consequently, tachyarrhythmias. EADs are often observed in injured and hypoxic cardiomyocytes and in situations involving pH imbalances, electrolyte disturbances, and the presence of certain antiarrhythmic, such as class III agents, which may provoke torsades de pointes. On the other hand, DADs can occur when there is an increase in intracellular calcium, such as in cases of toxic levels of cardiac glycosides or catecholamines. DADs may also arise in hypertrophied or failing hearts and in Purkinje cells following a myocardial infarction.&#x000a0;DAD-induced ventricular arrhythmias occur in catecholaminergic polymorphic&#x000a0;VT due to a "leaky" ryanodine receptor, which is aggravated during catecholamine stimulation. This generates a bidirectional VT.<xref ref-type="bibr" rid="article-155839.r5">[5]</xref></p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p><bold>Reentry</bold>
+<list list-type="bullet"><list-item><p>Reentry occurs when an activation wavefront circulates an anatomical or functional obstacle and reexcites its point of origin. In this type of arrhythmia, the excitable cardiomyocytes take turns recovering from depolarization, becoming ready to depolarize with the next incoming wavefront.&#x000a0;Reentry can have an&#x000a0;anatomical&#x000a0;cause, such as a scar or an accessory pathway, or be&#x000a0;functional.&#x000a0;For an anatomical type of reentry to be sustained, it will require 2 conditions: 1) an area of unidirectional block and 2) an excitatory depolarization wave that progresses along the same circular pathway. Thus, the arrhythmia can terminate when the reentrant circuit&#x000a0;is interrupted at any point along its path.<xref ref-type="bibr" rid="article-155839.r5">[5]</xref>&#x000a0;A functional reentry occurs when premature impulses travel along areas with shorter refractory periods. This results in an "arc of block" where the impulse circulates. A functional reentry can also happen within the Purkinje system, leading to VT and ventricular fibrillation (VF). Both reentrant and triggered mechanisms play a role in the development of VT and VF associated with channelopathies, including long QT syndrome, Brugada syndrome, and short QT syndrome.<xref ref-type="bibr" rid="article-155839.r5">[5]</xref><xref ref-type="bibr" rid="article-155839.r6">[6]</xref>&#x000a0;</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Anatomic Locations of&#x000a0;Ventricular Tachycardia</bold>
+</p>
+        <p>
+<bold>Outflow Tract&#x000a0;Ventricular Tachycardia</bold>
+</p>
+        <p>Approximately two-thirds of idiopathic ventricular arrhythmias originate from the ventricular outflow tracts, of which 70% to 80% come from the right side (see <bold>Image.</bold> Different Ventricular Tachycardia Origins).<xref ref-type="bibr" rid="article-155839.r7">[7]</xref>&#x000a0;Outflow tract VTs (OTVTs) frequently occur without structural heart disease. In OTVTs, impulses originate from the myocardial tissue in the outflow areas. The right ventricular outflow tract (RVOT) near the pulmonary valve is the primary source, originating from ventricular myocardium extensions into the pulmonary valve, exhibiting focal triggered activity. Meanwhile, the left ventricular outflow tract (LVOT) is less often affected; however, the coronary cusps are more commonly involved since the base of the noncoronary cusp typically lacks cardiomyocyte extensions. The mechanism primarily involves triggered activity due to DADs, usually intensified by sympathetic stimulation or stress.</p>
+        <p>A monomorphic VT pattern on the ECG also characterizes outflow tract arrhythmias with an inferior axis. The pattern usually exhibits a left bundle branch block configuration with an inferior axis, indicating a right ventricular origin.<xref ref-type="bibr" rid="article-155839.r8">[8]</xref> When the VT originates from the LVOT or aortic root, it may present with a right bundle branch block pattern and similar inferior axis, making the ECG a crucial tool for localization.<xref ref-type="bibr" rid="article-155839.r9">[9]</xref></p>
+        <p>
+<bold>Ventricular Tachycardia&#x000a0;Originating from the Aortic Root</bold>
+</p>
+        <p>The aortic root, specifically the sinuses of Valsalva, houses myocardial fibers that extend from the LVOT. These fibers can become the site of abnormal automaticity or triggered activity, leading to the development of VT. The proximity of the aortic root to the coronary arteries and the conduction system makes precise localization and ablation of the arrhythmogenic focus or foci challenging.</p>
+        <p>VT originating from the aortic root is an uncommon but important subtype of idiopathic VT, often presenting in patients with structurally normal hearts. The arrhythmia typically arises from the aortic sinuses of Valsalva, with the left coronary cusp being the most frequent origin at 54.5% compared to the other cusps, with 31.8% in the right coronary cusp, 11.4% in the left-right coronary cusps junction and 2.3% in the noncoronary cusp. VT originating from the aortic root often exhibits a&#x000a0;left bundle branch block pattern with an inferior axis on the electrocardiogram (ECG). This pattern is similar to other OTVTs, such as those arising from the RVOT. However, specific ECG characteristics, such as the precordial R-wave transition, can help distinguish an aortic root origin from other OTVTs. The ratio of the R-wave amplitude in leads II and III is significantly greater with a left coronary cusp than other cusps.<xref ref-type="bibr" rid="article-155839.r9">[9]</xref></p>
+        <p>
+<bold>Fascicular&#x000a0;Ventricular Tachycardia</bold>
+</p>
+        <p>Fascicular VT is a specific type of idiopathic reentry arrhythmia with a QRS width of less than 140 msec originating from the Purkinje fibers within the left ventricular fascicles. They can be described as relatively narrow right bundle left axis arrhythmias&#x000a0;originating close to the posterior fascicle and can be induced with atrial pacing. This is the most common form of idiopathic VT in those with structurally normal hearts and is typically seen in younger individuals. However, they can also be present in individuals with cardiac pathology.</p>
+        <p>Fascicular VT is generally classified into&#x000a0;3 types based on the origin of the reentrant circuit within the left ventricle:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Left posterior fascicular VT
+<list list-type="bullet"><list-item><p>This is the most common form, accounting for about 90% of cases. Originating from the posterior fascicle, it often presents with a right bundle branch block (RBBB) pattern and a left-axis deviation on the ECG.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Left anterior fascicular VT
+<list list-type="bullet"><list-item><p>This is less common and originates from the anterior fascicle, typically showing an RBBB pattern with a right-axis deviation on ECG.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Upper septal fascicular VT
+<list list-type="bullet"><list-item><p>This is the rarest form and arises near the junction of the anterior and posterior fascicles and often presents with a narrow QRS complex (&#x0003c;120 msec) and with a normal axis.</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+        <p>Fascicular VT is typically reentrant, involving a small reentrant circuit within the Purkinje network.&#x000a0;This type of VT is often sensitive to calcium channel blockers, particularly verapamil, which is why it is sometimes called "verapamil-sensitive VT."<xref ref-type="bibr" rid="article-155839.r10">[10]</xref></p>
+        <p>
+<bold>Papillary Muscle&#x000a0;Ventricular Tachycardia</bold>
+</p>
+        <p>Papillary muscle VT is a distinct subtype of idiopathic VT originating from the ventricular papillary muscles. This form of VT is typically seen in patients with structurally normal hearts. Still, it can also occur in the context of underlying cardiac conditions, such as ischemic heart disease, mitral valve prolapse, or hypertrophic cardiomyopathy.</p>
+        <p>The papillary muscles within the ventricles anchor the mitral and tricuspid valve leaflets via the chordae tendinae. The&#x000a0;2 primary papillary muscles&#x000a0;of the left ventricle are the anterolateral and posteromedial muscles. Papillary muscle VT can arise from either of these muscles, with the posteromedial papillary muscle being the more common site of origin.</p>
+        <p>The mechanism of papillary muscle VT is primarily related to triggered activity due to delayed EADs, often exacerbated by mechanical stress or ischemia. The unique environment within the papillary muscles, which are subject to significant mechanical and electrical forces, predisposes them to arrhythmogenesis. Additionally, the proximity of the Purkinje fibers to the papillary muscles may play a role in initiating and maintaining this arrhythmia.</p>
+        <p>Papillary muscle VT typically presents as a monomorphic VT on the ECG, with the morphology depending on the specific papillary muscle involved. For instance, VT originating from the posteromedial papillary muscle generally shows an RBBB pattern with an inferior axis, while VT from the anterolateral papillary muscle may show an LBBB pattern. Right ventricular papillary muscle VT can originate from the posterior or anterior right ventricular papillary muscles, showing a superior axis with late R-wave transition (&#x0003e;V4). However, septal right ventricular papillary muscle arrhythmias usually present an inferior axis with an earlier R-wave transition in the precordial leads (&#x0003c;V4).<xref ref-type="bibr" rid="article-155839.r11">[11]</xref></p>
+        <p>Intracardiac echocardiography, combined with activation mapping, can help identify the precise location of the arrhythmogenic focus. Due to the anatomical complexities of the region, radiofrequency ablation (RFA) can be challenging because of catheter instability. In contrast, cryoablation ensures that the catheter tip adheres to the tissue during freezing, providing greater stability. Therefore, cryoablation can serve as an adjunct or even an alternative to RFA for these types of arrhythmias.<xref ref-type="bibr" rid="article-155839.r12">[12]</xref></p>
+        <p>
+<bold>Mitral Annulus&#x000a0;Ventricular Tachycardia</bold>
+</p>
+        <p>The mitral annulus is a critical cardiac structure that attaches to the mitral valve leaflets and is a junction between the atria and ventricles. Due to its proximity to the conduction system and the complex interaction of electrical and mechanical forces, the annulus is susceptible to developing arrhythmias.&#x000a0;Mitral annulus VT is an uncommon but distinct subtype of idiopathic VT originating from&#x000a0;the&#x000a0;fibrous ring surrounding the mitral valve. This arrhythmia is typically seen in patients with structurally normal hearts and is characterized by a specific&#x000a0;ECG pattern that reflects its origin from the mitral annular region.</p>
+        <p>Mitral annulus VT is thought to result from focal automaticity or triggered activity due to delayed EADs. The arrhythmogenic focus is located within the myocardium near the mitral annulus, typically in the left ventricle. The VT can arise from any part of the mitral annulus, including the anterolateral (58%), posteroseptal (31%), and posterior (11%) segments, and may be influenced by mechanical stress on the mitral valve apparatus, leading to localized reentry or enhanced automaticity.</p>
+        <p>All&#x000a0;demonstrate&#x000a0;RBBB morphology, an R or Rs pattern in leads V2 through V6, and a&#x000a0;precordial transition in V1&#x000a0;or V2. The anterolateral&#x000a0;VT&#x000a0;is associated with an inferior axis and negative polarity in leads I and aVL, positive QRS polarity in the inferior leads, and notching of the R wave in the inferior leads. A posteroseptal or posterior VT&#x000a0;is associated with a superior axis QRS and positive polarity in leads I and aVL.<xref ref-type="bibr" rid="article-155839.r13">[13]</xref></p>
+        <p>
+<bold>Aortomitral Continuity&#x000a0;Ventricular Tachycardia</bold>
+</p>
+        <p>The fibrous&#x000a0;structure connecting the aortic and mitral valve leaflets has been shown to be a site of origin for premature ventricular contractions and VT in some cases; it usually occurs in structural heart disease. This region provides unique challenges for radiofrequency ablation, but cryosurgery and transcoronary alcohol ablation appear feasible in some cases.<xref ref-type="bibr" rid="article-155839.r14">[14]</xref></p>
+        <p>
+<bold>Tricuspid Annulus&#x000a0;Ventricular Tachycardia</bold>
+</p>
+        <p>Tricuspid annulus VT is typically caused by abnormal automaticity, triggered activity, or micro reentry near the tricuspid valve annulus. The tricuspid annulus is the attachment point for the tricuspid valve leaflets and is surrounded by the right atrium and right ventricle. The proximity to the&#x000a0;RVOT and other structures on the right side of the heart can influence the arrhythmogenic properties of this region. The arrhythmogenic focus is usually located near the posterior or septal segments of the tricuspid annulus, though it can originate from any part. The mechanism of the VT is often related to localized reentry or enhanced automaticity triggered by factors such as increased adrenergic tone, electrolyte imbalances, or mechanical stress.</p>
+        <p>On ECG, tricuspid annulus VT usually presents with an LBBB pattern and an inferior axis. This pattern reflects the origin of the VT from the right ventricle, specifically near the tricuspid annulus. The ECG morphology can vary slightly depending on the precise location of the arrhythmogenic focus, providing clues to the exact site of origin. Notching of the QRS complex is more frequently observed in VT or premature ventricular contractions (PVCs) originating from the tricuspid annulus's free wall. In contrast, a Q wave in lead V1 is more commonly associated with VT or PVCs arising from the annulus's septal region. RFA appears to be more effective when the arrhythmia originates in the free wall of the tricuspid annulus rather than in the septal region.<xref ref-type="bibr" rid="article-155839.r15">[15]</xref></p>
+        <p>
+<bold>Epicardial Origin of&#x000a0;Ventricular Tachycardia</bold>
+</p>
+        <p>Epicardial VT, accounting for 15% of VT, is typically associated with abnormal electrical circuits or focal sources on the&#x000a0;cardiac outer surface. These arrhythmias can be related to scar tissue from previous myocardial infarctions, congenital abnormalities, or inflammatory processes. The epicardial surface is less accessible than the endocardium, requiring specialized techniques for mapping and ablation.</p>
+        <p>The arrhythmogenic focus or circuit in epicardial VT often involves:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Scar-related arrhythmias
+<list list-type="bullet"><list-item><p>Postmyocardial infarction scars can provide a substrate for epicardial VT.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Idiopathic VT
+<list list-type="bullet"><list-item><p>Some epicardial VTs occur in the absence of identifiable structural heart disease, often associated with congenital or fibrous abnormalities on the epicardium.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Inflammatory or infectious processes
+<list list-type="bullet"><list-item><p>Inflammatory diseases or infections affecting the pericardium can also contribute to epicardial arrhythmias.</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+        <p>ECG criteria to identify an epicardial origin of a VT include slowing of the initial portion of QRS in a "pseudo delta" pattern of 75 or greater msec and the presence of a Q wave in lead I with concomitant absence of Q waves in the inferior leads.<xref ref-type="bibr" rid="article-155839.r16">[16]</xref></p>
+      </sec>
+      <sec id="article-155839.s3" sec-type="Indications">
+        <title>Indications</title>
+        <p>According to the Expert Consensus Statement on Catheter Ablation of Ventricular Arrhythmias (2019), catheter ablation is recommended for the following types of ventricular arrhythmias:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p><bold>Idiopathic outflow tract ventricular arrhythmia</bold>
+<list list-type="bullet"><list-item><p>For frequent and symptomatic PVCs originating from the RVOT in an otherwise normal heart, catheter ablation is recommended in preference to metoprolol or propafenone.</p></list-item><list-item><p>Catheter ablation is useful for symptomatic ventricular arrhythmias from the RVOT in an otherwise normal heart when antiarrhythmic medications are ineffective, not tolerated, or not the patient&#x02019;s preference.</p></list-item><list-item><p>In symptomatic idiopathic sustained monomorphic VT, catheter ablation is useful.</p></list-item><list-item><p>Symptomatic ventricular arrhythmias from the endocardial LVOT, including the sinus of Valsalva, in an otherwise normal heart, when antiarrhythmic medications are ineffective, not tolerated, or not the patient&#x02019;s preference, catheter ablation can be useful.</p></list-item><list-item><p>Symptomatic ventricular arrhythmias from the epicardial outflow tract or LV summit in an otherwise normal heart when antiarrhythmic medications are ineffective, not tolerated, or not the patient&#x02019;s preference, catheter ablation can be useful.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p><bold>Idiopathic nonoutflow tract ventricular arrhythmia in the absence of structural heart disease</bold>
+<list list-type="bullet"><list-item><p>Symptomatic ventricular arrhythmias from the&#x000a0;right ventricle at sites other than the&#x000a0;outflow tracts (tricuspid annulus, moderator band, parietal band, or papillary muscles) in an otherwise normal heart&#x000a0;when antiarrhythmic medications are ineffective, not tolerated, or not the patient&#x02019;s preference, catheter ablation is useful.</p></list-item><list-item><p>Symptomatic ventricular arrhythmias from the&#x000a0;left ventricle&#x000a0;at sites other than the outflow tracts (mitral annulus, papillary muscles, or aortomitral continuity) in an otherwise normal heart&#x000a0;when antiarrhythmic medications are ineffective, not tolerated, or not the patient&#x02019;s preference, catheter ablation is useful.</p></list-item><list-item><p>Symptomatic ventricular arrhythmias from the epicardial coronary venous system in an otherwise normal heart&#x000a0;when antiarrhythmic medications are ineffective, not tolerated, or not the patient&#x02019;s preference, catheter ablation can be useful.&#x000a0;</p></list-item><list-item><p>Symptomatic ventricular arrhythmias from paraHisian sites in an otherwise normal heart&#x000a0;when antiarrhythmic medications are ineffective, not tolerated, or not the patient&#x02019;s preference, catheter ablation can be useful.</p></list-item><list-item><p>Symptomatic ventricular arrhythmias from the posterior-superior process of the left ventricle in an otherwise normal heart&#x000a0;when antiarrhythmic medications are ineffective, not tolerated, or not the patient&#x02019;s preference, catheter ablation from the left ventricle endocardium, right atrium, or coronary sinus can be useful.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p><bold><bold>Ventricular arrhythmia</bold>s in patients with ischemic heart disease&#x000a0;</bold>
+<list list-type="bullet"><list-item><p>In patients with ischemic heart disease (IHD) who experience recurrent monomorphic VT despite chronic amiodarone therapy, catheter ablation is recommended in preference to escalating antiarrhythmic drug therapy.</p></list-item><list-item><p>In patients with IHD and recurrent symptomatic monomorphic VT despite&#x000a0;antiarrhythmic drug therapy, or when antiarrhythmic drug therapy is contraindicated or not tolerated, catheter ablation is recommended to reduce recurrent VT.</p></list-item><list-item><p>In patients with IHD and VT storm refractory to antiarrhythmic drug therapy, catheter ablation is recommended.</p></list-item><list-item><p>Catheter ablation can be useful in patients with IHD and recurrent monomorphic VT in whom antiarrhythmic drugs are not desired.</p></list-item><list-item><p>In patients with IHD and an ICD who experience a first episode of monomorphic VT, catheter ablation may be considered to reduce the risk of recurrent VT or ICD therapies.</p></list-item><list-item><p>Epicardial ablation may be considered in patients with prior myocardial infarction and recurrent episodes of symptomatic sustained VT for whom prior endocardial catheter ablation has not been successful and who have ECG, endocardial mapping, or imaging evidence of a subepicardial VT substrate.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p><bold>Ventricular arrhythmia in nonischemic cardiomyopathy&#x000a0;</bold>
+<list list-type="bullet"><list-item><p>In patients with nonischemic cardiomyopathy (NICM) and recurrent sustained monomorphic VT for whom antiarrhythmic medications are ineffective, contraindicated, or not tolerated, catheter ablation is useful for reducing recurrent VT and ICD shocks.</p></list-item><list-item><p>In patients with NICM and electrical storm refractory to antiarrhythmic drug therapy, catheter ablation is useful for reducing recurrent VT and ICD shocks.</p></list-item><list-item><p>In patients with NICM, epicardial catheter ablation of VT can be useful after failure of endocardial ablation or as the initial ablation approach when there is a suspicion of an epicardial substrate or circuit.</p></list-item><list-item><p>In patients with cardiac sarcoidosis and recurrent VT despite medical therapy, catheter ablation can be useful to reduce the risk of VT recurrence and ICD shocks.</p></list-item><list-item><p>In patients with NICM and recurrent sustained monomorphic VT for whom antiarrhythmic medications are not desired, catheter ablation can be useful for reducing recurrent VT and ICD shocks.</p></list-item><list-item><p>In patients with NICM related to lamin A/C (LMNA) mutations and recurrent VT, catheter ablation may be considered a palliative strategy for short-term arrhythmia control, but its usefulness is not well established.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p><bold>Bundle branch reentrant VT and fascicular VT</bold>
+<list list-type="bullet"><list-item><p>In patients with bundle branch reentrant VT, catheter ablation reduces the risk of recurrent VT.</p></list-item><list-item><p>In patients with idiopathic left fascicular reentrant VT for whom medications are ineffective, not tolerated, or not the patient&#x02019;s preference, catheter ablation is useful.</p></list-item><list-item><p>Catheter ablation is useful in larger pediatric patients (&#x0003e;15 kg) with idiopathic left fascicular reentrant VT in whom medical treatment is ineffective or not tolerated.</p></list-item><list-item><p>Catheter ablation is useful in patients with focal fascicular VT with or without structural heart disease.</p></list-item><list-item><p>In patients with postinfarction reentrant, Purkinje fiber-mediated VT, catheter ablation is useful.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p><bold>Ventricular<bold>&#x000a0;arrhythmia</bold> in patients with congenital heart disease</bold>
+<list list-type="bullet"><list-item><p>In patients with congenital heart disease (CHD) presenting with sustained ventricular arrhythmias, evaluation for potential residual anatomical or coronary abnormalities should be performed.</p></list-item><list-item><p>In patients with CHD presenting with sustained VT in the presence of important hemodynamic lesions, treatment of hemodynamic abnormalities as feasible should be performed in conjunction with consideration for ablation.</p></list-item><list-item><p>Catheter ablation is effective in patients with repaired tetralogy of Fallot and sustained monomorphic VT or recurrent appropriate ICD therapy for ventricular arrhythmias.</p></list-item><list-item><p>In select patients with CHD and clinical episodes of sustained VT who are undergoing surgical repair of residual hemodynamic abnormalities, surgical ablation of VT guided by preoperative or intraoperative electroanatomic mapping can be beneficial.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p><bold>Ventricular<bold>&#x000a0;arrhythmia&#x000a0;</bold>in inherited primary arrhythmia disorders</bold>
+<list list-type="bullet"><list-item><p>In patients with&#x000a0;arrhythmogenic right ventricular cardiomyopathy (ARVC) who experience recurrent sustained VT or frequent appropriate ICD interventions for VT in whom antiarrhythmic drug therapy is ineffective or not tolerated, catheter ablation at a center with specific expertise is recommended.</p></list-item><list-item><p>An epicardial approach for VT ablation is recommended in patients with ARVC who have failed&#x000a0;1 or more endocardial VT catheter ablation attempts.</p></list-item><list-item><p>In patients with ARVC who experience recurrent sustained VT or frequent appropriate ICD interventions for VT in whom antiarrhythmic drug therapy is not desired or preferred, catheter ablation at a center with specific expertise is reasonable.</p></list-item><list-item><p>In patients with Brugada syndrome who experience recurrent sustained&#x000a0;ventricular arrhythmias or frequent appropriate ICD interventions, catheter ablation can be useful.</p></list-item><list-item><p>In patients with ARVC, a first-line combined endocardial/epicardial approach for VT ablation is reasonable.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p><bold>Ventricular<bold>&#x000a0;arrhythmia</bold> in hypertrophic cardiomyopathy&#x000a0;</bold>
+<list list-type="bullet"><list-item><p>In patients with&#x000a0;hypertrophic cardiomyopathy and recurrent monomorphic VT in whom antiarrhythmic drug therapy is ineffective or not tolerated, catheter ablation can be useful.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p><bold>Ventricular<bold>&#x000a0;arrhythmia</bold> with mechanical hemodynamic support</bold>
+<list list-type="bullet"><list-item><p>In select patients at risk of&#x000a0;requiring&#x000a0;hemodynamic&#x000a0;support, a decision to proceed with catheter ablation of&#x000a0;ventricular arrhythmia&#x000a0;should be made in collaboration with specialists in advanced heart failure management.</p></list-item><list-item><p>In select patients, hemodynamic&#x000a0;support with a percutaneous&#x000a0;ventricular-assist device and extracorporeal membrane oxygenation during VT ablation can be useful to avoid acute hemodynamic deterioration.</p></list-item><list-item><p>In select cases, mechanical hemodynamic support may be considered to allow mapping and ablating unstable VTs, but its usefulness is not well established.<xref ref-type="bibr" rid="article-155839.r17">[17]</xref></p></list-item></list>
+</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-155839.s4" sec-type="Contraindications">
+        <title>Contraindications</title>
+        <p>The following are absolute contraindications&#x000a0;of VT&#x000a0;ablation:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Mobile ventricular thrombus&#x000a0;(epicardial ablation&#x000a0;might be considered)</p>
+          </list-item>
+          <list-item>
+            <p>VT due to transient reversible causes or torsade de pointes VT related to prolonged QT</p>
+          </list-item>
+          <list-item>
+            <p>Mechanical prosthetic heart valves&#x000a0;as they are&#x000a0;not crossed with ablation catheters</p>
+          </list-item>
+          <list-item>
+            <p>Active systemic infection</p>
+          </list-item>
+          <list-item>
+            <p>Uncontrolled coagulopathy</p>
+          </list-item>
+          <list-item>
+            <p>Severe uncontrolled heart failure</p>
+          </list-item>
+          <list-item>
+            <p>Severe aortic stenosis</p>
+          </list-item>
+          <list-item>
+            <p>Severe pulmonary hypertension</p>
+          </list-item>
+        </list>
+        <p>The following are&#x000a0;relative contraindications&#x000a0;of VT&#x000a0;ablation:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Advanced age
+<list list-type="bullet"><list-item><p>Age increases procedural risk due to comorbidities and general frailty.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Significant comorbidities such as chronic obstructive pulmonary disease, renal failure, and liver disease</p>
+          </list-item>
+          <list-item>
+            <p>Severe anemia</p>
+          </list-item>
+          <list-item>
+            <p>Patient noncompliance
+<list list-type="bullet"><list-item><p>Issues with postprocedure care and medication adherence can cause contraindications.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Pregnancy
+<list list-type="bullet"><list-item><p>Pregnant women should not be exposed to fluoroscopy.</p></list-item><list-item><p>A procedure that doesn't use fluoroscopy should be&#x000a0;considered.&#x000a0;</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-155839.s5" sec-type="Preparation">
+        <title>Preparation</title>
+        <p>
+<bold>Patient Selection</bold>
+</p>
+        <p>Patient selection and preprocedural risk assessment are critical steps in&#x000a0;VT study and ablation. A well-studied score called the PAAINESD risk score has been demonstrated to help identify patients undergoing scar-related VT ablation who are at increased risk of adverse periprocedural outcomes.</p>
+        <p>PAAINESD risk score includes:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Chronic obstructive pulmonary disease (5 points)</p>
+          </list-item>
+          <list-item>
+            <p>Aged 60 or older (3 points)</p>
+          </list-item>
+          <list-item>
+            <p>General anesthesia (4 points)</p>
+          </list-item>
+          <list-item>
+            <p>Ischemic cardiomyopathy (6 points)</p>
+          </list-item>
+          <list-item>
+            <p>New York Heart Association class III or IV (6 points)</p>
+          </list-item>
+          <list-item>
+            <p>Ejection fraction &#x0003c;25% (3 points)</p>
+          </list-item>
+          <list-item>
+            <p>Presentation with VT storm (5 points)</p>
+          </list-item>
+          <list-item>
+            <p>Diabetes mellitus (3 points)</p>
+          </list-item>
+        </list>
+        <p>A PAAINESD score greater than 15 to 17 (depending on whether general anesthesia is included) identifies patients at high risk of adverse periprocedural and postprocedural outcomes.<xref ref-type="bibr" rid="article-155839.r18">[18]</xref></p>
+        <p>
+<bold>Surface ECG and Cardiac Imaging</bold>
+</p>
+        <p>A 12-lead ECG during sinus rhythm can help identify underlying heart diseases and the location of myocardial scarring indicated by pathological Q waves.&#x000a0;This test is also useful for locating the anatomical source of ventricular arrhythmias before an ablation procedure. Therefore, proper placement of precordial ECG leads is critical for accurate arrhythmia localization.</p>
+        <p>An RBBB pattern observed in lead V1 typically suggests a left ventricular source, as the left ventricle activates before the right. In contrast, an LBBB pattern in V1 indicates a right ventricular origin. A superior axis in the inferior leads points to a source at the base of the heart, while an inferior axis signals an origin in the outflow tract area.</p>
+        <p>Negative deflections in leads I or aVL suggest a left-sided origin, while positive deflections imply a right-sided origin. Leads aVR and aVL aid in distinguishing between left and right septal locations. Furthermore, precordial R-wave progression gives additional insight: more positive leads indicate a basal origin, whereas more negative leads indicate an apical source. VTs with a septal origin typically exhibit a narrower QRS complex due to synchronous ventricular activation.<xref ref-type="bibr" rid="article-155839.r19">[19]</xref></p>
+        <p>Noninvasive cardiac imaging plays a vital role in characterizing ventricular arrhythmias prior to cardiac ablation. Multimodal cardiac imaging can gather anatomical and functional data, which enables more effective risk stratification for patients. Integrating information from noninvasive techniques such as echocardiography, cardiac magnetic resonance imaging, cardiac computed tomography, nuclear imaging, and intracardiac ultrasound enhances the identification of the ablation substrate. This comprehensive approach helps to minimize periprocedural complications and ultimately leads to better outcomes, including a lower recurrence rate of arrhythmias.<xref ref-type="bibr" rid="article-155839.r20">[20]</xref></p>
+        <p>
+<bold>Anesthesia Preparation</bold>
+</p>
+        <p>Most electrophysiology (EP) procedures are performed using deep sedation. Some suggest avoiding general anesthesia in idiopathic VT due to fear of being unable to reproduce VT during the EPS; however, others have shown that general anesthesia does not prevent inducing VT in most patients. Although general anesthesia can be associated with increased hemodynamic support, it does not appear to affect VT stability or procedural outcomes adversely.<xref ref-type="bibr" rid="article-155839.r21">[21]</xref>&#x000a0;&#x000a0;</p>
+        <p>Neuromuscular blocking agents are often used in EP procedures to minimize muscle movement during the procedure, allowing for accurate recording of electrical signals and better manipulation of catheters. However, these&#x000a0;agents&#x000a0;are best avoided when the planned ablation site is close to the phrenic nerve,&#x000a0;as in&#x000a0;patients with nonischemic cardiomyopathy undergoing epicardial&#x000a0;VT ablation. Thus, strategies to identify and safeguard the phrenic nerve are crucial.<xref ref-type="bibr" rid="article-155839.r22">[22]</xref>&#x000a0;Patients with preexisting neuromuscular disorders may be more susceptible to complications from neuromuscular blockade, requiring careful dose adjustments and monitoring.<xref ref-type="bibr" rid="article-155839.r23">[23]</xref></p>
+        <p>
+<bold>Preprocedure Anticoagulation</bold>
+</p>
+        <p>Therapeutic anticoagulation prevents serious thrombotic complications when treating left-sided ventricular tachyarrhythmias. Nonvitamin K antagonist oral anticoagulants (NOACs), direct thrombin inhibitors, or factor Xa inhibitors serve as alternatives to vitamin K antagonists (VKAs). In general, right-sided procedures carry a low risk of significant thromboembolic events. Heparin does not appear necessary for these procedures and offers no clinical benefit. However, it may be used in specific situations such as long-lasting procedures, a history of previous venous thromboembolism, known risk factors for thrombosis, or right-to-left intracardiac shunts that could lead to paradoxical emboli. If patients require oral anticoagulation or platelet inhibitors for another reason, there is no evidence to suggest that these agents must be discontinued before a right ventricular ablation procedure. For patients on a&#x000a0;VKA with a higher risk of thromboembolism, it is safe to continue oral anticoagulation, maintaining an international normalized ratio (INR) between 2 and 3.</p>
+        <p>For patients taking NOACs, it is reasonable to stop the medication the evening before the procedure and resume it if no bleeding complications occur 3 to 4 hours after the intervention. In patients with structural heart disease who are undergoing endocardial ablation for right VT, it is permissible to continue established therapy with a VKA, NOAC, or platelet inhibitor. In these cases, unfractionated heparin should be considered during the procedure. Before an epicardial ablation, it may be beneficial to stop NOACs 48 hours prior to the procedure. Additionally, it may be advisable to withhold VKAs until the international normalized ratio is less than 1.5 before an epicardial ablation.</p>
+        <p>Anticoagulants are used to balance the risk of thromboembolic events and bleeding complications, particularly during&#x000a0;EP procedures in the left heart. Due to the limited number of well-controlled studies on anticoagulation management for left-sided VT ablation, the current recommendations are based on expert consensus. Notably, consider individual patient characteristics and comorbidities while balancing thromboembolic risks with the potential for cardiac tamponade, bleeding, and vascular injury.</p>
+        <p>During the procedure, it is recommended to administer unfractionated heparin, targeting an activated clotting time of greater than 300 seconds. For patients on VKAs, it is generally advisable not to interrupt oral anticoagulation before left ventricular ablation. In contrast, patients on NOACs should discontinue their medication at least 24 hours before the&#x000a0;procedure. For those on dabigatran, this period may be longer if renal impairment is present. A transthoracic echocardiogram can be beneficial in ruling out the presence of&#x000a0;left ventricular thrombi prior to the ablation procedure. If switching to epicardial access during a&#x000a0;left ventricular ablation, protamine administration may be considered before accessing the epicardium. After the&#x000a0;left ventricular ablation, oral anticoagulation or aspirin for 4 to 12 weeks may be appropriate. Without other indications, oral anticoagulation should not be administered before&#x000a0;left ventricular ablation.<xref ref-type="bibr" rid="article-155839.r24">[24]</xref></p>
+        <p>
+<bold>Preprocedural Antiarrhythmic Halting</bold>
+</p>
+        <p>Before a VT ablation procedure, it is common practice to stop most antiarrhythmic medications several days or even weeks in advance. This approach helps increase the likelihood of arrhythmia during the&#x000a0;EP assessment, as it reduces any interference in identifying the source of the VT. However, the specific timing for discontinuing medication and the decision to stop it should be based on the individual patient&#x02019;s circumstances and the type of antiarrhythmic drug being used.</p>
+        <p>
+<bold>Hemodynamic Support</bold>
+</p>
+        <p>Most centers have circulatory support systems such as extracorporeal membrane oxygenation or Impella devices to support a low-functioning left ventricle. The PAAINESD score has been used to guide the selection of patients for mechanical circulatory support.<xref ref-type="bibr" rid="article-155839.r18">[18]</xref></p>
+        <p>
+<bold>Surgical Backup</bold>
+</p>
+        <p>Hemopericardium is&#x000a0;an adverse event from a right ventricular or coronary vessel puncture.&#x000a0;Radiofrequency ablation can cause bleeding during mapping and ablation. Surgical backup might be needed.</p>
+        <p>
+<bold>Leads and Defibrillator Pads Placement and Accuracy</bold>
+</p>
+        <p>Accurate lead placement during pace mapping is essential to ensure that the pacing results can be reliably compared to the VT on surface ECG. Thus, an inconsistent lead placement, particularly&#x000a0;of the precordial leads, can lead to inaccurate pace maps and misidentification of the arrhythmia source. Patients should have defibrillator patches connected, and if an&#x000a0;implantable cardioverter-defibrillator is present, it must be programmed before and after the procedure.&#x000a0;</p>
+      </sec>
+      <sec id="article-155839.s6" sec-type="Technique or Treatment">
+        <title>Technique or Treatment</title>
+        <p>VT ablation is a complex procedure that demands rigorous standards for personnel and equipment. All staff must meet comprehensive training requirements, and equipment integrity and functionality should be consistently maintained to address complex cardiac conditions.&#x000a0;Conditions such as heart failure, electrolyte imbalances, and myocardial ischemia should be effectively managed. Ultrasound-guided femoral arterial and venous access is recommended to minimize vascular complications. Intraprocedural systemic anticoagulation with intravenous heparin should be maintained, targeting an activated clotting time (ACT) of 250 to 400 seconds. ACT should be monitored every 15 minutes until therapeutic levels are achieved, then at 30-minute intervals. Protamine may be administered at the end of the procedure to reverse anticoagulation once all catheters have been removed or when a shift in approach is required from endocardial to epicardial.</p>
+        <p>
+<bold>VT Diagnosis in Electrophiosolgy Studies</bold>
+</p>
+        <p>Diagnosis of&#x000a0;VT during EP study is crucial for appropriate mapping and management. VT is usually wide complex, more than 120 msec with a rate of more than 120 beats per minute (bpm) (eg, usually between 150-200 bpm), and usually regular with a constant QRS axis (extreme axis deviation mostly northwest axis apart from upper septal VT that has a normal QRS axis with RBBB morphology), and possible appearance of fusion or capture beats. Atrioventricular (AV) dissociation is a key diagnosis in VT, where ventricular electrograms (EGMs) occur more than atria EGMs.&#x000a0;</p>
+        <p>However, VT with 1:1 ventriculoatrial (VA) conduction can also happen. In that case, surface ECG and more maneuvers may be needed. Adenosine can differentiate supraventricular tachycardia with aberrancy and VT if tachycardia is hemodynamically stable. Atrial overdrive pacing during VT results in partial antegrade capture of the ventricle with narrowing and changing the morphology of the VT, and cession of the overdrive pacing during entrainment will result in AV-VA response consistent with VT (see&#x000a0;<bold>Image.</bold>&#x000a0;Ladder Diagram of&#x000a0;AVVA Response). VT can be excluded when atrial pacing terminates a wide complex tachycardia with&#x000a0;AV block.&#x000a0;</p>
+        <p>There are specific characteristics to special types of VT. For example, the bundle branch reentry mechanism includes: (1) reproducible initiation of tachycardia with critical V-H interval prolongation suggesting that induction of the tachycardia depends on conduction delay within the His-Purkinje system; and (2) a stable His or bundle branch potential preceding each ventricular activation. The H-V interval is usually longer than that recorded in sinus rhythm, but not always.</p>
+        <p>
+<bold>VT Mapping</bold>
+</p>
+        <p>Mapping techniques, particularly activation mapping and entrainment mapping, are essential for managing VT. These methods allow for precisely identifying the origin and circuits of arrhythmias, enabling targeted ablation therapy to treat VT effectively. Mapping in VT involves identifying the arrhythmic substrates and the mechanisms responsible for the arrhythmia. This includes pinpointing sites of earliest activation, areas of slow conduction, or regions critical to maintaining the arrhythmia, which can then be targeted for ablation.</p>
+        <p>Various mapping techniques, including activation and entrainment mapping, are employed in scar-based VT ablations, many requiring sustained VT. However, as some patients cannot endure sustained VT, alternative approaches, such as substrate-based ablation, are necessary. Inducing VT often involves pacing stimulation from the right ventricular apex or RVOT, though the induced VT may differ from the patient's VT in morphology or cycle length. Additionally, many patients may have multiple inducible VTs, all of which, if hemodynamically tolerated, should be mapped and ablated.<xref ref-type="bibr" rid="article-155839.r25">[25]</xref></p>
+        <p>
+<bold>Activation Mapping</bold>
+</p>
+        <p>Activation mapping is performed when a patient is experiencing VT and involves maneuvering a mapping catheter to various sites within the area&#x000a0;of interest, particularly those indicated by a 12-lead ECG, echocardiography, or magnetic resonance imaging, to define the mechanism of tolerated arrhythmias. The recording electrode at the catheter tip captures local myocardial activation, which is then compared to a standard reference, usually the onset of the QRS complex during VT. This technique is especially valuable in focal tachycardias, where the local electrogram precedes the QRS complex by 20 to 30 ms at the focus site, enabling precise identification and ablation of the arrhythmia focus. Recognizing areas with very early electrogram QRS timings allows the arrhythmia focus to be accurately located and ablated.<xref ref-type="bibr" rid="article-155839.r26">[26]</xref></p>
+        <p>During sustained VT, activation mapping is also useful for recording the electrical activation sequence across different myocardial areas. In focal arrhythmias, the site of earliest activation relative to the QRS complex typically indicates the origin of VT, while in reentrant circuits, it identifies the exit site. In scar-related VT, activation mapping reveals the relationship between scar tissue and the VT circuit, helping to identify the critical isthmus&#x02014;an essential target for effective ablation to disrupt the arrhythmia circuit. Middiastolic signals are of specific importance as they may represent potential regions of slow conduction vital to maintaining the VT circuit, where ablation can result in tachycardia termination.&#x000a0;</p>
+        <p>
+<bold>Entrainment Mapping</bold>
+</p>
+        <p>Entrainment mapping is a technique used during VT ablation to determine if specific areas with fractionated diastolic potentials are part of the VT circuit. The procedure involves pacing the heart at a cycle length (10-30 msec) slightly shorter than the VT cycle length to reset the VT circuit with each pacing impulse. Key steps in entrainment include pacing until the tachycardia accelerates to the pacing cycle length and then observing if the VT resumes with its original morphology upon cessation of pacing. Entrainment mapping can differentiate whether the pacing site is within or outside the VT circuit.</p>
+        <p>When pacing from a site remote from the circuit, the impulse travels in&#x000a0;2 directions: an antidromic direction, where it collides with the ongoing wavefront; and an orthodromic direction, where it travels through the circuit, resetting the VT. This results in a QRS morphology that fuses the VT and the paced beat. Concealed entrainment occurs if the pacing lead is within the VT circuit, producing a QRS morphology identical to the VT morphology.<xref ref-type="bibr" rid="article-155839.r27">[27]</xref>&#x000a0;Entrainment mapping helps identify critical sites within the circuit, such as the isthmus, that sustain the VT. Ablating these sites can effectively terminate the arrhythmia or make it noninducible, preventing VT recurrence.</p>
+        <p>The postpacing interval (PPI) is a key parameter used during VT ablation, particularly in entrainment mapping.&#x000a0;The PPI is the interval measured between the last paced stimulus and the first return electrogram after pacing is stopped. This interval is an important indicator that helps determine whether the pacing site is within or outside the VT's reentrant circuit. When entrainment pacing is performed, the heart is paced at a shorter cycle length than the TCL. The goal is to capture the VT circuit without terminating it, allowing the clinician to assess the relationship between the pacing site and the VT circuit.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>PPI calculation
+<list list-type="bullet"><list-item><p>The PPI is calculated by measuring the time from the last pacing stimulus to the first recorded electrogram at the pacing site once pacing is stopped.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>PPI interpretation
+<list list-type="bullet"><list-item><p>PPI &#x02248; TCL
+<list list-type="bullet"><list-item><p>If the PPI closely matches the tachycardia cycle length, the pacing site is within or very close to the VT circuit, specifically within the critical isthmus. A PPI within 30 ms of the TCL indicates a site within the reentrant circuit.</p></list-item></list>
+</p></list-item><list-item><p>PPI &#x0003e; TCL
+<list list-type="bullet"><list-item><p>A PPI significantly longer than the TCL suggests that the pacing site is not within the reentrant circuit. The prolonged PPI occurs because the stimulus must travel to and from the circuit, indicating that the site is outside the circuit, such as in bystander tissue.</p></list-item></list>
+</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+        <p>The configuration of the QRS complex during entrainment also provides useful information. During constant pacing, the configuration of the fusion QRS complexes remains constant. If the pacing rate is increased, the stimulated wavefronts from the pacing site travel further, capturing more of the ventricle. The QRS configuration more closely resembles that produced by pacing in the absence&#x000a0;of tachycardia. Thus, the degree of fusion is progressive as the pacing rate increases.&#x000a0;</p>
+        <p>During entrainment produced by pacing in or near the reentry circuit, the collision of stimulated antidromic and orthodromic wavefronts occurs near the pacing site, in or near the reentry circuit. The antidromic wavefront depolarizes only a small mass of tissue that is not detectable on the surface ECG. Thus, the fusion between stimulated antidromic and orthodromic wavefronts is concealed. This has been called&#x000a0;entrainment with concealed fusion.</p>
+        <p>During entrainment with concealed fusion, the interval from the stimulus to the onset of the QRS complex (S-QRS) indicates the conduction time from the pacing site to the reentry circuit exit. So the percentage ratio of S-QRS/TCL can determine roughly the location of the pacing catheter in the VT circuit: exit site is less than 30%, central is 31% to 50%, proximal is 51% to 70%, and inner loop is greater than 70%, where the exit, central and proximal are considered the isthmus sites, and radiofrequency ablation is often effective at central and proximal sites.<xref ref-type="bibr" rid="article-155839.r27">[27]</xref></p>
+        <p>
+<bold>Electroanatomic Mapping&#x000a0;</bold>
+</p>
+        <p>Electroanatomic mapping (EAM) systems are sophisticated tools used in cardiac electrophysiology to create detailed, 3-dimensional (3D) maps of the heart's activity and anatomy. These systems are crucial in diagnosing, characterizing, and treating complex arrhythmias, including VT. EAM systems have revolutionized the field by providing real-time visualization and allowing for more precise and targeted ablation therapies.</p>
+        <p>EAM systems integrate data from catheters equipped with sensors that track their position within the heart while simultaneously recording electrical activity. The data is processed to generate 3D maps that display the heart's electrical activation, voltage distribution, and other relevant parameters.&#x000a0;These systems allow operators to accurately determine the spatial orientation of catheters in&#x000a0;3D and define cardiac chamber geometry, usually concomitant with an activation or voltage map.</p>
+        <p>The primary clinical applications of EAM systems include:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Arrhythmia localization
+<list list-type="bullet"><list-item><p>EAM systems help identify the precise location of arrhythmogenic foci or reentrant circuits responsible for arrhythmias. This is critical for treating conditions such as VT and atrial fibrillation.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Ablation guidance
+<list list-type="bullet"><list-item><p>By visualizing catheter position in real-time and correlating it with electrical activity, EAM systems allow for precise ablation of targeted areas, minimizing damage to healthy tissue and reducing procedure time.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Complex anatomy
+<list list-type="bullet"><list-item><p>EAM systems are particularly useful in patients with complex cardiac anatomy or prior surgical interventions, where fluoroscopic guidance alone may be insufficient.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Scar-based VT
+<list list-type="bullet"><list-item><p>EAM is especially useful for ablations in patients with scar-based VT, where the arrhythmogenic substrate is complex.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Improved outcomes
+<list list-type="bullet"><list-item><p>The precision of EAM systems reduces the likelihood of incomplete ablation, arrhythmia recurrence, and procedural complications, enhancing the overall success rate of catheter ablation procedures.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Minimized radiation exposure
+<list list-type="bullet"><list-item><p>By reducing reliance on fluoroscopy, EAM systems lower radiation exposure for patients and clinicians.</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Voltage Mapping</bold>
+</p>
+        <p>Voltage mapping is a specific application within EAM that measures the electrical potential (voltage) across different regions of the myocardium.&#x000a0;This is particularly valuable in scar-related arrhythmias, such as scar-related VT.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Voltage Mapping Process
+<list list-type="bullet"><list-item><p>During voltage mapping, the system records the amplitude of intracardiac electrograms at various locations in the heart. These amplitudes are then color-coded and displayed on the 3D map:
+<list list-type="bullet"><list-item><p>High-voltage areas (usually &#x0003e;1.5 mV)
+<list list-type="bullet"><list-item><p>Represent healthy myocardium</p></list-item><list-item><p>Usually exhibits bright colors</p></list-item></list>
+</p></list-item><list-item><p>Low-voltage areas (0.5&#x02013;1.5 mV)
+<list list-type="bullet"><list-item><p>Indicate diseased tissue, such as scar or fibrosis, which may be part of a reentrant circuit</p></list-item><list-item><p>Shown in darker or distinct colors</p></list-item></list>
+</p></list-item><list-item><p>Scar zones (&#x0003c;0.5 mV)
+<list list-type="bullet"><list-item><p>Typically represent areas of dense scar tissue, which are nonconductive and may anchor reentrant circuits</p></list-item><list-item><p>Often depicted in the darkest shades</p></list-item></list>
+</p></list-item></list>
+</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Clinical Application of Voltage Mapping
+<list list-type="bullet"><list-item><p>Identifying arrhythmogenic substrates
+<list list-type="bullet"><list-item><p>Voltage mapping helps locate scar tissue that may be critical to maintaining VT. Ablation can be directed at the borders or channels within these scars to disrupt the circuit.</p></list-item></list>
+</p></list-item><list-item><p>Tailored ablation strategy
+<list list-type="bullet"><list-item><p>By differentiating between healthy and diseased tissue, voltage mapping allows for a more tailored ablation strategy, reducing unnecessary ablation of healthy myocardium and focusing on critical areas.</p></list-item></list>
+</p></list-item><list-item><p>Evaluation of ablation efficacy
+<list list-type="bullet"><list-item><p>Postablation voltage mapping can assess the procedure's effectiveness by verifying and eliminating low-voltage areas associated with the arrhythmogenic substrate.</p></list-item></list>
+</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+        <p>The benefits of EAM systems, including voltage mapping, are substantial:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Precision and safety
+<list list-type="bullet"><list-item><p>EAM systems enhance procedural precision, thereby increasing the safety and efficacy of ablation therapies.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Reduced procedure times
+<list list-type="bullet"><list-item><p>By providing clear, real-time guidance, EAM systems can shorten procedure times.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Improved patient outcomes
+<list list-type="bullet"><list-item><p>More accurate targeting of arrhythmogenic areas improves patient outcomes, with higher rates of arrhythmia-free survival.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Lowered radiation exposure
+<list list-type="bullet"><list-item><p>The ability to rely less on fluoroscopy reduces radiation exposure for patients and healthcare providers.</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Pace Mapping</bold>
+</p>
+        <p>Pace mapping is a crucial technique in EP, particularly valuable in the ablation of VT for patients with hemodynamically unstable arrhythmias, where entrainment or activation mapping is not feasible. The basic principle of pace mapping involves pacing from various sites within the heart and comparing the resulting 12-lead ECG to the VT ECG. A perfect match, known as a 12/12 match, indicates that the morphology of the paced QRS complexes is identical to that of the VT QRS complexes, suggesting that the catheter is near or at the origin site of the arrhythmia.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Applications of Pace Mapping
+<list list-type="bullet"><list-item><p>Focal VT
+<list list-type="bullet"><list-item><p>Site of origin
+<list list-type="bullet"><list-item><p>A 12/12 match in focal VT suggests the catheter is positioned at or near the arrhythmia's origin.</p></list-item></list>
+</p></list-item></list>
+</p></list-item><list-item><p>Macro-reentrant VT
+<list list-type="bullet"><list-item><p>Exit site vs isthmus
+<list list-type="bullet"><list-item><p>In scar-related VT, a near-perfect pace map often indicates proximity to the VT exit site. However, ablation at the exit site may only shift the exit without eliminating the circuit. A critical circuit component is more effective but harder to locate by ablating the isthmus using pace mapping alone.</p></list-item></list>
+</p></list-item></list>
+</p></list-item><list-item><p>Slow conduction areas
+<list list-type="bullet"><list-item><p>Identifying critical isthmus
+<list list-type="bullet"><list-item><p>Pace mapping can highlight areas of slow conduction within infarct zones, which may represent critical isthmus sites. These areas are identified by a delay between the pacing stimulus and the onset of the QRS complex (S-QRS delay), indicating potential targets for ablation.</p></list-item></list>
+</p></list-item></list>
+</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Practical Considerations
+<list list-type="bullet"><list-item><p>Pace mapping is especially useful in patients with hemodynamically unstable VT, where prolonged VT is not tolerated. In such cases, pace mapping is an alternative to entrainment mapping, providing a method to localize the origin of arrhythmia or critical circuit components without requiring the patient to endure sustained VT. In patients with structural heart disease who do not experience inducible VT, mapping the abnormal substrate during sinus or paced rhythms can help identify sites in the reentrant circuit during VT. The abnormal substrate can be defined using electroanatomic mapping systems, which identify areas with electrograms that show low peak-to-peak voltage. Specifically, values greater than 1.5 mV are considered normal, while values below 0.5 mV indicate the presence of dense scar tissue.&#x000a0;</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Substrate-Based Ablation for VT</bold>
+</p>
+        <p>Substrate ablation is based on the principle that areas critical for maintaining reentry have distinct&#x000a0;EP properties during sinus or paced rhythms. These properties include slow or delayed activation, which can be mapped and targeted for ablation. This technique is especially important for patients who cannot tolerate sustained arrhythmia or when VT is noninducible during the procedure. Substrate ablation focuses on modifying the arrhythmogenic substrate&#x02014;scar tissue or areas of abnormal myocardium&#x02014;that form the foundation for the reentrant circuits responsible for VT.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Steps in Substrate-Based Ablation
+<list list-type="bullet"><list-item><p>Voltage mapping
+<list list-type="bullet"><list-item><p>Creation of voltage map
+<list list-type="bullet"><list-item><p>A comprehensive voltage map of the affected cardiac chamber is constructed to delineate regions of scar tissue and identify areas with low-voltage electrograms that may harbor VT circuits.</p></list-item></list>
+</p></list-item><list-item><p>Identification of scar
+<list list-type="bullet"><list-item><p>Low-voltage zones identify scar tissue and are critical for locating the potential reentrant circuits that sustain VT.</p></list-item></list>
+</p></list-item></list>
+</p></list-item><list-item><p>Electrogram analysis
+<list list-type="bullet"><list-item><p>Tagging diastolic potentials
+<list list-type="bullet"><list-item><p>The electroanatomic map marks regions exhibiting diastolic potentials and fractionated electrograms, which are often associated with the critical components of the VT circuit.</p></list-item></list>
+</p></list-item></list>
+</p></list-item><list-item><p>Pace mapping
+<list list-type="bullet"><list-item><p>Performing pace mapping
+<list list-type="bullet"><list-item><p>Pace mapping is conducted in various regions within the chamber, focusing on matching QRS morphology and analyzing the S-QRS duration. This helps in assessing the proximity to the VT circuit.</p></list-item></list>
+</p></list-item><list-item><p>Identifying electrically unexcitable scar
+<list list-type="bullet"><list-item><p>Electrically unexcitable scars are identified, defining the borders of potential reentrant circuits.</p></list-item></list>
+</p></list-item></list>
+</p></list-item><list-item><p>Identifying key VT circuit components
+<list list-type="bullet"><list-item><p>VT exit sites and isthmuses
+<list list-type="bullet"><list-item><p>Based on voltage mapping, electrogram analysis, and pace mapping, likely VT exit sites and isthmuses are identified. These regions are critical for effective ablation.</p></list-item></list>
+</p></list-item></list>
+</p></list-item><list-item><p>Ablation of potential isthmus sites
+<list list-type="bullet"><list-item><p>Targeted ablation
+<list list-type="bullet"><list-item><p>Ablation is performed in areas identified as probable isthmus sites to disrupt the reentrant circuits responsible for VT.<xref ref-type="bibr" rid="article-155839.r28">[28]</xref><xref ref-type="bibr" rid="article-155839.r29">[29]</xref><xref ref-type="bibr" rid="article-155839.r30">[30]</xref> This targeted approach minimizes arrhythmia recurrence by directly addressing the arrhythmogenic substrate.</p></list-item></list>
+</p></list-item></list>
+</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Clinical Applications
+<list list-type="bullet"><list-item><p>Substrate ablation offers a durable treatment option by focusing on the myocardial substrate and eliminating critical areas within VT circuits. This reduces VT recurrence and the need for antiarrhythmic medications. This approach enhances patient outcomes, particularly in those with hemodynamically unstable VT, where traditional mapping techniques may not be feasible.&#x000a0;This technique, combined with precise lead placement and careful interpretation, enhances the effectiveness and safety of VT ablation procedures.<xref ref-type="bibr" rid="article-155839.r31">[31]</xref></p></list-item></list>
+</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Targeting the VT Area of Interest</bold>
+</p>
+        <p>The standard radiofrequency ablation (RFA) approach involved incremental power titration (20-45 W) with an irrigated tip catheter over 60 to 120 seconds to achieve a 10% to 12% impedance drop. However, in some centers, lesions confined to the lowest aspect of aortic cusps and/or subvalvular LVOT region (&#x02264;0.5 cm from the valve) can have a prolonged duration RFA involved similar power titration, lesion application was extended beyond 120 seconds (maximum 5 minutes).<xref ref-type="bibr" rid="article-155839.r32">[32]</xref>&#x000a0;Some centers are now using intramural heated saline needle ablation, showing complete acute and satisfactory midterm control of difficult VTs failing 1 to 5 prior ablations and drug therapy. However, further studies are still warranted to define safety and longer-term efficacy.<xref ref-type="bibr" rid="article-155839.r33">[33]</xref></p>
+        <p>Patients who experience failure in endocardial ablation or have evidence of a subepicardial VT substrate on ECG or imaging should be considered for epicardial mapping and ablation. Before ablation, coronary angiography is necessary to assess the proximity of the ablation site to major epicardial vessels. When radiofrequency (RF) energy is used for epicardial ablation, irrigation is&#x000a0;used to prevent excessive heating of the catheter tip, which can limit the delivery of adequate RF energy. In contrast, thrombus formation is less of a concern during epicardial ablation. Irrigated ablation is generally preferred over standard RFA, as it has been shown to create larger and deeper lesions, particularly in areas covered by epicardial fat.<xref ref-type="bibr" rid="article-155839.r34">[34]</xref></p>
+        <p>
+<bold>Bundle Branch Reentrant&#x000a0;VT</bold>
+</p>
+        <p>Bundle branch reentrant VT is a type of&#x000a0;VT that involves the right and/or left bundle branches as part of the reentry circuit. Dilated cardiomyopathy, whether ischemic or nonischemic, is a significant underlying cardiac condition and accounts for the majority of cases. This mechanism of arrhythmia is particularly relevant in patients with myotonic dystrophy. Bundle branch reentrant VT is typically inducible using conventional pacing protocols with atrial and ventricular programmed stimulation or burst&#x000a0;pacing. Radiofrequency catheter ablation of a right bundle branch is the first-line therapy to cure bundle branch reentrant VT. Using this technique, the catheter is initially placed at the His bundle area and then gradually advanced toward the anterior-superior ventricular septum with clockwise torque. The following characteristics identify the RB potential: (1) a sharp deflection inscribed at least 20 ms later than the His potential and (2) absence of the atrial electrogram on the same recording.<xref ref-type="bibr" rid="article-155839.r35">[35]</xref></p>
+      </sec>
+      <sec id="article-155839.s7" sec-type="Complications">
+        <title>Complications</title>
+        <p>VT ablation&#x000a0;can be particularly challenging in patients with advanced cardiovascular disease. Despite its potential benefits, the procedure carries a significant risk of serious complications. The overall rate of major complications ranges from 8% to 10%, highlighting the critical need for careful patient assessment and procedural planning.<xref ref-type="bibr" rid="article-155839.r36">[36]</xref><xref ref-type="bibr" rid="article-155839.r37">[37]</xref></p>
+        <p>
+<bold>Major Complications</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Stroke
+<list list-type="bullet"><list-item><p>The manipulation of catheters, especially within the left heart, can lead to thromboembolism. This risk arises from the potential dislodgement of thrombi or emboli, which can subsequently travel to the brain and cause a stroke. The use of anticoagulants during the procedure further complicates this risk.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Valvular injury
+<list list-type="bullet"><list-item><p>Catheter movement and ablation near heart valves may damage these structures, potentially leading to valvular insufficiency or stenosis. This injury can result from direct mechanical trauma or thermal effects of the ablation.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Major bleeding
+<list list-type="bullet"><list-item><p>The procedure&#x02019;s demands for vascular access and anticoagulation increase the risk of significant bleeding. This may manifest as local bleeding, hematoma, AV fistula, pseudoaneurysm, or major vessel perforation. Such complications might require transfusions or even surgical intervention.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Cardiac tamponade
+<list list-type="bullet"><list-item><p>A rare but critical complication, cardiac tamponade occurs when fluid accumulates in the pericardial space, compressing the heart and impairing its function. This condition necessitates immediate emergent management.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Hemodynamic collapse
+<list list-type="bullet"><list-item><p>Severe arrhythmias or procedural complications can lead to abrupt cardiovascular instability. Hemodynamic collapse may necessitate urgent resuscitation and intensive care.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Death
+<list list-type="bullet"><list-item><p>As reported in several trials, the periprocedural mortality rate for recurrent VT ablation is around 2.7% to 3%. This underscores the inherent risks associated with the procedure, especially in patients with severe underlying conditions.</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Additional Considerations</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Allergic reactions
+<list list-type="bullet"><list-item><p>Reactions to contrast agents, anesthetics, antibiotics, and other medications used during the procedure can pose significant risks.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Skin injuries
+<list list-type="bullet"><list-item><p>Injuries related to cardioversion or radiation/fluoroscopy exposure can occur, necessitating careful monitoring and preventive measures.</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-155839.s8" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>VT ablation is a critical therapeutic intervention for patients with ventricular arrhythmias that are refractory to medical therapy or implantable cardioverter defibrillator (ICD) shocks.&#x000a0;This treatment's&#x000a0;significance lies in several key benefits. By eradicating the arrhythmogenic foci responsible for VT, ablation can significantly reduce the risk of sudden cardiac death. Patients who undergo VT ablation often experience fewer and less severe arrhythmic episodes, leading to an improved quality of life and reduced psychological distress related to ICD shocks. Additionally, VT ablation decreases hospitalizations by reducing recurrent admissions related to VT episodes and heart failure exacerbations.</p>
+        <p>Furthermore, ablation enhances the efficacy of antiarrhythmic medications, allowing for lower dosages and fewer side effects.&#x000a0;Ablation also facilitates ICD management by curtailing the frequency of ICD shocks, which can be painful and distressing for patients. Lastly, by stabilizing heart rhythms, VT ablation supports cardiac function and helps prevent the progression of heart failure in patients with underlying structural heart disease.<xref ref-type="bibr" rid="article-155839.r38">[38]</xref></p>
+      </sec>
+      <sec id="article-155839.s9" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>Effective management of ventricular tachycardia through electrophysiology study and ablation demands a highly coordinated interprofessional approach. Clinicians, particularly electrophysiologists, lead the diagnostic and therapeutic process by interpreting complex arrhythmic patterns and guiding catheter-based interventions. Advanced clinicians and nurses are crucial in preparing patients for the procedure, monitoring their status, and managing immediate postprocedural care. They ensure that patients are well-informed and comfortable, promptly addressing concerns or complications. Pharmacists contribute by managing and reviewing medications, particularly anticoagulants and antiarrhythmics, to minimize adverse effects and optimize therapeutic outcomes.</p>
+        <p>Interprofessional communication is essential for seamless care coordination. Regular briefings among team members before, during, and after the procedure ensure that all aspects of patient management are addressed, from preprocedural preparations to postoperative monitoring and follow-up. Collaboration in these stages helps in early identification and mitigation of potential complications, enhancing patient safety. Additionally, effective care coordination extends to educating patients about their condition and treatment options, which fosters adherence to postprocedural care plans and contributes to better long-term outcomes. By leveraging the combined expertise of the entire healthcare team, patient-centered care is improved, outcomes are optimized, and the risk of procedural complications is reduced.</p>
+      </sec>
+      <sec id="article-155839.s10">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=155839&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=155839">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/155839/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=155839">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-155839.s11">
+        <fig id="article-155839.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Different Ventricular Tachycardia Origins. Two-thirds of idiopathic ventricular arrhythmias originate from the ventricular outflow tracts, of which 70% to 80% come from the right side. Contributed and adapted by A Elsharkawi, MD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="HeartGraph" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-155839.s12">
+        <fig id="article-155839.image.f2" position="float" orientation="portrait">
+          <caption>
+            <p>Ladder Diagram of a AVVA Response. This is the ventricular&#x000a0;response to atrial overdrive pacing with entrainment upon cessation of the visual evoked potential. This is a diagnostic maneuver to distinguish&#x000a0;ventricular tachycardia from other conditions. (A is atrial activation, V is ventricular activation, S stimulus for overdrive pacing) Contributed by A Elsharkawi, MD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="AVVA" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-155839.s13">
+        <title>References</title>
+        <ref id="article-155839.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tung</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Boyle</surname>
+                <given-names>NG</given-names>
+              </name>
+              <name>
+                <surname>Shivkumar</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Catheter ablation of ventricular tachycardia.</article-title>
+            <source>Circulation</source>
+            <year>2010</year>
+            <month>Jul</month>
+            <day>20</day>
+            <volume>122</volume>
+            <issue>3</issue>
+            <fpage>e389</fpage>
+            <page-range>e389-91</page-range>
+            <pub-id pub-id-type="pmid">20644021</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Delhomme</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Njeim</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Varlet</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Pechmajou</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Benameur</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Cassan</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Derkenne</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Jost</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Lamhaut</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Marijon</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Jouven</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Karam</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Automated external defibrillator use in out-of-hospital cardiac arrest: Current limitations and solutions.</article-title>
+            <source>Arch Cardiovasc Dis</source>
+            <year>2019</year>
+            <month>Mar</month>
+            <volume>112</volume>
+            <issue>3</issue>
+            <fpage>217</fpage>
+            <page-range>217-222</page-range>
+            <pub-id pub-id-type="pmid">30594573</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hartzler</surname>
+                <given-names>GO</given-names>
+              </name>
+            </person-group>
+            <article-title>Electrode catheter ablation of refractory focal ventricular tachycardia.</article-title>
+            <source>J Am Coll Cardiol</source>
+            <year>1983</year>
+            <month>Dec</month>
+            <volume>2</volume>
+            <issue>6</issue>
+            <fpage>1107</fpage>
+            <page-range>1107-13</page-range>
+            <pub-id pub-id-type="pmid">6630783</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tung</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Boyle</surname>
+                <given-names>NG</given-names>
+              </name>
+              <name>
+                <surname>Shivkumar</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Catheter ablation of ventricular tachycardia.</article-title>
+            <source>Circulation</source>
+            <year>2011</year>
+            <month>May</month>
+            <day>24</day>
+            <volume>123</volume>
+            <issue>20</issue>
+            <fpage>2284</fpage>
+            <page-range>2284-8</page-range>
+            <pub-id pub-id-type="pmid">21606407</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Antzelevitch</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Burashnikov</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Overview of Basic Mechanisms of Cardiac Arrhythmia.</article-title>
+            <source>Card Electrophysiol Clin</source>
+            <year>2011</year>
+            <month>Mar</month>
+            <day>01</day>
+            <volume>3</volume>
+            <issue>1</issue>
+            <fpage>23</fpage>
+            <page-range>23-45</page-range>
+            <pub-id pub-id-type="pmid">21892379</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cronin</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name>
+                <surname>Bogun</surname>
+                <given-names>FM</given-names>
+              </name>
+              <name>
+                <surname>Maury</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Peichl</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Namboodiri</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Aguinaga</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Leite</surname>
+                <given-names>LR</given-names>
+              </name>
+              <name>
+                <surname>Al-Khatib</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Anter</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Berruezo</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Callans</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Chung</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>Cuculich</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>d'Avila</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Deal</surname>
+                <given-names>BJ</given-names>
+              </name>
+              <name>
+                <surname>Della Bella</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Deneke</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Dickfeld</surname>
+                <given-names>TM</given-names>
+              </name>
+              <name>
+                <surname>Hadid</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Haqqani</surname>
+                <given-names>HM</given-names>
+              </name>
+              <name>
+                <surname>Kay</surname>
+                <given-names>GN</given-names>
+              </name>
+              <name>
+                <surname>Latchamsetty</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Marchlinski</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Miller</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Nogami</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Patel</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name>
+                <surname>Pathak</surname>
+                <given-names>RK</given-names>
+              </name>
+              <name>
+                <surname>S&#x000e1;enz Morales</surname>
+                <given-names>LC</given-names>
+              </name>
+              <name>
+                <surname>Santangeli</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Sapp</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Sarkozy</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Soejima</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Stevenson</surname>
+                <given-names>WG</given-names>
+              </name>
+              <name>
+                <surname>Tedrow</surname>
+                <given-names>UB</given-names>
+              </name>
+              <name>
+                <surname>Tzou</surname>
+                <given-names>WS</given-names>
+              </name>
+              <name>
+                <surname>Varma</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Zeppenfeld</surname>
+                <given-names>K</given-names>
+              </name>
+              <collab>ESC Scientific Document Group</collab>
+            </person-group>
+            <article-title>2019 HRS/EHRA/APHRS/LAHRS expert consensus statement on catheter ablation of ventricular arrhythmias.</article-title>
+            <source>Europace</source>
+            <year>2019</year>
+            <month>Aug</month>
+            <day>01</day>
+            <volume>21</volume>
+            <issue>8</issue>
+            <fpage>1143</fpage>
+            <page-range>1143-1144</page-range>
+            <pub-id pub-id-type="pmid">31075787</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lin</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Ilkhanoff</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Gerstenfeld</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Dixit</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Beldner</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Bala</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Garcia</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Callans</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Marchlinski</surname>
+                <given-names>FE</given-names>
+              </name>
+            </person-group>
+            <article-title>Twelve-lead electrocardiographic characteristics of the aortic cusp region guided by intracardiac echocardiography and electroanatomic mapping.</article-title>
+            <source>Heart Rhythm</source>
+            <year>2008</year>
+            <month>May</month>
+            <volume>5</volume>
+            <issue>5</issue>
+            <fpage>663</fpage>
+            <page-range>663-9</page-range>
+            <pub-id pub-id-type="pmid">18452867</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hutchinson</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Garcia</surname>
+                <given-names>FC</given-names>
+              </name>
+            </person-group>
+            <article-title>An organized approach to the localization, mapping, and ablation of outflow tract ventricular arrhythmias.</article-title>
+            <source>J Cardiovasc Electrophysiol</source>
+            <year>2013</year>
+            <month>Oct</month>
+            <volume>24</volume>
+            <issue>10</issue>
+            <fpage>1189</fpage>
+            <page-range>1189-97</page-range>
+            <pub-id pub-id-type="pmid">24015911</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yamada</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>McElderry</surname>
+                <given-names>HT</given-names>
+              </name>
+              <name>
+                <surname>Doppalapudi</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Murakami</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Yoshida</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Yoshida</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Okada</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Tsuboi</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Inden</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Murohara</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Epstein</surname>
+                <given-names>AE</given-names>
+              </name>
+              <name>
+                <surname>Plumb</surname>
+                <given-names>VJ</given-names>
+              </name>
+              <name>
+                <surname>Singh</surname>
+                <given-names>SP</given-names>
+              </name>
+              <name>
+                <surname>Kay</surname>
+                <given-names>GN</given-names>
+              </name>
+            </person-group>
+            <article-title>Idiopathic ventricular arrhythmias originating from the aortic root prevalence, electrocardiographic and electrophysiologic characteristics, and results of radiofrequency catheter ablation.</article-title>
+            <source>J Am Coll Cardiol</source>
+            <year>2008</year>
+            <month>Jul</month>
+            <day>08</day>
+            <volume>52</volume>
+            <issue>2</issue>
+            <fpage>139</fpage>
+            <page-range>139-47</page-range>
+            <pub-id pub-id-type="pmid">18598894</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kapa</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Gaba</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>DeSimone</surname>
+                <given-names>CV</given-names>
+              </name>
+              <name>
+                <surname>Asirvatham</surname>
+                <given-names>SJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Fascicular Ventricular Arrhythmias: Pathophysiologic Mechanisms, Anatomical Constructs, and Advances in Approaches to Management.</article-title>
+            <source>Circ Arrhythm Electrophysiol</source>
+            <year>2017</year>
+            <month>Jan</month>
+            <volume>10</volume>
+            <issue>1</issue>
+            <pub-id pub-id-type="pmid">28087563</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Crawford</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Mueller</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Good</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Jongnarangsin</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Chugh</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Pelosi</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Ebinger</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Oral</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Morady</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Bogun</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Ventricular arrhythmias originating from papillary muscles in the right ventricle.</article-title>
+            <source>Heart Rhythm</source>
+            <year>2010</year>
+            <month>Jun</month>
+            <volume>7</volume>
+            <issue>6</issue>
+            <fpage>725</fpage>
+            <page-range>725-30</page-range>
+            <pub-id pub-id-type="pmid">20206325</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kautzner</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Peichl</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Papillary Muscle Ventricular Tachycardia or Ectopy: Diagnostics, Catheter Ablation and the Role of Intracardiac Echocardiography.</article-title>
+            <source>Arrhythm Electrophysiol Rev</source>
+            <year>2019</year>
+            <month>Mar</month>
+            <volume>8</volume>
+            <issue>1</issue>
+            <fpage>65</fpage>
+            <page-range>65-69</page-range>
+            <pub-id pub-id-type="pmid">30918670</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tada</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Ito</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Naito</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Kurosaki</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Kubota</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Sugiyasu</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Tsuchiya</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Miyaji</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Yamada</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kutsumi</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Oshima</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Nogami</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Taniguchi</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Idiopathic ventricular arrhythmia arising from the mitral annulus: a distinct subgroup of idiopathic ventricular arrhythmias.</article-title>
+            <source>J Am Coll Cardiol</source>
+            <year>2005</year>
+            <month>Mar</month>
+            <day>15</day>
+            <volume>45</volume>
+            <issue>6</issue>
+            <fpage>877</fpage>
+            <page-range>877-86</page-range>
+            <pub-id pub-id-type="pmid">15766824</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Steven</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Roberts-Thomson</surname>
+                <given-names>KC</given-names>
+              </name>
+              <name>
+                <surname>Seiler</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Inada</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Tedrow</surname>
+                <given-names>UB</given-names>
+              </name>
+              <name>
+                <surname>Mitchell</surname>
+                <given-names>RN</given-names>
+              </name>
+              <name>
+                <surname>Sobieszczyk</surname>
+                <given-names>PS</given-names>
+              </name>
+              <name>
+                <surname>Eisenhauer</surname>
+                <given-names>AC</given-names>
+              </name>
+              <name>
+                <surname>Couper</surname>
+                <given-names>GS</given-names>
+              </name>
+              <name>
+                <surname>Stevenson</surname>
+                <given-names>WG</given-names>
+              </name>
+            </person-group>
+            <article-title>Ventricular tachycardia arising from the aortomitral continuity in structural heart disease: characteristics and therapeutic considerations for an anatomically challenging area of origin.</article-title>
+            <source>Circ Arrhythm Electrophysiol</source>
+            <year>2009</year>
+            <month>Dec</month>
+            <volume>2</volume>
+            <issue>6</issue>
+            <fpage>660</fpage>
+            <page-range>660-6</page-range>
+            <pub-id pub-id-type="pmid">20009078</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tada</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Tadokoro</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Ito</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Naito</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Hashimoto</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Kaseno</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Miyaji</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Sugiyasu</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Tsuchiya</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Kutsumi</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Nogami</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Oshima</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Taniguchi</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Idiopathic ventricular arrhythmias originating from the tricuspid annulus: Prevalence, electrocardiographic characteristics, and results of radiofrequency catheter ablation.</article-title>
+            <source>Heart Rhythm</source>
+            <year>2007</year>
+            <month>Jan</month>
+            <volume>4</volume>
+            <issue>1</issue>
+            <fpage>7</fpage>
+            <page-range>7-16</page-range>
+            <pub-id pub-id-type="pmid">17198982</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vall&#x000e8;s</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Bazan</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Marchlinski</surname>
+                <given-names>FE</given-names>
+              </name>
+            </person-group>
+            <article-title>ECG criteria to identify epicardial ventricular tachycardia in nonischemic cardiomyopathy.</article-title>
+            <source>Circ Arrhythm Electrophysiol</source>
+            <year>2010</year>
+            <month>Feb</month>
+            <volume>3</volume>
+            <issue>1</issue>
+            <fpage>63</fpage>
+            <page-range>63-71</page-range>
+            <pub-id pub-id-type="pmid">20008307</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cronin</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name>
+                <surname>Bogun</surname>
+                <given-names>FM</given-names>
+              </name>
+              <name>
+                <surname>Maury</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Peichl</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Namboodiri</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Aguinaga</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Leite</surname>
+                <given-names>LR</given-names>
+              </name>
+              <name>
+                <surname>Al-Khatib</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Anter</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Berruezo</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Callans</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Chung</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>Cuculich</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>d'Avila</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Deal</surname>
+                <given-names>BJ</given-names>
+              </name>
+              <name>
+                <surname>Della Bella</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Deneke</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Dickfeld</surname>
+                <given-names>TM</given-names>
+              </name>
+              <name>
+                <surname>Hadid</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Haqqani</surname>
+                <given-names>HM</given-names>
+              </name>
+              <name>
+                <surname>Kay</surname>
+                <given-names>GN</given-names>
+              </name>
+              <name>
+                <surname>Latchamsetty</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Marchlinski</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Miller</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Nogami</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Patel</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name>
+                <surname>Pathak</surname>
+                <given-names>RK</given-names>
+              </name>
+              <name>
+                <surname>Saenz Morales</surname>
+                <given-names>LC</given-names>
+              </name>
+              <name>
+                <surname>Santangeli</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Sapp</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Sarkozy</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Soejima</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Stevenson</surname>
+                <given-names>WG</given-names>
+              </name>
+              <name>
+                <surname>Tedrow</surname>
+                <given-names>UB</given-names>
+              </name>
+              <name>
+                <surname>Tzou</surname>
+                <given-names>WS</given-names>
+              </name>
+              <name>
+                <surname>Varma</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Zeppenfeld</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>2019 HRS/EHRA/APHRS/LAHRS expert consensus statement on catheter ablation of ventricular arrhythmias: executive summary.</article-title>
+            <source>Europace</source>
+            <year>2020</year>
+            <month>Mar</month>
+            <day>01</day>
+            <volume>22</volume>
+            <issue>3</issue>
+            <fpage>450</fpage>
+            <page-range>450-495</page-range>
+            <pub-id pub-id-type="pmid">31995197</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Santangeli</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Rame</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>Birati</surname>
+                <given-names>EY</given-names>
+              </name>
+              <name>
+                <surname>Marchlinski</surname>
+                <given-names>FE</given-names>
+              </name>
+            </person-group>
+            <article-title>Management of Ventricular Arrhythmias in&#x000a0;Patients With Advanced Heart Failure.</article-title>
+            <source>J Am Coll Cardiol</source>
+            <year>2017</year>
+            <month>Apr</month>
+            <day>11</day>
+            <volume>69</volume>
+            <issue>14</issue>
+            <fpage>1842</fpage>
+            <page-range>1842-1860</page-range>
+            <pub-id pub-id-type="pmid">28385314</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Della Rocca</surname>
+                <given-names>DG</given-names>
+              </name>
+              <name>
+                <surname>Gianni</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Mohanty</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Trivedi</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Di Biase</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Natale</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Localization of Ventricular Arrhythmias for Catheter Ablation: The Role of Surface Electrocardiogram.</article-title>
+            <source>Card Electrophysiol Clin</source>
+            <year>2018</year>
+            <month>Jun</month>
+            <volume>10</volume>
+            <issue>2</issue>
+            <fpage>333</fpage>
+            <page-range>333-354</page-range>
+            <pub-id pub-id-type="pmid">29784487</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gimelli</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Ernst</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Liga</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Multi-Modality Imaging for the Identification of Arrhythmogenic Substrates Prior to Electrophysiology Studies.</article-title>
+            <source>Front Cardiovasc Med</source>
+            <year>2021</year>
+            <volume>8</volume>
+            <fpage>640087</fpage>
+            <pub-id pub-id-type="pmid">33996938</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nof</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Reichlin</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Enriquez</surname>
+                <given-names>AD</given-names>
+              </name>
+              <name>
+                <surname>Ng</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Nagashima</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Tokuda</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Barbhaiya</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>John</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Michaud</surname>
+                <given-names>GF</given-names>
+              </name>
+              <name>
+                <surname>Tedrow</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Gross</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Stevenson</surname>
+                <given-names>WG</given-names>
+              </name>
+            </person-group>
+            <article-title>Impact of general anesthesia on initiation and stability of VT during catheter ablation.</article-title>
+            <source>Heart Rhythm</source>
+            <year>2015</year>
+            <month>Nov</month>
+            <volume>12</volume>
+            <issue>11</issue>
+            <fpage>2213</fpage>
+            <page-range>2213-20</page-range>
+            <pub-id pub-id-type="pmid">26072026</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Howard</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Haines</surname>
+                <given-names>DE</given-names>
+              </name>
+              <name>
+                <surname>Verma</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kirchhof</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Barka</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Onal</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Stewart</surname>
+                <given-names>MT</given-names>
+              </name>
+              <name>
+                <surname>Sigg</surname>
+                <given-names>DC</given-names>
+              </name>
+            </person-group>
+            <article-title>Characterization of Phrenic Nerve Response to Pulsed Field Ablation.</article-title>
+            <source>Circ Arrhythm Electrophysiol</source>
+            <year>2022</year>
+            <month>Jun</month>
+            <volume>15</volume>
+            <issue>6</issue>
+            <fpage>e010127</fpage>
+            <pub-id pub-id-type="pmid">35649121</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Groh</surname>
+                <given-names>WJ</given-names>
+              </name>
+              <name>
+                <surname>Bhakta</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Tomaselli</surname>
+                <given-names>GF</given-names>
+              </name>
+              <name>
+                <surname>Aleong</surname>
+                <given-names>RG</given-names>
+              </name>
+              <name>
+                <surname>Teixeira</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Amato</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Asirvatham</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <name>
+                <surname>Cha</surname>
+                <given-names>YM</given-names>
+              </name>
+              <name>
+                <surname>Corrado</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Duboc</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Goldberger</surname>
+                <given-names>ZD</given-names>
+              </name>
+              <name>
+                <surname>Horie</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Hornyak</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>Jefferies</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>K&#x000e4;&#x000e4;b</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Kalman</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Kertesz</surname>
+                <given-names>NJ</given-names>
+              </name>
+              <name>
+                <surname>Lakdawala</surname>
+                <given-names>NK</given-names>
+              </name>
+              <name>
+                <surname>Lambiase</surname>
+                <given-names>PD</given-names>
+              </name>
+              <name>
+                <surname>Lubitz</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>McMillan</surname>
+                <given-names>HJ</given-names>
+              </name>
+              <name>
+                <surname>McNally</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name>
+                <surname>Milone</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Namboodiri</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Nazarian</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Patton</surname>
+                <given-names>KK</given-names>
+              </name>
+              <name>
+                <surname>Russo</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Sacher</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Santangeli</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Shen</surname>
+                <given-names>WK</given-names>
+              </name>
+              <name>
+                <surname>Sobral Filho</surname>
+                <given-names>DC</given-names>
+              </name>
+              <name>
+                <surname>Stambler</surname>
+                <given-names>BS</given-names>
+              </name>
+              <name>
+                <surname>St&#x000f6;llberger</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Wahbi</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Wehrens</surname>
+                <given-names>XHT</given-names>
+              </name>
+              <name>
+                <surname>Weiner</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Wheeler</surname>
+                <given-names>MT</given-names>
+              </name>
+              <name>
+                <surname>Zeppenfeld</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>2022 HRS expert consensus statement on evaluation and management of arrhythmic risk in neuromuscular disorders.</article-title>
+            <source>Heart Rhythm</source>
+            <year>2022</year>
+            <month>Oct</month>
+            <volume>19</volume>
+            <issue>10</issue>
+            <fpage>e61</fpage>
+            <page-range>e61-e120</page-range>
+            <pub-id pub-id-type="pmid">35500790</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sticherling</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Marin</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Birnie</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Boriani</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Calkins</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Dan</surname>
+                <given-names>GA</given-names>
+              </name>
+              <name>
+                <surname>Gulizia</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Halvorsen</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Hindricks</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Kuck</surname>
+                <given-names>KH</given-names>
+              </name>
+              <name>
+                <surname>Moya</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Potpara</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Roldan</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Tilz</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Lip</surname>
+                <given-names>GY</given-names>
+              </name>
+            </person-group>
+            <article-title>Antithrombotic management in patients undergoing electrophysiological procedures: a European Heart Rhythm Association (EHRA) position document endorsed by the ESC Working Group Thrombosis, Heart Rhythm Society (HRS), and Asia Pacific Heart Rhythm Society (APHRS).</article-title>
+            <source>Europace</source>
+            <year>2015</year>
+            <month>Aug</month>
+            <volume>17</volume>
+            <issue>8</issue>
+            <fpage>1197</fpage>
+            <page-range>1197-214</page-range>
+            <pub-id pub-id-type="pmid">26105732</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ling</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Hari</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Tandri</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>VT ablation: New Developments and Approaches.</article-title>
+            <source>Curr Treat Options Cardiovasc Med</source>
+            <year>2014</year>
+            <month>Apr</month>
+            <volume>16</volume>
+            <issue>4</issue>
+            <fpage>297</fpage>
+            <pub-id pub-id-type="pmid">24515355</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kottkamp</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Hindricks</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Brunn</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Willems</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Haverkamp</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Block</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Breithardt</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Borggrefe</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Radiofrequency catheter ablation of sustained ventricular tachycardia in idiopathic dilated cardiomyopathy.</article-title>
+            <source>Circulation</source>
+            <year>1995</year>
+            <month>Sep</month>
+            <day>01</day>
+            <volume>92</volume>
+            <issue>5</issue>
+            <fpage>1159</fpage>
+            <page-range>1159-68</page-range>
+            <pub-id pub-id-type="pmid">7648661</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Stevenson</surname>
+                <given-names>WG</given-names>
+              </name>
+              <name>
+                <surname>Friedman</surname>
+                <given-names>PL</given-names>
+              </name>
+              <name>
+                <surname>Sager</surname>
+                <given-names>PT</given-names>
+              </name>
+              <name>
+                <surname>Saxon</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Kocovic</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Harada</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Wiener</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Khan</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Exploring postinfarction reentrant ventricular tachycardia with entrainment mapping.</article-title>
+            <source>J Am Coll Cardiol</source>
+            <year>1997</year>
+            <month>May</month>
+            <volume>29</volume>
+            <issue>6</issue>
+            <fpage>1180</fpage>
+            <page-range>1180-9</page-range>
+            <pub-id pub-id-type="pmid">9137211</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kitamura</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Martin</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Vlachos</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Martin</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Frontera</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Takigawa</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Thompson</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Cheniti</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Massouille</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Lam</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Bourier</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Duchateau</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Pambrun</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Denis</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Derval</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Hocini</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ha&#x000cf;ssaguerre</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Cochet</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Ja&#x000cf;s</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Sacher</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Substrate Mapping and Ablation for Ventricular Tachycardia in Patients with Structural Heart Disease: How to Identify Ventricular Tachycardia Substrate.</article-title>
+            <source>J Innov Card Rhythm Manag</source>
+            <year>2019</year>
+            <month>Mar</month>
+            <volume>10</volume>
+            <issue>3</issue>
+            <fpage>3565</fpage>
+            <page-range>3565-3580</page-range>
+            <pub-id pub-id-type="pmid">32477720</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sapp</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Wells</surname>
+                <given-names>GA</given-names>
+              </name>
+              <name>
+                <surname>Parkash</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Stevenson</surname>
+                <given-names>WG</given-names>
+              </name>
+              <name>
+                <surname>Blier</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Sarrazin</surname>
+                <given-names>JF</given-names>
+              </name>
+              <name>
+                <surname>Thibault</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Rivard</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Gula</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Leong-Sit</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Essebag</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Nery</surname>
+                <given-names>PB</given-names>
+              </name>
+              <name>
+                <surname>Tung</surname>
+                <given-names>SK</given-names>
+              </name>
+              <name>
+                <surname>Raymond</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Sterns</surname>
+                <given-names>LD</given-names>
+              </name>
+              <name>
+                <surname>Veenhuyzen</surname>
+                <given-names>GD</given-names>
+              </name>
+              <name>
+                <surname>Healey</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Redfearn</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Roux</surname>
+                <given-names>JF</given-names>
+              </name>
+              <name>
+                <surname>Tang</surname>
+                <given-names>AS</given-names>
+              </name>
+            </person-group>
+            <article-title>Ventricular Tachycardia Ablation versus Escalation of Antiarrhythmic Drugs.</article-title>
+            <source>N Engl J Med</source>
+            <year>2016</year>
+            <month>Jul</month>
+            <day>14</day>
+            <volume>375</volume>
+            <issue>2</issue>
+            <fpage>111</fpage>
+            <page-range>111-21</page-range>
+            <pub-id pub-id-type="pmid">27149033</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ja&#x000ef;s</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Maury</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Khairy</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Sacher</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Nault</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Komatsu</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Hocini</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Forclaz</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Jadidi</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Weerasooryia</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Shah</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Derval</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Cochet</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Knecht</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Miyazaki</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Linton</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Rivard</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Wright</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Wilton</surname>
+                <given-names>SB</given-names>
+              </name>
+              <name>
+                <surname>Scherr</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Pascale</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Roten</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Pederson</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Bordachar</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Laurent</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <name>
+                <surname>Ritter</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Clementy</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Ha&#x000ef;ssaguerre</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Elimination of local abnormal ventricular activities: a new end point for substrate modification in patients with scar-related ventricular tachycardia.</article-title>
+            <source>Circulation</source>
+            <year>2012</year>
+            <month>May</month>
+            <day>08</day>
+            <volume>125</volume>
+            <issue>18</issue>
+            <fpage>2184</fpage>
+            <page-range>2184-96</page-range>
+            <pub-id pub-id-type="pmid">22492578</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Guandalini</surname>
+                <given-names>GS</given-names>
+              </name>
+              <name>
+                <surname>Liang</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Marchlinski</surname>
+                <given-names>FE</given-names>
+              </name>
+            </person-group>
+            <article-title>Ventricular Tachycardia Ablation: Past, Present, and Future Perspectives.</article-title>
+            <source>JACC Clin Electrophysiol</source>
+            <year>2019</year>
+            <month>Dec</month>
+            <volume>5</volume>
+            <issue>12</issue>
+            <fpage>1363</fpage>
+            <page-range>1363-1383</page-range>
+            <pub-id pub-id-type="pmid">31857035</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Garg</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Daubert</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Lin</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Dhakal</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Santangeli</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Schaller</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Hyman</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Kumareswaran</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Arkles</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Nazarian</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lin</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Riley</surname>
+                <given-names>MP</given-names>
+              </name>
+              <name>
+                <surname>Supple</surname>
+                <given-names>GE</given-names>
+              </name>
+              <name>
+                <surname>Frankel</surname>
+                <given-names>DS</given-names>
+              </name>
+              <name>
+                <surname>Zado</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Callans</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Marchlinski</surname>
+                <given-names>FE</given-names>
+              </name>
+              <name>
+                <surname>Dixit</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Utility of Prolonged Duration Endocardial&#x000a0;Ablation for Ventricular Arrhythmias Originating From the Left Ventricular Summit.</article-title>
+            <source>JACC Clin Electrophysiol</source>
+            <year>2022</year>
+            <month>Apr</month>
+            <volume>8</volume>
+            <issue>4</issue>
+            <fpage>465</fpage>
+            <page-range>465-476</page-range>
+            <pub-id pub-id-type="pmid">35450601</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Packer</surname>
+                <given-names>DL</given-names>
+              </name>
+              <name>
+                <surname>Wilber</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Kapa</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Dyrda</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Nault</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Killu</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Kanagasundram</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Richardson</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Stevenson</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Verma</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Curley</surname>
+                <given-names>M</given-names>
+              </name>
+              <collab>SERF Investigators</collab>
+            </person-group>
+            <article-title>Ablation of Refractory Ventricular Tachycardia Using Intramyocardial Needle Delivered Heated Saline-Enhanced Radiofrequency Energy: A First-in-Man Feasibility Trial.</article-title>
+            <source>Circ Arrhythm Electrophysiol</source>
+            <year>2022</year>
+            <month>Aug</month>
+            <volume>15</volume>
+            <issue>8</issue>
+            <fpage>e010347</fpage>
+            <pub-id pub-id-type="pmid">35776711</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mathuria</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Tung</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Shivkumar</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Advances in ablation of ventricular tachycardia in nonischemic cardiomyopathy.</article-title>
+            <source>Curr Cardiol Rep</source>
+            <year>2012</year>
+            <month>Oct</month>
+            <volume>14</volume>
+            <issue>5</issue>
+            <fpage>577</fpage>
+            <page-range>577-83</page-range>
+            <pub-id pub-id-type="pmid">22843484</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mazur</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kusniec</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Strasberg</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Bundle branch reentrant ventricular tachycardia.</article-title>
+            <source>Indian Pacing Electrophysiol J</source>
+            <year>2005</year>
+            <month>Apr</month>
+            <day>01</day>
+            <volume>5</volume>
+            <issue>2</issue>
+            <fpage>86</fpage>
+            <page-range>86-95</page-range>
+            <pub-id pub-id-type="pmid">16943949</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bhaskaran</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Chik</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Thomas</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Kovoor</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Thiagalingam</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>A review of the safety aspects of radio frequency ablation.</article-title>
+            <source>Int J Cardiol Heart Vasc</source>
+            <year>2015</year>
+            <month>Sep</month>
+            <day>01</day>
+            <volume>8</volume>
+            <fpage>147</fpage>
+            <page-range>147-153</page-range>
+            <pub-id pub-id-type="pmid">28785694</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Subramanian</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Atreya</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name>
+                <surname>Saggu</surname>
+                <given-names>DK</given-names>
+              </name>
+              <name>
+                <surname>Yalagudri</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Calambur</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Catheter ablation of ventricular tachycardia: strategies to improve outcomes.</article-title>
+            <source>Front Cardiovasc Med</source>
+            <year>2023</year>
+            <volume>10</volume>
+            <fpage>966634</fpage>
+            <pub-id pub-id-type="pmid">37645526</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155839.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Oliveira</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Cunha</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Valente</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Portugal</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Lousinha</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Pereira</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Braz</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Delgado</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Ferreira</surname>
+                <given-names>RC</given-names>
+              </name>
+            </person-group>
+            <article-title>Impact of substrate-based ablation for ventricular tachycardia in patients with frequent appropriate implantable cardioverter-defibrillator therapy and dilated cardiomyopathy: Long-term experience with high-density mapping.</article-title>
+            <source>Rev Port Cardiol (Engl Ed)</source>
+            <year>2021</year>
+            <month>Nov</month>
+            <volume>40</volume>
+            <issue>11</issue>
+            <fpage>865</fpage>
+            <page-range>865-873</page-range>
+            <pub-id pub-id-type="pmid">34857160</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

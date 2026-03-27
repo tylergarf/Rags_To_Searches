@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-31747" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>EMS Incident Command System</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Furin</surname>
+            <given-names>Molly</given-names>
+          </name>
+          <aff>Albert Einstein Healthcare Network</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Freeman</surname>
+            <given-names>Clifford L.</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Goldstein</surname>
+            <given-names>Scott</given-names>
+          </name>
+          <aff>Temple University</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Molly Furin declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Clifford Freeman declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Scott Goldstein declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>24</day>
+          <month>2</month>
+          <year>2024</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-31747.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>The incident command system (ICS) is a management tool&#x000a0;for&#x000a0;organizing and coordinating response operations&#x000a0;during disasters and emergency responses&#x000a0;(see <bold>Image</bold>. Incident Command System). The system allows multiple agencies to integrate crisis response efforts. The ICS is easily scalable to any size event and ensures common terminology, efficient resource use, and personnel and patient safety.</p>
+        <p>Decades of experience responding to disasters gave rise to the ICS. The current ICS developed from the work of a collaborative task force, the Firefighting Resources of Southern California Organized for Potential Emergencies (FIRESCOPE), in response to significant casualties and complications&#x000a0;that arose from&#x000a0;California wildfire control efforts in the 1970s.<xref ref-type="bibr" rid="article-31747.r1">[1]</xref></p>
+        <p>The FIRESCOPE review identified major issues with coordinating and organizing incidents. Many incident failures were due to coordination and organizational&#x000a0;problems and resource and personnel insufficiency. Command hierarchy and accountability were lacking. Communication systems were used inefficiently and with conflicting radio codes. Freelancing&#x02014;when individuals or specialized groups self-dispatched or became involved without coordinating with other responders&#x02014;was a source of confusion and safety issues. The ICS intends to alleviate these problems by providing a replicable framework that responders from different regions and backgrounds can utilize.<xref ref-type="bibr" rid="article-31747.r2">[2]</xref>&#x000a0;Understanding the system and its components helps responding agencies coordinate their efforts.<xref ref-type="bibr" rid="article-31747.r3">[3]</xref></p>
+        <p>The&#x000a0;<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.dhs.gov/publication/homeland-security-presidential-directive-5">Homeland Security Presidential Directive-5</ext-link>&#x000a0;(HSPD-5), signed by President Bush in 2003, called for the Department of Homeland Security to create a unified national ICS for coordinated response to diverse incidents at local, state, and federal levels. The result of this directive was the National Incident Management System (NIMS), a collection of best incident management practices, principles, and terminology.</p>
+        <p>One NIMS principle is standardized ICS use, which HSPD-5 requires in response to incidents.<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/keywords/adminreviewdiffs/?id=163206#ref_32576330">[4]</ext-link>&#x000a0;Prehospital and hospital-based providers should thus be familiar with ICS terminology, basic principles, and applications.</p>
+      </sec>
+      <sec id="article-31747.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>
+<bold>National Incident Management System</bold>
+</p>
+        <p>ICS is a fundamental NIMS component, being the national guideline for emergency incident management.<xref ref-type="bibr" rid="article-31747.r4">[4]</xref> NIMS foundations include preparedness, communication, resource management, command and management, and ongoing maintenance, as explained below.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>&#x0201c;Preparedness&#x0201d; refers to ongoing training and education, personnel qualification assurance, potential threat identification, and interagency exercises.</p>
+          </list-item>
+          <list-item>
+            <p>&#x0201c;Communication and information&#x0201d; describes the requirements for a standardized communication framework and emphasizes the need for a common operating picture. NIMS is based on interoperability, reliability, scalability, portability, and communications redundancy.</p>
+          </list-item>
+          <list-item>
+            <p>&#x0201c;Resource management&#x0201d; means identifying, requesting, mobilizing, recovering, and demobilizing equipment and personnel to allow tracking, ensure safety and reimbursement, and prevent mismanagement.</p>
+          </list-item>
+          <list-item>
+            <p>&#x0201c;Command and management&#x0201d; are responsibilities of the incident commander or unified command structure. "Command" means directing and overseeing the overall response to an incident. "Management" encompasses the various functions necessary to support incident response, such as operations, planning, logistics, finance and administration, and intelligence&#x000a0;and information management. The ICS command structure consists of 3 principal systems: incident command, multiagency coordination, and public information.<xref ref-type="bibr" rid="article-31747.r5">[5]</xref></p>
+          </list-item>
+          <list-item>
+            <p>&#x0201c;Ongoing maintenance&#x0201d; is supported by the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.fema.gov/about/offices/preparedness">National Integration Center and Supporting Technologies</ext-link>, which assists&#x000a0;in community response planning.</p>
+          </list-item>
+        </list>
+        <p>HSPD-5 requires compliance with NIMS as a federal disaster preparedness assistance condition.<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/keywords/adminreviewdiffs/?id=163206#ref_32576330">[4]</ext-link> Both the original HSPD-5 and subsequent laws require ICS implementation. The Superfund Amendments and Reauthorization Act of 1986 is one example of such a law, as it requires all agencies responding to hazmat incidents to use the ICS structure. NIMS is not an operational incident management or resource allocation plan. NIMS represents a core set of doctrines, concepts, principles, terminology, and organizational processes enabling collaborative incident management.</p>
+        <p>
+<bold>Features of the Incident Command System</bold>
+</p>
+        <p>Multiple attributes were developed within the current ICS structure. Each feature is an essential ICS aspect. the ICS has 14 features, but not all will be discussed here.</p>
+        <p>
+<bold>Common terminology</bold>
+</p>
+        <p>The ICS requires communication to be in plain English, without 10 codes or other radio shortcodes, to simplify communication and prevent confusion. Similarly, all position titles and resources should have a standard name based on their capabilities, without referencing their daily titles.</p>
+        <p>When discussing an operational action, an &#x0201c;incident&#x0201d; is an unplanned situation that requires a response, such as a hazardous spill or medical incident. An &#x0201c;event&#x0201d; is a planned situation that may require emergency response or management.</p>
+        <p>
+<bold>Modular organization</bold>
+</p>
+        <p>The ICS&#x02019; size and function are based on incident complexity. The ICS expands as new objectives are delegated to include the positions needed to complete the task. For example, the operations section may add groups, divisions, or branches. Groups are&#x000a0;units with different tasks. Divisions, such as the North and South divisions, divide an incident geographically. Branches providing additional management layers can be added to separate groups or divisions as needed. Each branch director should supervise only 3 to 7 persons.</p>
+        <p>
+<bold>Incident action planning</bold>
+</p>
+        <p>An incident action plan (IAP) is a standardized approach to identifying the objectives and responsible parties. IAPs must have 4 elements, answering the following questions:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>What do we want to do?</p>
+          </list-item>
+          <list-item>
+            <p>Who is responsible for doing it?</p>
+          </list-item>
+          <list-item>
+            <p>How do we communicate?</p>
+          </list-item>
+          <list-item>
+            <p>What is the procedure if someone is injured?</p>
+          </list-item>
+        </list>
+        <p>IAPs can be verbal reports, but ICS form 201 may be used initially and expanded to other ICS forms as needed. The initial plan&#x000a0;must be communicated quickly and thus may include incomplete information and require later revision. Modifications&#x000a0;are based on situational information and detailed new objectives.</p>
+        <p>
+<bold>Control span</bold>
+</p>
+        <p>Any single person should have a control span of over 3 to 7 individuals. If an individual manages more than 7 resources, then that individual should be expanded by delegating responsibility to a new section, division, or task force.</p>
+        <p>
+<bold>Comprehensive resource management</bold>
+</p>
+        <p>Comprehensive resource management is a critical principle requiring all assets and personnel during an event to be&#x000a0;accounted for and located. The process may include resource reimbursement. Assigned resources are those working on a field assignment under a supervisor's direction. Available resources are ready for deployment (staged) but have not been assigned to a field assignment. Out-of-service resources are not in the "available" or "assigned" categories. Resources&#x000a0;may be "out-of-service" for various reasons, including staffing shortfalls, personnel vacation, and inoperability.</p>
+        <p>
+<bold>Chain and unity of command</bold>
+</p>
+        <p>Each participant reports to only 1&#x000a0;supervisor, increasing accountability and preventing responders from receiving conflicting instructions. Information flows easily down the structure and increases safety. While data can flow between persons, instructions follow a strictly top-down direction.&#x000a0;</p>
+        <p>
+<bold>ICS Command Staff and Section Structure</bold>
+</p>
+        <p>The ICS develops in a top-down modular fashion based on an incident&#x02019;s size and complexity. ICS consists of the command and general staff. The command staff is at the top of the hierarchical ICS structure, while the available team&#x000a0;comprises&#x000a0;the response&#x02019;s functional components. The command staff includes the incident commander and public information, safety, and liaison officers.&#x000a0;</p>
+        <p>
+<bold>Incident commander</bold>
+</p>
+        <p>The incident commander is the incident&#x02019;s overall leader mainly responsible for managing the response. The incident commander approves the IAP and determines the objectives during an operational period. However, the incident commander does not decide the specific strategies for achieving the goals.</p>
+        <p>A &#x0201c;unified command&#x0201d; may form when several agencies&#x02019; representatives work together as the incident commander. For example, a firefighter and the Emergency Medical Services (EMS) chief may share the incident command responsibilities and function as one position.</p>
+        <p>
+<bold>Public information, safety, and liaison officers</bold>
+</p>
+        <p>The public information officer must coordinate event-related information communication and prepare public updates. This officer is responsible for the information flow from the branches and sections to the command staff and functional units. The safety officer is in charge of ensuring the incident personnel&#x02019;s safety and well-being. The liaison officer organizes all activities between agencies and must know all resources and capabilities available for an operation.</p>
+        <p>
+<bold>General staff</bold>
+</p>
+        <p>The general staff is divided into 4 functional units: planning, operations, logistics, and finance and administration. A 5th section, intelligence and investigations, is necessary for some operations. A chief leads each general staff section. The organizational units within each section are &#x0201c;branches&#x0201d; headed by branch directors. Divisions or groups are the following subunits, led by supervisors. &#x0201c;Divisions&#x0201d; are geographically based subunits, whereas &#x0201c;groups&#x0201d; are function-based subunits.&#x000a0;</p>
+        <p>
+<bold>Operations section</bold>
+</p>
+        <p>The operations section is responsible for all tactical activities. This section must prioritize saving lives, reducing immediate hazards, and protecting property. Divisions or groups may be separated into single resources, strike teams, and task forces. Single resources are individual units or assets deployed to accomplish specific tasks within the incident. Examples are a single fire engine, one ambulance, and an independently operating rescue team. Strike teams are composed of multiple units of the same resource type, such as multiple fire engines or ambulances. Strike team members work together under a designated leader to accomplish specific tactical objectives efficiently.</p>
+        <p>Task forces consist of diverse resources working collaboratively. Task forces are composed of different unit types,&#x000a0;eg, fire engines combined with ambulances and rescue teams. Task forces are deployed to handle multifaceted challenges requiring various skills and equipment.</p>
+        <p>
+<bold>Planning section</bold>
+</p>
+        <p>The planning section compiles all relevant data and information. This section also disseminates information to other areas as appropriate. The planning section is typically divided into the resources, situation, demobilization, and documentation units.&#x000a0;</p>
+        <p>
+<bold>Logistics section</bold>
+</p>
+        <p>The logistics section must supply service support requirements, such as housing, food, security, and transportation. Logistics is divided into the service and support branches. The service branch comprises the communications, medical, and food units. The supply, facilities, and ground support units compose the support branches.&#x000a0;</p>
+        <p>
+<bold>Finance and administration section</bold>
+</p>
+        <p>The finance and administrative section handles the incident response&#x02019;s budgeting and expenses. This section is likewise responsible for record-keeping and personnel time-tracking. The finance and administration section units include the time, procurement, compensation and claims, and cost units. The intelligence and investigations section collects information during an investigation.</p>
+      </sec>
+      <sec id="article-31747.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Medical personnel may be involved in ICS at several levels. Besides conceptualizing ICS and NIMS, medical providers must participate in active training and exercises to enhance their ability to implement the system. Medical personnel may function as incident commanders, depending on the event type. However, a physician is often more valuable if filling another position.<xref ref-type="bibr" rid="article-31747.r6">[6]</xref>&#x000a0;</p>
+        <p>Depending on the incident's nature, physicians and EMS providers may need to act as safety officers or technical specialists. Healthcare providers may work in the operations or logistics section. Emergency physicians may benefit from mass casualty or terrorist event response training, given their background.<xref ref-type="bibr" rid="article-31747.r7">[7]</xref>&#x000a0;Such activity should consider standard ICS management, including detailed documentation, local resources, and protocols.</p>
+        <p>ICS Form 206, also known as the Medical Plan, is a standardized ICS document outlining medical considerations and resources during an incident response. This form is typically completed by the Medical Unit Leader or Medical Branch Director, acting as part of the planning section. Thus, the form must be accomplished by a medical specialist familiar to prehospital physicians.</p>
+        <p>Healthcare providers not directly involved in the ICS should be familiar with its structure and function to interact with involved personnel during an event. Hospital employees must also review the Hospital Incident Command System, a framework for addressing a healthcare-specific incident.<xref ref-type="bibr" rid="article-31747.r8">[8]</xref></p>
+        <p>The ICS system has become the national standard over the past 50 years. The ICS system is used internationally and beyond its original firefighting and emergency response objectives. This system is now used across federal organizations, including by the FDA.<xref ref-type="bibr" rid="article-31747.r9">[9]</xref><xref ref-type="bibr" rid="article-31747.r10">[10]</xref>&#x000a0;Despite this progress, evidence supporting the ICS&#x02019; contribution to outcome improvement is lacking. Some also question the utility of a mandated system in providing abilities, training, and funding across such a diverse country.<xref ref-type="bibr" rid="article-31747.r11">[11]</xref>&#x000a0;While specifics may continue to change, the ICS remains the international standard for incident and event response.</p>
+      </sec>
+      <sec id="article-31747.s4">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=31747&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=31747">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/31747/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=31747">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-31747.s5">
+        <fig id="article-31747.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Incident Command System. This diagram illustrates the incident command system's organizational structure. Contributed by FEMA.GOV</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ICS_Structure" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-31747.s6">
+        <title>References</title>
+        <ref id="article-31747.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Stambler</surname>
+                <given-names>KS</given-names>
+              </name>
+              <name>
+                <surname>Barbera</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>The evolution of shortcomings in Incident Command System: Revisions have allowed critical management functions to atrophy.</article-title>
+            <source>J Emerg Manag</source>
+            <year>2015</year>
+            <season>Nov-Dec</season>
+            <volume>13</volume>
+            <issue>6</issue>
+            <fpage>509</fpage>
+            <page-range>509-18</page-range>
+            <pub-id pub-id-type="pmid">26750813</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31747.r2">
+          <label>2</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Cornelius</surname>
+                <given-names>AP</given-names>
+              </name>
+              <name>
+                <surname>Kohn</surname>
+                <given-names>MD</given-names>
+              </name>
+            </person-group>
+            <chapter-title>EMS Disaster Planning And Operations</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2023</year>
+            <month>8</month>
+            <day>8</day>
+            <pub-id pub-id-type="pmid">28613575</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31747.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bajow</surname>
+                <given-names>NA</given-names>
+              </name>
+              <name>
+                <surname>AlAssaf</surname>
+                <given-names>WI</given-names>
+              </name>
+              <name>
+                <surname>Cluntun</surname>
+                <given-names>AA</given-names>
+              </name>
+            </person-group>
+            <article-title>Course in Prehospital Major Incidents Management for Health Care Providers in Saudi Arabia.</article-title>
+            <source>Prehosp Disaster Med</source>
+            <year>2018</year>
+            <month>Dec</month>
+            <volume>33</volume>
+            <issue>6</issue>
+            <fpage>587</fpage>
+            <page-range>587-595</page-range>
+            <pub-id pub-id-type="pmid">30261941</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31747.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Farcas</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Ko</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Chan</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Malik</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Nono</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Chiampas</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Use of Incident Command System for Disaster Preparedness: A Model for an Emergency Department COVID-19 Response.</article-title>
+            <source>Disaster Med Public Health Prep</source>
+            <year>2021</year>
+            <month>Jun</month>
+            <volume>15</volume>
+            <issue>3</issue>
+            <fpage>e31</fpage>
+            <page-range>e31-e36</page-range>
+            <pub-id pub-id-type="pmid">32576330</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31747.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jensen</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Thompson</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>The Incident Command System: a literature review.</article-title>
+            <source>Disasters</source>
+            <year>2016</year>
+            <month>Jan</month>
+            <volume>40</volume>
+            <issue>1</issue>
+            <fpage>158</fpage>
+            <page-range>158-82</page-range>
+            <pub-id pub-id-type="pmid">26271932</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31747.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Glow</surname>
+                <given-names>SD</given-names>
+              </name>
+              <name>
+                <surname>Colucci</surname>
+                <given-names>VJ</given-names>
+              </name>
+              <name>
+                <surname>Allington</surname>
+                <given-names>DR</given-names>
+              </name>
+              <name>
+                <surname>Noonan</surname>
+                <given-names>CW</given-names>
+              </name>
+              <name>
+                <surname>Hall</surname>
+                <given-names>EC</given-names>
+              </name>
+            </person-group>
+            <article-title>Managing multiple-casualty incidents: a rural medical preparedness training assessment.</article-title>
+            <source>Prehosp Disaster Med</source>
+            <year>2013</year>
+            <month>Aug</month>
+            <volume>28</volume>
+            <issue>4</issue>
+            <fpage>334</fpage>
+            <page-range>334-41</page-range>
+            <pub-id pub-id-type="pmid">23594616</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31747.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cole</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Natal</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Fox</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Cooper</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kennedy</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Connell</surname>
+                <given-names>ND</given-names>
+              </name>
+              <name>
+                <surname>Sugalski</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Kulkarni</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Feravolo</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Lamba</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>A Course on Terror Medicine: Content and Evaluations.</article-title>
+            <source>Prehosp Disaster Med</source>
+            <year>2016</year>
+            <month>Feb</month>
+            <volume>31</volume>
+            <issue>1</issue>
+            <fpage>98</fpage>
+            <page-range>98-101</page-range>
+            <pub-id pub-id-type="pmid">26751384</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31747.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Crabtree</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Emergency management and mass fatalities: who owns the dead?</article-title>
+            <source>J Bus Contin Emer Plan</source>
+            <year>2009</year>
+            <month>Nov</month>
+            <volume>4</volume>
+            <issue>1</issue>
+            <fpage>33</fpage>
+            <page-range>33-46</page-range>
+            <pub-id pub-id-type="pmid">20378492</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31747.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kaye</surname>
+                <given-names>AD</given-names>
+              </name>
+              <name>
+                <surname>Cornett</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name>
+                <surname>Kallurkar</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Colontonio</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Chandler</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Mosieri</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Brondeel</surname>
+                <given-names>KC</given-names>
+              </name>
+              <name>
+                <surname>Kikkeri</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Edinoff</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Fitz-Gerald</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Ghali</surname>
+                <given-names>GE</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Urman</surname>
+                <given-names>RD</given-names>
+              </name>
+              <name>
+                <surname>Fox</surname>
+                <given-names>CJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Framework for creating an incident command center during crises.</article-title>
+            <source>Best Pract Res Clin Anaesthesiol</source>
+            <year>2021</year>
+            <month>Oct</month>
+            <volume>35</volume>
+            <issue>3</issue>
+            <fpage>377</fpage>
+            <page-range>377-388</page-range>
+            <pub-id pub-id-type="pmid">34511226</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31747.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Seelman</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Viazis</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Merriweather</surname>
+                <given-names>SP</given-names>
+              </name>
+              <name>
+                <surname>Cloyd</surname>
+                <given-names>TC</given-names>
+              </name>
+              <name>
+                <surname>Aldridge</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Irvin</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Integrating the Food and Drug Administration Office of the Coordinated Outbreak Response and Evaluation Network's foodborne illness outbreak surveillance and response activities with principles of the National Incident Management System.</article-title>
+            <source>J Emerg Manag</source>
+            <year>2021</year>
+            <season>Mar-Apr</season>
+            <volume>19</volume>
+            <issue>2</issue>
+            <fpage>131</fpage>
+            <page-range>131-141</page-range>
+            <pub-id pub-id-type="pmid">33954963</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31747.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rimstad</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Braut</surname>
+                <given-names>GS</given-names>
+              </name>
+            </person-group>
+            <article-title>Literature review on medical incident command.</article-title>
+            <source>Prehosp Disaster Med</source>
+            <year>2015</year>
+            <month>Apr</month>
+            <volume>30</volume>
+            <issue>2</issue>
+            <fpage>205</fpage>
+            <page-range>205-15</page-range>
+            <pub-id pub-id-type="pmid">25659266</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-63796" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Closed Loop Communication Training in Medical Simulation</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Salik</surname>
+            <given-names>Irim</given-names>
+          </name>
+          <aff>Westchester MC/New York Med. College</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Ashurst</surname>
+            <given-names>John V.</given-names>
+          </name>
+          <aff>Kingman Regional Medical Center</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Irim Salik declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>John Ashurst declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>23</day>
+          <month>1</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-63796.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Effective interprofessional teamwork and communication are integral to patient safety. The Institute of Medicine highlighted the effect of poor communication on deleterious healthcare outcomes in the 1990s.<xref ref-type="bibr" rid="article-63796.r1">[1]</xref>&#x000a0;Detrimental outcomes caused by preventable errors are commonly the result of multiple human factors, as opposed to&#x000a0;1 single error by an individual. Reason et al.&#x000a0;argue that every sequential step in medicine has the potential for failure, and medical professionals should be vigilant of this reality.[2] Commonly, such failures are the result of inadequate communication. Miscommunication is to blame for up to 30% of malpractice awarded lawsuits, where a patient is incapacitated or killed, according to the Control Risk Insurance Company.<xref ref-type="bibr" rid="article-63796.r2">[2]</xref></p>
+        <p>The future of patient safety and avoidance of medical errors should be predicated upon systems-based error prevention instead of solely relying on a healthcare provider&#x02019;s vigilance. Handoff periods are particularly vulnerable to deficiencies in verbal communication due to language impediments, misunderstandings, interruptions, and hesitation to speak up against authority.<xref ref-type="bibr" rid="article-63796.r3">[3]</xref>&#x000a0;Successful communication strategies are fundamental to productive team structure, collaboration, and task completion.<xref ref-type="bibr" rid="article-63796.r4">[4]</xref>&#x000a0;Standardized communication systems have been developed to reduce the risk of inappropriate information transfer. The aviation field has led to significant changes in team training concepts to increase patient safety, known as Crew Resource management.<xref ref-type="bibr" rid="article-63796.r5">[5]</xref>&#x000a0;Closed-loop communication (CLC), including a call-out, is based on standardized terminology and procedures to ensure safe communication.<xref ref-type="bibr" rid="article-63796.r6">[6]</xref>&#x000a0;A call-out is a primary verbalization to inform the team of a meaningful change or observation regarding patient care. CLC is a communication model from military radio transmissions based on verbal feedback to ensure proper team understanding of a meaningful message. CLC is a 3-step process, where 1) the transmitter communicates a message to the intended receiver, utilizing their name when possible, 2) the receiver accepts the message with acknowledgment of receipt via verbal confirmation, seeking clarification if required, and 3) the original transmitter verifies that the message has been received and correctly interpreted, thereby closing the loop.<xref ref-type="bibr" rid="article-63796.r7">[7]</xref></p>
+      </sec>
+      <sec id="article-63796.s2" sec-type="Function">
+        <title>Function</title>
+        <p>The aviation industry's adoption of Crew Resource Management has revolutionized safety and error prevention by improving communication via standardized terminology and procedures.<xref ref-type="bibr" rid="article-63796.r8">[8]</xref>&#x000a0;Bowers et al.&#x000a0;report that during simulation training comparing various communication styles between flight crews, high-performing crews utilized CLC more frequently and repeated commands more often than low-performing crews.<xref ref-type="bibr" rid="article-63796.r9">[9]</xref>&#x000a0;CLC is not only efficacious in high-intensity fields such as aviation, the military, and the nuclear industry but is also applicable in emergency medicine, obstetrics, and anesthesia.<xref ref-type="bibr" rid="article-63796.r10">[10]</xref> CLC has been shown to reduce the risk of preventable errors in medicine by maintaining clear communication and optimizing team dynamics through collaboration and orientation toward a common goal.<xref ref-type="bibr" rid="article-63796.r9">[9]</xref>&#x000a0;Trauma resuscitation has opportunities to refine CLC to optimize patient care. Webman et al.&#x000a0;report over 337 errors in 39 pediatric trauma activations, where over 51% of errors were not acknowledged or compensated for by the team.<xref ref-type="bibr" rid="article-63796.r11">[11]</xref>&#x000a0;The Agency of Healthcare Research and Quality and the Department of Defense developed team guidelines and policies to improve healthcare communication's safety, efficacy, and quality with a significant emphasis on CLC.<xref ref-type="bibr" rid="article-63796.r12">[12]</xref></p>
+        <p>Regarding simulation training in cases of emergency obstetric care, teams that utilized call-out and CLC were more successful in completing critical tasks than teams with more complex communications. Teams that used CLC were quicker to administer a magnesium infusion to an eclamptic patient emergently.<xref ref-type="bibr" rid="article-63796.r10">[10]</xref>&#x000a0;Based on these findings, the inference is that learning during simulation training can be extrapolated to the clinical environment, and using calls with CLC may increase patient safety.<xref ref-type="bibr" rid="article-63796.r13">[13]</xref>&#x000a0;It is important to note that the communication style of a team leader can influence a team&#x02019;s success in task execution. Leadership style, whether egalitarian or authoritarian, can determine team culture and the comfort level of team members to speak up when unanticipated and urgent changes occur in a patient&#x02019;s condition.<xref ref-type="bibr" rid="article-63796.r11">[11]</xref></p>
+      </sec>
+      <sec id="article-63796.s3" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>Trauma teams&#x02019; use of call-out and CLC was found to be useful in goal-oriented task completion, and utilization was more common in providers with significant professional experience. Call out encouraged team members to verbalize completed tasks or substantial changes in patient condition. Complications can arise when too many calls are verbalized with no direct recipient, as these commands can lead to confusion instead of action. Siassakos et al. found that direct commands were more likely to be executed and lead to overt action than indirectly articulated commands.<xref ref-type="bibr" rid="article-63796.r14">[14]</xref>&#x000a0;Indirect commands were also likely to lead to task overload for resuscitation team members, thus detrimental to the teams&#x02019; performance.<xref ref-type="bibr" rid="article-63796.r13">[13]</xref>&#x000a0;Excessive communication by non-leaders in the team environment was deemed inconvenient and decreased efficiency toward completing a particular task. If all team members were to initiate call-out and CLC, communication overload could result in a lack of leadership and delayed patient assessment and intervention.</p>
+        <p>Although communication overload is alarming, appropriate, and timely vocalization of concerns on behalf of the patient is integral to a successful interprofessional team. Egalitarian team leaders were more likely to encourage active team members who vocalized their concerns. Authoritarian leaders lead to the less frequent use of CLC in trauma teams. CLC utilizing effective and clear communication does not always come naturally for team members, so its use in simulation activities requires emphasis. Factors including time pressure, excessive workload, and organizational hierarchies can negatively impact the use of CLC. Although the risk of miscommunication in surgical teams becomes reduced with CLC,&#x000a0;repetitive practice via simulation is imperative to successful implementation.<xref ref-type="bibr" rid="article-63796.r15">[15]</xref> A study by Hargestam et al. found that exposure to&#x000a0;2 or more simulated trauma courses was associated with more frequent use of CLC in a clinical situation, as opposed to practitioners with no such experience.<xref ref-type="bibr" rid="article-63796.r16">[16]</xref></p>
+      </sec>
+      <sec id="article-63796.s4" sec-type="Curriculum Development">
+        <title>Curriculum Development</title>
+        <p>Salas et al.&#x000a0;suggest utilizing the routine use of CLC because&#x000a0;it can reduce tension between members of trauma teams.<xref ref-type="bibr" rid="article-63796.r6">[6]</xref> Although the aviation industry has shown evidence-based improvement in patient safety with CLC, there is little empirical evidence to demonstrate its usefulness in healthcare. Structured handoff tools are often useful to improve quality and avoid sentinel events and unexpected deaths.<xref ref-type="bibr" rid="article-63796.r17">[17]</xref>&#x000a0;While Salas&#x02019; teamwork model underscores team orientation, Burford et al.&#x000a0;claim that practitioners often identify with members of their area of expertise.<xref ref-type="bibr" rid="article-63796.r14">[14]</xref> In the dynamic healthcare environment, input from various healthcare professionals should be sought and requires emphasis over a single subspecialty group.</p>
+        <p>Education is&#x000a0;1 of the most important means by which to arm faculty and trainees in terms of improvement in patient safety. As the US Institute of Medicine states, teams that work together should train together.<xref ref-type="bibr" rid="article-63796.r18">[18]</xref>&#x000a0;One of the US Institute of Medicine&#x02019;s core competencies includes &#x0201c;working as interprofessional teams,&#x0201d; which allows an improved understanding of different team members&#x02019; roles via concurrent training. Comprehensive team training in surgery and obstetrics has been shown to prevent errors and improve patient safety. Merien et al. reported that team training in obstetrics improved knowledge, enhanced APGAR scores, and reduced hypoxic-ischemic encephalopathy.<xref ref-type="bibr" rid="article-63796.r19">[19]</xref> Neily et al.&#x000a0;also reported a 50% reduction in risk-adjusted surgical mortality rate in team-training groups compared to control groups across over 100 hospitals.<xref ref-type="bibr" rid="article-63796.r20">[20]</xref></p>
+        <p>Immersive simulation scenarios allow for in-depth debriefing regarding roles, responsibilities, and information sharing related to patient management. With proper debriefing, simulation provides insight into different interprofessional teams&#x02019; vantage points, allowing for an environment of mutual support. Cultural change can occur when the patient is at the center of a shared mental model. Interprofessional simulation allows for developing mutual respect and trust via a team rather than an individual-oriented approach. The simulation, therefore, represents a safe environment for the deliberate practice of efficient communication strategies. Video recordings of participants during simulation activities can help facilitate learning along with a structured debrief. A meta-analysis of 609 studies suggests that simulation can aid in the augmentation of medical knowledge, time management skills, and process and procedure skills.<xref ref-type="bibr" rid="article-63796.r21">[21]</xref></p>
+      </sec>
+      <sec id="article-63796.s5" sec-type="Clinical Clerkships">
+        <title>Clinical Clerkships</title>
+        <p>Trainees (team leaders and team members) must hone their CLC skills through simulation activities. Simulation continues to grow as an essential training modality in healthcare, while CRM is acknowledged as a foundation for improving healthcare teams&#x02019; collaboration and communication. CLC is an indispensable aspect of CRM to ensure safe and secure team communication. These concepts are used in courses such as advanced trauma life support, advanced cardiac life support, and TeamSTEPPS training.<xref ref-type="bibr" rid="article-63796.r22">[22]</xref>&#x000a0;Appropriate handoff and communication skills require deliberate practice and training in simulation environments that depict real-life practice- including daily stressors, distractions, and interruptions, which can negatively impact team performance.<xref ref-type="bibr" rid="article-63796.r23">[23]</xref>&#x000a0;Emergencies should be routinely recreated via simulation to integrate CLC into everyday workflow practices. Because CLC is time-consuming and potentially increases workload, it may not come naturally to individuals in the simulation&#x000a0;team. Repeated role modeling of CLC by team leaders is essential, as hierarchical and interpersonal factors can become rate-limiting steps to the successful execution of CLC. Repetitive simulation exercises with CLC allow the formal integration of this mode of communication into everyday practice for health professionals.</p>
+      </sec>
+      <sec id="article-63796.s6" sec-type="Procedural Skills Assessment&#x0000d;&#x0000a;">
+        <title>Procedural Skills Assessment
+</title>
+        <p>An important technique for CLC instruction and refinement is the blindfolding of the team leader, known as the blindfolded code training exercise. This method of instruction is cost-effective and requires the team leader to utilize critical thinking skills and a sound conceptual framework to organize the management of patient resuscitation. Trainees in emergency medicine, anesthesia, and critical care specialties need extensive training in leadership strategies and CRM to perform effectively in high-acuity situations. How to teach techniques to improve real-time ineffectual behavior or bad habits that may persist despite structured learning in the simulation lab is unclear.<xref ref-type="bibr" rid="article-63796.r24">[24]</xref></p>
+        <p>The theory of neuroplasticity, or the brain&#x02019;s ability to evolve and reorganize neuronal activity over time, has been suggested to improve communication in medicine. After blindfold placement, other senses become heightened once the team leader loses his/her sense of sight, known as cross-modal neuroplasticity. Functional magnetic resonance imaging of the brain has revealed augmentation of other senses when the examinee gets deprived of 1. Researchers found that blind adults processed auditory and tactile stimuli in the visual cortex compared to patients with sight who did not experience this phenomenon. This suggests that deprived brain areas can become amenable to alternative sensory stimulation.<xref ref-type="bibr" rid="article-63796.r25">[25]</xref>&#x000a0;The removal of visual stimuli from the team leader during simulation should improve CLC by compelling explicit message verbalization and confirmation.</p>
+        <p>Medical education may not be taking full advantage of the concept of cross-modal neuroplasticity regarding developing advanced means of communication amongst teams. The lack of visual cues in an arrest situation requires trainees to develop highly attuned communication skills. The blindfolded code training exercise exemplifies the importance of strong leadership skills during a team simulation, allowing trainees to integrate the leadership and communication training they have received. Closed-loop commands are useful in such a setting as resuscitation team members cannot perform maneuvers or initiate patient management without explicit orders from team leaders.</p>
+      </sec>
+      <sec id="article-63796.s7" sec-type="Continuing Education">
+        <title>Continuing Education</title>
+        <p>Medical errors and failure to rescue are commonly attributed to ineffective communication during operative care in &#x0201c;low frequency, high acuity&#x0201d; events, including trauma resuscitation and cardiac arrest situations.<xref ref-type="bibr" rid="article-63796.r26">[26]</xref>&#x000a0;Effective communication is critical to avoiding preventable patient harm in such precarious scenarios. The 2016 National Patient Safety Goals by the Joint Commission strongly advocate for improved communication amongst caregivers as a means to this end.<xref ref-type="bibr" rid="article-63796.r27">[27]</xref>&#x000a0;Nontechnical skills, which refer to healthcare professionals' cognitive and interpersonal skills, underlie their ability to work and communicate effectively in an operative team environment.<xref ref-type="bibr" rid="article-63796.r28">[28]</xref>&#x000a0;Coaching of nontechnical skills and simulation interventions strongly relies on adopting CLC strategies. CLC accentuates precision, efficiency, reduction of ambiguity, and accuracy toward a team&#x02019;s goal-oriented approach to intervention.</p>
+      </sec>
+      <sec id="article-63796.s8" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Modern healthcare is optimally delivered by multidisciplinary teams who should prioritize teamwork and communication to facilitate safe patient care. There is, however, an unacceptable incidence of preventable medical errors commonly attributed to communication failures between health professionals. Effective teams rely on a foundation of mutual respect and trust, shared mental models, and CLC for effective care delivery. Several challenges prevent the facilitation of such effective teams, including educational, organizational, and psychological challenges.<xref ref-type="bibr" rid="article-63796.r29">[29]</xref>&#x000a0;Although active educational interventions promote effective teamwork principles, allowing for the realization of team members&#x02019; roles and perspectives and aiding in developing communication strategies, they are insufficient to enable optimal healthcare delivery. Hierarchies and professional silos, along with organizational obstacles, increase the odds of communication failures and unintended patient harm.<xref ref-type="bibr" rid="article-63796.r29">[29]</xref></p>
+        <p>Medical professionals from multiple disciplines must effectively communicate and facilitate healthcare delivery via teams rather than individual providers. Inter-professional teamwork and communication failures can lead directly to compromised patient care, medical errors, increased sentinel events, staff burnout, tension, and inefficiency.<xref ref-type="bibr" rid="article-63796.r30">[30]</xref>&#x000a0;Barriers to team communication in healthcare can be overcome by teaching trainees effective communication strategies, utilizing structured handoff tools, training interdisciplinary teams in a cohesive environment, utilizing simulation for team training, and redefining disparate interprofessional teams into integrated groups with common goals.<xref ref-type="bibr" rid="article-63796.r29">[29]</xref>&#x000a0;Open team communication becomes stimulated by creating democratic teams where each member&#x02019;s input is encouraged and valued. Checklists, handoff tools, and briefings should be regularly utilized to develop a top-down organizational culture where inter-professional collaboration is encouraged to maximize patient safety.</p>
+      </sec>
+      <sec id="article-63796.s9" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>Despite widespread attempts to implement improved communication strategies with CLC, errors associated with ineffective communication are far too common.&#x000a0;There has been a leap from problem recognition during operative training to solution implementation, failing to explore communication lapses among teams.<xref ref-type="bibr" rid="article-63796.r31">[31]</xref> The differences in communication patterns between clinical subspecialists (anesthesiologists, surgeons, and nurses) suggest that a more in-depth understanding of specialty-specific practices may yield further insights into quality improvement.</p>
+        <p>Salas et al proposed a model for&#x000a0;5 elements of effective teams, including team leadership, mutual performance monitoring, backup behavior, flexibility, and team orientation, with a groundwork of mutual trust and CLC.[36] Strong leadership involves task coordination, team development, inspiring motivation, and fostering a positive environment. Performance monitoring requires team members to have enough knowledge to identify failures or task overloads. In contrast, backup behavior requires supportive behavior from team members, including workload redistribution and altered task delegation. Flexibility or adaptability enables a team to respond acutely to changes in a dynamic clinical environment. In contrast, team orientation is the willingness to take the perspectives of others into account and the valuation of team goals over individual ones. Shared mental models lead to common situational awareness and an integrated treatment plan for the patient while considering individuals' roles and tasks. This shared mental model allows for effective team-based problem-solving and decision-making.</p>
+        <p>A meta-analysis of 72 studies with 4795 teams across various industries revealed that successful information sharing predicted team performance.<xref ref-type="bibr" rid="article-63796.r32">[32]</xref>&#x000a0;Information sharing is most crucial during periods of handoff, including interdepartmental transfers from the emergency room to the operating room or intensive care unit, during a shift change, and across professional boundaries, including physician to nurse.<xref ref-type="bibr" rid="article-63796.r33">[33]</xref>&#x000a0;In a British study of handoff to the medical floor, less than half of residents felt confident in their patient handoffs.<xref ref-type="bibr" rid="article-63796.r34">[34]</xref>&#x000a0;In the same vein, in an observational study of operating room procedures, Lingard et al. reported over a quarter of communication events as failures, where 36% of these had adverse outcomes, including operating room delays, waste, staff disgruntlement, and procedural errors.[40] Mazzocco et al.&#x000a0;found that teams that shared information less frequently at the start of an operative case or at postoperative handoff time had more than double the risk of surgical complications than teams that shared information more regularly.<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22239328">[41]</ext-link> Evidence suggests that specific techniques to improve information sharing can also enhance the clinical management of patients in high-acuity settings. Verbalizing observations aloud and involving team members in decision-making during a crisis aids the team in sharing a mental model.&#x000a0;</p>
+        <p>One of the limitations to enhancing CLC among professionals is that different groups have different expectations regarding the content, timing, and generalized structure of information transfer and may not grasp the roles and priorities of other groups.<xref ref-type="bibr" rid="article-63796.r35">[35]</xref>Medical training predominantly occurs in &#x02018;silos,&#x02019; and few providers receive teamwork training. Differing levels of education and stark separations of disciplines may impede teamwork. Hierarchical challenges also exist in medicine; while senior staff members are comfortable utilizing commands, junior staff may be more reticent to challenge decisions or offer suggestions for alternative plans regarding patient care. This hierarchical structure has been shown to have disastrous consequences in the aviation industry, where junior crew members fail to challenge the ill-advised decisions of their seniors, leading to catastrophic outcomes.<xref ref-type="bibr" rid="article-63796.r36">[36]</xref>&#x000a0;Every healthcare team member requires empowerment to contribute to information regarding patient safety.</p>
+      </sec>
+      <sec id="article-63796.s10">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=63796&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=63796">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/63796/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=63796">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-63796.s11">
+        <title>References</title>
+        <ref id="article-63796.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kohn</surname>
+                <given-names>LT</given-names>
+              </name>
+            </person-group>
+            <article-title>The Institute of Medicine report on medical error: overview and implications for pharmacy.</article-title>
+            <source>Am J Health Syst Pharm</source>
+            <year>2001</year>
+            <month>Jan</month>
+            <day>01</day>
+            <volume>58</volume>
+            <issue>1</issue>
+            <fpage>63</fpage>
+            <page-range>63-6</page-range>
+            <pub-id pub-id-type="pmid">11194137</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Abbott</surname>
+                <given-names>RL</given-names>
+              </name>
+              <name>
+                <surname>Weber</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Kelley</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Medical professional liability insurance and its relation to medical error and healthcare risk management for the practicing physician.</article-title>
+            <source>Am J Ophthalmol</source>
+            <year>2005</year>
+            <month>Dec</month>
+            <volume>140</volume>
+            <issue>6</issue>
+            <fpage>1106</fpage>
+            <page-range>1106-1111</page-range>
+            <pub-id pub-id-type="pmid">16376659</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gawande</surname>
+                <given-names>AA</given-names>
+              </name>
+              <name>
+                <surname>Zinner</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Studdert</surname>
+                <given-names>DM</given-names>
+              </name>
+              <name>
+                <surname>Brennan</surname>
+                <given-names>TA</given-names>
+              </name>
+            </person-group>
+            <article-title>Analysis of errors reported by surgeons at three teaching hospitals.</article-title>
+            <source>Surgery</source>
+            <year>2003</year>
+            <month>Jun</month>
+            <volume>133</volume>
+            <issue>6</issue>
+            <fpage>614</fpage>
+            <page-range>614-21</page-range>
+            <pub-id pub-id-type="pmid">12796727</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mishra</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Catchpole</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Dale</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>McCulloch</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>The influence of non-technical performance on technical outcome in laparoscopic cholecystectomy.</article-title>
+            <source>Surg Endosc</source>
+            <year>2008</year>
+            <month>Jan</month>
+            <volume>22</volume>
+            <issue>1</issue>
+            <fpage>68</fpage>
+            <page-range>68-73</page-range>
+            <pub-id pub-id-type="pmid">17479324</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sexton</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Helmreich</surname>
+                <given-names>RL</given-names>
+              </name>
+            </person-group>
+            <article-title>Analyzing cockpit communications: the links between language, performance, error, and workload.</article-title>
+            <source>Hum Perf Extrem Environ</source>
+            <year>2000</year>
+            <month>Oct</month>
+            <volume>5</volume>
+            <issue>1</issue>
+            <fpage>63</fpage>
+            <page-range>63-8</page-range>
+            <pub-id pub-id-type="pmid">12190082</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Salas</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Wilson</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Murphy</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name>
+                <surname>King</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Salisbury</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Communicating, coordinating, and cooperating when lives depend on it: tips for teamwork.</article-title>
+            <source>Jt Comm J Qual Patient Saf</source>
+            <year>2008</year>
+            <month>Jun</month>
+            <volume>34</volume>
+            <issue>6</issue>
+            <fpage>333</fpage>
+            <page-range>333-41</page-range>
+            <pub-id pub-id-type="pmid">18595379</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Burke</surname>
+                <given-names>CS</given-names>
+              </name>
+              <name>
+                <surname>Salas</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Wilson-Donnelly</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Priest</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>How to turn a team of experts into an expert medical team: guidance from the aviation and military communities.</article-title>
+            <source>Qual Saf Health Care</source>
+            <year>2004</year>
+            <month>Oct</month>
+            <volume>13 Suppl 1</volume>
+            <issue>Suppl 1</issue>
+            <fpage>i96</fpage>
+            <page-range>i96-104</page-range>
+            <pub-id pub-id-type="pmid">15465963</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jacobsson</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Hargestam</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Hultin</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Brulin</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Flexible knowledge repertoires: communication by leaders in trauma teams.</article-title>
+            <source>Scand J Trauma Resusc Emerg Med</source>
+            <year>2012</year>
+            <month>Jul</month>
+            <day>02</day>
+            <volume>20</volume>
+            <fpage>44</fpage>
+            <pub-id pub-id-type="pmid">22747848</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cooper</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Wakelam</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Leadership of resuscitation teams: "Lighthouse Leadership'.</article-title>
+            <source>Resuscitation</source>
+            <year>1999</year>
+            <month>Sep</month>
+            <volume>42</volume>
+            <issue>1</issue>
+            <fpage>27</fpage>
+            <page-range>27-45</page-range>
+            <pub-id pub-id-type="pmid">10524729</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Siassakos</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Bristowe</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Draycott</surname>
+                <given-names>TJ</given-names>
+              </name>
+              <name>
+                <surname>Angouri</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Hambly</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Winter</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Crofts</surname>
+                <given-names>JF</given-names>
+              </name>
+              <name>
+                <surname>Hunt</surname>
+                <given-names>LP</given-names>
+              </name>
+              <name>
+                <surname>Fox</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical efficiency in a simulated emergency and relationship to team behaviours: a multisite cross-sectional study.</article-title>
+            <source>BJOG</source>
+            <year>2011</year>
+            <month>Apr</month>
+            <volume>118</volume>
+            <issue>5</issue>
+            <fpage>596</fpage>
+            <page-range>596-607</page-range>
+            <pub-id pub-id-type="pmid">21291509</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Raemer</surname>
+                <given-names>DB</given-names>
+              </name>
+              <name>
+                <surname>Kolbe</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Minehart</surname>
+                <given-names>RD</given-names>
+              </name>
+              <name>
+                <surname>Rudolph</surname>
+                <given-names>JW</given-names>
+              </name>
+              <name>
+                <surname>Pian-Smith</surname>
+                <given-names>MC</given-names>
+              </name>
+            </person-group>
+            <article-title>Improving Anesthesiologists' Ability to Speak Up in the Operating Room: A Randomized Controlled Experiment of a Simulation-Based Intervention and a Qualitative Analysis of Hurdles and Enablers.</article-title>
+            <source>Acad Med</source>
+            <year>2016</year>
+            <month>Apr</month>
+            <volume>91</volume>
+            <issue>4</issue>
+            <fpage>530</fpage>
+            <page-range>530-9</page-range>
+            <pub-id pub-id-type="pmid">26703413</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r12">
+          <label>12</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>King</surname>
+                <given-names>HB</given-names>
+              </name>
+              <name>
+                <surname>Battles</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Baker</surname>
+                <given-names>DP</given-names>
+              </name>
+              <name>
+                <surname>Alonso</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Salas</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Webster</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Toomey</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Salisbury</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <chapter-title>TeamSTEPPS<sup>&#x02122;</sup>: Team Strategies and Tools to Enhance Performance and Patient Safety</chapter-title>
+            <person-group person-group-type="editor">
+              <name>
+                <surname>Henriksen</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Battles</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Keyes</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Grady</surname>
+                <given-names>ML</given-names>
+              </name>
+            </person-group>
+            <source>Advances in Patient Safety: New Directions and Alternative Approaches (Vol. 3: Performance and Tools)</source>
+            <publisher-name>Agency for Healthcare Research and Quality (US)</publisher-name>
+            <publisher-loc>Rockville (MD)</publisher-loc>
+            <year>2008</year>
+            <month>08</month>
+            <pub-id pub-id-type="pmid">21249942</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Andersen</surname>
+                <given-names>PO</given-names>
+              </name>
+              <name>
+                <surname>Jensen</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>Lippert</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>&#x000d8;stergaard</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Identifying non-technical skills and barriers for improvement of teamwork in cardiac arrest teams.</article-title>
+            <source>Resuscitation</source>
+            <year>2010</year>
+            <month>Jun</month>
+            <volume>81</volume>
+            <issue>6</issue>
+            <fpage>695</fpage>
+            <page-range>695-702</page-range>
+            <pub-id pub-id-type="pmid">20304547</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Burford</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Group processes in medical education: learning from social identity theory.</article-title>
+            <source>Med Educ</source>
+            <year>2012</year>
+            <month>Feb</month>
+            <volume>46</volume>
+            <issue>2</issue>
+            <fpage>143</fpage>
+            <page-range>143-52</page-range>
+            <pub-id pub-id-type="pmid">22239328</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gillespie</surname>
+                <given-names>BM</given-names>
+              </name>
+              <name>
+                <surname>Chaboyer</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Fairweather</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Factors that influence the expected length of operation: results of a prospective study.</article-title>
+            <source>BMJ Qual Saf</source>
+            <year>2012</year>
+            <month>Jan</month>
+            <volume>21</volume>
+            <issue>1</issue>
+            <fpage>3</fpage>
+            <page-range>3-12</page-range>
+            <pub-id pub-id-type="pmid">22003174</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>H&#x000e4;rgestam</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Lindkvist</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Brulin</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Jacobsson</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Hultin</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Communication in interdisciplinary teams: exploring closed-loop communication during in situ trauma team training.</article-title>
+            <source>BMJ Open</source>
+            <year>2013</year>
+            <month>Oct</month>
+            <day>21</day>
+            <volume>3</volume>
+            <issue>10</issue>
+            <fpage>e003525</fpage>
+            <pub-id pub-id-type="pmid">24148213</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dieckmann</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Gaba</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Rall</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Deepening the theoretical foundations of patient simulation as social practice.</article-title>
+            <source>Simul Healthc</source>
+            <year>2007</year>
+            <season>Fall</season>
+            <volume>2</volume>
+            <issue>3</issue>
+            <fpage>183</fpage>
+            <page-range>183-93</page-range>
+            <pub-id pub-id-type="pmid">19088622</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Siassakos</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Draycott</surname>
+                <given-names>TJ</given-names>
+              </name>
+              <name>
+                <surname>Crofts</surname>
+                <given-names>JF</given-names>
+              </name>
+              <name>
+                <surname>Hunt</surname>
+                <given-names>LP</given-names>
+              </name>
+              <name>
+                <surname>Winter</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Fox</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>More to teamwork than knowledge, skill and attitude.</article-title>
+            <source>BJOG</source>
+            <year>2010</year>
+            <month>Sep</month>
+            <volume>117</volume>
+            <issue>10</issue>
+            <fpage>1262</fpage>
+            <page-range>1262-9</page-range>
+            <pub-id pub-id-type="pmid">20618313</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Meri&#x000e9;n</surname>
+                <given-names>AER</given-names>
+              </name>
+              <name>
+                <surname>van de Ven</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Mol</surname>
+                <given-names>BW</given-names>
+              </name>
+              <name>
+                <surname>Houterman</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Oei</surname>
+                <given-names>SG</given-names>
+              </name>
+            </person-group>
+            <article-title>Multidisciplinary team training in a simulation setting for acute obstetric emergencies: a systematic review.</article-title>
+            <source>Obstet Gynecol</source>
+            <year>2010</year>
+            <month>May</month>
+            <volume>115</volume>
+            <issue>5</issue>
+            <fpage>1021</fpage>
+            <page-range>1021-1031</page-range>
+            <pub-id pub-id-type="pmid">20410778</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Neily</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Mills</surname>
+                <given-names>PD</given-names>
+              </name>
+              <name>
+                <surname>Young-Xu</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Carney</surname>
+                <given-names>BT</given-names>
+              </name>
+              <name>
+                <surname>West</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Berger</surname>
+                <given-names>DH</given-names>
+              </name>
+              <name>
+                <surname>Mazzia</surname>
+                <given-names>LM</given-names>
+              </name>
+              <name>
+                <surname>Paull</surname>
+                <given-names>DE</given-names>
+              </name>
+              <name>
+                <surname>Bagian</surname>
+                <given-names>JP</given-names>
+              </name>
+            </person-group>
+            <article-title>Association between implementation of a medical team training program and surgical mortality.</article-title>
+            <source>JAMA</source>
+            <year>2010</year>
+            <month>Oct</month>
+            <day>20</day>
+            <volume>304</volume>
+            <issue>15</issue>
+            <fpage>1693</fpage>
+            <page-range>1693-700</page-range>
+            <pub-id pub-id-type="pmid">20959579</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Moideen</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>de Metz</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Kalyvas</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Soleas</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Egan</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Dalgarno</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Aligning Requirements of Training and Assessment in Radiation Treatment Planning in the Era of Competency-Based Medical Education.</article-title>
+            <source>Int J Radiat Oncol Biol Phys</source>
+            <year>2020</year>
+            <month>Jan</month>
+            <day>01</day>
+            <volume>106</volume>
+            <issue>1</issue>
+            <fpage>32</fpage>
+            <page-range>32-36</page-range>
+            <pub-id pub-id-type="pmid">31647968</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chen</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Yau</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Revere</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Swails</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Implementation, evaluation, and outcome of TeamSTEPPS in interprofessional education: a scoping review.</article-title>
+            <source>J Interprof Care</source>
+            <year>2019</year>
+            <season>Nov-Dec</season>
+            <volume>33</volume>
+            <issue>6</issue>
+            <fpage>795</fpage>
+            <page-range>795-804</page-range>
+            <pub-id pub-id-type="pmid">31009273</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wheelock</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Suliman</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Wharton</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Babu</surname>
+                <given-names>ED</given-names>
+              </name>
+              <name>
+                <surname>Hull</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Vincent</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Sevdalis</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Arora</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>The Impact of Operating Room Distractions on Stress, Workload, and Teamwork.</article-title>
+            <source>Ann Surg</source>
+            <year>2015</year>
+            <month>Jun</month>
+            <volume>261</volume>
+            <issue>6</issue>
+            <fpage>1079</fpage>
+            <page-range>1079-84</page-range>
+            <pub-id pub-id-type="pmid">26291954</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Brindley</surname>
+                <given-names>PG</given-names>
+              </name>
+              <name>
+                <surname>Hudson</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Lord</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>The blindfolded learner-A simple intervention to improve crisis resource management skills.</article-title>
+            <source>J Crit Care</source>
+            <year>2008</year>
+            <month>Jun</month>
+            <volume>23</volume>
+            <issue>2</issue>
+            <fpage>253</fpage>
+            <page-range>253-4</page-range>
+            <pub-id pub-id-type="pmid">18538220</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nau</surname>
+                <given-names>AC</given-names>
+              </name>
+              <name>
+                <surname>Murphy</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Chan</surname>
+                <given-names>KC</given-names>
+              </name>
+            </person-group>
+            <article-title>Use of sensory substitution devices as a model system for investigating cross-modal neuroplasticity in humans.</article-title>
+            <source>Neural Regen Res</source>
+            <year>2015</year>
+            <month>Nov</month>
+            <volume>10</volume>
+            <issue>11</issue>
+            <fpage>1717</fpage>
+            <page-range>1717-9</page-range>
+            <pub-id pub-id-type="pmid">26807088</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ghaferi</surname>
+                <given-names>AA</given-names>
+              </name>
+              <name>
+                <surname>Dimick</surname>
+                <given-names>JB</given-names>
+              </name>
+            </person-group>
+            <article-title>Importance of teamwork, communication and culture on failure-to-rescue in the elderly.</article-title>
+            <source>Br J Surg</source>
+            <year>2016</year>
+            <month>Jan</month>
+            <volume>103</volume>
+            <issue>2</issue>
+            <fpage>e47</fpage>
+            <page-range>e47-51</page-range>
+            <pub-id pub-id-type="pmid">26616276</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mascioli</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Carrico</surname>
+                <given-names>CB</given-names>
+              </name>
+            </person-group>
+            <article-title>Spotlight on the 2016 National Patient Safety Goals for hospitals.</article-title>
+            <source>Nursing</source>
+            <year>2016</year>
+            <month>May</month>
+            <volume>46</volume>
+            <issue>5</issue>
+            <fpage>52</fpage>
+            <page-range>52-5</page-range>
+            <pub-id pub-id-type="pmid">27096916</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pena</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Altree</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Field</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Sainsbury</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Babidge</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Hewett</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Maddern</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Nontechnical skills training for the operating room: A prospective study&#x000a0;using simulation and didactic workshop.</article-title>
+            <source>Surgery</source>
+            <year>2015</year>
+            <month>Jul</month>
+            <volume>158</volume>
+            <issue>1</issue>
+            <fpage>300</fpage>
+            <page-range>300-9</page-range>
+            <pub-id pub-id-type="pmid">25835218</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Weller</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Boyd</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Cumin</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Teams, tribes and patient safety: overcoming barriers to effective teamwork in healthcare.</article-title>
+            <source>Postgrad Med J</source>
+            <year>2014</year>
+            <month>Mar</month>
+            <volume>90</volume>
+            <issue>1061</issue>
+            <fpage>149</fpage>
+            <page-range>149-54</page-range>
+            <pub-id pub-id-type="pmid">24398594</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Alvarez</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Coiera</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Interdisciplinary communication: an uncharted source of medical error?</article-title>
+            <source>J Crit Care</source>
+            <year>2006</year>
+            <month>Sep</month>
+            <volume>21</volume>
+            <issue>3</issue>
+            <fpage>236</fpage>
+            <page-range>236-42; discussion 242</page-range>
+            <pub-id pub-id-type="pmid">16990088</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lacson</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Prevedello</surname>
+                <given-names>LM</given-names>
+              </name>
+              <name>
+                <surname>Andriole</surname>
+                <given-names>KP</given-names>
+              </name>
+              <name>
+                <surname>O'Connor</surname>
+                <given-names>SD</given-names>
+              </name>
+              <name>
+                <surname>Roy</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Gandhi</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Dalal</surname>
+                <given-names>AK</given-names>
+              </name>
+              <name>
+                <surname>Sato</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Khorasani</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Four-year impact of an alert notification system on closed-loop communication of critical test results.</article-title>
+            <source>AJR Am J Roentgenol</source>
+            <year>2014</year>
+            <month>Nov</month>
+            <volume>203</volume>
+            <issue>5</issue>
+            <fpage>933</fpage>
+            <page-range>933-8</page-range>
+            <pub-id pub-id-type="pmid">25341129</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mesmer-Magnus</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Dechurch</surname>
+                <given-names>LA</given-names>
+              </name>
+            </person-group>
+            <article-title>Information sharing and team performance: a meta-analysis.</article-title>
+            <source>J Appl Psychol</source>
+            <year>2009</year>
+            <month>Mar</month>
+            <volume>94</volume>
+            <issue>2</issue>
+            <fpage>535</fpage>
+            <page-range>535-46</page-range>
+            <pub-id pub-id-type="pmid">19271807</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Leonard</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Graham</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Bonacum</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>The human factor: the critical importance of effective teamwork and communication in providing safe care.</article-title>
+            <source>Qual Saf Health Care</source>
+            <year>2004</year>
+            <month>Oct</month>
+            <volume>13 Suppl 1</volume>
+            <issue>Suppl 1</issue>
+            <fpage>i85</fpage>
+            <page-range>i85-90</page-range>
+            <pub-id pub-id-type="pmid">15465961</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Payne</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name>
+                <surname>Stein</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Leong</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Dressler</surname>
+                <given-names>DD</given-names>
+              </name>
+            </person-group>
+            <article-title>Avoiding handover fumbles: a controlled trial of a structured handover tool versus traditional handover methods.</article-title>
+            <source>BMJ Qual Saf</source>
+            <year>2012</year>
+            <month>Nov</month>
+            <volume>21</volume>
+            <issue>11</issue>
+            <fpage>925</fpage>
+            <page-range>925-32</page-range>
+            <pub-id pub-id-type="pmid">22706931</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Smith</surname>
+                <given-names>AF</given-names>
+              </name>
+              <name>
+                <surname>Pope</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Goodwin</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Mort</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Interprofessional handover and patient safety in anaesthesia: observational study of handovers in the recovery room.</article-title>
+            <source>Br J Anaesth</source>
+            <year>2008</year>
+            <month>Sep</month>
+            <volume>101</volume>
+            <issue>3</issue>
+            <fpage>332</fpage>
+            <page-range>332-7</page-range>
+            <pub-id pub-id-type="pmid">18556692</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63796.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kelly</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Efthymiou</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>An analysis of human factors in fifty controlled flight into terrain aviation accidents from 2007 to 2017.</article-title>
+            <source>J Safety Res</source>
+            <year>2019</year>
+            <month>Jun</month>
+            <volume>69</volume>
+            <fpage>155</fpage>
+            <page-range>155-165</page-range>
+            <pub-id pub-id-type="pmid">31235226</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

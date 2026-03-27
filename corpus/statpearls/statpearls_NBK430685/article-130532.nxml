@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-130532" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>CT-scan Image Production Procedures</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Hermena</surname>
+            <given-names>Shady</given-names>
+          </name>
+          <aff>Ninewells Hospital , Dundee, Scotland</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Young</surname>
+            <given-names>Michael</given-names>
+          </name>
+          <aff>Marian University</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Shady Hermena declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Michael Young declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>8</day>
+          <month>8</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-130532.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">In 1972, electrical engineer Sir Godfrey Hounsfield invented the first computed tomography (CT) scanner.<xref ref-type="bibr" rid="article-130532.r1">[1]</xref>&#x000a0;Around the same time, physicist Allan McLeod Cormack developed a similar system, and Hounsfield and Cormack shared the Nobel Prize in Physiology or Medicine in 1979.<xref ref-type="bibr" rid="article-130532.r2">[2]</xref>&#x000a0;CT has since become an imaging modality widely used in medicine.&#x000a0;</p>
+        <p>CT images are two-dimensional pictures that represent three-dimensional physical objects. The images are made by converting electrical energy (moving electrons) into X-ray photons, passing the photons through an object, and then converting the measured photons back into electrons. The number of X-rays that pass through the object is inversely proportional to the density of the object. Objects (such as human beings) imaged by CT&#x000a0;consist&#x000a0;of parts that vary in density.&#x000a0;</p>
+        <p>The CT machine passes X-ray photons through each point in the object at different angles through 360 degrees. Fluctuations in the density of the different parts of the object change the intensity of photons that successfully pass through the object depending on the angles at which the beam of photons&#x000a0;is shone. A computer processor uses the differences in successfully transmitted X-ray photon measurements to produce a dataset that recreates the 3D object based on its various densities and displays sequential images of this dataset as 2D slices on film or a screen. The quality of the images depends on multiple factors, primarily image resolution and image contrast.&#x000a0;</p>
+        <p>This article describes CT image production and factors that affect CT image quality, including:&#x000a0;</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>CT scanner components&#x000a0;&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>CT image generation&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Techniques of image reconstruction&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Contrast media</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-130532.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>Understanding CT image generation entails an understanding of both hardware and software. Therefore, hardware elements are discussed first.&#x000a0;</p>
+        <p>
+<bold>CT Scanner Components</bold>&#x000a0;</p>
+        <p>CT scanners create images using a series of X-rays generated by a tube that is rapidly rotated around the examined object. X-rays are a type of electromagnetic energy that have properties of both particles and waves and a level of energy between ultraviolet rays and gamma rays in the electromagnetic spectrum. CT scanning hardware consists of the following units:&#x000a0;</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>The generator&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>The scanning unit (gantry), which includes one or more&#x000a0;
+<list list-type="bullet"><list-item><p>X-ray tubes&#x000a0;</p></list-item><list-item><p>Photon detectors&#x000a0;</p></list-item><list-item><p>Shielding elements&#x000a0;</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>The patient table&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>The image processor&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>The console (control unit)&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Generator</bold>&#x000a0;</p>
+        <p>The generator provides the electrical power that is necessary to generate X-rays using two types of electrical current. A high voltage (20-150 kilovolts) supply determines the maximum intensity of the X-rays that can be produced. Increasing this voltage increases the electrical potential difference between the anode and cathode. A low fixed voltage (about 10 kilovolts) supply to the cathode filament enables continuous electron emission through a thermionic reaction, which is discussed below.<xref ref-type="bibr" rid="article-130532.r3">[3]</xref></p>
+        <p>
+<bold>Scanning unit (gantry)</bold>&#x000a0;</p>
+        <p>A scanning unit, also known as a gantry, is the structure that contains the X-ray tube, shielding elements, and photon detectors. The X-ray tube and photon detectors are positioned to face each other and are built to rotate 360 degrees in one direction around the patient. The gantry tilt is the angle formed between the X-ray tube plane and the vertical plane; in many modern machines, gantry tilt ranges between -25&#x000a0;degrees and +25&#x000a0;degrees. Gantry tilt can be changed by the CT operator according to the exam objectives, such as to reduce image artifacts or improve a healthcare provider's ability to conduct an invasive CT-guided procedure. The use of slip rings in gantries allows continuous, complete, circular movements of the internal elements without the internal circuits and cables becoming entangled. The gantry contains a space for the table and the patient to pass through. CT was first available for head imaging only, but in 1976 a larger gantry was developed allowing whole-body scans.&#x000a0;</p>
+        <p>
+<bold>X-ray Tube</bold>&#x000a0;</p>
+        <p>The X-ray tube converts moving electrons (i.e., electricity) into photons with the energetic properties (the wavelength and amplitude) of X-rays. The X-ray tube is composed of a cathode assembly, an anode assembly, and a rotor, all contained in a tube envelope and together forming a structure called the tube insert. All gas atoms in the space inside the tube envelope have been evacuated, forming a vacuum.<xref ref-type="bibr" rid="article-130532.r4">[4]</xref>&#x000a0;Modern CT scanner X-ray tubes are usually provided with 20-60 kilowatts of electrical power.&#x000a0;&#x000a0;</p>
+        <p>The X-ray tube cathode filament (often made of tungsten) expels the electrons that are delivered to it through a process called thermionic emission. The current from the X-ray generator passing through the filament boils off electrons.<xref ref-type="bibr" rid="article-130532.r5">[5]</xref>&#x000a0;The emitted electrons are accelerated by the potential difference (ie, the difference in charge) between the cathode and anode toward the anode (often also made from tungsten). The higher the voltage applied to this process (often 80&#x000a0;to 140 kilovolts), the more the source accelerates the electrons. When the electrons collide with the focal spot in the anode, they generate electromagnetic radiation having the energy of X-rays via two methods:&#x000a0;&#x000a0;</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Characteristic X-rays: These occur when an accelerated free electron strikes the target atom's nucleus and ejects one of the atom's inner shell electrons, which escapes the atom as a photon.<xref ref-type="bibr" rid="article-130532.r6">[6]</xref>&#x000a0;&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Bremsstrahlung (braking) X-rays: These occur when an accelerated free electron passes through the target atom and has its course deflected by the nearby subatomic particles, causing it to lose its kinetic energy. As a function of the first law of thermodynamics, energy is conserved, and the kinetic energy lost by the free electron is gained by other nearby particles, such as an outer shell electron in a cathode's atom. The loosely bound outer shell electron can then also be emitted as a photon that has the energetic properties (ie, travels with the wavelength and amplitude) of an X-ray.&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>The focal spot size can be altered according to the desired image resolution. In general, the smaller the focal size, the higher the image resolution. The process described in X-ray generation converts electric energy into 99% heat and only 1% photons. To absorb this large amount of heat, the space between the tube envelope and the tube housing contains oil for equipment cooling and insulation.&#x000a0;</p>
+        <p>
+<bold>Detectors</bold>&#x000a0;</p>
+        <p>The photon detector (also called a photovoltaic cell and more simply termed a detector) absorbs and counts photons generated by the X-ray tube that passes through the patient. The detector consists of two layers: the scintillator layer and the photon tide layer. The scintillator layer converts absorbed X-ray photons into visual light photons, while the photon tide layer converts the light photons into electrical signals.&#x000a0;</p>
+        <p>First-generation CT scanners contained only 2 detectors, which allowed the generation of two simultaneous views.<xref ref-type="bibr" rid="article-130532.r7">[7]</xref>&#x000a0;In second-generation scanners, the number of stationary detectors was increased to 30 detectors arranged in one row covering a 10-degree fan angle. The third generation introduced many more (up to 900) stationary detectors arranged in multiple rows (called multi-row detectors). Multi-row detectors allowed simultaneous scanning of multiple tissue slices simultaneously, which reduced scan time, allowed greater resolution, and improved efficiency in the use of X-ray tube power. Fourth-generation CT scanners contain up to 4500 stationary detectors arranged in a circle around the patient.<xref ref-type="bibr" rid="article-130532.r8">[8]</xref>&#x000a0;</p>
+        <p>
+<bold>X-Ray Shielding Elements</bold>&#x000a0;</p>
+        <p>X-rays that do not travel in a straight&#x000a0;path from the X-ray tube to the detector that is in line with the beam but instead reach an off-path detector interfere with the machine's ability to reconstruct an accurate representation of what signal was derived from what original location. This phenomenon, and other types of inaccuracies in image processing, result in image "noise," which reduces the contrast between imaged structures, which is a critical element for maintaining image quality and enabling interpretation of the anatomy and pathology.&#x000a0;</p>
+        <p>As with other types of imaging equipment that use X-rays, CT machines contain collimators, which are materials capable of absorbing the low-energy portion of the X-ray spectrum. These materials both shield (ie, reduce the overall X-ray exposure of) persons nearby at the time of the scan and reduce scattered radiation, thereby reducing image noise. CT scanners include two types of collimators: the source collimator (also called a diaphragm) and the detector collimator (also called a grid). The diaphragm configures the X-rays produced by the X-ray tube into a beam shape. Despite the formation of a highly focused beam, as the X-ray photons pass through the patient, the patient's atoms deflect the photons away from their original inline course and scatter them in all directions. The grid absorbs many of the photons traveling off their intended path before they strike offline detectors. It can be submitted for image processing, where it will interfere with the measurements obtained from the inline photon beams. The grid also decreases the number of photons needed for image production, thereby indirectly lowering the patient's total radiation exposure.</p>
+        <p>
+<bold>Patient Table</bold>&#x000a0;</p>
+        <p>The patient's table moves through the gantry during the scan. The distance the table moves during a complete rotation of the gantry is referred to as the table pitch or detector pitch. Table pitch equals the forward table movement in millimeters (mm) during a complete gantry rotation divided by beam collimation (the slice thickness in mm). Faster moving tables are described as having greater pitches. Increased table speed reduces scanning time and radiation but can also reduce image resolution if the circuitry of the machine cannot process the information as quickly as the table moves.<xref ref-type="bibr" rid="article-130532.r9">[9]</xref></p>
+        <p>
+<bold>Other Issues Pertaining to CT Machine Hardware</bold>&#x000a0;</p>
+        <p>
+<bold>Beam Pitch (BP)</bold>&#x000a0;</p>
+        <p>BP is similar to table pitch but is a term used for multidetector CT and factors in the beam width, which is equal to the number of detectors multiplied by the slice thickness in mm. In other words, BP is equal to the forward table movement for each full gantry rotation divided by the beam's width.</p>
+        <p>Pitch greater than 1 indicates the presence of a gap in the scanned volume, whereas pitch less than 1 indicates overlap of radiated fields in the scanned volume. Setting the pitch to greater than 1 reduces scan time and radiation dose but also reduces image resolution. Reducing the pitch increases the scan time and radiation but also increases the resolution. A low pitch is required to visualize delicate structures or pathological findings (such as arachnoid hemorrhage, small aneurysms, or non-displaced fractures).&#x000a0;&#x000a0;</p>
+        <p>
+<bold>CT Systems Generations</bold>&#x000a0;</p>
+        <p>As mentioned previously, CT engineers have improved the capabilities of machines since the first-generation system developed by Hounsfield. Table 1 summarizes the primary features of CT generations.&#x000a0;</p>
+        <table-wrap id="article-130532.table0" position="float" orientation="portrait">
+          <table>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">
+<p><bold>CT System</bold>&#x000a0;</p>
+</td>
+                <td rowspan="1" colspan="1">
+<p><bold>X-ray Tube and Detector Linked Movement/Geometry</bold>&#x000a0;</p>
+</td>
+                <td rowspan="1" colspan="1">
+<p><bold>Detectors</bold>&#x000a0;</p>
+</td>
+                <td rowspan="1" colspan="1">
+<p><bold>Type of X-ray Beam</bold>&#x000a0;</p>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">
+<p>First-generation&#x000a0;</p>
+</td>
+                <td rowspan="1" colspan="1">
+<p>Translate &#x02013; rotate</p>
+</td>
+                <td rowspan="1" colspan="1">
+<p>2 detectors generating 2 simultaneous views along the longitudinal axis of the patient&#x000a0;</p>
+</td>
+                <td rowspan="1" colspan="1">
+<p>Pencil beam&#x000a0;</p>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">
+<p>Second generation&#x000a0;</p>
+</td>
+                <td rowspan="1" colspan="1">
+<p>Translate &#x02013; rotate</p>
+</td>
+                <td rowspan="1" colspan="1">
+<p>About 30 detectors are arranged to cover a 10-degree fan angle.&#x000a0;</p>
+</td>
+                <td rowspan="1" colspan="1">
+<p>Narrow fan beam&#x000a0;</p>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">
+<p>Third generation&#x000a0;</p>
+</td>
+                <td rowspan="1" colspan="1">
+<p>Rotate &#x02013; rotate</p>
+</td>
+                <td rowspan="1" colspan="1">
+<p>700 - 900 detectors arranged to cover a 45&#x02013; to 55-degree fan.&#x000a0;</p>
+</td>
+                <td rowspan="1" colspan="1">
+<p>Wider Fan beam&#x000a0;</p>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">
+<p>Fourth generation&#x000a0;</p>
+</td>
+                <td rowspan="1" colspan="1">
+<p>Rotate &#x02013; fixed</p>
+</td>
+                <td rowspan="1" colspan="1">
+<p>1500 &#x02013; 4500 detectors arranged in a ring that encircles the patient&#x000a0;</p>
+</td>
+                <td rowspan="1" colspan="1">
+<p>Widest fan beam&#x000a0;</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <p>Table 1. Different generations of CT systems&#x000a0;</p>
+        <p>
+<bold>CT Image Production&#x000a0;</bold>&#x000a0;</p>
+        <p>
+<bold>Summary of Hardware Functions</bold>&#x000a0;</p>
+        <p>The generator produces an electrical current that runs into the X-ray tube and through the cathode wire filament. The current passes its electrons to the filament. The difference in electric charge between the cathode filament and anode across the vacuum draws the electrons toward the anode. Two distinct reactions in the anode convert 1% of the electrons that strike it into X-ray photons. These photons are directed through the scanned patient. The shielding elements help to reduce the scattered radiations and reduce the artifacts in the produced images. The movement of the table through the gantry allows a complete scanning of the desired part of the patient. The degree of X-ray beam absorption (also called attenuation) differs according to the density of each anatomical structure through which the beam passes. The detector receives X-ray photons with different energy intensities and converts them to visual light photons and then to an electrical signal. The electrical signal is conditioned by an electron amplifier and converted from a continuous (analog) signal into discrete (digital) signals by an analog-to-digital converter.&#x000a0;&#x000a0;</p>
+        <p>For each plane of photons detected as having passed through the imaged object, an attenuation profile (projection or shadow image) is recorded by the detector and passed to the image processor. As the X-ray tube and the detector rotate slightly to a second plane, further scanning from the new angle generates a second projection. This process is repeated until the desired portion of the object is scanned in its entirety.&#x000a0;&#x000a0;&#x000a0;</p>
+        <p>
+<bold>Software Conversion of the Data Into Images</bold>&#x000a0;</p>
+        <p>The digital signal is stored as bits and bytes on the processor chip as a permanent, fixed, "original" set of data that contains information about the scanned 3D structure. This data can be manipulated using mathematical algorithms to represent the 3D structure in different ways as different types of images. The mathematics of these manipulations is complex and will be described only briefly in superficial terms. In general, formulas are applied to convert the data from its original reference values (those determined by the process described in the prior section) to new values using a different reference, a process that can be referred to as a "transformation." When the original byte values representing photon intensity (and scanned object density) are multiplied by a linear coefficient, this process is termed "linear transformation."&#x000a0;</p>
+        <p>Images are displayed on film or an electric monitor screen. Electric monitor screens are comprised of a matrix divided into squares, which are termed pixels. Each pixel on the screen represents a two-dimensional projection of a three-dimensional volume, which is termed a voxel. Each voxel and pixel is assigned a number reflecting the amount of photon energy absorbed and measured by the detector, which reflects the density of the object that occupied that space at the time of the scan. The larger the assigned number, the greater the brightness of the displayed pixel (and the greater the density of the substance that filled the space in real life).&#x000a0;</p>
+        <p>
+<bold>Hounsfield Units</bold>&#x000a0;</p>
+        <p>Tissue physical density is proportional to photon attenuation (photon absorption). The CT detectors measure the degree to which the scanned tissues attenuate photons (ie, their density), and the image processor storing the data as bytes converts these values so that displayed pixels have proportionately assigned pixel brightness. A formula for this calculation&#x000a0;to convert byte data into a range of 5000 values is used globally.<xref ref-type="bibr" rid="article-130532.r10">[10]</xref><xref ref-type="bibr" rid="article-130532.r11">[11]</xref>&#x000a0;</p>
+        <p>The scale's range of values is named for Hounsfield;&#x000a0;each&#x000a0;value on the scale is termed a Hounsfield unit (HU). Densities of various substances have been assigned relative values, which are termed attenuation coefficients. The density of the substances in the patient (both natural tissues and any medical implants) and around the patient are calculated based on a linear transformation of the measured X-ray attenuation coefficients.<xref ref-type="bibr" rid="article-130532.r12">[12]</xref>&#x000a0;This transformation is based on the standard density measurement of two substances, distilled water (set as 0 HU) and air (set as -1000 HU), at 0 degrees Celsius and a pressure of 10 Pascals.<xref ref-type="bibr" rid="article-130532.r13">[13]</xref>&#x000a0;HU for various scanned tissues are computed from the following equation:&#x000a0;</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>HU =1000 X (tissue &#x003bc; &#x02013; water &#x003bc;)/ water &#x003bc;, where &#x003bc; is the linear attenuation coefficient&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>CT scanners in medical practice can present HU within a range of &#x02013;1024 HU to +3071 HU.<xref ref-type="bibr" rid="article-130532.r14">[14]</xref>&#x000a0;Interpretation of clinical images often depends on evaluating a structure's HU, such as differentiating vascular lesions (which are dense when filled with contrast) from non-vascular lesions and distinguishing acute hemorrhage (which is dense) vs. non-acute hemorrhage or other substances. Different publications define different ranges for certain tissues and substances, for example:&#x000a0;</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Fat (as in omental and subcutaneous fat) having HU from -40 to -100,&#x000a0;&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Soft tissue (such as muscle and tendon) having HU from 40 to 80, and&#x000a0;&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Cortical bone (such as in long bones or the cranium) has HU from 400 to 1000.<xref ref-type="bibr" rid="article-130532.r15">[15]</xref></p>
+          </list-item>
+        </list>
+        <p>
+<bold>Additional Factors Pertinent to Viewing CT Images</bold>&#x000a0;</p>
+        <p>
+<bold>Image Windowing</bold>&#x000a0;</p>
+        <p>Although the HU values in CT images are expressed on a 5000-unit scale, the human eye can distinguish many fewer grey shades in optimal conditions.<xref ref-type="bibr" rid="article-130532.r16">[16]</xref>&#x000a0;The displayed greyscale brightness and contrast can be altered by decreasing or increasing the number of included Hounsfield Units (termed the "window") and/or the Hounsfield Unit value that is set as the central/middle value (termed the "level"). The person viewing the image can manually adjust these settings using a mouse that interacts with the image software. Adjustment of what is visible in the image based on adjusting the visible HU in this manner is referred to as "windowing" or "changing the window."&#x000a0;</p>
+        <p>The window width determines image contrast. The greater the width, the less the contrast. Window width represents the range of HU included in the image. A narrow window (50-350 HU) is suitable for examining structures of similar attenuation values. A wide window (400-2000 HU) is suitable for examining structures of vastly different attenuation values. For instance, chest structures are best viewed using a wide window, which simultaneously demonstrates low attenuation findings in the lungs and high attenuation bone in the thoracic wall.&#x000a0;</p>
+        <p>The window level determines the image brightness. The greater the level, the greater the brightness. Setting the window level determines the central or midpoint grey value for the range of HU displayed in the image. The&#x000a0;higher the window level, the&#x000a0;greater the image brightness, and vice versa. Ideal imaging of different tissues (eg, the brain versus the subarachnoid space, scalp, or sinuses) also depends on the&#x000a0;window level.&#x000a0;</p>
+        <p>
+<bold>Image Reformatting (multiplanar reformation or MPR)</bold>&#x000a0;</p>
+        <p>In addition to transverse slices, coronal, sagittal, and other (oblique) slice planes can be reconstructed from the original 3D volume data by MPR.<xref ref-type="bibr" rid="article-130532.r17">[17]</xref><xref ref-type="bibr" rid="article-130532.r18">[18]</xref><xref ref-type="bibr" rid="article-130532.r19">[19]</xref>&#x000a0;The transverse (axial) plane is the traditional plane for viewing CT images, at least in part because it enables analysis of symmetry and because anatomic structures that have pertinence to each other (such as the liver, pancreas, gallbladder, and bile ducts) tend to be more congregated and to be most likely to appear simultaneously on an image in the transverse plane. However, other viewing images using planes may be preferential for specific types of evaluation. For example, the sagittal plane is ideal for imaging midline and other longitudinal structures, such as the spine, uterus, and pituitary gland. The coronal plane is ideal when evaluating symmetry and is important for viewing longitudinally oriented structures, such as long bones, the lungs,&#x000a0;and certain cerebral gyri. Some hospitals do not use MPR on all CTs in order to save money on data storage. However, MPR allows:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Better visualization of the musculoskeletal system to assess fracture configuration and the cartilage, ligaments, and tendons that stabilize joints that take oblique courses.<xref ref-type="bibr" rid="article-130532.r17">[17]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Better visualization of curvilinear structures like the appendix, and&#x000a0;&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Better evaluation of whether possible findings are real findings or image artifacts.&#x000a0;&#x000a0;&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Image Reconstruction/Rendering</bold>&#x000a0;</p>
+        <p>The image processor can retrieve and manipulate the stored data for every possible voxel as defined by the imaging software. The number of voxels used to create the image can be altered at will to represent the imaged tissues at differing resolutions; the greater the number of voxels used, the greater the image resolution. A row of voxels that forms a line from one side of the imaged space to the other is termed a linear attenuation profile. The computer's memory stores a unique linear attenuation profile for each angle from which the examined object was scanned that can be manipulated into a new data set of new attenuation profiles.&#x000a0;&#x000a0;</p>
+        <p>In contrast to image reformatting, where the image processor displays the original data set in different planes, image reconstruction refers to when the processor software applies one or more mathematical transformations to convert the&#x000a0;linear profiles from the original data set into a new data set. A reconstruction termed simple back-projection sums all the attenuation profiles of the imaged object together. This process usually results in a blurred image. To sharpen the image, a process called convolution is used that applies a mathematically derived algorithm to filter each attenuation profile prior to the summation. This results in a reconstruction termed a filtered back projection. Filtered back projections of different types are used primarily to emphasize or minimize the contrast between adjacent pixels. Increased sharpness is useful for identifying fractures (particularly non-displaced fractures), but increased sharpness also increases image noise.&#x000a0;&#x000a0;&#x000a0;</p>
+        <p>Data can also be manipulated (reconstructed) to simulate the 3D appearance of structures. This process can be used to emphasize the structure's surface (called surface rendering) or its whole shape (called 3D rendering). In these techniques, the software uses a mathematical algorithm that manipulates the voxel values for each attenuation profile to display pixel values that differ from those used to display standard 2D images.&#x000a0;</p>
+        <p>Volume rendering technique (VRT) uses an algorithm for assigning a final value to a voxel. First, it assigns each voxel a weighted score depending on its opacity (ie, it weights voxels having certain opacities more than it weights other voxels with other opacities). Second, it multiplies each voxel by a factor determined from the summed voxel values. Lastly, it sums the values from the first two calculations to achieve a final displayed voxel value. VRT is not limited to a value of maximum density; the entire Hounsfield scale could be included. However, certain types of VRT intentionally limit these values to highlight certain tissues or structures. Image reconstruction techniques include 3D volume rendering, shaded surface display, maximum intensity projection, and minimum intensity projection.&#x000a0;</p>
+        <list list-type="bullet">
+          <list-item>
+            <p><bold>3D Volume Rendering (3DVR) </bold>(see figure below)&#x000a0;3DVR attempts to make structures appear fully 3D.&#x000a0; This technique is useful when evaluating.&#x000a0;
+<list list-type="bullet"><list-item><p>Structure sizes, such as aneurysm size or artery hypoplasia&#x000a0;</p></list-item><list-item><p>Complex morphologies, such as comminuted fractures&#x000a0;</p></list-item><list-item><p>The relationship between two structures, such as a metastatic bone tumor enveloping a nearby artery&#x000a0;</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p><bold>Shaded Surface Display (SSD)</bold>&#x000a0;(see figure below) SSD, also known as surface rendering, selects voxels to display based on a selected range of HU. SSD includes or excludes voxels from the image based on algorithms set to detect differences in density at the edge of structures where surfaces have different densities.&#x000a0;&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p><bold>Maximum Intensity Projection (MIP or MaxIP)</bold>&#x000a0;(see figure below) MIP displays voxels with the highest density (HU) on every view through the 3D image volume.<xref ref-type="bibr" rid="article-130532.r20">[20]</xref>&#x000a0;MIPs better display high-density structures, such as bone and contrast-filled arteries, than SSD.<xref ref-type="bibr" rid="article-130532.r21">[21]</xref>&#x000a0;MIPs are frequently used for CT arteriography, such as for detecting emboli in the pulmonary arteries.&#x000a0;</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p><bold>Minimum Intensity Projection (MinIP)</bold>&#x000a0;(see figure below) MinIP displays voxels with the lowest density. MinIP is suitable to highlight air-filled structures, such as the bronchial tree.&#x000a0;&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p><bold>Sliding-Thin-Slab Reconstruction (STS Reconstruction)</bold>&#x000a0;(see figure below) STS reconstruction combines thin cut slices with slices of various greater thicknesses to preserve the visibility of low-contrast features. STS helps display structures that extend across several slices, such as blood vessels, ligaments, and tendons.&#x000a0;&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>
+<bold>CT Contrast Media</bold>&#x000a0;Iodine-containing contrast media can be used to improve the contrast of soft tissues on CT images, which is particularly important for identifying structures based on their vascular supply and for situations involving the assessment of tumors and infections. IV contrast media used in clinical practice can be categorized as:&#x000a0;&#x000a0;</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Ionic monomers, eg, diatrizoate,&#x000a0;&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Non-ionic monomers,&#x000a0;eg, iopamidol,</p>
+          </list-item>
+          <list-item>
+            <p>Ionic dimers, eg, ioxaglate, and&#x000a0;&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Nonionic dimers, eg, iotrolan.&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>Following intravenous injection, contrast material crosses from the capillaries to the extracellular spaces, is redistributed back into the capillaries and systemic veins, and is excreted by the kidneys. Persons with healthy glomeruli can filter all IV contrast into the urine within 12 hours. The amount of required contrast material depends on multiple factors, particularly the patient's body mass. Typically, 1&#x000a0;to 2 ml of contrast is injected per kg of body mass. When injected into an upper extremity vein, the time at which the contrast bolus peaks in the systemic arteries is about 20 seconds, followed by a systemic venous peak at about 70 seconds. Scans through the anatomical areas of interest are timed based on the type of information desired.</p>
+        <p>Each scan through the same anatomy is called an image phase. Nearly all scans that use IV contrast include a systemic venous phase. For example, imaging of the liver most commonly includes one phase (scan) that highlights the flow of blood through the portal vein, which peaks between the arterial and systemic venous phases. Imaging specifically for liver tumors involves a non-contrast scan, an arterial phase, or portal venous phase, and sometimes a delayed phase. Scans designed to evaluate systemic arteries use an arterial phase and are referred to as CT arteriograms (CTA).&#x000a0;</p>
+        <p>Contrast can also be administered by routes other than IV. Oral contrast material, such as barium sulfate and Gastrograffin, is commonly used to expand the gastrointestinal tract lumen and improve the contrast between it and the intestinal mucosa.</p>
+      </sec>
+      <sec id="article-130532.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>CT is a commonly used diagnostic and screening imaging tool for numerous indications. The American College of Radiology publishes its recommended indications for clinical applications of CT on its website under the title of the American College of Radiology Appropriateness Criteria. CT offers advantages over X-ray and nuclear imaging in accuracy and clarity for detecting many but not all abnormalities.</p>
+        <p>Compared to MRI, CT is less expensive and can be performed more quickly. CT is often a first-line imaging modality for detecting and characterizing infections, tumors, traumatic injuries, skeletal disorders, and vascular disorders. CTA&#x000a0;has replaced invasive fluoroscopic imaging in many circumstances&#x000a0;for evaluating vascular disorders, such as vascular malformations, aneurysms, and blockage.&#x000a0;CT does have disadvantages, such as high exposure of patients to radiation and lower resolution than x-ray. As such, for imaging certain types of fractures, an x-ray remains superior to a CT.</p>
+      </sec>
+      <sec id="article-130532.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>Understanding computed tomography image production and how it affects the interpretation of image findings is a useful skill for interprofessional team members&#x000a0;because CT is one of the most widely used imaging technologies for diagnosing medical conditions. As with any imaging technology, there are nuances regarding what types of images can be produced, what limitations the technology has for practical use, and what kind of defects can occur during image production. Because ionizing radiation is a potential concern for patients, it is beneficial for healthcare professionals to explain how CT works and how it is related to the risks of radiation, which&#x000a0;is reviewed elsewhere.<xref ref-type="bibr" rid="article-130532.r22">[22]</xref></p>
+        <p>Furthermore, patients may need to undergo specific preparation and/or actively participate in the process of CT imaging to enable the production of high-quality images, which in turn necessitates effective communication between the healthcare professionals requesting and performing the scan and between the healthcare professionals and the patient. Healthcare professionals should ensure that the patient is hemodynamically stable and in an otherwise suitable condition to be placed in the CT suite, where there may be limited room and supplies to manage patient care in the case of an emergency. CT images should be interpreted in correlation with patient clinical assessment; good communication from the clinical team to the radiologic consultant improves the likelihood that the radiologic report will satisfactorily address the issue or issues that led to the scan being performed.</p>
+      </sec>
+      <sec id="article-130532.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=130532&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=130532">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/130532/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=130532">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-130532.s6">
+        <fig id="article-130532.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>This is a 3D MinIP of the chest and abdomen showing gas filled airways, alveoli, and intestine. Contributed by Michael Young, MD, CPHQ</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="MinIP__3D" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-130532.s7">
+        <fig id="article-130532.image.f2" position="float" orientation="portrait">
+          <caption>
+            <p>This is a 3D shaded surface display. In this example, it highlights how the surfaces of the lungs wrap around the heart and touch in the midline. Contributed by Michael Young, MD, CPHQ</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="SSD" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-130532.s8">
+        <fig id="article-130532.image.f3" position="float" orientation="portrait">
+          <caption>
+            <p>This is a 3D MIP (MaxIP) with the bone voxels removed showing contrast filling the lumens of the pulmonary arteries. Contributed by Michael Young, MD, CPHQ.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="maxIP__front" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-130532.s9">
+        <fig id="article-130532.image.f4" position="float" orientation="portrait">
+          <caption>
+            <p>This is a 3D volume rendered image of the cortices of the face showing a mandible fracture. Contributed by Michael Young, MD, CPHQ.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="3D__Skull__x2x" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-130532.s10">
+        <fig id="article-130532.image.f5" position="float" orientation="portrait">
+          <caption>
+            <p>This is a sliding-thin-slab reconstruction that emphasizes areas of pneumonia, a pulmonary nodule, and blood vessels. Contributed by Michael Young, MD, CPHQ.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="MIP" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-130532.s11">
+        <title>References</title>
+        <ref id="article-130532.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Petrik</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Apok</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Britton</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Bell</surname>
+                <given-names>BA</given-names>
+              </name>
+              <name>
+                <surname>Papadopoulos</surname>
+                <given-names>MC</given-names>
+              </name>
+            </person-group>
+            <article-title>Godfrey Hounsfield and the dawn of computed tomography.</article-title>
+            <source>Neurosurgery</source>
+            <year>2006</year>
+            <month>Apr</month>
+            <volume>58</volume>
+            <issue>4</issue>
+            <fpage>780</fpage>
+            <page-range>780-7; discussion 780-7</page-range>
+            <pub-id pub-id-type="pmid">16575342</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-130532.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nicholls</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Sir Godfrey Newbold Hounsfield and Allan M. Cormack.</article-title>
+            <source>Eur Heart J</source>
+            <year>2019</year>
+            <month>Jul</month>
+            <day>01</day>
+            <volume>40</volume>
+            <issue>26</issue>
+            <fpage>2101</fpage>
+            <page-range>2101-2103</page-range>
+            <pub-id pub-id-type="pmid">31280317</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-130532.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zink</surname>
+                <given-names>FE</given-names>
+              </name>
+            </person-group>
+            <article-title>X-ray tubes.</article-title>
+            <source>Radiographics</source>
+            <year>1997</year>
+            <season>Sep-Oct</season>
+            <volume>17</volume>
+            <issue>5</issue>
+            <fpage>1259</fpage>
+            <page-range>1259-68</page-range>
+            <pub-id pub-id-type="pmid">9308113</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-130532.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Seibert</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>X-ray imaging physics for nuclear medicine technologists. Part 1: Basic principles of x-ray production.</article-title>
+            <source>J Nucl Med Technol</source>
+            <year>2004</year>
+            <month>Sep</month>
+            <volume>32</volume>
+            <issue>3</issue>
+            <fpage>139</fpage>
+            <page-range>139-47</page-range>
+            <pub-id pub-id-type="pmid">15347692</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-130532.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hall</surname>
+                <given-names>EH</given-names>
+              </name>
+            </person-group>
+            <article-title>Photo-Electric Emission, Thermionic Emission and Peltier Effect: (From the Point of View of Dual Electric Conduction).</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>1927</year>
+            <month>Feb</month>
+            <volume>13</volume>
+            <issue>2</issue>
+            <fpage>43</fpage>
+            <page-range>43-6</page-range>
+            <pub-id pub-id-type="pmid">16577035</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-130532.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Seibert</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>The AAPM/RSNA physics tutorial for residents. X-ray generators.</article-title>
+            <source>Radiographics</source>
+            <year>1997</year>
+            <season>Nov-Dec</season>
+            <volume>17</volume>
+            <issue>6</issue>
+            <fpage>1533</fpage>
+            <page-range>1533-57</page-range>
+            <pub-id pub-id-type="pmid">9397462</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-130532.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hounsfield</surname>
+                <given-names>GN</given-names>
+              </name>
+            </person-group>
+            <article-title>Computerized transverse axial scanning (tomography): Part I. Description of system. 1973.</article-title>
+            <source>Br J Radiol</source>
+            <year>1995</year>
+            <month>Nov</month>
+            <volume>68</volume>
+            <issue>815</issue>
+            <fpage>H166</fpage>
+            <page-range>H166-72</page-range>
+            <pub-id pub-id-type="pmid">8542219</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-130532.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Goldman</surname>
+                <given-names>LW</given-names>
+              </name>
+            </person-group>
+            <article-title>Principles of CT and CT technology.</article-title>
+            <source>J Nucl Med Technol</source>
+            <year>2007</year>
+            <month>Sep</month>
+            <volume>35</volume>
+            <issue>3</issue>
+            <fpage>115</fpage>
+            <page-range>115-28; quiz 129-30</page-range>
+            <pub-id pub-id-type="pmid">17823453</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-130532.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Silverman</surname>
+                <given-names>PM</given-names>
+              </name>
+              <name>
+                <surname>Kalender</surname>
+                <given-names>WA</given-names>
+              </name>
+              <name>
+                <surname>Hazle</surname>
+                <given-names>JD</given-names>
+              </name>
+            </person-group>
+            <article-title>Common terminology for single and multislice helical CT.</article-title>
+            <source>AJR Am J Roentgenol</source>
+            <year>2001</year>
+            <month>May</month>
+            <volume>176</volume>
+            <issue>5</issue>
+            <fpage>1135</fpage>
+            <page-range>1135-6</page-range>
+            <pub-id pub-id-type="pmid">11312166</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-130532.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Raju</surname>
+                <given-names>TN</given-names>
+              </name>
+            </person-group>
+            <article-title>The Nobel chronicles. 1979: Allan MacLeod Cormack (b 1924); and Sir Godfrey Newbold Hounsfield (b 1919).</article-title>
+            <source>Lancet</source>
+            <year>1999</year>
+            <month>Nov</month>
+            <day>06</day>
+            <volume>354</volume>
+            <issue>9190</issue>
+            <fpage>1653</fpage>
+            <pub-id pub-id-type="pmid">10560712</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-130532.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mahesh</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Search for isotropic resolution in CT from conventional through multiple-row detector.</article-title>
+            <source>Radiographics</source>
+            <year>2002</year>
+            <season>Jul-Aug</season>
+            <volume>22</volume>
+            <issue>4</issue>
+            <fpage>949</fpage>
+            <page-range>949-62</page-range>
+            <pub-id pub-id-type="pmid">12110725</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-130532.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ambrose</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Hounsfield</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Computerized transverse axial tomography.</article-title>
+            <source>Br J Radiol</source>
+            <year>1973</year>
+            <month>Feb</month>
+            <volume>46</volume>
+            <issue>542</issue>
+            <fpage>148</fpage>
+            <page-range>148-9</page-range>
+            <pub-id pub-id-type="pmid">4686818</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-130532.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hounsfield</surname>
+                <given-names>GN</given-names>
+              </name>
+            </person-group>
+            <article-title>Computed medical imaging. Nobel lecture, Decemberr 8, 1979.</article-title>
+            <source>J Comput Assist Tomogr</source>
+            <year>1980</year>
+            <month>Oct</month>
+            <volume>4</volume>
+            <issue>5</issue>
+            <fpage>665</fpage>
+            <page-range>665-74</page-range>
+            <pub-id pub-id-type="pmid">6997341</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-130532.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Glide-Hurst</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Zhong</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Chetty</surname>
+                <given-names>IJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Changes realized from extended bit-depth and metal artifact reduction in CT.</article-title>
+            <source>Med Phys</source>
+            <year>2013</year>
+            <month>Jun</month>
+            <volume>40</volume>
+            <issue>6</issue>
+            <fpage>061711</fpage>
+            <pub-id pub-id-type="pmid">23718590</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-130532.r15">
+          <label>15</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>DenOtter</surname>
+                <given-names>TD</given-names>
+              </name>
+              <name>
+                <surname>Schubert</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Hounsfield Unit</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2023</year>
+            <month>3</month>
+            <day>6</day>
+            <pub-id pub-id-type="pmid">31613501</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-130532.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kimpe</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Tuytschaever</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Increasing the number of gray shades in medical display systems--how much is enough?</article-title>
+            <source>J Digit Imaging</source>
+            <year>2007</year>
+            <month>Dec</month>
+            <volume>20</volume>
+            <issue>4</issue>
+            <fpage>422</fpage>
+            <page-range>422-32</page-range>
+            <pub-id pub-id-type="pmid">17195900</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-130532.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dalrymple</surname>
+                <given-names>NC</given-names>
+              </name>
+              <name>
+                <surname>Prasad</surname>
+                <given-names>SR</given-names>
+              </name>
+              <name>
+                <surname>Freckleton</surname>
+                <given-names>MW</given-names>
+              </name>
+              <name>
+                <surname>Chintapalli</surname>
+                <given-names>KN</given-names>
+              </name>
+            </person-group>
+            <article-title>Informatics in radiology (infoRAD): introduction to the language of three-dimensional imaging with multidetector CT.</article-title>
+            <source>Radiographics</source>
+            <year>2005</year>
+            <season>Sep-Oct</season>
+            <volume>25</volume>
+            <issue>5</issue>
+            <fpage>1409</fpage>
+            <page-range>1409-28</page-range>
+            <pub-id pub-id-type="pmid">16160120</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-130532.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rankin</surname>
+                <given-names>SC</given-names>
+              </name>
+            </person-group>
+            <article-title>Spiral CT: vascular applications.</article-title>
+            <source>Eur J Radiol</source>
+            <year>1998</year>
+            <month>Aug</month>
+            <volume>28</volume>
+            <issue>1</issue>
+            <fpage>18</fpage>
+            <page-range>18-29</page-range>
+            <pub-id pub-id-type="pmid">9717621</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-130532.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rubin</surname>
+                <given-names>GD</given-names>
+              </name>
+              <name>
+                <surname>Napel</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Leung</surname>
+                <given-names>AN</given-names>
+              </name>
+            </person-group>
+            <article-title>Volumetric analysis of volumetric data: achieving a paradigm shift.</article-title>
+            <source>Radiology</source>
+            <year>1996</year>
+            <month>Aug</month>
+            <volume>200</volume>
+            <issue>2</issue>
+            <fpage>312</fpage>
+            <page-range>312-7</page-range>
+            <pub-id pub-id-type="pmid">8685316</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-130532.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cody</surname>
+                <given-names>DD</given-names>
+              </name>
+            </person-group>
+            <article-title>AAPM/RSNA physics tutorial for residents: topics in CT. Image processing in CT.</article-title>
+            <source>Radiographics</source>
+            <year>2002</year>
+            <season>Sep-Oct</season>
+            <volume>22</volume>
+            <issue>5</issue>
+            <fpage>1255</fpage>
+            <page-range>1255-68</page-range>
+            <pub-id pub-id-type="pmid">12235351</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-130532.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Perandini</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Faccioli</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Zaccarella</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Re</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Mucelli</surname>
+                <given-names>RP</given-names>
+              </name>
+            </person-group>
+            <article-title>The diagnostic contribution of CT volumetric rendering techniques in routine practice.</article-title>
+            <source>Indian J Radiol Imaging</source>
+            <year>2010</year>
+            <month>May</month>
+            <volume>20</volume>
+            <issue>2</issue>
+            <fpage>92</fpage>
+            <page-range>92-7</page-range>
+            <pub-id pub-id-type="pmid">20607017</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-130532.r22">
+          <label>22</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Emmerson</surname>
+                <given-names>BR</given-names>
+              </name>
+              <name>
+                <surname>Young</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Radiology Patient Safety and Communication</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2023</year>
+            <month>1</month>
+            <day>30</day>
+            <pub-id pub-id-type="pmid">33620790</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

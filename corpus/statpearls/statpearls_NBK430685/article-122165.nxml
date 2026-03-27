@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-122165" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>X-Ray Image Quality Assurance</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Tompe</surname>
+            <given-names>Aparna</given-names>
+          </name>
+          <aff>Geisinger Medical Center, Danville, PA</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Sargar</surname>
+            <given-names>Kiran</given-names>
+          </name>
+          <aff>Geisinger Medical Center, Danville, PA</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Aparna Tompe declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Kiran Sargar declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>17</day>
+          <month>10</month>
+          <year>2022</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-122165.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Image quality can be defined as the attribute of the image that influences the clinician's certainty to perceive the appropriate diagnostic features from the image visually.<xref ref-type="bibr" rid="article-122165.r1">[1]</xref><xref ref-type="bibr" rid="article-122165.r2">[2]</xref>&#x000a0;Quality assurance or improvement is the proactive action to enhance the quality of care and services and cost-effectively remove waste. This&#x000a0;topic&#x000a0;discusses the fundamental concepts of digital radiographic image quality assurance. The most common digital radiographic detectors are computed radiography (CR) and digital radiography (DR). The important components of radiographic image quality include contrast, dynamic range, spatial resolution, noise, and artifacts.<xref ref-type="bibr" rid="article-122165.r3">[3]</xref>&#x000a0;</p>
+        <p>
+<bold>Contrast</bold>
+</p>
+        <p>Radiographic contrast is a fractional difference in the signal or brightness between the structure of interest and its surroundings.<xref ref-type="bibr" rid="article-122165.r3">[3]</xref> Contrast is generated by differential attenuation of X-rays by different tissues. Radiographic contrast is proportional to the atomic number, density, and tissue thickness. For example, X-ray attenuation is least in the air and higher in bone and between soft tissues. In digital radiography, the contrast can be adjusted using image post-processing techniques where pixel values are changed to provide the expected contrast range depending on specific clinical requirements.<xref ref-type="bibr" rid="article-122165.r3">[3]</xref></p>
+        <p>
+<bold>Dynamic Range</bold>
+</p>
+        <p>The dynamic range is the range of various X-ray intensities the detector can image.<xref ref-type="bibr" rid="article-122165.r3">[3]</xref>&#x000a0;Radiographic detectors that provide good contrast over a wide dynamic range are essential for obtaining high-quality digital radiographs. The detectors with wide dynamic range show very low or very high exposure values in an image, and viewers can view the range of different visible intensities. Although narrow latitude images show greater visible contrast, the extreme exposure intensities would appear too white or black with no discernible contrast.</p>
+        <p>
+<bold>Spatial Resolution</bold>
+</p>
+        <p>Spatial resolution is the imaging system's ability to distinguish the adjacent structures separate from each other. A bar pattern containing alternate radio-dense bars and radiolucent spaces of equal width can be imaged to get the subjective measurement of spatial resolution in units of line pairs per millimeter. The modulation transfer function (MTF) is an objective measurement of the spatial resolution obtained by measuring the transfer of signal amplitude of various spatial frequencies from object to image.<xref ref-type="bibr" rid="article-122165.r3">[3]</xref> MTF is the best way to measure spatial resolution. The factors affecting spatial resolution include magnification, X-ray focal spot size, detector resolution, patient motion, and image processing. A limiting system spatial resolution of 2.5 mm or higher is essential for digital radiographs.<xref ref-type="bibr" rid="article-122165.r3">[3]</xref> In the CR system, scattering of the laser beam during image readout is the primary factor limiting the spatial resolution. In DR systems, the spread of light photons when converting X-ray photons to light and detector element (del) size are the most important determinants of spatial resolution.<xref ref-type="bibr" rid="article-122165.r3">[3]</xref></p>
+        <p>
+<bold>Noise</bold>
+</p>
+        <p>Radiographic noise is the random or structured variation within an image that does not correspond to X-ray attenuation variations of the object. The noise power spectrum is the best noise metric that measures the noise's spatial frequency content.<xref ref-type="bibr" rid="article-122165.r3">[3]</xref> Quantum noise is primarily responsible for image noise, and the number of X-ray quanta used to form the image determines the quantum noise. Controlling exposure factors is the best way to reduce quantum noise.</p>
+        <p>
+<bold>Signal-to-Noise Ratio&#x000a0;</bold>
+</p>
+        <p>The signal-to-noise ratio (SNR) is an important metric that combines the effects of contrast, resolution, and noise. The higher the signal and lower the noise, the better the image quality. Images with high SNR allow the recognition of smaller and lower contrast structures. Detective quantum efficiency (DQE) best measures the imaging system's SNR transfer efficiency.<xref ref-type="bibr" rid="article-122165.r3">[3]</xref> The human detection ability improves with higher SNR.<xref ref-type="bibr" rid="article-122165.r2">[2]</xref> The required radiation exposure is inversely proportional to DQE.<xref ref-type="bibr" rid="article-122165.r3">[3]</xref></p>
+        <p>
+<bold>Artifacts</bold>
+</p>
+        <p>Artifacts contribute to poor image quality due to factors other than low resolution, noise, and SNR. These include unequal magnification, nonuniform images due to detector problems, bad detector elements, aliasing, and improper use of grids.</p>
+      </sec>
+      <sec id="article-122165.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>The factors affecting image quality include:</p>
+        <p>
+<bold>Beam Energy and Peak Kilovoltage</bold>
+</p>
+        <p>The X-ray beam energy is an energy spectrum that forms an image. It is directly proportional to the atomic number of the anode target, peak kilovoltage (kVp) of the X-ray generator, and amount of filtration in the beam.<xref ref-type="bibr" rid="article-122165.r3">[3]</xref><xref ref-type="bibr" rid="article-122165.r4">[4]</xref>&#x000a0;Higher energy beams cause greater X-ray penetration, less degree of attenuation by the tissues, and more scatter radiation.<xref ref-type="bibr" rid="article-122165.r5">[5]</xref> This results in lower contrast and lower doses. Conversely, lower energy beams cause higher contrast and require a higher dose as more photons&#x000a0;are&#x000a0;needed to penetrate body tissues and form the image. Appropriate energy is selected to optimize the contrast and dose for imaging specific body parts.</p>
+        <p>
+<bold>Tube Current-Exposure Time Product&#x000a0;</bold>
+</p>
+        <p>Tube current determines the total photons impinging the patient to form an image. Milliampere seconds (mAs) is the product of tube current in milliamperes and exposure time in seconds. There is a linear relationship between mAs and patient dose. An increase in mAs leads to increased patient dose and a noise reduction. Depending on the clinical need, appropriate mAs should be selected for a given exam to optimize the balance between noise and dose. Exposure time can affect spatial resolution as long exposure times can increase the chances of patient motion, leading to image blur.<xref ref-type="bibr" rid="article-122165.r5">[5]</xref></p>
+        <p>
+<bold>Acquisition Geometry</bold>
+</p>
+        <p>Image acquisition geometric factors affecting image quality include source-to-image receptor distance, orientation, magnification amount, and focal spot size. Changes in source-to-image receptor distance result in variations in relative magnifications of anatomic structures in the image.</p>
+        <p>Magnification increase in the air gap or patient-to-image receptor distance leads to an increase in magnification and a decrease in scatter radiation, resulting in improved image contrast and noise.<xref ref-type="bibr" rid="article-122165.r5">[5]</xref> However, the radiation dose increases as the patient is closer to the X-ray tube. As there is a fixed size of the focal spot, an increase in magnification can cause an increase in a blur.<xref ref-type="bibr" rid="article-122165.r5">[5]</xref></p>
+        <p>
+<bold>Focal Spot Size</bold>
+</p>
+        <p>The X-ray tube focal spot size is inversely related to the spatial resolution. A decrease in focal spot size leads to improved spatial resolution.<xref ref-type="bibr" rid="article-122165.r5">[5]</xref> However, an X-ray tube with a small focal spot has limited maximum output, leading to increased exposure time that can cause increased patient motion and motion blur.<xref ref-type="bibr" rid="article-122165.r5">[5]</xref></p>
+        <p>
+<bold>Detector Performance</bold>
+</p>
+        <p>The detector's performance depends upon the detector's resolution, detector element size, and detector SNR performance. The smaller the detector element size, the higher the resolution. In an ideal scenario, the detector element size should be smaller than the smallest region of interest. The modulation transfer function (MTF) is the primary measure of detector resolution and not the detector element size. A detector that maintains MTF value at greater spatial frequencies has a better resolution.</p>
+        <p>
+<bold>Collimation</bold>
+</p>
+        <p>Collimation is defined as the confinement of the spatial extent of an X-ray beam that impinges upon the region of interest in the patient and detector. Effective collimation decreases scattered radiation that reaches the detector.<xref ref-type="bibr" rid="article-122165.r5">[5]</xref> This leads to the improvement of image contrast and noise and increased SNR. It also causes less radiation exposure and reduces the patient's effective radiation dose.</p>
+        <p>
+<bold>Antiscatter grid</bold>
+</p>
+        <p>An antiscatter grid improves image quality by decreasing scattered radiation. However, attenuating the primary X-ray beam can also negatively affect image quality.<xref ref-type="bibr" rid="article-122165.r3">[3]</xref><xref ref-type="bibr" rid="article-122165.r5">[5]</xref></p>
+        <p>
+<bold>Image Processing</bold>
+</p>
+        <p>After digital image acquisition, artificial contrast adjustment can be achieved using post-processing techniques to improve visual perception, including histogram equalization, edge enhancement, grayscale processing, and noise reduction.<xref ref-type="bibr" rid="article-122165.r6">[6]</xref> These techniques can be used to modify the effect of kVp on image contrast. Digital images have low contrast between the tissues if post-processing is not performed. In digital radiography, pixel values are directly proportional to the exposure. The pixel values are changed after image acquisition to optimize the contrast depending on the clinical scenario.</p>
+      </sec>
+      <sec id="article-122165.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>One can obtain high-quality digital radiographs with a lower radiation dose by adjusting kVp, decreasing mAs, and decreasing focal spot size. Although a higher radiation dose leads to less noise and better image quality, one should be very cautious about the radiation dose to the patient. The radiographic&#x000a0;systems should be optimized to obtain image quality that provides diagnostic accuracy and at least possible radiation dose. The selection of radiographic projection affects the radiation dose. For example, the anterior-posterior (AP) orientation in chest radiographs has a higher radiation dose than the posterior-anterior (PA) view due to greater radiation exposure to breasts. In pediatric patients, using the principle of as low as reasonably achievable (ALARA) is essential during radiographic studies since children are more susceptible to the effects of ionizing radiation than adults.<xref ref-type="bibr" rid="article-122165.r7">[7]</xref><xref ref-type="bibr" rid="article-122165.r8">[8]</xref>&#x000a0;The radiographic detectors with higher DQE provide superior SNR performance that enables radiation dose reduction without significantly affecting image quality, particularly in pediatric patients.<xref ref-type="bibr" rid="article-122165.r3">[3]</xref><xref ref-type="bibr" rid="article-122165.r6">[6]</xref><xref ref-type="bibr" rid="article-122165.r7">[7]</xref></p>
+        <p>There is a tendency to use more radiation dose in digital imaging to reduce image noise, called "dose creep."<xref ref-type="bibr" rid="article-122165.r3">[3]</xref>&#x000a0;Utilizing a validated chart containing predetermined technical parameters based on the patient size helps avoid dose creep.<xref ref-type="bibr" rid="article-122165.r3">[3]</xref>&#x000a0;American Association of Physicists in Medicine Task Group 116 report is a great resource for recommended exposure indicators for digital radiography.<xref ref-type="bibr" rid="article-122165.r3">[3]</xref></p>
+        <p>Appropriately using effective collimation and an antiscatter grid reduces scattered radiation and improves image quality by reducing noise and improving SNR. The anti-scatter grid is most useful when the amount of scattered radiation is high, especially if the patient's thickness is greater than 10 cm.[3] However, an&#x000a0;antiscatter grid is not useful in smaller or pediatric patients or for smaller body part imaging.</p>
+        <p>When troubleshooting poor-quality radiographic images, the first step should be adjusting the postprocessing parameters to see if the image can be reproduced better. One should also optimize image acquisition and processing protocols to avoid repeat examinations of the patients and unnecessary radiation exposure.</p>
+        <p>The optimal imaging protocols should be developed and established with the help of a medical physicist to obtain consistently high image quality at the minimum possible radiation dose. The images should be properly compressed for transmission and storage without loss of significant clinical data. The appropriate image postprocessing should be used to improve the image display. The imaging systems should comply with appropriate state and federal regulations. Imaging systems should minimize the incidence of poor-quality images, maximize clinical efficiency, and improve quality.<xref ref-type="bibr" rid="article-122165.r3">[3]</xref></p>
+        <p>A meticulous quality assurance program is essential for consistently maintaining high-quality performance. The image quality should be monitored by acceptance testing to ensure safety and image quality, periodical checkups and maintenance assessment, and thorough annual inspections under the guidance of the medical physicist.<xref ref-type="bibr" rid="article-122165.r9">[9]</xref></p>
+        <p>In summary, we discussed important components of radiographic image quality and various factors affecting image quality. This knowledge is useful for obtaining high-quality digital radiographs with the lowest possible radiation dose to&#x000a0;improve the clinician's diagnostic accuracy.</p>
+      </sec>
+      <sec id="article-122165.s4">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=122165&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=122165">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/122165/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=122165">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-122165.s5">
+        <title>References</title>
+        <ref id="article-122165.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rossmann</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Wiley</surname>
+                <given-names>BE</given-names>
+              </name>
+            </person-group>
+            <article-title>The central problem in the study of radiographic image quality.</article-title>
+            <source>Radiology</source>
+            <year>1970</year>
+            <month>Jul</month>
+            <volume>96</volume>
+            <issue>1</issue>
+            <fpage>113</fpage>
+            <page-range>113-8</page-range>
+            <pub-id pub-id-type="pmid">5420393</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-122165.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Barrett</surname>
+                <given-names>HH</given-names>
+              </name>
+              <name>
+                <surname>Yao</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Rolland</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Myers</surname>
+                <given-names>KJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Model observers for assessment of image quality.</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>1993</year>
+            <month>Nov</month>
+            <day>01</day>
+            <volume>90</volume>
+            <issue>21</issue>
+            <fpage>9758</fpage>
+            <page-range>9758-65</page-range>
+            <pub-id pub-id-type="pmid">8234311</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-122165.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Williams</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name>
+                <surname>Krupinski</surname>
+                <given-names>EA</given-names>
+              </name>
+              <name>
+                <surname>Strauss</surname>
+                <given-names>KJ</given-names>
+              </name>
+              <name>
+                <surname>Breeden</surname>
+                <given-names>WK</given-names>
+              </name>
+              <name>
+                <surname>Rzeszotarski</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Applegate</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Wyatt</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Bjork</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Seibert</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>Digital radiography image quality: image acquisition.</article-title>
+            <source>J Am Coll Radiol</source>
+            <year>2007</year>
+            <month>Jun</month>
+            <volume>4</volume>
+            <issue>6</issue>
+            <fpage>371</fpage>
+            <page-range>371-88</page-range>
+            <pub-id pub-id-type="pmid">17544139</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-122165.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>McCollough</surname>
+                <given-names>CH</given-names>
+              </name>
+            </person-group>
+            <article-title>The AAPM/RSNA physics tutorial for residents. X-ray production.</article-title>
+            <source>Radiographics</source>
+            <year>1997</year>
+            <season>Jul-Aug</season>
+            <volume>17</volume>
+            <issue>4</issue>
+            <fpage>967</fpage>
+            <page-range>967-84</page-range>
+            <pub-id pub-id-type="pmid">9225393</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-122165.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schueler</surname>
+                <given-names>BA</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical applications of basic x-ray physics principles.</article-title>
+            <source>Radiographics</source>
+            <year>1998</year>
+            <season>May-Jun</season>
+            <volume>18</volume>
+            <issue>3</issue>
+            <fpage>731</fpage>
+            <page-range>731-44; quiz 729</page-range>
+            <pub-id pub-id-type="pmid">9599394</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-122165.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Krupinski</surname>
+                <given-names>EA</given-names>
+              </name>
+              <name>
+                <surname>Williams</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name>
+                <surname>Andriole</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Strauss</surname>
+                <given-names>KJ</given-names>
+              </name>
+              <name>
+                <surname>Applegate</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Wyatt</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Bjork</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Seibert</surname>
+                <given-names>JA</given-names>
+              </name>
+              <collab>ACR</collab>
+              <collab>AAPM</collab>
+              <collab>Society for Imaging Informatics in Medicine</collab>
+            </person-group>
+            <article-title>Digital radiography image quality: image processing and display.</article-title>
+            <source>J Am Coll Radiol</source>
+            <year>2007</year>
+            <month>Jun</month>
+            <volume>4</volume>
+            <issue>6</issue>
+            <fpage>389</fpage>
+            <page-range>389-400</page-range>
+            <pub-id pub-id-type="pmid">17544140</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-122165.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Willis</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name>
+                <surname>Slovis</surname>
+                <given-names>TL</given-names>
+              </name>
+            </person-group>
+            <article-title>The ALARA concept in pediatric CR and DR: dose reduction in pediatric radiographic exams--a white paper conference.</article-title>
+            <source>AJR Am J Roentgenol</source>
+            <year>2005</year>
+            <month>Feb</month>
+            <volume>184</volume>
+            <issue>2</issue>
+            <fpage>373</fpage>
+            <page-range>373-4</page-range>
+            <pub-id pub-id-type="pmid">15671348</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-122165.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Eslamy</surname>
+                <given-names>HK</given-names>
+              </name>
+              <name>
+                <surname>Newman</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Weinberger</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Quality improvement in neonatal digital radiography: implementing the basic quality improvement tools.</article-title>
+            <source>Semin Ultrasound CT MR</source>
+            <year>2014</year>
+            <month>Dec</month>
+            <volume>35</volume>
+            <issue>6</issue>
+            <fpage>608</fpage>
+            <page-range>608-26</page-range>
+            <pub-id pub-id-type="pmid">25454055</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-122165.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mahesh</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Essential Role of a Medical Physicist in the Radiology Department.</article-title>
+            <source>Radiographics</source>
+            <year>2018</year>
+            <month>Oct</month>
+            <volume>38</volume>
+            <issue>6</issue>
+            <fpage>1665</fpage>
+            <page-range>1665-1671</page-range>
+            <pub-id pub-id-type="pmid">30303789</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

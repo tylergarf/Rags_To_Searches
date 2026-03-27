@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-128631" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Nuclear Medicine Artifacts</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Dittrich</surname>
+            <given-names>Richard P.</given-names>
+          </name>
+          <aff>Southend University Hospital NHS Foundation Trust</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Chowdhury</surname>
+            <given-names>Yuvraj S.</given-names>
+          </name>
+          <aff>University of Lousiville</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Richard Dittrich declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Yuvraj Chowdhury declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>9</day>
+          <month>3</month>
+          <year>2021</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-128631.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Artifacts in nuclear medicine are abnormalities that misrepresent a physiological process or anatomical structure as pathological, excluding normal or abnormal variants. The reporting physician must recognize these artifacts to differentiate them from true representations or variants. Artifacts may lead to false positives, false negatives, or obscure results. The imaging interpreter should verify the nature of the artifacts, and additional clinical information or further examination may be needed to determine the cause and correct it if needed.<xref ref-type="bibr" rid="article-128631.r1">[1]</xref></p>
+      </sec>
+      <sec id="article-128631.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>In nuclear medicine, imaging artifacts can be categorized as instrumental, radiopharmaceutical, technical, patient-related, or treatment-related, as defined below.<xref ref-type="bibr" rid="article-128631.r2">[2]</xref>&#x000a0;</p>
+        <p>
+<bold>Instrumental&#x000a0;Artifacts</bold>
+</p>
+        <p>With digital gamma cameras, artifacts may be clearly visible in the raw image data, but postprocessing can make them more subtle or altered, making them difficult to recognize. These artifacts can be categorized into uniformity, resolution and linearity, multiple window spatial registration, collimators, field of view, and computer-related issues.<xref ref-type="bibr" rid="article-128631.r3">[3]</xref></p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Uniformity artifacts can result from malfunctions in the photomultiplier tube, sodium iodide crystal, or other electronic and mechanical problems.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Resolution and linearity artifacts are primarily influenced by spatial distortion. However, modern advancements have introduced automated linear correction maps with&#x000a0;minimal human involvement, even&#x000a0;in&#x000a0;positron emission tomography (PET) scans and magnetic resonance imaging (MRI), using flood histograms.<xref ref-type="bibr" rid="article-128631.r4">[4]</xref></p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Multiple window spatial registration refers to the accuracy of dual-isotope positioning with photons of different energies using their normalized reference ranges. Artifacts can occur when using multipeak radionuclides such as 67Ga, 201Tl, and 111In, leading to resolution degradation and subtle errors, even with software corrections.<xref ref-type="bibr" rid="article-128631.r5">[5]</xref></p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Attenuation artifacts are inherent to gamma radiation due to its energy. While collimators address most attenuation issues in gamma cameras, Compton scatter artifacts can still occur.<xref ref-type="bibr" rid="article-128631.r6">[6]</xref>&#x000a0;Lower energy levels lead to increased scatter and greater radiation absorption by the patient. Certain radioisotopes, such as 99mTc instead of 201Tl, help minimize this effect. Digital subtraction methods and 3D imaging, such as PET&#x02013;computed tomography (PET/CT) and single-photon emission computed tomography (SPECT), allow for artifact-free reconstruction of tomographic images. Although this does not alter spatial resolution or scatter&#x000a0;content, it enhances contrast and aids structural localization. Collimator artifacts lack the bright rim seen around the photogenic area, distinguishing them from crystal defects such as cracks. When damage is more extensive, flood images from different collimators can be compared for detection. Dents or defects in collimators may result from manufacturing issues or mechanical stress. Software processing can also help reduce collimator artifacts.<xref ref-type="bibr" rid="article-128631.r7">[7]</xref></p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Field-of-view artifacts can result from various mechanisms. Electronic masking of the unusable edges helps prevent edge-packing effects along the crystal area. However, this can reduce the field of view due to overcompensation or misalignment, leaving edge effects visible.&#x000a0;These artifacts can be prevented through proper calibration after servicing the machine. Misalignment can introduce errors in any series of static images. When multiple passes are used for acquisition, a "zipper" (linear) artifact may appear, while continuous acquisition may result in banding, often seen as horizontal linear artifacts. This can be prevented through proper equipment maintenance to ensure whole-body uniformity. Hard copies of images should be avoided, as artifacts related to the printing process and damage to the print medium are common. Truncation errors can also occur when the PET and CT fields of view differ, when patients are positioned away from the in-plane center, or when the patient's size exceeds the field of view, although software can correct most of these issues.<xref ref-type="bibr" rid="article-128631.r8">[8]</xref>&#x000a0;</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Computers are now integrated into all aspects of modern imaging, including nuclear medicine, leading to a wide range of potential artifacts. Examples include energy corruption, issues with linearity and uniformity correction maps, errors during digitization and image processing, or failures in accurately displaying the image.&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>Multimodality imaging is common in modern nuclear medicine. PET/CT and SPECT artifacts may include high-attenuation objects, truncation, respiratory motion, and misregistration. Native CT artifacts, such as CT noise and slice thickness, are also common.<xref ref-type="bibr" rid="article-128631.r9">[9]</xref>&#x000a0;CT noise occurs in larger patients or during low-dose CT scans and is often exaggerated during reconstruction. When CT slices are too thick, it can result in the loss of smaller details.</p>
+        <p>
+<bold>Radiopharmaceutical&#x000a0;Artifacts</bold>
+</p>
+        <p>Altered radiopharmaceutical biodistribution can be classified into&#x000a0;2 main categories&#x02014;preparation and formulation and administration technique and procedures.<xref ref-type="bibr" rid="article-128631.r10">[10]</xref></p>
+        <p>Various factors influence radionuclide purity, including the radionuclide itself (eg, isomer competition and contamination from the cyclotron), its components (eg, reagent concentration, particulate size, and commercial source variation), and preparation procedures (eg, mixing order, incubation and competing components). Additional factors, such as blood pH variations, blood electrolyte concentration, aluminum needle interaction, volatility, and decomposition, also have a role.<xref ref-type="bibr" rid="article-128631.r10">[10]</xref></p>
+        <p>Artifacts related to administration techniques and procedures can be classified into 5 groups&#x02014;extravascular injection, clotting in the syringe, suboptimal delivery in ventilation studies, administration line residue, and patient positioning.<xref ref-type="bibr" rid="article-128631.r10">[10]</xref> Extravasation is common and will be discussed in the Technical Artifacts section below.</p>
+        <p>Artifacts from the multiple uses of radionuclides and study timing are rare but should be considered in busy nuclear medicine departments where timing overlaps may occur. When more than one nuclear medicine scan is planned, the physical and biological half-lives must be accounted for. Adequate clearance and decay time help minimize the occurrence of such artifacts. Careful attention to the timing of radioisotope therapy and scintigraphy can also prevent occurrences. Biological half-lives may be altered by patient actions, such as unscheduled meals (during fasting) or the use of gut motility-altering medications during gastric emptying or colonic transit studies. Certain foods or medications may contain radiocontrast material and should be avoided during specific studies.</p>
+        <p>
+<bold>Technical Artifacts</bold>
+</p>
+        <p>Injection site artifacts are typically managed with software or lead blocking to identify the site and minimize pixel overflow. Extravasation artifacts are common and can lead to local accumulation and possible lymphatic tracking to regional lymph nodes, resulting in false-positive nodes. Blood pooling in the area can also cause Compton scatter effects from adjacent soft tissues, leading to false-positive uptake.<xref ref-type="bibr" rid="article-128631.r11">[11]</xref>&#x000a0;Unintentional intra-arterial injections may create blood pooling or flow artifacts and delay image findings.</p>
+        <p>Artifacts can also result from medical catheters and tubes inserted into the body. With venous catheters, the radiopharmaceutical may adhere to the plastic wall, or residual amounts may remain in the catheter lumen or venous system, particularly if numerous valves are present and proper saline flushing is not performed. Pedal veins may reduce venous retention artifacts if the radiotracer commonly affects them (eg, 201Tl and 99mTc-sestamibi). Urinary catheter bags or nephrostomy bags can also impair views of the area if not properly positioned.</p>
+        <p>
+<bold>Patient-Related Artifacts</bold>
+</p>
+        <p>Anatomical variations, such as skull thickness, muscle density, and adipose distribution, can affect attenuation. Nonanatomical structures that may cause attenuation artifacts in planar imaging include external items (eg, clothing, coins, keys, and belt buckles) and internal devices (eg, pacemakers, orthopedic devices, previously ingested contrast, breast implants, and tampons). If an artifact cannot be removed (eg, a plaster cast), the reporting physician should be informed. Contamination artifacts are among the most common in nuclear medicine, typically occurring when radiotracer is found in unexpected areas.</p>
+        <p>Urine contamination of clothing or footwear is common, and it can be confirmed and addressed by washing the skin, removing the contaminated clothing, or using different image views, with lateral views often making the issue more apparent. High photon concentration can impair visualization of the hip and pelvis in planar imaging, particularly with incomplete bladder voiding. Bladder catheterization and reducing the time between voiding and imaging can help minimize such artifacts. Secretions, including residual nasal and lacrimal secretions on handkerchiefs, skin, and clothing, may contain radioisotopes and cause interference around ocular prostheses, potentially leading to false positives.</p>
+        <p>Motion artifacts can occur in any PET or radiological scan. Respiratory motion artifacts can lead to blurring, attenuation errors, false negatives (often near the diaphragm), and misregistration errors.<xref ref-type="bibr" rid="article-128631.r12">[12]</xref>&#x000a0;Misregistration usually occurs near the boundaries of organs. For instance, a liver lesion near the lung-diaphragm interface may appear in the lung instead of the liver due to respiratory artifacts.<xref ref-type="bibr" rid="article-128631.r13">[13]</xref>&#x000a0;Advances in respiratory-gated (4D) PET/CT, including hardware gating, software gating, Bayesian penalized likelihood (BPL) PET reconstruction, and texture analysis, aim to reduce these inherent respiratory motion artifacts.<xref ref-type="bibr" rid="article-128631.r14">[14]</xref>&#x000a0;</p>
+        <p>PET/MRI combinations are becoming more common, but limitations due to breathing and motion artifacts persist. In SPECT imaging, one of the most frequent artifacts has historically involved the myocardium, particularly the left breast or left hemidiaphragm, when positioning changes between rest and stress imaging. This position change may be misinterpreted as pericardial effusion or as false ischemic areas in the myocardium. To correct attenuation artifacts, simultaneous or sequential acquisition of transmission and emission images is commonly employed, supplemented by first-order and extended acquisition correction techniques. Recent developments with multi-pinhole cadmium zinc telluride (CZT) gamma cameras, new detector materials, iterative reconstruction, and new isotopes (18F-NaF) help minimize artifacts.<xref ref-type="bibr" rid="article-128631.r15">[15]</xref>&#x000a0;However, despite these advances in myocardial perfusion imaging, patient motion artifacts, such as those caused by coughing, twisting, sliding, or slumping during acquisition, remain an issue.<xref ref-type="bibr" rid="article-128631.r16">[16]</xref></p>
+        <p>
+<bold>Treatment-Related&#x000a0;Artifacts</bold>
+</p>
+        <p>Medical procedures such as radiotherapy can affect tissue uptake, with increased uptake during the inflammatory stage and decreased uptake during the fibrotic stage for many radiopharmaceuticals. For example, in the evaluation of bone metastasis, imaging done too early after treatment may show high uptake due to bone damage and remodeling, leading to a false-positive interpretation of metastasis progression when the bone is simply healing. This is often referred to as a "flare phenomenon" in fluorodeoxyglucose (FDG) PET imaging.</p>
+        <p>Recent surgery typically leads to increased uptake due to ongoing inflammation and healing. Subcutaneous injection sites may also show increased uptake of certain radioisotopes, such as 99mTc-MDP, potentially obscuring areas like the lumbar spine, pelvis, or abdomen on anterior planar views. These findings can be clarified with lateral planar or SPECT imaging. Patients on dialysis or with chronic renal failure may exhibit increased hepatic clearance to compensate for renal impairment, which can alter the biodistribution of radiopharmaceuticals.<xref ref-type="bibr" rid="article-128631.r17">[17]</xref>&#x000a0;These patients may also experience chemical interactions with radiopharmaceuticals due to factors such as pH changes, electrolyte imbalances, and undergoing dialysis before sufficient radiotracer uptake.</p>
+        <p>Pathophysiological and biochemical changes can alter the biodistribution of radiopharmaceuticals. Examples include excretory organ failure, altered glucose metabolism (eg, fasting during FDG myocardial imaging), abnormal hormone levels (eg, hypoparathyroidism affecting bone scans), inflammatory reactions, and various other conditions.<xref ref-type="bibr" rid="article-128631.r17">[17]</xref></p>
+        <p>Therapeutic drugs can alter the biodistribution or pharmacokinetics of radiopharmaceuticals. For example, cardiac medications may interfere with stress tests by preventing the heart from reaching the desired rate, while immunosuppressants can reduce chemotaxis, diminishing the uptake of radiolabeled leukocytes. Additionally, medications such as somatostatin analogs may affect the uptake in 68Ga-DOTATATE imaging. Please see StatPearls' companion resource, "<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/point-of-care/125649">Gallium Scan</ext-link>," for more information.</p>
+      </sec>
+      <sec id="article-128631.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Distinguishing between normal and abnormal variants and artifacts can be challenging. A thorough understanding and recognition of these distinctions are essential for identifying and correcting potential errors in imaging interpretation. In addition to the categories mentioned above (instrumental, technical, radiopharmaceutical, patient, and treatment-related artifacts), variants and the specific radionuclide study must be considered within the appropriate context. Awareness of potential artifacts is crucial for accurate identification and interpretation.</p>
+      </sec>
+      <sec id="article-128631.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>Both medical and nonmedical personnel play a role in ensuring the quality of nuclear medicine services. Quality can be assessed through various indicators and often involves interprofessional healthcare teams. Patients' perceptions of quality and satisfaction may occasionally not align with the department's measurements. For example, older patients are generally more satisfied with their care compared to younger patients.<xref ref-type="bibr" rid="article-128631.r18">[18]</xref>&#x000a0;</p>
+        <p>Quality of service in nuclear medicine involves contributions from physicists, radiopharmacists, nuclear medicine instrumentation experts, nuclear medicine technologists or radiographers, allied healthcare professionals, and other clinicians. Artifacts in nuclear imaging can be identified through various means, not solely by the reporting specialist physician but also by other involved staff members. While reporting specialists often depend on staff for up-to-date patient and equipment information, everyone in the imaging process can contribute to improved outcomes. For instance, the person transporting the patient to the imaging department might report incontinence or potential for motion artifacts due to agitation, allowing for necessary adjustments to enhance imaging quality.&#x000a0;</p>
+        <p>Compliance with guidelines and protocols, coupled with effective communication between medical teams, leads to the best outcomes and better identification of artifacts in images, which enhances treatment. Providing relevant information improves communication across healthcare teams, thereby enhancing patient outcomes. When anomalies are reported to the appropriate staff member, corrections can be made to avoid issues and improve patient care. Ideally, artifacts should be prevented or, if unavoidable, identified during imaging or reporting.</p>
+      </sec>
+      <sec id="article-128631.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=128631&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=128631">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/128631/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=128631">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-128631.s6">
+        <title>References</title>
+        <ref id="article-128631.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Howarth</surname>
+                <given-names>DM</given-names>
+              </name>
+              <name>
+                <surname>Forstrom</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>O'Connor</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>Thomas</surname>
+                <given-names>PA</given-names>
+              </name>
+              <name>
+                <surname>Cardew</surname>
+                <given-names>AP</given-names>
+              </name>
+            </person-group>
+            <article-title>Patient-related pitfalls and artifacts in nuclear medicine imaging.</article-title>
+            <source>Semin Nucl Med</source>
+            <year>1996</year>
+            <month>Oct</month>
+            <volume>26</volume>
+            <issue>4</issue>
+            <fpage>295</fpage>
+            <page-range>295-307</page-range>
+            <pub-id pub-id-type="pmid">8916318</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128631.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Agrawal</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Marafi</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Gnanasegaran</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Van der Wall</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Fogelman</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <article-title>Pitfalls and Limitations of Radionuclide Planar and Hybrid Bone Imaging.</article-title>
+            <source>Semin Nucl Med</source>
+            <year>2015</year>
+            <month>Sep</month>
+            <volume>45</volume>
+            <issue>5</issue>
+            <fpage>347</fpage>
+            <page-range>347-72</page-range>
+            <pub-id pub-id-type="pmid">26278850</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128631.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>O'Connor</surname>
+                <given-names>MK</given-names>
+              </name>
+            </person-group>
+            <article-title>Instrument- and computer-related problems and artifacts in nuclear medicine.</article-title>
+            <source>Semin Nucl Med</source>
+            <year>1996</year>
+            <month>Oct</month>
+            <volume>26</volume>
+            <issue>4</issue>
+            <fpage>256</fpage>
+            <page-range>256-77</page-range>
+            <pub-id pub-id-type="pmid">8916316</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128631.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chaudhari</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Joshi</surname>
+                <given-names>AA</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Leahy</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Cherry</surname>
+                <given-names>SR</given-names>
+              </name>
+              <name>
+                <surname>Badawi</surname>
+                <given-names>RD</given-names>
+              </name>
+            </person-group>
+            <article-title>Spatial distortion correction and crystal identification for MRI-compatible position-sensitive avalanche photodiode-based PET scanners.</article-title>
+            <source>IEEE Trans Nucl Sci</source>
+            <year>2009</year>
+            <month>Jun</month>
+            <day>01</day>
+            <volume>56</volume>
+            <issue>3</issue>
+            <fpage>549</fpage>
+            <page-range>549-556</page-range>
+            <pub-id pub-id-type="pmid">20161023</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128631.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bergmann</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Minear</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Raith</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Schaffarich</surname>
+                <given-names>PM</given-names>
+              </name>
+            </person-group>
+            <article-title>Multiple window spatial registration error of a gamma camera: 133Ba point source as a replacement of the NEMA procedure.</article-title>
+            <source>BMC Med Phys</source>
+            <year>2008</year>
+            <month>Dec</month>
+            <day>09</day>
+            <volume>8</volume>
+            <fpage>6</fpage>
+            <pub-id pub-id-type="pmid">19068107</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128631.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Knoll</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Rahmim</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>G&#x000fc;ltekin</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>&#x00160;&#x000e1;mal</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ljungberg</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Mirzaei</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Segars</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Szczupak</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Improved scatter correction with factor analysis for planar and SPECT imaging.</article-title>
+            <source>Rev Sci Instrum</source>
+            <year>2017</year>
+            <month>Sep</month>
+            <volume>88</volume>
+            <issue>9</issue>
+            <fpage>094303</fpage>
+            <pub-id pub-id-type="pmid">28964205</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128631.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Perez-Garcia</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Barquero</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>The HURRA filter: An easy method to eliminate collimator artifacts in high-energy gamma camera images.</article-title>
+            <source>Rev Esp Med Nucl Imagen Mol</source>
+            <year>2017</year>
+            <season>Jan-Feb</season>
+            <volume>36</volume>
+            <issue>1</issue>
+            <fpage>27</fpage>
+            <page-range>27-36</page-range>
+            <pub-id pub-id-type="pmid">27436701</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128631.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>van Dalen</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Vogel</surname>
+                <given-names>WV</given-names>
+              </name>
+              <name>
+                <surname>Corstens</surname>
+                <given-names>FH</given-names>
+              </name>
+              <name>
+                <surname>Oyen</surname>
+                <given-names>WJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Multi-modality nuclear medicine imaging: artefacts, pitfalls and recommendations.</article-title>
+            <source>Cancer Imaging</source>
+            <year>2007</year>
+            <month>May</month>
+            <day>28</day>
+            <volume>7</volume>
+            <issue>1</issue>
+            <fpage>77</fpage>
+            <page-range>77-83</page-range>
+            <pub-id pub-id-type="pmid">17535775</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128631.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gnanasegaran</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Cook</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Adamson</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Fogelman</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <article-title>Patterns, variants, artifacts, and pitfalls in conventional radionuclide bone imaging and SPECT/CT.</article-title>
+            <source>Semin Nucl Med</source>
+            <year>2009</year>
+            <month>Nov</month>
+            <volume>39</volume>
+            <issue>6</issue>
+            <fpage>380</fpage>
+            <page-range>380-95</page-range>
+            <pub-id pub-id-type="pmid">19801218</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128631.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hung</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>Ponto</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Hammes</surname>
+                <given-names>RJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Radiopharmaceutical-related pitfalls and artifacts.</article-title>
+            <source>Semin Nucl Med</source>
+            <year>1996</year>
+            <month>Oct</month>
+            <volume>26</volume>
+            <issue>4</issue>
+            <fpage>208</fpage>
+            <page-range>208-55</page-range>
+            <pub-id pub-id-type="pmid">8916315</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128631.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Forstrom</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Dunn</surname>
+                <given-names>WL</given-names>
+              </name>
+              <name>
+                <surname>O'Connor</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>Decklever</surname>
+                <given-names>TD</given-names>
+              </name>
+              <name>
+                <surname>Hardyman</surname>
+                <given-names>TJ</given-names>
+              </name>
+              <name>
+                <surname>Howarth</surname>
+                <given-names>DM</given-names>
+              </name>
+            </person-group>
+            <article-title>Technical pitfalls in image acquisition, processing, and display.</article-title>
+            <source>Semin Nucl Med</source>
+            <year>1996</year>
+            <month>Oct</month>
+            <volume>26</volume>
+            <issue>4</issue>
+            <fpage>278</fpage>
+            <page-range>278-94</page-range>
+            <pub-id pub-id-type="pmid">8916317</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128631.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hamill</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Bosmans</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Dekker</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Respiratory-gated CT as a tool for the simulation of breathing artifacts in PET and PET/CT.</article-title>
+            <source>Med Phys</source>
+            <year>2008</year>
+            <month>Feb</month>
+            <volume>35</volume>
+            <issue>2</issue>
+            <fpage>576</fpage>
+            <page-range>576-85</page-range>
+            <pub-id pub-id-type="pmid">18383679</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128631.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sureshbabu</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Mawlawi</surname>
+                <given-names>O</given-names>
+              </name>
+            </person-group>
+            <article-title>PET/CT imaging artifacts.</article-title>
+            <source>J Nucl Med Technol</source>
+            <year>2005</year>
+            <month>Sep</month>
+            <volume>33</volume>
+            <issue>3</issue>
+            <fpage>156</fpage>
+            <page-range>156-61; quiz 163-4</page-range>
+            <pub-id pub-id-type="pmid">16145223</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128631.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Frood</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>McDermott</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Scarsbrook</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Respiratory-gated PET/CT for pulmonary lesion characterisation-promises and problems.</article-title>
+            <source>Br J Radiol</source>
+            <year>2018</year>
+            <month>Jun</month>
+            <volume>91</volume>
+            <issue>1086</issue>
+            <fpage>20170640</fpage>
+            <pub-id pub-id-type="pmid">29338327</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128631.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lee</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Kovalski</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Sharir</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>DS</given-names>
+              </name>
+            </person-group>
+            <article-title>Advances in imaging instrumentation for nuclear cardiology.</article-title>
+            <source>J Nucl Cardiol</source>
+            <year>2019</year>
+            <month>Apr</month>
+            <volume>26</volume>
+            <issue>2</issue>
+            <fpage>543</fpage>
+            <page-range>543-556</page-range>
+            <pub-id pub-id-type="pmid">28718074</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128631.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nichols</surname>
+                <given-names>KJ</given-names>
+              </name>
+              <name>
+                <surname>Van Tosh</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Rotating and stationary SPECT system patient motion myocardial perfusion artifacts.</article-title>
+            <source>J Nucl Cardiol</source>
+            <year>2019</year>
+            <month>Aug</month>
+            <volume>26</volume>
+            <issue>4</issue>
+            <fpage>1323</fpage>
+            <page-range>1323-1326</page-range>
+            <pub-id pub-id-type="pmid">29542014</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128631.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vallabhajosula</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Killeen</surname>
+                <given-names>RP</given-names>
+              </name>
+              <name>
+                <surname>Osborne</surname>
+                <given-names>JR</given-names>
+              </name>
+            </person-group>
+            <article-title>Altered biodistribution of radiopharmaceuticals: role of radiochemical/pharmaceutical purity, physiological, and pharmacologic factors.</article-title>
+            <source>Semin Nucl Med</source>
+            <year>2010</year>
+            <month>Jul</month>
+            <volume>40</volume>
+            <issue>4</issue>
+            <fpage>220</fpage>
+            <page-range>220-41</page-range>
+            <pub-id pub-id-type="pmid">20513446</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128631.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Giannoula</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Panagiotidis</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Katsikavelas</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Chatzipavlidou</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Sachpekidis</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Bamidis</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Raftopoulos</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Iakovou</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <article-title>Quality &#x00026; safety aspects of nuclear medicine practice: Definitions and review of the current literature.</article-title>
+            <source>Hell J Nucl Med</source>
+            <year>2020</year>
+            <season>Jan-Apr</season>
+            <volume>23</volume>
+            <issue>1</issue>
+            <fpage>60</fpage>
+            <page-range>60-66</page-range>
+            <pub-id pub-id-type="pmid">32361717</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

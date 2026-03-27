@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-96435" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Diagnostic Testing Accuracy: Sensitivity, Specificity, Predictive Values and Likelihood Ratios</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Shreffler</surname>
+            <given-names>Jacob</given-names>
+          </name>
+          <aff>University of Louisville School of Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Huecker</surname>
+            <given-names>Martin R.</given-names>
+          </name>
+          <aff>University of Louisville</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Jacob Shreffler declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Martin Huecker declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>6</day>
+          <month>3</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-96435.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">To make clinical decisions and guide patient care, providers must understand the likelihood that a patient has a disease, integrating pretest probability with diagnostic test results.<xref ref-type="bibr" rid="article-96435.r1">[1]</xref>&#x000a0;Diagnostic tools are routinely utilized in healthcare settings to determine treatment methods; however, many of these tools are subject to error.</p>
+      </sec>
+      <sec id="article-96435.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>
+<bold>Benefits of Diagnostic Testing</bold>
+</p>
+        <p>The utilization of diagnostic tests in patient care settings must be guided by evidence. Unfortunately, many order tests without considering the evidence to support them.<xref ref-type="bibr" rid="article-96435.r1">[1]</xref>&#x000a0;Sensitivity and specificity are essential indicators of test accuracy and help healthcare providers assess the appropriateness of the diagnostic tool.<xref ref-type="bibr" rid="article-96435.r2">[2]</xref>&#x000a0;Providers should use diagnostic tests with appropriate confidence in the results, based on known sensitivity, specificity, positive predictive value (PPV), negative predictive value (NPV), positive likelihood ratio, and negative likelihood ratio.<xref ref-type="bibr" rid="article-96435.r2">[2]</xref></p>
+        <p>Diagnostic exam results are often presented in 2x2 tables. The values in this table can help determine sensitivity, specificity, positive predictive value, and likelihood ratios. A diagnostic test&#x02019;s validity, or its ability to measure what it is intended to measure, is determined by sensitivity and specificity.<xref ref-type="bibr" rid="article-96435.r3">[3]</xref>&#x000a0;See <bold>Table.</bold> Diagnostic Testing Accuracy Table.</p>
+        <p>
+<bold>Sensitivity</bold>
+</p>
+        <p>Sensitivity is the proportion of true positive tests out of all patients with a condition.<xref ref-type="bibr" rid="article-96435.r4">[4]</xref>&#x000a0;In other words, it is the ability of a test or instrument to yield a positive result for a subject who has that disease.<xref ref-type="bibr" rid="article-96435.r2">[2]</xref>&#x000a0;The ability to correctly classify a test is essential, and the equation for sensitivity is the following:</p>
+        <p>Sensitivity=(True Positives (A))/(True Positives (A)+False Negatives (C))</p>
+        <p>Sensitivity does not allow providers to understand individuals who tested positive but did not have the disease.<xref ref-type="bibr" rid="article-96435.r5">[5]</xref>&#x000a0;False positives are a consideration when evaluating specificity and PPV.</p>
+        <p>
+<bold>Specificity</bold>
+</p>
+        <p>Specificity is the percentage of true negatives out of all subjects who do not have a disease or condition.<xref ref-type="bibr" rid="article-96435.r4">[4]</xref>&#x000a0;In other words, it is the ability of the test or instrument to obtain normal range or negative results for a person who does not have a disease.<xref ref-type="bibr" rid="article-96435.r2">[2]</xref>&#x000a0;The formula to determine specificity is the following:</p>
+        <p>Specificity=(True Negatives (D))/(True Negatives&#x000a0;(D)+False Positives&#x000a0;(B))</p>
+        <p>Sensitivity and specificity are inversely related: as sensitivity increases, specificity <italic toggle="yes">tends to decrease</italic>, and vice versa.<xref ref-type="bibr" rid="article-96435.r3">[3]</xref><xref ref-type="bibr" rid="article-96435.r6">[6]</xref>&#x000a0;Highly sensitive tests yield positive results in patients with the disease, whereas highly specific tests show that patients without a positive result do not have the disease.<xref ref-type="bibr" rid="article-96435.r6">[6]</xref>&#x000a0;Sensitivity and specificity should always&#x000a0;merit consideration together to provide a holistic picture of a diagnostic test.<xref ref-type="bibr" rid="article-96435.r7">[7]</xref>&#x000a0;Next, it is important to understand PPVs and NPVs.</p>
+        <p>
+<bold>PPV and NPV</bold>
+</p>
+        <p>PPVs determine, out of all of the positive findings, how many are true positives; NPVs determine, out of all of the negative findings, how many are true negatives. As the value increases toward 100, it approaches a &#x02018;gold standard.&#x02019;<xref ref-type="bibr" rid="article-96435.r3">[3]</xref>&#x000a0;The formulas for PPV and NPV are below.</p>
+        <p>Positive Predictive Value=(True Positives (A))/(True Positives (A)+False Positives (B))</p>
+        <p>Negative Predictive Value=(True Negatives (D))/(True Negatives (D)+False Negatives(C))</p>
+        <p>Disease prevalence in a population affects PPV and NPV. When a disease is highly prevalent, the test is better at &#x02018;ruling in' the disease and worse at &#x02018;ruling it out.&#x02019;<xref ref-type="bibr" rid="article-96435.r1">[1]</xref>&#x000a0;Therefore, disease prevalence should also be considered when providers examine their diagnostic test metrics or interpret values from other providers or researchers. Providers should consider the sample when reviewing research that reports these values and recognize that the values in their population may differ.<xref ref-type="bibr" rid="article-96435.r5">[5]</xref>&#x000a0;Given the diagnostic test outputs, issues with results (eg, very low specificity) may prompt clinicians to reconsider clinical acceptability, and alternative diagnostic methods or tests should be considered.<xref ref-type="bibr" rid="article-96435.r8">[8]</xref>&#x000a0;</p>
+        <p>
+<bold>Likelihood Ratios</bold>
+</p>
+        <p>Likelihood ratios are another statistical tool for interpreting diagnostic tests. Likelihood ratios allow providers to determine how much a particular test's use changes the probability.<xref ref-type="bibr" rid="article-96435.r4">[4]</xref>&#x000a0;A positive likelihood ratio is the &#x0201c;probability that a positive test would be expected in a patient divided by the probability that a positive test would be expected in a patient without a disease.&#x0201d;<xref ref-type="bibr" rid="article-96435.r4">[4]</xref>&#x000a0;In other words, a&#x000a0;positive likelihood ratio is the true positivity rate divided by the false positivity rate.<xref ref-type="bibr" rid="article-96435.r3">[3]</xref>&#x000a0;A negative likelihood ratio is &#x0201c;the probability of a patient testing negative who has a disease divided by the probability of a patient testing negative who does not have a disease.&#x0201d;<xref ref-type="bibr" rid="article-96435.r4">[4]</xref>&#x000a0;Unlike predictive values, and like sensitivity and specificity, likelihood ratios are not affected by disease prevalence.<xref ref-type="bibr" rid="article-96435.r9">[9]</xref>&#x000a0;The likelihood-ratio formulas are below.</p>
+        <p>Positive Likelihood Ratio=Sensitivity/(1-Specificity)&#x000a0;</p>
+        <p>Negative Likelihood Ratio=(1- Sensitivity)/Specificity</p>
+        <p>Now that these topics have been covered completely, the application exercise calculates sensitivity, specificity, predictive values, and likelihood ratios.</p>
+        <p>
+<bold>Application Exercise</bold>
+</p>
+        <p>Example: A healthcare provider uses a blood test to determine whether patients have a disease.&#x000a0;</p>
+        <p>The results are the following:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>A total of 1,000 individuals had their blood tested.</p>
+          </list-item>
+          <list-item>
+            <p>Four hundred twenty-seven individuals had positive findings, and 573 individuals had negative findings.</p>
+          </list-item>
+          <list-item>
+            <p>Of the 427 individuals with positive findings, 369 had the disease.</p>
+          </list-item>
+          <list-item>
+            <p>Of the 573 individuals with negative findings, 558 did not have the disease.</p>
+          </list-item>
+        </list>
+        <p>Let&#x02019;s calculate the sensitivity, specificity, PPV, NPV, positive likelihood ratio, and negative likelihood ratio. We first can start with a 2X2 Table. The information above allows us to enter the values in the table below. Notice that the values in the blue cells were not provided; however, we can derive them from the numbers above and the total cell utilization. See <bold>Image.</bold> Diagnostic Testing Accuracy Table 2.</p>
+        <p>The provider found that 384 individuals had the disease; how accurate was the blood test?</p>
+        <p>Results:</p>
+        <p>
+<italic toggle="yes">Sensitivity </italic>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Sensitivity=(True Positives (A))/(True Positives (A)+False Negatives (C))</p>
+          </list-item>
+          <list-item>
+            <p>Sensitivity=(369 (A))/(369(A)+15 (C))</p>
+          </list-item>
+          <list-item>
+            <p>Sensitivity=369/384</p>
+          </list-item>
+          <list-item>
+            <p>Sensitivity=0.961</p>
+          </list-item>
+        </list>
+        <p>
+<italic toggle="yes">Specificity</italic>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Specificity=(True Negatives (D))/(True Negatives (D)+False Positives (B))</p>
+          </list-item>
+          <list-item>
+            <p>Specificity=(558&#x000a0;(D))/(558(D)+58 (B))</p>
+          </list-item>
+          <list-item>
+            <p>Specificity=558/616</p>
+          </list-item>
+          <list-item>
+            <p>Specificity=0.906</p>
+          </list-item>
+        </list>
+        <p>
+<italic toggle="yes">Positive Predictive Value</italic>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>PPV =(True Positives (A))/(True Positives (A)+False Positives (B))</p>
+          </list-item>
+          <list-item>
+            <p>PPV =(369 (A))/(369 (A)+58(B))</p>
+          </list-item>
+          <list-item>
+            <p>PPV =369/427</p>
+          </list-item>
+          <list-item>
+            <p>PPV =0.864</p>
+          </list-item>
+        </list>
+        <p>
+<italic toggle="yes">Negative Predictive Value</italic>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>NPV=(True Negatives (D))/(True Negatives (D)+False Negatives(C))</p>
+          </list-item>
+          <list-item>
+            <p>NPV=(558(D))/(558 (D)+15(C))</p>
+          </list-item>
+          <list-item>
+            <p>NPV=(558 )/573</p>
+          </list-item>
+          <list-item>
+            <p>NPV=0.974</p>
+          </list-item>
+        </list>
+        <p>
+<italic toggle="yes">Positive Likelihood Ratio </italic>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Positive Likelihood Ratio=Sensitivity/(1-Specificity)</p>
+          </list-item>
+          <list-item>
+            <p>Positive Likelihood Ratio=0.961/(1-0.906)</p>
+          </list-item>
+          <list-item>
+            <p>Positive Likelihood Ratio=0.961/0.094</p>
+          </list-item>
+          <list-item>
+            <p>Positive Likelihood Ratio=10.22</p>
+          </list-item>
+          <list-item>
+            <p>
+<italic toggle="yes">Negative Likelihood Ratio</italic>
+</p>
+          </list-item>
+          <list-item>
+            <p>Negative Likelihood Ratio=(1- Sensitivity)/Specificity&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Negative Likelihood Ratio=(1- 0.961)/0.906</p>
+          </list-item>
+          <list-item>
+            <p>Negative Likelihood Ratio=0.039/0.906</p>
+          </list-item>
+          <list-item>
+            <p>Negative Likelihood Ratio=0.043</p>
+          </list-item>
+        </list>
+        <p>The results show&#x000a0;a sensitivity of 96.1%, specificity of 90.6%, PPV of 86.4%, NPV of 97.4%, positive likelihood ratio of 10.22, and negative likelihood ratio of 0.043.</p>
+      </sec>
+      <sec id="article-96435.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>While other diagnostic test data techniques exist (eg, receiver operating characteristic curves), this topic serves as an essential starting point for healthcare providers. Diagnostic testing is a crucial component of evidence-based patient care. When determining whether to use a diagnostic test, providers should consider the test's benefits and risks, as well as its diagnostic accuracy.<xref ref-type="bibr" rid="article-96435.r1">[1]</xref>&#x000a0;With a foundational understanding of sensitivity, specificity, predictive values, and likelihood ratios, healthcare providers interpret outputs from current and new diagnostic assessments, aiding decision-making and ultimately improving patient care.</p>
+      </sec>
+      <sec id="article-96435.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>All interprofessional healthcare team members need to understand these values as applied to diagnostic testing, so they can better analyze a patient's condition based on testing results. Any lack of understanding in this area can lead to misdiagnosis and suboptimal outcomes. Healthcare team members need to collaborate openly to facilitate proper diagnosis, leading to properly targeted therapeutic interventions.</p>
+      </sec>
+      <sec id="article-96435.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=96435&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=96435">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/96435/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=96435">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-96435.s6">
+        <fig id="article-96435.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Diagnostic Testing Accuracy Table. Contributed by M Huecker, MD, and J Shreffler, PhD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Diagnostic__Testing__Accuracy__Table__1" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-96435.s7">
+        <fig id="article-96435.image.f2" position="float" orientation="portrait">
+          <caption>
+            <p>Diagnostic Testing Accuracy Table 2 Contributed by M Huecker, MD, and J Shreffler, PhD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Diagnostic__Testing__Accuracy__Table__2" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-96435.s8">
+        <title>References</title>
+        <ref id="article-96435.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bartol</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Thoughtful use of diagnostic testing: Making practical sense of sensitivity, specificity, and predictive value.</article-title>
+            <source>Nurse Pract</source>
+            <year>2015</year>
+            <month>Aug</month>
+            <day>15</day>
+            <volume>40</volume>
+            <issue>8</issue>
+            <fpage>10</fpage>
+            <page-range>10-2</page-range>
+            <pub-id pub-id-type="pmid">26180907</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-96435.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Glaros</surname>
+                <given-names>AG</given-names>
+              </name>
+              <name>
+                <surname>Kline</surname>
+                <given-names>RB</given-names>
+              </name>
+            </person-group>
+            <article-title>Understanding the accuracy of tests with cutting scores: the sensitivity, specificity, and predictive value model.</article-title>
+            <source>J Clin Psychol</source>
+            <year>1988</year>
+            <month>Nov</month>
+            <volume>44</volume>
+            <issue>6</issue>
+            <fpage>1013</fpage>
+            <page-range>1013-23</page-range>
+            <pub-id pub-id-type="pmid">3216006</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-96435.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Parikh</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Mathai</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Parikh</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Chandra Sekhar</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Thomas</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Understanding and using sensitivity, specificity and predictive values.</article-title>
+            <source>Indian J Ophthalmol</source>
+            <year>2008</year>
+            <season>Jan-Feb</season>
+            <volume>56</volume>
+            <issue>1</issue>
+            <fpage>45</fpage>
+            <page-range>45-50</page-range>
+            <pub-id pub-id-type="pmid">18158403</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-96435.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bolin</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Lam</surname>
+                <given-names>W</given-names>
+              </name>
+            </person-group>
+            <article-title>A review of sensitivity, specificity, and likelihood ratios: evaluating the utility of the electrocardiogram as a screening tool in hypertrophic cardiomyopathy.</article-title>
+            <source>Congenit Heart Dis</source>
+            <year>2013</year>
+            <season>Sep-Oct</season>
+            <volume>8</volume>
+            <issue>5</issue>
+            <fpage>406</fpage>
+            <page-range>406-10</page-range>
+            <pub-id pub-id-type="pmid">23663480</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-96435.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Akobeng</surname>
+                <given-names>AK</given-names>
+              </name>
+            </person-group>
+            <article-title>Understanding diagnostic tests 1: sensitivity, specificity and predictive values.</article-title>
+            <source>Acta Paediatr</source>
+            <year>2007</year>
+            <month>Mar</month>
+            <volume>96</volume>
+            <issue>3</issue>
+            <fpage>338</fpage>
+            <page-range>338-41</page-range>
+            <pub-id pub-id-type="pmid">17407452</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-96435.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Naeger</surname>
+                <given-names>DM</given-names>
+              </name>
+              <name>
+                <surname>Kohi</surname>
+                <given-names>MP</given-names>
+              </name>
+              <name>
+                <surname>Webb</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name>
+                <surname>Phelps</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Ordovas</surname>
+                <given-names>KG</given-names>
+              </name>
+              <name>
+                <surname>Newman</surname>
+                <given-names>TB</given-names>
+              </name>
+            </person-group>
+            <article-title>Correctly using sensitivity, specificity, and predictive values in clinical practice: how to avoid three common pitfalls.</article-title>
+            <source>AJR Am J Roentgenol</source>
+            <year>2013</year>
+            <month>Jun</month>
+            <volume>200</volume>
+            <issue>6</issue>
+            <fpage>W566</fpage>
+            <page-range>W566-70</page-range>
+            <pub-id pub-id-type="pmid">23701086</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-96435.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Obuchowski</surname>
+                <given-names>NA</given-names>
+              </name>
+              <name>
+                <surname>Bullen</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>Receiver operating characteristic (ROC) curves: review of methods with applications in diagnostic medicine.</article-title>
+            <source>Phys Med Biol</source>
+            <year>2018</year>
+            <month>Mar</month>
+            <day>29</day>
+            <volume>63</volume>
+            <issue>7</issue>
+            <fpage>07TR01</fpage>
+            <pub-id pub-id-type="pmid">29512515</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-96435.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lachenbruch</surname>
+                <given-names>PA</given-names>
+              </name>
+            </person-group>
+            <article-title>Sensitivity, specificity, and vaccine efficacy.</article-title>
+            <source>Control Clin Trials</source>
+            <year>1998</year>
+            <month>Dec</month>
+            <volume>19</volume>
+            <issue>6</issue>
+            <fpage>569</fpage>
+            <page-range>569-74</page-range>
+            <pub-id pub-id-type="pmid">9875836</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-96435.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Parikh</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Parikh</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Arun</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Thomas</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Likelihood ratios: clinical application in day-to-day practice.</article-title>
+            <source>Indian J Ophthalmol</source>
+            <year>2009</year>
+            <season>May-Jun</season>
+            <volume>57</volume>
+            <issue>3</issue>
+            <fpage>217</fpage>
+            <page-range>217-21</page-range>
+            <pub-id pub-id-type="pmid">19384017</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

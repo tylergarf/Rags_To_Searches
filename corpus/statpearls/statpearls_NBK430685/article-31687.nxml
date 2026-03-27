@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-31687" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>EMS Disaster Planning and Operations</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Cornelius</surname>
+            <given-names>Angela P.</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Wang</surname>
+            <given-names>Cecily F.</given-names>
+          </name>
+          <aff>Straub Benioff Medical Center, University of Hawaii John A. Burns School of Medicine, OptimumAir Hawaii</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Angela Cornelius declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Cecily Wang declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>12</day>
+          <month>1</month>
+          <year>2026</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-31687.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Disasters can occur at any time, and preparation is essential. Historical precedents for disaster planning include the development of granaries to sustain populations during periods of food scarcity, the establishment of fire codes in Rome under Nero, and early water management systems in China. (Sources: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://doi.org/10.4135/9781412994064.n108">Kte'pi</ext-link>, 2011; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://origins.osu.edu/connecting-history/roman-government-disaster-response">Tuck</ext-link>, 2020)</p>
+        <p>In the US, early disaster planning and operations were largely piecemeal, evolving in response to individual events without unified preparedness or response procedures. This approach changed in the 1970s following a series of 773 forest fires over 13 days, which resulted in substantial morbidity, mortality, and property loss despite the availability of seemingly adequate resources.</p>
+        <p>Subsequent analysis of forest fire management identified multiple systemic deficiencies. Significant challenges included coordinating logistics across multiple organizations with differing command structures, which hindered the establishment and maintenance of effective leadership. Additional deficiencies included inadequate interagency communication, marked differences in terminology, excessive supervisory span of control, and poorly coordinated planning and resource distribution.</p>
+        <p>Recognition of these deficiencies underscored the need for a more structured and standardized approach to disaster management. In response, Congress funded the US Forest Service to develop a program to address these gaps, resulting in the Firefighting Resources of California Organized for Potential Emergencies (FIRESCOPE) program. (Source: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://firescope.caloes.ca.gov/SiteCollectionDocuments/ICS%20History%20and%20Progression.pdf">Incident Command System</ext-link>, no date)&#x000a0;The FIRESCOPE program subsequently led to the development of the incident command system (ICS), which standardized incident management and improved interoperability across agencies.<xref ref-type="bibr" rid="article-31687.r1">[1]</xref><xref ref-type="bibr" rid="article-31687.r2">[2]</xref><xref ref-type="bibr" rid="article-31687.r3">[3]</xref><xref ref-type="bibr" rid="article-31687.r4">[4]</xref>&#x000a0;In 1979, the continued recognition of the need for a unified national approach to disaster preparedness and response culminated in President Carter signing an executive order establishing the Federal Emergency Management Agency (FEMA). (Source: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.ems1.com/emergency-management/fema-a-comprehensive-history-of-u-s-emergency-management">EMS1</ext-link>, 2025)</p>
+      </sec>
+      <sec id="article-31687.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>In the 1970s, a standardized system for responding to disasters, the National Interagency Incident Management System (NIIMS), was developed and widely adopted by the early 1980s. (Source:&#x000a0;<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://doi.org/10.1007/978-3-319-52090-2_300287">Manzello</ext-link>, 2020) This system remained in use until after the September 11, 2001, attacks.&#x000a0;The Department of Homeland Security was established in response to these events, and Homeland Security Presidential Directive 5 mandated a comprehensive system for managing incidents across the US.</p>
+        <p>The development of this comprehensive program by FEMA involved contributions from local, tribal, state, and federal stakeholders, as well as nongovernmental organizations, emergency response agencies, and private-sector partners. The process resulted in a consolidated document outlining best practices from across the country. The National Incident Management System (NIMS) was subsequently created by integrating elements of both the FIRESCOPE Program and NIIMS.&#x000a0;(Source:&#x000a0;<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://firescope.caloes.ca.gov/SiteCollectionDocuments/FIRESCOPE%20-%20NIMS%20ICS%20Article%202011.pdf">Neville and Neamy</ext-link>, 2011)</p>
+        <p>NIMS provides a structured framework that enables agencies from multiple sectors to coordinate during disasters. The system is adaptable to incidents of all scales while maintaining a standardized approach to incident management. NIMS is organized around&#x000a0;5 core components: preparedness; communication and information management; resource management; command and management; and ongoing management and maintenance. The ICS constitutes a key component within the command and management element.<xref ref-type="bibr" rid="article-31687.r5">[5]</xref><xref ref-type="bibr" rid="article-31687.r6">[6]</xref><xref ref-type="bibr" rid="article-31687.r7">[7]</xref><xref ref-type="bibr" rid="article-31687.r8">[8]</xref></p>
+        <p>ICS addresses many of the problems encountered in previous disasters. Several ICS principles specifically target interoperability difficulties observed in past responses. (Source:&#x000a0;<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.chrisbergen.blog/leadership/nims-guiding-principle-supporting-interoperability-for-leaders/">ChrisberGen Blog</ext-link>, 2025)&#x000a0;</p>
+        <p>A modular organizational structure was developed to manage disaster responses. This structure is built from the top down and&#x000a0;can be expanded or contracted to accommodate incidents of any scale. ICS requires that event management be driven by clearly defined incident objectives, with personnel assigned to specific tasks to achieve these objectives. The incident action plan formally communicates these objectives.</p>
+        <p>The span of control, defined as the number of personnel supervised by&#x000a0;an individual, is typically limited to 3-7, as effective leadership and supervision become challenging beyond this range. ICS also designates specific facilities for operational purposes and manages the deployment and assignment of resources. All resources, including personnel, are tracked in real time to ensure full accountability.</p>
+        <p>ICS standardizes communication across organizations by establishing common terminology, thereby facilitating more straightforward and more effective interactions. For larger incidents, a specialized communications unit may operate under the logistics section.&#x000a0;(Source:&#x000a0;<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.cisa.gov/safecom/communications-unit">Cybersecurity and Infrastructure Security Agency</ext-link>, no date)</p>
+        <p>Formal procedures govern the establishment and transition of command, with a clearly defined chain of command. Agencies responding to an incident are expected to collaborate to form a unified command structure. Information flows in an organized manner from individual responders to command staff, providing a comprehensive overview of the response and enabling more effective management.</p>
+        <p>ICS has been used successfully in disaster response, including within hospital systems during the COVID-19 pandemic.<xref ref-type="bibr" rid="article-31687.r9">[9]</xref>&#x000a0;Law enforcement agencies have widely implemented NIMS principles,&#x000a0;which&#x000a0;demonstrate applicability to certain response types.&#x000a0;However, adoption often occurs after the initial incident phase.<xref ref-type="bibr" rid="article-31687.r10">[10]</xref> NIMS and ICS procedures have also been used to train physicians for in-hospital rapid response, with reported positive outcomes.<xref ref-type="bibr" rid="article-31687.r11">[11]</xref></p>
+        <p>In contrast, during the Boston Marathon Bombing, the incomplete implementation of specific ICS components was associated with operational challenges observed during the response.&#x000a0;(Source:&#x000a0;<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://doi.org/10.5038/1944-0472.16.3.2139">Duggan et al</ext-link>, 2023) Within the US, 2nd- and 3rd-cycle responders, including the transportation sector, have experienced delays and challenges in implementing NIMS. Reported barriers include limited understanding of NIMS applicability, funding constraints, and system complexity.&#x000a0;(Source: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.hsaj.org/articles/13773">Hambridge et al</ext-link>, 2017)</p>
+      </sec>
+      <sec id="article-31687.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Disaster planning is fundamental to effective disaster response and begins well before an event and continues throughout the response phase. Despite the recognized importance of preparedness, the US allocates a relatively small proportion of total health expenditures to prevention programs for public health emergencies, which represent a critical component of disaster preparedness and planning.<xref ref-type="bibr" rid="article-31687.r12">[12]</xref></p>
+        <p>Planning activities intensify when a disaster threat, such as an approaching hurricane, becomes imminent. Initial planning focuses on situational assessment, including anticipated resource requirements, available assets, and the potential scale of the event. Based on this assessment, incident objectives are established to guide the response. These objectives are then translated into an overall plan that defines response tactics and resource allocation strategies.</p>
+        <p>Response planning incorporates both fixed factors, which remain consistent across disaster types, and variable factors that depend on the specific event. These considerations are integrated with additional influences on response operations, including evacuation decisions.&#x000a0;(Source:&#x000a0;<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://doi.org/10.3390/su152416666">Iman et al</ext-link>, 2023) The document is distributed and activated following plan completion. Continuous evaluation and revision occur throughout the response, a process commonly referred to as the planning &#x0201c;P.&#x0201d;</p>
+        <p>Even in the absence of an imminent disaster, proactive planning for potential events remains essential. Long-term planning at the community level begins with the completion of a hazard vulnerability analysis (HVA). The initial step involves identifying specific hazards. Geographic features such as dams, fault lines, and terrain characteristics that may limit access to portions of the service area require assessment. Climatic conditions also warrant consideration, including seasonal variations and weather patterns that may affect Emergency Medical Services (EMS) operations. Additional factors include the local economic environment and community crime statistics.</p>
+        <p>For each identified hazard, planning should account for historical occurrence, potential impacts on vulnerable populations or areas, and the estimated likelihood of occurrence, including pandemics and infectious disease outbreaks. During the COVID-19 pandemic, use of HVAs with targeted mitigation strategies demonstrated effectiveness.<xref ref-type="bibr" rid="article-31687.r13">[13]</xref> Artificial intelligence&#x02013;based platforms have also shown potential utility in conducting HVAs.<xref ref-type="bibr" rid="article-31687.r14">[14]</xref>&#x000a0;The integration of these elements yields a comprehensive community HVA.<xref ref-type="bibr" rid="article-31687.r15">[15]</xref></p>
+        <p>Staff education for disaster events is a critical component of the planning process and is frequently identified as a deficiency in preparedness. Although staff education is not typically incorporated into an HVA, inadequate training may constitute a significant vulnerability within a disaster plan. Effective disaster response depends, in part, on a workforce prepared to operate under austere, rapidly evolving conditions.</p>
+        <p>A 2021 literature review identified insufficient disaster preparedness among the majority of healthcare workers.<xref ref-type="bibr" rid="article-31687.r16">[16]</xref> Assessing staff preparedness, knowledge, and readiness within healthcare settings presents methodological challenges. The Disaster Management Assessment Tool for Health Care Practitioners (DMAT_HCP) has been developed, evaluated, and demonstrated to be a reliable and effective instrument for measuring disaster-related knowledge among healthcare personnel.<xref ref-type="bibr" rid="article-31687.r17">[17]</xref></p>
+        <p>Structured disaster management training programs have been shown to improve disaster response readiness among hospital-based nurses.<xref ref-type="bibr" rid="article-31687.r18">[18]</xref>&#x000a0;Ongoing education in disaster preparedness and response remains essential among personnel most likely to encounter no- or low-notice disaster events, including emergency nurses and EMS clinicians.<xref ref-type="bibr" rid="article-31687.r19">[19]</xref><xref ref-type="bibr" rid="article-31687.r20">[20]</xref> Despite this need, both professional groups are insufficiently prepared for disaster events, according to multiple studies.<xref ref-type="bibr" rid="article-31687.r21">[21]</xref><xref ref-type="bibr" rid="article-31687.r22">[22]</xref>&#x000a0;(Source: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ijdrr.2022.103230">Tas and Cakir</ext-link>, 2022)</p>
+        <p>Emergency operations plans (EOPs) are developed both before and at the onset of disaster events and should reference NIMS while incorporating ICS principles. The EOP outlines the disaster response framework for participating agencies and is designed to remain flexible and scalable in response to incident demands. The plan addresses needs generated by the specific disaster type and requirements arising from response operations. (Source:&#x000a0;<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://doi.org/10.1007/978-3-030-66252-3_2887">Canton</ext-link>, 2022)</p>
+        <p>Phased planning allows the EOP to be adapted to different operational stages. Branching within the plan supports the development of multiple contingency options to address variations in disaster impact. The EOP includes explicit criteria for plan activation and identifies the individual or position authorized to initiate implementation, typically the highest-ranking staff member on duty.</p>
+        <p>The plan defines the command chain and establishes mechanisms for coordination with external agencies. Provisions for the protection of persons and property are included, with specific consideration for vulnerable populations, including children and adults with disabilities. Planning for uninjured children, particularly those separated from caregivers, is also addressed.</p>
+        <p>Resource identification constitutes a core component of the EOP. Personnel, supplies, facilities, equipment, and other assets available within the jurisdiction are specified, along with external resources secured through preexisting agreements, including federal support. Interagency coordination and mutual-aid requirements are formalized through written agreements. Mitigation strategies during the response phase and considerations for recovery operations are incorporated into the plan.</p>
+        <p>Several recurrent deficiencies are observed in EOP development. One of the most frequent errors involves the creation of plans that are excessively detailed or overly lengthy, limiting usability during operations. Consideration of the full spectrum of the community, including vulnerable populations, is often insufficient. Community-wide capabilities are frequently overlooked, with planning efforts focused primarily on trained emergency responders rather than inclusive response assets. Another common deficiency involves reliance on inaccurate or incomplete assessments of hazards, available resources, or organizational competencies.<xref ref-type="bibr" rid="article-31687.r23">[23]</xref></p>
+        <p>The EOP defines the requirements necessary for effective disaster response management. These requirements inform the scope and structure of training and exercise programs needed to achieve preparedness, thereby establishing agency-specific training priorities. Exercises extend this process by validating response plans and procedures while assessing personnel performance and skill levels. Internal exercises and joint drills with partner organizations help identify interoperability training gaps. (Source:&#x000a0;<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.fema.gov/sites/default/files/documents/fema_npd_developing-and-maintaining-emergency_052125.pdf">FEMA</ext-link>, 2025)</p>
+        <p>Identified performance deficiencies may be addressed through targeted training, acquisition or modification of equipment, and revision of procedures or interagency agreements. The EOP functions as a living document and requires periodic revision to address deficiencies identified during real-world responses or exercises attributable to the plan.</p>
+      </sec>
+      <sec id="article-31687.s4">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=31687&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=31687">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/31687/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=31687">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-31687.s5">
+        <title>References</title>
+        <ref id="article-31687.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Brandrud</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Bretthauer</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Bratteb&#x000f8;</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Pedersen</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>H&#x000e5;pnes</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>M&#x000f8;ller</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Bjorge</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Nyen</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Strauman</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Schreiner</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Haldorsen</surname>
+                <given-names>GS</given-names>
+              </name>
+              <name>
+                <surname>Bergli</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Nelson</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Morgan</surname>
+                <given-names>TS</given-names>
+              </name>
+              <name>
+                <surname>Hjortdahl</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Local emergency medical response after a terrorist attack in Norway: a qualitative study.</article-title>
+            <source>BMJ Qual Saf</source>
+            <year>2017</year>
+            <month>Oct</month>
+            <volume>26</volume>
+            <issue>10</issue>
+            <fpage>806</fpage>
+            <page-range>806-816</page-range>
+            <pub-id pub-id-type="pmid">28676492</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31687.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Obaid</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Bailey</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Wheeler</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Meyers</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Medcalf</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <name>
+                <surname>Hansen</surname>
+                <given-names>KF</given-names>
+              </name>
+              <name>
+                <surname>Sanger</surname>
+                <given-names>KK</given-names>
+              </name>
+              <name>
+                <surname>Lowe</surname>
+                <given-names>JJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Utilization of Functional Exercises to Build Regional Emergency Preparedness among Rural Health Organizations in the US.</article-title>
+            <source>Prehosp Disaster Med</source>
+            <year>2017</year>
+            <month>Apr</month>
+            <volume>32</volume>
+            <issue>2</issue>
+            <fpage>224</fpage>
+            <page-range>224-230</page-range>
+            <pub-id pub-id-type="pmid">28134064</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31687.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Remick</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Gross</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Adelgais</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Shah</surname>
+                <given-names>MI</given-names>
+              </name>
+              <name>
+                <surname>Leonard</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>Gausche-Hill</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Resource Document: Coordination of Pediatric Emergency Care in EMS Systems.</article-title>
+            <source>Prehosp Emerg Care</source>
+            <year>2017</year>
+            <season>May-Jun</season>
+            <volume>21</volume>
+            <issue>3</issue>
+            <fpage>399</fpage>
+            <page-range>399-407</page-range>
+            <pub-id pub-id-type="pmid">28059586</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31687.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sporer</surname>
+                <given-names>KA</given-names>
+              </name>
+            </person-group>
+            <article-title>911 Patient Redirection.</article-title>
+            <source>Prehosp Disaster Med</source>
+            <year>2017</year>
+            <month>Dec</month>
+            <volume>32</volume>
+            <issue>6</issue>
+            <fpage>589</fpage>
+            <page-range>589-592</page-range>
+            <pub-id pub-id-type="pmid">29192884</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31687.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mechem</surname>
+                <given-names>CC</given-names>
+              </name>
+              <name>
+                <surname>Laster</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Baldini</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Kohn</surname>
+                <given-names>MD</given-names>
+              </name>
+            </person-group>
+            <article-title>Prehospital Medical Planning for the 2015 Philadelphia Papal Visit.</article-title>
+            <source>Prehosp Emerg Care</source>
+            <year>2016</year>
+            <season>Nov-Dec</season>
+            <volume>20</volume>
+            <issue>6</issue>
+            <fpage>695</fpage>
+            <page-range>695-704</page-range>
+            <pub-id pub-id-type="pmid">27215592</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31687.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ebbeling</surname>
+                <given-names>LG</given-names>
+              </name>
+              <name>
+                <surname>Goralnick</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Bivens</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Femino</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Berube</surname>
+                <given-names>CG</given-names>
+              </name>
+              <name>
+                <surname>Sears</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Sanchez</surname>
+                <given-names>LD</given-names>
+              </name>
+            </person-group>
+            <article-title>A comparison of command center activations versus disaster drills at three institutions from 2013 to 2015.</article-title>
+            <source>Am J Disaster Med</source>
+            <year>2016</year>
+            <season>Winter</season>
+            <volume>11</volume>
+            <issue>1</issue>
+            <fpage>33</fpage>
+            <page-range>33-42</page-range>
+            <pub-id pub-id-type="pmid">27649749</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31687.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lowe</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Hansen</surname>
+                <given-names>KF</given-names>
+              </name>
+              <name>
+                <surname>Sanger</surname>
+                <given-names>KK</given-names>
+              </name>
+              <name>
+                <surname>Obaid</surname>
+                <given-names>JM</given-names>
+              </name>
+            </person-group>
+            <article-title>A 3-year Health Care Coalition Experience in Advancing Hospital Evacuation Preparedness.</article-title>
+            <source>Prehosp Disaster Med</source>
+            <year>2016</year>
+            <month>Dec</month>
+            <volume>31</volume>
+            <issue>6</issue>
+            <fpage>658</fpage>
+            <page-range>658-662</page-range>
+            <pub-id pub-id-type="pmid">27640879</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31687.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cole</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Natal</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Fox</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Cooper</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kennedy</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Connell</surname>
+                <given-names>ND</given-names>
+              </name>
+              <name>
+                <surname>Sugalski</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Kulkarni</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Feravolo</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Lamba</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>A Course on Terror Medicine: Content and Evaluations.</article-title>
+            <source>Prehosp Disaster Med</source>
+            <year>2016</year>
+            <month>Feb</month>
+            <volume>31</volume>
+            <issue>1</issue>
+            <fpage>98</fpage>
+            <page-range>98-101</page-range>
+            <pub-id pub-id-type="pmid">26751384</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31687.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Farcas</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Ko</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Chan</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Malik</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Nono</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Chiampas</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Use of Incident Command System for Disaster Preparedness: A Model for an Emergency Department COVID-19 Response.</article-title>
+            <source>Disaster Med Public Health Prep</source>
+            <year>2021</year>
+            <month>Jun</month>
+            <volume>15</volume>
+            <issue>3</issue>
+            <fpage>e31</fpage>
+            <page-range>e31-e36</page-range>
+            <pub-id pub-id-type="pmid">32576330</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31687.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nichols</surname>
+                <given-names>JK</given-names>
+              </name>
+              <name>
+                <surname>Denham</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Implementation and effectiveness of the National Incident Management System's Incident Command System in law enforcement since 2003.</article-title>
+            <source>J Emerg Manag</source>
+            <year>2021</year>
+            <season>Jul-Aug</season>
+            <volume>19</volume>
+            <issue>4</issue>
+            <fpage>387</fpage>
+            <page-range>387-417</page-range>
+            <pub-id pub-id-type="pmid">34580854</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31687.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bar</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Symonds</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Du Pont</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>South</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Conlon</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Using the National Incident Management System to Prepare Physicians for Rapid Responses: A Pilot Study.</article-title>
+            <source>Disaster Med Public Health Prep</source>
+            <year>2022</year>
+            <month>Sep</month>
+            <day>19</day>
+            <volume>17</volume>
+            <fpage>e226</fpage>
+            <pub-id pub-id-type="pmid">36121031</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31687.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Elkbuli</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Herrera</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Awan</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Elassad</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Striving towards an effective emergency preparedness and disaster management response: Lessons learned and future directions.</article-title>
+            <source>Am J Emerg Med</source>
+            <year>2021</year>
+            <month>Dec</month>
+            <volume>50</volume>
+            <fpage>804</fpage>
+            <page-range>804-805</page-range>
+            <pub-id pub-id-type="pmid">33745772</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31687.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ma</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Zou</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Lai</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Yang</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>The Application of Hazard Vulnerability Analysis in the Prevention and Control of COVID-19 in Medical Institutions.</article-title>
+            <source>Iran J Public Health</source>
+            <year>2021</year>
+            <month>Feb</month>
+            <volume>50</volume>
+            <issue>2</issue>
+            <fpage>271</fpage>
+            <page-range>271-279</page-range>
+            <pub-id pub-id-type="pmid">33747990</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31687.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mehryar</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Yazdanpanah</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Tong</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>AI and climate resilience governance.</article-title>
+            <source>iScience</source>
+            <year>2024</year>
+            <month>Jun</month>
+            <day>21</day>
+            <volume>27</volume>
+            <issue>6</issue>
+            <fpage>109812</fpage>
+            <pub-id pub-id-type="pmid">38784017</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31687.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wong</surname>
+                <given-names>EG</given-names>
+              </name>
+              <name>
+                <surname>Razek</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Luhovy</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Mogilevkina</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Prudnikov</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Klimovitskiy</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Yutovets</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Khwaja</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Deckelbaum</surname>
+                <given-names>DL</given-names>
+              </name>
+            </person-group>
+            <article-title>Preparing for Euro 2012: developing a hazard risk assessment.</article-title>
+            <source>Prehosp Disaster Med</source>
+            <year>2015</year>
+            <month>Apr</month>
+            <volume>30</volume>
+            <issue>2</issue>
+            <fpage>187</fpage>
+            <page-range>187-92</page-range>
+            <pub-id pub-id-type="pmid">25659417</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31687.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Almukhlifi</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Crowfoot</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Wilson</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Hutton</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Emergency healthcare workers' preparedness for disaster management: An integrative review.</article-title>
+            <source>J Clin Nurs</source>
+            <year>2025</year>
+            <month>Dec</month>
+            <volume>34</volume>
+            <issue>12</issue>
+            <fpage>4958</fpage>
+            <page-range>4958-4973</page-range>
+            <pub-id pub-id-type="pmid">34254375</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31687.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Elshami</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Ibrahim</surname>
+                <given-names>MIM</given-names>
+              </name>
+              <name>
+                <surname>Abdel-Rahman</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Rahim</surname>
+                <given-names>HA</given-names>
+              </name>
+              <name>
+                <surname>Mukhalalati</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Developing and evaluating a Disaster Management Assessment Tool for Health Care Practitioners.</article-title>
+            <source>BMC Emerg Med</source>
+            <year>2025</year>
+            <month>Mar</month>
+            <day>06</day>
+            <volume>25</volume>
+            <issue>1</issue>
+            <fpage>41</fpage>
+            <pub-id pub-id-type="pmid">40050754</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31687.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lin</surname>
+                <given-names>CH</given-names>
+              </name>
+              <name>
+                <surname>Tzeng</surname>
+                <given-names>WC</given-names>
+              </name>
+              <name>
+                <surname>Chiang</surname>
+                <given-names>LC</given-names>
+              </name>
+              <name>
+                <surname>Lu</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Chiang</surname>
+                <given-names>SL</given-names>
+              </name>
+            </person-group>
+            <article-title>Effectiveness of a Structured Disaster Management Training Program on Nurses' Disaster Readiness for Response to Emergencies and Disasters: A Randomized Controlled Trial.</article-title>
+            <source>J Nurs Manag</source>
+            <year>2024</year>
+            <volume>2024</volume>
+            <fpage>5551894</fpage>
+            <pub-id pub-id-type="pmid">40224857</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31687.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Denke</surname>
+                <given-names>NJ</given-names>
+              </name>
+            </person-group>
+            <article-title>The Role of Emergency Nurses in Emergency Preparedness and Response.</article-title>
+            <source>J Emerg Nurs</source>
+            <year>2025</year>
+            <month>Jan</month>
+            <volume>51</volume>
+            <issue>1</issue>
+            <fpage>30</fpage>
+            <page-range>30-35</page-range>
+            <pub-id pub-id-type="pmid">39800447</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31687.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ely</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Schwartz</surname>
+                <given-names>DS</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Jura</surname>
+                <given-names>KF</given-names>
+              </name>
+              <name>
+                <surname>Overberger</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Krohmer</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Cornelius</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Role of EMS in Disaster Response - A Position Statement and Resource Document of NAEMSP.</article-title>
+            <source>Prehosp Emerg Care</source>
+            <year>2025</year>
+            <volume>29</volume>
+            <issue>3</issue>
+            <fpage>315</fpage>
+            <page-range>315-321</page-range>
+            <pub-id pub-id-type="pmid">39993012</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31687.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Beyramijam</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Farrokhi</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ebadi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Masoumi</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Khankeh</surname>
+                <given-names>HR</given-names>
+              </name>
+            </person-group>
+            <article-title>Disaster preparedness in emergency medical service agencies: A systematic review.</article-title>
+            <source>J Educ Health Promot</source>
+            <year>2021</year>
+            <volume>10</volume>
+            <fpage>258</fpage>
+            <pub-id pub-id-type="pmid">34485555</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31687.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Stangeland</surname>
+                <given-names>PA</given-names>
+              </name>
+            </person-group>
+            <article-title>Disaster nursing: a retrospective review.</article-title>
+            <source>Crit Care Nurs Clin North Am</source>
+            <year>2010</year>
+            <month>Dec</month>
+            <volume>22</volume>
+            <issue>4</issue>
+            <fpage>421</fpage>
+            <page-range>421-36</page-range>
+            <pub-id pub-id-type="pmid">21095551</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31687.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Herstein</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Schwedhelm</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Vasa</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Biddinger</surname>
+                <given-names>PD</given-names>
+              </name>
+              <name>
+                <surname>Hewlett</surname>
+                <given-names>AL</given-names>
+              </name>
+            </person-group>
+            <article-title>Emergency preparedness: What is the future?</article-title>
+            <source>Antimicrob Steward Healthc Epidemiol</source>
+            <year>2021</year>
+            <volume>1</volume>
+            <issue>1</issue>
+            <fpage>e29</fpage>
+            <pub-id pub-id-type="pmid">36168490</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

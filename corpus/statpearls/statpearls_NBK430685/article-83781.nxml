@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-83781" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Physiology, Cerebral Autoregulation</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Silverman</surname>
+            <given-names>Andrew</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Petersen</surname>
+            <given-names>Nils H.</given-names>
+          </name>
+          <aff>Yale University</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Andrew Silverman declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Nils Petersen declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>15</day>
+          <month>3</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-83781.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Cerebral autoregulation is the ability of the cerebral vasculature to maintain stable blood flow despite changes in blood pressure (or, more accurately, cerebral perfusion pressure).<xref ref-type="bibr" rid="article-83781.r1">[1]</xref> Under normal circumstances, cerebral blood flow is regulated through changes in arteriolar diameter, which, in turn, drive changes in cerebrovascular resistance following the Hagen-Poiseuille equation.<xref ref-type="bibr" rid="article-83781.r2">[2]</xref> Although decades of research have illuminated some underpinning mechanisms, the exact molecular means underlying autoregulation remain elusive. Various processes, including myogenic, neurogenic, endothelial, and metabolic responses, have mediated cerebral vasomotor reactions. See <bold>Figure.</bold>&#x000a0;Physiology of Cerebral Autoregulation.</p>
+        <p>Still, it is essential to differentiate carbon dioxide reactivity and flow-metabolism coupling from cerebral autoregulation.<xref ref-type="bibr" rid="article-83781.r3">[3]</xref> Carbon dioxide reactivity describes vascular reactions in response to changes in the partial pressure of arterial carbon dioxide (PaCO<sub>2</sub>) but does not consider reactions to pressure changes. Flow-metabolism coupling, in comparison, involves regulating cerebral blood flow relative to local cellular demand, for example, as a consequence of neural activation during cognitive tasks. Similar to PaCO<sub>2</sub> reactivity, flow-metabolism coupling, and the neurovascular unit function irrespective of fluctuations in cerebral perfusion pressure.<xref ref-type="bibr" rid="article-83781.r2">[2]</xref></p>
+        <p>With a working definition of autoregulation and an understanding of what it is not, researchers have&#x000a0;developed&#x000a0;technology that now boasts the ability to measure autoregulatory function in real-time, which may lead to fine-tuning long-established guidelines.<xref ref-type="bibr" rid="article-83781.r4">[4]</xref><xref ref-type="bibr" rid="article-83781.r5">[5]</xref>&#x000a0;Updated guidelines may ameliorate clinical and functional outcomes after acute brain injury by individualizing cerebral perfusion pressure targets based on patients' unique hemodynamic physiology.<xref ref-type="bibr" rid="article-83781.r6">[6]</xref></p>
+        <p>Autoregulation&#x000a0;is&#x000a0;assessable&#x000a0;by examining changes in cerebral blood flow, or its surrogates, in response to changes in cerebral perfusion pressure or mean arterial pressure as its surrogate.<xref ref-type="bibr" rid="article-83781.r2">[2]</xref> Individualization of autoregulatory pressure ranges and the developing concept of an optimum mean arterial pressure landscape for the injured brain represent a novel and innovative application of autoregulation neuromonitoring. This topic&#x000a0;is further discussed in the concluding section of this review.</p>
+      </sec>
+      <sec id="article-83781.s2" sec-type="Mechanism">
+        <title>Mechanism</title>
+        <p>
+<bold>Cerebral Blood Flow Regulation and Physiology</bold>
+</p>
+        <p>Cerebral oxygen delivery is a function of brain blood flow and blood oxygen content, whereby cerebral blood flow (CBF) is dependent on cerebral perfusion pressure (CPP) and inversely proportional to cerebrovascular resistance (CVR). Another way to conceptualize blood flow to the brain is via the pressure gradient between the supplying arteries (mean arterial pressure, MAP) and the cerebral venous system, the latter being approximately equivalent to intracranial pressure (ICP).</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>CBF = CPP/CVR = (MAP &#x02013; ICP)/CVR</p>
+          </list-item>
+        </list>
+        <p>Vascular resistance within the brain reflects the smooth muscle tone of the vessels, which is partially influenced by mean arterial pressure (MAP). If CPP increases or decreases, the myogenic reflex results in vasoconstriction or vasodilation, respectively. This assertion is the classical view of pressure-flow autoregulation. If intracranial pressure is stable, CPP is replaceable by MAP. In this manner, changes in brain blood flow can be measured for a range of blood pressures to determine autoregulation.</p>
+        <p>As stated above,&#x000a0;4 mechanisms regulate cerebral blood flow: myogenic, neurogenic, endothelial, and metabolic processes. Each component appears in the figure below.<xref ref-type="bibr" rid="article-83781.r1">[1]</xref>&#x000a0;This section reviews these classical mechanisms, with an important caveat that the interplay and relative contributions of each of these mechanisms are highly complex and poorly understood.</p>
+        <p>
+<bold>Myogenic Tone</bold>
+</p>
+        <p>The myogenic tone is&#x000a0;produced when arteriole and small artery smooth muscle cells contract in response to increased pressure. In contrast, myogenic tone relaxes in response to decreased pressure. Transmural pressure changes, in turn, activate mechanically sensitive ion channels and proteins in the vessel wall, triggering various downstream cascades. For instance, membrane depolarization opens voltage-gated calcium channels, leading to an influx of calcium cations into the smooth muscle cell.<xref ref-type="bibr" rid="article-83781.r7">[7]</xref> Calcium activates myosin light chain kinase (MLCK), which activates myosin by phosphorylation. Phosphorylated MLCK increases actin-myosin interaction, causing muscle cell contraction and vasoconstriction.</p>
+        <p>Smooth muscle cell myogenic regulation is important in cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy (CADASIL). Patients with CADASIL show a degree of smooth muscle cell degeneration in small cerebral arteries. Studies have demonstrated impaired myogenic autoregulatory functioning in animal models and individuals with the genetic condition.<xref ref-type="bibr" rid="article-83781.r8">[8]</xref><xref ref-type="bibr" rid="article-83781.r9">[9]</xref><xref ref-type="bibr" rid="article-83781.r10">[10]</xref> This disease results from a mutation in the NOTCH3 gene and is marked by recurrent ischemic strokes, cognitive impairment, subcortical dementia, mood disturbances like depression and apathy, as well as premature death.<xref ref-type="bibr" rid="article-83781.r11">[11]</xref></p>
+        <p>Lacombe et al provided evidence that transgenic mice expressing a mutant NOTCH3 in vascular smooth muscle cells exhibited impaired cerebral vasoreactivity, including reduced responses to vasodilatory challenges and a shift of the lower limit of autoregulation toward higher pressures.<xref ref-type="bibr" rid="article-83781.r8">[8]</xref> Interestingly, parenchymal arteries exhibit a greater basal tone than pial arteries. This difference may buffer the effects of rapid upstream changes in blood pressure on cerebral perfusion and attenuate the transmission of pulsatile mechanical stress into the brain's microcirculation. Disturbance of this basal tone may exacerbate the stroke burden in patients with CADASIL.</p>
+        <p>
+<bold>Neurogenic Response</bold>
+</p>
+        <p>Neurogenic mediation of cerebral vasoreactivity involves the control of small- and medium-sized vessel diameters. Neurons and other cell types like astrocytes and microglia secrete a variety of neurotransmitters with vasoactive properties. For instance, acetylcholine and nitric oxide are relatively potent vasodilators, while serotonin and neuropeptide Y stimulate vasoconstriction.<xref ref-type="bibr" rid="article-83781.r12">[12]</xref> Through the creative use of infrared video-microscopy of interneurons and adjacent microvessels in rodents, Cauli et al showed that increased depolarizing activity of single cortical interneurons results in precise vasomotor responses in neighboring microvessels.<xref ref-type="bibr" rid="article-83781.r13">[13]</xref> They further showed that the perivascular application of vasoactive neuropeptides directly on microvascular receptors could mimic these neuronally induced vasomotor responses.&#x000a0;</p>
+        <p>On a larger scale, these changes in blood flow in response to neuronal activation are observable as the blood oxygen level-dependent (BOLD) signal employed in functional magnetic resonance imaging (fMRI). The BOLD response has been adapted in many fMRI studies investigating increased cerebral metabolic demand in cognitive tasks, spatial memory, visual processing, and various disease states. Regarding regional heterogeneity, the anterior circulatory system of the brain possesses denser sympathetic innervation than that of the posterior system. The anterior circulation is controlled mainly by adrenergic sympathetic relays from the superior cervical ganglion as they travel up the carotid arteries. The posterior vessels instead depend on the sympathetic chain via the vertebrobasilar arteries. Autoregulation has also demonstrated greater effectiveness in the brainstem. For example, in severe hypertension in anesthetized cats, cerebral blood flow significantly increases in the anterior circulation, whereas the brainstem only requires modest increases in inflow.<xref ref-type="bibr" rid="article-83781.r14">[14]</xref> This vascular resistance differential points to a likely regional incongruity in cerebral autoregulation.</p>
+        <p>This regional variability may play a key role in developing posterior reversible encephalopathy syndrome (PRES). This syndrome, which parenthetically is not always posterior or even reversible, is otherwise characterized radiologically by transient bilateral subcortical vasogenic edema in the posterior circulation.<xref ref-type="bibr" rid="article-83781.r15">[15]</xref> Among several etiologic theories involving immunologic dysfunction, vasospasm, and blood-brain barrier breakdown,&#x000a0;1 interesting explanation for the edema's apparent posterior predilection is the relative dearth of sympathetic tone in that area, leading to poor autoregulation of blood flow in the setting of abrupt hypertensive episodes.</p>
+        <p>
+<bold>Metabolic Mechanism</bold>
+</p>
+        <p>The metabolic mechanism subserving autoregulation occurs in smaller vessels subject to changes in the local environment. Most notably, carbon dioxide overtly alters vasomotor responses; every&#x000a0;1 mmHg increase in PaCO<sub>2</sub> corresponds to a roughly 4% increase in cerebral blood flow.<xref ref-type="bibr" rid="article-83781.r16">[16]</xref> The concentration of cerebral carbon dioxide can accumulate and cause vasodilation in this fashion when, for example, hypotension below the lower autoregulatory limit results in tissue hypoperfusion and, thus, anaerobic respiration. The opposite physiology transpires in the setting of hyperperfusion with consequent decreases in PaCO<sub>2</sub> and vasoconstriction.</p>
+        <p>There is a hypothesis that this vasomotor response is regulated by proton concentration in the smooth muscle of cerebral vessels. Proton gradients are regulated by carbonic anhydrase activity, the catalytic activity of which depends on the tight regulation of pH (normally hovering around 7.4 in the human body). Prolonged hypocapnia that generates tissue alkalosis may increase carbonic anhydrase activity.<xref ref-type="bibr" rid="article-83781.r2">[2]</xref> Additionally, decreased oxygen partial pressures can increase cerebral blood flow; however, this effect does not occur unless severe hypoxemia is less than 50 mmHg. Similarly, severe hypoglycemia at levels of less than 2 mmol/L can lead to increases in cerebral blood flow.</p>
+        <p>
+<bold>Endothelial Mechanism</bold>
+</p>
+        <p>Lastly, endothelial tissue begets a gamut of signals that affect vascular tone. The endothelium secretes vasodilators like nitric oxide (NO) and vasoconstrictors like thromboxane A2 and endothelin-1 in a paracrine manner. Further, as an interesting bedside-to-bench endeavor, researchers have looked at the ability of statins to regulate autoregulation. In more detail, statins can upregulate nitric oxide synthase, causing cerebral artery dilation and increased cerebral blood flow.<xref ref-type="bibr" rid="article-83781.r17">[17]</xref><xref ref-type="bibr" rid="article-83781.r18">[18]</xref> This mechanism occurs by inhibiting small G-proteins known as Rho and Rac. Rho negatively regulates endothelial nitric oxide synthase. Statins inhibit Rho GTPase activity via inhibition of a process known as geranylgeranylation, a type of prenylation that ultimately confers nitric oxide synthase upregulation.</p>
+      </sec>
+      <sec id="article-83781.s3" sec-type="Related Testing">
+        <title>Related Testing</title>
+        <p>
+<bold>Methods to Measure Cerebral Autoregulation</bold>
+</p>
+        <p>Assessment of pressure autoregulation has traditionally been through calculating cerebral blood flow at&#x000a0;2 different equilibrium states of arterial blood pressure. These steady states correspond to particular cerebral blood flow values. One pressure measurement could be taken at baseline, and the second measured after manual or pharmacologic manipulation of blood pressure, at which point brain blood flow could get measured again. Because this approach involves stable pressures and flows, it is a static autoregulatory measurement.&#x000a0;</p>
+        <p>The advent of transcranial Doppler (TCD) ultrasound allowed for the visualization of real-time blood-flow velocities (with a temporal resolution of approximately 5 msec), paving the road for dynamic assessments of autoregulation. Dynamic autoregulation refers to short-term, fast blood flow responses to changes in systemic pressure. As TCD cannot measure flow directly, the blood flow velocity is useful as a surrogate. Pressure changes are inducible using stimuli such as body tilt, thigh-cuff release, or lower body negative pressure.<xref ref-type="bibr" rid="article-83781.r2">[2]</xref>&#x000a0;</p>
+        <p>While controlling the exact timing and magnitude of the hemodynamic stimulus provides a precision advantage, pressure manipulations in critically ill patients are potentially harmful. For example, a thigh-cuff inflation-deflation sequence may incite a precipitous pressure drop of 25 to 35 mmHg. In a patient with an ischemic stroke, this drop could cause secondary brain injury from significant hypoperfusion, particularly in a setting where there is autoregulatory physiology compromise in the first place.</p>
+        <p>Alternatively, one may&#x000a0;isolate intracranial vessels without particular blood pressure challenges and measure the CBF response to spontaneous arterial blood pressure fluctuations. This approach renders dynamic assessments of cerebral autoregulation safe and feasible for patients with acute brain injury. The dynamic response is likely to occur within 10&#x000a0;to 15 seconds, suggesting that arterioles can counter slower fluctuations in systemic blood pressure. Faster changes, such as those greater than 0.5 Hz, are not compensated &#x02013; for example, those occurring with each cardiac systole. This selective compensation is referred to as the high-pass filter principle. The cerebrovascular system buffers against slow hemodynamic oscillations (0.01 to 0.4 Hz), while higher frequencies may pass unfiltered to the brain's circulation.<xref ref-type="bibr" rid="article-83781.r6">[6]</xref></p>
+        <p>In addition to blood flow velocity, other intracranial signals are frequently helpful in dynamic vasoregulatory investigation. Examples include near-infrared spectroscopy (NIRS), local brain tissue oxygenation (PbtO<sub>2</sub>), and ICP monitoring from cerebrospinal fluid draining systems. The fundamental principle of these dynamic measurements is the same across methodologies &#x02013; the input signal is blood pressure or volume change. The resulting change in the intracranial compartment acts as the output signal. Using spontaneous fluctuations of blood pressure and cerebral blood flow, researchers have devised several mathematical methods for modeling autoregulatory indices. This brief review focuses on transfer function analysis and the time-correlation approach, with subsequent nods to wavelet analysis and projection pursuit regression.</p>
+        <p>
+<bold>Transfer Function Analysis</bold>
+</p>
+        <p>Transfer function analysis (TFA) is based on linear, stationary modeling and a fast Fourier transform algorithm to compute spectral estimates of blood pressure and cerebral blood flow. When properly functioning, autoregulation attenuates the influence of blood pressure on brain blood flow velocity by preventing direct propagation of the pressure waveform at lower frequencies (usually under 0.2 Hz). Two key parameters &#x02013; gain and phase shift &#x02013; can be derived from TFA at each frequency. The gain reflects the compression of brain blood flow velocity amplitude changes in response to blood pressure. For example, a gain of 0.65 denotes that 65% of the relative amplitude of cerebral blood flow velocity gets attenuated with regard to a unit of change in arterial blood pressure. Phase shift quantifies the time lag between blood pressure and brain flow velocity at a given frequency and is represented in degrees or radians. Larger phase shifts between the&#x000a0;2 signals mean autoregulation properly buffers the cerebrovascular tree from blood pressure changes.</p>
+        <p>TFA can only rationalize linear relationships between arterial blood pressure and mean flow velocity, so coherence usually accompanies TFA to test the linearity between the&#x000a0;2 waveforms. Generally, a coherence above 0.5 is considered acceptable for TFA. Regarding frequency bands, values for gain, phase-shift, and coherence are reported in&#x000a0;3 bins: very low (0.02&#x000a0;to 0.07 Hz), low (0.07&#x000a0;to 0.2 Hz), and high (0.2&#x000a0;to 0.5 Hz) ranges.<xref ref-type="bibr" rid="article-83781.r19">[19]</xref> The high-pass filter principle of autoregulation translates to reductions&#x000a0;of coherence and gain with increases in phase shift. These modulations result in the relative desynchronization between blood pressure and cerebral blood flow oscillations. Additionally, autoregulation is most likely to function at lower frequencies because vasomotor adaptation is slow and requires roughly 10 to 15 seconds.<xref ref-type="bibr" rid="article-83781.r6">[6]</xref></p>
+        <p>
+<bold>Time Domain Analysis</bold>
+</p>
+        <p>This method measures the degree of correlation between blood pressure and various cerebral output signals. A rolling Pearson correlation coefficient is calculated between&#x000a0;30 consecutive, time-averaged (10 sec) values of arterial blood pressure and cerebral blood flow (or its surrogates). The resulting coefficient provides an estimate of the autoregulatory function of each variable. The mean cerebral blood flow velocity coefficient is Mx, while the tissue oxygenation index (TOx) derives from NIRS.</p>
+        <p>There are over 20 cerebral autoregulation indices, which have apparent pros and cons for autoregulation research. Perhaps the most rigorously studied index is the pressure reactivity index (PRx), which derives from ICP instead of cerebral blood flow velocity or tissue oxygenation.<xref ref-type="bibr" rid="article-83781.r2">[2]</xref> Cerebral perfusion pressure (CPP = MAP &#x02013; ICP) may also be substituted for arterial blood pressure. Each index enlists a unique threshold for impaired autoregulation, with a range of 0.069 to 0.46, depending on devices used to measure cerebral blood flow or its surrogate.<xref ref-type="bibr" rid="article-83781.r3">[3]</xref>&#x000a0;In all cases, a positive correlation coefficient reflects synchrony between the&#x000a0;2 signals, suggesting impaired cerebral autoregulation,&#x000a0;whereby systemic pressures passively propagate to the cerebral vasculature. Meanwhile, a negative or near-zero coefficient implies active buffering of the cerebral vasculature against blood pressure changes and, thus, intact autoregulatory physiology.</p>
+        <p>
+<bold>Wavelet Analysis</bold>
+</p>
+        <p>This approach, also known as multimodal pressure-flow analysis, represents an alternative to classical spectral analyses, such as fast Fourier transform, and considers both the time and frequency content of the signal. The wavelet analysis produces maps of phase shift and coherence between blood pressure and cerebral blood flow velocity over various frequencies and time points. Enforcing a minimal coherence threshold and focusing the analysis on&#x000a0;areas in the time-frequency map with a high degree of correlation increases&#x000a0;the reliability of the phase shift estimation. Signal decomposition with wavelet analysis was also applied to tissue oxygenation using NIRS.<xref ref-type="bibr" rid="article-83781.r20">[20]</xref></p>
+        <p>
+<bold>Projection Pursuit Regression</bold>
+</p>
+        <p>Projection pursuit regression (PPR) is a non-parametric&#x000a0;method wherein a model is not specified <italic toggle="yes">a priori</italic> but derives directly from the variables of interest (ie, arterial pressure and cerebral blood flow). The analysis modifies a linear transfer function between input (blood pressure) and output (brain blood flow). A linear autoregressive transfer function gets passed through kernel functions, also known as ridge functions, determined by minimizing the mean squared error.<xref ref-type="bibr" rid="article-83781.r21">[21]</xref>&#x000a0;The method characterizes&#x000a0;the non-linear relationship between pressure and flow and identifies&#x000a0;regions wherein this relation changes. The gain (ie, the slope) of the pressure-flow relation within each region provides a measure of the effectiveness of autoregulation within that region.</p>
+        <p>A 2016 study by Santos et al used PPR to show that patients suffering from delayed cerebral ischemia (DCI) after subarachnoid hemorrhage had distinctive hemodynamic profiles concerning those not suffering from DCI.<xref ref-type="bibr" rid="article-83781.r22">[22]</xref> The authors then invoked previously found pharmacologic effects on PPR-derived autoregulation parameters. After combining their results with those parameters, the research team argued that myogenic dysfunction leads to vasospasm, sympathetic overaction, and cholinergic dysfunction leads to DCI, while deficits in all&#x000a0;3 pathophysiologic mechanisms beget both vasospasm and DCI.</p>
+        <p>In the last&#x000a0;2 decades, these autoregulatory indices have also generated optimum cerebral perfusion pressures and ideal pressure ranges based on autoregulation's lower and upper limits. Steiner et al published a landmark study in 2002 using continuous autoregulation monitoring to identify optimal cerebral perfusion pressure in patients with traumatic brain injury.<xref ref-type="bibr" rid="article-83781.r23">[23]</xref> This optimal pressure is calculated by plotting cerebral autoregulation indices against a range of blood pressures over 4-hour monitoring periods and fitting a U-shaped curve to the data to identify the blood pressure range at which autoregulation is most preserved. The hypothesis surrounding this window of cerebral perfusion pressures is that brain arterioles can maintain a constant cerebral blood flow with the largest possible autoregulatory reserve at those pressures. At an individual level in the critical care setting, a continuous estimation of an ideal cerebral perfusion pressure presents an attractive target for hemodynamic management.</p>
+      </sec>
+      <sec id="article-83781.s4" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>
+<bold>Applications of Autoregulation Neuromonitoring</bold>
+</p>
+        <p>Numerous studies in recent years have demonstrated that large differences between actual mean arterial pressure and an optimal, calculated mean arterial pressure (based on autoregulatory status) are associated with poor outcomes. These papers encompass traumatic brain injury, intracerebral hemorrhage, subarachnoid hemorrhage, ischemic stroke, adults undergoing cardiac bypass surgery, children with moyamoya vasculopathy, and neonates with hypoxic-ischemic encephalopathy.<xref ref-type="bibr" rid="article-83781.r3">[3]</xref><xref ref-type="bibr" rid="article-83781.r4">[4]</xref></p>
+        <p>Nevertheless, blood pressure management guidelines persistently recommend a single, fixed target value for many critically ill patients. For example, the American Heart Association endorses a systolic blood pressure of less than 140 mmHg after intracerebral hemorrhage; they also suggest systolic pressures under 160 mmHg before aneurysm obliteration and less than 140 mmHg after clipping or coiling of the aneurysm following subarachnoid hemorrhage. The same society recommends systolic readings of less than 180 mmHg after intravenous recombinant tissue plasminogen activator for large-vessel occlusion ischemic stroke. These guidelines, however, do not currently consider autoregulation-guided hemodynamic management of critically ill patients. In this omission, many questions in the field of neuromonitoring are left unanswered.<xref ref-type="bibr" rid="article-83781.r3">[3]</xref><xref ref-type="bibr" rid="article-83781.r6">[6]</xref> For instance, is it feasible to effectively personalize MAP targets based on an individual&#x02019;s dynamic autoregulatory composition? Might this method be clinically beneficial?</p>
+        <p>Notwithstanding such unanswered questions, the science of autoregulation has come a long way since 1959, when Dr. Niels Lassen published the first consolidated review on cerebral autoregulation.<xref ref-type="bibr" rid="article-83781.r24">[24]</xref> Speaking perhaps to the incremental yet potentially groundbreaking nature of the scientific investigation, Lassen concludes his review with the following remarks: &#x0201c;These major findings and the wealth of additional observations have substantially increased our understanding of this important area of human physiology. Undoubtedly, our knowledge is still incomplete at various points. However, a solid foundation for relevant physiological thinking and future studies has been established.&#x0201d; It is over 60 years later, and autoregulation research is at the precipice of tangibly translatable use at the bedside, as clinical trials of autoregulation-guided therapy are underway across Europe (NCT02982122).</p>
+        <p>With an individualized, optimal cerebral perfusion pressure range in mind, researchers have carried out many observational studies in both adult and pediatric settings to personalize hemodynamic care. These studies now stand on the shoulders of Lassen&#x02019;s autoregulatory curve, just now seeing eye-to-eye with society-endorsed guidelines that recommend impersonal, imprecise hemodynamic management of patients with cerebrovascular disease. Nonetheless, randomized controlled trials are lacking. Furthermore, the specialized equipment to monitor and determine optimal pressures is expensive and demanding, not universally available, and requires moderate training and interpretation abilities. ICM+ software licenses (University of Cambridge, UK) are required to perform this work, so data regarding effectiveness in randomized trials are needed before the widespread distribution of licenses becomes a reality.</p>
+      </sec>
+      <sec id="article-83781.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=83781&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=83781">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/83781/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=83781">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-83781.s6">
+        <fig id="article-83781.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Physiology of Cerebral Autoregulation. This illustration shows the four classical mechanisms contributing to cerebral autoregulation. Through myogenic tone, transmural pressure influences arterial diameter through direct smooth muscle contraction or relaxation. In the metabolic mechanism, fluctuations in the partial pressure of carbon dioxide lead to vasoconstriction or dilatation. The endothelium also plays a key role in the secretion of substances like endothelin-1 and thromboxane A2; these molecules may act directly on smooth muscle cells. In the neurogenic response, neurons and glia mediate smooth muscle physiology by releasing various neurotransmitters with vasoactive properties. Contributed&#x000a0;by A Silverman,&#x000a0;MD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Physiology__of__cerebral__autoregulation_Figure1" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-83781.s7">
+        <title>References</title>
+        <ref id="article-83781.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Paulson</surname>
+                <given-names>OB</given-names>
+              </name>
+              <name>
+                <surname>Strandgaard</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Edvinsson</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Cerebral autoregulation.</article-title>
+            <source>Cerebrovasc Brain Metab Rev</source>
+            <year>1990</year>
+            <season>Summer</season>
+            <volume>2</volume>
+            <issue>2</issue>
+            <fpage>161</fpage>
+            <page-range>161-92</page-range>
+            <pub-id pub-id-type="pmid">2201348</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Budohoski</surname>
+                <given-names>KP</given-names>
+              </name>
+              <name>
+                <surname>Czosnyka</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kirkpatrick</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name>
+                <surname>Smielewski</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Steiner</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Pickard</surname>
+                <given-names>JD</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical relevance of cerebral autoregulation following subarachnoid haemorrhage.</article-title>
+            <source>Nat Rev Neurol</source>
+            <year>2013</year>
+            <month>Mar</month>
+            <volume>9</volume>
+            <issue>3</issue>
+            <fpage>152</fpage>
+            <page-range>152-63</page-range>
+            <pub-id pub-id-type="pmid">23419369</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rivera-Lara</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Zorrilla-Vaca</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Geocadin</surname>
+                <given-names>RG</given-names>
+              </name>
+              <name>
+                <surname>Healy</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Ziai</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Mirski</surname>
+                <given-names>MA</given-names>
+              </name>
+            </person-group>
+            <article-title>Cerebral Autoregulation-oriented Therapy at the Bedside: A Comprehensive Review.</article-title>
+            <source>Anesthesiology</source>
+            <year>2017</year>
+            <month>Jun</month>
+            <volume>126</volume>
+            <issue>6</issue>
+            <fpage>1187</fpage>
+            <page-range>1187-1199</page-range>
+            <pub-id pub-id-type="pmid">28383324</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Petersen</surname>
+                <given-names>NH</given-names>
+              </name>
+              <name>
+                <surname>Silverman</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Strander</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Kodali</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Matouk</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Sheth</surname>
+                <given-names>KN</given-names>
+              </name>
+            </person-group>
+            <article-title>Association of Personalized Blood Pressure Targets With Hemorrhagic Transformation and Functional Outcome After Endovascular Stroke Therapy.</article-title>
+            <source>JAMA Neurol</source>
+            <year>2019</year>
+            <month>Oct</month>
+            <day>01</day>
+            <volume>76</volume>
+            <issue>10</issue>
+            <fpage>1256</fpage>
+            <page-range>1256-1258</page-range>
+            <pub-id pub-id-type="pmid">31355872</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Silverman</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kodali</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Strander</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Gilmore</surname>
+                <given-names>EJ</given-names>
+              </name>
+              <name>
+                <surname>Kimmel</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Cord</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Falcone</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Hebert</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Matouk</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Sheth</surname>
+                <given-names>KN</given-names>
+              </name>
+              <name>
+                <surname>Petersen</surname>
+                <given-names>NH</given-names>
+              </name>
+            </person-group>
+            <article-title>Deviation From Personalized Blood Pressure Targets Is Associated With Worse Outcome After Subarachnoid Hemorrhage.</article-title>
+            <source>Stroke</source>
+            <year>2019</year>
+            <month>Oct</month>
+            <volume>50</volume>
+            <issue>10</issue>
+            <fpage>2729</fpage>
+            <page-range>2729-2737</page-range>
+            <pub-id pub-id-type="pmid">31495332</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wang</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Ortega-Gutierrez</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Petersen</surname>
+                <given-names>NH</given-names>
+              </name>
+            </person-group>
+            <article-title>Autoregulation in the Neuro ICU.</article-title>
+            <source>Curr Treat Options Neurol</source>
+            <year>2018</year>
+            <month>May</month>
+            <day>17</day>
+            <volume>20</volume>
+            <issue>6</issue>
+            <fpage>20</fpage>
+            <pub-id pub-id-type="pmid">29770889</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Knot</surname>
+                <given-names>HJ</given-names>
+              </name>
+              <name>
+                <surname>Nelson</surname>
+                <given-names>MT</given-names>
+              </name>
+            </person-group>
+            <article-title>Regulation of arterial diameter and wall [Ca2+] in cerebral arteries of rat by membrane potential and intravascular pressure.</article-title>
+            <source>J Physiol</source>
+            <year>1998</year>
+            <month>Apr</month>
+            <day>01</day>
+            <volume>508 ( Pt 1)</volume>
+            <issue>Pt 1</issue>
+            <fpage>199</fpage>
+            <page-range>199-209</page-range>
+            <pub-id pub-id-type="pmid">9490839</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lacombe</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Oligo</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Domenga</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Tournier-Lasserve</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Joutel</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Impaired cerebral vasoreactivity in a transgenic mouse model of cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy arteriopathy.</article-title>
+            <source>Stroke</source>
+            <year>2005</year>
+            <month>May</month>
+            <volume>36</volume>
+            <issue>5</issue>
+            <fpage>1053</fpage>
+            <page-range>1053-8</page-range>
+            <pub-id pub-id-type="pmid">15817893</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Joutel</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Monet-Lepr&#x000ea;tre</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gosele</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Baron-Menguy</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Hammes</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Schmidt</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lemaire-Carrette</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Domenga</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Schedl</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Lacombe</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Hubner</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Cerebrovascular dysfunction and microcirculation rarefaction precede white matter lesions in a mouse genetic model of cerebral ischemic small vessel disease.</article-title>
+            <source>J Clin Invest</source>
+            <year>2010</year>
+            <month>Feb</month>
+            <volume>120</volume>
+            <issue>2</issue>
+            <fpage>433</fpage>
+            <page-range>433-45</page-range>
+            <pub-id pub-id-type="pmid">20071773</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pfefferkorn</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>von Stuckrad-Barre</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Herzog</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Gasser</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Hamann</surname>
+                <given-names>GF</given-names>
+              </name>
+              <name>
+                <surname>Dichgans</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Reduced cerebrovascular CO(2) reactivity in CADASIL: A transcranial Doppler sonography study.</article-title>
+            <source>Stroke</source>
+            <year>2001</year>
+            <month>Jan</month>
+            <volume>32</volume>
+            <issue>1</issue>
+            <fpage>17</fpage>
+            <page-range>17-21</page-range>
+            <pub-id pub-id-type="pmid">11136908</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chabriat</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Joutel</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Dichgans</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Tournier-Lasserve</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Bousser</surname>
+                <given-names>MG</given-names>
+              </name>
+            </person-group>
+            <article-title>Cadasil.</article-title>
+            <source>Lancet Neurol</source>
+            <year>2009</year>
+            <month>Jul</month>
+            <volume>8</volume>
+            <issue>7</issue>
+            <fpage>643</fpage>
+            <page-range>643-53</page-range>
+            <pub-id pub-id-type="pmid">19539236</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hamel</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Perivascular nerves and the regulation of cerebrovascular tone.</article-title>
+            <source>J Appl Physiol (1985)</source>
+            <year>2006</year>
+            <month>Mar</month>
+            <volume>100</volume>
+            <issue>3</issue>
+            <fpage>1059</fpage>
+            <page-range>1059-64</page-range>
+            <pub-id pub-id-type="pmid">16467392</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cauli</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Tong</surname>
+                <given-names>XK</given-names>
+              </name>
+              <name>
+                <surname>Rancillac</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Serluca</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Lambolez</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Rossier</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Hamel</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Cortical GABA interneurons in neurovascular coupling: relays for subcortical vasoactive pathways.</article-title>
+            <source>J Neurosci</source>
+            <year>2004</year>
+            <month>Oct</month>
+            <day>13</day>
+            <volume>24</volume>
+            <issue>41</issue>
+            <fpage>8940</fpage>
+            <page-range>8940-9</page-range>
+            <pub-id pub-id-type="pmid">15483113</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Faraci</surname>
+                <given-names>FM</given-names>
+              </name>
+              <name>
+                <surname>Mayhan</surname>
+                <given-names>WG</given-names>
+              </name>
+              <name>
+                <surname>Heistad</surname>
+                <given-names>DD</given-names>
+              </name>
+            </person-group>
+            <article-title>Segmental vascular responses to acute hypertension in cerebrum and brain stem.</article-title>
+            <source>Am J Physiol</source>
+            <year>1987</year>
+            <month>Apr</month>
+            <volume>252</volume>
+            <issue>4 Pt 2</issue>
+            <fpage>H738</fpage>
+            <page-range>H738-42</page-range>
+            <pub-id pub-id-type="pmid">3565591</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tetsuka</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Ogawa</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Posterior reversible encephalopathy syndrome: A review with emphasis on neuroimaging characteristics.</article-title>
+            <source>J Neurol Sci</source>
+            <year>2019</year>
+            <month>Sep</month>
+            <day>15</day>
+            <volume>404</volume>
+            <fpage>72</fpage>
+            <page-range>72-79</page-range>
+            <pub-id pub-id-type="pmid">31349066</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yoshihara</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Bandoh</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Marmarou</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Cerebrovascular carbon dioxide reactivity assessed by intracranial pressure dynamics in severely head injured patients.</article-title>
+            <source>J Neurosurg</source>
+            <year>1995</year>
+            <month>Mar</month>
+            <volume>82</volume>
+            <issue>3</issue>
+            <fpage>386</fpage>
+            <page-range>386-93</page-range>
+            <pub-id pub-id-type="pmid">7861215</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Endres</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Laufs</surname>
+                <given-names>U</given-names>
+              </name>
+            </person-group>
+            <article-title>Effects of statins on endothelium and signaling mechanisms.</article-title>
+            <source>Stroke</source>
+            <year>2004</year>
+            <month>Nov</month>
+            <volume>35</volume>
+            <issue>11 Suppl 1</issue>
+            <fpage>2708</fpage>
+            <page-range>2708-11</page-range>
+            <pub-id pub-id-type="pmid">15375300</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Czosnyka</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Brady</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Reinhard</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Smielewski</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Steiner</surname>
+                <given-names>LA</given-names>
+              </name>
+            </person-group>
+            <article-title>Monitoring of cerebrovascular autoregulation: facts, myths, and missing links.</article-title>
+            <source>Neurocrit Care</source>
+            <year>2009</year>
+            <volume>10</volume>
+            <issue>3</issue>
+            <fpage>373</fpage>
+            <page-range>373-86</page-range>
+            <pub-id pub-id-type="pmid">19127448</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Claassen</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Meel-van den Abeelen</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Simpson</surname>
+                <given-names>DM</given-names>
+              </name>
+              <name>
+                <surname>Panerai</surname>
+                <given-names>RB</given-names>
+              </name>
+              <collab>international Cerebral Autoregulation Research Network (CARNet)</collab>
+            </person-group>
+            <article-title>Transfer function analysis of dynamic cerebral autoregulation: A white paper from the International Cerebral Autoregulation Research Network.</article-title>
+            <source>J Cereb Blood Flow Metab</source>
+            <year>2016</year>
+            <month>Apr</month>
+            <volume>36</volume>
+            <issue>4</issue>
+            <fpage>665</fpage>
+            <page-range>665-80</page-range>
+            <pub-id pub-id-type="pmid">26782760</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tian</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Tarumi</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Chalak</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Wavelet coherence analysis of dynamic cerebral autoregulation in neonatal hypoxic-ischemic encephalopathy.</article-title>
+            <source>Neuroimage Clin</source>
+            <year>2016</year>
+            <volume>11</volume>
+            <fpage>124</fpage>
+            <page-range>124-132</page-range>
+            <pub-id pub-id-type="pmid">26937380</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tan</surname>
+                <given-names>CO</given-names>
+              </name>
+            </person-group>
+            <article-title>Defining the characteristic relationship between arterial pressure and cerebral flow.</article-title>
+            <source>J Appl Physiol (1985)</source>
+            <year>2012</year>
+            <month>Oct</month>
+            <day>15</day>
+            <volume>113</volume>
+            <issue>8</issue>
+            <fpage>1194</fpage>
+            <page-range>1194-200</page-range>
+            <pub-id pub-id-type="pmid">22961266</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Santos</surname>
+                <given-names>GA</given-names>
+              </name>
+              <name>
+                <surname>Petersen</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Zamani</surname>
+                <given-names>AA</given-names>
+              </name>
+              <name>
+                <surname>Du</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>LaRose</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Monk</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Sorond</surname>
+                <given-names>FA</given-names>
+              </name>
+              <name>
+                <surname>Tan</surname>
+                <given-names>CO</given-names>
+              </name>
+            </person-group>
+            <article-title>Pathophysiologic differences in cerebral autoregulation after subarachnoid hemorrhage.</article-title>
+            <source>Neurology</source>
+            <year>2016</year>
+            <month>May</month>
+            <day>24</day>
+            <volume>86</volume>
+            <issue>21</issue>
+            <fpage>1950</fpage>
+            <page-range>1950-6</page-range>
+            <pub-id pub-id-type="pmid">27164675</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Steiner</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Czosnyka</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Piechnik</surname>
+                <given-names>SK</given-names>
+              </name>
+              <name>
+                <surname>Smielewski</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Chatfield</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Menon</surname>
+                <given-names>DK</given-names>
+              </name>
+              <name>
+                <surname>Pickard</surname>
+                <given-names>JD</given-names>
+              </name>
+            </person-group>
+            <article-title>Continuous monitoring of cerebrovascular pressure reactivity allows determination of optimal cerebral perfusion pressure in patients with traumatic brain injury.</article-title>
+            <source>Crit Care Med</source>
+            <year>2002</year>
+            <month>Apr</month>
+            <volume>30</volume>
+            <issue>4</issue>
+            <fpage>733</fpage>
+            <page-range>733-8</page-range>
+            <pub-id pub-id-type="pmid">11940737</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83781.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>LASSEN</surname>
+                <given-names>NA</given-names>
+              </name>
+            </person-group>
+            <article-title>Cerebral blood flow and oxygen consumption in man.</article-title>
+            <source>Physiol Rev</source>
+            <year>1959</year>
+            <month>Apr</month>
+            <volume>39</volume>
+            <issue>2</issue>
+            <fpage>183</fpage>
+            <page-range>183-238</page-range>
+            <pub-id pub-id-type="pmid">13645234</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

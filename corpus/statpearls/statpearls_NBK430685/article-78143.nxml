@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-78143" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Extracorporeal Membrane Oxygenation Simulation</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Bhakta</surname>
+            <given-names>Rupal T.</given-names>
+          </name>
+          <aff>University of Arkansas</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Alshuqayfi </surname>
+            <given-names>Amal A.</given-names>
+          </name>
+          <aff>Imam Abdlrahman bin Faisal University</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Rupal Bhakta declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Amal Alshuqayfi declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>26</day>
+          <month>11</month>
+          <year>2022</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-78143.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>The medical profession has an established history of team-based approaches to managing the varying complexities of patients. Effective communication between team members has been recognized as a critical factor in safer healthcare delivery.<xref ref-type="bibr" rid="article-78143.r1">[1]</xref>&#x000a0;Multiple studies have highlighted the role of simulation-based training in healthcare settings that need rapid assessment, implementation of protocols, and efficient medical care delivery.<xref ref-type="bibr" rid="article-78143.r2">[2]</xref>&#x000a0;In medical simulation training, high-fidelity mannequins have also evolved. They can now provide physiologic feedback and have computer-generated programming to offer the appropriate pathologic findings and intervention responses.<xref ref-type="bibr" rid="article-78143.r3">[3]</xref>&#x000a0;Simulation-based training has been used in various professions and continues to be a teaching method in the medical field. Hospital-based emergencies that require a team-based approach are of interest to simulation professionals. These scenarios are examples of situations that need group input, standardization of algorithms, and effective delivery of the appropriate treatments.<xref ref-type="bibr" rid="article-78143.r4">[4]</xref>&#x000a0;&#x000a0;</p>
+      </sec>
+      <sec id="article-78143.s2" sec-type="Function">
+        <title>Function</title>
+        <p>Patients who have developed or are at risk of cardiorespiratory arrest require a multidisciplinary team to approach their care. Extracorporeal membrane oxygenation (ECMO) has become increasingly common for patients with cardiac failure, respiratory failure, or a combination of both. This development is evidenced by the growing number of centers offering ECMO as a therapy.<xref ref-type="bibr" rid="article-78143.r5">[5]</xref>&#x000a0;In pediatrics, the American Heart Association recommends ECMO as a consideration in patients with refractory cardiac arrest with a potentially reversible etiology.<xref ref-type="bibr" rid="article-78143.r6">[6]</xref>&#x000a0;ECMO is a mechanical method of supporting the cardiorespiratory system. Its use has been heavily described in the pediatric medical world and is now growing in popularity in the adult medical world. ECMO can support cardiac and respiratory support utilizing cannulae placed in large venous and arterial vessels in the body that bypass the blood via a circuit with an oxygenator and a means to remove carbon dioxide. The newly oxygenated blood is circulated to the patient through the arterial cannula. ECMO can also provide respiratory support through a specialized cannula inserted into&#x000a0;1 of the vena cava that can divert venous return through the ECMO circuit, which will be oxygenated and returned through the same cannula in a different lumen towards the patient&#x02019;s right heart. The former method is called veno-arterial ECMO, and the latter is venovenous ECMO.<xref ref-type="bibr" rid="article-78143.r7">[7]</xref><xref ref-type="bibr" rid="article-78143.r8">[8]</xref>&#x000a0;As ECMO is a highly specialized form of life support that requires technical expertise to recognize not only patients that qualify but also surgical expertise to place a patient on ECMO, specialists, critical care physicians, and nurses that are comfortable managing the patient and the circuit upon placing the patient on extracorporeal support.&#x000a0;</p>
+      </sec>
+      <sec id="article-78143.s3" sec-type="Curriculum Development">
+        <title>Curriculum Development</title>
+        <p>When developing a simulation-based curriculum, assessing the staffing that would be present and necessary for the scenario provided is important. In the case of ECMO, one would anticipate that there would be a need for multiple disciplinary teams during each step. At&#x000a0;1 center, the teams that were recognized as essential in developing an ECPR simulation-based curriculum included 1) the ICU team (nurses, respiratory therapists, intensive care physicians, and support staff), 2) a surgical team (cardiovascular or general surgeon, assistants, and nurses), and 3) ECMO team (that consisted of personnel that had specialized in preparing and maintaining the ECMO circuit).<xref ref-type="bibr" rid="article-78143.r9">[9]</xref>&#x000a0;A dedicated investment must be invested in repeatedly participating in this curriculum and accepting real-time feedback. Protocols must exist for the simulation that can easily relate to a real-life scenario. Such protocols may include the development of a checklist to ensure the patient is a proper candidate for ECMO therapy, a list of all the necessary equipment, assigned roles to key team members, and standardization of techniques for the surgical team.&#x000a0;</p>
+      </sec>
+      <sec id="article-78143.s4" sec-type="Procedural Skills Assessment&#x0000d;&#x0000a;">
+        <title>Procedural Skills Assessment
+</title>
+        <p>Methods utilized to assess the effectiveness of a simulation program for ECMO cannulation include but are not limited to pre-. Post-surveys of participants to evaluate their comfort with their role during the simulation, the timing of when to decide to place a patient on ECMO to following successful cannulation, testing, and timing ECMO specialists to prepare a circuit, and conducting chart reviews of ECMO cannulation times in patients before and after implementation of an ECMO simulation curriculum.<xref ref-type="bibr" rid="article-78143.r9">[9]</xref>&#x000a0;One program saw a decrease in medical errors with simulation-based training.<xref ref-type="bibr" rid="article-78143.r10">[10]</xref></p>
+      </sec>
+      <sec id="article-78143.s5" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Medical errors continue to remain a significant cause of death.<xref ref-type="bibr" rid="article-78143.r11">[11]</xref>&#x000a0; Simulation-based training continues to become substantial in healthcare settings, where there are often complex and multidisciplinary approaches to decision-making. Placing a patient on extracorporeal support demands adequate staffing and license, leading to numerous individuals in a room where a profoundly ill patient needs guided and efficient medical care. The placement of patients onto ECMO, whether in a CPR situation or not, can be chaotic and stressful. The significance of developing a curriculum that focuses on organizing a large group of people of various degrees of training to communicate and work together effectively is essential in centers wanting to achieve excellence and efficiency in ECMO. A situation where a patient is unstable enough to require extracorporeal support is a highly stressful environment. Without effective communication and methods developed by simulation training, it could be a situation that would potentiate medical errors. There remains a difference in survival in pediatric and adult patients regarding extracorporeal support. The Extracorporeal Life Support Organization (ELSO) registry states that the survival rate for adults with pulmonary complications on ECMO is 66% and 55% for those with cardiac complications versus in pediatrics, where the survival rates are 67% for pulmonary and 68% for cardiac complications.<xref ref-type="bibr" rid="article-78143.r5">[5]</xref>&#x000a0;With these survival rates, there is always room for improvement regarding resuscitation length, time to ECMO cannulation, and fewer errors in assembling, setting up, and maintaining the ECMO circuit. These potential focuses are addressable with simulation.</p>
+      </sec>
+      <sec id="article-78143.s6" sec-type="Pearls and Other Issues">
+        <title>Pearls and Other Issues</title>
+        <p>Simulation-based training has become an important and necessary field of education within the medical community. The need to use simulation with high-fidelity mannequins has become increasingly crucial in resuscitation training. Complex medical scenarios that require numerous personnel, such as ECMO simulation, can often be perceived as chaotic and loud. Utilizing simulation-based techniques to implement a curriculum can help streamline and assign roles in what may otherwise be a messy and physiologically complex situation. The goal would be to achieve a standardized approach to every step of the ECMO cannulation process - recognition of the proper candidates for ECMO therapy, checklists to ensure adequate equipment, a method to efficiently contact each member necessary, continuing resuscitation measures with minimal interruptions up until the patient is officially cannulated and on ECMO, and approaching mechanical issues to the ECMO circuit.&#x000a0;</p>
+      </sec>
+      <sec id="article-78143.s7" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>Simulation-based training is effective in multiple medical environments. With the rise of centers offering ECMO as therapy for patients with cardiac and respiratory failure, it has become increasingly important to standardize our approach to a patient needing this level of support.<xref ref-type="bibr" rid="article-78143.r5">[5]</xref>&#x000a0;There is still room for improvement in the outcomes of patients who require ECMO.<xref ref-type="bibr" rid="article-78143.r5">[5]</xref>&#x000a0;By developing an ECMO simulation curriculum that involves multiple disciplines, coordination between the teams could be improved. Placing a patient on ECMO, whether it is during cardiopulmonary resuscitation or not, can prove to be unorganized and stressful. This is where the simulation's role, with participation from each dedicated discipline, can help each team practice interprofessional communication and coordinate care to the same goal of successfully placing a patient on ECMO. The goals should be the same: to lower medical errors that can often happen in high-stress environments, improve outcomes of patients on ECMO as the time to placement, especially during CPR, could be lessened, and optimize team performance.&#x000a0; Research related to&#x000a0; ECMO simulation has shown improvement in cannulation time, setting up ECMO circuits, and improving the perception of team dynamics.<xref ref-type="bibr" rid="article-78143.r9">[9]</xref><xref ref-type="bibr" rid="article-78143.r12">[12]</xref><xref ref-type="bibr" rid="article-78143.r13">[13]</xref></p>
+      </sec>
+      <sec id="article-78143.s8">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=78143&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=78143">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/78143/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=78143">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-78143.s9">
+        <title>References</title>
+        <ref id="article-78143.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Weaver</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <name>
+                <surname>Dy</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Rosen</surname>
+                <given-names>MA</given-names>
+              </name>
+            </person-group>
+            <article-title>Team-training in healthcare: a narrative synthesis of the literature.</article-title>
+            <source>BMJ Qual Saf</source>
+            <year>2014</year>
+            <month>May</month>
+            <volume>23</volume>
+            <issue>5</issue>
+            <fpage>359</fpage>
+            <page-range>359-72</page-range>
+            <pub-id pub-id-type="pmid">24501181</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-78143.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Armenia</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Thangamathesvaran</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Caine</surname>
+                <given-names>AD</given-names>
+              </name>
+              <name>
+                <surname>King</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Kunac</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Merchant</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>The Role of High-Fidelity Team-Based Simulation in Acute Care Settings: A Systematic Review.</article-title>
+            <source>Surg J (N Y)</source>
+            <year>2018</year>
+            <month>Jul</month>
+            <volume>4</volume>
+            <issue>3</issue>
+            <fpage>e136</fpage>
+            <page-range>e136-e151</page-range>
+            <pub-id pub-id-type="pmid">30109273</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-78143.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cant</surname>
+                <given-names>RP</given-names>
+              </name>
+              <name>
+                <surname>Cooper</surname>
+                <given-names>SJ</given-names>
+              </name>
+            </person-group>
+            <article-title>The value of simulation-based learning in pre-licensure nurse education: A state-of-the-art review and meta-analysis.</article-title>
+            <source>Nurse Educ Pract</source>
+            <year>2017</year>
+            <month>Nov</month>
+            <volume>27</volume>
+            <fpage>45</fpage>
+            <page-range>45-62</page-range>
+            <pub-id pub-id-type="pmid">28843948</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-78143.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Murphy</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Curtis</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>McCloughen</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>What is the impact of multidisciplinary team simulation training on team performance and efficiency of patient care? An integrative review.</article-title>
+            <source>Australas Emerg Nurs J</source>
+            <year>2016</year>
+            <month>Feb</month>
+            <volume>19</volume>
+            <issue>1</issue>
+            <fpage>44</fpage>
+            <page-range>44-53</page-range>
+            <pub-id pub-id-type="pmid">26614537</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-78143.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Thiagarajan</surname>
+                <given-names>RR</given-names>
+              </name>
+              <name>
+                <surname>Barbaro</surname>
+                <given-names>RP</given-names>
+              </name>
+              <name>
+                <surname>Rycus</surname>
+                <given-names>PT</given-names>
+              </name>
+              <name>
+                <surname>Mcmullan</surname>
+                <given-names>DM</given-names>
+              </name>
+              <name>
+                <surname>Conrad</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Fortenberry</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Paden</surname>
+                <given-names>ML</given-names>
+              </name>
+              <collab>ELSO member centers</collab>
+            </person-group>
+            <article-title>Extracorporeal Life Support Organization Registry International Report 2016.</article-title>
+            <source>ASAIO J</source>
+            <year>2017</year>
+            <season>Jan/Feb</season>
+            <volume>63</volume>
+            <issue>1</issue>
+            <fpage>60</fpage>
+            <page-range>60-67</page-range>
+            <pub-id pub-id-type="pmid">27984321</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-78143.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kleinman</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Chameides</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Schexnayder</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Samson</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Hazinski</surname>
+                <given-names>MF</given-names>
+              </name>
+              <name>
+                <surname>Atkins</surname>
+                <given-names>DL</given-names>
+              </name>
+              <name>
+                <surname>Berg</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>de Caen</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name>
+                <surname>Fink</surname>
+                <given-names>EL</given-names>
+              </name>
+              <name>
+                <surname>Freid</surname>
+                <given-names>EB</given-names>
+              </name>
+              <name>
+                <surname>Hickey</surname>
+                <given-names>RW</given-names>
+              </name>
+              <name>
+                <surname>Marino</surname>
+                <given-names>BS</given-names>
+              </name>
+              <name>
+                <surname>Nadkarni</surname>
+                <given-names>VM</given-names>
+              </name>
+              <name>
+                <surname>Proctor</surname>
+                <given-names>LT</given-names>
+              </name>
+              <name>
+                <surname>Qureshi</surname>
+                <given-names>FA</given-names>
+              </name>
+              <name>
+                <surname>Sartorelli</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Topjian</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>van der Jagt</surname>
+                <given-names>EW</given-names>
+              </name>
+              <name>
+                <surname>Zaritsky</surname>
+                <given-names>AL</given-names>
+              </name>
+            </person-group>
+            <article-title>Part 14: pediatric advanced life support: 2010 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care.</article-title>
+            <source>Circulation</source>
+            <year>2010</year>
+            <month>Nov</month>
+            <day>02</day>
+            <volume>122</volume>
+            <issue>18 Suppl 3</issue>
+            <fpage>S876</fpage>
+            <page-range>S876-908</page-range>
+            <pub-id pub-id-type="pmid">20956230</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-78143.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mosier</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Kelsey</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Raz</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Gunnerson</surname>
+                <given-names>KJ</given-names>
+              </name>
+              <name>
+                <surname>Meyer</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Hypes</surname>
+                <given-names>CD</given-names>
+              </name>
+              <name>
+                <surname>Malo</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Whitmore</surname>
+                <given-names>SP</given-names>
+              </name>
+              <name>
+                <surname>Spaite</surname>
+                <given-names>DW</given-names>
+              </name>
+            </person-group>
+            <article-title>Extracorporeal membrane oxygenation (ECMO) for critically ill adults in the emergency department: history, current applications, and future directions.</article-title>
+            <source>Crit Care</source>
+            <year>2015</year>
+            <month>Dec</month>
+            <day>17</day>
+            <volume>19</volume>
+            <fpage>431</fpage>
+            <pub-id pub-id-type="pmid">26672979</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-78143.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rais-Bahrami</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Van Meurs</surname>
+                <given-names>KP</given-names>
+              </name>
+            </person-group>
+            <article-title>Venoarterial versus venovenous ECMO for neonatal respiratory failure.</article-title>
+            <source>Semin Perinatol</source>
+            <year>2014</year>
+            <month>Mar</month>
+            <volume>38</volume>
+            <issue>2</issue>
+            <fpage>71</fpage>
+            <page-range>71-7</page-range>
+            <pub-id pub-id-type="pmid">24580762</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-78143.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Su</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Spaeder</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Jones</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name>
+                <surname>Sinha</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Nath</surname>
+                <given-names>DS</given-names>
+              </name>
+              <name>
+                <surname>Jain</surname>
+                <given-names>PN</given-names>
+              </name>
+              <name>
+                <surname>Berger</surname>
+                <given-names>JT</given-names>
+              </name>
+              <name>
+                <surname>Williams</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Shankar</surname>
+                <given-names>V</given-names>
+              </name>
+            </person-group>
+            <article-title>Implementation of an extracorporeal cardiopulmonary resuscitation simulation program reduces extracorporeal cardiopulmonary resuscitation times in real patients.</article-title>
+            <source>Pediatr Crit Care Med</source>
+            <year>2014</year>
+            <month>Nov</month>
+            <volume>15</volume>
+            <issue>9</issue>
+            <fpage>856</fpage>
+            <page-range>856-60</page-range>
+            <pub-id pub-id-type="pmid">25162513</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-78143.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pu&#x0015b;lecki</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ligowski</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>D&#x00105;browski</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Stefaniak</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>&#x00141;adzi&#x00144;ska</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>&#x00141;adzi&#x00144;ski</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Pawlak</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Zieli&#x00144;ski</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>D&#x00105;browska</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Arty&#x00144;ska</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Gezela</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Sobczy&#x00144;ski</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Szarpak</surname>
+                <given-names>&#x00141;</given-names>
+              </name>
+              <name>
+                <surname>Perek</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Jemielity</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>BEST Life-"Bringing ECMO Simulation To Life"-How Medical Simulation Improved a Regional ECMO Program.</article-title>
+            <source>Artif Organs</source>
+            <year>2018</year>
+            <month>Nov</month>
+            <volume>42</volume>
+            <issue>11</issue>
+            <fpage>1052</fpage>
+            <page-range>1052-1061</page-range>
+            <pub-id pub-id-type="pmid">30043501</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-78143.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Makary</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Daniel</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Medical error-the third leading cause of death in the US.</article-title>
+            <source>BMJ</source>
+            <year>2016</year>
+            <month>May</month>
+            <day>03</day>
+            <volume>353</volume>
+            <fpage>i2139</fpage>
+            <pub-id pub-id-type="pmid">27143499</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-78143.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Thomas</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Chung</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Holt</surname>
+                <given-names>DW</given-names>
+              </name>
+            </person-group>
+            <article-title>Effects of ECMO Simulations and Protocols on Patient Safety.</article-title>
+            <source>J Extra Corpor Technol</source>
+            <year>2019</year>
+            <month>Mar</month>
+            <volume>51</volume>
+            <issue>1</issue>
+            <fpage>12</fpage>
+            <page-range>12-19</page-range>
+            <pub-id pub-id-type="pmid">30936583</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-78143.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Alsalemi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Tanaka</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Ogino</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Disi</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Alhomsi</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Bensaali</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Amira</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Alinier</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>A skills acquisition study on ECMOjo: a screen-based simulator for extracorporeal membrane oxygenation.</article-title>
+            <source>Perfusion</source>
+            <year>2020</year>
+            <month>Mar</month>
+            <volume>35</volume>
+            <issue>2</issue>
+            <fpage>110</fpage>
+            <page-range>110-116</page-range>
+            <pub-id pub-id-type="pmid">31303136</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

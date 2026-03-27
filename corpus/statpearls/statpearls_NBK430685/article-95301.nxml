@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-95301" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Hypothesis Testing, P Values, Confidence Intervals, and Significance</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Shreffler</surname>
+            <given-names>Jacob</given-names>
+          </name>
+          <aff>University of Louisville School of Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Huecker</surname>
+            <given-names>Martin R.</given-names>
+          </name>
+          <aff>University of Louisville</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Jacob Shreffler declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Martin Huecker declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>13</day>
+          <month>3</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-95301.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Medical providers often rely on evidence-based medicine to guide decision-making in practice. A research hypothesis is often tested with results provided, typically with p values, confidence intervals, or both. Additionally, the investigators estimate or determine the significance of statistical or research. Unfortunately, healthcare providers may have different comfort levels in interpreting these findings, which may affect the adequate application of the data.</p>
+      </sec>
+      <sec id="article-95301.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>Without a foundational understanding of hypothesis testing, p values, confidence intervals, and the difference between statistical and clinical significance, healthcare providers' ability to make clinical decisions without relying purely on the research investigators' deemed level of significance may be affected. Therefore, an overview of these concepts is provided to allow medical professionals to use their expertise to determine if results are reported sufficiently and if the study outcomes are clinically appropriate for healthcare practice.</p>
+        <p>
+<bold>Hypothesis Testing</bold>
+</p>
+        <p>Investigators conducting studies need research questions and hypotheses to guide analyses. Starting with broad research questions (RQs), investigators identify a gap in current clinical practice or research. Any research problem or statement is grounded in a better understanding of the relationships between&#x000a0;2 or more variables. For this topic, we use the following research question example:</p>
+        <p>Research Question: Is Drug 23 an effective treatment for Disease A?</p>
+        <p>Research questions do not directly imply specific guesses or predictions; we must formulate research hypotheses. A hypothesis is a predetermined declaration regarding the research question in which the investigator(s) makes a precise, educated guess about a study outcome. This is sometimes called the alternative hypothesis and ultimately allows the researcher to take a stance based on experience or insight from medical literature. An example of a hypothesis is below.</p>
+        <p>Research Hypothesis: Drug 23 significantly reduces symptoms associated with Disease A compared&#x000a0;to Drug 22.</p>
+        <p>The null hypothesis states no statistical difference between groups based on the stated research hypothesis.</p>
+        <p>Researchers should be aware of journal recommendations when reporting p values, and manuscripts should remain internally consistent.</p>
+        <p>Regarding p values, the likelihood of finding a statistically significant effect increases as the number of individuals enrolled in a study (the sample size) increases. With very large sample sizes, the p-value can be very low, and there are significant differences in reducing symptoms for Disease A between Drug 23 and Drug 22. The null hypothesis is deemed true until a study presents significant data to support rejecting the null hypothesis. Based on the results, the investigators either reject the null hypothesis (if they found significant differences or associations) or fail to reject&#x000a0;the null hypothesis (they could not prove that there were significant differences or associations).</p>
+        <p>To test a hypothesis, researchers obtain data on a representative sample to determine whether to reject or fail to reject a null hypothesis. In most research studies, obtaining data for an entire population is not feasible. Using a sampling procedure allows for statistical inference, though this involves a certain possibility of error.<xref ref-type="bibr" rid="article-95301.r1">[1]</xref>&#x000a0;When determining whether to reject or fail to reject the null hypothesis, mistakes can be made: Type I and Type II errors. Though it is impossible to ensure that these errors have not occurred, researchers should limit the possibilities of these faults.<xref ref-type="bibr" rid="article-95301.r2">[2]</xref></p>
+        <p>
+<bold>Significance</bold>
+</p>
+        <p>Significance is a term used to describe the substantive importance of medical research. Statistical significance is the likelihood of results due to chance.<xref ref-type="bibr" rid="article-95301.r3">[3]</xref>&#x000a0;Healthcare providers should always delineate statistical significance from clinical significance, a common error when reviewing biomedical research.<xref ref-type="bibr" rid="article-95301.r4">[4]</xref>&#x000a0;When conceptualizing findings reported as significant or not significant, healthcare providers should not simply accept researchers' results or conclusions without considering the clinical significance. Healthcare professionals should consider the clinical importance of findings and understand p values and confidence intervals so they do not rely on the researchers to determine the significance level.<xref ref-type="bibr" rid="article-95301.r5">[5]</xref>&#x000a0;One criterion often used to determine statistical significance is using p values.</p>
+        <p>
+<bold>P Values</bold>
+</p>
+        <p>P values are used in research to determine whether the sample estimate significantly differs from a hypothesized value. The p-value is the probability that the observed effect within the study would have occurred by chance if, in reality, there was no true effect. Conventionally, data yielding a&#x000a0;p&#x0003c;0.05 or p&#x0003c;0.01 is considered statistically significant. While some have debated that the 0.05 level should be lowered, it is still universally practiced.<xref ref-type="bibr" rid="article-95301.r6">[6]</xref>&#x000a0;Hypothesis testing allows us to determine the size of the effect.</p>
+        <p>Two&#x000a0;examples of findings reported with p values are below:</p>
+        <list list-type="order">
+          <list-item>
+            <p>Statement: Drug 23 reduced patients' symptoms compared to Drug 22. Patients who received Drug 23 (n=100) were 2.1 times less likely than patients who received Drug 22 (n = 100) to experience symptoms of Disease A, p&#x0003c;0.05.</p>
+          </list-item>
+          <list-item>
+            <p>Statement: Individuals prescribed Drug 23 experienced fewer symptoms (M = 1.3, SD = 0.7) than those prescribed Drug 22 (M = 5.3, SD = 1.9). This finding was statistically significant, p= 0.02.</p>
+          </list-item>
+        </list>
+        <p>For either statement, if the threshold had been set at 0.05, the null hypothesis (that there was no relationship) should be rejected, and we should conclude significant differences. Noticeably, as can be seen in the&#x000a0;2 statements above, some researchers report findings with &#x0003c; or &#x0003e;, and others provide an exact p-value&#x000a0;(0.000001) but never&#x000a0;0<xref ref-type="bibr" rid="article-95301.r6">[6]</xref>. When examining research, readers should understand how p values are reported. The best practice is to report all p values for all variables within a study design rather than only providing p values for variables with significant findings.<xref ref-type="bibr" rid="article-95301.r7">[7]</xref>&#x000a0;Including all p values provides evidence for study validity and limits suspicion for selective reporting/data mining. &#x000a0;</p>
+        <p>While researchers have historically used p values, experts who find p values problematic encourage using confidence intervals.<xref ref-type="bibr" rid="article-95301.r8">[8]</xref>. P-values alone do not allow us to understand the size or the extent of the differences or associations.<xref ref-type="bibr" rid="article-95301.r3">[3]</xref>&#x000a0;In March 2016, the American Statistical Association (ASA) released a statement on p-values, noting that scientific decision-making and conclusions should not be based on a fixed p-value threshold (eg, 0.05). They recommend focusing on the significance of results in the context of study design, quality of measurements, and validity of data. Ultimately, the ASA statement noted that a p-value does not provide strong evidence in isolation.<xref ref-type="bibr" rid="article-95301.r9">[9]</xref></p>
+        <p>When conceptualizing clinical work, healthcare professionals should consider p values with a concurrent appraisal study design validity. For example, a p-value from a double-blinded randomized clinical trial (designed to minimize bias) should be weighted higher than one from a retrospective observational study <xref ref-type="bibr" rid="article-95301.r7">[7]</xref>. The p-value debate has smoldered since the 1950s<xref ref-type="bibr" rid="article-95301.r10">[10]</xref>,&#x000a0;and replacement with confidence intervals has been suggested since the 1980s.<xref ref-type="bibr" rid="article-95301.r11">[11]</xref></p>
+        <p>
+<bold>Confidence Intervals</bold>
+</p>
+        <p>A confidence interval provides a range of values within a given confidence (eg, 95%), including the accurate value of the statistical constraint within a targeted population.<xref ref-type="bibr" rid="article-95301.r12">[12]</xref>&#x000a0;Most research uses a 95% CI, but investigators can set any level (eg, 90% CI, 99% CI).<xref ref-type="bibr" rid="article-95301.r13">[13]</xref>&#x000a0;A CI provides a range with the lower bound and upper bound limits of a difference or association that would be plausible for a population.<xref ref-type="bibr" rid="article-95301.r14">[14]</xref>&#x000a0;Therefore, a CI of 95% indicates that if a study were to be carried out 100 times, the range would contain the true value in 95,<xref ref-type="bibr" rid="article-95301.r15">[15]</xref>&#x000a0;confidence intervals provide more evidence regarding the precision of an estimate compared to p-values.<xref ref-type="bibr" rid="article-95301.r6">[6]</xref></p>
+        <p>In consideration of the similar research example provided above, one could make the following statement with 95% CI:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Statement: Individuals who were prescribed Drug 23 had no symptoms after&#x000a0;3 days, which was significantly faster than those prescribed Drug 22; there was a mean difference between the&#x000a0;2 groups of days to the recovery of 4.2 days (95% CI: 1.9 &#x02013; 7.8).</p>
+          </list-item>
+        </list>
+        <p>It is important to note that the width of the CI is affected by the standard error and the sample size; reducing a study sample number results in less precision of the CI (increase the width).<xref ref-type="bibr" rid="article-95301.r14">[14]</xref>&#x000a0;A larger width indicates a smaller sample size or a larger variability.<xref ref-type="bibr" rid="article-95301.r16">[16]</xref>&#x000a0;A researcher would want to increase the precision of the CI. For example, a 95% CI of 1.43 &#x02013; 1.47 is much more precise than the one provided in the example above. In research and clinical practice, CIs provide valuable information on whether the interval includes or excludes clinically significant values.<xref ref-type="bibr" rid="article-95301.r14">[14]</xref></p>
+        <p>Null values are sometimes used for differences with CI (0 for differential comparisons and 1 for ratios). However, CIs provide more information than that.<xref ref-type="bibr" rid="article-95301.r15">[15]</xref>&#x000a0;Consider this example: A hospital implemented a new protocol that reduced wait time for patients in the emergency department by an average of 25 minutes (95% CI: -2.5 &#x02013; 41 minutes). Because the range crosses 0, implementing this protocol in different populations could result in longer wait times; however, the range is much higher on the positive side. Thus, while the p-value used to detect statistical significance may result in "not significant" findings, individuals should examine this range, consider the study design, and weigh whether or not it is still worth piloting in their workplace.</p>
+        <p>Similarly to p-values, 95% CIs cannot control for researchers' errors (eg, study bias or improper data analysis).<xref ref-type="bibr" rid="article-95301.r14">[14]</xref>&#x000a0;Regarding whether to report p-values or CIs, researchers should examine journal preferences. When in doubt, reporting both may be beneficial.<xref ref-type="bibr" rid="article-95301.r13">[13]</xref>&#x000a0;An example is below:</p>
+        <p>Reporting both: Individuals prescribed Drug 23 had no symptoms after&#x000a0;3 days, which was significantly faster than those prescribed Drug 22, p = 0.009. There was a mean difference between the&#x000a0;2 groups of days to the recovery of 4.2 days (95% CI: 1.9 &#x02013; 7.8).</p>
+      </sec>
+      <sec id="article-95301.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Recall that clinical significance and statistical significance are&#x000a0;2 different concepts. Healthcare providers should remember that a study with statistically significant differences and large sample size may be of no interest to clinicians, whereas a study with a smaller sample size and statistically non-significant results could impact clinical practice.<xref ref-type="bibr" rid="article-95301.r14">[14]</xref>&#x000a0;Additionally, as previously mentioned, a non-significant finding may reflect the study design itself rather than relationships between variables.</p>
+        <p>Healthcare providers using evidence-based medicine to inform practice should use clinical judgment to determine the practical importance of studies through careful evaluation of the design, sample size, power, likelihood of type I and type II errors, data analysis, and reporting of statistical findings (p values, 95% CI or both).<xref ref-type="bibr" rid="article-95301.r4">[4]</xref>&#x000a0;Interestingly, some experts have called for "statistically significant" or "not significant" to be excluded from work as statistical significance never has and never be equivalent to clinical significance.<xref ref-type="bibr" rid="article-95301.r17">[17]</xref>&#x000a0;</p>
+        <p>The decision on what is clinically significant can be challenging, depending on the providers' experience and especially the severity of the disease. Providers should use their knowledge and experiences to determine the meaningfulness of study results and make inferences based not only on significant or insignificant results by researchers but&#x000a0;on their understanding of study limitations and practical implications.</p>
+      </sec>
+      <sec id="article-95301.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>All physicians, nurses, pharmacists, and other healthcare professionals should strive to understand the concepts in this chapter. These individuals should maintain the ability to review and incorporate new literature for evidence-based and safe care.&#x000a0;</p>
+      </sec>
+      <sec id="article-95301.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=95301&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=95301">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/95301/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=95301">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-95301.s6">
+        <title>References</title>
+        <ref id="article-95301.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jones</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gebski</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Onslow</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Packman</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistical power in stuttering research: a tutorial.</article-title>
+            <source>J Speech Lang Hear Res</source>
+            <year>2002</year>
+            <month>Apr</month>
+            <volume>45</volume>
+            <issue>2</issue>
+            <fpage>243</fpage>
+            <page-range>243-55</page-range>
+            <pub-id pub-id-type="pmid">12003508</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95301.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sedgwick</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Pitfalls of statistical hypothesis testing: type I and type II errors.</article-title>
+            <source>BMJ</source>
+            <year>2014</year>
+            <month>Jul</month>
+            <day>03</day>
+            <volume>349</volume>
+            <fpage>g4287</fpage>
+            <pub-id pub-id-type="pmid">24994622</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95301.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fethney</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistical and clinical significance, and how to use confidence intervals to help interpret both.</article-title>
+            <source>Aust Crit Care</source>
+            <year>2010</year>
+            <month>May</month>
+            <volume>23</volume>
+            <issue>2</issue>
+            <fpage>93</fpage>
+            <page-range>93-7</page-range>
+            <pub-id pub-id-type="pmid">20347326</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95301.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hayat</surname>
+                <given-names>MJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Understanding statistical significance.</article-title>
+            <source>Nurs Res</source>
+            <year>2010</year>
+            <season>May-Jun</season>
+            <volume>59</volume>
+            <issue>3</issue>
+            <fpage>219</fpage>
+            <page-range>219-23</page-range>
+            <pub-id pub-id-type="pmid">20445438</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95301.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ferrill</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Brown</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Kyle</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical versus statistical significance: interpreting P values and confidence intervals related to measures of association to guide decision making.</article-title>
+            <source>J Pharm Pract</source>
+            <year>2010</year>
+            <month>Aug</month>
+            <volume>23</volume>
+            <issue>4</issue>
+            <fpage>344</fpage>
+            <page-range>344-51</page-range>
+            <pub-id pub-id-type="pmid">21507834</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95301.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Infanger</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Schmidt-Trucks&#x000e4;ss</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>P value functions: An underused method to present research results and to promote quantitative reasoning.</article-title>
+            <source>Stat Med</source>
+            <year>2019</year>
+            <month>Sep</month>
+            <day>20</day>
+            <volume>38</volume>
+            <issue>21</issue>
+            <fpage>4189</fpage>
+            <page-range>4189-4197</page-range>
+            <pub-id pub-id-type="pmid">31270842</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95301.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dorey</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistics in brief: Interpretation and use of p values: all p values are not equal.</article-title>
+            <source>Clin Orthop Relat Res</source>
+            <year>2011</year>
+            <month>Nov</month>
+            <volume>469</volume>
+            <issue>11</issue>
+            <fpage>3259</fpage>
+            <page-range>3259-61</page-range>
+            <pub-id pub-id-type="pmid">21918804</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95301.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Liu</surname>
+                <given-names>XS</given-names>
+              </name>
+            </person-group>
+            <article-title>Implications of statistical power for confidence intervals.</article-title>
+            <source>Br J Math Stat Psychol</source>
+            <year>2012</year>
+            <month>Nov</month>
+            <volume>65</volume>
+            <issue>3</issue>
+            <fpage>427</fpage>
+            <page-range>427-37</page-range>
+            <pub-id pub-id-type="pmid">22026811</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95301.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tijssen</surname>
+                <given-names>JG</given-names>
+              </name>
+              <name>
+                <surname>Kolm</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Demystifying the New&#x000a0;Statistical Recommendations: The Use and Reporting of p Values.</article-title>
+            <source>J Am Coll Cardiol</source>
+            <year>2016</year>
+            <month>Jul</month>
+            <day>12</day>
+            <volume>68</volume>
+            <issue>2</issue>
+            <fpage>231</fpage>
+            <page-range>231-3</page-range>
+            <pub-id pub-id-type="pmid">27386779</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95301.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Spanos</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Recurring controversies about P values and confidence intervals revisited.</article-title>
+            <source>Ecology</source>
+            <year>2014</year>
+            <month>Mar</month>
+            <volume>95</volume>
+            <issue>3</issue>
+            <fpage>645</fpage>
+            <page-range>645-51</page-range>
+            <pub-id pub-id-type="pmid">24804448</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95301.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Freire</surname>
+                <given-names>APCF</given-names>
+              </name>
+              <name>
+                <surname>Elkins</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name>
+                <surname>Ramos</surname>
+                <given-names>EMC</given-names>
+              </name>
+              <name>
+                <surname>Moseley</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>Use of 95% confidence intervals in the reporting of between-group differences in randomized controlled trials: analysis of a representative sample of 200 physical therapy trials.</article-title>
+            <source>Braz J Phys Ther</source>
+            <year>2019</year>
+            <season>Jul-Aug</season>
+            <volume>23</volume>
+            <issue>4</issue>
+            <fpage>302</fpage>
+            <page-range>302-310</page-range>
+            <pub-id pub-id-type="pmid">30366845</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95301.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dorey</surname>
+                <given-names>FJ</given-names>
+              </name>
+            </person-group>
+            <article-title>In brief: statistics in brief: Confidence intervals: what is the real result in the target population?</article-title>
+            <source>Clin Orthop Relat Res</source>
+            <year>2010</year>
+            <month>Nov</month>
+            <volume>468</volume>
+            <issue>11</issue>
+            <fpage>3137</fpage>
+            <page-range>3137-8</page-range>
+            <pub-id pub-id-type="pmid">20532716</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95301.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Porcher</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Reporting results of orthopaedic research: confidence intervals and p values.</article-title>
+            <source>Clin Orthop Relat Res</source>
+            <year>2009</year>
+            <month>Oct</month>
+            <volume>467</volume>
+            <issue>10</issue>
+            <fpage>2736</fpage>
+            <page-range>2736-7</page-range>
+            <pub-id pub-id-type="pmid">19565303</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95301.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gardner</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Altman</surname>
+                <given-names>DG</given-names>
+              </name>
+            </person-group>
+            <article-title>Confidence intervals rather than P values: estimation rather than hypothesis testing.</article-title>
+            <source>Br Med J (Clin Res Ed)</source>
+            <year>1986</year>
+            <month>Mar</month>
+            <day>15</day>
+            <volume>292</volume>
+            <issue>6522</issue>
+            <fpage>746</fpage>
+            <page-range>746-50</page-range>
+            <pub-id pub-id-type="pmid">3082422</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95301.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cooper</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Wears</surname>
+                <given-names>RL</given-names>
+              </name>
+              <name>
+                <surname>Schriger</surname>
+                <given-names>DL</given-names>
+              </name>
+            </person-group>
+            <article-title>Reporting research results: recommendations for improving communication.</article-title>
+            <source>Ann Emerg Med</source>
+            <year>2003</year>
+            <month>Apr</month>
+            <volume>41</volume>
+            <issue>4</issue>
+            <fpage>561</fpage>
+            <page-range>561-4</page-range>
+            <pub-id pub-id-type="pmid">12658257</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95301.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Doll</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Carney</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistical approaches to uncertainty: P values and confidence intervals unpacked.</article-title>
+            <source>Equine Vet J</source>
+            <year>2007</year>
+            <month>May</month>
+            <volume>39</volume>
+            <issue>3</issue>
+            <fpage>275</fpage>
+            <page-range>275-6</page-range>
+            <pub-id pub-id-type="pmid">17520981</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95301.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Colquhoun</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>The reproducibility of research and the misinterpretation of <italic>p</italic>-values.</article-title>
+            <source>R Soc Open Sci</source>
+            <year>2017</year>
+            <month>Dec</month>
+            <volume>4</volume>
+            <issue>12</issue>
+            <fpage>171085</fpage>
+            <pub-id pub-id-type="pmid">29308247</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

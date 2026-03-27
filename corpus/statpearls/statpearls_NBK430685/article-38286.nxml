@@ -1,0 +1,1817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-38286" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part indexed="no" book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Goldman Risk Indices (Archived)</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Brown</surname>
+            <given-names>Kristen N.</given-names>
+          </name>
+          <aff>Augusta University</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Cascella</surname>
+            <given-names>Marco</given-names>
+          </name>
+          <aff>Istituto Nazionale Tumori - IRCCS - Fondazione Pascale, Via Mariano Semmola 80100, Napoli. Italy</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Kristen Brown declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Marco Cascella declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>13</day>
+          <month>2</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-38286.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Major adverse cardiac events (MACEs), including nonfatal cardiac arrest, myocardial infarction (MI), congestive heart failure (HF), or new cardiac arrhythmias, are relatively common in patients&#x000a0;undergoing non-cardiac surgery. For instance, the prevalence of postoperative&#x000a0;MI is up to 1%, whereas there is a more significant number of patients who experienced increased levels of cardiac troponins without other signs of myocardial ischemia. Overall, these complications occur in approximately 5% of adult patients undergoing surgical procedures.<xref ref-type="bibr" rid="article-38286.r1">[1]</xref> Furthermore, MACEs account for one-third of postoperative deaths.<xref ref-type="bibr" rid="article-38286.r2">[2]</xref> Thus, cardiac risk stratification is of paramount importance for identifying those who need preoperative preventive strategies as well as for developing safer perioperative strategies encompassing careful monitoring and pre-operative medical cardiac optimization. For this purpose, there have been several tools and indices developed and validated. The rationale is that these indices may help identify high-risk patients who need further preoperative assessment through a noninvasive&#x000a0;or invasive approach and for characterizing low-risk patients in whom further evaluation is unlikely to be helpful.<bold>&#x000a0;</bold>Indeed, guidelines on the topic suggest avoiding indiscriminate routine preoperative cardiac exams, as this approach result time- and cost-consuming, resource-limiting, and does not improve perioperative outcome.<bold>&#x000a0;</bold></p>
+        <p>The inclusion of these indexes in dedicated algorithms (e.g., from guidelines) must be an essential step in a tailored path leading to an individualized cardiac risk assessment.<xref ref-type="bibr" rid="article-38286.r3">[3]</xref><bold>&#x000a0;</bold>As a result, patients will benefit from all those interventions that may reduce MACEs rates in noncardiac surgical procedures.<bold>&#x000a0;</bold>This activity will discuss in detail the Goldman Risk Index<italic toggle="yes">&#x000a0;</italic>and derivates, focusing on indications for use, patient safety, patient education, and clinical significance of the&#x000a0;indices-guided assessment.</p>
+      </sec>
+      <sec id="article-38286.s2" sec-type="Indications">
+        <title>Indications</title>
+        <p>Since this topic is of enormous importance, scientific societies of cardiologists and anesthesiologists have repeatedly collaborated to define the most effective strategy, including indications. The figure that emerges from this close collaboration is that any surgical non-cardiac intervention should be risk-stratified using the perioperative risk assessment path. The use of indexes is part of this assessment process&#x000a0;(Class I recommendation, level of evidence B)&#x000a0;and&#x000a0;must be combined with other approaches such as the assessment of preoperative functional capacity based on metabolic equivalent tasks (METs)&#x000a0;or exercise testing.<xref ref-type="bibr" rid="article-38286.r4">[4]</xref></p>
+      </sec>
+      <sec id="article-38286.s3" sec-type="Normal and Critical Findings">
+        <title>Normal and Critical Findings</title>
+        <p>
+<bold>Indices</bold>
+</p>
+        <p>
+<bold>Goldman Risk Index</bold>
+</p>
+        <p>Based on the evidence that different patient-specific [e.g., older age, kidney disease, high American Society of Anesthesiologists (ASA) status] and surgery-specific (e.g., type of surgery, complexity) conditions are useful as predictors, several tools have been designed by combining and scoring these factors for assessing cardiac risk. The Goldman Risk Index (GRI), also known as the Cardiac Risk Index in Non-cardiac Surgery, was developed by Dr. Goldman in 1977. This tool&#x000a0;evaluates patient demographics, comorbidities, current signs of heart failure, electrocardiographic signs, general medical conditions, and the type of operation type to assign an appropriate class that correlates with a specific postoperative risk for complications.<xref ref-type="bibr" rid="article-38286.r5">[5]</xref>&#x000a0;Despite subsequent attempts for improving its reliability,&#x000a0;the GRI&#x000a0;continued to present obvious weaknesses, and, in turn, it is no longer the recommended tool for assessing cardiac risk.<xref ref-type="bibr" rid="article-38286.r6">[6]</xref></p>
+        <p>
+<bold>Revised Cardiac Risk Index</bold>
+</p>
+        <p>The Revised Cardiac Risk Index (RCRI) was developed in 1999 by Lee et al. and also went by the name of the Lee Index. It evaluates six independent variables associated with increased cardiac risk.<italic toggle="yes">&#x000a0;</italic>These clinical risk factors include high-risk surgery, ischaemic heart disease, a history of congestive cardiac failure, a history of cerebrovascular disease, insulin therapy for diabetes, and preoperative serum creatinine of more than 2 mg/dl (or over 177 micromol/L). Because validation studies have shown its effectiveness, it represents the most recommended tool for rapid perioperative risk assessment.<xref ref-type="bibr" rid="article-38286.r7">[7]</xref><xref ref-type="bibr" rid="article-38286.r8">[8]</xref>&#x000a0;In 2009 and 2014, the European Society of Cardiology (ESC) and the European Society of Anaesthesiology (ESA) included the index into their preoperative cardiac risk assessment and management guidelines for non-cardiac surgery. It&#x000a0;also received a recommendation from the American College of Cardiology (ACC) and the American Heart Association (AHA).<xref ref-type="bibr" rid="article-38286.r9">[9]</xref><xref ref-type="bibr" rid="article-38286.r10">[10]</xref>&#x000a0;</p>
+        <p>
+<bold>Toward Other Indices</bold>
+</p>
+        <p>The original Goldman index and derivates originated several years ago. Since the time of their development, there have been significant changes in the management of surgical patients. Diagnostic and therapeutic changes also affect anesthetic management. Furthermore, many controversies exist regarding RCRI reliability in all surgical settings and populations. Moreover, because the Lee index is a population-derived tool, it cannot be used to assign individual patient risk. It has been proposed to ameliorate the RCRI by including additional glomerular filtration rate cut points, the age factor, the history of peripheral vascular disease, functional capacity parameters, and surgical procedural category.<xref ref-type="bibr" rid="article-38286.r10">[10]</xref>&#x000a0;Meanwhile, other tools, such as the Myocardial Infarction &#x00026;&#x000a0;Cardiac&#x000a0;Arrest (MICA) developed by Gupta et al., in 2011, on the database of the National Surgical Quality Improvement Program (NSQIP),&#x000a0;have been proposed.<xref ref-type="bibr" rid="article-38286.r11">[11]</xref>&#x000a0;The more recent ESC/ESA guidelines recommend its use in addition to the traditional RCRI (Class I recommendation, level of evidence B). Despite this, even the most recent indexes have strengths and limitations that do not allow their application to all the settings, and further research is needed to establish the gold standard.</p>
+        <p>
+<bold>Scoring</bold>
+</p>
+        <p>
+<bold>Goldman Risk Index Scoring</bold>
+</p>
+        <p>The original GRI identifies&#x000a0;a risk index class based on the presence or absence of nine preoperative criteria potentially associated with postoperative cardiac complications. These factors are:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Age over 70 years (5 points)</p>
+          </list-item>
+          <list-item>
+            <p>Myocardial infarction occurring within the last 6 months (10 points)</p>
+          </list-item>
+          <list-item>
+            <p>Presence of heart failure signs (jugular vein distention, JVD, or ventricular gallop) (11 points)</p>
+          </list-item>
+          <list-item>
+            <p>Significant aortic stenosis (3 points)</p>
+          </list-item>
+          <list-item>
+            <p>Arrhythmia (other than sinus or premature atrial contractions) (7 points)</p>
+          </list-item>
+          <list-item>
+            <p>The presence of 5 or more premature ventricular complexes (PVCs) per minute (7 points)</p>
+          </list-item>
+          <list-item>
+            <p>Medical history or conditions including the presence of PO2 less than 60; PCO2 greater than 50; K below 3; HCO3 under 20; BUN over 50; serum creatinine greater than 3; elevated SGOT; chronic liver disease; or the state of being bedridden (3 points)</p>
+          </list-item>
+          <list-item>
+            <p>Type of operation: emergency (4 points); intraperitoneal, intrathoracic, or aortic (3 points)</p>
+          </list-item>
+        </list>
+        <p>Subsequently, it assigns a class (a risk index) from I-IV, listed below.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Class I (0 to 5 points): correlates&#x000a0;with a 1.0% risk of cardiac complications during or around noncardiac surgery.</p>
+          </list-item>
+          <list-item>
+            <p>Class II (6 to 12 points): correlates with&#x000a0;a 7.0% risk of cardiac complications during or around noncardiac surgery.</p>
+          </list-item>
+          <list-item>
+            <p>Class III (13 to 25 points): correlates with a 14% risk of cardiac complications during or around noncardiac surgery.</p>
+          </list-item>
+          <list-item>
+            <p>Class IV (26 to 53 points): correlates with a 78% risk of cardiac complications during or around noncardiac surgery.</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Revised Cardiac Risk Index Scoring</bold>
+</p>
+        <p>The RCRI score identifies a risk class based on the presence or absence of six factors (predictors) associated with preoperative cardiac complications.<xref ref-type="bibr" rid="article-38286.r12">[12]</xref></p>
+        <p>These predictors are the type of surgery (intraperitoneal, intrathoracic, or supra-inguinal vascular), history of ischemic heart disease, history of congestive heart failure, history of cerebrovascular disease, diabetes requiring preoperative treatment with insulin, and a preoperative serum creatinine level over 2mg/dL (or greater than 177 micromol/L).</p>
+        <p>Subsequently, it assigns a class from I-IV listed below.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Class I [0 predictores] correlates&#x000a0;with a 0.4% 30-day risk of death, myocardial ischemia (MI), or cardiac arrest (CA).&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Class II [1 predictores] correlates with a 0.9% 30-day risk of death, MI, or CA.&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Class III [2 predictores] correlates with a 6.6% 30-day risk of death, MI, or CA.&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Class IV [greater than or equal to 3 predictors] correlates with a more than 11% 30-day risk of death, MI, or CA.</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Myocardial Infarction &#x00026;&#x000a0;Cardiac&#x000a0;Arrest Calculator</bold>
+</p>
+        <p>The MICA calculator combines age, functional status (partially dependent, totally dependent), ASA status,&#x000a0;creatinine [normal, elevated (over 1.5 mg/dl or&#x000a0;133 mmol/L), unknown], and type of surgery.&#x000a0;The newer NSQIP tool includes a set of 20 patient risk factors in addition to the type of surgery.&#x000a0;Table 1 shows a comparison between RCRI and MICA indices.</p>
+      </sec>
+      <sec id="article-38286.s4" sec-type="Interfering Factors">
+        <title>Interfering Factors</title>
+        <p>The RCRI, currently used today, utilizes six independent variables with known associations with increased perioperative risk. Even if it exhaustively evaluates a wide range of factors, other factors are not included. For instance, it is known that several other&#x000a0;conditions, such as atrial fibrillation or morbid obesity, may increase a patient's risk of perioperative risk of cardiac complications.<xref ref-type="bibr" rid="article-38286.r13">[13]</xref><xref ref-type="bibr" rid="article-38286.r14">[14]</xref> Other patient-important outcomes not included in the assessment include the risk of stroke, major bleeding, prolonged hospitalization, and intensive care unit (ICU) admission. Furthermore, this tool is to be used with caution in emergency surgery patients, as the score is not as well validated in this population. Again, it seems to have poor reliability in particular settings such as&#x000a0;vascular surgery (e.g., elective open abdominal aortic aneurysm repairs) or other settings such as selected types of major abdominal surgery and lung resection.<xref ref-type="bibr" rid="article-38286.r15">[15]</xref><xref ref-type="bibr" rid="article-38286.r16">[16]</xref><xref ref-type="bibr" rid="article-38286.r17">[17]</xref>&#x000a0;</p>
+        <p>The Gupta MICA calculator has several limitations. While the RCRI has been validated through multiple studies over the past 15 years, including an extensive systematic review that found moderate discrimination in predicting major perioperative cardiac complications,<xref ref-type="bibr" rid="article-38286.r18">[18]</xref>&#x000a0;the MICA calculator&#x000a0;has only had retrospective validation.<xref ref-type="bibr" rid="article-38286.r19">[19]</xref><xref ref-type="bibr" rid="article-38286.r20">[20]</xref><xref ref-type="bibr" rid="article-38286.r21">[21]</xref>&#x000a0;Again, it underestimates the risk of myocardial ischemia compared with the RCRI. Moreover, pulmonary edema and complete heart block, outcomes for previous perioperative cardiac risk calculators, were not included among the NSQIP database from which this&#x000a0;index was obtained. Even stress test results and beta-blocker therapy were not a part of that source. On the other hand, MICA seems to be helpful in patients undergoing low-risk procedures or who are anticipated to require less than 2 days of hospital admission and seems to be more accurate for&#x000a0;discriminating perioperative stroke when compared with the RCRI.<xref ref-type="bibr" rid="article-38286.r22">[22]</xref></p>
+        <p>Other RCRI-derived indices have undergone development to overcome most of these limits.&#x000a0;Among the&#x000a0;procedure-specific&#x000a0;risk&#x000a0;evaluation tools there is the&#x000a0;Thoracic&#x000a0;Revised&#x000a0;Cardiac Index&#x000a0;(ThRCRI). This index has potential use&#x000a0;in thoracic surgery to guide the indication of the interventions. In particular, it allows differentiating&#x000a0;subjects who may proceed to&#x000a0;surgery&#x000a0;(classes A or B) from those who should undergo a further&#x000a0;cardiac&#x000a0;evaluation (classes C or D).<xref ref-type="bibr" rid="article-38286.r23">[23]</xref>&#x000a0;Because compared with other types of noncardiac operations, vascular surgical&#x000a0;interventions&#x000a0;are associated with a twofold to a fourfold higher risk of MACEs,&#x000a0;and the Vascular Study Group of New England (VSGNE) has been designed to assess cardiac risk in this surgical setting.<xref ref-type="bibr" rid="article-38286.r24">[24]</xref> According to the VSGNE calculator validation study, independent predictors of&#x000a0;MACEs are increasing age, smoking, insulin-dependent diabetes, coronary artery disease, congestive heart failure, abnormal cardiac stress test, long-term beta-blocker therapy, chronic obstructive pulmonary disease, and creatinine (&#x0003e; or =1.8 mg/dL).<xref ref-type="bibr" rid="article-38286.r25">[25]</xref> Because both RCRI and MICa were not&#x000a0;specifically developed to evaluate the risk in geriatric patients, an NSQIP-derived geriatric-sensitive index has been proposed.<xref ref-type="bibr" rid="article-38286.r26">[26]</xref>&#x000a0;There is also a recent prospectively derived score. It is the&#x000a0;cardiovascular risk index (CVRI), proposed in&#x000a0;2019 through the American University of Beirut-Pre-Operative Cardiovascular Evaluation Study (AUB-POCES) that can be useful to&#x000a0;stratify patients into low- (CVRI 0 to 1), intermediate- (CVRI 2 to 3), and high-risk (CVRI greater than 3).<xref ref-type="bibr" rid="article-38286.r27">[27]</xref></p>
+        <p>A&#x000a0;step forward in assessing cardiovascular risk is certainly the possibility of linking preoperative factors with intraoperative conditions. This strategy is only apparently more complex. Among the proposed attempts, there is the ANESCARDIOCAT score.<xref ref-type="bibr" rid="article-38286.r28">[28]</xref> Based on the potential occurrence of seven intraoperative conditions, including hypotension (1 hour of a 20 mm Hg or greater decrease or a 20% change in mean arterial pressure), the need for blood transfusion, history of coronary artery disease,&#x000a0;history of cerebrovascular disease, chronic kidney disease, and preoperative abnormal ECG abnormalities (e.g., left ventricular hypertrophy, left bundle branch block, and ST-segment and T-wave abnormalities)&#x000a0;the ANESCARDIOCAT score stratifies patients in four groups with different (very low, low, intermediate, and high) degrees of risk of MACEs and&#x000a0;cerebrovascular events. It seems a very interesting approach as it combines modifiable factors (e.g., blood transfusions) with non-modifiable factors. However, risk assessment is only possible at the end of the surgery, and therefore, although the tool is predictive of postoperative risk, it does not allow for improvements to be made before surgery.</p>
+      </sec>
+      <sec id="article-38286.s5" sec-type="Patient Safety and Education">
+        <title>Patient Safety and Education</title>
+        <p>Several perioperative risk tools have undergone development. Each tool assesses the risk of developing a perioperative cardiac complication during a specific procedure. The GRI and the RCRI are useful tools for evaluating risk, although&#x000a0;clinicians should not use them to indicate&#x000a0;for or against the intervention. The patient, surgeon, and surgical staff&#x000a0;should discuss, in detail, the individual risk and situation to determine if surgery is appropriate or not.&#x000a0;&#x000a0;</p>
+      </sec>
+      <sec id="article-38286.s6" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Any surgical intervention comes with some risk of complications. The most devastating complications can be those of the heart. The GRI, along with its updated version RCRI, was developed to help assess the perioperative&#x000a0;risk of surgical intervention. These tools are used today to facilitate the decision-making of surgeons to optimize patient outcomes. The RCRI should be used to calculate the risk of perioperative cardiac risk in&#x000a0;anyone 45 years or older (or 18 to 44 years old with significant cardiovascular disease) undergoing elective non-cardiac surgery or urgent/semi-urgent (non-emergent) non-cardiac surgery. In patients with elevated risk (RCRI greater than or equal to 1, age 65 and over, or age 45 to 64 with significant cardiovascular disease), it helps direct further preoperative risk stratification (e.g., with B-type natriuretic peptide, BNP) and determines appropriate postoperative cardiac monitoring (EKG, troponins).&#x000a0;</p>
+        <p>Clinicians, including nurse practitioners, should discuss the results of the risk assessment tool with their patients to determine the appropriate form of action with the lowest risk and most significant benefit for the patient. Results from risk assessment, indeed, can be used&#x000a0;in preoperative counseling and discussions of informed consent. Moreover, these tools can be useful in combination with past medical history, family history, and past surgical outcomes to determine an appropriate form of action for the treatment of their patients. If the perioperative risk for MACE is less than 1%, the patient can generally&#x000a0;undergo&#x000a0;the intervention without further cardiac evaluation.</p>
+      </sec>
+      <sec id="article-38286.s7">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=38286&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=38286">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/38286/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=38286">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-38286.s8">
+        <fig id="article-38286.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Table 1. Comparison between RCRI and MICA Indices for cardiac risk in non-cardiac surgery From the Editor (Marco Cascella, MD)</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="RCRI_MICA" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-38286.s9">
+        <title>References</title>
+        <ref id="article-38286.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Landesberg</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Beattie</surname>
+                <given-names>WS</given-names>
+              </name>
+              <name>
+                <surname>Mosseri</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Jaffe</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Alpert</surname>
+                <given-names>JS</given-names>
+              </name>
+            </person-group>
+            <article-title>Perioperative myocardial infarction.</article-title>
+            <source>Circulation</source>
+            <year>2009</year>
+            <month>Jun</month>
+            <day>09</day>
+            <volume>119</volume>
+            <issue>22</issue>
+            <fpage>2936</fpage>
+            <page-range>2936-44</page-range>
+            <pub-id pub-id-type="pmid">19506125</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pannell</surname>
+                <given-names>LM</given-names>
+              </name>
+              <name>
+                <surname>Reyes</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name>
+                <surname>Underwood</surname>
+                <given-names>SR</given-names>
+              </name>
+            </person-group>
+            <article-title>Cardiac risk assessment before non-cardiac surgery.</article-title>
+            <source>Eur Heart J Cardiovasc Imaging</source>
+            <year>2013</year>
+            <month>Apr</month>
+            <volume>14</volume>
+            <issue>4</issue>
+            <fpage>316</fpage>
+            <page-range>316-22</page-range>
+            <pub-id pub-id-type="pmid">23288896</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Biccard</surname>
+                <given-names>BM</given-names>
+              </name>
+              <name>
+                <surname>Rodseth</surname>
+                <given-names>RN</given-names>
+              </name>
+            </person-group>
+            <article-title>Utility of clinical risk predictors for preoperative cardiovascular risk prediction.</article-title>
+            <source>Br J Anaesth</source>
+            <year>2011</year>
+            <month>Aug</month>
+            <volume>107</volume>
+            <issue>2</issue>
+            <fpage>133</fpage>
+            <page-range>133-43</page-range>
+            <pub-id pub-id-type="pmid">21719480</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Guarracino</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Baldassarri</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Priebe</surname>
+                <given-names>HJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Revised ESC/ESA Guidelines on non-cardiac surgery: cardiovascular assessment and management. Implications for preoperative clinical evaluation.</article-title>
+            <source>Minerva Anestesiol</source>
+            <year>2015</year>
+            <month>Feb</month>
+            <volume>81</volume>
+            <issue>2</issue>
+            <fpage>226</fpage>
+            <page-range>226-33</page-range>
+            <pub-id pub-id-type="pmid">25384693</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Goldman</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Caldera</surname>
+                <given-names>DL</given-names>
+              </name>
+              <name>
+                <surname>Nussbaum</surname>
+                <given-names>SR</given-names>
+              </name>
+              <name>
+                <surname>Southwick</surname>
+                <given-names>FS</given-names>
+              </name>
+              <name>
+                <surname>Krogstad</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Murray</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Burke</surname>
+                <given-names>DS</given-names>
+              </name>
+              <name>
+                <surname>O'Malley</surname>
+                <given-names>TA</given-names>
+              </name>
+              <name>
+                <surname>Goroll</surname>
+                <given-names>AH</given-names>
+              </name>
+              <name>
+                <surname>Caplan</surname>
+                <given-names>CH</given-names>
+              </name>
+              <name>
+                <surname>Nolan</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Carabello</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Slater</surname>
+                <given-names>EE</given-names>
+              </name>
+            </person-group>
+            <article-title>Multifactorial index of cardiac risk in noncardiac surgical procedures.</article-title>
+            <source>N Engl J Med</source>
+            <year>1977</year>
+            <month>Oct</month>
+            <day>20</day>
+            <volume>297</volume>
+            <issue>16</issue>
+            <fpage>845</fpage>
+            <page-range>845-50</page-range>
+            <pub-id pub-id-type="pmid">904659</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Detsky</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Abrams</surname>
+                <given-names>HB</given-names>
+              </name>
+              <name>
+                <surname>Forbath</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Scott</surname>
+                <given-names>JG</given-names>
+              </name>
+              <name>
+                <surname>Hilliard</surname>
+                <given-names>JR</given-names>
+              </name>
+            </person-group>
+            <article-title>Cardiac assessment for patients undergoing noncardiac surgery. A multifactorial clinical risk index.</article-title>
+            <source>Arch Intern Med</source>
+            <year>1986</year>
+            <month>Nov</month>
+            <volume>146</volume>
+            <issue>11</issue>
+            <fpage>2131</fpage>
+            <page-range>2131-4</page-range>
+            <pub-id pub-id-type="pmid">3778043</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Boersma</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Kertai</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Schouten</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Bax</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Noordzij</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Steyerberg</surname>
+                <given-names>EW</given-names>
+              </name>
+              <name>
+                <surname>Schinkel</surname>
+                <given-names>AF</given-names>
+              </name>
+              <name>
+                <surname>van Santen</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Simoons</surname>
+                <given-names>ML</given-names>
+              </name>
+              <name>
+                <surname>Thomson</surname>
+                <given-names>IR</given-names>
+              </name>
+              <name>
+                <surname>Klein</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>van Urk</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Poldermans</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Perioperative cardiovascular mortality in noncardiac surgery: validation of the Lee cardiac risk index.</article-title>
+            <source>Am J Med</source>
+            <year>2005</year>
+            <month>Oct</month>
+            <volume>118</volume>
+            <issue>10</issue>
+            <fpage>1134</fpage>
+            <page-range>1134-41</page-range>
+            <pub-id pub-id-type="pmid">16194645</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Roshanov</surname>
+                <given-names>PS</given-names>
+              </name>
+              <name>
+                <surname>Walsh</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Devereaux</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name>
+                <surname>MacNeil</surname>
+                <given-names>SD</given-names>
+              </name>
+              <name>
+                <surname>Lam</surname>
+                <given-names>NN</given-names>
+              </name>
+              <name>
+                <surname>Hildebrand</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Acedillo</surname>
+                <given-names>RR</given-names>
+              </name>
+              <name>
+                <surname>Mrkobrada</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Chow</surname>
+                <given-names>CK</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>VW</given-names>
+              </name>
+              <name>
+                <surname>Thabane</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Garg</surname>
+                <given-names>AX</given-names>
+              </name>
+            </person-group>
+            <article-title>External validation of the Revised Cardiac Risk Index and update of its renal variable to predict 30-day risk of major cardiac complications after non-cardiac surgery: rationale and plan for analyses of the VISION study.</article-title>
+            <source>BMJ Open</source>
+            <year>2017</year>
+            <month>Jan</month>
+            <day>09</day>
+            <volume>7</volume>
+            <issue>1</issue>
+            <fpage>e013510</fpage>
+            <pub-id pub-id-type="pmid">28069624</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kristensen</surname>
+                <given-names>SD</given-names>
+              </name>
+              <name>
+                <surname>Knuuti</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Saraste</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Anker</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>B&#x000f8;tker</surname>
+                <given-names>HE</given-names>
+              </name>
+              <name>
+                <surname>Hert</surname>
+                <given-names>SD</given-names>
+              </name>
+              <name>
+                <surname>Ford</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Gonzalez-Juanatey</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Gorenek</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Heyndrickx</surname>
+                <given-names>GR</given-names>
+              </name>
+              <name>
+                <surname>Hoeft</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Huber</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Iung</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Kjeldsen</surname>
+                <given-names>KP</given-names>
+              </name>
+              <name>
+                <surname>Longrois</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>L&#x000fc;scher</surname>
+                <given-names>TF</given-names>
+              </name>
+              <name>
+                <surname>Pierard</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Pocock</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Price</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Roffi</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Sirnes</surname>
+                <given-names>PA</given-names>
+              </name>
+              <name>
+                <surname>Sousa-Uva</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Voudris</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Funck-Brentano</surname>
+                <given-names>C</given-names>
+              </name>
+              <collab>Authors/Task Force Members</collab>
+            </person-group>
+            <article-title>2014 ESC/ESA Guidelines on non-cardiac surgery: cardiovascular assessment and management: The Joint Task Force on non-cardiac surgery: cardiovascular assessment and management of the European Society of Cardiology (ESC) and the European Society of Anaesthesiology (ESA).</article-title>
+            <source>Eur Heart J</source>
+            <year>2014</year>
+            <month>Sep</month>
+            <day>14</day>
+            <volume>35</volume>
+            <issue>35</issue>
+            <fpage>2383</fpage>
+            <page-range>2383-431</page-range>
+            <pub-id pub-id-type="pmid">25086026</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Biccard</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Proposed research plan for the derivation of a new Cardiac Risk Index.</article-title>
+            <source>Anesth Analg</source>
+            <year>2015</year>
+            <month>Mar</month>
+            <volume>120</volume>
+            <issue>3</issue>
+            <fpage>543</fpage>
+            <page-range>543-553</page-range>
+            <pub-id pub-id-type="pmid">25695572</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gupta</surname>
+                <given-names>PK</given-names>
+              </name>
+              <name>
+                <surname>Gupta</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Sundaram</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kaushik</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Fang</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Miller</surname>
+                <given-names>WJ</given-names>
+              </name>
+              <name>
+                <surname>Esterbrooks</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Hunter</surname>
+                <given-names>CB</given-names>
+              </name>
+              <name>
+                <surname>Pipinos</surname>
+                <given-names>II</given-names>
+              </name>
+              <name>
+                <surname>Johanning</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Lynch</surname>
+                <given-names>TG</given-names>
+              </name>
+              <name>
+                <surname>Forse</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Mohiuddin</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Mooss</surname>
+                <given-names>AN</given-names>
+              </name>
+            </person-group>
+            <article-title>Development and validation of a risk calculator for prediction of cardiac risk after surgery.</article-title>
+            <source>Circulation</source>
+            <year>2011</year>
+            <month>Jul</month>
+            <day>26</day>
+            <volume>124</volume>
+            <issue>4</issue>
+            <fpage>381</fpage>
+            <page-range>381-7</page-range>
+            <pub-id pub-id-type="pmid">21730309</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fronczek</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Polok</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Devereaux</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name>
+                <surname>G&#x000f3;rka</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Archbold</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Biccard</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Duceppe</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Le Manach</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Sessler</surname>
+                <given-names>DI</given-names>
+              </name>
+              <name>
+                <surname>Duchi&#x00144;ska</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Szczeklik</surname>
+                <given-names>W</given-names>
+              </name>
+            </person-group>
+            <article-title>External validation of the Revised Cardiac Risk Index and National Surgical Quality Improvement Program Myocardial Infarction and Cardiac Arrest calculator in noncardiac vascular surgery.</article-title>
+            <source>Br J Anaesth</source>
+            <year>2019</year>
+            <month>Oct</month>
+            <volume>123</volume>
+            <issue>4</issue>
+            <fpage>421</fpage>
+            <page-range>421-429</page-range>
+            <pub-id pub-id-type="pmid">31256916</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gialdini</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Nearing</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Bhave</surname>
+                <given-names>PD</given-names>
+              </name>
+              <name>
+                <surname>Bonuccelli</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Iadecola</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Healey</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Kamel</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Perioperative atrial fibrillation and the long-term risk of ischemic stroke.</article-title>
+            <source>JAMA</source>
+            <year>2014</year>
+            <month>Aug</month>
+            <day>13</day>
+            <volume>312</volume>
+            <issue>6</issue>
+            <fpage>616</fpage>
+            <page-range>616-22</page-range>
+            <pub-id pub-id-type="pmid">25117130</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tsai</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Schumann</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Morbid obesity and perioperative complications.</article-title>
+            <source>Curr Opin Anaesthesiol</source>
+            <year>2016</year>
+            <month>Feb</month>
+            <volume>29</volume>
+            <issue>1</issue>
+            <fpage>103</fpage>
+            <page-range>103-8</page-range>
+            <pub-id pub-id-type="pmid">26595547</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ferrante</surname>
+                <given-names>AMR</given-names>
+              </name>
+              <name>
+                <surname>Moscato</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Snider</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Tshomba</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>Controversial results of the Revised Cardiac Risk Index in elective open repair of abdominal aortic aneurysms: Retrospective analysis on a continuous series of 899 cases.</article-title>
+            <source>Int J Cardiol</source>
+            <year>2019</year>
+            <month>Feb</month>
+            <day>15</day>
+            <volume>277</volume>
+            <fpage>224</fpage>
+            <page-range>224-228</page-range>
+            <pub-id pub-id-type="pmid">30236497</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Asuzu</surname>
+                <given-names>DT</given-names>
+              </name>
+              <name>
+                <surname>Chao</surname>
+                <given-names>GF</given-names>
+              </name>
+              <name>
+                <surname>Pei</surname>
+                <given-names>KY</given-names>
+              </name>
+            </person-group>
+            <article-title>Revised cardiac risk index poorly predicts cardiovascular complications after adhesiolysis for small bowel obstruction.</article-title>
+            <source>Surgery</source>
+            <year>2018</year>
+            <month>Dec</month>
+            <volume>164</volume>
+            <issue>6</issue>
+            <fpage>1198</fpage>
+            <page-range>1198-1203</page-range>
+            <pub-id pub-id-type="pmid">29945781</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wotton</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Marshall</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kerr</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Bishay</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Kalkat</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Rajesh</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Steyn</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Naidu</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Abdelaziz</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Hussain</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Does the revised cardiac risk index predict cardiac complications following elective lung resection?</article-title>
+            <source>J Cardiothorac Surg</source>
+            <year>2013</year>
+            <month>Dec</month>
+            <day>01</day>
+            <volume>8</volume>
+            <fpage>220</fpage>
+            <pub-id pub-id-type="pmid">24289748</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ford</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>Beattie</surname>
+                <given-names>WS</given-names>
+              </name>
+              <name>
+                <surname>Wijeysundera</surname>
+                <given-names>DN</given-names>
+              </name>
+            </person-group>
+            <article-title>Systematic review: prediction of perioperative cardiac complications and mortality by the revised cardiac risk index.</article-title>
+            <source>Ann Intern Med</source>
+            <year>2010</year>
+            <month>Jan</month>
+            <day>05</day>
+            <volume>152</volume>
+            <issue>1</issue>
+            <fpage>26</fpage>
+            <page-range>26-35</page-range>
+            <pub-id pub-id-type="pmid">20048269</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <collab>VISION Pilot Study Investigators</collab>
+              <name>
+                <surname>Devereaux</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name>
+                <surname>Bradley</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Chan</surname>
+                <given-names>MT</given-names>
+              </name>
+              <name>
+                <surname>Walsh</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Villar</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>Polanczyk</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Seligman</surname>
+                <given-names>BG</given-names>
+              </name>
+              <name>
+                <surname>Guyatt</surname>
+                <given-names>GH</given-names>
+              </name>
+              <name>
+                <surname>Alonso-Coello</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Berwanger</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Heels-Ansdell</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Simunovic</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Sch&#x000fc;nemann</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Yusuf</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>An international prospective cohort study evaluating major vascular complications among patients undergoing noncardiac surgery: the VISION Pilot Study.</article-title>
+            <source>Open Med</source>
+            <year>2011</year>
+            <volume>5</volume>
+            <issue>4</issue>
+            <fpage>e193</fpage>
+            <page-range>e193-200</page-range>
+            <pub-id pub-id-type="pmid">22567075</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rodseth</surname>
+                <given-names>RN</given-names>
+              </name>
+              <name>
+                <surname>Biccard</surname>
+                <given-names>BM</given-names>
+              </name>
+              <name>
+                <surname>Le Manach</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Sessler</surname>
+                <given-names>DI</given-names>
+              </name>
+              <name>
+                <surname>Lurati Buse</surname>
+                <given-names>GA</given-names>
+              </name>
+              <name>
+                <surname>Thabane</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Schutt</surname>
+                <given-names>RC</given-names>
+              </name>
+              <name>
+                <surname>Bolliger</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Cagini</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Cardinale</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Chong</surname>
+                <given-names>CP</given-names>
+              </name>
+              <name>
+                <surname>Chu</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Cnotliwy</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Di Somma</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Fahrner</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Lim</surname>
+                <given-names>WK</given-names>
+              </name>
+              <name>
+                <surname>Mahla</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Manikandan</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Puma</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Pyun</surname>
+                <given-names>WB</given-names>
+              </name>
+              <name>
+                <surname>Radovi&#x00107;</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Rajagopalan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Suttie</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Vanniyasingam</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>van Gaal</surname>
+                <given-names>WJ</given-names>
+              </name>
+              <name>
+                <surname>Waliszek</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Devereaux</surname>
+                <given-names>PJ</given-names>
+              </name>
+            </person-group>
+            <article-title>The prognostic value of pre-operative and post-operative B-type natriuretic peptides in patients undergoing noncardiac surgery: B-type natriuretic peptide and N-terminal fragment of pro-B-type natriuretic peptide: a systematic review and individual patient data meta-analysis.</article-title>
+            <source>J Am Coll Cardiol</source>
+            <year>2014</year>
+            <month>Jan</month>
+            <day>21</day>
+            <volume>63</volume>
+            <issue>2</issue>
+            <fpage>170</fpage>
+            <page-range>170-80</page-range>
+            <pub-id pub-id-type="pmid">24076282</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Duceppe</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Parlow</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>MacDonald</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Lyons</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>McMullen</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Srinathan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Graham</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Tandon</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Styles</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Bessissow</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Sessler</surname>
+                <given-names>DI</given-names>
+              </name>
+              <name>
+                <surname>Bryson</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Devereaux</surname>
+                <given-names>PJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Canadian Cardiovascular Society Guidelines on Perioperative Cardiac Risk Assessment and Management for Patients Who Undergo Noncardiac Surgery.</article-title>
+            <source>Can J Cardiol</source>
+            <year>2017</year>
+            <month>Jan</month>
+            <volume>33</volume>
+            <issue>1</issue>
+            <fpage>17</fpage>
+            <page-range>17-32</page-range>
+            <pub-id pub-id-type="pmid">27865641</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wilcox</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Smilowitz</surname>
+                <given-names>NR</given-names>
+              </name>
+              <name>
+                <surname>Xia</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Berger</surname>
+                <given-names>JS</given-names>
+              </name>
+            </person-group>
+            <article-title>Cardiovascular Risk Scores to Predict Perioperative Stroke in Noncardiac Surgery.</article-title>
+            <source>Stroke</source>
+            <year>2019</year>
+            <month>Aug</month>
+            <volume>50</volume>
+            <issue>8</issue>
+            <fpage>2002</fpage>
+            <page-range>2002-2006</page-range>
+            <pub-id pub-id-type="pmid">31234757</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Thomas</surname>
+                <given-names>DC</given-names>
+              </name>
+              <name>
+                <surname>Blasberg</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Arnold</surname>
+                <given-names>BN</given-names>
+              </name>
+              <name>
+                <surname>Rosen</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>Salazar</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Detterbeck</surname>
+                <given-names>FC</given-names>
+              </name>
+              <name>
+                <surname>Boffa</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>AW</given-names>
+              </name>
+            </person-group>
+            <article-title>Validating the Thoracic Revised Cardiac Risk Index Following Lung Resection.</article-title>
+            <source>Ann Thorac Surg</source>
+            <year>2017</year>
+            <month>Aug</month>
+            <volume>104</volume>
+            <issue>2</issue>
+            <fpage>389</fpage>
+            <page-range>389-394</page-range>
+            <pub-id pub-id-type="pmid">28499655</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <collab>Vascular Events in Noncardiac Surgery Patients Cohort Evaluation (VISION) Study Investigators</collab>
+              <name>
+                <surname>Spence</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>LeManach</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Chan</surname>
+                <given-names>MTV</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>CY</given-names>
+              </name>
+              <name>
+                <surname>Sigamani</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Xavier</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Pearse</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Alonso-Coello</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Garutti</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Srinathan</surname>
+                <given-names>SK</given-names>
+              </name>
+              <name>
+                <surname>Duceppe</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Walsh</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Borges</surname>
+                <given-names>FK</given-names>
+              </name>
+              <name>
+                <surname>Malaga</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Abraham</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Faruqui</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Berwanger</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Biccard</surname>
+                <given-names>BM</given-names>
+              </name>
+              <name>
+                <surname>Villar</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>Sessler</surname>
+                <given-names>DI</given-names>
+              </name>
+              <name>
+                <surname>Kurz</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Chow</surname>
+                <given-names>CK</given-names>
+              </name>
+              <name>
+                <surname>Polanczyk</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Szczeklik</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Ackland</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>X</surname>
+                <given-names>GA</given-names>
+              </name>
+              <name>
+                <surname>Jacka</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Guyatt</surname>
+                <given-names>GH</given-names>
+              </name>
+              <name>
+                <surname>Sapsford</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Williams</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Cortes</surname>
+                <given-names>OL</given-names>
+              </name>
+              <name>
+                <surname>Coriat</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Patel</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Tiboni</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Belley-C&#x000f4;t&#x000e9;</surname>
+                <given-names>EP</given-names>
+              </name>
+              <name>
+                <surname>Yang</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Heels-Ansdell</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>McGillion</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Parlow</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Patel</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Pettit</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Yusuf</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Devereaux</surname>
+                <given-names>PJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Association between complications and death within 30 days after noncardiac surgery.</article-title>
+            <source>CMAJ</source>
+            <year>2019</year>
+            <month>Jul</month>
+            <day>29</day>
+            <volume>191</volume>
+            <issue>30</issue>
+            <fpage>E830</fpage>
+            <page-range>E830-E837</page-range>
+            <pub-id pub-id-type="pmid">31358597</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bertges</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Goodney</surname>
+                <given-names>PP</given-names>
+              </name>
+              <name>
+                <surname>Zhao</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Schanzer</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Nolan</surname>
+                <given-names>BW</given-names>
+              </name>
+              <name>
+                <surname>Likosky</surname>
+                <given-names>DS</given-names>
+              </name>
+              <name>
+                <surname>Eldrup-Jorgensen</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Cronenwett</surname>
+                <given-names>JL</given-names>
+              </name>
+              <collab>Vascular Study Group of New England</collab>
+            </person-group>
+            <article-title>The Vascular Study Group of New England Cardiac Risk Index (VSG-CRI) predicts cardiac complications more accurately than the Revised Cardiac Risk Index in vascular surgery patients.</article-title>
+            <source>J Vasc Surg</source>
+            <year>2010</year>
+            <month>Sep</month>
+            <volume>52</volume>
+            <issue>3</issue>
+            <fpage>674</fpage>
+            <page-range>674-83, 683.e1-683.e3</page-range>
+            <pub-id pub-id-type="pmid">20570467</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Alrezk</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Jackson</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Al Rezk</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Elashoff</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Weintraub</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Elashoff</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Fonarow</surname>
+                <given-names>GC</given-names>
+              </name>
+            </person-group>
+            <article-title>Derivation and Validation of a Geriatric-Sensitive Perioperative Cardiac Risk Index.</article-title>
+            <source>J Am Heart Assoc</source>
+            <year>2017</year>
+            <month>Nov</month>
+            <day>16</day>
+            <volume>6</volume>
+            <issue>11</issue>
+            <pub-id pub-id-type="pmid">29146612</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dakik</surname>
+                <given-names>HA</given-names>
+              </name>
+              <name>
+                <surname>Chehab</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Eldirani</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Sbeity</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Karam</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Abou Hassan</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Msheik</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Hassan</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Msheik</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kaspar</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Makki</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Tamim</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>A New Index for Pre-Operative Cardiovascular Evaluation.</article-title>
+            <source>J Am Coll Cardiol</source>
+            <year>2019</year>
+            <month>Jun</month>
+            <day>25</day>
+            <volume>73</volume>
+            <issue>24</issue>
+            <fpage>3067</fpage>
+            <page-range>3067-3078</page-range>
+            <pub-id pub-id-type="pmid">31221255</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38286.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sabat&#x000e9;</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Mases</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Guilera</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Canet</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Castillo</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Orrego</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Sabat&#x000e9;</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Fita</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Parram&#x000f3;n</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Paniagua</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Rodr&#x000ed;guez</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Sabat&#x000e9;</surname>
+                <given-names>M</given-names>
+              </name>
+              <collab>ANESCARDIOCAT Group</collab>
+            </person-group>
+            <article-title>Incidence and predictors of major perioperative adverse cardiac and cerebrovascular events in non-cardiac surgery.</article-title>
+            <source>Br J Anaesth</source>
+            <year>2011</year>
+            <month>Dec</month>
+            <volume>107</volume>
+            <issue>6</issue>
+            <fpage>879</fpage>
+            <page-range>879-90</page-range>
+            <pub-id pub-id-type="pmid">21890661</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

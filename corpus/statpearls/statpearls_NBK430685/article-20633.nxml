@@ -1,0 +1,1825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-20633" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Diffusing Capacity of the Lungs for Carbon Monoxide</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Goldin</surname>
+            <given-names>Jennifer</given-names>
+          </name>
+          <aff>Wright State University School of Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Cascella</surname>
+            <given-names>Marco</given-names>
+          </name>
+          <aff>Istituto Nazionale Tumori - IRCCS - Fondazione Pascale, Via Mariano Semmola 80100, Napoli. Italy</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Jennifer Goldin declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Marco Cascella declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>6</day>
+          <month>10</month>
+          <year>2024</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-20633.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>The diffusing capacity of the lungs for carbon monoxide (DLCO), also known as the transfer factor for carbon monoxide (TLCO), measures the amount of carbon monoxide (CO) transferred per minute from alveolar gas to red blood cells (RBCs). This test provides critical insights into the lungs' ability to transfer oxygen from inhaled air to the bloodstream, making it essential for diagnosing and monitoring various pulmonary conditions.<xref ref-type="bibr" rid="article-20633.r1">[1]</xref>&#x000a0;Expressed in mL/min/mm Hg or mmol/min/kPa, the DLCO represents the volume of CO (in mL) transferred per minute for each unit of pressure difference (in mm Hg) across the total available functioning gas exchange surface in the lungs.</p>
+        <p>Clinicians use inhaled CO for this test because of its&#x000a0;strong&#x000a0;affinity for hemoglobin (Hgb).&#x000a0;Oxygen is not preferred due to its weaker&#x000a0;interaction with Hgb. Cardiac output and overall body consumption also limit&#x000a0;oxygen uptake.&#x000a0;Due to CO's strong binding to Hgb, this gas' absorption is primarily limited by changes to the alveolar-capillary membrane rather than blood flow, enabling clinicians to evaluate the membrane's integrity.</p>
+        <p>The DLCO helps evaluate patients with dyspnea, hypoxemia, emphysema, and interstitial lung disease (ILD) and serves as an early indicator for conditions like idiopathic pulmonary fibrosis (IPF) before spirometric changes are detectable. Additionally, DLCO determination helps clinicians monitor disease progression and therapy response and predict mortality.&#x000a0;Any condition&#x000a0;that reduces oxygen uptake will&#x000a0;produce&#x000a0;a similar decrease in CO uptake. Overlooking a low DLCO may be a missed opportunity for early intervention.</p>
+        <p>The Fick equation for&#x000a0;gas diffusion helps explain the physiologic factors that affect the DLCO. The respiratory membrane forms the diffusing barrier and separates air within the alveoli from blood flowing in the pulmonary capillaries. The membrane consists of the alveolar epithelium, interstitium, and capillary endothelium. The DLCO results from 2 main measurements:&#x000a0;alveolar volume accessible during a 10-second breath hold (Va) and the rate of alveolar capillary blood CO uptake (Kco).</p>
+        <p>The Fick equation is:</p>
+        <p>Vg=[k*(A)(&#x00394;P)] / T ,</p>
+        <p>where V is the volume of gas transferred per unit of time,&#x000a0;K is the diffusion coefficient of the gas, A is the surface area for gas exchange, &#x00394;P is the partial pressure difference of gas, and&#x000a0;T is the membrane thickness. The Fick equation demonstrates that factors that influence the movement of gas molecules across the capillary membrane&#x000a0;include the membrane's surface area&#x000a0;and thickness,&#x000a0;as well as the driving pressure or pressure gradient across the capillary membrane.<xref ref-type="bibr" rid="article-20633.r2">[2]</xref><xref ref-type="bibr" rid="article-20633.r3">[3]</xref></p>
+        <p>Alterations in respiratory membrane properties,&#x000a0;Hgb levels, and capillary blood volume contribute to DLCO variations. Gas diffusion across the alveolar membrane increases&#x000a0;when the&#x000a0;membrane surface area,&#x000a0;alveolar pressure&#x000a0;gradient, or&#x000a0;gas solubility increases or when the membrane becomes thinner. Conversely, membrane thickening or a decrease in the&#x000a0;membrane surface area,&#x000a0;alveolar pressure&#x000a0;gradient, or&#x000a0;gas solubility reduces gas diffusion across the alveolar membrane.</p>
+        <p>Blood in the airways can also bind CO, and the DLCO&#x000a0;may rise&#x000a0;in the presence of hemoptysis and pulmonary hemorrhage.&#x000a0;In contrast, anemia can decrease the DLCO.&#x000a0;Measuring the DLCO is relatively simple and carries minimal risk, yet it provides&#x000a0;critical insights into lung function, facilitating early detection and&#x000a0;management&#x000a0;of abnormalities. Incorporating DLCO testing into routine pulmonary evaluations can significantly improve patient outcomes and quality of care.</p>
+      </sec>
+      <sec id="article-20633.s2" sec-type="Procedures">
+        <title>Procedures</title>
+        <p>
+<bold>Technique</bold>
+</p>
+        <p>Most pulmonary function laboratories measure the DLCO by using the single-breath&#x000a0;method. Additional methods are the intrabreath and rebreathing techniques.&#x000a0;In preparation, patients&#x000a0;are instructed to avoid smoking on the day of the test or at least 4 hours before the test, avoid exercise before testing, and discontinue supplemental oxygen 15 minutes before the test. The patient is seated with a nose clip and mouthpiece in place, breathing normally until instructed to exhale fully to residual volume. The mouthpiece is connected to a test gas mixture containing 0.3% CO, a tracer gas of either 10% helium or 0.3% methane, oxygen, and nitrogen. The subject then inhales rapidly to total lung capacity (TLC) within 4 seconds.</p>
+        <p>The patient holds their breath for 10 seconds at TLC and then exhales completely. Classically, the first 0.75 to 1 L is discarded as dead space gas, followed by a collection of a&#x000a0;0.5- to 1-L sample for analysis. Newer systems can collect a sample of 85 mL for analysis immediately after the dead space washout. Clinicians analyze the collected gas for CO and tracer concentrations and repeat the test after a minimum of 4 minutes with an average of 2 or more attempts considered for DLCO calculation in the single breath-holding technique (see <bold>Image.&#x000a0;</bold>Single-Breath&#x000a0;Diffusing Capacity of Carbon Monoxide). At least 2 tests must be within 2 mL/min/mm Hg (0.67 mmol/min/kPa). Patients should not undergo more than 5 tests per session; more tests can decrease the DLCO by up to 3.5%.<xref ref-type="bibr" rid="article-20633.r4">[4]</xref></p>
+        <p>
+<bold>Criteria for an Acceptable Diffusing Capacity for Carbon Monoxide Maneuver</bold>
+</p>
+        <p>The criteria for an acceptable DLCO maneuver include:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>The inspiratory volume (VI) should be 90% or more of the largest measurement for vital capacity (VC).</p>
+          </list-item>
+          <list-item>
+            <p>The patient must inhale at least 85% of the test gas VI in less than 4 seconds.</p>
+          </list-item>
+          <list-item>
+            <p>The calculated breath-hold time should be 10&#x000b1;2 seconds.</p>
+          </list-item>
+          <list-item>
+            <p>No evidence exists of a Mueller or Valsalva maneuver based on observations of the patient during the maneuver and a review of the mouth pressure tracing.</p>
+          </list-item>
+        </list>
+        <p>Many machines may be unable to calculate a DLCO if the patient's&#x000a0;VC is less than 1.5 L. Total lung volume, initial and final CO concentration, and breath-holding time are used to calculate the DLCO. The recommended timing method is the Jones and Meade method, where the breath-hold time equals the time starting from 0.3 of the inspiratory time to the middle of the sample collection time.<xref ref-type="bibr" rid="article-20633.r5">[5]</xref></p>
+        <p>The intrabreath method and breathing technique are not standard in clinical practice. The rebreathing technique is often used during research on diffusing capacity during exercise.&#x000a0;A rubber bag filled with a standard single-breath DLCO gas mixture is used. The intrabreath method measures CO on exhalation. Gas that exits during the initial exhalation phase has less time to diffuse from the alveoli to the capillaries and a higher CO concentration than during later exhalation stages. When collecting a continuous set of alveolar gas samples separated by time, the differences between these samples can determine the DLCO.</p>
+        <p>A study by Liu et al reveals that the rebreathing technique is more consistent with respiratory system physiology and could be a better test for measuring&#x000a0;the DLCO than the intrabreath method.<xref ref-type="bibr" rid="article-20633.r6">[6]</xref><xref ref-type="bibr" rid="article-20633.r7">[7]</xref><xref ref-type="bibr" rid="article-20633.r8">[8]</xref> Another study conducted by Suzuki et al. shows that the intrabreath method is a reliable alternative to the single-breath method in measuring the DLCO.<xref ref-type="bibr" rid="article-20633.r9">[9]</xref></p>
+        <p>
+<bold>Contraindications</bold>
+</p>
+        <p>Patients should not be tested within 1 month of a myocardial infarction, according to the American Thoracic Society/European Respiratory Society Task Force: Standardisation of Lung Function Testing. Relative contraindications to DLCO measurement include chest or abdominal pain, oral or facial pain, stress incontinence, and&#x000a0;dementia or confusional state.<xref ref-type="bibr" rid="article-20633.r10">[10]</xref></p>
+      </sec>
+      <sec id="article-20633.s3" sec-type="Indications">
+        <title>Indications</title>
+        <p>The DLCO is a versatile test, especially when combined with spirometry.&#x000a0;This parameter provides clinicians with information about parenchymal and nonparenchymal lung diseases, sheds light on the underlying cause of hypoxemia and dyspnea, assesses the severity of obstructive and restrictive lung diseases, evaluates pulmonary vascular disease, and predicts preoperative risk.<xref ref-type="bibr" rid="article-20633.r11">[11]</xref><xref ref-type="bibr" rid="article-20633.r12">[12]</xref>&#x000a0;</p>
+        <p>
+<bold>Evaluation of Obstructive Lung Disease</bold>
+</p>
+        <p>The DLCO correlates with lung density reduction in smokers with airway obstruction. Patients with emphysema and a baseline DLCO of less than 60% of the predicted value have an increased all-cause mortality rate.&#x000a0;Patients with chronic obstructive pulmonary disease (COPD) and low DLCO values face a higher exacerbation risk, more severe symptoms, reduced exercise capacity, and increased COPD-related mortality.<xref ref-type="bibr" rid="article-20633.r13">[13]</xref></p>
+        <p>If the DLCO is considerably lower than expected, patients are at higher risk for group 3 pulmonary hypertension, with the severity of DLCO impairment linked to increased hospitalizations and mortality.&#x000a0;A smoker&#x000a0;with airway obstruction&#x000a0;and a normal DLCO typically has chronic obstructive bronchitis rather than emphysema. Patients with asthma generally have normal or high DLCO values.&#x000a0;Individuals with cystic fibrosis have a normal DLCO until their condition worsens.<xref ref-type="bibr" rid="article-20633.r14">[14]</xref><xref ref-type="bibr" rid="article-20633.r15">[15]</xref>&#x000a0;</p>
+        <p>
+<bold>Evaluation for Interstitial Lung Disease</bold>
+</p>
+        <p>Patients with sarcoidosis, hypersensitivity pneumonitis, a history of chest irradiation or chemotherapy, rheumatic diseases, or&#x000a0;significant intake of medications with known pulmonary toxicity, such as amiodarone, bleomycin, and nitrofurantoin, are at high risk for interstitial lung disease (ILD).&#x000a0;These individuals may benefit from DLCO measurement before symptoms appear.</p>
+        <p>
+<bold>Monitoring Known Interstitial Lung Disease</bold>
+</p>
+        <p>Establishing a baseline DLCO before initiating therapy for ILD, along with subsequent measurements, may provide a more accurate indicator of disease progression or response to therapy than assessing TLC and VC.&#x000a0;Monitoring the DLCO can enhance clinical decision-making and optimize patient management.<xref ref-type="bibr" rid="article-20633.r16">[16]</xref></p>
+        <p>
+<bold>Evaluation for Disability Due to Pulmonary Condition</bold>
+</p>
+        <p>The DLCO is a tangible measurement used in determining disability due to COPD.&#x000a0;According to standards set by the United States Social Security Administration, a DLCO below 40% of the predicted value or less than 9 mL/min/mm Hg may qualify a patient for total disability. However, the American Medical Association and American Thoracic Society use 45%&#x000a0;of the predicted value as the cutoff.&#x000a0;</p>
+        <p>
+<bold>Evaluation for Pulmonary Vascular Disease</bold>
+</p>
+        <p>Another benefit of the DLCO is its ability to signal pulmonary vascular disease. Patients with dyspnea and normal spirometry and lung volumes but a low DLCO may have pulmonary vascular disease. Potential causes are chronic recurrent pulmonary emboli or chronic thromboembolic pulmonary hypertension, idiopathic pulmonary arterial hypertension,&#x000a0;rheumatic diseases, and heart failure.<xref ref-type="bibr" rid="article-20633.r17">[17]</xref><xref ref-type="bibr" rid="article-20633.r18">[18]</xref></p>
+        <p>
+<bold>Investigation of Restrictive Lung Disease</bold>
+</p>
+        <p>Restrictive lung disease appears as reduced TLC and VC on spirometry. Low lung volumes and a reduced DLCO suggest ILD. A normal DLCO with decreased lung volumes suggests an extrapulmonary cause of the restriction, like obesity, pleural thickening, or neuromuscular weakness.&#x000a0;</p>
+        <p>
+<bold>Postoperative Complications</bold>
+</p>
+        <p>The DLCO also serves as a predictor of postoperative complications in patients undergoing lung resection for lung cancer and lung volume reduction surgery. A low DLCO translates to a higher risk of morbidity and mortality after lung resection for lung cancer. Additionally, studies indicate that a DLCO of less than 20% is a significant predictor of poor outcomes following lung volume reduction surgery.<xref ref-type="bibr" rid="article-20633.r19">[19]</xref><xref ref-type="bibr" rid="article-20633.r20">[20]</xref></p>
+        <p>
+<bold>Need for Oxygen Therapy</bold>
+</p>
+        <p>A DLCO below 50% of the predicted value indicates a high risk of oxygen desaturation during exertion, making DLCO measurement a helpful screening tool for patients with exertional dyspnea.<xref ref-type="bibr" rid="article-20633.r21">[21]</xref>&#x000a0;However, a normal DLCO does not rule out oxygen desaturation. Before starting oxygen therapy, clinicians should confirm arterial oxygen desaturation using pulse oximetry or arterial blood gas analysis.</p>
+      </sec>
+      <sec id="article-20633.s4" sec-type="Normal and Critical Findings">
+        <title>Normal and Critical Findings</title>
+        <p>The DLCO is the product of 2 primary measurements: Va and Kco. Va is calculated by analyzing the change in concentration of an inhaled inert gas, such as helium or methane, after it disperses throughout the lungs. Since inert gases are not absorbed by pulmonary tissues or the capillary bed like oxygen, any change in their concentration reflects dilution in the lung volume. With helium as the inert gas, the concentration of inhaled helium (He<sub>i</sub>) and the inhaled volume (Vi) are known, allowing the volume of lungs exposed to helium (Va) to be determined by measuring the concentration of exhaled helium (He<sub>e</sub>). The equation Vi&#x02009;&#x000d7;&#x02009;He<sub>i</sub>&#x02009;=&#x02009;Va&#x02009;&#x000d7;&#x02009;He<sub>e</sub>&#x000a0;is then applied. Vi is the inhaled gas volume minus dead space, as dead space does not contain inert gas. Va is calculated using the equation&#x000a0;Va&#x02009;=&#x02009;Vi&#x02009;&#x000d7;&#x02009;He<sub>i</sub>/He<sub>e</sub>.</p>
+        <p>The difference between the initial and final alveolar CO concentrations during a single 10-second breath-hold determines the rate of CO uptake. Clinicians use the following formula: Kco&#x02009;=&#x02009;log<sub>e</sub>(CO<sub>o</sub>/CO<sub>e</sub>)/t, where&#x000a0;CO<sub>o</sub>&#x000a0;is the initial alveolar concentration, CO<sub>e</sub>&#x000a0;is the alveolar concentration at the end of the breath-hold, and t is the breath-hold time in seconds.&#x000a0;CO<sub>o</sub> is not measured directly.&#x000a0;CO is diluted proportionally&#x000a0;by the inert gas with a single breath-hold. Thus,&#x000a0;at the end of inhalation, CO<sub>o</sub> can be calculated using CO<sub>o</sub> = CO<sub>i</sub>(He<sub>e</sub>/He<sub>i</sub>). The final DLCO value is derived from the equation: DLCO=&#x02009;Va&#x02009;&#x000d7;&#x02009;Kco.</p>
+        <p>Fick's law of diffusion helps explain factors influencing gas diffusion across the alveolar-capillary barrier when expected values do not align with clinical findings or other pulmonary function test results. Please refer to the&#x000a0;<bold>Introduction&#x000a0;</bold>section for additional information regarding Fick's law of diffusion.</p>
+        <p>For example, after a pneumonectomy, one may reasonably expect a proportionate decrease in the DLCO due to the reduced alveolar volume. However, blood flow from the lost alveolar units is redirected to the remaining ones, slightly increasing the Kco, leading to a less pronounced decline in the DLCO than in Va, which may not always be proportional.</p>
+        <p>If a patient does not have a previous DLCO for comparison, clinicians interpret their result by comparing it with the normal distribution using a z-score, which is more consistent across age and sex compared with the percent of the predicted value. See <bold>Table 1</bold> for a description of the severity of impairment based on the patient's z-score or DLCO.<xref ref-type="bibr" rid="article-20633.r22">[22]</xref><xref ref-type="bibr" rid="article-20633.r23">[23]</xref></p>
+        <table-wrap id="article-20633.table0" position="float" orientation="portrait">
+          <caption>
+            <title>Table 1.&#x000a0;Disease Severity Based on the DLCO or Z-score</title>
+          </caption>
+          <table style="width: 800px;" border="1" cellspacing="1" cellpadding="5">
+            <tbody>
+              <tr>
+                <td style="width: 59px;" rowspan="1" colspan="1">
+<p><bold>DLCO</bold></p>
+<p><bold>Z-score</bold></p>
+</td>
+                <td style="width: 80.6278px;" rowspan="1" colspan="1">
+<bold>Impairment</bold>
+</td>
+                <td style="width: 78.3722px;" rowspan="1" colspan="1">
+<p><bold>DLCO % of the predicted value (Z-score unavailable)&#x000a0;</bold></p>
+</td>
+              </tr>
+              <tr>
+                <td style="width: 59px;" rowspan="1" colspan="1">&#x0003e;1.645</td>
+                <td style="width: 80.6278px;" rowspan="1" colspan="1">Abnormally high</td>
+                <td style="width: 78.3722px;" rowspan="1" colspan="1">&#x0003e;140%</td>
+              </tr>
+              <tr>
+                <td style="width: 59px;" rowspan="1" colspan="1">-1.645 to 1.645</td>
+                <td style="width: 80.6278px;" rowspan="1" colspan="1">Normal</td>
+                <td style="width: 78.3722px;" rowspan="1" colspan="1">76% to 140%</td>
+              </tr>
+              <tr>
+                <td style="width: 59px;" rowspan="1" colspan="1">-1.65 to -2.5</td>
+                <td style="width: 80.6278px;" rowspan="1" colspan="1">Mild</td>
+                <td style="width: 78.3722px;" rowspan="1" colspan="1">61% to 75%</td>
+              </tr>
+              <tr style="height: 13px;">
+                <td style="height: 13px; width: 59px;" rowspan="1" colspan="1">-2.5 to -4.0</td>
+                <td style="height: 13px; width: 80.6278px;" rowspan="1" colspan="1">Moderate</td>
+                <td style="height: 13px; width: 78.3722px;" rowspan="1" colspan="1">41% to 60%</td>
+              </tr>
+              <tr style="height: 13px;">
+                <td style="height: 13px; width: 59px;" rowspan="1" colspan="1">&#x0003c;-4.00</td>
+                <td style="height: 13px; width: 80.6278px;" rowspan="1" colspan="1">Severe</td>
+                <td style="height: 13px; width: 78.3722px;" rowspan="1" colspan="1">&#x0003c;40%</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <p>
+<bold>Conditions Affecting the Diffusing Capacity for Carbon Monoxide</bold>
+</p>
+        <p>Various conditions can affect the&#x000a0;DLCO, either increasing or decreasing its value.&#x000a0;These changes can help clinicians assess and diagnose underlying pulmonary or systemic conditions.</p>
+        <p>Conditions that&#x000a0;increase&#x000a0;the DLCO include:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Altitude</p>
+          </list-item>
+          <list-item>
+            <p>Asthma</p>
+          </list-item>
+          <list-item>
+            <p>Polycythemia</p>
+          </list-item>
+          <list-item>
+            <p>Exercise</p>
+          </list-item>
+          <list-item>
+            <p>Severe obesity</p>
+          </list-item>
+          <list-item>
+            <p>Left-to-right cardiac shunt</p>
+          </list-item>
+          <list-item>
+            <p>Mueller maneuver</p>
+          </list-item>
+          <list-item>
+            <p>Supine position</p>
+          </list-item>
+          <list-item>
+            <p>Bronchodilator use</p>
+          </list-item>
+          <list-item>
+            <p>Mild left heart failure due to increased pulmonary capillary blood volume</p>
+          </list-item>
+          <list-item>
+            <p>Pulmonary hemorrhage</p>
+          </list-item>
+        </list>
+        <p>Meanwhile, conditions that decrease&#x000a0;the DLCO include:&#x000a0;</p>
+        <list list-type="bullet">
+          <list-item>
+            <p><bold>States with normal lung volumes:&#x000a0;</bold>Anemia, pulmonary vascular disease, early ILD, and the Valsalva maneuver</p>
+          </list-item>
+          <list-item>
+            <p><bold>Pathologies with obstruction and a low DLCO,&#x000a0;with or without concurrent restriction:</bold>&#x000a0;Bronchiolitis, cystic fibrosis, &#x003b1;1-antitrypsin deficiency, emphysema, ILD in patients with COPD, sarcoidosis, lymphangioleiomyomatosis, and combined pulmonary fibrosis and emphysema</p>
+          </list-item>
+          <list-item>
+            <p><bold>Disorders with restriction and a low&#x000a0;<bold>DLCO</bold>:&#x000a0;</bold>ILD and pneumonitis</p>
+          </list-item>
+          <list-item>
+            <p><bold>Conditions with restriction and a normal&#x000a0;<bold><bold>DLCO</bold></bold>:&#x000a0;</bold>Likely&#x000a0;an extrapulmonary cause like&#x000a0;pleural effusion, pleural thickening, neuromuscular weakness, or kyphoscoliosis</p>
+          </list-item>
+          <list-item>
+            <p><bold>States with a low DLCO but&#x000a0;with normal spirometry:&#x000a0;</bold>Pulmonary vascular disease, early ILD, anemia, hepatopulmonary syndrome, and an increased&#x000a0;carboxyhemoglobin (COHb) level due to cigarette smoking&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p><bold>Other: </bold>Supplemental oxygen</p>
+          </list-item>
+        </list>
+        <p>The effects of these conditions are explained further&#x000a0;under <bold>Interfering Factors</bold>.</p>
+      </sec>
+      <sec id="article-20633.s5" sec-type="Interfering Factors">
+        <title>Interfering Factors</title>
+        <p>Several factors can influence the DLCO, making it important to account for specific patient conditions during testing. Understanding these influences allows for a more accurate interpretation of the test and better insight into a patient's pulmonary function.</p>
+        <p>
+<bold>Smoking</bold>
+</p>
+        <p>The DLCO is lower in current smokers than in nonsmokers or previous smokers, partially due to&#x000a0;increased COHb levels. A 1% COHb level increase correlates with a 1% decrease in the DLCO. Patients should refrain from smoking the day of the test or at least 4 hours before DLCO measurement.<xref ref-type="bibr" rid="article-20633.r24">[24]</xref>&#x000a0;</p>
+        <p>
+<bold>Supplemental Oxygen</bold>
+</p>
+        <p>The use of supplemental oxygen can decrease the DLCO by approximately 0.35% per mm Hg change in arterial oxygen tension. Patients should avoid supplemental oxygen use for 10 to 15 minutes before testing.</p>
+        <p>
+<bold>Anemia</bold>
+</p>
+        <p>Anemia reduces blood's CO-carrying capacity, consequently reducing&#x000a0;the DLCO. Patients with known or suspected anemia should have their&#x000a0;Hgb level measured at the time of DLCO testing to enable the calculation of an adjusted percent predicted DLCO.&#x000a0;Current formulas used to adjust for&#x000a0;Hgb values include the following:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Adolescent boys and men: DLCO (predicted for Hgb) = DLCO (predicted) x [1.7 Hgb/(10.22 + Hgb)]</p>
+          </list-item>
+          <list-item>
+            <p>Children younger than 15 years and women: DLCO (predicted for Hgb) = DLCO (predicted) x [1.7 Hgb/(9.38 + Hgb)]</p>
+          </list-item>
+        </list>
+        <p>
+<bold>High Altitude</bold>
+</p>
+        <p>Individuals residing at high altitudes typically have elevated&#x000a0;Hgb levels and reduced arterial oxygen concentrations, resulting in less competition for&#x000a0;CO binding to Hgb. Consequently, DLCO measurements are generally higher compared to tests performed at sea level. Laboratories in high-altitude regions may, therefore, utilize the standardized DLCO reference values established by Robert Crapo for such environments.<xref ref-type="bibr" rid="article-20633.r25">[25]</xref></p>
+        <p>
+<bold>Volume Correction</bold>
+</p>
+        <p>The DLCO is the product of the measured values for Kco&#x000a0;and Va. The Kco often appears as "DLCO/Va" on pulmonary function test reports. Different clinical scenarios affecting lung volumes affect the Kco. The DLCO declines in healthy patients, and the&#x000a0;Kco increases when the lung volume becomes smaller. The&#x000a0;Kco reflects the efficiency of alveolar CO uptake at a given volume.&#x000a0;</p>
+        <p>
+<bold>Incomplete Lung Expansion</bold>
+</p>
+        <p>Inadequate lung expansion results from conditions such as&#x000a0;kyphoscoliosis, obesity,&#x000a0;and neuromuscular disorders. Individuals affected by these conditions have an elevated&#x000a0;Kco (DLCO/Va).<xref ref-type="bibr" rid="article-20633.r26">[26]</xref></p>
+        <p>
+<bold>
+<bold>Pneumonectomy</bold>
+</bold>
+</p>
+        <p>The&#x000a0;loss of alveolar units decreases Va. Kco increases due to blood diversion to the remaining lung. The overall result is a slight decrease in the DLCO.</p>
+        <p>
+<bold>
+<bold>
+<bold>Emphysema</bold>
+</bold>
+</bold>
+</p>
+        <p>Emphysema is associated with alveolar capillary damage, resulting in a loss of gas exchange surface. This damage subsequently causes a decrease in the DLCO.</p>
+        <p>
+<bold>
+<bold>Interstitial Lung Disease</bold>
+</bold>
+</p>
+        <p>Diffuse alveolar-capillary damage reduces the DLCO.&#x000a0;The loss of aerated alveoli decreases the Va.</p>
+        <p>
+<bold>
+<bold>Pulmonary Vascular Disease</bold>
+</bold>
+</p>
+        <p>Pulmonary vascular disease, particularly pulmonary hypertension, decreases the DLCO. Impairment at the alveolar-capillary interface further reduces the Kco.</p>
+        <p>
+<bold>Other</bold>
+</p>
+        <p>Circumstances that increase the DLCO include exercise, a supine position, and a Mueller or reverse Valsalva. Conditions such as asthma, polycythemia, heart failure, severe obesity, and the presence of a left-to-right cardiac shunt can also elevate DLCO levels.</p>
+      </sec>
+      <sec id="article-20633.s6" sec-type="Complications">
+        <title>Complications</title>
+        <p>The risks of the DLCO test are minimal. Some patients may feel lightheaded during the test, and hypoxia may occur due to the cessation of supplemental oxygen and breath-holding. Infections may&#x000a0;be transmitted&#x000a0;if the equipment is improperly cleaned or droplet nuclei or body fluids inadvertently spread.</p>
+      </sec>
+      <sec id="article-20633.s7" sec-type="Patient Safety and Education">
+        <title>Patient Safety and Education</title>
+        <p>The DLCO test measures how effectively the lungs transfer oxygen from inhaled air to the blood, helping clinicians diagnose and monitor conditions such as emphysema, pulmonary fibrosis, and pulmonary hypertension. The test is noninvasive and requires minimal preparation. To avoid altering the results, patients should avoid smoking at least 4 hours before the test and discontinue supplemental oxygen 10 to 15 minutes before testing. Patients at risk of or with known anemia require a blood draw to establish their&#x000a0;Hgb level for&#x000a0;more accurate DLCO calculation.</p>
+        <p>The test involves exhaling fully, followed by a rapid inhalation of CO gas mixed with oxygen, nitrogen, and helium or methane and holding the breath for 10 seconds. The exhaled gas is analyzed after a full breath is exhaled following the breath-holding period.&#x000a0;The test&#x000a0;is repeated at least once after a minimum of 4 minutes for an accurate measurement.&#x000a0;</p>
+        <p>Accurate and cooperative breathing during the test is imperative for reliable results. Safety is a top priority, and clinicians should reassure patients that the small amount of CO used in the test is safe and well below harmful levels. Patients with specific health conditions, such as severe respiratory distress, recent infections, recent surgery, abdominal or chest pain,&#x000a0;and myocardial infarction, should undergo evaluation to determine when testing is appropriate. By educating patients about the purpose, procedure, and safety of the DLCO test, clinicians can alleviate anxiety, ensure patient cooperation, and enhance the overall diagnostic and monitoring process.</p>
+      </sec>
+      <sec id="article-20633.s8" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>The DLCO is an indirect measure of the lungs' ability to transfer oxygen to blood&#x000a0;using&#x000a0;CO, which more strongly binds with Hgb, as a substitute. A DLCO below the range of 75% to 140% of the predicted value indicates underlying pathology&#x000a0;that either reduces&#x000a0;capillary blood volume or causes fibrosis of the interface between alveolar air and capillary blood. Respiratory tract symptoms and abnormalities on chest radiographs or computed tomography scans may be necessary to interpret DLCO results correctly. The DLCO can identify early lung disease, allowing clinicians to slow the progression of some respiratory disorders. DLCO reduction can serve as an early warning sign for conditions like IPF even before spirometric changes are observed.</p>
+        <p>A study of patients living with&#x000a0;IPF reveals that a 15% or more decline in the DLCO over a 1-year period triples the risk of death by the end of year 5.&#x000a0;This study also finds that the DLCO is a stronger predictor of mortality than forced vital capacity.<xref ref-type="bibr" rid="article-20633.r27">[27]</xref>&#x000a0;Another study involving patients with pulmonary hypertension shows that a low DLCO is directly associated with poorer outcomes.<xref ref-type="bibr" rid="article-20633.r28">[28]</xref>&#x000a0;Patients with a reduced DLCO and COPD have increased symptom burden, decreased exercise capacity, and elevated risk of exacerbations.<xref ref-type="bibr" rid="article-20633.r29">[29]</xref>&#x000a0;A DLCO measurement of less than 40% of the predicted value is associated with increased mortality,&#x000a0;which should prompt clinicians to be aggressive with medical therapy based on DLCO results.</p>
+        <p>Conditions that enhance pulmonary circulation, which are often inflammatory, increase the DLCO. Asthma, obesity,&#x000a0;polycythemia, and a left-to-right cardiac shunt can create a higher-than-predicted DLCO. This information is important to remember, as any condition that increases the DLCO may mask a second&#x000a0;pathology that typically&#x000a0;reduces&#x000a0;this parameter. DLCO measurement can help distinguish people with emphysema from&#x000a0;individuals with chronic refractory asthma. Measuring the DLCO can also differentiate true restrictive lung disease from conditions leading to poor effort or technique.</p>
+      </sec>
+      <sec id="article-20633.s9">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=20633&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=20633">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/20633/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=20633">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-20633.s10">
+        <fig id="article-20633.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Single-Breath Diffusing Capacity of Carbon Monoxide. This diagram shows the lung volume changes during testing for the diffusing capacity of carbon monoxide using the single breath-holding technique. Contributed by P Modi, MBBS</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Single__Breath__DLCO" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-20633.s11">
+        <title>References</title>
+        <ref id="article-20633.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Enright Md</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Office-based DLCO tests help pulmonologists to make important clinical decisions.</article-title>
+            <source>Respir Investig</source>
+            <year>2016</year>
+            <month>Sep</month>
+            <volume>54</volume>
+            <issue>5</issue>
+            <fpage>305</fpage>
+            <page-range>305-11</page-range>
+            <pub-id pub-id-type="pmid">27566377</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r2">
+          <label>2</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Chandan</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Cascella</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Gas Laws and Clinical Application</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2023</year>
+            <month>8</month>
+            <day>28</day>
+            <pub-id pub-id-type="pmid">31536199</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r3">
+          <label>3</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Powers</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Dhamoon</surname>
+                <given-names>AS</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Physiology, Pulmonary Ventilation and Perfusion</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2023</year>
+            <month>1</month>
+            <day>23</day>
+            <pub-id pub-id-type="pmid">30969729</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Graham</surname>
+                <given-names>BL</given-names>
+              </name>
+              <name>
+                <surname>Brusasco</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Burgos</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Cooper</surname>
+                <given-names>BG</given-names>
+              </name>
+              <name>
+                <surname>Jensen</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Kendrick</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>MacIntyre</surname>
+                <given-names>NR</given-names>
+              </name>
+              <name>
+                <surname>Thompson</surname>
+                <given-names>BR</given-names>
+              </name>
+              <name>
+                <surname>Wanger</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>2017 ERS/ATS standards for single-breath carbon monoxide uptake in the lung.</article-title>
+            <source>Eur Respir J</source>
+            <year>2017</year>
+            <month>Jan</month>
+            <volume>49</volume>
+            <issue>1</issue>
+            <pub-id pub-id-type="pmid">28049168</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Macintyre</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Crapo</surname>
+                <given-names>RO</given-names>
+              </name>
+              <name>
+                <surname>Viegi</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Johnson</surname>
+                <given-names>DC</given-names>
+              </name>
+              <name>
+                <surname>van der Grinten</surname>
+                <given-names>CP</given-names>
+              </name>
+              <name>
+                <surname>Brusasco</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Burgos</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Casaburi</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Coates</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Enright</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Gustafsson</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Hankinson</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Jensen</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>McKay</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Miller</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name>
+                <surname>Navajas</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Pedersen</surname>
+                <given-names>OF</given-names>
+              </name>
+              <name>
+                <surname>Pellegrino</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Wanger</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Standardisation of the single-breath determination of carbon monoxide uptake in the lung.</article-title>
+            <source>Eur Respir J</source>
+            <year>2005</year>
+            <month>Oct</month>
+            <volume>26</volume>
+            <issue>4</issue>
+            <fpage>720</fpage>
+            <page-range>720-35</page-range>
+            <pub-id pub-id-type="pmid">16204605</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Liu</surname>
+                <given-names>QX</given-names>
+              </name>
+              <name>
+                <surname>Zheng</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Xie</surname>
+                <given-names>YQ</given-names>
+              </name>
+              <name>
+                <surname>Guan</surname>
+                <given-names>WJ</given-names>
+              </name>
+              <name>
+                <surname>Jiang</surname>
+                <given-names>CY</given-names>
+              </name>
+              <name>
+                <surname>An</surname>
+                <given-names>JY</given-names>
+              </name>
+              <name>
+                <surname>Yu</surname>
+                <given-names>XX</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>WT</given-names>
+              </name>
+              <name>
+                <surname>Gao</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>[Single-breath and rebreathing methods for measurement of pulmonary diffusing function: a comparative study].</article-title>
+            <source>Zhonghua Jie He He Hu Xi Za Zhi</source>
+            <year>2013</year>
+            <month>Jul</month>
+            <volume>36</volume>
+            <issue>7</issue>
+            <fpage>510</fpage>
+            <page-range>510-5</page-range>
+            <pub-id pub-id-type="pmid">24262087</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Taytard</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Boizeau</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Alberti</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Beydon</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>[Rebreathing method for measuring CO transfer factor in children].</article-title>
+            <source>Rev Mal Respir</source>
+            <year>2019</year>
+            <month>Oct</month>
+            <volume>36</volume>
+            <issue>8</issue>
+            <fpage>937</fpage>
+            <page-range>937-945</page-range>
+            <pub-id pub-id-type="pmid">31521429</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Legnani</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Rizzi</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Sarzi-Puttini</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Cristiano</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>La Spina</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Frassanito</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Airoldi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Atzeni</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Diffusing Pulmonary Capacity Measured During Effort: A Possible Early Marker of Pulmonary Involvement In Systemic Sclerosis.</article-title>
+            <source>Isr Med Assoc J</source>
+            <year>2015</year>
+            <month>Dec</month>
+            <volume>17</volume>
+            <issue>12</issue>
+            <fpage>739</fpage>
+            <page-range>739-43</page-range>
+            <pub-id pub-id-type="pmid">26897974</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Suzuki</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Yoshimi</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Ueki</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Fukuchi</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>[Measurement of diffusing capacity by the intrabreath method].</article-title>
+            <source>Nihon Kokyuki Gakkai Zasshi</source>
+            <year>2005</year>
+            <month>Jun</month>
+            <volume>43</volume>
+            <issue>6</issue>
+            <fpage>347</fpage>
+            <page-range>347-53</page-range>
+            <pub-id pub-id-type="pmid">15997784</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bhakta</surname>
+                <given-names>NR</given-names>
+              </name>
+              <name>
+                <surname>McGowan</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Ramsey</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Borg</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Kivastik</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Knight</surname>
+                <given-names>SL</given-names>
+              </name>
+              <name>
+                <surname>Sylvester</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Burgos</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Swenson</surname>
+                <given-names>ER</given-names>
+              </name>
+              <name>
+                <surname>McCarthy</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Cooper</surname>
+                <given-names>BG</given-names>
+              </name>
+              <name>
+                <surname>Garc&#x000ed;a-R&#x000ed;o</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Skloot</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>McCormack</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Mottram</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Irvin</surname>
+                <given-names>CG</given-names>
+              </name>
+              <name>
+                <surname>Steenbruggen</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Coates</surname>
+                <given-names>AL</given-names>
+              </name>
+              <name>
+                <surname>Kaminsky</surname>
+                <given-names>DA</given-names>
+              </name>
+            </person-group>
+            <article-title>European Respiratory Society/American Thoracic Society technical statement: standardisation of the measurement of lung volumes, 2023 update.</article-title>
+            <source>Eur Respir J</source>
+            <year>2023</year>
+            <month>Oct</month>
+            <volume>62</volume>
+            <issue>4</issue>
+            <pub-id pub-id-type="pmid">37500112</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Crapo</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Gupta</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Lynch</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Turner</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Mroz</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Janssens</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Ludwig-Sengpiel</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Koegler</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Eleftheraki</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Risse</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Diefenbach</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Baseline characteristics from a 3-year longitudinal study to phenotype subjects with COPD: the FOOTPRINTS study.</article-title>
+            <source>Respir Res</source>
+            <year>2023</year>
+            <month>Nov</month>
+            <day>17</day>
+            <volume>24</volume>
+            <issue>1</issue>
+            <fpage>290</fpage>
+            <pub-id pub-id-type="pmid">37978492</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Heckman</surname>
+                <given-names>EJ</given-names>
+              </name>
+              <name>
+                <surname>O'Connor</surname>
+                <given-names>GT</given-names>
+              </name>
+            </person-group>
+            <article-title>Pulmonary function tests for diagnosing lung disease.</article-title>
+            <source>JAMA</source>
+            <year>2015</year>
+            <month>Jun</month>
+            <day>09</day>
+            <volume>313</volume>
+            <issue>22</issue>
+            <fpage>2278</fpage>
+            <page-range>2278-9</page-range>
+            <pub-id pub-id-type="pmid">26057290</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Balasubramanian</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Putcha</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>MacIntyre</surname>
+                <given-names>NR</given-names>
+              </name>
+              <name>
+                <surname>Jensen</surname>
+                <given-names>RL</given-names>
+              </name>
+              <name>
+                <surname>Kinney</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Stringer</surname>
+                <given-names>WW</given-names>
+              </name>
+              <name>
+                <surname>Hersh</surname>
+                <given-names>CP</given-names>
+              </name>
+              <name>
+                <surname>Bowler</surname>
+                <given-names>RP</given-names>
+              </name>
+              <name>
+                <surname>Casaburi</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Han</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>Porszasz</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Barr</surname>
+                <given-names>RG</given-names>
+              </name>
+              <name>
+                <surname>Regan</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Make</surname>
+                <given-names>BJ</given-names>
+              </name>
+              <name>
+                <surname>Hansel</surname>
+                <given-names>NN</given-names>
+              </name>
+              <name>
+                <surname>Wise</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>McCormack</surname>
+                <given-names>MC</given-names>
+              </name>
+            </person-group>
+            <article-title>Diffusing Capacity and Mortality in Chronic Obstructive Pulmonary Disease.</article-title>
+            <source>Ann Am Thorac Soc</source>
+            <year>2023</year>
+            <month>Jan</month>
+            <volume>20</volume>
+            <issue>1</issue>
+            <fpage>38</fpage>
+            <page-range>38-46</page-range>
+            <pub-id pub-id-type="pmid">35969416</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Merkus</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name>
+                <surname>Govaere</surname>
+                <given-names>ES</given-names>
+              </name>
+              <name>
+                <surname>Hop</surname>
+                <given-names>WH</given-names>
+              </name>
+              <name>
+                <surname>Stam</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Tiddens</surname>
+                <given-names>HA</given-names>
+              </name>
+              <name>
+                <surname>de Jongste</surname>
+                <given-names>JC</given-names>
+              </name>
+            </person-group>
+            <article-title>Preserved diffusion capacity in children with cystic fibrosis.</article-title>
+            <source>Pediatr Pulmonol</source>
+            <year>2004</year>
+            <month>Jan</month>
+            <volume>37</volume>
+            <issue>1</issue>
+            <fpage>56</fpage>
+            <page-range>56-60</page-range>
+            <pub-id pub-id-type="pmid">14679490</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Espiritu</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Ruppel</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Shrestha</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Kleinhenz</surname>
+                <given-names>ME</given-names>
+              </name>
+            </person-group>
+            <article-title>The diffusing capacity in adult cystic fibrosis.</article-title>
+            <source>Respir Med</source>
+            <year>2003</year>
+            <month>Jun</month>
+            <volume>97</volume>
+            <issue>6</issue>
+            <fpage>606</fpage>
+            <page-range>606-11</page-range>
+            <pub-id pub-id-type="pmid">12814143</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lee</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>SY</given-names>
+              </name>
+              <name>
+                <surname>Park</surname>
+                <given-names>YS</given-names>
+              </name>
+              <name>
+                <surname>Choi</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Park</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Prognostic implication of 1-year decline in diffusing capacity in newly diagnosed idiopathic pulmonary fibrosis.</article-title>
+            <source>Sci Rep</source>
+            <year>2024</year>
+            <month>Apr</month>
+            <day>17</day>
+            <volume>14</volume>
+            <issue>1</issue>
+            <fpage>8857</fpage>
+            <pub-id pub-id-type="pmid">38632477</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mohammad</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Hartmann</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Carlsen</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Greve</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Berg</surname>
+                <given-names>RMG</given-names>
+              </name>
+              <name>
+                <surname>Mortensen</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Prognostic value of pulmonary diffusing capacity for carbon monoxide and ventilation-perfusion SPECT findings in pulmonary arterial hypertension.</article-title>
+            <source>Exp Physiol</source>
+            <year>2024</year>
+            <month>Jul</month>
+            <volume>109</volume>
+            <issue>7</issue>
+            <fpage>1040</fpage>
+            <page-range>1040-1050</page-range>
+            <pub-id pub-id-type="pmid">38725160</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Beyhan Sagmen</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Fidan</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Can FVC/DLCO predict pulmonary hypertension in patients with chronic obstructive pulmonary disease?</article-title>
+            <source>Eur Rev Med Pharmacol Sci</source>
+            <year>2022</year>
+            <month>Sep</month>
+            <volume>26</volume>
+            <issue>18</issue>
+            <fpage>6658</fpage>
+            <page-range>6658-6664</page-range>
+            <pub-id pub-id-type="pmid">36196716</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Iwasaki</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Yosinaga</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Kawahara</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Shirakusa</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Evaluation of lung volume reduction surgery (LVRS) based on long-term survival rate analysis.</article-title>
+            <source>Thorac Cardiovasc Surg</source>
+            <year>2003</year>
+            <month>Oct</month>
+            <volume>51</volume>
+            <issue>5</issue>
+            <fpage>277</fpage>
+            <page-range>277-82</page-range>
+            <pub-id pub-id-type="pmid">14571345</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <collab>National Emphysema Treatment Trial Research Group</collab>
+              <name>
+                <surname>Fishman</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Fessler</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Martinez</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>McKenna</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Naunheim</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Piantadosi</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Weinmann</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Wise</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Patients at high risk of death after lung-volume-reduction surgery.</article-title>
+            <source>N Engl J Med</source>
+            <year>2001</year>
+            <month>Oct</month>
+            <day>11</day>
+            <volume>345</volume>
+            <issue>15</issue>
+            <fpage>1075</fpage>
+            <page-range>1075-83</page-range>
+            <pub-id pub-id-type="pmid">11596586</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sue</surname>
+                <given-names>DY</given-names>
+              </name>
+              <name>
+                <surname>Oren</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Hansen</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>Wasserman</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Diffusing capacity for carbon monoxide as a predictor of gas exchange during exercise.</article-title>
+            <source>N Engl J Med</source>
+            <year>1987</year>
+            <month>May</month>
+            <day>21</day>
+            <volume>316</volume>
+            <issue>21</issue>
+            <fpage>1301</fpage>
+            <page-range>1301-6</page-range>
+            <pub-id pub-id-type="pmid">3574401</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r22">
+          <label>22</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Ponce</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Sankari</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Sharma</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Pulmonary Function Tests</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2023</year>
+            <month>8</month>
+            <day>28</day>
+            <pub-id pub-id-type="pmid">29493964</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Guezguez</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Ghannouchi</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Sayhi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Charfedi</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Yahyaoui</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Rouatbi</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Ben Saad</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>[Not Available].</article-title>
+            <source>Tunis Med</source>
+            <year>2023</year>
+            <month>Mar</month>
+            <day>05</day>
+            <volume>101</volume>
+            <issue>3</issue>
+            <fpage>323</fpage>
+            <page-range>323-333</page-range>
+            <pub-id pub-id-type="pmid">38263920</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Graham</surname>
+                <given-names>BL</given-names>
+              </name>
+              <name>
+                <surname>Mink</surname>
+                <given-names>JT</given-names>
+              </name>
+              <name>
+                <surname>Cotton</surname>
+                <given-names>DJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Effects of increasing carboxyhemoglobin on the single breath carbon monoxide diffusing capacity.</article-title>
+            <source>Am J Respir Crit Care Med</source>
+            <year>2002</year>
+            <month>Jun</month>
+            <day>01</day>
+            <volume>165</volume>
+            <issue>11</issue>
+            <fpage>1504</fpage>
+            <page-range>1504-10</page-range>
+            <pub-id pub-id-type="pmid">12045124</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Crapo</surname>
+                <given-names>RO</given-names>
+              </name>
+              <name>
+                <surname>Morris</surname>
+                <given-names>AH</given-names>
+              </name>
+            </person-group>
+            <article-title>Standardized single breath normal values for carbon monoxide diffusing capacity.</article-title>
+            <source>Am Rev Respir Dis</source>
+            <year>1981</year>
+            <month>Feb</month>
+            <volume>123</volume>
+            <issue>2</issue>
+            <fpage>185</fpage>
+            <page-range>185-9</page-range>
+            <pub-id pub-id-type="pmid">7235357</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hart</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Cramer</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Ward</surname>
+                <given-names>SP</given-names>
+              </name>
+              <name>
+                <surname>Nickol</surname>
+                <given-names>AH</given-names>
+              </name>
+              <name>
+                <surname>Moxham</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Polkey</surname>
+                <given-names>MI</given-names>
+              </name>
+              <name>
+                <surname>Pride</surname>
+                <given-names>NB</given-names>
+              </name>
+            </person-group>
+            <article-title>Effect of pattern and severity of respiratory muscle weakness on carbon monoxide gas transfer and lung volumes.</article-title>
+            <source>Eur Respir J</source>
+            <year>2002</year>
+            <month>Oct</month>
+            <volume>20</volume>
+            <issue>4</issue>
+            <fpage>996</fpage>
+            <page-range>996-1002</page-range>
+            <pub-id pub-id-type="pmid">12412695</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Doubkov&#x000e1;</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>&#x00160;vancara</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Svoboda</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>&#x00160;terclov&#x000e1;</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Barto&#x00161;</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Pla&#x0010d;kov&#x000e1;</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Lacina</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>&#x0017d;urkov&#x000e1;</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Binkov&#x000e1;</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Bittenglov&#x000e1;</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Lo&#x00161;&#x00165;&#x000e1;kov&#x000e1;</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Merta</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>&#x00160;i&#x00161;kov&#x000e1;</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Tyl</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Lis&#x000e1;</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>&#x00160;uldov&#x000e1;</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Pet&#x00159;&#x000ed;k</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>P&#x00161;ikalov&#x000e1;</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>&#x00158;ih&#x000e1;k</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Sn&#x000ed;&#x0017e;ek</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Reiterer</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Homolka</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Musilov&#x000e1;</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Ln&#x0011b;ni&#x0010d;ka</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Pal&#x000fa;ch</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Hrdina</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Kr&#x000e1;lov&#x000e1;</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Hortv&#x000ed;kov&#x000e1;</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Strenkov&#x000e1;</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Va&#x00161;&#x000e1;kov&#x000e1;</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>EMPIRE Registry, Czech Part: Impact of demographics, pulmonary function and HRCT on survival and clinical course in idiopathic pulmonary fibrosis.</article-title>
+            <source>Clin Respir J</source>
+            <year>2018</year>
+            <month>Apr</month>
+            <volume>12</volume>
+            <issue>4</issue>
+            <fpage>1526</fpage>
+            <page-range>1526-1535</page-range>
+            <pub-id pub-id-type="pmid">28862397</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Humbert</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kovacs</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Hoeper</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Badagliacca</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Berger</surname>
+                <given-names>RMF</given-names>
+              </name>
+              <name>
+                <surname>Brida</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Carlsen</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Coats</surname>
+                <given-names>AJS</given-names>
+              </name>
+              <name>
+                <surname>Escribano-Subias</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Ferrari</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Ferreira</surname>
+                <given-names>DS</given-names>
+              </name>
+              <name>
+                <surname>Ghofrani</surname>
+                <given-names>HA</given-names>
+              </name>
+              <name>
+                <surname>Giannakoulas</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Kiely</surname>
+                <given-names>DG</given-names>
+              </name>
+              <name>
+                <surname>Mayer</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Meszaros</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Nagavci</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Olsson</surname>
+                <given-names>KM</given-names>
+              </name>
+              <name>
+                <surname>Pepke-Zaba</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Quint</surname>
+                <given-names>JK</given-names>
+              </name>
+              <name>
+                <surname>R&#x000e5;degran</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Simonneau</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Sitbon</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Tonia</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Toshner</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Vachiery</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Vonk Noordegraaf</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Delcroix</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Rosenkranz</surname>
+                <given-names>S</given-names>
+              </name>
+              <collab>ESC/ERS Scientific Document Group</collab>
+            </person-group>
+            <article-title>2022 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension.</article-title>
+            <source>Eur Respir J</source>
+            <year>2023</year>
+            <month>Jan</month>
+            <volume>61</volume>
+            <issue>1</issue>
+            <pub-id pub-id-type="pmid">36028254</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20633.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Balasubramanian</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>MacIntyre</surname>
+                <given-names>NR</given-names>
+              </name>
+              <name>
+                <surname>Henderson</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Jensen</surname>
+                <given-names>RL</given-names>
+              </name>
+              <name>
+                <surname>Kinney</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Stringer</surname>
+                <given-names>WW</given-names>
+              </name>
+              <name>
+                <surname>Hersh</surname>
+                <given-names>CP</given-names>
+              </name>
+              <name>
+                <surname>Bowler</surname>
+                <given-names>RP</given-names>
+              </name>
+              <name>
+                <surname>Casaburi</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Han</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>Porszasz</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Barr</surname>
+                <given-names>RG</given-names>
+              </name>
+              <name>
+                <surname>Make</surname>
+                <given-names>BJ</given-names>
+              </name>
+              <name>
+                <surname>Wise</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>McCormack</surname>
+                <given-names>MC</given-names>
+              </name>
+            </person-group>
+            <article-title>Diffusing Capacity of Carbon Monoxide in&#x000a0;Assessment of COPD.</article-title>
+            <source>Chest</source>
+            <year>2019</year>
+            <month>Dec</month>
+            <volume>156</volume>
+            <issue>6</issue>
+            <fpage>1111</fpage>
+            <page-range>1111-1119</page-range>
+            <pub-id pub-id-type="pmid">31352035</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

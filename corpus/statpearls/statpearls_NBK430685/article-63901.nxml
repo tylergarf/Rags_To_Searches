@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-63901" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>The How When Why of High Fidelity Simulation</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Carey</surname>
+            <given-names>Jeanne M.</given-names>
+          </name>
+          <aff>Baylor University</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Rossler</surname>
+            <given-names>Kelly</given-names>
+          </name>
+          <aff>Baylor University Louise Herrington</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Jeanne Carey declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Kelly Rossler declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>1</day>
+          <month>5</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-63901.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>High-Fidelity Simulation (HFS) is a misunderstood term. Too often, HFS is mistakenly used to refer to a particular simulation modality, namely, the full-body, high-complexity patient simulator. However, modality and fidelity are two distinct components of simulation design, and both impact the overall effectiveness of the activity.<xref ref-type="bibr" rid="article-63901.r1">[1]</xref> Simulation educators must understand these elements and the separate, yet complementary roles they play in designing a simulation-based learning experience (SBLE). The term <italic toggle="yes">high-fidelity simulation</italic> is not used consistently throughout simulation literature. Yet, numerous published studies are attempting to measure its influence.<xref ref-type="bibr" rid="article-63901.r1">[1]</xref> Researchers have studied the effect of HFS on student confidence, and anxiety levels,<xref ref-type="bibr" rid="article-63901.r2">[2]</xref><xref ref-type="bibr" rid="article-63901.r3">[3]</xref> compared it to SBLE using lower levels of fidelity,<xref ref-type="bibr" rid="article-63901.r4">[4]</xref> and measured its impact on knowledge and skill acquisition in nearly every healthcare discipline and level of the learner.<xref ref-type="bibr" rid="article-63901.r5">[5]</xref><xref ref-type="bibr" rid="article-63901.r2">[2]</xref><xref ref-type="bibr" rid="article-63901.r6">[6]</xref> The accuracy of any research is dependent upon clear articulation of the study concepts; modality and fidelity are two critical components of SBLE. However, both lack clear and consistent definitions.<xref ref-type="bibr" rid="article-63901.r1">[1]</xref><xref ref-type="bibr" rid="article-63901.r7">[7]</xref><xref ref-type="bibr" rid="article-63901.r8">[8]</xref></p>
+        <p>The Healthcare Simulation Dictionary recognizes both <italic toggle="yes">fidelity</italic> and <italic toggle="yes">modality</italic> as &#x0201c;potentially controversial&#x0201d; terms; acknowledgment on the part of simulation experts that there is a disparity in the usage of these terms in the literature (Joseph Lopreiato, MD personal communication, May 2020).<italic toggle="yes"> Modality</italic> is the term used to refer to the type(s) of simulation equipment or methodology used in an SBLE, such as a task trainer, standardized or simulated patient (SP), full-body manikin, or screen-based simulation. Continuous advancements in technology explain some of the difficulty in clearly defining this term and the categories found within it.<xref ref-type="bibr" rid="article-63901.r7">[7]</xref> The selection of an appropriate modality when planning a simulation activity depends on several factors, including the availability of equipment, stated objectives and desired learning outcomes.<xref ref-type="bibr" rid="article-63901.r8">[8]</xref>&#x000a0; It is important to note that within each modality category, there exists an array of products representing a range of fidelity or realism.</p>
+        <p>
+<italic toggle="yes">Fidelity</italic> in simulation is a multi-dimensional concept corresponding to the degree of realism created through the selection of simulation equipment, setting, and scenario.<xref ref-type="bibr" rid="article-63901.r5">[5]</xref>
+<italic toggle="yes">Fidelity</italic> also refers to the degree of exactness achieved;<xref ref-type="bibr" rid="article-63901.r9">[9]</xref><xref ref-type="bibr" rid="article-63901.r1">[1]</xref> and corresponds to the believability of the experience and relates to several components of simulation activity.<xref ref-type="bibr" rid="article-63901.r7">[7]</xref> It is important to note the INACSL Standards of Best Practice: Simulation: Simulation Design does not dictate a level of fidelity; rather, the level of realism should be that which promotes the achievement of the expected learning outcomes.<xref ref-type="bibr" rid="article-63901.r1">[1]</xref> Levels (low-, mid-, and high-fidelity) and types (physical, psychological, and conceptual) are associated with fidelity.<xref ref-type="bibr" rid="article-63901.r10">[10]</xref> Participants and educators state a preference for higher levels of fidelity, judging it as superior to lower levels; the evidence does not support this global contention, finding all levels of fidelity beneficial when used appropriately.<xref ref-type="bibr" rid="article-63901.r11">[11]</xref><xref ref-type="bibr" rid="article-63901.r10">[10]</xref><xref ref-type="bibr" rid="article-63901.r12">[12]</xref></p>
+      </sec>
+      <sec id="article-63901.s2" sec-type="Function">
+        <title>Function</title>
+        <p>The benefits and limitations of SBLE are well-documented. This article supports the how, when, and why of integrating HFS as a teaching/learning methodology.</p>
+      </sec>
+      <sec id="article-63901.s3" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>When considering the level of fidelity, more is not always better. Simulation educators need to avoid the <italic toggle="yes">fidelity trap,</italic>&#x000a0;assuming students learn in proportion to the level of realism.<xref ref-type="bibr" rid="article-63901.r13">[13]</xref> There is a potential bias toward higher levels of fidelity among educators and learners; students report higher levels of satisfaction with HFS and believe it provides advantages over SBLE using lower levels of fidelity.<xref ref-type="bibr" rid="article-63901.r10">[10]</xref><xref ref-type="bibr" rid="article-63901.r4">[4]</xref> Higher levels of fidelity can increase the cognitive load to the point of overwhelming the participant and thereby decreasing the learning.<xref ref-type="bibr" rid="article-63901.r12">[12]</xref><xref ref-type="bibr" rid="article-63901.r5">[5]</xref> The <italic toggle="yes">higher-faster-further</italic> attitude espoused by some of today&#x02019;s learners and educators can lead to using the highest level of fidelity in all instances, which can lead to a misuse of valuable resources and a skewed cost-benefit ratio.<xref ref-type="bibr" rid="article-63901.r3">[3]</xref></p>
+        <p>Simulation is resource-intensive, generally requiring a more significant expenditure of resources.<xref ref-type="bibr" rid="article-63901.r3">[3]</xref><xref ref-type="bibr" rid="article-63901.r11">[11]</xref> The goal of SBLE should be to expend resources in the manner most advantageous for learning and attainment of objectives. Understanding the how, when, and why of HFS will allow simulation educators to judiciously allocate time, money, and personnel in the development and implementation of SBLE.<xref ref-type="bibr" rid="article-63901.r3">[3]</xref><xref ref-type="bibr" rid="article-63901.r12">[12]</xref> Additionally, there is a limit to how much a learner can take in at one time, determined by the content, characteristics of the learner, and the environment. Cognitive burden refers to information and stimuli which are present but not necessary for the prescribed learning; if the burden is too heavy, this leads to overload and ineffective learning. Increasing complexity by situating the instruction in a high-fidelity context may contribute to higher levels of extraneous cognitive load. It is possible to sacrifice learning for the sake of increased realism. Decreasing extraneous cognitive load by simplifying the learning environment can improve learning.<xref ref-type="bibr" rid="article-63901.r5">[5]</xref></p>
+      </sec>
+      <sec id="article-63901.s4" sec-type="Curriculum Development">
+        <title>Curriculum Development</title>
+        <p>The H<italic toggle="yes">ow</italic> of HFS involves every aspect of simulation design from the selection of modality through the determination of type(s) and level(s) of fidelity. It begins with the identification of the desired outcomes based on the stated learning objectives.<xref ref-type="bibr" rid="article-63901.r10">[10]</xref> Characteristics of the learner should also be considered, including level, preparedness, learning style, and motivation, or readiness to learn.<xref ref-type="bibr" rid="article-63901.r1">[1]</xref></p>
+        <p>The term <italic toggle="yes">fidelity</italic> must be defined, and the levels and types of fidelity explored, before the use of HFS can be implemented. Along with calculating the appropriate level of fidelity, another essential element of simulation design is determining the type(s) of fidelity involved in achieving the requisite level of realism for the attainment of the stated objectives. The three primary types of fidelity are physical, conceptual, and psychological.<xref ref-type="bibr" rid="article-63901.r9">[9]</xref> Each type corresponds to an aspect of the authenticity of the SBLE and has the potential to facilitate or impede learning.<xref ref-type="bibr" rid="article-63901.r12">[12]</xref> The types of fidelity within a simulation activity can complement or detract from one another; for example, adding appropriate background noises to a setting increases the physical fidelity and provides stimuli that raise stress levels in the participant, enhancing the psychological fidelity.<xref ref-type="bibr" rid="article-63901.r12">[12]</xref> The more realistic environment might augment learning or serve as an obstacle to attaining objectives.<xref ref-type="bibr" rid="article-63901.r5">[5]</xref> Addressing the appropriate types of fidelity allows participants to suspend their disbelief and accept the activity as if it is real.<xref ref-type="bibr" rid="article-63901.r8">[8]</xref><xref ref-type="bibr" rid="article-63901.r1">[1]</xref><xref ref-type="bibr" rid="article-63901.r5">[5]</xref></p>
+        <p>Physical or environmental fidelity is that which can be perceived by the senses. It is concerned with what the participant sees, hears, feels, and smells in the setting. It is vital to note lapses in physical fidelity are better accepted by participants than lapses in conceptual fidelity.<xref ref-type="bibr" rid="article-63901.r14">[14]</xref> Learners need the scenario to make sense, and if it seems true-to-life, they are willing to accept some artificial aspects of the physical environment.<xref ref-type="bibr" rid="article-63901.r8">[8]</xref> Conceptual fidelity ensures all aspects of the simulated scenario accurately reflect the way the same situation would present in the clinical setting. The scenario should make sense to the learner and allow for the development of prediction and anticipation skills. Including a content expert in the development or review of the scenario and performing a pilot test are best practices for securing conceptual fidelity.<xref ref-type="bibr" rid="article-63901.r14">[14]</xref> Psychological fidelity occurs when the simulation activity elicits an emotional response from the participant as if the experience was real.<xref ref-type="bibr" rid="article-63901.r1">[1]</xref></p>
+        <p>Additional classifications of fidelity occur in the current literature, including functional fidelity and sociological fidelity. Functional fidelity refers to the dynamic interaction between the participant and the assigned task, and it is essential when teaching technical or psychomotor skills. The more precise the skill or procedure, the higher the level of functional fidelity required.<xref ref-type="bibr" rid="article-63901.r5">[5]</xref> Sociological fidelity is being discussed in terms of interprofessional education (IPE) simulation activities; it refers to the way the interactions between participants affect the level of realism.<xref ref-type="bibr" rid="article-63901.r15">[15]</xref></p>
+        <p>The desired level and type of fidelity will inform the selection of simulation modality.<xref ref-type="bibr" rid="article-63901.r1">[1]</xref> Regardless of the simulation modality, HFS is achievable.<xref ref-type="bibr" rid="article-63901.r15">[15]</xref> Standardized or simulated patients (SPs) represent a simulation modality that offers some inherently high-fidelity qualities without incorporating the use of technology.&#x000a0; SPs are trained persons used in SBLE to portray a patient with a specific condition.<xref ref-type="bibr" rid="article-63901.r16">[16]</xref> Using real people as simulated patients can increase some aspects of fidelity, but recognizing limitations and obstacles is necessary. Not all physiologic responses are replicable, nor are all invasive procedures able to be performed. If these aspects are critical to the attainment of the stated objectives, the simulation educator can provide a task trainer for the procedural skill and display the desired physiologic parameters on a bedside monitor. At the same time, the SP mimics the associated signs and symptoms.<xref ref-type="bibr" rid="article-63901.r17">[17]</xref></p>
+        <p>Task trainers, models representing a part or region of the body designed for practicing specific procedural skills, allow the development of technical skills. These devices focus on functional fidelity and range from low- to high-fidelity. Task trainers represent a simulation modality most often referred to as procedural simulation. They can be very high-tech, which may or may not translate into a higher level of fidelity. Task trainers might employ haptic feedback technology to provide tactile realism, increasing the level of physical fidelity.<xref ref-type="bibr" rid="article-63901.r18">[18]</xref></p>
+        <p>Maximizing realism can occur by addressing other elements of the simulation design, in addition to the selected modality. Moulage is a low-tech method for making a situation appear more authentic; it refers to the techniques such as makeup and molds, applied to a manikin or SP to simulate illness or injury. Moulage engages the participant&#x02019;s sensory perceptions.&#x000a0; Smells, visual &#x00026; auditory cues, and materials that enhance tactile perceptions are all ways to increase the fidelity of the experience for learners.<xref ref-type="bibr" rid="article-63901.r5">[5]</xref> Simulation educators should consider how closely the simulated environment or activity needs to mimic the real world for learning to occur.</p>
+        <p>The <italic toggle="yes">When</italic> of HFS involves consideration of both the learner and the desired objective. Conventionally, educators believed the level of fidelity should correspond with the level of the learner, low-fidelity SBLE for novices, and higher levels of fidelity for expert learners.<xref ref-type="bibr" rid="article-63901.r5">[5]</xref> However, it is the level of the learner, more than the intricacies of the task, that should dictate the level of fidelity. Novice learners perform better with simpler models; complexity can be added as the student gains experience.<xref ref-type="bibr" rid="article-63901.r12">[12]</xref> Low-fidelity simulation builds knowledge. Mid-fidelity simulation builds competence. High-fidelity simulation builds performance.<xref ref-type="bibr" rid="article-63901.r10">[10]</xref></p>
+        <p>An understanding of educational principles guides the determination of the fidelity level. HFS is a practical methodology for teaching, assessing, and evaluating both knowledge and skills. It is appropriate at all four levels of Miller&#x02019;s Pyramid of Clinical Competence (see Figure 1).<xref ref-type="bibr" rid="article-63901.r19">[19]</xref>The kinesthetic nature of HFS allows learners to take what they know and use it; students move from knowing to knowing and showing how, and ultimately doing or performing in a clinical setting. HFS is superior to written examinations for evaluation of the level of competency and proficiency for a range of technical and nontechnical skills. Performance in an SBLE does not guarantee success in the clinical setting, but experiential learning supports the transfer of knowledge.<xref ref-type="bibr" rid="article-63901.r19">[19]</xref></p>
+        <p>The experiential nature of HFS promotes student engagement, impacting knowledge acquisition, retention, and retrieval.<xref ref-type="bibr" rid="article-63901.r11">[11]</xref><xref ref-type="bibr" rid="article-63901.r13">[13]</xref> Evidence shows it is an effective and appropriate teaching methodology for the base level of Miller&#x02019;s Pyramid.<xref ref-type="bibr" rid="article-63901.r19">[19]</xref> HFS builds knowledge and facilitates the learning of complex principles in the basic sciences.<xref ref-type="bibr" rid="article-63901.r13">[13]</xref> Fragapane et al. brought physiologic principles to life for students, using a full-body, computerized manikin. Students were able to visualize cardio-pulmonary and other body system responses during an HFS activity, allowing for a significant increase in the students&#x02019; perceived confidence in understanding pathophysiology.<xref ref-type="bibr" rid="article-63901.r11">[11]</xref> Helyer and Dickens question the underutilization of HFS in teaching scientific principles. They found HFS demonstrated Starling&#x02019;s Law of the heart more profoundly than an educational lecture.<xref ref-type="bibr" rid="article-63901.r13">[13]</xref> More evidence is needed to determine the extent to which HFS promotes the transferability of knowledge.<xref ref-type="bibr" rid="article-63901.r13">[13]</xref><xref ref-type="bibr" rid="article-63901.r11">[11]</xref> Higher levels of realism invoke an emotional response that aids in knowledge retention and retrieval.<xref ref-type="bibr" rid="article-63901.r6">[6]</xref><xref ref-type="bibr" rid="article-63901.r11">[11]</xref> Retrieval of information from one&#x02019;s memory is imperative if knowledge is to be useful.&#x000a0; The emotional responses triggered by HFS can aid in the recall of stored knowledge.<xref ref-type="bibr" rid="article-63901.r11">[11]</xref></p>
+        <p>Pairing task trainers with standardized patients or full-body, computerized manikins representing a mixed-modal or multi-modal simulation activity, can add another dimension of realism to the simulation activity. The added features generated by the incorporation of multiple modalities allow the practice of other skills, such as communication, teamwork, and decision-making, alongside the more technical skills.<xref ref-type="bibr" rid="article-63901.r8">[8]</xref></p>
+        <p>When repeated exposure to the activity is necessary for the attainment of the expected outcomes, lower-cost, lower-fidelity experiences may be preferred.<xref ref-type="bibr" rid="article-63901.r6">[6]</xref> For instance, developing proficiency in auscultation skills requires focused practice over time. Students&#x02019; access to auscultation trainers may be limited, whereas recordings of heart and lung sounds offer an inexpensive alternative without availability restrictions.<xref ref-type="bibr" rid="article-63901.r12">[12]</xref></p>
+        <p>The <italic toggle="yes">as-if</italic> concept is central to effective SBLE; it affords facilitators the freedom to tailor the activity to fit the learner&#x02019;s needs. It allows for a distorted state or hyper-realism, which can positively impact learning.<xref ref-type="bibr" rid="article-63901.r8">[8]</xref> Time can be slowed down, sped up, or elapsed during a simulation activity, providing learners the time necessary to attain the desired objectives. The amount of time and practice required to achieve competency and proficiency in skills will vary among learners, making this feature of simulation extremely beneficial to the novice learner, as well as those developing complex, highly specialized, technical skills.<xref ref-type="bibr" rid="article-63901.r20">[20]</xref><xref ref-type="bibr" rid="article-63901.r12">[12]</xref> Educators should determine how realistic the SBLE needs to be to produce the desired outcomes and what elements, other than fidelity, need consideration.</p>
+      </sec>
+      <sec id="article-63901.s5" sec-type="Medical Decision Making and Leadership Development">
+        <title>Medical Decision Making and Leadership Development</title>
+        <p>Clinical reasoning involves pattern recognition developed through repetitive exposure to similar situations.<xref ref-type="bibr" rid="article-63901.r19">[19]</xref> HFS allows for the replication of identical clinical scenarios, as well as manipulated patient encounters with specific variances that compel the participant to adjust his or her thinking.</p>
+        <p>Deliberate practice with task trainers allows learners to hone skills and build confidence in their abilities. Advancements in technology are enabling task trainers to become very specialized; for instance, cardiology programs can offer learners simulators for transesophageal echocardiography, coronary angiography, electrophysiology, and transcatheter aortic valve replacement. The experience gained through the use of these devices reduces the risk to patients.<xref ref-type="bibr" rid="article-63901.r18">[18]</xref></p>
+        <p>Several studies indicate HFS increases the participant&#x02019;s confidence in their knowledge and skills.<xref ref-type="bibr" rid="article-63901.r11">[11]</xref> Students consider HFS to be superior to LFS; therefore, their participation in HFS can lead to increased confidence regardless of any increase in skill or knowledge. Massoth et al. found evidence that suggests engaging in HFS leads some students to overestimate their abilities. Participants viewed the HFS method as superior to the other learning strategies and therefore deduced they gained more from experience. Whereas students who participated in the LFS activity provided more accurate self-assessment of their skills and knowledge.<xref ref-type="bibr" rid="article-63901.r3">[3]</xref></p>
+      </sec>
+      <sec id="article-63901.s6" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>To appreciate the <italic toggle="yes">Why</italic> of HFS, consider some truths about traditional clinical education and how HFS alleviates some of the burden associated with the apprentice model of healthcare education. Learning in the conventional clinical setting cannot be student-focused or manipulated, as the needs and safety of the patient must always take precedence. It is impossible to provide standardized experiences for all learners. Access to clinical sites can be challenging to secure and schedule.<xref ref-type="bibr" rid="article-63901.r21">[21]</xref> Patient safety standards and safe work directives reduce the number of training hours, thereby decreasing the time for learning and exposure to various clinical situations.<xref ref-type="bibr" rid="article-63901.r9">[9]</xref></p>
+        <p>Simulation activities are planned and predictable. They are learner-centered and can be tailored to the needs and level of the learner and adapted to fit varying learning styles.<xref ref-type="bibr" rid="article-63901.r10">[10]</xref> SBLE allows for immediate feedback while encouraging reflection, promoting self-regulated learning.<xref ref-type="bibr" rid="article-63901.r22">[22]</xref> Advancements in the science and technology of simulation are facilitating the creation of HFS activities that more accurately mimic real patient encounters.<xref ref-type="bibr" rid="article-63901.r6">[6]</xref></p>
+        <p>The transferability of learning is of prime interest to educators. Simulation activities that closely resemble real-life add a degree of authenticity that allows learners to take the knowledge and skills they develop in the simulated setting and apply them in the clinical arena. The type of fidelity requiring the highest levels of realism is dependent upon the practiced skills where a) proficiency in technical skills require higher functional fidelity, b) clinical reasoning and decision-making skills benefit from conceptual fidelity, and c) sociological fidelity levels impact teamwork, communication, and leadership skill development.<xref ref-type="bibr" rid="article-63901.r6">[6]</xref> The existing evidence supporting the transfer of learning after SBLE often does not take the level or type of fidelity into account.<xref ref-type="bibr" rid="article-63901.r3">[3]</xref> As advancements in technology heighten the levels of fidelity of simulation products, more research is needed to ascertain the role fidelity plays in the transfer of learning.<xref ref-type="bibr" rid="article-63901.r12">[12]</xref></p>
+        <p>One possible downside to HFS is the potential for students to become overconfident as a result of participating in this type of SBLE activity. Educators need to watch for signs of this adverse effect, as it can lead participants to engage in risk-taking behaviors in the clinical setting.<xref ref-type="bibr" rid="article-63901.r3">[3]</xref></p>
+      </sec>
+      <sec id="article-63901.s7" sec-type="Pearls and Other Issues">
+        <title>Pearls and Other Issues</title>
+        <p>HFS is an effective strategy for teaching, assessing, and evaluating a wide range of learners from all healthcare disciplines.&#x000a0; Pre-licensure students can benefit from participation in HFS, but educators may want to scaffold simulation activities allowing novice learners to build knowledge, skill, and confidence with low-fidelity stimulation (LFS) activities before HFS.</p>
+        <p>The level of fidelity employed in any simulation activity should merit careful consideration, along with all other aspects of the experience.&#x000a0; The required level of fidelity for any SBLE is the one that is necessary to achieve the desired participant outcomes. Higher levels of fidelity can increase participants&#x02019; level of engagement and acceptability of the simulated experience; this will impact the achievement of the desired learning objectives and the ability to transfer the learning to the clinical setting.<xref ref-type="bibr" rid="article-63901.r14">[14]</xref> However, a higher level than indicated can overwhelm or distract the learner, creating an obstacle for learners.<xref ref-type="bibr" rid="article-63901.r10">[10]</xref><xref ref-type="bibr" rid="article-63901.r1">[1]</xref></p>
+        <p>Trained simulation educators, versed in the standards of best practice, provide the expertise to develop and implement high-quality SBLE; they understand that level and type of fidelity are key considerations when designing SBLE. The SBLE must be considered in its entirety, recognizing that fidelity is one aspect of the activity.&#x000a0; Some of the current research that attempts to compare HFS to LFS does not account for variances in other components of the activities.&#x000a0; For instance, the inclusion or omission of a structured debriefing will have a significant impact on the effectiveness of a simulation activity, regardless of the level of fidelity.<xref ref-type="bibr" rid="article-63901.r6">[6]</xref> Evidence supporting the use of higher levels of fidelity might be tainted by the customary practice of omitting debriefing from low-fidelity SBLE.<xref ref-type="bibr" rid="article-63901.r10">[10]</xref></p>
+        <p>The role of fidelity and its impact on learning outcomes requires additional research and clarification of the associated terminology. The terms <italic toggle="yes">high-fidelity</italic> and <italic toggle="yes">high-fidelity simulation</italic> are used in such wide and diverse contexts, their meaning is either lost<xref ref-type="bibr" rid="article-63901.r7">[7]</xref> or sparks controversy among those wanting to study its impact on SBLE. Ongoing advancements in the pedagogy of simulation illustrate the need to elucidate these terms.</p>
+      </sec>
+      <sec id="article-63901.s8" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>One goal of SBLE is to improve patient outcomes, and HFS is an effective strategy for teaching all levels of learners, a range of skills that will realize this goal.<xref ref-type="bibr" rid="article-63901.r9">[9]</xref><xref ref-type="bibr" rid="article-63901.r8">[8]</xref> Scaffolding SBLE according to the level of fidelity, lets participants gain competence and confidence in performing interventional skills before executing them in the clinical setting, lowering the risk to patients.<xref ref-type="bibr" rid="article-63901.r20">[20]</xref><xref ref-type="bibr" rid="article-63901.r22">[22]</xref> Novice to expert learners can hone technical, as well as non-technical skills, such as communication, leadership, teamwork, decision-making, and situational awareness.<xref ref-type="bibr" rid="article-63901.r15">[15]</xref> HFS is being used to help participants identify and build coping strategies related to stress and fatigue, addressing mitigating factors for medical error.<xref ref-type="bibr" rid="article-63901.r8">[8]</xref></p>
+        <p>Multidisciplinary or IPE simulations afford participants opportunities to navigate group dynamics, such as hierarchy and authority gradients, and their effect on teamwork.<xref ref-type="bibr" rid="article-63901.r5">[5]</xref><xref ref-type="bibr" rid="article-63901.r15">[15]</xref> This type of SBLE is often conducted in the work environment during on-duty hours, thereby easing some of the challenges associated with gathering participants from multiple professional disciplines. The very nature of in situ HFS increases the levels of physical, psychological, and sociological fidelity, thereby maximizing realism.<xref ref-type="bibr" rid="article-63901.r15">[15]</xref> In situ HFS activities can be scheduled or unannounced. The social aspect of SBLE can foster a sense of collegiality among participants, facilitating a shift in culture that promotes patient safety by breaking down barriers to communication among team members.<xref ref-type="bibr" rid="article-63901.r15">[15]</xref></p>
+        <p>Conducting in situ HFS activities in the clinical environment allows for system-level evaluation and improvement. Allowing participants to be directly involved in the discovery and addressing of issues can facilitate organizational change. It is also possible for educators to purposefully add mistakes to the simulation activity, providing opportunities to assess adherence to safety protocols and their effectiveness.<xref ref-type="bibr" rid="article-63901.r5">[5]</xref><xref ref-type="bibr" rid="article-63901.r15">[15]</xref></p>
+      </sec>
+      <sec id="article-63901.s9">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=63901&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=63901">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/63901/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=63901">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-63901.s10">
+        <fig id="article-63901.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Millers Pyramid of clinical competence Contributed by Maninder Singh, MD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Millers__Pyramid" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-63901.s11">
+        <title>References</title>
+        <ref id="article-63901.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Adamson</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>A Systematic Review of the Literature Related to the NLN/Jeffries Simulation Framework.</article-title>
+            <source>Nurs Educ Perspect</source>
+            <year>2015</year>
+            <season>Sep-Oct</season>
+            <volume>36</volume>
+            <issue>5</issue>
+            <fpage>281</fpage>
+            <page-range>281-91</page-range>
+            <pub-id pub-id-type="pmid">26521495</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63901.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wall</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>The effects of introducing high-fidelity simulation to preclinical student respiratory therapists.</article-title>
+            <source>Can J Respir Ther</source>
+            <year>2017</year>
+            <season>Fall</season>
+            <volume>53</volume>
+            <issue>4</issue>
+            <fpage>75</fpage>
+            <page-range>75-80</page-range>
+            <pub-id pub-id-type="pmid">30996639</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63901.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Massoth</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>R&#x000f6;der</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Ohlenburg</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Hessler</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Zarbock</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>P&#x000f6;pping</surname>
+                <given-names>DM</given-names>
+              </name>
+              <name>
+                <surname>Wenk</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>High-fidelity is not superior to low-fidelity simulation but leads to overconfidence in medical students.</article-title>
+            <source>BMC Med Educ</source>
+            <year>2019</year>
+            <month>Jan</month>
+            <day>21</day>
+            <volume>19</volume>
+            <issue>1</issue>
+            <fpage>29</fpage>
+            <pub-id pub-id-type="pmid">30665397</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63901.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Christian</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name>
+                <surname>Sergel</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Mycyk</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name>
+                <surname>Aks</surname>
+                <given-names>SE</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparison of High-Fidelity Medical Simulation to Short-Answer Written Examination in the Assessment of Emergency Medicine Residents in Medical Toxicology.</article-title>
+            <source>Mo Med</source>
+            <year>2017</year>
+            <season>Sep-Oct</season>
+            <volume>114</volume>
+            <issue>5</issue>
+            <fpage>396</fpage>
+            <page-range>396-399</page-range>
+            <pub-id pub-id-type="pmid">30228643</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63901.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Choi</surname>
+                <given-names>YF</given-names>
+              </name>
+              <name>
+                <surname>Wong</surname>
+                <given-names>TW</given-names>
+              </name>
+            </person-group>
+            <article-title>High-fidelity simulation training programme for final-year medical students: implications from the perceived learning outcomes.</article-title>
+            <source>Hong Kong Med J</source>
+            <year>2019</year>
+            <month>Oct</month>
+            <volume>25</volume>
+            <issue>5</issue>
+            <fpage>392</fpage>
+            <page-range>392-398</page-range>
+            <pub-id pub-id-type="pmid">31761748</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63901.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Huang</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Tang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Tang</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Shi</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Xiong</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Xia</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Qu</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Mu</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Educational efficacy of high-fidelity simulation in neonatal resuscitation training: a systematic review and meta-analysis.</article-title>
+            <source>BMC Med Educ</source>
+            <year>2019</year>
+            <month>Aug</month>
+            <day>29</day>
+            <volume>19</volume>
+            <issue>1</issue>
+            <fpage>323</fpage>
+            <pub-id pub-id-type="pmid">31464614</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63901.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cook</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Hamstra</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <name>
+                <surname>Brydges</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Zendejas</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Szostek</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>AT</given-names>
+              </name>
+              <name>
+                <surname>Erwin</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name>
+                <surname>Hatala</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparative effectiveness of instructional design features in simulation-based education: systematic review and meta-analysis.</article-title>
+            <source>Med Teach</source>
+            <year>2013</year>
+            <volume>35</volume>
+            <issue>1</issue>
+            <fpage>e867</fpage>
+            <page-range>e867-98</page-range>
+            <pub-id pub-id-type="pmid">22938677</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63901.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dieckmann</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Gaba</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Rall</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Deepening the theoretical foundations of patient simulation as social practice.</article-title>
+            <source>Simul Healthc</source>
+            <year>2007</year>
+            <season>Fall</season>
+            <volume>2</volume>
+            <issue>3</issue>
+            <fpage>183</fpage>
+            <page-range>183-93</page-range>
+            <pub-id pub-id-type="pmid">19088622</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63901.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rashid</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Gianduzzo</surname>
+                <given-names>TR</given-names>
+              </name>
+            </person-group>
+            <article-title>Urology technical and non-technical skills development: the emerging role of simulation.</article-title>
+            <source>BJU Int</source>
+            <year>2016</year>
+            <month>Apr</month>
+            <volume>117 Suppl 4</volume>
+            <fpage>9</fpage>
+            <page-range>9-16</page-range>
+            <pub-id pub-id-type="pmid">26695716</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63901.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kim</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Park</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Shin</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Effectiveness of simulation-based nursing education depending on fidelity: a meta-analysis.</article-title>
+            <source>BMC Med Educ</source>
+            <year>2016</year>
+            <month>May</month>
+            <day>23</day>
+            <volume>16</volume>
+            <fpage>152</fpage>
+            <pub-id pub-id-type="pmid">27215280</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63901.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fragapane</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Ben Khallouq</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Cheng</surname>
+                <given-names>ZJ</given-names>
+              </name>
+              <name>
+                <surname>Harris</surname>
+                <given-names>DM</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparison of knowledge retention between high-fidelity patient simulation and read-only participants in undergraduate biomedical science education.</article-title>
+            <source>Adv Physiol Educ</source>
+            <year>2018</year>
+            <month>Dec</month>
+            <day>01</day>
+            <volume>42</volume>
+            <issue>4</issue>
+            <fpage>599</fpage>
+            <page-range>599-604</page-range>
+            <pub-id pub-id-type="pmid">30251892</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63901.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Norman</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Dore</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Grierson</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>The minimal relationship between simulation fidelity and transfer of learning.</article-title>
+            <source>Med Educ</source>
+            <year>2012</year>
+            <month>Jul</month>
+            <volume>46</volume>
+            <issue>7</issue>
+            <fpage>636</fpage>
+            <page-range>636-47</page-range>
+            <pub-id pub-id-type="pmid">22616789</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63901.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Helyer</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Dickens</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Progress in the utilization of high-fidelity simulation in basic science education.</article-title>
+            <source>Adv Physiol Educ</source>
+            <year>2016</year>
+            <month>Jun</month>
+            <volume>40</volume>
+            <issue>2</issue>
+            <fpage>143</fpage>
+            <page-range>143-4</page-range>
+            <pub-id pub-id-type="pmid">27068987</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63901.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Smink</surname>
+                <given-names>DS</given-names>
+              </name>
+              <name>
+                <surname>Yule</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <name>
+                <surname>Ashley</surname>
+                <given-names>SW</given-names>
+              </name>
+            </person-group>
+            <article-title>Realism in Simulation: How Much Is Enough?</article-title>
+            <source>JAMA Surg</source>
+            <year>2017</year>
+            <month>Sep</month>
+            <day>01</day>
+            <volume>152</volume>
+            <issue>9</issue>
+            <fpage>825</fpage>
+            <page-range>825-826</page-range>
+            <pub-id pub-id-type="pmid">28538955</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63901.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Armenia</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Thangamathesvaran</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Caine</surname>
+                <given-names>AD</given-names>
+              </name>
+              <name>
+                <surname>King</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Kunac</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Merchant</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>The Role of High-Fidelity Team-Based Simulation in Acute Care Settings: A Systematic Review.</article-title>
+            <source>Surg J (N Y)</source>
+            <year>2018</year>
+            <month>Jul</month>
+            <volume>4</volume>
+            <issue>3</issue>
+            <fpage>e136</fpage>
+            <page-range>e136-e151</page-range>
+            <pub-id pub-id-type="pmid">30109273</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63901.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wilbur</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Elmubark</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Shabana</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Systematic Review of Standardized Patient Use in Continuing Medical Education.</article-title>
+            <source>J Contin Educ Health Prof</source>
+            <year>2018</year>
+            <season>Winter</season>
+            <volume>38</volume>
+            <issue>1</issue>
+            <fpage>3</fpage>
+            <page-range>3-10</page-range>
+            <pub-id pub-id-type="pmid">29517612</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63901.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lewis</surname>
+                <given-names>KL</given-names>
+              </name>
+              <name>
+                <surname>Bohnert</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Gammon</surname>
+                <given-names>WL</given-names>
+              </name>
+              <name>
+                <surname>H&#x000f6;lzer</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Lyman</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Smith</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Thompson</surname>
+                <given-names>TM</given-names>
+              </name>
+              <name>
+                <surname>Wallace</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Gliva-McConvey</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>The Association of Standardized Patient Educators (ASPE) Standards of Best Practice (SOBP).</article-title>
+            <source>Adv Simul (Lond)</source>
+            <year>2017</year>
+            <volume>2</volume>
+            <fpage>10</fpage>
+            <pub-id pub-id-type="pmid">29450011</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63901.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Westerdahl</surname>
+                <given-names>DE</given-names>
+              </name>
+            </person-group>
+            <article-title>The Necessity of High-Fidelity Simulation in Cardiology Training Programs.</article-title>
+            <source>J Am Coll Cardiol</source>
+            <year>2016</year>
+            <month>Mar</month>
+            <day>22</day>
+            <volume>67</volume>
+            <issue>11</issue>
+            <fpage>1375</fpage>
+            <page-range>1375-8</page-range>
+            <pub-id pub-id-type="pmid">26988961</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63901.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Thampy</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Willert</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Ramani</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Assessing Clinical Reasoning: Targeting the Higher Levels of the Pyramid.</article-title>
+            <source>J Gen Intern Med</source>
+            <year>2019</year>
+            <month>Aug</month>
+            <volume>34</volume>
+            <issue>8</issue>
+            <fpage>1631</fpage>
+            <page-range>1631-1636</page-range>
+            <pub-id pub-id-type="pmid">31025307</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63901.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Onturk</surname>
+                <given-names>ZK</given-names>
+              </name>
+              <name>
+                <surname>Ugur</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Kocatepe</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Ates</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Ocaktan</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Unver</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Karabacak</surname>
+                <given-names>U</given-names>
+              </name>
+            </person-group>
+            <article-title>Use of simulation from high fidelity to low fidelity in teaching of safe-medication practices.</article-title>
+            <source>J Pak Med Assoc</source>
+            <year>2019</year>
+            <month>Feb</month>
+            <volume>69</volume>
+            <issue>2</issue>
+            <fpage>195</fpage>
+            <page-range>195-200</page-range>
+            <pub-id pub-id-type="pmid">30804583</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63901.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Au</surname>
+                <given-names>ML</given-names>
+              </name>
+              <name>
+                <surname>Lo</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Cheong</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>SC</given-names>
+              </name>
+              <name>
+                <surname>Van</surname>
+                <given-names>IK</given-names>
+              </name>
+            </person-group>
+            <article-title>Nursing students' perception of high-fidelity simulation activity instead of clinical placement: A qualitative study.</article-title>
+            <source>Nurse Educ Today</source>
+            <year>2016</year>
+            <month>Apr</month>
+            <volume>39</volume>
+            <fpage>16</fpage>
+            <page-range>16-21</page-range>
+            <pub-id pub-id-type="pmid">27006029</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63901.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Naylor</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Torres</surname>
+                <given-names>KC</given-names>
+              </name>
+            </person-group>
+            <article-title>Translation of learning objectives in medical education using high-and low-fidelity simulation: Learners' perspectives.</article-title>
+            <source>J Taibah Univ Med Sci</source>
+            <year>2019</year>
+            <month>Dec</month>
+            <volume>14</volume>
+            <issue>6</issue>
+            <fpage>481</fpage>
+            <page-range>481-487</page-range>
+            <pub-id pub-id-type="pmid">31908634</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

@@ -1,0 +1,1844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-137540" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Study Bias</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Popovic</surname>
+            <given-names>Aleksandar</given-names>
+          </name>
+          <aff>Rutgers NJMS</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Huecker</surname>
+            <given-names>Martin R.</given-names>
+          </name>
+          <aff>University of Louisville</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Aleksandar Popovic declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Martin Huecker declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>20</day>
+          <month>6</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-137540.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Bias is colloquially defined as any tendency that&#x000a0;limits impartial consideration of a question or issue. In academic research, bias refers to a type of systematic error that can distort measurements and/or affect investigations and their results.<xref ref-type="bibr" rid="article-137540.r1">[1]</xref>&#x000a0;It is important to distinguish a systematic error, such as bias, from that of random error. Random error occurs due to the natural fluctuation in the accuracy of any measurement device, the innate differences between humans (both investigators and subjects), and by pure chance. Random errors can occur at any point and are more difficult to control.<xref ref-type="bibr" rid="article-137540.r2">[2]</xref>&#x000a0;Systematic errors, referred to as bias from here on, occur at one or multiple points during the research process, including the study design, data collection, statistical analysis, interpretation of results, and publication process.<xref ref-type="bibr" rid="article-137540.r3">[3]</xref></p>
+        <p>However, interpreting the presence of bias involves understanding that it is not a dichotomous variable, where the results can either be &#x0201c;present&#x0201d; or &#x0201c;not present.&#x0201d; Rather, it must be understood that bias is always present to some degree due to inherent limitations in research, its design, implementation, and ethical considerations.<xref ref-type="bibr" rid="article-137540.r4">[4]</xref>&#x000a0;Therefore, it is instead crucial to evaluate how much bias is present in a study and how the researchers attempted to minimize any sources of bias.<xref ref-type="bibr" rid="article-137540.r5">[5]</xref>&#x000a0;When evaluating for bias, it is important to note there are many types with several proposed classification schemes. However, it is easiest to view bias based on the various stages of research studies; the planning and design stage (before), data collection and analysis (during), and interpretation of results and journal submission (after). &#x000a0;</p>
+      </sec>
+      <sec id="article-137540.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>
+<bold>Planning</bold>
+</p>
+        <p>The planning stage of any study can have bias present in both study design and recruitment of subjects. Ideally, the design of a study should include a well-defined outcome, population of interest, and collection methods before implementation and data collection. The outcome, for example, response rates to a new medication, should be precisely agreed upon. Investigators may focus on changes in laboratory parameters (such as a new statin reducing LDL and total cholesterol levels) or focus on long-term morbidity and mortality (does the new statin cause reduction in cardiovascular-related deaths?) Similarly, the investigator&#x02019;s own pre-existing notion or personal beliefs can influence the question being asked and the study's methodology.<xref ref-type="bibr" rid="article-137540.r6">[6]</xref>&#x000a0;</p>
+        <p>For example, an investigator who works for a pharmaceutical company may address a question or collect data most likely to produce a significant finding supporting the use of the investigational medication. Thus, if possible, the question(s) being asked and the collection methods employed should be agreed upon by multiple team members in an interprofessional setting to reduce potential bias. Ethics committees also play a valuable role here.</p>
+        <p>Relatedly, the team members designing a study must define their population of interest, also referred to as the study population. Bias occurs if the study population does not closely represent a target population due to errors in study design or implementation, termed selection bias. Sampling bias is one form of selection bias and typically occurs if subjects were selected in a non-random way. It can also occur if the study requires subjects to be placed into cohorts and if those cohorts are significantly different in some way. This can lead to erroneous conclusions and significant findings. Randomization of subject selection and cohort assignment is a technique used in study design intended to reduce sampling bias.<xref ref-type="bibr" rid="article-137540.r7">[7]</xref><xref ref-type="bibr" rid="article-137540.r8">[8]</xref>&#x000a0;</p>
+        <p>However, bias can occur if subject selection occurred through limited means, such as recruiting subjects through phone landlines, thereby excluding anyone who does not own a landline. Similarly, this can occur if subjects are recruited only through email or a website.&#x000a0;This can result in confounding or the introduction of 3 variable that influences both the independent and dependent variables.<xref ref-type="bibr" rid="article-137540.r9">[9]</xref>&#x000a0;</p>
+        <p>For example, if a study recruited subjects from two primary care clinics to compare diabetes screening and treatment rates but did not account for potentially different socioeconomic characteristics of the two clinics, there may be significant differences between groups not due to clinical practice but rather cohort composition.</p>
+        <p>A subtype of selection bias, admission bias (also referred to as Berkson bias), occurs when the selected study population is derived from patients within hospitals or certain specialty clinics. This group is then compared to a non-hospitalized group. This predisposes to bias as hospitalized patient populations are more likely to be ill and not represent the general population. Furthermore, there are typically other confounding variables or covariates that may skew relationships between the intended dependent and independent variables.<xref ref-type="bibr" rid="article-137540.r10">[10]</xref>&#x000a0;</p>
+        <p>For example, in one study that evaluated the effect of cigarette smoking and its association with bladder cancer, researchers decided to use a hospital-based case-control study design. Normally, there is a strong and well-established relationship between years of cigarette use and the likelihood of developing bladder cancer. In fact, part of screening guidelines for bladder cancer considers the total years that an individual has smoked during patient risk stratification and subsequent evaluation and follow-up. However, in one study, researchers noted no significant relationship between smoking and bladder cancer. Upon re-evaluating, they noted their cases and controls both had significant smoking histories, thereby blurring any relationships.<xref ref-type="bibr" rid="article-137540.r11">[11]</xref>&#x000a0;</p>
+        <p>Admission bias can be reduced by selecting appropriate controls and being cognizant of the potential introduction of this bias in any hospital-based study. If this is not possible to do, researchers must be transparent about this in their work and may try to use different methods of statistical analysis to account for any confounding variables. In an almost opposite fashion, another source of potential error is a phenomenon termed the healthy worker effect. The healthy worker effect refers to the overall improved health and decreased mortality and morbidity rates of those employed relative to the unemployed. This occurs for various reasons, including access to better health care, improved socioeconomic status, the beneficial effects of work itself, and those who are critically ill or disabled are less likely to find employment.<xref ref-type="bibr" rid="article-137540.r12">[12]</xref><xref ref-type="bibr" rid="article-137540.r13">[13]</xref></p>
+        <p>Two other important forms of selection bias are lead-time bias and length time bias. Lead-time bias occurs in the context of disease diagnosis. In general, it occurs when new diagnostic testing allows detection of a disease in an early stage, causing a false appearance of longer lifespan or improved outcomes.<xref ref-type="bibr" rid="article-137540.r14">[14]</xref>&#x000a0;An example of this is noted in individuals with schizophrenia with varying durations of untreated psychosis. Those with shorter durations of psychosis relative to longer durations typically had better psychosocial functioning after admission to and treatment within a hospital. However, upon further analysis, it was found that it was not the duration of psychosis that affected psychosocial functioning. Rather, the duration of psychosis was indicative of the stage of the person&#x02019;s disease, and those individuals with shorter durations of psychosis were in an earlier stage of their disease.<xref ref-type="bibr" rid="article-137540.r15">[15]</xref>&#x000a0;</p>
+        <p>Length time bias is similar to lead-time bias; however, it refers to the overestimation of an individual&#x02019;s survival time due to a large number of cases that are asymptomatic and slowly progressing with a smaller number of cases that are rapidly progressive and symptomatic. An example can be noted in patients with hepatocellular carcinoma (HCC). Those who have HCC found via asymptomatic screening typically had a tumor doubling time of 100 days. In contrast, those individuals who had HCC uncovered due to symptomatic presentation had a tumor doubling time of 42 days on average. However, overall outcomes were the same amongst these two groups.<xref ref-type="bibr" rid="article-137540.r16">[16]</xref>&#x000a0;</p>
+        <p>The effect of both lead time and length time bias must be taken into effect by investigators. For lead-time bias, investigators can instead look at changes in the overall mortality rate due to disease. One method involves creating a modified survival curve that considers possible lead-time bias with the new diagnostic or screening protocols.<xref ref-type="bibr" rid="article-137540.r17">[17]</xref>&#x000a0;This involves an estimate of the lead time bias and subsequently subtracting this from the observed survival time. Unfortunately, the consequences of length time bias are difficult to mitigate, but investigators can minimize their effects by keeping individuals in their original groups based on screening protocols (intention-to-screen) regardless of the individual required earlier diagnostic workup due to symptoms.</p>
+        <p>Channeling and procedure bias are other forms of selection bias that can be encountered and addressed during the planning stage of a study. Channeling bias is a type of selection bias noted in observational studies. It occurs most frequently when patient characteristics, such as age or severity of illness, affect cohort assignment. This can occur, for example, in surgical studies where different interventions carry different levels of risk. Surgical procedures may be more likely to be carried out on patients with lower levels of periprocedural risk who would likely tolerate the event, whereas non-surgical interventions may be reserved for patients with higher levels of risk who would not be suitable for a lengthy procedure under general anesthesia.<xref ref-type="bibr" rid="article-137540.r18">[18]</xref>&#x000a0;As a result, channeling bias results in an imbalance of covariates between cohorts. This is particularly important when the surgical and non-surgical interventions have significant differences in outcome, making it difficult to ascertain if the difference is due to different interventions or covariate imbalance. Channeling bias can be accounted for through the use of propensity score analysis.<xref ref-type="bibr" rid="article-137540.r19">[19]</xref>&#x000a0;</p>
+        <p>Propensity scores are the probability of receiving one intervention over another based on an individual's observed covariates. These scores are obtained through a variety of different methods and then accounted for in the analysis stage via statistical methods, such as logistic regression. In addition to channeling bias, procedure bias (administration bias) is a similar form of selection bias, where two cohorts receive different levels of treatment or are administered similar treatments or interviews in different formats. An example of the former would be two cohorts of patients with ACL injuries. One cohort received strictly supervised physical therapy 3 times per week, and the other cohort was taught the exercises but instructed to do them at home on their own. An example of the latter would be administering a questionnaire regarding eating disorder symptoms. One group was asked in-person in an interview format, and the other group was allowed to take the questionnaire at home in an anonymous format.<xref ref-type="bibr" rid="article-137540.r20">[20]</xref>&#x000a0;</p>
+        <p>Either form of procedure bias can lead to significant differences observed between groups that might not exist where they are treated the same. Therefore, both procedure and channeling bias must be considered before data collection, particularly in observational or retrospective studies, to reduce or eliminate erroneous conclusions that are derived from the study design itself and not from treatment protocols.</p>
+        <p>
+<bold>Bias in Data Collection &#x00026; Analysis</bold>
+</p>
+        <p>There are also a variety of forms of bias present during data collection and analysis. One type is observer bias, which refers to any systematic difference between true and recorded values due to variation in the individual observer. This form of bias is particularly notable in studies that require investigators to record measurements or exposures, particularly if there is an element of subjectiveness present, such as evaluating the extent or color of a rash.<xref ref-type="bibr" rid="article-137540.r21">[21]</xref>&#x000a0;However, this has even been noted in the measurement of subjects&#x02019; blood pressures when using sphygmomanometers, where investigators may round up or down depending on their preconceived notions about the subject. Observer bias is more likely when the observer is aware of the subject&#x02019;s treatment status or assignment cohort. This is related to confirmation bias, which refers to a tendency to search for or interpret information to support a pre-existing belief.<xref ref-type="bibr" rid="article-137540.r22">[22]</xref>&#x000a0;</p>
+        <p>In one prominent example, physicians were asked to estimate blood loss and amniotic fluid volume in pregnant patients currently in labor. By providing additional information in the form of blood pressures (hypotensive or normotensive) to the physicians, they were more likely to overestimate blood loss and underestimate amniotic fluid volume when told the patient was hypotensive.<xref ref-type="bibr" rid="article-137540.r23">[23]</xref>&#x000a0;Similar findings are noted in fields such as medicine, health sciences, and social sciences, illustrating the strong and misdirecting influence of confirmation bias on the results found in certain studies.<xref ref-type="bibr" rid="article-137540.r22">[22]</xref><xref ref-type="bibr" rid="article-137540.r24">[24]</xref></p>
+        <p>Investigators and data collectors need to be trained to collect data in a uniform, empirical fashion and be conscious of their own beliefs to minimize measurement variability. There should be standardization of data collection to reduce inter-observer variance. This may include training all investigators or analysts to follow a standardized protocol, use standardized devices or measurement tools, or use validated questionnaires.<xref ref-type="bibr" rid="article-137540.r21">[21]</xref><xref ref-type="bibr" rid="article-137540.r25">[25]</xref>&#x000a0;</p>
+        <p>Furthermore, the decision of whether to blind the investigators and analysts should also be made. If implemented, blinding of the investigators can reduce observer bias, which refers to the differential assessment of an outcome when subjective criteria are being assessed. Confirmation bias within investigators and data collectors can be minimized if they are informed of its potential interfering role. Furthermore, overconfidence in either the overall study&#x02019;s results or the collection of accurate data from subjects can be a strong source of confirmation bias. Challenging overconfidence and encouraging multiple viewpoints is another mechanism by which to challenge this within investigators. Lastly, potential funding sources or other conflicts of interest can influence confirmation and observer bias and must be considered when evaluating for these potential sources of systematic error.<xref ref-type="bibr" rid="article-137540.r26">[26]</xref><xref ref-type="bibr" rid="article-137540.r27">[27]</xref> However, subjects themselves may change their behavior, consciously or unconsciously, in response to their awareness of being observed or being assigned to a treatment group termed the Hawthorne effect.<xref ref-type="bibr" rid="article-137540.r28">[28]</xref>&#x000a0;The Hawthorne effect can be minimized, although not eliminated, by reducing or hiding the observation of the subject if possible. A similar phenomenon is noted with self-selection bias, which occurs when individuals sort themselves into groups or choose to enroll in studies based on pre-existing factors. For example, a study evaluating the effectiveness of a popular weight loss program that allows participants to self-enroll may have significant differences between groups. In circumstances such as this, it is more probable that individuals who experienced greater success (measured in terms of weight lost) are likely to enroll. Meanwhile, those who did not lose weight and/or gained weight would likely not enroll. Similar issues plague other studies that rely on subject self-enrollment.<xref ref-type="bibr" rid="article-137540.r20">[20]</xref><xref ref-type="bibr" rid="article-137540.r29">[29]</xref></p>
+        <p>Self-selection bias is often found in tandem with response bias, which refers to subjects inaccurately answering questions due to various influences.<xref ref-type="bibr" rid="article-137540.r30">[30]</xref>&#x000a0;This can be due to question-wording, the social desirability of a certain answer, the sensitiveness of a question, the order of questions, and even the survey format, such as in-person, via telephone, or online.<xref ref-type="bibr" rid="article-137540.r22">[22]</xref><xref ref-type="bibr" rid="article-137540.r31">[31]</xref><xref ref-type="bibr" rid="article-137540.r32">[32]</xref><xref ref-type="bibr" rid="article-137540.r33">[33]</xref><xref ref-type="bibr" rid="article-137540.r34">[34]</xref>&#x000a0;There are methods of reducing the impact of all these factors, such as the use of anonymity in surveys, the use of specialized questioning techniques to reduce the impact of wording, and even the use of nominative techniques where individuals are asked about the behavior of close friends for certain types of questions.<xref ref-type="bibr" rid="article-137540.r35">[35]</xref> Non-response bias refers to significant differences between individuals who respond and those who do not respond to a survey or questionnaire. It is not to be confused as being the opposite of response bias. It is particularly problematic as errors can result in estimating population characteristics due to a lack of response from the non-responders. It is often noted in health surveys regarding alcohol, tobacco, or drug use, though it has been seen in many other topics targeted by surveys.<xref ref-type="bibr" rid="article-137540.r36">[36]</xref><xref ref-type="bibr" rid="article-137540.r37">[37]</xref><xref ref-type="bibr" rid="article-137540.r36">[36]</xref>&#x000a0;Furthermore, particularly in surveys designed to evaluate satisfaction after an intervention or treatment, individuals are much more likely to respond if they felt highly satisfied relative to the average individual. While highly dissatisfied individuals were also more likely to respond relative to average, they were less likely to respond relative to highly satisfied individuals, thus potentially skewing results toward respondents with positive viewpoints. This can be noted in product reviews or restaurant evaluations.</p>
+        <p>Several preventative steps can be taken during study design or data collection to mitigate the effects of non-response bias. Ideally, surveys should be as short and accessible as possible, and potential participants should be involved in questions design. Additionally, incentives can be provided for participation if necessary. Lastly, if necessary, surveys can be made mandatory as opposed to voluntary. For example, this could occur if school-age children were initially sent a survey via mail to their homes to complete voluntarily, but this was later changed to a survey required to be completed and handed in at school on an anonymous basis.<xref ref-type="bibr" rid="article-137540.r38">[38]</xref><xref ref-type="bibr" rid="article-137540.r39">[39]</xref></p>
+        <p>Similar to the Hawthorne effect and self-selection bias, recall bias is another potential source of systematic error stemming from the subjects of a particular study. Recall bias is any error due to differences in an individual&#x02019;s recollections and what truly transpired. Recall bias is particularly prevalent in retrospective studies that use questionnaires, surveys, and/or interviews.<xref ref-type="bibr" rid="article-137540.r40">[40]</xref>&#x000a0;</p>
+        <p>For example, in a retrospective study evaluating the prevalence of cigarette smoking in individuals diagnosed with lung cancer vs. those without, those with lung cancer may be more likely to overestimate their use of tobacco meanwhile those without may underestimate their use.&#x000a0;Fortunately, the impact of recall bias can be minimized by decreasing the time interval between an outcome (lung cancer) and exposure (tobacco use). The rationale for this is that individuals are more likely to be accurate when the time period assessed is of shorter duration. Other methods that can be used would be to corroborate the individual&#x02019;s subjective assessments with medical records or other objective measures whenever possible.<xref ref-type="bibr" rid="article-137540.r41">[41]</xref></p>
+        <p>Lastly, in addition to the data collectors and the subjects, bias and subsequent systematic error can be introduced through data analysis, especially if conducted in a manner that gives preference to certain conclusions. There can be blatant data fabrication where non-existing data is reported. However, researchers are more likely to perform multiple tests with pair-wise comparisons, termed &#x0201c;p-hacking.&#x0201d;<xref ref-type="bibr" rid="article-137540.r42">[42]</xref>&#x000a0;This typically involves analysis of subgroups or multiple endpoints to obtain statistically significant findings, even if these findings were unrelated to the original hypothesis. P-hacking also occurs when investigators perform data analysis partway through data collection to determine if it is worth continuing or not.<xref ref-type="bibr" rid="article-137540.r43">[43]</xref>&#x000a0;It also occurs when covariates are excluded, if outliers are included or dropped without mention, or if treatment groups are split, combined, or otherwise modified based on the original research design.<xref ref-type="bibr" rid="article-137540.r44">[44]</xref><xref ref-type="bibr" rid="article-137540.r45">[45]</xref></p>
+        <p>Ideally, researchers should list all variables explored and all associated findings. If any observations are eliminated (outliers), they should be reported, and an explanation is given as to why they were eliminated and how their elimination affected the data.</p>
+        <p>
+<bold>Bias in Data Interpretation and Publication</bold>
+</p>
+        <p>The final stages of any study, interpretation of data and publication of results, is also susceptible to various types of bias. During data interpretation and subsequent discussion, researchers must ensure that the proper statistical tests were used and that they were used correctly. Furthermore, results discussed should be statistically significant, and discussion should be avoided with results that &#x0201c;approach significance.&#x0201d;<xref ref-type="bibr" rid="article-137540.r46">[46]</xref>&#x000a0;Furthermore, bias can also be introduced in this stage if researchers discuss statistically significant differences but not clinically significant if conclusions are made about causality when the experiment was purely observational if data is extrapolated beyond the range found within the study.<xref ref-type="bibr" rid="article-137540.r3">[3]</xref></p>
+        <p>A major form of bias found during the publication stage is appropriately named publication bias. This refers to the submission of either statistically or clinically significant results, excluding other findings.<xref ref-type="bibr" rid="article-137540.r47">[47]</xref>&#x000a0;Journals and publishers themselves have been found to favor studies with significant values. However, researchers themselves may, in turn, use methods of data analysis or interpretation (mentioned above) to uncover significant results.&#x000a0;Outcome reporting bias is similar, which refers to the submission of statistically significant results only, excluding non-significant ones. These two biases have been found to affect the results of systematic analyses and even affect the clinical management of patients.<xref ref-type="bibr" rid="article-137540.r48">[48]</xref>&#x000a0;However, publication and outcome reporting bias can be prevented in certain cases. Any prospective trials are typically required to be registered before study commencement, meaning that all results, whether significant or not, will be visible. Furthermore, electronic registration and archiving of findings can also help reduce publication bias.<xref ref-type="bibr" rid="article-137540.r49">[49]</xref></p>
+      </sec>
+      <sec id="article-137540.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Understanding basic aspects of&#x000a0;study bias and related concepts&#x000a0;will aid clinicians in practicing and improving evidence-based medicine. Study bias can be a major factor that detracts from the external validity of a study or the generalizability of findings to other populations or settings.<xref ref-type="bibr" rid="article-137540.r50">[50]</xref>&#x000a0;Clinicians who possess a strong understanding of the various biases that can plague studies&#x000a0;will be better able to determine the external validity and, therefore, clinical applicability of a study's findings.<xref ref-type="bibr" rid="article-137540.r51">[51]</xref><xref ref-type="bibr" rid="article-137540.r52">[52]</xref>&#x000a0;</p>
+        <p>The replicability of a study with similar findings is a strong factor in determining its external validity and generalizability to the clinical setting. Whenever possible, clinicians should arm themselves with the knowledge from multiple studies or systematic reviews on a topic, as opposed to using a single study.<xref ref-type="bibr" rid="article-137540.r53">[53]</xref>&#x000a0;Systematic reviews allow applying strategies that limit bias&#x000a0;through systematic assembly, appraisal, and&#x000a0;unification of the relevant studies&#x000a0;regarding a&#x000a0;topic.<xref ref-type="bibr" rid="article-137540.r54">[54]</xref>&#x000a0;</p>
+        <p>With a critical, investigational point of view, a willingness to evaluate contrary sources,&#x000a0;and the use of systematic reviews, clinicians can better identify sources of bias. In doing so, they can better reduce its impact in their decision-making process and thereby implement a strong form of evidence-based medicine.</p>
+      </sec>
+      <sec id="article-137540.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>There are numerous sources of bias within the research process, ranging from the design and planning stage, data collection and analysis, interpretation of results, and the publication process. Bias in one or multiple points of this process can skew results and even lead to incorrect conclusions. This, in turn, can cause harmful medical decisions, affecting patients, their families, and the overall healthcare team. Outside of medicine, significant bias can result in erroneous conclusions in academic research, leading to future fruitless studies in the same field.<xref ref-type="bibr" rid="article-137540.r55">[55]</xref>&#x000a0;</p>
+        <p>When combined with the knowledge that most studies are never replicated or verified, this can lead to a deleterious cycle of biased, unverified research leading to more research. This can harm the investigators and institutions partaking in such research and discredit entire fields, even if other investigators had significant work and took extreme care to limit and explain sources of bias.</p>
+        <p>All research needs to be carried out and reported transparently and honestly. In recent years, important steps have been taken, such as increased awareness of biases present in the research process, manipulating statistics to generate significant results, and implementing a clinical trial registry system. However, all stakeholders of the research process, from investigators to data collectors, to the institutions they are a part of, and the journals that review and publish findings, must take extreme care to identify and limit sources of bias and report those transparently.</p>
+        <p>All interprofessional healthcare team members, including physicians, physician assistants, nurses, pharmacists, and therapists, need to understand the variety of biases present throughout the research process. Such knowledge will separate stronger studies from weaker ones, determine the clinical and real-world applicability of results, and optimize patient care through the appropriate use of data-driven research results considering potential biases. Failure to understand various biases and how they can skew research results can lead to suboptimal and potentially deleterious decision-making and negatively impact both patient and system outcomes.</p>
+      </sec>
+      <sec id="article-137540.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=137540&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=137540">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/137540/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=137540">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-137540.s6">
+        <title>References</title>
+        <ref id="article-137540.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pannucci</surname>
+                <given-names>CJ</given-names>
+              </name>
+              <name>
+                <surname>Wilkins</surname>
+                <given-names>EG</given-names>
+              </name>
+            </person-group>
+            <article-title>Identifying and avoiding bias in research.</article-title>
+            <source>Plast Reconstr Surg</source>
+            <year>2010</year>
+            <month>Aug</month>
+            <volume>126</volume>
+            <issue>2</issue>
+            <fpage>619</fpage>
+            <page-range>619-625</page-range>
+            <pub-id pub-id-type="pmid">20679844</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vetter</surname>
+                <given-names>TR</given-names>
+              </name>
+              <name>
+                <surname>Mascha</surname>
+                <given-names>EJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Bias, Confounding, and Interaction: Lions and Tigers, and Bears, Oh My!</article-title>
+            <source>Anesth Analg</source>
+            <year>2017</year>
+            <month>Sep</month>
+            <volume>125</volume>
+            <issue>3</issue>
+            <fpage>1042</fpage>
+            <page-range>1042-1048</page-range>
+            <pub-id pub-id-type="pmid">28817531</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Simundi&#x00107;</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>Bias in research.</article-title>
+            <source>Biochem Med (Zagreb)</source>
+            <year>2013</year>
+            <volume>23</volume>
+            <issue>1</issue>
+            <fpage>12</fpage>
+            <page-range>12-5</page-range>
+            <pub-id pub-id-type="pmid">23457761</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gerhard</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Bias: considerations for research practice.</article-title>
+            <source>Am J Health Syst Pharm</source>
+            <year>2008</year>
+            <month>Nov</month>
+            <day>15</day>
+            <volume>65</volume>
+            <issue>22</issue>
+            <fpage>2159</fpage>
+            <page-range>2159-68</page-range>
+            <pub-id pub-id-type="pmid">18997149</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Maclure</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Schneeweiss</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Causation of bias: the episcope.</article-title>
+            <source>Epidemiology</source>
+            <year>2001</year>
+            <month>Jan</month>
+            <volume>12</volume>
+            <issue>1</issue>
+            <fpage>114</fpage>
+            <page-range>114-22</page-range>
+            <pub-id pub-id-type="pmid">11138805</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Smith</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Noble</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Bias in research.</article-title>
+            <source>Evid Based Nurs</source>
+            <year>2014</year>
+            <month>Oct</month>
+            <volume>17</volume>
+            <issue>4</issue>
+            <fpage>100</fpage>
+            <page-range>100-1</page-range>
+            <pub-id pub-id-type="pmid">25097234</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tripepi</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Jager</surname>
+                <given-names>KJ</given-names>
+              </name>
+              <name>
+                <surname>Dekker</surname>
+                <given-names>FW</given-names>
+              </name>
+              <name>
+                <surname>Zoccali</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Selection bias and information bias in clinical research.</article-title>
+            <source>Nephron Clin Pract</source>
+            <year>2010</year>
+            <volume>115</volume>
+            <issue>2</issue>
+            <fpage>c94</fpage>
+            <page-range>c94-9</page-range>
+            <pub-id pub-id-type="pmid">20407272</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ellenberg</surname>
+                <given-names>JH</given-names>
+              </name>
+            </person-group>
+            <article-title>Selection bias in observational and experimental studies.</article-title>
+            <source>Stat Med</source>
+            <string-date>1994 Mar 15-Apr 15</string-date>
+            <volume>13</volume>
+            <issue>5-7</issue>
+            <fpage>557</fpage>
+            <page-range>557-67</page-range>
+            <pub-id pub-id-type="pmid">8023035</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>VanderWeele</surname>
+                <given-names>TJ</given-names>
+              </name>
+              <name>
+                <surname>Shpitser</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <article-title>On the definition of a confounder.</article-title>
+            <source>Ann Stat</source>
+            <year>2013</year>
+            <month>Feb</month>
+            <volume>41</volume>
+            <issue>1</issue>
+            <fpage>196</fpage>
+            <page-range>196-220</page-range>
+            <pub-id pub-id-type="pmid">25544784</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Westreich</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Berkson's bias, selection bias, and missing data.</article-title>
+            <source>Epidemiology</source>
+            <year>2012</year>
+            <month>Jan</month>
+            <volume>23</volume>
+            <issue>1</issue>
+            <fpage>159</fpage>
+            <page-range>159-64</page-range>
+            <pub-id pub-id-type="pmid">22081062</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sadetzki</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Bensal</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Novikov</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Modan</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>The limitations of using hospital controls in cancer etiology--one more example for Berkson's bias.</article-title>
+            <source>Eur J Epidemiol</source>
+            <year>2003</year>
+            <volume>18</volume>
+            <issue>12</issue>
+            <fpage>1127</fpage>
+            <page-range>1127-31</page-range>
+            <pub-id pub-id-type="pmid">14758869</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Shah</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Healthy worker effect phenomenon.</article-title>
+            <source>Indian J Occup Environ Med</source>
+            <year>2009</year>
+            <month>Aug</month>
+            <volume>13</volume>
+            <issue>2</issue>
+            <fpage>77</fpage>
+            <page-range>77-9</page-range>
+            <pub-id pub-id-type="pmid">20386623</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>DOLL</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>FISHER</surname>
+                <given-names>RE</given-names>
+              </name>
+              <name>
+                <surname>GAMMON</surname>
+                <given-names>EJ</given-names>
+              </name>
+              <name>
+                <surname>GUNN</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>HUGHES</surname>
+                <given-names>GO</given-names>
+              </name>
+              <name>
+                <surname>TYRER</surname>
+                <given-names>FH</given-names>
+              </name>
+              <name>
+                <surname>WILSON</surname>
+                <given-names>W</given-names>
+              </name>
+            </person-group>
+            <article-title>MORTALITY OF GASWORKERS WITH SPECIAL REFERENCE TO CANCERS OF THE LUNG AND BLADDER, CHRONIC BRONCHITIS, AND PNEUMOCONIOSIS.</article-title>
+            <source>Br J Ind Med</source>
+            <year>1965</year>
+            <month>Jan</month>
+            <volume>22</volume>
+            <issue>1</issue>
+            <fpage>1</fpage>
+            <page-range>1-12</page-range>
+            <pub-id pub-id-type="pmid">14261702</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kendal</surname>
+                <given-names>WS</given-names>
+              </name>
+            </person-group>
+            <article-title>Pancreatectomy Versus Conservative Management for Pancreatic Cancer: A Question of Lead-time Bias.</article-title>
+            <source>Am J Clin Oncol</source>
+            <year>2015</year>
+            <month>Oct</month>
+            <volume>38</volume>
+            <issue>5</issue>
+            <fpage>483</fpage>
+            <page-range>483-8</page-range>
+            <pub-id pub-id-type="pmid">24064752</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jonas</surname>
+                <given-names>KG</given-names>
+              </name>
+              <name>
+                <surname>Fochtmann</surname>
+                <given-names>LJ</given-names>
+              </name>
+              <name>
+                <surname>Perlman</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Tian</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Kane</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Bromet</surname>
+                <given-names>EJ</given-names>
+              </name>
+              <name>
+                <surname>Kotov</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Lead-Time Bias Confounds Association Between Duration of Untreated Psychosis and Illness Course in Schizophrenia.</article-title>
+            <source>Am J Psychiatry</source>
+            <year>2020</year>
+            <month>Apr</month>
+            <day>01</day>
+            <volume>177</volume>
+            <issue>4</issue>
+            <fpage>327</fpage>
+            <page-range>327-334</page-range>
+            <pub-id pub-id-type="pmid">32046533</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cucchetti</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Garuti</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Pinna</surname>
+                <given-names>AD</given-names>
+              </name>
+              <name>
+                <surname>Trevisani</surname>
+                <given-names>F</given-names>
+              </name>
+              <collab>Italian Liver Cancer (ITA.LI.CA) group</collab>
+            </person-group>
+            <article-title>Length time bias in surveillance for hepatocellular carcinoma and how to avoid it.</article-title>
+            <source>Hepatol Res</source>
+            <year>2016</year>
+            <month>Nov</month>
+            <volume>46</volume>
+            <issue>12</issue>
+            <fpage>1275</fpage>
+            <page-range>1275-1280</page-range>
+            <pub-id pub-id-type="pmid">26879882</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Duffy</surname>
+                <given-names>SW</given-names>
+              </name>
+              <name>
+                <surname>Nagtegaal</surname>
+                <given-names>ID</given-names>
+              </name>
+              <name>
+                <surname>Wallis</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Cafferty</surname>
+                <given-names>FH</given-names>
+              </name>
+              <name>
+                <surname>Houssami</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Warwick</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Allgood</surname>
+                <given-names>PC</given-names>
+              </name>
+              <name>
+                <surname>Kearins</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Tappenden</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>O'Sullivan</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Lawrence</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Correcting for lead time and length bias in estimating the effect of screen detection on cancer survival.</article-title>
+            <source>Am J Epidemiol</source>
+            <year>2008</year>
+            <month>Jul</month>
+            <day>01</day>
+            <volume>168</volume>
+            <issue>1</issue>
+            <fpage>98</fpage>
+            <page-range>98-104</page-range>
+            <pub-id pub-id-type="pmid">18504245</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lobo</surname>
+                <given-names>FS</given-names>
+              </name>
+              <name>
+                <surname>Wagner</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Gross</surname>
+                <given-names>CR</given-names>
+              </name>
+              <name>
+                <surname>Schommer</surname>
+                <given-names>JC</given-names>
+              </name>
+            </person-group>
+            <article-title>Addressing the issue of channeling bias in observational studies with propensity scores analysis.</article-title>
+            <source>Res Social Adm Pharm</source>
+            <year>2006</year>
+            <month>Mar</month>
+            <volume>2</volume>
+            <issue>1</issue>
+            <fpage>143</fpage>
+            <page-range>143-51</page-range>
+            <pub-id pub-id-type="pmid">17138506</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Paradis</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Bias in surgical research.</article-title>
+            <source>Ann Surg</source>
+            <year>2008</year>
+            <month>Aug</month>
+            <volume>248</volume>
+            <issue>2</issue>
+            <fpage>180</fpage>
+            <page-range>180-8</page-range>
+            <pub-id pub-id-type="pmid">18650626</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gorrasi</surname>
+                <given-names>ISR</given-names>
+              </name>
+              <name>
+                <surname>Ferraris</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Degan</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Daga</surname>
+                <given-names>GA</given-names>
+              </name>
+              <name>
+                <surname>Bo</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Tagliabue</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Guglielmetti</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Roppolo</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gilli</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Maran</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Carraro</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Use of online and paper-and-pencil questionnaires to assess the distribution of orthorexia nervosa, muscle dysmorphia and eating disorders among university students: can different approaches lead to different results?</article-title>
+            <source>Eat Weight Disord</source>
+            <year>2022</year>
+            <month>Apr</month>
+            <volume>27</volume>
+            <issue>3</issue>
+            <fpage>989</fpage>
+            <page-range>989-999</page-range>
+            <pub-id pub-id-type="pmid">34110598</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mahtani</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Spencer</surname>
+                <given-names>EA</given-names>
+              </name>
+              <name>
+                <surname>Brassey</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Heneghan</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Catalogue of bias: observer bias.</article-title>
+            <source>BMJ Evid Based Med</source>
+            <year>2018</year>
+            <month>Feb</month>
+            <volume>23</volume>
+            <issue>1</issue>
+            <fpage>23</fpage>
+            <page-range>23-24</page-range>
+            <pub-id pub-id-type="pmid">29367322</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Braithwaite</surname>
+                <given-names>RS</given-names>
+              </name>
+              <name>
+                <surname>Ban</surname>
+                <given-names>KF</given-names>
+              </name>
+              <name>
+                <surname>Stevens</surname>
+                <given-names>ER</given-names>
+              </name>
+              <name>
+                <surname>Caniglia</surname>
+                <given-names>EC</given-names>
+              </name>
+            </person-group>
+            <article-title>Rounding up the usual suspects: confirmation bias in epidemiological research.</article-title>
+            <source>Int J Epidemiol</source>
+            <year>2021</year>
+            <month>Aug</month>
+            <day>30</day>
+            <volume>50</volume>
+            <issue>4</issue>
+            <fpage>1053</fpage>
+            <page-range>1053-1057</page-range>
+            <pub-id pub-id-type="pmid">33928375</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Atallah</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Moreno-Jackson</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>McLaren</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Fisher</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Weedon</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Jones</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Minkoff</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Confirmation Bias Affects Estimation of Blood Loss and Amniotic Fluid Volume: A Randomized Simulation-Based Trial.</article-title>
+            <source>Am J Perinatol</source>
+            <year>2021</year>
+            <month>Oct</month>
+            <volume>38</volume>
+            <issue>12</issue>
+            <fpage>1277</fpage>
+            <page-range>1277-1280</page-range>
+            <pub-id pub-id-type="pmid">32485753</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gorman</surname>
+                <given-names>DM</given-names>
+              </name>
+            </person-group>
+            <article-title>'Everything works': the need to address confirmation bias in evaluations of drug misuse prevention interventions for adolescents.</article-title>
+            <source>Addiction</source>
+            <year>2015</year>
+            <month>Oct</month>
+            <volume>110</volume>
+            <issue>10</issue>
+            <fpage>1539</fpage>
+            <page-range>1539-40</page-range>
+            <pub-id pub-id-type="pmid">26038149</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Davis</surname>
+                <given-names>RE</given-names>
+              </name>
+              <name>
+                <surname>Couper</surname>
+                <given-names>MP</given-names>
+              </name>
+              <name>
+                <surname>Janz</surname>
+                <given-names>NK</given-names>
+              </name>
+              <name>
+                <surname>Caldwell</surname>
+                <given-names>CH</given-names>
+              </name>
+              <name>
+                <surname>Resnicow</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Interviewer effects in public health surveys.</article-title>
+            <source>Health Educ Res</source>
+            <year>2010</year>
+            <month>Feb</month>
+            <volume>25</volume>
+            <issue>1</issue>
+            <fpage>14</fpage>
+            <page-range>14-26</page-range>
+            <pub-id pub-id-type="pmid">19762354</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rollwage</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Loosen</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Hauser</surname>
+                <given-names>TU</given-names>
+              </name>
+              <name>
+                <surname>Moran</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Dolan</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Fleming</surname>
+                <given-names>SM</given-names>
+              </name>
+            </person-group>
+            <article-title>Confidence drives a neural confirmation bias.</article-title>
+            <source>Nat Commun</source>
+            <year>2020</year>
+            <month>May</month>
+            <day>26</day>
+            <volume>11</volume>
+            <issue>1</issue>
+            <fpage>2634</fpage>
+            <pub-id pub-id-type="pmid">32457308</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>van den Eeden</surname>
+                <given-names>CAJ</given-names>
+              </name>
+              <name>
+                <surname>de Poot</surname>
+                <given-names>CJ</given-names>
+              </name>
+              <name>
+                <surname>van Koppen</surname>
+                <given-names>PJ</given-names>
+              </name>
+            </person-group>
+            <article-title>The Forensic Confirmation Bias: A Comparison Between Experts and Novices.</article-title>
+            <source>J Forensic Sci</source>
+            <year>2019</year>
+            <month>Jan</month>
+            <volume>64</volume>
+            <issue>1</issue>
+            <fpage>120</fpage>
+            <page-range>120-126</page-range>
+            <pub-id pub-id-type="pmid">29772072</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>McCambridge</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Witton</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Elbourne</surname>
+                <given-names>DR</given-names>
+              </name>
+            </person-group>
+            <article-title>Systematic review of the Hawthorne effect: new concepts are needed to study research participation effects.</article-title>
+            <source>J Clin Epidemiol</source>
+            <year>2014</year>
+            <month>Mar</month>
+            <volume>67</volume>
+            <issue>3</issue>
+            <fpage>267</fpage>
+            <page-range>267-77</page-range>
+            <pub-id pub-id-type="pmid">24275499</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Copas</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Burkill</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Conrad</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Couper</surname>
+                <given-names>MP</given-names>
+              </name>
+              <name>
+                <surname>Erens</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>An evaluation of whether propensity score adjustment can remove the self-selection bias inherent to web panel surveys addressing sensitive health behaviours.</article-title>
+            <source>BMC Med Res Methodol</source>
+            <year>2020</year>
+            <month>Oct</month>
+            <day>08</day>
+            <volume>20</volume>
+            <issue>1</issue>
+            <fpage>251</fpage>
+            <pub-id pub-id-type="pmid">33032535</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Catania</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Gibson</surname>
+                <given-names>DR</given-names>
+              </name>
+              <name>
+                <surname>Chitwood</surname>
+                <given-names>DD</given-names>
+              </name>
+              <name>
+                <surname>Coates</surname>
+                <given-names>TJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Methodological problems in AIDS behavioral research: influences on measurement error and participation bias in studies of sexual behavior.</article-title>
+            <source>Psychol Bull</source>
+            <year>1990</year>
+            <month>Nov</month>
+            <volume>108</volume>
+            <issue>3</issue>
+            <fpage>339</fpage>
+            <page-range>339-62</page-range>
+            <pub-id pub-id-type="pmid">2270232</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sj&#x000f6;str&#x000f6;m</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Holst</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Validity of a questionnaire survey: response patterns in different subgroups and the effect of social desirability.</article-title>
+            <source>Acta Odontol Scand</source>
+            <year>2002</year>
+            <month>Jun</month>
+            <volume>60</volume>
+            <issue>3</issue>
+            <fpage>136</fpage>
+            <page-range>136-40</page-range>
+            <pub-id pub-id-type="pmid">12166905</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tourangeau</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Yan</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Sensitive questions in surveys.</article-title>
+            <source>Psychol Bull</source>
+            <year>2007</year>
+            <month>Sep</month>
+            <volume>133</volume>
+            <issue>5</issue>
+            <fpage>859</fpage>
+            <page-range>859-83</page-range>
+            <pub-id pub-id-type="pmid">17723033</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Phillips</surname>
+                <given-names>AE</given-names>
+              </name>
+              <name>
+                <surname>Gomez</surname>
+                <given-names>GB</given-names>
+              </name>
+              <name>
+                <surname>Boily</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Garnett</surname>
+                <given-names>GP</given-names>
+              </name>
+            </person-group>
+            <article-title>A systematic review and meta-analysis of quantitative interviewing tools to investigate self-reported HIV and STI associated behaviours in low- and middle-income countries.</article-title>
+            <source>Int J Epidemiol</source>
+            <year>2010</year>
+            <month>Dec</month>
+            <volume>39</volume>
+            <issue>6</issue>
+            <fpage>1541</fpage>
+            <page-range>1541-55</page-range>
+            <pub-id pub-id-type="pmid">20630991</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Malat</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>van Ryn</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Purcell</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Race, socioeconomic status, and the perceived importance of positive self-presentation in health care.</article-title>
+            <source>Soc Sci Med</source>
+            <year>2006</year>
+            <month>May</month>
+            <volume>62</volume>
+            <issue>10</issue>
+            <fpage>2479</fpage>
+            <page-range>2479-88</page-range>
+            <pub-id pub-id-type="pmid">16368178</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Miller</surname>
+                <given-names>JD</given-names>
+              </name>
+            </person-group>
+            <article-title>The nominative technique: a new method of estimating heroin prevalence.</article-title>
+            <source>NIDA Res Monogr</source>
+            <year>1985</year>
+            <volume>57</volume>
+            <fpage>104</fpage>
+            <page-range>104-24</page-range>
+            <pub-id pub-id-type="pmid">3929108</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Boniface</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Scholes</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Shelton</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Connor</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Assessment of Non-Response Bias in Estimates of Alcohol Consumption: Applying the Continuum of Resistance Model in a General Population Survey in England.</article-title>
+            <source>PLoS One</source>
+            <year>2017</year>
+            <volume>12</volume>
+            <issue>1</issue>
+            <fpage>e0170892</fpage>
+            <pub-id pub-id-type="pmid">28141834</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mazor</surname>
+                <given-names>KM</given-names>
+              </name>
+              <name>
+                <surname>Clauser</surname>
+                <given-names>BE</given-names>
+              </name>
+              <name>
+                <surname>Field</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Yood</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Gurwitz</surname>
+                <given-names>JH</given-names>
+              </name>
+            </person-group>
+            <article-title>A demonstration of the impact of response bias on the results of patient satisfaction surveys.</article-title>
+            <source>Health Serv Res</source>
+            <year>2002</year>
+            <month>Oct</month>
+            <volume>37</volume>
+            <issue>5</issue>
+            <fpage>1403</fpage>
+            <page-range>1403-17</page-range>
+            <pub-id pub-id-type="pmid">12479503</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ponto</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Understanding and Evaluating Survey Research.</article-title>
+            <source>J Adv Pract Oncol</source>
+            <year>2015</year>
+            <season>Mar-Apr</season>
+            <volume>6</volume>
+            <issue>2</issue>
+            <fpage>168</fpage>
+            <page-range>168-71</page-range>
+            <pub-id pub-id-type="pmid">26649250</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cheung</surname>
+                <given-names>KL</given-names>
+              </name>
+              <name>
+                <surname>Ten Klooster</surname>
+                <given-names>PM</given-names>
+              </name>
+              <name>
+                <surname>Smit</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>de Vries</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Pieterse</surname>
+                <given-names>ME</given-names>
+              </name>
+            </person-group>
+            <article-title>The impact of non-response bias due to sampling in public health studies: A comparison of voluntary versus mandatory recruitment in a Dutch national survey on adolescent health.</article-title>
+            <source>BMC Public Health</source>
+            <year>2017</year>
+            <month>Mar</month>
+            <day>23</day>
+            <volume>17</volume>
+            <issue>1</issue>
+            <fpage>276</fpage>
+            <pub-id pub-id-type="pmid">28330465</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kopec</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Esdaile</surname>
+                <given-names>JM</given-names>
+              </name>
+            </person-group>
+            <article-title>Bias in case-control studies. A review.</article-title>
+            <source>J Epidemiol Community Health</source>
+            <year>1990</year>
+            <month>Sep</month>
+            <volume>44</volume>
+            <issue>3</issue>
+            <fpage>179</fpage>
+            <page-range>179-86</page-range>
+            <pub-id pub-id-type="pmid">2273353</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Janerich</surname>
+                <given-names>DT</given-names>
+              </name>
+              <name>
+                <surname>Thompson</surname>
+                <given-names>WD</given-names>
+              </name>
+              <name>
+                <surname>Varela</surname>
+                <given-names>LR</given-names>
+              </name>
+              <name>
+                <surname>Greenwald</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Chorost</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Tucci</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Zaman</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name>
+                <surname>Melamed</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name>
+                <surname>Kiely</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>McKneally</surname>
+                <given-names>MF</given-names>
+              </name>
+            </person-group>
+            <article-title>Lung cancer and exposure to tobacco smoke in the household.</article-title>
+            <source>N Engl J Med</source>
+            <year>1990</year>
+            <month>Sep</month>
+            <day>06</day>
+            <volume>323</volume>
+            <issue>10</issue>
+            <fpage>632</fpage>
+            <page-range>632-6</page-range>
+            <pub-id pub-id-type="pmid">2385268</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Head</surname>
+                <given-names>ML</given-names>
+              </name>
+              <name>
+                <surname>Holman</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Lanfear</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Kahn</surname>
+                <given-names>AT</given-names>
+              </name>
+              <name>
+                <surname>Jennions</surname>
+                <given-names>MD</given-names>
+              </name>
+            </person-group>
+            <article-title>The extent and consequences of p-hacking in science.</article-title>
+            <source>PLoS Biol</source>
+            <year>2015</year>
+            <month>Mar</month>
+            <volume>13</volume>
+            <issue>3</issue>
+            <fpage>e1002106</fpage>
+            <pub-id pub-id-type="pmid">25768323</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gadbury</surname>
+                <given-names>GL</given-names>
+              </name>
+              <name>
+                <surname>Allison</surname>
+                <given-names>DB</given-names>
+              </name>
+            </person-group>
+            <article-title>Inappropriate fiddling with statistical analyses to obtain a desirable p-value: tests to detect its presence in published literature.</article-title>
+            <source>PLoS One</source>
+            <year>2012</year>
+            <volume>7</volume>
+            <issue>10</issue>
+            <fpage>e46363</fpage>
+            <pub-id pub-id-type="pmid">23056287</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>John</surname>
+                <given-names>LK</given-names>
+              </name>
+              <name>
+                <surname>Loewenstein</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Prelec</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Measuring the prevalence of questionable research practices with incentives for truth telling.</article-title>
+            <source>Psychol Sci</source>
+            <year>2012</year>
+            <month>May</month>
+            <day>01</day>
+            <volume>23</volume>
+            <issue>5</issue>
+            <fpage>524</fpage>
+            <page-range>524-32</page-range>
+            <pub-id pub-id-type="pmid">22508865</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Simmons</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Nelson</surname>
+                <given-names>LD</given-names>
+              </name>
+              <name>
+                <surname>Simonsohn</surname>
+                <given-names>U</given-names>
+              </name>
+            </person-group>
+            <article-title>False-positive psychology: undisclosed flexibility in data collection and analysis allows presenting anything as significant.</article-title>
+            <source>Psychol Sci</source>
+            <year>2011</year>
+            <month>Nov</month>
+            <volume>22</volume>
+            <issue>11</issue>
+            <fpage>1359</fpage>
+            <page-range>1359-66</page-range>
+            <pub-id pub-id-type="pmid">22006061</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r46">
+          <label>46</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Simundic</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>Practical recommendations for statistical analysis and data presentation in Biochemia Medica journal.</article-title>
+            <source>Biochem Med (Zagreb)</source>
+            <year>2012</year>
+            <volume>22</volume>
+            <issue>1</issue>
+            <fpage>15</fpage>
+            <page-range>15-23</page-range>
+            <pub-id pub-id-type="pmid">22384516</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r47">
+          <label>47</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dalton</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>Bolen</surname>
+                <given-names>SD</given-names>
+              </name>
+              <name>
+                <surname>Mascha</surname>
+                <given-names>EJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Publication Bias: The Elephant in the Review.</article-title>
+            <source>Anesth Analg</source>
+            <year>2016</year>
+            <month>Oct</month>
+            <volume>123</volume>
+            <issue>4</issue>
+            <fpage>812</fpage>
+            <page-range>812-3</page-range>
+            <pub-id pub-id-type="pmid">27636569</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r48">
+          <label>48</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cowley</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Skene</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Stainer</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Hampton</surname>
+                <given-names>JR</given-names>
+              </name>
+            </person-group>
+            <article-title>The effect of lorcainide on arrhythmias and survival in patients with acute myocardial infarction: an example of publication bias.</article-title>
+            <source>Int J Cardiol</source>
+            <year>1993</year>
+            <month>Jul</month>
+            <day>01</day>
+            <volume>40</volume>
+            <issue>2</issue>
+            <fpage>161</fpage>
+            <page-range>161-6</page-range>
+            <pub-id pub-id-type="pmid">8349379</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r49">
+          <label>49</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chalmers</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Altman</surname>
+                <given-names>DG</given-names>
+              </name>
+            </person-group>
+            <article-title>How can medical journals help prevent poor medical research? Some opportunities presented by electronic publishing.</article-title>
+            <source>Lancet</source>
+            <year>1999</year>
+            <month>Feb</month>
+            <day>06</day>
+            <volume>353</volume>
+            <issue>9151</issue>
+            <fpage>490</fpage>
+            <page-range>490-3</page-range>
+            <pub-id pub-id-type="pmid">9989737</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r50">
+          <label>50</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ferguson</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>External validity, generalizability, and knowledge utilization.</article-title>
+            <source>J Nurs Scholarsh</source>
+            <year>2004</year>
+            <volume>36</volume>
+            <issue>1</issue>
+            <fpage>16</fpage>
+            <page-range>16-22</page-range>
+            <pub-id pub-id-type="pmid">15098414</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r51">
+          <label>51</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Munnangi</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Boktor</surname>
+                <given-names>SW</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Epidemiology Of Study Design</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2023</year>
+            <month>4</month>
+            <day>24</day>
+            <pub-id pub-id-type="pmid">29262004</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r52">
+          <label>52</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gyawali</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>de Vries</surname>
+                <given-names>EGE</given-names>
+              </name>
+              <name>
+                <surname>Dafni</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Amaral</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Barriuso</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Bogaerts</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Calles</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Curigliano</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Gomez-Roca</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Kiesewetter</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Oosting</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Passaro</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Pentheroudakis</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Piccart</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Roitberg</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Tabernero</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Tarazona</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Trapani</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Wester</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Zarkavelis</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Zielinski</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Zygoura</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Cherny</surname>
+                <given-names>NI</given-names>
+              </name>
+            </person-group>
+            <article-title>Biases in study design, implementation, and data analysis that distort the appraisal of clinical benefit and ESMO-Magnitude of Clinical Benefit Scale (ESMO-MCBS) scoring.</article-title>
+            <source>ESMO Open</source>
+            <year>2021</year>
+            <month>Jun</month>
+            <volume>6</volume>
+            <issue>3</issue>
+            <fpage>100117</fpage>
+            <pub-id pub-id-type="pmid">33887690</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r53">
+          <label>53</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Finckh</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Tram&#x000e8;r</surname>
+                <given-names>MR</given-names>
+              </name>
+            </person-group>
+            <article-title>Primer: strengths and weaknesses of meta-analysis.</article-title>
+            <source>Nat Clin Pract Rheumatol</source>
+            <year>2008</year>
+            <month>Mar</month>
+            <volume>4</volume>
+            <issue>3</issue>
+            <fpage>146</fpage>
+            <page-range>146-52</page-range>
+            <pub-id pub-id-type="pmid">18227829</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r54">
+          <label>54</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Manchikanti</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Evidence-based medicine, systematic reviews, and guidelines in interventional pain management, part I: introduction and general considerations.</article-title>
+            <source>Pain Physician</source>
+            <year>2008</year>
+            <season>Mar-Apr</season>
+            <volume>11</volume>
+            <issue>2</issue>
+            <fpage>161</fpage>
+            <page-range>161-86</page-range>
+            <pub-id pub-id-type="pmid">18354710</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-137540.r55">
+          <label>55</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ioannidis</surname>
+                <given-names>JP</given-names>
+              </name>
+            </person-group>
+            <article-title>Why most published research findings are false.</article-title>
+            <source>PLoS Med</source>
+            <year>2005</year>
+            <month>Aug</month>
+            <volume>2</volume>
+            <issue>8</issue>
+            <fpage>e124</fpage>
+            <pub-id pub-id-type="pmid">16060722</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-161665" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Correlation (Coefficient, Partial, and Spearman Rank) and Regression Analysis</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Wisniewski</surname>
+            <given-names>Samuel J.</given-names>
+          </name>
+          <aff>Henry Ford Genesys</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Brannan</surname>
+            <given-names>Grace D.</given-names>
+          </name>
+          <aff>GDB Research and Statistical Consulting/McLaren Macomb Hospital</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Samuel Wisniewski declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Grace Brannan declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>25</day>
+          <month>5</month>
+          <year>2024</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-161665.s1" sec-type="Summary / Explanation">
+        <title>Summary / Explanation</title>
+        <p content-type="pubmed-excerpt">Correlation and regression analysis are fundamental statistical techniques used to explore relationships between variables. Correlation analysis helps identify the strength and direction of association between&#x000a0;2 or more variables. In contrast, regression analysis predicts and understands the relationship between a dependent variable and&#x000a0;1 or more independent variables. These methods provide crucial insights into the patterns and interactions within data, aiding in decision-making across various fields.</p>
+        <p>
+<bold>Correlation Analysis</bold>
+</p>
+        <p>In a statistical context, correlation is a&#x000a0;broad assessment of the possibility and strength of association between&#x000a0;2 variables.&#x000a0;The choice of correlation analysis depends on the type of data that is available. This topic&#x000a0;covers methods to assess correlation for 2 or more continuous or ranked variables.<xref ref-type="bibr" rid="article-161665.r1">[1]</xref><xref ref-type="bibr" rid="article-161665.r2">[2]</xref></p>
+        <p>
+<bold>Interval or continuous data</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Pearson correlation (<italic toggle="yes">r</italic>): The most&#x000a0;commonly used type of correlation analysis is the Pearson correlation,&#x000a0;often denoted as Pearson's <italic toggle="yes">r</italic>. This method is appropriate for comparing&#x000a0;variables of the continuous variable type,&#x000a0;specifically interval/ratio data,&#x000a0;such as scores on a test&#x000a0;ranging&#x000a0;from 0 to 100.<xref ref-type="bibr" rid="article-161665.r1">[1]</xref><xref ref-type="bibr" rid="article-161665.r2">[2]</xref>&#x000a0;Pearson's <italic toggle="yes">r</italic> analysis returns a value between &#x02212;1 and 1,&#x000a0;where 0&#x000a0;indicates&#x000a0;no relationship. As the value approaches either end of 0, a stronger negative (towards &#x02212;1) or positive (towards +1) linear relationship between the&#x000a0;2 variables is observed.<xref ref-type="bibr" rid="article-161665.r1">[1]</xref></p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Partial correlation (<italic toggle="yes">&#x003c1;</italic>):&#x000a0;Partial correlation measures the linear relationship between&#x000a0;2 continuous variables while controlling for other continuous variables.<xref ref-type="bibr" rid="article-161665.r3">[3]</xref>&#x000a0;As with Pearson correlations, partial correlations also fall within the range of<bold>&#x000a0;</bold>&#x02212;1 and +1.</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Ordinal or ranked data</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Spearman rank correlation [<italic toggle="yes">&#x003c1;</italic> (rho) or <italic toggle="yes">r</italic>]:<bold>&#x000a0;</bold>This measures the strength and direction of the association between&#x000a0;2 ranked variables.<xref ref-type="bibr" rid="article-161665.r4">[4]</xref> For ordinal, ranked, or ordered data&#x02014;data that have&#x000a0;a defined&#x000a0;order to them, such as when treatments&#x000a0;are ranked in effectiveness from 1 to 5&#x02014;the Spearman rank correlation is used.<xref ref-type="bibr" rid="article-161665.r1">[1]</xref>&#x000a0;This type of correlation analysis is&#x000a0;also known&#x000a0;as Spearman rank order correlation or Spearman rank correlation coefficient.&#x000a0;Like Pearson and partial correlations, Spearman rank correlation values range between &#x02212;1 and +1.<xref ref-type="bibr" rid="article-161665.r1">[1]</xref></p>
+          </list-item>
+        </list>
+        <p>
+<bold>Regression Analysis</bold>
+</p>
+        <p>The regression analysis determines&#x000a0;whether a relationship exists between a dependent variable and&#x000a0;1 or more independent variables.<xref ref-type="bibr" rid="article-161665.r1">[1]</xref><xref ref-type="bibr" rid="article-161665.r5">[5]</xref>&#x000a0;Unlike correlation, regression analysis is employed for prediction and establishing causality.<xref ref-type="bibr" rid="article-161665.r2">[2]</xref></p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Independent variable definition:<italic toggle="yes">&#x000a0;</italic>Independent variables, as the name implies, are variables in the relationship between&#x000a0;2 or more independent variables, meaning&#x000a0;their measurement does not depend on the other variables.<xref ref-type="bibr" rid="article-161665.r1">[1]</xref><xref ref-type="bibr" rid="article-161665.r5">[5]</xref><xref ref-type="bibr" rid="article-161665.r2">[2]</xref>&#x000a0;For example, common independent variables include demographic factors such as gender and race or ethnicity. These independent factors or variables are generally considered immutable and, thus, do not change based on the other independent variables in the relationship.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Dependent variable definition: Conversely, the dependent variable is the variable in the relationship influenced by the other variable(s), including the independent variable and possible confounding variables&#x02014;those that have a relationship with both the independent and dependent variables or control variables.<xref ref-type="bibr" rid="article-161665.r1">[1]</xref><xref ref-type="bibr" rid="article-161665.r2">[2]</xref></p>
+          </list-item>
+        </list>
+        <p>
+<bold>Types of regression:&#x000a0;</bold>Similar to&#x000a0;the discussion on correlation above, different types of regression analysis are used when different variable types are present.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Simple linear regression:<bold>&#x000a0;</bold>Linear regression is used when&#x000a0;a dependent variable data type is continuous, such as weight data or length of stay, and&#x000a0;there is&#x000a0;1 dependent variable and&#x000a0;1 continuous independent variable.<xref ref-type="bibr" rid="article-161665.r1">[1]</xref></p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Multivariable linear regression:&#x000a0;In multivariable linear regression,&#x000a0;there is&#x000a0;1 continuous dependent variable but many continuous or categorical independent variables.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Logistic regression: Logistic regression is used when&#x000a0;the&#x000a0;dependent variable data type is categorical, encompassing either nominal or ordinal data, where data are grouped into mutually exclusive categories, such as blood type and zip code), or dichotomous, having only&#x000a0;2 possible values, such as&#x000a0;whether a patient smokes (yes&#x000a0;or no), or whether the disease is present or absent.<xref ref-type="bibr" rid="article-161665.r1">[1]</xref>&#x000a0;The independent variable can be continuous or categorical.&#x000a0;For example, in comparing 2 drugs (independent) regarding A1c (continuous independent variable) and diabetic improvement, the outcome is whether improvement is achieved (yes or no, categorical dependent).</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Correlation and Regression Statistical Output Qualifiers</bold>
+</p>
+        <p>
+<bold>Statistical significance:&#x000a0;</bold>Statistical significance, or additional context by which statistical output is evaluated, should always be included in the presentation of any correlation or regression analysis output.<xref ref-type="bibr" rid="article-161665.r6">[6]</xref>&#x000a0;Statistical significance is commonly&#x000a0;assessed through the <italic toggle="yes">P </italic>value.&#x000a0;The American Statistical Association defines <italic toggle="yes">P&#x000a0;</italic>value as "the probability under a specified statistical model that a statistical summary of the data would be equal to or more extreme than its observed value."<xref ref-type="bibr" rid="article-161665.r7">[7]</xref> However, relying solely on <italic toggle="yes">P </italic>values for interpretation can lead to incorrect conclusions, as it is prone to various issues.<xref ref-type="bibr" rid="article-161665.r8">[8]</xref><xref ref-type="bibr" rid="article-161665.r9">[9]</xref><xref ref-type="bibr" rid="article-161665.r10">[10]</xref><xref ref-type="bibr" rid="article-161665.r11">[11]</xref><xref ref-type="bibr" rid="article-161665.r12">[12]</xref><xref ref-type="bibr" rid="article-161665.r13">[13]</xref></p>
+        <p>
+<bold>Clinical significance:&#x000a0;</bold>Clinical significance determines the degree to which a treatment or therapy has a practical and substantial effect on the patient.<xref ref-type="bibr" rid="article-161665.r10">[10]</xref>Although a treatment may be statistically significant, assessing whether it has a clinically substantial impact on patient outcomes is essential.</p>
+        <p>Effect size is a valuable metric for indicating clinical significance. Effect size quantifies the magnitude of the difference or the strength of the association between variables.<xref ref-type="bibr" rid="article-161665.r14">[14]</xref>&#x000a0;Instead of&#x000a0;relying solely on <italic toggle="yes">P&#x000a0;</italic>values to determine significance, it is encouraged to use a combination of <italic toggle="yes">P </italic>values and effect size to more fully evaluate whether results might be significant, both statistically significant (<italic toggle="yes">P&#x000a0;</italic>value) and in terms of the difference between variables of interest (effect size).<xref ref-type="bibr" rid="article-161665.r8">[8]</xref>&#x000a0;</p>
+        <p>Effect size is expressed as the correlation coefficient (<italic toggle="yes">r</italic>) for correlation.&#x000a0;The effect size is expressed as the coefficient of determination (<italic toggle="yes">R</italic><sup>2</sup>) in simple linear regression.<xref ref-type="bibr" rid="article-161665.r14">[14]</xref>&#x000a0;In multivariable linear regression, the effect sizes are the partial eta-squared (<italic toggle="yes">&#x003b7;</italic><sup>2</sup><italic toggle="yes"><sub>p</sub></italic>). For logistic regression, the effect size is the odds ratio for the simple or adjusted odds ratio for the multivariable.</p>
+        <p>
+<bold>Issues of Concern</bold>
+</p>
+        <p>The purposes of employing correlation and regression analysis are distinct. Correlation determines the strength and direction of a possible linear relationship between&#x000a0;2 variables. In contrast, regression analysis is used to estimate parameters for a linear equation to predict the values of a&#x000a0;variable relative to the other or to explore an association between the outcome and the independent variables while controlling for the effects of the different variables.<xref ref-type="bibr" rid="article-161665.r1">[1]</xref></p>
+      </sec>
+      <sec id="article-161665.s2">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=161665&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=161665">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/161665/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=161665">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-161665.s3">
+        <title>References</title>
+        <ref id="article-161665.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bewick</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Cheek</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Ball</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistics review 7: Correlation and regression.</article-title>
+            <source>Crit Care</source>
+            <year>2003</year>
+            <month>Dec</month>
+            <volume>7</volume>
+            <issue>6</issue>
+            <fpage>451</fpage>
+            <page-range>451-9</page-range>
+            <pub-id pub-id-type="pmid">14624685</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161665.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mata</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Milner</surname>
+                <given-names>DA</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistical Methods in Experimental Pathology: A Review and Primer.</article-title>
+            <source>Am J Pathol</source>
+            <year>2021</year>
+            <month>May</month>
+            <volume>191</volume>
+            <issue>5</issue>
+            <fpage>784</fpage>
+            <page-range>784-794</page-range>
+            <pub-id pub-id-type="pmid">33652018</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161665.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>van Aert</surname>
+                <given-names>RCM</given-names>
+              </name>
+            </person-group>
+            <article-title>Meta-analyzing partial correlation coefficients using Fisher's z transformation.</article-title>
+            <source>Res Synth Methods</source>
+            <year>2023</year>
+            <month>Sep</month>
+            <volume>14</volume>
+            <issue>5</issue>
+            <fpage>768</fpage>
+            <page-range>768-773</page-range>
+            <pub-id pub-id-type="pmid">37421188</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161665.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schober</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Boer</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Schwarte</surname>
+                <given-names>LA</given-names>
+              </name>
+            </person-group>
+            <article-title>Correlation Coefficients: Appropriate Use and Interpretation.</article-title>
+            <source>Anesth Analg</source>
+            <year>2018</year>
+            <month>May</month>
+            <volume>126</volume>
+            <issue>5</issue>
+            <fpage>1763</fpage>
+            <page-range>1763-1768</page-range>
+            <pub-id pub-id-type="pmid">29481436</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161665.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bzovsky</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Phillips</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name>
+                <surname>Guymer</surname>
+                <given-names>RH</given-names>
+              </name>
+              <name>
+                <surname>Wykoff</surname>
+                <given-names>CC</given-names>
+              </name>
+              <name>
+                <surname>Thabane</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Bhandari</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Chaudhary</surname>
+                <given-names>V</given-names>
+              </name>
+              <collab>R.E.T.I.N.A. study group</collab>
+            </person-group>
+            <article-title>The clinician's guide to interpreting a regression analysis.</article-title>
+            <source>Eye (Lond)</source>
+            <year>2022</year>
+            <month>Sep</month>
+            <volume>36</volume>
+            <issue>9</issue>
+            <fpage>1715</fpage>
+            <page-range>1715-1717</page-range>
+            <pub-id pub-id-type="pmid">35102247</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161665.r6">
+          <label>6</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Tenny</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Abdelgawad</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Statistical Significance</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2023</year>
+            <month>11</month>
+            <day>23</day>
+            <pub-id pub-id-type="pmid">29083828</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161665.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Concato</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Hartigan</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>P values: from suggestion to superstition.</article-title>
+            <source>J Investig Med</source>
+            <year>2016</year>
+            <month>Oct</month>
+            <volume>64</volume>
+            <issue>7</issue>
+            <fpage>1166</fpage>
+            <page-range>1166-71</page-range>
+            <pub-id pub-id-type="pmid">27489256</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161665.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sullivan</surname>
+                <given-names>GM</given-names>
+              </name>
+              <name>
+                <surname>Feinn</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Using Effect Size-or Why the P Value Is Not Enough.</article-title>
+            <source>J Grad Med Educ</source>
+            <year>2012</year>
+            <month>Sep</month>
+            <volume>4</volume>
+            <issue>3</issue>
+            <fpage>279</fpage>
+            <page-range>279-82</page-range>
+            <pub-id pub-id-type="pmid">23997866</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161665.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>E Alifieris</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Souferi Chronopoulou</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>T Trafalis</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Arvelakis</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>The arbitrary magic of p&#x0003c;0.05: Beyond statistics.</article-title>
+            <source>J BUON</source>
+            <year>2020</year>
+            <season>Mar-Apr</season>
+            <volume>25</volume>
+            <issue>2</issue>
+            <fpage>588</fpage>
+            <page-range>588-593</page-range>
+            <pub-id pub-id-type="pmid">32521838</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161665.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kim</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Bang</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Three common misuses of P values.</article-title>
+            <source>Dent Hypotheses</source>
+            <year>2016</year>
+            <season>Jul-Sep</season>
+            <volume>7</volume>
+            <issue>3</issue>
+            <fpage>73</fpage>
+            <page-range>73-80</page-range>
+            <pub-id pub-id-type="pmid">27695640</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161665.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cohen</surname>
+                <given-names>HW</given-names>
+              </name>
+            </person-group>
+            <article-title>P values: use and misuse in medical literature.</article-title>
+            <source>Am J Hypertens</source>
+            <year>2011</year>
+            <month>Jan</month>
+            <volume>24</volume>
+            <issue>1</issue>
+            <fpage>18</fpage>
+            <page-range>18-23</page-range>
+            <pub-id pub-id-type="pmid">20966898</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161665.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tanha</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Mohammadi</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Janani</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>P-value: What is and what is not.</article-title>
+            <source>Med J Islam Repub Iran</source>
+            <year>2017</year>
+            <volume>31</volume>
+            <fpage>65</fpage>
+            <pub-id pub-id-type="pmid">29445694</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161665.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Greenland</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Senn</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <name>
+                <surname>Rothman</surname>
+                <given-names>KJ</given-names>
+              </name>
+              <name>
+                <surname>Carlin</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Poole</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Goodman</surname>
+                <given-names>SN</given-names>
+              </name>
+              <name>
+                <surname>Altman</surname>
+                <given-names>DG</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations.</article-title>
+            <source>Eur J Epidemiol</source>
+            <year>2016</year>
+            <month>Apr</month>
+            <volume>31</volume>
+            <issue>4</issue>
+            <fpage>337</fpage>
+            <page-range>337-50</page-range>
+            <pub-id pub-id-type="pmid">27209009</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161665.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kallogjeri</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Piccirillo</surname>
+                <given-names>JF</given-names>
+              </name>
+            </person-group>
+            <article-title>A Simple Guide to Effect Size Measures.</article-title>
+            <source>JAMA Otolaryngol Head Neck Surg</source>
+            <year>2023</year>
+            <month>May</month>
+            <day>01</day>
+            <volume>149</volume>
+            <issue>5</issue>
+            <fpage>447</fpage>
+            <page-range>447-451</page-range>
+            <pub-id pub-id-type="pmid">36951858</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

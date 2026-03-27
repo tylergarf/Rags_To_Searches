@@ -1,0 +1,2348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-145092" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Adaptive Optics</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Mohankumar</surname>
+            <given-names>Arthi</given-names>
+          </name>
+          <aff>Rajan Eye Care Hospital Pvt Ltd</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Tripathy</surname>
+            <given-names>Koushik</given-names>
+          </name>
+          <aff>ASG Eye Hospital, BT Road, Kolkata, India</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Arthi Mohankumar declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Koushik Tripathy declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>25</day>
+          <month>8</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-145092.s1" sec-type="Continuing Education Activity">
+        <title>Continuing Education Activity</title>
+        <p>Adaptive optics (AO) is a technique for imaging the retina at the cellular level by correcting optical aberrations inherent to the eye. In vivo examination of the individual photoreceptors and retinal vasculature may help understand retinal pathologies better. All available investigative modalities for retinal diseases detect them only after visible fundus changes occur. Adaptive optics may aid in recognizing them before significant damage sets in and may help develop newer treatment modalities. However, its use is currently limited to research as various challenges like cost and availability must be overcome before being implemented in day-to-day practice. This activity summarizes the basic principles and advantages of adaptive optics and its potential in diagnosing and treating retinal disorders.</p>
+        <p>
+<bold>Objectives:</bold>
+<list list-type="bullet"><list-item><p>Describe the principle of adaptive optics.</p></list-item><list-item><p>Summarize the clinical applications of adaptive optics in ophthalmology.</p></list-item><list-item><p>Outline the photoreceptor imaging characteristics briefly in healthy eyes and disease conditions.</p></list-item><list-item><p>Summarize the challenges involved in implementing adaptive optics in clinical practice.</p></list-item></list>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=145092&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=145092">Access free multiple choice questions on this topic.</ext-link>
+</p>
+      </sec>
+      <sec id="article-145092.s2" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Light traveling through any media other than vacuum undergoes aberrations due to changes in the refractive index and interface of the medium.<xref ref-type="bibr" rid="article-145092.r1">[1]</xref>&#x000a0;Similarly, rays exiting the eye also have wavefront aberrations&#x000a0;contributed by&#x000a0;the differences in the refractive index of ocular tissues. The wavefront aberrations are classified as chromatic and monochromatic aberrations.<xref ref-type="bibr" rid="article-145092.r2">[2]</xref>&#x000a0;</p>
+        <p>The monochromatic aberrations are further classified as lower order (contribute to about 90% of total aberrations) and higher order aberrations (10% of total aberrations). Spherical and cylindrical lenses correct the lower-order aberrations. The higher-order aberrations responsible for limiting the lateral resolution of devices are unique to each patient's eye and were deemed un-rectifiable until recently.<xref ref-type="bibr" rid="article-145092.r3">[3]</xref>&#x000a0;In 1971, the Shack-Hartmann wavefront sensor (SHWS) measured the eye's possible optical aberrations.<xref ref-type="bibr" rid="article-145092.r4">[4]</xref></p>
+        <p>In 1953, Horace Babcock from the Carnegie laboratories proposed Adaptive optics (AO) for the clear visualization of astronomical bodies, the images distorted by the aberrations in the incident rays due to the turbulence in the earth's atmosphere.<xref ref-type="bibr" rid="article-145092.r5">[5]</xref>&#x000a0;In 1997 Liang et al. employed this same principle in retinal imaging to overcome higher-order aberrations.<xref ref-type="bibr" rid="article-145092.r6">[6]</xref>&#x000a0;They used the&#x000a0;SHWS and deformable mirrors&#x000a0;to demonstrate cone photoreceptors in vivo. They concluded AO might help image the live retina at the microscopic level by improving the lateral resolution immensely. Roorda was the first to use AO clinically in a patient with inherited rod-cone dystrophy in 2000.<xref ref-type="bibr" rid="article-145092.r7">[7]</xref>&#x000a0;</p>
+        <p>Though AO technology has evolved in the last two decades, no Food and Drug Administration, USA (FDA) approved devices for clinical use exist. Recently, an&#x000a0;AO flood illumination device has been approved for marketing in the European Union, China, and Japan.<xref ref-type="bibr" rid="article-145092.r8">[8]</xref></p>
+      </sec>
+      <sec id="article-145092.s3" sec-type="Anatomy and Physiology">
+        <title>Anatomy and Physiology</title>
+        <p>The retina is the innermost coat of the eyeball, responsible for processing light energy and generating visual information. The three major types of cells in the retina are the photoreceptors, glial cells, and neuronal cells.<xref ref-type="bibr" rid="article-145092.r9">[9]</xref>&#x000a0;The rods are the predominant photoreceptors in the retina and are concentrated more in the retinal peripheries. They are sensitive to photons of light and help in scotopic vision. The cones comprise only 5 to 6 % of the photoreceptors and are concentrated primarily in the center of the macula, the fovea. They are sensitive to a specific wavelength of light and help in photopic and color vision.<xref ref-type="bibr" rid="article-145092.r10">[10]</xref>&#x000a0;</p>
+        <p>The retinal ganglion cells are&#x000a0;second-order neurons that relay image-forming and non-image-forming information from the bipolar cells to the lateral geniculate body. Multiple rods converge onto a single ganglion cell, whereas a single&#x000a0;cone is connected to a single ganglion cell. At least twenty different types of retinal ganglion cells receive excitatory and inhibitive impulses from the amacrine and bipolar cells.<xref ref-type="bibr" rid="article-145092.r11">[11]</xref>&#x000a0;</p>
+        <p>The retinal pigment epithelium is the outermost layer of the retina, which is made up of a single layer of regularly arranged cells with a polygonal shape.&#x000a0;It has many roles, like phagocytosis of photoreceptor outer segments, barrier function, transport of substrates, and protection against phototoxicity, as it contains pigments like melanin and lipofuscin.<xref ref-type="bibr" rid="article-145092.r12">[12]</xref></p>
+      </sec>
+      <sec id="article-145092.s4" sec-type="Indications">
+        <title>Indications</title>
+        <p>Adaptive optics helps visualize individual cellular components in vivo and demonstrates individual photoreceptors, retinal pigment epithelial cells, ganglion cells, and retinal microvasculature in various acquired and inherited retinochoroidal pathologies. This helps in understanding the basic pathophysiology of these disorders, screening and diagnosing them at the subclinical stage, formulating newer therapeutic interventions, and monitoring cellular-level responses to therapeutic interventions.<xref ref-type="bibr" rid="article-145092.r13">[13]</xref></p>
+        <p>The various indications include retinal vascular disorders like hypertensive retinopathy, retinal vasculitis, intraocular inflammation, diabetic retinopathy,&#x000a0;macular pathologies like central serous chorioretinopathy,&#x000a0;and age-related macular degeneration, inherited retinal dystrophies, drug-induced maculopathies, choroidal pathologies, and glaucoma.<xref ref-type="bibr" rid="article-145092.r14">[14]</xref><xref ref-type="bibr" rid="article-145092.r15">[15]</xref><xref ref-type="bibr" rid="article-145092.r16">[16]</xref></p>
+      </sec>
+      <sec id="article-145092.s5" sec-type="Contraindications">
+        <title>Contraindications</title>
+        <p>There are no contraindications to this procedure. Various factors limit the usage of adaptive optics in routine practice.<xref ref-type="bibr" rid="article-145092.r8">[8]</xref>&#x000a0;Firstly, studies employing adaptive optics for various retinal pathologies have a limited sample size. Large patient cohorts are essential to generate a normative database comparable to gender, ethnicity, and age. Good-quality image acquisition in patients with nystagmus, corneal opacities, and cataracts is&#x000a0;challenging. Poor fixation poses a significant challenge in capturing a good-quality image.</p>
+        <p>A small area of the retina is imaged, and the time required for&#x000a0;imaging is significantly more. It may be difficult for uncooperative and anxious patients. Incorporating eye-tracking software may help acquire better quality information in these patients. Analysis of acquired images is manual and may be laborious and time-consuming. Automated interpretation or development of artificial intelligence software may simplify grading.&#x000a0;The enormous cost of the equipment and size has limited its location in research labs. More compact hardware will make its installation and operation practical.</p>
+      </sec>
+      <sec id="article-145092.s6" sec-type="Equipment">
+        <title>Equipment</title>
+        <p>
+<bold>Components of the Machine</bold>
+</p>
+        <p>Adaptive optics&#x000a0;equipment has four main components.<xref ref-type="bibr" rid="article-145092.r17">[17]</xref>&#x000a0;These are the following:</p>
+        <list list-type="order">
+          <list-item>
+            <p>A wavefront sensor to detect and measure the optical aberrations in the light rays reflected from the eye.&#x000a0;It consists of a lenslet array, each of which samples a part of the light wave.&#x000a0;Shack- Hartmann wavefront sensor (SHWS) is commonly used.<xref ref-type="bibr" rid="article-145092.r18">[18]</xref></p>
+          </list-item>
+          <list-item>
+            <p>A deformable mirror to correct the detected aberrations. The actuator receives inputs from the wavefront sensor and modifies the surface of these mirrors. This helps correct the higher-order and any significant lower-order aberrations in the light beam.<xref ref-type="bibr" rid="article-145092.r19">[19]</xref></p>
+          </list-item>
+          <list-item>
+            <p>A control system to calculate the required correction level and receive feedback, and</p>
+          </list-item>
+          <list-item>
+            <p>Image acquisition and processing device&#x000a0;to capture the corrected waveform and generate an image.&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>Adaptive optics is not a stand-alone technology and has been combined with pre-existing imaging equipment, like the fundus camera, optical coherence tomography, and scanning laser ophthalmoscope.<xref ref-type="bibr" rid="article-145092.r20">[20]</xref></p>
+        <p>
+<bold>Adaptive Optics flood Illumination Technology (AO FI)</bold>
+</p>
+        <p>AO components like the SHWS and deformable mirrors are combined with a high-resolution fundus camera. This setup helps image the spacing and directionality of the cones and pick up any fluctuations in cone reflectance. Since it uses an incoherent light source, the exposure time is brief, reducing the time required for image capture. However, this system is limited by its reduced axial resolution.<xref ref-type="bibr" rid="article-145092.r21">[21]</xref></p>
+        <p>
+<bold>Adaptive Optics Scanning Laser Ophthalmoscope&#x000a0; (AO SLO)</bold>
+</p>
+        <p>Dreher et al. were the first to combine AO with SLO devices in 1989.<xref ref-type="bibr" rid="article-145092.r22">[22]</xref>&#x000a0;The system offers a retinal image and video with unparalleled lateral and axial resolution. The high-resolution video imaging&#x000a0;helps demonstrate the movement of blood columns in retinal capillaries. By using a confocal pinhole, the different retinal layers can be visualized. It is equipped with eye-tracking software and laser-assisted stimulus delivery to the retina.<xref ref-type="bibr" rid="article-145092.r23">[23]</xref></p>
+        <p>
+<bold>Adaptive Optics Optical Coherence Tomography (AO-OCT)</bold>
+</p>
+        <p>This system overcomes monochromatic aberrations and helps in the reduction of speckle size. This enables three-dimensional imaging of individual photoreceptors, ganglion cells, retinal pigment epithelium, lamina cribrosa, and nerve fiber layer.<xref ref-type="bibr" rid="article-145092.r24">[24]</xref></p>
+      </sec>
+      <sec id="article-145092.s7" sec-type="Personnel">
+        <title>Personnel</title>
+        <p>Any trained ophthalmologist, vitreoretinal surgeon, optometrist, or ophthalmic imaging technician can perform this procedure. In addition, technicians and ophthalmologists need to be trained in grading and interpreting images.</p>
+      </sec>
+      <sec id="article-145092.s8" sec-type="Preparation">
+        <title>Preparation</title>
+        <p>Adaptive optics is a non-invasive retinal imaging procedure. The procedure of image acquisition is clearly explained to the patient. A pupillary diameter of at least 4 mm is recommended.</p>
+      </sec>
+      <sec id="article-145092.s9" sec-type="Technique or Treatment">
+        <title>Technique or Treatment</title>
+        <p>The patient is positioned comfortably in a traditional chin rest. They are asked to focus on an internal fixation target, which is mobilized depending on the area of interest. The type of imaging is enface reflectance imaging. Once the site of interest appears on the graphic display in the user interface, the cones are brought into focus. Images are acquired over a 4-degree * 4-degree area at 9.5 frames/ second using a low noise-charged coupled device (CCD) camera. The illumination source is a near-infrared (850 nm) light-emitting diode (LED).</p>
+        <p>The software acquires 40 images, of which 20 with the best Sobel contrast are chosen. They are summed together using an auto-correlation algorithm to generate a single image with a good signal-to-noise ratio. The final image is obtained by subtracting the computed image from the background image. The brightness and contrast of the resultant image are adjusted while saturating the bright pixels. Every averaged image finally undergoes visual checks to rule out apparent artifacts. Automatic image alignment may be used to track the same retinal area with accuracy in microns for the progression of the disease, the natural history of the disease, or the response to therapy.</p>
+      </sec>
+      <sec id="article-145092.s10" sec-type="Complications">
+        <title>Complications</title>
+        <p>There are no complications associated with Adaptive optics imaging as it is a non-invasive procedure. However, patients with cervical spine pathologies, anxious patients, debilitated individuals, and patients with low vision and ocular motility disorders may find it challenging to maintain fixation for longer.</p>
+      </sec>
+      <sec id="article-145092.s11" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>
+<bold>Normal Eyes</bold>
+</p>
+        <p>Adaptive optics is still confined to research. Examination of large cohorts of healthy eyes is essential to establish normative databases. This will help spot any deviation from normal and&#x000a0;clinch diseases at early stages. The outer photoreceptor segment is visualized as the cone mosaic. Few studies have looked at the cone packing density&#x000a0;and the spacing of cones in the foveal cone mosaic. Standardizing this normative data is essential before it's implemented for clinical use.<xref ref-type="bibr" rid="article-145092.r25">[25]</xref><xref ref-type="bibr" rid="article-145092.r26">[26]</xref></p>
+        <p>
+<bold>Cone and Rod Photoreceptors</bold>
+</p>
+        <p>Imaging cones by&#x000a0;adaptive optics was easier due to their wave-guiding properties. They are visible as&#x000a0;an imperfect hexagonal mosaic. The most significant biomarkers employed in various studies include cone density and spacing.<xref ref-type="bibr" rid="article-145092.r27">[27]</xref>&#x000a0;The presence of different functional subtypes of cones - short, medium, and long wavelength was also detected using adaptive optics.<xref ref-type="bibr" rid="article-145092.r28">[28]</xref></p>
+        <p>Changes in the reflectance of cone outer segment tips (COST), termed dysflective cones indicate altered function&#x000a0;when detected by adaptive optics.<xref ref-type="bibr" rid="article-145092.r29">[29]</xref> Due to their smaller diameter and lesser wave-guiding properties, rods have been imaged sparingly.<xref ref-type="bibr" rid="article-145092.r30">[30]</xref>&#x000a0;The visualization of rods may guide therapeutic regimens in many inherited retinal dystrophies.</p>
+        <p>
+<bold>Retinal Pigment Epithelium (RPE)</bold>
+</p>
+        <p>The challenge in imaging RPE by adaptive optics was due to the embedding of the photoreceptor outer segment into RPE. This was overcome by imaging RPE at areas of photoreceptor loss and areas of subretinal fluid.<xref ref-type="bibr" rid="article-145092.r31">[31]</xref>&#x000a0;Morgan et al. first imaged an RPE mosaic in the healthy retina using double channel fluorescence AO SLO.<xref ref-type="bibr" rid="article-145092.r32">[32]</xref>&#x000a0;RPE visualization and computing the RPE - photoreceptor ratio may help follow up on various retinochoroidal pathologies and also help assess treatment outcomes.<xref ref-type="bibr" rid="article-145092.r32">[32]</xref></p>
+        <p>
+<bold>Ganglion Cells</bold>
+</p>
+        <p>Imaging ganglion cells is difficult due to their transparent nature and dense three-dimensional arrangements. Rossi et al. generated a two-dimensional image of the retinal ganglion cells using multi-offset AO-SLO. Adaptive&#x000a0;optics could also distinguish between the subtypes of ganglion cells, parasol, and midget types, based on their imaging characteristics.<xref ref-type="bibr" rid="article-145092.r33">[33]</xref><xref ref-type="bibr" rid="article-145092.r34">[34]</xref></p>
+        <p>
+<bold>Lamina cribrosa</bold>
+</p>
+        <p>The visualization of lamina cribrosa, along with quantifying parameters like pore size, shape, and density, has been made possible by adaptive optics with good repeatability. Quantification and standardization of these parameters and correlation with predisposing genes may help screen and detect susceptible individuals at a very early stage.<xref ref-type="bibr" rid="article-145092.r35">[35]</xref></p>
+        <p>
+<bold>Retinal Vasculature</bold>
+</p>
+        <p>AO enables precise visualization and quantification of the retinal microvasculature by various parameters like wall thickness (WT), lumen diameter (LD), wall-to-lumen ratio, and cross-sectional area of the vessel wall.<xref ref-type="bibr" rid="article-145092.r36">[36]</xref> The movement of leucocytes and their velocity in the perifoveal capillaries can also be visualized. These parameters may be significant in patients with retinal vascular diseases like diabetic retinopathy and hypertensive retinopathy.<xref ref-type="bibr" rid="article-145092.r37">[37]</xref>&#x000a0;The vessels may be followed up in various vascular disorders, including hypertensive retinopathy, diabetic retinopathy, and retinal vasculitis.</p>
+        <table-wrap id="article-145092.table0" position="float" orientation="portrait">
+          <table border="1" cellspacing="1" cellpadding="20">
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">
+<bold>Disease</bold>
+</td>
+                <td rowspan="1" colspan="1">
+<bold>Significance and Imaging Features in Adaptive optics</bold>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">&#x000a0;Diabetic retinopathy</td>
+                <td rowspan="1" colspan="1">
+<p>AO enables high-resolution imaging of microaneurysms, retinal microvasculature, and cone photoreceptors which are the primary areas of interest in diabetic retinopathy.&#x000a0;</p>
+<p>Experimental studies have shown variable alterations in cone density, especially in patients with type 1 diabetes mellitus.<xref ref-type="bibr" rid="article-145092.r38">[38]</xref>&#x000a0;An increase in wall thickness, wall-to-lumen ratio, the cross-sectional area of the vascular wall, tortuosity of the parafoveal arteriovenous plexus, and a decrease in luminal diameter, have been documented in patients with type 2 diabetes mellitus without retinopathy.<xref ref-type="bibr" rid="article-145092.r39">[39]</xref>&#x000a0;Hence AO may serve as a screening tool to detect pre-clinical lesions in patients with diabetes mellitus. The&#x000a0;AO images of a specific retinal area in follow-up may detect the progression of diabetic retinopathy (increase in the number of microaneurysms).&#x000a0;</p>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Genetic Retinal diseases</td>
+                <td rowspan="1" colspan="1">
+<p><bold>Retinitis Pigmentosa</bold></p>
+<p>AO enabled in vivo visualization of cones and showed that cone photoreceptor density was reduced even in the early stages of the disease with the intact ellipsoid zone in optical coherence tomography. It also helps monitor patients receiving experimental therapeutic interventions like ciliary neurotrophic factor (CNTF), where a decelerated photoreceptor loss was documented.<xref ref-type="bibr" rid="article-145092.r40">[40]</xref><xref ref-type="bibr" rid="article-145092.r41">[41]</xref></p>
+<p><bold>Stargardt's Disease</bold></p>
+<p>A study by Song et al. demonstrated that cone photoreceptor loss precedes lipofuscin deposition in patients with macular atrophy phenotype in patients with ABCA4 gene mutation. An increase in photoreceptor spacing was documented in patients with advanced forms of the disease.<xref ref-type="bibr" rid="article-145092.r42">[42]</xref></p>
+<p><bold>Other Dystrophies</bold></p>
+<p>A significant reduction in cone photoreceptors has also been documented in other retinal dystrophies like best macular dystrophy,<xref ref-type="bibr" rid="article-145092.r43">[43]</xref>&#x000a0;Bietti crystalline dystrophy,&#x000a0;and choroidal dystrophy. The patterns of photoreceptor loss have been demonstrated in animal models.<xref ref-type="bibr" rid="article-145092.r44">[44]</xref><xref ref-type="bibr" rid="article-145092.r45">[45]</xref></p>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Age-related macular degeneration (AMD)</td>
+                <td rowspan="1" colspan="1">AO demonstrates the presence of hyporeflective clumps (HRCs) in the RPE monolayer in patients with advanced dry AMD. This appearance is due to detached retinal pigment epithelial (RPE) cells, macrophages phagocytosing (RPE) cells or microglia. They are distributed throughout the posterior pole and correlate histologically with melanosomes. The pattern of distribution of these HRCs varies as the disease progresses. AO has also demonstrated the presence of outer retinal tubulations caused by the radial rearrangement of cone photoreceptors and mullers cells.<xref ref-type="bibr" rid="article-145092.r46">[46]</xref>&#x000a0;AO imaging may be used to document the progression of geographic atrophy in dry AMD.</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Central serous chorioretinopathy (CSCR)</td>
+                <td rowspan="1" colspan="1">Various studies have demonstrated a reduced foveal cone density in patients with CSCR, and the loss of photoreceptors correlated positively with the duration of subretinal fluid. It&#x000a0;also demonstrated the loss of foveal cones in the uninvolved eye in patients with unilateral CSCR.<xref ref-type="bibr" rid="article-145092.r47">[47]</xref><xref ref-type="bibr" rid="article-145092.r48">[48]</xref></td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Hydroxychloroquine (HCQ)&#x000a0;toxicity</td>
+                <td rowspan="1" colspan="1">AO studies have revealed that cone photoreceptors are unaffected in the first two years of HCQ toxicity. Also, AO detected loss of photoreceptors even in patients with no obvious field defects overcoming the shortcoming of current screening technologies, which may detect damage only after&#x000a0;irreversible damage has occurred.<xref ref-type="bibr" rid="article-145092.r49">[49]</xref><xref ref-type="bibr" rid="article-145092.r50">[50]</xref></td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Retinal detachment (RD)</td>
+                <td rowspan="1" colspan="1">Potic et al. demonstrated an increased cone spacing and a decrease in cone density in patients&#x000a0;after the repair of&#x000a0;RD, irrespective of macular involvement.[52]&#x000a0;Reumueller et al. showed that though cone density was regained within 56 weeks after surgery, microperimetry demonstrated functional impairment.<xref ref-type="bibr" rid="article-145092.r51">[51]</xref></td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Vogt Koyanagi Harada Syndrome (VKH)</td>
+                <td rowspan="1" colspan="1">Adaptive optics imaging demonstrated a decrease in cone density in patients with active inflammation. The cone density recovers once inflammation is under control but is still significantly lower compared to healthy eyes. The decreased cone density was significant in eyes with cystoid spaces. Further studies are required to validate these findings in patients with VKH syndrome.<xref ref-type="bibr" rid="article-145092.r52">[52]</xref></td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">&#x000a0;White Dot syndromes</td>
+                <td rowspan="1" colspan="1">
+<p>The study conducted by Agarwal et al. showed that photoreceptor density might serve as an early structural biomarker of&#x000a0;inflammation. They also showed that cone photoreceptor loss was more in areas of inactive disease than in overactive lesions and areas of ellipsoid zone disruption. AO may have the potential to assess disease activities in these patients.<xref ref-type="bibr" rid="article-145092.r53">[53]</xref></p>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Glaucoma</td>
+                <td rowspan="1" colspan="1">In the study conducted by Zwillinger et al., AO demonstrated an increase in the size of the pores in the lamina cribrosa in patients with primary open-angle glaucoma (POAG) and normal eyes of their first-degree relatives. This may indicate the individual susceptibility to POAG requiring close intraocular pressure and visual field monitoring. The cone densities were&#x000a0;unaffected even in patients with significant field defects.<xref ref-type="bibr" rid="article-145092.r54">[54]</xref><xref ref-type="bibr" rid="article-145092.r55">[55]</xref></td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+      <sec id="article-145092.s12" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>Adaptive optics helps in non-invasive cellular imaging of the retina. Image acquisition and interpretation require trained personnel to capture good-quality images and interpret them. Image acquisition is time-consuming but has been reduced to 2 seconds in newer machines.</p>
+        <p>Nurses and ophthalmic photographers play a pivotal role in helping the patient maintain fixation and remain comfortable throughout the procedure. Training of allied ophthalmic personnel may also reduce the burden on treating physicians. It is necessary that all professionals involved in the process of image acquisition are educated and aware of the clinical significance of adaptive optics.</p>
+      </sec>
+      <sec id="article-145092.s13">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=145092&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=145092">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://mdsearchlight.com/diagnostics/adaptive-optics/?utm_source=pubmedlink&#x00026;utm_campaign=MDS&#x00026;utm_content=145092">Click here for a simplified version.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/145092/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=145092">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-145092.s14">
+        <fig id="article-145092.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Figure depicting the principle of adaptive optics instrumentation Arthi Mohankumar, MRCS ED</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Adaptive__optics" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-145092.s15">
+        <fig id="article-145092.image.f2" position="float" orientation="portrait">
+          <caption>
+            <p>Flow chart depicting the optical aberrations and techniques of rectifying them Arthi Mohankumar, MRCS ED</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Optical__aberrations" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-145092.s16">
+        <fig id="article-145092.image.f3" position="float" orientation="portrait">
+          <caption>
+            <p>Imaging of photoreceptors with adaptive optics Rohan Chawla, MD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Slide1" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-145092.s17">
+        <fig id="article-145092.image.f4" position="float" orientation="portrait">
+          <caption>
+            <p>Cone cell counting with Adaptive optics Rohan Chawla, MD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Slide2" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-145092.s18">
+        <title>References</title>
+        <ref id="article-145092.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Del &#x000c1;guila-Carrasco</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Kruger</surname>
+                <given-names>PB</given-names>
+              </name>
+              <name>
+                <surname>Lara</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>L&#x000f3;pez-Gil</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Aberrations and accommodation.</article-title>
+            <source>Clin Exp Optom</source>
+            <year>2020</year>
+            <month>Jan</month>
+            <volume>103</volume>
+            <issue>1</issue>
+            <fpage>95</fpage>
+            <page-range>95-103</page-range>
+            <pub-id pub-id-type="pmid">31284325</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hughes</surname>
+                <given-names>RP</given-names>
+              </name>
+              <name>
+                <surname>Vincent</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <name>
+                <surname>Read</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Collins</surname>
+                <given-names>MJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Higher order aberrations, refractive error development and myopia control: a review.</article-title>
+            <source>Clin Exp Optom</source>
+            <year>2020</year>
+            <month>Jan</month>
+            <volume>103</volume>
+            <issue>1</issue>
+            <fpage>68</fpage>
+            <page-range>68-85</page-range>
+            <pub-id pub-id-type="pmid">31489693</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r3">
+          <label>3</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Jayabalan</surname>
+                <given-names>GS</given-names>
+              </name>
+              <name>
+                <surname>Bille</surname>
+                <given-names>JF</given-names>
+              </name>
+            </person-group>
+            <chapter-title>The Development of Adaptive Optics and Its Application in Ophthalmology</chapter-title>
+            <person-group person-group-type="editor">
+              <name>
+                <surname>Bille</surname>
+                <given-names>JF</given-names>
+              </name>
+            </person-group>
+            <source>High Resolution Imaging in Microscopy and Ophthalmology: New Frontiers in Biomedical Optics [Internet]</source>
+            <publisher-name>Springer</publisher-name>
+            <publisher-loc>Cham (CH)</publisher-loc>
+            <year>2019</year>
+            <month>8</month>
+            <day>14</day>
+            <fpage>339</fpage>
+            <lpage>358</lpage>
+            <pub-id pub-id-type="pmid">32091847</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Akondi</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Dubra</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Shack-Hartmann wavefront sensor optical dynamic range.</article-title>
+            <source>Opt Express</source>
+            <year>2021</year>
+            <month>Mar</month>
+            <day>15</day>
+            <volume>29</volume>
+            <issue>6</issue>
+            <fpage>8417</fpage>
+            <page-range>8417-8429</page-range>
+            <pub-id pub-id-type="pmid">33820289</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Katz</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Jonna</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Adaptive optics: astronomy, military might, and retinal imaging.</article-title>
+            <source>J Pediatr Ophthalmol Strabismus</source>
+            <year>2015</year>
+            <season>Jan-Feb</season>
+            <volume>52</volume>
+            <issue>1</issue>
+            <fpage>11</fpage>
+            <pub-id pub-id-type="pmid">25643366</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Liang</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Williams</surname>
+                <given-names>DR</given-names>
+              </name>
+              <name>
+                <surname>Miller</surname>
+                <given-names>DT</given-names>
+              </name>
+            </person-group>
+            <article-title>Supernormal vision and high-resolution retinal imaging through adaptive optics.</article-title>
+            <source>J Opt Soc Am A Opt Image Sci Vis</source>
+            <year>1997</year>
+            <month>Nov</month>
+            <volume>14</volume>
+            <issue>11</issue>
+            <fpage>2884</fpage>
+            <page-range>2884-92</page-range>
+            <pub-id pub-id-type="pmid">9379246</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Roorda</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Adaptive optics ophthalmoscopy.</article-title>
+            <source>J Refract Surg</source>
+            <year>2000</year>
+            <season>Sep-Oct</season>
+            <volume>16</volume>
+            <issue>5</issue>
+            <fpage>S602</fpage>
+            <page-range>S602-7</page-range>
+            <pub-id pub-id-type="pmid">11019882</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wynne</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Carroll</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Duncan</surname>
+                <given-names>JL</given-names>
+              </name>
+            </person-group>
+            <article-title>Promises and pitfalls of evaluating photoreceptor-based retinal disease with adaptive optics scanning light ophthalmoscopy (AOSLO).</article-title>
+            <source>Prog Retin Eye Res</source>
+            <year>2021</year>
+            <month>Jul</month>
+            <volume>83</volume>
+            <fpage>100920</fpage>
+            <pub-id pub-id-type="pmid">33161127</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r9">
+          <label>9</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Mahabadi</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Al Khalili</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Neuroanatomy, Retina</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2023</year>
+            <month>8</month>
+            <day>8</day>
+            <pub-id pub-id-type="pmid">31424894</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lamb</surname>
+                <given-names>TD</given-names>
+              </name>
+            </person-group>
+            <article-title>Why rods and cones?</article-title>
+            <source>Eye (Lond)</source>
+            <year>2016</year>
+            <month>Feb</month>
+            <volume>30</volume>
+            <issue>2</issue>
+            <fpage>179</fpage>
+            <page-range>179-85</page-range>
+            <pub-id pub-id-type="pmid">26563661</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kaur</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Foulds</surname>
+                <given-names>WS</given-names>
+              </name>
+              <name>
+                <surname>Ling</surname>
+                <given-names>EA</given-names>
+              </name>
+            </person-group>
+            <article-title>Hypoxia-ischemia and retinal ganglion cell damage.</article-title>
+            <source>Clin Ophthalmol</source>
+            <year>2008</year>
+            <month>Dec</month>
+            <volume>2</volume>
+            <issue>4</issue>
+            <fpage>879</fpage>
+            <page-range>879-89</page-range>
+            <pub-id pub-id-type="pmid">19668442</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yang</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Zhou</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Functions and Diseases of the Retinal Pigment Epithelium.</article-title>
+            <source>Front Pharmacol</source>
+            <year>2021</year>
+            <volume>12</volume>
+            <fpage>727870</fpage>
+            <pub-id pub-id-type="pmid">34393803</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Akyol</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Hagag</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Sivaprasad</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lotery</surname>
+                <given-names>AJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Adaptive optics: principles and applications in ophthalmology.</article-title>
+            <source>Eye (Lond)</source>
+            <year>2021</year>
+            <month>Jan</month>
+            <volume>35</volume>
+            <issue>1</issue>
+            <fpage>244</fpage>
+            <page-range>244-264</page-range>
+            <pub-id pub-id-type="pmid">33257798</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r14">
+          <label>14</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Shukla</surname>
+                <given-names>UV</given-names>
+              </name>
+              <name>
+                <surname>Tripathy</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Diabetic Retinopathy</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2023</year>
+            <month>8</month>
+            <day>25</day>
+            <pub-id pub-id-type="pmid">32809640</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Battu</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Dabir</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Khanna</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kumar</surname>
+                <given-names>AK</given-names>
+              </name>
+              <name>
+                <surname>Sinha Roy</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Adaptive optics imaging of the retina.</article-title>
+            <source>Indian J Ophthalmol</source>
+            <year>2014</year>
+            <month>Jan</month>
+            <volume>62</volume>
+            <issue>1</issue>
+            <fpage>60</fpage>
+            <page-range>60-5</page-range>
+            <pub-id pub-id-type="pmid">24492503</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r16">
+          <label>16</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Mahabadi</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Zeppieri</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Tripathy</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Open Angle Glaucoma</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2024</year>
+            <month>3</month>
+            <day>7</day>
+            <pub-id pub-id-type="pmid">28722917</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lombardo</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Serrao</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Devaney</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Parravano</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Lombardo</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Adaptive optics technology for high-resolution retinal imaging.</article-title>
+            <source>Sensors (Basel)</source>
+            <year>2012</year>
+            <month>Dec</month>
+            <day>27</day>
+            <volume>13</volume>
+            <issue>1</issue>
+            <fpage>334</fpage>
+            <page-range>334-66</page-range>
+            <pub-id pub-id-type="pmid">23271600</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Xu</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Extended aperture line-scanning Hartmann wavefront sensor.</article-title>
+            <source>Appl Opt</source>
+            <year>2021</year>
+            <month>Apr</month>
+            <day>20</day>
+            <volume>60</volume>
+            <issue>12</issue>
+            <fpage>3403</fpage>
+            <page-range>3403-3411</page-range>
+            <pub-id pub-id-type="pmid">33983245</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Alcock</surname>
+                <given-names>SG</given-names>
+              </name>
+              <name>
+                <surname>Nistea</surname>
+                <given-names>IT</given-names>
+              </name>
+              <name>
+                <surname>Badami</surname>
+                <given-names>VG</given-names>
+              </name>
+              <name>
+                <surname>Signorato</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Sawhney</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>High-speed adaptive optics using bimorph deformable x-ray mirrors.</article-title>
+            <source>Rev Sci Instrum</source>
+            <year>2019</year>
+            <month>Feb</month>
+            <volume>90</volume>
+            <issue>2</issue>
+            <fpage>021712</fpage>
+            <pub-id pub-id-type="pmid">30831713</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Godara</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Dubis</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Roorda</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Duncan</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Carroll</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Adaptive optics retinal imaging: emerging clinical applications.</article-title>
+            <source>Optom Vis Sci</source>
+            <year>2010</year>
+            <month>Dec</month>
+            <volume>87</volume>
+            <issue>12</issue>
+            <fpage>930</fpage>
+            <page-range>930-41</page-range>
+            <pub-id pub-id-type="pmid">21057346</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rha</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Jonnal</surname>
+                <given-names>RS</given-names>
+              </name>
+              <name>
+                <surname>Thorn</surname>
+                <given-names>KE</given-names>
+              </name>
+              <name>
+                <surname>Qu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Miller</surname>
+                <given-names>DT</given-names>
+              </name>
+            </person-group>
+            <article-title>Adaptive optics flood-illumination camera for high speed retinal imaging.</article-title>
+            <source>Opt Express</source>
+            <year>2006</year>
+            <month>May</month>
+            <day>15</day>
+            <volume>14</volume>
+            <issue>10</issue>
+            <fpage>4552</fpage>
+            <page-range>4552-69</page-range>
+            <pub-id pub-id-type="pmid">19516608</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dreher</surname>
+                <given-names>AW</given-names>
+              </name>
+              <name>
+                <surname>Bille</surname>
+                <given-names>JF</given-names>
+              </name>
+              <name>
+                <surname>Weinreb</surname>
+                <given-names>RN</given-names>
+              </name>
+            </person-group>
+            <article-title>Active optical depth resolution improvement of the laser tomographic scanner.</article-title>
+            <source>Appl Opt</source>
+            <year>1989</year>
+            <month>Feb</month>
+            <day>15</day>
+            <volume>28</volume>
+            <issue>4</issue>
+            <fpage>804</fpage>
+            <page-range>804-8</page-range>
+            <pub-id pub-id-type="pmid">20548563</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Roorda</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Applications of adaptive optics scanning laser ophthalmoscopy.</article-title>
+            <source>Optom Vis Sci</source>
+            <year>2010</year>
+            <month>Apr</month>
+            <volume>87</volume>
+            <issue>4</issue>
+            <fpage>260</fpage>
+            <page-range>260-8</page-range>
+            <pub-id pub-id-type="pmid">20160657</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Torti</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Povazay</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Hofer</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Unterhuber</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Carroll</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Ahnelt</surname>
+                <given-names>PK</given-names>
+              </name>
+              <name>
+                <surname>Drexler</surname>
+                <given-names>W</given-names>
+              </name>
+            </person-group>
+            <article-title>Adaptive optics optical coherence tomography at 120,000 depth scans/s for non-invasive cellular phenotyping of the living human retina.</article-title>
+            <source>Opt Express</source>
+            <year>2009</year>
+            <month>Oct</month>
+            <day>26</day>
+            <volume>17</volume>
+            <issue>22</issue>
+            <fpage>19382</fpage>
+            <page-range>19382-400</page-range>
+            <pub-id pub-id-type="pmid">19997159</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Park</surname>
+                <given-names>SP</given-names>
+              </name>
+              <name>
+                <surname>Chung</surname>
+                <given-names>JK</given-names>
+              </name>
+              <name>
+                <surname>Greenstein</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Tsang</surname>
+                <given-names>SH</given-names>
+              </name>
+              <name>
+                <surname>Chang</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>A study of factors affecting the human cone photoreceptor density measured by adaptive optics scanning laser ophthalmoscope.</article-title>
+            <source>Exp Eye Res</source>
+            <year>2013</year>
+            <month>Mar</month>
+            <volume>108</volume>
+            <fpage>1</fpage>
+            <page-range>1-9</page-range>
+            <pub-id pub-id-type="pmid">23276813</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tumahai</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Moureaux</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Meillat</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Debellemani&#x000e8;re</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Flores</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Delbosc</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Saleh</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>High-resolution imaging of photoreceptors in healthy human eyes using an adaptive optics retinal camera.</article-title>
+            <source>Eye (Lond)</source>
+            <year>2018</year>
+            <month>Nov</month>
+            <volume>32</volume>
+            <issue>11</issue>
+            <fpage>1723</fpage>
+            <page-range>1723-1730</page-range>
+            <pub-id pub-id-type="pmid">29993035</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bergeles</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Dubis</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Davidson</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Kasilian</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kalitzeos</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Carroll</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Dubra</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Michaelides</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ourselin</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Unsupervised identification of cone photoreceptors in non-confocal adaptive optics scanning light ophthalmoscope images.</article-title>
+            <source>Biomed Opt Express</source>
+            <year>2017</year>
+            <month>Jun</month>
+            <day>01</day>
+            <volume>8</volume>
+            <issue>6</issue>
+            <fpage>3081</fpage>
+            <page-range>3081-3094</page-range>
+            <pub-id pub-id-type="pmid">28663928</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Roorda</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Williams</surname>
+                <given-names>DR</given-names>
+              </name>
+            </person-group>
+            <article-title>The arrangement of the three cone classes in the living human eye.</article-title>
+            <source>Nature</source>
+            <year>1999</year>
+            <month>Feb</month>
+            <day>11</day>
+            <volume>397</volume>
+            <issue>6719</issue>
+            <fpage>520</fpage>
+            <page-range>520-2</page-range>
+            <pub-id pub-id-type="pmid">10028967</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Duncan</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Roorda</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Dysflective Cones.</article-title>
+            <source>Adv Exp Med Biol</source>
+            <year>2019</year>
+            <volume>1185</volume>
+            <fpage>133</fpage>
+            <page-range>133-137</page-range>
+            <pub-id pub-id-type="pmid">31884601</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Alpern</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ching</surname>
+                <given-names>CC</given-names>
+              </name>
+              <name>
+                <surname>Kitahara</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>The directional sensitivity of retinal rods.</article-title>
+            <source>J Physiol</source>
+            <year>1983</year>
+            <month>Oct</month>
+            <volume>343</volume>
+            <fpage>577</fpage>
+            <page-range>577-92</page-range>
+            <pub-id pub-id-type="pmid">6644624</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Roorda</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Duncan</surname>
+                <given-names>JL</given-names>
+              </name>
+            </person-group>
+            <article-title>High-resolution in vivo imaging of the RPE mosaic in eyes with retinal disease.</article-title>
+            <source>Invest Ophthalmol Vis Sci</source>
+            <year>2007</year>
+            <month>May</month>
+            <volume>48</volume>
+            <issue>5</issue>
+            <fpage>2297</fpage>
+            <page-range>2297-303</page-range>
+            <pub-id pub-id-type="pmid">17460294</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Morgan</surname>
+                <given-names>JI</given-names>
+              </name>
+              <name>
+                <surname>Dubra</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Wolfe</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Merigan</surname>
+                <given-names>WH</given-names>
+              </name>
+              <name>
+                <surname>Williams</surname>
+                <given-names>DR</given-names>
+              </name>
+            </person-group>
+            <article-title>In vivo autofluorescence imaging of the human and macaque retinal pigment epithelial cell mosaic.</article-title>
+            <source>Invest Ophthalmol Vis Sci</source>
+            <year>2009</year>
+            <month>Mar</month>
+            <volume>50</volume>
+            <issue>3</issue>
+            <fpage>1350</fpage>
+            <page-range>1350-9</page-range>
+            <pub-id pub-id-type="pmid">18952914</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rossi</surname>
+                <given-names>EA</given-names>
+              </name>
+              <name>
+                <surname>Granger</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name>
+                <surname>Sharma</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Yang</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Saito</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Schwarz</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Walters</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Nozato</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Kawakami</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Fischer</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Latchney</surname>
+                <given-names>LR</given-names>
+              </name>
+              <name>
+                <surname>Hunter</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Chung</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Williams</surname>
+                <given-names>DR</given-names>
+              </name>
+            </person-group>
+            <article-title>Imaging individual neurons in the retinal ganglion cell layer of the living eye.</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>2017</year>
+            <month>Jan</month>
+            <day>17</day>
+            <volume>114</volume>
+            <issue>3</issue>
+            <fpage>586</fpage>
+            <page-range>586-591</page-range>
+            <pub-id pub-id-type="pmid">28049835</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Liu</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Kurokawa</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Miller</surname>
+                <given-names>DT</given-names>
+              </name>
+            </person-group>
+            <article-title>Imaging and quantifying ganglion cells and other transparent neurons in the living human retina.</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>2017</year>
+            <month>Nov</month>
+            <day>28</day>
+            <volume>114</volume>
+            <issue>48</issue>
+            <fpage>12803</fpage>
+            <page-range>12803-12808</page-range>
+            <pub-id pub-id-type="pmid">29138314</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ivers</surname>
+                <given-names>KM</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Patel</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Sredar</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Luo</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Queener</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Harwerth</surname>
+                <given-names>RS</given-names>
+              </name>
+              <name>
+                <surname>Porter</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Reproducibility of measuring lamina cribrosa pore geometry in human and nonhuman primates with in vivo adaptive optics imaging.</article-title>
+            <source>Invest Ophthalmol Vis Sci</source>
+            <year>2011</year>
+            <month>Jul</month>
+            <day>23</day>
+            <volume>52</volume>
+            <issue>8</issue>
+            <fpage>5473</fpage>
+            <page-range>5473-80</page-range>
+            <pub-id pub-id-type="pmid">21546533</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Burns</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Elsner</surname>
+                <given-names>AE</given-names>
+              </name>
+              <name>
+                <surname>Chui</surname>
+                <given-names>TY</given-names>
+              </name>
+              <name>
+                <surname>Vannasdale</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Clark</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Gast</surname>
+                <given-names>TJ</given-names>
+              </name>
+              <name>
+                <surname>Malinovsky</surname>
+                <given-names>VE</given-names>
+              </name>
+              <name>
+                <surname>Phan</surname>
+                <given-names>AD</given-names>
+              </name>
+            </person-group>
+            <article-title>In vivo adaptive optics microvascular imaging in diabetic patients without clinically severe diabetic retinopathy.</article-title>
+            <source>Biomed Opt Express</source>
+            <year>2014</year>
+            <month>Mar</month>
+            <day>01</day>
+            <volume>5</volume>
+            <issue>3</issue>
+            <fpage>961</fpage>
+            <page-range>961-74</page-range>
+            <pub-id pub-id-type="pmid">24688827</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Roorda</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Romero-Borja</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Donnelly Iii</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Queener</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Hebert</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Campbell</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Adaptive optics scanning laser ophthalmoscopy.</article-title>
+            <source>Opt Express</source>
+            <year>2002</year>
+            <month>May</month>
+            <day>06</day>
+            <volume>10</volume>
+            <issue>9</issue>
+            <fpage>405</fpage>
+            <page-range>405-12</page-range>
+            <pub-id pub-id-type="pmid">19436374</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lombardo</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Parravano</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Lombardo</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Varano</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Boccassini</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Stirpe</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Serrao</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Adaptive optics imaging of parafoveal cones in type 1 diabetes.</article-title>
+            <source>Retina</source>
+            <year>2014</year>
+            <month>Mar</month>
+            <volume>34</volume>
+            <issue>3</issue>
+            <fpage>546</fpage>
+            <page-range>546-57</page-range>
+            <pub-id pub-id-type="pmid">23928676</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lombardo</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Parravano</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Serrao</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Ducoli</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Stirpe</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Lombardo</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Analysis of retinal capillaries in patients with type 1 diabetes and nonproliferative diabetic retinopathy using adaptive optics imaging.</article-title>
+            <source>Retina</source>
+            <year>2013</year>
+            <month>Sep</month>
+            <volume>33</volume>
+            <issue>8</issue>
+            <fpage>1630</fpage>
+            <page-range>1630-9</page-range>
+            <pub-id pub-id-type="pmid">23492950</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nakatake</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Murakami</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Funatsu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Koyanagi</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Akiyama</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Momozawa</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Ishibashi</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Sonoda</surname>
+                <given-names>KH</given-names>
+              </name>
+              <name>
+                <surname>Ikeda</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>Early detection of cone photoreceptor cell loss in retinitis pigmentosa using adaptive optics scanning laser ophthalmoscopy.</article-title>
+            <source>Graefes Arch Clin Exp Ophthalmol</source>
+            <year>2019</year>
+            <month>Jun</month>
+            <volume>257</volume>
+            <issue>6</issue>
+            <fpage>1169</fpage>
+            <page-range>1169-1181</page-range>
+            <pub-id pub-id-type="pmid">30937533</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Talcott</surname>
+                <given-names>KE</given-names>
+              </name>
+              <name>
+                <surname>Ratnam</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Sundquist</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Lucero</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Lujan</surname>
+                <given-names>BJ</given-names>
+              </name>
+              <name>
+                <surname>Tao</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Porco</surname>
+                <given-names>TC</given-names>
+              </name>
+              <name>
+                <surname>Roorda</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Duncan</surname>
+                <given-names>JL</given-names>
+              </name>
+            </person-group>
+            <article-title>Longitudinal study of cone photoreceptors during retinal degeneration and in response to ciliary neurotrophic factor treatment.</article-title>
+            <source>Invest Ophthalmol Vis Sci</source>
+            <year>2011</year>
+            <month>Apr</month>
+            <day>06</day>
+            <volume>52</volume>
+            <issue>5</issue>
+            <fpage>2219</fpage>
+            <page-range>2219-26</page-range>
+            <pub-id pub-id-type="pmid">21087953</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Song</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Rossi</surname>
+                <given-names>EA</given-names>
+              </name>
+              <name>
+                <surname>Latchney</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Bessette</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Stone</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Hunter</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Williams</surname>
+                <given-names>DR</given-names>
+              </name>
+              <name>
+                <surname>Chung</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Cone and rod loss in Stargardt disease revealed by adaptive optics scanning light ophthalmoscopy.</article-title>
+            <source>JAMA Ophthalmol</source>
+            <year>2015</year>
+            <month>Oct</month>
+            <volume>133</volume>
+            <issue>10</issue>
+            <fpage>1198</fpage>
+            <page-range>1198-203</page-range>
+            <pub-id pub-id-type="pmid">26247787</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nakanishi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Ueno</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Hayashi</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Katagiri</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Ito</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Kominami</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Fujinami</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Tsunoda</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Iwata</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Terasaki</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>CHANGES OF CONE PHOTORECEPTOR MOSAIC IN AUTOSOMAL RECESSIVE BESTROPHINOPATHY.</article-title>
+            <source>Retina</source>
+            <year>2020</year>
+            <month>Jan</month>
+            <volume>40</volume>
+            <issue>1</issue>
+            <fpage>181</fpage>
+            <page-range>181-186</page-range>
+            <pub-id pub-id-type="pmid">30308565</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Battu</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Akkali</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Bhanushali</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Srinivasan</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Shetty</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Berendschot</surname>
+                <given-names>TT</given-names>
+              </name>
+              <name>
+                <surname>Schouten</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Webers</surname>
+                <given-names>CA</given-names>
+              </name>
+            </person-group>
+            <article-title>Adaptive optics imaging of the outer retinal tubules in Bietti's crystalline dystrophy.</article-title>
+            <source>Eye (Lond)</source>
+            <year>2016</year>
+            <month>May</month>
+            <volume>30</volume>
+            <issue>5</issue>
+            <fpage>705</fpage>
+            <page-range>705-12</page-range>
+            <pub-id pub-id-type="pmid">26915747</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gocho</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Akeo</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Itoh</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Kameya</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Hayashi</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Katagiri</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Gekka</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Ohkuma</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Tsuneoka</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Takahashi</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>High-Resolution Adaptive Optics Retinal Image Analysis at Early Stage Central Areolar Choroidal Dystrophy With PRPH2 Mutation.</article-title>
+            <source>Ophthalmic Surg Lasers Imaging Retina</source>
+            <year>2016</year>
+            <month>Dec</month>
+            <day>01</day>
+            <volume>47</volume>
+            <issue>12</issue>
+            <fpage>1115</fpage>
+            <page-range>1115-1126</page-range>
+            <pub-id pub-id-type="pmid">27977834</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r46">
+          <label>46</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Paques</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Meimon</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Rossant</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Rosenbaum</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Mrejen</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Sennlaub</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Grieve</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Adaptive optics ophthalmoscopy: Application to age-related macular degeneration and vascular diseases.</article-title>
+            <source>Prog Retin Eye Res</source>
+            <year>2018</year>
+            <month>Sep</month>
+            <volume>66</volume>
+            <fpage>1</fpage>
+            <page-range>1-16</page-range>
+            <pub-id pub-id-type="pmid">30010022</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r47">
+          <label>47</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wang</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Sander</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Larsen</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Retinal atrophy in idiopathic central serous chorioretinopathy.</article-title>
+            <source>Am J Ophthalmol</source>
+            <year>2002</year>
+            <month>Jun</month>
+            <volume>133</volume>
+            <issue>6</issue>
+            <fpage>787</fpage>
+            <page-range>787-93</page-range>
+            <pub-id pub-id-type="pmid">12036670</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r48">
+          <label>48</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gerardy</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Yesilirmak</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Legras</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Behar-Cohen</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Bousquet</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>CENTRAL SEROUS CHORIORETINOPATHY: High-Resolution Imaging of Asymptomatic Fellow Eyes Using Adaptive Optics Scanning Laser Ophthalmoscopy.</article-title>
+            <source>Retina</source>
+            <year>2022</year>
+            <month>Feb</month>
+            <day>01</day>
+            <volume>42</volume>
+            <issue>2</issue>
+            <fpage>375</fpage>
+            <page-range>375-380</page-range>
+            <pub-id pub-id-type="pmid">34620798</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r49">
+          <label>49</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ueda-Consolvo</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Oiwake</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Abe</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Nakamura</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Numata</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Hayashi</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Hydroxychloroquine's Early Impact on Cone Density.</article-title>
+            <source>J Ophthalmol</source>
+            <year>2021</year>
+            <volume>2021</volume>
+            <fpage>1389805</fpage>
+            <pub-id pub-id-type="pmid">34527374</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r50">
+          <label>50</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Stepien</surname>
+                <given-names>KE</given-names>
+              </name>
+              <name>
+                <surname>Han</surname>
+                <given-names>DP</given-names>
+              </name>
+              <name>
+                <surname>Schell</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Godara</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Rha</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Carroll</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Spectral-domain optical coherence tomography and adaptive optics may detect hydroxychloroquine retinal toxicity before symptomatic vision loss.</article-title>
+            <source>Trans Am Ophthalmol Soc</source>
+            <year>2009</year>
+            <month>Dec</month>
+            <volume>107</volume>
+            <fpage>28</fpage>
+            <page-range>28-33</page-range>
+            <pub-id pub-id-type="pmid">20126479</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r51">
+          <label>51</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Reumueller</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Wassermann</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Salas</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Karantonis</surname>
+                <given-names>MG</given-names>
+              </name>
+              <name>
+                <surname>Sacu</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Georgopoulos</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Drexler</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Pircher</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Pollreisz</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Schmidt-Erfurth</surname>
+                <given-names>U</given-names>
+              </name>
+            </person-group>
+            <article-title>Morphologic and Functional Assessment of Photoreceptors After Macula-Off Retinal Detachment With Adaptive-Optics OCT and Microperimetry.</article-title>
+            <source>Am J Ophthalmol</source>
+            <year>2020</year>
+            <month>Jun</month>
+            <volume>214</volume>
+            <fpage>72</fpage>
+            <page-range>72-85</page-range>
+            <pub-id pub-id-type="pmid">31883465</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r52">
+          <label>52</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nakamura</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Hayashi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Oiwake</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Recovery of macular cone photoreceptors in Vogt-Koyanagi-Harada disease.</article-title>
+            <source>Graefes Arch Clin Exp Ophthalmol</source>
+            <year>2018</year>
+            <month>Feb</month>
+            <volume>256</volume>
+            <issue>2</issue>
+            <fpage>387</fpage>
+            <page-range>387-394</page-range>
+            <pub-id pub-id-type="pmid">29264653</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r53">
+          <label>53</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Agarwal</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Soliman</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>Hanout</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Sadiq</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Sarwar</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Jack</surname>
+                <given-names>LS</given-names>
+              </name>
+              <name>
+                <surname>Do</surname>
+                <given-names>DV</given-names>
+              </name>
+              <name>
+                <surname>Nguyen</surname>
+                <given-names>QD</given-names>
+              </name>
+              <name>
+                <surname>Sepah</surname>
+                <given-names>YJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Adaptive Optics Imaging of Retinal Photoreceptors Overlying Lesions in White Dot Syndrome and its Functional Correlation.</article-title>
+            <source>Am J Ophthalmol</source>
+            <year>2015</year>
+            <month>Oct</month>
+            <volume>160</volume>
+            <issue>4</issue>
+            <fpage>806</fpage>
+            <page-range>806-16.e2</page-range>
+            <pub-id pub-id-type="pmid">26189087</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r54">
+          <label>54</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zwillinger</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Paques</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Safran</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Baudouin</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>In vivo characterization of lamina cribrosa pore morphology in primary open-angle glaucoma.</article-title>
+            <source>J Fr Ophtalmol</source>
+            <year>2016</year>
+            <month>Mar</month>
+            <volume>39</volume>
+            <issue>3</issue>
+            <fpage>265</fpage>
+            <page-range>265-71</page-range>
+            <pub-id pub-id-type="pmid">26987895</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145092.r55">
+          <label>55</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hasegawa</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Ooto</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Takayama</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Makiyama</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Akagi</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Ikeda</surname>
+                <given-names>HO</given-names>
+              </name>
+              <name>
+                <surname>Nakanishi</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Suda</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Yamada</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Uji</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Yoshimura</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Cone Integrity in Glaucoma: An Adaptive-Optics Scanning Laser Ophthalmoscopy Study.</article-title>
+            <source>Am J Ophthalmol</source>
+            <year>2016</year>
+            <month>Nov</month>
+            <volume>171</volume>
+            <fpage>53</fpage>
+            <page-range>53-66</page-range>
+            <pub-id pub-id-type="pmid">27565227</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

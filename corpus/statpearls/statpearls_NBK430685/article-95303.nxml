@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-95303" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Exploratory Data Analysis: Frequencies, Descriptive Statistics, Histograms, and Boxplots</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Shreffler</surname>
+            <given-names>Jacob</given-names>
+          </name>
+          <aff>University of Louisville School of Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Huecker</surname>
+            <given-names>Martin R.</given-names>
+          </name>
+          <aff>University of Louisville</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Jacob Shreffler declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Martin Huecker declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>3</day>
+          <month>11</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-95303.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Researchers must utilize exploratory data techniques to present findings to a target audience and create appropriate graphs and figures. Researchers can determine if outliers exist, data are missing, and statistical assumptions will be upheld by understanding data. Additionally, it is essential to comprehend these data when describing them in conclusions of a paper, in a meeting with colleagues invested in the findings, or while reading others&#x02019; work.</p>
+      </sec>
+      <sec id="article-95303.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>This comprehension begins with exploring these data through the outputs discussed in this article. Individuals who do not conduct research must still comprehend new studies, and knowledge of fundamentals in analyzing data and interpretation of histograms and boxplots facilitates the ability to appraise recent publications accurately. Without this familiarity, decisions could be implemented based on inaccurate delivery or interpretation of medical studies.</p>
+        <p>
+<bold>Frequencies and Descriptive Statistics</bold>
+</p>
+        <p>Effective presentation of study results, in presentation or manuscript form, typically starts with frequencies and descriptive statistics (ie, mean, medians, standard deviations). One can get a better sense of the variables by examining these data to determine whether a balanced and sufficient research design exists. Frequencies also inform on missing data and give a sense of outliers (will be discussed below).</p>
+        <p>Luckily, software programs are available to conduct exploratory data analysis. For this chapter, we will be examining the following research question.</p>
+        <p>RQ: Are there differences in drug life (length of effect) for Drug 23 based on the administration site?</p>
+        <p>A more precise hypothesis could be: Is drug 23 longer-lasting when administered via site A compared to site B?</p>
+        <p>To address this research question, exploratory data analysis is conducted. First, it is essential to start with the frequencies of the variables. To keep things simple, only variables of minutes (drug life effect) and administration site (A vs B) are included. See <bold>Image.</bold> Figure 1 for outputs for frequencies.</p>
+        <p>Figure 1 shows that the administration site appears to be a balanced design with 50 individuals in each group. The excerpt for minutes frequencies is the bottom portion of Figure 1 and shows how many cases fell into each time frame with the cumulative percent on the right-hand side. In examining Figure 1, one suspiciously low measurement (135) was observed, considering time variables. If a data point seems inaccurate, a researcher should find this case and confirm if this was an entry error. For the sake of this review,&#x000a0;the authors state&#x000a0;that this was an entry error and should have been entered 535 and not 135. Had the analysis occurred without checking this, the data analysis, results, and conclusions would have been invalid. When finding any entry errors and determining how groups are balanced, potential missing data is explored. If not responsibly evaluated, missing values can nullify results. &#x000a0;</p>
+        <p>After replacing the incorrect 135 with 535, descriptive statistics, including the mean, median, mode, minimum/maximum scores, and standard deviation were examined. Output for the research example for the variable of minutes can be seen in Figure 2. Observe each variable to ensure that the mean seems reasonable and that the minimum and maximum are within an appropriate range based on medical competence or an available codebook. One assumption common in statistical analyses is a normal distribution. <bold>Image</bold>.&#x000a0;Figure 2 shows that the mode differs from the mean and the median. We have visualization tools such as histograms to examine these scores for normality and outliers before making decisions.</p>
+        <p>
+<bold>Histograms</bold>
+</p>
+        <p>Histograms are useful in assessing normality, as many statistical tests (eg, ANOVA and regression) assume the data have a normal distribution. When data deviate from a normal distribution, it is quantified using skewness and kurtosis.<xref ref-type="bibr" rid="article-95303.r1">[1]</xref>&#x000a0;Skewness occurs when one tail of the curve is longer. If the tail is lengthier on the left side of the curve (more cases on the higher values), this would be negatively skewed, whereas if the tail is longer on the right side, it would be positively skewed. Kurtosis is another facet of normality. Positive kurtosis occurs when the center has many values falling in the middle, whereas negative kurtosis occurs when there are very heavy tails.<xref ref-type="bibr" rid="article-95303.r2">[2]</xref></p>
+        <p>Additionally, histograms reveal outliers: data points either entered incorrectly or truly very different from the rest of the sample. When there are outliers, one must determine accuracy based on random chance or the error in the experiment and provide strong justification if the decision is to exclude them.<xref ref-type="bibr" rid="article-95303.r3">[3]</xref>&#x000a0;Outliers require attention to ensure the data analysis accurately reflects the majority of the data and is not influenced by extreme values; cleaning these outliers can result in better quality decision-making in clinical practice.<xref ref-type="bibr" rid="article-95303.r4">[4]</xref>&#x000a0;A common approach to determining if a variable is approximately normally distributed is converting values to z scores and determining if any scores are less than -3 or greater than 3. For a normal distribution, about 99% of scores should lie within three standard deviations of the mean.<xref ref-type="bibr" rid="article-95303.r5">[5]</xref>&#x000a0;Importantly, one should not automatically throw out any values outside of this range but consider it in corroboration with the other factors aforementioned. Outliers are relatively common, so when these are prevalent, one must assess the risks and benefits of exclusion.<xref ref-type="bibr" rid="article-95303.r6">[6]</xref></p>
+        <p>
+<bold>Image</bold>. Figure 3 provides examples of histograms. In Figure 3A,&#x000a0;2 possible outliers causing kurtosis are observed. If values within 3 standard deviations are used, the result in Figure 3B are observed. This histogram appears much closer to an approximately normal distribution with the kurtosis being treated. Remember, all evidence should be considered before eliminating outliers. When reporting outliers in scientific paper outputs, account for the number of outliers excluded and justify why they were excluded.</p>
+        <p>
+<bold>Boxplots</bold>
+</p>
+        <p>Boxplots can examine for outliers, assess the range of data, and show differences among groups. Boxplots provide a visual representation of ranges and medians, illustrating differences amongst groups, and are useful in various outlets, including evidence-based medicine.<xref ref-type="bibr" rid="article-95303.r7">[7]</xref>&#x000a0;Boxplots provide a picture of data distribution when there are numerous values, and all values cannot be displayed (ie, a scatterplot).<xref ref-type="bibr" rid="article-95303.r8">[8]</xref>&#x000a0;Figure 4 illustrates the differences between drug site administration and the length of drug life from the above example.</p>
+        <p>
+<bold>Image</bold>. Figure 4 shows differences with potential clinical impact. Had any outliers existed (data from the histogram were cleaned), they would appear outside the line endpoint. The red boxes represent the middle 50% of scores. The lines within each red box represent the median number of minutes within each administration site. The horizontal lines at the top and bottom of each line connected to the red box represent the 25th and 75th percentiles. In examining the difference boxplots, an overlap in minutes between&#x000a0;2&#x000a0;administration sites were observed: the approximate top 25 percent from site B had the same time noted as the bottom 25 percent at site A. Site B had a median minute amount under 525, whereas administration site A had a length greater than 550. If there were no differences in adverse reactions at site A, analysis of this figure provides evidence that healthcare providers should administer the drug via site A. Researchers could follow by testing a third administration site, site C. <bold>Image</bold>.&#x000a0;Figure 5 shows what would happen if site C led to a longer drug life compared to site A.</p>
+        <p>Figure 5 displays the same site A data as Figure 4, but something looks different. The significant variance at site C makes site A&#x02019;s variance appear smaller. In order words, patients who were administered the drug via site C had a larger range of scores. Thus, some patients experience a longer half-life when the drug is administered via site C than the median of site A; however, the broad range (lack of accuracy) and lower median should be the focus. The precision of minutes is much more compacted in site A. Therefore, the median is higher, and the&#x000a0;range is more precise. One may conclude that this makes site A a more desirable site.</p>
+      </sec>
+      <sec id="article-95303.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Ultimately, by understanding basic exploratory data methods, medical researchers and consumers of research can make quality and data-informed decisions. These data-informed decisions will result in the ability to appraise the clinical significance of research outputs. By overlooking these fundamentals in statistics, critical errors in judgment can occur.</p>
+      </sec>
+      <sec id="article-95303.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>All interprofessional healthcare team members need to be at least familiar with, if not well-versed in, these statistical analyses so they can read and interpret study data and apply&#x000a0;the data implications in their everyday practice. This approach allows all practitioners to remain abreast of the latest developments and provides valuable data for evidence-based medicine, ultimately leading to improved patient outcomes.</p>
+      </sec>
+      <sec id="article-95303.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=95303&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=95303">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/95303/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=95303">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-95303.s6">
+        <fig id="article-95303.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Exploratory Data Analysis Figure 1 Contributed by Martin Huecker, MD and Jacob Shreffler, PhD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Exploratory__Data__Analysis__Figure__1" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-95303.s7">
+        <fig id="article-95303.image.f2" position="float" orientation="portrait">
+          <caption>
+            <p>Exploratory Data Analysis Figure 2 Contributed by Martin Huecker, MD and Jacob Shreffler, PhD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Exploratory__Data__Analysis__Figure__2" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-95303.s8">
+        <fig id="article-95303.image.f3" position="float" orientation="portrait">
+          <caption>
+            <p>Exploratory Data Analysis Figure 3 Contributed by Martin Huecker, MD and Jacob Shreffler, PhD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Exploratory__Data__Analysis__Figure__3" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-95303.s9">
+        <fig id="article-95303.image.f4" position="float" orientation="portrait">
+          <caption>
+            <p>Exploratory Data Analysis Figure 4 Contributed by Martin Huecker, MD and Jacob Shreffler, PhD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Exploratory__Data__Analysis__Figure__4" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-95303.s10">
+        <fig id="article-95303.image.f5" position="float" orientation="portrait">
+          <caption>
+            <p>Exploratory Data Analysis Figure 5 Contributed by Martin Huecker, MD and Jacob Shreffler, PhD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Exploratory__Data__Analysis__Figure__5" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-95303.s11">
+        <title>References</title>
+        <ref id="article-95303.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ho</surname>
+                <given-names>AD</given-names>
+              </name>
+              <name>
+                <surname>Yu</surname>
+                <given-names>CC</given-names>
+              </name>
+            </person-group>
+            <article-title>Descriptive Statistics for Modern Test Score Distributions: Skewness, Kurtosis, Discreteness, and Ceiling Effects.</article-title>
+            <source>Educ Psychol Meas</source>
+            <year>2015</year>
+            <month>Jun</month>
+            <volume>75</volume>
+            <issue>3</issue>
+            <fpage>365</fpage>
+            <page-range>365-388</page-range>
+            <pub-id pub-id-type="pmid">29795825</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95303.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Henderson</surname>
+                <given-names>AR</given-names>
+              </name>
+            </person-group>
+            <article-title>Testing experimental data for univariate normality.</article-title>
+            <source>Clin Chim Acta</source>
+            <year>2006</year>
+            <month>Apr</month>
+            <volume>366</volume>
+            <issue>1-2</issue>
+            <fpage>112</fpage>
+            <page-range>112-29</page-range>
+            <pub-id pub-id-type="pmid">16388793</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95303.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Weissman</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Analyzing intensive care unit length of stay data: problems and possible solutions.</article-title>
+            <source>Crit Care Med</source>
+            <year>1997</year>
+            <month>Sep</month>
+            <volume>25</volume>
+            <issue>9</issue>
+            <fpage>1594</fpage>
+            <page-range>1594-600</page-range>
+            <pub-id pub-id-type="pmid">9295838</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95303.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sheng</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Ge</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Yuan</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Yin</surname>
+                <given-names>FF</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>QJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Outlier identification in radiation therapy knowledge-based planning: A study of pelvic cases.</article-title>
+            <source>Med Phys</source>
+            <year>2017</year>
+            <month>Nov</month>
+            <volume>44</volume>
+            <issue>11</issue>
+            <fpage>5617</fpage>
+            <page-range>5617-5626</page-range>
+            <pub-id pub-id-type="pmid">28869649</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95303.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mowbray</surname>
+                <given-names>FI</given-names>
+              </name>
+              <name>
+                <surname>Fox-Wasylyshyn</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>El-Masri</surname>
+                <given-names>MM</given-names>
+              </name>
+            </person-group>
+            <article-title>Univariate Outliers: A Conceptual Overview for the Nurse Researcher.</article-title>
+            <source>Can J Nurs Res</source>
+            <year>2019</year>
+            <month>Mar</month>
+            <volume>51</volume>
+            <issue>1</issue>
+            <fpage>31</fpage>
+            <page-range>31-37</page-range>
+            <pub-id pub-id-type="pmid">29969044</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95303.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rice</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Lumley</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Graphics and statistics for cardiology: comparing categorical and continuous variables.</article-title>
+            <source>Heart</source>
+            <year>2016</year>
+            <month>Mar</month>
+            <volume>102</volume>
+            <issue>5</issue>
+            <fpage>349</fpage>
+            <page-range>349-55</page-range>
+            <pub-id pub-id-type="pmid">26819235</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95303.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Buttarazzi</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Pandolfo</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Porzio</surname>
+                <given-names>GC</given-names>
+              </name>
+            </person-group>
+            <article-title>A boxplot for circular data.</article-title>
+            <source>Biometrics</source>
+            <year>2018</year>
+            <month>Dec</month>
+            <volume>74</volume>
+            <issue>4</issue>
+            <fpage>1492</fpage>
+            <page-range>1492-1501</page-range>
+            <pub-id pub-id-type="pmid">29782636</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95303.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hazra</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Gogtay</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Biostatistics Series Module 1: Basics of Biostatistics.</article-title>
+            <source>Indian J Dermatol</source>
+            <year>2016</year>
+            <season>Jan-Feb</season>
+            <volume>61</volume>
+            <issue>1</issue>
+            <fpage>10</fpage>
+            <page-range>10-20</page-range>
+            <pub-id pub-id-type="pmid">26955089</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

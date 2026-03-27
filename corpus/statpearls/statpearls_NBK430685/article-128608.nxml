@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-128608" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>CT Instrumentation and Physics</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Al-Naser</surname>
+            <given-names>Yousif A.</given-names>
+          </name>
+          <aff>McMaster University</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Tafti</surname>
+            <given-names>Dawood</given-names>
+          </name>
+          <aff>Brooke Army Medical Center</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Yousif Al-Naser declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Dawood Tafti declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>2</day>
+          <month>11</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-128608.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Computed Tomography (CT) instrumentation and physics encompasses the equipment, devices, and tangible components integral to CT imaging technology. CT is a medical imaging modality that employs x-rays and computer processing to generate detailed internal body images. Instrumentation refers to the specialized machinery and apparatuses used for conducting CT scans. This includes the x-ray machine, detectors, the circular gantry that houses both the x-ray machine and detectors while revolving around the patient, the patient table, and various electronic components responsible for overseeing the imaging procedure. This term also encompasses the properties of CT imaging, such as the fundamental principles of x-ray physics, radiation exposure considerations, and image acquisition mechanics.&#x000a0;</p>
+        <p>
+<bold>Basic Principles of CT</bold>
+</p>
+        <p>CT uses x-ray beams and a computer to create cross-sectional images of the body. CT slices reveal specific anatomy levels, with slice thickness chosen to minimize scatter radiation and superimposition using collimators. CT data are divided into pixels, forming a matrix, each representing different image details. Structures in CT images are depicted in varying shades of gray based on x-ray beam attenuation principles. The linear attenuation coefficient quantifies photon interaction with matter and varies with density, atomic number, and energy.<xref ref-type="bibr" rid="article-128608.r1">[1]</xref> Higher density and atomic number lead to more significant attenuation, affecting image contrast.<xref ref-type="bibr" rid="article-128608.r1">[1]</xref>&#x000a0;CT images reflect these coefficients, showing denser materials as white and less dense ones as black. Contrast agents, like iodine, temporarily modify structure density differences for better visualization.<xref ref-type="bibr" rid="article-128608.r2">[2]</xref>&#x000a0;Hounsfield units (HU) quantify attenuation, aiding tissue characterization. However, HU values may be slightly inaccurate due to various factors. Polychromatic x-rays in CT can cause artifacts, like beam hardening, when low-energy photons are preferentially absorbed.<xref ref-type="bibr" rid="article-128608.r2">[2]</xref>&#x000a0;Filtering the x-ray beam with materials like aluminum can reduce these artifacts and improve image quality while lowering patient radiation dose.<xref ref-type="bibr" rid="article-128608.r2">[2]</xref> CT exams involve selecting slice thickness based on anatomy and pathology. Thinner slices are ideal for detecting minor details and minimizing volume averaging effects, where normal and pathological tissue blend.<xref ref-type="bibr" rid="article-128608.r3">[3]</xref> X-ray photons are created in the gantry-mounted tube, with voltage and tube current controlling intensity.<xref ref-type="bibr" rid="article-128608.r3">[3]</xref> Detectors convert x-rays to electric current, which is processed by the data acquisition system (DAS) and converted into images by the central processing unit (CPU).<xref ref-type="bibr" rid="article-128608.r4">[4]</xref> Often shown in HU, these images rely on pixel values to depict anatomical structures.</p>
+        <p>While designed differently, CT scanners share typical phases: data acquisition, image reconstruction, and image display. Data collection occurs in the first phase, processing in the second assigns pixel values, and in the final stage, data&#x000a0;are displayed as shades of gray for viewing.</p>
+        <p>
+<bold>Data Acquisition &#x00026; Image Reconstruction</bold>
+</p>
+        <p>CT utilizes detectors, which can be single elements or part of a larger detector array, and includes reference detectors to aid in calibration and artifact reduction. The size of the fan beam and the number of detector elements collecting data depend on the selected scan field of view.<xref ref-type="bibr" rid="article-128608.r4">[4]</xref> Ideal detectors exhibit high efficiency in capturing transmitted photons, minimal afterglow (persistent scintillation), effective scatter suppression, and stability that eliminates frequent calibration interruptions.<xref ref-type="bibr" rid="article-128608.r5">[5]</xref><xref ref-type="bibr" rid="article-128608.r6">[6]</xref>&#x000a0;Overall detector efficiency results from multiple factors, including the stopping power of the detector material, scintillator efficiency (for solid-state detectors), charge collection efficiency (for xenon detectors), geometric efficiency (comparing detector collimator plates to surface area), and scatter rejection.<xref ref-type="bibr" rid="article-128608.r7">[7]</xref><xref ref-type="bibr" rid="article-128608.r4">[4]</xref>&#x000a0;Other terms related to detector efficiency&#x000a0;include&#x000a0;capture efficiency (the ability to acquire photons), absorption efficiency (the number of absorbed photons), response time (the time for the signal to return to zero after x-ray stimulation), and dynamic range (the ratio of the maximum to minimum measurable signals).<xref ref-type="bibr" rid="article-128608.r3">[3]</xref><xref ref-type="bibr" rid="article-128608.r4">[4]</xref></p>
+        <p>Modern CT scanners primarily employ solid-state crystal detectors. At the same time, older models may utilize xenon gas detectors, which are becoming less prevalent due to limitations in multidetector row CT (MDCT) systems. Third-generation CT scanners feature a detector array and an x-ray tube that generates a fan-shaped beam, eliminating the need for beam and detector translation.<xref ref-type="bibr" rid="article-128608.r8">[8]</xref>&#x000a0;This design reduces scan times and motion artifacts, improving image quality, although it may lead to ring artifacts.<xref ref-type="bibr" rid="article-128608.r2">[2]</xref><xref ref-type="bibr" rid="article-128608.r8">[8]</xref> Fourth-generation scanners have a fixed detector array within the gantry while the tube rotates. Despite having more detectors, this design poses challenges related to motion artifacts. To address this issue, over-scans are utilized, but they elevate patient radiation exposure.<xref ref-type="bibr" rid="article-128608.r9">[9]</xref> Another CT design, electron beam imaging (EBCT), employs a fixed electron gun and anode target. While it offers high speed, its clinical utility is limited due to spatial resolution concerns, cost factors, and difficulty obtaining insurance reimbursement.<xref ref-type="bibr" rid="article-128608.r10">[10]</xref> The emergence of newer multidetector-row technology has reduced the relevance of EBCT.</p>
+        <p>The gantry's DAS converts analog signals from detectors into digital signals.<xref ref-type="bibr" rid="article-128608.r2">[2]</xref> Continuous x-rays create rays read by the DAS. The system correlates ray attenuation with position, creating profiles for each view. These are projected onto a matrix, potentially causing streak artifacts. To reduce them, data undergoes filtered mathematical operations. Iterative reconstruction, a newer method, updates the image by comparing computed projections with original data, reducing noise and radiation dose by up to 50%.<xref ref-type="bibr" rid="article-128608.r11">[11]</xref><xref ref-type="bibr" rid="article-128608.r12">[12]</xref></p>
+        <p>
+<bold>Image Quality &#x00026; Quality Assurance</bold>
+</p>
+        <p>The quality of the image is influenced by numerous factors, some of which are within the operator's control, while others, like the patient's size, are not. The operator can manipulate variables, including milliampere (mA) level, scan duration, slice thickness, field of view, reconstruction method, and kilovolt peak (kVp).<xref ref-type="bibr" rid="article-128608.r1">[1]</xref> Additionally, the operator can select a pitch value when employing helical scanning techniques. Collectively, these factors are typically referred to as scanning parameters. Image quality relies on two key elements: spatial resolution, which discerns fine, high-contrast details, and contrast resolution, which distinguishes objects with similar densities.<xref ref-type="bibr" rid="article-128608.r12">[12]</xref><xref ref-type="bibr" rid="article-128608.r13">[13]</xref> These aspects together enhance diagnostic precision in medical imaging. Spatial resolution is commonly assessed with the modulation transfer function (MTF), which ranges from 0 to 1, indicating how faithfully object details are reproduced.<xref ref-type="bibr" rid="article-128608.r14">[14]</xref>&#x000a0;In-plane resolution depends on matrix size and display field of view (DFOV). Matrix size determines pixel size, and adjusting DFOV changes to image and pixel dimensions. Larger DFOV leads to larger pixels and lower spatial detail. Pixel size affects accuracy, with smaller pixels reducing volume averaging and enhancing spatial resolution.<xref ref-type="bibr" rid="article-128608.r15">[15]</xref>&#x000a0;Voxel size, influenced by slice thickness and matrix dimensions, is also crucial in spatial resolution.<xref ref-type="bibr" rid="article-128608.r15">[15]</xref> Thinner slices and consistently sized voxels lead to better results. The operator's choice of slice thickness determines the voxel shape, and all tissue data within a voxel are averaged to produce a single user-selected CT number.</p>
+        <p>CT systems offer different reconstruction algorithms that operators can choose or build into scan protocols to enhance or suppress specific data aspects for optimal diagnosis.<xref ref-type="bibr" rid="article-128608.r13">[13]</xref> Some algorithms emphasize data smoothing by reducing pixel differences and reducing artifacts at the expense of spatial resolution.<xref ref-type="bibr" rid="article-128608.r16">[16]</xref> Conversely, certain filters accentuate pixel differences to optimize spatial resolution but sacrifice low-contrast resolution.<xref ref-type="bibr" rid="article-128608.r16">[16]</xref> These filters are suitable when extreme tissue density variations are present and low-contrast resolution is less critical. Contrast resolution distinguishes subtle density variations (low-contrast detectability).<xref ref-type="bibr" rid="article-128608.r3">[3]</xref> Subject contrast depends on object size, making smaller objects harder to discern.<xref ref-type="bibr" rid="article-128608.r3">[3]</xref> Organ contrast stems from physical traits, eg, the lung's air content. Temporal resolution is crucial for capturing moving structures and dynamic contrast studies influenced by gantry speed, detector channels, and signal recording.<xref ref-type="bibr" rid="article-128608.r17">[17]</xref></p>
+        <p>Quality control programs aim to optimize CT image quality while minimizing patient radiation exposure.<xref ref-type="bibr" rid="article-128608.r18">[18]</xref> These programs systematically monitor the CT system's performance to detect specific issues or malfunctions. CT technologists and medical physicists share responsibility for conducting and documenting quality control tests. Technologists typically handle routine tests, while physicists perform annual or semi-annual tests, including acquiring necessary dosimetric data.<xref ref-type="bibr" rid="article-128608.r19">[19]</xref> Quality assurance programs must adhere to three key principles: 1) regular performance of program tests, 2) consistent documentation of results in a standardized format, and 3) indication of whether the tested parameters meet specified guidelines.<xref ref-type="bibr" rid="article-128608.r19">[19]</xref></p>
+        <p>
+<bold>Summary and additional points to consider</bold>
+</p>
+        <p>A CT scanner is composed of a gantry, which constitutes the external apparatus of the scanner, an x-ray tube often composed of tungsten targets, a filter that attempts to create a monochromatic beam, a collimator which removes scatter, and a detector (most often a solid-state detector). Compared to typical diagnostic x-ray tubes, CT tubes function with higher amperage and a similar voltage to x-ray tubes and have similar focal spot sizes. Filters serve to reduce patient dose by removing low-energy x-rays and create a monochromatic beam as a result. Filters are typically composed of low-Z materials. While filters attenuate low-energy x-rays, collimators determine the thickness of the x-ray beam and section thickness. On the detector end, septa are also employed to reduce scatter and improve image quality by decreasing noise.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>CT scans use a kVp of around 120, although this can range from 70-140. An increased kVp increases the dose in CT imaging. Increasing kVp also increases noise, although this might be necessary for troubleshooting metal artifacts and imaging osseous structures. Iodinated contrast, whose K edge is around 33 keV, is better imaged at a lower kVp (typically about 80).</p>
+          </list-item>
+          <list-item>
+            <p>The application of mathematical filters called kernels serves to smoothen or sharpen data. Kernels serve to produce images with varying levels of noise and spatial resolution. A smooth kernel can help visualize soft tissue anatomy, while a sharp kernel has superior spatial resolution and is used to evaluate osseous structures.<xref ref-type="bibr" rid="article-128608.r20">[20]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Helical/spiral CT obtains images with an x-ray tube by enabling a table to move continuously at a constant speed, thereby having the advantage of less motion artifact.<xref ref-type="bibr" rid="article-128608.r21">[21]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Pitch is the ratio of the distance the table moved in a single x-ray tube rotation divided by the beam width. A beam width of 1 will have no slice overlap. A pitch greater than 1 will have slice gaps, while a less than 1 will overlap.<xref ref-type="bibr" rid="article-128608.r22">[22]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Iterative reconstruction is now the more commonly used method of newer algorithms of image reconstruction, often uses a lower dose and can decrease noise to a better degree than older image reconstruction algorithms such as back projection and filtered back projection.<xref ref-type="bibr" rid="article-128608.r23">[23]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Housfield units constitute density and attenuation data of tissues with the standard of water used as the point of zero.</p>
+          </list-item>
+          <list-item>
+            <p>Window width and level constitute a way to manipulate an image better to interrogate anatomy and pathology. The "level" constitutes the grey scale midpoint and is often established by the tissue attenuation being interrogated. The window "width" constitutes the desired range of densities used to compare tissues. Comparing bone with soft tissue will have a wide window width, while comparing tissues of similar densities will have a narrow window width.</p>
+          </list-item>
+          <list-item>
+            <p>Automatic exposure control will alter mA but not kVp. Increasing mA by a factor of&#x000a0;4 increases your signal-to-noise ratio by a factor of&#x000a0;2 while increasing dose by a factor of 2.<xref ref-type="bibr" rid="article-128608.r24">[24]</xref></p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-128608.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>Artifacts in CT images can have various origins and manifestations, categorized as physics-based (stemming from data acquisition), patient-based, or equipment-induced. These artifacts can significantly compromise image quality, necessitating their identification, understanding, and potential prevention or reduction. Detecting artifact causes can save time and resources, allowing prompt correction or service.</p>
+        <p>
+<bold>Image noise:</bold> Appears as grainy artifacts and can result from various factors, including quantum noise due to insufficient detected photons.<xref ref-type="bibr" rid="article-128608.r25">[25]</xref><xref ref-type="bibr" rid="article-128608.r26">[26]</xref>&#x000a0;Reducing noise enhances contrast resolution. Adjusting mAs directly affects the number of photons, impacting signal-to-noise ratio (SNR) and contrast resolution. However, this also increases radiation dose.<xref ref-type="bibr" rid="article-128608.r25">[25]</xref> Smaller pixel size reduces photon count per pixel, increasing noise and decreasing contrast resolution. Slice thickness affects photon availability and SNR, with thicker slices providing better SNR but compromising spatial resolution. Larger patients attenuate more photons, reducing SNR and contrast resolution.<xref ref-type="bibr" rid="article-128608.r26">[26]</xref></p>
+        <p>
+<bold>Beam Hardening:</bold> This occurs due to the polychromatic nature of the x-ray beam.<xref ref-type="bibr" rid="article-128608.r27">[27]</xref> Lower-energy photons are absorbed as they pass through an object, causing a "harder" beam.<xref ref-type="bibr" rid="article-128608.r27">[27]</xref> This effect leads to artifacts like cupping or streaks between dense objects. Using filtration, calibration, and beam-hardening correction software, CT systems minimize these artifacts.<xref ref-type="bibr" rid="article-128608.r27">[27]</xref></p>
+        <p>
+<bold>Partial Volume Artifact:</bold> Arises when multiple tissue types are within a voxel, typically caused by dense objects at the edge of the field of view.<xref ref-type="bibr" rid="article-128608.r28">[28]</xref> This results in shading artifacts. Reducing partial volume artifacts is achieved by using thinner slices.<xref ref-type="bibr" rid="article-128608.r28">[28]</xref><xref ref-type="bibr" rid="article-128608.r29">[29]</xref></p>
+        <p>
+<bold>Aliasing:</bold> Occurs when there is insufficient projection data, causing inaccuracies in reproducing sharp edges and small objects.<xref ref-type="bibr" rid="article-128608.r25">[25]</xref> It leads to fine stripes radiating from dense structures. Aliasing can be reduced by adjusting gantry rotation speed or helical pitch.<xref ref-type="bibr" rid="article-128608.r30">[30]</xref><xref ref-type="bibr" rid="article-128608.r28">[28]</xref></p>
+        <p>
+<bold>Edge Gradient Effect:</bold> Causes streak artifacts or shading due to irregularly shaped objects with a significant density difference from surrounding structures.<xref ref-type="bibr" rid="article-128608.r31">[31]</xref> Thinner slices help reduce this artifact. A low HU-value oral contrast or water can eliminate streak artifacts in the gastrointestinal tract.<xref ref-type="bibr" rid="article-128608.r31">[31]</xref></p>
+        <p>
+<bold>Motion:</bold> Results in shading, ghosting, streaking, or blurring artifacts. CT systems have features like over-scan and partial scan modes, software correction, and cardiac gating to minimize motion artifacts.<xref ref-type="bibr" rid="article-128608.r25">[25]</xref> Patient preparation, education, positioning aids, and sometimes sedation can reduce voluntary motion.<xref ref-type="bibr" rid="article-128608.r25">[25]</xref> Minimizing scan time for chest and abdomen scans also helps.<xref ref-type="bibr" rid="article-128608.r25">[25]</xref></p>
+        <p>
+<bold>Metallic Artifacts:</bold> These artifacts stem from metal objects within the SFOV. Metal's density often exceeds the CT system's dynamic range of HU values, causing streak artifacts.<xref ref-type="bibr" rid="article-128608.r32">[32]</xref> While newer systems have expanded HU scales, it's best to minimize metal in the SFOV by removing removable metal objects or adjusting scanning parameters when possible.<xref ref-type="bibr" rid="article-128608.r32">[32]</xref></p>
+        <p>
+<bold>Ring Artifacts:</bold> Typically seen in third-generation scanners, ring artifacts appear as concentric rings centered on the rotational axis.<xref ref-type="bibr" rid="article-128608.r25">[25]</xref>&#x000a0;They result from faulty or misaligned detector elements and may require recalibration or service engineer intervention.<xref ref-type="bibr" rid="article-128608.r25">[25]</xref>&#x000a0;Recent advancements demonstrate how artificial intelligence can effectively mitigate ring artifacts in medical imaging.<xref ref-type="bibr" rid="article-128608.r33">[33]</xref><xref ref-type="bibr" rid="article-128608.r34">[34]</xref></p>
+        <p>
+<bold>Tube Arcing:</bold> This equipment-induced artifact occurs due to short circuits within the x-ray tube, often caused by differences in electrical potential.<xref ref-type="bibr" rid="article-128608.r35">[35]</xref>&#x000a0;Aging tubes, changes in vacuum levels, or gas molecules within the tube can contribute to arcing.<xref ref-type="bibr" rid="article-128608.r35">[35]</xref> It can lead to various artifacts, from minor streaks to severe image distortion. Reporting the issue to a service engineer for evaluation and potential resolution is essential when tube arcing occurs.</p>
+        <p>Helical CT scans introduce unique artifacts due to the interpolation process in reconstruction. These artifacts can be minimized by using a low pitch when possible.<xref ref-type="bibr" rid="article-128608.r13">[13]</xref> In MDCT helical systems, the "cone beam effect" can lead to artifacts, especially in the outer detector rows, and these become more pronounced with a larger cone beam.<xref ref-type="bibr" rid="article-128608.r13">[13]</xref> Some protocols restrict data acquisition to the center rows to improve image quality.<xref ref-type="bibr" rid="article-128608.r13">[13]</xref> Additionally, various artifacts can occur when creating three-dimensional (3D) or differently oriented images from the original scan data, so care is needed in multiplanar or 3D reconstructions.<xref ref-type="bibr" rid="article-128608.r13">[13]</xref></p>
+      </sec>
+      <sec id="article-128608.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Understanding the physics of CT is fundamental to grasping the clinical significance of artifact recognition and management. CT physics underpins the principles governing image acquisition and reconstruction, which impacts image quality and directly relates to its usefulness in providing an accurate diagnosis. For example, an image of an infant using a shallow technique may appear quite noisy. However, it may still be adequate if the image is taken to follow up a significant abnormality, such as an abscess. Radiologists and technologists must comprehend the physics-related factors that can introduce artifacts to the images, such as beam hardening, partial volume effects, and metallic artifacts. This knowledge empowers them to identify these artifacts promptly and employ appropriate corrective measures. An in-depth understanding of CT physics enhances diagnostic accuracy and ensures patients receive optimized care. By minimizing image artifacts, clinicians can make more precise diagnoses, reduce the need for repeat scans, limit radiation exposure, and expedite the initiation of necessary medical interventions. Ultimately, comprehending CT physics elevates the clinical significance of artifact recognition and management, benefiting patients and healthcare providers.</p>
+      </sec>
+      <sec id="article-128608.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>Healthcare professionals, including radiologic technologists and radiologists, must possess the technical proficiency to operate CT machines and accurately interpret the resulting images. Additionally, clinical skills are vital for physicians to correlate CT findings with a patient's medical history and physical examination, aiding in accurate diagnoses.</p>
+        <p>Strategy is crucial in the utilization of CT scans. This encompasses the development of a strategic approach to ordering and interpreting scans, including selecting appropriate imaging protocols and sequences to address specific clinical questions efficiently. Physicians and radiologists should strategize to minimize radiation exposure, especially for vulnerable populations such as pregnant women or children. Ethics play a significant role in the responsible use of CT imaging. Healthcare professionals must ensure that patients or their guardians provide informed consent while fully understanding the risks and benefits of CT scans. Ethical considerations involve using the lowest possible radiation dose while maintaining diagnostic quality. Responsibilities are distributed among various healthcare professionals.</p>
+        <p>Physicians are responsible for ordering appropriate CT scans, interpreting results, and effectively communicating findings to patients and the healthcare team. Nurses are tasked with preparing patients, monitoring vital signs, and providing emotional support during the procedure. While not directly involved in CT imaging, pharmacists ensure that patients receive the appropriate medications before and after imaging, particularly in contrast material administration cases. Effective interprofessional communication is paramount in delivering high-quality care.&#x000a0;Clear and timely communication of vital information, including critical findings, patient conditions, and medication needs, is crucial among physicians, radiologists, nurses, pharmacists, and other healthcare team members.&#x000a0;Radiologists must communicate their findings in a manner understandable to nonspecialist team members.</p>
+        <p>Care coordination is integral to ensuring a seamless patient journey in CT imaging. This includes overseeing patient scheduling, ensuring the availability of radiologic technologists, and coordinating post-scan care. Physicians must also take on the role of coordinating follow-up care based on CT results, involving specialists when necessary. Patient-centered care requires active patient involvement in decision-making. Healthcare professionals should listen to patients' concerns, provide understandable information, and engage them in decisions regarding CT scans and subsequent treatments. Ensuring patient safety involves meticulous checks such as verifying patient identification, assessing allergies to contrast materials, and monitoring patients for adverse reactions during and after contrast administration.</p>
+        <p>To enhance team performance, regular training and interdisciplinary team meetings are essential. These forums enable healthcare professionals to stay updated on best practices, safety protocols, and advancements in CT technology, ultimately contributing to more effective and collaborative care.</p>
+      </sec>
+      <sec id="article-128608.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=128608&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=128608">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/128608/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=128608">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-128608.s6">
+        <fig id="article-128608.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>CT Brain Artifact. Contributed by S Dulebohn, MD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="artifact" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-128608.s7">
+        <fig id="article-128608.image.f2" position="float" orientation="portrait">
+          <caption>
+            <p>Metal artifacts CT scan Contributed by Orlando De Jesus</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="20210322_184301" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-128608.s8">
+        <fig id="article-128608.image.f3" position="float" orientation="portrait">
+          <caption>
+            <p>Motion artifact CT scan Contributed by Khadija Ghumman</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Stat__Pearls__motion__artifact" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-128608.s9">
+        <title>References</title>
+        <ref id="article-128608.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Goldman</surname>
+                <given-names>LW</given-names>
+              </name>
+            </person-group>
+            <article-title>Principles of CT and CT technology.</article-title>
+            <source>J Nucl Med Technol</source>
+            <year>2007</year>
+            <month>Sep</month>
+            <volume>35</volume>
+            <issue>3</issue>
+            <fpage>115</fpage>
+            <page-range>115-28; quiz 129-30</page-range>
+            <pub-id pub-id-type="pmid">17823453</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mazonakis</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Damilakis</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Computed tomography: What and how does it measure?</article-title>
+            <source>Eur J Radiol</source>
+            <year>2016</year>
+            <month>Aug</month>
+            <volume>85</volume>
+            <issue>8</issue>
+            <fpage>1499</fpage>
+            <page-range>1499-504</page-range>
+            <pub-id pub-id-type="pmid">26995675</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Seeram</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Computed Tomography: A Technical Review.</article-title>
+            <source>Radiol Technol</source>
+            <year>2018</year>
+            <month>Jan</month>
+            <volume>89</volume>
+            <issue>3</issue>
+            <fpage>279CT</fpage>
+            <page-range>279CT-302CT</page-range>
+            <pub-id pub-id-type="pmid">29298954</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Seeram</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Computed Tomography: Physical Principles and Recent Technical Advances.</article-title>
+            <source>J Med Imaging Radiat Sci</source>
+            <year>2010</year>
+            <month>Jun</month>
+            <volume>41</volume>
+            <issue>2</issue>
+            <fpage>87</fpage>
+            <page-range>87-109</page-range>
+            <pub-id pub-id-type="pmid">31051822</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hsieh</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Gurmen</surname>
+                <given-names>OE</given-names>
+              </name>
+              <name>
+                <surname>King</surname>
+                <given-names>KF</given-names>
+              </name>
+            </person-group>
+            <article-title>Investigation of a solid-state detector for advanced computed tomography.</article-title>
+            <source>IEEE Trans Med Imaging</source>
+            <year>2000</year>
+            <month>Sep</month>
+            <volume>19</volume>
+            <issue>9</issue>
+            <fpage>930</fpage>
+            <page-range>930-40</page-range>
+            <pub-id pub-id-type="pmid">11127606</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>McCollough</surname>
+                <given-names>CH</given-names>
+              </name>
+              <name>
+                <surname>Leng</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Yu</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Fletcher</surname>
+                <given-names>JG</given-names>
+              </name>
+            </person-group>
+            <article-title>Dual- and Multi-Energy CT: Principles, Technical Approaches, and Clinical Applications.</article-title>
+            <source>Radiology</source>
+            <year>2015</year>
+            <month>Sep</month>
+            <volume>276</volume>
+            <issue>3</issue>
+            <fpage>637</fpage>
+            <page-range>637-53</page-range>
+            <pub-id pub-id-type="pmid">26302388</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fuchs</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Kachelriess</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kalender</surname>
+                <given-names>WA</given-names>
+              </name>
+            </person-group>
+            <article-title>Direct comparison of a xenon and a solid-state CT detector system: measurements under working conditions.</article-title>
+            <source>IEEE Trans Med Imaging</source>
+            <year>2000</year>
+            <month>Sep</month>
+            <volume>19</volume>
+            <issue>9</issue>
+            <fpage>941</fpage>
+            <page-range>941-8</page-range>
+            <pub-id pub-id-type="pmid">11127607</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Christe</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Heverhagen</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Ozdoba</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Weisstanner</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Ulzheimer</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Ebner</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>CT dose and image quality in the last three scanner generations.</article-title>
+            <source>World J Radiol</source>
+            <year>2013</year>
+            <month>Nov</month>
+            <day>28</day>
+            <volume>5</volume>
+            <issue>11</issue>
+            <fpage>421</fpage>
+            <page-range>421-9</page-range>
+            <pub-id pub-id-type="pmid">24349646</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dubois</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name>
+                <surname>Kennerdell</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Rosenbaum</surname>
+                <given-names>AE</given-names>
+              </name>
+            </person-group>
+            <article-title>Advantages of a fourth generation CT scanner in the management of patients with orbital mass lesions.</article-title>
+            <source>Comput Tomogr</source>
+            <year>1979</year>
+            <volume>3</volume>
+            <issue>4</issue>
+            <fpage>279</fpage>
+            <page-range>279-90</page-range>
+            <pub-id pub-id-type="pmid">519980</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kulkarni</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Rumberger</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Jha</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Electron Beam CT: A Historical Review.</article-title>
+            <source>AJR Am J Roentgenol</source>
+            <year>2021</year>
+            <month>May</month>
+            <volume>216</volume>
+            <issue>5</issue>
+            <fpage>1222</fpage>
+            <page-range>1222-1228</page-range>
+            <pub-id pub-id-type="pmid">33760655</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Stiller</surname>
+                <given-names>W</given-names>
+              </name>
+            </person-group>
+            <article-title>Basics of iterative reconstruction methods in computed tomography: A vendor-independent overview.</article-title>
+            <source>Eur J Radiol</source>
+            <year>2018</year>
+            <month>Dec</month>
+            <volume>109</volume>
+            <fpage>147</fpage>
+            <page-range>147-154</page-range>
+            <pub-id pub-id-type="pmid">30527298</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Seeram</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Seeram</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Image Postprocessing in Digital Radiology-A Primer for Technologists.</article-title>
+            <source>J Med Imaging Radiat Sci</source>
+            <year>2008</year>
+            <month>Mar</month>
+            <volume>39</volume>
+            <issue>1</issue>
+            <fpage>23</fpage>
+            <page-range>23-41</page-range>
+            <pub-id pub-id-type="pmid">31051771</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tang</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Krupinski</surname>
+                <given-names>EA</given-names>
+              </name>
+              <name>
+                <surname>Xie</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Stillman</surname>
+                <given-names>AE</given-names>
+              </name>
+            </person-group>
+            <article-title>On the data acquisition, image reconstruction, cone beam artifacts, and their suppression in axial MDCT and CBCT - A review.</article-title>
+            <source>Med Phys</source>
+            <year>2018</year>
+            <month>Jul</month>
+            <day>17</day>
+            <pub-id pub-id-type="pmid">30019342</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nickoloff</surname>
+                <given-names>EL</given-names>
+              </name>
+              <name>
+                <surname>Riley</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>A simplified approach for modulation transfer function determinations in computed tomography.</article-title>
+            <source>Med Phys</source>
+            <year>1985</year>
+            <season>Jul-Aug</season>
+            <volume>12</volume>
+            <issue>4</issue>
+            <fpage>437</fpage>
+            <page-range>437-42</page-range>
+            <pub-id pub-id-type="pmid">4033588</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pan</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Yu</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Kao</surname>
+                <given-names>CM</given-names>
+              </name>
+            </person-group>
+            <article-title>Spatial-resolution enhancement in computed tomography.</article-title>
+            <source>IEEE Trans Med Imaging</source>
+            <year>2005</year>
+            <month>Feb</month>
+            <volume>24</volume>
+            <issue>2</issue>
+            <fpage>246</fpage>
+            <page-range>246-53</page-range>
+            <pub-id pub-id-type="pmid">15707250</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Willemink</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>No&#x000eb;l</surname>
+                <given-names>PB</given-names>
+              </name>
+            </person-group>
+            <article-title>The evolution of image reconstruction for CT-from filtered back projection to artificial intelligence.</article-title>
+            <source>Eur Radiol</source>
+            <year>2019</year>
+            <month>May</month>
+            <volume>29</volume>
+            <issue>5</issue>
+            <fpage>2185</fpage>
+            <page-range>2185-2195</page-range>
+            <pub-id pub-id-type="pmid">30377791</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mergen</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Sartoretti</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Cundari</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Serifovic</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Higashigaito</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Allmendinger</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Schmidt</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Flohr</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Manka</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Eberhard</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Alkadhi</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>The Importance of Temporal Resolution for Ultra-High-Resolution Coronary Angiography: Evidence From Photon-Counting Detector CT.</article-title>
+            <source>Invest Radiol</source>
+            <year>2023</year>
+            <month>Nov</month>
+            <day>01</day>
+            <volume>58</volume>
+            <issue>11</issue>
+            <fpage>767</fpage>
+            <page-range>767-774</page-range>
+            <pub-id pub-id-type="pmid">37222522</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Appel</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Kr&#x000f6;pil</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Bethge</surname>
+                <given-names>OT</given-names>
+              </name>
+              <name>
+                <surname>Aissa</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Thomas</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Antoch</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Boos</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Quality assurance in CT: implementation of the updated national diagnostic reference levels using an automated CT dose monitoring system.</article-title>
+            <source>Clin Radiol</source>
+            <year>2018</year>
+            <month>Jul</month>
+            <volume>73</volume>
+            <issue>7</issue>
+            <fpage>677.e13</fpage>
+            <page-range>677.e13-677.e20</page-range>
+            <pub-id pub-id-type="pmid">29567269</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Green</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Solomon</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Ruchala</surname>
+                <given-names>KJ</given-names>
+              </name>
+              <name>
+                <surname>Samei</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Design and implementation of a practical quality control program for dual-energy CT.</article-title>
+            <source>J Appl Clin Med Phys</source>
+            <year>2021</year>
+            <month>Oct</month>
+            <volume>22</volume>
+            <issue>10</issue>
+            <fpage>249</fpage>
+            <page-range>249-260</page-range>
+            <pub-id pub-id-type="pmid">34472700</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Willaume</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Delmas</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Tochon</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Bierry</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>A comparison of smooth and sharp kernel CT reconstructions in the detection of unilateral sacral fractures.</article-title>
+            <source>Skeletal Radiol</source>
+            <year>2023</year>
+            <month>Aug</month>
+            <volume>52</volume>
+            <issue>8</issue>
+            <fpage>1519</fpage>
+            <page-range>1519-1524</page-range>
+            <pub-id pub-id-type="pmid">36869891</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Heiken</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Brink</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Vannier</surname>
+                <given-names>MW</given-names>
+              </name>
+            </person-group>
+            <article-title>Spiral (helical) CT.</article-title>
+            <source>Radiology</source>
+            <year>1993</year>
+            <month>Dec</month>
+            <volume>189</volume>
+            <issue>3</issue>
+            <fpage>647</fpage>
+            <page-range>647-56</page-range>
+            <pub-id pub-id-type="pmid">8234684</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wang</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Vannier</surname>
+                <given-names>MW</given-names>
+              </name>
+            </person-group>
+            <article-title>The effect of pitch in multislice spiral/helical CT.</article-title>
+            <source>Med Phys</source>
+            <year>1999</year>
+            <month>Dec</month>
+            <volume>26</volume>
+            <issue>12</issue>
+            <fpage>2648</fpage>
+            <page-range>2648-53</page-range>
+            <pub-id pub-id-type="pmid">10619250</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fareed</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Vavere</surname>
+                <given-names>AL</given-names>
+              </name>
+              <name>
+                <surname>Zimmermann</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Tanami</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Steveson</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Matheson</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Paul</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Clouse</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Cox</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Lima</surname>
+                <given-names>JAC</given-names>
+              </name>
+              <name>
+                <surname>Arbab-Zadeh</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Impact of iterative reconstruction vs. filtered back projection on image quality in 320-slice CT coronary angiography: Insights from the CORE320 multicenter study.</article-title>
+            <source>Medicine (Baltimore)</source>
+            <year>2017</year>
+            <month>Dec</month>
+            <volume>96</volume>
+            <issue>48</issue>
+            <fpage>e8452</fpage>
+            <pub-id pub-id-type="pmid">29310329</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>S&#x000f6;derberg</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gunnarsson</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Automatic exposure control in computed tomography--an evaluation of systems from different manufacturers.</article-title>
+            <source>Acta Radiol</source>
+            <year>2010</year>
+            <month>Jul</month>
+            <volume>51</volume>
+            <issue>6</issue>
+            <fpage>625</fpage>
+            <page-range>625-34</page-range>
+            <pub-id pub-id-type="pmid">20429764</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Barrett</surname>
+                <given-names>JF</given-names>
+              </name>
+              <name>
+                <surname>Keat</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Artifacts in CT: recognition and avoidance.</article-title>
+            <source>Radiographics</source>
+            <year>2004</year>
+            <season>Nov-Dec</season>
+            <volume>24</volume>
+            <issue>6</issue>
+            <fpage>1679</fpage>
+            <page-range>1679-91</page-range>
+            <pub-id pub-id-type="pmid">15537976</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tao</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Rajendran</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Zhou</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Fletcher</surname>
+                <given-names>JG</given-names>
+              </name>
+              <name>
+                <surname>McCollough</surname>
+                <given-names>CH</given-names>
+              </name>
+              <name>
+                <surname>Leng</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Noise reduction in CT image using prior knowledge aware iterative denoising.</article-title>
+            <source>Phys Med Biol</source>
+            <year>2020</year>
+            <month>Nov</month>
+            <day>19</day>
+            <volume>65</volume>
+            <issue>22</issue>
+            <pub-id pub-id-type="pmid">33065559</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wang</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Xu</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Shi</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>A new approach for reducing beam hardening artifacts in polychromatic X-ray computed tomography using more accurate prior image.</article-title>
+            <source>J Xray Sci Technol</source>
+            <year>2018</year>
+            <volume>26</volume>
+            <issue>4</issue>
+            <fpage>593</fpage>
+            <page-range>593-602</page-range>
+            <pub-id pub-id-type="pmid">29562575</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kalisz</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Buethe</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Saboo</surname>
+                <given-names>SS</given-names>
+              </name>
+              <name>
+                <surname>Abbara</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Halliburton</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Rajiah</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Artifacts at Cardiac CT: Physics and Solutions.</article-title>
+            <source>Radiographics</source>
+            <year>2016</year>
+            <season>Nov-Dec</season>
+            <volume>36</volume>
+            <issue>7</issue>
+            <fpage>2064</fpage>
+            <page-range>2064-2083</page-range>
+            <pub-id pub-id-type="pmid">27768543</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zou</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Sidky</surname>
+                <given-names>EY</given-names>
+              </name>
+              <name>
+                <surname>Pan</surname>
+                <given-names>X</given-names>
+              </name>
+            </person-group>
+            <article-title>Partial volume and aliasing artefacts in helical cone-beam CT.</article-title>
+            <source>Phys Med Biol</source>
+            <year>2004</year>
+            <month>Jun</month>
+            <day>07</day>
+            <volume>49</volume>
+            <issue>11</issue>
+            <fpage>2365</fpage>
+            <page-range>2365-75</page-range>
+            <pub-id pub-id-type="pmid">15248583</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Stockham</surname>
+                <given-names>CD</given-names>
+              </name>
+            </person-group>
+            <article-title>A simulation study of aliasing in computed tomography.</article-title>
+            <source>Radiology</source>
+            <year>1979</year>
+            <month>Sep</month>
+            <volume>132</volume>
+            <issue>3</issue>
+            <fpage>721</fpage>
+            <page-range>721-6</page-range>
+            <pub-id pub-id-type="pmid">472254</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Joseph</surname>
+                <given-names>PM</given-names>
+              </name>
+              <name>
+                <surname>Spital</surname>
+                <given-names>RD</given-names>
+              </name>
+            </person-group>
+            <article-title>The exponential edge-gradient effect in x-ray computed tomography.</article-title>
+            <source>Phys Med Biol</source>
+            <year>1981</year>
+            <month>May</month>
+            <volume>26</volume>
+            <issue>3</issue>
+            <fpage>473</fpage>
+            <page-range>473-87</page-range>
+            <pub-id pub-id-type="pmid">7243880</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wellenberg</surname>
+                <given-names>RHH</given-names>
+              </name>
+              <name>
+                <surname>Hakvoort</surname>
+                <given-names>ET</given-names>
+              </name>
+              <name>
+                <surname>Slump</surname>
+                <given-names>CH</given-names>
+              </name>
+              <name>
+                <surname>Boomsma</surname>
+                <given-names>MF</given-names>
+              </name>
+              <name>
+                <surname>Maas</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Streekstra</surname>
+                <given-names>GJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Metal artifact reduction techniques in musculoskeletal CT-imaging.</article-title>
+            <source>Eur J Radiol</source>
+            <year>2018</year>
+            <month>Oct</month>
+            <volume>107</volume>
+            <fpage>60</fpage>
+            <page-range>60-69</page-range>
+            <pub-id pub-id-type="pmid">30292274</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chao</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>HJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Removal of computed tomography ring artifacts via radial basis function artificial neural networks.</article-title>
+            <source>Phys Med Biol</source>
+            <year>2019</year>
+            <month>Dec</month>
+            <day>05</day>
+            <volume>64</volume>
+            <issue>23</issue>
+            <fpage>235015</fpage>
+            <pub-id pub-id-type="pmid">31639777</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Al-Naser</surname>
+                <given-names>YA</given-names>
+              </name>
+            </person-group>
+            <article-title>The impact of artificial intelligence on radiography as a profession: A narrative review.</article-title>
+            <source>J Med Imaging Radiat Sci</source>
+            <year>2023</year>
+            <month>Mar</month>
+            <volume>54</volume>
+            <issue>1</issue>
+            <fpage>162</fpage>
+            <page-range>162-166</page-range>
+            <pub-id pub-id-type="pmid">36376210</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128608.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mithun</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Jha</surname>
+                <given-names>AK</given-names>
+              </name>
+              <name>
+                <surname>Panchal</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Purandare</surname>
+                <given-names>NC</given-names>
+              </name>
+              <name>
+                <surname>Shah</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Agrawal</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Rangarajan</surname>
+                <given-names>V</given-names>
+              </name>
+            </person-group>
+            <article-title>A rare cause of tube arcing artifact seen in computed tomography image of a positron emission tomography/computed tomography scanner.</article-title>
+            <source>Indian J Radiol Imaging</source>
+            <year>2016</year>
+            <season>Jan-Mar</season>
+            <volume>26</volume>
+            <issue>1</issue>
+            <fpage>153</fpage>
+            <page-range>153-5</page-range>
+            <pub-id pub-id-type="pmid">27081241</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

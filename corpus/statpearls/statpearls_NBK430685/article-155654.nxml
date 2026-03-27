@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-155654" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Pay-for-Performance and Value-Based Care </title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Yu</surname>
+            <given-names>Zejia A.</given-names>
+          </name>
+          <aff>Brown University</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Gorgone</surname>
+            <given-names>Michelle B.</given-names>
+          </name>
+          <aff>New York University School of Medicine, New York, NY</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Zejia Yu declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Michelle Gorgone declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>2</day>
+          <month>5</month>
+          <year>2024</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-155654.s1" sec-type="Summary / Explanation">
+        <title>Summary / Explanation</title>
+        <p content-type="pubmed-excerpt">Healthcare reimbursement in the United States has undergone several transitions for individual providers and hospitals. The Original Medicare (Part A and Part B), which began in 1966, was a fee-for-service payment system that paid physicians, hospitals, and other healthcare systems for each service rendered to eligible patients.&#x000a0;Under this system, providers or hospitals are compensated based on the complexity of the care provided.<xref ref-type="bibr" rid="article-155654.r1">[1]</xref>&#x000a0;Reimbursement is based on the quantity and extent of diagnostic testing completed and therapeutic services provided. The original Medicare included Part A and Part B. Part A referred to hospital insurance, and Part B referred to outpatient insurance.&#x000a0;Under this plan, the government paid the eligible beneficiaries directly.&#x000a0;</p>
+        <p>With the implementation of the fee-for-service payment system, comprehensive testing and diagnosis began to contribute to growing healthcare spending. In response to rising healthcare costs, the idea of a managed care system was developed in the 1980s and 90s. Managed care was the next proposed healthcare delivery system used by Medicaid, also known as Medicare Part C or Medicare Advantage. At the state level, each state worked with private insurance companies to form managed care organizations.&#x000a0;The insurance company contracts a network of providers, hospitals, and pharmacies that give a specific set of healthcare benefits. Every year, the private insurance companies submit bids to the state government for the rates that each member has to pay per month. For example, a bid for $1000/member/month includes delivery of a specific set of benefits,&#x000a0;assuming 10,000 beneficiaries are enrolled in this company's plan. The government evaluates the bid and decides whether or not to pay for this bid and allow this managed care organization to be funded.&#x000a0;This&#x000a0;theoretically limits the overutilization of specialists, improves the coordination of care, and reduces spending. However, denials and constraints on care raise concerns about compromising the quality of care while cutting costs.<xref ref-type="bibr" rid="article-155654.r2">[2]</xref></p>
+        <p>In the 1980s, the Center for Medicare and Medicaid Services (CMS) developed the Diagnosis Related Group (DRG), which shifted the fee-for-service system to paying hospitals based on diagnosis and payment for each admission. The DRG was&#x000a0;a single payment for each hospitalization based on the diagnosis, age, and gender. Medicare estimates the average cost it takes to treat a certain medical condition. Adjustments are made for certain risk factors, including hospitals that treat a large number of uninsured patients or teaching hospitals. For patients with the same diagnosis, patients with a longer length of stay get paid the same as patients with a shorter length of stay. This encouraged hospitals to become more efficient in treating patients and remove incentives for hospitals to over-diagnose and over-treat patients.&#x000a0;This was an initial attempt to limit the rising costs of hospital care but did not significantly reduce total U.S. health expenditure&#x000a0;as it did not focus on outpatient or private insurers.<xref ref-type="bibr" rid="article-155654.r3">[3]</xref></p>
+        <p>In 2015, the U.S. Department of Health and Human Services implemented new goals, which took 85% of Medicare fee-for-service (FFS) payments to quality or value by 2018.<xref ref-type="bibr" rid="article-155654.r4">[4]</xref></p>
+        <p>Value-based care was then introduced to reduce costs and create value for patients. Value is a strategic framework focusing&#x000a0;on improving outcomes, reducing hospital-acquired conditions, and preventing chronic diseases, including&#x000a0;diabetes, congestive heart failure (CHF), and chronic obstructive pulmonary disease (COPD).<xref ref-type="bibr" rid="article-155654.r5">[5]</xref>&#x000a0;By shifting the costs from acute hospitalizations to providing a more preventative and longitudinal approach to chronic diseases, significant costs can be saved in the long term.</p>
+        <p>The Affordable Care Act promoted payment reforms through the CMS, establishing a pay-for-performance program with&#x000a0;2 types of payment. The first type was a reduction in the fee-for-service payments, and those cost savings were then applied to payments back to the hospital when certain quality metrics were met. The second type is when hospitals fail to meet certain metrics, they are financially penalized, which indirectly translates into cost savings for CMS. The savings can then enter into an incentive pool to help with improvement initiatives for the hospitals. CMS has developed&#x000a0;3 main programs related to medical reimbursement. Each program described below implements the pay-for-performance model differently to improve the quality of healthcare delivery.<xref ref-type="bibr" rid="article-155654.r6">[6]</xref></p>
+        <p>
+<bold>Hospital Value-Based Purchasing (HVBP)</bold>
+</p>
+        <p>This program is designed to reduce the largest part of Medicare spending: inpatient stays in acute care hospitals. Participating hospitals are assessed on several measures, 4 of which are used to generate a total performance score.&#x000a0;These key measures are&#x000a0;clinical outcome, safety, efficiency and cost, and person and community engagement.&#x000a0;</p>
+        <p>The clinical outcome measure includes 30-day mortality for common acute conditions like COPD, pneumonia, and acute myocardial infarction (MI).</p>
+        <p>The person and community engagement is measured via the Hospital Consumer Assessment of Healthcare Providers Survey (HCAHPS).<xref ref-type="bibr" rid="article-155654.r7">[7]</xref>&#x000a0;This is a data collection tool used to measure a patient's hospital experience. Since its implementation in 2012, the HCAHPS scores have been an important component of the HVBP.<xref ref-type="bibr" rid="article-155654.r8">[8]</xref>&#x000a0;Survey items include communication with nurses and doctors, cleanliness, quietness, explanation about discharge medications, and post-discharge care coordination. The surveys are mailed or telephoned, and data is publicly reported every quarter.</p>
+        <p>Safety is measured as hospital-associated complications, such as <italic toggle="yes">Clostridium difficile</italic> infections, Methicillin-Resistant <italic toggle="yes">Staphylococcus Aureus</italic> (MRSA) blood infections, surgical site infections, and catheter-associated urinary tract infections (CAUTI). The observed number is compared against the expected number based on patient comorbidities and severity of illness. These same hospital-associated infections are also used&#x000a0;when calculating penalties or rewards for the Hospital Readmissions Reduction Program (HRRP).&#x000a0;</p>
+        <p>Efficiency is assessed by the Medicare Spending Per Beneficiary Measure, which compares the Medicare Part A and B payments between hospitals for an episode of care starting 3 days before&#x000a0;and ending 30 days after admission. This measure is risk-adjusted based on patient health status, demographics, severity of illness, and disability status. Conditions present on admission are included in the risk adjustment, but conditions that develop after admission are excluded. A cost ratio is calculated, with a lower&#x000a0;result indicating the costs provided for an episode of care are lower than expected nationally.</p>
+        <p>Each measure accounts for 25% of the total performance score (TPS). Two scores for each key measure are calculated: one for achievement (the participating hospital compared to national standards) and one for improvement (the participating hospital compared to&#x000a0;its baseline).&#x000a0;Hospitals are graded quarterly based on their&#x000a0;improvement or achievement scores. For each key measure, the&#x000a0;greater of the&#x000a0;2 scores is counted towards the&#x000a0;TPS,&#x000a0;which is scored&#x000a0;from 0&#x000a0;to&#x000a0;100.</p>
+        <p>This score is transformed into a factor for payment adjustments. The payment adjustments are made according to these scores and it is applied to each claim individually. The higher the TPS, the more money the hospital is awarded, and the lower the score, the more the hospital is penalized.&#x000a0;</p>
+        <p>In the end, the net amount the hospital receives is dependent on the cost reduction and value-based payments rewarded based on performance. During the fiscal year of the period in which certain performance measures are being implemented, an adjustment of reductions or incentives is applied to each fee-for-service claim. These adjustments are made to the base payment amount associated with a specific diagnosis or procedure.<xref ref-type="bibr" rid="article-155654.r9">[9]</xref></p>
+        <p>The funding comes from a pre-determined percentage of reduction in&#x000a0;Diagnosis-Related Group (DRG) payments. This percentage is determined&#x000a0;every fiscal year under the Social Security Act and results in varying amounts for&#x000a0;different hospitals.<xref ref-type="bibr" rid="article-155654.r10">[10]</xref>&#x000a0;The amount saved by CMS is pooled nationally and then allocated back to healthcare facilities based on their individual TPS for safety measures. Each hospital can earn back this reduction by earning their incentive payment. The higher the total performance score (TPS), the more the incentive payment amount. If the incentive is greater than the withholding amount, the hospital can make money, but if the incentive is less than the withholding, the hospital will lose money.<xref ref-type="bibr" rid="article-155654.r11">[11]</xref></p>
+        <p>For example, Hospital A has a pre-determined percentage of reduction in DRG payments of 2% for a fiscal year. During this time, Hospital A performs above the national average for the safety measure,&#x000a0;is improved from&#x000a0;its baselines in efficiency and clinical outcome, and is below the national average and its baseline for community engagement. Hospital A will score around 75% on their TPS. This 75% is not all-or-nothing. Although the hospital was below its baseline and national average in&#x000a0;1 of the&#x000a0;4 categories, it can still be net positive if the overall TPS is above average. For example, if the state TPS was 60% but Hospital A earned 75%, the hospital can earn back more than the 2% deduction.</p>
+        <p>
+<bold>Hospital Readmissions Reduction Program (HRRP)</bold>
+</p>
+        <p>The&#x000a0;HRRP was enacted in 2013 and emphasizes discharge planning and coordination&#x000a0;between patients and caregivers to avoid readmissions. Certain medical conditions or procedures are tracked for 30-day risk-standardized unplanned readmissions. Examples of these conditions include pneumonia, heart failure, COPD, acute MI, and elective total hip or total knee arthroplasty. Hospital readmission rates data&#x000a0;is obtained and&#x000a0;facilities with higher-than-average readmissions receive a penalty to the discharge base payment.<xref ref-type="bibr" rid="article-155654.r12">[12]</xref></p>
+        <p>Several factors play into elevated readmission rates, including available staffing (eg, a high nursing-to-patient ratio) and a high proportion of patients who live in poverty, are unemployed, or are on Medicare. In 2016, Congress modified this program by dividing hospitals into peer groups based on the socioeconomic status of their patients.<xref ref-type="bibr" rid="article-155654.r13">[13]</xref></p>
+        <p>Veteran Affairs hospitals are excluded from this program.<xref ref-type="bibr" rid="article-155654.r14">[14]</xref></p>
+        <p>
+<bold>Hospital-Acquired Condition Reduction Program (HACRP)</bold>
+</p>
+        <p>The Hospital-Acquired Condition Reduction Program reduces payments to hospitals in the bottom percentile for their performance on measures concerning patient safety, adverse events, and healthcare-associated infection.</p>
+        <p>HACRP&#x000a0;comprises&#x000a0;2 parts: the patient safety indicator (PSI 90) and healthcare-associated infections (HAI). Each PSI 90 has its own criteria and is derived from claims data. Therefore, it is dependent on accurate clinical documentation. Some examples of indicators include pressure ulcers, postoperative wound dehiscence, and falls resulting in hip fractures. If PSI 90s are inadequately risk-adjusted, the payments and reductions can misrepresent their performance.&#x000a0;This occurs in hospitals with patients needing more complex care who tend to develop more PSI 90s&#x000a0;and do not have accurate documentation. Examples of healthcare-associated infections (HAI) include catheter-associated urinary tract infections (CAUTI), central line-associated bloodstream infections (CLABSI), hospital-acquired pneumonia, surgical site infections, and MRSA bacteremia. These are the same infections reported in the Hospital Value-based purchasing (HVBP) program.</p>
+        <p>Hospitals among&#x000a0;the bottom 25% of performers on the composite hospital-acquired conditions measure will receive a reduction of 1% in payment. This reduction is applied after other payment adjustments are made for the Hospital Value-Based Purchasing program, Hospital Readmissions Reduction Program, and other value-based programs. For example, if a discharge results in a $10,000 bill and the hospital is penalized by 2% for the Hospital Readmissions Reduction and Hospital Value-Based Purchasing program, the payment adjustment becomes $200 for each penalty. This yields an amount of $9,600, of which 1% or $96 is then&#x000a0;penalized if the hospital is also subject to the HAC reduction. In this scenario, the&#x000a0;final payment&#x000a0;from Medicare&#x000a0;is&#x000a0;$9,504.</p>
+        <p>In the&#x000a0;2015 fiscal year, almost 700 hospitals under the CMS payment system were penalized&#x000a0;nearly $400M under the HACRP.<xref ref-type="bibr" rid="article-155654.r15">[15]</xref>&#x000a0;While some hospitals may be incentivized to improve their care, other hospitals might experience a reduction in their payments without having ways to improve their care. Hospitals more likely to be penalized include teaching hospitals and large academic hospitals.&#x000a0;Studies have&#x000a0;demonstrated&#x000a0;that HACRP might have reduced overall 30-day readmission and mortality for some hospitals, but there might not be a meaningful reduction in the rate of hospital-acquired conditions or performance improvement overall.<xref ref-type="bibr" rid="article-155654.r13">[13]</xref></p>
+        <p>Scoring hospitals based on normal distribution means that a certain percentage of hospitals will always be penalized, even if the individual hospital improves its performance from one year to the next. Some have suggested replacing the all-or-nothing penalization with a more graduated approach.</p>
+        <p>Critical access hospitals, long-term care hospitals, psychiatric facilities, children's hospitals, and Veteran Affairs hospitals are excluded from this program.</p>
+        <p>
+<bold>Benefits</bold>
+</p>
+        <p>One of the major benefits was the availability of public reporting data, allowing&#x000a0;a study of its effects and identifying areas for improvement. Although in the early phases of these initiatives, the long-term effects remain unclear,&#x000a0;and more data is necessary. However, the cultural shift in healthcare from quantity to quality of clinical performance and patient outcomes is clear. Clearly defined and publicly available metrics help hospitals&#x000a0;observe their performance over time and compare nationally to their peers.</p>
+        <p>Of the&#x000a0;3 initiatives, the hospital readmission reduction program stood out the most in reducing readmission rates. Compared to the Hospital Value-based Purchasing (HVBP) program, the incentives are spread across fewer metrics, are more narrowly targeted, and have a simplified structure of being penalty-based instead of incentive-based.<xref ref-type="bibr" rid="article-155654.r16">[16]</xref></p>
+        <p>The public initiative set forth by CMS has inspired similar pay-for-performance models in the commercial sector.<xref ref-type="bibr" rid="article-155654.r17">[17]</xref>&#x000a0;A systematic review has found that most of these studies had positive improvements in quality outcomes, and reduced spending and utilization.</p>
+        <p>
+<bold>Drawbacks</bold>
+</p>
+        <p>The literature reports&#x000a0;that some of the metrics in Hospital Value-Based Purchasing (HVBP) were already metrics that have been improved upon and that implementation of HVBP did not significantly change outcomes. An example is the Catheter-Associated Urinary Tract Infections (CAUTI) measure for patients in the ICU.<xref ref-type="bibr" rid="article-155654.r18">[18]</xref></p>
+        <p>Another reason is that although the total performance score is risk-adjusted (patients with the same condition compared based on severity), safety net hospitals still received disproportionally higher penalties under the Hospital Value-Based Purchasing (HVBP) and&#x000a0;Hospital Readmissions Reduction Program (HRRP). This is because there tends to be poor compliance and health literacy in safety net hospitals where most patients are of lower socioeconomic status.<xref ref-type="bibr" rid="article-155654.r19">[19]</xref>&#x000a0;Additionally, safety net hospitals tend to have fewer resources for disease prevention and discharge planning and perform worse on patient experience and process scores despite scoring similarly with other hospitals on mortality measures. One study recommends emphasizing mortality measures in the HVBP algorithm to mitigate this disadvantage for safety net hospitals.<xref ref-type="bibr" rid="article-155654.r20">[20]</xref></p>
+        <p>The Hospital Consumer Assessment of Healthcare Providers survey (HCAHPS) makes up a large portion of the Hospital Value-Based Purchasing (HVBP) plan and is subjective and based on patient experience. Patients experiencing poorer health outcomes can be less satisfied with their care, affecting the overall score within the HCAHPS. Although safety-net and non-safety-net hospitals have seen improvement since the implementation of HCAHPS, safety-net hospitals have a wider gap and lower odds of meeting metrics under VBP. This is concerning under the changing payment landscape. Patients in safety net hospitals require more patient-centered care but are limited by financial constraints, which can be exacerbated by failing to meet HVBP metrics.<xref ref-type="bibr" rid="article-155654.r21">[21]</xref></p>
+        <p>Even after adjusting for safety-net status, one study found that Black adults were&#x000a0;more frequently penalized&#x000a0;in 2019 by the CMS program for all&#x000a0;3 programs: HVBP, HRRP, and HACRP.<xref ref-type="bibr" rid="article-155654.r22">[22]</xref>&#x000a0;This could potentially widen existing racial disparities in health outcomes and further restrict access to a population needing the most care.</p>
+        <p>
+<bold>Future Work of HVBP</bold>
+</p>
+        <p>While the shift in focus to value-based care has placed a greater emphasis on improving outcomes, more work is needed to&#x000a0;determine the long-term effects and sustainability of this model. The financial impact of some of the reductions and penalties on hospitals serving a greater proportion of racial and ethnic minorities needs to be further studied. Perhaps there needs to be long-term studies to look at the effect of implementing such policies on populations with greater health disparities. Some initiatives with overlapping domains could be simplified or combined so that more hospitals can participate. The future of HVBP should extend beyond just Medicaid and Medicare to all publicly-funded healthcare. Value-based care is one of the many alternative payment models to the traditional fee-for-service model, which is still more profitable and less complicated to adopt. The future of HVBP needs to focus on delivering quality care, garnering broader participation, and addressing health equity.&#x000a0;</p>
+      </sec>
+      <sec id="article-155654.s2">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=155654&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=155654">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/155654/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=155654">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-155654.s3">
+        <title>References</title>
+        <ref id="article-155654.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Newton</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Bader</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>Value-Based Health Care in Perioperative Medicine: Process Maps and Costing to Determine Best Practices.</article-title>
+            <source>Anesthesiol Clin</source>
+            <year>2024</year>
+            <month>Mar</month>
+            <volume>42</volume>
+            <issue>1</issue>
+            <fpage>75</fpage>
+            <page-range>75-86</page-range>
+            <pub-id pub-id-type="pmid">38278594</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155654.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Doran</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Maurer</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Ryan</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>Impact of Provider Incentives on Quality and Value of Health Care.</article-title>
+            <source>Annu Rev Public Health</source>
+            <year>2017</year>
+            <month>Mar</month>
+            <day>20</day>
+            <volume>38</volume>
+            <fpage>449</fpage>
+            <page-range>449-465</page-range>
+            <pub-id pub-id-type="pmid">27992731</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155654.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schardt</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Hutzler</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Bosco</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Humbyrd</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>DeCamp</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Increase in Healthcare Disparities The Unintended Consequences of Value-Based Medicine, Lessons from the Total Joint Bundled Payments for Care Improvement.</article-title>
+            <source>Bull Hosp Jt Dis (2013)</source>
+            <year>2020</year>
+            <month>Jun</month>
+            <volume>78</volume>
+            <issue>2</issue>
+            <fpage>93</fpage>
+            <page-range>93-96</page-range>
+            <pub-id pub-id-type="pmid">32510293</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155654.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Burwell</surname>
+                <given-names>SM</given-names>
+              </name>
+            </person-group>
+            <article-title>Setting value-based payment goals--HHS efforts to improve U.S. health care.</article-title>
+            <source>N Engl J Med</source>
+            <year>2015</year>
+            <month>Mar</month>
+            <day>05</day>
+            <volume>372</volume>
+            <issue>10</issue>
+            <fpage>897</fpage>
+            <page-range>897-9</page-range>
+            <pub-id pub-id-type="pmid">25622024</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155654.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Porter</surname>
+                <given-names>ME</given-names>
+              </name>
+            </person-group>
+            <article-title>What is value in health care?</article-title>
+            <source>N Engl J Med</source>
+            <year>2010</year>
+            <month>Dec</month>
+            <day>23</day>
+            <volume>363</volume>
+            <issue>26</issue>
+            <fpage>2477</fpage>
+            <page-range>2477-81</page-range>
+            <pub-id pub-id-type="pmid">21142528</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155654.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <collab>Centers for Medicare &#x00026; Medicaid Services (CMS), HHS</collab>
+            <article-title>Medicare program; hospital inpatient value-based purchasing program. Final rule.</article-title>
+            <source>Fed Regist</source>
+            <year>2011</year>
+            <month>May</month>
+            <day>06</day>
+            <volume>76</volume>
+            <issue>88</issue>
+            <fpage>26490</fpage>
+            <page-range>26490-547</page-range>
+            <pub-id pub-id-type="pmid">21548401</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155654.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <collab>Centers for Medicare &#x00026; Medicaid Services (CMS), HHS</collab>
+            <article-title>Medicare program; hospital outpatient prospective payment system and CY 2007 payment rates; CY 2007 update to the ambulatory surgical center covered procedures list; Medicare administrative contractors; and reporting hospital quality data for FY 2008 inpatient prospective payment system annual payment update program--HCAHPS survey, SCIP, and mortality. Final rule with comment period and final rule.</article-title>
+            <source>Fed Regist</source>
+            <year>2006</year>
+            <month>Nov</month>
+            <day>24</day>
+            <volume>71</volume>
+            <issue>226</issue>
+            <fpage>67959</fpage>
+            <page-range>67959-68401</page-range>
+            <pub-id pub-id-type="pmid">17133695</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155654.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Herrin</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Mockaitis</surname>
+                <given-names>KG</given-names>
+              </name>
+              <name>
+                <surname>Hines</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>HCAHPS Scores and Community Factors.</article-title>
+            <source>Am J Med Qual</source>
+            <year>2018</year>
+            <season>Sep/Oct</season>
+            <volume>33</volume>
+            <issue>5</issue>
+            <fpage>461</fpage>
+            <page-range>461-471</page-range>
+            <pub-id pub-id-type="pmid">29739233</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155654.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chee</surname>
+                <given-names>TT</given-names>
+              </name>
+              <name>
+                <surname>Ryan</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Wasfy</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Borden</surname>
+                <given-names>WB</given-names>
+              </name>
+            </person-group>
+            <article-title>Current State of Value-Based Purchasing Programs.</article-title>
+            <source>Circulation</source>
+            <year>2016</year>
+            <month>May</month>
+            <day>31</day>
+            <volume>133</volume>
+            <issue>22</issue>
+            <fpage>2197</fpage>
+            <page-range>2197-205</page-range>
+            <pub-id pub-id-type="pmid">27245648</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155654.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kim</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Mahmood</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Hammarlund</surname>
+                <given-names>NE</given-names>
+              </name>
+              <name>
+                <surname>Chang</surname>
+                <given-names>CF</given-names>
+              </name>
+            </person-group>
+            <article-title>Hospital value-based payment programs and disparity in the United States: A review of current evidence and future perspectives.</article-title>
+            <source>Front Public Health</source>
+            <year>2022</year>
+            <volume>10</volume>
+            <fpage>882715</fpage>
+            <pub-id pub-id-type="pmid">36299751</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155654.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hong</surname>
+                <given-names>YR</given-names>
+              </name>
+              <name>
+                <surname>Nguyen</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Yadav</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Etzold</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Song</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Duncan</surname>
+                <given-names>RP</given-names>
+              </name>
+              <name>
+                <surname>Turner</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Early Performance of Hospital Value-based Purchasing Program in Medicare: A Systematic Review.</article-title>
+            <source>Med Care</source>
+            <year>2020</year>
+            <month>Aug</month>
+            <volume>58</volume>
+            <issue>8</issue>
+            <fpage>734</fpage>
+            <page-range>734-743</page-range>
+            <pub-id pub-id-type="pmid">32692140</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155654.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tajeu</surname>
+                <given-names>GS</given-names>
+              </name>
+              <name>
+                <surname>Davlyatov</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Becker</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Weech-Maldonado</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Kazley</surname>
+                <given-names>AS</given-names>
+              </name>
+            </person-group>
+            <article-title>Association of hospital and market characteristics with 30-day readmission rates from 2009 to 2015.</article-title>
+            <source>SAGE Open Med</source>
+            <year>2024</year>
+            <volume>12</volume>
+            <fpage>20503121231220815</fpage>
+            <pub-id pub-id-type="pmid">38249949</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155654.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rajaram</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Chung</surname>
+                <given-names>JW</given-names>
+              </name>
+              <name>
+                <surname>Kinnier</surname>
+                <given-names>CV</given-names>
+              </name>
+              <name>
+                <surname>Barnard</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Mohanty</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Pavey</surname>
+                <given-names>ES</given-names>
+              </name>
+              <name>
+                <surname>McHugh</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Bilimoria</surname>
+                <given-names>KY</given-names>
+              </name>
+            </person-group>
+            <article-title>Hospital Characteristics Associated With Penalties in the Centers for Medicare &#x00026; Medicaid Services Hospital-Acquired Condition Reduction Program.</article-title>
+            <source>JAMA</source>
+            <year>2015</year>
+            <month>Jul</month>
+            <day>28</day>
+            <volume>314</volume>
+            <issue>4</issue>
+            <fpage>375</fpage>
+            <page-range>375-83</page-range>
+            <pub-id pub-id-type="pmid">26219055</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155654.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nuti</surname>
+                <given-names>SV</given-names>
+              </name>
+              <name>
+                <surname>Qin</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Rumsfeld</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Ross</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Masoudi</surname>
+                <given-names>FA</given-names>
+              </name>
+              <name>
+                <surname>Normand</surname>
+                <given-names>SL</given-names>
+              </name>
+              <name>
+                <surname>Murugiah</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Bernheim</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Suter</surname>
+                <given-names>LG</given-names>
+              </name>
+              <name>
+                <surname>Krumholz</surname>
+                <given-names>HM</given-names>
+              </name>
+            </person-group>
+            <article-title>Association of Admission to Veterans Affairs Hospitals vs Non-Veterans Affairs Hospitals With Mortality and Readmission Rates Among Older Men Hospitalized With Acute Myocardial Infarction, Heart Failure, or Pneumonia.</article-title>
+            <source>JAMA</source>
+            <year>2016</year>
+            <month>Feb</month>
+            <day>09</day>
+            <volume>315</volume>
+            <issue>6</issue>
+            <fpage>582</fpage>
+            <page-range>582-92</page-range>
+            <pub-id pub-id-type="pmid">26864412</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155654.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sankaran</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Sukul</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Nuliyalu</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Gulseren</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Engler</surname>
+                <given-names>TA</given-names>
+              </name>
+              <name>
+                <surname>Arntson</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Zlotnick</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Dimick</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Ryan</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>Changes in hospital safety following penalties in the US Hospital Acquired Condition Reduction Program: retrospective cohort study.</article-title>
+            <source>BMJ</source>
+            <year>2019</year>
+            <month>Jul</month>
+            <day>03</day>
+            <volume>366</volume>
+            <fpage>l4109</fpage>
+            <pub-id pub-id-type="pmid">31270062</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155654.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ryan</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Krinsky</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Maurer</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Dimick</surname>
+                <given-names>JB</given-names>
+              </name>
+            </person-group>
+            <article-title>Changes in Hospital Quality Associated with Hospital Value-Based Purchasing.</article-title>
+            <source>N Engl J Med</source>
+            <year>2017</year>
+            <month>Jun</month>
+            <day>15</day>
+            <volume>376</volume>
+            <issue>24</issue>
+            <fpage>2358</fpage>
+            <page-range>2358-2366</page-range>
+            <pub-id pub-id-type="pmid">28614675</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155654.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Milad</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Murray</surname>
+                <given-names>RC</given-names>
+              </name>
+              <name>
+                <surname>Navathe</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Ryan</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>Value-Based Payment Models In The Commercial Insurance Sector: A Systematic Review.</article-title>
+            <source>Health Aff (Millwood)</source>
+            <year>2022</year>
+            <month>Apr</month>
+            <volume>41</volume>
+            <issue>4</issue>
+            <fpage>540</fpage>
+            <page-range>540-548</page-range>
+            <pub-id pub-id-type="pmid">35377757</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155654.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hsu</surname>
+                <given-names>HE</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Jentzsch</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Jin</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Goldmann</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Rhee</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>GM</given-names>
+              </name>
+            </person-group>
+            <article-title>Association Between Value-Based Incentive Programs and Catheter-Associated Urinary Tract Infection Rates in the Critical Care Setting.</article-title>
+            <source>JAMA</source>
+            <year>2019</year>
+            <month>Feb</month>
+            <day>05</day>
+            <volume>321</volume>
+            <issue>5</issue>
+            <fpage>509</fpage>
+            <page-range>509-511</page-range>
+            <pub-id pub-id-type="pmid">30721286</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155654.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gilman</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Hockenberry</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Adams</surname>
+                <given-names>EK</given-names>
+              </name>
+              <name>
+                <surname>Milstein</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Wilson</surname>
+                <given-names>IB</given-names>
+              </name>
+              <name>
+                <surname>Becker</surname>
+                <given-names>ER</given-names>
+              </name>
+            </person-group>
+            <article-title>The Financial Effect of Value-Based Purchasing and the Hospital Readmissions Reduction Program on Safety-Net Hospitals in 2014: A Cohort Study.</article-title>
+            <source>Ann Intern Med</source>
+            <year>2015</year>
+            <month>Sep</month>
+            <day>15</day>
+            <volume>163</volume>
+            <issue>6</issue>
+            <fpage>427</fpage>
+            <page-range>427-36</page-range>
+            <pub-id pub-id-type="pmid">26343790</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155654.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Liu</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Nai</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Yang</surname>
+                <given-names>Z</given-names>
+              </name>
+            </person-group>
+            <article-title>Measuring the State Dependence Effect in Hospital Payment Adjustment.</article-title>
+            <source>Int J Environ Res Public Health</source>
+            <year>2022</year>
+            <month>Oct</month>
+            <day>28</day>
+            <volume>19</volume>
+            <issue>21</issue>
+            <pub-id pub-id-type="pmid">36360987</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155654.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chatterjee</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Joynt</surname>
+                <given-names>KE</given-names>
+              </name>
+              <name>
+                <surname>Orav</surname>
+                <given-names>EJ</given-names>
+              </name>
+              <name>
+                <surname>Jha</surname>
+                <given-names>AK</given-names>
+              </name>
+            </person-group>
+            <article-title>Patient experience in safety-net hospitals: implications for improving care and value-based purchasing.</article-title>
+            <source>Arch Intern Med</source>
+            <year>2012</year>
+            <month>Sep</month>
+            <day>10</day>
+            <volume>172</volume>
+            <issue>16</issue>
+            <fpage>1204</fpage>
+            <page-range>1204-10</page-range>
+            <pub-id pub-id-type="pmid">22801941</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-155654.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Aggarwal</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Hammond</surname>
+                <given-names>JG</given-names>
+              </name>
+              <name>
+                <surname>Joynt Maddox</surname>
+                <given-names>KE</given-names>
+              </name>
+              <name>
+                <surname>Yeh</surname>
+                <given-names>RW</given-names>
+              </name>
+              <name>
+                <surname>Wadhera</surname>
+                <given-names>RK</given-names>
+              </name>
+            </person-group>
+            <article-title>Association Between the Proportion of Black Patients Cared for at Hospitals and Financial Penalties Under Value-Based Payment Programs.</article-title>
+            <source>JAMA</source>
+            <year>2021</year>
+            <month>Mar</month>
+            <day>23</day>
+            <volume>325</volume>
+            <issue>12</issue>
+            <fpage>1219</fpage>
+            <page-range>1219-1221</page-range>
+            <pub-id pub-id-type="pmid">33755063</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

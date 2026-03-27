@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-29464" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Statistical Significance</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Tenny</surname>
+            <given-names>Steven</given-names>
+          </name>
+          <aff>University of Nebraska Medical Center</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Abdelgawad</surname>
+            <given-names>Ibrahim</given-names>
+          </name>
+          <aff>AinShams University, Cairo Egypt</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Steven Tenny declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Ibrahim Abdelgawad declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>23</day>
+          <month>11</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-29464.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>In research, statistical significance&#x000a0;measures the probability of the null hypothesis being true compared to the acceptable level of uncertainty regarding the true answer. We can better understand statistical significance if we break apart a study design.<xref ref-type="bibr" rid="article-29464.r1">[1]</xref><xref ref-type="bibr" rid="article-29464.r2">[2]</xref><xref ref-type="bibr" rid="article-29464.r3">[3]</xref><xref ref-type="bibr" rid="article-29464.r4">[4]</xref><xref ref-type="bibr" rid="article-29464.r5">[5]</xref><xref ref-type="bibr" rid="article-29464.r6">[6]</xref><xref ref-type="bibr" rid="article-29464.r7">[7]</xref></p>
+        <p>When creating a&#x000a0;study, the researcher has to&#x000a0;start with a hypothesis; that is, they must&#x000a0;have some idea of what they think the outcome may be.&#x000a0;For example, a study is researching a new medication to lower blood pressure. The researcher hypothesizes that the new medication lowers systolic blood pressure by at least 10 mm Hg compared to not taking the&#x000a0;new&#x000a0;medication. The hypothesis can be stated: "Taking the new medication will lower systolic blood pressure by at least 10 mm Hg compared to not taking the medication." In science, researchers can never prove any statement as there are infinite alternatives as to why the outcome may have&#x000a0;occurred. They can only&#x000a0;try to&#x000a0;disprove&#x000a0;a&#x000a0;specific hypothesis. The researcher must then formulate a question they can disprove while concluding that the new medication lowers systolic blood pressure. The hypothesis to be disproven is the null hypothesis and typically the inverse statement of the hypothesis. Thus, the null hypothesis for our researcher&#x000a0;would be, "Taking the new medication will not lower systolic blood pressure by at least 10 mm Hg compared to not taking the new medication." The researcher now has the null hypothesis for the research and must specify the significance level or level of acceptable uncertainty.</p>
+        <p>Even when disproving a&#x000a0;hypothesis, the researcher&#x000a0;can not&#x000a0;be 100% certain&#x000a0;of the outcome. The researcher must then settle for some level of confidence, or the degree of significance, for which they want to be confident their finding is correct. The significance level is given the Greek letter alpha and specified as&#x000a0;the probability the researcher is willing to be incorrect. Generally, a researcher&#x000a0;wants to be correct about their outcome 95% of the time, so&#x000a0;the researcher is willing to be incorrect 5% of the time. Probabilities are decimals, with 1.0 being entirely positive (100%) and 0 being completely negative (0%). Thus, the researcher who wants to be 95% sure about the outcome of their study is&#x000a0;willing to be wrong about the result 5% of the time. The alpha is the decimal expression of how much they are ready to be incorrect. For the current example, the alpha is 0.05. The&#x000a0;level of uncertainty the researcher is willing to accept (alpha or significance level)&#x000a0;is 0.05, or a 5% chance they are incorrect about the study's outcome.</p>
+        <p>Now, the researcher can&#x000a0;perform&#x000a0;the research. In this&#x000a0;example, a prospective randomized controlled study is conducted in which the researcher gives some individuals the new medication and others a placebo. The researcher&#x000a0;then evaluates the blood pressure of both groups after a specified time and performs a statistical analysis of the results to obtain a&#x000a0;<italic toggle="yes">P</italic>&#x000a0;value (probability value). Several different tests can be performed depending on the type of variable being studied and the number of subjects. The exact test is outside the&#x000a0;scope of this review, but the output would be a&#x000a0;<italic toggle="yes">P</italic>&#x000a0;value. Using the correct statistical analysis tool when calculating the&#x000a0;<italic toggle="yes">P</italic>&#x000a0;value is imperative. If the researchers&#x000a0;use the wrong test, the&#x000a0;<italic toggle="yes">P</italic>&#x000a0;value will not be accurate, and this result can mislead the researcher. A&#x000a0;<italic toggle="yes">P</italic>&#x000a0;value is a probability under a specified statistical model that a statistical summary of the data (eg, the sample mean difference between&#x000a0;2 compared groups) would be equal to or more extreme than its observed value.</p>
+        <p>In this example, the researcher hypothetically found blood pressure tended&#x000a0;to&#x000a0;decrease after taking the new medication, with an average decrease of 15 mm Hg in the group taking the new medication. The researcher then&#x000a0;used the help of their&#x000a0;statistician&#x000a0;to perform the correct analysis and arrived at a&#x000a0;<italic toggle="yes">P</italic>&#x000a0;value of 0.02&#x000a0;for a&#x000a0;decrease in blood pressure in&#x000a0;those taking the new medication versus those not taking the new medication.&#x000a0;This researcher now has the&#x000a0;3 required pieces of information to look at statistical significance: the null hypothesis, the significance level, and the&#x000a0;<italic toggle="yes">P</italic>&#x000a0;value.</p>
+        <p>The researcher can finally assess the statistical significance of the new medication. A study result is statistically significant if the&#x000a0;<italic toggle="yes">P</italic>&#x000a0;value of the data analysis is less than the prespecified alpha (significance level). In&#x000a0;this example, the <italic toggle="yes">P</italic> value is 0.02, which is less than the prespecified alpha of 0.05, so the researcher rejects the null hypothesis, which has been determined within the predetermined confidence level to be disproven, and accepts the hypothesis, thus concluding there is statistical significance for the finding that the new medication lowers blood pressure.&#x000a0;</p>
+        <p>What does this mean? The <italic toggle="yes">P</italic> value is not the probability of the null hypothesis itself. It is the probability that, if the study were repeated an infinite number of times, one would expect the findings to be as, or more extreme, than the one calculated in&#x000a0;this test. Therefore, the&#x000a0;<italic toggle="yes">P</italic>&#x000a0;value of 0.02 would signify that 2% of the infinite tests would find a result at least as extreme as the one in this study. Given that&#x000a0;the null hypothesis states that&#x000a0;there&#x000a0;is no significant change in blood pressure if the patient is or is not taking the new medication, we can assume that this statement is false, as 98% of the infinite studies would find that there was indeed a reduction in blood pressure. However, as the&#x000a0;<italic toggle="yes">P</italic>&#x000a0;value implies, there is a chance that this is false, and there truly is no effect of the medication on the blood pressure. However, as the researcher prespecified&#x000a0;an acceptable confidence level with an alpha of 0.05, and the&#x000a0;<italic toggle="yes">P</italic>&#x000a0;value is 0.02, less than the acceptable alpha of 0.05, the researcher rejects the null hypothesis. By rejecting the null hypothesis, the&#x000a0;researcher accepts the alternative hypothesis. The researcher rejects the idea that there is no difference in systolic blood pressure with&#x000a0;the new medication and accepts a difference of at least 10 mm Hg in systolic blood pressure when taking the new&#x000a0;medication.</p>
+        <p>If the researcher had prespecified an alpha of 0.01, implying they wanted to be 99% sure the new medication lowered the blood pressure by at least 10 mm Hg, the&#x000a0;<italic toggle="yes">P</italic>&#x000a0;value of 0.02 would be more significant than the prespecified alpha of 0.01. The researcher would conclude the study did not reach statistical significance as the&#x000a0;<italic toggle="yes">P</italic>&#x000a0;value is equal to or greater than the prespecified alpha. The research would then not be able to reject the null hypothesis.</p>
+      </sec>
+      <sec id="article-29464.s2" sec-type="Function">
+        <title>Function</title>
+        <p>A study is statistically significant if the&#x000a0;<italic toggle="yes">P</italic>&#x000a0;value is less than the pre-specified alpha. Stated succinctly:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>A&#x000a0;<italic toggle="yes">P</italic>&#x000a0;value less than a predetermined alpha is considered a statistically&#x000a0;significant result&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>A&#x000a0;<italic toggle="yes">P</italic>&#x000a0;value greater than or equal to alpha is not a statistically significant result.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-29464.s3" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>A&#x000a0;few issues of concern when looking at statistical significance are evident. These issues include choosing the alpha, statistical analysis method, and clinical significance.</p>
+        <p>Many current research articles specify an alpha of 0.05 for their significance&#x000a0;level. It&#x000a0;cannot&#x000a0;be stated&#x000a0;strongly enough that there is nothing special, mathematical, or certain about picking an alpha of 0.05. Historically, the originators concluded that for many applications, an&#x000a0;alpha of 0.05, or a one in 20&#x000a0;chance&#x000a0;of being incorrect, was good enough. The researcher must consider what the confidence level should genuinely be for the research question being asked. A smaller alpha, say 0.01, may be more appropriate.</p>
+        <p>When creating a study, the alpha, or confidence level, should be specified before any intervention or collection of data. It is easy for a researcher to "see what the data shows" and then pick an alpha to give a statistically significant result. Such approaches compromise the data and results&#x000a0;as&#x000a0;the researcher is more likely to be lax on confidence level selection to obtain a result that looks statistically significant.</p>
+        <p>A second important issue is selecting the correct statistical analysis method. There&#x000a0;are&#x000a0;numerous methods for obtaining a&#x000a0;<italic toggle="yes">P</italic>&#x000a0;value. The method chosen depends on the type of data, the number of data points, and the question being asked. It is essential to consider these questions during the study design so the statistical&#x000a0;analysis can be correctly&#x000a0;identified before the research. The statistical analysis method can help determine how to collect the data correctly and the number of data points needed. If the wrong statistical method is used, the results may be meaningless, as an incorrect&#x000a0;<italic toggle="yes">P</italic>&#x000a0;value would be calculated.</p>
+      </sec>
+      <sec id="article-29464.s4" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>A key distinction between&#x000a0;statistical significance&#x000a0;and clinical significance is evident. Statistical significance determines if there&#x000a0;is&#x000a0;mathematical significance to the analysis of the results. Clinical significance means&#x000a0;the difference&#x000a0;is&#x000a0;vital to the patient and the clinician. This study's statistical significance would be present&#x000a0;as the&#x000a0;<italic toggle="yes">P</italic>&#x000a0;value was less than the prespecified alpha. The clinical&#x000a0;significance&#x000a0;would be the 10 mmHg drop in systolic blood pressure.<xref ref-type="bibr" rid="article-29464.r6">[6]</xref></p>
+        <p>Two studies can have a similar statistical significance but vastly differ&#x000a0;in clinical significance. In a hypothetical example of&#x000a0;2 new chemotherapy agents for treating cancer, Drug A increased survival by at least&#x000a0;10 years with a&#x000a0;<italic toggle="yes">P</italic>&#x000a0;value of 0.01 and an alpha for the study of 0.05. Thus, this study has statistical significance (<italic toggle="yes">P</italic>&#x000a0;value less than alpha) and&#x000a0;clinical significance (increased survival by&#x000a0;10 years). A second chemotherapy agent, Drug B, increases survival by at least 10 minutes with a&#x000a0;<italic toggle="yes">P</italic>&#x000a0;value of 0.01 and alpha for the study of 0.05. The study for Drug B also found statistical significance (<italic toggle="yes">P</italic>&#x000a0;value less than alpha) but no clinical significance (a 10-minute increase in life expectancy is not clinically significant). In a separate study, those taking Drug A lived&#x000a0;an average of 8 years after starting the medication versus living for only&#x000a0;2 more years for those not taking Drug A, with a&#x000a0;<italic toggle="yes">P</italic>&#x000a0;value of 0.08 and alpha for this second study of Drug A of 0.05. In this second study of Drug A, there is no statistical significance (<italic toggle="yes">P</italic>&#x000a0;value greater than or equal to alpha).</p>
+      </sec>
+      <sec id="article-29464.s5" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>Each healthcare team member needs a basic understanding of statistical significance. All members of the care continuum, including nurses, physicians, advanced practitioners, social workers, and pharmacists,&#x000a0;peruse copious literature and&#x000a0;consider&#x000a0;conclusions based on statistical significance. Suppose team members do not have a cohesive and harmonious understanding of the statistical significance and its implications for research studies and findings. In that case, various members may draw opposing conclusions from the same research.</p>
+      </sec>
+      <sec id="article-29464.s6">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=29464&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=29464">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/29464/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=29464">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-29464.s7">
+        <title>References</title>
+        <ref id="article-29464.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hayat</surname>
+                <given-names>MJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Understanding statistical significance.</article-title>
+            <source>Nurs Res</source>
+            <year>2010</year>
+            <season>May-Jun</season>
+            <volume>59</volume>
+            <issue>3</issue>
+            <fpage>219</fpage>
+            <page-range>219-23</page-range>
+            <pub-id pub-id-type="pmid">20445438</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29464.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mondal</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Mondal</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistical Significance is Prerequisite in Study.</article-title>
+            <source>J Clin Diagn Res</source>
+            <year>2017</year>
+            <month>Sep</month>
+            <volume>11</volume>
+            <issue>9</issue>
+            <fpage>CL01</fpage>
+            <pub-id pub-id-type="pmid">29207700</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29464.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Heston</surname>
+                <given-names>TF</given-names>
+              </name>
+              <name>
+                <surname>King</surname>
+                <given-names>JM</given-names>
+              </name>
+            </person-group>
+            <article-title>Predictive power of statistical significance.</article-title>
+            <source>World J Methodol</source>
+            <year>2017</year>
+            <month>Dec</month>
+            <day>26</day>
+            <volume>7</volume>
+            <issue>4</issue>
+            <fpage>112</fpage>
+            <page-range>112-116</page-range>
+            <pub-id pub-id-type="pmid">29354483</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29464.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nakagawa</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Cuthill</surname>
+                <given-names>IC</given-names>
+              </name>
+            </person-group>
+            <article-title>Effect size, confidence interval and statistical significance: a practical guide for biologists.</article-title>
+            <source>Biol Rev Camb Philos Soc</source>
+            <year>2007</year>
+            <month>Nov</month>
+            <volume>82</volume>
+            <issue>4</issue>
+            <fpage>591</fpage>
+            <page-range>591-605</page-range>
+            <pub-id pub-id-type="pmid">17944619</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29464.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Haig</surname>
+                <given-names>BD</given-names>
+              </name>
+            </person-group>
+            <article-title>Tests of Statistical Significance Made Sound.</article-title>
+            <source>Educ Psychol Meas</source>
+            <year>2017</year>
+            <month>Jun</month>
+            <volume>77</volume>
+            <issue>3</issue>
+            <fpage>489</fpage>
+            <page-range>489-506</page-range>
+            <pub-id pub-id-type="pmid">29795925</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29464.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jim&#x000e9;nez-Paneque</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>The questioned p value: clinical, practical and statistical significance.</article-title>
+            <source>Medwave</source>
+            <year>2016</year>
+            <month>Sep</month>
+            <day>09</day>
+            <volume>16</volume>
+            <issue>8</issue>
+            <fpage>e6534</fpage>
+            <pub-id pub-id-type="pmid">27636600</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29464.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mariani</surname>
+                <given-names>AW</given-names>
+              </name>
+              <name>
+                <surname>P&#x000ea;go-Fernandes</surname>
+                <given-names>PM</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistical significance and clinical significance.</article-title>
+            <source>Sao Paulo Med J</source>
+            <year>2014</year>
+            <volume>132</volume>
+            <issue>2</issue>
+            <fpage>71</fpage>
+            <page-range>71-2</page-range>
+            <pub-id pub-id-type="pmid">24714985</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

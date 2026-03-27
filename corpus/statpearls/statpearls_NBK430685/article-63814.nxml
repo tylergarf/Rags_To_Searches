@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-63814" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Error Management Training in Medical Simulation</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>D'Angelo</surname>
+            <given-names>Anne-Lise</given-names>
+          </name>
+          <aff>Mayo Clinic</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Kchir</surname>
+            <given-names>Hela</given-names>
+          </name>
+          <aff>La Rabta Hospital</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Anne-Lise D'Angelo declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Hela Kchir declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>24</day>
+          <month>7</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-63814.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Traditionally, medical training has centered around teaching trainees to make optimal decisions and perform procedures correctly, thereby avoiding errors. The focus on error avoidance was also echoed by experts in the fields of learning and training.<xref ref-type="bibr" rid="article-63814.r1">[1]</xref><xref ref-type="bibr" rid="article-63814.r2">[2]</xref>&#x000a0;However, this training method does not support trainee&#x02019;s needs for learning how to recognize and manage errors when they occur.<xref ref-type="bibr" rid="article-63814.r3">[3]</xref>&#x000a0;The ability to identify, manage, and prevent errors is a critical skill in providing patient care as medical errors occur frequently.<xref ref-type="bibr" rid="article-63814.r4">[4]</xref><xref ref-type="bibr" rid="article-63814.r5">[5]</xref>&#x000a0;In contrast to error avoidance training (EAT), error management training (EMT) promotes a learning environment where trainees are encouraged to explore and make errors.<xref ref-type="bibr" rid="article-63814.r1">[1]</xref><xref ref-type="bibr" rid="article-63814.r6">[6]</xref>&#x000a0;Errors are considered an expected consequence of active learning and can inform instructors and learners where there are gaps in knowledge and skill. EMT was developed in the field of human factors engineering and applied to teach software skills in the early 1990s,<xref ref-type="bibr" rid="article-63814.r1">[1]</xref>&#x000a0;however, it has gained popularity and moved into a wide array of fields including medical and surgical training.<xref ref-type="bibr" rid="article-63814.r7">[7]</xref><xref ref-type="bibr" rid="article-63814.r6">[6]</xref><xref ref-type="bibr" rid="article-63814.r8">[8]</xref><xref ref-type="bibr" rid="article-63814.r9">[9]</xref><xref ref-type="bibr" rid="article-63814.r10">[10]</xref><xref ref-type="bibr" rid="article-63814.r2">[2]</xref><xref ref-type="bibr" rid="article-63814.r11">[11]</xref><xref ref-type="bibr" rid="article-63814.r12">[12]</xref><xref ref-type="bibr" rid="article-63814.r13">[13]</xref><xref ref-type="bibr" rid="article-63814.r3">[3]</xref>&#x000a0;In a field such as medicine, where errors negatively impact human lives, integrating EMT into the simulation environment is critical. Simulation allows the trainee to commit errors and learn from them without harming patients.<xref ref-type="bibr" rid="article-63814.r14">[14]</xref><xref ref-type="bibr" rid="article-63814.r15">[15]</xref>&#x000a0;This activity discusses the theory of EMT, the application of EMT to medical education in the simulation environment, and the impact of EMT on healthcare education.</p>
+      </sec>
+      <sec id="article-63814.s2" sec-type="Function">
+        <title>Function</title>
+        <p>Error management training derives from the cognitive theory that describes work-related actions to be based on action-oriented mental models.<xref ref-type="bibr" rid="article-63814.r1">[1]</xref> An action-oriented mental model is a person&#x02019;s understanding of how a machine or system functions; and the more accurate and substantive the mental model, the more successful performance will be. Errors act to provide feedback and identify specific areas that one&#x02019;s mental model is not adequate. EMT sees errors not just as negative feedback indicating failed performance, but rather as an impetus for active learning and exploration to further develop one&#x02019;s mental model.<xref ref-type="bibr" rid="article-63814.r1">[1]</xref></p>
+        <p>The two key elements of error management training based learning are 1) learners are &#x0201c;given only minimal guidance and otherwise, are encouraged to actively explore and experiment on their own,&#x0201d; and 2) &#x0201c;EMT creates a learning environment in which errors are likely to occur.&#x0201d;<xref ref-type="bibr" rid="article-63814.r1">[1]</xref> Learners are informed from the start that errors will occur and the goal is to view these errors as positive learning opportunities and to reflect on the errors committed. This emphasis and positive framing of errors are unique to EMT and set it apart from solely exploratory training or procedure based training methods focused on error avoidance or correct task solutions. EMT has been demonstrated to not only improve task performance compared to more traditional EAT;<xref ref-type="bibr" rid="article-63814.r1">[1]</xref> but has also resulted in improvements in emotional reactions to errors<xref ref-type="bibr" rid="article-63814.r16">[16]</xref> and increased engagement in metacognitive actions including planning, monitoring, and evaluating one&#x02019;s performance.<xref ref-type="bibr" rid="article-63814.r1">[1]</xref></p>
+      </sec>
+      <sec id="article-63814.s3" sec-type="Curriculum Development">
+        <title>Curriculum Development</title>
+        <p>Error management training in medical simulation has primarily been studied in procedural specialties, including surgery and intensive care settings.<xref ref-type="bibr" rid="article-63814.r13">[13]</xref><xref ref-type="bibr" rid="article-63814.r5">[5]</xref><xref ref-type="bibr" rid="article-63814.r9">[9]</xref><xref ref-type="bibr" rid="article-63814.r12">[12]</xref> By placing the trainees into the simulation-based environment, students may actively explore the simulation models, make procedural errors, identify strategies to mitigate those errors and assess their performance. To build a training curriculum centered on EMT, it is vital to understand the procedure being performed and the potential errors that can occur. This process can take place through obtaining expert opinion or structured needs assessment.<xref ref-type="bibr" rid="article-63814.r11">[11]</xref><xref ref-type="bibr" rid="article-63814.r13">[13]</xref> Expert opinion can be extremely useful in helping to obtain critical procedural information, including preferred approaches and most common errors.<xref ref-type="bibr" rid="article-63814.r11">[11]</xref><xref ref-type="bibr" rid="article-63814.r17">[17]</xref><xref ref-type="bibr" rid="article-63814.r5">[5]</xref><xref ref-type="bibr" rid="article-63814.r17">[17]</xref> Needs assessments can also help to underscore where there are specific deficits in knowledge and skill that are addressable with EMT.<xref ref-type="bibr" rid="article-63814.r13">[13]</xref><xref ref-type="bibr" rid="article-63814.r18">[18]</xref></p>
+        <p>An example of the development of an EMT based curriculum has recently been published in the field of combat medicine. There were high rates of lower extremity fasciotomies requiring revision amongst combat-wounded patients when they reached a higher level of care, indicating a need for improvement in training surgeons to perform fasciotomies.<xref ref-type="bibr" rid="article-63814.r19">[19]</xref> The Department of Defense (DoD) and Advanced Surgical Skills for Exposure in Trauma (ASSET) courses were employed to address this deficiency in performance. However, authors Kucera et al. (2019) raised concerns that these EAT courses (DoD and ASSET) may not adequately improve performance.<xref ref-type="bibr" rid="article-63814.r13">[13]</xref> Thus these authors conducted a simulation-based needs assessment for the development of an EMT based training curriculum for 2-incisions, 4-compartment lower extremity fasciotomies amongst military surgeons undergoing routine pre-deployment training.<xref ref-type="bibr" rid="article-63814.r13">[13]</xref> The authors created a list of 18 possible major errors and two possible minor errors related to the performance of fasciotomies on lower extremity models. They found that 90% of the lower extremity models had errors related to the performance of a four-compartment fasciotomy, and there was a mean of 4.8 errors per lower extremity model. When looking at the errors, 26% of the models had at least one completely missed compartment, which is a critical error in performing this procedure. The high rate of technical errors in the simulation environment mirrors the rate of errors seen in the actual clinical environment and indicates a need for improvement in training.<xref ref-type="bibr" rid="article-63814.r13">[13]</xref> By conducting this needs assessment, the authors identified common errors while performing lower extremity fasciotomies and have used this information to create an EMT based curriculum currently underway at the Walter Reed National Military Medical Center.<xref ref-type="bibr" rid="article-63814.r13">[13]</xref> They structured this curriculum to be simulation-based and focused on error identification and management with reassessment at six months to evaluate for knowledge retention.</p>
+        <p>When creating an error management training curriculum, it is important to evaluate what is being taught and who are the trainees. Prior work has demonstrated that trainees who had higher cognitive skills or were more open to new experiences learned the most from error encouragement training.<xref ref-type="bibr" rid="article-63814.r20">[20]</xref><xref ref-type="bibr" rid="article-63814.r21">[21]</xref> These students learn more from EMT through increasing their motivation to learn, gaining a deeper understanding of tasks, and learning technical and emotional management strategies for handling errors.<xref ref-type="bibr" rid="article-63814.r21">[21]</xref> Achieving these learning outcomes requires training tasks to be designed such that trainees not only commit errors but also have the opportunity to learn from those errors and try new strategies. In the simulation environment, this requires the model to be a working representation of the task being taught. It does not mandate that the model be an exact replica, but rather it needs to provide high &#x0201c;psychological fidelity&#x0201d; such that it mirrors the relevant content for task performance (26173283). Additionally, the educators need to have a working representation of the requirements for successful performance, the type, and frequency of errors related to that procedure and the existing error management strategies. These three requirements provide a framework for giving feedback specifically directed towards errors and management of errors.</p>
+        <p>D&#x02019;Angelo et al. created a classification scheme for evaluating errors made by residents performing a simulated surgical task. The classification scheme had its basis on prior work in the field of human factors engineering.<xref ref-type="bibr" rid="article-63814.r17">[17]</xref><xref ref-type="bibr" rid="article-63814.r5">[5]</xref> They categorized errors as technical or cognitive, and the error management steps of error occurrence, error detection, and error recovery were further broken down and recorded.<xref ref-type="bibr" rid="article-63814.r17">[17]</xref><xref ref-type="bibr" rid="article-63814.r5">[5]</xref> This line of research found that the total number of errors committed by senior residents during a simulated laparoscopic ventral hernia (LVH) repair increased from the first to the second day of a training course.<xref ref-type="bibr" rid="article-63814.r17">[17]</xref> At first glance this would indicate a lack of learning, however, by investigating the types of error committed, the error management strategies utilized, and the timing of error occurrence, these authors found changes in participants&#x02019; performance. The participants progressed further in the procedure in the second simulation and made primarily technical errors at later stages in the procedure.<xref ref-type="bibr" rid="article-63814.r17">[17]</xref> This result argues for the creation and incorporation of error based assessment tools to evaluate performance in the simulation environment, which will be particularly valuable for designing and implementing error management training based simulation training as it allows educators to understand trainee errors and how to best support learning to prevent or effectively recover from those errors in the actual clinical environment.</p>
+      </sec>
+      <sec id="article-63814.s4" sec-type="Procedural Skills Assessment&#x0000d;&#x0000a;">
+        <title>Procedural Skills Assessment
+</title>
+        <p>Traditional assessment of procedural skills has been through checklists, global rating scales, and final product analysis.<xref ref-type="bibr" rid="article-63814.r22">[22]</xref> However, each of these assessment tools may only capture a component of performance and may not be sufficient to evaluate performance holistically without using other assessment modalities.<xref ref-type="bibr" rid="article-63814.r23">[23]</xref><xref ref-type="bibr" rid="article-63814.r24">[24]</xref> Prior work has demonstrated a variety of critical errors that were identified during the final product analysis but were not captured by the task-specific checklist or global rate scale.<xref ref-type="bibr" rid="article-63814.r23">[23]</xref> This finding indicates that trainees are committing serious errors that are subsequently not reflected in their performance assessments. Error based assessment may be an additional method to evaluate trainees&#x02019; technical and decision-making skills. Forsyth et al. adapted Rasmussen&#x02019;s model of human performance from the field of human factors engineering to create an error based checklist for a specific simulated surgical procedure, the LVH repair. Based on prior work, these authors identified common, procedure-specific errors and grouped them into skill-, rule-, and knowledge-based behavior according to Rasmussen&#x02019;s model.<xref ref-type="bibr" rid="article-63814.r17">[17]</xref><xref ref-type="bibr" rid="article-63814.r24">[24]</xref> Skill-based behavior consists of subconscious or automated actions such as suturing or knot-tying, and errors of this type relate to inappropriate manual coordination or force. Existing rules or procedures guide rule-based behavior, and errors relate to applying the incorrect rule or not following the correct rule appropriately. Lastly, knowledge-based behavior applies to unfamiliar scenarios where there are no corresponding rules and errors related to the use of a wrong strategy in these situations.<xref ref-type="bibr" rid="article-63814.r24">[24]</xref> In the work by Forsyth et al., residents predominantly committed rule-based errors while performing the simulated LVH repair. Additionally, poor performance on the error-based checklist significantly correlated with the quality of residents&#x02019; hernia repairs. This work demonstrates the feasibility of implementing error-based assessments of resident performance during a simulated procedure and offers evidence of validly for utilizing this method of assessment. This form of assessment applies to EMT as it provides a richer understanding of where trainees commonly make errors and what strategies they employ to recover from those errors.</p>
+      </sec>
+      <sec id="article-63814.s5" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>It is now clear that clinician&#x02019;s technical skills are associated with patient outcomes including post-procedure complications, and rates of reoperation, readmissions, and emergency department visits.<xref ref-type="bibr" rid="article-63814.r25">[25]</xref> Additionally, it is not simply the number of errors that correlate with poor patient outcomes, but rather how providers detect and manage errors.<xref ref-type="bibr" rid="article-63814.r26">[26]</xref> This provides a strong impetus to elevate our educational curriculum in medicine to produce healthcare providers that are competent and able to detect and manage errors in the clinical environment. This requires simulation-based training that can transfer to improvements in patient care. Work outside the discipline of medicine has demonstrated the success of error management training in promoting learning and transfer of learning.<xref ref-type="bibr" rid="article-63814.r1">[1]</xref> The ability to incorporate EMT into medical education, especially in the simulation environment, may allow for improvements in training procedural skills and critical decision making.<xref ref-type="bibr" rid="article-63814.r27">[27]</xref> Ultimately for EMT to be effective in medical training there must be evidence of improvement in performance, skill retention, and adaptive transfer to similar tasks and the clinical environment.</p>
+        <p>There is evidence that EMT can be utilized to teach skills to novices. Medical students without prior ultrasound experience were randomized to EMT or EAT for performing fetal sonographic evaluations.<xref ref-type="bibr" rid="article-63814.r8">[8]</xref> The participants in the EMT group were instructed to anticipate errors, explore the simulated environment, and reflect on errors made when working though the simulated task of taking fetal measurements on an ultrasound simulator. In contrast, the EAT participants were instructed to follow the simulator instructions step by step to perform the fetal measurements. The EMT and EAT groups performed similarly on the simulated post-training test, however, the EMT group significantly outperformed the EAT group on the transfer assessment of fetal measurements in the clinical environment on pregnant patients. This indicates the participants that underwent EMT were better able to adapt the training they received on the simulator to that of the more complex clinical environment.</p>
+        <p>An important factor in medical training is the durability of the skills learned. General surgery interns were randomized into EMT and EAT groups for a simulation-based curriculum on internal jugular and subclavian central line placement.<xref ref-type="bibr" rid="article-63814.r12">[12]</xref> Similar to the study previously discussed on sonographic skills,<xref ref-type="bibr" rid="article-63814.r8">[8]</xref> the EMT and EAT groups performed similarly on the simulation-based post-test assessment. However, when assessed 30 days later, the EMT group performed significantly better than the EAT for internal jugular and subclavian line placement. The participants in the EAT demonstrated skill decay at 30 days, which did not occur with the EMT group. Additionally, the EMT performed better than the EAT on the transfer test (femoral line placement) at that same time. Conceptualizing errors as part of the training process and encouraging trainees to identify and reflect what went wrong in a procedure may encourage a deeper understanding of the procedure and thus improved skill retention and transfer to task-similar procedures.<xref ref-type="bibr" rid="article-63814.r12">[12]</xref></p>
+        <p>The encouraging results of these studies indicate a need to create a formalized curriculum for integrating EMT into medical training. Riefkohl-Ortiz et al. published their work creating an intensive EMT based curriculum for emergency medicine residents and fellows to learn how to manage iatrogenic critical care procedure complications.<xref ref-type="bibr" rid="article-63814.r9">[9]</xref> Learners had the opportunity to engage in six simulation scenarios (propofol overdose, chest tube placed below the diaphragm, tracheal laceration during attempted intubation, pneumothorax after attempted central venous catheter placement, central venous catheter placement in the carotid artery, and pneumothorax on the ventilator) and were encouraged to make errors and then reflect on how mismanagement impacted their understanding of the scenario. The authors found that each participant demonstrated significant improvement postintervention for each assessment. Interestingly, they identified specific areas of deficits in knowledge and decisions making that were critical for appropriately managing patients after iatrogenic complications occurred, such as the need for intubation in the setting of airway compromise from an expanding neck hematoma.<xref ref-type="bibr" rid="article-63814.r9">[9]</xref> This revealed substantive deficits in clinical knowledge that would otherwise not have been uncovered in an EAT curriculum. This pilot curriculum highlights the importance of educating medical trainees on errors and complications so they may decrease the potential harm to patients when errors occur.&#x000a0; &#x000a0;&#x000a0;</p>
+        <p>For healthcare practitioners to provide excellent patient care, they need a training method that supports clinicians progressing to independent practice who have the skills to recognize and mitigate errors while taking care of patients. Combining EMT and medical simulation may provide a means by which to achieve this goal more effectively than traditional training methods, such as EAT.</p>
+      </sec>
+      <sec id="article-63814.s6" sec-type="Pearls and Other Issues">
+        <title>Pearls and Other Issues</title>
+        <p>In summary, the major teaching points are as follows:</p>
+        <p>1) The traditional assessment of procedural skill has through checklists, global rating scales, and final product analysis.<xref ref-type="bibr" rid="article-63814.r22">[22]</xref> However, each of these assessment tools may only capture a component of performance and may not be sufficient to evaluate performance holistically without using other assessment modalities.<xref ref-type="bibr" rid="article-63814.r23">[23]</xref><xref ref-type="bibr" rid="article-63814.r24">[24]</xref></p>
+        <p>2) Errors act to provide feedback and identify specific areas that one&#x02019;s mental model is not adequate. Error management training sees errors not just as negative feedback indicating failed performance, but rather as an impetus for active learning and exploration to further develop one&#x02019;s mental model.<xref ref-type="bibr" rid="article-63814.r1">[1]</xref></p>
+        <p>3) The two key elements of error management training based learning are that firstly learners are &#x0201c;given only minimal guidance and otherwise are encouraged to actively explore and experiment on their own&#x0201d;; and secondly &#x0201c;EMT creates a learning environment in which errors are likely to occur.&#x0201d;<xref ref-type="bibr" rid="article-63814.r1">[1]</xref></p>
+      </sec>
+      <sec id="article-63814.s7" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>Although the majority of research on error management training in medical simulation has focused on surgical and procedural skill acquisition amongst individual trainees, the educational method applies to team-based training and multiple disciplines throughout medicine.<xref ref-type="bibr" rid="article-63814.r21">[21]</xref> Learning in a simulated environment that encourages error management strategies and the discussion of errors within teams may promote communication and shared cognition among team members.<xref ref-type="bibr" rid="article-63814.r27">[27]</xref> Additionally, EMT has been demonstrated to improve emotional regulation in the setting of errors,<xref ref-type="bibr" rid="article-63814.r16">[16]</xref> and this type of training may be particularly crucial in high-stress fields such as medicine.<xref ref-type="bibr" rid="article-63814.r27">[27]</xref> There is an excellent opportunity to integrate EMT into both individual and team-based training in the simulation environment for a wide array of healthcare providers and specialties. Both trainees and practicing clinicians could benefit from this training. Overall, EMT has great potential to change the culture of training and communication in healthcare, and more instructors should familiarize themselves with the theoretical underpinnings that support EMT-based curricula. [Level III]</p>
+      </sec>
+      <sec id="article-63814.s8">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=63814&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=63814">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/63814/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=63814">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-63814.s9">
+        <title>References</title>
+        <ref id="article-63814.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Keith</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Frese</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Effectiveness of error management training: a meta-analysis.</article-title>
+            <source>J Appl Psychol</source>
+            <year>2008</year>
+            <month>Jan</month>
+            <volume>93</volume>
+            <issue>1</issue>
+            <fpage>59</fpage>
+            <page-range>59-69</page-range>
+            <pub-id pub-id-type="pmid">18211135</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Metcalfe</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Learning from Errors.</article-title>
+            <source>Annu Rev Psychol</source>
+            <year>2017</year>
+            <month>Jan</month>
+            <day>03</day>
+            <volume>68</volume>
+            <fpage>465</fpage>
+            <page-range>465-489</page-range>
+            <pub-id pub-id-type="pmid">27648988</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Darosa</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Pugh</surname>
+                <given-names>CM</given-names>
+              </name>
+            </person-group>
+            <article-title>Error training: missing link in surgical education.</article-title>
+            <source>Surgery</source>
+            <year>2012</year>
+            <month>Feb</month>
+            <volume>151</volume>
+            <issue>2</issue>
+            <fpage>139</fpage>
+            <page-range>139-45</page-range>
+            <pub-id pub-id-type="pmid">22088811</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r4">
+          <label>4</label>
+          <element-citation publication-type="book">
+            <collab>Institute of Medicine (US) Committee on Quality of Health Care in America</collab>
+            <person-group person-group-type="editor">
+              <name>
+                <surname>Kohn</surname>
+                <given-names>LT</given-names>
+              </name>
+              <name>
+                <surname>Corrigan</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Donaldson</surname>
+                <given-names>MS</given-names>
+              </name>
+            </person-group>
+            <source>To Err is Human: Building a Safer Health System</source>
+            <publisher-name>National Academies Press (US)</publisher-name>
+            <publisher-loc>Washington (DC)</publisher-loc>
+            <year>2000</year>
+            <pub-id pub-id-type="pmid">25077248</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Law</surname>
+                <given-names>KE</given-names>
+              </name>
+              <name>
+                <surname>Ray</surname>
+                <given-names>RD</given-names>
+              </name>
+              <name>
+                <surname>D'Angelo</surname>
+                <given-names>AD</given-names>
+              </name>
+              <name>
+                <surname>Cohen</surname>
+                <given-names>ER</given-names>
+              </name>
+              <name>
+                <surname>DiMarco</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Linsmeier</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Wiegmann</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Pugh</surname>
+                <given-names>CM</given-names>
+              </name>
+            </person-group>
+            <article-title>Exploring Senior Residents' Intraoperative Error Management Strategies: A Potential Measure of Performance Improvement.</article-title>
+            <source>J Surg Educ</source>
+            <year>2016</year>
+            <season>Nov-Dec</season>
+            <volume>73</volume>
+            <issue>6</issue>
+            <fpage>e64</fpage>
+            <page-range>e64-e70</page-range>
+            <pub-id pub-id-type="pmid">27372272</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Loh</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Andrews</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Hesketh</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Griffin</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>The moderating effect of individual differences in error-management training: who learns from mistakes?</article-title>
+            <source>Hum Factors</source>
+            <year>2013</year>
+            <month>Apr</month>
+            <volume>55</volume>
+            <issue>2</issue>
+            <fpage>435</fpage>
+            <page-range>435-48</page-range>
+            <pub-id pub-id-type="pmid">23691836</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kruse-Weber</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Parncutt</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Error management for musicians: an interdisciplinary conceptual framework.</article-title>
+            <source>Front Psychol</source>
+            <year>2014</year>
+            <volume>5</volume>
+            <fpage>777</fpage>
+            <pub-id pub-id-type="pmid">25120501</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dyre</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Tabor</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Ringsted</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Tolsgaard</surname>
+                <given-names>MG</given-names>
+              </name>
+            </person-group>
+            <article-title>Imperfect practice makes perfect: error management training improves transfer of learning.</article-title>
+            <source>Med Educ</source>
+            <year>2017</year>
+            <month>Feb</month>
+            <volume>51</volume>
+            <issue>2</issue>
+            <fpage>196</fpage>
+            <page-range>196-206</page-range>
+            <pub-id pub-id-type="pmid">27943372</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Riefkohl-Ortiz</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Frey</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Yee</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>David Gothard</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Hughes</surname>
+                <given-names>PG</given-names>
+              </name>
+              <name>
+                <surname>Ballas</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Ahmed</surname>
+                <given-names>RA</given-names>
+              </name>
+            </person-group>
+            <article-title>Iatrogenic Critical Care Procedure Complication Boot Camp: A Simulation-based Pilot Study.</article-title>
+            <source>AEM Educ Train</source>
+            <year>2019</year>
+            <month>Apr</month>
+            <volume>3</volume>
+            <issue>2</issue>
+            <fpage>188</fpage>
+            <page-range>188-192</page-range>
+            <pub-id pub-id-type="pmid">31008431</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Steele-Johnson</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Kalinoski</surname>
+                <given-names>ZT</given-names>
+              </name>
+            </person-group>
+            <article-title>Error framing effects on performance: cognitive, motivational, and affective pathways.</article-title>
+            <source>J Psychol</source>
+            <year>2014</year>
+            <season>Jan-Feb</season>
+            <volume>148</volume>
+            <issue>1</issue>
+            <fpage>93</fpage>
+            <page-range>93-111</page-range>
+            <pub-id pub-id-type="pmid">24617273</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rogers</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Regehr</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>MacDonald</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>A role for error training in surgical technical skill instruction and evaluation.</article-title>
+            <source>Am J Surg</source>
+            <year>2002</year>
+            <month>Mar</month>
+            <volume>183</volume>
+            <issue>3</issue>
+            <fpage>242</fpage>
+            <page-range>242-5</page-range>
+            <pub-id pub-id-type="pmid">11943119</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gardner</surname>
+                <given-names>AK</given-names>
+              </name>
+              <name>
+                <surname>Abdelfattah</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Wiersch</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Ahmed</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Willis</surname>
+                <given-names>RE</given-names>
+              </name>
+            </person-group>
+            <article-title>Embracing Errors in Simulation-Based Training: The Effect of Error Training on Retention and Transfer of Central Venous Catheter Skills.</article-title>
+            <source>J Surg Educ</source>
+            <year>2015</year>
+            <season>Nov-Dec</season>
+            <volume>72</volume>
+            <issue>6</issue>
+            <fpage>e158</fpage>
+            <page-range>e158-62</page-range>
+            <pub-id pub-id-type="pmid">26362712</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kucera</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Nealeigh</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Franklin</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Bowyer</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Sweeney</surname>
+                <given-names>WB</given-names>
+              </name>
+              <name>
+                <surname>Ritter</surname>
+                <given-names>EM</given-names>
+              </name>
+            </person-group>
+            <article-title>Fasciotomy Improvement Through Recognition of Errors Course: A Focused Needs Assessment for Error Management Training for Lower Extremity Fasciotomy Performance.</article-title>
+            <source>J Surg Educ</source>
+            <year>2019</year>
+            <season>Sep-Oct</season>
+            <volume>76</volume>
+            <issue>5</issue>
+            <fpage>1303</fpage>
+            <page-range>1303-1308</page-range>
+            <pub-id pub-id-type="pmid">30910499</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gardner</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Rich</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Error management training and simulation education.</article-title>
+            <source>Clin Teach</source>
+            <year>2014</year>
+            <month>Dec</month>
+            <volume>11</volume>
+            <issue>7</issue>
+            <fpage>537</fpage>
+            <page-range>537-40</page-range>
+            <pub-id pub-id-type="pmid">25417983</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>McGaghie</surname>
+                <given-names>WC</given-names>
+              </name>
+              <name>
+                <surname>Issenberg</surname>
+                <given-names>SB</given-names>
+              </name>
+              <name>
+                <surname>Petrusa</surname>
+                <given-names>ER</given-names>
+              </name>
+              <name>
+                <surname>Scalese</surname>
+                <given-names>RJ</given-names>
+              </name>
+            </person-group>
+            <article-title>A critical review of simulation-based medical education research: 2003-2009.</article-title>
+            <source>Med Educ</source>
+            <year>2010</year>
+            <month>Jan</month>
+            <volume>44</volume>
+            <issue>1</issue>
+            <fpage>50</fpage>
+            <page-range>50-63</page-range>
+            <pub-id pub-id-type="pmid">20078756</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Keith</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Frese</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Self-regulation in error management training: emotion control and metacognition as mediators of performance effects.</article-title>
+            <source>J Appl Psychol</source>
+            <year>2005</year>
+            <month>Jul</month>
+            <volume>90</volume>
+            <issue>4</issue>
+            <fpage>677</fpage>
+            <page-range>677-91</page-range>
+            <pub-id pub-id-type="pmid">16060786</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>D'Angelo</surname>
+                <given-names>AL</given-names>
+              </name>
+              <name>
+                <surname>Law</surname>
+                <given-names>KE</given-names>
+              </name>
+              <name>
+                <surname>Cohen</surname>
+                <given-names>ER</given-names>
+              </name>
+              <name>
+                <surname>Greenberg</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Kwan</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Greenberg</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Wiegmann</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Pugh</surname>
+                <given-names>CM</given-names>
+              </name>
+            </person-group>
+            <article-title>The use of error analysis to assess resident performance.</article-title>
+            <source>Surgery</source>
+            <year>2015</year>
+            <month>Nov</month>
+            <volume>158</volume>
+            <issue>5</issue>
+            <fpage>1408</fpage>
+            <page-range>1408-14</page-range>
+            <pub-id pub-id-type="pmid">26003910</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nayahangan</surname>
+                <given-names>LJ</given-names>
+              </name>
+              <name>
+                <surname>Van Herzeele</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Konge</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Koncar</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Cieri</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Mansilha</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Debus</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Eiberg</surname>
+                <given-names>JP</given-names>
+              </name>
+            </person-group>
+            <article-title>Achieving Consensus to Define Curricular Content for Simulation Based Education in Vascular Surgery: A Europe Wide Needs Assessment Initiative.</article-title>
+            <source>Eur J Vasc Endovasc Surg</source>
+            <year>2019</year>
+            <month>Aug</month>
+            <volume>58</volume>
+            <issue>2</issue>
+            <fpage>284</fpage>
+            <page-range>284-291</page-range>
+            <pub-id pub-id-type="pmid">31230867</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ritenour</surname>
+                <given-names>AE</given-names>
+              </name>
+              <name>
+                <surname>Dorlac</surname>
+                <given-names>WC</given-names>
+              </name>
+              <name>
+                <surname>Fang</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Woods</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Jenkins</surname>
+                <given-names>DH</given-names>
+              </name>
+              <name>
+                <surname>Flaherty</surname>
+                <given-names>SF</given-names>
+              </name>
+              <name>
+                <surname>Wade</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name>
+                <surname>Holcomb</surname>
+                <given-names>JB</given-names>
+              </name>
+            </person-group>
+            <article-title>Complications after fasciotomy revision and delayed compartment release in combat patients.</article-title>
+            <source>J Trauma</source>
+            <year>2008</year>
+            <month>Feb</month>
+            <volume>64</volume>
+            <issue>2 Suppl</issue>
+            <fpage>S153</fpage>
+            <page-range>S153-61; discussion S161-2</page-range>
+            <pub-id pub-id-type="pmid">18376159</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gully</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Payne</surname>
+                <given-names>SC</given-names>
+              </name>
+              <name>
+                <surname>Kiechel Koles</surname>
+                <given-names>KL</given-names>
+              </name>
+              <name>
+                <surname>Whiteman</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>The impact of error training and individual differences on training outcomes: an attribute-treatment interaction perspective.</article-title>
+            <source>J Appl Psychol</source>
+            <year>2002</year>
+            <month>Feb</month>
+            <volume>87</volume>
+            <issue>1</issue>
+            <fpage>143</fpage>
+            <page-range>143-55</page-range>
+            <pub-id pub-id-type="pmid">11924540</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Salas</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Tannenbaum</surname>
+                <given-names>SI</given-names>
+              </name>
+              <name>
+                <surname>Kraiger</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Smith-Jentsch</surname>
+                <given-names>KA</given-names>
+              </name>
+            </person-group>
+            <article-title>The Science of Training and Development in Organizations: What Matters in Practice.</article-title>
+            <source>Psychol Sci Public Interest</source>
+            <year>2012</year>
+            <month>Jun</month>
+            <volume>13</volume>
+            <issue>2</issue>
+            <fpage>74</fpage>
+            <page-range>74-101</page-range>
+            <pub-id pub-id-type="pmid">26173283</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schmitz</surname>
+                <given-names>CC</given-names>
+              </name>
+              <name>
+                <surname>DaRosa</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Sullivan</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Meyerson</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Yoshida</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Korndorffer</surname>
+                <given-names>JR</given-names>
+              </name>
+            </person-group>
+            <article-title>Development and verification of a taxonomy of assessment metrics for surgical technical skills.</article-title>
+            <source>Acad Med</source>
+            <year>2014</year>
+            <month>Jan</month>
+            <volume>89</volume>
+            <issue>1</issue>
+            <fpage>153</fpage>
+            <page-range>153-61</page-range>
+            <pub-id pub-id-type="pmid">24280844</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>D'Angelo</surname>
+                <given-names>AL</given-names>
+              </name>
+              <name>
+                <surname>Cohen</surname>
+                <given-names>ER</given-names>
+              </name>
+              <name>
+                <surname>Kwan</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Laufer</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Greenberg</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Greenberg</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Wiegmann</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Pugh</surname>
+                <given-names>CM</given-names>
+              </name>
+            </person-group>
+            <article-title>Use of decision-based simulations to assess resident readiness for operative independence.</article-title>
+            <source>Am J Surg</source>
+            <year>2015</year>
+            <month>Jan</month>
+            <volume>209</volume>
+            <issue>1</issue>
+            <fpage>132</fpage>
+            <page-range>132-9</page-range>
+            <pub-id pub-id-type="pmid">25454962</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Law Forsyth</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>DiMarco</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Jenewein</surname>
+                <given-names>CG</given-names>
+              </name>
+              <name>
+                <surname>Ray</surname>
+                <given-names>RD</given-names>
+              </name>
+              <name>
+                <surname>D'Angelo</surname>
+                <given-names>AD</given-names>
+              </name>
+              <name>
+                <surname>Cohen</surname>
+                <given-names>ER</given-names>
+              </name>
+              <name>
+                <surname>Wiegmann</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Pugh</surname>
+                <given-names>CM</given-names>
+              </name>
+            </person-group>
+            <article-title>Do errors and critical events relate to hernia repair outcomes?</article-title>
+            <source>Am J Surg</source>
+            <year>2017</year>
+            <month>Apr</month>
+            <volume>213</volume>
+            <issue>4</issue>
+            <fpage>652</fpage>
+            <page-range>652-655</page-range>
+            <pub-id pub-id-type="pmid">27998548</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Birkmeyer</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Finks</surname>
+                <given-names>JF</given-names>
+              </name>
+              <name>
+                <surname>O'Reilly</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Oerline</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Carlin</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Nunn</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name>
+                <surname>Dimick</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Banerjee</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Birkmeyer</surname>
+                <given-names>NJ</given-names>
+              </name>
+              <collab>Michigan Bariatric Surgery Collaborative</collab>
+            </person-group>
+            <article-title>Surgical skill and complication rates after bariatric surgery.</article-title>
+            <source>N Engl J Med</source>
+            <year>2013</year>
+            <month>Oct</month>
+            <day>10</day>
+            <volume>369</volume>
+            <issue>15</issue>
+            <fpage>1434</fpage>
+            <page-range>1434-42</page-range>
+            <pub-id pub-id-type="pmid">24106936</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>de Leval</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name>
+                <surname>Carthey</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Wright</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Farewell</surname>
+                <given-names>VT</given-names>
+              </name>
+              <name>
+                <surname>Reason</surname>
+                <given-names>JT</given-names>
+              </name>
+            </person-group>
+            <article-title>Human factors and cardiac surgery: a multicenter study.</article-title>
+            <source>J Thorac Cardiovasc Surg</source>
+            <year>2000</year>
+            <month>Apr</month>
+            <volume>119</volume>
+            <issue>4 Pt 1</issue>
+            <fpage>661</fpage>
+            <page-range>661-72</page-range>
+            <pub-id pub-id-type="pmid">10733754</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63814.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>King</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Holder</surname>
+                <given-names>MG</given-names>
+              </name>
+              <name>
+                <surname>Ahmed</surname>
+                <given-names>RA</given-names>
+              </name>
+            </person-group>
+            <article-title>Errors as allies: error management training in health professions education.</article-title>
+            <source>BMJ Qual Saf</source>
+            <year>2013</year>
+            <month>Jun</month>
+            <volume>22</volume>
+            <issue>6</issue>
+            <fpage>516</fpage>
+            <page-range>516-9</page-range>
+            <pub-id pub-id-type="pmid">23293120</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-34986" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Informatics Ethics</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Teoli</surname>
+            <given-names>Dac</given-names>
+          </name>
+          <aff>University of California, Riverside</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Ghassemzadeh</surname>
+            <given-names>Sassan</given-names>
+          </name>
+          <aff>Riverside Comm Hosp, UC Riverside</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Dac Teoli declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Sassan Ghassemzadeh declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>18</day>
+          <month>9</month>
+          <year>2022</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-34986.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Ethics are inherent in the practice of medicine. In modern healthcare, informatics&#x000a0;plays a pivotal role in maintaining and delivering care.<xref ref-type="bibr" rid="article-34986.r1">[1]</xref> As such, informatics ethics has come into the spotlight over recent years. Like&#x000a0;other codes of ethics, informatics offers insight into the recommended ethical guidance of clinicians and other healthcare professionals. Additionally, the informatics code of ethics functions as a gold standard against which the actions of professionals can be compared. Furthermore, the code of informatics ethics offers patients and the general population an established statement of standards that may mold professionals&#x02019; actions and behaviors.</p>
+        <p>Informatics ethics significantly overlap with other codes of ethics developed around social settings. These fundamental principles include:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Autonomy</p>
+          </list-item>
+          <list-item>
+            <p>Equality</p>
+          </list-item>
+          <list-item>
+            <p>Justice</p>
+          </list-item>
+          <list-item>
+            <p>Beneficence</p>
+          </list-item>
+          <list-item>
+            <p>Nonmaleficence</p>
+          </list-item>
+          <list-item>
+            <p>Integrity</p>
+          </list-item>
+        </list>
+        <p>Other principles that play essential roles in healthcare include:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Information privacy</p>
+          </list-item>
+          <list-item>
+            <p>Security</p>
+          </list-item>
+          <list-item>
+            <p>Access</p>
+          </list-item>
+          <list-item>
+            <p>Openness</p>
+          </list-item>
+          <list-item>
+            <p>Least intrusive alternative</p>
+          </list-item>
+          <list-item>
+            <p>Legitimate infringement</p>
+          </list-item>
+          <list-item>
+            <p>Accountability <xref ref-type="bibr" rid="article-34986.r2">[2]</xref></p>
+          </list-item>
+        </list>
+        <p>These ethical principles provide insight into the duties and responsibilities of clinicians, administrators, and other healthcare personnel when dealing with patient-related content. It is worth emphasizing that these principles provide guidance depending on the nature, context, and specific details of individual situations.<xref ref-type="bibr" rid="article-34986.r3">[3]</xref></p>
+      </sec>
+      <sec id="article-34986.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>There are several concerns regarding informatics, its regulations, and ethics:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p><bold>Efficiency versus quality care:</bold> When viewing decision-making across all layers of healthcare delivery, from initial in-person encounters to data storage and transfer, it is imperative to consider the&#x000a0;reason behind each decision</p>
+          </list-item>
+          <list-item>
+            <p><bold>Patient&#x000a0;access to care and data:</bold> This has several layers of regulation at the federal, state, and organizational levels.<xref ref-type="bibr" rid="article-34986.r3">[3]</xref></p>
+          </list-item>
+          <list-item>
+            <p><bold>End-of-life considerations:</bold>&#x000a0;With the population trending toward living longer, how might data and information be utilized, handled, protected, or destroyed?
+<list list-type="bullet"><list-item><p>Often, individuals at end-of-life cannot appreciate the complexity of how their data is treated within the broader healthcare environment and cannot decide how that information should or should not be utilized.<xref ref-type="bibr" rid="article-34986.r4">[4]</xref></p></list-item></list>
+</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-34986.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Overall, informatics plays a significant role in modern healthcare. The budding field of informatics ethics highlights views that mandate both flexibility and development and recognition of standards for addressing these issues as the field continues to evolve.<xref ref-type="bibr" rid="article-34986.r5">[5]</xref> Data collection, maintenance, usage, and destruction in electronic healthcare records remain a focal point of interest in the ongoing societal debate and regulation.</p>
+      </sec>
+      <sec id="article-34986.s4">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=34986&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=34986">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/34986/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=34986">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-34986.s5">
+        <title>References</title>
+        <ref id="article-34986.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lipworth</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Mason</surname>
+                <given-names>PH</given-names>
+              </name>
+              <name>
+                <surname>Kerridge</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <article-title>Ethics and Epistemology of Big Data.</article-title>
+            <source>J Bioeth Inq</source>
+            <year>2017</year>
+            <month>Dec</month>
+            <volume>14</volume>
+            <issue>4</issue>
+            <fpage>485</fpage>
+            <page-range>485-488</page-range>
+            <pub-id pub-id-type="pmid">29119459</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34986.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Liyanage</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Liaw</surname>
+                <given-names>ST</given-names>
+              </name>
+              <name>
+                <surname>Di Iorio</surname>
+                <given-names>CT</given-names>
+              </name>
+              <name>
+                <surname>Kuziemsky</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Schreiber</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Terry</surname>
+                <given-names>AL</given-names>
+              </name>
+              <name>
+                <surname>de Lusignan</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Building a Privacy, Ethics, and Data Access Framework for Real World Computerised Medical Record System Data: A Delphi Study. Contribution of the Primary Health Care Informatics Working Group.</article-title>
+            <source>Yearb Med Inform</source>
+            <year>2016</year>
+            <month>Nov</month>
+            <day>10</day>
+            <issue>1</issue>
+            <fpage>138</fpage>
+            <page-range>138-145</page-range>
+            <pub-id pub-id-type="pmid">27830242</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34986.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Layman</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Health informatics: ethical issues.</article-title>
+            <source>Health Care Manag (Frederick)</source>
+            <year>2003</year>
+            <season>Jan-Mar</season>
+            <volume>22</volume>
+            <issue>1</issue>
+            <fpage>2</fpage>
+            <page-range>2-15</page-range>
+            <pub-id pub-id-type="pmid">12688606</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34986.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Goodman</surname>
+                <given-names>KW</given-names>
+              </name>
+            </person-group>
+            <article-title>Addressing ethical issues in health information technology.</article-title>
+            <source>Camb Q Healthc Ethics</source>
+            <year>2015</year>
+            <month>Jul</month>
+            <volume>24</volume>
+            <issue>3</issue>
+            <fpage>252</fpage>
+            <page-range>252-4</page-range>
+            <pub-id pub-id-type="pmid">26059951</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34986.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Huser</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Cimino</surname>
+                <given-names>JJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Impending Challenges for the Use of Big Data.</article-title>
+            <source>Int J Radiat Oncol Biol Phys</source>
+            <year>2016</year>
+            <month>Jul</month>
+            <day>01</day>
+            <volume>95</volume>
+            <issue>3</issue>
+            <fpage>890</fpage>
+            <page-range>890-894</page-range>
+            <pub-id pub-id-type="pmid">26797535</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

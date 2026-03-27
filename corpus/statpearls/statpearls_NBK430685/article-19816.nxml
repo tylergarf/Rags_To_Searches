@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-19816" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Computer Provider Order Entry</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Connelly</surname>
+            <given-names>Tim P.</given-names>
+          </name>
+          <aff>Mercer University, Memorial Hospital</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Korvek</surname>
+            <given-names>Scott J.</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Tim Connelly declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Scott Korvek declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>28</day>
+          <month>8</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-19816.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Computer Provider Order Entry (CPOE) has revolutionized the way physicians and other providers direct patient care in multiple settings. CPOE has both benefits and disadvantages. CPOE has been shown to reduce the number of medication errors in hospitalized patients. CPOE, however, has not&#x000a0;been shown to reduce mortality significantly. It is associated with increased time for completion of some physician workflow.</p>
+        <p>Other advantages of CPOE include point-of-care clinical decision support and enhanced patient safety through built-in medication interaction checks.&#x000a0;<xref ref-type="bibr" rid="article-19816.r1">[1]</xref><xref ref-type="bibr" rid="article-19816.r2">[2]</xref><xref ref-type="bibr" rid="article-19816.r3">[3]</xref><xref ref-type="bibr" rid="article-19816.r4">[4]</xref></p>
+      </sec>
+      <sec id="article-19816.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>The most important function of CPOE is to make it easy for the provider to do the correct thing for the patient and difficult to do the wrong thing for the patient. Many safeguards are available in most CPOE systems. These include checks on:&#x000a0;</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Drug-Drug interaction</p>
+          </list-item>
+          <list-item>
+            <p>Drug-Disease interactions (for example, alerts when ordering a blood thinner in a patient with an active diagnosis of upper gastrointestinal (GI) bleed for instance)</p>
+          </list-item>
+          <list-item>
+            <p>Drug age (Beers list is included to assist providers when ordering medications for the geriatric population or with Pediatric patients many dosages are different).</p>
+          </list-item>
+        </list>
+        <p>The&#x000a0;informatics team decides which functions turn on and which ones to leave off keeping in mind that there is the risk of alert fatigue. Each safety feature has several alert levels (low, medium, high. Many teams turn on "all" but limit them to "high" or "severe" interactions only. There are many strategies to set up a CPOE system to work best for specific organizations.<xref ref-type="bibr" rid="article-19816.r5">[5]</xref><xref ref-type="bibr" rid="article-19816.r6">[6]</xref></p>
+        <p>
+<bold>Informatics Concepts</bold>
+</p>
+        <p>
+<italic toggle="yes">Choice of user interface elements</italic>
+</p>
+        <p>A medical practitioner is building a section in the general medical admission order set.&#x000a0;The order set includes a section on deep venous thrombosis (DVT) prophylaxis. Users should be able to select between enoxaparin&#x000a0;or heparin, but not both. Using radio buttons at the user-interface element would prevent the end user from selecting both heparin and enoxaparin sodium. A radio button is a familiar circular user interface element which indicates that only one item can be chosen from a list of options. If the user clicks&#x000a0;the radio button for heparin then selects the radio button for enoxaparin,&#x000a0;the selection indicator&#x000a0;for heparin will automatically deselect&#x000a0;itself, making&#x000a0;it impossible to order both medications for DVT prophylaxis.&#x000a0;There are other valid options. For example, some drop-down menus can be configured&#x000a0;only to allow one option to be selected. However, items on&#x000a0;drop-down menus require more mouse clicks for the user to select, and thus, they are often not the optimal&#x000a0;way to design&#x000a0;a CPOE system.</p>
+        <p>
+<italic toggle="yes">CPOE Workflow</italic>
+</p>
+        <p>Workflow design with CPOE is extremely important. It is preferable to use standardized order sets for usual work processes like patient admission to the hospital.&#x000a0;If the user had to place each order individually by searching&#x000a0;the&#x000a0;entire order catalog, even a straightforward admission would become an arduous process. Order sets save time (if properly designed) to facilitate a smooth workflow for an ordering&#x000a0;clinician.&#x000a0;Some CPOE systems allow personalization wherein a user can save their preferences for a given order set, as in saving the choice of enoxaparin as&#x000a0;a &#x0201c;pre-checked&#x0201d; option. There are however risks to allowing&#x000a0;this, especially if extensive decision-support rules are not in place. The user could easily order duplicate and conflicting items, such as both heparin and enoxaparin if the order set were built with checkboxes rather than radio buttons. The user&#x000a0;will likely be alerted to a severe drug-drug interaction if a medication decision support module is installed, but the standardized order sets do provide some additional protection to patients.</p>
+        <p>Alternatively, requiring the use of a comprehensive order set for all orders is counterproductive and wastes time. A simple order for a single medication, such as ibuprofen, should not require the user to navigate an ordered set of all available analgesics. Rather, appropriate "quick pick" or "favorite" orders should be defined in advance with complete order sentences and safe and sane defaults appropriate for the clinical setting. These are best developed at a department level&#x000a0;for use in particular clinical settings. Lastly, individual users may be allowed to further customize these "favorites" to their own needs for speed and efficiency. However, as previously noted, over-reliance on a series of "favorite" orders can compromise patient safety for standard work (admission, transfer) or when specific clinical pathways should be followed (pneumonia, trauma, sepsis).</p>
+        <p>
+<italic toggle="yes">CPOE as&#x000a0;Clinical Decision Support</italic>
+</p>
+        <p>CPOE can offer safety features such as allergy alerts, drug-drug, drug-food, and drug-disease interaction checks, can suggest safe medication dose ranges and intervals, can guide users in implementing clinical practice guidelines and care pathways, and embed reference material such as drug and disease monographs, toxicology information, and local policies and protocols. For example, often CPOE systems will have drug-disease interaction modules and clinical rule engines installed. If a clinician admits a patient with GI bleeding and attempts to order enoxaparin, such a module would alert the clinician&#x000a0;that enoxaparin is contraindicated in a patient with gastrointestinal bleeding.</p>
+        <p>The design and flow of the order set can itself provide significant clinical decision support (CDS) to users. For example, a&#x000a0;standardized order set ("smart form," "pathway," "order set") is often built to assist with common tasks such as admitting a patient. Often many such admission order sets are created for common clinical conditions, such as a&#x000a0;"pneumonia order set" or "chest pain pathway." Providers should be encouraged to utilize these whenever possible as not only does the very design of a smart form provide clinical decision support by reminding the clinician of appropriate or necessary actions for patient care but these smart forms can offer additional safety features such as required elements, mutually-exclusive rules. As an example,&#x000a0;when a clinician&#x000a0;uses the and "pneumonia order set"&#x000a0;in a typical hospital EHR, one would expect to find subheadings such as "pneumonia for the hospital floor" or "pneumonia in the intensive care unit" with a list of antibiotic choices appropriate for that situation. The order set or smart form should have a heading or option&#x000a0;for "pneumonia with <italic toggle="yes">Pseudomonas</italic> risk factors." In that section, there should be&#x000a0;a way for the end user to "hover to discover" or click a box or icon to display exactly what constitutes&#x000a0;<italic toggle="yes">Pseudomonas</italic> risk factors. In systems that are well configured&#x000a0;with robust CPOE, even a novice clinician&#x000a0;can place highly effective orders assuming that the provider had arrived at the&#x000a0;correct diagnosis.</p>
+        <p>Order sets should be built and used with the current best medical evidence available and should be reviewed every 6 months to make sure your order sets are in line with the most current clinical guidelines.&#x000a0;Two notable companies Zinx Health and Provation Medical. Both offer a service to review an organization's CPOE order sets, provide&#x000a0;evidence-based recommendations for improvement, and automatically review that order sets every 6 months to ensure&#x000a0;they remain aligned&#x000a0;with current clinical guidelines.</p>
+        <p>There is conflicting evidence in the literature regarding the effect of Clinical Decision Support on the&#x000a0;utilization of healthcare resources. Simply removing items from an ordered set can reduce ordering of tests (removing prothrombin time from a chest pain order set). In one study, the ordering of chest radiographs&#x000a0;decreased after clinical decision support was removed.</p>
+        <p>As we move to more of a value-based system of care, health systems are finding the need to remove CPOE options in the orders such as "Daily" orders.&#x000a0; In many EHR's,&#x000a0;end-users can build preferences to order medications automatically, for example, procalcitonin "daily for five days." End-user preferences can easily be shared, and if several providers adopt this preference order that automatically orders a procalcitonin for five days on every patient when you check the box, the net result can be a significant financial loss on the health care system. Physician leads Clinical Informaticists and Utilization Review physicians in partnership with the CIO and health care administrative teams should periodically review the medical necessity of ordering tests in an EHR. Careful thought should be given to the potential unintended consequences of making any changes in the order frequencies. One large hospital decided to remove the "daily" lab ordering option in an effort to safe money and did not realize there remained an option for "every morning," so most providers simply changed their preference lists and the net result was no change in cost savings.</p>
+        <p>
+<bold>CPOE Testing</bold>
+</p>
+        <p>It is highly recommended that any changes be thoroughly tested in development environment prior to being moved into production.&#x000a0; All orders on the CPOE should be mapped to the correct departmental (sub)system. It does no good if the&#x000a0;chest radiograph order goes to the lab and not&#x000a0;radiology. Interfaces between systems and order flows require extensive testing for edge cases and reliable communications before production implementation.</p>
+        <p>The Leapfrog Group is one company that will offer to regularly test your CPOE.&#x000a0; Leapfrog annually looks at a hospital's CPOE, Physician ICU Staffing, Never Events and Safe practices (the four leaps). It is a large not-for-profit company started in 2000 by a group of employers that wanted a way to evaluate hospitals for value. Their findings are reported annually on this website. Many EHR vendors will also help you test your CPOE system.</p>
+        <p>Implementing CPOE requires ongoing review and modification of current workflows to prevent patient harm, wasted staff effort, and process gaps. What worked fine on paper or in a prior EHR is not likely to work perfectly when a new CPOE system is installed or modified. For example,&#x000a0;if the emergency department calls the resident team to admit a patient, and the senior resident places orders before the intern does the history and physical, medication reconciliation, and updates the problem list, any drug/disease interaction check will not be able to evaluate those new problems or medications.&#x000a0; If "upper GI bleed" has not been listed on the problem list, the order for&#x000a0;enoxaparin&#x000a0;or heparin would not result in an alert. Hopefully, redundant checks, including the pharmacist review and knowledge of the nurse administering medications are in place to prevent the medication from being administered to the patient in this situation. A possible redundancy would be to require a diagnosis on the bed request order form and link the emergency department admission diagnosis to the problem list. Then again, unless a controlled vocabulary is required for that admission diagnosis, the rule may still not work. Even with well-thought-out processes, regular review and monitoring of defects or "fall-outs" are essential for patient safety and performance improvement. Lastly, even the most well-thought-out workflows, safeguards, and decision support systems are only helpful if they are used.</p>
+      </sec>
+      <sec id="article-19816.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Computer Provider Order Entry (CPOE) improves clinician-patient&#x000a0;care by&#x000a0;reducing the number of medication errors in hospitalized patients. CPOE, however, has not&#x000a0;been shown to reduce mortality significantly. It is associated with increased time for completion of some workflows. The most important concept is to make it easy to do the right thing for your patient, providing safe and effective evidence-based medical care and difficult to do the wrong thing for your patient.<xref ref-type="bibr" rid="article-19816.r7">[7]</xref><xref ref-type="bibr" rid="article-19816.r8">[8]</xref><xref ref-type="bibr" rid="article-19816.r9">[9]</xref></p>
+      </sec>
+      <sec id="article-19816.s4">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=19816&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=19816">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/19816/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=19816">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-19816.s5">
+        <title>References</title>
+        <ref id="article-19816.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Baysari</surname>
+                <given-names>MT</given-names>
+              </name>
+              <name>
+                <surname>Hardie</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Lake</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Richardson</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>McCullagh</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Gardo</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Westbrook</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Longitudinal study of user experiences of a CPOE system in a pediatric hospital.</article-title>
+            <source>Int J Med Inform</source>
+            <year>2018</year>
+            <month>Jan</month>
+            <volume>109</volume>
+            <fpage>5</fpage>
+            <page-range>5-14</page-range>
+            <pub-id pub-id-type="pmid">29195706</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19816.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jaeger</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Sullivan</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Waymack</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Griffen</surname>
+                <given-names>DG</given-names>
+              </name>
+            </person-group>
+            <article-title>Effectively reducing amylase testing using computer order entry in the emergency department: quality improvement without eliminating physician choice.</article-title>
+            <source>J Innov Health Inform</source>
+            <year>2017</year>
+            <month>Oct</month>
+            <day>06</day>
+            <volume>24</volume>
+            <issue>3</issue>
+            <fpage>907</fpage>
+            <pub-id pub-id-type="pmid">29121848</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19816.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jenders</surname>
+                <given-names>RA</given-names>
+              </name>
+            </person-group>
+            <article-title>Advances in Clinical Decision Support: Highlights of Practice and the Literature 2015-2016.</article-title>
+            <source>Yearb Med Inform</source>
+            <year>2017</year>
+            <month>Aug</month>
+            <volume>26</volume>
+            <issue>1</issue>
+            <fpage>125</fpage>
+            <page-range>125-132</page-range>
+            <pub-id pub-id-type="pmid">29063552</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19816.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Guo</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Mehta</surname>
+                <given-names>PH</given-names>
+              </name>
+            </person-group>
+            <article-title>Electronic health record innovations: Helping physicians - One less click at a time.</article-title>
+            <source>Health Inf Manag</source>
+            <year>2017</year>
+            <month>Sep</month>
+            <volume>46</volume>
+            <issue>3</issue>
+            <fpage>140</fpage>
+            <page-range>140-144</page-range>
+            <pub-id pub-id-type="pmid">28671038</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19816.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Alhanout</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Bun</surname>
+                <given-names>SS</given-names>
+              </name>
+              <name>
+                <surname>Retornaz</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Chiche</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Colombini</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Prescription errors related to the use of computerized provider order-entry system for pediatric patients.</article-title>
+            <source>Int J Med Inform</source>
+            <year>2017</year>
+            <month>Jul</month>
+            <volume>103</volume>
+            <fpage>15</fpage>
+            <page-range>15-19</page-range>
+            <pub-id pub-id-type="pmid">28550997</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19816.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>V&#x000e9;lez-D&#x000ed;az-Pallar&#x000e9;s</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>&#x000c1;lvarez D&#x000ed;az</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Gramage Caro</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Vicente Oliveros</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Delgado-Silveira</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Mu&#x000f1;oz Garc&#x000ed;a</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Cruz-Jentoft</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Bermejo-Vicedo</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Technology-induced errors associated with computerized provider order entry software for older patients.</article-title>
+            <source>Int J Clin Pharm</source>
+            <year>2017</year>
+            <month>Aug</month>
+            <volume>39</volume>
+            <issue>4</issue>
+            <fpage>729</fpage>
+            <page-range>729-742</page-range>
+            <pub-id pub-id-type="pmid">28540465</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19816.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Romanow</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Rai</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Keil</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Luxenberg</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Does extended CPOE use reduce patient length of stay?</article-title>
+            <source>Int J Med Inform</source>
+            <year>2017</year>
+            <month>Jan</month>
+            <volume>97</volume>
+            <fpage>128</fpage>
+            <page-range>128-138</page-range>
+            <pub-id pub-id-type="pmid">27919372</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19816.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schreiber</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Shaha</surname>
+                <given-names>SH</given-names>
+              </name>
+            </person-group>
+            <article-title>Computerised Provider Order Entry Adoption Rates Favourably Impact Length of Stay.</article-title>
+            <source>J Innov Health Inform</source>
+            <year>2016</year>
+            <month>Apr</month>
+            <day>18</day>
+            <volume>23</volume>
+            <issue>1</issue>
+            <fpage>166</fpage>
+            <pub-id pub-id-type="pmid">27348485</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19816.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Claret</surname>
+                <given-names>PG</given-names>
+              </name>
+              <name>
+                <surname>Bobbia</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Macri</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Stowell</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Mott&#x000e9;</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Landais</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Beregi</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>de La Coussaye</surname>
+                <given-names>JE</given-names>
+              </name>
+            </person-group>
+            <article-title>Impact of a computerized provider radiography order entry system without clinical decision support on emergency department medical imaging requests.</article-title>
+            <source>Comput Methods Programs Biomed</source>
+            <year>2016</year>
+            <month>Jun</month>
+            <volume>129</volume>
+            <fpage>82</fpage>
+            <page-range>82-8</page-range>
+            <pub-id pub-id-type="pmid">27084323</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

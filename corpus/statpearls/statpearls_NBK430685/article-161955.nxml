@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-161955" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Calculating FICK Cardiac Output and Input</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Basnet</surname>
+            <given-names>Arjun</given-names>
+          </name>
+          <aff>Reading Hospital, Tower Health</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Rout</surname>
+            <given-names>Preeti</given-names>
+          </name>
+          <aff>Wilson Case Western University</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Arjun Basnet declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Preeti Rout declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>29</day>
+          <month>5</month>
+          <year>2024</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-161955.s1" sec-type="Summary / Explanation">
+        <title>Summary / Explanation</title>
+        <p content-type="pubmed-excerpt">
+<bold>Introduction</bold>
+</p>
+        <p>The Fick principle, named after Adolf Eugen Fick (1829-1901), is a fundamental concept in cardiovascular physiology that provides a method for calculating cardiac output. Cardiac output refers to the volume of blood pumped by the heart per unit of time, which is typically measured in liters per minute (L/min).<xref ref-type="bibr" rid="article-161955.r1">[1]</xref>&#x000a0;The Fick principle is crucial in determining cardiac output by relating tissue oxygen consumption and oxygen concentrations in arterial and venous blood.</p>
+        <p>
+<bold>The Fick Principle</bold>
+</p>
+        <p>The Fick principle is based on the idea that the oxygen consumption rate by peripheral tissues is directly proportional to the product of the amount of oxygen delivered to the tissues and the arterial-venous oxygen concentration difference. This&#x000a0;principle can be expressed by the following equation:</p>
+        <p>Cardiac output = Tissue oxygen consumption/(Arterial oxygen content&#x000a0;- Venous oxygen content)</p>
+        <p>Where:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Cardiac output&#x000a0;(CO) is the blood volume pumped by the heart per minute (measured in L/min).</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Tissue oxygen consumption&#x000a0;(VO<sub>2</sub>) is the rate at which oxygen is consumed by the body tissues per minute (measured&#x000a0;in mL/min).</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Arterial oxygen content (CaO<sub>2</sub>) is the oxygen content in arterial blood (measured&#x000a0;in mL/L).</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Venous oxygen content&#x000a0;(CvO<sub>2</sub>) is the oxygen content in venous blood (measured&#x000a0;in mL/L).<xref ref-type="bibr" rid="article-161955.r2">[2]</xref><xref ref-type="bibr" rid="article-161955.r3">[3]</xref></p>
+          </list-item>
+        </list>
+        <p>
+<bold>Components of the Fick Equation</bold>
+</p>
+        <p>
+<bold>Tissue oxygen consumption (VO<sub>2</sub>):</bold> This represents the amount of oxygen utilized by body tissues. Oxygen consumption is typically measured in milliliters per minute and is a key parameter in the Fick equation. VO<sub>2</sub> can be influenced by metabolic rate, physical activity, and overall health. Ideally, it is measured through a closed respiratory system that records inspired and expired oxygen.<xref ref-type="bibr" rid="article-161955.r4">[4]</xref><xref ref-type="bibr" rid="article-161955.r5">[5]</xref></p>
+        <p>
+<bold>Arterial oxygen content (CaO<sub>2</sub>):</bold> This component refers to the oxygen content in arterial blood and is determined by the partial pressure of oxygen (PaO<sub>2</sub>) in the arterial blood and the oxygen saturation of hemoglobin. Ideally, the&#x000a0;CaO<sub>2 </sub>should be measured from the left atrium, where the blood is oxygenated by the lungs before oxygen extraction by the tissues.</p>
+        <p>
+<bold>Venous oxygen content (CvO<sub>2</sub>):</bold> CvO<sub>2</sub> represents&#x000a0;the oxygen content in venous blood, which returns to the heart after oxygen has been delivered to the tissues. The difference between CaO<sub>2</sub> and CvO<sub>2</sub> is a crucial factor in the Fick equation,&#x000a0;reflecting the amount of oxygen extracted by the tissues. Ideally, the&#x000a0;CvO<sub>2</sub>&#x000a0;should be measured from the pulmonary artery.</p>
+        <p>
+<bold>Direct Fick Method</bold>
+</p>
+        <p>The direct Fick measurement is the gold standard but is challenging to perform, as it requires a closed respiratory system and a pulmonary artery catheter.</p>
+        <p>
+<bold>Indirect Fick Method</bold>
+</p>
+        <p>The indirect Fick method is often used, as it is more practical and less risky.</p>
+        <p>
+<bold>VO<sub>2</sub>:&#x000a0;</bold>Validated measurements have estimated adult tissue oxygen consumption to be 125 mL/min/m<sup>2</sup> at rest. For adults aged 70 or older, oxygen consumption is estimated at 110 mL/min/m<sup>2</sup>. Therefore, tissue oxygen consumption can be estimated using the following equation:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>VO<sub>2&#x000a0;</sub>(mL/min) = 125 (mL/min/m<sup>2</sup>) &#x000d7; body surface area (BSA; measured in m<sup>2</sup>).</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>For patients aged 70 or older, the equation is as follows: VO<sub>2&#x000a0;</sub>(mL/min) = 110 (mL/min/m<sup>2</sup>) &#x000d7; BSA&#x000a0;(m<sup>2</sup>).</p>
+          </list-item>
+        </list>
+        <p>
+<bold>CaO<sub>2</sub>:&#x000a0;</bold>Arterial oxygen content can be determined by measuring the peripheral arterial blood gas oxygen saturation and multiplying it by the hemoglobin oxygen-carrying capacity.</p>
+        <p>
+<bold>CvO<sub>2</sub>:&#x000a0;</bold>Venous oxygen content can be determined by measuring the oxygen saturation from a central venous catheter and multiplying it by the hemoglobin oxygen-carrying capacity.</p>
+        <p>Maximal hemoglobin carrying capacity is described below:&#x000a0;</p>
+        <p>Hemoglobin oxygen capacity is the maximum volume of oxygen that combines with 1 g of hemoglobin (ie, H&#x000fc;fner constant), which varies between 1.34 and 1.39 under physiological conditions.<xref ref-type="bibr" rid="article-161955.r6">[6]</xref>&#x000a0;The calculation is based on the molecular weight of hemoglobin and the ability to bind&#x000a0;4 oxygen molecules. At a body temperature of 37 &#x000b0;C and atmospheric pressure of 760 mm Hg, the H&#x000fc;fner constant is calculated to be 1.58 mL/g. However, the actual hemoglobin carrying capacity is less than calculated, so the coefficient often used is 1.31 mL/g.<xref ref-type="bibr" rid="article-161955.r7">[7]</xref></p>
+        <p>Thus, the maximum oxygen-carrying&#x000a0;capacity of blood (mL of&#x000a0;O<sub>2</sub>&#x000a0;per dL of blood) is the oxygen bound by hemoglobin plus the amount of oxygen dissolved in the blood. As the oxygen dissolved in blood is a minor contributor, oxygen-carrying capacity can be estimated as the amount of oxygen bound to hemoglobin multiplied by oxygen saturation.</p>
+        <p>Both arterial and venous blood content&#x000a0;are calculated using the following equation:&#x000a0;</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Blood oxygen content = Hgb (g/dL) &#x000d7; 1.31 (mL/g) &#x000d7; Measured&#x000a0;O<sub>2 </sub>saturation.</p>
+          </list-item>
+        </list>
+        <p>Using these substitutions, we arrive at the following:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Cardiac output (CO) = Tissue oxygen consumption (VO<sub>2</sub>)/(Arterial oxygen content &#x02212; Venous oxygen content).</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>CO&#x000a0;(L/min) = (10 &#x000d7; 125 &#x000d7; BSA)/([SaO<sub>2 </sub>&#x02212; SvO<sub>2</sub>] &#x000d7; Hgb x 1.31).</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Clinical Applications</bold>
+</p>
+        <p>The Fick principle and the associated calculation of cardiac output have several clinical applications:</p>
+        <p>
+<bold>Assessment of cardiac function:</bold> Utilizing the Fick principle to measure cardiac output, clinicians can evaluate the heart's efficiency in pumping blood to meet the body's oxygen demands.<xref ref-type="bibr" rid="article-161955.r8">[8]</xref><xref ref-type="bibr" rid="article-161955.r9">[9]</xref><xref ref-type="bibr" rid="article-161955.r10">[10]</xref></p>
+        <p>
+<bold>Monitoring oxygen delivery:</bold>&#x000a0;Utilizing the Fick principle to estimate oxygen delivery to tissues is crucial for maintaining cellular function. Monitoring oxygen delivery is crucial in critical care settings and during surgical procedures.<xref ref-type="bibr" rid="article-161955.r11">[11]</xref><xref ref-type="bibr" rid="article-161955.r12">[12]</xref></p>
+        <p>
+<bold>Research and exercise physiology:</bold>&#x000a0;The Fick principle finds extensive use in research and exercise physiology, particularly in studying cardiovascular function. In addition, it is instrumental in assessing the effects of exercise or drugs on cardiac output and oxygen consumption.<xref ref-type="bibr" rid="article-161955.r13">[13]</xref></p>
+        <p>
+<bold>Limitations and Considerations</bold>
+</p>
+        <p>While the Fick principle is a valuable tool, it has some limitations and considerations:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>The Fick principle involves invasive blood sampling from arterial and venous sites, which can pose risks, especially in critically ill patients.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>The assumption of a steady state of oxygen consumption limits accuracy in dynamic situations, such as rapid changes in a patient's condition or during exercise.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>The Fick principle assumes no oxygen consumption by the lung. Therefore, the difference between arterial and venous tissue oxygen extraction may be overestimated in cases of acute lung injury, such as pneumonia.&#x000a0;</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>The Fick principle may not accurately reflect cardiac output in ventilation-perfusion imbalances, as it assumes normal gas exchange in the lungs.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>The mixed venous pulmonary artery oxygen content is used to measure venous blood oxygen content, which does not account for oxygen consumption in the lung tissue. Therefore, this equation may underestimate tissue oxygen consumption in situations with significant lung oxygen consumption.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>The assumption of constant hemoglobin levels may not hold true in conditions involving acute bleeding, transfusions, or fluctuations in hemoglobin levels.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>The Fick principle may be less applicable in pediatric and neonatal populations due to challenges in obtaining accurate blood samples, shunting, and developmental variations.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Accurate implementation demands specialized equipment and expertise, constraining its feasibility in resource-limited settings.<xref ref-type="bibr" rid="article-161955.r3">[3]</xref></p>
+          </list-item>
+        </list>
+        <p>
+<bold>Conclusion</bold>
+</p>
+        <p>Fick cardiac output quantitatively assesses the heart's capacity to pump blood and supply oxygen to tissues. Despite its invasive nature and underlying assumptions, the Fick principle retains significance in clinical practice, research, and exercise physiology. Additionally, the indirect Fick method, which is well-validated, serves as a reliable alternative.</p>
+        <p>*(see above asterisk) The partial pressure of oxygen (PaO2) multiplied by the oxygen solubility coefficient (0.0031) determines the amount of dissolved oxygen, which is minimal compared to the oxygen bound to hemoglobin. Thus, the total arterial oxygen content comprises the amount of bound oxygen along with the relatively small amount of dissolved oxygen.<xref ref-type="bibr" rid="article-161955.r7">[7]</xref>&#x000a0;</p>
+      </sec>
+      <sec id="article-161955.s2">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=161955&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=161955">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/161955/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=161955">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-161955.s3">
+        <title>References</title>
+        <ref id="article-161955.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vincent</surname>
+                <given-names>JL</given-names>
+              </name>
+            </person-group>
+            <article-title>Understanding cardiac output.</article-title>
+            <source>Crit Care</source>
+            <year>2008</year>
+            <volume>12</volume>
+            <issue>4</issue>
+            <fpage>174</fpage>
+            <pub-id pub-id-type="pmid">18771592</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161955.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lin</surname>
+                <given-names>SY</given-names>
+              </name>
+              <name>
+                <surname>Chang</surname>
+                <given-names>FC</given-names>
+              </name>
+              <name>
+                <surname>Lin</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Chou</surname>
+                <given-names>AH</given-names>
+              </name>
+              <name>
+                <surname>Tsai</surname>
+                <given-names>YF</given-names>
+              </name>
+              <name>
+                <surname>Liao</surname>
+                <given-names>CC</given-names>
+              </name>
+              <name>
+                <surname>Tsai</surname>
+                <given-names>HI</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>CY</given-names>
+              </name>
+            </person-group>
+            <article-title>Increased FIO2 influences SvO2 interpretation and accuracy of Fick-based cardiac output assessment in cardiac surgery patients: A prospective randomized study.</article-title>
+            <source>Medicine (Baltimore)</source>
+            <year>2021</year>
+            <month>Sep</month>
+            <day>10</day>
+            <volume>100</volume>
+            <issue>36</issue>
+            <fpage>e27020</fpage>
+            <pub-id pub-id-type="pmid">34516492</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161955.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gutierrez</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Central and Mixed Venous O<sub>2</sub> Saturation.</article-title>
+            <source>Turk J Anaesthesiol Reanim</source>
+            <year>2020</year>
+            <month>Feb</month>
+            <volume>48</volume>
+            <issue>1</issue>
+            <fpage>2</fpage>
+            <page-range>2-10</page-range>
+            <pub-id pub-id-type="pmid">32076673</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161955.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Summerhill</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name>
+                <surname>Baram</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Principles of pulmonary artery catheterization in the critically ill.</article-title>
+            <source>Lung</source>
+            <year>2005</year>
+            <season>May-Jun</season>
+            <volume>183</volume>
+            <issue>3</issue>
+            <fpage>209</fpage>
+            <page-range>209-19</page-range>
+            <pub-id pub-id-type="pmid">16078042</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161955.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dehmer</surname>
+                <given-names>GJ</given-names>
+              </name>
+              <name>
+                <surname>Firth</surname>
+                <given-names>BG</given-names>
+              </name>
+              <name>
+                <surname>Hillis</surname>
+                <given-names>LD</given-names>
+              </name>
+            </person-group>
+            <article-title>Oxygen consumption in adult patients during cardiac catheterization.</article-title>
+            <source>Clin Cardiol</source>
+            <year>1982</year>
+            <month>Aug</month>
+            <volume>5</volume>
+            <issue>8</issue>
+            <fpage>436</fpage>
+            <page-range>436-40</page-range>
+            <pub-id pub-id-type="pmid">7127921</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161955.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Duan</surname>
+                <given-names>LS</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>ZZ</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Zhou</surname>
+                <given-names>XF</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>XX</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>ZW</given-names>
+              </name>
+              <name>
+                <surname>Kang</surname>
+                <given-names>YQ</given-names>
+              </name>
+              <name>
+                <surname>Su</surname>
+                <given-names>YJ</given-names>
+              </name>
+              <name>
+                <surname>Guo</surname>
+                <given-names>JR</given-names>
+              </name>
+            </person-group>
+            <article-title>The effect of different storage times on the oxygen-carrying capacity of the exosomes of red blood cells.</article-title>
+            <source>Adv Clin Exp Med</source>
+            <year>2021</year>
+            <month>Apr</month>
+            <volume>30</volume>
+            <issue>4</issue>
+            <fpage>387</fpage>
+            <page-range>387-394</page-range>
+            <pub-id pub-id-type="pmid">33908200</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161955.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gorelov</surname>
+                <given-names>V</given-names>
+              </name>
+            </person-group>
+            <article-title>Theoretical value of H&#x000fc;fner's constant.</article-title>
+            <source>Anaesthesia</source>
+            <year>2004</year>
+            <month>Jan</month>
+            <volume>59</volume>
+            <issue>1</issue>
+            <fpage>97</fpage>
+            <pub-id pub-id-type="pmid">14687119</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161955.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>De Maria</surname>
+                <given-names>AN</given-names>
+              </name>
+              <name>
+                <surname>Raisinghani</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparative overview of cardiac output measurement methods: has impedance cardiography come of age?</article-title>
+            <source>Congest Heart Fail</source>
+            <year>2000</year>
+            <season>Mar-Apr</season>
+            <volume>6</volume>
+            <issue>2</issue>
+            <fpage>60</fpage>
+            <page-range>60-73</page-range>
+            <pub-id pub-id-type="pmid">12029189</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161955.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Grafton</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Cascino</surname>
+                <given-names>TM</given-names>
+              </name>
+              <name>
+                <surname>Perry</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Ashur</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Koelling</surname>
+                <given-names>TM</given-names>
+              </name>
+            </person-group>
+            <article-title>Resting Oxygen Consumption and Heart Failure: Importance of Measurement for Determination of Cardiac Output With the Use of the Fick Principle.</article-title>
+            <source>J Card Fail</source>
+            <year>2020</year>
+            <month>Aug</month>
+            <volume>26</volume>
+            <issue>8</issue>
+            <fpage>664</fpage>
+            <page-range>664-672</page-range>
+            <pub-id pub-id-type="pmid">30753933</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161955.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schm&#x000fc;cker</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Burgdorf</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Blohm</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Bugno</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Meyer</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Remppis</surname>
+                <given-names>BA</given-names>
+              </name>
+            </person-group>
+            <article-title>Modern gold standard of cardiac output measurement&#x000a0;- A simplified bedside measurement of individual oxygen uptake in the cath lab.</article-title>
+            <source>J Basic Clin Physiol Pharmacol</source>
+            <year>2022</year>
+            <month>Sep</month>
+            <day>01</day>
+            <volume>33</volume>
+            <issue>5</issue>
+            <fpage>639</fpage>
+            <page-range>639-644</page-range>
+            <pub-id pub-id-type="pmid">34995436</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161955.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gondos</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Kiss</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>P&#x000e9;nzes</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Kulka</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Tissue oxygenation: another aspect of the Fick equation.</article-title>
+            <source>Respiration</source>
+            <year>1986</year>
+            <volume>49</volume>
+            <issue>4</issue>
+            <fpage>280</fpage>
+            <page-range>280-2</page-range>
+            <pub-id pub-id-type="pmid">3715214</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161955.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Joseph</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Oliveira</surname>
+                <given-names>RKF</given-names>
+              </name>
+              <name>
+                <surname>Eslam</surname>
+                <given-names>RB</given-names>
+              </name>
+              <name>
+                <surname>Agarwal</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Waxman</surname>
+                <given-names>AB</given-names>
+              </name>
+              <name>
+                <surname>Systrom</surname>
+                <given-names>DM</given-names>
+              </name>
+            </person-group>
+            <article-title>Fick principle and exercise pulmonary hemodynamic determinants of the six-minute walk distance in pulmonary hypertension.</article-title>
+            <source>Pulm Circ</source>
+            <year>2020</year>
+            <season>Jul-Sep</season>
+            <volume>10</volume>
+            <issue>3</issue>
+            <fpage>2045894020957576</fpage>
+            <pub-id pub-id-type="pmid">32994925</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-161955.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Perrault</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Richard</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>[Clinical exercise testing and the Fick equation: strategic thinking for optimizing diagnosis].</article-title>
+            <source>Rev Mal Respir</source>
+            <year>2012</year>
+            <month>Apr</month>
+            <volume>29</volume>
+            <issue>4</issue>
+            <fpage>501</fpage>
+            <page-range>501-20</page-range>
+            <pub-id pub-id-type="pmid">22542408</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

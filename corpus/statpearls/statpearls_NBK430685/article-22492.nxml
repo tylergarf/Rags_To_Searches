@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-22492" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Elimination Half-Life of Drugs</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Hallare</surname>
+            <given-names>Jericho</given-names>
+          </name>
+          <aff>California Northstate University</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Gerriets</surname>
+            <given-names>Valerie</given-names>
+          </name>
+          <aff>California Northstate University College of Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Jericho Hallare declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Valerie Gerriets declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>3</day>
+          <month>5</month>
+          <year>2025</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-22492.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">In medical science, the term <italic toggle="yes">half-life</italic> typically refers to the elimination half-life. The elimination half-life is defined as the time required for the concentration of a specific substance, typically a drug, to decrease to half of its initial amount in the body. Understanding the concept of half-life&#x000a0;is essential for determining excretion rates and steady-state concentrations of any specific drug. Although different drugs have varying half-lives, they all share a common principle&#x02014;after one half-life, 50% of the initial drug amount is removed from the body. The characteristic decline of drug concentrations over time has long been studied in the field of pharmacokinetics and can be described using basic differential equations.&#x000a0;Most clinically relevant drugs follow first-order pharmacokinetics, meaning their drug-elimination rates are directly proportional to&#x000a0;plasma concentrations.<xref ref-type="bibr" rid="article-22492.r1">[1]</xref>&#x000a0;In contrast, a few drugs follow zero-order elimination, in which the drug amount decreases by a constant amount over time, regardless of initial concentration, for example, ethanol. This activity focuses on first-order half-life elimination as it is the most frequently encountered in clinical practice.</p>
+        <p>The half-life elimination of a drug is graphically represented by elimination curves that track the amount of&#x000a0;the drug in the body over time, typically with time&#x000a0;on the independent axis and drug plasma concentration&#x000a0;on the dependent axis (see<bold>&#x000a0;Graph</bold><bold>.&#x000a0;</bold>Half-Life Elimination Curve). The total drug exposure over time is represented in this graph as the area under the curve.<xref ref-type="bibr" rid="article-22492.r2">[2]</xref>&#x000a0;Elimination&#x000a0;curves&#x000a0;are useful&#x000a0;for determining&#x000a0;whether a drug indeed follows first-order kinetics, in which case the curve should&#x000a0;follow&#x000a0;a logarithmic decay&#x000a0;according to the integrated rate law of first-order&#x000a0;reactions (Equation 1). After the differential equation is solved, the half-life equation, commonly tested on and used in clinical practice, is obtained (Equation 2).&#x000a0;From this equation, the half-life of a drug can be quickly determined, given its predetermined rate constant <italic toggle="yes">k</italic>. An alternative half-life equation exists that relates half-life to other pharmacokinetic parameters, specifically the volume of distribution and clearance (Equation 3).<xref ref-type="bibr" rid="article-22492.r3">[3]</xref><xref ref-type="bibr" rid="article-22492.r4">[4]</xref></p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Equation 1: ln[<italic toggle="yes">A</italic><sub>0</sub>]/[<italic toggle="yes">A</italic>]<italic toggle="yes">=kt</italic></p>
+          </list-item>
+          <list-item>
+            <p>Equation 2: <italic toggle="yes">t</italic><sub>1/2</sub>=0.693/<italic toggle="yes">k</italic></p>
+          </list-item>
+          <list-item>
+            <p>Equation 3: <italic toggle="yes">t</italic><sub>1/2</sub>=0.693<italic toggle="yes">&#x000d7;V<sub>d</sub></italic>/CL, where <italic toggle="yes">V<sub>d</sub></italic> is the volume of distribution and CL is clearance.</p>
+          </list-item>
+        </list>
+        <p>The relationship between the percentage of drug eliminated and the number of half-lives is also important to consider. Assuming no administration of additional drugs after an initial dose, ignoring any drug-drug interactions, and assuming a physiologically healthy individual, certain&#x000a0;quantitative constants apply to all drugs exhibiting first-order pharmacokinetics. For example, 90% of a given drug undergoes elimination after approximately 3.3 half-lives. Moreover, 94% to 97% of a drug&#x000a0;is eliminated after 4 to 5 half-lives. Therefore, after 4&#x000a0;to 5 half-lives, the plasma concentration of a given drug typically falls below a clinically relevant concentration and is considered effectively eliminated. Conversely, the accumulation of a drug can reach a steady state during an infusion. When administering a drug at regular intervals or a constant amount, such as an infusion,&#x000a0;the drug achieves a steady-state concentration after approximately 4 to 5 half-lives, without further accumulation in the body with repeated doses.<xref ref-type="bibr" rid="article-22492.r5">[5]</xref> This steady state occurs when the drug's infusion rate equals its clearance rate, resulting in a constant net concentration in the body. The steady-state concentration is determined by the dosage, dosing interval, and clearance.</p>
+      </sec>
+      <sec id="article-22492.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>Half-life is one of the oldest pharmacokinetic parameters discussed in the medical community, yet it remains a source of confusion for many medical students and even experienced clinicians.<xref ref-type="bibr" rid="article-22492.r6">[6]</xref> As a result, examiners of the United States Medical Licensing Examination regularly test and assess medical students and licensed&#x000a0;clinicians to ensure they understand it. The concept of half-life relies on several key assumptions, including a one-compartment system for drug metabolism,&#x000a0;a perfectly first-order system without renal or hepatic deficiencies, and an isolated system without any drug-drug interactions or alternative metabolic pathways.&#x000a0;This situation is rarely encountered in a clinical setting where physicians treat patients with chronic kidney disease or other health issues, who may be taking multiple medications with potential drug interactions.&#x000a0;In addition, patient age is a significant factor in determining the accurate&#x000a0;half-life&#x000a0;of a drug, especially in pediatric and geriatric patients, where drug metabolism, and thus, half-life, can vary significantly from that of a healthy middle-aged adult. Due to the highly theoretical nature of the half-life model, its practical application in clinical decision-making is often challenging. Therefore, medical students and clinicians must factor these&#x000a0;realities into half-life calculations to ensure effective and safe&#x000a0;pharmacological&#x000a0;management. Numerous studies have attempted to establish methodologies that account for&#x000a0;such nuances in disease management based on individual pharmacokinetic drug profiles.<xref ref-type="bibr" rid="article-22492.r7">[7]</xref><xref ref-type="bibr" rid="article-22492.r8">[8]</xref></p>
+      </sec>
+      <sec id="article-22492.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>The clinical significance of half-life often emerges in situations involving drug toxicity. Such cases may arise from patient overdose, administration of incorrect drug dosages by medical staff, significant renal or hepatic impairment, or other factors that elevate plasma drug concentrations beyond toxic thresholds.&#x000a0;In cases of renal failure, drug excretion is impaired, leading to increased peak initial concentration and excretion rate of the drug.<xref ref-type="bibr" rid="article-22492.r9">[9]</xref>&#x000a0;Hepatic disease also affects the half-life of a given drug due to impaired metabolism. Because the liver inactivates active metabolites&#x000a0;at a slower rate, the body requires a longer period to eliminate the drug from circulation.<xref ref-type="bibr" rid="article-22492.r10">[10]</xref>&#x000a0;Half-life is also clinically relevant when clinicians must establish the most effective and safest dosing schedule to achieve an optimal&#x000a0;therapeutic effect, or when a steady-state concentration of a drug&#x000a0;is desirable. The frequent occurrence of these clinical scenarios explains why medical professionals consistently rely on half-life calculations in practice and why the concept remains a key focus in medical education.</p>
+      </sec>
+      <sec id="article-22492.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>Understanding the concept of half-life is a critical first step in determining dosing schedules for pharmacological treatment. However, arguably more important is the communication of this management plan from the clinician or pharmacist to the interprofessional care team. Effective communication remains a key determinant of quality care delivery. A literature review suggests that communication skills should be heavily emphasized before healthcare professionals enter clinical settings, ensuring they master these skills during training before engaging in patient interactions.<xref ref-type="bibr" rid="article-22492.r11">[11]</xref>&#x000a0;Interestingly, face-to-face&#x000a0;communication was considered the most effective method for&#x000a0;understanding a patient's care plan completely, although written communication remains the most commonly used. However, this contrast does not mean that written communication lacks its strengths. Written communication provides a more permanent record that can be revisited if needed. In addition, the advent of electronic medical records allows for the almost instantaneous transmission of&#x000a0;entire patient records regardless of the distance between healthcare providers, something that face-to-face communication is less suited for.</p>
+        <p>Unsurprisingly, interprofessional communication has also been correlated with patient satisfaction.<xref ref-type="bibr" rid="article-22492.r12">[12]</xref>&#x000a0;Conversely, poor communication has been cited as an issue in more than 80% of lawsuits, further emphasizing the critical importance of effective communication in health care. Poor communication could have occurred at any point during a patient's care, whether between a patient and a staff member, a nurse and a clinician, among clinicians, or a clinician and&#x000a0;a patient.&#x000a0;Due to the complexity of any individual's course through the healthcare system,&#x000a0;strong communication is essential. From a financial perspective, Medicare uses patient satisfaction surveys to determine hospital reimbursement through pay-for-performance programs, providing a powerful incentive for healthcare professionals to prioritize effective communication with and around patients.<xref ref-type="bibr" rid="article-22492.r13">[13]</xref> Numerous studies, including those mentioned previously, support the ongoing push to improve communication practices.&#x000a0;This area of health care is extensively researched due to its impact on patient satisfaction with healthcare professionals, making it a top priority for hospitals and&#x000a0;healthcare providers worldwide.</p>
+      </sec>
+      <sec id="article-22492.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=22492&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=22492">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/22492/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=22492">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-22492.s6">
+        <fig id="article-22492.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Half-Life Elimination Curve. The half-life elimination of a drug is illustrated by an elimination curve, which plots the amount of drug remaining in the body over time. Time is represented on the independent axis, whereas drug plasma concentration is represented on the dependent axis. Chemistry LibreTexts</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Half-life" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-22492.s7">
+        <title>References</title>
+        <ref id="article-22492.r1">
+          <label>1</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Denault</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Ashurst</surname>
+                <given-names>JV</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Physiology, Zero and First Order Kinetics</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2022</year>
+            <month>9</month>
+            <day>19</day>
+            <pub-id pub-id-type="pmid">29763041</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22492.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Erkent</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Koytchev</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>The use of truncated area under the curves in the bioequivalence evaluation of long half-life drugs. Studies with donepezil and memantine.</article-title>
+            <source>Arzneimittelforschung</source>
+            <year>2008</year>
+            <volume>58</volume>
+            <issue>5</issue>
+            <fpage>255</fpage>
+            <page-range>255-8</page-range>
+            <pub-id pub-id-type="pmid">18589560</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22492.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Oie</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Drug distribution and binding.</article-title>
+            <source>J Clin Pharmacol</source>
+            <year>1986</year>
+            <season>Nov-Dec</season>
+            <volume>26</volume>
+            <issue>8</issue>
+            <fpage>583</fpage>
+            <page-range>583-6</page-range>
+            <pub-id pub-id-type="pmid">3793947</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22492.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Toutain</surname>
+                <given-names>PL</given-names>
+              </name>
+              <name>
+                <surname>Bousquet-M&#x000e9;lou</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Plasma clearance.</article-title>
+            <source>J Vet Pharmacol Ther</source>
+            <year>2004</year>
+            <month>Dec</month>
+            <volume>27</volume>
+            <issue>6</issue>
+            <fpage>415</fpage>
+            <page-range>415-25</page-range>
+            <pub-id pub-id-type="pmid">15601437</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22492.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ito</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Pharmacokinetics 101.</article-title>
+            <source>Paediatr Child Health</source>
+            <year>2011</year>
+            <month>Nov</month>
+            <volume>16</volume>
+            <issue>9</issue>
+            <fpage>535</fpage>
+            <page-range>535-6</page-range>
+            <pub-id pub-id-type="pmid">23115489</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22492.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sahin</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Benet</surname>
+                <given-names>LZ</given-names>
+              </name>
+            </person-group>
+            <article-title>The operational multiple dosing half-life: a key to defining drug accumulation in patients and to designing extended release dosage forms.</article-title>
+            <source>Pharm Res</source>
+            <year>2008</year>
+            <month>Dec</month>
+            <volume>25</volume>
+            <issue>12</issue>
+            <fpage>2869</fpage>
+            <page-range>2869-77</page-range>
+            <pub-id pub-id-type="pmid">19015955</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22492.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gidal</surname>
+                <given-names>BE</given-names>
+              </name>
+              <name>
+                <surname>Clark</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Anders</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Gilliam</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>The application of half-life in clinical decision making: Comparison of the pharmacokinetics of extended-release topiramate (USL255) and immediate-release topiramate.</article-title>
+            <source>Epilepsy Res</source>
+            <year>2017</year>
+            <month>Jan</month>
+            <volume>129</volume>
+            <fpage>26</fpage>
+            <page-range>26-32</page-range>
+            <pub-id pub-id-type="pmid">27883934</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22492.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gorsline</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Gupta</surname>
+                <given-names>SK</given-names>
+              </name>
+              <name>
+                <surname>Dye</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Rolf</surname>
+                <given-names>CN</given-names>
+              </name>
+            </person-group>
+            <article-title>Steady-state pharmacokinetics and dose relationship of nicotine delivered from Nicoderm (Nicotine Transdermal System).</article-title>
+            <source>J Clin Pharmacol</source>
+            <year>1993</year>
+            <month>Feb</month>
+            <volume>33</volume>
+            <issue>2</issue>
+            <fpage>161</fpage>
+            <page-range>161-8</page-range>
+            <pub-id pub-id-type="pmid">8440766</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22492.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Levy</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Pharmacokinetics in renal disease.</article-title>
+            <source>Am J Med</source>
+            <year>1977</year>
+            <month>Apr</month>
+            <volume>62</volume>
+            <issue>4</issue>
+            <fpage>461</fpage>
+            <page-range>461-5</page-range>
+            <pub-id pub-id-type="pmid">851113</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22492.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Branch</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Herbert</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name>
+                <surname>Read</surname>
+                <given-names>AE</given-names>
+              </name>
+            </person-group>
+            <article-title>Determinants of serum antipyrine half-lives in patients with liver disease.</article-title>
+            <source>Gut</source>
+            <year>1973</year>
+            <month>Jul</month>
+            <volume>14</volume>
+            <issue>7</issue>
+            <fpage>569</fpage>
+            <page-range>569-73</page-range>
+            <pub-id pub-id-type="pmid">4729926</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22492.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vermeir</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Vandijck</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Degroote</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Peleman</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Verhaeghe</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Mortier</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Hallaert</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Van Daele</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Buylaert</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Vogelaers</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Communication in healthcare: a narrative review of the literature and practical recommendations.</article-title>
+            <source>Int J Clin Pract</source>
+            <year>2015</year>
+            <month>Nov</month>
+            <volume>69</volume>
+            <issue>11</issue>
+            <fpage>1257</fpage>
+            <page-range>1257-67</page-range>
+            <pub-id pub-id-type="pmid">26147310</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22492.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lang</surname>
+                <given-names>EV</given-names>
+              </name>
+            </person-group>
+            <article-title>A Better Patient Experience Through Better Communication.</article-title>
+            <source>J Radiol Nurs</source>
+            <year>2012</year>
+            <month>Dec</month>
+            <day>01</day>
+            <volume>31</volume>
+            <issue>4</issue>
+            <fpage>114</fpage>
+            <page-range>114-119</page-range>
+            <pub-id pub-id-type="pmid">23471099</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22492.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Anhang Price</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Elliott</surname>
+                <given-names>MN</given-names>
+              </name>
+              <name>
+                <surname>Zaslavsky</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Hays</surname>
+                <given-names>RD</given-names>
+              </name>
+              <name>
+                <surname>Lehrman</surname>
+                <given-names>WG</given-names>
+              </name>
+              <name>
+                <surname>Rybowski</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Edgman-Levitan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Cleary</surname>
+                <given-names>PD</given-names>
+              </name>
+            </person-group>
+            <article-title>Examining the role of patient experience surveys in measuring health care quality.</article-title>
+            <source>Med Care Res Rev</source>
+            <year>2014</year>
+            <month>Oct</month>
+            <volume>71</volume>
+            <issue>5</issue>
+            <fpage>522</fpage>
+            <page-range>522-54</page-range>
+            <pub-id pub-id-type="pmid">25027409</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

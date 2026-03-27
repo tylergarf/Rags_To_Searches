@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-23463" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Genetics, Inducible Operon</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Sanganeria</surname>
+            <given-names>Tanisha</given-names>
+          </name>
+          <aff>RG Kar Medical College and Hospital</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Bordoni</surname>
+            <given-names>Bruno</given-names>
+          </name>
+          <aff>Foundation Don Carlo Gnocchi IRCCS</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Tanisha Sanganeria declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Bruno Bordoni declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>17</day>
+          <month>10</month>
+          <year>2022</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-23463.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Gene expression is a strictly regulated process that is altered in response to developmental cues, therapeutic drugs, environmental changes, or diseases. Gene regulation is critical for an organism to optimize their metabolic activity and respond to changes in various extracellular and intracellular signals. The pioneering work by Francois Jacob and Jacques Monod in 1961 depicted a classic example of how genetic mechanisms can be altered in response to changing environmental stimulants to regulate bacterial metabolic activities. The operon model depicting this phenomenon was based on lactose metabolism in <italic toggle="yes">Escherichia coli.</italic><xref ref-type="bibr" rid="article-23463.r1">[1]</xref></p>
+        <p>Genes involved in bacterial metabolic pathways are clustered together and coordinately transcribed under a common promoter. These structural genes, the promoter, and additional sequences that regulate their expression are called operons. Clustering allows coordinated regulation and expression of the genes and provides rapid adaptation to various environmental changes. An inducible operon is one whose expression increases quantitatively in response to an enhancer, an inducer, or a positive regulator. The lac operon is a classic example of an inducible operon. It is induced by lactose and its structural analogs: isopropyl beta-D-1 thiogalactopyranoside (IPTG) and thiomethyl galactoside (TMG) (See <bold>Video.&#x000a0;</bold>Lac Operon and its Regulatory Elements).<xref ref-type="bibr" rid="article-23463.r2">[2]</xref><xref ref-type="bibr" rid="article-23463.r3">[3]</xref>&#x000a0;&#x000a0;</p>
+        <p>Many other inducible operons have been identified since the introduction of the operon model, which plays a key role in bacterial metabolism and survival against host defense mechanisms. Examples include the gal operon regulating galactose metabolism induced in the presence of D-galactose and the L-arabinose operon metabolizing arabinose and induced by it.<xref ref-type="bibr" rid="article-23463.r4">[4]</xref><xref ref-type="bibr" rid="article-23463.r5">[5]</xref></p>
+      </sec>
+      <sec id="article-23463.s2" sec-type="Development">
+        <title>Development</title>
+        <p>The operon model has been the paradigm for understanding gene regulation and has laid a foundation for the development of modern molecular biology. In 1941, experiments by Jacques Monod showed that bacterial colonies of Escherichia grown in the presence of glucose and lactose metabolized glucose until it was completely exhausted. The lactose metabolism only began after a lag period, resulting in a diauxic bacterial growth curve. It shows&#x000a0;2 distinct exponential growth phases separated by a brief period of lag phase, signifying the sequential utilization of different carbon sources. The first phase corresponds to glucose utilization, followed by the second phase for lactose. The lag phase arises due to the time bacterial cells take to synthesize enzymes required for lactose metabolism.&#x000a0;Based on this behavior, Karstrom coined the term "enzyme adaptation" for the enzymes produced only in the presence of their particular substrate. This was later redefined and termed "enzyme induction."<xref ref-type="bibr" rid="article-23463.r6">[6]</xref><xref ref-type="bibr" rid="article-23463.r7">[7]</xref></p>
+        <p>These observations were followed by Monod&#x02019;s experiments to study the kinetics of enzyme induction in <italic toggle="yes">Escherichia coli</italic>. He observed that adding a small metabolite to bacterial colonies increased the production of beta-galactosidase (an enzyme called lactase). The metabolite was recognized as allolactose, a natural inducer of beta-galactosidase, produced from a side reaction catalyzed by beta-galactosidase. Many other inducers were synthesized that could mimic the activity of allolactose and induce the synthesis of beta-galactosidase. One such effective molecule is isopropyl beta-d-1 thiogalactopyranoside (IPTG). Although capable of inducing the enzyme, it cannot be catabolized by beta-galactosidase, unlike allolactose, which can be hydrolyzed to glucose and galactose. Therefore, it is called a gratuitous inducer. Many mutant bacterial strains were produced that affected the synthesis of the enzyme, depending on the deleted genes. While some strains could produce the enzyme constitutively, others lost this ability even in the presence of an inducer.<xref ref-type="bibr" rid="article-23463.r8">[8]</xref></p>
+        <p>Andre Lwoff and Francois Jacob observed a similar induction phenomenon while exploring the development of a lambda bacteriophage. The bacteriophage could switch from a lysogenic phage to a lytic phage in response to noxious environmental stimulus. This raised the same fundamental question of how cellular events and genetic elements are switched on and off. The PaJaMa experiments in 1959 demonstrated that these inducers work by relieving the genetic synthetic machinery from a reversible inhibition. These observations led to the development of the operon model for which Francois Jacob, Jacques Monod, and Andre Michel Lwoff received the Nobel Prize in Physiology or Medicine in 1965.<xref ref-type="bibr" rid="article-23463.r8">[8]</xref></p>
+      </sec>
+      <sec id="article-23463.s3" sec-type="Cellular">
+        <title>Cellular</title>
+        <p>The lac operon spans over 5300 base pairs and contains&#x000a0;3 structural genes:&#x000a0;<italic toggle="yes">LacZ, LacY,</italic>&#x000a0;and&#x000a0;<italic toggle="yes">LacA. </italic>A single lac promoter coordinates its transcription between base pairs -36 and -7 from the transcription start site.&#x000a0;The DNA-dependent RNA-polymerase binds to the promoter during each transcription cycle and initiates transcription. This produces a single polycistronic mRNA containing multiple independent Stop and Start codons. Each of the&#x000a0;3 proteins is translated separately and not cleaved from a single polypeptide precursor.<xref ref-type="bibr" rid="article-23463.r1">[1]</xref><xref ref-type="bibr" rid="article-23463.r6">[6]</xref><xref ref-type="bibr" rid="article-23463.r9">[9]</xref></p>
+        <p>Structural genes of the lac operon encode proteins that coordinately metabolize lactose<italic toggle="yes">. </italic></p>
+        <p>
+<bold>
+<italic toggle="yes">LacZ</italic>
+</bold>
+</p>
+        <p>The<italic toggle="yes"> LacZ</italic>&#x000a0;gene encodes for a tetrameric enzyme, beta-galactosidase. It contains&#x000a0;4 identical polypeptide subunits and plays a central role in the breakdown of lactose. It catalyzes the hydrolysis of lactose and allolactose to glucose and galactose and the&#x000a0;transgalactosylation of lactose to its structural analog, allolactose.<xref ref-type="bibr" rid="article-23463.r10">[10]</xref></p>
+        <p>
+<bold>
+<italic toggle="yes">
+<italic toggle="yes">LacY</italic>
+</italic>
+</bold>
+</p>
+        <p>The<italic toggle="yes"> LacY </italic>gene&#x000a0;encodes for lactose permease (LacY), a transmembrane protein belonging to the oligosaccharide/H+ symporter subfamily. It is a secondary active transporter and drives the reversible transport of galactosides (such as lactose) with a proton molecule into the cell.<xref ref-type="bibr" rid="article-23463.r11">[11]</xref></p>
+        <p>
+<bold>
+<italic toggle="yes">
+<italic toggle="yes">LacA</italic>
+</italic>
+</bold>
+</p>
+        <p>The<italic toggle="yes"> LacA</italic>&#x000a0;gene encodes for thiogalactoside transacetylase, also called galactoside acetyltransferase. It transfers an acetyl group from coenzyme A to the 6-O-methyl position of pyranose rings in beta-galactosides. Although the roles of the former&#x000a0;2 enzymes are well known, the biological function of galactoside acetyltransferase remains uncertain. Acetylation of these galactosides causes their efflux and reduces their re-entry into the cells. This prevents the toxic accumulation of these compounds and reduces cell stress by decreasing the intracellular concentration of the inducers.<xref ref-type="bibr" rid="article-23463.r3">[3]</xref><xref ref-type="bibr" rid="article-23463.r12">[12]</xref></p>
+        <p>The lac operon also contains regulatory genes that switch on or off the operon depending on the nutritional environment of the bacterial cells. A primary operator locus(O1) located upstream of the structural genes plays a key role in regulating their transcription. Centered around +11 base pairs from the transcription start site, it binds to a repressor protein and negatively regulates the lac operon. In addition to the primary operator,&#x000a0;2 auxiliary operators, formerly called the "pseudo-operators," have been recognized. O2 is located at 401 base pairs downstream from O1, while O3 is positioned at 82 base pairs upstream from the primary operator. They differ from O1 in a few nucleotide sequences and their binding affinity for lac repressor.<xref ref-type="bibr" rid="article-23463.r13">[13]</xref></p>
+        <p>The repressor protein is encoded by a regulatory gene, <italic toggle="yes">LacI, </italic> located on a different operon having its independent promoter. It encodes constitutively for a homotetrameric polypeptide: lac repressor. A protein of 360 amino acids has a molecular mass of 154520 Dalton. It contains a separate DNA binding site, with which it associates with the operator, and an inducer binding site, with which it binds to lactose and its structural analogs. Each tetrameric unit of the protein is arranged in&#x000a0;2 functional dimers, allowing the repressor to bind to&#x000a0;2 different operators simultaneously. The lac repressor acts as a master switch for the lac operon and optimizes the synthesis of enzymes from the structural genes.<xref ref-type="bibr" rid="article-23463.r14">[14]</xref></p>
+        <p>Immediately upstream to the lac promoter and centered between base pairs -72 and -50 is the catabolite activator protein (CAP) binding site. The transcription factor, CAP, contains&#x000a0;2 functional dimers interacting with RNA polymerase's alpha subunit C-terminal domain, increasing its recruitment and binding with the lac promoter.<xref ref-type="bibr" rid="article-23463.r6">[6]</xref><xref ref-type="bibr" rid="article-23463.r15">[15]</xref></p>
+      </sec>
+      <sec id="article-23463.s4" sec-type="Molecular Level&#x0000d;&#x0000a;">
+        <title>Molecular Level
+</title>
+        <p>The lac operon ensures the sequential utilization of different carbon sources depending on the bacterial cells' nutritional environment. Glucose is the preferred energy source, after which lactose and other carbohydrates are metabolized. This occurs due to the positive and negative regulation of the lac operon.</p>
+        <p>The genetic switch, lac repressor, without lactose, binds to the primary operator O1. It physically blocks RNA polymerase from forming the pre-initiation complex, inhibiting the synthesis of enzymes required for lactose metabolism. The&#x000a0;2 auxiliary operators, O2 and O3, further enhance this repression. The bidentate repressor binds to&#x000a0;2 operator sites simultaneously and leads to the formation of stable DNA loops. DNA looping enhances the effective concentration of the repressor at the primary regulatory operator, further inhibiting the lac operon. This cooperative binding between O1 and O2 or O1 and O3 can increase the repression intensity by as high as 1300 times.&#x000a0;Inhibiting the synthesis of enzymes required for lactose metabolism allows the cell to conserve its metabolic energy and utilize the available carbon sources.<xref ref-type="bibr" rid="article-23463.r13">[13]</xref><xref ref-type="bibr" rid="article-23463.r16">[16]</xref><xref ref-type="bibr" rid="article-23463.r17">[17]</xref></p>
+        <p>However, in the presence of lactose and the absence of its preferred carbohydrate source, the cells switch their genetic machinery to metabolize lactose as their primary energy source. Due to the inherent leakiness of the lac operon, basal levels of lac permease and beta-galactosidase are produced even in the absence of lactose. This allows lactose to enter the cell via lac permease and isomerized to allolactose by beta-galactosidase. Allolactose binds to the lac repressor and produces a conformational change, decreasing its affinity for the operator locus. Thus, the repressor dissociates from the operator, allowing the synthesis of metabolic enzymes. This provides evidence that the lac repressor can exhibit&#x000a0;2 conformational states, one where it binds to the operator and inhibits the lac operon and the other when it allows induction of the operon by binding to an inducer. The phenomenon by which the lac repressor can exhibit&#x000a0;2 structural states with different biological properties is also called allostery.<xref ref-type="bibr" rid="article-23463.r18">[18]</xref></p>
+        <p>Extracellular glucose can also regulate the lac operon by carbon catabolite repression (CCR), a phenomenon formerly called the "glucose effect." The phosphoenolpyruvate: carbohydrate phosphotransferase system (PTS) couples the transport and phosphorylation of glucose as it moves into the cell and plays a central role in exerting the effects of glucose on the expression of the lac operon. The transfer of a phosphate group from phosphoenolpyruvate to glucose occurs in 2 steps, each catalyzed by different proteins. The phosphoryl group is first accepted by enzyme I and HPr, which transfers it to a sugar-specific Enzyme II. Enzyme II, which is specific for transporting glucose, is EIIAGlc. As glucose levels increase in the environment, they are transported into the cells and phosphorylated by EIIAGlc. Dephosphorylated EIIAGlc binds to&#x000a0;<italic toggle="yes">LacY</italic>&#x000a0;and prevents the formation of lac permease. This blocks the entry of lactose into the cell, decreasing the intracellular concentration of the inducer, a phenomenon called inducer exclusion. This ensures that the cells use glucose and that other carbon sources, such as lactose, are not metabolized.<xref ref-type="bibr" rid="article-23463.r19">[19]</xref><xref ref-type="bibr" rid="article-23463.r20">[20]</xref></p>
+        <p>Without glucose, phosphorylated EIIAGlc activates the adenylyl cyclase, which converts adenosine triphosphate (ATP) to cyclic adenosine monophosphate (cAMP). cAMP binds to and activates the cAMP receptor protein(CRP), called the Catabolite Activator Protein (CAP). CAP interacts with the CAP binding site, increases the recruitment of RNA polymerase, and enhances its interaction with the lac promoter, positively regulating the transcription mechanism. Thus, the synthesis of enzymes required for lactose metabolism is increased in the absence of glucose.<xref ref-type="bibr" rid="article-23463.r15">[15]</xref><xref ref-type="bibr" rid="article-23463.r21">[21]</xref></p>
+        <p>Another mechanism regulating the synthesis of enzymes is the presence of a positive feedback loop. Increased production of lac permease and beta-galactosidase increases lactose uptake and its conversion into allolactose, which further reduces the concentration of active repressor and induces the operon. Consequently, more lac permease and beta-galactosidase are produced, and the cycle continues.<xref ref-type="bibr" rid="article-23463.r6">[6]</xref></p>
+      </sec>
+      <sec id="article-23463.s5" sec-type="Function">
+        <title>Function</title>
+        <p>The clustering of genes involved in a metabolic pathway and their coregulation under a single promoter helps in rapid adaptation to fluctuating levels of food supplies in the environment. The lac operon enables bacterial cells to take full advantage of the available carbon sources by rapidly assimilating and utilizing metabolizable substrates (such as glucose) and switching to other food supplies only after its supply is exhausted. Regulation at the transcription level prevents metabolic energy from getting lost in transcription and translation. The formation of a single polycistronic mRNA decreases gene expression noise and ensures better stoichiometry.<xref ref-type="bibr" rid="article-23463.r1">[1]</xref><xref ref-type="bibr" rid="article-23463.r22">[22]</xref><xref ref-type="bibr" rid="article-23463.r23">[23]</xref></p>
+        <p>Many other inducible operons that protect the bacterial cells from host defense mechanisms have been identified. Inducible operons are important in rendering antimicrobial resistance to pathogenic organisms. The mef(E)/mel operon carried on the Macrolide Efflux Genetic Assembly(MEGA) confers resistance to macrolides in&#x000a0;<italic toggle="yes">Streptococcus pneumoniae.&#x000a0;</italic>This inducible operon encodes for a macrolide efflux pump and a ribosomal protection protein, preventing the entry of macrolides and their action on ribosomes. The expression of anti-microbial resistance proteins is controlled at the transcription level and induced in the presence of 14- and 15-membered macrolides, tilmicosin rosamicin, and tetracyclines.<xref ref-type="bibr" rid="article-23463.r24">[24]</xref><xref ref-type="bibr" rid="article-23463.r25">[25]</xref>&#x000a0;</p>
+        <p>The&#x000a0;marRAB operon in <italic toggle="yes">Escherichia coli</italic> belongs to the multidrug resistance (mdr) system. It confers resistance to a wide range of functionally and structurally diverse compounds by decreasing the synthesis of porins and activating efflux pumps. It is induced in the presence of tetracycline, chloramphenicol, and salicylates.<xref ref-type="bibr" rid="article-23463.r26">[26]</xref></p>
+      </sec>
+      <sec id="article-23463.s6" sec-type="Mechanism">
+        <title>Mechanism</title>
+        <p>The mechanisms by which transcription regulation is determined can be positive or negative. If the regulatory protein is an activator, we can say it is a positive regulation; if the protein is a repressor, the regulation&#x000a0;is negative. We can distinguish inducible operons with negative and positive regulation and repressible operons with positive and negative regulation.</p>
+      </sec>
+      <sec id="article-23463.s7" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Identifying inducible systems, important in mediating antimicrobial resistance, opens doors for developing newer antimicrobial therapies. Understanding the molecular basis of sensing and responding to antibiotics in these operons, including the molecular induction process, can help develop potential antimicrobials that target these induction mechanisms and have noninducing properties.<xref ref-type="bibr" rid="article-23463.r25">[25]</xref></p>
+        <p>In recent years, the concept of an inducible system has been extended to mammalian cells to develop tools that aid in studying gene expression and regulation. Allolactose and IPTG have been exploited to induce the expression of target genes to study their function and roles in various disease processes. Gene regulation using these inducible systems can aid in developing cancer therapy and treating various genetic disorders.<xref ref-type="bibr" rid="article-23463.r27">[27]</xref>&#x000a0;Man's manipulation of operons is a major step in enabling bacterial cells to produce medically important proteins such as human insulin.</p>
+      </sec>
+      <sec id="article-23463.s8">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=23463&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=23463">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/23463/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=23463">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-23463.s9">
+        <fig id="article-23463.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Lac Operon and its Regulatory Elements. The expression of lac operon under different nutritional conditions. Contributed by T Sanganeria</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Lac__operon__images.mp4" mime-subtype="mp4" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-23463.s10">
+        <title>References</title>
+        <ref id="article-23463.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Osbourn</surname>
+                <given-names>AE</given-names>
+              </name>
+              <name>
+                <surname>Field</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Operons.</article-title>
+            <source>Cell Mol Life Sci</source>
+            <year>2009</year>
+            <month>Dec</month>
+            <volume>66</volume>
+            <issue>23</issue>
+            <fpage>3755</fpage>
+            <page-range>3755-75</page-range>
+            <pub-id pub-id-type="pmid">19662496</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>S&#x000e1;enz-Lahoya</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Bitarte</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Garc&#x000ed;a</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Burgui</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Vergara-Irigaray</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Valle</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Solano</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Toledo-Arana</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Lasa</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <article-title>Noncontiguous operon is a genetic organization for coordinating bacterial gene expression.</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>2019</year>
+            <month>Jan</month>
+            <day>29</day>
+            <volume>116</volume>
+            <issue>5</issue>
+            <fpage>1733</fpage>
+            <page-range>1733-1738</page-range>
+            <pub-id pub-id-type="pmid">30635413</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Marbach</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Bettenbrock</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>lac operon induction in Escherichia coli: Systematic comparison of IPTG and TMG induction and influence of the transacetylase LacA.</article-title>
+            <source>J Biotechnol</source>
+            <year>2012</year>
+            <month>Jan</month>
+            <volume>157</volume>
+            <issue>1</issue>
+            <fpage>82</fpage>
+            <page-range>82-8</page-range>
+            <pub-id pub-id-type="pmid">22079752</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schleif</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Regulation of the L-arabinose operon of Escherichia coli.</article-title>
+            <source>Trends Genet</source>
+            <year>2000</year>
+            <month>Dec</month>
+            <volume>16</volume>
+            <issue>12</issue>
+            <fpage>559</fpage>
+            <page-range>559-65</page-range>
+            <pub-id pub-id-type="pmid">11102706</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lewis</surname>
+                <given-names>DE</given-names>
+              </name>
+              <name>
+                <surname>Adhya</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Molecular Mechanisms of Transcription Initiation at gal Promoters and their Multi-Level Regulation by GalR, CRP and DNA Loop.</article-title>
+            <source>Biomolecules</source>
+            <year>2015</year>
+            <month>Oct</month>
+            <day>16</day>
+            <volume>5</volume>
+            <issue>4</issue>
+            <fpage>2782</fpage>
+            <page-range>2782-807</page-range>
+            <pub-id pub-id-type="pmid">26501343</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Santill&#x000e1;n</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Mackey</surname>
+                <given-names>MC</given-names>
+              </name>
+            </person-group>
+            <article-title>Quantitative approaches to the study of bistability in the lac operon of Escherichia coli.</article-title>
+            <source>J R Soc Interface</source>
+            <year>2008</year>
+            <month>Aug</month>
+            <day>06</day>
+            <volume>5 Suppl 1</volume>
+            <issue>Suppl 1</issue>
+            <fpage>S29</fpage>
+            <page-range>S29-39</page-range>
+            <pub-id pub-id-type="pmid">18426771</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>JACOB</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>MONOD</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Genetic regulatory mechanisms in the synthesis of proteins.</article-title>
+            <source>J Mol Biol</source>
+            <year>1961</year>
+            <month>Jun</month>
+            <volume>3</volume>
+            <fpage>318</fpage>
+            <page-range>318-56</page-range>
+            <pub-id pub-id-type="pmid">13718526</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lewis</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>A tale of two repressors.</article-title>
+            <source>J Mol Biol</source>
+            <year>2011</year>
+            <month>May</month>
+            <day>27</day>
+            <volume>409</volume>
+            <issue>1</issue>
+            <fpage>14</fpage>
+            <page-range>14-27</page-range>
+            <pub-id pub-id-type="pmid">21392509</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hediger</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Johnson</surname>
+                <given-names>DF</given-names>
+              </name>
+              <name>
+                <surname>Nierlich</surname>
+                <given-names>DP</given-names>
+              </name>
+              <name>
+                <surname>Zabin</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <article-title>DNA sequence of the lactose operon: the lacA gene and the transcriptional termination region.</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>1985</year>
+            <month>Oct</month>
+            <volume>82</volume>
+            <issue>19</issue>
+            <fpage>6414</fpage>
+            <page-range>6414-8</page-range>
+            <pub-id pub-id-type="pmid">3901000</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Juers</surname>
+                <given-names>DH</given-names>
+              </name>
+              <name>
+                <surname>Matthews</surname>
+                <given-names>BW</given-names>
+              </name>
+              <name>
+                <surname>Huber</surname>
+                <given-names>RE</given-names>
+              </name>
+            </person-group>
+            <article-title>LacZ &#x003b2;-galactosidase: structure and function of an enzyme of historical and molecular biological importance.</article-title>
+            <source>Protein Sci</source>
+            <year>2012</year>
+            <month>Dec</month>
+            <volume>21</volume>
+            <issue>12</issue>
+            <fpage>1792</fpage>
+            <page-range>1792-807</page-range>
+            <pub-id pub-id-type="pmid">23011886</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kaback</surname>
+                <given-names>HR</given-names>
+              </name>
+              <name>
+                <surname>Guan</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>It takes two to tango: The dance of the permease.</article-title>
+            <source>J Gen Physiol</source>
+            <year>2019</year>
+            <month>Jul</month>
+            <day>01</day>
+            <volume>151</volume>
+            <issue>7</issue>
+            <fpage>878</fpage>
+            <page-range>878-886</page-range>
+            <pub-id pub-id-type="pmid">31147449</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Roderick</surname>
+                <given-names>SL</given-names>
+              </name>
+            </person-group>
+            <article-title>The lac operon galactoside acetyltransferase.</article-title>
+            <source>C R Biol</source>
+            <year>2005</year>
+            <month>Jun</month>
+            <volume>328</volume>
+            <issue>6</issue>
+            <fpage>568</fpage>
+            <page-range>568-75</page-range>
+            <pub-id pub-id-type="pmid">15950163</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Oehler</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Eismann</surname>
+                <given-names>ER</given-names>
+              </name>
+              <name>
+                <surname>Kr&#x000e4;mer</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>M&#x000fc;ller-Hill</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>The three operators of the lac operon cooperate in repression.</article-title>
+            <source>EMBO J</source>
+            <year>1990</year>
+            <month>Apr</month>
+            <volume>9</volume>
+            <issue>4</issue>
+            <fpage>973</fpage>
+            <page-range>973-9</page-range>
+            <pub-id pub-id-type="pmid">2182324</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lewis</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>The lac repressor.</article-title>
+            <source>C R Biol</source>
+            <year>2005</year>
+            <month>Jun</month>
+            <volume>328</volume>
+            <issue>6</issue>
+            <fpage>521</fpage>
+            <page-range>521-48</page-range>
+            <pub-id pub-id-type="pmid">15950160</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lawson</surname>
+                <given-names>CL</given-names>
+              </name>
+              <name>
+                <surname>Swigon</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Murakami</surname>
+                <given-names>KS</given-names>
+              </name>
+              <name>
+                <surname>Darst</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Berman</surname>
+                <given-names>HM</given-names>
+              </name>
+              <name>
+                <surname>Ebright</surname>
+                <given-names>RH</given-names>
+              </name>
+            </person-group>
+            <article-title>Catabolite activator protein: DNA binding and transcription activation.</article-title>
+            <source>Curr Opin Struct Biol</source>
+            <year>2004</year>
+            <month>Feb</month>
+            <volume>14</volume>
+            <issue>1</issue>
+            <fpage>10</fpage>
+            <page-range>10-20</page-range>
+            <pub-id pub-id-type="pmid">15102444</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Deuschle</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Gentz</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Bujard</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>lac Repressor blocks transcribing RNA polymerase and terminates transcription.</article-title>
+            <source>Proc Natl Acad Sci U S A</source>
+            <year>1986</year>
+            <month>Jun</month>
+            <volume>83</volume>
+            <issue>12</issue>
+            <fpage>4134</fpage>
+            <page-range>4134-7</page-range>
+            <pub-id pub-id-type="pmid">3520567</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Becker</surname>
+                <given-names>NA</given-names>
+              </name>
+              <name>
+                <surname>Peters</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Maher</surname>
+                <given-names>LJ</given-names>
+              </name>
+              <name>
+                <surname>Lionberger</surname>
+                <given-names>TA</given-names>
+              </name>
+            </person-group>
+            <article-title>Mechanism of promoter repression by Lac repressor-DNA loops.</article-title>
+            <source>Nucleic Acids Res</source>
+            <year>2013</year>
+            <month>Jan</month>
+            <day>07</day>
+            <volume>41</volume>
+            <issue>1</issue>
+            <fpage>156</fpage>
+            <page-range>156-66</page-range>
+            <pub-id pub-id-type="pmid">23143103</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lewis</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Allostery and the lac Operon.</article-title>
+            <source>J Mol Biol</source>
+            <year>2013</year>
+            <month>Jul</month>
+            <day>10</day>
+            <volume>425</volume>
+            <issue>13</issue>
+            <fpage>2309</fpage>
+            <page-range>2309-16</page-range>
+            <pub-id pub-id-type="pmid">23500493</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hogema</surname>
+                <given-names>BM</given-names>
+              </name>
+              <name>
+                <surname>Arents</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>Bader</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Eijkemans</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Yoshida</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Takahashi</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Aiba</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Postma</surname>
+                <given-names>PW</given-names>
+              </name>
+            </person-group>
+            <article-title>Inducer exclusion in Escherichia coli by non-PTS substrates: the role of the PEP to pyruvate ratio in determining the phosphorylation state of enzyme IIAGlc.</article-title>
+            <source>Mol Microbiol</source>
+            <year>1998</year>
+            <month>Nov</month>
+            <volume>30</volume>
+            <issue>3</issue>
+            <fpage>487</fpage>
+            <page-range>487-98</page-range>
+            <pub-id pub-id-type="pmid">9822815</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vinuselvi</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>SK</given-names>
+              </name>
+              <name>
+                <surname>Ghim</surname>
+                <given-names>CM</given-names>
+              </name>
+            </person-group>
+            <article-title>Rewiring carbon catabolite repression for microbial cell factory.</article-title>
+            <source>BMB Rep</source>
+            <year>2012</year>
+            <month>Feb</month>
+            <volume>45</volume>
+            <issue>2</issue>
+            <fpage>59</fpage>
+            <page-range>59-70</page-range>
+            <pub-id pub-id-type="pmid">22360882</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ammar</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Rao</surname>
+                <given-names>CV</given-names>
+              </name>
+            </person-group>
+            <article-title>Regulation of metabolism in Escherichia coli during growth on mixtures of the non-glucose sugars: arabinose, lactose, and xylose.</article-title>
+            <source>Sci Rep</source>
+            <year>2018</year>
+            <month>Jan</month>
+            <day>12</day>
+            <volume>8</volume>
+            <issue>1</issue>
+            <fpage>609</fpage>
+            <pub-id pub-id-type="pmid">29330542</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Deutscher</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>The mechanisms of carbon catabolite repression in bacteria.</article-title>
+            <source>Curr Opin Microbiol</source>
+            <year>2008</year>
+            <month>Apr</month>
+            <volume>11</volume>
+            <issue>2</issue>
+            <fpage>87</fpage>
+            <page-range>87-93</page-range>
+            <pub-id pub-id-type="pmid">18359269</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Stoebel</surname>
+                <given-names>DM</given-names>
+              </name>
+              <name>
+                <surname>Dean</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Dykhuizen</surname>
+                <given-names>DE</given-names>
+              </name>
+            </person-group>
+            <article-title>The cost of expression of Escherichia coli lac operon proteins is in the process, not in the products.</article-title>
+            <source>Genetics</source>
+            <year>2008</year>
+            <month>Mar</month>
+            <volume>178</volume>
+            <issue>3</issue>
+            <fpage>1653</fpage>
+            <page-range>1653-60</page-range>
+            <pub-id pub-id-type="pmid">18245823</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schroeder</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name>
+                <surname>Lohsen</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Chancey</surname>
+                <given-names>ST</given-names>
+              </name>
+              <name>
+                <surname>Stephens</surname>
+                <given-names>DS</given-names>
+              </name>
+            </person-group>
+            <article-title>High-Level Macrolide Resistance Due to the Mega Element [<italic>mef</italic>(E)/<italic>mel</italic>] in <italic>Streptococcus pneumoniae</italic>.</article-title>
+            <source>Front Microbiol</source>
+            <year>2019</year>
+            <volume>10</volume>
+            <fpage>868</fpage>
+            <pub-id pub-id-type="pmid">31105666</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chancey</surname>
+                <given-names>ST</given-names>
+              </name>
+              <name>
+                <surname>Z&#x000e4;hner</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Stephens</surname>
+                <given-names>DS</given-names>
+              </name>
+            </person-group>
+            <article-title>Acquired inducible antimicrobial resistance in Gram-positive bacteria.</article-title>
+            <source>Future Microbiol</source>
+            <year>2012</year>
+            <month>Aug</month>
+            <volume>7</volume>
+            <issue>8</issue>
+            <fpage>959</fpage>
+            <page-range>959-78</page-range>
+            <pub-id pub-id-type="pmid">22913355</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Seoane</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Levy</surname>
+                <given-names>SB</given-names>
+              </name>
+            </person-group>
+            <article-title>Characterization of MarR, the repressor of the multiple antibiotic resistance (mar) operon in Escherichia coli.</article-title>
+            <source>J Bacteriol</source>
+            <year>1995</year>
+            <month>Jun</month>
+            <volume>177</volume>
+            <issue>12</issue>
+            <fpage>3414</fpage>
+            <page-range>3414-9</page-range>
+            <pub-id pub-id-type="pmid">7768850</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23463.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Myung</surname>
+                <given-names>SH</given-names>
+              </name>
+              <name>
+                <surname>Park</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Han</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>TH</given-names>
+              </name>
+            </person-group>
+            <article-title>Development of the Mammalian Expression Vector System that can be Induced by IPTG and/or Lactose.</article-title>
+            <source>J Microbiol Biotechnol</source>
+            <year>2020</year>
+            <month>Aug</month>
+            <day>28</day>
+            <volume>30</volume>
+            <issue>8</issue>
+            <fpage>1124</fpage>
+            <page-range>1124-1131</page-range>
+            <pub-id pub-id-type="pmid">32423185</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

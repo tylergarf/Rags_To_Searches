@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-28427" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Physiology, Resting Potential</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Chrysafides</surname>
+            <given-names>Steven M.</given-names>
+          </name>
+          <aff>Riverside University Health System</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Bordes</surname>
+            <given-names>Stephen J.</given-names>
+          </name>
+          <aff>Department of Surgery, Louisiana State University Health Sciences Center</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Sharma</surname>
+            <given-names>Sandeep</given-names>
+          </name>
+          <aff>Mery Fitzgerald Hospital</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Steven Chrysafides declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Stephen Bordes declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Sandeep Sharma declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>10</day>
+          <month>4</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-28427.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>The resting membrane potential is the result of the movement of several different ion species through various&#x000a0;ion channels and transporters (uniporters, cotransporters, and pumps) in the plasma membrane. These movements result in different electrostatic charges across the cell membrane. Neurons and muscle cells are excitable such that these cell types can transition from a resting state to an excited state. The resting membrane potential of a cell is defined as the electrical potential difference across the plasma membrane when the cell is in a non-excited state. Traditionally, the electrical potential difference across a cell membrane is expressed by its value&#x000a0;inside the cell relative to the extracellular environment.&#x000a0;<xref ref-type="bibr" rid="article-28427.r1">[1]</xref><xref ref-type="bibr" rid="article-28427.r2">[2]</xref></p>
+      </sec>
+      <sec id="article-28427.s2" sec-type="Cellular Level&#x0000d;&#x0000a;">
+        <title>Cellular Level
+</title>
+        <p>There are a handful of crucial ions which contribute to the resting potential, with sodium (Na+) and potassium (K+) providing a dominant influence. Various negatively charged intracellular proteins and organic phosphates that cannot cross the cell membrane are also contributory. To understand how the resting membrane potential gets generated and why its value is negative, it is crucial to have an understanding of equilibrium potentials, permeability, and ion pumps.&#x000a0;<xref ref-type="bibr" rid="article-28427.r1">[1]</xref></p>
+        <p>The equilibrium potential is calculated using the Nernst equation <xref ref-type="bibr" rid="article-28427.r3">[3]</xref>&#x000a0;<xref ref-type="bibr" rid="article-28427.r1">[1]</xref>:&#x000a0;</p>
+        <p>Em = RT/zF * log([ion outside the cell]/[ion inside of the cell]).</p>
+        <p>Em= membrane equilibrium&#x000a0; potential</p>
+        <p>R = gas constant = 8.314472 J &#x000b7; K-1</p>
+        <p>T = temperature (Kelvin)&#x000a0;</p>
+        <p>F = Faraday's constant = 9.65 x 104 C mol-1</p>
+        <p>Z will be 1 for a monovalent ion such as K+, and 2 for a divalent ion such as Ca2+ and so on. Thus the equation is:</p>
+        <p>RT/F can be simplified to 61.5 at normal body temperature.</p>
+        <p>There are two important concepts central for the understanding of any membrane potential:</p>
+        <p>The first is that the difference in the concentration gradient of an ion across a semipermeable membrane drives the direction of movement of the ion. This ionic concentration gradient, or difference across the membrane surface, is maintained by the use of energy, either primary or secondary active transport, and creates a force for the movement of that ion across the membrane.&#x000a0;Again, because of the high relative permeability of the membrane to potassium, the resulting membrane potential is almost always close to the potassium equilibrium potential.&#x000a0;But in order for this process to occur, a concentration gradient of potassium ions must first be set up. This work is done by the Na+/K+ ATPase pump, which pumps 3 Na+ ions out of the cell and 2K+ into the cell to generate the Na+ and K+ concentration gradient.</p>
+        <p>The second is that the membrane is semipermeable to that ion. There is an ion channel that allows for the ions to pass through the membrane only when that specific ion channel is open. Thus, when the ion channel opens, the ion moves down its concentration gradient from high to low, in this case for K+ from the inside (intracellular region) to the outside (extracellular region). Note: permeability is the capability of ions to flow across the membrane even if they are moving or not (e.g. is there an ion channel present). However, conductance measures the movement of charge across the membrane.</p>
+        <p>We have discussed the concentration gradient and membrane permeability. Now, we discuss the electrostatic gradient formed. Positive and negative ions tend to pair with one another in an ionic solution, as opposites attract. However, the movement of only the cation from the inside of the cell to the outside of the cell leaves behind a negative anion, and thus the inside of the cell becomes more negative, while the outside of the cell becomes more positive. This generates an electrostatic gradient that builds up over time.&#x000a0;</p>
+        <p>Eventually, the negative charges inside the cell start to exert a force to keep the positively charged K+ ions inside the cell, a force that opposes the movement of the ions down the concentration gradient. When this negative electrostatic charge is opposite the force of the concentration gradient, there is no movement of the ions. This situation is called the equilibrium potential for that ion, which is calculated by the Nernst equation. Note: we must stress that only a few ions need to move across the membrane to generate the membrane potential, and thus do not significantly change the ion concentration gradient.</p>
+        <p>Since multiple ions contribute to the resting membrane potential, the Goldman-Hodgkin-Katz equation, and not the Nernst equation,&#x000a0; is used to calculate the membrane potential. <xref ref-type="bibr" rid="article-28427.r4">[4]</xref>&#x000a0;Since the ion with the greatest conductance across the membrane at rest is potassium, the potassium equilibrium potential is the major contributor to the resting membrane potential. However since some sodium and other ions leak out of the cell at rest, and so the resting membrane potential is a bit more positive at -70 mV.&#x000a0;<xref ref-type="bibr" rid="article-28427.r5">[5]</xref></p>
+        <p>Permeability refers to the ability of ions to cross the membrane and is directly proportional to the total number of open channels for a given ion in the membrane. The membrane is permeable to K+ at rest because many channels are open. In a normal cell, Na+ permeability is about 5% of the K+ permeability or even less, whereas the respective equilibrium potentials&#x000a0;are +60 mV for sodium (<italic toggle="yes">E</italic>Na) and &#x02212;90 mV for potassium (<italic toggle="yes">E</italic>K). Thus, the membrane potential will not be right at <italic toggle="yes">E</italic>K but rather depolarized (more positive value) from <italic toggle="yes">E</italic>Ka. Thus, the cell's resting potential will be approximately &#x02212;73 mV.</p>
+      </sec>
+      <sec id="article-28427.s3" sec-type="Organ Systems Involved">
+        <title>Organ Systems Involved</title>
+        <p>All cells within the body have a characteristic resting membrane potential depending on their cell type. Of primary importance, however, are neurons and the&#x000a0;three types of muscle cells: smooth, skeletal, and cardiac. Hence, resting membrane potentials are crucial to the proper functioning of the nervous and muscular systems.</p>
+      </sec>
+      <sec id="article-28427.s4" sec-type="Function">
+        <title>Function</title>
+        <p>Upon excitation, these cells deviate from their resting membrane potential to undergo a rapid action potential before coming returning&#x000a0;to rest.</p>
+        <p>For neurons, the firing of an action potential allows that cell to communicate with other cells via the release of various neurotransmitters. In muscle cells, the generation of an action potential causes the muscle to contract.</p>
+      </sec>
+      <sec id="article-28427.s5" sec-type="Mechanism">
+        <title>Mechanism</title>
+        <p>For the vast majority of solutes, intracellular and extracellular concentrations differ. As a result, there is often a driving force for the movement of solutes across the plasma membrane. The direction of this driving force involves two components: the concentration gradient and the electrical gradient. Regarding the concentration gradient, a solute will&#x000a0;move from an area where it is more concentrated to a separate area with a lower concentration. Regarding the electrical gradient, a charged solute will&#x000a0;move from an area with a similar charge towards a separate area with an opposite charge. All solutes are affected by concentration gradients, but only charged solutes are affected by electrical gradients.</p>
+        <p>In the absence of other forces, a solute that can cross a&#x000a0;membrane will do so until it reaches equilibrium. For a non-charged solute, equilibrium will take place when the concentration of that solute becomes equal on both sides of the membrane. In this case, the&#x000a0;concentration gradient is the only factor that produces a driving force for the movement of non-charged solutes. However, for charged solutes, both the concentration and electrical gradients must be taken into account, as they both influence the driving force. A charged solute is said to have achieved electrochemical equilibrium across the membrane when its concentration gradient is exactly equal and opposite that of its electrical gradient. It&#x02019;s important to note that when this occurs, it does not mean that the concentrations for that solute will be the same on both sides of the membrane. During electrochemical equilibrium for a charged solute, there is usually still a concentration gradient, but an electrical gradient oriented in the opposite direction negates it. Under these conditions, the electrical gradient for a given charged solute serves as an electrical potential difference across the membrane. The value of this potential difference represents the equilibrium potential for that charged solute.&#x000a0;<xref ref-type="bibr" rid="article-28427.r6">[6]</xref></p>
+        <p>Under physiological conditions, the ions contributing to the resting membrane potential rarely reach electrochemical equilibrium. One reason for this is that most ions cannot freely cross the cell membrane because&#x000a0;it is not&#x000a0;permeable to most ions. For instance, Na+ is a positively charged ion that has an intracellular concentration of 14 mM, an extracellular concentration of 140 mM, and an equilibrium potential value of +65 mV. This difference means that when the inside of&#x000a0;the cell is 65 mV higher than the extracellular environment, Na+ will be in electrochemical equilibrium across the plasma membrane. Moreover, K+ is a positively charged ion that has an intracellular concentration of 120 mM, an extracellular concentration of 4 mM, and an equilibrium potential of -90 mV; this means that K+ will be in electrochemical equilibrium when the cell is 90 mV lower than the extracellular environment.&#x000a0;</p>
+        <p>In the resting state, the plasma membrane has slight permeability to both Na+ and K+. However, the permeability for K+ is much greater due to the presence of&#x000a0;K+ leak channels embedded in the plasma membrane, which allow K+ to diffuse out of the cell down its electrochemical gradient. Because of this enhanced permeability, K+ is close to electrochemical equilibrium, and the membrane potential is close to the K+ equilibrium potential of -90 mV. The cell membrane at rest has a very low permeability to&#x000a0;Na+, which means Na+ is far from electrochemical equilibrium and the membrane potential is far from the Na+ equilibrium potential of +65 mV.<xref ref-type="bibr" rid="article-28427.r2">[2]</xref></p>
+        <p>The equilibrium potentials for Na+ and K+ represent two extremes, with the cell&#x02019;s resting membrane potential falling somewhere in between. Since the plasma membrane at rest has a much greater permeability for K+, the resting membrane potential (-70 to -80 mV) is much closer to the equilibrium potential of K+ (-90 mV) than it is for Na+ (+65 mV). This factor brings up an important point: the more permeable the plasma membrane is to a given ion, the more that ion will contribute to the membrane potential (the overall membrane potential will be closer&#x000a0;to the equilibrium potential of that 'dominate' ion).</p>
+        <p>Na+ and K+ do not reach electrochemical equilibrium. Even though a small amount of Na+ ions can enter the cell and K+ ions can leave the cell via K+ leak channels, the Na+/K+ pump constantly uses energy to maintain these gradients.&#x000a0;<xref ref-type="bibr" rid="article-28427.r7">[7]</xref>&#x000a0;This pump plays a large role in maintaining the ionic concentration gradient by exchanging 3 Na+ ions from inside the cell, for every 2 K+ ions brought into the cell.&#x000a0;We must stress that while this pump does not make a significant contribution to the charge of the membrane potential, it is crucial in maintaining the ionic gradients of Na+ and K+ across the membrane. What generates the resting membrane potential is the K+ that leaks from the inside of the cell to the outside via leak K+ channels and generates a negative charge in the inside of the membrane vs the outside. At rest, the membrane is impermeable to Na+, as all of the Na+ channels are closed.</p>
+      </sec>
+      <sec id="article-28427.s6" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Both the generation and maintenance of the resting membrane potential are of great&#x000a0;importance in excitable cells (neurons and muscle). Conditions that alter the resting membrane potential of these cells can have a profound impact on their proper functioning. For instance, hypokalemia is a state in which there is a lower than normal amount of K+ in the blood. As a result, there is an enhanced concentration gradient that favors the flux of K+ out of cells. This results in hyperpolarization of the cells and requires a greater stimulus to achieve action potential. This leads to a more negative potential in cardiac muscles as a result of&#x000a0;the recovery of sodium channel inactivation. Low potassium levels lead to delayed ventricular repolarization, which can contribute to&#x000a0;reentrant arrhythmias.<xref ref-type="bibr" rid="article-28427.r8">[8]</xref>&#x000a0;Increased levels of potassium result in depolarization of the membrane of cells. This depolarization inactivates sodium channels, which increases the&#x000a0;refractory period (and may lead to major arrhythmias, for example).<xref ref-type="bibr" rid="article-28427.r9">[9]</xref>&#x000a0;Major electrolyte abnormalities can lead to muscle spasms of skeletal muscles, dysrhythmias of cardiac muscles, and seizures of CNS neurons.&#x000a0;<xref ref-type="bibr" rid="article-28427.r10">[10]</xref></p>
+        <p>Note:&#x000a0;Depolarization refers to the increase in the positivity of membrane potential while hyperpolarization refers to the increase in negativity of membrane potential. These two events commonly occur in excitable cells that have an action potential, whereas most other cells have a constant resting membrane potential that does not change. Most are familiar with the concept of depolarization when referring to an action potential. For an action potential, an initial graded depolarization of the membrane results in the opening of the voltage-gated sodium channels. As large numbers of positive sodium ions rush into the cell through open channels, the interior of the cell becomes more positively charged, the membrane potential becomes more positive, and depolarization occurs. However, depolarization does not always result in an action potential. Action potentials occur only when the graded potentials (initiated by synaptic activity) are of significant strength to cause the membrane voltage to pass a threshold, after which the voltage-gated sodium channels open.&#x000a0;<xref ref-type="bibr" rid="article-28427.r11">[11]</xref></p>
+      </sec>
+      <sec id="article-28427.s7">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=28427&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=28427">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/28427/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=28427">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-28427.s8">
+        <title>References</title>
+        <ref id="article-28427.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wright</surname>
+                <given-names>SH</given-names>
+              </name>
+            </person-group>
+            <article-title>Generation of resting membrane potential.</article-title>
+            <source>Adv Physiol Educ</source>
+            <year>2004</year>
+            <month>Dec</month>
+            <volume>28</volume>
+            <issue>1-4</issue>
+            <fpage>139</fpage>
+            <page-range>139-42</page-range>
+            <pub-id pub-id-type="pmid">15545342</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28427.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Enyedi</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Czirj&#x000e1;k</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Molecular background of leak K+ currents: two-pore domain potassium channels.</article-title>
+            <source>Physiol Rev</source>
+            <year>2010</year>
+            <month>Apr</month>
+            <volume>90</volume>
+            <issue>2</issue>
+            <fpage>559</fpage>
+            <page-range>559-605</page-range>
+            <pub-id pub-id-type="pmid">20393194</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28427.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Veech</surname>
+                <given-names>RL</given-names>
+              </name>
+              <name>
+                <surname>Kashiwaya</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>King</surname>
+                <given-names>MT</given-names>
+              </name>
+            </person-group>
+            <article-title>The resting membrane potential of cells are measures of electrical work, not of ionic currents.</article-title>
+            <source>Integr Physiol Behav Sci</source>
+            <year>1995</year>
+            <season>Sep-Dec</season>
+            <volume>30</volume>
+            <issue>4</issue>
+            <fpage>283</fpage>
+            <page-range>283-307</page-range>
+            <pub-id pub-id-type="pmid">8788226</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28427.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Clay</surname>
+                <given-names>JR</given-names>
+              </name>
+            </person-group>
+            <article-title>Determining k channel activation curves from k channel currents often requires the goldman-hodgkin-katz equation.</article-title>
+            <source>Front Cell Neurosci</source>
+            <year>2009</year>
+            <volume>3</volume>
+            <fpage>20</fpage>
+            <pub-id pub-id-type="pmid">20057933</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28427.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tamagawa</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Mathematical expression of membrane potential based on Ling's adsorption theory is approximately the same as the Goldman-Hodgkin-Katz equation.</article-title>
+            <source>J Biol Phys</source>
+            <year>2019</year>
+            <month>Mar</month>
+            <volume>45</volume>
+            <issue>1</issue>
+            <fpage>13</fpage>
+            <page-range>13-30</page-range>
+            <pub-id pub-id-type="pmid">30392060</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28427.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ren</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Sodium leak channels in neuronal excitability and rhythmic behaviors.</article-title>
+            <source>Neuron</source>
+            <year>2011</year>
+            <month>Dec</month>
+            <day>22</day>
+            <volume>72</volume>
+            <issue>6</issue>
+            <fpage>899</fpage>
+            <page-range>899-911</page-range>
+            <pub-id pub-id-type="pmid">22196327</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28427.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Morth</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Pedersen</surname>
+                <given-names>BP</given-names>
+              </name>
+              <name>
+                <surname>Toustrup-Jensen</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>S&#x000f8;rensen</surname>
+                <given-names>TL</given-names>
+              </name>
+              <name>
+                <surname>Petersen</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Andersen</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Vilsen</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Nissen</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Crystal structure of the sodium-potassium pump.</article-title>
+            <source>Nature</source>
+            <year>2007</year>
+            <month>Dec</month>
+            <day>13</day>
+            <volume>450</volume>
+            <issue>7172</issue>
+            <fpage>1043</fpage>
+            <page-range>1043-9</page-range>
+            <pub-id pub-id-type="pmid">18075585</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28427.r8">
+          <label>8</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Castro</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Sharma</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Hypokalemia</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2025</year>
+            <month>1</month>
+            <day>19</day>
+            <pub-id pub-id-type="pmid">29494072</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28427.r9">
+          <label>9</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Simon</surname>
+                <given-names>LV</given-names>
+              </name>
+              <name>
+                <surname>Rout</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Hyperkalemia</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2025</year>
+            <month>12</month>
+            <day>1</day>
+            <pub-id pub-id-type="pmid">29261936</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28427.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Brown</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>O'Rourke</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Cardiac mitochondria and arrhythmias.</article-title>
+            <source>Cardiovasc Res</source>
+            <year>2010</year>
+            <month>Nov</month>
+            <day>01</day>
+            <volume>88</volume>
+            <issue>2</issue>
+            <fpage>241</fpage>
+            <page-range>241-9</page-range>
+            <pub-id pub-id-type="pmid">20621924</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28427.r11">
+          <label>11</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Grider</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Jessu</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Kabir</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Physiology, Action Potential</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2023</year>
+            <month>5</month>
+            <day>8</day>
+            <pub-id pub-id-type="pmid">30844170</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>
