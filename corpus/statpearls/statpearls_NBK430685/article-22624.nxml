@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-22624" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Health Information Technology</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Jen</surname>
+            <given-names>Maxwell Y.</given-names>
+          </name>
+          <aff>Un of California Irvine Medical Center</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Kerndt</surname>
+            <given-names>Connor C.</given-names>
+          </name>
+          <aff>Spectrum Health/Michigan State University College of Human Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Korvek</surname>
+            <given-names>Scott J.</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Maxwell Jen declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Connor Kerndt declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Scott Korvek declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>20</day>
+          <month>6</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-22624.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Health information technology (HIT) is the hardware, software, and systems that comprise the input, transmission, use, extraction, and analysis of information in the healthcare sector. The end-users of this technology include not only patients, physicians, and other front-line healthcare providers, but also medical researchers, healthcare insurance companies, public health agencies, regulatory and quality assurance entities, pharmaceutical and medical device corporations, and various levels of government. Because these entities assume a huge range of roles and have such varied needs and goals, the technology and systems that underlie HIT are, at the societal scale, critical to the delivery and advancement of healthcare.<xref ref-type="bibr" rid="article-22624.r1">[1]</xref><xref ref-type="bibr" rid="article-22624.r2">[2]</xref><xref ref-type="bibr" rid="article-22624.r3">[3]</xref></p>
+      </sec>
+      <sec id="article-22624.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>
+<bold>Functions and Goals of Healthcare Information Technology</bold>
+</p>
+        <p>The push for the development of HIT was borne from the belief that HIT would improve accountability, patient and population health outcomes, and healthcare delivery efficiencies while augmenting the ongoing effort to decrease healthcare costs.<xref ref-type="bibr" rid="article-22624.r4">[4]</xref><xref ref-type="bibr" rid="article-22624.r5">[5]</xref><xref ref-type="bibr" rid="article-22624.r6">[6]</xref><xref ref-type="bibr" rid="article-22624.r7">[7]</xref></p>
+        <p>
+<bold>Increased Accountability</bold>
+</p>
+        <p>By digitizing healthcare data, HIT improves the ease with which the data can be abstracted and reviewed by medical centers, governmental agencies, and other interested entities. Previously, with paper records, data was frequently uninterpretable, illegible, lost, and/or incomplete. As a result, the analysis and insights that could be derived were limited. With HIT, not only is data digitized, but can also be automatically sorted, structured, and presented in ways (i.e., dashboard, graphs, figures) that provide meaningful real-time actionable insights.&#x000a0;For instance, the NEDOCS score is a real-time measure of emergency department (ED) overcrowding. This is important to patient care as overcrowding has been linked to poorer patient care outcomes as well as poorer patient satisfaction. The NEDOCS score requires real-time variables (e.g., number of ED patients, the number of critical care patients, number of inpatient beds, etc.) for accurate calculation. With HIT, the required inputs can be automatically determined and thus, a minute-to-minute NEDOCS score can be&#x000a0;calculated and thus hold administrators responsible not only for developing and implementing surge plans in the setting of overcrowding but also developing long-term, evidence-based plans for hospital staffing or expansion.</p>
+        <p>
+<bold>Improved Patient and Population Health Outcomes</bold>
+</p>
+        <p>Tools and applications can be built into HIT systems to address safety and outcome issues within patient care and population health.&#x000a0;One prominent example is computerized physician order entry (CPOE). A product of HIT advances, CPOE has been touted as a major tool in the movement towards better patient care. In fact, in 2001, the Institute of Medicine, recognizing the importance of digital rather than written orders, called for the universal adoption of CPOE within all US healthcare institutions by 2010. Traditional paper orders carry multiple risks: writing an inappropriate dosage, writing for a medication to which a patient is allergic, and illegibility, to name a few. With appropriate programming, a HIT can flag these potential errors at the time of order entry, thereby decreasing medication errors, a major contributor to morbidity. On the population level, HIT tools range from biosurveillance (i.e.,&#x000a0;early warning systems for infectious disease outbreaks) to routine health screening reminders to chronic disease monitoring to medical research. One of the most prominent examples of HIT detection of disease in recent memory was the outbreak of lead poisoning caused by the Flint water crisis of 2014 to 2015 in Flint, Michigan. Due to a water supply switch, the citizens of Flint, Michigan began suffering from a variety of maladies; however, for more than a year, public officials denied any issues with the water supply stating that it was safe for public consumption. A study performed by Dr. Mona Hanna-Attisha, utilizing electronic medical record data (EMR) combined with geographic information software (GIS) concluded that the Flint water supply was heavily contaminated with lead and had resulted in thousands of cases of lead poisoning. Her findings directly lead to the first acknowledgments of the lead poisoning as well as subsequent state and federal measures to address the crisis.</p>
+        <p>
+<bold>Better Healthcare Delivery Efficiencies</bold>
+</p>
+        <p>In addition to patient-care benefits, HIT is also thought to improve the efficiency of delivering healthcare services. Some of the smaller yet still meaningful changes included improved coordination and scheduling of care and decreased administrative bureaucracy. However, improved communication through HIT systems is hoped to have an even more meaningful impact. One of the challenges of delivering healthcare efficiently is having necessary data in-hand at the right time. Because healthcare in the United States is largely fractured between competing groups of healthcare systems, private practice specialists, and hospitals, information such as test results and medical histories is often not transmitted between these entities in an efficient and timely manner. As a result, when a patient seeks services outside of his or her primary healthcare system, requests for information must be processed, and tests repeated to determine the appropriate service to deliver. In the previous era of paper records, this challenge was even greater as information even within the patient&#x02019;s own medical system had to be retrieved from a file archive. With EMRs now widespread, data within an organization can now be retrieved from an electronic data warehouse instantaneously. Unfortunately, data transfer across systems has remained a challenge; EMRs across the various providers generally cannot send information electronically. Currently, efforts are underway to build out&#x000a0;robust healthcare information exchange (HIE) networks&#x000a0;to facilitate the retrieval&#x000a0;of patient information generated at another provider or health system independently of the specific home EHR platform or vendor.&#x000a0;In another step advancing this cause, the healthcare standards organization Health Level Seven International (HL7) in 2014 proposed Fast Healthcare Interoperability Resources (FHIR), a proposed set of software and programming standards that would standardize EMR and associated HIT software for the purpose of universal interoperability. &#x000a0; Outside the hospital, health insurance companies can also take advantage of these systems to improve their practices. With digitally transmitted data comes faster and more complete processing of claims. Furthermore, HIT-software can now analyze claims data which improves actuarial calculations, comparisons of cost-effectiveness between institutions, and also helps to better detect cases of healthcare insurance fraud.</p>
+        <p>
+<bold>Decreased Healthcare Costs</bold>
+</p>
+        <p>One of the most important issues of modern times, rising healthcare costs threaten to undermine the national economy (currently, more than $1 of every $6 in the United States (US) economy is spent on healthcare) as well as other societal priorities such as education, military, and social services. Though not a cure-all, HIT is thought to decrease costs via all the methods described above: increased operational efficiencies, improved patient safety, and better chronic disease management. According to a 2005 RAND Corp. analysis, the savings achieved in improved operational efficiencies alone could amount to $77 billion annually.<xref ref-type="bibr" rid="article-22624.r8">[8]</xref><xref ref-type="bibr" rid="article-22624.r9">[9]</xref></p>
+        <p>
+<bold>Cost of Implementation</bold>
+</p>
+        <p>The primary challenge towards full adoption of HIT is the astronomical implementation cost. For EMR systems alone, such as those sold by the companies EPIC and Cerner Corp, can cost a small-to-medium-d hospital tens of millions of dollars, which may be unaffordable. The subsequent workflow changes, personnel training, associated software applications, and hospital infrastructure upgrades (e.g., additional computer and computer accessory purchases, Wi-Fi expansion, IT department expansion) represent additional costs. The subsequent learning curve leads to decreased productivity, at least temporarily which can result in decreased revenues following the expensive purchase.</p>
+        <p>
+<bold>Technologic Iatrogenesis</bold>
+</p>
+        <p>Though HIT may solve many problems, it will likely give rise to a new generation of problems. For example, data security, a smaller issue when healthcare organizations were primarily using paper charts because&#x000a0;the amount of data one could steal was limited by how much one could physically carry without getting caught, becomes a very significant issue in a world in which corporate data breaches happen on a regular basis. At least one high-profile case of a hospital data breach occurred in February of 2016 when Hollywood Presbyterian Hospital in Hollywood, California became the victim of a ransomware attack. Its EMR and computer systems were locked down by hackers who would only release the lockdown if a ransom was paid. Since all hospital operations run through the EMR, for example, labs, billing, medical records, communications, this digital attack posed a life-threatening risk to the hospital&#x02019;s patients. Another new problem that has arisen as a result of HIT is the decrease in productivity. Studies have demonstrated that working through an EMR is slower than with paper and pen. Additionally, the EMRs, in general, have typically succumbed to the problem of flashing too many warnings, many of them irrelevant similar to the problem of cardiac monitors giving too many false alarms. The general lack of specificity characterizing both the EMR warnings and cardiac monitors both slows workflow and also increases the tendency to ignore warnings even when they are relevant.</p>
+      </sec>
+      <sec id="article-22624.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Health Information Technology plays a role in improving health outcomes, quality of care, and the health care experience of patients, for example:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Allows access up-to-date evidence-based clinical guidelines and resources</p>
+          </list-item>
+          <list-item>
+            <p>Improves quality of care and patient safety</p>
+          </list-item>
+          <list-item>
+            <p>Assists patients in health maintenance</p>
+          </list-item>
+          <list-item>
+            <p>Coordinates care with multiple providers</p>
+          </list-item>
+          <list-item>
+            <p>Assists in sharing of clinical information</p>
+          </list-item>
+          <list-item>
+            <p>Relieves providers of paper-based referral process that burden practices and organizations.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-22624.s4">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=22624&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=22624">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/22624/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=22624">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-22624.s5">
+        <title>References</title>
+        <ref id="article-22624.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Liu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Sakarovitch</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Sigurdson</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>HC</given-names>
+              </name>
+              <name>
+                <surname>Profit</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Disparities in Health Care-Associated Infections in the NICU.</article-title>
+            <source>Am J Perinatol</source>
+            <year>2020</year>
+            <month>Jan</month>
+            <volume>37</volume>
+            <issue>2</issue>
+            <fpage>166</fpage>
+            <page-range>166-173</page-range>
+            <pub-id pub-id-type="pmid">31039596</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22624.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Herout</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Baggetta</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Cournoyer</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Dietz</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Robbins</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Maddox</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Dobre</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Potential impact of data source and interoperability messaging on health information technology (HIT) users: a study series from the United States Department of Veterans Affairs.</article-title>
+            <source>BMJ Health Care Inform</source>
+            <year>2019</year>
+            <month>Apr</month>
+            <volume>26</volume>
+            <issue>1</issue>
+            <fpage>0</fpage>
+            <pub-id pub-id-type="pmid">31039119</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22624.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Norell Pejner</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ourique de Morais</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Lundstr&#x000f6;m</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Laurell</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Sk&#x000e4;rs&#x000e4;ter</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <article-title>A Smart Home System for Information Sharing, Health Assessments, and Medication Self-Management for Older People: Protocol for a Mixed-Methods Study.</article-title>
+            <source>JMIR Res Protoc</source>
+            <year>2019</year>
+            <month>Apr</month>
+            <day>30</day>
+            <volume>8</volume>
+            <issue>4</issue>
+            <fpage>e12447</fpage>
+            <pub-id pub-id-type="pmid">31038459</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22624.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Silverman</surname>
+                <given-names>HD</given-names>
+              </name>
+              <name>
+                <surname>Steen</surname>
+                <given-names>EB</given-names>
+              </name>
+              <name>
+                <surname>Carpenito</surname>
+                <given-names>JN</given-names>
+              </name>
+              <name>
+                <surname>Ondrula</surname>
+                <given-names>CJ</given-names>
+              </name>
+              <name>
+                <surname>Williamson</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Fridsma</surname>
+                <given-names>DB</given-names>
+              </name>
+            </person-group>
+            <article-title>Domains, tasks, and knowledge for clinical informatics subspecialty practice: results of a practice analysis.</article-title>
+            <source>J Am Med Inform Assoc</source>
+            <year>2019</year>
+            <month>Jul</month>
+            <day>01</day>
+            <volume>26</volume>
+            <issue>7</issue>
+            <fpage>586</fpage>
+            <page-range>586-593</page-range>
+            <pub-id pub-id-type="pmid">31037303</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22624.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Atkinson</surname>
+                <given-names>KM</given-names>
+              </name>
+              <name>
+                <surname>Wilson</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Murphy</surname>
+                <given-names>MSQ</given-names>
+              </name>
+              <name>
+                <surname>El-Halabi</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Kahale</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Laflamme</surname>
+                <given-names>LL</given-names>
+              </name>
+              <name>
+                <surname>El-Khatib</surname>
+                <given-names>Z</given-names>
+              </name>
+            </person-group>
+            <article-title>Effectiveness of digital technologies at improving vaccine uptake and series completion - A systematic review and meta-analysis of randomized controlled trials.</article-title>
+            <source>Vaccine</source>
+            <year>2019</year>
+            <month>May</month>
+            <day>21</day>
+            <volume>37</volume>
+            <issue>23</issue>
+            <fpage>3050</fpage>
+            <page-range>3050-3060</page-range>
+            <pub-id pub-id-type="pmid">31036457</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22624.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Leviton</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Oppenheimer</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Chiujdea</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Antonetty</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Ojo</surname>
+                <given-names>OW</given-names>
+              </name>
+              <name>
+                <surname>Garcia</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Weas</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Fleegler</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Chan</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Loddenkemper</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Characteristics of Future Models of Integrated Outpatient Care.</article-title>
+            <source>Healthcare (Basel)</source>
+            <year>2019</year>
+            <month>Apr</month>
+            <day>27</day>
+            <volume>7</volume>
+            <issue>2</issue>
+            <pub-id pub-id-type="pmid">31035586</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22624.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yousaf</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Mehmood</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Saba</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Rehman</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Munshi</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Alharbey</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Rashid</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Mobile-Health Applications for the Efficient Delivery of Health Care Facility to People with Dementia (PwD) and Support to Their Carers: A Survey.</article-title>
+            <source>Biomed Res Int</source>
+            <year>2019</year>
+            <volume>2019</volume>
+            <fpage>7151475</fpage>
+            <pub-id pub-id-type="pmid">31032361</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22624.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yoshida</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Boren</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Soares</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Popescu</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Nielson</surname>
+                <given-names>SD</given-names>
+              </name>
+              <name>
+                <surname>Koopman</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Kennedy</surname>
+                <given-names>DR</given-names>
+              </name>
+              <name>
+                <surname>Simoes</surname>
+                <given-names>EJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Effect of Health Information Technologies on Cardiovascular Risk Factors among Patients with Diabetes.</article-title>
+            <source>Curr Diab Rep</source>
+            <year>2019</year>
+            <month>Apr</month>
+            <day>27</day>
+            <volume>19</volume>
+            <issue>6</issue>
+            <fpage>28</fpage>
+            <pub-id pub-id-type="pmid">31030289</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22624.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Russo</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Rosano</surname>
+                <given-names>GMC</given-names>
+              </name>
+              <name>
+                <surname>Favato</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Staniscia</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Romano</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Cost-effectiveness of direct acting oral anticoagulants in the prevention of thromboembolic complications: limits and concerns of economic evaluations.</article-title>
+            <source>J Cardiovasc Med (Hagerstown)</source>
+            <year>2019</year>
+            <month>Aug</month>
+            <volume>20</volume>
+            <issue>8</issue>
+            <fpage>500</fpage>
+            <page-range>500-503</page-range>
+            <pub-id pub-id-type="pmid">31033777</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

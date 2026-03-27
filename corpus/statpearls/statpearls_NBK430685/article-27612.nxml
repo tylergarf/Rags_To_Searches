@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-27612" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Predictive Medicine</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Jen</surname>
+            <given-names>Maxwell Y.</given-names>
+          </name>
+          <aff>Un of California Irvine Medical Center</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Shahrokhi </surname>
+            <given-names>Mahsa</given-names>
+          </name>
+          <aff>Saint James School of Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Varacallo</surname>
+            <given-names>Matthew A.</given-names>
+          </name>
+          <aff>Penn Highlands Healthcare System</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Maxwell Jen declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Mahsa Shahrokhi declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Matthew Varacallo declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>17</day>
+          <month>10</month>
+          <year>2022</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-27612.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Healthcare in the United States is primarily based on diagnosing and treating the disease. Consider several of the most prominent medical advances of the past century:&#x000a0;</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Antibiotics to treat various infections</p>
+          </list-item>
+          <list-item>
+            <p>Cardiac catheterization to treat the obstructed coronary vessel(s)</p>
+          </list-item>
+          <list-item>
+            <p>Beta-blockers to treat high blood pressure&#x000a0;<xref ref-type="bibr" rid="article-27612.r1">[1]</xref><xref ref-type="bibr" rid="article-27612.r2">[2]</xref></p>
+          </list-item>
+        </list>
+        <p>Though widely accepted to result in better outcomes at lower costs, preventative medicine has received far less fanfare. One issue is that preventive medicine is less profitable than other measures. Another problem is that our understanding of individual disease risk is lacking. For example, while we know that risk factors such as smoking and pollution increase a population&#x02019;s rate of lung cancer, we cannot reliably predict the risk of lung cancer in a given individual even if smoking and pollution status is known; after all, not every person who smokes or lives next to a freeway develops lung cancer. As a result, our current approach to preventative medicine is to apply a one-fits-all intervention universally; seatbelts, vaccinations, diet, and exercise are prime examples.&#x000a0;</p>
+        <p>However, when considering additional preventative measures, there is a limited understanding of individual risk for a disease. If new interventions were applied entirely, vast resources would be wasted implementing those measures on individuals who were never at risk for that outcome. For instance, consider the waste, complications, and moral implications in a hypothetical scenario of performing universal mastectomies to prevent breast cancer.&#x000a0;</p>
+      </sec>
+      <sec id="article-27612.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>Predictive medicine is a relatively new medical subspecialty, yet the concept is not novel. In the most basic terms, predictive medicine utilizes specific laboratory and genetic tests to determine an individual's probability of developing a disease. Biomarkers have been commonly used in oncology. Still, the aim is to increase the use of similar biomarkers to predict the more common clinical disorders seen in everyday life.</p>
+        <p>
+<bold>Predictive Medicine&#x000a0;</bold>
+</p>
+        <p>Ideally, we would calculate a person&#x02019;s risk for breast cancer or any other disease and intervene appropriately. This is the goal of predictive medicine: obtaining and cataloging characteristics about individual patients, analyzing that data to predict the patient&#x02019;s risk for an outcome of interest, predicting which treatment&#x000a0;might be most effective for which individual, and then intervening before the outcome occurs.Traditionally, predictive medicine was exclusively confined to the realm of genetics. It was once thought that genetics would revolutionize medicine, and genetics and genomics have improved our ability to predict individual risk for some diseases (eg, the <italic toggle="yes">BRCA</italic> gene and breast cancer) and predict which treatment will be more effective in a given individual (eg, therapy directed at a molecular target in cancer). However, genetics-based risk prediction has proven to be of limited benefit for reasons including (1) whole-genome sequencing is still relatively expensive and not currently&#x000a0;covered by insurance, and (2) the majority of diseases afflicting the population today is multifactorial. For example, heart disease is influenced not only by genetics but also by age, diet, exercise, and stress levels. Collecting and organizing this data for analysis is invaluable.</p>
+        <p>
+<bold>The Big Data Revolution</bold>&#x000a0;<xref ref-type="bibr" rid="article-27612.r3">[3]</xref></p>
+        <p>Though never formally quantified, healthcare data has already been collected on a titanic scale; every vital sign, medical chart, and radiology image from every clinic, pharmacy, and hospital collectively represent only a tiny fraction of data points available for analysis. Social media, billing, census, and more data also include information contributing to healthcare outcomes. The amount of data increases exponentially as data collection, storage, and processing prices decrease. All this data, coupled with newer computer-based analytic techniques, such as machine learning, make up the so-called "Big Data Revolution." With big data, predictive medicine may soon be able to&#x000a0;quantify individual risk for various healthcare outcomes and determine optimal, personalized treatment options. Other industries have already taken advantage of this revolution and are continuing to refine their predictive applications: banks can predict a customer&#x02019;s risk of defaulting on a loan, and social media websites predict the type of&#x000a0;advertisement to which a user is most likely to respond, and insurance companies predict how likely an individual is to file a claim. Most importantly, these industries have developed the software and workflow infrastructure needed to deploy these analyses on the front lines of their operations in real-time.</p>
+      </sec>
+      <sec id="article-27612.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>To achieve its goals, predictive medicine must provide applicable insights about outcomes that have not yet occurred and deliver these personalized insights to frontline healthcare providers such as physicians, midlevel practitioners, and nurses at the point of patient contact. Otherwise, predictive medicine's potential is reduced to an academic novelty: compelling in theory but impractical in clinical practice.&#x000a0;</p>
+        <p>Effective adoption and implementation require significant efforts to purchase, develop, and refine the IT infrastructure and advocate for this next generation of data-based medicine. Success requires the alignment of incentives across all stakeholders&#x02014;from the medical software companies developing these tools to the medical center administration investing in the infrastructure to the healthcare providers ultimately responsible for using these tools appropriately.&#x000a0;&#x000a0; Assuming full adoption, predictive medicine faces additional new challenges. With the unprecedented acquisition and utilization of healthcare and healthcare-related data, HIPAA and data security become even more prominent issues. Philosophically, there&#x000a0;are likely&#x000a0;to be ongoing debates about the use and overuse of these technologies and their effect on clinical acumen and medical practice, just as there is ongoing criticism regarding the overuse of CTs and other imaging modalities.None of these challenges are insurmountable, and the potential benefits at this time&#x000a0;appear to be worth the effort. With the Affordable Care Act's shift from quantity-based healthcare payment reimbursement to a value-based reimbursement system, stakeholders should be even more compelled to closely examine the cost savings and quality improvements afforded by predictive medicine and big data. Only time can tell if predictive medicine lives up to its potential.<xref ref-type="bibr" rid="article-27612.r4">[4]</xref><xref ref-type="bibr" rid="article-27612.r5">[5]</xref></p>
+        <p>The biggest problem with predictive medicine is the validity of the available&#x000a0;tests. No test is 100% sensitive and 100% specific. Hence, false positives and negatives are expected when applying any test to predict disease. Cost and ethics are also major concerns when it comes to genetic testing to predict disease. When applying genetic tests to predict disease, one can never negate the role of the environment or lifestyle. Plus, the reliability of genetic testing is not 100%. With cost containment a priority in healthcare, empirical ordering of predictive tests may not be practical or realistic for the entire population.</p>
+        <p>While big data results have helped yield valuable clinical variables that are potentially associated with patient clinical outcomes of interest, one must appreciate the limitations of big data. Indeed, several reports have been made regarding potential miscoding and/or incorrect diagnostic coding that can ultimately result in&#x000a0;inconclusive or potentially incorrect statistical conclusions.</p>
+        <p>Several authors have proposed utilizing big data results and their statistically and&#x000a0;clinically relevant variables as a "flashlight" to highlight larger groups of relevant&#x000a0;variables to be applied at the institutional level as part of more customized statistically relevant analyses to mitigate these limitations.<xref ref-type="bibr" rid="article-27612.r6">[6]</xref><xref ref-type="bibr" rid="article-27612.r7">[7]</xref></p>
+      </sec>
+      <sec id="article-27612.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>Since predictive medicine can help identify patients at greatest risk for an adverse outcome, nursing staff must understand predictive medicine and the importance of the data they collect. This includes accurate and appropriate data collection, proper assessment technique, and communicating to clinician staff when a patient presents with "red flags," indicating they are an at-risk individual.</p>
+      </sec>
+      <sec id="article-27612.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=27612&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=27612">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/27612/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=27612">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-27612.s6">
+        <title>References</title>
+        <ref id="article-27612.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Khoury</surname>
+                <given-names>MJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Will genetics revolutionize medicine?</article-title>
+            <source>N Engl J Med</source>
+            <year>2000</year>
+            <month>Nov</month>
+            <day>16</day>
+            <volume>343</volume>
+            <issue>20</issue>
+            <fpage>1497; discussion 1498</fpage>
+            <pub-id pub-id-type="pmid">11184470</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-27612.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ference</surname>
+                <given-names>BA</given-names>
+              </name>
+              <name>
+                <surname>Chauhan</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Izumo</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Will genetics revolutionize medicine?</article-title>
+            <source>N Engl J Med</source>
+            <year>2000</year>
+            <month>Nov</month>
+            <day>16</day>
+            <volume>343</volume>
+            <issue>20</issue>
+            <fpage>1497</fpage>
+            <page-range>1497-8</page-range>
+            <pub-id pub-id-type="pmid">11184469</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-27612.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Murdoch</surname>
+                <given-names>TB</given-names>
+              </name>
+              <name>
+                <surname>Detsky</surname>
+                <given-names>AS</given-names>
+              </name>
+            </person-group>
+            <article-title>The inevitable application of big data to health care.</article-title>
+            <source>JAMA</source>
+            <year>2013</year>
+            <month>Apr</month>
+            <day>03</day>
+            <volume>309</volume>
+            <issue>13</issue>
+            <fpage>1351</fpage>
+            <page-range>1351-2</page-range>
+            <pub-id pub-id-type="pmid">23549579</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-27612.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Warren</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>The approach to predictive medicine that is taking genomics research by storm.</article-title>
+            <source>Nature</source>
+            <year>2018</year>
+            <month>Oct</month>
+            <volume>562</volume>
+            <issue>7726</issue>
+            <fpage>181</fpage>
+            <page-range>181-183</page-range>
+            <pub-id pub-id-type="pmid">30305759</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-27612.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bin</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Capasso</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Paternoster</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Fedeli</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Policino</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Casella</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Conti</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Genetic Risk in Insurance Field.</article-title>
+            <source>Open Med (Wars)</source>
+            <year>2018</year>
+            <volume>13</volume>
+            <fpage>294</fpage>
+            <page-range>294-297</page-range>
+            <pub-id pub-id-type="pmid">30155519</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-27612.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Varacallo</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Herzog</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Toossi</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Johanson</surname>
+                <given-names>NA</given-names>
+              </name>
+            </person-group>
+            <article-title>Ten-Year Trends and Independent Risk Factors for Unplanned Readmission Following Elective Total Joint Arthroplasty at a Large Urban Academic Hospital.</article-title>
+            <source>J Arthroplasty</source>
+            <year>2017</year>
+            <month>Jun</month>
+            <volume>32</volume>
+            <issue>6</issue>
+            <fpage>1739</fpage>
+            <page-range>1739-1746</page-range>
+            <pub-id pub-id-type="pmid">28153458</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-27612.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Varacallo</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Mattern</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Acosta</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Toossi</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Denehy</surname>
+                <given-names>KM</given-names>
+              </name>
+              <name>
+                <surname>Harding</surname>
+                <given-names>SP</given-names>
+              </name>
+            </person-group>
+            <article-title>Cost Determinants in the 90-Day Management of Isolated Ankle Fractures at a Large Urban Academic Hospital.</article-title>
+            <source>J Orthop Trauma</source>
+            <year>2018</year>
+            <month>Jul</month>
+            <volume>32</volume>
+            <issue>7</issue>
+            <fpage>338</fpage>
+            <page-range>338-343</page-range>
+            <pub-id pub-id-type="pmid">29738399</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

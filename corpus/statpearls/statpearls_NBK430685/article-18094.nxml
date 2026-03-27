@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-18094" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Bacterial DNA Mutations</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Watford</surname>
+            <given-names>Shelby</given-names>
+          </name>
+          <aff>University of North Florida</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Warrington</surname>
+            <given-names>Steven J.</given-names>
+          </name>
+          <aff>Kaweah Delta Medical Center</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Shelby Watford declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Steven Warrington declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>10</day>
+          <month>4</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-18094.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Genomes of bacteria exist on a single double-stranded circular DNA molecule that contains approximately 4000 kb of DNA and are regulated by operons. A mutation is a change in the nucleotide sequence and can create new cellular functionalities or lead to the dysfunction of others. Mutations can occur spontaneously or be caused by exposure to mutation-inducing agents.<xref ref-type="bibr" rid="article-18094.r1">[1]</xref></p>
+      </sec>
+      <sec id="article-18094.s2" sec-type="Function">
+        <title>Function</title>
+        <p>While the majority of bacterial genes exist on one circular chromosome, there are other genetic elements within the bacterial genome. Elements like plasmids, transposons, integrons, or gene cassettes are shorter sequences that mainly contribute to recombination events. Bacterial DNA replication and transcription co-occur and utilize the same template DNA. Replication forks proceed bi-directionally with a single origin of replication, OriC.</p>
+        <p>Bacterial genes with similar functions often share one promoter (RNA polymerase binding site) and are transcribed simultaneously; this system is called an operon. Typical operons consist of several structural genes that code for the enzymes required for the pathway. Regulation occurs through transcription factors binding to a short sequence of DNA between the promoter region and the structural genes called an operator.<xref ref-type="bibr" rid="article-18094.r2">[2]</xref></p>
+        <p>A mutation is a change in the nucleotide sequence of a short region of a genome, and phenotypic results may vary on the severity and location of the mutation. Mutations can result from errors during DNA replication or induced by exposure to mutagens (like chemicals and radiation). Spontaneous mutations occur at a rate of 1 in 10^5 to 10^8 and contribute to random population variation.<xref ref-type="bibr" rid="article-18094.r3">[3]</xref>&#x000a0;Since bacteria are haploid for the majority of their genes and have short generation turnover, phenotypic variation due to point mutations can occur relatively quickly.</p>
+        <p>Results of mutations can produce changes in structural or colony characteristics or loss in sensitivity to antibiotics. Some potential consequences of mutations are as follows:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Auxotrophs: have a mutation that leaves an essential nutrient process dysfunctional.</p>
+          </list-item>
+          <list-item>
+            <p>Resistant mutants: can withstand the stress of exposure to inhibitory molecules or antibiotics secondary to acquired mutation.</p>
+          </list-item>
+          <list-item>
+            <p>Regulatory mutants have disruptions on regulatory sequences like promotor regions.</p>
+          </list-item>
+          <list-item>
+            <p>Constitutive mutants: continuously express genes that usually switch on and off as in operons.</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Spontaneous Mutations</bold>
+</p>
+        <p>Spontaneous mutations occur without mutation induction and are the result of errors during DNA replication. When DNA Pol III synthesizes a new strand of DNA, occasionally, a nucleotide will be mispaired, added, or omitted.<xref ref-type="bibr" rid="article-18094.r4">[4]</xref>&#x000a0;Thus, a point mutation will occur. For example, when nucleotides are mispaired, it will appear that one nucleotide substitutes for another leading to one mutated granddaughter DNA strand. Two separate malfunctions&#x000a0;must happen in the bacteria's DNA replication machinery for this to occur:<xref ref-type="bibr" rid="article-18094.r5">[5]</xref></p>
+        <list list-type="bullet">
+          <list-item>
+            <p>DNA pol III pairs an incorrect complementary nucleotide base onto the parent strand in the replication fork</p>
+          </list-item>
+          <list-item>
+            <p>The chemical activity of the mispairing is not enough to slow the polymerase portion of DNA polymerase so that the exonuclease can remove the mispair</p>
+          </list-item>
+          <list-item>
+            <p>Studies with <italic toggle="yes">Escherichia coli</italic> show that spontaneous mutations occur 20 times more often on the lagging strand than the leading strand.<xref ref-type="bibr" rid="article-18094.r6">[6]</xref></p>
+          </list-item>
+        </list>
+        <p>DNA bases can exist in many different forms, referred to as tautomers. Nucleotide bases dominantly exist in the keto (C-O) and amino (C-NH2) forms, while the imino (C&#x02261;NH) and enol (C-OH) occur rarely. Tautomerization, during DNA replication, will alter nucleotide base pair formation. For example, assume that thymine undergoes keto-enol tautomerization during replication. This enol species will preferentially bind to guanine during the first replication cycle. Due to the semiconservative nature of DNA replication, at the end of the 2nd round of replication, there will be (3) A-T base pairs and (1) G-C in the locus of mutation.<xref ref-type="bibr" rid="article-18094.r7">[7]</xref></p>
+        <p>&#x000a0;The mechanism is as follows:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>T &#x02013; A --&#x0003e; Tautomerization --&#x0003e; T' &#x02013; A --&#x0003e; replication 1 --&#x0003e; T' &#x02013; G and A &#x02013;T</p>
+          </list-item>
+          <list-item>
+            <p>T &#x02013; G --&#x0003e; Replication 2 --&#x0003e; T&#x000a0;&#x02013;&#x000a0;A and G &#x02013; C</p>
+          </list-item>
+        </list>
+        <p>(enol form of thymine indicated as T')<xref ref-type="bibr" rid="article-18094.r8">[8]</xref></p>
+        <p>Errors in DNA replication can result in the addition of erroneous nucleotides or the deletion of template nucleotides. For example, loci with a high number of short repeat nucleotides are prone to polymerase slippage. During replication, the DNA Pol III temporarily dissociates from the template strand. The DNA polymerase may relocate a few repeats upstream or downstream of its original locus along with its newly synthesized strand.&#x000a0; Slip strand mispairing can result in addition/deletion mutations because some nucleotides are replicated twice while others do not replicate.&#x000a0;If&#x000a0;the repeats are not in a multiple of three, the mutation can result&#x000a0;in a frameshift (A shift in the coding sequence downstream of the mutation).&#x000a0;These mutations lead to loss of normal protein functionality.&#x000a0;Slip-strand mispairings can increase the variation&#x000a0;in short tandem repeats (STRs) in a bacterial population and are useful in genetic testing. When an addition or deletion occurs, the potential genomic outcomes are as follows:<xref ref-type="bibr" rid="article-18094.r9">[9]</xref></p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Silent mutation: The mutation changes the original codon into another codon that codes for the same amino acid</p>
+          </list-item>
+          <list-item>
+            <p>Missense mutation: When a mutation in the sequence causes a codon to code for a different amino acid</p>
+          </list-item>
+          <list-item>
+            <p>Nonsense mutation: A mutant stop codon replaces a wild-type codon, terminating translation resulting in a shortened protein.</p>
+          </list-item>
+        </list>
+        <p>The mutation's phenotypical severity depends on the structure of the substituted amino acid's effect on the final protein product. More specifically, non-synonymous amino acid substitutions produce dramatic changes in protein structures because of the chemical dis-similarities of the mutated strand amino acid. However, there are inherent protections against these types of mutations. The redundancy of codon translation mechanisms and the occurrence of non-coding regions result in few mutations expressing phenotypically.<xref ref-type="bibr" rid="article-18094.r10">[10]</xref></p>
+        <p>
+<bold>Mutation Induction</bold>
+</p>
+        <p>Mutagens may be of physical, chemical, or biological origin. Mostly they act on the DNA directly, causing damage, which may result in errors during replication.&#x000a0;Although severely damaged DNA can prevent replication and cause cell death. SOS is an example of cellular response to DNA damage that results in cell cycle arrest and induction of mutagenesis. Rec A induces SOS response by recognizing single-stranded DNA&#x000a0;and activating mutagenic DNA polymerases (II, IV, and V).<xref ref-type="bibr" rid="article-18094.r11">[11]</xref></p>
+        <p>The following are several classes of mutagens and their subsequent effects&#x000a0;&#x000a0;:&#x000a0;</p>
+        <p>
+<bold>Physical Mutagens</bold>
+</p>
+        <p>Examples of physical mutagens include radiation or UV exposure. UV radiation damages DNA by creating covalent linkages between adjacent pyrimidine bases. This pyrimidine dimer cannot fit well in the double helix structure of DNA, thus inhibiting replication and translation. However, dimer formation usually results in a deletion mutation. Other types of radiation can have a variety of effects (Depending on intensity and wavelength), but mostly insertions/deletions occur.&#x000a0;Purine dimers rarely occur.<xref ref-type="bibr" rid="article-18094.r12">[12]</xref></p>
+        <p>
+<bold>Chemical Mutagens</bold>
+</p>
+        <p>Chemical mutagens are agents that either directly or indirectly induce mutations.<xref ref-type="bibr" rid="article-18094.r13">[13]</xref>&#x000a0;A chemical mutagen can either replace a base in DNA, alter a base's composition and pairing behavior, or damage the base so that it can no longer pair. These include DNA reactive chemicals such as those listed below:</p>
+        <p>
+<bold>Base Analogs</bold>
+</p>
+        <p>Structurally similar enough to nucleotides in that they can incorporate into DNA. For example, 5-bromouracil, an analog of thymine, acts as a substrate during DNA replication and causes point mutations. This mispairing occurs because the base analog forms a tautomer and pairs with guanine instead of adenine.<xref ref-type="bibr" rid="article-18094.r14">[14]</xref></p>
+        <p>
+<bold>Reactive Oxygen Species</bold>
+</p>
+        <p>Hydroxyl radicals attack guanine, thereby producing 8-hydroxy-deoxyguanosine (8-OhdG), which mispairs with adenine instead of cytosine, which results in a (G -&#x0003e; T) transversion during replication.<xref ref-type="bibr" rid="article-18094.r15">[15]</xref></p>
+        <p>
+<bold>Deaminating Agents</bold>
+</p>
+        <p>These agents remove amino groups on nucleotide bases. Deaminating agents produce an adenine species that pairs with cytosine and a cytosine&#x000a0;species&#x000a0;(uracil) that pairs with adenine. Deamination of guanine results in xanthine, which inhibits replication, thereby not creating a mutation.<xref ref-type="bibr" rid="article-18094.r15">[15]</xref></p>
+        <p>
+<bold>Flat Aromatic Compounds</bold>
+</p>
+        <p>Acridines like ethidium bromide can intercalate with adjacent pyrimidine base pairs. This interaction slightly unwinds the helix and increases the distance between adjacent base pairs. This intercalation disrupts the reading frame during translation and can cause insertions or deletions.<xref ref-type="bibr" rid="article-18094.r16">[16]</xref></p>
+        <p>
+<bold>Alkylating Agents</bold>
+</p>
+        <p>Agents like ethyl methanesulfonate and dimethyl nitrosoguanidine alter the nucleotide base by adding alkyl groups. The nature and position of the alkylation can vary but usually leads to point mutations through base mispairing. However, alkylation can cause&#x000a0;crosslink formation, which inhibits&#x000a0;replication.&#x000a0;</p>
+        <p>
+<bold>Biological Mutagens</bold>
+</p>
+        <p>Biological agents of mutation are sources of DNA from elements like transposons and viruses. Transposons are sequences of DNA that can relocate and replicate autonomously. Insertion of a transposon into a DNA sequence can disrupt gene functionality. Transposition is not technically a type of recombination but is mechanistically similar. Transposons often pair with short regions of nucleotide repeats on either side of the transposition sequence.<xref ref-type="bibr" rid="article-18094.r1">[1]</xref>&#x000a0;There are three types of transposons:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Replicative transposons keep the original locus and translocate a copy&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Conservative transposons occur when the original transposon translocates&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Retrotransposons transpose via RNA intermediates&#x000a0;</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-18094.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>
+<bold>Antibiotic Resistance</bold>
+</p>
+        <p>Antibiotics work through a variety of mechanisms:<xref ref-type="bibr" rid="article-18094.r17">[17]</xref></p>
+        <list list-type="order">
+          <list-item>
+            <p>DNA synthesis inhibitors</p>
+          </list-item>
+          <list-item>
+            <p>Protein synthesis inhibitors</p>
+          </list-item>
+          <list-item>
+            <p>Cell wall synthesis inhibitors</p>
+          </list-item>
+          <list-item>
+            <p>RNA synthesis inhibitors</p>
+          </list-item>
+          <list-item>
+            <p>Mycolic acid synthesis inhibitors</p>
+          </list-item>
+          <list-item>
+            <p>Folic acid synthesis inhibitors</p>
+          </list-item>
+        </list>
+        <p>When an antibiotic loses the&#x000a0;capacity&#x000a0;to kill or control bacterial growth, antibiotic resistance occurs. This can occur in two ways:</p>
+        <list list-type="order">
+          <list-item>
+            <p>Through genetic mutation</p>
+          </list-item>
+          <list-item>
+            <p>Acquisition of resistance from other bacteria</p>
+          </list-item>
+        </list>
+        <p>These circumstances exacerbate under selective pressure (i.e., the use of antibiotics). Antibiotic resistance can spread both vertically and horizontally through a population. Horizontal transfer is considered the primary mediator of antibiotic resistance. The following are non-comprehensive examples of how two of the classes of antibiotics mentioned above encounter resistance mutations.</p>
+        <p>
+<bold>DNA Synthesis Inhibitor</bold>
+</p>
+        <p>In gram-negative bacteria, such as <italic toggle="yes">Helicobacter pylori</italic>, mutation resistance occurs relatively quickly to fluoroquinolones and thereby poses clinical issues for these therapies. Levofloxacin, moxifloxacin, and ciprofloxacin, examples of fluoroquinolones, inhibit DNA synthesis by targeting two homologous enzymes (DNA topoisomerase II and IV).<xref ref-type="bibr" rid="article-18094.r18">[18]</xref>&#x000a0;These enzymes are necessary for the supercoiling of bacterial DNA.&#x000a0;&#x000a0;</p>
+        <p>Gram-negative bacterial resistance to fluoroquinolones includes the accumulation of substitution mutations in the coding regions for particular subunits of DNA topoisomerase II. Resistance can be enhanced further by efflux pump modification.<xref ref-type="bibr" rid="article-18094.r19">[19]</xref>&#x000a0;Ciprofloxacin targets only the parC subunit while other quinolones target one or more of these subunits.<xref ref-type="bibr" rid="article-18094.r20">[20]</xref>&#x000a0;For example, garenoxacin targets both DNA topoisomerases II and IV thus is less prone to resistance. Resistance to Garenoxacin requires both proteins to have resistance mutations.<xref ref-type="bibr" rid="article-18094.r21">[21]</xref></p>
+        <p>Combination therapy for <italic toggle="yes">Helicobacter pylori</italic> typically includes clarithromycin (protein synthesis inhibitor), metronidazole (DNA synthesis inhibitor), amoxicillin (Cell wall synthesis inhibitor), or tetracycline (protein synthesis inhibitor), and a proton pump inhibitor.<xref ref-type="bibr" rid="article-18094.r22">[22]</xref><xref ref-type="bibr" rid="article-18094.r23">[23]</xref><xref ref-type="bibr" rid="article-18094.r24">[24]</xref></p>
+        <p>
+<bold>Protein Synthesis Inhibitor</bold>
+</p>
+        <p>Linezolid prevents protein synthesis and is active against resistant Gram-positives.<xref ref-type="bibr" rid="article-18094.r25">[25]</xref>&#x000a0;Linezolid inhibits the formation of the 70S ribosomal initiation complex through binding to the 23S portion of the 50S subunit.<xref ref-type="bibr" rid="article-18094.r26">[26]</xref>&#x000a0;Infrequent resistance found in strains of <italic toggle="yes">S.&#x000a0;aureus,</italic>&#x000a0;and coagulase-negative <italic toggle="yes">staphylococci</italic> has&#x000a0;mutations in the central loop of the domain V region of the <italic toggle="yes">23S rRNA</italic> gene. More specifically,&#x000a0;clinical isolates had a substitution of Thymine for Guanine at the 2576 position.<xref ref-type="bibr" rid="article-18094.r27">[27]</xref><xref ref-type="bibr" rid="article-18094.r28">[28]</xref></p>
+        <p>Intrinsically, resistant bacteria have a characteristic resistance within all members of a species or genus. Such resistance may arise because:</p>
+        <list list-type="order">
+          <list-item>
+            <p>Glycopeptides are too large to penetrate the outer membrane (gram-positive bacteria)</p>
+          </list-item>
+          <list-item>
+            <p>Antibiotics lack affinity for the target (penicillin-binding proteins of gram-positive bacteria)</p>
+          </list-item>
+          <list-item>
+            <p>Presence of efflux pumps expression (multi-drug efflux pumps of <italic toggle="yes">Pseudomonas aeruginosa</italic>)<xref ref-type="bibr" rid="article-18094.r29">[29]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Other chromosomal resistance mechanisms&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>Antibiotic resistance mechanisms can also occur by incorporating resistance genes into plasmids, transposons, and integrons. These genes spread through horizontal transfer by conjugation, transformation, or transduction mechanisms. However, the mutation is essential for the evolution or assortment of these genes.</p>
+      </sec>
+      <sec id="article-18094.s4" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>Infectious disease specialists, both clinicians and pharmacists, need to understand the mechanisms by which bacteria can undergo DNA mutations, as these mutations can confer resistance against agents that were previously effective. By understanding the mechanism and careful tracking through antibiograms, antimicrobial therapy can be targeted for the greatest effectiveness without contributing to mutations that will create "superbugs." This will result in better antibiotic therapy resulting in improved patient outcomes with fewer adverse events and the need for ever stronger broad-spectrum drugs.</p>
+      </sec>
+      <sec id="article-18094.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=18094&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=18094">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/18094/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=18094">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-18094.s6">
+        <title>References</title>
+        <ref id="article-18094.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Woodford</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Ellington</surname>
+                <given-names>MJ</given-names>
+              </name>
+            </person-group>
+            <article-title>The emergence of antibiotic resistance by mutation.</article-title>
+            <source>Clin Microbiol Infect</source>
+            <year>2007</year>
+            <month>Jan</month>
+            <volume>13</volume>
+            <issue>1</issue>
+            <fpage>5</fpage>
+            <page-range>5-18</page-range>
+            <pub-id pub-id-type="pmid">17184282</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Andersson</surname>
+                <given-names>DI</given-names>
+              </name>
+              <name>
+                <surname>Slechta</surname>
+                <given-names>ES</given-names>
+              </name>
+              <name>
+                <surname>Roth</surname>
+                <given-names>JR</given-names>
+              </name>
+            </person-group>
+            <article-title>Evidence that gene amplification underlies adaptive mutability of the bacterial lac operon.</article-title>
+            <source>Science</source>
+            <year>1998</year>
+            <month>Nov</month>
+            <day>06</day>
+            <volume>282</volume>
+            <issue>5391</issue>
+            <fpage>1133</fpage>
+            <page-range>1133-5</page-range>
+            <pub-id pub-id-type="pmid">9804552</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Torii</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Nozaki</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Masutani</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Nakagama</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Sugiyama</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Saito</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Asaka</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Sugimura</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Miki</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Spontaneous mutations in the Helicobacter pylori rpsL gene.</article-title>
+            <source>Mutat Res</source>
+            <year>2003</year>
+            <month>Mar</month>
+            <day>03</day>
+            <volume>535</volume>
+            <issue>2</issue>
+            <fpage>141</fpage>
+            <page-range>141-5</page-range>
+            <pub-id pub-id-type="pmid">12581531</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Goodman</surname>
+                <given-names>MF</given-names>
+              </name>
+            </person-group>
+            <article-title>Coping with replication 'train wrecks' in Escherichia coli using Pol V, Pol II and RecA proteins.</article-title>
+            <source>Trends Biochem Sci</source>
+            <year>2000</year>
+            <month>Apr</month>
+            <volume>25</volume>
+            <issue>4</issue>
+            <fpage>189</fpage>
+            <page-range>189-95</page-range>
+            <pub-id pub-id-type="pmid">10754553</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kreuzer</surname>
+                <given-names>KN</given-names>
+              </name>
+            </person-group>
+            <article-title>DNA damage responses in prokaryotes: regulating gene expression, modulating growth patterns, and manipulating replication forks.</article-title>
+            <source>Cold Spring Harb Perspect Biol</source>
+            <year>2013</year>
+            <month>Nov</month>
+            <day>01</day>
+            <volume>5</volume>
+            <issue>11</issue>
+            <fpage>a012674</fpage>
+            <pub-id pub-id-type="pmid">24097899</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fijalkowska</surname>
+                <given-names>IJ</given-names>
+              </name>
+              <name>
+                <surname>Schaaper</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Jonczyk</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>DNA replication fidelity in Escherichia coli: a multi-DNA polymerase affair.</article-title>
+            <source>FEMS Microbiol Rev</source>
+            <year>2012</year>
+            <month>Nov</month>
+            <volume>36</volume>
+            <issue>6</issue>
+            <fpage>1105</fpage>
+            <page-range>1105-21</page-range>
+            <pub-id pub-id-type="pmid">22404288</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Karalkar</surname>
+                <given-names>NB</given-names>
+              </name>
+              <name>
+                <surname>Khare</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Molt</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Benner</surname>
+                <given-names>SA</given-names>
+              </name>
+            </person-group>
+            <article-title>Tautomeric equilibria of isoguanine and related purine analogs.</article-title>
+            <source>Nucleosides Nucleotides Nucleic Acids</source>
+            <year>2017</year>
+            <month>Apr</month>
+            <day>03</day>
+            <volume>36</volume>
+            <issue>4</issue>
+            <fpage>256</fpage>
+            <page-range>256-274</page-range>
+            <pub-id pub-id-type="pmid">28332916</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Khuu</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Ho</surname>
+                <given-names>PS</given-names>
+              </name>
+            </person-group>
+            <article-title>A rare nucleotide base tautomer in the structure of an asymmetric DNA junction.</article-title>
+            <source>Biochemistry</source>
+            <year>2009</year>
+            <month>Aug</month>
+            <day>25</day>
+            <volume>48</volume>
+            <issue>33</issue>
+            <fpage>7824</fpage>
+            <page-range>7824-32</page-range>
+            <pub-id pub-id-type="pmid">19580331</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fan</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Chu</surname>
+                <given-names>JY</given-names>
+              </name>
+            </person-group>
+            <article-title>A brief review of short tandem repeat mutation.</article-title>
+            <source>Genomics Proteomics Bioinformatics</source>
+            <year>2007</year>
+            <month>Feb</month>
+            <volume>5</volume>
+            <issue>1</issue>
+            <fpage>7</fpage>
+            <page-range>7-14</page-range>
+            <pub-id pub-id-type="pmid">17572359</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dailidiene</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Bertoli</surname>
+                <given-names>MT</given-names>
+              </name>
+              <name>
+                <surname>Miciuleviciene</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Mukhopadhyay</surname>
+                <given-names>AK</given-names>
+              </name>
+              <name>
+                <surname>Dailide</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Pascasio</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Kupcinskas</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Berg</surname>
+                <given-names>DE</given-names>
+              </name>
+            </person-group>
+            <article-title>Emergence of tetracycline resistance in Helicobacter pylori: multiple mutational changes in 16S ribosomal DNA and other genetic loci.</article-title>
+            <source>Antimicrob Agents Chemother</source>
+            <year>2002</year>
+            <month>Dec</month>
+            <volume>46</volume>
+            <issue>12</issue>
+            <fpage>3940</fpage>
+            <page-range>3940-6</page-range>
+            <pub-id pub-id-type="pmid">12435699</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Selwood</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Larsen</surname>
+                <given-names>BJ</given-names>
+              </name>
+              <name>
+                <surname>Mo</surname>
+                <given-names>CY</given-names>
+              </name>
+              <name>
+                <surname>Culyba</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Hostetler</surname>
+                <given-names>ZM</given-names>
+              </name>
+              <name>
+                <surname>Kohli</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Reitz</surname>
+                <given-names>AB</given-names>
+              </name>
+              <name>
+                <surname>Baugh</surname>
+                <given-names>SDP</given-names>
+              </name>
+            </person-group>
+            <article-title>Advancement of the 5-Amino-1-(Carbamoylmethyl)-1H-1,2,3-Triazole-4-Carboxamide Scaffold to Disarm the Bacterial SOS Response.</article-title>
+            <source>Front Microbiol</source>
+            <year>2018</year>
+            <volume>9</volume>
+            <fpage>2961</fpage>
+            <pub-id pub-id-type="pmid">30619111</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Francino</surname>
+                <given-names>MP</given-names>
+              </name>
+              <name>
+                <surname>Ochman</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Strand asymmetries in DNA evolution.</article-title>
+            <source>Trends Genet</source>
+            <year>1997</year>
+            <month>Jun</month>
+            <volume>13</volume>
+            <issue>6</issue>
+            <fpage>240</fpage>
+            <page-range>240-5</page-range>
+            <pub-id pub-id-type="pmid">9196330</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nicolette</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Dakoulas</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Pant</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Crosby</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kondratiuk</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Murray</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Sonders</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Kulkarni</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Jayakumar</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Mathur</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Patel</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Vicente</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Datta</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Kolaja</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>A comparison of 24 chemicals in the six-well bacterial reverse mutation assay to the standard 100-mm Petri plate bacterial reverse mutation assay in two laboratories.</article-title>
+            <source>Regul Toxicol Pharmacol</source>
+            <year>2018</year>
+            <month>Dec</month>
+            <volume>100</volume>
+            <fpage>134</fpage>
+            <page-range>134-160</page-range>
+            <pub-id pub-id-type="pmid">30401633</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Janion</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Bebenek</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Plewako</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Are Escherichia coli dam- as compared to dam+ hypermutable by base analogs?</article-title>
+            <source>Acta Biochim Pol</source>
+            <year>1987</year>
+            <volume>34</volume>
+            <issue>2</issue>
+            <fpage>183</fpage>
+            <page-range>183-93</page-range>
+            <pub-id pub-id-type="pmid">3314290</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cadet</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Wagner</surname>
+                <given-names>JR</given-names>
+              </name>
+            </person-group>
+            <article-title>Oxidatively generated base damage to cellular DNA by hydroxyl radical and one-electron oxidants: similarities and differences.</article-title>
+            <source>Arch Biochem Biophys</source>
+            <year>2014</year>
+            <month>Sep</month>
+            <day>01</day>
+            <volume>557</volume>
+            <fpage>47</fpage>
+            <page-range>47-54</page-range>
+            <pub-id pub-id-type="pmid">24820329</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Martins</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>McCusker</surname>
+                <given-names>MP</given-names>
+              </name>
+              <name>
+                <surname>Viveiros</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Couto</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Fanning</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Pag&#x000e8;s</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Amaral</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>A Simple Method for Assessment of MDR Bacteria for Over-Expressed Efflux Pumps.</article-title>
+            <source>Open Microbiol J</source>
+            <year>2013</year>
+            <volume>7</volume>
+            <fpage>72</fpage>
+            <page-range>72-82</page-range>
+            <pub-id pub-id-type="pmid">23589748</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Everett</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Jin</surname>
+                <given-names>YF</given-names>
+              </name>
+              <name>
+                <surname>Ricci</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Piddock</surname>
+                <given-names>LJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Contributions of individual mechanisms to fluoroquinolone resistance in 36 Escherichia coli strains isolated from humans and animals.</article-title>
+            <source>Antimicrob Agents Chemother</source>
+            <year>1996</year>
+            <month>Oct</month>
+            <volume>40</volume>
+            <issue>10</issue>
+            <fpage>2380</fpage>
+            <page-range>2380-6</page-range>
+            <pub-id pub-id-type="pmid">8891148</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hawkey</surname>
+                <given-names>PM</given-names>
+              </name>
+            </person-group>
+            <article-title>Mechanisms of quinolone action and microbial response.</article-title>
+            <source>J Antimicrob Chemother</source>
+            <year>2003</year>
+            <month>May</month>
+            <volume>51 Suppl 1</volume>
+            <fpage>29</fpage>
+            <page-range>29-35</page-range>
+            <pub-id pub-id-type="pmid">12702701</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>De Kievit</surname>
+                <given-names>TR</given-names>
+              </name>
+              <name>
+                <surname>Parkins</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Gillis</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Srikumar</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Ceri</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Poole</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Iglewski</surname>
+                <given-names>BH</given-names>
+              </name>
+              <name>
+                <surname>Storey</surname>
+                <given-names>DG</given-names>
+              </name>
+            </person-group>
+            <article-title>Multidrug efflux pumps: expression patterns and contribution to antibiotic resistance in Pseudomonas aeruginosa biofilms.</article-title>
+            <source>Antimicrob Agents Chemother</source>
+            <year>2001</year>
+            <month>Jun</month>
+            <volume>45</volume>
+            <issue>6</issue>
+            <fpage>1761</fpage>
+            <page-range>1761-70</page-range>
+            <pub-id pub-id-type="pmid">11353623</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pereyre</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Renaudin</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>B&#x000e9;b&#x000e9;ar</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>B&#x000e9;b&#x000e9;ar</surname>
+                <given-names>CM</given-names>
+              </name>
+            </person-group>
+            <article-title>In vitro activities of the newer quinolones garenoxacin, gatifloxacin, and gemifloxacin against human mycoplasmas.</article-title>
+            <source>Antimicrob Agents Chemother</source>
+            <year>2004</year>
+            <month>Aug</month>
+            <volume>48</volume>
+            <issue>8</issue>
+            <fpage>3165</fpage>
+            <page-range>3165-8</page-range>
+            <pub-id pub-id-type="pmid">15273141</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ince</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Silver</surname>
+                <given-names>LC</given-names>
+              </name>
+              <name>
+                <surname>Hooper</surname>
+                <given-names>DC</given-names>
+              </name>
+            </person-group>
+            <article-title>Dual targeting of DNA gyrase and topoisomerase IV: target interactions of garenoxacin (BMS-284756, T-3811ME), a new desfluoroquinolone.</article-title>
+            <source>Antimicrob Agents Chemother</source>
+            <year>2002</year>
+            <month>Nov</month>
+            <volume>46</volume>
+            <issue>11</issue>
+            <fpage>3370</fpage>
+            <page-range>3370-80</page-range>
+            <pub-id pub-id-type="pmid">12384338</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Okamoto</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Yoshiyama</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Nakazawa</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Park</surname>
+                <given-names>ID</given-names>
+              </name>
+              <name>
+                <surname>Chang</surname>
+                <given-names>MW</given-names>
+              </name>
+              <name>
+                <surname>Yanai</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Okita</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Shirai</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>A change in PBP1 is involved in amoxicillin resistance of clinical isolates of Helicobacter pylori.</article-title>
+            <source>J Antimicrob Chemother</source>
+            <year>2002</year>
+            <month>Dec</month>
+            <volume>50</volume>
+            <issue>6</issue>
+            <fpage>849</fpage>
+            <page-range>849-56</page-range>
+            <pub-id pub-id-type="pmid">12461003</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rayner</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Munckhof</surname>
+                <given-names>WJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Antibiotics currently used in the treatment of infections caused by Staphylococcus aureus.</article-title>
+            <source>Intern Med J</source>
+            <year>2005</year>
+            <month>Dec</month>
+            <volume>35 Suppl 2</volume>
+            <fpage>S3</fpage>
+            <page-range>S3-16</page-range>
+            <pub-id pub-id-type="pmid">16271060</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Poole</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Multidrug efflux pumps and antimicrobial resistance in Pseudomonas aeruginosa and related organisms.</article-title>
+            <source>J Mol Microbiol Biotechnol</source>
+            <year>2001</year>
+            <month>Apr</month>
+            <volume>3</volume>
+            <issue>2</issue>
+            <fpage>255</fpage>
+            <page-range>255-64</page-range>
+            <pub-id pub-id-type="pmid">11321581</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Woodford</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Novel agents for the treatment of resistant Gram-positive infections.</article-title>
+            <source>Expert Opin Investig Drugs</source>
+            <year>2003</year>
+            <month>Feb</month>
+            <volume>12</volume>
+            <issue>2</issue>
+            <fpage>117</fpage>
+            <page-range>117-37</page-range>
+            <pub-id pub-id-type="pmid">12556209</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Broder</surname>
+                <given-names>KW</given-names>
+              </name>
+              <name>
+                <surname>Moise</surname>
+                <given-names>PA</given-names>
+              </name>
+              <name>
+                <surname>Schultz</surname>
+                <given-names>RO</given-names>
+              </name>
+              <name>
+                <surname>Forrest</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Schentag</surname>
+                <given-names>JJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical experience with linezolid in conjunction with wound coverage techniques for skin and soft-tissue infections and postoperative osteomyelitis.</article-title>
+            <source>Ann Plast Surg</source>
+            <year>2004</year>
+            <month>Apr</month>
+            <volume>52</volume>
+            <issue>4</issue>
+            <fpage>385</fpage>
+            <page-range>385-90</page-range>
+            <pub-id pub-id-type="pmid">15084884</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wolter</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Smith</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Farrell</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Schaffner</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Moore</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Whitney</surname>
+                <given-names>CG</given-names>
+              </name>
+              <name>
+                <surname>Jorgensen</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Klugman</surname>
+                <given-names>KP</given-names>
+              </name>
+            </person-group>
+            <article-title>Novel mechanism of resistance to oxazolidinones, macrolides, and chloramphenicol in ribosomal protein L4 of the pneumococcus.</article-title>
+            <source>Antimicrob Agents Chemother</source>
+            <year>2005</year>
+            <month>Aug</month>
+            <volume>49</volume>
+            <issue>8</issue>
+            <fpage>3554</fpage>
+            <page-range>3554-7</page-range>
+            <pub-id pub-id-type="pmid">16048983</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hong</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Sloan</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Cicogna</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Sequential linezolid-resistant Staphylococcus epidermidis isolates with G2576T mutation.</article-title>
+            <source>J Clin Microbiol</source>
+            <year>2007</year>
+            <month>Oct</month>
+            <volume>45</volume>
+            <issue>10</issue>
+            <fpage>3277</fpage>
+            <page-range>3277-80</page-range>
+            <pub-id pub-id-type="pmid">17670931</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18094.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Webber</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Piddock</surname>
+                <given-names>LJ</given-names>
+              </name>
+            </person-group>
+            <article-title>The importance of efflux pumps in bacterial antibiotic resistance.</article-title>
+            <source>J Antimicrob Chemother</source>
+            <year>2003</year>
+            <month>Jan</month>
+            <volume>51</volume>
+            <issue>1</issue>
+            <fpage>9</fpage>
+            <page-range>9-11</page-range>
+            <pub-id pub-id-type="pmid">12493781</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

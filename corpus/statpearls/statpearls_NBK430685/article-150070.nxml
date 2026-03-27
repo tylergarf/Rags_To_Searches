@@ -1,0 +1,1842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-150070" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>MRI Patient Safety And Care</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Al-Naser</surname>
+            <given-names>Yousif A.</given-names>
+          </name>
+          <aff>McMaster University</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Tafti</surname>
+            <given-names>Dawood</given-names>
+          </name>
+          <aff>Brooke Army Medical Center</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Yousif Al-Naser declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Dawood Tafti declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>14</day>
+          <month>2</month>
+          <year>2024</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-150070.s1" sec-type="Summary / Explanation">
+        <title>Summary / Explanation</title>
+        <p content-type="pubmed-excerpt">Current research indicates minimal long-term harm from extended magnetic resonance imaging (MRI) exposure, yet minor reversible effects from its magnetic, gradient, and radiofrequency (RF) fields have been described.<xref ref-type="bibr" rid="article-150070.r1">[1]</xref>&#x000a0;These findings underscore the necessity of a detailed investigation to determine this technology's long-term biological and health repercussions. Assessments should encompass not only basic MRI functions like the primary magnetic and RF fields and magnetic field gradients but also screening protocols, monitoring, and assessment methods. Adopting this comprehensive strategy will deepen the healthcare professional's understanding of MRI's biological implications to promote its safe and efficient use in clinical settings.</p>
+        <p>
+<bold>Basic MRI Principles</bold>
+</p>
+        <p>MRI technology operates based on the magnetic properties of hydrogen protons in body tissues. Protons act like miniature magnets when exposed to a strong magnetic field. Thus, during an MRI procedure, tissue protons align themselves with the equipment&#x02019;s magnetic field. However, factors like temperature prevent the hydrogen nuclei's magnetic moments from aligning perfectly, giving rise to the net magnetization vector. This vector represents the sum of the protons&#x02019; magnetic moments within the sample.<xref ref-type="bibr" rid="article-150070.r2">[2]</xref>&#x000a0;</p>
+        <p>Net magnetization is crucial as it enables MRI technology to produce clear, detailed images of the body's internal structures. The principles of proton alignment and net magnetization comprise the foundational elements of MRI, providing unparalleled insights into the human body&#x02019;s inner workings.</p>
+        <p>Relaxation times, specifically T1 and T2, influence image contrast and are indispensable in MRI technology. T1, or longitudinal relaxation time, refers to how long protons take to realign with the equipment's main magnetic field.<xref ref-type="bibr" rid="article-150070.r3">[3]</xref>&#x000a0;T2, or transverse relaxation time, is the time it takes protons to lose phase coherence perpendicular to this field.</p>
+        <p>Different tissues have unique T1 and T2 times, leading to variable signal intensities in MRI images and enabling detailed internal visualization. MRI images can be 'weighted' to emphasize these differences. T1-weighted images make tissues with shorter T1 times appear brighter. Meanwhile, T2-weighted images highlight those with longer T2 times. Proton-density weighting focuses on hydrogen proton density in tissues.<xref ref-type="bibr" rid="article-150070.r4">[4]</xref>&#x000a0;Switching from one mode to another enables tailoring scans to specific medical needs.&#x000a0;</p>
+        <p>MRI can create 2-dimensional (2D) and 3-dimensional (3D) images. In 2D MRI, slice selection, frequency encoding, and phase encoding gradients define the imaged body slice. In contrast, 3D MRI replaces the slice-selection gradient with a second phase-encoding gradient, allowing volumetric data acquisition for creating detailed images.<xref ref-type="bibr" rid="article-150070.r5">[5]</xref></p>
+        <p>The filling k-space is a central MRI element that affects image contrast and quality. Strategies like spiral imaging, starting from the k-space center and spiraling outward, influence tissue contrast in the final image and impact resolution.<xref ref-type="bibr" rid="article-150070.r6">[6]</xref>&#x000a0;Advanced MRI sequences like gradient (GRE) and spin (SE) echo manipulate protons differently, creating images with unique characteristics. GRE is fast and sensitive to magnetic field variations, while SE provides high tissue contrast.<xref ref-type="bibr" rid="article-150070.r7">[7]</xref></p>
+        <p>Contrast agents like gadolinium-based compounds enhance MRI imaging by increasing contrast, especially in tissues or blood vessels. Contrast agents change the hydrogen protons' relaxation properties, visually enhancing specific structures.<xref ref-type="bibr" rid="article-150070.r8">[8]</xref>&#x000a0;Equipment setting variations and contrast agent administration allow for precise and comprehensive internal body examinations using the MRI.</p>
+        <p>
+<bold>Biological and Health Effects of MRI</bold>
+</p>
+        <p>The energy frequencies involved in clinical MRI are lower than in x-rays, visible light, and microwaves. Tissue heat accumulation occurs primarily through cellular RF absorption. The amount of absorbed energy increases with frequency, making RF heating a concern. Humans regulate temperature through convection, conduction, radiation, and evaporation, relying on surface area for effective heat dissipation. Higher surface-area-to-volume ratios enhance this ability. Thus, rapid fast spin echo (FSE) sequences in MR imaging, which involve increased RF pulses, raise concerns about amplified RF effects.<xref ref-type="bibr" rid="article-150070.r9">[9]</xref></p>
+        <p>The magnetic field strength in MRI is measured in gauss and kilogauss, with higher field strengths measured in Tesla. Field strengths below 2.0 Tesla have no significant biological effects on humans. However, reversible effects like ECG changes have been reported, possibly linked to the magnetic hydrodynamic effect in blood moving across a magnetic field. This effect can interfere with cardiac gating techniques in high-field scanners.<xref ref-type="bibr" rid="article-150070.r10">[10]</xref></p>
+        <p>Field strengths greater than 2.0 Tesla are known to cause reversible biological effects, such as fatigue, headache, hypotension, and irritability, and risk disturbing intracellular molecules like DNA and hemoglobin.<xref ref-type="bibr" rid="article-150070.r11">[11]</xref>&#x000a0;Hemoglobin disruptions in patients with sickle cell disease can precipitate vaso-occlusion.&#x000a0;</p>
+        <p>Natural magnetic fields influence lower life forms. When using MRI, small electrical potentials in large blood vessels have been observed to develop perpendicular to the static field.<xref ref-type="bibr" rid="article-150070.r12">[12]</xref>&#x000a0;Studies show no significant effects on cell growth and morphology at field strengths below 2.0 Tesla.<xref ref-type="bibr" rid="article-150070.r13">[13]</xref>&#x000a0;Meanwhile, research into high-level microwave radiation and electromagnetic fields' effects on humans has yielded controversial and inconclusive results regarding carcinogenesis.<xref ref-type="bibr" rid="article-150070.r14">[14]</xref></p>
+        <p>The 5-gauss line deserves a special mention. This line represents a point where the magnetic field strength diminishes to a level considered safe for human exposure. Magnetic fields above this level may pose health risks such as implanted device malfunction, particularly if exposure is prolonged. This area around the scanner is often marked with a line.</p>
+        <p>
+<bold>MRI Screening</bold>
+</p>
+        <p>Implementing a meticulous screening process protects everyone accessing the area surrounding the MRI equipment. This process involves in-depth questioning and educating patients and staff, ensuring a safe environment. The most reliable method of preventing health risks during imaging procedures is a thorough screening of patients and MR staff.<xref ref-type="bibr" rid="article-150070.r15">[15]</xref>&#x000a0;Those with potentially ferromagnetic foreign objects inside or on their bodies must undergo an extensive examination to prevent health hazards or accidents.</p>
+        <p>Everyone, including patients, volunteers, visitors, MR healthcare workers, and cleaning staff, should be meticulously screened by qualified professionals before entering the MRI zone. Routine service checks and ongoing education are likewise crucial. Careful MR facility management and regular maintenance are vital to creating a safe space for all. Most MR-related injuries are due to inadequate screening.<xref ref-type="bibr" rid="article-150070.r16">[16]</xref>&#x000a0;However, not all MRI users adhere to stringent screening processes, and no consensus has been established regarding the best screening protocol.<xref ref-type="bibr" rid="article-150070.r17">[17]</xref></p>
+        <p>
+<bold>MRI Zones</bold>
+</p>
+        <p>The four "zones" around an MRI magnet represent restriction levels on patients as they approach the equipment (see <bold>Image</bold>. MRI Safety Zones):</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Zone I constitutes areas where the MRI machine&#x02019;s magnetic field poses no hazard to a patient. No restriction on patient movement needs to be imposed in this area. Zone I includes the hallway leading to the MRI department and hospital areas freely accessible to the public.</p>
+          </list-item>
+          <list-item>
+            <p>Zone II generally constitutes the MRI department&#x02019;s waiting room and, often, dressing rooms. Patient movement restrictions are not required in this zone, either.</p>
+          </list-item>
+          <list-item>
+            <p>Zone III is a restricted space immediately beyond the MRI room. For example, the control room where MRI technicians operate the scanner is considered to be within Zone III.</p>
+          </list-item>
+          <list-item>
+            <p>Zone IV is the MRI scanner room proper, which poses the greatest hazard to patients and facility workers. Stringent safety precautions are required while operating in this zone.</p>
+          </list-item>
+        </list>
+        <p>
+<bold>The MRI Screening Form</bold>
+</p>
+        <p>A detailed questionnaire for patients and staff helps identify potential adverse reactions to strong magnetic field exposure. The form must ask about past surgeries, metallic foreign body injuries, and pregnancy status. The presence of implants, materials, devices, or objects that magnetic fields can damage, including electrically, magnetically, or mechanically activated gadgets, must be elicited. The questionnaire should include a body diagram to indicate the hazardous implants&#x02019; locations. This form can also help gather crucial information for assessing other MRI-related risks, such as past adverse reactions to contrast media.</p>
+        <p>
+<bold>The MRI Screening Interview</bold>
+</p>
+        <p>Verbal interviews are necessary when written questionnaires have limited utility. For example, language barriers and visual and literacy issues can make patients answer written questionnaires incompletely or incorrectly. An interview can bypass these problems if conducted verbally in the individual&#x02019;s native language. An MR technologist or trained staff can further ensure safety by clarifying and confirming responses. This "oral phase" is crucial in verifying the reliability of the provided information.</p>
+        <p>
+<bold>Prescreening for Metallic Implants</bold>
+</p>
+        <p>Each MRI facility must have a standard MRI screening policy for individuals suspected of having foreign metallic implants or devices. The policy should apply regardless of the MR system's field strength, magnet type, or magnetic shielding presence. Protocols regarding the radiographic procedures and evaluation of the metal object&#x02019;s potential risks when exposed to strong magnetic fields must be outlined.<xref ref-type="bibr" rid="article-150070.r18">[18]</xref></p>
+        <p>
+<bold>Pregnant Patients</bold>
+</p>
+        <p>MRI for pregnant patients is usually recommended to avoid ionizing radiation exposure, eg, from computed tomography or fluoroscopy, or when alternative nonionizing diagnostic methods are insensitive. MRI&#x02019;s benefits and risks must be determined in patients who are pregnant or may be expecting. MRI can image the fetus in various planes. Additionally, large fetal and placental fields of view may be examined with excellent resolution through this modality. MRI affords detailed imaging with less ionizing radiation risk, which may account for this diagnostic tool&#x02019;s rising popularity in obstetrics.<xref ref-type="bibr" rid="article-150070.r19">[19]</xref></p>
+        <p>However, concerns about MRI&#x02019;s safety in this cohort exist, particularly when gadolinium-based contrast agents (GBCAs) are administered.<xref ref-type="bibr" rid="article-150070.r20">[20]</xref>&#x000a0;The safety of MRI and gadolinium administration in pregnant patients is a subject of ongoing research, given the potential risks to the fetus.<xref ref-type="bibr" rid="article-150070.r21">[21]</xref>&#x000a0;GBCAs can cross the placental barrier. The concern is greatest during the first trimester due to the contrast agent&#x02019;s possible teratogenic effects.<xref ref-type="bibr" rid="article-150070.r22">[22]</xref>&#x000a0;</p>
+        <p>
+<bold>MRI Safety for Ancillary Equipment and Implants</bold>
+</p>
+        <p>Ancillary equipment must meet one of 3 criteria: manufacturer's safety declaration, FDA approval, or previous testing. &#x0201c;Manufacturer declaration&#x0201d; means the maker tested the equipment for safety.<xref ref-type="bibr" rid="article-150070.r23">[23]</xref>&#x000a0;Metallic implants can acquire significant torque in magnetic fields, posing risks if not anchored properly.<xref ref-type="bibr" rid="article-150070.r18">[18]</xref>&#x000a0;The metal type determines the magnetic field&#x02019;s effects on the implant. Strong magnetic fields can cause significant deflection in ferrous metals. Meanwhile, nonferrous metals tend to accumulate heat in the MRI environment due to RF absorption.<xref ref-type="bibr" rid="article-150070.r18">[18]</xref></p>
+        <p>The patient's surgical history must be obtained before an MRI, particularly if implants were used. Even without significant health effects, implants can produce MRI artifacts that can lead to misinterpretation. The metal type and implant size influence the artifact size.<xref ref-type="bibr" rid="article-150070.r24">[24]</xref>&#x000a0;</p>
+        <p>Understanding the interactions between various medical implants and the MRI environment can help healthcare professionals enhance patient safety while maintaining imaging quality. Below are some key considerations for different types of implants and devices.</p>
+        <p>
+<bold>Aneurysm clips</bold>
+</p>
+        <p>The aneurysm clip material largely determines its safety within the MRI environment. Ferromagnetic clips, like those made from certain stainless steel types, pose serious risks and are contraindicated. Nonferromagnetic or weakly ferromagnetic clips, eg, specific alloys or titanium, are generally safe. MRI with aneurysm clips should only proceed after confirming the clip type as nonferrous.<xref ref-type="bibr" rid="article-150070.r25">[25]</xref></p>
+        <p>
+<bold>Hemostatic vascular clips</bold>
+</p>
+        <p>Hemostatic clips, typically made from nonferromagnetic materials, have shown no deflection in magnetic fields and are considered safe in MRI environments.<xref ref-type="bibr" rid="article-150070.r26">[26]</xref></p>
+        <p>
+<bold>Intravascular coils, filters, and stents</bold>
+</p>
+        <p>Some intravascular devices are ferromagnetic but can become embedded in vessel walls over time, reducing dislodgement risks. MRI is usually safe for patients with these devices after a sufficient postimplantation period.<xref ref-type="bibr" rid="article-150070.r27">[27]</xref></p>
+        <p>
+<bold>Carotid artery vascular clips</bold>
+</p>
+        <p>Most carotid artery clamps are safe in MRI environments. The exception is the Poppen-Blaylock clamp, which shows significant magnetic attraction.<xref ref-type="bibr" rid="article-150070.r28">[28]</xref></p>
+        <p>
+<bold>Vascular access ports</bold>
+</p>
+        <p>Common bioimplants facilitating medication administration are made from various materials. Most vascular access ports show minimal magnetic deflection, indicating they may be safe to expose to MR energy.<xref ref-type="bibr" rid="article-150070.r29">[29]</xref></p>
+        <p>
+<bold>Heart valves</bold>
+</p>
+        <p>Most heart valve prostheses show minor attraction to MR system magnetic fields. Attractive forces are minimal compared to cardiac forces. Thus, MRI is generally safe for patients with these prostheses, including previously considered hazardous types like the Starr-Edwards Model Pre-6000.<xref ref-type="bibr" rid="article-150070.r30">[30]</xref></p>
+        <p>
+<bold>Dental devices and materials</bold>
+</p>
+        <p>Dental materials show measurable deflection, but only materials with magnetic components may pose problems during MRI procedures. Dental devices held in place nonmagnetically generally do not cause issues, though they might affect image quality.<xref ref-type="bibr" rid="article-150070.r31">[31]</xref></p>
+        <p>
+<bold>Penile implants</bold>
+</p>
+        <p>Among tested penile implants, only one model showed significant magnetic deflection.<xref ref-type="bibr" rid="article-150070.r32">[32]</xref>&#x000a0;MRI is inadvisable if the penile implant might cause discomfort during the procedure.<xref ref-type="bibr" rid="article-150070.r32">[32]</xref></p>
+        <p>
+<bold>Otologic implants</bold>
+</p>
+        <p>Certain otologic implants are approved for 3-Tesla MR systems. Such models include the Baha and Ponto Pro osseointegrated implants and Sophono Alpha 1 and 2 implanted magnets. Cochlear implants with removable magnets are approved for 1.5-Tesla MRI as long as the magnetic component is removed before the procedure.<xref ref-type="bibr" rid="article-150070.r33">[33]</xref></p>
+        <p>
+<bold>Ocular implants</bold>
+</p>
+        <p>Some eyelid springs and retinal tacks are attracted to magnetic fields and may cause ocular discomfort or injury during an MRI procedure. Protective measures are advised in some cases.<xref ref-type="bibr" rid="article-150070.r34">[34]</xref></p>
+        <p>
+<bold>Intraocular ferrous foreign bodies</bold>
+</p>
+        <p>Metal fragments in the eye pose risks due to magnetic field-induced movement. Small fragments are detectable via radiography. X-rays usually suffice for detecting metal fragments that might cause damage even though computed tomography is more accurate than radiography.<xref ref-type="bibr" rid="article-150070.r35">[35]</xref></p>
+        <p>
+<bold>Metallic foreign objects</bold>
+</p>
+        <p>Radiographic confirmation is essential for suspected metallic foreign bodies. The location, mass, orientation, and proximity to sensitive structures are crucial in assessing MRI safety in the presence of a foreign object.<xref ref-type="bibr" rid="article-150070.r36">[36]</xref></p>
+        <p>
+<bold>Bullets, pellets, and shrapnel</bold>
+</p>
+        <p>Caution is advised for patients with embedded bullets or shrapnels, especially considering the varying metallic compositions. Some of these objects are ferromagnetic.<xref ref-type="bibr" rid="article-150070.r37">[37]</xref></p>
+        <p>
+<bold>Orthopedic implants, materials, and devices</bold>
+</p>
+        <p>Orthopedic implants typically show no magnetic field deflection. Additionally, heating due to magnetic and RF field exposure is unlikely, making most MRI procedures safe for patients with these implants.<xref ref-type="bibr" rid="article-150070.r38">[38]</xref></p>
+        <p>
+<bold>Pacemakers</bold>
+</p>
+        <p>The use of MRI in patients with cardiac pacemakers has historically been a complex issue due to safety concerns. While MRI has traditionally been contraindicated for this cohort, recent advancements have led to the development of MRI-conditional pacemakers.<xref ref-type="bibr" rid="article-150070.r39">[39]</xref>&#x000a0;These novel devices can undergo MRI scans, though the appropriate energy settings may be limited.<xref ref-type="bibr" rid="article-150070.r40">[40]</xref>&#x000a0;Protocols should be established to ensure patient safety, including pre- and post-MRI device checks and close monitoring during the procedure.<xref ref-type="bibr" rid="article-150070.r41">[41]</xref></p>
+        <p>MRI is often critical to diagnostic accuracy, but whether this modality&#x02019;s benefits in patients with pacemakers outweigh the risks must always be considered. Managing such patients requires coordination between radiology and cardiology specialists and using appropriate safety mechanisms.</p>
+        <p>
+<bold>Assessment and Monitoring</bold>
+</p>
+        <p>Patients undergoing MRI must be monitored visually and verbally. The technologist should interact with the patient before, during, and after the procedure. Patients unable to communicate, eg, due to sedation, coma, age, hearing impairment, and language barriers, also require physiologic monitoring.</p>
+        <p>The choice of monitoring methods depends on the patient's condition, clinical indications, MRI procedure type, and available equipment. Options include visual inspection, pulse rate, electrocardiography, respiratory rate, pulse oximetry, capnometry, and temperature. Patients under sedation or anesthesia require appropriate monitoring to manage potential adverse drug reactions.<xref ref-type="bibr" rid="article-150070.r42">[42]</xref><xref ref-type="bibr" rid="article-150070.r43">[43]</xref></p>
+        <p>MR-safe monitoring devices&#x02014;instruments that do not interfere with MRI processes&#x02014;are available. MR-safe electrodes should be used during cardiovascular MRI, ie, ECG-based gating is required, to ensure safety and data accuracy. Sedated patients must be monitored with pulse oximetry, as magnet-hemodynamic effects can cause ECG artifacts, and many sedation drugs depress respiration.<xref ref-type="bibr" rid="article-150070.r44">[44]</xref></p>
+        <p>Claustrophobia is a concern in MRI due to RF heating, gradient noise, and space confinement. Some patients develop persistent claustrophobia after MRI, requiring psychiatric treatment.<xref ref-type="bibr" rid="article-150070.r45">[45]</xref>&#x000a0;Controllable air movement in the magnet bore, along with good patient communication and education, can help reduce these reactions.</p>
+        <p>
+<bold>Gadolinium-Based Contrast Agents</bold>
+</p>
+        <p>Gadolinium is the most frequently used MRI contrast agent. Gadolinium side effects are generally minimal but may include temporary bilirubin and blood iron elevation, headaches, nausea, and anaphylaxis.<xref ref-type="bibr" rid="article-150070.r46">[46]</xref>&#x000a0;Gadolinium chelates are administered intravenously, followed by a saline flush. Generally, gadolinium chelates are safe with few absolute contraindications. However, caution is advised in individuals with sickle cell disease, renal failure, and allergies, and pregnant or lactating women.<xref ref-type="bibr" rid="article-150070.r20">[20]</xref></p>
+        <p>
+<bold>Emergency Procedures for MRI Environments</bold>
+</p>
+        <p>The most vital step in medical or technical MRI emergencies is promptly removing the patient from the scan room. The patient should be moved to a safer location to avoid the risks posed by the strong magnetic field inside the area. Administering emergency medical care inside the MR scan room can be dangerous due to the magnetic nature of most crash cart items.<xref ref-type="bibr" rid="article-150070.r47">[47]</xref></p>
+        <p>Emergencies like a fire or quench&#x02014;the sudden loss of superconductivity in the MRI magnet, leading to a rapid helium release&#x02014;necessitate immediate patient evacuation.<xref ref-type="bibr" rid="article-150070.r48">[48]</xref>&#x000a0;Two instances require manually quenching a magnet: a sizeable fire endangering human life and, rarely, a ferromagnetic object pinning an individual to the scanner.</p>
+        <p>
+<bold>Evacuation Protocol</bold>
+</p>
+        <p>Running a code, ie, performing emergency resuscitation, within the MRI environment is highly discouraged. Using ferromagnetic objects like monitors and defibrillators near highly magnetic equipment can cause injury to both the patient and healthcare personnel. An area outside the MRI scan room must be designated for medical emergencies to allow healthcare teams to focus on patient care without the risk of magnetic interference. The designated area should be prepared and equipped to handle full emergency procedures.</p>
+        <p>A code is not a reason to consider quenching an MRI machine. Emergency resuscitation is typically performed in Zone II.</p>
+        <p>
+<bold>Conclusion</bold>
+</p>
+        <p>Understanding and addressing the possible causes of adverse events during an MRI procedure can help enhance this diagnostic modality&#x02019;s safety and effectiveness. Overall, an interprofessional approach to safety, guided by ongoing research, is essential in applying this technology.</p>
+        <p>Close collaboration among radiologists, physicians, and safety experts to craft MRI screening and monitoring protocols helps protect patients, particularly individuals with implants. Technologists and physicists ensure that MRI equipment is properly maintained and calibrated for safety and optimal imaging quality.</p>
+        <p>The judicious use of GBCAs in sensitive patients also demands a collaborative approach between radiologists, nephrologists, nurses, and pharmacists. In emergencies, coordinated efforts between different medical teams are crucial for prompt and appropriate responses within the unique MRI environment.&#x000a0;</p>
+        <p>Interprofessional teams can collaborate to make informed decisions regarding patient care, balancing the need for diagnostic imaging with safety considerations. Clear and seamless interprofessional communication can ensure better outcomes for patients undergoing MRI procedures.&#x000a0;</p>
+      </sec>
+      <sec id="article-150070.s2">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=150070&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=150070">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/150070/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=150070">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-150070.s3">
+        <title>References</title>
+        <ref id="article-150070.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hartwig</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Giovannetti</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Vanello</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Lombardi</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Landini</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Simi</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Biological effects and safety in magnetic resonance imaging: a review.</article-title>
+            <source>Int J Environ Res Public Health</source>
+            <year>2009</year>
+            <month>Jun</month>
+            <volume>6</volume>
+            <issue>6</issue>
+            <fpage>1778</fpage>
+            <page-range>1778-98</page-range>
+            <pub-id pub-id-type="pmid">19578460</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Grover</surname>
+                <given-names>VP</given-names>
+              </name>
+              <name>
+                <surname>Tognarelli</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Crossey</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Cox</surname>
+                <given-names>IJ</given-names>
+              </name>
+              <name>
+                <surname>Taylor-Robinson</surname>
+                <given-names>SD</given-names>
+              </name>
+              <name>
+                <surname>McPhail</surname>
+                <given-names>MJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Magnetic Resonance Imaging: Principles and Techniques: Lessons for Clinicians.</article-title>
+            <source>J Clin Exp Hepatol</source>
+            <year>2015</year>
+            <month>Sep</month>
+            <volume>5</volume>
+            <issue>3</issue>
+            <fpage>246</fpage>
+            <page-range>246-55</page-range>
+            <pub-id pub-id-type="pmid">26628842</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Azhar</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Chong</surname>
+                <given-names>LR</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinician's guide to the basic principles of MRI.</article-title>
+            <source>Postgrad Med J</source>
+            <year>2023</year>
+            <month>Jul</month>
+            <day>21</day>
+            <volume>99</volume>
+            <issue>1174</issue>
+            <fpage>894</fpage>
+            <page-range>894-903</page-range>
+            <pub-id pub-id-type="pmid">37130816</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Serai</surname>
+                <given-names>SD</given-names>
+              </name>
+            </person-group>
+            <article-title>Basics of magnetic resonance imaging and quantitative parameters T1, T2, T2*, T1rho and diffusion-weighted imaging.</article-title>
+            <source>Pediatr Radiol</source>
+            <year>2022</year>
+            <month>Feb</month>
+            <volume>52</volume>
+            <issue>2</issue>
+            <fpage>217</fpage>
+            <page-range>217-227</page-range>
+            <pub-id pub-id-type="pmid">33856502</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wild</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Woodhouse</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Paley</surname>
+                <given-names>MN</given-names>
+              </name>
+              <name>
+                <surname>Fichele</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Said</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Kasuboski</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>van Beek</surname>
+                <given-names>EJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparison between 2D and 3D gradient-echo sequences for MRI of human lung ventilation with hyperpolarized 3He.</article-title>
+            <source>Magn Reson Med</source>
+            <year>2004</year>
+            <month>Sep</month>
+            <volume>52</volume>
+            <issue>3</issue>
+            <fpage>673</fpage>
+            <page-range>673-8</page-range>
+            <pub-id pub-id-type="pmid">15334590</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Xiang</surname>
+                <given-names>QS</given-names>
+              </name>
+              <name>
+                <surname>Henkelman</surname>
+                <given-names>RM</given-names>
+              </name>
+            </person-group>
+            <article-title>K-space description for MR imaging of dynamic objects.</article-title>
+            <source>Magn Reson Med</source>
+            <year>1993</year>
+            <month>Mar</month>
+            <volume>29</volume>
+            <issue>3</issue>
+            <fpage>422</fpage>
+            <page-range>422-8</page-range>
+            <pub-id pub-id-type="pmid">8383792</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Markl</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Leupold</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Gradient echo imaging.</article-title>
+            <source>J Magn Reson Imaging</source>
+            <year>2012</year>
+            <month>Jun</month>
+            <volume>35</volume>
+            <issue>6</issue>
+            <fpage>1274</fpage>
+            <page-range>1274-89</page-range>
+            <pub-id pub-id-type="pmid">22588993</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kim</surname>
+                <given-names>HK</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>GH</given-names>
+              </name>
+              <name>
+                <surname>Chang</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>Gadolinium as an MRI contrast agent.</article-title>
+            <source>Future Med Chem</source>
+            <year>2018</year>
+            <month>Mar</month>
+            <day>01</day>
+            <volume>10</volume>
+            <issue>6</issue>
+            <fpage>639</fpage>
+            <page-range>639-661</page-range>
+            <pub-id pub-id-type="pmid">29412006</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Taso</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Munsch</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Girard</surname>
+                <given-names>OM</given-names>
+              </name>
+              <name>
+                <surname>Duhamel</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Alsop</surname>
+                <given-names>DC</given-names>
+              </name>
+              <name>
+                <surname>Varma</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Fast-spin-echo versus rapid gradient-echo for 3D magnetization-prepared acquisitions: Application to inhomogeneous magnetization transfer.</article-title>
+            <source>Magn Reson Med</source>
+            <year>2023</year>
+            <month>Feb</month>
+            <volume>89</volume>
+            <issue>2</issue>
+            <fpage>550</fpage>
+            <page-range>550-564</page-range>
+            <pub-id pub-id-type="pmid">36306334</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mirza</surname>
+                <given-names>IA</given-names>
+              </name>
+              <name>
+                <surname>Abdulhameed</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Vieru</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Shafie</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Transient electro-magneto-hydrodynamic two-phase blood flow and thermal transport through a capillary vessel.</article-title>
+            <source>Comput Methods Programs Biomed</source>
+            <year>2016</year>
+            <month>Dec</month>
+            <volume>137</volume>
+            <fpage>149</fpage>
+            <page-range>149-166</page-range>
+            <pub-id pub-id-type="pmid">28110721</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chakeres</surname>
+                <given-names>DW</given-names>
+              </name>
+              <name>
+                <surname>de Vocht</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Static magnetic field effects on human subjects related to magnetic resonance imaging systems.</article-title>
+            <source>Prog Biophys Mol Biol</source>
+            <year>2005</year>
+            <season>Feb-Apr</season>
+            <volume>87</volume>
+            <issue>2-3</issue>
+            <fpage>255</fpage>
+            <page-range>255-65</page-range>
+            <pub-id pub-id-type="pmid">15556664</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gowland</surname>
+                <given-names>PA</given-names>
+              </name>
+            </person-group>
+            <article-title>Present and future magnetic resonance sources of exposure to static fields.</article-title>
+            <source>Prog Biophys Mol Biol</source>
+            <year>2005</year>
+            <season>Feb-Apr</season>
+            <volume>87</volume>
+            <issue>2-3</issue>
+            <fpage>175</fpage>
+            <page-range>175-83</page-range>
+            <pub-id pub-id-type="pmid">15556657</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Norimura</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Imada</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Kunugita</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Yoshida</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Nikaido</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Effects of strong magnetic fields on cell growth and radiation response of human T-lymphocytes in culture.</article-title>
+            <source>J UOEH</source>
+            <year>1993</year>
+            <month>Jun</month>
+            <day>01</day>
+            <volume>15</volume>
+            <issue>2</issue>
+            <fpage>103</fpage>
+            <page-range>103-12</page-range>
+            <pub-id pub-id-type="pmid">8316709</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bortkiewicz</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Health effects of Radiofrequency Electromagnetic Fields (RF EMF).</article-title>
+            <source>Ind Health</source>
+            <year>2019</year>
+            <volume>57</volume>
+            <issue>4</issue>
+            <fpage>403</fpage>
+            <page-range>403-405</page-range>
+            <pub-id pub-id-type="pmid">31378769</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sammet</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Magnetic resonance safety.</article-title>
+            <source>Abdom Radiol (NY)</source>
+            <year>2016</year>
+            <month>Mar</month>
+            <volume>41</volume>
+            <issue>3</issue>
+            <fpage>444</fpage>
+            <page-range>444-51</page-range>
+            <pub-id pub-id-type="pmid">26940331</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sawyer-Glover</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Shellock</surname>
+                <given-names>FG</given-names>
+              </name>
+            </person-group>
+            <article-title>Pre-MRI procedure screening: recommendations and safety considerations for biomedical implants and devices.</article-title>
+            <source>J Magn Reson Imaging</source>
+            <year>2000</year>
+            <month>Jul</month>
+            <volume>12</volume>
+            <issue>1</issue>
+            <fpage>92</fpage>
+            <page-range>92-106</page-range>
+            <pub-id pub-id-type="pmid">10931569</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sharma</surname>
+                <given-names>PS</given-names>
+              </name>
+              <name>
+                <surname>Saindane</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>Standardizing Magnetic Resonance Imaging Protocols Across a Large Radiology Enterprise: Barriers and Solutions.</article-title>
+            <source>Curr Probl Diagn Radiol</source>
+            <year>2020</year>
+            <season>Sep-Oct</season>
+            <volume>49</volume>
+            <issue>5</issue>
+            <fpage>312</fpage>
+            <page-range>312-316</page-range>
+            <pub-id pub-id-type="pmid">32173157</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Peschke</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Ulloa</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Jansen</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Hoevener</surname>
+                <given-names>JB</given-names>
+              </name>
+            </person-group>
+            <article-title>Metallic Implants in MRI - Hazards and Imaging Artifacts.</article-title>
+            <source>Rofo</source>
+            <year>2021</year>
+            <month>Nov</month>
+            <volume>193</volume>
+            <issue>11</issue>
+            <fpage>1285</fpage>
+            <page-range>1285-1293</page-range>
+            <pub-id pub-id-type="pmid">33979870</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bulas</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Egloff</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Benefits and risks of MRI in pregnancy.</article-title>
+            <source>Semin Perinatol</source>
+            <year>2013</year>
+            <month>Oct</month>
+            <volume>37</volume>
+            <issue>5</issue>
+            <fpage>301</fpage>
+            <page-range>301-4</page-range>
+            <pub-id pub-id-type="pmid">24176150</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lum</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Tsiouris</surname>
+                <given-names>AJ</given-names>
+              </name>
+            </person-group>
+            <article-title>MRI safety considerations during pregnancy.</article-title>
+            <source>Clin Imaging</source>
+            <year>2020</year>
+            <month>Jun</month>
+            <volume>62</volume>
+            <fpage>69</fpage>
+            <page-range>69-75</page-range>
+            <pub-id pub-id-type="pmid">32109683</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mervak</surname>
+                <given-names>BM</given-names>
+              </name>
+              <name>
+                <surname>Altun</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>McGinty</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Hyslop</surname>
+                <given-names>WB</given-names>
+              </name>
+              <name>
+                <surname>Semelka</surname>
+                <given-names>RC</given-names>
+              </name>
+              <name>
+                <surname>Burke</surname>
+                <given-names>LM</given-names>
+              </name>
+            </person-group>
+            <article-title>MRI in pregnancy: Indications and practical considerations.</article-title>
+            <source>J Magn Reson Imaging</source>
+            <year>2019</year>
+            <month>Mar</month>
+            <volume>49</volume>
+            <issue>3</issue>
+            <fpage>621</fpage>
+            <page-range>621-631</page-range>
+            <pub-id pub-id-type="pmid">30701610</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gatta</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Di Grezia</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Cuccurullo</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Sardu</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Iovino</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Comune</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Ruggiero</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Chirico</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>La Forgia</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Fanizzi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Massafra</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Belfiore</surname>
+                <given-names>MP</given-names>
+              </name>
+              <name>
+                <surname>Falco</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Reginelli</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Brunese</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Grassi</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Cappabianca</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Viola</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>MRI in Pregnancy and Precision Medicine: A Review from Literature.</article-title>
+            <source>J Pers Med</source>
+            <year>2021</year>
+            <month>Dec</month>
+            <day>23</day>
+            <volume>12</volume>
+            <issue>1</issue>
+            <pub-id pub-id-type="pmid">35055324</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schaefers</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Melzer</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Testing methods for MR safety and compatibility of medical devices.</article-title>
+            <source>Minim Invasive Ther Allied Technol</source>
+            <year>2006</year>
+            <volume>15</volume>
+            <issue>2</issue>
+            <fpage>71</fpage>
+            <page-range>71-5</page-range>
+            <pub-id pub-id-type="pmid">16754189</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jabehdar Maralani</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Schieda</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Hecht</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name>
+                <surname>Litt</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Hindman</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Heyn</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Davenport</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Zaharchuk</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Hess</surname>
+                <given-names>CP</given-names>
+              </name>
+              <name>
+                <surname>Weinreb</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>MRI safety and devices: An update and expert consensus.</article-title>
+            <source>J Magn Reson Imaging</source>
+            <year>2020</year>
+            <month>Mar</month>
+            <volume>51</volume>
+            <issue>3</issue>
+            <fpage>657</fpage>
+            <page-range>657-674</page-range>
+            <pub-id pub-id-type="pmid">31566852</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hofman</surname>
+                <given-names>MBM</given-names>
+              </name>
+              <name>
+                <surname>Lavini</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>van der Zwan</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>van Pul</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Muller</surname>
+                <given-names>SH</given-names>
+              </name>
+              <name>
+                <surname>Stam</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>van der Graaf</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kloeze</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>van Nierop</surname>
+                <given-names>BJ</given-names>
+              </name>
+              <name>
+                <surname>Kappert</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Kuijer</surname>
+                <given-names>JPA</given-names>
+              </name>
+            </person-group>
+            <article-title>MRI in patients with a cerebral aneurysm clip; review of the literature and incident databases and recommendations for the Netherlands.</article-title>
+            <source>Phys Med</source>
+            <year>2024</year>
+            <month>Jan</month>
+            <volume>117</volume>
+            <fpage>103187</fpage>
+            <pub-id pub-id-type="pmid">38016215</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gold</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Pulsinelli</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Winchester</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Brill</surname>
+                <given-names>PW</given-names>
+              </name>
+              <name>
+                <surname>Jacewicz</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Isom</surname>
+                <given-names>OW</given-names>
+              </name>
+            </person-group>
+            <article-title>Safety of metallic surgical clips in patients undergoing high-field-strength magnetic resonance imaging.</article-title>
+            <source>Ann Thorac Surg</source>
+            <year>1989</year>
+            <month>Nov</month>
+            <volume>48</volume>
+            <issue>5</issue>
+            <fpage>643</fpage>
+            <page-range>643-5</page-range>
+            <pub-id pub-id-type="pmid">2488678</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Shellock</surname>
+                <given-names>FG</given-names>
+              </name>
+              <name>
+                <surname>Curtis</surname>
+                <given-names>JS</given-names>
+              </name>
+            </person-group>
+            <article-title>MR imaging and biomedical implants, materials, and devices: an updated review.</article-title>
+            <source>Radiology</source>
+            <year>1991</year>
+            <month>Aug</month>
+            <volume>180</volume>
+            <issue>2</issue>
+            <fpage>541</fpage>
+            <page-range>541-50</page-range>
+            <pub-id pub-id-type="pmid">2068325</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Teitelbaum</surname>
+                <given-names>GP</given-names>
+              </name>
+              <name>
+                <surname>Lin</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Watanabe</surname>
+                <given-names>AT</given-names>
+              </name>
+              <name>
+                <surname>Norfray</surname>
+                <given-names>JF</given-names>
+              </name>
+              <name>
+                <surname>Young</surname>
+                <given-names>TI</given-names>
+              </name>
+              <name>
+                <surname>Bradley</surname>
+                <given-names>WG</given-names>
+              </name>
+            </person-group>
+            <article-title>Ferromagnetism and MR imaging: safety of carotid vascular clamps.</article-title>
+            <source>AJNR Am J Neuroradiol</source>
+            <year>1990</year>
+            <season>Mar-Apr</season>
+            <volume>11</volume>
+            <issue>2</issue>
+            <fpage>267</fpage>
+            <page-range>267-72</page-range>
+            <pub-id pub-id-type="pmid">2107710</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Titterington</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Shellock</surname>
+                <given-names>FG</given-names>
+              </name>
+            </person-group>
+            <article-title>Evaluation of MRI issues for an access port with a radiofrequency identification (RFID) tag.</article-title>
+            <source>Magn Reson Imaging</source>
+            <year>2013</year>
+            <month>Oct</month>
+            <volume>31</volume>
+            <issue>8</issue>
+            <fpage>1439</fpage>
+            <page-range>1439-44</page-range>
+            <pub-id pub-id-type="pmid">23684963</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Karamitsos</surname>
+                <given-names>TD</given-names>
+              </name>
+              <name>
+                <surname>Karvounis</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Magnetic resonance imaging is a safe technique in patients with prosthetic heart valves and coronary stents.</article-title>
+            <source>Hellenic J Cardiol</source>
+            <year>2019</year>
+            <season>Jan-Feb</season>
+            <volume>60</volume>
+            <issue>1</issue>
+            <fpage>38</fpage>
+            <page-range>38-39</page-range>
+            <pub-id pub-id-type="pmid">29292243</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wilson</surname>
+                <given-names>BJ</given-names>
+              </name>
+              <name>
+                <surname>O'hare</surname>
+                <given-names>PE</given-names>
+              </name>
+              <name>
+                <surname>Zacariah</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Implications and Considerations of Dental Materials in MRI: A Case Report and Literature Review.</article-title>
+            <source>Case Rep Dent</source>
+            <year>2020</year>
+            <volume>2020</volume>
+            <fpage>8891302</fpage>
+            <pub-id pub-id-type="pmid">33381327</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lowe</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Smith</surname>
+                <given-names>RP</given-names>
+              </name>
+              <name>
+                <surname>Costabile</surname>
+                <given-names>RA</given-names>
+              </name>
+            </person-group>
+            <article-title>A catalog of magnetic resonance imaging compatibility of penile prostheses.</article-title>
+            <source>J Sex Med</source>
+            <year>2012</year>
+            <month>May</month>
+            <volume>9</volume>
+            <issue>5</issue>
+            <fpage>1482</fpage>
+            <page-range>1482-7</page-range>
+            <pub-id pub-id-type="pmid">22429734</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Azadarmaki</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Tubbs</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Shellock</surname>
+                <given-names>FG</given-names>
+              </name>
+            </person-group>
+            <article-title>MRI information for commonly used otologic implants: review and update.</article-title>
+            <source>Otolaryngol Head Neck Surg</source>
+            <year>2014</year>
+            <month>Apr</month>
+            <volume>150</volume>
+            <issue>4</issue>
+            <fpage>512</fpage>
+            <page-range>512-9</page-range>
+            <pub-id pub-id-type="pmid">24398365</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yuh</surname>
+                <given-names>WT</given-names>
+              </name>
+              <name>
+                <surname>Hanigan</surname>
+                <given-names>MT</given-names>
+              </name>
+              <name>
+                <surname>Nerad</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Ehrhardt</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>Carter</surname>
+                <given-names>KD</given-names>
+              </name>
+              <name>
+                <surname>Kardon</surname>
+                <given-names>RH</given-names>
+              </name>
+              <name>
+                <surname>Shellock</surname>
+                <given-names>FG</given-names>
+              </name>
+            </person-group>
+            <article-title>Extrusion of eye socket magnetic implant after MR imaging: potential hazard to patient with eye prosthesis.</article-title>
+            <source>J Magn Reson Imaging</source>
+            <year>1991</year>
+            <season>Nov-Dec</season>
+            <volume>1</volume>
+            <issue>6</issue>
+            <fpage>711</fpage>
+            <page-range>711-3</page-range>
+            <pub-id pub-id-type="pmid">1823177</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Williams</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Char</surname>
+                <given-names>DH</given-names>
+              </name>
+              <name>
+                <surname>Dillon</surname>
+                <given-names>WP</given-names>
+              </name>
+              <name>
+                <surname>Lincoff</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Moseley</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Ferrous intraocular foreign bodies and magnetic resonance imaging.</article-title>
+            <source>Am J Ophthalmol</source>
+            <year>1988</year>
+            <month>Apr</month>
+            <day>15</day>
+            <volume>105</volume>
+            <issue>4</issue>
+            <fpage>398</fpage>
+            <page-range>398-401</page-range>
+            <pub-id pub-id-type="pmid">3282439</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hecht</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Adams</surname>
+                <given-names>WH</given-names>
+              </name>
+              <name>
+                <surname>Narak</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Thomas</surname>
+                <given-names>WB</given-names>
+              </name>
+            </person-group>
+            <article-title>Magnetic resonance imaging susceptibility artifacts due to metallic foreign bodies.</article-title>
+            <source>Vet Radiol Ultrasound</source>
+            <year>2011</year>
+            <season>Jul-Aug</season>
+            <volume>52</volume>
+            <issue>4</issue>
+            <fpage>409</fpage>
+            <page-range>409-14</page-range>
+            <pub-id pub-id-type="pmid">21382122</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Teitelbaum</surname>
+                <given-names>GP</given-names>
+              </name>
+              <name>
+                <surname>Yee</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Van Horn</surname>
+                <given-names>DD</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>HS</given-names>
+              </name>
+              <name>
+                <surname>Colletti</surname>
+                <given-names>PM</given-names>
+              </name>
+            </person-group>
+            <article-title>Metallic ballistic fragments: MR imaging safety and artifacts.</article-title>
+            <source>Radiology</source>
+            <year>1990</year>
+            <month>Jun</month>
+            <volume>175</volume>
+            <issue>3</issue>
+            <fpage>855</fpage>
+            <page-range>855-9</page-range>
+            <pub-id pub-id-type="pmid">2343136</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mosher</surname>
+                <given-names>ZA</given-names>
+              </name>
+              <name>
+                <surname>Sawyer</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Kelly</surname>
+                <given-names>DM</given-names>
+              </name>
+            </person-group>
+            <article-title>MRI Safety with Orthopedic Implants.</article-title>
+            <source>Orthop Clin North Am</source>
+            <year>2018</year>
+            <month>Oct</month>
+            <volume>49</volume>
+            <issue>4</issue>
+            <fpage>455</fpage>
+            <page-range>455-463</page-range>
+            <pub-id pub-id-type="pmid">30224007</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bovenschulte</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Schl&#x000fc;ter-Brust</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Liebig</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Erdmann</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Eysel</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Zobel</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>MRI in patients with pacemakers: overview and procedural management.</article-title>
+            <source>Dtsch Arztebl Int</source>
+            <year>2012</year>
+            <month>Apr</month>
+            <volume>109</volume>
+            <issue>15</issue>
+            <fpage>270</fpage>
+            <page-range>270-5</page-range>
+            <pub-id pub-id-type="pmid">22567062</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lebel</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Mondesert</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Robillard</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Pham</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Terrone</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Tan</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>2020 MR Safety for Cardiac Devices: An Update for Radiologists.</article-title>
+            <source>Can Assoc Radiol J</source>
+            <year>2021</year>
+            <month>Nov</month>
+            <volume>72</volume>
+            <issue>4</issue>
+            <fpage>814</fpage>
+            <page-range>814-830</page-range>
+            <pub-id pub-id-type="pmid">33231493</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Soto</surname>
+                <given-names>DM</given-names>
+              </name>
+            </person-group>
+            <article-title>Current guidelines for MRI safety in patients with cardiovascular implantable electronic devices.</article-title>
+            <source>Nursing</source>
+            <year>2020</year>
+            <month>Feb</month>
+            <volume>50</volume>
+            <issue>2</issue>
+            <fpage>24</fpage>
+            <page-range>24-29</page-range>
+            <pub-id pub-id-type="pmid">31904617</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Maurer</surname>
+                <given-names>WG</given-names>
+              </name>
+              <name>
+                <surname>Walsh</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Viazis</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Basic requirements for monitoring sedated patients: blood pressure, pulse oximetry, and EKG.</article-title>
+            <source>Digestion</source>
+            <year>2010</year>
+            <volume>82</volume>
+            <issue>2</issue>
+            <fpage>87</fpage>
+            <page-range>87-9</page-range>
+            <pub-id pub-id-type="pmid">20407251</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Holshouser</surname>
+                <given-names>BA</given-names>
+              </name>
+              <name>
+                <surname>Hinshaw</surname>
+                <given-names>DB</given-names>
+              </name>
+              <name>
+                <surname>Shellock</surname>
+                <given-names>FG</given-names>
+              </name>
+            </person-group>
+            <article-title>Sedation, anesthesia, and physiologic monitoring during MR imaging: evaluation of procedures and equipment.</article-title>
+            <source>J Magn Reson Imaging</source>
+            <year>1993</year>
+            <season>May-Jun</season>
+            <volume>3</volume>
+            <issue>3</issue>
+            <fpage>553</fpage>
+            <page-range>553-8</page-range>
+            <pub-id pub-id-type="pmid">8324317</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Taber</surname>
+                <given-names>KH</given-names>
+              </name>
+              <name>
+                <surname>Thompson</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Coveler</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Hayman</surname>
+                <given-names>LA</given-names>
+              </name>
+            </person-group>
+            <article-title>Invasive pressure monitoring of patients during magnetic resonance imaging.</article-title>
+            <source>Can J Anaesth</source>
+            <year>1993</year>
+            <month>Nov</month>
+            <volume>40</volume>
+            <issue>11</issue>
+            <fpage>1092</fpage>
+            <page-range>1092-5</page-range>
+            <pub-id pub-id-type="pmid">8269573</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lawal</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Regelous</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Omiyi</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Supporting claustrophobic patients during Magnetic Resonance Imaging examination- the patient perspective.</article-title>
+            <source>Radiography (Lond)</source>
+            <year>2023</year>
+            <month>Oct</month>
+            <volume>29</volume>
+            <issue>6</issue>
+            <fpage>1108</fpage>
+            <page-range>1108-1114</page-range>
+            <pub-id pub-id-type="pmid">37774577</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r46">
+          <label>46</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Murphy</surname>
+                <given-names>KJ</given-names>
+              </name>
+              <name>
+                <surname>Brunberg</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Cohan</surname>
+                <given-names>RH</given-names>
+              </name>
+            </person-group>
+            <article-title>Adverse reactions to gadolinium contrast media: a review of 36 cases.</article-title>
+            <source>AJR Am J Roentgenol</source>
+            <year>1996</year>
+            <month>Oct</month>
+            <volume>167</volume>
+            <issue>4</issue>
+            <fpage>847</fpage>
+            <page-range>847-9</page-range>
+            <pub-id pub-id-type="pmid">8819369</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r47">
+          <label>47</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Doda Khera</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Hirsch</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Buch</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Saini</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>ED MRI: Safety, Consent, and Regulatory Considerations.</article-title>
+            <source>Magn Reson Imaging Clin N Am</source>
+            <year>2022</year>
+            <month>Aug</month>
+            <volume>30</volume>
+            <issue>3</issue>
+            <fpage>553</fpage>
+            <page-range>553-563</page-range>
+            <pub-id pub-id-type="pmid">35995479</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-150070.r48">
+          <label>48</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <collab>Association of Anaesthetists of Great Britain and Ireland</collab>
+              <name>
+                <surname>Farling</surname>
+                <given-names>PA</given-names>
+              </name>
+              <name>
+                <surname>Flynn</surname>
+                <given-names>PA</given-names>
+              </name>
+              <name>
+                <surname>Darwent</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>De Wilde</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Grainger</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>King</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>McBrien</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Menon</surname>
+                <given-names>DK</given-names>
+              </name>
+              <name>
+                <surname>Ridgway</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Sury</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Thornton</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Wilson</surname>
+                <given-names>SR</given-names>
+              </name>
+            </person-group>
+            <article-title>Safety in magnetic resonance units: an update.</article-title>
+            <source>Anaesthesia</source>
+            <year>2010</year>
+            <month>Jul</month>
+            <volume>65</volume>
+            <issue>7</issue>
+            <fpage>766</fpage>
+            <page-range>766-70</page-range>
+            <pub-id pub-id-type="pmid">20642539</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

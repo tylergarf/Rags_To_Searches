@@ -1,0 +1,2482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-21178" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Enzyme-Linked Immunosorbent Assay (ELISA)</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Zubair</surname>
+            <given-names>Muhammad</given-names>
+          </name>
+          <aff>Pakistan Kidney &#x00026; Liver Institute and Research Centre - PKLI</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Singh</surname>
+            <given-names>Charanjeet</given-names>
+          </name>
+          <aff>University of Denver, Anschutz Medical Campus</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Farhana</surname>
+            <given-names>Aisha</given-names>
+          </name>
+          <aff>College of Applied Medical Sciences, Jouf University, Saudi Arabia</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Muhammad Zubair declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Charanjeet Singh declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Aisha Farhana declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>20</day>
+          <month>2</month>
+          <year>2026</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-21178.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Enzyme immunoassays (EIAs) use the catalytic properties of enzymes to detect and quantify immunologic reactions. Enzyme-linked immunosorbent assay (ELISA) is a heterogeneous EIA technique commonly used in clinical analyses.<xref ref-type="bibr" rid="article-21178.r1">[1]</xref>&#x000a0;In ELISA, one of the reaction components is either nonspecifically adsorbed or covalently bound to the surface of a solid phase, such as a microtiter well, magnetic particle, or plastic bead. This attachment facilitates efficient separation of bound and free-labeled reactants.<xref ref-type="bibr" rid="article-21178.r2">[2]</xref></p>
+        <p>In the most common ELISA approach, an aliquot of the sample or calibrator containing the antigen (Ag) to be quantified&#x000a0;is added to a solid-phase antibody (Ab) and allowed to bind. After washing, an enzyme-labeled antibody is introduced, forming a &#x0201c;sandwich complex&#x0201d; of solid-phase Ab&#x02013;Ag&#x02013;Ab&#x02013;enzyme. Unbound antibody is removed by washing, and the enzyme substrate is added. The amount of product generated is proportional to the antigen concentration in the sample.<xref ref-type="bibr" rid="article-21178.r1">[1]</xref></p>
+        <p>Unlike traditional ELISA, the competitive ELISA method is used to measure low-molecular-weight antigens or haptens. In this format, the antigen in the sample competes with a labeled antigen for binding to a limited amount of solid-phase antibody. The signal produced is inversely proportional to the concentration of antigen in the sample.<xref ref-type="bibr" rid="article-21178.r3">[3]</xref></p>
+        <p>Specific antibodies in a sample can also be quantified using an ELISA procedure in which the antigen,&#x000a0;rather than the antibody, is bound to a solid phase. An enzyme-labeled secondary antibody specific for the analyte antibody is then added.<xref ref-type="bibr" rid="article-21178.r4">[4]</xref>&#x000a0;This format, known as an indirect ELISA, is commonly used to detect antiviral antibodies. ELISA assays have been widely applied to detect antibodies to viruses and autoantigens in serum or whole blood.<xref ref-type="bibr" rid="article-21178.r5">[5]</xref><xref ref-type="bibr" rid="article-21178.r6">[6]</xref></p>
+        <p>Recent advancements have led to the development of ultrasensitive ELISA techniques capable of detecting biomarkers at femtomolar concentrations via enzymatic amplification. In addition, enzyme conjugates coupled to substrates that generate visible reaction products have been used to develop ELISA-type assays that can be visually interpreted. These assays are very useful for screening, point-of-care testing, and home testing.<xref ref-type="bibr" rid="article-21178.r7">[7]</xref><xref ref-type="bibr" rid="article-21178.r8">[8]</xref></p>
+      </sec>
+      <sec id="article-21178.s2" sec-type="Etiology and Epidemiology">
+        <title>Etiology and Epidemiology</title>
+        <p>The direct ELISA technique was developed simultaneously by 2 independent research teams: Engvall and Perlman, and Van Weemen and Schuurs. ELISA evolved from the radioimmunoassay by replacing radioactive iodine-125 labels with enzyme-conjugated antigens or antibodies. The method was initially used to quantify immunoglobulin G levels in rabbit serum. Within the same year, scientists quantified human chorionic gonadotropin (hCG) in urine using horseradish peroxidase. Since then, the ELISA method has been used&#x000a0;across a wide range of&#x000a0;applications and has become a routine laboratory research and diagnostic method worldwide.<xref ref-type="bibr" rid="article-21178.r1">[1]</xref></p>
+        <p>Early ELISA methodologies&#x000a0;used chromogenic reporter molecules and substrates to generate an observable color change indicating&#x000a0;the presence of the antigen. Further advancement in the ELISA technique led to the development of&#x000a0;fluorogenic, quantitative PCR-based,&#x000a0;and electrochemiluminescent reporters to generate signals.<xref ref-type="bibr" rid="article-21178.r9">[9]</xref>&#x000a0;However, some of these techniques do not rely on enzyme-linked substrates but instead use nonenzymatic reporters that still utilize the underlying principles of ELISA.<xref ref-type="bibr" rid="article-21178.r10">[10]</xref></p>
+        <p>A more recent development, reported in 2012, is an ultrasensitive enzyme-based ELISA that manipulates nanoparticles as chromogenic reporters. This technique can generate a color signal visible to the naked eye, with blue indicating a positive result and red indicating a negative result. However, this method is qualitative and can only determine whether an analyte is present or absent, not its concentration.<xref ref-type="bibr" rid="article-21178.r11">[11]</xref></p>
+      </sec>
+      <sec id="article-21178.s3" sec-type="Specimen Requirements and Procedure">
+        <title>Specimen Requirements and Procedure</title>
+        <p>ELISAs are performed in polystyrene plates, typically 96-well plates, that are coated to bind proteins strongly.<xref ref-type="bibr" rid="article-21178.r2">[2]</xref>&#x000a0;Depending on the ELISA type, testing may require a primary and/or secondary detection antibody, an analyte or antigen, a coating antibody or antigen, buffer, wash solutions, and a substrate or chromogen.<xref ref-type="bibr" rid="article-21178.r4">[4]</xref>&#x000a0;The&#x000a0;primary detection antibody specifically binds the protein of interest, whereas the secondary detection antibody is enzyme-conjugated and binds to a primary antibody that is not enzyme-conjugated.<xref ref-type="bibr" rid="article-21178.r7">[7]</xref></p>
+        <p>An ELISA immunoassay consists of 4 main steps:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Coat the plate with an antigen or an antibody</p>
+          </list-item>
+          <list-item>
+            <p>Block nonspecific binding sites with bovine serum albumin (BSA)</p>
+          </list-item>
+          <list-item>
+            <p>Detect bound antigen or antibody using an enzyme-linked system</p>
+          </list-item>
+          <list-item>
+            <p>Measure the signal after substrate addition</p>
+          </list-item>
+        </list>
+        <p>Detection is performed by adding a substrate that generates a color.&#x000a0;Although a variety of substrates are available for ELISA detection, the most commonly used enzymes are horseradish peroxidase (HRP) and alkaline phosphatase.<xref ref-type="bibr" rid="article-21178.r4">[4]</xref>&#x000a0;HRP uses hydrogen peroxide as a substrate, producing a blue color change, whereas alkaline phosphatase typically uses p-nitrophenyl phosphate as its substrate and yields a yellow nitrophenol product after incubation at room temperature for approximately 15 to 30 minutes.<xref ref-type="bibr" rid="article-21178.r2">[2]</xref></p>
+        <p>Between each of the 4 primary steps, the plate undergoes a wash step using a buffer solution, such as phosphate-buffered saline (PBS) with a nonionic detergent, to remove unbound material. The wells are typically washed 2 or more times during each wash cycle, depending on the specific&#x000a0;protocol.<xref ref-type="bibr" rid="article-21178.r7">[7]</xref></p>
+        <p>In&#x000a0;a usual ELISA protocol, serial dilutions of known concentrations are added to&#x000a0;the wells of the plate.&#x000a0;After the results are measured, a standard curve is generated from the serial dilutions data, plotting concentration on a&#x000a0;logarithmic&#x000a0;x-axis and absorbance on a linear y-axis.<xref ref-type="bibr" rid="article-21178.r12">[12]</xref></p>
+        <p>The 4 major types of ELISA are mentioned below.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Direct ELISA: This method uses an antigen-coated plate to detect antibodies.</p>
+          </list-item>
+          <list-item>
+            <p>Indirect ELISA: This method uses an antigen-coated plate to detect antigens or antibodies.</p>
+          </list-item>
+          <list-item>
+            <p>Sandwich ELISA: This method uses an antibody-coated plate to detect antigens.</p>
+          </list-item>
+          <list-item>
+            <p>Competitive ELISA:&#x000a0;This method is used to detect antibodies.</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Direct ELISA</bold>
+</p>
+        <p>Both direct and indirect ELISAs begin by coating antigens onto the ELISA plates.<xref ref-type="bibr" rid="article-21178.r13">[13]</xref><xref ref-type="bibr" rid="article-21178.r14">[14]</xref>&#x000a0;The initial binding step involves adding antigens to the plates, which are incubated for 1 hour at 37 &#x000b0;C or overnight at 4 &#x000b0;C. Once the incubation step is complete, the&#x000a0;plates are washed to remove any unbound antibodies, and the remaining binding sites on the ELISA plate are blocked using agents such as bovine serum albumin, ovalbumin, aprotinin, or other animal proteins.<xref ref-type="bibr" rid="article-21178.r2">[2]</xref>&#x000a0;This second step is crucial because it prevents the binding of any nonspecific antibodies to the plate and minimizes false-positive results. After adding the buffer, the plates are washed again, and a selected&#x000a0;enzyme-conjugated primary detection antibody&#x000a0;is added. The plates are then incubated for an additional 1 hour.<xref ref-type="bibr" rid="article-21178.r15">[15]</xref></p>
+        <p>In a direct ELISA, the&#x000a0;primary&#x000a0;detection antibody&#x000a0;binds directly to the protein of interest.<xref ref-type="bibr" rid="article-21178.r16">[16]</xref>&#x000a0;The plate is then washed to remove any unbound antibodies.&#x000a0;An enzyme, such as alkaline phosphatase or HRP, is added to the plate, which results in a color change. This color change in the sample occurs either through the hydrolysis of phosphate groups on&#x000a0;the substrate by alkaline phosphatase or through the oxidation of substrates by HRP.<xref ref-type="bibr" rid="article-21178.r15">[15]</xref>&#x000a0;</p>
+        <p>The advantages of using direct ELISA include the elimination of secondary antibody cross-reactivity and a faster assay workflow due to fewer steps compared with indirect ELISA. However, disadvantages include lower sensitivity than other ELISA formats and higher reagent costs.<xref ref-type="bibr" rid="article-21178.r4">[4]</xref>&#x000a0;Recent developments have reported novel enzyme conjugates, such as engineered glucose oxidase variants, that enhance signal stability and enable multiplexed direct ELISA workflows, thereby improving throughput.<xref ref-type="bibr" rid="article-21178.r17">[17]</xref></p>
+        <p>
+<bold>Indirect ELISA</bold>
+</p>
+        <p>The steps of indirect ELISA are similar to those of direct ELISA, with the addition of an extra&#x000a0;wash step and differences in the antibodies added after the buffer is removed.<xref ref-type="bibr" rid="article-21178.r18">[18]</xref>&#x000a0;Indirect ELISA requires 2 antibodies: a&#x000a0;primary detection antibody&#x000a0;that binds to the protein of interest and a&#x000a0;secondary enzyme-linked antibody that is complementary to the primary antibody.<xref ref-type="bibr" rid="article-21178.r12">[12]</xref>&#x000a0;The primary antibody is added first, followed by a wash step. The enzyme-conjugated secondary antibody is then added and incubated. Afterward,&#x000a0;the steps are the same as the direct ELISA, which includes a wash step, the addition of substrate, and the detection of a color change.<xref ref-type="bibr" rid="article-21178.r19">[19]</xref></p>
+        <p>The indirect ELISA has a higher sensitivity&#x000a0;than&#x000a0;the direct ELISA.<xref ref-type="bibr" rid="article-21178.r19">[19]</xref>&#x000a0;Indirect ELISA is also less expensive and more flexible because a wide range of primary antibodies can be used. The only major disadvantage of this ELISA format is the risk of cross-reactivity involving the secondary detection antibodies.<xref ref-type="bibr" rid="article-21178.r4">[4]</xref>&#x000a0;Recent studies have highlighted&#x000a0;the use of recombinant hypervalent secondary antibodies that bind multiple enzyme reporters per antigen-antibody complex, significantly amplifying the signal and extending the sensitivity of indirect ELISA into the low attomolar range for certain viral targets.&#x000a0;<xref ref-type="bibr" rid="article-21178.r6">[6]</xref></p>
+        <p>
+<bold>Sandwich ELISA</bold>
+</p>
+        <p>Unlike direct and indirect ELISA, the sandwich ELISA technique begins with a capture&#x000a0;antibody coated onto the wells of the plate.<xref ref-type="bibr" rid="article-21178.r12">[12]</xref>&#x000a0;This method is called a &#x0201c;sandwich&#x0201d; because the antigens are sandwiched between 2 layers of antibodies&#x02014;the capture antibody and the detection antibody.<xref ref-type="bibr" rid="article-21178.r2">[2]</xref>&#x000a0;After the capture antibody is added to the plates, the plates are then covered and incubated overnight at 4 &#x000b0;C. Once the coating step is complete, the plates are washed with PBS and then buffered or blocked with BSA. The&#x000a0;blocking step is carried out at room temperature for at least 1 to 2 hours. Finally, the plates are washed with PBS again before the antigen is added.<xref ref-type="bibr" rid="article-21178.r20">[20]</xref></p>
+        <p>The antigen of interest is added to the plates to bind to the capture antibody and incubated for 90 minutes at 37&#x000a0;&#x000b0;C. The plates are then washed, and the primary detection antibody is added, and the plates are incubated for another 1 to 2 hours at room temperature, followed by a buffer wash. Next, the secondary enzyme-conjugated antibody is added and incubated for an additional 1 to 2 hours. The plate is rewashed, and the substrate is added to produce a color change.<xref ref-type="bibr" rid="article-21178.r2">[2]</xref></p>
+        <p>The sandwich ELISA method has the highest sensitivity among ELISA formats.<xref ref-type="bibr" rid="article-21178.r20">[20]</xref>&#x000a0;However, its major disadvantages include the time and expense required, as well as the need for matched antibody pairs (divalent or multivalent antigens) and secondary antibodies.<xref ref-type="bibr" rid="article-21178.r4">[4]</xref>&#x000a0;To address these limitations, a universal platform using high-affinity DNA oligonucleotide-tagged antibodies has been developed. This approach allows compatible detection and capture antibodies to be used interchangeably, thereby drastically reducing development time and cost for novel assays.<xref ref-type="bibr" rid="article-21178.r21">[21]</xref></p>
+        <p>
+<bold>Competitive ELISA</bold>
+</p>
+        <p>The competitive ELISA technique is used to detect the presence of antibodies specific to antigens in&#x000a0;a test serum.<xref ref-type="bibr" rid="article-21178.r22">[22]</xref>&#x000a0;This method utilizes 2 specific antibodies: an enzyme-conjugated antibody and the antibody present in the test serum (if the serum is positive).&#x000a0;When both antibodies are added to the wells, they compete for binding to the antigen. A color change indicates a negative&#x000a0;test result, as the enzyme-conjugated antibody binds&#x000a0;the antigen rather than the antibodies in the test serum.<xref ref-type="bibr" rid="article-21178.r4">[4]</xref>&#x000a0;In contrast, the absence of color indicates a positive test result and the presence of antibodies in the test serum.</p>
+        <p>Competitive ELISA has relatively low specificity and is not suitable for dilute samples.&#x000a0;However, its benefits include minimal sample purification requirements, the ability to measure a wide range of antigens within a given sample, applicability to small antigens, and low assay variability.<xref ref-type="bibr" rid="article-21178.r15">[15]</xref></p>
+        <p>
+<bold>Direct Cellular ELISA</bold>
+</p>
+        <p>This technique is used to detect cell surface antigens and receptors. Cells are exposed to enzyme-linked antibodies that specifically bind to surface molecules. After washing off any unbound conjugate, a substrate is added, and the resulting enzyme reaction indicates the amount of the target antigen present on the cells.<xref ref-type="bibr" rid="article-21178.r3">[3]</xref></p>
+        <p>
+<bold>Indirect Cellular ELISA</bold>
+</p>
+        <p>This method is used to quantify antibodies directed against cell-surface antigens. Cells are first incubated with antibody-containing samples, followed by the removal of any unbound antibodies. Enzyme-labeled secondary antibodies, specific to the primary antibodies, are then added. After washing off excess secondary conjugate, a substrate is introduced to produce a measurable signal.<xref ref-type="bibr" rid="article-21178.r3">[3]</xref></p>
+        <p>Cellular ELISA techniques are being integrated with high-content imaging systems. High-throughput, multiplexed indirect cellular ELISA platforms have been developed that can simultaneously quantify antibody binding to multiple live-cell surface receptors within a single well, enabling rapid screening for autoimmune and anti-receptor antibodies in patient sera.<xref ref-type="bibr" rid="article-21178.r23">[23]</xref><xref ref-type="bibr" rid="article-21178.r24">[24]</xref></p>
+      </sec>
+      <sec id="article-21178.s4" sec-type="Diagnostic Tests">
+        <title>Diagnostic Tests</title>
+        <p>ELISAs&#x000a0;are widely used in diagnostic testing.<xref ref-type="bibr" rid="article-21178.r1">[1]</xref><xref ref-type="bibr" rid="article-21178.r4">[4]</xref>&#x000a0;ELISA&#x000a0;can be performed on a broad range of biological fluids, including blood, saliva, urine, milk, cerebrospinal fluid, amniotic fluid, gastric juice, semen, pleural fluid, peritoneal fluid, synovial fluid, bronchoalveolar lavage fluid, as well as cyst fluids (such as ovarian or hydatid cysts) and fluids from various fistulas. These applications are used in both research and diagnostic settings.<xref ref-type="bibr" rid="article-21178.r3">[3]</xref><xref ref-type="bibr" rid="article-21178.r25">[25]</xref>&#x000a0;Some uses of ELISA are listed below.</p>
+        <p>
+<bold>Detection and Measurement of Antibodies in Blood</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Autoantibodies (eg, anti&#x02013;double-stranded DNA, anti-desmoglein 1, and antinuclear antibodies)</p>
+          </list-item>
+          <list-item>
+            <p>Antibodies against infectious diseases (antibacterial, antiviral, and antifungal), including hepatitis A, B, and C, and HIV</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Detection and&#x000a0;Quantification&#x000a0;of Tumor Markers</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Prostate-specific antigen</p>
+          </list-item>
+          <list-item>
+            <p>Carcinoembryonic antigen</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Detection and Quantification of Hormone Levels</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Luteinizing hormone</p>
+          </list-item>
+          <list-item>
+            <p>Follicular-stimulating hormone</p>
+          </list-item>
+          <list-item>
+            <p>Prolactin</p>
+          </list-item>
+          <list-item>
+            <p>Testosterone</p>
+          </list-item>
+          <list-item>
+            <p>hCG</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Tracking Disease Outbreaks</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Cholera</p>
+          </list-item>
+          <list-item>
+            <p>HIV</p>
+          </list-item>
+          <list-item>
+            <p>Influenza</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Detection of Past Exposures</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>HIV</p>
+          </list-item>
+          <list-item>
+            <p>Lyme disease</p>
+          </list-item>
+          <list-item>
+            <p>Hepatitis</p>
+          </list-item>
+          <list-item>
+            <p>COVID-19&#x000a0;<xref ref-type="bibr" rid="article-21178.r26">[26]</xref></p>
+          </list-item>
+        </list>
+        <p>
+<bold>Screening Donated Blood for Possible Viral Contaminants</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Anti-HIV-1/2</p>
+          </list-item>
+          <list-item>
+            <p>Anti-hepatitis C virus</p>
+          </list-item>
+          <list-item>
+            <p>Hepatitis B surface antigen</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Detection of Drug Abuse</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Amphetamine</p>
+          </list-item>
+          <list-item>
+            <p>Methamphetamine</p>
+          </list-item>
+          <list-item>
+            <p>3,4-Methylenedioxymethamphetamine</p>
+          </list-item>
+          <list-item>
+            <p>Cocaine</p>
+          </list-item>
+          <list-item>
+            <p>Benzoylecgonine</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-21178.s5" sec-type="Interfering Factors">
+        <title>Interfering Factors</title>
+        <p>Factors that interfere with appropriate ELISA testing can&#x000a0;arise at any phase of the testing process, beginning with specimen collection. The quality and integrity of the assay plate, coating buffer, capture antibody, blocking buffer, target antigen, detection antibody, enzyme conjugate, wash steps, substrate, and signal detection can all interfere with proper ELISA testing.<xref ref-type="bibr" rid="article-21178.r1">[1]</xref>&#x000a0;Some of the factors that can interfere with ELISA testing are listed below.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Assay plate: Well&#x000a0;shape and quality, plate material, potential preactivation, and uniformity of coating.<xref ref-type="bibr" rid="article-21178.r2">[2]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Buffers: Contamination and pH.<xref ref-type="bibr" rid="article-21178.r19">[19]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Capture and detection antibodies: Incubation time, temperature, specificity, titer, and affinity.<xref ref-type="bibr" rid="article-21178.r15">[15]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Blocking buffer: Concentration, cross-reactivity, and contamination.<xref ref-type="bibr" rid="article-21178.r20">[20]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Target antigen: Conformation, stability, and epitopes.<xref ref-type="bibr" rid="article-21178.r4">[4]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Enzyme conjugate: Type, concentration, functional activity, and cross-reactivity.<xref ref-type="bibr" rid="article-21178.r27">[27]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Washes: Contamination, frequency, volume, duration, and composition.<xref ref-type="bibr" rid="article-21178.r1">[1]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Substrate: Quality and manufacturer variability.<xref ref-type="bibr" rid="article-21178.r2">[2]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Detection: Instrument-dependent factors.<xref ref-type="bibr" rid="article-21178.r27">[27]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Reader or operator error.<xref ref-type="bibr" rid="article-21178.r4">[4]</xref></p>
+          </list-item>
+        </list>
+        <p>The increasing demand for point-of-care ELISA testing in resource-limited settings has highlighted new categories of environmental interferents, particularly during ambient-temperature incubations. Studies reported in 2025 emphasize that ambient humidity, atmospheric particulate matter, and diurnal temperature fluctuations greater than 5 &#x000b0;C can significantly alter antigen-antibody binding kinetics and enzyme-substrate reaction rates, leading to batch-to-batch variability in field-deployed tests.&#x000a0;</p>
+        <p>Advancements in machine learning for quality control now enable the real-time detection of assay interference by analyzing raw kinetic readout data from plate readers. These algorithms can identify anomalies caused by subtle factors, such as incomplete washing or low-level substrate contamination, that were previously undetectable by standard endpoint absorbance thresholds.<xref ref-type="bibr" rid="article-21178.r28">[28]</xref><xref ref-type="bibr" rid="article-21178.r29">[29]</xref></p>
+        <p>Research on next-generation blocking agents has identified new sources of interference. Although traditional protein blockers such as BSA remain common, 2025 investigations revealed that certain commercial recombinant protein blockers contain trace contaminants that bind to Fc regions with low affinity. This interaction can lead to nonspecific signal elevation in sandwich ELISA formats that use monoclonal detection antibodies.<xref ref-type="bibr" rid="article-21178.r6">[6]</xref></p>
+        <p>Finally, the increasing use of multiplexed ELISA panels has introduced a novel interference mechanism, known as assay crosstalk. Recent studies have documented that enzymatic products from a single assay well, particularly when using high-sensitivity chemiluminescent substrates, can diffuse as aerosols during plate handling and generate false-positive signals in adjacent wells. this effect necessitates the use of strict physical barriers or staggered development times in multiplex protocols.<xref ref-type="bibr" rid="article-21178.r30">[30]</xref><xref ref-type="bibr" rid="article-21178.r31">[31]</xref><xref ref-type="bibr" rid="article-21178.r32">[32]</xref></p>
+      </sec>
+      <sec id="article-21178.s6" sec-type="Results, Reporting, and Critical Findings&#x0000d;&#x0000a;">
+        <title>Results, Reporting, and Critical Findings
+</title>
+        <p>Data collected from ELISA tests can be quantitative, qualitative, or semiquantitative.<xref ref-type="bibr" rid="article-21178.r1">[1]</xref>&#x000a0;Quantitative results are plotted and compared with a standard curve to determine analyte concentration. Qualitative results indicate the presence or absence of a&#x000a0;specific antigen or antibody in a sample.<xref ref-type="bibr" rid="article-21178.r2">[2]</xref>&#x000a0;Semiquantitative results compare the intensities of signals to estimate relative antigen levels in a sample.<xref ref-type="bibr" rid="article-21178.r27">[27]</xref></p>
+        <p>After color development is measured, results are plotted using either manual methods (on a graph paper) or software.<xref ref-type="bibr" rid="article-21178.r1">[1]</xref>&#x000a0;Typically,&#x000a0;optical density is plotted against the logarithm of concentration, producing a sigmoidal curve. Known analyte concentrations are used to generate the standard curve, and concentrations of unknown samples are determined by comparing their values with the linear portion of that curve.<xref ref-type="bibr" rid="article-21178.r22">[22]</xref></p>
+      </sec>
+      <sec id="article-21178.s7" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>ELISAs are used across a wide range of clinical and laboratory settings, including rapid antibody screening for HIV, detection of other viruses (such as COVID-19; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.idsociety.org/practice-guideline/covid-19-guideline-serology/">IDSA Guidelines on the Diagnosis of COVID-19: Serologic Testing</ext-link>), identification of bacterial and fungal pathogens, diagnosis of autoimmune diseases, detection of food allergens, blood typing, presence of the pregnancy hormone hCG, laboratory and clinical research, applications in forensic toxicology, and many other diagnostic settings.<xref ref-type="bibr" rid="article-21178.r33">[33]</xref><xref ref-type="bibr" rid="article-21178.r34">[34]</xref><xref ref-type="bibr" rid="article-21178.r35">[35]</xref><xref ref-type="bibr" rid="article-21178.r36">[36]</xref></p>
+        <p>In&#x000a0;HIV&#x000a0;testing, a blood or saliva specimen is collected, and screening is typically performed using indirect ELISA-based tests.<xref ref-type="bibr" rid="article-21178.r7">[7]</xref>&#x000a0;ELISA serves as a screening tool for HIV detection, but it is not diagnostic. Diagnosis requires confirmatory Western blot testing due to the risk of false-positive results.&#x000a0;Another&#x000a0;virus<bold>,</bold>&#x000a0;Molluscum contagiosum virus (MCV), which commonly infects the skin of children and young adults, can also be detected by ELISA testing.<xref ref-type="bibr" rid="article-21178.r37">[37]</xref>&#x000a0;ELISA testing in this setting is currently being evaluated to assess global MCV seroprevalence.<xref ref-type="bibr" rid="article-21178.r38">[38]</xref></p>
+        <p>ELISA has also been used to detect autoantibodies to desmogleins 1 and 3, as well as bullous pemphigoid antigen 180, which are implicated in pemphigus and bullous pemphigoid, respectively.<xref ref-type="bibr" rid="article-21178.r39">[39]</xref><xref ref-type="bibr" rid="article-21178.r40">[40]</xref>&#x000a0;In&#x000a0;food allergy, the evolution of the ELISA has played an important role in allergy research and diagnosis. Ultrasensitive ELISA variants have been developed to detect&#x000a0;allergens at picogram concentrations, which is critical given the potentially life-threatening public health impact of food allergies.<xref ref-type="bibr" rid="article-21178.r41">[41]</xref><xref ref-type="bibr" rid="article-21178.r42">[42]</xref></p>
+      </sec>
+      <sec id="article-21178.s8" sec-type="Quality Control and Lab Safety&#x0000d;&#x0000a;">
+        <title>Quality Control and Lab Safety
+</title>
+        <p>As with quantitative procedures, results from qualitative and semiquantitative examinations must be verified for accuracy before being reported to the requesting health care provider.<xref ref-type="bibr" rid="article-21178.r43">[43]</xref>&#x000a0;Laboratories must establish a quality control program for all qualitative and semiquantitative tests.<xref ref-type="bibr" rid="article-21178.r44">[44]</xref><xref ref-type="bibr" rid="article-21178.r45">[45]</xref><xref ref-type="bibr" rid="article-21178.r46">[46]</xref>&#x000a0;When establishing this program, policies should be defined,&#x000a0;staff should be trained, responsibilities assigned, and adequate resources ensured. All quality control data must be completely documented and reviewed by the quality manager and the laboratory director.<xref ref-type="bibr" rid="article-21178.r47">[47]</xref></p>
+        <p>Positive and negative controls are recommended for many qualitative and semiquantitative tests, including some procedures that use special stains or reagents and&#x000a0;assays with endpoints such as agglutination or color change.<xref ref-type="bibr" rid="article-21178.r48">[48]</xref>&#x000a0;These controls should generally be used with each test run.<xref ref-type="bibr" rid="article-21178.r49">[49]</xref>&#x000a0;Their use of controls also helps validate new lot numbers for test kits or reagents, monitor temperatures in storage and testing areas, and assess assay performance when testing is performed by new personnel.<xref ref-type="bibr" rid="article-21178.r50">[50]</xref></p>
+        <p>When traditional controls are used for qualitative or semiquantitative tests, laboratories should test control materials in the same manner as patient samples; include both positive and negative controls, preferably once each day of testing or at least as frequently as recommended by the manufacturer; select positive controls with values close to the assay cutoff to ensure detection of weak positive reactions; and, for agglutination procedures, include a weak positive control in addition to a negative control and a stronger positive control.<xref ref-type="bibr" rid="article-21178.r44">[44]</xref></p>
+        <p>Basic safety rules for laboratory conduct should be observed at all times when working in a laboratory.<xref ref-type="bibr" rid="article-21178.r51">[51]</xref>&#x000a0;All specimens, control materials, and calibrators should be considered potentially infectious. Standard precautions should be followed when handling laboratory reagents.<xref ref-type="bibr" rid="article-21178.r52">[52]</xref>&#x000a0;Disposal&#x000a0;of all waste materials should comply with local regulations. Personnel should wear gloves, a laboratory coat, and safety glasses when handling human blood specimens. All plastic tips, sample cups, and gloves that come into contact with blood should be disposed of in biohazard waste containers, and all disposable glassware should be discarded in approved sharps containers.<xref ref-type="bibr" rid="article-21178.r53">[53]</xref></p>
+        <p>Work surfaces should be protected with disposable absorbent benchtop paper, which should be discarded into biohazard waste containers weekly or whenever blood contamination occurs. Work surfaces should be wiped down at least once a week. All equipment should be routinely inspected for wear or deterioration and maintained in accordance with the manufacturer&#x02019;s requirements. Records of certification, maintenance, and repairs should be retained for the life of the equipment.<xref ref-type="bibr" rid="article-21178.r54">[54]</xref>&#x000a0;</p>
+        <p>Computers and instrumentation should be clearly labeled to indicate whether gloves are required. Inconsistent glove use when handling keyboards or keypads can be a source of contamination. Jewelry should be avoided in the laboratory because it can pose multiple safety hazards. Safety requirements specific to laboratory operations should be outlined in the appropriate laboratory standard operating procedures.<xref ref-type="bibr" rid="article-21178.r55">[55]</xref></p>
+        <p>The implementation of digital quality control (QC) platforms, now mandated in many accredited laboratories, has transformed the traditional QC review process. These systems use AI-driven statistical process control to analyze multiparameter QC data in real time, automatically flagging shifts or trends before they exceed acceptable limits and correlating them with variables such as reagent lot changes or environmental conditions.&#x000a0;<xref ref-type="bibr" rid="article-21178.r56">[56]</xref><xref ref-type="bibr" rid="article-21178.r57">[57]</xref></p>
+        <p>Laboratory safety protocols were updated to address risks posed by novel signal amplification reagents used in next-generation rapid tests. Certain high-potency enzymatic substrates now require handling in designated containment areas due to the potential for aerosolization, which&#x000a0;may cause false-positive results in adjacent tests and possible respiratory sensitization.</p>
+        <p>Furthermore, the widespread adoption of automated ELISA plate handlers and multiplex analyzers has introduced new ergonomic and safety considerations. Reassessment of risk highlighted the need for specific lock-out and tag-out procedures during maintenance to prevent unexpected mechanical movement, as well as regular decontamination cycles for robotic grippers, which can accumulate biohazardous material not visible during routine inspection.</p>
+      </sec>
+      <sec id="article-21178.s9" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>ELISA testing plays a critical role in medical care and scientific research. The use of this technique has expanded beyond core clinical pathology laboratories into point-of-care settings, global health surveillance networks, and advanced discovery research, reinforcing its status as an indispensable analytical platform. Effective implementation depends on a highly collaborative workflow that requires coordinated efforts among phlebotomists to ensure specimen integrity, laboratory scientists to execute assays accurately, bioinformaticians to analyze high-dimensional data, and clinicians to interpret results, establish diagnoses, and communicate findings in a patient-centered manner.</p>
+        <p>Recent advancements have primarily focused on augmentation rather than replacement, enhancing traditional ELISA with new capabilities. Key innovations include the integration of ultrasensitive digital and single-molecule ELISA, such as Simoa and dELISA, which enable the detection of neurological biomarkers, such as tau and alpha-synuclein, at femtomolar levels, thereby revolutionizing early neurodegenerative disease research. Furthermore, the growing use of multiplexed bead-based and on-chip array platforms now allows simultaneous quantification of dozens of cytokines, chemokines, or autoantibodies from a single microsample, accelerating progress in systems immunology and personalized medicine. Efforts to decentralize testing have also led to the successful deployment of smartphone-based paper microfluidic ELISA readers in resource-limited settings, enabling quantitative analysis for tropical disease surveillance without the need for traditional laboratory infrastructure.</p>
+        <p>The clinical impact of these evolving technologies is profound. Beyond its historical success in HIV diagnosis and pregnancy testing, ELISA has evolved to underpin critical advances in cancer liquid biopsies, including the detection of exosomal proteins; therapeutic drug monitoring of biological agents; and rapid serological profiling during pandemic responses. The integration of artificial intelligence for automated plate image analysis and predictive quality control further standardizes outputs and reduces turnaround times.</p>
+        <p>As a mature yet dynamically evolving technology, ELISA continues to adapt to emerging needs.&#x000a0;The future of ELISA lies in hybrid systems that combine immunoassay specificity with the sensitivity of nucleic acid amplification (eg, immuno-PCR) and in fully automated, walk-away platforms for high-throughput biomarker validation. The continued refinement of ELISA ensures that it will remain vital for improving early diagnosis, enabling precision medicine, and responding to emerging public health challenges globally.</p>
+      </sec>
+      <sec id="article-21178.s10">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=21178&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=21178">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/21178/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=21178">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-21178.s11">
+        <title>References</title>
+        <ref id="article-21178.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Aydin</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>A short history, principles, and types of ELISA, and our laboratory experience with peptide/protein analyses using ELISA.</article-title>
+            <source>Peptides</source>
+            <year>2015</year>
+            <month>Oct</month>
+            <volume>72</volume>
+            <fpage>4</fpage>
+            <page-range>4-15</page-range>
+            <pub-id pub-id-type="pmid">25908411</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Engvall</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>The ELISA, enzyme-linked immunosorbent assay.</article-title>
+            <source>Clin Chem</source>
+            <year>2010</year>
+            <month>Feb</month>
+            <volume>56</volume>
+            <issue>2</issue>
+            <fpage>319</fpage>
+            <page-range>319-20</page-range>
+            <pub-id pub-id-type="pmid">19850633</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Aydin</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Emre</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Ugur</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Aydin</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Sahin</surname>
+                <given-names>&#x00130;</given-names>
+              </name>
+              <name>
+                <surname>Cinar</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Akbulut</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>An overview of ELISA: a review and update on best laboratory practices for quantifying peptides and proteins in biological fluids.</article-title>
+            <source>J Int Med Res</source>
+            <year>2025</year>
+            <month>Feb</month>
+            <volume>53</volume>
+            <issue>2</issue>
+            <fpage>3000605251315913</fpage>
+            <pub-id pub-id-type="pmid">39922798</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Shah</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Maghsoudlou</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Enzyme-linked immunosorbent assay (ELISA): the basics.</article-title>
+            <source>Br J Hosp Med (Lond)</source>
+            <year>2016</year>
+            <month>Jul</month>
+            <volume>77</volume>
+            <issue>7</issue>
+            <fpage>C98</fpage>
+            <page-range>C98-101</page-range>
+            <pub-id pub-id-type="pmid">27388394</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kobayashi</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Okita</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>PK</given-names>
+              </name>
+              <name>
+                <surname>Hasunuma</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Tsuneki</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Hayakawa</surname>
+                <given-names>ESH</given-names>
+              </name>
+              <name>
+                <surname>Yoshimura</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Ito</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Ultrasensitive ELISA for Accurate Detection of <italic>Plasmodium falciparum</italic> Infection.</article-title>
+            <source>Open Forum Infect Dis</source>
+            <year>2025</year>
+            <month>Dec</month>
+            <volume>12</volume>
+            <issue>12</issue>
+            <fpage>ofaf711</fpage>
+            <pub-id pub-id-type="pmid">41356268</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jeon</surname>
+                <given-names>HB</given-names>
+              </name>
+              <name>
+                <surname>Song</surname>
+                <given-names>DY</given-names>
+              </name>
+              <name>
+                <surname>Park</surname>
+                <given-names>YJ</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>DM</given-names>
+              </name>
+            </person-group>
+            <article-title>Enhancing ELISA Sensitivity: From Surface Engineering to Synthetic Biology.</article-title>
+            <source>Biosensors (Basel)</source>
+            <year>2025</year>
+            <month>Jul</month>
+            <day>06</day>
+            <volume>15</volume>
+            <issue>7</issue>
+            <pub-id pub-id-type="pmid">40710084</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Konstantinou</surname>
+                <given-names>GN</given-names>
+              </name>
+            </person-group>
+            <article-title>Enzyme-Linked Immunosorbent Assay (ELISA).</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2017</year>
+            <volume>1592</volume>
+            <fpage>79</fpage>
+            <page-range>79-94</page-range>
+            <pub-id pub-id-type="pmid">28315213</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mendicino</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Avalos</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Chiaraviglio</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Dom&#x000ed;nguez</surname>
+                <given-names>LB</given-names>
+              </name>
+              <name>
+                <surname>Schaumburg</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Equipmentless point-of-care testing of dengue antibodies using ELISA and smartphones.</article-title>
+            <source>J Pharm Biomed Anal</source>
+            <year>2025</year>
+            <month>Mar</month>
+            <day>15</day>
+            <volume>255</volume>
+            <fpage>116666</fpage>
+            <pub-id pub-id-type="pmid">39787848</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Leng</surname>
+                <given-names>SX</given-names>
+              </name>
+              <name>
+                <surname>McElhaney</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>Walston</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Xie</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Fedarko</surname>
+                <given-names>NS</given-names>
+              </name>
+              <name>
+                <surname>Kuchel</surname>
+                <given-names>GA</given-names>
+              </name>
+            </person-group>
+            <article-title>ELISA and multiplex technologies for cytokine measurement in inflammation and aging research.</article-title>
+            <source>J Gerontol A Biol Sci Med Sci</source>
+            <year>2008</year>
+            <month>Aug</month>
+            <volume>63</volume>
+            <issue>8</issue>
+            <fpage>879</fpage>
+            <page-range>879-84</page-range>
+            <pub-id pub-id-type="pmid">18772478</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gelkop</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Sobarzo</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Brangel</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Vincke</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Rom&#x000e3;o</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Fedida-Metula</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Strom</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Ataliba</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Mwiine</surname>
+                <given-names>FN</given-names>
+              </name>
+              <name>
+                <surname>Ochwo</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Velazquez-Salinas</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>McKendry</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Muyldermans</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lutwama</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Rieder</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Yavelsky</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Lobel</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>The Development and Validation of a Novel Nanobody-Based Competitive ELISA for the Detection of Foot and Mouth Disease 3ABC Antibodies in Cattle.</article-title>
+            <source>Front Vet Sci</source>
+            <year>2018</year>
+            <volume>5</volume>
+            <fpage>250</fpage>
+            <pub-id pub-id-type="pmid">30370272</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>de la Rica</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Stevens</surname>
+                <given-names>MM</given-names>
+              </name>
+            </person-group>
+            <article-title>Plasmonic ELISA for the ultrasensitive detection of disease biomarkers with the naked eye.</article-title>
+            <source>Nat Nanotechnol</source>
+            <year>2012</year>
+            <month>Dec</month>
+            <volume>7</volume>
+            <issue>12</issue>
+            <fpage>821</fpage>
+            <page-range>821-4</page-range>
+            <pub-id pub-id-type="pmid">23103935</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tabatabaei</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Ahmed</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Enzyme-Linked Immunosorbent Assay (ELISA).</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2022</year>
+            <volume>2508</volume>
+            <fpage>115</fpage>
+            <page-range>115-134</page-range>
+            <pub-id pub-id-type="pmid">35737237</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lin</surname>
+                <given-names>AV</given-names>
+              </name>
+            </person-group>
+            <article-title>Direct ELISA.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2015</year>
+            <volume>1318</volume>
+            <fpage>61</fpage>
+            <page-range>61-7</page-range>
+            <pub-id pub-id-type="pmid">26160564</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hayrapetyan</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Tran</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Tellez-Corrales</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Madiraju</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Enzyme-Linked Immunosorbent Assay: Types and Applications.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2023</year>
+            <volume>2612</volume>
+            <fpage>1</fpage>
+            <page-range>1-17</page-range>
+            <pub-id pub-id-type="pmid">36795355</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kohl</surname>
+                <given-names>TO</given-names>
+              </name>
+              <name>
+                <surname>Ascoli</surname>
+                <given-names>CA</given-names>
+              </name>
+            </person-group>
+            <article-title>Direct Competitive Enzyme-Linked Immunosorbent Assay (ELISA).</article-title>
+            <source>Cold Spring Harb Protoc</source>
+            <year>2017</year>
+            <month>Jul</month>
+            <day>05</day>
+            <volume>2017</volume>
+            <issue>7</issue>
+            <fpage>pdb.prot093740</fpage>
+            <pub-id pub-id-type="pmid">28679705</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hornbeck</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Enzyme-linked immunosorbent assays.</article-title>
+            <source>Curr Protoc Immunol</source>
+            <year>2001</year>
+            <month>May</month>
+            <volume>Chapter 2</volume>
+            <fpage>Unit 2.1</fpage>
+            <pub-id pub-id-type="pmid">18432761</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ornelas-Gatdula</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>An</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Spangler</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Arroyo-Curr&#x000e1;s</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Adapting antibody-invertase fusion protein immunoassays to multiwell plates for infectious disease antibody quantification.</article-title>
+            <source>Sens Diagn</source>
+            <year>2026</year>
+            <month>Jan</month>
+            <day>22</day>
+            <volume>5</volume>
+            <issue>1</issue>
+            <fpage>83</fpage>
+            <page-range>83-93</page-range>
+            <pub-id pub-id-type="pmid">41209850</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lin</surname>
+                <given-names>AV</given-names>
+              </name>
+            </person-group>
+            <article-title>Indirect ELISA.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2015</year>
+            <volume>1318</volume>
+            <fpage>51</fpage>
+            <page-range>51-9</page-range>
+            <pub-id pub-id-type="pmid">26160563</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kohl</surname>
+                <given-names>TO</given-names>
+              </name>
+              <name>
+                <surname>Ascoli</surname>
+                <given-names>CA</given-names>
+              </name>
+            </person-group>
+            <article-title>Indirect Immunometric ELISA.</article-title>
+            <source>Cold Spring Harb Protoc</source>
+            <year>2017</year>
+            <month>May</month>
+            <day>01</day>
+            <volume>2017</volume>
+            <issue>5</issue>
+            <pub-id pub-id-type="pmid">28461658</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kohl</surname>
+                <given-names>TO</given-names>
+              </name>
+              <name>
+                <surname>Ascoli</surname>
+                <given-names>CA</given-names>
+              </name>
+            </person-group>
+            <article-title>Immunometric Double-Antibody Sandwich Enzyme-Linked Immunosorbent Assay.</article-title>
+            <source>Cold Spring Harb Protoc</source>
+            <year>2017</year>
+            <month>Jun</month>
+            <day>01</day>
+            <volume>2017</volume>
+            <issue>6</issue>
+            <fpage>pdb.prot093724</fpage>
+            <pub-id pub-id-type="pmid">28572188</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lussier</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Moon</surname>
+                <given-names>BU</given-names>
+              </name>
+              <name>
+                <surname>Janta-Polczynski</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Morocz</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Svahn</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Shen</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Lukic</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Malic</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Veres</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Ng</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Juncker</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>PiP-Plex: A Particle-in-Particle System for Multiplexed Quantification of Proteins Secreted by Single Cells.</article-title>
+            <source>Adv Mater</source>
+            <year>2026</year>
+            <month>Mar</month>
+            <volume>38</volume>
+            <issue>13</issue>
+            <fpage>e06398</fpage>
+            <pub-id pub-id-type="pmid">41055246</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lequin</surname>
+                <given-names>RM</given-names>
+              </name>
+            </person-group>
+            <article-title>Enzyme immunoassay (EIA)/enzyme-linked immunosorbent assay (ELISA).</article-title>
+            <source>Clin Chem</source>
+            <year>2005</year>
+            <month>Dec</month>
+            <volume>51</volume>
+            <issue>12</issue>
+            <fpage>2415</fpage>
+            <page-range>2415-8</page-range>
+            <pub-id pub-id-type="pmid">16179424</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bigdelou</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Chan</surname>
+                <given-names>KK</given-names>
+              </name>
+              <name>
+                <surname>Tang</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Yu</surname>
+                <given-names>KN</given-names>
+              </name>
+              <name>
+                <surname>Whited</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>MY</given-names>
+              </name>
+              <name>
+                <surname>Sun</surname>
+                <given-names>XL</given-names>
+              </name>
+            </person-group>
+            <article-title>High-throughput multiplex assays with mouse macrophages on pillar plate platforms.</article-title>
+            <source>Exp Cell Res</source>
+            <year>2020</year>
+            <month>Nov</month>
+            <day>01</day>
+            <volume>396</volume>
+            <issue>1</issue>
+            <fpage>112243</fpage>
+            <pub-id pub-id-type="pmid">32835658</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ivanusic</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Maier</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Icli</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Falcone</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Bernauer</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Bannert</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>tANCHOR-cell-based assay for monitoring of SARS-CoV-2 neutralizing antibodies rapidly adaptive to various receptor-binding domains.</article-title>
+            <source>iScience</source>
+            <year>2024</year>
+            <month>Mar</month>
+            <day>15</day>
+            <volume>27</volume>
+            <issue>3</issue>
+            <fpage>109123</fpage>
+            <pub-id pub-id-type="pmid">38380248</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kumar</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Zaidi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Husain</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Ovarian hydatid cyst: an uncommon site of presentation.</article-title>
+            <source>Autops Case Rep</source>
+            <year>2023</year>
+            <volume>13</volume>
+            <fpage>e2023461</fpage>
+            <pub-id pub-id-type="pmid">38149072</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hayden</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>El Mikati</surname>
+                <given-names>IK</given-names>
+              </name>
+              <name>
+                <surname>Hanson</surname>
+                <given-names>KE</given-names>
+              </name>
+              <name>
+                <surname>Englund</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Humphries</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Loeb</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Morgan</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Patel</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Al Ta'ani</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Nazzal</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Iqneibi</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Amarin</surname>
+                <given-names>JZ</given-names>
+              </name>
+              <name>
+                <surname>Sultan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Falck-Ytter</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Morgan</surname>
+                <given-names>RL</given-names>
+              </name>
+              <name>
+                <surname>Murad</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Bhimraj</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Mustafa</surname>
+                <given-names>RA</given-names>
+              </name>
+            </person-group>
+            <article-title>Infectious Diseases Society of America Guidelines on the Diagnosis of COVID-19: Serologic Testing.</article-title>
+            <source>Clin Infect Dis</source>
+            <year>2024</year>
+            <month>Mar</month>
+            <day>15</day>
+            <pub-id pub-id-type="pmid">38489670</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tighe</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name>
+                <surname>Ryder</surname>
+                <given-names>RR</given-names>
+              </name>
+              <name>
+                <surname>Todd</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Fairclough</surname>
+                <given-names>LC</given-names>
+              </name>
+            </person-group>
+            <article-title>ELISA in the multiplex era: potentials and pitfalls.</article-title>
+            <source>Proteomics Clin Appl</source>
+            <year>2015</year>
+            <month>Apr</month>
+            <volume>9</volume>
+            <issue>3-4</issue>
+            <fpage>406</fpage>
+            <page-range>406-22</page-range>
+            <pub-id pub-id-type="pmid">25644123</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Anastassopoulou</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Tsakris</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Patrinos</surname>
+                <given-names>GP</given-names>
+              </name>
+              <name>
+                <surname>Manoussopoulos</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>Pixel-Based Machine Learning and Image Reconstitution for Dot-ELISA Pathogen Diagnosis in Biological Samples.</article-title>
+            <source>Front Microbiol</source>
+            <year>2021</year>
+            <volume>12</volume>
+            <fpage>562199</fpage>
+            <pub-id pub-id-type="pmid">33767673</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Duan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Cai</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Zhu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Yang</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Lim</surname>
+                <given-names>EG</given-names>
+              </name>
+              <name>
+                <surname>Huang</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Hoettges</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Fu</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Guo</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Yang</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Song</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Deep learning-assisted ultra-accurate smartphone testing of paper-based colorimetric ELISA assays.</article-title>
+            <source>Anal Chim Acta</source>
+            <year>2023</year>
+            <month>Apr</month>
+            <day>01</day>
+            <volume>1248</volume>
+            <fpage>340868</fpage>
+            <pub-id pub-id-type="pmid">36813452</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kim</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Hall</surname>
+                <given-names>DR</given-names>
+              </name>
+              <name>
+                <surname>Nierves</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Lin</surname>
+                <given-names>TT</given-names>
+              </name>
+              <name>
+                <surname>Kitata</surname>
+                <given-names>RB</given-names>
+              </name>
+              <name>
+                <surname>Shi</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>The evolution of analytical techniques for multiplex analysis of protein biomarkers.</article-title>
+            <source>Expert Rev Proteomics</source>
+            <year>2025</year>
+            <month>Jul</month>
+            <volume>22</volume>
+            <issue>7</issue>
+            <fpage>255</fpage>
+            <page-range>255-272</page-range>
+            <pub-id pub-id-type="pmid">40635629</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Butt</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Murugan</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Hippchen</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Olberg</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>van Straaten</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Wardemann</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Stebbins</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Kr&#x000e4;usslich</surname>
+                <given-names>HG</given-names>
+              </name>
+              <name>
+                <surname>Bartenschlager</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Brenner</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Laketa</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Sch&#x000f6;ttker</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>M&#x000fc;ller</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Merle</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Waterboer</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>From Multiplex Serology to Serolomics-A Novel Approach to the Antibody Response against the SARS-CoV-2 Proteome.</article-title>
+            <source>Viruses</source>
+            <year>2021</year>
+            <month>Apr</month>
+            <day>24</day>
+            <volume>13</volume>
+            <issue>5</issue>
+            <pub-id pub-id-type="pmid">33923338</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Leveque</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Pecalvel</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Casanovas</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Goyard</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Janin</surname>
+                <given-names>YL</given-names>
+              </name>
+              <name>
+                <surname>Rose</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Trouche-Estival</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Apoil</surname>
+                <given-names>PA</given-names>
+              </name>
+              <name>
+                <surname>Michelet</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Guilleminault</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Reber</surname>
+                <given-names>LL</given-names>
+              </name>
+            </person-group>
+            <article-title>LuLIPLEX: A Fast, Highly Sensitive, and Multiplexed Method for the Detection of IgE Against Major Allergens.</article-title>
+            <source>Allergy</source>
+            <year>2025</year>
+            <month>Mar</month>
+            <volume>80</volume>
+            <issue>3</issue>
+            <fpage>849</fpage>
+            <page-range>849-860</page-range>
+            <pub-id pub-id-type="pmid">39601619</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kuo</surname>
+                <given-names>HT</given-names>
+              </name>
+              <name>
+                <surname>Yeh</surname>
+                <given-names>JZ</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>PH</given-names>
+              </name>
+              <name>
+                <surname>Jiang</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>MC</given-names>
+              </name>
+            </person-group>
+            <article-title>Application of immunomagnetic particles to enzyme-linked immunosorbent assay (ELISA) for improvement of detection sensitivity of HCG.</article-title>
+            <source>J Immunoassay Immunochem</source>
+            <year>2012</year>
+            <volume>33</volume>
+            <issue>4</issue>
+            <fpage>377</fpage>
+            <page-range>377-87</page-range>
+            <pub-id pub-id-type="pmid">22963487</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tiscione</surname>
+                <given-names>NB</given-names>
+              </name>
+            </person-group>
+            <article-title>The Validation of ELISA Screening According to SWGTOX Recommendations.</article-title>
+            <source>J Anal Toxicol</source>
+            <year>2018</year>
+            <month>Apr</month>
+            <day>01</day>
+            <volume>42</volume>
+            <issue>3</issue>
+            <fpage>e33</fpage>
+            <page-range>e33-e34</page-range>
+            <pub-id pub-id-type="pmid">29300967</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nandakumar</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Braun</surname>
+                <given-names>KMP</given-names>
+              </name>
+              <name>
+                <surname>Willrich</surname>
+                <given-names>MAV</given-names>
+              </name>
+            </person-group>
+            <article-title>Challenges for complement functional assays in the clinical laboratory: From test validation to clinical interpretation.</article-title>
+            <source>J Immunol Methods</source>
+            <year>2025</year>
+            <month>Feb</month>
+            <volume>537</volume>
+            <fpage>113824</fpage>
+            <pub-id pub-id-type="pmid">39914516</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Behroozi</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Hassani</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Mobini</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Bahadori</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Peyghami</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Judaki</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Khoshnoodi</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Amiri</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Golsaz-Shirazi</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Shokri</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Production and characterization of monoclonal antibodies against hepatitis B e-antigen and their potential application for development of HBeAg detection ELISA.</article-title>
+            <source>Biologicals</source>
+            <year>2025</year>
+            <month>May</month>
+            <volume>90</volume>
+            <fpage>101819</fpage>
+            <pub-id pub-id-type="pmid">39892062</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Workowski</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Bolan</surname>
+                <given-names>GA</given-names>
+              </name>
+              <collab>Centers for Disease Control and Prevention</collab>
+            </person-group>
+            <article-title>Sexually transmitted diseases treatment guidelines, 2015.</article-title>
+            <source>MMWR Recomm Rep</source>
+            <year>2015</year>
+            <month>Jun</month>
+            <day>05</day>
+            <volume>64</volume>
+            <issue>RR-03</issue>
+            <fpage>1</fpage>
+            <page-range>1-137</page-range>
+            <pub-id pub-id-type="pmid">26042815</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sherwani</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Chowdhury</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Bugert</surname>
+                <given-names>JJ</given-names>
+              </name>
+            </person-group>
+            <article-title>ELISA for Molluscum Contagiosum Virus.</article-title>
+            <source>Curr Protoc Microbiol</source>
+            <year>2017</year>
+            <month>Nov</month>
+            <day>09</day>
+            <volume>47</volume>
+            <fpage>14A.6.1</fpage>
+            <page-range>14A.6.1-14A.6.9</page-range>
+            <pub-id pub-id-type="pmid">29120484</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Atzori</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Deidda</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Aste</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Enzyme-linked immunosorbent assay in autoimmune blistering diseases: preliminary experience of the Dermatology Department of Cagliari.</article-title>
+            <source>G Ital Dermatol Venereol</source>
+            <year>2008</year>
+            <month>Feb</month>
+            <volume>143</volume>
+            <issue>1</issue>
+            <fpage>1</fpage>
+            <page-range>1-8</page-range>
+            <pub-id pub-id-type="pmid">18833046</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Balogun</surname>
+                <given-names>OJ</given-names>
+              </name>
+              <name>
+                <surname>Oladele</surname>
+                <given-names>RO</given-names>
+              </name>
+              <name>
+                <surname>Ajibola</surname>
+                <given-names>OOE</given-names>
+              </name>
+              <name>
+                <surname>Davies</surname>
+                <given-names>AA</given-names>
+              </name>
+              <name>
+                <surname>Fashanu</surname>
+                <given-names>TA</given-names>
+              </name>
+              <name>
+                <surname>Nwosu</surname>
+                <given-names>AO</given-names>
+              </name>
+              <name>
+                <surname>Ekeng</surname>
+                <given-names>BE</given-names>
+              </name>
+              <name>
+                <surname>Gangneux</surname>
+                <given-names>JP</given-names>
+              </name>
+            </person-group>
+            <article-title>Evaluation of the LDBio ICT IgG/IgM lateral flow assay versus the Bordier Elisa assay for the diagnosis of chronic pulmonary aspergillosis in Nigeria.</article-title>
+            <source>Microbiol Spectr</source>
+            <year>2025</year>
+            <month>Mar</month>
+            <day>04</day>
+            <volume>13</volume>
+            <issue>3</issue>
+            <fpage>e0153324</fpage>
+            <pub-id pub-id-type="pmid">39912682</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Weng</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Gaur</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Neethirajan</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Rapid Detection of Food Allergens by Microfluidics ELISA-Based Optical Sensor.</article-title>
+            <source>Biosensors (Basel)</source>
+            <year>2016</year>
+            <month>Jun</month>
+            <day>07</day>
+            <volume>6</volume>
+            <issue>2</issue>
+            <fpage>24</fpage>
+            <pub-id pub-id-type="pmid">27338488</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Liang</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Hu</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Tang</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Catalytic boost in dual-active sites hierarchical hollow nanozymes: An enhanced robust and sensitive immunochromatographic assay for Aspergillus flavus.</article-title>
+            <source>Biosens Bioelectron</source>
+            <year>2025</year>
+            <month>Jun</month>
+            <day>01</day>
+            <volume>277</volume>
+            <fpage>117223</fpage>
+            <pub-id pub-id-type="pmid">39924357</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kearney</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Internal quality control.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2013</year>
+            <volume>1065</volume>
+            <fpage>277</fpage>
+            <page-range>277-89</page-range>
+            <pub-id pub-id-type="pmid">23996371</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kinns</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Pitkin</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Housley</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Freedman</surname>
+                <given-names>DB</given-names>
+              </name>
+            </person-group>
+            <article-title>Internal quality control: best practice.</article-title>
+            <source>J Clin Pathol</source>
+            <year>2013</year>
+            <month>Dec</month>
+            <volume>66</volume>
+            <issue>12</issue>
+            <fpage>1027</fpage>
+            <page-range>1027-32</page-range>
+            <pub-id pub-id-type="pmid">24072731</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Li</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Tian</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Yu</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Xu</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Huang</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Yu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Diao</surname>
+                <given-names>X</given-names>
+              </name>
+            </person-group>
+            <article-title>Quantification of serum daratumumab in multiple myeloma patients by LC-MS/MS, comparison with ELISA.</article-title>
+            <source>J Pharm Biomed Anal</source>
+            <year>2025</year>
+            <month>Mar</month>
+            <day>15</day>
+            <volume>255</volume>
+            <fpage>116627</fpage>
+            <pub-id pub-id-type="pmid">39671910</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r46">
+          <label>46</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ch&#x000e1;vez-Vald&#x000e9;s</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Marichal-Rodr&#x000ed;guez</surname>
+                <given-names>AK</given-names>
+              </name>
+              <name>
+                <surname>Chac&#x000f3;n-Quintero</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Mart&#x000ed;nez-Rosales</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>G&#x000f3;mez-Hern&#x000e1;ndez</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>&#x000c1;vila-D&#x000ed;az</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>V&#x000e1;zquez-Arteaga</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Gonz&#x000e1;lez-Formental</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Freyre-Corrales</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Coizeau-Rodr&#x000ed;guez</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Guillen</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Lemos-P&#x000e9;rez</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Validation and clinical performance of a non-commercial ELISA for SARS-CoV-2 anti-RBD IgA antibodies.</article-title>
+            <source>Anal Biochem</source>
+            <year>2025</year>
+            <month>May</month>
+            <volume>700</volume>
+            <fpage>115787</fpage>
+            <pub-id pub-id-type="pmid">39894142</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r47">
+          <label>47</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Westgard</surname>
+                <given-names>JO</given-names>
+              </name>
+            </person-group>
+            <article-title>Internal quality control: planning and implementation strategies.</article-title>
+            <source>Ann Clin Biochem</source>
+            <year>2003</year>
+            <month>Nov</month>
+            <volume>40</volume>
+            <issue>Pt 6</issue>
+            <fpage>593</fpage>
+            <page-range>593-611</page-range>
+            <pub-id pub-id-type="pmid">14629798</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r48">
+          <label>48</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dubey</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Sonker</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Implementation of internal quality control program for monitoring of enzyme-linked immunosorbent assay performance at a blood center.</article-title>
+            <source>Asian J Transfus Sci</source>
+            <year>2021</year>
+            <season>Jan-Jun</season>
+            <volume>15</volume>
+            <issue>1</issue>
+            <fpage>21</fpage>
+            <page-range>21-29</page-range>
+            <pub-id pub-id-type="pmid">34349453</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r49">
+          <label>49</label>
+          <element-citation publication-type="journal">
+            <article-title>Charting methods for internal quality control for competition ELISA.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2009</year>
+            <volume>516</volume>
+            <fpage>335</fpage>
+            <page-range>335-80</page-range>
+            <pub-id pub-id-type="pmid">19219591</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r50">
+          <label>50</label>
+          <element-citation publication-type="journal">
+            <article-title>Internal quality control and external quality management of data in practice.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2009</year>
+            <volume>516</volume>
+            <fpage>517</fpage>
+            <page-range>517-41</page-range>
+            <pub-id pub-id-type="pmid">19219595</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r51">
+          <label>51</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lo</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Biological safety in the medical laboratory.</article-title>
+            <source>Hong Kong Med J</source>
+            <year>2015</year>
+            <month>Jun</month>
+            <volume>21</volume>
+            <issue>3</issue>
+            <fpage>200</fpage>
+            <pub-id pub-id-type="pmid">26045068</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r52">
+          <label>52</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Klein</surname>
+                <given-names>RC</given-names>
+              </name>
+              <name>
+                <surname>Party</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Gershey</surname>
+                <given-names>EL</given-names>
+              </name>
+            </person-group>
+            <article-title>Safety in the laboratory.</article-title>
+            <source>Nature</source>
+            <year>1989</year>
+            <month>Sep</month>
+            <day>28</day>
+            <volume>341</volume>
+            <issue>6240</issue>
+            <fpage>288</fpage>
+            <pub-id pub-id-type="pmid">2797146</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r53">
+          <label>53</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Y&#x000fc;cesan</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>&#x000d6;zkan</surname>
+                <given-names>&#x000d6;</given-names>
+              </name>
+            </person-group>
+            <article-title>Laboratory Safety in Parasitology Laboratory.</article-title>
+            <source>Turkiye Parazitol Derg</source>
+            <year>2018</year>
+            <month>Jun</month>
+            <volume>42</volume>
+            <issue>2</issue>
+            <fpage>144</fpage>
+            <page-range>144-153</page-range>
+            <pub-id pub-id-type="pmid">30070646</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r54">
+          <label>54</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rojo-Molinero</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Alados</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>de la Pedrosa</surname>
+                <given-names>EG</given-names>
+              </name>
+              <name>
+                <surname>Leiva</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>P&#x000e9;rez</surname>
+                <given-names>JL</given-names>
+              </name>
+            </person-group>
+            <article-title>[Safety in the Microbiology laboratory].</article-title>
+            <source>Enferm Infecc Microbiol Clin</source>
+            <year>2015</year>
+            <season>Jun-Jul</season>
+            <volume>33</volume>
+            <issue>6</issue>
+            <fpage>404</fpage>
+            <page-range>404-10</page-range>
+            <pub-id pub-id-type="pmid">25444041</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r55">
+          <label>55</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vonesch</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Tomao</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Di Renzi</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Vita</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Signorini</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>[Biosafety in laboratories concerning exposure to biological agents].</article-title>
+            <source>G Ital Med Lav Ergon</source>
+            <year>2006</year>
+            <season>Oct-Dec</season>
+            <volume>28</volume>
+            <issue>4</issue>
+            <fpage>444</fpage>
+            <page-range>444-56</page-range>
+            <pub-id pub-id-type="pmid">17380946</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r56">
+          <label>56</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zimmer</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>O'dell</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Johnson</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Hays</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Gorityala</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Tary-Lehmann</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Malone</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Diaz</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Xu</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Dwivedi</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Dufield</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Iles</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Sikkema</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Majumdar</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Riccitelli</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Yuan</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Lowes</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Matys</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Turksma</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Pirro</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Bergeron</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Karnik</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Voelker</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Salha</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Reynolds</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Lamy</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Yu</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Garofolo</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Nadarajah</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Leskovar</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Pellerin</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Veeramachaneni</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Kane</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Xu</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Hyer</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Carlsson</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Sanghvi</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Dompkowski</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Rundlett</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Bower</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Spytko</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Gu</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Rocha</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>O'Brien</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Fang</surname>
+                <given-names>X</given-names>
+              </name>
+            </person-group>
+            <article-title>17th GCC Closed Forum: Integrative Bioanalysis, Patient-centric Sampling, Emerging Technologies, Data Integrity, Sample Reconciliation, Discrepancies of ELISpot Data, Cross-validation Harmonization, Ultrasensitive Platforms for ADA Assays, Remote Regulatory Assessments, Shedding Assays by PCR, and Biomarker Tissue Assays.</article-title>
+            <source>Bioanalysis</source>
+            <year>2025</year>
+            <month>Jun</month>
+            <volume>17</volume>
+            <issue>12</issue>
+            <fpage>769</fpage>
+            <page-range>769-786</page-range>
+            <pub-id pub-id-type="pmid">40823769</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21178.r57">
+          <label>57</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fung</surname>
+                <given-names>AWS</given-names>
+              </name>
+            </person-group>
+            <article-title>Establishing sustainable quality improvement in the clinical laboratory: Redesign of the total testing process and digital transformation of routine quality assurance activities.</article-title>
+            <source>Clin Biochem</source>
+            <year>2025</year>
+            <month>Jun</month>
+            <volume>137</volume>
+            <fpage>110915</fpage>
+            <pub-id pub-id-type="pmid">40090396</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

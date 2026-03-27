@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-18312" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Understanding Biostatistics Interpretation</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Soni</surname>
+            <given-names>Suha</given-names>
+          </name>
+          <aff>University of Texas Health Science Centre at San Antonio</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Goldin</surname>
+            <given-names>Jennifer</given-names>
+          </name>
+          <aff>Wright State University School of Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Suha Soni declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Jennifer Goldin declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>15</day>
+          <month>2</month>
+          <year>2026</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-18312.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>A basic understanding of statistical concepts is necessary for the effective evaluation of medical literature. Statistical results alone do not determine the clinical applicability of published findings; rather, clinicians must interpret these results within the context of patient characteristics, study design, and real-world practice. Statistical analyses allow investigators to estimate the probability that observed findings reflect true population effects rather than chance. Careful interpretation is therefore required to determine the relevance of study data for individual patients or specific populations.<xref ref-type="bibr" rid="article-18312.r1">[1]</xref>&#x000a0;High-quality research studies present a clear, testable hypothesis that predicts relationships among variables.<xref ref-type="bibr" rid="article-18312.r2">[2]</xref><xref ref-type="bibr" rid="article-18312.r3">[3]</xref>&#x000a0;These hypotheses are grounded in empirical literature and informed by prior clinical observations or scientific theory. Studies may test novel relationships or replicate prior findings to strengthen the evidence base.</p>
+        <p>At least 2 hypotheses are present in most analytic studies. The null hypothesis (<italic toggle="yes">H<sub>0</sub></italic>) assumes no difference or effect, whereas the alternative hypothesis (<italic toggle="yes">H<sub>1</sub></italic> or <italic toggle="yes">H<sub>a</sub></italic>) predicts that a relationship or outcome exists.&#x000a0;Statistical testing inherently assumes&#x000a0;<italic toggle="yes">H<sub>0</sub></italic>, even when not explicitly stated. The&#x000a0;<italic toggle="yes">H<sub>a&#x000a0;</sub></italic>states that a significant relationship exists between 2 variables and is the claim that researchers seek to support through statistical analysis. Researchers evaluate hypotheses by analyzing how independent variables, the variables expected to influence outcomes, affect dependent variables, which represent measured results.&#x000a0;These are also commonly referred to as predictor and outcome variables, respectively. Researchers use statistical methods to evaluate the&#x000a0;<italic toggle="yes">H<sub>0</sub></italic><italic toggle="yes">&#x000a0;</italic>and determine whether sufficient evidence supports the&#x000a0;<italic toggle="yes">H<sub>a</sub></italic>.&#x000a0;The selection of statistical tests or models depends on factors such as study design, variable types, distributional assumptions, and the research question.<xref ref-type="bibr" rid="article-18312.r4">[4]</xref>&#x000a0;Understanding how variables are measured provides the foundation for selecting appropriate statistical tests.</p>
+      </sec>
+      <sec id="article-18312.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>
+<bold>Levels of Measurement</bold>
+</p>
+        <p>Researchers commonly classify variables by their level of measurement, which guides the selection of appropriate statistical analyses. Nominal data consist of categories without inherent order or numerical value, such as blood type or geographic region. Ordinal data are ranked but lack equal spacing between categories, as in educational attainment or disease severity scales. Interval data have consistent spacing between values but no true 0 point; for example, temperature measured in degrees reflects equal differences, but 0 does not represent the absence of temperature. Ratio data share the properties of interval data while including an absolute zero, allowing meaningful comparisons of magnitude. Examples include height, weight, laboratory values, and reaction time.</p>
+        <p>Researchers classify nominal and ordinal variables as categorical, and interval and ratio variables as continuous. However, some ratio variables represent counts, such as the number of hospitalizations or pregnancies, and therefore occur only as whole-number values, making them discrete.<xref ref-type="bibr" rid="article-18312.r5">[5]</xref><xref ref-type="bibr" rid="article-18312.r6">[6]</xref>&#x000a0;The level of measurement influences both the choice of statistical test and the interpretation of results. Accurate classification of variables is essential because it determines which statistical methods are appropriate for analysis. Selecting an analytic approach that aligns with the research question, study design, and data characteristics is critical for generating valid and interpretable results.<xref ref-type="bibr" rid="article-18312.r7">[7]</xref></p>
+        <p>
+<bold>Selection of Statistical Methods</bold>
+</p>
+        <p>After variables are properly classified, investigators must select statistical methods that appropriately address the research question and data structure. Choosing the appropriate analytical approach is essential to ensuring accurate interpretation and minimizing erroneous conclusions. Common statistical software packages include R, Stata, and SPSS. The choice of platform often reflects the research question, available data, institutional resources, and investigator expertise. Regardless of the software used, investigators must understand the characteristics of their data and the assumptions underlying statistical models. Some platforms require programming knowledge for advanced analyses, and analytic errors may go unrecognized without appropriate statistical expertise.&#x000a0;Collaboration with a biostatistician is strongly recommended, particularly during the study design phase, to minimize bias, ensure appropriate data collection, and support valid hypothesis testing. Early consultation can substantially improve methodological rigor and the interpretability of results.</p>
+        <p>Modern large language models (LLMs) have increasingly influenced research workflows, including study planning, code generation, and manuscript preparation. However, these tools may generate inaccurate or non-existent information, and researchers should use them cautiously. Investigators must critically evaluate LLM-assisted outputs to ensure statistical accuracy and scientific integrity.<xref ref-type="bibr" rid="article-18312.r8">[8]</xref>&#x000a0;Even when appropriate methods are applied, clinicians must recognize important limitations that influence how they interpret statistical findings.&#x000a0;</p>
+        <p>
+<bold>Statistical Significance</bold>
+</p>
+        <p>Researchers commonly assess statistical significance using the <italic toggle="yes">P</italic> value, which represents the probability of obtaining "results at least as extreme as those observed if &#x000a0;<italic toggle="yes">H<sub>0&#x000a0;</sub></italic>were true."<xref ref-type="bibr" rid="article-18312.r9">[9]</xref>&#x000a0;In other words, the <italic toggle="yes">P</italic> value reflects how well the observed data fit the assumption of no effect. When the <italic toggle="yes">P</italic> value falls below a predetermined threshold, typically set at .05, researchers typically reject&#x000a0;<italic toggle="yes">H<sub>0</sub></italic>&#x000a0;and conclude that the findings are unlikely to be due to chance.<xref ref-type="bibr" rid="article-18312.r5">[5]</xref>&#x000a0;Importantly, researchers should not interpret the <italic toggle="yes">P</italic> value as the likelihood that&#x000a0;<italic toggle="yes">H<sub>0</sub></italic><italic toggle="yes">&#x000a0;</italic>is true. Rather, it serves as evidence against&#x000a0;<italic toggle="yes">H<sub>0</sub></italic>. Smaller <italic toggle="yes">P </italic>values indicate stronger evidence against&#x000a0;<italic toggle="yes">H<sub>0,&#x000a0;</sub></italic>but do not quantify the magnitude, precision, or clinical importance of an observed effect.</p>
+        <p>Studies that fail to achieve statistical significance do not prove the absence of an effect; they may instead reflect insufficient statistical power, a small sample size, or substantial variability in the data. Conversely, large studies may produce statistically significant findings that are not clinically meaningful.<xref ref-type="bibr" rid="article-18312.r10">[10]</xref><xref ref-type="bibr" rid="article-18312.r11">[11]</xref>&#x000a0;Modern reporting standards discourage reliance on <italic toggle="yes">P</italic> values alone and emphasize estimation approaches that include effect sizes and confidence intervals.</p>
+        <p>
+<bold>Statistical Power and Error</bold>
+</p>
+        <p>Statistical power is the probability that a study will detect a true effect, or reject a false&#x000a0;<italic toggle="yes">H<sub>0</sub></italic>, if one exists. Studies with low power are at risk of false-negative findings, meaning a clinically important effect may go undetected. Power is influenced primarily by sample size, effect size, and variability, and adequately powered studies improve the reliability of statistical conclusions.</p>
+        <p>Type I errors occur when a true&#x000a0;<italic toggle="yes">H<sub>0</sub></italic>&#x000a0;is incorrectly rejected, producing a false-positive result. A Type II error occurs when a true effect goes undetected, resulting in a false-negative outcome. Balancing these risks is a critical component of study design. See StatPerals' companion topic, "<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/point-of-care/95302">Type I and Type II Errors and Statistical Power</ext-link>,"&#x000a0;for an in-depth discussion on statistical power and error.</p>
+        <p>
+<bold>Bias, Confounding, and Causation</bold>
+</p>
+        <p>Confounding occurs when a third variable influences both the independent and dependent variables, making the relationship between them appear stronger or weaker than it truly is. Bias refers to systematic errors in study design, data collection, or analysis that can lead to incorrect conclusions. Clinicians and researchers must recognize these threats to validity when interpreting research findings.&#x000a0;Clinicians should also consider external validity, or generalizability, which reflects whether study findings apply to populations beyond the study sample.</p>
+        <p>Statistical associations do not establish causation. Observed relationships may reflect confounding variables, bias, or chance rather than a true causal effect. Randomized controlled trials offer the strongest design for determining causal relationships, whereas researchers and clinicians should interpret observational findings with appropriate caution.</p>
+        <p>Relative risk is a measure that compares the probability of an outcome in an exposed group with the probability in an unexposed group. A relative risk greater than 1 indicates that the risk of the event is higher in the exposed group than in&#x000a0;the control group.&#x000a0;In contrast, a value less than 1 suggests a protective effect.&#x000a0;Relative measures may exaggerate perceived benefit or harm when baseline risk is low; therefore, clinicians should interpret them alongside absolute risk. Absolute risk reflects the actual difference in event rates between groups and often provides clearer insight into true clinical impact. Understanding these limitations is essential before applying research findings to clinical decision-making.</p>
+      </sec>
+      <sec id="article-18312.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>
+<bold>Effect Size and Confidence Intervals</bold>
+</p>
+        <p>Statistical significance and clinical significance are often confused, but they answer fundamentally different questions.&#x000a0;Statistical significance&#x000a0;indicates that an observed effect is unlikely to be due to chance,&#x000a0;typically defined by a&#x000a0;<italic toggle="yes">P&#x000a0;</italic>value threshold (eg,&#x000a0;<italic toggle="yes">P&#x000a0;</italic>&#x0003c; .05) and heavily influenced by sample size, such that very large studies can detect extremely small differences that have&#x000a0;no real impact on patient outcomes. In contrast,&#x000a0;clinical significance&#x000a0;asks whether the size of the effect is&#x000a0;meaningful in practice, whether it improves symptoms, function, risk, or quality of life to an extent that matters to patients and clinicians.<xref ref-type="bibr" rid="article-18312.r9">[9]</xref><xref ref-type="bibr" rid="article-18312.r10">[10]</xref><xref ref-type="bibr" rid="article-18312.r12">[12]</xref>&#x000a0;</p>
+        <p>Evaluating the clinical relevance of a statistically significant result requires consideration of effect size. Effect size measures&#x000a0;the magnitude of the observed difference between groups or variables and is a standardized metric that enables comparisons across studies and measurement scales, helping clinicians determine whether an observed difference is likely to have practical importance.<xref ref-type="bibr" rid="article-18312.r11">[11]</xref><xref ref-type="bibr" rid="article-18312.r13">[13]</xref>&#x000a0;Conventional benchmarks and prior research may provide useful context; however, interpretation should always consider the clinical setting and the potential impact on patient care.&#x000a0;One commonly reported metric, the correlation coefficient (<italic toggle="yes">r</italic>),&#x000a0;is a statistical measure ranging from -1 to 1&#x000a0;that quantifies the strength and direction of the linear relationship between 2 variables. Values closer to 1 or -1 indicate stronger, more clinically meaningful associations.&#x000a0;It reveals how closely the data points fit a straight line, indicating whether variables increase together (positive) or move in opposite directions (negative), with 0 indicating no linear relationship.&#x000a0;A positive value (greater than 0) means the variables move in the same direction. For example, the longer a student studies for a test, the higher the test score. Alternatively, a negative value (less than 0) means they move in opposite directions. For example, the more time a student spends studying, the fewer mistakes they make on a test.&#x000a0;A value of 0 indicates no linear correlation,&#x000a0;meaning that variation in one variable does not predict variation in the other.&#x000a0;Squaring&#x000a0;<italic toggle="yes">r</italic>&#x000a0;(r&#x000b2;) estimates the proportion of variance shared between variables, indicating how much variability in one variable is associated with variability in the other. Because&#x000a0;<italic toggle="yes">r&#x000b2;</italic>&#x000a0;removes the sign of the correlation, it reflects the strength of the association but not its direction. For example, an&#x000a0;<italic toggle="yes">r&#x000a0;</italic>of 0.50 corresponds to an&#x000a0;<italic toggle="yes">r&#x000b2;</italic>&#x000a0;of 0.25, indicating that approximately 25% of the variance between the variables is shared, with the remainder accounted for by other factors.&#x000a0;</p>
+        <p>Confidence intervals provide a range of values that likely includes the true population effect. A 95% confidence interval represents a range of values that would contain the true population effect in approximately 95% of repeated samples. Narrow confidence intervals allow clinicians and researchers to estimate a treatment&#x02019;s effect with greater certainty. In contrast, wide confidence intervals suggest less clarity about the true extent of the effect. For example, consider a medication used to treat rheumatoid arthritis that reduces flare-ups by an average of 4 episodes/yr. If the 95% confidence interval is 3.2-5.4, clinicians can be reasonably confident that the true average reduction lies within this range. Alternatively, a confidence interval of 1.4-19.1 indicates that the true treatment effect is less certain, making it more difficult to predict the medication's benefits. Reporting both effect sizes and confidence intervals is recommended to support meaningful interpretation of study findings.<xref ref-type="bibr" rid="article-18312.r13">[13]</xref></p>
+        <p>
+<bold>Applying Evidence to Patient Care</bold>
+</p>
+        <p>Clinically meaningful interpretation of research requires consideration of effect size, confidence intervals, and clinical applicability, in addition to&#x000a0;<italic toggle="yes">P</italic>&#x000a0;values. The practical impact and relevance of findings on patient care should guide clinical decisions.&#x000a0;The minimal clinically important difference (MCID), commonly used to assess whether an observed change has practical importance, is defined as "the smallest change in an outcome that patients recognize as meaningful."<xref ref-type="bibr" rid="article-18312.r14">[14]</xref>&#x000a0;Patient values, clinical guidelines, or cost&#x02013;benefit considerations may guide the MCID.<xref ref-type="bibr" rid="article-18312.r15">[15]</xref>&#x000a0;Clinicians consider improvements exceeding the MCID clinically important. Those that fall below the MCID may lack practical value regardless of their statistical significance. The MCID guides clinical decision-making by distinguishing true improvement from changes that do not improve daily function. Patient-centered outcomes such as function, symptom burden, and quality of life often provide more meaningful measures of clinical benefit than surrogate endpoints. Clinical decision-making should prioritize the magnitude, precision, and relevance of effects, rather than whether a result crosses an arbitrary statistical cutoff.<xref ref-type="bibr" rid="article-18312.r15">[15]</xref></p>
+      </sec>
+      <sec id="article-18312.s4" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>A working knowledge of biostatistics allows healthcare professionals to critically evaluate medical literature and apply research findings appropriately in clinical practice. Statistical results help estimate whether observed outcomes likely reflect true effects rather than chance, but they do not automatically determine clinical relevance. Clinicians must interpret findings within the context of study design, patient characteristics, effect size, confidence intervals, and potential sources of bias. Distinguishing statistical significance from clinical importance is essential, as a statistically significant result may not translate into meaningful patient benefit. Similarly, understanding concepts such as power, confounding, and causation supports a more accurate appraisal of evidence and reduces the risk of adopting ineffective or harmful interventions. By integrating statistical interpretation with clinical expertise and patient values, healthcare professionals can make more informed, evidence-based decisions that improve care quality.</p>
+        <p>Interprofessional collaboration strengthens effective interpretation of biostatistical data. Physicians and advanced practitioners rely on statistical literacy to evaluate emerging therapies, interpret guidelines, and communicate risks and benefits to patients. Nurses contribute by translating evidence into bedside practice, monitoring patient responses, and identifying outcomes that may differ from those reported in trials. Pharmacists play a critical role in analyzing medication studies, assessing comparative effectiveness, and supporting evidence-based prescribing practices. Collaboration with biostatisticians, epidemiologists, and quality improvement teams enhances study design, data interpretation, and implementation of evidence-based protocols.Clear communication among team members promotes consistent understanding of research findings, reduces misinterpretation of statistical results, and supports shared decision-making with patients. Strategic use of evidence&#x02014;including appraisal of effect sizes, confidence intervals, and clinical applicability&#x02014;helps teams prioritize interventions that provide meaningful benefit while minimizing harm. Coordinated, evidence-informed care fosters patient-centered decision-making, improves safety, enhances clinical outcomes, and strengthens overall team performance in increasingly complex healthcare environments.</p>
+      </sec>
+      <sec id="article-18312.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=18312&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=18312">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/18312/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=18312">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-18312.s6">
+        <title>References</title>
+        <ref id="article-18312.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Psoter</surname>
+                <given-names>KJ</given-names>
+              </name>
+              <name>
+                <surname>Roudsari</surname>
+                <given-names>BS</given-names>
+              </name>
+              <name>
+                <surname>Dighe</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>Richardson</surname>
+                <given-names>ML</given-names>
+              </name>
+              <name>
+                <surname>Katz</surname>
+                <given-names>DS</given-names>
+              </name>
+              <name>
+                <surname>Bhargava</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Biostatistics primer for the radiologist.</article-title>
+            <source>AJR Am J Roentgenol</source>
+            <year>2014</year>
+            <month>Apr</month>
+            <volume>202</volume>
+            <issue>4</issue>
+            <fpage>W365</fpage>
+            <page-range>W365-75</page-range>
+            <pub-id pub-id-type="pmid">24660735</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18312.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nizamuddin</surname>
+                <given-names>SL</given-names>
+              </name>
+              <name>
+                <surname>Nizamuddin</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Mueller</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Ramakrishna</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Shahul</surname>
+                <given-names>SS</given-names>
+              </name>
+            </person-group>
+            <article-title>Developing a Hypothesis and Statistical Planning.</article-title>
+            <source>J Cardiothorac Vasc Anesth</source>
+            <year>2017</year>
+            <month>Oct</month>
+            <volume>31</volume>
+            <issue>5</issue>
+            <fpage>1878</fpage>
+            <page-range>1878-1882</page-range>
+            <pub-id pub-id-type="pmid">28778775</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18312.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Misra</surname>
+                <given-names>DP</given-names>
+              </name>
+              <name>
+                <surname>Gasparyan</surname>
+                <given-names>AY</given-names>
+              </name>
+              <name>
+                <surname>Zimba</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Yessirkepov</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Agarwal</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Kitas</surname>
+                <given-names>GD</given-names>
+              </name>
+            </person-group>
+            <article-title>Formulating Hypotheses for Different Study Designs.</article-title>
+            <source>J Korean Med Sci</source>
+            <year>2021</year>
+            <month>Dec</month>
+            <day>27</day>
+            <volume>36</volume>
+            <issue>50</issue>
+            <fpage>e338</fpage>
+            <pub-id pub-id-type="pmid">34962112</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18312.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Garrocho-Rangel</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Ruiz-Rodr&#x000ed;guez</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Pozos-Guill&#x000e9;n</surname>
+                <given-names>AJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Fundamentals in Biostatistics for Research in Pediatric Dentistry: Part I - Basic Concepts.</article-title>
+            <source>J Clin Pediatr Dent</source>
+            <year>2017</year>
+            <volume>41</volume>
+            <issue>2</issue>
+            <fpage>87</fpage>
+            <page-range>87-94</page-range>
+            <pub-id pub-id-type="pmid">28288291</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18312.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Winters</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Winters</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Amedee</surname>
+                <given-names>RG</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistics: a brief overview.</article-title>
+            <source>Ochsner J</source>
+            <year>2010</year>
+            <season>Fall</season>
+            <volume>10</volume>
+            <issue>3</issue>
+            <fpage>213</fpage>
+            <page-range>213-6</page-range>
+            <pub-id pub-id-type="pmid">21603381</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18312.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Verhulst</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Neale</surname>
+                <given-names>MC</given-names>
+              </name>
+            </person-group>
+            <article-title>Best Practices for Binary and Ordinal Data Analyses.</article-title>
+            <source>Behav Genet</source>
+            <year>2021</year>
+            <month>May</month>
+            <volume>51</volume>
+            <issue>3</issue>
+            <fpage>204</fpage>
+            <page-range>204-214</page-range>
+            <pub-id pub-id-type="pmid">33400061</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18312.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>West</surname>
+                <given-names>CP</given-names>
+              </name>
+              <name>
+                <surname>Dupras</surname>
+                <given-names>DM</given-names>
+              </name>
+            </person-group>
+            <article-title>5 ways statistics can fool you--tips for practicing clinicians.</article-title>
+            <source>Vaccine</source>
+            <year>2013</year>
+            <month>Mar</month>
+            <day>15</day>
+            <volume>31</volume>
+            <issue>12</issue>
+            <fpage>1550</fpage>
+            <page-range>1550-2</page-range>
+            <pub-id pub-id-type="pmid">23246309</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18312.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dobler</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Binder</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Boulesteix</surname>
+                <given-names>AL</given-names>
+              </name>
+              <name>
+                <surname>Igelmann</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>K&#x000f6;hler</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Mansmann</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Pauly</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Scherag</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Schmid</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Al Tawil</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Weber</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>ChatGPT as a Tool for Biostatisticians: A Tutorial on Applications, Opportunities, and Limitations.</article-title>
+            <source>Stat Med</source>
+            <year>2025</year>
+            <month>Oct</month>
+            <volume>44</volume>
+            <issue>23-24</issue>
+            <fpage>e70263</fpage>
+            <pub-id pub-id-type="pmid">41128019</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18312.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nuzzo</surname>
+                <given-names>RL</given-names>
+              </name>
+            </person-group>
+            <article-title>The inverse fallacy and interpreting P values.</article-title>
+            <source>PM R</source>
+            <year>2015</year>
+            <month>Mar</month>
+            <volume>7</volume>
+            <issue>3</issue>
+            <fpage>311</fpage>
+            <page-range>311-4</page-range>
+            <pub-id pub-id-type="pmid">25724848</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18312.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ferrill</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Brown</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Kyle</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical versus statistical significance: interpreting P values and confidence intervals related to measures of association to guide decision making.</article-title>
+            <source>J Pharm Pract</source>
+            <year>2010</year>
+            <month>Aug</month>
+            <volume>23</volume>
+            <issue>4</issue>
+            <fpage>344</fpage>
+            <page-range>344-51</page-range>
+            <pub-id pub-id-type="pmid">21507834</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18312.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wellek</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>A critical evaluation of the current "p-value controversy".</article-title>
+            <source>Biom J</source>
+            <year>2017</year>
+            <month>Sep</month>
+            <volume>59</volume>
+            <issue>5</issue>
+            <fpage>854</fpage>
+            <page-range>854-872</page-range>
+            <pub-id pub-id-type="pmid">28504870</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18312.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hemming</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Kudrna</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Watson</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Taljaard</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Greenfield</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Goulao</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Lilford</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Interpretation of statistical findings in randomised trials: a survey of statisticians using thematic analysis of open-ended questions.</article-title>
+            <source>BMC Med Res Methodol</source>
+            <year>2024</year>
+            <month>Oct</month>
+            <day>29</day>
+            <volume>24</volume>
+            <issue>1</issue>
+            <fpage>256</fpage>
+            <pub-id pub-id-type="pmid">39472775</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18312.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ialongo</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Understanding the effect size and its measures.</article-title>
+            <source>Biochem Med (Zagreb)</source>
+            <year>2016</year>
+            <volume>26</volume>
+            <issue>2</issue>
+            <fpage>150</fpage>
+            <page-range>150-63</page-range>
+            <pub-id pub-id-type="pmid">27346958</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18312.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jeyaraman</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Jeyaraman</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ramasubramanian</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Balaji</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Muthu</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Beyond statistical significance: Embracing minimal clinically important difference for better patient care.</article-title>
+            <source>World J Methodol</source>
+            <year>2025</year>
+            <month>Mar</month>
+            <day>20</day>
+            <volume>15</volume>
+            <issue>1</issue>
+            <fpage>97814</fpage>
+            <pub-id pub-id-type="pmid">40115403</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18312.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rothman</surname>
+                <given-names>KJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Six persistent research misconceptions.</article-title>
+            <source>J Gen Intern Med</source>
+            <year>2014</year>
+            <month>Jul</month>
+            <volume>29</volume>
+            <issue>7</issue>
+            <fpage>1060</fpage>
+            <page-range>1060-4</page-range>
+            <pub-id pub-id-type="pmid">24452418</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-26142" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Ohms Law</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Tenny</surname>
+            <given-names>Kevin M.</given-names>
+          </name>
+          <aff>The Massachusetts Institute of Technology</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Keenaghan</surname>
+            <given-names>Michael</given-names>
+          </name>
+          <aff>Kings County Hospital, St. Georges Uni</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Kevin Tenny declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Michael Keenaghan declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>22</day>
+          <month>5</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-26142.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Ohm law is a relationship between three physical phenomena: current, voltage, and resistance. Current is defined as the flow of positive charge from a source to a negative charge source. The units for current are C/s for the amount of charge (C) that travels per unit time (s). The ampere (A) is the common unit of current equal to 1 C/s and the symbol for current is I. Current is an intrinsic property, as it depends on other aspects, such as the size of the system. To aptly compare the amount of current for different systems, the current is normalized per area or mass of the system. This is described as&#x000a0;the following:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>J = I/A</p>
+          </list-item>
+          <list-item>
+            <p>J = I/m</p>
+          </list-item>
+        </list>
+        <p>Where J is the current density in I/(m&#x000b7;m) or I/g depending on how the systems are compared, I is the current (A), A is the cross-sectional area (m&#x000b7;m), and m is the mass (g). Note that often j is used for current instead of I to prevent confusion with imaginary numbers. Therefore, one should pay attention to the symbols&#x02019; definitions, as they can vary case-by-case.</p>
+        <p>The voltage is another piece of Ohm law that states the amount of work needed to move a charge. The unit for voltage is J/C, which is equal to the ubiquitous unit the Volt (V). The voltage measures the electric potential an object possesses in reference to a charge. By applying a voltage, work is done on the charge which enables the movement of the charge. The amount of charge compared to an individual charge, known as a point charge, can be determined by&#x000a0;the following:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>V = kq/(r&#x000b7;r)</p>
+          </list-item>
+        </list>
+        <p>Where V is the electric potential (V), k is the constant 8.99 E 9 N&#x000b7;m&#x000b7;m/(C&#x000b7;C), q is the charge of the point (C), and r is the distance from the point charge (m).</p>
+        <p>The resistance is the opposition to the movement of charge. The resistance is similar to friction effects in flowing water or a sliding object. The units for resistance are Ohms, which is denoted with the capital Greek letter Omega. To calculate the amount of resistance in an object, the following equation can be used:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>R = Rho&#x000b7;l/A</p>
+          </list-item>
+        </list>
+        <p>Where R is the resistance (Omega), Rho is the resistivity of the object (Omega&#x000b7;m), l is the length of the object (m), and A is the cross-sectional area of the object (m&#x000b7;m). The resistivity is different for every object and is based on the structure of the material. The calculation for resistivity is outside the scope of&#x000a0;this article.</p>
+        <p>The resistance can also be normalized to provide an apt, case-by-case comparison. The normalized resistance is given by:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>R&#x02019; = R&#x000b7;A</p>
+          </list-item>
+        </list>
+        <p>Where R is the normalized resistance (Omega&#x000b7;m&#x000b7;m). The resistance, which impedes the flow of charge, is inversely proportional to the current. As the current normalization is per units of area, the resistance normalization is multiplied by units of the cross-sectional area due to the inverse relationship.</p>
+        <p>The inverse of resistance (1/R) is known as the conductance, which measures the ability of an object to conduct charge given in units of Siemens (S). Further discussion of conductance is outside the scope of&#x000a0;this article; however, it is worth noting the inverse relationship conductance has with resistance.</p>
+        <p>Given the current, voltage, and resistance, Ohm law is defined as:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>V = I&#x000b7;R</p>
+          </list-item>
+        </list>
+        <p>Dimensional analysis is needed to ensure consistent units.<xref ref-type="bibr" rid="article-26142.r1">[1]</xref><xref ref-type="bibr" rid="article-26142.r2">[2]</xref><xref ref-type="bibr" rid="article-26142.r3">[3]</xref><xref ref-type="bibr" rid="article-26142.r4">[4]</xref></p>
+      </sec>
+      <sec id="article-26142.s2" sec-type="Function">
+        <title>Function</title>
+        <p>Ohm law was originally an empirical derivation based on the relationship between current and voltage; however, it has remained consistent in microscopic and macroscopic observations. Ohm law is widely used in electronics and in creating circuits, as well as in battery development and other electrochemical applications. The scope of Ohm law is not limited to circuitry, as it can also be used to create molecules and polymers. Each atom contains protons and electrons, which can be harnessed to create chemical bonds with other atoms. By applying a voltage to a material, an oxidation-reduction reaction occurs, where one electron is removed from one molecule and attaches to another. This has a host of research applications, such as energy storage, materials chemistry, organic chemistry, and more. These applications use&#x000a0;Ohm law and have allowed scientists to make materials in novel ways.</p>
+        <p>To select the correct voltage, one needs to consider the resistances as well as the amount of charge needed. If there is a lot of resistance and little voltage, there will not be enough current to apply the charge throughout. Conversely, if there is too much voltage, the current can harm the circuitry of the device or degrade the molecules. Using electricity through Ohm law requires attention to the needs of the application to have the desired output.</p>
+      </sec>
+      <sec id="article-26142.s3" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>The main issue of concern with Ohm law is that the calculations can become complex with advanced circuitry and electrochemical phenomena. For example, the overall resistance is comprised of different types of&#x000a0;resistance, such as Ohmic resistance, mass transfer resistance, and charge transfer resistance. In optimizing the electrical performance of devices, there is a trade-off, reducing one resistance can increase another. This is a major consideration in design and optimization studies to find what values are best for a given application. Often, these different types of&#x000a0;resistance are difficult to measure and require sophisticated machines to provide accurate values. Additionally, the resistance also changes over time as the structural integrity of a device degrades. This can also change the expected results of Ohm law if this is not considered.<xref ref-type="bibr" rid="article-26142.r5">[5]</xref><xref ref-type="bibr" rid="article-26142.r6">[6]</xref></p>
+      </sec>
+      <sec id="article-26142.s4" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Ohm law is used in every electrical device to apply the correct amount of charge given the resistance. While clinicians will not need to readily calculate voltage, current, and resistance for these devices, understanding the relationship can provide intuition into how electrical devices work. Ohm law is also present within the human body and has multiple applications. For example, nerves within the nervous system use electrical properties to relay messages to one another. These electrical signals can be mapped with sensors and be better understood by clinicians. Gao et al. and Su et al. have studied the electrical properties of bones and have progressed the treatment of bone ailments. The human body contains many electrical pathways and processes. By understanding the fundamental governing equation, clinicians can work to resolve issues in new ways.</p>
+      </sec>
+      <sec id="article-26142.s5" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>Ohm law is a relationship between three physical phenomena: current, voltage, and resistance. Current is defined as the flow of positive charge from a source to a negative charge source.&#x000a0;Ohm law was originally an empirical derivation based on the relationship between current and voltage; however, it has remained consistent in microscopic and macroscopic observations. Ohm law is widely used in electronics and in creating circuits, as well as in battery development and other electrochemical applications.</p>
+      </sec>
+      <sec id="article-26142.s6">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=26142&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=26142">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/26142/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=26142">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-26142.s7">
+        <fig id="article-26142.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>The Ohm's Law triangle is a visual representation of the mathematical relationship. V is equal to the product of I and R; I equals the quotient of V and R; and, R equals the quotient of V and I. Contributed by Kevin M. Tenny.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ohms_law" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-26142.s8">
+        <title>References</title>
+        <ref id="article-26142.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chavanne</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Bru&#x000e8;re</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Frangi</surname>
+                <given-names>JP</given-names>
+              </name>
+            </person-group>
+            <article-title>Comments to: A Novel Low-Cost Instrumentation System for Measuring the Water Content and Apparent Electrical Conductivity of Soils, <italic>Sensors</italic>, <italic>15</italic>, 25546&#x0207b;25563.</article-title>
+            <source>Sensors (Basel)</source>
+            <year>2018</year>
+            <month>May</month>
+            <day>28</day>
+            <volume>18</volume>
+            <issue>6</issue>
+            <pub-id pub-id-type="pmid">29843378</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26142.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mart&#x000ed;nez-Sykora</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>De Pontieu</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Hansteen</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Carlsson</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>The role of partial ionization effects in the chromosphere.</article-title>
+            <source>Philos Trans A Math Phys Eng Sci</source>
+            <year>2015</year>
+            <month>May</month>
+            <day>28</day>
+            <volume>373</volume>
+            <issue>2042</issue>
+            <pub-id pub-id-type="pmid">25897096</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26142.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Avedisian</surname>
+                <given-names>CT</given-names>
+              </name>
+              <name>
+                <surname>Cavicchi</surname>
+                <given-names>RE</given-names>
+              </name>
+              <name>
+                <surname>McEuen</surname>
+                <given-names>PL</given-names>
+              </name>
+              <name>
+                <surname>Zhou</surname>
+                <given-names>X</given-names>
+              </name>
+            </person-group>
+            <article-title>Nanoparticles for cancer treatment: role of heat transfer.</article-title>
+            <source>Ann N Y Acad Sci</source>
+            <year>2009</year>
+            <month>Apr</month>
+            <volume>1161</volume>
+            <fpage>62</fpage>
+            <page-range>62-73</page-range>
+            <pub-id pub-id-type="pmid">19426306</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26142.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Larsen</surname>
+                <given-names>FS</given-names>
+              </name>
+            </person-group>
+            <article-title>Cerebral circulation in liver failure: Ohm's law in force.</article-title>
+            <source>Semin Liver Dis</source>
+            <year>1996</year>
+            <month>Aug</month>
+            <volume>16</volume>
+            <issue>3</issue>
+            <fpage>281</fpage>
+            <page-range>281-92</page-range>
+            <pub-id pub-id-type="pmid">8989814</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26142.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Henry</surname>
+                <given-names>MP</given-names>
+              </name>
+              <name>
+                <surname>Ratnayake</surname>
+                <given-names>CK</given-names>
+              </name>
+            </person-group>
+            <article-title>Electrochemical properties of columns in capillary electrochromatography. I. Ohm's law, resistivity and field strength.</article-title>
+            <source>J Chromatogr A</source>
+            <year>2005</year>
+            <month>Jun</month>
+            <day>24</day>
+            <volume>1079</volume>
+            <issue>1-2</issue>
+            <fpage>69</fpage>
+            <page-range>69-76</page-range>
+            <pub-id pub-id-type="pmid">16038292</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26142.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sackeim</surname>
+                <given-names>HA</given-names>
+              </name>
+              <name>
+                <surname>Long</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Luber</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Moeller</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Prohovnik</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Devanand</surname>
+                <given-names>DP</given-names>
+              </name>
+              <name>
+                <surname>Nobler</surname>
+                <given-names>MS</given-names>
+              </name>
+            </person-group>
+            <article-title>Physical properties and quantification of the ECT stimulus: I. Basic principles.</article-title>
+            <source>Convuls Ther</source>
+            <year>1994</year>
+            <month>Jun</month>
+            <volume>10</volume>
+            <issue>2</issue>
+            <fpage>93</fpage>
+            <page-range>93-123</page-range>
+            <pub-id pub-id-type="pmid">8069647</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-128651" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Sonography Physical Principles And Instrumentation</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Borowy</surname>
+            <given-names>Christopher S.</given-names>
+          </name>
+          <aff>Midwestern University</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Mukhdomi</surname>
+            <given-names>Taif</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Christopher Borowy declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Taif Mukhdomi declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>20</day>
+          <month>3</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-128651.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">The development of sonography or medical ultrasound was built on the understanding and research of sound, which can be dated as far back as the 6th century. Specifically, sonography can be tied to as far back as the 1700s, when an Italian physicist, Lazaro Spallanzani, researched bats' navigation.<xref ref-type="bibr" rid="article-128651.r1">[1]</xref>&#x000a0;In the early 20th century, French physicist Paul Langevin studied more applicable ultrasound uses. He eventually laid the groundwork for SONOR (Sound Navigation and Ranging) as he was commissioned to investigate the sunken Titanic. One of the first medical applications of ultrasound was by Ian Donald in the 1950s. As Ian Donald extrapolated ultrasound's ability to detect flaws and cracks in steel welds, he began researching and applying it to obstetrics and gynecology. He published a fetus at 14 weeks gestational age in the prestigious academic journal, <italic toggle="yes">The Lancet</italic>.</p>
+        <p>
+<bold>Basic Ultrasound Physics</bold>
+</p>
+        <p>As the name implies, <italic toggle="yes">ultrasound </italic>uses sound waves at a higher frequency than audible for the human ear. For example, the average human ear hears frequencies from the 20 hertz to 20 kHz (kilohertz) range, whereas the typical clinical ultrasound uses frequencies from 1&#x000a0;to 20 MHz (megahertz). A simple understanding of sinusoidal waves is useful for understanding ultrasound better. Wavelength (<italic toggle="yes">&#x003bb;</italic>) is inversely proportional to frequency (<italic toggle="yes">f</italic>) and proportionate to the velocity (<italic toggle="yes">v</italic>), as depicted in the following equation.&#x000a0;</p>
+        <list list-type="bullet">
+          <list-item>
+            <p><italic toggle="yes">&#x003bb;</italic>=v<italic toggle="yes">/f</italic></p>
+          </list-item>
+        </list>
+        <p>Modern-day ultrasounds utilize piezoelectricity technology to convert electricity to sound waves and convert sound waves back into electricity through lead zirconate titanate (PZT), human-made crystals (also called ceramic). The vibration occurs as these crystals are electrically stimulated, which produces longitudinal sound waves in the previously described frequency, thus producing ultrasound waves.<xref ref-type="bibr" rid="article-128651.r2">[2]</xref>&#x000a0;PZT crystals are arranged in unique schematics within an ultrasound transducer (also known as a probe) to be clinically applied in various situations. Further details on the variation of these transducers be discussed later.&#x000a0;</p>
+        <p>Like a rock being dropped into a still pond with the waves bouncing off the shore, the sound waves emitted by the transducer resonate and refract back to the transducer. When the ultrasound reverberates off tissue and returns, it induces vibration into the PZT crystals, which are converted back into an electric signal. The processing computer within the ultrasound machine then generates the signals into 2D (2 dimensional) and, in more recent times, 3D (3 dimensional) images. The frequency (and, inversely, wavelength) of the sound waves produced can be modified to produce greater penetration through soft tissue by modifying the power or gain.&#x000a0;The lower&#x000a0;the frequency, the deeper or greater the sound wave penetrance. Unfortunately, the&#x000a0;more penetrance is obtained, the poorer the image quality.&#x000a0;Lastly, some common terminology unique to the ultrasound field be discussed. Hyperechoic is defined by an object that is brighter than the surrounding tissue. Hypoechoic or anechoic is the opposite, by which an object is darker. Both of which are determined by the density of the object.</p>
+        <p>
+<bold>Instrumentation</bold>
+</p>
+        <p>The following section focus on a variety of transducers. Each transducer is shaped uniquely and has a specific and intentional arrangement of PZT crystals to produce a distinct image. Each ceramic arrangement has a&#x000a0;specific use for various clinical scenarios.&#x000a0;The phased array transducer is one of the physically smaller probes with a usefully small footprint. Specifically, the phased array probe&#x02019;s footprint can view between ribs to better view the heart or lungs. Due to the probe's size, the periphery and superficial image have poor focus and detail compared to other transducers. In addition to the footprint, the phased array transducers utilize every crystal within the probe to produce the image.<xref ref-type="bibr" rid="article-128651.r3">[3]</xref>&#x000a0;See <bold>Image</bold>. Ultrasound Phased Array Probe.</p>
+        <p>The linear transducer does not directly utilize every crystal, but each element is electrically stimulated or vibrated and subsequently excites adjacent crystals. Each crystal within the linear transducer is not given direct electrical stimulation. The advantage of the linear probe is a larger field of view and a higher superficial focus. Common clinical applications of this probe are within the soft tissue and more superficial structures. See <bold>Image.</bold> Ultrasound Linear Probe.&#x000a0;</p>
+        <p>Endocavity probes are one of the most unique in appearance. The wand-like shape and long neck allow sonographers to extend into orifices such as the oropharynx, rectum, or vagina (also called a transvaginal probe). Common clinical applications include surveillance of early pregnancies. Transabdominal imaging may not provide optimal imaging in smaller fetuses, but it can be diagnosed and used as a therapeutic tool in draining parapharyngeal abscesses. See <bold>Image.</bold> Endocavity Ultrasound Probe.</p>
+        <p>Lastly, the curvilinear or curved-array transducer has a convex shape, whereas the&#x000a0;2 previously described transducers have a more linear shape. The curvilinear probe typically has the largest footprint of the 3. This probe is utilized in the endocervical, intrauterine, or abdominal cavity. The image produced from the probe is &#x0201c;C&#x0201d; shaped, which is reflective of the probe&#x02019;s shape. Superficial focus is poor, but the advantage is a wider field of view overall.<xref ref-type="bibr" rid="article-128651.r4">[4]</xref>&#x000a0;See <bold>Image.</bold> Ultrasound Curvilinear Probe. With advances in ultrasonography, new research has brought products into the market that utilize a silicon chip in place of piezo crystals that have enhanced ultrasound machines' ability to access multiple images, guiding care beyond PZT imaging.</p>
+      </sec>
+      <sec id="article-128651.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>To obtain ideal images when scanning human tissue, a sonographer must understand how to optimize its resolution. The following section focuses on the properties of ultrasound to achieve such images and the common artifacts produced from imperfections in both the tissue and the ultrasound that may cause major issues in the final images.&#x000a0;A sound wave penetrates deeper into a particular cavity; more interference is met. As such, the reverberant sound waves weaken as they reflect on the transducer. To optimize image quality, one must alter the gain. Altering the gain does not affect the sound wave impulse sent from the transducer but amplifies what is echoed back and received by the PZT crystals. If the produced image is still suboptimal despite optimizing the gain, the intensity or power of the sound wave emitting can be changed. If the image produced is too dim, then the strength of the sound waves may be changed by altering the power. The greater the power of the sound waves, the deeper the waves typically penetrate. Power is measured in decibels (dB). As described above, by increasing the frequency of PZT crystals, a <italic toggle="yes">louder</italic> sound wave with greater power penetrates deeper but at the cost of more artifacts in the resulting image.&#x000a0;</p>
+        <p>Despite proper optimization, several errors or artifacts&#x000a0;can occur in the production of images. In a perfect world, there are some assumptions used to make these images. These assumptions are that sound waves travel in a straight line and reflect in that same line, sound travels at 1,540 m/s, and that the only source of sound wave production is the transducer; any deviation from these assumptions produces artifacts. When a sound wave encounters a medium such as air, which sound waves poorly pass through compared to water-based tissue, the artifact known as a <italic toggle="yes">shadow</italic> is produced. This appears as a hypoechoic or anechoic area seen distal to the area of gas or air, which obscures any views within the <italic toggle="yes">shadow</italic>. Besides air, a common cause of shadowing is gallstones, for which the shadow can be diagnostic in identifying gallstones within a gallbladder. See <bold>Image.</bold> Gallstone on Point-of-Care Ultrasound.&#x000a0;</p>
+        <p>
+<italic toggle="yes">Comet tails</italic> typically have the appearance opposite of a shadow. A comet tail has a hyperechoic, or white, presentation. Common causes of this artifact are&#x000a0;2 closely approximated objects, like a mechanical heart valve. With&#x000a0;2 objects close together, there is reverberation, which produces the hyperechoic streak. The last artifact to be discussed is a mirror image. The artificial mirror image is always produced in parallel with the sound beam emitted from an ultrasound transducer. Gas or air is a common culprit in producing various artifacts, and when a smooth and flat pocket of gas interacts with sound waves, it reflects in the same manner as a common household mirror. Sonographers can utilize the mirror artifact and reflective surfaces to obtain views to their advantage.<xref ref-type="bibr" rid="article-128651.r5">[5]</xref><xref ref-type="bibr" rid="article-128651.r6">[6]</xref><xref ref-type="bibr" rid="article-128651.r7">[7]</xref></p>
+      </sec>
+      <sec id="article-128651.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>The clinical&#x000a0;significance of sonography spans across multiple medical specialties and fields. Equally important is the training and education surrounding ultrasound, as it is a heavily user-dependent skill and tool.&#x000a0;A poor sonographer with the highest quality ultrasound can produce inadequate images. Competent training and experience are crucial. There are&#x000a0;3 regulatory organizations for sonographic certification; Cardiovascular Credentialing International, the American Registry of Radiologic Technologists, and the American Registry for Diagnostic Medical Sonography. Formal training takes 12-18 months and is combined with written and practical knowledge.<xref ref-type="bibr" rid="article-128651.r8">[8]</xref>&#x000a0;Outside of ultrasound technician training, medical residents and fellows study ultrasound. Specifically, cardiology fellows focus on cardiac application, nephrology on renal images, and formal fellowships for&#x000a0;using ultrasound for emergency medicine residents and attendings. Lastly, radiology residency has formal training in obtaining and interpreting sonographic images.<xref ref-type="bibr" rid="article-128651.r9">[9]</xref></p>
+        <p>As described above,&#x000a0;the training to properly utilize medical ultrasound has many different pathways. Collectively, technicians, nursing staff, and clinicians benefit from the information obtained from sonography. The coordination subsequently increases patient care and eventual outcomes. In summary, from the foundation of Lazaro Spallanzani&#x02019;s research of sonography in bats to Ian Donald extrapolating its use from iron welds to the field of obstetrics, ultrasound is now an immediately available and safe diagnostic and therapeutic tool. The utility and applicability of ultrasound span across outpatient obstetrical offices to obtaining critical information within intensive care units. As technology develops, ultrasound machines are becoming smaller and more portable. The future of ultrasound utility continues to expand and likely span almost all medical specialties.</p>
+      </sec>
+      <sec id="article-128651.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>Just as Ian Donald saw the use of ultrasound in the field of obstetrics, many have followed and seen its utility in other medical fields: cardiology, vascular surgery, anesthesiology, pain medicine, radiology, general surgery, nephrology, ophthalmology, urology, emergency medicine, obstetrics, and gynecology.<xref ref-type="bibr" rid="article-128651.r3">[3]</xref><xref ref-type="bibr" rid="article-128651.r10">[10]</xref>&#x000a0;Ultrasound is a quick, efficient, and safe diagnostic and therapeutic tool within the medical field. Team efforts can be taken to influence medical care and decision-making.</p>
+      </sec>
+      <sec id="article-128651.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=128651&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=128651">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/128651/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=128651">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-128651.s6">
+        <fig id="article-128651.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Gallstone, Ultrasound Image. This image shows a gallstone on point-of-care ultrasound. Emory Emergency Medicine Ultrasound Section</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="GB__stone__with__shadowing.0001" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-128651.s7">
+        <fig id="article-128651.image.f2" position="float" orientation="portrait">
+          <caption>
+            <p>Ultrasound Linear Probe. Contributed by C Borowy, DO</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Linear" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-128651.s8">
+        <fig id="article-128651.image.f3" position="float" orientation="portrait">
+          <caption>
+            <p>Ultrasound Phased Array Probe. Contributed by C Borowy, DO</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="phased__array" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-128651.s9">
+        <fig id="article-128651.image.f4" position="float" orientation="portrait">
+          <caption>
+            <p>Ultrasound Curvilinear Probe. Contributed by C Borowy, DO</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="curvilinear" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-128651.s10">
+        <fig id="article-128651.image.f5" position="float" orientation="portrait">
+          <caption>
+            <p>Endocavity Ultrasound Probe. Contributed by C Borowy, DO</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="IMG_0381" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-128651.s11">
+        <title>References</title>
+        <ref id="article-128651.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ledermann D</surname>
+                <given-names>W</given-names>
+              </name>
+            </person-group>
+            <article-title>[Reading Spallanzani today].</article-title>
+            <source>Rev Chilena Infectol</source>
+            <year>2020</year>
+            <month>Feb</month>
+            <volume>37</volume>
+            <issue>1</issue>
+            <fpage>64</fpage>
+            <page-range>64-68</page-range>
+            <pub-id pub-id-type="pmid">32730402</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128651.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mantsevich</surname>
+                <given-names>SN</given-names>
+              </name>
+              <name>
+                <surname>Yushkov</surname>
+                <given-names>KB</given-names>
+              </name>
+            </person-group>
+            <article-title>Optimization of piezotransducer dimensions for quasicollinear paratellurite AOTF.</article-title>
+            <source>Ultrasonics</source>
+            <year>2021</year>
+            <month>Apr</month>
+            <volume>112</volume>
+            <fpage>106335</fpage>
+            <pub-id pub-id-type="pmid">33395592</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128651.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Prabhu</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Raju</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Pauli</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Transesophageal echocardiography: instrumentation and system controls.</article-title>
+            <source>Ann Card Anaesth</source>
+            <year>2012</year>
+            <season>Apr-Jun</season>
+            <volume>15</volume>
+            <issue>2</issue>
+            <fpage>144</fpage>
+            <page-range>144-55</page-range>
+            <pub-id pub-id-type="pmid">22508208</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128651.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Matthias</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Panebianco</surname>
+                <given-names>NL</given-names>
+              </name>
+              <name>
+                <surname>Maltenfort</surname>
+                <given-names>MG</given-names>
+              </name>
+              <name>
+                <surname>Dean</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Baston</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Effect of Machine Settings on Ultrasound Assessment of B-lines.</article-title>
+            <source>J Ultrasound Med</source>
+            <year>2020</year>
+            <month>Dec</month>
+            <day>02</day>
+            <volume>40</volume>
+            <issue>10</issue>
+            <fpage>2039</fpage>
+            <page-range>2039-46</page-range>
+            <pub-id pub-id-type="pmid">33289208</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128651.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Goffi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kruisselbrink</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Volpicelli</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>The sound of air: point-of-care lung ultrasound in perioperative medicine.</article-title>
+            <source>Can J Anaesth</source>
+            <year>2018</year>
+            <month>Apr</month>
+            <volume>65</volume>
+            <issue>4</issue>
+            <fpage>399</fpage>
+            <page-range>399-416</page-range>
+            <pub-id pub-id-type="pmid">29411300</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128651.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sites</surname>
+                <given-names>BD</given-names>
+              </name>
+              <name>
+                <surname>Brull</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Chan</surname>
+                <given-names>VW</given-names>
+              </name>
+              <name>
+                <surname>Spence</surname>
+                <given-names>BC</given-names>
+              </name>
+              <name>
+                <surname>Gallagher</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Beach</surname>
+                <given-names>ML</given-names>
+              </name>
+              <name>
+                <surname>Sites</surname>
+                <given-names>VR</given-names>
+              </name>
+              <name>
+                <surname>Hartman</surname>
+                <given-names>GS</given-names>
+              </name>
+            </person-group>
+            <article-title>Artifacts and pitfall errors associated with ultrasound-guided regional anesthesia. Part I: understanding the basic principles of ultrasound physics and machine operations.</article-title>
+            <source>Reg Anesth Pain Med</source>
+            <year>2007</year>
+            <season>Sep-Oct</season>
+            <volume>32</volume>
+            <issue>5</issue>
+            <fpage>412</fpage>
+            <page-range>412-8</page-range>
+            <pub-id pub-id-type="pmid">17961841</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128651.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schafer</surname>
+                <given-names>ME</given-names>
+              </name>
+            </person-group>
+            <article-title>Fundamentals of High-Resolution Ultrasound in Breast Implant Screening for Plastic Surgeons.</article-title>
+            <source>Clin Plast Surg</source>
+            <year>2021</year>
+            <month>Jan</month>
+            <volume>48</volume>
+            <issue>1</issue>
+            <fpage>59</fpage>
+            <page-range>59-69</page-range>
+            <pub-id pub-id-type="pmid">33220905</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128651.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Haynes</surname>
+                <given-names>KW</given-names>
+              </name>
+            </person-group>
+            <article-title>The Importance of Professional Values From Radiologic Technologists' Perspective.</article-title>
+            <source>Radiol Technol</source>
+            <year>2020</year>
+            <month>Jul</month>
+            <volume>91</volume>
+            <issue>6</issue>
+            <fpage>525</fpage>
+            <page-range>525-532</page-range>
+            <pub-id pub-id-type="pmid">32606230</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128651.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Shokoohi</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Duggan</surname>
+                <given-names>NM</given-names>
+              </name>
+              <name>
+                <surname>Adhikari</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Selame</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Amini</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Blaivas</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Point-of-care ultrasound stewardship.</article-title>
+            <source>J Am Coll Emerg Physicians Open</source>
+            <year>2020</year>
+            <month>Dec</month>
+            <volume>1</volume>
+            <issue>6</issue>
+            <fpage>1326</fpage>
+            <page-range>1326-1331</page-range>
+            <pub-id pub-id-type="pmid">33392540</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-128651.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Guner</surname>
+                <given-names>NG</given-names>
+              </name>
+              <name>
+                <surname>Yurumez</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Yucel</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Alacam</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Guner</surname>
+                <given-names>ST</given-names>
+              </name>
+              <name>
+                <surname>Ercan</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Effects of Point-of-care Ultrasonography on the Diagnostic Process of Patients Admitted to the Emergency Department with Chest Pain: A Randomised Controlled Trial.</article-title>
+            <source>J Coll Physicians Surg Pak</source>
+            <year>2020</year>
+            <month>Dec</month>
+            <volume>30</volume>
+            <issue>12</issue>
+            <fpage>1262</fpage>
+            <page-range>1262-1268</page-range>
+            <pub-id pub-id-type="pmid">33397050</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

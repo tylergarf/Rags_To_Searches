@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-125773" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Mo99 - Tc99m Generator</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Gupta</surname>
+            <given-names>Riya</given-names>
+          </name>
+          <aff>Cleveland Clinic</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Garg</surname>
+            <given-names>Sumit</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Heston</surname>
+            <given-names>Thomas F.</given-names>
+          </name>
+          <aff>Private Practice</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Riya Gupta declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Sumit Garg declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Thomas Heston declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>6</day>
+          <month>7</month>
+          <year>2025</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-125773.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Radionuclide production forms the foundation of nuclear imaging and targeted radiotherapy. Although most diagnostic radionuclides are synthesized in cyclotrons or nuclear reactors, logistical constraints&#x02014;including geographic dispersion, cost, and regulatory oversight&#x02014;limit their universal availability. To mitigate these challenges, radionuclide generator systems&#x02014;most notably the molybdenum-99/technetium-99m (Mo-99/Tc-99m) generator&#x02014;enable the decentralized, on-site elution of Tc-99m (half-life: 6 hours) from its parent nuclide Mo-99 (half-life: 66 hours). This system remains indispensable for routine diagnostic imaging. Other generator pairs, used less frequently in clinical practice, include tellurium-132 (half-life: 3.2 days)/iodine-132 (half-life: 2.3 hours) and germanium-68 (half-life: 271 days)/gallium-68 (half-life: 68 minutes).</p>
+      </sec>
+      <sec id="article-125773.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>
+<bold>Basic Characteristics</bold>
+</p>
+        <p>One of the indispensable characteristics of an ideal radiopharmaceutical is a short half-life. Larger doses could be used with minimal radiation burden to the patient for better imaging quality. Besides, the radionuclide produced should have high specific activity with minimal impurities.<xref ref-type="bibr" rid="article-125773.r1">[1]</xref>&#x000a0;The radionuclide should be easily labeled with an appropriate pharmaceutical, such as a peptide, colloid, or ligand. These essential characteristics are satisfied by a generator system involved in producing 99m-Tc with excellent radiation characteristics. Tucker and Greene developed the first Tc-99m generator in 1958. In 1960, Richards used it as a medical tracer for the first time.<xref ref-type="bibr" rid="article-125773.r2">[2]</xref><xref ref-type="bibr" rid="article-125773.r3">[3]</xref><xref ref-type="bibr" rid="article-125773.r4">[4]</xref></p>
+        <p>When a freshly loaded generator is first eluted, only the Tc-99m formed since the time of loading is extracted. However, because Tc-99m is continually generated from the decay of Mo-99, generator activity regenerates over time. Maximum yield is typically achieved by eluting approximately 23 to 24 hours after the previous elution, when transient equilibrium between Mo-99 (half-life: 66 hours) and Tc-99m (half-life: 6 hours) has been reached. Eluting at shorter intervals reduces Tc-99m activity due to incomplete regeneration. However, elution can be carried out more than once a day for emergency studies since 50% of the maximum activity is reached within 4&#x000a0;to 5 hours of initial elution.<xref ref-type="bibr" rid="article-125773.r5">[5]</xref>&#x000a0;This elution pattern reflects the kinetics described by the Bateman equations, which govern the activity of a daughter radionuclide in relation to its parent. The generator column consists of approximately 5 to 10 g of acid-washed aluminum oxide (Al<sub>2</sub>O<sub>3</sub>), onto which fission-produced Mo-99 is adsorbed.<xref ref-type="bibr" rid="article-125773.r6">[6]</xref> Tc-99m is extracted into an evacuated vial using 0.9% normal saline without removing molybdenum, colloquially known as moly cow (milking), through column chromatography. This process is also defined as an elution.<xref ref-type="bibr" rid="article-125773.r7">[7]</xref>&#x000a0;The eluate, sodium pertechnetate (TcO4&#x02212;) volume is about 2&#x000a0;to 3 mL and expires in 12 hours.</p>
+        <p>
+<bold>Types of Generators</bold>
+</p>
+        <p>Two types of generators are available commercially&#x02014;wet and dry type systems. The wet system has a 0.9% normal saline reservoir, and the eluate is accumulated in a particular sterile evacuated vial at a collection port. In contrast, a dry system is commonly available in imaging laboratories and has 2 ports for elution and evacuated vials.<xref ref-type="bibr" rid="article-125773.r8">[8]</xref></p>
+        <p>
+<bold>Theoretical Yield of Technetium-99m</bold>
+</p>
+        <p>The level of Tc-99m varies due to both growth and decay effects. The radioactive decay is continuous within the generator system. A transient equilibrium is attained as the half-lives of Mo and Tc differ by a factor of 11. Approximately 87% of molybdenum decays into 99m-Tc and 13% into stable Tc-99 (2.1&#x000d7;10<sup>5</sup> years). Subsequently, 99m-Tc decays to Tc-99 by isomeric transition with the emission of 140-KeV gamma rays.<xref ref-type="bibr" rid="article-125773.r9">[9]</xref></p>
+        <p>Although 99-Tc and 99m-Tc have similar physical and chemical properties, they differ in labeling efficiency. Nevertheless, it is not problematic from a health standpoint.<xref ref-type="bibr" rid="article-125773.r10">[10]</xref></p>
+        <p>In certain clinical situations, particularly for add-on emergency studies, estimating the theoretical yield of 99m-Tc from a Mo-99 generator may be necessary at a specific time. The yield can be calculated using the following equation:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p><italic toggle="yes">A</italic><sub>Tc</sub> = 0.957(<italic toggle="yes">A</italic><sub>Mo</sub>)i [<italic toggle="yes">e</italic><sup>&#x02212;0.0105t</sup> &#x02212; <italic toggle="yes">e</italic><sup>&#x02212;0.1155t</sup>] + [(<italic toggle="yes">A</italic><sub>Tc</sub>)<italic toggle="yes">i</italic> (<italic toggle="yes">e</italic><sup>&#x02212;0.1155t</sup>)]&#x000a0;<xref ref-type="bibr" rid="article-125773.r11">[11]</xref></p>
+          </list-item>
+        </list>
+        <p>Because molybdenum&#x000a0;has a half-life of 66 hours (2.8 days), a generator can be used for up to 2 weeks.</p>
+        <p>Institutional set-ups often utilize this calculation to purchase an appropriately sized generator to calculate enough residual activity on the last day of the workweek.<xref ref-type="bibr" rid="article-125773.r12">[12]</xref></p>
+      </sec>
+      <sec id="article-125773.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>
+<bold>Quality Control of&#x000a0;Technetium-99m Eluate with Clinical Implications</bold>
+</p>
+        <p>Before administering radiopharmaceuticals to patients, performing quality check steps with every elution is mandatory. This additional step yields minimal radiation exposure while maximizing clinical benefit. The chances of having impurities in an eluate increase when elution is not carried out daily.<xref ref-type="bibr" rid="article-125773.r13">[13]</xref>&#x000a0;Some of the most common impurities are discussed briefly below.</p>
+        <p>
+<bold>Molybdenum-99 breakthrough/radionuclide impurity: </bold>Mo-99&#x000a0;breakthrough&#x000a0;typically occurs as the generator nears expiry date, when Mo-99 contamination may be eluted with 99m-Tc. However, the determination of Moly's breakthrough is inescapable with every elution. The United States Pharmacopeia's standard limit is less than 0.15 &#x000b5;Ci of Mo-99 per mCi of 99m-Tc at the time of administration, which can be easily calculated by placing a generator equivalent in a lead container designed to detect only the energetic 740-KeV and 780-KeV gamma rays of Mo-99.<xref ref-type="bibr" rid="article-125773.r14">[14]</xref>&#x000a0;The particulate emissions (beta&#x02212;) by 99m-Mo can be detrimental to a patient's health in the long run due to a longer half-life.</p>
+        <p>The manufacturer typically conducts additional radionuclide contamination tests.<xref ref-type="bibr" rid="article-125773.r15">[15]</xref></p>
+        <table-wrap id="article-125773.table0" position="float" orientation="portrait">
+          <caption>
+            <title>Table 1. Important Critical Contaminants with Safe Permissible Limits</title>
+          </caption>
+          <table style="width: 600px;" border="1" cellspacing="1" cellpadding="2">
+            <tbody>
+              <tr>
+                <td style="width: 216px;" rowspan="1" colspan="1">
+<p><bold>Radionuclide Contaminants</bold></p>
+</td>
+                <td style="width: 299.328px;" rowspan="1" colspan="1">
+<p><bold>&#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0;Safe Permissible Limit (per mCi 99m-Tc)</bold></p>
+</td>
+              </tr>
+              <tr>
+                <td style="width: 216px;" rowspan="1" colspan="1">
+<p>I-131</p>
+</td>
+                <td style="width: 299.328px;" rowspan="1" colspan="1">
+<p>&#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0;0.05</p>
+</td>
+              </tr>
+              <tr>
+                <td style="width: 216px;" rowspan="1" colspan="1">
+<p>Ru-103</p>
+</td>
+                <td style="width: 299.328px;" rowspan="1" colspan="1">
+<p>&#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0;0.05</p>
+</td>
+              </tr>
+              <tr>
+                <td style="width: 216px;" rowspan="1" colspan="1">
+<p>Sr-89</p>
+</td>
+                <td style="width: 299.328px;" rowspan="1" colspan="1">
+<p>&#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0;0.0006</p>
+</td>
+              </tr>
+              <tr>
+                <td style="width: 216px;" rowspan="1" colspan="1">
+<p>Sr-90</p>
+</td>
+                <td style="width: 299.328px;" rowspan="1" colspan="1">
+<p>&#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0; &#x000a0;0.00006</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <p>Reference for the table<italic toggle="yes">.</italic><xref ref-type="bibr" rid="article-125773.r16">[16]</xref></p>
+        <p>
+<bold>Aluminum breakthrough/chemical impurity:&#x000a0;</bold>The alumina column in the generator bed contributes to contamination, especially when preparing 99m-Tc-labeled sulfur colloid for lymph nodes studies.<xref ref-type="bibr" rid="article-125773.r17">[17]</xref>&#x000a0;The former interferes with its preparation and leads to the precipitation of colloids. Besides, it affects the distribution of radiopharmaceuticals. There is an increased lung activity with 99m-Tc sulfur colloid in an aluminum-containing eluent and increased liver uptake with 99m-Tc-methylene diphosphonate. Agglutination of 99m-Tc-labeled red blood cells is another issue encountered with aluminum. The standard limit is less than 10 &#x000b5;g/mL, measured using a qualitative spot test with aurin tricarboxylic acid.<xref ref-type="bibr" rid="article-125773.r18">[18]</xref></p>
+        <p>
+<bold>Radiochemical impurity:&#x000a0;</bold>Pertechnetate exhibits a varied range of valency, between &#x02212;1 and +7, depending on pH and the presence of a reducing or an oxidizing agent. Sodium pertechnetate (TcO<sup>&#x02212;</sup><sub>4</sub>) is the desired form with a valency of +7. Other reduced oxidation states, such as +4, +5, or +6, are referred to as radiochemical impurities and are detected using thin-layer chromatography. Although infrequent, determining these radiochemical impurities is often considered if labeling has a low yield. More than or equal to 95% of the 99m-Tc activity should be in the +7 oxidation state for ideal labeling with a pharmaceutical.<xref ref-type="bibr" rid="article-125773.r19">[19]</xref></p>
+        <p>
+<bold>Clinical Applications of&#x000a0;Technetium-99m</bold>
+</p>
+        <p>The radionuclide Tc-99m is widely used for imaging techniques, including:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Cardiac imaging: Radiopharmaceuticals such as Tc-99m-sestamibi and Tc-99m-tetrofosmin are commonly used in myocardial perfusion scans, a type of nuclear medicine scan performed using single-photon emission computed tomography.<xref ref-type="bibr" rid="article-125773.r20">[20]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Bone scans: Tc-99m-labeled diphosphonates, such as Tc-99m-methylene diphosphonate, detect metastases, fractures, or infections.<xref ref-type="bibr" rid="article-125773.r21">[21]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Lung scans: Tc-99m macroaggregated albumin is used in perfusion/ventilation scans for the detection of pulmonary embolism.</p>
+          </list-item>
+          <list-item>
+            <p>Infection and inflammation imaging: Radiopharmaceuticals such as Tc-99m-citrate and Tc-99m-antibiotics are used to detect sites of infection and inflammation.<xref ref-type="bibr" rid="article-125773.r22">[22]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Hepatobiliary imaging: Tc-99m-labeled iminodiacetic acid derivatives are used to assess hepatobiliary function and diagnose acute cholecystitis.</p>
+          </list-item>
+          <list-item>
+            <p>Renal imaging: Tc-99m-mercaptoacetyltriglycine and Tc-99m-diethylenetriaminepentaacetic acid are used&#x000a0;in assessing renal perfusion and excretion function.</p>
+          </list-item>
+          <list-item>
+            <p>Brain imaging: Tc-99m is used in brain perfusion imaging to assess cerebral blood flow in conditions such as stroke and epilepsy. Tc-99m-hexamethylpropylene amine oxime and Tc-99m-ethyl cysteinate dimer are commonly used agents.<xref ref-type="bibr" rid="article-125773.r23">[23]</xref></p>
+          </list-item>
+        </list>
+        <p>
+<bold>Disposal of Molybdenum-Technetium Generator</bold>
+</p>
+        <p>After using a molybdenum-technetium generator in clinical settings to produce Tc-99m from Mo-99, the generator must be disposed of per regulatory guidelines to ensure safety and compliance. The disposal process involves 4 essential steps, which are as follows:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Decay in storage: The generator should be stored until its radioactivity decays to safe levels. Federal regulations typically require storage for a period equivalent to 10 half-lives of the longest-lived radioactive material in the generator. For 99Mo, with a half-life of 66 hours, this corresponds to approximately 660 hours or 28 days. This process&#x000a0;ensures that 99Mo and its daughter products decay to background levels before disposal.<xref ref-type="bibr" rid="article-125773.r24">[24]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Label removal: All labels indicating <italic toggle="yes">Caution&#x02014;Radioactive Material</italic>&#x000a0;must be removed from the generator before disposal with regular medical waste.</p>
+          </list-item>
+          <list-item>
+            <p>Compliance with regulations: Disposal must comply with the regulations of the Nuclear Regulatory Commission.&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Radioactive waste management: If the generator still contains residual radioactivity, it should be managed as low-level radioactive waste. This process requires adherence to institutional protocols for radioactive waste disposal, which may include transferring the waste to a licensed radioactive waste disposal facility.<xref ref-type="bibr" rid="article-125773.r25">[25]</xref><xref ref-type="bibr" rid="article-125773.r26">[26]</xref></p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-125773.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>The generator plays a central role in nuclear medicine imaging and therapeutics. Despite various advancements over the years, its function continues to rely on the fundamental principle of column chromatography. With an increasing number of generator manufacturers entering the market, there is a need to standardize safe permissible impurity limits to minimize unnecessary radiation exposure to healthcare professionals and patients. Additionally, there is a need to explore alternatives to 99m-Tc due to the global shortage of Mo-99.<xref ref-type="bibr" rid="article-125773.r27">[27]</xref></p>
+      </sec>
+      <sec id="article-125773.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=125773&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=125773">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/125773/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=125773">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-125773.s6">
+        <title>References</title>
+        <ref id="article-125773.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Drozdovitch</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Brill</surname>
+                <given-names>AB</given-names>
+              </name>
+              <name>
+                <surname>Callahan</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Clanton</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>DePietro</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Goldsmith</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <name>
+                <surname>Greenspan</surname>
+                <given-names>BS</given-names>
+              </name>
+              <name>
+                <surname>Gross</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Hays</surname>
+                <given-names>MT</given-names>
+              </name>
+              <name>
+                <surname>Moore</surname>
+                <given-names>SC</given-names>
+              </name>
+              <name>
+                <surname>Ponto</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Shreeve</surname>
+                <given-names>WW</given-names>
+              </name>
+              <name>
+                <surname>Melo</surname>
+                <given-names>DR</given-names>
+              </name>
+              <name>
+                <surname>Linet</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Simon</surname>
+                <given-names>SL</given-names>
+              </name>
+            </person-group>
+            <article-title>Use of radiopharmaceuticals in diagnostic nuclear medicine in the United States: 1960-2010.</article-title>
+            <source>Health Phys</source>
+            <year>2015</year>
+            <month>May</month>
+            <volume>108</volume>
+            <issue>5</issue>
+            <fpage>520</fpage>
+            <page-range>520-37</page-range>
+            <pub-id pub-id-type="pmid">25811150</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vucina</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>[Technetium-99m production for use in nuclear medicine].</article-title>
+            <source>Med Pregl</source>
+            <year>2000</year>
+            <season>Nov-Dec</season>
+            <volume>53</volume>
+            <issue>11-12</issue>
+            <fpage>631</fpage>
+            <page-range>631-4</page-range>
+            <pub-id pub-id-type="pmid">11320753</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dash</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Knapp</surname>
+                <given-names>FF</given-names>
+              </name>
+              <name>
+                <surname>Pillai</surname>
+                <given-names>MR</given-names>
+              </name>
+            </person-group>
+            <article-title>99Mo/(99m)Tc separation: an assessment of technology options.</article-title>
+            <source>Nucl Med Biol</source>
+            <year>2013</year>
+            <month>Feb</month>
+            <volume>40</volume>
+            <issue>2</issue>
+            <fpage>167</fpage>
+            <page-range>167-76</page-range>
+            <pub-id pub-id-type="pmid">23142410</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Castronovo</surname>
+                <given-names>FP</given-names>
+              </name>
+            </person-group>
+            <article-title>Technetium-99m: basic nuclear physics and chemical properties.</article-title>
+            <source>Am J Hosp Pharm</source>
+            <year>1975</year>
+            <month>May</month>
+            <volume>32</volume>
+            <issue>5</issue>
+            <fpage>480</fpage>
+            <page-range>480-8</page-range>
+            <pub-id pub-id-type="pmid">238387</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chattopadhyay</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Das</surname>
+                <given-names>MK</given-names>
+              </name>
+            </person-group>
+            <article-title>A novel technique for the effective concentration of 99mTc from a large alumina column loaded with low specific-activity (n,gamma)-produced 99Mo.</article-title>
+            <source>Appl Radiat Isot</source>
+            <year>2008</year>
+            <month>Oct</month>
+            <volume>66</volume>
+            <issue>10</issue>
+            <fpage>1295</fpage>
+            <page-range>1295-9</page-range>
+            <pub-id pub-id-type="pmid">18387810</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dash</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Chakravarty</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Ram</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Pillai</surname>
+                <given-names>KT</given-names>
+              </name>
+              <name>
+                <surname>Yadav</surname>
+                <given-names>YY</given-names>
+              </name>
+              <name>
+                <surname>Wagh</surname>
+                <given-names>DN</given-names>
+              </name>
+              <name>
+                <surname>Verma</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Biswas</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Venkatesh</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Development of a 99Mo/99mTc generator using alumina microspheres for industrial radiotracer applications.</article-title>
+            <source>Appl Radiat Isot</source>
+            <year>2012</year>
+            <month>Jan</month>
+            <volume>70</volume>
+            <issue>1</issue>
+            <fpage>51</fpage>
+            <page-range>51-8</page-range>
+            <pub-id pub-id-type="pmid">21820904</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tippetts</surname>
+                <given-names>RD</given-names>
+              </name>
+              <name>
+                <surname>Kenney</surname>
+                <given-names>GN</given-names>
+              </name>
+            </person-group>
+            <article-title>Elution parameters of the 99Mo-99mTc generator.</article-title>
+            <source>J Nucl Med</source>
+            <year>1969</year>
+            <month>Aug</month>
+            <volume>10</volume>
+            <issue>8</issue>
+            <fpage>550</fpage>
+            <page-range>550-2</page-range>
+            <pub-id pub-id-type="pmid">4893098</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vigne</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Emery</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lemarie</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Chavent</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Hallouard</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Le Guludec</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Rouzet</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Fraysse</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>De Mil</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Fractionated elution of 99Mo/99mTc generators using calibrated vials.</article-title>
+            <source>Nucl Med Commun</source>
+            <year>2018</year>
+            <month>Sep</month>
+            <volume>39</volume>
+            <issue>9</issue>
+            <fpage>865</fpage>
+            <page-range>865-869</page-range>
+            <pub-id pub-id-type="pmid">29975214</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bauer</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Pabst</surname>
+                <given-names>HW</given-names>
+              </name>
+            </person-group>
+            <article-title>Tc-generators - yield of 99mTc and ratio to 'inactive' 99Tc.</article-title>
+            <source>Eur J Nucl Med</source>
+            <year>1982</year>
+            <volume>7</volume>
+            <issue>1</issue>
+            <fpage>35</fpage>
+            <page-range>35-6</page-range>
+            <pub-id pub-id-type="pmid">7060601</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r10">
+          <label>10</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Kane</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Padda</surname>
+                <given-names>IS</given-names>
+              </name>
+              <name>
+                <surname>Patel</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Davis</surname>
+                <given-names>DD</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Technetium-99m</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2024</year>
+            <month>2</month>
+            <day>29</day>
+            <pub-id pub-id-type="pmid">32644439</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hidalgo</surname>
+                <given-names>JU</given-names>
+              </name>
+              <name>
+                <surname>Wright</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Wooten</surname>
+                <given-names>MM</given-names>
+              </name>
+            </person-group>
+            <article-title>Prediction of technetium-99m yield from molybdenum-99 generators.</article-title>
+            <source>J Nucl Med</source>
+            <year>1967</year>
+            <month>Jun</month>
+            <volume>8</volume>
+            <issue>6</issue>
+            <fpage>426</fpage>
+            <page-range>426-9</page-range>
+            <pub-id pub-id-type="pmid">6029287</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hou</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Jensen</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Nielsen</surname>
+                <given-names>SP</given-names>
+              </name>
+            </person-group>
+            <article-title>Use of (99m)Tc from a commercial (99)Mo/(99m)Tc generator as yield tracer for the determination of (99)Tc at low levels.</article-title>
+            <source>Appl Radiat Isot</source>
+            <year>2007</year>
+            <month>May</month>
+            <volume>65</volume>
+            <issue>5</issue>
+            <fpage>610</fpage>
+            <page-range>610-8</page-range>
+            <pub-id pub-id-type="pmid">17350274</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Waight</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Cunnane</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name>
+                <surname>O'Brien</surname>
+                <given-names>LM</given-names>
+              </name>
+              <name>
+                <surname>Millar</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>Effect of 99Tc on the radiochemical purity of 99mTc radiopharmaceuticals.</article-title>
+            <source>Nucl Med Commun</source>
+            <year>2011</year>
+            <month>Aug</month>
+            <volume>32</volume>
+            <issue>8</issue>
+            <fpage>752</fpage>
+            <page-range>752-6</page-range>
+            <pub-id pub-id-type="pmid">21597394</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vucina</surname>
+                <given-names>JL</given-names>
+              </name>
+            </person-group>
+            <article-title>[Radionuclide purity of 99mTC eluate for use in nuclear medicine].</article-title>
+            <source>Med Pregl</source>
+            <year>1996</year>
+            <volume>49</volume>
+            <issue>1-2</issue>
+            <fpage>41</fpage>
+            <page-range>41-4</page-range>
+            <pub-id pub-id-type="pmid">8643069</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lo</surname>
+                <given-names>HH</given-names>
+              </name>
+              <name>
+                <surname>Berke</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Potsaid</surname>
+                <given-names>MS</given-names>
+              </name>
+            </person-group>
+            <article-title>A simple method of correcting 99Mo breakthrough from a 99mTc-99Mo generator.</article-title>
+            <source>Radiology</source>
+            <year>1969</year>
+            <month>Nov</month>
+            <volume>93</volume>
+            <issue>5</issue>
+            <fpage>1198</fpage>
+            <page-range>1198-9</page-range>
+            <pub-id pub-id-type="pmid">5350697</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Saegusa</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Arimizu</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Nakata</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Tohyama</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Shiina</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <article-title>[Assay of radioactive impurity in 99mTc-pertechnetate eluted from 99Mo-99mTc generator (author's transl)].</article-title>
+            <source>Radioisotopes</source>
+            <year>1980</year>
+            <month>Feb</month>
+            <volume>29</volume>
+            <issue>2</issue>
+            <fpage>94</fpage>
+            <page-range>94-6</page-range>
+            <pub-id pub-id-type="pmid">7384574</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r17">
+          <label>17</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Ranzenberger</surname>
+                <given-names>LR</given-names>
+              </name>
+              <name>
+                <surname>Pai</surname>
+                <given-names>RB</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Lymphoscintigraphy</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2024</year>
+            <month>3</month>
+            <day>6</day>
+            <pub-id pub-id-type="pmid">33085360</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hammermaier</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Reich</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>B&#x000f6;gl</surname>
+                <given-names>W</given-names>
+              </name>
+            </person-group>
+            <article-title>Chemical, radiochemical, and radionuclide purity of eluates from different commercial fission 99Mo/99mTc generators.</article-title>
+            <source>Eur J Nucl Med</source>
+            <year>1986</year>
+            <volume>12</volume>
+            <issue>1</issue>
+            <fpage>41</fpage>
+            <page-range>41-6</page-range>
+            <pub-id pub-id-type="pmid">3015622</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Maioli</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Luciniani</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Strinchini</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Tagliabue</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Del Sole</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Quality control on radiochemical purity in Technetium-99m radiopharmaceuticals labelling: three years of experience on 2280 procedures.</article-title>
+            <source>Acta Biomed</source>
+            <year>2017</year>
+            <month>Apr</month>
+            <day>28</day>
+            <volume>88</volume>
+            <issue>1</issue>
+            <fpage>49</fpage>
+            <page-range>49-56</page-range>
+            <pub-id pub-id-type="pmid">28467334</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Boschi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Uccelli</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Marvelli</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Cittanti</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Giganti</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Martini</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Technetium-99m Radiopharmaceuticals for Ideal Myocardial Perfusion Imaging: Lost and Found Opportunities.</article-title>
+            <source>Molecules</source>
+            <year>2022</year>
+            <month>Feb</month>
+            <day>10</day>
+            <volume>27</volume>
+            <issue>4</issue>
+            <pub-id pub-id-type="pmid">35208982</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Arano</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>Recent advances in 99mTc radiopharmaceuticals.</article-title>
+            <source>Ann Nucl Med</source>
+            <year>2002</year>
+            <month>Apr</month>
+            <volume>16</volume>
+            <issue>2</issue>
+            <fpage>79</fpage>
+            <page-range>79-93</page-range>
+            <pub-id pub-id-type="pmid">12043913</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kniess</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Laube</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>W&#x000fc;st</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Pietzsch</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Technetium-99m based small molecule radiopharmaceuticals and radiotracers targeting inflammation and infection.</article-title>
+            <source>Dalton Trans</source>
+            <year>2017</year>
+            <month>Oct</month>
+            <day>31</day>
+            <volume>46</volume>
+            <issue>42</issue>
+            <fpage>14435</fpage>
+            <page-range>14435-14451</page-range>
+            <pub-id pub-id-type="pmid">28829079</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Banerjee</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Pillai</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name>
+                <surname>Ramamoorthy</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Evolution of Tc-99m in diagnostic radiopharmaceuticals.</article-title>
+            <source>Semin Nucl Med</source>
+            <year>2001</year>
+            <month>Oct</month>
+            <volume>31</volume>
+            <issue>4</issue>
+            <fpage>260</fpage>
+            <page-range>260-77</page-range>
+            <pub-id pub-id-type="pmid">11710769</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fitzgibbons</surname>
+                <given-names>PL</given-names>
+              </name>
+              <name>
+                <surname>LiVolsi</surname>
+                <given-names>VA</given-names>
+              </name>
+            </person-group>
+            <article-title>Recommendations for handling radioactive specimens obtained by sentinel lymphadenectomy. Surgical Pathology Committee of the College of American Pathologists, and the Association of Directors of Anatomic and Surgical Pathology.</article-title>
+            <source>Am J Surg Pathol</source>
+            <year>2000</year>
+            <month>Nov</month>
+            <volume>24</volume>
+            <issue>11</issue>
+            <fpage>1549</fpage>
+            <page-range>1549-51</page-range>
+            <pub-id pub-id-type="pmid">11075858</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vernig</surname>
+                <given-names>PG</given-names>
+              </name>
+            </person-group>
+            <article-title>Technetium generator log form.</article-title>
+            <source>Health Phys</source>
+            <year>2001</year>
+            <month>Aug</month>
+            <volume>81</volume>
+            <issue>2 Suppl</issue>
+            <fpage>S11</fpage>
+            <page-range>S11-2</page-range>
+            <pub-id pub-id-type="pmid">11480855</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kameo</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Katayama</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Hoshi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Haraga</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Nakashima</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Simple determination of (99)Tc in radioactive waste using Tc extraction disk and imaging plates.</article-title>
+            <source>Appl Radiat Isot</source>
+            <year>2010</year>
+            <month>Jan</month>
+            <volume>68</volume>
+            <issue>1</issue>
+            <fpage>139</fpage>
+            <page-range>139-43</page-range>
+            <pub-id pub-id-type="pmid">19740672</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-125773.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lyra</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Charalambatou</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Roussou</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Fytros</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Baka</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <article-title>Alternative production methods to face global molybdenum-99 supply shortage.</article-title>
+            <source>Hell J Nucl Med</source>
+            <year>2011</year>
+            <season>Jan-Apr</season>
+            <volume>14</volume>
+            <issue>1</issue>
+            <fpage>49</fpage>
+            <page-range>49-55</page-range>
+            <pub-id pub-id-type="pmid">21512666</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

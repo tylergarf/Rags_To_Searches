@@ -1,0 +1,2139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-34485" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Procalcitonin</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Cleland</surname>
+            <given-names>Derrick A.</given-names>
+          </name>
+          <aff>Nova Southeastern University</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Eranki</surname>
+            <given-names>Ambika P.</given-names>
+          </name>
+          <aff>SUNY/Upstate Medical University</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Derrick Cleland declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Ambika Eranki declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>23</day>
+          <month>4</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-34485.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>In current clinical practice, procalcitonin (PCT) has developed into a promising new biomarker for the early detection of systemic bacterial infections. PCT is a 116-amino acid residue first explained by Le Moullec et al. in 1984; its diagnostic significance was not recognized until 1993.<xref ref-type="bibr" rid="article-34485.r1">[1]</xref> In 1993, Assicot et al. demonstrated a positive correlation between high serum levels of PCT and patients with positive findings for bacterial infection and sepsis (e.g., positive blood cultures). Further, they demonstrated that PCT did not elevate in viral infections and that serum levels of PCT would decrease following the administration of appropriate antibiotic therapies.<xref ref-type="bibr" rid="article-34485.r2">[2]</xref>&#x000a0;</p>
+        <p>Other inflammatory biomarkers, such as C-reactive protein, lack the specificity to accurately distinguish between bacterial and non-bacterial infections.<xref ref-type="bibr" rid="article-34485.r3">[3]</xref> Therefore, PCT assays, with a specificity of 79%, have been developed and utilized to more accurately determine if a systemic inflammatory reaction is caused by a bacterial species.<xref ref-type="bibr" rid="article-34485.r4">[4]</xref></p>
+        <p>The United States Food and Drug Administration has approved using PCT assays for initiating or discontinuing antibiotics in lower respiratory tract infections (LRTIs) and for discontinuing antibiotics in patients with sepsis.<xref ref-type="bibr" rid="article-34485.r5">[5]</xref> Numerous studies have evaluated PCT-based treatment algorithms in these settings and found them safe compared to standard care.<xref ref-type="bibr" rid="article-34485.r6">[6]</xref> In particular, using PCT assays allows cessation of antibiotic therapy without increased morbidity and mortality. This makes PCT a potentially helpful tool for preventing the emergence of antibiotic-resistant organisms while still ensuring appropriate treatment for serious bacterial infections.<xref ref-type="bibr" rid="article-34485.r4">[4]</xref></p>
+        <p>PCT should not be used as the sole determinant for antimicrobial therapy.<xref ref-type="bibr" rid="article-34485.r7">[7]</xref>&#x000a0;The results of a PCT assay should be placed in the context of the clinical scenario considering the possible site of infection, the likelihood of bacterial infection, the severity of illness, and other pertinent clinical data.<xref ref-type="bibr" rid="article-34485.r8">[8]</xref></p>
+      </sec>
+      <sec id="article-34485.s2" sec-type="Pathophysiology">
+        <title>Pathophysiology</title>
+        <p>Under normal homeostasis, pre-procalcitonin undergoes initial synthesis by thyroid C cells. Later this peptide is transformed into procalcitonin via cleavage of a 25-amino acid signal sequence by endopeptidases. The end product calcitonin, the 32-amino acid hormone responsible for serum calcium regulation, is formed following conversion by the enzyme prohormone convertase.<xref ref-type="bibr" rid="article-34485.r9">[9]</xref> Typically, physiological conditions result in very low serum PCT levels of less than 0.05 ng/mL.&#x000a0;However, the synthesis of PCT can be increased up to 100 to 1000 fold due to circulating endotoxins or cytokines such as interleukin (IL)- 6, tumor necrosis factor (TNF)-alpha, and IL-1b, which act on various tissues.<xref ref-type="bibr" rid="article-34485.r10">[10]</xref></p>
+        <p>The extra-thyroid synthesis of PCT occurs in the liver, pancreas, kidney, lung, intestine, and leukocytes; notably, the synthesis of PCT is suppressed within these tissues in the absence of bacterial infection.<xref ref-type="bibr" rid="article-34485.r11">[11]</xref> In contrast, cytokines released following viral infection, such as interferon (INF)-gamma, will lead to the down-regulation of PCT, thus highlighting another advantage of PCT assays.<xref ref-type="bibr" rid="article-34485.r12">[12]</xref></p>
+      </sec>
+      <sec id="article-34485.s3" sec-type="Specimen Requirements and Procedure">
+        <title>Specimen Requirements and Procedure</title>
+        <p>Human serum or plasma specimens can be used to determine procalcitonin (PCT). For accurate results, serum and plasma specimens should be free of fibrin, red blood cells, and other particulate matter.<xref ref-type="bibr" rid="article-34485.r13">[13]</xref> Serum specimens from patients receiving anticoagulant or thrombolytic therapy may contain fibrin due to incomplete clot formation.<xref ref-type="bibr" rid="article-34485.r14">[14]</xref> Using&#x000a0;heat-inactivated specimens, pooled specimens, grossly hemolyzed specimens, specimens with obvious microbial contamination, and specimens with fungal growth is not recommended.&#x000a0;The use of plasma is recommended for rapid turnaround of results.<xref ref-type="bibr" rid="article-34485.r15">[15]</xref></p>
+        <p>The PCT specimens should be free of bubbles. Remove bubbles with an applicator stick before analysis. Use a new applicator stick for each specimen to prevent cross-contamination. To ensure consistency in results, recentrifuge specimens before testing if they&#x000a0;contain fibrin, red blood cells, or other particulate matter.<xref ref-type="bibr" rid="article-34485.r16">[16]</xref>&#x000a0;The EDTA plasma&#x000a0;and serum specimens stored frozen at -70^oC or colder have demonstrated stability for up to 18 months.<xref ref-type="bibr" rid="article-34485.r17">[17]</xref></p>
+      </sec>
+      <sec id="article-34485.s4" sec-type="Diagnostic Tests">
+        <title>Diagnostic Tests</title>
+        <p>
+<bold>Kinetics</bold>
+</p>
+        <p>Procalcitonin (PCT) serum levels have been shown to increase 6 to 12 hours following&#x000a0;initial bacterial infections and increase steadily in the two to four hours following the onset of sepsis.<xref ref-type="bibr" rid="article-34485.r18">[18]</xref><xref ref-type="bibr" rid="article-34485.r10">[10]</xref> The half-life of PCT is between 20 to 24 hours; therefore, when a proper host immune response and antibiotic therapy are in place,&#x000a0;PCT levels decrease by 50% over 24 hours.<xref ref-type="bibr" rid="article-34485.r11">[11]</xref></p>
+        <p>
+<bold>Chemical Assays</bold>
+</p>
+        <p>In current clinical practice, several chemical assays have been developed to detect PCT&#x000a0;serum levels at varying sensitivities, most displaying functional sensitivity around 0.06 ng/mL.<xref ref-type="bibr" rid="article-34485.r3">[3]</xref> One of the first commercially available assays was a homogenous immunoassay that utilized&#x000a0;time-resolved amplified cryptate emission technology.<xref ref-type="bibr" rid="article-34485.r12">[12]</xref> The assay comprises a sheep polyclonal anti-calcitonin antibody and a monoclonal anti-katacalcin antibody which binds to the calcitonin and katacalcin&#x000a0;amino acid sequence of PCT via the&#x000a0;sandwich method.&#x000a0;The assay uses 20 to 50 mL of plasma or serum and takes 19 minutes to&#x000a0;complete; results&#x000a0;are typically obtained within one hour following the serum draw.<xref ref-type="bibr" rid="article-34485.r19">[19]</xref></p>
+      </sec>
+      <sec id="article-34485.s5" sec-type="Testing Procedures">
+        <title>Testing Procedures</title>
+        <p>All currently available assays for the quantification of PCT are based on immunoassay techniques.<xref ref-type="bibr" rid="article-34485.r13">[13]</xref> The chemiluminescent microparticle immunoassay (CMIA) technology is used to quantitatively determine PCT in human serum and plasma.<xref ref-type="bibr" rid="article-34485.r20">[20]</xref> Samples and anti-PCT-coated paramagnetic microparticles are combined and incubated. The PCT present in the sample binds to the anti-PCT-coated microparticles. The mixture is washed. Anti-PCT acridinium-labeled conjugate is added to create a reaction mixture and incubated. Following a wash cycle, pre-trigger and trigger solutions are added.<xref ref-type="bibr" rid="article-34485.r21">[21]</xref> The resulting chemiluminescent reaction is measured as relative light units (RLUs). There is a direct relationship between the amount of PCT in the sample and the RLUs detected by the system optics.<xref ref-type="bibr" rid="article-34485.r20">[20]</xref></p>
+        <p>A point-of-care test for PCT&#x000a0; is available using an immunochromatographic technique. A colored band appears on the test strip 30 minutes after applying 200 microliters of serum or plasma; the intensity of the band is read against a reference card. The results are reported as less than 0.5, 0.5 to 2.0, 2.0 to 10, and greater than 10 &#x003bc;g/L.<xref ref-type="bibr" rid="article-34485.r22">[22]</xref>&#x000a0;However, the semi-quantitative nature of these results may limit clinical use when a change in the PCT trend is important to monitor the patient&#x02019;s clinical status. It may still be valuable when quantitative measurements are unavailable within a reasonable period,&#x000a0;such as one to three hours.<xref ref-type="bibr" rid="article-34485.r23">[23]</xref></p>
+      </sec>
+      <sec id="article-34485.s6" sec-type="Interfering Factors">
+        <title>Interfering Factors</title>
+        <p>Although&#x000a0;procalcitonin (PCT) assays have shown promising results over the years, several limitations still require consideration before implementing these tests in everyday clinical practice.<xref ref-type="bibr" rid="article-34485.r13">[13]</xref> For instance, it has been shown that PCT serum levels can also become elevated during times of noninfectious conditions, such as trauma, burns, certain carcinomas (medullary C-cell, small cell carcinoma of the lung, and bronchial carcinoid), immunomodulator therapy that increases proinflammatory cytokines, cardiogenic shock, during the first two days of life, during peritoneal dialysis treatment, and in patients with cirrhosis, particularly Child-Pugh Class C.<xref ref-type="bibr" rid="article-34485.r4">[4]</xref> Furthermore, PCT levels may be falsely elevated in patients suffering from various degrees of chronic kidney disease, which can, in turn, alter baseline results, making the determination of an underlying bacterial infection difficult to establish.<xref ref-type="bibr" rid="article-34485.r24">[24]</xref> Thus, the clinician needs to rule out the above scenarios to ensure no confounding issues may be obscuring the PCT measurements.<xref ref-type="bibr" rid="article-34485.r25">[25]</xref></p>
+        <p>The PCT assay may exhibit interference when a sample is collected from a person consuming a supplement with a high dose of biotin (also termed as vitamin B7 or B8, vitamin H, or coenzyme R).<xref ref-type="bibr" rid="article-34485.r26">[26]</xref> It is recommended to ask all patients with an indication for PCT testing about biotin supplementation. Patients should be cautioned to stop biotin consumption at least 72 hours before collecting a sample.<xref ref-type="bibr" rid="article-34485.r27">[27]</xref> A hook effect may occur with extremely high PCT concentrations, resulting in a much lower reported value.<xref ref-type="bibr" rid="article-34485.r28">[28]</xref>&#x000a0;</p>
+        <p>The cost-effectiveness of&#x000a0;PCT assays also needs to be considered, as overuse in the emergency setting leads to extraneous costs. The average price of the test is roughly $9.44, which is relatively inexpensive. However, this cost does not consider the amount that insurance charges, nor does it include sample acquisition costs.<xref ref-type="bibr" rid="article-34485.r29">[29]</xref> Salinas et al. discovered that of&#x000a0;142,644 PCT assays performed in a calendar year, 44.1% could have been avoided based on clinical presentation and outcome, saving $594,390 annually.<xref ref-type="bibr" rid="article-34485.r30">[30]</xref></p>
+        <p>Within the intensive care setting, Kip et al. performed a randomized controlled trial to determine the cost-effectiveness of PCT assays among septic patients. They determined that PCT assays improved mortality rates and decreased the clinical course of antibiotics. However, they found costs for patients tested with PCT assays averaged $2704 greater than patients who did not undergo PCT testing.<xref ref-type="bibr" rid="article-34485.r31">[31]</xref> Therefore, clinicians should exercise caution when ordering PCT assays to ensure cost-effective medical practice.<xref ref-type="bibr" rid="article-34485.r29">[29]</xref></p>
+      </sec>
+      <sec id="article-34485.s7" sec-type="Results, Reporting, and Critical Findings&#x0000d;&#x0000a;">
+        <title>Results, Reporting, and Critical Findings
+</title>
+        <p>Procalcitonin (PCT) has a set half-life of 20 to 24 hours which provides clinicians and researchers with a rough timeline of when levels should begin to decrease following physiological control of the systemic infection. When physiologic control is reached, PCT should decrease by approximately 50% over 24 hours.<xref ref-type="bibr" rid="article-34485.r10">[10]</xref>&#x000a0;The current clinical practice utilizes a variety of PCT cut-off levels to determine the initiation and discontinuation of antibiotic therapy. The clinical scenario and setting play a fundamental role in which the cut-off level should be employed. However, most research has shown that PCT levels display&#x000a0;clinical significance in the range of 0.1 to 0.5 ng/mL.<xref ref-type="bibr" rid="article-34485.r11">[11]</xref> Further, research has shown that PCT levels less than 0.1 ng/mL have been shown to have a high negative predictive value (96.3%) for&#x000a0;excluding bacterial infections.<xref ref-type="bibr" rid="article-34485.r3">[3]</xref></p>
+        <p>The following clinical scenarios have utilized various PCT cut-off levels to determine&#x000a0;the source of an infective process as well as when antibiotic therapy could be utilized or discontinued:<xref ref-type="bibr" rid="article-34485.r11">[11]</xref></p>
+        <p>
+<bold>Arthritis</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>PCT cut-off level: 0.1 to 0.25 ng/mL</p>
+          </list-item>
+          <list-item>
+            <p>Role of PCT: To discriminate infective (septic) arthritis from non-infective arthritis.&#x000a0;&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Type of Study: Observational</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Bacteremic Infections</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>PCT cut-off level: 0.25 ng/mL</p>
+          </list-item>
+          <list-item>
+            <p>Role of PCT: To rule out bacteremic infections.&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Type of Study: Observational</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Blood Stream Infection (primary)</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>PCT cut-off level: 0.1 ng/mL</p>
+          </list-item>
+          <list-item>
+            <p>Role of PCT: To differentiate between true infection and a contaminated sample.&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Type of Study: Observational</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Acute Bronchitis/<bold>Chronic Obstructive Pulmonary Disease (COPD) Exacerbations</bold></bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>PCT cut-off level: 0.1 to 0.5 ng/mL</p>
+          </list-item>
+          <list-item>
+            <p>Role of PCT: To reduce (unnecessary) antibiotic exposure in the ED and inpatient setting without adverse outcomes.&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Type of Study: Randomized controlled trial&#x000a0;&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Infective Endocarditis&#x000a0;</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>PCT cut-off level: 2.3 ng/mL</p>
+          </list-item>
+          <list-item>
+            <p>Role of PCT: High diagnostic accuracy for predicting acute endocarditis.&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Type of Study: Observational</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Meningitis:</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>PCT cut-off level: 0.5 ng/mL</p>
+          </list-item>
+          <list-item>
+            <p>Role of PCT: To differentiate viral from bacterial meningitis and reduce antibiotic exposure.</p>
+          </list-item>
+          <list-item>
+            <p>Type of Study: Before-after</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Neutropenia</bold>&#x000a0;</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>PCT cut-off level: 0.1 to 0.5 ng/mL</p>
+          </list-item>
+          <list-item>
+            <p>Role of PCT: To identify systemic bacterial infections within neutropenic patients.&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Type of Study: Observational</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Pneumonia</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>PCT cut-off level: 0.1 to 0.5 ng/mL</p>
+          </list-item>
+          <list-item>
+            <p>Role of PCT: To reduce antibiotic exposure during hospitalization without adverse outcomes.</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Postoperative Fever</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>PCT cut-off level: 0.1 to 0.5 ng/mL</p>
+          </list-item>
+          <list-item>
+            <p>Role of PCT:&#x000a0; To differentiate postoperative infections from non-infectious fevers.&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Type of Study: Observational</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Postoperative Infections</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>PCT cut-off level: 0.5 to 1.0 ng/mL</p>
+          </list-item>
+          <list-item>
+            <p>Role of PCT: To minimize antibiotic&#x000a0;treatment in surgical intensive care settings without&#x000a0;detrimental outcomes.&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Type of Study: Randomized controlled trial</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Severe Sepsis With or Without Shock</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>PCT cut-off level:&#x000a0;0.25 to 0.5 ng/mL</p>
+          </list-item>
+          <list-item>
+            <p>Role of PCT: To limit antibiotic treatment in intensive care&#x000a0;settings without detrimental outcomes.</p>
+          </list-item>
+          <list-item>
+            <p>Type of Study:&#x000a0;Randomized controlled trial</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Upper Respiratory Tract Infections</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>PCT cut-off level: 0.1 to 0.25 ng/mL</p>
+          </list-item>
+          <list-item>
+            <p>Role of PCT: To limit antibiotic treatment in intensive care settings without detrimental outcomes.</p>
+          </list-item>
+          <list-item>
+            <p>Type of Study: Randomized controlled trial</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Urinary Tract Infections</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>PCT cut-off level: 0.25 ng/mL</p>
+          </list-item>
+          <list-item>
+            <p>Role of PCT: To determine the extent of renal involvement.&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Type of Study: Observational</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Ventilator-associated Pneumonia</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>PCT cut-off level: 0.1 to 0.25 ng/mL</p>
+          </list-item>
+          <list-item>
+            <p>Role of PCT: To minimize antibiotic treatment without detrimental outcomes.&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Type of Study: Randomized controlled trial</p>
+          </list-item>
+        </list>
+        <p>Once the cut-off level is established, the timing and frequency of PCT measurement to assess adequate infection control should be determined.<xref ref-type="bibr" rid="article-34485.r32">[32]</xref> Current clinical data suggests that PCT serum levels should be remeasured after 6 to 24 hours, absent evidence of spontaneous clinical improvement such as the resolution of hemodynamic instability. Following antibiotic initiation, the recommendation is that PCT values be assessed every one to two days to ensure adequate coverage. Further, antibiotic courses should be discontinued as soon as PCT levels drop below 0.1 ng/mL or 80 to 90% below&#x000a0;the initial measurement.<xref ref-type="bibr" rid="article-34485.r11">[11]</xref></p>
+        <p>Algorithms have been established for emergency and intensive care settings, providing&#x000a0;clinicians with a quick method for determining when to initiate or discontinue antibiotics.<xref ref-type="bibr" rid="article-34485.r13">[13]</xref>&#x000a0;For example, an algorithm has been established to determine when to start antibiotic therapy in the emergency department for patients with respiratory tract infections.<xref ref-type="bibr" rid="article-34485.r33">[33]</xref> Recommendations are that antibiotics be utilized when PCT levels are above 0.25 ng/mL; PCT levels should be repeated on days three, five, and seven. Antibiotics should be discontinued when PCT levels fall below 0.25 ng/mL or drop by 80 to 90%. If the PCT remains elevated, then consider&#x000a0;new treatment options.<xref ref-type="bibr" rid="article-34485.r11">[11]</xref></p>
+        <p>In the intensive care unit, an algorithm has been instituted to determine when antibiotic treatment should be discontinued in patients with sepsis.<xref ref-type="bibr" rid="article-34485.r34">[34]</xref> The algorithm&#x000a0;recommends that antibiotic coverage be discontinued when PCT levels drop below 0.5 ng/mL or decrease 80%&#x000a0;from the peak value. However, if PCT levels remain elevated (over 0.5 ng/mL), continuing the antibiotic course or changing the treatment entirely is advised.<xref ref-type="bibr" rid="article-34485.r11">[11]</xref> These algorithms have been used successfully in clinical trials and have proven to reduce&#x000a0;overall antibiotic use, thus improving antibiotic stewardship. However, further research is needed to ensure these results can be adequately repeated on a larger scale and by utilizing more clinical trials versus observational studies.<xref ref-type="bibr" rid="article-34485.r35">[35]</xref></p>
+      </sec>
+      <sec id="article-34485.s8" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>It is well-documented that early diagnosis of a bacterial infection can decrease mortality and morbidity among&#x000a0;all patients.<xref ref-type="bibr" rid="article-34485.r36">[36]</xref> Efficient diagnosis of bacterial infections allows&#x000a0;clinicians to initiate antibiotic therapy when deemed appropriate, thus preventing the misuse and overuse of antibiotics. As antibiotic resistance continues to rise, it has become increasingly important for&#x000a0;clinicians to determine different algorithms and laboratory tests that help sustain current antibiotic parameters.<xref ref-type="bibr" rid="article-34485.r37">[37]</xref></p>
+        <p>Unfortunately, most first-line tests for determining infection, such as blood cultures and C-reactive protein, lack the efficiency and specificity needed to treat patients promptly. Therefore, procalcitonin (PCT) serum assays have been developed to provide&#x000a0;healthcare providers with an earlier detection method to determine the origin of a systemic inflammatory response (e.g., bacterial versus non-bacterial). Early detection, in turn, limits the development of antibacterial resistance and patient exposure to antibiotics when they are no longer warranted.<xref ref-type="bibr" rid="article-34485.r11">[11]</xref>&#x000a0;</p>
+        <p>The prognostic value of PCT has also&#x000a0;shown clinical significance by providing&#x000a0;clinicians with a positive correlation between disease severity and elevated PCT serum levels, especially within septic patients.<xref ref-type="bibr" rid="article-34485.r12">[12]</xref> Although PCT assays have shown great promise, the cost-effectiveness of these tests continues to be debated. Current research has shown that these tests are already being overused&#x000a0;because there are currently no adequate guidelines for when these tests should and should not be obtained.<xref ref-type="bibr" rid="article-34485.r30">[30]</xref> Therefore, the clinical significance of these tests needs to be more thoroughly researched&#x000a0;on a large scale and through randomized clinical trials so that guidelines can be implemented to ensure the practice of cost-effective medicine.<xref ref-type="bibr" rid="article-34485.r31">[31]</xref></p>
+      </sec>
+      <sec id="article-34485.s9" sec-type="Quality Control and Lab Safety&#x0000d;&#x0000a;">
+        <title>Quality Control and Lab Safety
+</title>
+        <p>For non-waived tests, laboratory regulations require, at the minimum, analysis of at least two levels of control materials once every 24 hours. If necessary, laboratories can assay QC samples more frequently to ensure accurate results. Quality control samples should be assayed after calibration or maintenance of an analyzer to verify the correct method performance.<xref ref-type="bibr" rid="article-34485.r38">[38]</xref>&#x000a0;To minimize QC when performing tests for which manufacturers&#x02019; recommendations are less than those required by the regulatory agency (such as once per month), the labs can develop an individualized quality control plan (IQCP) that involves performing a risk assessment of potential sources of error in all phases of testing and putting in place a QC plan to reduce the likelihood of errors.<xref ref-type="bibr" rid="article-34485.r39">[39]</xref> Westgard multi-rules are used to evaluate the quality control runs. In case of a rule violation, proper corrective and preventive action should be taken before patient testing.<xref ref-type="bibr" rid="article-34485.r40">[40]</xref>&#x000a0;</p>
+        <p>The laboratory must participate in the external quality control or proficiency testing (PT) program because it is a regulatory requirement published by the Centers for Medicare and Medicaid Services (CMS) in the Clinical Laboratory Improvement Amendments (CLIA) regulations. It is helpful&#x000a0;to ensure the accuracy and reliability of the laboratory concerning other laboratories performing the same or comparable assays.<xref ref-type="bibr" rid="article-34485.r41">[41]</xref>&#x000a0;Required participation and scored results are monitored by CMS and voluntary accreditation organizations. The PT plan should be included as an aspect of the quality assessment (QA) plan and the overall quality program of the laboratory.<xref ref-type="bibr" rid="article-34485.r42">[42]</xref></p>
+        <p>Consider all specimens, control materials, and calibrator materials as potentially infectious. Exercise the normal precautions required for handling all laboratory reagents. Disposal of all waste material should be in accordance with local guidelines. Wear gloves, a lab coat, and safety glasses when handling human blood specimens.&#x000a0;Place all plastic tips, sample cups, and gloves that come into contact with blood in a biohazard waste container.<xref ref-type="bibr" rid="article-34485.r43">[43]</xref> Discard all disposable glassware into sharps waste containers. Protect all work surfaces with disposable absorbent bench top paper, discarded into biohazard waste containers weekly or whenever blood contamination occurs. Wipe all work surfaces weekly.<xref ref-type="bibr" rid="article-34485.r44">[44]</xref></p>
+      </sec>
+      <sec id="article-34485.s10" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>As bacterial drug resistance continues to rise across the globe, it has become of utmost importance to enhance antibiotic stewardship.<xref ref-type="bibr" rid="article-34485.r37">[37]</xref> Procalcitonin (PCT) provides healthcare providers with a more specific marker for determining the presence of bacterial infections when compared to current measures. Therefore, PCT assays can be utilized to determine if antibiotics need to be initiated, discontinued, or changed based on changing serum levels, thus&#x000a0;decreasing the overall use or misuse of&#x000a0;antibiotics.<xref ref-type="bibr" rid="article-34485.r4">[4]</xref> Moreover, the assays have also been useful as a prognostic indicator for patients in the critical care setting. However, further research needs to be performed to determine if PCT assays are adequate for this purpose.<xref ref-type="bibr" rid="article-34485.r11">[11]</xref></p>
+        <p>PCT assays have utility in several clinical scenarios; current research suggests that PCT levels are most useful in acute exacerbations of chronic obstructive pulmonary disease (COPD) to determine when and if antibiotics should be initiated.<xref ref-type="bibr" rid="article-34485.r11">[11]</xref> The current European Respiratory Society and American Thoracic Society guidelines state that using antibiotics in the setting of COPD exacerbations is controversial because research showing improvement in clinical outcomes is inadequate. Therefore, they recommend further effectiveness studies and the use of biomarkers to determine when antibiotics are clinically appropriate.<xref ref-type="bibr" rid="article-34485.r45">[45]</xref>&#x000a0;A biomarker, such as PCT,&#x000a0;can be used to determine if antibiotics are appropriate in an acute COPD exacerbation; this improves antibiotic stewardship and reduces morbidity associated with unnecessary antibiotic use.<xref ref-type="bibr" rid="article-34485.r37">[37]</xref>&#x000a0;</p>
+        <p>Overall, PCT levels provide a promising laboratory measurement for identifying bacterial infections. However, the utility of this test is limited by the clinical setting and patient population. Therefore, further research must be conducted before implementing PCT guidelines for everyday clinical practice.</p>
+      </sec>
+      <sec id="article-34485.s11">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=34485&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=34485">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/34485/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=34485">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-34485.s12">
+        <title>References</title>
+        <ref id="article-34485.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Le Moullec</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Jullienne</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Chenais</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Lasmoles</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Guliana</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Milhaud</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Moukhtar</surname>
+                <given-names>MS</given-names>
+              </name>
+            </person-group>
+            <article-title>The complete sequence of human preprocalcitonin.</article-title>
+            <source>FEBS Lett</source>
+            <year>1984</year>
+            <month>Feb</month>
+            <day>13</day>
+            <volume>167</volume>
+            <issue>1</issue>
+            <fpage>93</fpage>
+            <page-range>93-7</page-range>
+            <pub-id pub-id-type="pmid">6546550</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Assicot</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gendrel</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Carsin</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Raymond</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Guilbaud</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Bohuon</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>High serum procalcitonin concentrations in patients with sepsis and infection.</article-title>
+            <source>Lancet</source>
+            <year>1993</year>
+            <month>Feb</month>
+            <day>27</day>
+            <volume>341</volume>
+            <issue>8844</issue>
+            <fpage>515</fpage>
+            <page-range>515-8</page-range>
+            <pub-id pub-id-type="pmid">8094770</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Riedel</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Melendez</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>An</surname>
+                <given-names>AT</given-names>
+              </name>
+              <name>
+                <surname>Rosenbaum</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>Zenilman</surname>
+                <given-names>JM</given-names>
+              </name>
+            </person-group>
+            <article-title>Procalcitonin as a marker for the detection of bacteremia and sepsis in the emergency department.</article-title>
+            <source>Am J Clin Pathol</source>
+            <year>2011</year>
+            <month>Feb</month>
+            <volume>135</volume>
+            <issue>2</issue>
+            <fpage>182</fpage>
+            <page-range>182-9</page-range>
+            <pub-id pub-id-type="pmid">21228358</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hatzistilianou</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Diagnostic and prognostic role of procalcitonin in infections.</article-title>
+            <source>ScientificWorldJournal</source>
+            <year>2010</year>
+            <month>Oct</month>
+            <day>01</day>
+            <volume>10</volume>
+            <fpage>1941</fpage>
+            <page-range>1941-6</page-range>
+            <pub-id pub-id-type="pmid">20890583</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Katz</surname>
+                <given-names>SE</given-names>
+              </name>
+              <name>
+                <surname>Sartori</surname>
+                <given-names>LF</given-names>
+              </name>
+              <name>
+                <surname>Williams</surname>
+                <given-names>DJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical Progress Note: Procalcitonin in the Management of Pediatric Lower Respiratory Tract Infection.</article-title>
+            <source>J Hosp Med</source>
+            <year>2019</year>
+            <month>Nov</month>
+            <day>01</day>
+            <volume>14</volume>
+            <issue>11</issue>
+            <fpage>688</fpage>
+            <page-range>688-690</page-range>
+            <pub-id pub-id-type="pmid">31532736</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Creamer</surname>
+                <given-names>AW</given-names>
+              </name>
+              <name>
+                <surname>Kent</surname>
+                <given-names>AE</given-names>
+              </name>
+              <name>
+                <surname>Albur</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Procalcitonin in respiratory disease: use as a biomarker for diagnosis and guiding antibiotic therapy.</article-title>
+            <source>Breathe (Sheff)</source>
+            <year>2019</year>
+            <month>Dec</month>
+            <volume>15</volume>
+            <issue>4</issue>
+            <fpage>296</fpage>
+            <page-range>296-304</page-range>
+            <pub-id pub-id-type="pmid">31803264</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hochreiter</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>K&#x000f6;hler</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Schweiger</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Keck</surname>
+                <given-names>FS</given-names>
+              </name>
+              <name>
+                <surname>Bein</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>von Spiegel</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Schroeder</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Procalcitonin to guide duration of antibiotic therapy in intensive care patients: a randomized prospective controlled trial.</article-title>
+            <source>Crit Care</source>
+            <year>2009</year>
+            <volume>13</volume>
+            <issue>3</issue>
+            <fpage>R83</fpage>
+            <pub-id pub-id-type="pmid">19493352</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schuetz</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Wirz</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Sager</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Christ-Crain</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Stolz</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Tamm</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Bouadma</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Luyt</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name>
+                <surname>Wolff</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Chastre</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Tubach</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Kristoffersen</surname>
+                <given-names>KB</given-names>
+              </name>
+              <name>
+                <surname>Burkhardt</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Welte</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Schroeder</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Nobre</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Wei</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Bucher</surname>
+                <given-names>HC</given-names>
+              </name>
+              <name>
+                <surname>Bhatnagar</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Annane</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Reinhart</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Branche</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Damas</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Nijsten</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>de Lange</surname>
+                <given-names>DW</given-names>
+              </name>
+              <name>
+                <surname>Deliberato</surname>
+                <given-names>RO</given-names>
+              </name>
+              <name>
+                <surname>Lima</surname>
+                <given-names>SS</given-names>
+              </name>
+              <name>
+                <surname>Maravi&#x00107;-Stojkovi&#x00107;</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Verduri</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Cao</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Shehabi</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Beishuizen</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Jensen</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Corti</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Van Oers</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Falsey</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name>
+                <surname>de Jong</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Oliveira</surname>
+                <given-names>CF</given-names>
+              </name>
+              <name>
+                <surname>Beghe</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Briel</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Mueller</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Procalcitonin to initiate or discontinue antibiotics in acute respiratory tract infections.</article-title>
+            <source>Cochrane Database Syst Rev</source>
+            <year>2017</year>
+            <month>Oct</month>
+            <day>12</day>
+            <volume>10</volume>
+            <issue>10</issue>
+            <fpage>CD007498</fpage>
+            <pub-id pub-id-type="pmid">29025194</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Duan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Gu</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Fan</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Zhou</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Zhu</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Cao</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>C-reactive protein or procalcitonin combined with rhinorrhea for discrimination of viral from bacterial infections in hospitalized adults in non-intensive care units with lower respiratory tract infections.</article-title>
+            <source>BMC Pulm Med</source>
+            <year>2021</year>
+            <month>Sep</month>
+            <day>28</day>
+            <volume>21</volume>
+            <issue>1</issue>
+            <fpage>308</fpage>
+            <pub-id pub-id-type="pmid">34583675</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lippi</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Sanchis-Gomar</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Procalcitonin in inflammatory bowel disease: Drawbacks and opportunities.</article-title>
+            <source>World J Gastroenterol</source>
+            <year>2017</year>
+            <month>Dec</month>
+            <day>21</day>
+            <volume>23</volume>
+            <issue>47</issue>
+            <fpage>8283</fpage>
+            <page-range>8283-8290</page-range>
+            <pub-id pub-id-type="pmid">29307988</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schuetz</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Albrich</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Mueller</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Procalcitonin for diagnosis of infection and guide to antibiotic decisions: past, present and future.</article-title>
+            <source>BMC Med</source>
+            <year>2011</year>
+            <month>Sep</month>
+            <day>22</day>
+            <volume>9</volume>
+            <fpage>107</fpage>
+            <pub-id pub-id-type="pmid">21936959</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Christ-Crain</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>M&#x000fc;ller</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Biomarkers in respiratory tract infections: diagnostic guides to antibiotic prescription, prognostic markers and mediators.</article-title>
+            <source>Eur Respir J</source>
+            <year>2007</year>
+            <month>Sep</month>
+            <volume>30</volume>
+            <issue>3</issue>
+            <fpage>556</fpage>
+            <page-range>556-73</page-range>
+            <pub-id pub-id-type="pmid">17766633</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Samsudin</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Vasikaran</surname>
+                <given-names>SD</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical Utility and Measurement of Procalcitonin.</article-title>
+            <source>Clin Biochem Rev</source>
+            <year>2017</year>
+            <month>Apr</month>
+            <volume>38</volume>
+            <issue>2</issue>
+            <fpage>59</fpage>
+            <page-range>59-68</page-range>
+            <pub-id pub-id-type="pmid">29332972</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wegl&#x000f6;hner</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Struck</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Fischer-Schulz</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Morgenthaler</surname>
+                <given-names>NG</given-names>
+              </name>
+              <name>
+                <surname>Otto</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Bohuon</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Bergmann</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Isolation and characterization of serum procalcitonin from patients with sepsis.</article-title>
+            <source>Peptides</source>
+            <year>2001</year>
+            <month>Dec</month>
+            <volume>22</volume>
+            <issue>12</issue>
+            <fpage>2099</fpage>
+            <page-range>2099-103</page-range>
+            <pub-id pub-id-type="pmid">11786196</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sheng</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Peng</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>The Effects of Different Blood Sample Types on Quantitative Detection of Procalcitonin.</article-title>
+            <source>Clin Lab</source>
+            <year>2022</year>
+            <month>Feb</month>
+            <day>01</day>
+            <volume>68</volume>
+            <issue>2</issue>
+            <pub-id pub-id-type="pmid">35142184</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Magnette</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Chatelain</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Chatelain</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Ten Cate</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Mullier</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Pre-analytical issues in the haemostasis laboratory: guidance for the clinical laboratories.</article-title>
+            <source>Thromb J</source>
+            <year>2016</year>
+            <volume>14</volume>
+            <fpage>49</fpage>
+            <pub-id pub-id-type="pmid">27999475</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ikeda</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Ichihara</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Hashiguchi</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Hidaka</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Kang</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Maekawa</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Matsumoto</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Matsushita</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Okubo</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Tsuchiya</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Furuta</surname>
+                <given-names>K</given-names>
+              </name>
+              <collab>Committee for Standardization, The Japanese Society of Laboratory Medicine (JSLM)</collab>
+            </person-group>
+            <article-title>Evaluation of the short-term stability of specimens for clinical laboratory testing.</article-title>
+            <source>Biopreserv Biobank</source>
+            <year>2015</year>
+            <month>Apr</month>
+            <volume>13</volume>
+            <issue>2</issue>
+            <fpage>135</fpage>
+            <page-range>135-43</page-range>
+            <pub-id pub-id-type="pmid">25880474</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Becker</surname>
+                <given-names>KL</given-names>
+              </name>
+              <name>
+                <surname>Nyl&#x000e9;n</surname>
+                <given-names>ES</given-names>
+              </name>
+              <name>
+                <surname>White</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>M&#x000fc;ller</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Snider</surname>
+                <given-names>RH</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical review 167: Procalcitonin and the calcitonin gene family of peptides in inflammation, infection, and sepsis: a journey from calcitonin back to its precursors.</article-title>
+            <source>J Clin Endocrinol Metab</source>
+            <year>2004</year>
+            <month>Apr</month>
+            <volume>89</volume>
+            <issue>4</issue>
+            <fpage>1512</fpage>
+            <page-range>1512-25</page-range>
+            <pub-id pub-id-type="pmid">15070906</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Meisner</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Pathobiochemistry and clinical use of procalcitonin.</article-title>
+            <source>Clin Chim Acta</source>
+            <year>2002</year>
+            <month>Sep</month>
+            <volume>323</volume>
+            <issue>1-2</issue>
+            <fpage>17</fpage>
+            <page-range>17-29</page-range>
+            <pub-id pub-id-type="pmid">12135804</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hubl</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Krassler</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Zingler</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Pertschy</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Hentschel</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Gerhards-Reich</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Mack</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Demant</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Evaluation of a fully automated procalcitonin chemiluminescence immunoassay.</article-title>
+            <source>Clin Lab</source>
+            <year>2003</year>
+            <volume>49</volume>
+            <issue>7-8</issue>
+            <fpage>319</fpage>
+            <page-range>319-27</page-range>
+            <pub-id pub-id-type="pmid">12908732</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Carcamo Ya&#x000f1;ez</surname>
+                <given-names>VA</given-names>
+              </name>
+              <name>
+                <surname>G&#x000f6;pfert</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>Otto</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Tumani</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Peter</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Joos</surname>
+                <given-names>TO</given-names>
+              </name>
+            </person-group>
+            <article-title>Development and Validation of an Ultrasensitive Procalcitonin Sandwich Immunoassay.</article-title>
+            <source>High Throughput</source>
+            <year>2017</year>
+            <month>Nov</month>
+            <day>16</day>
+            <volume>6</volume>
+            <issue>4</issue>
+            <pub-id pub-id-type="pmid">29479055</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Waterfield</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Maney</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Lyttle</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>McKenna</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Roland</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Corr</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Patenall</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Shields</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Woolfall</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Fairley</surname>
+                <given-names>D</given-names>
+              </name>
+              <collab>Paediatric Emergency Research in the UK and Ireland (PERUKI)</collab>
+            </person-group>
+            <article-title>Diagnostic test accuracy of point-of-care procalcitonin to diagnose serious bacterial infections in children.</article-title>
+            <source>BMC Pediatr</source>
+            <year>2020</year>
+            <month>Oct</month>
+            <day>21</day>
+            <volume>20</volume>
+            <issue>1</issue>
+            <fpage>487</fpage>
+            <pub-id pub-id-type="pmid">33087092</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Waterfield</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Maney</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Hanna</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Fairley</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Shields</surname>
+                <given-names>MD</given-names>
+              </name>
+            </person-group>
+            <article-title>Point-of-care testing for procalcitonin in identifying bacterial infections in young infants: a diagnostic accuracy study.</article-title>
+            <source>BMC Pediatr</source>
+            <year>2018</year>
+            <month>Dec</month>
+            <day>12</day>
+            <volume>18</volume>
+            <issue>1</issue>
+            <fpage>387</fpage>
+            <pub-id pub-id-type="pmid">30541505</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wu</surname>
+                <given-names>SC</given-names>
+              </name>
+              <name>
+                <surname>Liang</surname>
+                <given-names>CX</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>YL</given-names>
+              </name>
+              <name>
+                <surname>Hu</surname>
+                <given-names>WP</given-names>
+              </name>
+            </person-group>
+            <article-title>Elevated serum procalcitonin level in patients with chronic kidney disease without infection: A case-control study.</article-title>
+            <source>J Clin Lab Anal</source>
+            <year>2020</year>
+            <month>Feb</month>
+            <volume>34</volume>
+            <issue>2</issue>
+            <fpage>e23065</fpage>
+            <pub-id pub-id-type="pmid">31617251</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Grace</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Turner</surname>
+                <given-names>RM</given-names>
+              </name>
+            </person-group>
+            <article-title>Use of procalcitonin in patients with various degrees of chronic kidney disease including renal replacement therapy.</article-title>
+            <source>Clin Infect Dis</source>
+            <year>2014</year>
+            <month>Dec</month>
+            <day>15</day>
+            <volume>59</volume>
+            <issue>12</issue>
+            <fpage>1761</fpage>
+            <page-range>1761-7</page-range>
+            <pub-id pub-id-type="pmid">25228701</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rodrigo</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Bullock</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Mumma</surname>
+                <given-names>BE</given-names>
+              </name>
+              <name>
+                <surname>Kasapic</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Tran</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>The prevalence of elevated biotin in patient cohorts presenting for routine endocrinology, sepsis, and infectious disease testing.</article-title>
+            <source>Clin Biochem</source>
+            <year>2022</year>
+            <month>Jan</month>
+            <volume>99</volume>
+            <fpage>118</fpage>
+            <page-range>118-121</page-range>
+            <pub-id pub-id-type="pmid">34736902</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>&#x000d6;nc&#x000fc;l</surname>
+                <given-names>&#x000dc;</given-names>
+              </name>
+              <name>
+                <surname>Emino&#x0011f;lu</surname>
+                <given-names>FT</given-names>
+              </name>
+              <name>
+                <surname>K&#x000f6;se</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Do&#x0011f;an</surname>
+                <given-names>&#x000d6;</given-names>
+              </name>
+              <name>
+                <surname>&#x000d6;zsu</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Aycan</surname>
+                <given-names>Z</given-names>
+              </name>
+            </person-group>
+            <article-title>Serum biotin interference: A troublemaker in hormone immunoassays.</article-title>
+            <source>Clin Biochem</source>
+            <year>2022</year>
+            <month>Jan</month>
+            <volume>99</volume>
+            <fpage>97</fpage>
+            <page-range>97-102</page-range>
+            <pub-id pub-id-type="pmid">34736903</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fernando</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Wilson</surname>
+                <given-names>GS</given-names>
+              </name>
+            </person-group>
+            <article-title>Multiple epitope interactions in the two-step sandwich immunoassay.</article-title>
+            <source>J Immunol Methods</source>
+            <year>1992</year>
+            <month>Jul</month>
+            <day>06</day>
+            <volume>151</volume>
+            <issue>1-2</issue>
+            <fpage>67</fpage>
+            <page-range>67-86</page-range>
+            <pub-id pub-id-type="pmid">1378476</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Westwood</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ramaekers</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Whiting</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Tomini</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Joore</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Armstrong</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Ryder</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Stirk</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Severens</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Kleijnen</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Procalcitonin testing to guide antibiotic therapy for the treatment of sepsis in intensive care settings and for suspected bacterial infection in emergency department settings: a systematic review and cost-effectiveness analysis.</article-title>
+            <source>Health Technol Assess</source>
+            <year>2015</year>
+            <month>Nov</month>
+            <volume>19</volume>
+            <issue>96</issue>
+            <fpage>v</fpage>
+            <page-range>v-xxv, 1-236</page-range>
+            <pub-id pub-id-type="pmid">26569153</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Salinas</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>L&#x000f3;pez-Garrig&#x000f3;s</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Flores</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Uris</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Leiva-Salinas</surname>
+                <given-names>C</given-names>
+              </name>
+              <collab>Pilot Group of the Appropriate Utilization of Laboratory Tests (REDCONLAB) working group</collab>
+            </person-group>
+            <article-title>Procalcitonin in the Emergency Department: A potential expensive over-request that can be modulated through institutional protocols.</article-title>
+            <source>Am J Emerg Med</source>
+            <year>2018</year>
+            <month>Jan</month>
+            <volume>36</volume>
+            <issue>1</issue>
+            <fpage>158</fpage>
+            <page-range>158-160</page-range>
+            <pub-id pub-id-type="pmid">28768585</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kip</surname>
+                <given-names>MMA</given-names>
+              </name>
+              <name>
+                <surname>van Oers</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Shajiei</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Beishuizen</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Berghuis</surname>
+                <given-names>AMS</given-names>
+              </name>
+              <name>
+                <surname>Girbes</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name>
+                <surname>de Jong</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>de Lange</surname>
+                <given-names>DW</given-names>
+              </name>
+              <name>
+                <surname>Nijsten</surname>
+                <given-names>MWN</given-names>
+              </name>
+              <name>
+                <surname>IJzerman</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Koffijberg</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Kusters</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Cost-effectiveness of procalcitonin testing to guide antibiotic treatment duration in critically ill patients: results from a randomised controlled multicentre trial in the Netherlands.</article-title>
+            <source>Crit Care</source>
+            <year>2018</year>
+            <month>Nov</month>
+            <day>13</day>
+            <volume>22</volume>
+            <issue>1</issue>
+            <fpage>293</fpage>
+            <pub-id pub-id-type="pmid">30424796</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mat Nor</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name>
+                <surname>Md Ralib</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Procalcitonin clearance for early prediction of survival in critically ill patients with severe sepsis.</article-title>
+            <source>Crit Care Res Pract</source>
+            <year>2014</year>
+            <volume>2014</volume>
+            <fpage>819034</fpage>
+            <pub-id pub-id-type="pmid">24719759</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schuetz</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Briel</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Christ-Crain</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Stolz</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Bouadma</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Wolff</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Luyt</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name>
+                <surname>Chastre</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Tubach</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Kristoffersen</surname>
+                <given-names>KB</given-names>
+              </name>
+              <name>
+                <surname>Wei</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Burkhardt</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Welte</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Schroeder</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Nobre</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Tamm</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Bhatnagar</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Bucher</surname>
+                <given-names>HC</given-names>
+              </name>
+              <name>
+                <surname>Mueller</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Procalcitonin to guide initiation and duration of antibiotic treatment in acute respiratory infections: an individual patient data meta-analysis.</article-title>
+            <source>Clin Infect Dis</source>
+            <year>2012</year>
+            <month>Sep</month>
+            <volume>55</volume>
+            <issue>5</issue>
+            <fpage>651</fpage>
+            <page-range>651-62</page-range>
+            <pub-id pub-id-type="pmid">22573847</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kip</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Kusters</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>IJzerman</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Steuten</surname>
+                <given-names>LM</given-names>
+              </name>
+            </person-group>
+            <article-title>A PCT algorithm for discontinuation of antibiotic therapy is a cost-effective way to reduce antibiotic exposure in adult intensive care patients with sepsis.</article-title>
+            <source>J Med Econ</source>
+            <year>2015</year>
+            <volume>18</volume>
+            <issue>11</issue>
+            <fpage>944</fpage>
+            <page-range>944-53</page-range>
+            <pub-id pub-id-type="pmid">26105574</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rhee</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Using Procalcitonin to Guide Antibiotic Therapy.</article-title>
+            <source>Open Forum Infect Dis</source>
+            <year>2017</year>
+            <season>Winter</season>
+            <volume>4</volume>
+            <issue>1</issue>
+            <fpage>ofw249</fpage>
+            <pub-id pub-id-type="pmid">28480245</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kovacs</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Leaf</surname>
+                <given-names>HL</given-names>
+              </name>
+              <name>
+                <surname>Simberkoff</surname>
+                <given-names>MS</given-names>
+              </name>
+            </person-group>
+            <article-title>Bacterial infections.</article-title>
+            <source>Med Clin North Am</source>
+            <year>1997</year>
+            <month>Mar</month>
+            <volume>81</volume>
+            <issue>2</issue>
+            <fpage>319</fpage>
+            <page-range>319-43</page-range>
+            <pub-id pub-id-type="pmid">9093231</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Livorsi</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Nair</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Lund</surname>
+                <given-names>BC</given-names>
+              </name>
+              <name>
+                <surname>Alexander</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Beck</surname>
+                <given-names>BF</given-names>
+              </name>
+              <name>
+                <surname>Goto</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ohl</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Vaughan-Sarrazin</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Goetz</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name>
+                <surname>Perencevich</surname>
+                <given-names>EN</given-names>
+              </name>
+            </person-group>
+            <article-title>Antibiotic Stewardship Implementation and Antibiotic Use at Hospitals With and Without On-site Infectious Disease Specialists.</article-title>
+            <source>Clin Infect Dis</source>
+            <year>2021</year>
+            <month>May</month>
+            <day>18</day>
+            <volume>72</volume>
+            <issue>10</issue>
+            <fpage>1810</fpage>
+            <page-range>1810-1817</page-range>
+            <pub-id pub-id-type="pmid">32267496</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kinns</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Pitkin</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Housley</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Freedman</surname>
+                <given-names>DB</given-names>
+              </name>
+            </person-group>
+            <article-title>Internal quality control: best practice.</article-title>
+            <source>J Clin Pathol</source>
+            <year>2013</year>
+            <month>Dec</month>
+            <volume>66</volume>
+            <issue>12</issue>
+            <fpage>1027</fpage>
+            <page-range>1027-32</page-range>
+            <pub-id pub-id-type="pmid">24072731</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Westgard</surname>
+                <given-names>JO</given-names>
+              </name>
+            </person-group>
+            <article-title>Internal quality control: planning and implementation strategies.</article-title>
+            <source>Ann Clin Biochem</source>
+            <year>2003</year>
+            <month>Nov</month>
+            <volume>40</volume>
+            <issue>Pt 6</issue>
+            <fpage>593</fpage>
+            <page-range>593-611</page-range>
+            <pub-id pub-id-type="pmid">14629798</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schoenmakers</surname>
+                <given-names>CH</given-names>
+              </name>
+              <name>
+                <surname>Naus</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Vermeer</surname>
+                <given-names>HJ</given-names>
+              </name>
+              <name>
+                <surname>van Loon</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Steen</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Practical application of Sigma Metrics QC procedures in clinical chemistry.</article-title>
+            <source>Clin Chem Lab Med</source>
+            <year>2011</year>
+            <month>Nov</month>
+            <volume>49</volume>
+            <issue>11</issue>
+            <fpage>1837</fpage>
+            <page-range>1837-43</page-range>
+            <pub-id pub-id-type="pmid">21801029</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Orton</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Proficiency testing today.</article-title>
+            <source>MLO Med Lab Obs</source>
+            <year>2017</year>
+            <month>Mar</month>
+            <volume>49</volume>
+            <issue>3</issue>
+            <fpage>24</fpage>
+            <page-range>24, 26</page-range>
+            <pub-id pub-id-type="pmid">29924566</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <collab>Joint Commission on Accreditation of Healthcare Organizations</collab>
+            <article-title>Accepted: Revised laboratory proficiency testing requirement.</article-title>
+            <source>Jt Comm Perspect</source>
+            <year>2011</year>
+            <month>Apr</month>
+            <volume>31</volume>
+            <issue>4</issue>
+            <fpage>4</fpage>
+            <pub-id pub-id-type="pmid">22312774</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rojo-Molinero</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Alados</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>de la Pedrosa</surname>
+                <given-names>EG</given-names>
+              </name>
+              <name>
+                <surname>Leiva</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>P&#x000e9;rez</surname>
+                <given-names>JL</given-names>
+              </name>
+            </person-group>
+            <article-title>[Safety in the Microbiology laboratory].</article-title>
+            <source>Enferm Infecc Microbiol Clin</source>
+            <year>2015</year>
+            <season>Jun-Jul</season>
+            <volume>33</volume>
+            <issue>6</issue>
+            <fpage>404</fpage>
+            <page-range>404-10</page-range>
+            <pub-id pub-id-type="pmid">25444041</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lo</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Biological safety in the medical laboratory.</article-title>
+            <source>Hong Kong Med J</source>
+            <year>2015</year>
+            <month>Jun</month>
+            <volume>21</volume>
+            <issue>3</issue>
+            <fpage>200</fpage>
+            <pub-id pub-id-type="pmid">26045068</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34485.r45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wedzicha</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Miravitlles</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Hurst</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Calverley</surname>
+                <given-names>PM</given-names>
+              </name>
+              <name>
+                <surname>Albert</surname>
+                <given-names>RK</given-names>
+              </name>
+              <name>
+                <surname>Anzueto</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Criner</surname>
+                <given-names>GJ</given-names>
+              </name>
+              <name>
+                <surname>Papi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Rabe</surname>
+                <given-names>KF</given-names>
+              </name>
+              <name>
+                <surname>Rigau</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Sliwinski</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Tonia</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Vestbo</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Wilson</surname>
+                <given-names>KC</given-names>
+              </name>
+              <name>
+                <surname>Krishnan</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>Management of COPD exacerbations: a&#x000a0;European Respiratory Society/American Thoracic Society guideline.</article-title>
+            <source>Eur Respir J</source>
+            <year>2017</year>
+            <month>Mar</month>
+            <volume>49</volume>
+            <issue>3</issue>
+            <pub-id pub-id-type="pmid">28298398</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

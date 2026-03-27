@@ -1,0 +1,1151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-131257" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Use and Application of MAUDE In Patient Safety</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Khalid</surname>
+            <given-names>Nauman</given-names>
+          </name>
+          <aff>MedStar Washington Hospital Center</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Shlofmitz</surname>
+            <given-names>Evan</given-names>
+          </name>
+          <aff>MedStar Washington/Georgetown University</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Ahmad</surname>
+            <given-names>Sarah A.</given-names>
+          </name>
+          <aff>Saint Francis Medical Group</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Nauman Khalid declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Evan Shlofmitz declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Sarah Ahmad declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>24</day>
+          <month>4</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-131257.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">The world health organization defines patient safety as the &#x0201c;absence of preventable harm to a patient during the process of health care and reduction of risk of unnecessary harm associated with health care to an acceptable minimum.&#x0201d;<xref ref-type="bibr" rid="article-131257.r1">[1]</xref>&#x000a0;Each day hundreds of thousands of medical devices are utilized for delivering care to patients. As healthcare professionals, it is imperative that we prevent errors, apply lessons learned from our past errors to improve future patient outcomes.&#x000a0;The Manufacturer and User Facility Device Experience (MAUDE) database is an online searchable and publicly accessible repository developed by the United States Food and Drug Administration (FDA) for systematic data collection of adverse outcomes related to the medical devices.<xref ref-type="bibr" rid="article-131257.r2">[2]</xref><xref ref-type="bibr" rid="article-131257.r3">[3]</xref>&#x000a0;</p>
+        <p>The FDA classifies medical devices into three categories. Class I and II are low and intermediate-risk, respectively, and require 510k for market approval. Class III devices belong to the highest risk category, and a premarket approval application (PMA) is generally required for their premarket approval. The MAUDE database is maintained by the Center for Devices and Radiological Health (CDRH), a branch of the US FDA responsible for protecting public health. As of 2017, the database had more than 4 million recorded events, with approximately 2000 new reports submitted daily.<xref ref-type="bibr" rid="article-131257.r4">[4]</xref>&#x000a0;</p>
+        <p>The search within the MAUDE database is limited to adverse events reported over a 10-year time period. The reporting can be either mandatory (for manufacturers, importers, and device user facilities) or voluntary (for healthcare professionals, patients, caregivers, and consumers). The operators and device manufacturers submit their reports to the database after an adverse event or device failure is encountered. Each medical device report contains information regarding the device used, the model number, the date of the event if the devices were returned to the manufacturer for their analysis, the date of return, a narrative description of the adverse events by the operators, as well as the manufacturers.<xref ref-type="bibr" rid="article-131257.r5">[5]</xref><xref ref-type="bibr" rid="article-131257.r6">[6]</xref><xref ref-type="bibr" rid="article-131257.r7">[7]</xref>&#x000a0;</p>
+        <p>Based on the type and severity of the events, they can be classified into the following main categories: death, injury, malfunction, or other. The database is updated every month. Routine monitoring of these reports is carried out by the FDA and the manufacturers to identify device-related safety signals and correct them in an effective and timely fashion.</p>
+      </sec>
+      <sec id="article-131257.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>There are two search options in the MAUDE database, the &#x02018;simple search&#x02019; and the &#x02018;advanced search.' There is only one&#x000a0;search field in the simple search where the researcher can enter the product name or the product code, or any other product identifier to search for the desired medical device reports. The advanced search mode provides much more comprehensive options. On the advanced search page, the database can be searched by the following categories: product problem, product class, event type (four categories described earlier), product manufacturer, model number, report number, brand name, product code, and the date the report was received by the FDA.</p>
+        <p>After filling out the relevant information, anywhere from 5 to 100 records can be displayed per page. The data for the desired dates can be downloaded in the Microsoft Excel format, which allows users to access the data offline as well. The search allows a maximum of only 500 records to be returned from a single search entry. If more results are desired, 2 separate searches by putting 2 different dates will be required. In the online MAUDE database query form, several different keyword combinations may need to be entered to capture the maximum number of results available. Furthermore, the device field entry may be combined with the manufacturer field entry to capture accurate data.</p>
+        <p>Certain elements of the report may be protected from public exposure under the Freedom of Information Act (FOIA). For instance, (b)(4) may be found in lieu of the composition of the product, and (b)(6) may replace the age of the patient. Navigating through the database can be challenging at first; however, after reviewing few reports, the research can familiarize themselves with the database; effective utilization of this resource can provide valuable information.</p>
+      </sec>
+      <sec id="article-131257.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Although the MAUDE database contains valuable information pertaining to the safety of medical devices, there are some general limitations that the researcher must be aware of when analyzing the data; these include the following:<xref ref-type="bibr" rid="article-131257.r8">[8]</xref><xref ref-type="bibr" rid="article-131257.r9">[9]</xref><xref ref-type="bibr" rid="article-131257.r10">[10]</xref><xref ref-type="bibr" rid="article-131257.r11">[11]</xref></p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Adverse events may be recorded both by the operators and the manufacturers, resulting in duplicate reports and difficulty in distinguishing,</p>
+          </list-item>
+          <list-item>
+            <p>Because the reporting is not universally mandated, there may be underreporting, and as such unknown number of complications or device malfunctions may go untallied,</p>
+          </list-item>
+          <list-item>
+            <p>Adverse events caused many operator errors may be underreported,</p>
+          </list-item>
+          <list-item>
+            <p>The database may contain incomplete, biased, and imprecise reports that may not be objectively and independently verified or adjudicated,</p>
+          </list-item>
+          <list-item>
+            <p>Because of the lack of information regarding the total devices used in the study timeframe, it is not possible to determine the true incidence and prevalence rates of the adverse events,</p>
+          </list-item>
+          <list-item>
+            <p>Only a minority of the devices are actually returned to the manufacturer; therefore, the input by the device manufacturer is lacking in many reports,</p>
+          </list-item>
+          <list-item>
+            <p>Because of the lack of detailed analysis, a cause and effect relationship between the device and the adverse event cannot be ascertained in many reports,</p>
+          </list-item>
+          <list-item>
+            <p>Results are limited to reports submitted within the last 10 years, i) results are restricted to 500 records per entry.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-131257.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>Although the MAUDE database is a passive surveillance system, it has been utilized to examine various surgical and interventional devices. Few examples include robot-assisted surgical systems, left atrial appendage occlusion devices, transcatheter aortic valve replacement (TAVR), percutaneous left ventricular assist devices including Impella CP, 2.5, 5.0 as well as right-sided Impella RP, rotational atherectomy and orbital atherectomy devices, vascular closure devices, guideline extension catheters, extracorporeal membrane oxygenation devices, optical coherence tomography, fractional flow guidewires, microcatheters, and several others.<xref ref-type="bibr" rid="article-131257.r12">[12]</xref><xref ref-type="bibr" rid="article-131257.r13">[13]</xref><xref ref-type="bibr" rid="article-131257.r14">[14]</xref><xref ref-type="bibr" rid="article-131257.r15">[15]</xref><xref ref-type="bibr" rid="article-131257.r16">[16]</xref><xref ref-type="bibr" rid="article-131257.r17">[17]</xref><xref ref-type="bibr" rid="article-131257.r18">[18]</xref>&#x000a0;The MAUDE database allows for post-market surveillance of approved devices.</p>
+      </sec>
+      <sec id="article-131257.s5" sec-type="Nursing, Allied Health, and Interprofessional Team Monitoring">
+        <title>Nursing, Allied Health, and Interprofessional Team Monitoring</title>
+        <p>Several limitations of the MAUDE database are addressed earlier. These are also mentioned in MAUDE database-related papers as well as identified on the database's website. Despite these inherent limitations, the MAUDE database&#x000a0;serves as&#x000a0;a powerful tool for clinicians, manufacturers, and regulatory authorities. Operators can utilize these resources for recognizing the most commonly reported device malfunctions and adverse events, learn common pitfalls, apply them to their practice to improve technique, and appropriately counsel their patients when obtaining informed consent for the procedure. The manufacturers can take this opportunity to identify device-related issues and improve them and improve operator training. Furthermore, this information can be utilized as feedback for product development and improvement, make a benefit-risk assessment of the device, patient counseling, and furthering operative techniques.</p>
+      </sec>
+      <sec id="article-131257.s6">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=131257&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=131257">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/131257/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=131257">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-131257.s7">
+        <title>References</title>
+        <ref id="article-131257.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Runciman</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Hibbert</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Thomson</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Van Der Schaaf</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Sherman</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Lewalle</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Towards an International Classification for Patient Safety: key concepts and terms.</article-title>
+            <source>Int J Qual Health Care</source>
+            <year>2009</year>
+            <month>Feb</month>
+            <volume>21</volume>
+            <issue>1</issue>
+            <fpage>18</fpage>
+            <page-range>18-26</page-range>
+            <pub-id pub-id-type="pmid">19147597</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-131257.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Case</surname>
+                <given-names>BC</given-names>
+              </name>
+              <name>
+                <surname>Kumar</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Yerasi</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Forrestal</surname>
+                <given-names>BJ</given-names>
+              </name>
+              <name>
+                <surname>Musallam</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Chezar-Azerrad</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Khalid</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Shlofmitz</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Khan</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Satler</surname>
+                <given-names>LF</given-names>
+              </name>
+              <name>
+                <surname>Ben-Dor</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Hashim</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Bernardo</surname>
+                <given-names>NL</given-names>
+              </name>
+              <name>
+                <surname>Rogers</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Waksman</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Real-world experience of suture-based closure devices: Insights from the FDA Manufacturer and User Facility Device Experience.</article-title>
+            <source>Catheter Cardiovasc Interv</source>
+            <year>2021</year>
+            <month>Sep</month>
+            <volume>98</volume>
+            <issue>3</issue>
+            <fpage>572</fpage>
+            <page-range>572-577</page-range>
+            <pub-id pub-id-type="pmid">33539651</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-131257.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Case</surname>
+                <given-names>BC</given-names>
+              </name>
+              <name>
+                <surname>Yerasi</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Forrestal</surname>
+                <given-names>BJ</given-names>
+              </name>
+              <name>
+                <surname>Kumar</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Musallam</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Chezar-Azerrad</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Khalid</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Shlofmitz</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Khan</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Satler</surname>
+                <given-names>LF</given-names>
+              </name>
+              <name>
+                <surname>Ben-Dor</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Rogers</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Waksman</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Real-World Experience of the MANTA Closure Device: Insights From the FDA Manufacturer and User Facility Device Experience (MAUDE) Database.</article-title>
+            <source>Cardiovasc Revasc Med</source>
+            <year>2021</year>
+            <month>Jun</month>
+            <volume>27</volume>
+            <fpage>63</fpage>
+            <page-range>63-66</page-range>
+            <pub-id pub-id-type="pmid">33402323</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-131257.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ensign</surname>
+                <given-names>LG</given-names>
+              </name>
+              <name>
+                <surname>Cohen</surname>
+                <given-names>KB</given-names>
+              </name>
+            </person-group>
+            <article-title>A Primer to the Structure, Content and Linkage of the FDA's Manufacturer and User Facility Device Experience (MAUDE) Files.</article-title>
+            <source>EGEMS (Wash DC)</source>
+            <year>2017</year>
+            <month>Jun</month>
+            <day>14</day>
+            <volume>5</volume>
+            <issue>1</issue>
+            <fpage>12</fpage>
+            <pub-id pub-id-type="pmid">29930960</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-131257.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Khalid</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Javed</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Shlofmitz</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Dheendsa</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Musallam</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Khan</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Wermers</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Case</surname>
+                <given-names>BC</given-names>
+              </name>
+              <name>
+                <surname>Forrestal</surname>
+                <given-names>BJ</given-names>
+              </name>
+              <name>
+                <surname>Chezar-Azerrad</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Yerasi</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Rogers</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Hashim</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Ben-Dor</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Bernardo</surname>
+                <given-names>NL</given-names>
+              </name>
+              <name>
+                <surname>Satler</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Waksman</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Adverse Events and Modes of Failure Related to Rotational Atherectomy System: The Utility of the MAUDE Database.</article-title>
+            <source>Cardiovasc Revasc Med</source>
+            <year>2021</year>
+            <month>Jun</month>
+            <volume>27</volume>
+            <fpage>57</fpage>
+            <page-range>57-62</page-range>
+            <pub-id pub-id-type="pmid">33071196</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-131257.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Case</surname>
+                <given-names>BC</given-names>
+              </name>
+              <name>
+                <surname>Forrestal</surname>
+                <given-names>BJ</given-names>
+              </name>
+              <name>
+                <surname>Yerasi</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Khan</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Khalid</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Shlofmitz</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Musallam</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Chezar-Azerrad</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Satler</surname>
+                <given-names>LF</given-names>
+              </name>
+              <name>
+                <surname>Ben-Dor</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Rogers</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Waksman</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Real-World Experience of the Sentinel Cerebral Protection Device: Insights From the FDA Manufacturer and User Facility Device Experience (MAUDE) Database.</article-title>
+            <source>Cardiovasc Revasc Med</source>
+            <year>2020</year>
+            <month>Feb</month>
+            <volume>21</volume>
+            <issue>2</issue>
+            <fpage>235</fpage>
+            <page-range>235-238</page-range>
+            <pub-id pub-id-type="pmid">31780421</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-131257.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Khalid</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Javed</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Ahmad</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Edelman</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Shlofmitz</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Musallam</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Rogers</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Hashim</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Bernardo</surname>
+                <given-names>NL</given-names>
+              </name>
+              <name>
+                <surname>Waksman</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Analysis of the Food and Drug Administration Manufacturer and User Facility Device Experience Database for Patient- and Circuit-Related Adverse Events Involving Extracorporeal Membrane Oxygenation.</article-title>
+            <source>Cardiovasc Revasc Med</source>
+            <year>2020</year>
+            <month>Feb</month>
+            <volume>21</volume>
+            <issue>2</issue>
+            <fpage>230</fpage>
+            <page-range>230-234</page-range>
+            <pub-id pub-id-type="pmid">31767523</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-131257.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Khalid</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Javed</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Rogers</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Hashim</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Shlofmitz</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Wermers</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Musallam</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Khan</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Torguson</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Bernardo</surname>
+                <given-names>NL</given-names>
+              </name>
+              <name>
+                <surname>Waksman</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Adverse events with orbital atherectomy: an analytic review of the MAUDE database.</article-title>
+            <source>EuroIntervention</source>
+            <year>2020</year>
+            <month>Jul</month>
+            <day>17</day>
+            <volume>16</volume>
+            <issue>4</issue>
+            <fpage>e325</fpage>
+            <page-range>e325-e327</page-range>
+            <pub-id pub-id-type="pmid">31422928</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-131257.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chen</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Shah</surname>
+                <given-names>AA</given-names>
+              </name>
+              <name>
+                <surname>Shlofmitz</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Khalid</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Musallam</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Khan</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Iantorno</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gajanana</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Rogers</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Hashim</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Bernardo</surname>
+                <given-names>NL</given-names>
+              </name>
+              <name>
+                <surname>Waksman</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Adverse Events Associated with the Use of Guide Extension Catheters during Percutaneous Coronary Intervention: Reports from the Manufacturer and User Facility Device Experience (MAUDE) database.</article-title>
+            <source>Cardiovasc Revasc Med</source>
+            <year>2019</year>
+            <month>May</month>
+            <volume>20</volume>
+            <issue>5</issue>
+            <fpage>409</fpage>
+            <page-range>409-412</page-range>
+            <pub-id pub-id-type="pmid">31079818</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-131257.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Khalid</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Javed</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Rogers</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Hashim</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Shlofmitz</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Khan</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Musallam</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Torguson</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Bernardo</surname>
+                <given-names>NL</given-names>
+              </name>
+              <name>
+                <surname>Waksman</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Adverse events and modes of failure related to the FilterWire EZ Embolic Protection System: Lessons learned from an analytic review of the FDA MAUDE database.</article-title>
+            <source>Catheter Cardiovasc Interv</source>
+            <year>2019</year>
+            <month>Jul</month>
+            <day>01</day>
+            <volume>94</volume>
+            <issue>1</issue>
+            <fpage>157</fpage>
+            <page-range>157-164</page-range>
+            <pub-id pub-id-type="pmid">30985082</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-131257.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Shlofmitz</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Garcia-Garcia</surname>
+                <given-names>HM</given-names>
+              </name>
+              <name>
+                <surname>Rogers</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Khalid</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Kajita</surname>
+                <given-names>AH</given-names>
+              </name>
+              <name>
+                <surname>Khan</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Iantorno</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gallino</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Bernardo</surname>
+                <given-names>NL</given-names>
+              </name>
+              <name>
+                <surname>Hashim</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Torguson</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Waksman</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Techniques to Optimize the Use of Optical Coherence Tomography: Insights from the Manufacturer and User Facility Device Experience (MAUDE) Database.</article-title>
+            <source>Cardiovasc Revasc Med</source>
+            <year>2019</year>
+            <month>Jun</month>
+            <volume>20</volume>
+            <issue>6</issue>
+            <fpage>507</fpage>
+            <page-range>507-512</page-range>
+            <pub-id pub-id-type="pmid">30962083</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-131257.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Galper</surname>
+                <given-names>BZ</given-names>
+              </name>
+              <name>
+                <surname>Beery</surname>
+                <given-names>DE</given-names>
+              </name>
+              <name>
+                <surname>Leighton</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Englander</surname>
+                <given-names>LL</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparison of adverse event and device problem rates for transcatheter aortic valve replacement and Mitraclip procedures as reported by the Transcatheter Valve Therapy Registry and the Food and Drug Administration postmarket surveillance data.</article-title>
+            <source>Am Heart J</source>
+            <year>2018</year>
+            <month>Apr</month>
+            <volume>198</volume>
+            <fpage>64</fpage>
+            <page-range>64-74</page-range>
+            <pub-id pub-id-type="pmid">29653650</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-131257.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Friedman</surname>
+                <given-names>DC</given-names>
+              </name>
+              <name>
+                <surname>Lendvay</surname>
+                <given-names>TS</given-names>
+              </name>
+              <name>
+                <surname>Hannaford</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Instrument Failures for the da Vinci Surgical System: a Food and Drug Administration MAUDE Database Study.</article-title>
+            <source>Surg Endosc</source>
+            <year>2013</year>
+            <month>May</month>
+            <volume>27</volume>
+            <issue>5</issue>
+            <fpage>1503</fpage>
+            <page-range>1503-8</page-range>
+            <pub-id pub-id-type="pmid">23242487</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-131257.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Khalid</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Rogers</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Shlofmitz</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Musallam</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Khan</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Iantorno</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gajanana</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Hashim</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Torguson</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Bernardo</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Waksman</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Adverse Events and Modes of Failure Related to Impella RP: Insights from the Manufacturer and User Facility Device Experience (MAUDE) Database.</article-title>
+            <source>Cardiovasc Revasc Med</source>
+            <year>2019</year>
+            <month>Jun</month>
+            <volume>20</volume>
+            <issue>6</issue>
+            <fpage>503</fpage>
+            <page-range>503-506</page-range>
+            <pub-id pub-id-type="pmid">30922871</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-131257.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Khalid</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Rogers</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Shlofmitz</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Khan</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Musallam</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Iantorno</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Waksman</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Adverse events and modes of failure related to the Impella percutaneous left ventricular assist devices: a retrospective analysis of the MAUDE database.</article-title>
+            <source>EuroIntervention</source>
+            <year>2019</year>
+            <month>May</month>
+            <day>20</day>
+            <volume>15</volume>
+            <issue>1</issue>
+            <fpage>44</fpage>
+            <page-range>44-46</page-range>
+            <pub-id pub-id-type="pmid">30803939</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-131257.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Heaton</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Okoh</surname>
+                <given-names>AK</given-names>
+              </name>
+              <name>
+                <surname>Sossou</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Singh</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Sandhu</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Chakrabarti</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Rao</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Waxman</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Tayal</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Wasty</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Adverse Events After Left Atrial Appendage Closure: Lessons Learned From the Manufacturer and User Facility Device Experience (MAUDE) Database.</article-title>
+            <source>J Invasive Cardiol</source>
+            <year>2020</year>
+            <month>Aug</month>
+            <volume>32</volume>
+            <issue>8</issue>
+            <fpage>E216</fpage>
+            <page-range>E216-E218</page-range>
+            <pub-id pub-id-type="pmid">32737269</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-131257.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Khalid</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Rogers</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Shlofmitz</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Waksman</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Reply to the letter to the editor "Impella device use in high-risk PCI".</article-title>
+            <source>EuroIntervention</source>
+            <year>2019</year>
+            <month>Oct</month>
+            <day>20</day>
+            <volume>15</volume>
+            <issue>8</issue>
+            <fpage>732</fpage>
+            <pub-id pub-id-type="pmid">31625917</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-131257.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Khalid</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Rogers</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Shlofmitz</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Waksman</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Expanding the Treatment of Calcified Lesions.</article-title>
+            <source>Cardiovasc Revasc Med</source>
+            <year>2019</year>
+            <month>Jul</month>
+            <volume>20</volume>
+            <issue>7</issue>
+            <fpage>622</fpage>
+            <page-range>622-623</page-range>
+            <pub-id pub-id-type="pmid">31109877</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

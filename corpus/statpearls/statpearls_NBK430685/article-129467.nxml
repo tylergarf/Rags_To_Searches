@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-129467" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Ultrasound Physics and Instrumentation</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Grogan</surname>
+            <given-names>Scott P.</given-names>
+          </name>
+          <aff>Madigan Army Medical Center</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Mount</surname>
+            <given-names>Cristin A.</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Scott Grogan declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Cristin Mount declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>27</day>
+          <month>3</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-129467.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Clinical ultrasound&#x02019;s maximum utility as a diagnostic tool rests on understanding and manipulating multiple physics principles. The knowledge of ultrasound wave emission, interaction with fluid, tissue, various densities, wave receipt, and machine data processing are integral to ultrasound&#x02019;s function. Ultrasound machines rely upon different probe types to emit sound waves at variable frequencies, depths, directions, focal points, and power in conjunction with motion and artifact management tools to enhance images obtained.</p>
+        <p>Understanding the physics of ultrasound is critical to applying clinical ultrasound, particularly as it applies to the optimization, interpretation, and clinical integration of images captured at the bedside. The American Institute of Ultrasound in Medicine has published a full, recommended curriculum to standardize the clinical sonographers&#x02019; education on both ultrasound physics principles and the primary clinical applications that depend on them.<xref ref-type="bibr" rid="article-129467.r1">[1]</xref><xref ref-type="bibr" rid="article-129467.r2">[2]</xref></p>
+      </sec>
+      <sec id="article-129467.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>
+<bold>Primary Ultrasound Physics Principles</bold>
+</p>
+        <p>The crucial physics principles needed to understand and optimize clinical ultrasound include frequency, propagation speed, pulsed ultrasound, waves&#x02019; interaction with tissue, angle of incidence, and attenuation.<xref ref-type="bibr" rid="article-129467.r3">[3]</xref> Sound is mechanical energy that moves via alternating high and low-pressure waves through a medium.&#x000a0;A sound source produces longitudinal wave oscillations, allowing the propagation of energy and critical waveforms for a clinical ultrasound.&#x000a0;The high-pressure phase of a sound wave is the compression phase, whereas the low-pressure phase is rarefaction. In clinical ultrasound, the media involved are air, water, body fluid, soft tissues, blood, and bone.</p>
+        <p>Frequency refers to the number of cycles per second emitted by the probe over one second and is expressed in hertz (Hz).&#x000a0;A period is the length of time for a complete wave cycle to occur (rarefaction and compression) and is inversely related to frequency.&#x000a0;Similarly, the wavelength described is the distance between two adjacent wave peaks.&#x000a0;It is important to distinguish the difference between period and wavelength; the former is a distance and the latter a length of time.<xref ref-type="bibr" rid="article-129467.r4">[4]</xref> Ultrasound waves are conducted at a frequency greater than 20MHz, above the upper limit of human hearing.&#x000a0;Frequency depends on the emission source and is entirely independent of the tissue that waves are interacting with.<xref ref-type="bibr" rid="article-129467.r3">[3]</xref> Frequencies used in clinical ultrasound range from 1MHz to 20MHz, depending upon the probe used and the application desired.&#x000a0;The frequency has a corresponding relationship with resolution and an inverse relationship with depth. The greater the frequency used, the lower the penetration, but the greater the image&#x02019;s resolution.<xref ref-type="bibr" rid="article-129467.r5">[5]</xref></p>
+        <p>Amplitude is the height, or strength, of a wave defined by the distance between the peak and the average of the wave's highest and lowest points.&#x000a0;Power in ultrasound refers to the square of wave amplitude, or difference between the maximum and average values, of propagated waves.<xref ref-type="bibr" rid="article-129467.r6">[6]</xref> Both power and amplitude can be controlled by the sonographer and managed with gain adjustment. Power is measured in watts or milliwatts but can be displayed on the ultrasound machine either by decibels (dB) or the total acoustic power percentage.<xref ref-type="bibr" rid="article-129467.r4">[4]</xref></p>
+        <p>Intensity refers to the power delivered over a specific area, expressed in watts/cm2 or milliwatts/cm2.<xref ref-type="bibr" rid="article-129467.r4">[4]</xref> The spatial peak is the location where intensity is at its greatest (highest power over the smallest area) and represents the focal point of ultrasound beams.</p>
+        <p>Decibels (dB) are a logarithmic expression of the ratio of two sound intensities. The dB can be determined by calculating the ratio of the sound source intensity and the least audible intensity, calculating the LOG, and multiplying it by 10. There is a simplified rule of 3dB that states with each 3dB gain. There must be an additional doubling of power delivered. Thus, a 3dB gain requires twice the power, a 6dB gain requires four times the power, and a 9dB gain requires eight times the power.</p>
+        <p>Propagation speed is the rate at which waves pass through a medium.&#x000a0;The ultrasound waves&#x02019; speed is accepted to be 1540m/sec in soft tissue, known as acoustic impedance.&#x000a0;Propagation speed depends on the characteristics of the medium that waves are traveling through and is independent of the frequency. As tissue density increases, the propagation speed decreases.&#x000a0;By contrast, the stiffer the tissue, the higher the propagation speed.<xref ref-type="bibr" rid="article-129467.r4">[4]</xref></p>
+        <p>To achieve desired depth and resolution for clinical ultrasound, waves are emitted from the probe as pulses, typically a millisecond in duration and occurring up to several thousand times per second.&#x000a0;This principle is referred to as pulsed ultrasound.</p>
+        <p>Ultrasound waves travel into tissue and are reflected back to the probe at a rate determined by the target tissue&#x02019;s consistency. Reflections of sound that return to the probe are called echoes and are determined by two different materials' interfaces.<xref ref-type="bibr" rid="article-129467.r3">[3]</xref> Images produced based on the echos give structures and media their varying densities on the screen, referred to as echogenicity. The more significant the difference in the density of two materials (tissue), the stronger the echo that will be produced.<xref ref-type="bibr" rid="article-129467.r3">[3]</xref> Structures with higher density reflect more sound and are considered more echogenic (white). Thus, bone and dense foreign bodies reflect sound fully and appear bright on the screen, whereas fluids such as water or urine reflect no sound to the probe and appear anechoic (black).<xref ref-type="bibr" rid="article-129467.r6">[6]</xref> Weak echos appear gray. When waves echo back to the probe from material such as bone and air, which cannot propagate sound, sound waves cannot pass to deeper tissue and a shadow behind the interface results.</p>
+        <p>The angle at which ultrasound waves engage with any structure is referred to as the angle of incidence. Structures are ideally imaged with the angle of incidence perpendicular to emitted waves because echoed waves return to the probe in the greatest concentration.<xref ref-type="bibr" rid="article-129467.r3">[3]</xref> When waves interact with a structure obliquely, fewer waves echo back to the probe, decreasing both the structure brightness and resolution. Waves hitting a structure obliquely return to the probe at an angle equal to the angle initially striking the structure&#x02019;s boundary.<xref ref-type="bibr" rid="article-129467.r3">[3]</xref> If the angle is not directly perpendicular to the incidence angle, the wave will reflect away from the source.<xref ref-type="bibr" rid="article-129467.r4">[4]</xref></p>
+        <p>Similarly, waves are deflected from a straight line when waves&#x02019; velocity differs between two structures and results in refraction.<xref ref-type="bibr" rid="article-129467.r3">[3]</xref> The original angle of incidence and the difference in the two media&#x02019;s propagation speed determine the refraction's ultimate angle. Refraction is a source of artifacts in ultrasound, considering that all ultrasound machines operate under the assumption that waves will always travel and return in a straight line.<xref ref-type="bibr" rid="article-129467.r3">[3]</xref></p>
+        <p>Different tissue interfaces reflect differently and contribute to image quality. Smooth interfaces are considered specular reflectors and return a high proportion of waves to the transducer.&#x000a0;Specular reflectors are contrasted against irregular interfaces called diffuse reflectors, which cause sound waves to reflect away from the transducer and reduce the image&#x02019;s quality.&#x000a0;An important type of scattering, called Rayleigh scattering, occurs when an object is smaller than the ultrasound beam&#x02019;s wavelength.&#x000a0;Red blood cells display this scattering type, resulting in waves scattering in all directions.<xref ref-type="bibr" rid="article-129467.r4">[4]</xref></p>
+        <p>Considering that ultrasound waves cannot travel through the air, probes must contact patients&#x02019; skin through a coupling medium to engage with tissues. Coupling occurs through the use of ultrasound gel or water baths. As ultrasound waves interact with tissue and reflect the probe, the energy associated with any remaining beams decreases with increasing depth. The strength of penetrating waves is reduced by refraction, scattering, and absorption.<xref ref-type="bibr" rid="article-129467.r5">[5]</xref>&#x000a0;When waves are scattered and energy absorbed, it results in vibration energy and heat.&#x000a0;All of the processes that contribute to energy reduction are collectively referred to as attenuation.</p>
+        <p>Wave attenuation, or the decrease in intensity over a given distance, is also measured in decibels (dB) and occurs at a rate per centimeter roughly equal to the frequency emitted initially.&#x000a0;Thus, a 5MHz wave will attenuate at approximately 5dB in the first centimeter and another 5bB in the next centimeter. Ultimate wave penetration is determined by the depth at which the intensity of the waves is reduced by 50%, in a reverse fashion used to determine the dB gain described above.&#x000a0;Thus, the depth at which 50% of the intensity is attenuated is equivalent to a loss of 3dB.&#x000a0; Higher frequency waves and waves for deep imaging are attenuated more quickly than low-frequency waves or waves used for shallow imaging.<xref ref-type="bibr" rid="article-129467.r4">[4]</xref></p>
+        <p>Gain (power) can be adjusted over the entire image or, depending on the machine being used, at different depths to visualize structures at those depths best. Additionally, deeper structures must use lower frequencies to become visible. Such visibility comes at the expense of resolution, which is improved with higher frequencies.&#x000a0;Sonographers must manage the frequency being used to balance the need for both depth and resolution depending on the ultrasound application for any specific target structure.</p>
+        <p>
+<bold>Transducers</bold>
+</p>
+        <p>Transducers are the instruments that emit and receive ultrasound waves by way of electrical signal conversion to sound waves.&#x000a0;Ultrasound transducers contain piezoelectric crystals that, when electrical impulses are applied, produce waves at frequencies determined by the crystal&#x02019;s propagation speed, divided by two times the thickness of the crystal layer.&#x000a0;The typical thickness of crystal layers is between 0.2mm and 2mm. The bandwidth of a particular probe is the range of frequencies at which the probe will operate.</p>
+        <p>Transducers can both send and receive ultrasound waves by applying energy and, ultimately sound waves, in pulses.&#x000a0;The pulsatile nature of ultrasound waves produced facilitates the emission and reception of sound waves.&#x000a0;When incident pulses reflect off tissues, producing echoes, the device can detect the strength, direction, and timing of arriving echoes.<xref ref-type="bibr" rid="article-129467.r3">[3]</xref> The number of pulses produced in a single second is the pulsed repetition frequency (PRF), and the pulsed repetition period (PRP) is the time between the start of two pulses.&#x000a0;The PRF and PRP, like with period and frequency described above, are inversely related to one another. Higher PRF will equal greater image resolution but shallower depths, whereas higher PRP and increased &#x0201c;listening&#x0201d; time from the transducer will allow greater depth.<xref ref-type="bibr" rid="article-129467.r4">[4]</xref></p>
+        <p>Typical transducers used in clinical ultrasound include linear array, phased array, and curvilinear array, which has multiple configurations and frequencies depending on the application needed. The transducer face&#x02019;s crystals and structure's arrangement determine the area and shape of the image produced. Linear arrays have flat faces that produce a rectangular image. Phased arrays have crystal configurations and power sequences that steer beams from a single point to create a sector image ideal for scanning between ribs.<xref ref-type="bibr" rid="article-129467.r7">[7]</xref> Curvilinear arrays have curved surfaces of various radii that also can be used across multiple bandwidths depending on the application desired. For example, low-frequency curvilinear transducers are often used for abdominal exams because of the deep penetration and wide field of view. In contrast, high-frequency endocavitary curvilinear transducers are used for female pelvic exams due to their high resolution and small footprints.</p>
+        <p>
+<bold>Managing Images</bold>
+</p>
+        <p>
+<bold>Frequency</bold>
+</p>
+        <p>Selecting a probe with the appropriate bandwidth is an essential consideration to ideal image acquisition. For general scanning presets, machines are often set to &#x0201c;GEN,&#x0201d; or general, typically the middle range for the probe bandwidth. If higher resolution is required to evaluate a structure, the frequency can be increased on the machine directly or using available &#x0201c;RES&#x0201d; for resolution. The increased frequency will sacrifice penetration depth. The reverse is true if greater penetration is needed. Frequency is decreased directly or by using the &#x0201c;PEN&#x0201d; or penetration setting.</p>
+        <p>
+<bold>Gain</bold>
+</p>
+        <p>When attenuation must be managed, either because a target is too bright or too dark, power can be increased or decreased either throughout the entirety of the image or at specified depths. Gain increases will add power to combat attenuation by increasing the brightness.<xref ref-type="bibr" rid="article-129467.r5">[5]</xref> Gain decreases lower the power and the overall brightness. When images are over-gained or under-gained, the resolution worsens.</p>
+        <p>
+<bold>Time Gain Compensation</bold>
+</p>
+        <p>Time gain compensation refers to power controls at specific image depths to combat the attenuation with depth.&#x000a0;This helps improve deep structure imaging, mainly if deep tissue is subject to posterior acoustic enhancement.&#x000a0;This feature is often seen with &#x0201c;slider bars&#x0201d; seen on the ultrasound console.</p>
+        <p>
+<bold>Depth of Field</bold>
+</p>
+        <p>The depth of field is the depth to which sound beams are transmitted and received. Depth is altered on display to optimize the power and temporal resolution of the machine to view target structures.<xref ref-type="bibr" rid="article-129467.r4">[4]</xref> The depth must be significant enough to see deep structures when needed and shallow enough to see shallow structures with adequate resolution. When depth is set too deep for superficial examinations, the target structure image&#x02019;s quality is degraded.</p>
+        <p>
+<bold>Focal Point and Resolution</bold>
+</p>
+        <p>Ultrasound beams leave the transducer at the same width as the face.&#x000a0;They travel through the near zone before narrowing at a focal zone and widening in the far zone.&#x000a0;The resolution, or the ability to discern two closely situated objects, and lateral resolution is best in the focal zone.&#x000a0;Spatial resolution can also be improved with higher frequencies, smaller pulse repetition frequencies, and short pulse duration.&#x000a0;The axial resolution, or the ability to discern two structures in the path of the beam, is generally better than lateral resolution, or the ability to distinguish two side-by-side structures due to ultrasound beams being shorter than they are wide.&#x000a0;Lateral resolution is greatest at the focal point where the beam width is most narrow.&#x000a0;Temporal resolution, or the time the machine takes to create an image, is inversely related to the frame rate.&#x000a0;Higher frame rates produce lower resolution images, and lower frame rates have higher resolution images.&#x000a0;Frame rates of at least 15 frames per second produce real-time images.<xref ref-type="bibr" rid="article-129467.r6">[6]</xref> Temporal resolution is most important with moving objects, and if the frame rate is too low, supporting a high temporal resolution, the ability to detect motion diminishes.&#x000a0;Additional augmentation tools, such as microbubbles, add resolution capability by strongly reflecting ultrasound beams, particularly in vasculature.<xref ref-type="bibr" rid="article-129467.r8">[8]</xref></p>
+        <p>
+<bold>Multibeam</bold>
+</p>
+        <p>Modern ultrasound transducers are created to send ultrasound signals out at multiple angles across the probe&#x02019;s face. They produce multiple angles of incidence that have multiple angles of reflection back to the probe receiver. This helps to improve image quality, especially around structures that would otherwise be prone to refraction artifacts.</p>
+        <p>
+<bold>Tissue Harmonics</bold>
+</p>
+        <p>Tissue harmonics refers to tissue&#x02019;s tendency to resonate at multiples of the incident frequency transmitted by the probe.&#x000a0;For example, when 3MHz waves are transmitted to tissue, the tissue will resonate at 3MHz, 6MHz, and 9MHz. Transducers can be set to receive the incident frequency and the harmonic frequencies, combining them to create a higher resolution image.&#x000a0;Using tissue harmonics settings also assists in reducing artifacts.</p>
+        <p>
+<bold>M-Mode</bold>
+</p>
+        <p>M-Mode, or time-motion display, allows a single beam to emit from the transducer along a defined track in conjunction with a recorder that captures all motion that occurs along the path.&#x000a0;This mode allows high temporal resolution, thus affording the examiner an excellent view of subtle motions.<xref ref-type="bibr" rid="article-129467.r5">[5]</xref> Clinically, this mode is ideal for capturing vessel diameter changes, movement of cardiac valves, and detecting fetal heartbeats. See <bold>Image.</bold> M-Mode or Time-Motion Display.</p>
+        <p>
+<bold>Artifacts</bold>
+</p>
+        <p>Artifacts are image errors that are interpreted by the ultrasound machine related to the physics principles discussed previously. They are often the result of assumptions that ultrasound waves always travel in straight lines, that all tissue transmits sound at 1540 m/sec, and that waves are always reflected in the transducer directly.<xref ref-type="bibr" rid="article-129467.r9">[9]</xref>&#x000a0;Understanding artifacts' nature is vital to sonographers and those interpreting images because artifacts are often used as clues to detect specific pathologic findings.</p>
+        <p>
+<bold>Reverberations</bold>
+</p>
+        <p>Reverberation artifacts result from sound waves bouncing between a smooth reflector and the transducer face.<xref ref-type="bibr" rid="article-129467.r10">[10]</xref>&#x000a0;These appear as regularly spaced lines at intervals equal to the distance between the transducer and the structure.&#x000a0;Common, normal findings resulting from reverberation artifact are &#x0201c;A lines&#x0201d; in lung fields.</p>
+        <p>
+<bold>Posterior Acoustic Enhancement</bold>
+</p>
+        <p>Fluid has a higher propagation rate and less attenuation than soft tissue. As a result, sound waves travel to and return from tissue deep to fluid-filled structures faster than sound waves in adjacent, non-fluid-filled structures.<xref ref-type="bibr" rid="article-129467.r10">[10]</xref> When transducers receive sound more quickly and with higher intensity, the image produced behind the fluid-filled structure will appear bright compared to surrounding tissue.&#x000a0;The hyperechoic signal may obscure detail in the tissue. A common application to illustrate posterior acoustic enhancement is bladder ultrasound, where time gain compensation must often be decreased to best evaluate tissues deep into the bladder. Unexpected posterior acoustic enhancement can also be a diagnostic clue that fluid is present in locations representing pathologic processes, such as in the abdomen or pleural space. See <bold>Image.</bold>&#x000a0;Posterior&#x000a0;Acoustic&#x000a0;Enhancement&#x000a0;Artifact&#x000a0;Behind the Eye.</p>
+        <p>
+<bold>Shadows</bold>
+</p>
+        <p>Structures of high density are highly reflective, returning the majority of sound waves to the transducer and allowing almost no waves to penetrate deep tissues.<xref ref-type="bibr" rid="article-129467.r3">[3]</xref> The resulting structure image shows a bright, hyperechoic line or density with a dark, hypoechoic shadow behind it (see <bold>Image.</bold> Hyperechoic Reflection with Deep Shadowing).&#x000a0;Bone, metal, plastic, wood, glass, and calcium stones are of&#x000a0;sufficient&#x000a0;density to be so reflective and create &#x0201c;clean&#x0201d; shadows deep (see <bold>Image.</bold> Gallbladder Short Axis With Stones).&#x000a0;On the other hand, while not dense, air also does not transmit ultrasound waves to deep structures.&#x000a0;Air interfaces are also highly reflective but typically create less discernible shadows. Air interfaces with shadowing are typically noted in the lungs and within the bowels and may be referred to as "dirty" shadows.</p>
+        <p>
+<bold>Mirror</bold>
+</p>
+        <p>When sound bounces off a strong, smooth reflector, the transducer may reflect the pulsed wave that causes the machine to believe that the tissue interface is deep and is the same as the tissue interface to the superficial structure.<xref ref-type="bibr" rid="article-129467.r3">[3]</xref><xref ref-type="bibr" rid="article-129467.r10">[10]</xref>&#x000a0;This is commonly seen with viewing the diaphragm through the liver, where machines will display the liver below and above the diaphragm. See <bold>Image.</bold> Mirror Artifact.</p>
+        <p>
+<bold>Ring Down</bold>
+</p>
+        <p>Ring down artifacts occurs when tiny bubbles or crystals resonate at the same frequency as the emitted ultrasound frequency, which emits waves of their own.&#x000a0;Sound received from these arrives after the original echoes and is interpreted by the machine as deep structures.<xref ref-type="bibr" rid="article-129467.r3">[3]</xref> The resulting artifact appears as a hyperechoic line deep to the offending structure, often referred to as comet tails.&#x000a0;Ring down artifacts&#x000a0;is of diagnostic utility for cases of adenomyomatosis of the gallbladder when the gallbladder walls are infiltrated with cholesterol crystals.<xref ref-type="bibr" rid="article-129467.r10">[10]</xref></p>
+        <p>
+<bold>Refraction</bold>
+</p>
+        <p>Refraction artifacts, often referred to as edge artifacts, occur when incident ultrasound waves interact with structure interfaces at angles other than 90 degrees.&#x000a0;The difference in structure density promotes the refraction or bending of sound waves off the surface. The result is that echoes do not return to the transducer from an area expected to reflect echoes, and thus a shadow is produced.<xref ref-type="bibr" rid="article-129467.r9">[9]</xref> This artifact is commonly seen when viewing round structures, such as the gallbladder, where shadows will follow the edges, corresponding to the walls as fanning occurs through it.</p>
+      </sec>
+      <sec id="article-129467.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Diagnostic ultrasound is a powerful, minimally-invasive tool that improves the diagnostic accuracy of clinical examinations when employed at the bedside. Understanding ultrasound physics is critical to image acquisition, image optimization, image interpretation, and ultimately clinical integration. Once aware of ultrasound principles and how machines use them to manipulate sound waves, sonographers can best utilize the available tools to optimize the clinical utility of diagnostic ultrasound.&#x000a0;</p>
+        <p>Specifically, the ability to discern normal from pathologic findings also requires understanding how sound waves interact with different tissues and how primary ultrasound functions are used to best display the differentiation. Sonographers who examine patients without applying ultrasound physics principles at the bedside competently will struggle to leverage the technology for timely and accurate diagnosis.</p>
+      </sec>
+      <sec id="article-129467.s4">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=129467&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=129467">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/129467/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=129467">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-129467.s5">
+        <fig id="article-129467.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Gallbladder Short Axis With Stones Contributed by S Grogan, DO</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="short__axis__gb__w__stones" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-129467.s6">
+        <fig id="article-129467.image.f2" position="float" orientation="portrait">
+          <caption>
+            <p>Mirror Artifact. The image shows a mirror artifact along the anterior tibia behind a developing hematoma. Contributed by S Grogan, DO</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Mirror__Artifact__Tibia__Behind__Hematoma" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-129467.s7">
+        <fig id="article-129467.image.f3" position="float" orientation="portrait">
+          <caption>
+            <p>Posterior Acoustic Enhancement Artifact Behind the Eye. Structures behind a fluid-filled structure appear brighter than the tissue immediately adjacent due to the higher speed of sound waves traveling through fluid. Contributed by S Grogan, DO</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="posterior__acoustic__enhancement__eye" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-129467.s8">
+        <fig id="article-129467.image.f4" position="float" orientation="portrait">
+          <caption>
+            <p>M-Mode or Time-Motion Display. M-Mode shows motion through a single beam path. In this case, the inferior vena cava shows subtle collapsibility that is more difficult to discern without M-Mode. Contributed by S Grogan, DO</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="IVC__M-Mode" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-129467.s9">
+        <fig id="article-129467.image.f5" position="float" orientation="portrait">
+          <caption>
+            <p>Hyperechoic Reflection with Deep Shadowing. The intrauterine device on the short axis displays hyperechoic reflection with deep shadowing. Contributed by S Grogan, DO</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="IUD__short__axis__still" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-129467.s10">
+        <title>References</title>
+        <ref id="article-129467.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <article-title>AIUM Curriculum for Fundamentals of Ultrasound Physics and Instrumentation.</article-title>
+            <source>J Ultrasound Med</source>
+            <year>2019</year>
+            <month>Aug</month>
+            <volume>38</volume>
+            <issue>8</issue>
+            <fpage>1933</fpage>
+            <page-range>1933-1935</page-range>
+            <pub-id pub-id-type="pmid">31318485</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-129467.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <article-title>Curriculum for Fundamentals of Ultrasound in Clinical Practice.</article-title>
+            <source>J Ultrasound Med</source>
+            <year>2019</year>
+            <month>Aug</month>
+            <volume>38</volume>
+            <issue>8</issue>
+            <fpage>1937</fpage>
+            <page-range>1937-1950</page-range>
+            <pub-id pub-id-type="pmid">31318483</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-129467.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Aldrich</surname>
+                <given-names>JE</given-names>
+              </name>
+            </person-group>
+            <article-title>Basic physics of ultrasound imaging.</article-title>
+            <source>Crit Care Med</source>
+            <year>2007</year>
+            <month>May</month>
+            <volume>35</volume>
+            <issue>5 Suppl</issue>
+            <fpage>S131</fpage>
+            <page-range>S131-7</page-range>
+            <pub-id pub-id-type="pmid">17446771</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-129467.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Shriki</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Ultrasound physics.</article-title>
+            <source>Crit Care Clin</source>
+            <year>2014</year>
+            <month>Jan</month>
+            <volume>30</volume>
+            <issue>1</issue>
+            <fpage>1</fpage>
+            <page-range>1-24, v</page-range>
+            <pub-id pub-id-type="pmid">24295839</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-129467.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lawrence</surname>
+                <given-names>JP</given-names>
+              </name>
+            </person-group>
+            <article-title>Physics and instrumentation of ultrasound.</article-title>
+            <source>Crit Care Med</source>
+            <year>2007</year>
+            <month>Aug</month>
+            <volume>35</volume>
+            <issue>8 Suppl</issue>
+            <fpage>S314</fpage>
+            <page-range>S314-22</page-range>
+            <pub-id pub-id-type="pmid">17667455</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-129467.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lieu</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Ultrasound physics and instrumentation for pathologists.</article-title>
+            <source>Arch Pathol Lab Med</source>
+            <year>2010</year>
+            <month>Oct</month>
+            <volume>134</volume>
+            <issue>10</issue>
+            <fpage>1541</fpage>
+            <page-range>1541-56</page-range>
+            <pub-id pub-id-type="pmid">20923312</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-129467.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fischetti</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Scott</surname>
+                <given-names>RC</given-names>
+              </name>
+            </person-group>
+            <article-title>Basic ultrasound beam formation and instrumentation.</article-title>
+            <source>Clin Tech Small Anim Pract</source>
+            <year>2007</year>
+            <month>Aug</month>
+            <volume>22</volume>
+            <issue>3</issue>
+            <fpage>90</fpage>
+            <page-range>90-2</page-range>
+            <pub-id pub-id-type="pmid">17844814</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-129467.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cox</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Beard</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Imaging techniques: Super-resolution ultrasound.</article-title>
+            <source>Nature</source>
+            <year>2015</year>
+            <month>Nov</month>
+            <day>26</day>
+            <volume>527</volume>
+            <issue>7579</issue>
+            <fpage>451</fpage>
+            <page-range>451-2</page-range>
+            <pub-id pub-id-type="pmid">26607538</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-129467.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Quien</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Saric</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Ultrasound imaging artifacts: How to recognize them and how to avoid them.</article-title>
+            <source>Echocardiography</source>
+            <year>2018</year>
+            <month>Sep</month>
+            <volume>35</volume>
+            <issue>9</issue>
+            <fpage>1388</fpage>
+            <page-range>1388-1401</page-range>
+            <pub-id pub-id-type="pmid">30079966</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-129467.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Prabhu</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <name>
+                <surname>Kanal</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Bhargava</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Vaidya</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Dighe</surname>
+                <given-names>MK</given-names>
+              </name>
+            </person-group>
+            <article-title>Ultrasound artifacts: classification, applied physics with illustrations, and imaging appearances.</article-title>
+            <source>Ultrasound Q</source>
+            <year>2014</year>
+            <month>Jun</month>
+            <volume>30</volume>
+            <issue>2</issue>
+            <fpage>145</fpage>
+            <page-range>145-57</page-range>
+            <pub-id pub-id-type="pmid">24850030</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

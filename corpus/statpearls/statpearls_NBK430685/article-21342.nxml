@@ -1,0 +1,1381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-21342" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Esophageal pH Monitoring</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Butt</surname>
+            <given-names>Ifrah</given-names>
+          </name>
+          <aff>Aventura Hospital and Medical Center</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Kasmin</surname>
+            <given-names>Franklin</given-names>
+          </name>
+          <aff>Mount Sinai School of Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Ifrah Butt declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Franklin Kasmin declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>6</day>
+          <month>2</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-21342.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Gastroesophageal reflux disease (GERD) is a common disorder of the gastrointestinal tract characterized by the retrograde movement of gastric contents into the esophagus or mouth, causing discomfort or complications.<xref ref-type="bibr" rid="article-21342.r1">[1]</xref> Population-based studies have identified GERD as one of the most common upper gastrointestinal tract disorders, with a prevalence of about 20% in the United States.<xref ref-type="bibr" rid="article-21342.r2">[2]</xref> Patients may present with typical symptoms, including heartburn or regurgitation, or atypical symptoms such as cough, asthma, hoarseness, chronic laryngitis, throat-clearing, chest pain, dyspepsia, and nausea.<xref ref-type="bibr" rid="article-21342.r3">[3]</xref>&#x000a0;</p>
+        <p>Typically, GERD is diagnosed clinically and&#x000a0;treated with a trial of proton-pump inhibitor (PPI) therapy. Relief of heartburn and regurgitation after a 6- to 8-week trial of PPI therapy is a reliable indicator of GERD. This approach has a sensitivity of 78% and a specificity of 54%; hence, a negative trial does not rule out GERD.<xref ref-type="bibr" rid="article-21342.r4">[4]</xref> However, this is a cost-effective approach to diagnosing GERD rather than proceeding directly to endoscopic or alternative diagnostic testing.<xref ref-type="bibr" rid="article-21342.r5">[5]</xref> If patients present with alarm features (ie, new-onset dyspepsia at age greater than 60, gastrointestinal bleeding, dysphagia, odynophagia, weight loss, anemia, persistent vomiting), a trial of PPI therapy is not necessary, and the work-up should directly proceed to early endoscopy.<xref ref-type="bibr" rid="article-21342.r3">[3]</xref></p>
+        <p>Ambulatory esophageal pH testing is performed using a wireless pH capsule or a traditional pH probe and is the gold standard for diagnosing GERD.<xref ref-type="bibr" rid="article-21342.r3">[3]</xref> Some patients with typical or atypical GERD symptoms have a normal upper endoscopy and normal ambulatory esophageal pH testing but are unresponsive to standard PPI therapy. Ambulatory pH testing does not detect all types of reflux, especially when the refluxate contains little or no acid.<xref ref-type="bibr" rid="article-21342.r6">[6]</xref> It relies on intraesophageal pH &#x0003c;4 as a marker of the presence of gastric contents in the esophagus to diagnose gastroesophageal reflux (GER) episodes. Hence, it has limited utility for detecting episodes in which the pH fails to fall below 4.<xref ref-type="bibr" rid="article-21342.r7">[7]</xref></p>
+        <p>A recent technique combining multichannel intraluminal impedance (MII) testing with pH testing enables detailed characterization of the refluxate, including its physical and chemical properties.<xref ref-type="bibr" rid="article-21342.r2">[2]</xref>&#x000a0;The MII detects the intraluminal bolus movement within the esophagus via the strategic placement of a catheter. It can, in combination with pH testing, characterize whether the bolus consists of liquid, gas, or mixed components, as well as its pH.<xref ref-type="bibr" rid="article-21342.r2">[2]</xref></p>
+      </sec>
+      <sec id="article-21342.s2" sec-type="Specimen Collection">
+        <title>Specimen Collection</title>
+        <p>No specific specimen is collected. The study lasts for 24 hours, and once it is complete, the recording unit is returned to the provider. The information is downloaded to a computer, and subsequent data analysis is performed using software.<xref ref-type="bibr" rid="article-21342.r8">[8]</xref></p>
+      </sec>
+      <sec id="article-21342.s3" sec-type="Procedures">
+        <title>Procedures</title>
+        <p>Patient Protocol</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Instructed to fast for 4 to 6 hours before probe insertion.</p>
+          </list-item>
+          <list-item>
+            <p>Provided with a diary to record: time of the meal, the content of the meal, time of upright and recumbent periods, time of administration of acid-suppressing medication, time of symptom occurrence.</p>
+          </list-item>
+          <list-item>
+            <p>No clear guidelines on dietary restrictions exist; they vary from provider to provider.</p>
+          </list-item>
+          <list-item>
+            <p>Patients are encouraged to continue their usual eating habits or engage in ordinary activities that are known to induce symptoms.<xref ref-type="bibr" rid="article-21342.r7">[7]</xref><xref ref-type="bibr" rid="article-21342.r8">[8]</xref>&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>Testing On/Off PPI therapy</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>The decision to perform testing on or off PPI therapy depends on the indication for testing.</p>
+          </list-item>
+          <list-item>
+            <p>If a patient has a known history of GERD that is refractory to treatment and the indication for MII-pH testing is to diagnose weakly acidic (non-acidic) reflux, PPI therapy should continue. Usually, patients remain on high-dose acid-suppressive therapy for at least&#x000a0;1 week before testing and on the day of testing.</p>
+          </list-item>
+          <list-item>
+            <p>If it is unclear whether GERD is the cause of a patient&#x02019;s symptoms, MII-pH testing is done off PPI therapy to detect acid reflux events.<xref ref-type="bibr" rid="article-21342.r9">[9]</xref><xref ref-type="bibr" rid="article-21342.r10">[10]</xref></p>
+          </list-item>
+        </list>
+        <p>Insertion Technique</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>The MII-pH probe placement is transnasally into the esophagus.</p>
+          </list-item>
+          <list-item>
+            <p>The probes are 2.1 mm in diameter and allow for pH sensors to be placed 5 cm superior to the lower esophageal sphincter (LES) and 10 cm below the LES. Impedance measurements are taken at various segments throughout the esophagus, with&#x000a0;4 impedance-measuring segments in the distal esophagus (3, 5, 7, and 9 cm above the LES) and&#x000a0;2 segments in the proximal esophagus (at 15 and 17 cm above the LES).</p>
+          </list-item>
+          <list-item>
+            <p>Testing typically lasts 24 hours, and once the study is complete, the recording unit is returned to the provider.</p>
+          </list-item>
+          <list-item>
+            <p>Subsequent data analysis is conducted using software.<xref ref-type="bibr" rid="article-21342.r7">[7]</xref><xref ref-type="bibr" rid="article-21342.r8">[8]</xref></p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-21342.s4" sec-type="Indications">
+        <title>Indications</title>
+        <p>Clinical indications for combined MII-pH testing include:</p>
+        <list list-type="order">
+          <list-item>
+            <p>To quantify and characterize gastroesophageal reflux in patients who have had a minimal or lack of response to acid-suppressive therapy with a proton pump inhibitor (PPI) and who have normal endoscopic findings.</p>
+          </list-item>
+          <list-item>
+            <p>To evaluate patients with atypical gastroesophageal reflux symptoms</p>
+          </list-item>
+          <list-item>
+            <p>To evaluate patients with reflux symptoms and achlorhydria (ie, atrophic gastritis)</p>
+          </list-item>
+          <list-item>
+            <p>To evaluate patients with reflux symptoms after surgical gastrectomy</p>
+          </list-item>
+          <list-item>
+            <p>To evaluate patients with primary postprandial symptoms</p>
+          </list-item>
+          <list-item>
+            <p>To evaluate patients with reflux symptoms and frequent meal ingestion (ie, infants)&#x000a0;<xref ref-type="bibr" rid="article-21342.r7">[7]</xref><xref ref-type="bibr" rid="article-21342.r9">[9]</xref><xref ref-type="bibr" rid="article-21342.r11">[11]</xref><xref ref-type="bibr" rid="article-21342.r12">[12]</xref><xref ref-type="bibr" rid="article-21342.r13">[13]</xref></p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-21342.s5" sec-type="Potential Diagnosis">
+        <title>Potential Diagnosis</title>
+        <p>Types of Reflux</p>
+        <list list-type="order">
+          <list-item>
+            <p>Acidic: pH &#x0003c; 4</p>
+          </list-item>
+          <list-item>
+            <p>Weakly acidic: pH 4&#x000a0;to 7</p>
+          </list-item>
+          <list-item>
+            <p>Weakly alkaline: pH &#x0003e;7&#x000a0;<xref ref-type="bibr" rid="article-21342.r6">[6]</xref><xref ref-type="bibr" rid="article-21342.r14">[14]</xref></p>
+          </list-item>
+        </list>
+        <p>Causes</p>
+        <p>Insufficient Acid Suppression</p>
+        <p>Medication-related factors</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Poor compliance with PPI timing (ie, not taking PPI 30-60 minutes before breakfast as instructed), or poor medication adherence.<xref ref-type="bibr" rid="article-21342.r15">[15]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Certain populations with CYP2C19 mutations may be slow or rapid metabolizers of PPIs, which could ultimately affect the duration of action. Rapid metabolizers could be classified into the group with &#x0201c;PPI failure.&#x0201d;<xref ref-type="bibr" rid="article-21342.r16">[16]</xref></p>
+          </list-item>
+        </list>
+        <p>Residual acid reflux</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Research has noted residual acid reflux in some patients despite being on PPI therapy. However, some patients respond better to twice-daily therapy rather than once-daily therapy. In a retrospective study done on 135 patients with typical GERD symptoms refractory to once or twice daily PPI therapy, results were abnormal in 31% and 4%, respectively.<xref ref-type="bibr" rid="article-21342.r17">[17]</xref></p>
+          </list-item>
+        </list>
+        <p>Weakly acidic or alkaline reflux</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Usually occurs in the postprandial period due to transient lower esophageal sphincter relaxation occurring more often following meal-induced gastric fundus distension.</p>
+          </list-item>
+          <list-item>
+            <p>Individuals on PPI therapy - the PPI reduces the acidity level in the stomach; however, the patient continues to have reflux due to structural and motility abnormalities.</p>
+          </list-item>
+          <list-item>
+            <p>Individuals on PPI therapy usually experience symptoms that occur when the food contents buffer gastric acid in the postprandial period, and there is transient lower esophageal sphincter relaxation.<xref ref-type="bibr" rid="article-21342.r18">[18]</xref><xref ref-type="bibr" rid="article-21342.r19">[19]</xref></p>
+          </list-item>
+        </list>
+        <p>Reflux Hypersensitivity</p>
+        <p>The diagnosis is made when all of the Rome IV criteria are met for the last&#x000a0;3 months, with symptomatic onset at least&#x000a0;6 months before the diagnosis:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Retrosternal symptoms, including heartburn or chest pain.</p>
+          </list-item>
+          <list-item>
+            <p>Normal endoscopy and eosinophilic esophagitis have been excluded as causes.</p>
+          </list-item>
+          <list-item>
+            <p>Absence of major esophageal motor disorders.</p>
+          </list-item>
+          <list-item>
+            <p>Reflux events trigger symptoms despite normal acid exposure, as assessed by pH or pH-impedance monitoring.<xref ref-type="bibr" rid="article-21342.r20">[20]</xref></p>
+          </list-item>
+        </list>
+        <p>Functional Heartburn</p>
+        <p>The diagnosis is made when all of the Rome IV criteria listed below are met over the past 3 months, with symptomatic onset at least 6 months before diagnosis, and with&#x000a0;a frequency of at least twice per week.<xref ref-type="bibr" rid="article-21342.r21">[21]</xref>&#x000a0;Diagnostic criteria for functional heartburn include:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Burning retrosternal discomfort or pain</p>
+          </list-item>
+          <list-item>
+            <p>No symptom relief despite optimal anti-secretory therapy</p>
+          </list-item>
+          <list-item>
+            <p>Absence of evidence that GERD or eosinophilic esophagitis is the cause of the symptoms</p>
+          </list-item>
+          <list-item>
+            <p>Lack of major esophageal motor disorders (achalasia, esophagogastric junction outflow obstruction, distal esophageal spasm, jackhammer esophagus, absent contractility)</p>
+          </list-item>
+        </list>
+        <p>Alternative Diagnosis</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Achalasia</p>
+          </list-item>
+          <list-item>
+            <p>Eosinophilic esophagitis</p>
+          </list-item>
+          <list-item>
+            <p>Pill-induced esophagitis</p>
+          </list-item>
+          <list-item>
+            <p>Gastroparesis</p>
+          </list-item>
+          <list-item>
+            <p>Stricture</p>
+          </list-item>
+          <list-item>
+            <p>Malignancy</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-21342.s6" sec-type="Normal and Critical Findings">
+        <title>Normal and Critical Findings</title>
+        <p>The overall interpretation of the study is based on normal data obtained from healthy volunteers, which serve to establish reference values.<xref ref-type="bibr" rid="article-21342.r22">[22]</xref> Because acid-suppressive therapy alters the ratio of acid versus non-acid reflux episodes in the postprandial period&#x000a0;and reduces the total number of reflux episodes, different normal values are utilized when interpreting the total number of reflux episodes &#x0201c;on&#x0201d; and &#x0201c;off&#x0201d; acid-suppressive therapy.<xref ref-type="bibr" rid="article-21342.r18">[18]</xref><xref ref-type="bibr" rid="article-21342.r23">[23]</xref></p>
+        <p>The symptom index and symptom association probability are&#x000a0;2 indices used to assess the association between a patient&#x02019;s symptoms and gastroesophageal reflux episodes (acid and non-acid).<xref ref-type="bibr" rid="article-21342.r24">[24]</xref> The symptom index quantifies the overall strength of the association between symptoms and reflux episodes, and the symptom association probability assesses whether this association is attributable to chance.<xref ref-type="bibr" rid="article-21342.r3">[3]</xref>&#x000a0;</p>
+        <p>Symptom index: number of symptoms associated with reflux occurring in the preceding 5-minute interval divided by the total number of symptoms recorded by the patient during the monitoring period.<xref ref-type="bibr" rid="article-21342.r24">[24]</xref></p>
+        <list list-type="bullet">
+          <list-item>
+            <p>A symptom index greater than 50% is considered a positive test (ie, more than half of the total number of reflux events were symptomatic). In this case, patients are considered to have symptomatic gastroesophageal reflux on PPI therapy.</p>
+          </list-item>
+          <list-item>
+            <p>A symptom index of less than 50% is considered to be a negative test. In this case, patients are considered to have persistent symptoms while on PPI therapy due to causes other than gastroesophageal reflux.</p>
+          </list-item>
+        </list>
+        <p>Symptom association probability (SAP): The total measuring time is divided into 2-minute intervals. A contingency table with&#x000a0;4 fields listed below assesses correlation with Fisher's exact test.<xref ref-type="bibr" rid="article-21342.r25">[25]</xref>&#x000a0;</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Number of intervals with GER and symptoms</p>
+          </list-item>
+          <list-item>
+            <p>Number of intervals with GER without symptoms</p>
+          </list-item>
+          <list-item>
+            <p>Number of intervals without GER and with symptoms</p>
+          </list-item>
+          <list-item>
+            <p>Number of intervals without both GER and symptoms</p>
+          </list-item>
+        </list>
+        <p>A positive SAP (greater than 95%) is considered statistically significant and is interpreted as an adequate temporal association between GER and the recorded symptom.<xref ref-type="bibr" rid="article-21342.r25">[25]</xref></p>
+      </sec>
+      <sec id="article-21342.s7" sec-type="Interfering Factors">
+        <title>Interfering Factors</title>
+        <p>Although MII-pH testing is a valuable tool for assessing and diagnosing GERD-related symptoms, it has limitations and drawbacks.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>There is a day-to-day variability of the test.<xref ref-type="bibr" rid="article-21342.r26">[26]</xref><xref ref-type="bibr" rid="article-21342.r27">[27]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Assessment of the reflux-symptom correlation relies on the symptom index and SAP indices; however, the validity of these indices remains uncertain.<xref ref-type="bibr" rid="article-21342.r2">[2]</xref></p>
+          </list-item>
+          <list-item>
+            <p>When assessing PPI therapy, MII-pH findings do not always predict the response to PPIs in patients with typical reflux-related symptoms.<xref ref-type="bibr" rid="article-21342.r28">[28]</xref></p>
+          </list-item>
+          <list-item>
+            <p>The inability to assess the volume of refluxate.<xref ref-type="bibr" rid="article-21342.r8">[8]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Difficulty in measuring changes in impedance in patients who have a low baseline impedance (ie, Barrett esophagus, severe esophagitis, poor esophageal motility).<xref ref-type="bibr" rid="article-21342.r2">[2]</xref><xref ref-type="bibr" rid="article-21342.r8">[8]</xref></p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-21342.s8" sec-type="Complications">
+        <title>Complications</title>
+        <p>Complications of MII-pH testing include bleeding, infection, and trauma to the nasopharynx or esophagus.&#x000a0;</p>
+      </sec>
+      <sec id="article-21342.s9" sec-type="Patient Safety and Education">
+        <title>Patient Safety and Education</title>
+        <p>The procedure is relatively safe; however, transnasal catheter placement may cause nasopharyngeal discomfort. It may also alter a patient's usual activities, including food and fluid intake. Despite this, patients are usually able to complete the entire 24-hour examination. Before the procedure, patients should receive counseling on expectations for the day of the examination and on how and what to log in a diary.<xref ref-type="bibr" rid="article-21342.r7">[7]</xref><xref ref-type="bibr" rid="article-21342.r8">[8]</xref>&#x000a0;The contraindications to transnasal MII catheter placement include prior nasal surgery or trauma, concurrent anticoagulant therapy, or coagulopathy. Safety data on the use of impedance in patients with implantable cardiac defibrillators and pacemakers are yet to be studied.<xref ref-type="bibr" rid="article-21342.r8">[8]</xref></p>
+      </sec>
+      <sec id="article-21342.s10" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>In conclusion, MII-pH is a useful tool for diagnosing GERD, as it more accurately detects variations in refluxate composition across pH levels than pH metering alone. It has a high sensitivity in identifying all types of reflux episodes.<xref ref-type="bibr" rid="article-21342.r29">[29]</xref>&#x000a0;This data collection enables the provider to be better equipped with information to personalize treatment for the patient based on the underlying cause of their symptoms.&#x000a0;</p>
+      </sec>
+      <sec id="article-21342.s11">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=21342&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=21342">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/21342/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=21342">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-21342.s12">
+        <title>References</title>
+        <ref id="article-21342.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Richter</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>Rubenstein</surname>
+                <given-names>JH</given-names>
+              </name>
+            </person-group>
+            <article-title>Presentation and Epidemiology of Gastroesophageal Reflux&#x000a0;Disease.</article-title>
+            <source>Gastroenterology</source>
+            <year>2018</year>
+            <month>Jan</month>
+            <volume>154</volume>
+            <issue>2</issue>
+            <fpage>267</fpage>
+            <page-range>267-276</page-range>
+            <pub-id pub-id-type="pmid">28780072</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>de Bortoli</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Martinucci</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Bertani</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Russo</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Franchi</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Furnari</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Tolone</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Bodini</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Bolognesi</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Bellini</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Savarino</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Marchi</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Savarino</surname>
+                <given-names>EV</given-names>
+              </name>
+            </person-group>
+            <article-title>Esophageal testing: What we have so far.</article-title>
+            <source>World J Gastrointest Pathophysiol</source>
+            <year>2016</year>
+            <month>Feb</month>
+            <day>15</day>
+            <volume>7</volume>
+            <issue>1</issue>
+            <fpage>72</fpage>
+            <page-range>72-85</page-range>
+            <pub-id pub-id-type="pmid">26909230</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Alzubaidi</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gabbard</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>GERD: Diagnosing and treating the burn.</article-title>
+            <source>Cleve Clin J Med</source>
+            <year>2015</year>
+            <month>Oct</month>
+            <volume>82</volume>
+            <issue>10</issue>
+            <fpage>685</fpage>
+            <page-range>685-92</page-range>
+            <pub-id pub-id-type="pmid">26469826</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Numans</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Lau</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>de Wit</surname>
+                <given-names>NJ</given-names>
+              </name>
+              <name>
+                <surname>Bonis</surname>
+                <given-names>PA</given-names>
+              </name>
+            </person-group>
+            <article-title>Short-term treatment with proton-pump inhibitors as a test for gastroesophageal reflux disease: a meta-analysis of diagnostic test characteristics.</article-title>
+            <source>Ann Intern Med</source>
+            <year>2004</year>
+            <month>Apr</month>
+            <day>06</day>
+            <volume>140</volume>
+            <issue>7</issue>
+            <fpage>518</fpage>
+            <page-range>518-27</page-range>
+            <pub-id pub-id-type="pmid">15068979</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fass</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Empirical trials in treatment of gastroesophageal reflux disease.</article-title>
+            <source>Dig Dis</source>
+            <year>2000</year>
+            <volume>18</volume>
+            <issue>1</issue>
+            <fpage>20</fpage>
+            <page-range>20-6</page-range>
+            <pub-id pub-id-type="pmid">10729734</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sifrim</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Fornari</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Esophageal impedance-pH monitoring.</article-title>
+            <source>Dig Liver Dis</source>
+            <year>2008</year>
+            <month>Mar</month>
+            <volume>40</volume>
+            <issue>3</issue>
+            <fpage>161</fpage>
+            <page-range>161-6</page-range>
+            <pub-id pub-id-type="pmid">18082474</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tutuian</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Castell</surname>
+                <given-names>DO</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical Applications of Esophageal Multichannel Intraluminal Impedance Testing.</article-title>
+            <source>Gastroenterol Hepatol (N Y)</source>
+            <year>2006</year>
+            <month>Apr</month>
+            <volume>2</volume>
+            <issue>4</issue>
+            <fpage>250</fpage>
+            <page-range>250-258</page-range>
+            <pub-id pub-id-type="pmid">28286455</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <collab>ASGE Technology Committee</collab>
+              <name>
+                <surname>Wang</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Pleskow</surname>
+                <given-names>DK</given-names>
+              </name>
+              <name>
+                <surname>Banerjee</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Barth</surname>
+                <given-names>BA</given-names>
+              </name>
+              <name>
+                <surname>Bhat</surname>
+                <given-names>YM</given-names>
+              </name>
+              <name>
+                <surname>Desilets</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Gottlieb</surname>
+                <given-names>KT</given-names>
+              </name>
+              <name>
+                <surname>Maple</surname>
+                <given-names>JT</given-names>
+              </name>
+              <name>
+                <surname>Pfau</surname>
+                <given-names>PR</given-names>
+              </name>
+              <name>
+                <surname>Siddiqui</surname>
+                <given-names>UD</given-names>
+              </name>
+              <name>
+                <surname>Tokar</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Song</surname>
+                <given-names>LM</given-names>
+              </name>
+              <name>
+                <surname>Rodriguez</surname>
+                <given-names>SA</given-names>
+              </name>
+            </person-group>
+            <article-title>Esophageal function testing.</article-title>
+            <source>Gastrointest Endosc</source>
+            <year>2012</year>
+            <month>Aug</month>
+            <volume>76</volume>
+            <issue>2</issue>
+            <fpage>231</fpage>
+            <page-range>231-43</page-range>
+            <pub-id pub-id-type="pmid">22657403</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hirano</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Richter</surname>
+                <given-names>JE</given-names>
+              </name>
+              <collab>Practice Parameters Committee of the American College of Gastroenterology</collab>
+            </person-group>
+            <article-title>ACG practice guidelines: esophageal reflux testing.</article-title>
+            <source>Am J Gastroenterol</source>
+            <year>2007</year>
+            <month>Mar</month>
+            <volume>102</volume>
+            <issue>3</issue>
+            <fpage>668</fpage>
+            <page-range>668-85</page-range>
+            <pub-id pub-id-type="pmid">17335450</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pritchett</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Aslam</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Slaughter</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>Ness</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Garrett</surname>
+                <given-names>CG</given-names>
+              </name>
+              <name>
+                <surname>Vaezi</surname>
+                <given-names>MF</given-names>
+              </name>
+            </person-group>
+            <article-title>Efficacy of esophageal impedance/pH monitoring in patients with refractory gastroesophageal reflux disease, on and off therapy.</article-title>
+            <source>Clin Gastroenterol Hepatol</source>
+            <year>2009</year>
+            <month>Jul</month>
+            <volume>7</volume>
+            <issue>7</issue>
+            <fpage>743</fpage>
+            <page-range>743-8</page-range>
+            <pub-id pub-id-type="pmid">19281866</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ford</surname>
+                <given-names>CN</given-names>
+              </name>
+            </person-group>
+            <article-title>Evaluation and management of laryngopharyngeal reflux.</article-title>
+            <source>JAMA</source>
+            <year>2005</year>
+            <month>Sep</month>
+            <day>28</day>
+            <volume>294</volume>
+            <issue>12</issue>
+            <fpage>1534</fpage>
+            <page-range>1534-40</page-range>
+            <pub-id pub-id-type="pmid">16189367</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Oelschlager</surname>
+                <given-names>BK</given-names>
+              </name>
+              <name>
+                <surname>Quiroga</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Isch</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Cuenca-Abente</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Gastroesophageal and pharyngeal reflux detection using impedance and 24-hour pH monitoring in asymptomatic subjects: defining the normal environment.</article-title>
+            <source>J Gastrointest Surg</source>
+            <year>2006</year>
+            <month>Jan</month>
+            <volume>10</volume>
+            <issue>1</issue>
+            <fpage>54</fpage>
+            <page-range>54-62</page-range>
+            <pub-id pub-id-type="pmid">16368491</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tutuian</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Mainie</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Agrawal</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Adams</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Castell</surname>
+                <given-names>DO</given-names>
+              </name>
+            </person-group>
+            <article-title>Nonacid reflux in patients with chronic cough on acid-suppressive therapy.</article-title>
+            <source>Chest</source>
+            <year>2006</year>
+            <month>Aug</month>
+            <volume>130</volume>
+            <issue>2</issue>
+            <fpage>386</fpage>
+            <page-range>386-91</page-range>
+            <pub-id pub-id-type="pmid">16899836</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sifrim</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Dupont</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Blondeau</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Tack</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Janssens</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Weakly acidic reflux in patients with chronic unexplained cough during 24 hour pressure, pH, and impedance monitoring.</article-title>
+            <source>Gut</source>
+            <year>2005</year>
+            <month>Apr</month>
+            <volume>54</volume>
+            <issue>4</issue>
+            <fpage>449</fpage>
+            <page-range>449-54</page-range>
+            <pub-id pub-id-type="pmid">15753524</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hungin</surname>
+                <given-names>AP</given-names>
+              </name>
+              <name>
+                <surname>Rubin</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>O'Flanagan</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Factors influencing compliance in long-term proton pump inhibitor therapy in general practice.</article-title>
+            <source>Br J Gen Pract</source>
+            <year>1999</year>
+            <month>Jun</month>
+            <volume>49</volume>
+            <issue>443</issue>
+            <fpage>463</fpage>
+            <page-range>463-4</page-range>
+            <pub-id pub-id-type="pmid">10562747</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Goldstein</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical relevance of genetic polymorphisms in the human CYP2C subfamily.</article-title>
+            <source>Br J Clin Pharmacol</source>
+            <year>2001</year>
+            <month>Oct</month>
+            <volume>52</volume>
+            <issue>4</issue>
+            <fpage>349</fpage>
+            <page-range>349-55</page-range>
+            <pub-id pub-id-type="pmid">11678778</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Charbel</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Khandwala</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Vaezi</surname>
+                <given-names>MF</given-names>
+              </name>
+            </person-group>
+            <article-title>The role of esophageal pH monitoring in symptomatic patients on PPI therapy.</article-title>
+            <source>Am J Gastroenterol</source>
+            <year>2005</year>
+            <month>Feb</month>
+            <volume>100</volume>
+            <issue>2</issue>
+            <fpage>283</fpage>
+            <page-range>283-9</page-range>
+            <pub-id pub-id-type="pmid">15667483</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vela</surname>
+                <given-names>MF</given-names>
+              </name>
+              <name>
+                <surname>Camacho-Lobato</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Srinivasan</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Tutuian</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Katz</surname>
+                <given-names>PO</given-names>
+              </name>
+              <name>
+                <surname>Castell</surname>
+                <given-names>DO</given-names>
+              </name>
+            </person-group>
+            <article-title>Simultaneous intraesophageal impedance and pH measurement of acid and nonacid gastroesophageal reflux: effect of omeprazole.</article-title>
+            <source>Gastroenterology</source>
+            <year>2001</year>
+            <month>Jun</month>
+            <volume>120</volume>
+            <issue>7</issue>
+            <fpage>1599</fpage>
+            <page-range>1599-606</page-range>
+            <pub-id pub-id-type="pmid">11375942</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Blonski</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Vela</surname>
+                <given-names>MF</given-names>
+              </name>
+              <name>
+                <surname>Castell</surname>
+                <given-names>DO</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparison of reflux frequency during prolonged multichannel intraluminal impedance and pH monitoring on and off acid suppression therapy.</article-title>
+            <source>J Clin Gastroenterol</source>
+            <year>2009</year>
+            <month>Oct</month>
+            <volume>43</volume>
+            <issue>9</issue>
+            <fpage>816</fpage>
+            <page-range>816-20</page-range>
+            <pub-id pub-id-type="pmid">19398927</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Aziz</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Fass</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Gyawali</surname>
+                <given-names>CP</given-names>
+              </name>
+              <name>
+                <surname>Miwa</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Pandolfino</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>Zerbib</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Functional Esophageal Disorders.</article-title>
+            <source>Gastroenterology</source>
+            <year>2016</year>
+            <month>Feb</month>
+            <day>15</day>
+            <pub-id pub-id-type="pmid">27144625</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yamasaki</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>O'Neil</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Fass</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Update on Functional Heartburn.</article-title>
+            <source>Gastroenterol Hepatol (N Y)</source>
+            <year>2017</year>
+            <month>Dec</month>
+            <volume>13</volume>
+            <issue>12</issue>
+            <fpage>725</fpage>
+            <page-range>725-734</page-range>
+            <pub-id pub-id-type="pmid">29339948</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Shay</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Tutuian</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Sifrim</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Vela</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Wise</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Balaji</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Adhami</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Murray</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Peters</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Castell</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Twenty-four hour ambulatory simultaneous impedance and pH monitoring: a multicenter report of normal values from 60 healthy volunteers.</article-title>
+            <source>Am J Gastroenterol</source>
+            <year>2004</year>
+            <month>Jun</month>
+            <volume>99</volume>
+            <issue>6</issue>
+            <fpage>1037</fpage>
+            <page-range>1037-43</page-range>
+            <pub-id pub-id-type="pmid">15180722</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zerbib</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Roman</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Bruley Des Varannes</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Gourcerol</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Coffin</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Ropert</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Lepicard</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Mion</surname>
+                <given-names>F</given-names>
+              </name>
+              <collab>Groupe Fran&#x000e7;ais De Neuro-Gastroent&#x000e9;rologie</collab>
+            </person-group>
+            <article-title>Normal values of pharyngeal and esophageal 24-hour pH impedance in individuals on and off therapy and interobserver reproducibility.</article-title>
+            <source>Clin Gastroenterol Hepatol</source>
+            <year>2013</year>
+            <month>Apr</month>
+            <volume>11</volume>
+            <issue>4</issue>
+            <fpage>366</fpage>
+            <page-range>366-72</page-range>
+            <pub-id pub-id-type="pmid">23142603</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Singh</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Richter</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>Bradley</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Haile</surname>
+                <given-names>JM</given-names>
+              </name>
+            </person-group>
+            <article-title>The symptom index. Differential usefulness in suspected acid-related complaints of heartburn and chest pain.</article-title>
+            <source>Dig Dis Sci</source>
+            <year>1993</year>
+            <month>Aug</month>
+            <volume>38</volume>
+            <issue>8</issue>
+            <fpage>1402</fpage>
+            <page-range>1402-8</page-range>
+            <pub-id pub-id-type="pmid">8344094</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Weusten</surname>
+                <given-names>BL</given-names>
+              </name>
+              <name>
+                <surname>Roelofs</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Akkermans</surname>
+                <given-names>LM</given-names>
+              </name>
+              <name>
+                <surname>Van Berge-Henegouwen</surname>
+                <given-names>GP</given-names>
+              </name>
+              <name>
+                <surname>Smout</surname>
+                <given-names>AJ</given-names>
+              </name>
+            </person-group>
+            <article-title>The symptom-association probability: an improved method for symptom analysis of 24-hour esophageal pH data.</article-title>
+            <source>Gastroenterology</source>
+            <year>1994</year>
+            <month>Dec</month>
+            <volume>107</volume>
+            <issue>6</issue>
+            <fpage>1741</fpage>
+            <page-range>1741-5</page-range>
+            <pub-id pub-id-type="pmid">7958686</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Savarino</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Zentilin</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Frazzoni</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Cuoco</surname>
+                <given-names>DL</given-names>
+              </name>
+              <name>
+                <surname>Pohl</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Dulbecco</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Marabotto</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Sammito</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Gemignani</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Tutuian</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Savarino</surname>
+                <given-names>V</given-names>
+              </name>
+            </person-group>
+            <article-title>Characteristics of gastro-esophageal reflux episodes in Barrett's esophagus, erosive esophagitis and healthy volunteers.</article-title>
+            <source>Neurogastroenterol Motil</source>
+            <year>2010</year>
+            <month>Oct</month>
+            <volume>22</volume>
+            <issue>10</issue>
+            <fpage>1061</fpage>
+            <page-range>1061-e280</page-range>
+            <pub-id pub-id-type="pmid">20557468</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zentilin</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Dulbecco</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Savarino</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Giannini</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Savarino</surname>
+                <given-names>V</given-names>
+              </name>
+            </person-group>
+            <article-title>Combined multichannel intraluminal impedance and pH-metry: a novel technique to improve detection of gastro-oesophageal reflux literature review.</article-title>
+            <source>Dig Liver Dis</source>
+            <year>2004</year>
+            <month>Sep</month>
+            <volume>36</volume>
+            <issue>9</issue>
+            <fpage>565</fpage>
+            <page-range>565-9</page-range>
+            <pub-id pub-id-type="pmid">15460839</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zerbib</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Belhocine</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Simon</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Capdepont</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Mion</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Bruley des Varannes</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Galmiche</surname>
+                <given-names>JP</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical, but not oesophageal pH-impedance, profiles predict response to proton pump inhibitors in gastro-oesophageal reflux disease.</article-title>
+            <source>Gut</source>
+            <year>2012</year>
+            <month>Apr</month>
+            <volume>61</volume>
+            <issue>4</issue>
+            <fpage>501</fpage>
+            <page-range>501-6</page-range>
+            <pub-id pub-id-type="pmid">21997546</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-21342.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sifrim</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Castell</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Dent</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Kahrilas</surname>
+                <given-names>PJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Gastro-oesophageal reflux monitoring: review and consensus report on detection and definitions of acid, non-acid, and gas reflux.</article-title>
+            <source>Gut</source>
+            <year>2004</year>
+            <month>Jul</month>
+            <volume>53</volume>
+            <issue>7</issue>
+            <fpage>1024</fpage>
+            <page-range>1024-31</page-range>
+            <pub-id pub-id-type="pmid">15194656</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

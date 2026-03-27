@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-18427" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Body Surface Area</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Flint</surname>
+            <given-names>Bronson</given-names>
+          </name>
+          <aff>International University of the Health Sciences</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Das</surname>
+            <given-names>Joe M.</given-names>
+          </name>
+          <aff>Imperial College Healthcare NHS Trust, London</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Hall</surname>
+            <given-names>Carrie A.</given-names>
+          </name>
+          <aff>Florida Southern College</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Bronson Flint declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Joe Das declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Carrie Hall declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>6</day>
+          <month>2</month>
+          <year>2025</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-18427.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Body surface area (BSA) was&#x000a0;first used in the late 19th century when the German physiologist&#x000a0;Karl M.&#x000a0;Meeh formulated the first BSA formula.<xref ref-type="bibr" rid="article-18427.r1">[1]</xref> Meeh's weight-based formula (BSA = 12.312 x weight<sup>2/3</sup>) was initially derived for animals and later adapted to humans. However,&#x000a0;the formula inaccurately reflected the complex relationship between body size and physiological processes.<xref ref-type="bibr" rid="article-18427.r2">[2]</xref>&#x000a0;The Du Bois and Du Bois formula was later developed by the American physician Eugene Floyd Du Bois and his wife and collaborator, Delafield Du Bois, to address this limitation. The new formula incorporated height as a variable. Initially devised to quantify metabolic rate and heat loss&#x02014;key physiological parameters under investigation at the time&#x02014;the Du Bois formula has since become a cornerstone in medical practice.&#x000a0;Over the past century, the quest for precise BSA estimation has created more than 40 mathematical formulas, each based on different state variables.</p>
+        <p>BSA is widely used for modulating pharmacological therapies, particularly in determining dosages for chemotherapy agents and certain antibiotics, where accurate dosing is critical to maximizing efficacy and minimizing toxicity. Additionally, BSA is used to&#x000a0;calculate the cardiac index, estimate body fat percentage, and index various physiological measurements, such as the estimated glomerular filtration rate (eGFR), using equations like the Cockcroft-Gault or Modification of Diet in Renal Disease.&#x000a0;</p>
+        <p>The Du Bois and Du Bois formula is written as follows: BSA = 0.007184 x (height&#x000a0;in cm)<sup>0.725</sup>&#x000a0;x (weight in kg)<sup>0.425&#x000a0;</sup><xref ref-type="bibr" rid="article-18427.r3">[3]</xref></p>
+        <p>This formula remains widely used today, though it also has limitations.&#x000a0;For instance,&#x000a0;this equation may overestimate BSA in individuals with obesity due to their altered body composition compared to the reference population used to derive the formula. Similarly, the Du Bois formula may not be accurate for children with body proportions that differ significantly from adults. In these cases, alternative formulas, such as the Mosteller [BSA = &#x0221a;(height in cm) x (weight&#x000a0;in kg) / 3600]&#x000a0;and the Haycock [BSA = 0.024265 x (height&#x000a0;in cm)<sup>0.3964</sup>&#x000a0;x (weight&#x000a0;in kg)<sup>0.5378</sup>] formulas, which&#x000a0;are specifically designed for children, may be more appropriate.<xref ref-type="bibr" rid="article-18427.r4">[4]</xref><xref ref-type="bibr" rid="article-18427.r5">[5]</xref>&#x000a0;Despite&#x000a0;the widespread use of the concept, the ongoing debate about BSA's relevance in an era of personalized medicine and advanced measurement techniques warrants consideration.</p>
+      </sec>
+      <sec id="article-18427.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>A significant challenge in clinical practice is the variability in BSA calculation due to the numerous available formulas, which can yield substantially different results with potential implications for patient care. This variability is particularly concerning in drug dosing, where precise BSA-based calculations are essential to maintaining therapeutic efficacy while minimizing toxicity. Studies have demonstrated that BSA values can vary by as much as 0.5&#x02009;m<sup>2</sup>&#x000a0;for the standard adult physique, depending on the formula used.&#x000a0;Such discrepancies can lead to significant variations in the dosages of critical medications, such as methotrexate, doxorubicin, and vancomycin, with potentially serious consequences, including myelosuppression, cardiotoxicity,&#x000a0;and nephrotoxicity.<xref ref-type="bibr" rid="article-18427.r6">[6]</xref></p>
+        <p>The implications of BSA variability extend beyond pharmacology. For instance, an accurate BSA is essential&#x000a0;in burn care to estimate the total&#x000a0;BSA affected by burns, which directly informs fluid resuscitation protocols. An overestimation of BSA can result in excessive fluid administration, leading to complications such as pulmonary edema, while underestimation can result in inadequate resuscitation and organ hypoperfusion. In cardiac care, BSA is used to calculate the cardiac index, a critical parameter for evaluating cardiac function. Variations in BSA estimation can significantly influence the interpretation of cardiac index values, potentially leading to misdiagnosis or inappropriate therapeutic interventions.</p>
+        <p>Given these challenges, careful selection and consistent use of a validated BSA formula are paramount in clinical practice. Clinicians must also be mindful of patient-specific factors, such as obesity, pediatric status,&#x000a0;and altered body composition, which may require alternative formulas. Additionally, efforts to standardize BSA calculation methods in clinical guidelines and multicenter studies can help mitigate variability and enhance the reliability of BSA-based assessments in patient care.</p>
+      </sec>
+      <sec id="article-18427.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>BSA is a key metric in medicine that is widely used to guide drug dosing, assess disease severity, and calculate physiological parameters. BSA plays an especially crucial role in the areas discussed below.</p>
+        <p>
+<bold>Pharmacology</bold>
+</p>
+        <p>BSA is essential&#x000a0;for determining dosages for chemotherapeutic drugs, with research showing that BSA-based dosing offers more consistent therapeutic outcomes than dosing based on weight alone.<xref ref-type="bibr" rid="article-18427.r7">[7]</xref>&#x000a0;Measuring BSA also guides the administration of certain medications in pediatrics, oncology, and endocrinology (eg, thyroxine replacement), as well as fluid resuscitation in patients with burns using the Parkland formula.<xref ref-type="bibr" rid="article-18427.r8">[8]</xref>&#x000a0;BSA is also used to adjust doses for renal impairment and topical medications.</p>
+        <p>Many antivirals,&#x000a0;antimicrobials,&#x000a0;and antifungals are dosed based on BSA.<xref ref-type="bibr" rid="article-18427.r9">[9]</xref><xref ref-type="bibr" rid="article-18427.r10">[10]</xref>&#x000a0;This approach is preferred for drugs that accumulate in extracellular fluid, as BSA is believed to provide a more accurate representation of extracellular fluid volume and total body water compared to body weight alone.</p>
+        <p>
+<bold>Assessment of Disease Severity</bold>
+</p>
+        <p>BSA is critical for estimating the extent of burn injuries, stratifying severity, and guiding resuscitation efforts.<xref ref-type="bibr" rid="article-18427.r11">[11]</xref>&#x000a0;BSA also helps evaluate skin diseases such as psoriasis&#x000a0;and toxic epidermal necrolysis,&#x000a0;determine lymphedema staging,&#x000a0;and classify obesity.<xref ref-type="bibr" rid="article-18427.r12">[12]</xref><xref ref-type="bibr" rid="article-18427.r13">[13]</xref><xref ref-type="bibr" rid="article-18427.r14">[14]</xref><xref ref-type="bibr" rid="article-18427.r15">[15]</xref></p>
+        <p>
+<bold>Physiological Monitoring and Prognostication</bold>
+</p>
+        <p>In cardiology, BSA calculates the cardiac index, a measure of cardiac function based on cardiac output and BSA.<xref ref-type="bibr" rid="article-18427.r16">[16]</xref>&#x000a0;BSA also plays a role in staging chronic kidney disease, assessing nutritional status, monitoring child growth, and predicting surgical or infection-related outcomes.</p>
+        <p>
+<bold>Research and Clinical Trials</bold>
+</p>
+        <p>BSA standardizes data across populations, enabling accurate comparisons in pharmacokinetics, drug toxicity studies, and clinical trials. Using accurate BSA values ensures consistency in research methodology.</p>
+        <p>
+<bold>Specialized Applications</bold>
+</p>
+        <p>BSA is indispensable in radiation therapy planning, extracorporeal membrane oxygenation calculations,&#x000a0;metabolic rate estimation, and organ transplant sizing.<xref ref-type="bibr" rid="article-18427.r17">[17]</xref> In sports medicine, BSA helps assess drug distribution volumes and body composition for performance evaluations.</p>
+      </sec>
+      <sec id="article-18427.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>
+<bold>Ensuring Accurate Body Surface Area Calculations in Clinical Practice</bold>
+</p>
+        <p>Accurately calculating BSA is essential for ensuring safe and effective patient care, particularly in oncology and burn management. Errors in BSA estimation can lead to suboptimal drug dosing, treatment failure, increased toxicity, or severe side effects. To address these risks, healthcare institutions should adopt the strategies listed below.</p>
+        <p>
+<bold>Oncology</bold>
+</p>
+        <p>Precise dosing is critical during chemotherapy administration, and clinical teams must be well-versed in BSA calculation methods and their implications. Key recommendations include the following:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Standardization of BSA formulas: A validated BSA formula should be selected and consistently used within the institution to minimize variability and confusion.</p>
+          </list-item>
+          <list-item>
+            <p>Provision of comprehensive training: BSA calculation should be included in the training and competency assessment of oncologists, pharmacists, and chemotherapy nurses, ensuring proficiency across the team.</p>
+          </list-item>
+          <list-item>
+            <p>Utilization of&#x000a0;technology: Electronic BSA calculators should be employed, and clinical decision support systems should be integrated to enhance accuracy and streamline workflows.</p>
+          </list-item>
+          <list-item>
+            <p>Implementation&#x000a0;of double-checking procedures: Mandatory independent verification of BSA calculations&#x000a0;by another qualified healthcare professional should be introduced. This measure is especially important when administering high-risk medications.</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Burn care</bold>
+</p>
+        <p>BSA is critical in fluid resuscitation and wound management in burn units. Inaccurate estimates can lead to serious complications, such as inadequate resuscitation, resulting in organ hypoperfusion, or excessive resuscitation, leading to pulmonary edema. Recommendations for burn care teams include the following:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Training and competency: Burn surgeons, critical care nurses, and pharmacists should receive comprehensive training in BSA calculation and its clinical applications.</p>
+          </list-item>
+          <list-item>
+            <p>Standardized assessment: Validated methods and tools, such as burn-specific BSA charts (eg, the Lund-Browder chart) or electronic systems, should be used for accurate and consistent evaluations.</p>
+          </list-item>
+          <list-item>
+            <p>Integration of guidelines: Established guidelines, such as the Parkland formula for fluid resuscitation, should be followed to align BSA calculations with evidence-based practice.</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Advancing Professional Knowledge</bold>
+</p>
+        <p>To further improve patient safety, healthcare professionals are encouraged to pursue continuing education opportunities on BSA calculation and its applications in clinical care. Regular updates on best practices can help maintain high standards in patient management. Institutions can enhance treatment outcomes and improve patient safety in oncology and burn care by prioritizing accurate BSA calculations and equipping healthcare professionals with the necessary knowledge, tools, and systems.</p>
+        <p>The Artec 3D Eva (Artec 3D, Senningerberg, Luxembourg) handheld scanner was recently developed to calculate the BSA precisely.<xref ref-type="bibr" rid="article-18427.r18">[18]</xref>&#x000a0;This device offers an accurate and reliable alternative to traditional estimation methods, and its use should be considered in&#x000a0;healthcare facilities. In recent years, increasing interest has focused on utilizing BSA to investigate the obesity paradox in chronic diseases. Research suggests a link between lower BSA values and worse prognoses in patients with heart failure, acute kidney injury, and peripheral artery disease.<xref ref-type="bibr" rid="article-18427.r19">[19]</xref></p>
+      </sec>
+      <sec id="article-18427.s5" sec-type="Nursing, Allied Health, and Interprofessional Team Monitoring">
+        <title>Nursing, Allied Health, and Interprofessional Team Monitoring</title>
+        <p>BSA calculation is a fundamental tool in clinical practice, with&#x000a0;crucial applications in oncology, burn care, and critical care. Accurate calculations ensure safe and effective treatments, particularly in guiding drug dosing and assessing burn severity. Healthcare professionals must use standardized formulas, validated tools, and evidence-based protocols to minimize errors. Incorporating BSA training into clinical education and fostering ongoing professional development further enhance its accurate use in practice. In summary, accurate BSA calculation is more than a technical requirement.&#x000a0;This approach&#x000a0;is vital to patient safety and high-quality care.</p>
+      </sec>
+      <sec id="article-18427.s6">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=18427&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=18427">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/18427/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=18427">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-18427.s7">
+        <title>References</title>
+        <ref id="article-18427.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Redlarski</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Palkowski</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Krawczuk</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Body surface area formulae: an alarming ambiguity.</article-title>
+            <source>Sci Rep</source>
+            <year>2016</year>
+            <month>Jun</month>
+            <day>21</day>
+            <volume>6</volume>
+            <fpage>27966</fpage>
+            <pub-id pub-id-type="pmid">27323883</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18427.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gibson</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Numa</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>The importance of metabolic rate and the folly of body surface area calculations.</article-title>
+            <source>Anaesthesia</source>
+            <year>2003</year>
+            <month>Jan</month>
+            <volume>58</volume>
+            <issue>1</issue>
+            <fpage>50</fpage>
+            <page-range>50-5</page-range>
+            <pub-id pub-id-type="pmid">12523324</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18427.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Burton</surname>
+                <given-names>RF</given-names>
+              </name>
+            </person-group>
+            <article-title>Estimating body surface area from mass and height: theory and the formula of Du Bois and Du Bois.</article-title>
+            <source>Ann Hum Biol</source>
+            <year>2008</year>
+            <season>Mar-Apr</season>
+            <volume>35</volume>
+            <issue>2</issue>
+            <fpage>170</fpage>
+            <page-range>170-84</page-range>
+            <pub-id pub-id-type="pmid">18428011</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18427.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mosteller</surname>
+                <given-names>RD</given-names>
+              </name>
+            </person-group>
+            <article-title>Simplified calculation of body-surface area.</article-title>
+            <source>N Engl J Med</source>
+            <year>1987</year>
+            <month>Oct</month>
+            <day>22</day>
+            <volume>317</volume>
+            <issue>17</issue>
+            <fpage>1098</fpage>
+            <pub-id pub-id-type="pmid">3657876</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18427.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Haycock</surname>
+                <given-names>GB</given-names>
+              </name>
+              <name>
+                <surname>Schwartz</surname>
+                <given-names>GJ</given-names>
+              </name>
+              <name>
+                <surname>Wisotsky</surname>
+                <given-names>DH</given-names>
+              </name>
+            </person-group>
+            <article-title>Geometric method for measuring body surface area: a height-weight formula validated in infants, children, and adults.</article-title>
+            <source>J Pediatr</source>
+            <year>1978</year>
+            <month>Jul</month>
+            <volume>93</volume>
+            <issue>1</issue>
+            <fpage>62</fpage>
+            <page-range>62-6</page-range>
+            <pub-id pub-id-type="pmid">650346</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18427.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sigurdsson</surname>
+                <given-names>TS</given-names>
+              </name>
+              <name>
+                <surname>Lindberg</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Six commonly used empirical body surface area formulas disagreed in young children undergoing corrective heart surgery.</article-title>
+            <source>Acta Paediatr</source>
+            <year>2020</year>
+            <month>Sep</month>
+            <volume>109</volume>
+            <issue>9</issue>
+            <fpage>1838</fpage>
+            <page-range>1838-1846</page-range>
+            <pub-id pub-id-type="pmid">32010999</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18427.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kaestner</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Sewell</surname>
+                <given-names>GJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Chemotherapy dosing part I: scientific basis for current practice and use of body surface area.</article-title>
+            <source>Clin Oncol (R Coll Radiol)</source>
+            <year>2007</year>
+            <month>Feb</month>
+            <volume>19</volume>
+            <issue>1</issue>
+            <fpage>23</fpage>
+            <page-range>23-37</page-range>
+            <pub-id pub-id-type="pmid">17305252</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18427.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cuijpers</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Akkerman</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Baartmans</surname>
+                <given-names>MGA</given-names>
+              </name>
+              <name>
+                <surname>van Zuijlen</surname>
+                <given-names>PPM</given-names>
+              </name>
+              <name>
+                <surname>Pijpe</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>The Early Childhood Development of Pediatric Burn Patients.</article-title>
+            <source>Eur Burn J</source>
+            <year>2024</year>
+            <month>May</month>
+            <day>14</day>
+            <volume>5</volume>
+            <issue>2</issue>
+            <fpage>145</fpage>
+            <page-range>145-154</page-range>
+            <pub-id pub-id-type="pmid">39599984</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18427.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vaudry</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Ettenger</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Jara</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Varela-Fascinetto</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Bouw</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name>
+                <surname>Ives</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Walker</surname>
+                <given-names>R</given-names>
+              </name>
+              <collab>Valcyte WV16726 Study Group</collab>
+            </person-group>
+            <article-title>Valganciclovir dosing according to body surface area and renal function in pediatric solid organ transplant recipients.</article-title>
+            <source>Am J Transplant</source>
+            <year>2009</year>
+            <month>Mar</month>
+            <volume>9</volume>
+            <issue>3</issue>
+            <fpage>636</fpage>
+            <page-range>636-43</page-range>
+            <pub-id pub-id-type="pmid">19260840</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18427.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pai</surname>
+                <given-names>MP</given-names>
+              </name>
+            </person-group>
+            <article-title>Drug dosing based on weight and body surface area: mathematical assumptions and limitations in obese adults.</article-title>
+            <source>Pharmacotherapy</source>
+            <year>2012</year>
+            <month>Sep</month>
+            <volume>32</volume>
+            <issue>9</issue>
+            <fpage>856</fpage>
+            <page-range>856-68</page-range>
+            <pub-id pub-id-type="pmid">22711238</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18427.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Retrouvey</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Chan</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Shahrokhi</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparison of two-dimensional methods versus three-dimensional scanning systems in the assessment of total body surface area estimation in burn patients.</article-title>
+            <source>Burns</source>
+            <year>2018</year>
+            <month>Feb</month>
+            <volume>44</volume>
+            <issue>1</issue>
+            <fpage>195</fpage>
+            <page-range>195-200</page-range>
+            <pub-id pub-id-type="pmid">28797577</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18427.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zhou</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Fang</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Qiu</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Effectiveness, quality of life, and safety of secukinumab versus conventional systemic therapy in patients with erythrodermic psoriasis: a comparative study.</article-title>
+            <source>Front Med (Lausanne)</source>
+            <year>2024</year>
+            <volume>11</volume>
+            <fpage>1473356</fpage>
+            <pub-id pub-id-type="pmid">39610686</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18427.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nazerian</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Jafarzadeh</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Salehi</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Ghasemi</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Goodarzi</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Cyclosporin for the treatment of Stevens-Johnson syndrome (SJS) and toxic epidermal necrolysis (TEN): a systematic review of observational studies and clinical trials focusing on single therapy, combination therapy, and comparative assessments.</article-title>
+            <source>Inflammopharmacology</source>
+            <year>2025</year>
+            <month>Feb</month>
+            <volume>33</volume>
+            <issue>2</issue>
+            <fpage>485</fpage>
+            <page-range>485-503</page-range>
+            <pub-id pub-id-type="pmid">39470865</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18427.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Deo</surname>
+                <given-names>SV</given-names>
+              </name>
+              <name>
+                <surname>Ray</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Rath</surname>
+                <given-names>GK</given-names>
+              </name>
+              <name>
+                <surname>Shukla</surname>
+                <given-names>NK</given-names>
+              </name>
+              <name>
+                <surname>Kar</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Asthana</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Raina</surname>
+                <given-names>V</given-names>
+              </name>
+            </person-group>
+            <article-title>Prevalence and risk factors for development of lymphedema following breast cancer treatment.</article-title>
+            <source>Indian J Cancer</source>
+            <year>2004</year>
+            <season>Jan-Mar</season>
+            <volume>41</volume>
+            <issue>1</issue>
+            <fpage>8</fpage>
+            <page-range>8-12</page-range>
+            <pub-id pub-id-type="pmid">15105573</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18427.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>He</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Sun</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Liang</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Obesity and risk of differentiated thyroid cancer: A large-scale case-control study.</article-title>
+            <source>Clin Endocrinol (Oxf)</source>
+            <year>2019</year>
+            <month>Dec</month>
+            <volume>91</volume>
+            <issue>6</issue>
+            <fpage>869</fpage>
+            <page-range>869-878</page-range>
+            <pub-id pub-id-type="pmid">31479527</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18427.r16">
+          <label>16</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Patel</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Durland</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Awosika</surname>
+                <given-names>AO</given-names>
+              </name>
+              <name>
+                <surname>Makaryus</surname>
+                <given-names>AN</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Physiology, Cardiac Index</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2024</year>
+            <month>6</month>
+            <day>8</day>
+            <pub-id pub-id-type="pmid">30969727</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18427.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Okada</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Murayama</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Hasegawa</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Kawai</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Mori</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Yasuda</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Peripheral Veno-Arterial Extracorporeal Membrane Oxygenation as a Bridge to Decision for Pediatric Fulminant Myocarditis.</article-title>
+            <source>Artif Organs</source>
+            <year>2016</year>
+            <month>Aug</month>
+            <volume>40</volume>
+            <issue>8</issue>
+            <fpage>793</fpage>
+            <page-range>793-8</page-range>
+            <pub-id pub-id-type="pmid">26833577</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18427.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Redlarski</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Kozie&#x00142;</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Krawczuk</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Siebert</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Ta&#x00142;a&#x00142;aj</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Pa&#x00142;kowski</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Tojza</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Cie&#x0015b;likowska</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Litzbarski</surname>
+                <given-names>LS</given-names>
+              </name>
+            </person-group>
+            <article-title>An improvement of body surface area formulas using the 3D scanning technique.</article-title>
+            <source>Int J Occup Med Environ Health</source>
+            <year>2024</year>
+            <month>May</month>
+            <day>20</day>
+            <volume>37</volume>
+            <issue>2</issue>
+            <fpage>205</fpage>
+            <page-range>205-219</page-range>
+            <pub-id pub-id-type="pmid">38634421</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18427.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Piecuch</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Chylak</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>G&#x000f3;rski</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Garbicz-Kata</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Szczyrba</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Buczkowska</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Malinowska-Borowska</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Nowak</surname>
+                <given-names>JU</given-names>
+              </name>
+              <name>
+                <surname>Niedziela</surname>
+                <given-names>JT</given-names>
+              </name>
+              <name>
+                <surname>G&#x00105;sior</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Rozentryt</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparison of the Effectiveness of Body Surface Area Estimation Formulas in Predicting the Risk of Death in Patients with Heart Failure.</article-title>
+            <source>J Clin Med</source>
+            <year>2024</year>
+            <month>Nov</month>
+            <day>04</day>
+            <volume>13</volume>
+            <issue>21</issue>
+            <pub-id pub-id-type="pmid">39518764</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

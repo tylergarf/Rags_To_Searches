@@ -1,0 +1,2818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-165" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Cardiac Resynchronization Therapy</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Ahmed</surname>
+            <given-names>Intisar</given-names>
+          </name>
+          <aff>Aga Khan University Pakistan</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Kayani</surname>
+            <given-names>Waleed T.</given-names>
+          </name>
+          <aff>Baylor College of Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Intisar Ahmed declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Waleed Kayani declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>31</day>
+          <month>5</month>
+          <year>2025</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-165.s1" sec-type="Continuing Education Activity">
+        <title>Continuing Education Activity</title>
+        <p>Cardiac resynchronization therapy (CRT) is an advanced device-based intervention for patients with heart failure characterized by reduced left ventricular ejection fraction and intraventricular conduction delays, most commonly left bundle branch block. This electrical dyssynchrony leads to uncoordinated ventricular contractions, reduced stroke volume, and worsening heart failure symptoms. CRT delivers timed electrical impulses to both ventricles through specialized pacing leads, restoring synchronized contraction, enhancing cardiac output, and improving mechanical efficiency. Extensive clinical evidence demonstrates that CRT reduces mitral regurgitation, enhances functional status and quality of life, decreases hospitalizations, and improves survival in patients who are appropriately selected. As such, CRT plays a pivotal role in the treatment of advanced heart failure with dyssynchrony.</p>
+        <p>This continuing education course equips clinicians with the knowledge and skills necessary to identify suitable candidates for CRT, using established clinical guidelines and diagnostic criteria.&#x000a0;Participants learn best practices in device implantation techniques, programming, and postoperative optimization to maximize therapeutic outcomes. The course emphasizes the importance of interprofessional collaboration among cardiologists, electrophysiologists, imaging specialists, heart failure nurses, and device technicians to ensure timely referrals, accurate diagnosis, and coordinated follow-up care. This integrated team approach enhances patient outcomes by facilitating precision in treatment planning, reducing complications, and supporting long-term management strategies tailored to each patient&#x02019;s needs.</p>
+        <p>
+<bold>Objectives:</bold>
+<list list-type="bullet"><list-item><p>Identify patients with heart failure who meet guideline-based criteria for cardiac resynchronization therapy.</p></list-item><list-item><p>Screen for electrical conduction abnormalities, such as left bundle branch block, that indicate cardiac resynchronization therapy benefit.</p></list-item><list-item><p>Evaluate patients for&#x000a0;potential complications of cardiac resynchronization therapy.</p></list-item><list-item><p>Collaborate with an&#x000a0;interprofessional team to ensure optimal outcomes for patients who need cardiac resynchronization therapy.</p></list-item></list>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=165&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=165">Access free multiple choice questions on this topic.</ext-link>
+</p>
+      </sec>
+      <sec id="article-165.s2" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Heart failure is one of the major causes of morbidity and mortality worldwide, and it is associated with poor life expectancy, poor quality of life, and a higher economic burden on the healthcare system.<xref ref-type="bibr" rid="article-165.r1">[1]</xref>&#x000a0;Heart failure can result from several causes, but left ventricular (LV) systolic dysfunction is the major cause of heart failure. Over the past 3 decades, advances in the medical management of heart failure cases with reduced ejection fraction (EF) have improved patient survival. Still, the morbidity and mortality related to heart failure have remained elevated.<xref ref-type="bibr" rid="article-165.r2">[2]</xref>&#x000a0;</p>
+        <p>With an increase in the population's age and advances in treating ischemic heart diseases, the number of patients with heart failure continues to grow, introducing significant challenges to managing cardiac arrhythmia and advanced heart failure.<xref ref-type="bibr" rid="article-165.r3">[3]</xref>&#x000a0;In patients with heart failure with reduced EF, electromechanical dyssynchrony from intraventricular conduction delays leads to hemodynamic inefficiencies, which consequently worsen functional mitral regurgitation and&#x000a0;LV remodeling, eventually leading to poor outcomes.<xref ref-type="bibr" rid="article-165.r4">[4]</xref><xref ref-type="bibr" rid="article-165.r5">[5]</xref></p>
+        <p>In the early 1990s, it was identified that electromechanical dyssynchrony plays a prominent role in heart failure. Pacing devices that stimulate multiple areas of the heart simultaneously could be used to offset this dyssynchrony and conduction delay.<xref ref-type="bibr" rid="article-165.r6">[6]</xref>&#x000a0;In the late 1990s, Auricchio and Kass first described the efficacy of multisite pacing in humans, which led to the development of cardiac resynchronization therapy (CRT), the first use of artificial electrical stimulation for treating heart failure.<xref ref-type="bibr" rid="article-165.r7">[7]</xref>&#x000a0;Since then, CRT has been an important treatment modality for those with heart failure with reduced EF.<xref ref-type="bibr" rid="article-165.r8">[8]</xref>&#x000a0;This review examines the use of implantable pacing devices in heart failure, with a primary focus on biventricular pacing (cardiac resynchronization). Also discussed are the pathophysiology, indications, complications, and clinical significance.</p>
+      </sec>
+      <sec id="article-165.s3" sec-type="Anatomy and Physiology">
+        <title>Anatomy and Physiology</title>
+        <p>
+<bold>Coronary Sinus Anatomy</bold>
+</p>
+        <p>The optimal placement of an LV lead in a tributary of the coronary sinus is one of the most challenging technical aspects of CRT device implantation. The coronary sinus is the main vein of the greater venous system that runs in the posterior aspect of the atrioventricular (AV) groove.<xref ref-type="bibr" rid="article-165.r9">[9]</xref>&#x000a0;The coronary sinus is formed when the great cardiac vein joins the main posterior lateral vein. Other major tributaries entering the coronary sinus include the inferior LV vein and the middle cardiac vein, which drain the posterior aspect of the LV. The middle cardiac vein is the largest tributary of the coronary sinus, which receives communications from the anterior veins and the septal and inferior walls of both ventricles.<xref ref-type="bibr" rid="article-165.r10">[10]</xref></p>
+        <p>
+<bold>Pathophysiology of Dyssynchrony</bold>
+</p>
+        <p>Reducing LV systolic function is associated with neurohumoral activation, leading to ventricular remodeling and dilatation.<xref ref-type="bibr" rid="article-165.r11">[11]</xref>&#x000a0;The majority of patients with cardiomyopathy exhibit conduction delays, such as a left bundle branch block (LBBB), which leads to electromechanical dyssynchrony. The resulting contractile dyssynchrony generates regional heterogeneity of myocardial work, with the early stimulated region having reduced load and territories of late activation having higher load.<xref ref-type="bibr" rid="article-165.r12">[12]</xref>&#x000a0;This displacement of blood from early to late and back to early activation sites results in a net decline in ejected stroke volume. This volume shift is significantly more pronounced when the differences in muscle activation are greatest between the early and late contracting zones.<xref ref-type="bibr" rid="article-165.r13">[13]</xref>&#x000a0;Thus, in heart failure, where the underlying function is already compromised, electromechanical dyssynchrony further increases morbidity and mortality.<xref ref-type="bibr" rid="article-165.r14">[14]</xref>&#x000a0;A simultaneous biventricular preexcitation, characteristic of CRT, restores coordinated contraction and improves net systolic performance by augmenting chamber ejection and work.<xref ref-type="bibr" rid="article-165.r15">[15]</xref></p>
+      </sec>
+      <sec id="article-165.s4" sec-type="Indications">
+        <title>Indications</title>
+        <p>
+<bold>CRT&#x000a0;Indications</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Class I recommendation for patients with:
+<list list-type="bullet"><list-item><p>Left ventricular ejection fraction (LVEF) of less than 36%</p></list-item><list-item><p>Sinus rhythm with LBBB morphology</p></list-item><list-item><p>QRS duration of &#x0003e;149 ms</p></list-item><list-item><p>New York Heart Association (NYHA) II, III, or ambulatory IV symptoms on optimal medical therapy</p></list-item><list-item><p>Acceptable noncardiac health</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Class IIa recommendation in patients with:
+<list list-type="bullet"><list-item><p>LVEF &#x0003c;36%</p></list-item><list-item><p>Sinus rhythm with LBBB morphology</p></list-item><list-item><p>QRS duration of 120 to 149 ms</p></list-item><list-item><p>NYHA II, III, or ambulatory IV symptoms on optimal medical therapy</p></list-item><list-item><p>Acceptable noncardiac health</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Class IIa recommendation in patients with:
+<list list-type="bullet"><list-item><p>LVEF of less than 36%</p></list-item><list-item><p>Sinus rhythm with a non&#x02013;LBBB pattern</p></list-item><list-item><p>QRS duration of &#x0003e;149 ms</p></list-item><list-item><p>NYHA III, or ambulatory IV symptoms on optimal medical therapy</p></list-item><list-item><p>Acceptable noncardiac health</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Class IIa recommendation in patients with:
+<list list-type="bullet"><list-item><p>LVEF of less than or equal to 35%, on optimal medical therapy</p></list-item><list-item><p>Atrial fibrillation (and requires ventricular pacing)</p></list-item><list-item><p>Rate control will end up on 100% ventricular pacing</p></list-item><list-item><p>Acceptable noncardiac health</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Class IIb recommendation in patients with:
+<list list-type="bullet"><list-item><p>LVEF of less than 36%</p></list-item><list-item><p>Sinus rhythm with non&#x02013;LBBB pattern</p></list-item><list-item><p>QRS duration of 120&#x000a0;to 149 ms</p></list-item><list-item><p>NYHA III, or ambulatory IV symptoms on optimal medical therapy</p></list-item><list-item><p>Acceptable noncardiac health</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Class IIb recommendation in patients with:
+<list list-type="bullet"><list-item><p>LVEF of less than 36%, on optimal medical therapy</p></list-item><list-item><p>Undergoing a pacing device implantation for other indications</p></list-item><list-item><p>Anticipated to have &#x0003e;40% ventricular pacing</p></list-item><list-item><p>Acceptable noncardiac health</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Congenital heart disease
+<list list-type="bullet"><list-item><p>The use of implantable cardioverter-defibrillators (ICDs) for the primary prevention of sudden cardiac death has increased among individuals with congenital heart disease. Although randomized controlled trials are lacking, results from several observational studies have consistently identified systemic ventricular dysfunction as the strongest predictor of sudden cardiac death or appropriate ICD therapy in this population. These findings suggest that the role of ICDs may warrant expansion in the future, contingent upon further evidence demonstrating clear clinical benefit in patients with congenital heart disease and significant ventricular impairment.<xref ref-type="bibr" rid="article-165.r16">[16]</xref> However, current recommendations remain unchanged due to the limited data available. Likewise, there is still insufficient evidence to support specific recommendations regarding CRT in this patient group.<xref ref-type="bibr" rid="article-165.r17">[17]</xref><xref ref-type="bibr" rid="article-165.r18">[18]</xref></p></list-item></list>
+</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-165.s5" sec-type="Contraindications">
+        <title>Contraindications</title>
+        <p>There are no established absolute contraindications for CRT in appropriately selected patients. Relative contraindications may include:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Dementia</p>
+          </list-item>
+          <list-item>
+            <p>Advanced malignancy requiring palliative care</p>
+          </list-item>
+          <list-item>
+            <p>Chronic disease with a life expectancy of less than&#x000a0;1 year</p>
+          </list-item>
+          <list-item>
+            <p>Acute decompensated heart failure</p>
+          </list-item>
+          <list-item>
+            <p>Active infection or sepsis</p>
+          </list-item>
+          <list-item>
+            <p>Coagulopathy&#x000a0;<xref ref-type="bibr" rid="article-165.r19">[19]</xref></p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-165.s6" sec-type="Equipment">
+        <title>Equipment</title>
+        <p>The following equipment is required for implanting a biventricular pacing device:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Cardiac catheterization laboratory with fluoroscopy and hemodynamic monitors</p>
+          </list-item>
+          <list-item>
+            <p>Ultrasound machine (for access)</p>
+          </list-item>
+          <list-item>
+            <p>Needles and sheaths</p>
+          </list-item>
+          <list-item>
+            <p>Pacing leads and generator</p>
+          </list-item>
+          <list-item>
+            <p>Device programmer</p>
+          </list-item>
+          <list-item>
+            <p>Sutures&#x000a0;</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-165.s7" sec-type="Personnel">
+        <title>Personnel</title>
+        <p>The following personnel are required for biventricular pacing device implantation:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Cardiac electrophysiologist</p>
+          </list-item>
+          <list-item>
+            <p>Cardiac catheterization laboratory technician</p>
+          </list-item>
+          <list-item>
+            <p>Electrophysiology technologist for programming</p>
+          </list-item>
+          <list-item>
+            <p>Nursing staff for administering&#x000a0;medications</p>
+          </list-item>
+          <list-item>
+            <p>Anesthesiologist</p>
+          </list-item>
+        </list>
+        <p>Sometimes, a cardiac surgeon may be required to implant an epicardial&#x000a0;LV lead if it is not possible to&#x000a0;place it percutaneously.</p>
+      </sec>
+      <sec id="article-165.s8" sec-type="Preparation">
+        <title>Preparation</title>
+        <p>Preparation is similar to other cardiac catheterization procedures, and includes:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Patients should be adequately assessed for the procedure and counseled in detail about its risks, benefits, and complications.</p>
+          </list-item>
+          <list-item>
+            <p>Blood tests are performed before checking the coagulation profile, especially if the patient takes anticoagulants.</p>
+          </list-item>
+          <list-item>
+            <p>The patient fasts for at least 6 hours before the procedure.</p>
+          </list-item>
+          <list-item>
+            <p>Intravenous cannulas are maintained, and antibiotics with antistaphylococcal coverage are administered as a prophylaxis for implant infection.</p>
+          </list-item>
+          <list-item>
+            <p>After arriving in the catheterization laboratory, the patient is draped after the access site is cleaned with an antiseptic solution.</p>
+          </list-item>
+          <list-item>
+            <p>Intravenous sedation is given before the procedure, and local anesthetic agents are given at the site of venous puncture and pocket formation.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-165.s9" sec-type="Technique or Treatment">
+        <title>Technique or Treatment</title>
+        <p>
+<bold>Venous Access</bold>
+</p>
+        <p>Since its introduction in the early 1990s, the CRT device implantation technique has undergone rapid evolution. A limited thoracotomy approach was initially used for epicardial lead placement; however, advances in LV transvenous lead delivery systems have led to the development of an entirely transvenous implantable system.<xref ref-type="bibr" rid="article-165.r20">[20]</xref>&#x000a0;Despite these advances, technical challenges arise when considering the site of approach for implanting 3 leads&#x02014;right atrial (RA), right ventricular (RV), and LV epicardial. Commonly used venous approaches include subclavian, axillary, and cephalic veins.<xref ref-type="bibr" rid="article-165.r21">[21]</xref>&#x000a0;The cephalic vein is the preferred venous access for lead implantation, followed by the subclavian vein. The subclavian vein can be accessed either by using axillary vein access or intrathoracic access.<xref ref-type="bibr" rid="article-165.r22">[22]</xref></p>
+        <p>Some operators prefer combined cephalic and subclavian vein access to facilitate easy catheter manipulation and coronary sinus cannulation. This technique minimizes lead interaction and the risk of lead dislodgement during sequential lead placement. However, subclavian vein puncture carries a significant risk of pneumothorax, and it may lead to densely fibrotic tracts as the leads pass through the ligamentous tissues between the medial end of the clavicle and the first rib. And this fibrosis can potentially make percutaneous lead extraction impossible.<xref ref-type="bibr" rid="article-165.r23">[23]</xref><xref ref-type="bibr" rid="article-165.r24">[24]</xref></p>
+        <p>
+<bold>CRT Leads Implantation</bold>
+</p>
+        <p>In the case of CRT-D (CRT devices combined with defibrillator),&#x000a0;3 long hydrophilic guidewires are placed in the accessed vein (cephalic or subclavian). An 11-French (Fr) sheath is advanced over 1&#x000a0;of the wires to introduce a 9-Fr RV defibrillator lead, followed by slitting the sheath. The RV lead is then positioned at an appropriate site. After RV led positioning,&#x000a0;2 separate sheaths are advanced over each of the&#x000a0;2 retained guidewires. To avoid lead interaction, these sheaths (for the&#x000a0;LV and RA) are not slit until all&#x000a0;3 leads are positioned at their appropriate places.<xref ref-type="bibr" rid="article-165.r25">[25]</xref></p>
+        <p>A guide catheter is placed via the sheath into the coronary sinus over a hydrophilic wire or a deflectable catheter for LV lead placement. Coronary sinus venography can be performed via a balloon-tip catheter inserted into the guide catheter. The&#x000a0;LV lead is placed in an appropriate tributary of the&#x000a0;coronary sinus guided by fluoroscopy. Ultimately, the RA lead is installed. Once the&#x000a0;3 leads are positioned. The sheath is slit, and the RA and RV leads are sutured onto the pectoral muscle. Finally, the guide sheath is slit, followed by slitting the short 9-Fr sheath and suturing the&#x000a0;coronary sinus lead onto the pectoral muscle.<xref ref-type="bibr" rid="article-165.r26">[26]</xref></p>
+        <p>In the case of CRT-P (CRT device without defibrillator),&#x000a0;2 long hydrophilic guidewires are placed in the accessed vein. A 9F sheath was advanced over&#x000a0;1 of the guidewires to position an RV pacing lead, followed by slitting the sheath. After positioning the RV lead,&#x000a0;2 separate sheaths are advanced over the&#x000a0;2 guidewires. Then, a guide catheter is placed to facilitate the placement of the LV lead guided by fluoroscopy. The RA lead is then placed via the remaining sheath. Sheaths are slit, and leads are secured by suturing into the pectoral muscle.<xref ref-type="bibr" rid="article-165.r27">[27]</xref>&#x000a0;Leads are then connected to the generator, which is placed in a pocket created in the pectoral region. Successful resynchronization is achieved by placing the LV lead in an appropriate tributary of the coronary sinus, preferably in the proximal third to the middle third of the left ventricle (LV). The LV lead positioned in the apical region is associated with an unfavorable outcome.<xref ref-type="bibr" rid="article-165.r28">[28]</xref><xref ref-type="bibr" rid="article-165.r29">[29]</xref></p>
+        <p>
+<bold>Difficulties in LV Lead Placement</bold>
+</p>
+        <p>The inability to cannulate the coronary sinus or a preselected tributary is usually due to the branch's tortuosity. This can be overcome by using multiple angulations to explore the anatomy and advancing the lead coaxially to the wire and the&#x000a0;coronary sinus tributary. Different lead sizes and shapes can also be utilized to overcome this technical difficulty. If these maneuvers are not helpful, it may be worthwhile to try double-wiring the branch with a stiff wire to help straighten it.</p>
+        <p>Lead instability is uncommon but may occur. A lead with a more aggressive curve or active fixation may be used to prevent this. Stenting may also be used to improve lead stability. With this technique,&#x000a0;2 guidewires are placed in the venous branch, with&#x000a0;1 used to advance the pacing lead and the other used for placement of a stent, which is deployed at low pressure to secure the pacing lead.<xref ref-type="bibr" rid="article-165.r30">[30]</xref><xref ref-type="bibr" rid="article-165.r31">[31]</xref></p>
+        <p>
+<bold>CRT Programming</bold>
+</p>
+        <p>An individually adapted AV interval is crucial for achieving maximum benefit from resynchronization. Optimized AV interval programming synchronizes atrial and ventricular contraction, maximizes the atrial contribution to&#x000a0;LV diastolic filling, and prevents presystolic mitral regurgitation. Interventricular synchrony and LV contraction can be further optimized by adjusting the ventriculoventricular (VV) interval, although the impact of VV optimization on CRT outcome remains under debate. Noninvasive AV and VV interval optimization methods using electro- and echocardiography can be considered, although clinical outcome data do not support their use.<xref ref-type="bibr" rid="article-165.r32">[32]</xref><xref ref-type="bibr" rid="article-165.r33">[33]</xref><xref ref-type="bibr" rid="article-165.r34">[34]</xref></p>
+      </sec>
+      <sec id="article-165.s10" sec-type="Complications">
+        <title>Complications</title>
+        <p>Major complications associated with CRT device implantation include the following:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p><bold>Access site bleeding and pocket hematoma</bold>
+<list list-type="bullet"><list-item><p>The incidence in clinical trials is reported up to 2.5%.<xref ref-type="bibr" rid="article-165.r35">[35]</xref>&#x000a0;However, in routine clinical practice, the incidence of pocket hematomas may be higher than this, as the trials only reported those hematomas requiring intervention. Pocket hematoma and early reintervention for pocket hematoma are&#x000a0;associated with an increased incidence of device infection.</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p><bold>Lead dislodgement</bold>
+<list list-type="bullet"><list-item><p>Results from CRT trials demonstrated a rate of lead dislodgement from 2.9% to 10%. The incidence of&#x000a0;LV lead dislodgement is higher than that of the&#x000a0;RA and RV leads.<xref ref-type="bibr" rid="article-165.r36">[36]</xref></p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p><bold>Infection</bold>
+<list list-type="bullet"><list-item><p>This is one of the challenging complications related to CRT and other cardiac implantable devices. The incidence of device-related infection for CRT implantation is reported to be up to 3.3%. Male sex, prior device-related infection, and reimplantation are reported to have a higher incidence of device-related infections.<xref ref-type="bibr" rid="article-165.r37">[37]</xref></p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p><bold>Pneumothorax</bold>
+<list list-type="bullet"><list-item><p>This is a rare complication, reported in up to 0.66% of cardiac pacing device implantations. Subclavian access, chronic obstructive pulmonary disease, and advanced age (eg, 80 and older) at implantation are reported with a higher pneumothorax incidence. The cephalic vein cut-down technique should be used whenever possible to avoid this complication.<xref ref-type="bibr" rid="article-165.r38">[38]</xref></p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p><bold>Coronary sinus perforation/dissection</bold>
+<list list-type="bullet"><list-item><p>Coronary&#x000a0;venous&#x000a0;dissection&#x000a0;is a rare but recognized complication of&#x000a0;LV lead placement&#x000a0;during the implantation&#x000a0;of a&#x000a0;CRT device. This complication occurs in up to 0.28% of cases and is reported to prolong postprocedural hospital stays.<xref ref-type="bibr" rid="article-165.r38">[38]</xref></p></list-item></list>
+</p>
+          </list-item>
+        </list>
+        <p>Other complications may include cardiac tamponade, myocardial injury, lead fracture, pocket erosion, and phrenic nerve stimulation. Inappropriate phrenic nerve stimulation occurs in up to 13% of patients undergoing&#x000a0;LV lead placement and is more common at midlateral, midposterior, and apical sites.<xref ref-type="bibr" rid="article-165.r39">[39]</xref></p>
+      </sec>
+      <sec id="article-165.s11" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>With the advancing age of the population and improved survival after ischemic heart disease, the incidence and prevalence of heart failure have risen significantly, making it one of the most common and deadly cardiovascular diagnoses today.<xref ref-type="bibr" rid="article-165.r40">[40]</xref><xref ref-type="bibr" rid="article-165.r41">[41]</xref> While medical therapies, such as angiotensin-converting enzyme inhibitors, angiotensin receptor blockers, beta-blockers, aldosterone antagonists, and angiotensin receptor neprilysin inhibitors, have improved outcomes for many patients, a substantial proportion still experience progressive symptoms, hospitalizations, and a poor prognosis despite optimal pharmacological treatment.<xref ref-type="bibr" rid="article-165.r42">[42]</xref><xref ref-type="bibr" rid="article-165.r43">[43]</xref> To further improve survival, heart failure management must target both sudden cardiac death (the leading cause of death in patients with NYHA Class I&#x02013;II symptoms) and progressive pump failure (a major cause in NYHA Class III&#x02013;IV patients).<xref ref-type="bibr" rid="article-165.r44">[44]</xref></p>
+        <p>CRT offers a powerful device-based intervention for select patients with heart failure, particularly those with&#x000a0;LV systolic dysfunction and conduction delays such as LBBB, which cause electromechanical dyssynchrony and regional disparities in myocardial workload.<xref ref-type="bibr" rid="article-165.r12">[12]</xref> CRT improves survival, enhances functional class, quality of life, and exercise capacity (eg, peak volume of oxygen consumption [VO2]), and reduces heart failure&#x02013;related hospitalizations.<xref ref-type="bibr" rid="article-165.r36">[36]</xref><xref ref-type="bibr" rid="article-165.r45">[45]</xref><xref ref-type="bibr" rid="article-165.r46">[46]</xref><xref ref-type="bibr" rid="article-165.r47">[47]</xref> The success of CRT hinges on expert procedural execution, including careful preprocedure patient selection based on guideline-recommended criteria, sterile operative technique to minimize device infection, and meticulous LV lead placement&#x02014;ideally in a proximal or mid-lateral coronary sinus branch, avoiding apical sites that are linked to worse outcomes.<xref ref-type="bibr" rid="article-165.r28">[28]</xref>&#x000a0;After implantation, precise device programming&#x02014;particularly optimized atrioventricular interval and interventricular interval adjustments&#x02014;is critical to maximize atrial contribution to LV filling, prevent presystolic mitral regurgitation, and achieve effective resynchronization. Together, these steps ensure that CRT can fully deliver on its potential to transform the lives of patients with advanced heart failure.</p>
+      </sec>
+      <sec id="article-165.s12" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>Effectively delivering CRT relies on the combined skills, strategies, and coordinated efforts of a multidisciplinary team. Advanced clinicians must accurately identify appropriate candidates, balancing clinical criteria such as reduced ejection fraction and conduction delays with individualized risk-benefit considerations. Electrophysiologists bring specialized procedural skills in lead placement and device programming, while nurses play a crucial role in patient education, perioperative care, and ongoing symptom monitoring. Pharmacists contribute by optimizing medication regimens to complement device therapy, managing heart failure pharmacotherapy, and minimizing drug-device interactions. Dietitians and rehabilitation specialists further enhance outcomes by supporting lifestyle modifications and cardiac rehabilitation efforts tailored to each patient&#x02019;s needs.</p>
+        <p>Interprofessional communication and seamless care coordination are crucial for maximizing CRT benefits and ensuring patient safety. Regular multidisciplinary meetings, structured handoffs, and shared electronic health records facilitate clear communication of clinical goals, device settings, and patient progress.&#x000a0;Collaborative, interdisciplinary efforts support the timely identification of nonresponders, early management of complications, and individualized adjustments to care plans. Coordination minimizes errors, reduces delays, and enhances patient safety, ultimately leading to improved outcomes and patient-centered care that prioritizes the well-being and satisfaction of patients undergoing CRT.</p>
+      </sec>
+      <sec id="article-165.s13">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=165&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=165">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://mdsearchlight.com/therapeutics/cardiac-resynchronization-therapy-crt/?utm_source=pubmedlink&#x00026;utm_campaign=MDS&#x00026;utm_content=165">Click here for a simplified version.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/165/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=165">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-165.s14">
+        <title>References</title>
+        <ref id="article-165.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Savarese</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Lund</surname>
+                <given-names>LH</given-names>
+              </name>
+            </person-group>
+            <article-title>Global Public Health Burden of Heart Failure.</article-title>
+            <source>Card Fail Rev</source>
+            <year>2017</year>
+            <month>Apr</month>
+            <volume>3</volume>
+            <issue>1</issue>
+            <fpage>7</fpage>
+            <page-range>7-11</page-range>
+            <pub-id pub-id-type="pmid">28785469</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Benjamin</surname>
+                <given-names>EJ</given-names>
+              </name>
+              <name>
+                <surname>Virani</surname>
+                <given-names>SS</given-names>
+              </name>
+              <name>
+                <surname>Callaway</surname>
+                <given-names>CW</given-names>
+              </name>
+              <name>
+                <surname>Chamberlain</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Chang</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name>
+                <surname>Cheng</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Chiuve</surname>
+                <given-names>SE</given-names>
+              </name>
+              <name>
+                <surname>Cushman</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Delling</surname>
+                <given-names>FN</given-names>
+              </name>
+              <name>
+                <surname>Deo</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>de Ferranti</surname>
+                <given-names>SD</given-names>
+              </name>
+              <name>
+                <surname>Ferguson</surname>
+                <given-names>JF</given-names>
+              </name>
+              <name>
+                <surname>Fornage</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gillespie</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Isasi</surname>
+                <given-names>CR</given-names>
+              </name>
+              <name>
+                <surname>Jim&#x000e9;nez</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Jordan</surname>
+                <given-names>LC</given-names>
+              </name>
+              <name>
+                <surname>Judd</surname>
+                <given-names>SE</given-names>
+              </name>
+              <name>
+                <surname>Lackland</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Lichtman</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Lisabeth</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Longenecker</surname>
+                <given-names>CT</given-names>
+              </name>
+              <name>
+                <surname>Lutsey</surname>
+                <given-names>PL</given-names>
+              </name>
+              <name>
+                <surname>Mackey</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Matchar</surname>
+                <given-names>DB</given-names>
+              </name>
+              <name>
+                <surname>Matsushita</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Mussolino</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Nasir</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>O'Flaherty</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Palaniappan</surname>
+                <given-names>LP</given-names>
+              </name>
+              <name>
+                <surname>Pandey</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Pandey</surname>
+                <given-names>DK</given-names>
+              </name>
+              <name>
+                <surname>Reeves</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Ritchey</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Rodriguez</surname>
+                <given-names>CJ</given-names>
+              </name>
+              <name>
+                <surname>Roth</surname>
+                <given-names>GA</given-names>
+              </name>
+              <name>
+                <surname>Rosamond</surname>
+                <given-names>WD</given-names>
+              </name>
+              <name>
+                <surname>Sampson</surname>
+                <given-names>UKA</given-names>
+              </name>
+              <name>
+                <surname>Satou</surname>
+                <given-names>GM</given-names>
+              </name>
+              <name>
+                <surname>Shah</surname>
+                <given-names>SH</given-names>
+              </name>
+              <name>
+                <surname>Spartano</surname>
+                <given-names>NL</given-names>
+              </name>
+              <name>
+                <surname>Tirschwell</surname>
+                <given-names>DL</given-names>
+              </name>
+              <name>
+                <surname>Tsao</surname>
+                <given-names>CW</given-names>
+              </name>
+              <name>
+                <surname>Voeks</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Willey</surname>
+                <given-names>JZ</given-names>
+              </name>
+              <name>
+                <surname>Wilkins</surname>
+                <given-names>JT</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Alger</surname>
+                <given-names>HM</given-names>
+              </name>
+              <name>
+                <surname>Wong</surname>
+                <given-names>SS</given-names>
+              </name>
+              <name>
+                <surname>Muntner</surname>
+                <given-names>P</given-names>
+              </name>
+              <collab>American Heart Association Council on Epidemiology and Prevention Statistics Committee and Stroke Statistics Subcommittee</collab>
+            </person-group>
+            <article-title>Heart Disease and Stroke Statistics-2018 Update: A Report From the American Heart Association.</article-title>
+            <source>Circulation</source>
+            <year>2018</year>
+            <month>Mar</month>
+            <day>20</day>
+            <volume>137</volume>
+            <issue>12</issue>
+            <fpage>e67</fpage>
+            <page-range>e67-e492</page-range>
+            <pub-id pub-id-type="pmid">29386200</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hussein</surname>
+                <given-names>AA</given-names>
+              </name>
+              <name>
+                <surname>Wilkoff</surname>
+                <given-names>BL</given-names>
+              </name>
+            </person-group>
+            <article-title>Cardiac Implantable Electronic Device Therapy in Heart Failure.</article-title>
+            <source>Circ Res</source>
+            <year>2019</year>
+            <month>May</month>
+            <day>24</day>
+            <volume>124</volume>
+            <issue>11</issue>
+            <fpage>1584</fpage>
+            <page-range>1584-1597</page-range>
+            <pub-id pub-id-type="pmid">31120815</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Abraham</surname>
+                <given-names>WT</given-names>
+              </name>
+              <name>
+                <surname>Fisher</surname>
+                <given-names>WG</given-names>
+              </name>
+              <name>
+                <surname>Smith</surname>
+                <given-names>AL</given-names>
+              </name>
+              <name>
+                <surname>Delurgio</surname>
+                <given-names>DB</given-names>
+              </name>
+              <name>
+                <surname>Leon</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name>
+                <surname>Loh</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Kocovic</surname>
+                <given-names>DZ</given-names>
+              </name>
+              <name>
+                <surname>Packer</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Clavell</surname>
+                <given-names>AL</given-names>
+              </name>
+              <name>
+                <surname>Hayes</surname>
+                <given-names>DL</given-names>
+              </name>
+              <name>
+                <surname>Ellestad</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Trupp</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Underwood</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Pickering</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Truex</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>McAtee</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Messenger</surname>
+                <given-names>J</given-names>
+              </name>
+              <collab>MIRACLE Study Group. Multicenter InSync Randomized Clinical Evaluation</collab>
+            </person-group>
+            <article-title>Cardiac resynchronization in chronic heart failure.</article-title>
+            <source>N Engl J Med</source>
+            <year>2002</year>
+            <month>Jun</month>
+            <day>13</day>
+            <volume>346</volume>
+            <issue>24</issue>
+            <fpage>1845</fpage>
+            <page-range>1845-53</page-range>
+            <pub-id pub-id-type="pmid">12063368</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kirk</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Kass</surname>
+                <given-names>DA</given-names>
+              </name>
+            </person-group>
+            <article-title>Electromechanical dyssynchrony and resynchronization of the failing heart.</article-title>
+            <source>Circ Res</source>
+            <year>2013</year>
+            <month>Aug</month>
+            <day>30</day>
+            <volume>113</volume>
+            <issue>6</issue>
+            <fpage>765</fpage>
+            <page-range>765-76</page-range>
+            <pub-id pub-id-type="pmid">23989718</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cazeau</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Ritter</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Bakdach</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lazarus</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Limousin</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Henao</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Mundler</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Daubert</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>Mugica</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Four chamber pacing in dilated cardiomyopathy.</article-title>
+            <source>Pacing Clin Electrophysiol</source>
+            <year>1994</year>
+            <month>Nov</month>
+            <volume>17</volume>
+            <issue>11 Pt 2</issue>
+            <fpage>1974</fpage>
+            <page-range>1974-9</page-range>
+            <pub-id pub-id-type="pmid">7845801</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Auricchio</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Stellbrink</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Block</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Sack</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Vogt</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Bakker</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Klein</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Kramer</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Ding</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Salo</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Tockman</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Pochet</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Spinelli</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Effect of pacing chamber and atrioventricular delay on acute systolic function of paced patients with congestive heart failure. The Pacing Therapies for Congestive Heart Failure Study Group. The Guidant Congestive Heart Failure Research Group.</article-title>
+            <source>Circulation</source>
+            <year>1999</year>
+            <month>Jun</month>
+            <day>15</day>
+            <volume>99</volume>
+            <issue>23</issue>
+            <fpage>2993</fpage>
+            <page-range>2993-3001</page-range>
+            <pub-id pub-id-type="pmid">10368116</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Patwala</surname>
+                <given-names>AY</given-names>
+              </name>
+              <name>
+                <surname>Wright</surname>
+                <given-names>DJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Device based treatment of heart failure.</article-title>
+            <source>Postgrad Med J</source>
+            <year>2005</year>
+            <month>May</month>
+            <volume>81</volume>
+            <issue>955</issue>
+            <fpage>286</fpage>
+            <page-range>286-91</page-range>
+            <pub-id pub-id-type="pmid">15879039</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Grzybiak</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Morphology of the coronary sinus and contemporary cardiac electrophysiology.</article-title>
+            <source>Folia Morphol (Warsz)</source>
+            <year>1996</year>
+            <volume>55</volume>
+            <issue>4</issue>
+            <fpage>272</fpage>
+            <page-range>272-3</page-range>
+            <pub-id pub-id-type="pmid">9243876</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jongbloed</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name>
+                <surname>Lamb</surname>
+                <given-names>HJ</given-names>
+              </name>
+              <name>
+                <surname>Bax</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Schuijf</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>de Roos</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>van der Wall</surname>
+                <given-names>EE</given-names>
+              </name>
+              <name>
+                <surname>Schalij</surname>
+                <given-names>MJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Noninvasive visualization of the cardiac venous system using multislice computed tomography.</article-title>
+            <source>J Am Coll Cardiol</source>
+            <year>2005</year>
+            <month>Mar</month>
+            <day>01</day>
+            <volume>45</volume>
+            <issue>5</issue>
+            <fpage>749</fpage>
+            <page-range>749-53</page-range>
+            <pub-id pub-id-type="pmid">15734621</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kirk</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Kass</surname>
+                <given-names>DA</given-names>
+              </name>
+            </person-group>
+            <article-title>Cellular and Molecular Aspects of Dyssynchrony and Resynchronization.</article-title>
+            <source>Card Electrophysiol Clin</source>
+            <year>2015</year>
+            <month>Dec</month>
+            <volume>7</volume>
+            <issue>4</issue>
+            <fpage>585</fpage>
+            <page-range>585-97</page-range>
+            <pub-id pub-id-type="pmid">26596804</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vernooy</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Verbeek</surname>
+                <given-names>XA</given-names>
+              </name>
+              <name>
+                <surname>Peschar</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Crijns</surname>
+                <given-names>HJ</given-names>
+              </name>
+              <name>
+                <surname>Arts</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Cornelussen</surname>
+                <given-names>RN</given-names>
+              </name>
+              <name>
+                <surname>Prinzen</surname>
+                <given-names>FW</given-names>
+              </name>
+            </person-group>
+            <article-title>Left bundle branch block induces ventricular remodelling and functional septal hypoperfusion.</article-title>
+            <source>Eur Heart J</source>
+            <year>2005</year>
+            <month>Jan</month>
+            <volume>26</volume>
+            <issue>1</issue>
+            <fpage>91</fpage>
+            <page-range>91-8</page-range>
+            <pub-id pub-id-type="pmid">15615805</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chakir</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Daya</surname>
+                <given-names>SK</given-names>
+              </name>
+              <name>
+                <surname>Aiba</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Tunin</surname>
+                <given-names>RS</given-names>
+              </name>
+              <name>
+                <surname>Dimaano</surname>
+                <given-names>VL</given-names>
+              </name>
+              <name>
+                <surname>Abraham</surname>
+                <given-names>TP</given-names>
+              </name>
+              <name>
+                <surname>Jaques-Robinson</surname>
+                <given-names>KM</given-names>
+              </name>
+              <name>
+                <surname>Lai</surname>
+                <given-names>EW</given-names>
+              </name>
+              <name>
+                <surname>Pacak</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Zhu</surname>
+                <given-names>WZ</given-names>
+              </name>
+              <name>
+                <surname>Xiao</surname>
+                <given-names>RP</given-names>
+              </name>
+              <name>
+                <surname>Tomaselli</surname>
+                <given-names>GF</given-names>
+              </name>
+              <name>
+                <surname>Kass</surname>
+                <given-names>DA</given-names>
+              </name>
+            </person-group>
+            <article-title>Mechanisms of enhanced beta-adrenergic reserve from cardiac resynchronization therapy.</article-title>
+            <source>Circulation</source>
+            <year>2009</year>
+            <month>Mar</month>
+            <day>10</day>
+            <volume>119</volume>
+            <issue>9</issue>
+            <fpage>1231</fpage>
+            <page-range>1231-40</page-range>
+            <pub-id pub-id-type="pmid">19237665</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bader</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Garrigue</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lafitte</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Reuter</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Ja&#x000ef;s</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Ha&#x000ef;ssaguerre</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Bonnet</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Clementy</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Roudaut</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Intra-left ventricular electromechanical asynchrony. A new independent predictor of severe cardiac events in heart failure patients.</article-title>
+            <source>J Am Coll Cardiol</source>
+            <year>2004</year>
+            <month>Jan</month>
+            <day>21</day>
+            <volume>43</volume>
+            <issue>2</issue>
+            <fpage>248</fpage>
+            <page-range>248-56</page-range>
+            <pub-id pub-id-type="pmid">14736445</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kass</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>CH</given-names>
+              </name>
+              <name>
+                <surname>Curry</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Talbot</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Berger</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Fetics</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Nevo</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Improved left ventricular mechanics from acute VDD pacing in patients with dilated cardiomyopathy and ventricular conduction delay.</article-title>
+            <source>Circulation</source>
+            <year>1999</year>
+            <month>Mar</month>
+            <day>30</day>
+            <volume>99</volume>
+            <issue>12</issue>
+            <fpage>1567</fpage>
+            <page-range>1567-73</page-range>
+            <pub-id pub-id-type="pmid">10096932</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schamroth Pravda</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Richter</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Brem</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Yehuda</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Rahat</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Ofek</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Tal</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Kornowski</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Vig</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Buturlin</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Hirsch</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Golovchiner</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Long Term Efficacy and Safety of Cardiac Resynchronization Therapy in Adult Congenital Heart Disease Patients: A Single Center Cohort Study.</article-title>
+            <source>Am J Cardiol</source>
+            <year>2025</year>
+            <month>May</month>
+            <day>01</day>
+            <volume>242</volume>
+            <fpage>82</fpage>
+            <page-range>82-87</page-range>
+            <pub-id pub-id-type="pmid">39889839</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <collab>2012 Writing Group Members</collab>
+              <name>
+                <surname>Tracy</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name>
+                <surname>Epstein</surname>
+                <given-names>AE</given-names>
+              </name>
+              <name>
+                <surname>Darbar</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>DiMarco</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Dunbar</surname>
+                <given-names>SB</given-names>
+              </name>
+              <name>
+                <surname>Estes</surname>
+                <given-names>NA</given-names>
+              </name>
+              <name>
+                <surname>Ferguson</surname>
+                <given-names>TB</given-names>
+              </name>
+              <name>
+                <surname>Hammill</surname>
+                <given-names>SC</given-names>
+              </name>
+              <name>
+                <surname>Karasik</surname>
+                <given-names>PE</given-names>
+              </name>
+              <name>
+                <surname>Link</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Marine</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>Schoenfeld</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Shanker</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Silka</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Stevenson</surname>
+                <given-names>LW</given-names>
+              </name>
+              <name>
+                <surname>Stevenson</surname>
+                <given-names>WG</given-names>
+              </name>
+              <name>
+                <surname>Varosy</surname>
+                <given-names>PD</given-names>
+              </name>
+              <collab>2008 Writing Committee Members</collab>
+              <name>
+                <surname>Epstein</surname>
+                <given-names>AE</given-names>
+              </name>
+              <name>
+                <surname>DiMarco</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Ellenbogen</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Estes</surname>
+                <given-names>NA</given-names>
+              </name>
+              <name>
+                <surname>Freedman</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Gettes</surname>
+                <given-names>LS</given-names>
+              </name>
+              <name>
+                <surname>Gillinov</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Gregoratos</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Hammill</surname>
+                <given-names>SC</given-names>
+              </name>
+              <name>
+                <surname>Hayes</surname>
+                <given-names>DL</given-names>
+              </name>
+              <name>
+                <surname>Hlatky</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Newby</surname>
+                <given-names>LK</given-names>
+              </name>
+              <name>
+                <surname>Page</surname>
+                <given-names>RL</given-names>
+              </name>
+              <name>
+                <surname>Schoenfeld</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Silka</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Stevenson</surname>
+                <given-names>LW</given-names>
+              </name>
+              <name>
+                <surname>Sweeney</surname>
+                <given-names>MO</given-names>
+              </name>
+              <collab>ACCF/AHA Task Force Members</collab>
+              <name>
+                <surname>Anderson</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Jacobs</surname>
+                <given-names>AK</given-names>
+              </name>
+              <name>
+                <surname>Halperin</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Albert</surname>
+                <given-names>NM</given-names>
+              </name>
+              <name>
+                <surname>Creager</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>DeMets</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Ettinger</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Guyton</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Hochman</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Kushner</surname>
+                <given-names>FG</given-names>
+              </name>
+              <name>
+                <surname>Ohman</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name>
+                <surname>Stevenson</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Yancy</surname>
+                <given-names>CW</given-names>
+              </name>
+              <collab>American College of Cardiology Foundation</collab>
+              <collab>American Heart Association Task Force on Practice Guidelines</collab>
+              <collab>American Association for Thoracic Surgery</collab>
+              <collab>Heart Failure Society of America</collab>
+              <collab>Society of Thoracic Surgeons</collab>
+            </person-group>
+            <article-title>2012 ACCF/AHA/HRS focused update of the 2008 guidelines for device-based therapy of cardiac rhythm abnormalities: a report of the American College of Cardiology Foundation/American Heart Association Task Force on Practice Guidelines.</article-title>
+            <source>J Thorac Cardiovasc Surg</source>
+            <year>2012</year>
+            <month>Dec</month>
+            <volume>144</volume>
+            <issue>6</issue>
+            <fpage>e127</fpage>
+            <page-range>e127-45</page-range>
+            <pub-id pub-id-type="pmid">23140976</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Epstein</surname>
+                <given-names>AE</given-names>
+              </name>
+              <name>
+                <surname>DiMarco</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Ellenbogen</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Estes</surname>
+                <given-names>NA</given-names>
+              </name>
+              <name>
+                <surname>Freedman</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Gettes</surname>
+                <given-names>LS</given-names>
+              </name>
+              <name>
+                <surname>Gillinov</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Gregoratos</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Hammill</surname>
+                <given-names>SC</given-names>
+              </name>
+              <name>
+                <surname>Hayes</surname>
+                <given-names>DL</given-names>
+              </name>
+              <name>
+                <surname>Hlatky</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Newby</surname>
+                <given-names>LK</given-names>
+              </name>
+              <name>
+                <surname>Page</surname>
+                <given-names>RL</given-names>
+              </name>
+              <name>
+                <surname>Schoenfeld</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Silka</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Stevenson</surname>
+                <given-names>LW</given-names>
+              </name>
+              <name>
+                <surname>Sweeney</surname>
+                <given-names>MO</given-names>
+              </name>
+              <name>
+                <surname>Smith</surname>
+                <given-names>SC</given-names>
+              </name>
+              <name>
+                <surname>Jacobs</surname>
+                <given-names>AK</given-names>
+              </name>
+              <name>
+                <surname>Adams</surname>
+                <given-names>CD</given-names>
+              </name>
+              <name>
+                <surname>Anderson</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Buller</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name>
+                <surname>Creager</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Ettinger</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Faxon</surname>
+                <given-names>DP</given-names>
+              </name>
+              <name>
+                <surname>Halperin</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Hiratzka</surname>
+                <given-names>LF</given-names>
+              </name>
+              <name>
+                <surname>Hunt</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Krumholz</surname>
+                <given-names>HM</given-names>
+              </name>
+              <name>
+                <surname>Kushner</surname>
+                <given-names>FG</given-names>
+              </name>
+              <name>
+                <surname>Lytle</surname>
+                <given-names>BW</given-names>
+              </name>
+              <name>
+                <surname>Nishimura</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Ornato</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Page</surname>
+                <given-names>RL</given-names>
+              </name>
+              <name>
+                <surname>Riegel</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Tarkington</surname>
+                <given-names>LG</given-names>
+              </name>
+              <name>
+                <surname>Yancy</surname>
+                <given-names>CW</given-names>
+              </name>
+              <collab>American College of Cardiology/American Heart Association Task Force on Practice Guidelines (Writing Committee to Revise the ACC/AHA/NASPE 2002 Guideline Update for Implantation of Cardiac Pacemakers and Antiarrhythmia Devices)</collab>
+              <collab>American Association for Thoracic Surgery</collab>
+              <collab>Society of Thoracic Surgeons</collab>
+            </person-group>
+            <article-title>ACC/AHA/HRS 2008 Guidelines for Device-Based Therapy of Cardiac Rhythm Abnormalities: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines (Writing Committee to Revise the ACC/AHA/NASPE 2002 Guideline Update for Implantation of Cardiac Pacemakers and Antiarrhythmia Devices): developed in collaboration with the American Association for Thoracic Surgery and Society of Thoracic Surgeons.</article-title>
+            <source>Circulation</source>
+            <year>2008</year>
+            <month>May</month>
+            <day>27</day>
+            <volume>117</volume>
+            <issue>21</issue>
+            <fpage>e350</fpage>
+            <page-range>e350-408</page-range>
+            <pub-id pub-id-type="pmid">18483207</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chia</surname>
+                <given-names>PL</given-names>
+              </name>
+              <name>
+                <surname>Foo</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Overview of implantable cardioverter defibrillator and cardiac resynchronisation therapy in heart failure management.</article-title>
+            <source>Singapore Med J</source>
+            <year>2016</year>
+            <month>Jul</month>
+            <volume>57</volume>
+            <issue>7</issue>
+            <fpage>354</fpage>
+            <page-range>354-9</page-range>
+            <pub-id pub-id-type="pmid">27440409</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Geske</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Goldstein</surname>
+                <given-names>RN</given-names>
+              </name>
+              <name>
+                <surname>Stambler</surname>
+                <given-names>BS</given-names>
+              </name>
+            </person-group>
+            <article-title>Novel steerable telescoping catheter system for implantation of left ventricular pacing leads.</article-title>
+            <source>J Interv Card Electrophysiol</source>
+            <year>2005</year>
+            <month>Jan</month>
+            <volume>12</volume>
+            <issue>1</issue>
+            <fpage>83</fpage>
+            <page-range>83-9</page-range>
+            <pub-id pub-id-type="pmid">15717156</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>van Gelder</surname>
+                <given-names>BM</given-names>
+              </name>
+              <name>
+                <surname>Elders</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Bracke</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Meijer</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Implantation of a biventricular pacing system in a patient with a coronary sinus not communicating with the right atrium.</article-title>
+            <source>Pacing Clin Electrophysiol</source>
+            <year>2003</year>
+            <month>May</month>
+            <volume>26</volume>
+            <issue>5</issue>
+            <fpage>1294</fpage>
+            <page-range>1294-6</page-range>
+            <pub-id pub-id-type="pmid">12769055</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bongiorni</surname>
+                <given-names>MG</given-names>
+              </name>
+              <name>
+                <surname>Proclemer</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Dobreanu</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Marinskis</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Pison</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Blomstrom-Lundqvist</surname>
+                <given-names>C</given-names>
+              </name>
+              <collab>Scientific Initiative Committee, European Heart Rhythm Association</collab>
+            </person-group>
+            <article-title>Preferred tools and techniques for implantation of cardiac electronic devices in Europe: results of the European Heart Rhythm Association survey.</article-title>
+            <source>Europace</source>
+            <year>2013</year>
+            <month>Nov</month>
+            <volume>15</volume>
+            <issue>11</issue>
+            <fpage>1664</fpage>
+            <page-range>1664-8</page-range>
+            <pub-id pub-id-type="pmid">24170423</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Res</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>de Priester</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>van Lier</surname>
+                <given-names>AA</given-names>
+              </name>
+              <name>
+                <surname>van Engelen</surname>
+                <given-names>CL</given-names>
+              </name>
+              <name>
+                <surname>Bronzwaer</surname>
+                <given-names>PN</given-names>
+              </name>
+              <name>
+                <surname>Tan</surname>
+                <given-names>PH</given-names>
+              </name>
+              <name>
+                <surname>Visser</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Pneumothorax resulting from subclavian puncture: a complication of permanent pacemaker lead implantation.</article-title>
+            <source>Neth Heart J</source>
+            <year>2004</year>
+            <month>Mar</month>
+            <volume>12</volume>
+            <issue>3</issue>
+            <fpage>101</fpage>
+            <page-range>101-105</page-range>
+            <pub-id pub-id-type="pmid">25696306</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Parsonnet</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Roelke</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>The cephalic vein cutdown versus subclavian puncture for pacemaker/ICD lead implantation.</article-title>
+            <source>Pacing Clin Electrophysiol</source>
+            <year>1999</year>
+            <month>May</month>
+            <volume>22</volume>
+            <issue>5</issue>
+            <fpage>695</fpage>
+            <page-range>695-7</page-range>
+            <pub-id pub-id-type="pmid">10353126</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Romeyer-Bouchard</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Da Costa</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Abdellaoui</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Messier</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Th&#x000e9;venin</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Afif</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Samuel</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Kihel</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Cerisier</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Convert</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Isaaz</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Simplified cardiac resynchronization implantation technique involving right access and a triple-guide/single introducer approach.</article-title>
+            <source>Heart Rhythm</source>
+            <year>2005</year>
+            <month>Jul</month>
+            <volume>2</volume>
+            <issue>7</issue>
+            <fpage>714</fpage>
+            <page-range>714-9</page-range>
+            <pub-id pub-id-type="pmid">15992727</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ussen</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Dhillon</surname>
+                <given-names>PS</given-names>
+              </name>
+              <name>
+                <surname>Anderson</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Beeton</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Hickman</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gallagher</surname>
+                <given-names>MM</given-names>
+              </name>
+            </person-group>
+            <article-title>Safety and feasibility of cephalic venous access for cardiac resynchronization device implantation.</article-title>
+            <source>Pacing Clin Electrophysiol</source>
+            <year>2011</year>
+            <month>Mar</month>
+            <volume>34</volume>
+            <issue>3</issue>
+            <fpage>365</fpage>
+            <page-range>365-9</page-range>
+            <pub-id pub-id-type="pmid">21091741</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hadjis</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Proietti</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Essebag</surname>
+                <given-names>V</given-names>
+              </name>
+            </person-group>
+            <article-title>Implantation of cardiac resynchronization therapy devices using three leads by cephalic vein dissection approach.</article-title>
+            <source>Europace</source>
+            <year>2017</year>
+            <month>Sep</month>
+            <day>01</day>
+            <volume>19</volume>
+            <issue>9</issue>
+            <fpage>1514</fpage>
+            <page-range>1514-1520</page-range>
+            <pub-id pub-id-type="pmid">28340223</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Singh</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Klein</surname>
+                <given-names>HU</given-names>
+              </name>
+              <name>
+                <surname>Huang</surname>
+                <given-names>DT</given-names>
+              </name>
+              <name>
+                <surname>Reek</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Kuniss</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Quesada</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Barsheshet</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Cannom</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Goldenberg</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>McNitt</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Daubert</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Zareba</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Moss</surname>
+                <given-names>AJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Left ventricular lead position and clinical outcome in the multicenter automatic defibrillator implantation trial-cardiac resynchronization therapy (MADIT-CRT) trial.</article-title>
+            <source>Circulation</source>
+            <year>2011</year>
+            <month>Mar</month>
+            <day>22</day>
+            <volume>123</volume>
+            <issue>11</issue>
+            <fpage>1159</fpage>
+            <page-range>1159-66</page-range>
+            <pub-id pub-id-type="pmid">21382893</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Siddiqui</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Tasouli-Drakou</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Ringor</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>DiCaro</surname>
+                <given-names>MV</given-names>
+              </name>
+              <name>
+                <surname>Yee</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Lei</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Tak</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Recent Advances in Cardiac Resynchronization Therapy: Current Treatment and Future Direction.</article-title>
+            <source>J Clin Med</source>
+            <year>2025</year>
+            <month>Jan</month>
+            <day>29</day>
+            <volume>14</volume>
+            <issue>3</issue>
+            <pub-id pub-id-type="pmid">39941560</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kamalzadeh</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Yazdani</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Jalali</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Coronary Sinus Stenting for the Management of Left Ventricular Lead Displacement during Resynchronization Therapy: A Report of Two Cases.</article-title>
+            <source>J Tehran Heart Cent</source>
+            <year>2018</year>
+            <month>Jan</month>
+            <volume>13</volume>
+            <issue>1</issue>
+            <fpage>27</fpage>
+            <page-range>27-31</page-range>
+            <pub-id pub-id-type="pmid">29997668</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ziacchi</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Anselmino</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Palmisano</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Casella</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Pelargonio</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Russo</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>D'Onofrio</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Massaro</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Vilotta</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Lauretti</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Themistoclakis</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Boriani</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>De Ponti</surname>
+                <given-names>R</given-names>
+              </name>
+              <collab>for AIAC Research Investigators (see Appendix, http://links.lww.com/JCM/A656)</collab>
+            </person-group>
+            <article-title>Selection of candidates for cardiac resynchronization therapy and implantation management: an Italian survey promoted by the Italian Association of Arrhythmology and Cardiac Pacing.</article-title>
+            <source>J Cardiovasc Med (Hagerstown)</source>
+            <year>2024</year>
+            <month>Aug</month>
+            <day>01</day>
+            <volume>25</volume>
+            <issue>8</issue>
+            <fpage>601</fpage>
+            <page-range>601-608</page-range>
+            <pub-id pub-id-type="pmid">38949147</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bode</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Sch&#x000fc;tte</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>[Optimized CRT programming: relevance and practical application].</article-title>
+            <source>Herzschrittmacherther Elektrophysiol</source>
+            <year>2009</year>
+            <month>Sep</month>
+            <volume>20</volume>
+            <issue>3</issue>
+            <fpage>121</fpage>
+            <page-range>121-30</page-range>
+            <pub-id pub-id-type="pmid">19727897</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schiavone</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Arosio</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Valenza</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Ruggiero</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Mitacchione</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Lombardi</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Viecca</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Forleo</surname>
+                <given-names>GB</given-names>
+              </name>
+            </person-group>
+            <article-title>Cardiac resynchronization therapy: present and future.</article-title>
+            <source>Eur Heart J Suppl</source>
+            <year>2023</year>
+            <month>May</month>
+            <volume>25</volume>
+            <issue>Suppl C</issue>
+            <fpage>C227</fpage>
+            <page-range>C227-C233</page-range>
+            <pub-id pub-id-type="pmid">37125274</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Richter</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lemke</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>[Left bundle branch pacing is superior to classic cardiac resynchronisation therapy : Pros and cons].</article-title>
+            <source>Herzschrittmacherther Elektrophysiol</source>
+            <year>2024</year>
+            <month>Dec</month>
+            <volume>35</volume>
+            <issue>4</issue>
+            <fpage>256</fpage>
+            <page-range>256-262</page-range>
+            <pub-id pub-id-type="pmid">39557652</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Klug</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Balde</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Pavin</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Hidden-Lucet</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Clementy</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Sadoul</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Rey</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Lande</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Lazarus</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Victor</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Barnay</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Grandbastien</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Kacet</surname>
+                <given-names>S</given-names>
+              </name>
+              <collab>PEOPLE Study Group</collab>
+            </person-group>
+            <article-title>Risk factors related to infections of implanted pacemakers and cardioverter-defibrillators: results of a large prospective study.</article-title>
+            <source>Circulation</source>
+            <year>2007</year>
+            <month>Sep</month>
+            <day>18</day>
+            <volume>116</volume>
+            <issue>12</issue>
+            <fpage>1349</fpage>
+            <page-range>1349-55</page-range>
+            <pub-id pub-id-type="pmid">17724263</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Young</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Abraham</surname>
+                <given-names>WT</given-names>
+              </name>
+              <name>
+                <surname>Smith</surname>
+                <given-names>AL</given-names>
+              </name>
+              <name>
+                <surname>Leon</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name>
+                <surname>Lieberman</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Wilkoff</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Canby</surname>
+                <given-names>RC</given-names>
+              </name>
+              <name>
+                <surname>Schroeder</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Liem</surname>
+                <given-names>LB</given-names>
+              </name>
+              <name>
+                <surname>Hall</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Wheelan</surname>
+                <given-names>K</given-names>
+              </name>
+              <collab>Multicenter InSync ICD Randomized Clinical Evaluation (MIRACLE ICD) Trial Investigators</collab>
+            </person-group>
+            <article-title>Combined cardiac resynchronization and implantable cardioversion defibrillation in advanced chronic heart failure: the MIRACLE ICD Trial.</article-title>
+            <source>JAMA</source>
+            <year>2003</year>
+            <month>May</month>
+            <day>28</day>
+            <volume>289</volume>
+            <issue>20</issue>
+            <fpage>2685</fpage>
+            <page-range>2685-94</page-range>
+            <pub-id pub-id-type="pmid">12771115</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Olsen</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>J&#x000f8;rgensen</surname>
+                <given-names>OD</given-names>
+              </name>
+              <name>
+                <surname>Nielsen</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>Th&#x000f8;gersen</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Philbert</surname>
+                <given-names>BT</given-names>
+              </name>
+              <name>
+                <surname>Johansen</surname>
+                <given-names>JB</given-names>
+              </name>
+            </person-group>
+            <article-title>Incidence of device-related infection in 97&#x000a0;750 patients: clinical data from the complete Danish device-cohort (1982-2018).</article-title>
+            <source>Eur Heart J</source>
+            <year>2019</year>
+            <month>Jun</month>
+            <day>14</day>
+            <volume>40</volume>
+            <issue>23</issue>
+            <fpage>1862</fpage>
+            <page-range>1862-1869</page-range>
+            <pub-id pub-id-type="pmid">31155647</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kirkfeldt</surname>
+                <given-names>RE</given-names>
+              </name>
+              <name>
+                <surname>Johansen</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Nohr</surname>
+                <given-names>EA</given-names>
+              </name>
+              <name>
+                <surname>Moller</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Arnsbo</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Nielsen</surname>
+                <given-names>JC</given-names>
+              </name>
+            </person-group>
+            <article-title>Pneumothorax in cardiac pacing: a population-based cohort study of 28,860 Danish patients.</article-title>
+            <source>Europace</source>
+            <year>2012</year>
+            <month>Aug</month>
+            <volume>14</volume>
+            <issue>8</issue>
+            <fpage>1132</fpage>
+            <page-range>1132-8</page-range>
+            <pub-id pub-id-type="pmid">22431443</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Biffi</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Exner</surname>
+                <given-names>DV</given-names>
+              </name>
+              <name>
+                <surname>Crossley</surname>
+                <given-names>GH</given-names>
+              </name>
+              <name>
+                <surname>Ramza</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Coutu</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Tomassoni</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Kranig</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Kristiansen</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Voss</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Occurrence of phrenic nerve stimulation in cardiac resynchronization therapy patients: the role of left ventricular lead type and placement site.</article-title>
+            <source>Europace</source>
+            <year>2013</year>
+            <month>Jan</month>
+            <volume>15</volume>
+            <issue>1</issue>
+            <fpage>77</fpage>
+            <page-range>77-82</page-range>
+            <pub-id pub-id-type="pmid">22848075</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Levy</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Kenchaiah</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Larson</surname>
+                <given-names>MG</given-names>
+              </name>
+              <name>
+                <surname>Benjamin</surname>
+                <given-names>EJ</given-names>
+              </name>
+              <name>
+                <surname>Kupka</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Ho</surname>
+                <given-names>KK</given-names>
+              </name>
+              <name>
+                <surname>Murabito</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Vasan</surname>
+                <given-names>RS</given-names>
+              </name>
+            </person-group>
+            <article-title>Long-term trends in the incidence of and survival with heart failure.</article-title>
+            <source>N Engl J Med</source>
+            <year>2002</year>
+            <month>Oct</month>
+            <day>31</day>
+            <volume>347</volume>
+            <issue>18</issue>
+            <fpage>1397</fpage>
+            <page-range>1397-402</page-range>
+            <pub-id pub-id-type="pmid">12409541</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rosamond</surname>
+                <given-names>WD</given-names>
+              </name>
+              <name>
+                <surname>Johnson</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Trends in Heart Failure Incidence in the Community: A Gathering Storm.</article-title>
+            <source>Circulation</source>
+            <year>2017</year>
+            <month>Mar</month>
+            <day>28</day>
+            <volume>135</volume>
+            <issue>13</issue>
+            <fpage>1224</fpage>
+            <page-range>1224-1226</page-range>
+            <pub-id pub-id-type="pmid">28348091</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jong</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Demers</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>McKelvie</surname>
+                <given-names>RS</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>PP</given-names>
+              </name>
+            </person-group>
+            <article-title>Angiotensin receptor blockers in heart failure: meta-analysis of randomized controlled trials.</article-title>
+            <source>J Am Coll Cardiol</source>
+            <year>2002</year>
+            <month>Feb</month>
+            <day>06</day>
+            <volume>39</volume>
+            <issue>3</issue>
+            <fpage>463</fpage>
+            <page-range>463-70</page-range>
+            <pub-id pub-id-type="pmid">11823085</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Packer</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Bristow</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name>
+                <surname>Cohn</surname>
+                <given-names>JN</given-names>
+              </name>
+              <name>
+                <surname>Colucci</surname>
+                <given-names>WS</given-names>
+              </name>
+              <name>
+                <surname>Fowler</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name>
+                <surname>Gilbert</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name>
+                <surname>Shusterman</surname>
+                <given-names>NH</given-names>
+              </name>
+            </person-group>
+            <article-title>The effect of carvedilol on morbidity and mortality in patients with chronic heart failure. U.S. Carvedilol Heart Failure Study Group.</article-title>
+            <source>N Engl J Med</source>
+            <year>1996</year>
+            <month>May</month>
+            <day>23</day>
+            <volume>334</volume>
+            <issue>21</issue>
+            <fpage>1349</fpage>
+            <page-range>1349-55</page-range>
+            <pub-id pub-id-type="pmid">8614419</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Poole-Wilson</surname>
+                <given-names>PA</given-names>
+              </name>
+              <name>
+                <surname>Uretsky</surname>
+                <given-names>BF</given-names>
+              </name>
+              <name>
+                <surname>Thygesen</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Cleland</surname>
+                <given-names>JG</given-names>
+              </name>
+              <name>
+                <surname>Massie</surname>
+                <given-names>BM</given-names>
+              </name>
+              <name>
+                <surname>Ryd&#x000e9;n</surname>
+                <given-names>L</given-names>
+              </name>
+              <collab>Atlas Study Group. Assessment of treatment with lisinopril and survival</collab>
+            </person-group>
+            <article-title>Mode of death in heart failure: findings from the ATLAS trial.</article-title>
+            <source>Heart</source>
+            <year>2003</year>
+            <month>Jan</month>
+            <volume>89</volume>
+            <issue>1</issue>
+            <fpage>42</fpage>
+            <page-range>42-8</page-range>
+            <pub-id pub-id-type="pmid">12482789</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hare</surname>
+                <given-names>JM</given-names>
+              </name>
+            </person-group>
+            <article-title>Cardiac-resynchronization therapy for heart failure.</article-title>
+            <source>N Engl J Med</source>
+            <year>2002</year>
+            <month>Jun</month>
+            <day>13</day>
+            <volume>346</volume>
+            <issue>24</issue>
+            <fpage>1902</fpage>
+            <page-range>1902-5</page-range>
+            <pub-id pub-id-type="pmid">12063376</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r46">
+          <label>46</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>de Vere</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Wijesuriya</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Howell</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Elliott</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>Mehta</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Mannakkara</surname>
+                <given-names>NN</given-names>
+              </name>
+              <name>
+                <surname>Strocchi</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Niederer</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Rinaldi</surname>
+                <given-names>CA</given-names>
+              </name>
+            </person-group>
+            <article-title>Optimizing outcomes from cardiac resynchronization therapy: what do recent data and insights say?</article-title>
+            <source>Expert Rev Cardiovasc Ther</source>
+            <year>2024</year>
+            <month>Dec</month>
+            <day>25</day>
+            <volume>22</volume>
+            <issue>12</issue>
+            <fpage>1</fpage>
+            <page-range>1-18</page-range>
+            <pub-id pub-id-type="pmid">39695920</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-165.r47">
+          <label>47</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Akhtar</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Gallagher</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Kontogiannis</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Leung</surname>
+                <given-names>LWM</given-names>
+              </name>
+              <name>
+                <surname>Spartalis</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Jouhra</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Sohal</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Shanmugam</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Progress in Cardiac Resynchronisation Therapy and Optimisation.</article-title>
+            <source>J Cardiovasc Dev Dis</source>
+            <year>2023</year>
+            <month>Oct</month>
+            <day>17</day>
+            <volume>10</volume>
+            <issue>10</issue>
+            <pub-id pub-id-type="pmid">37887875</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

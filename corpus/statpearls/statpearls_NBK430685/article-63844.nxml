@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-63844" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Past Present and Future of Simulation in Military Medicine</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Eubanks</surname>
+            <given-names>Allison A.</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Volner</surname>
+            <given-names>Keith</given-names>
+          </name>
+          <aff>Tripler Army Medical Center</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Lopreiato</surname>
+            <given-names>Joseph O.</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Allison Eubanks declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Keith Volner declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Joseph Lopreiato declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>31</day>
+          <month>10</month>
+          <year>2022</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-63844.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>The concept of modeling and simulation (M&#x00026;S) has long been integral to war-fighter military training since before World War II when pilots and infantry soldiers would train with simulators and mockups to prepare for battle. Army and Navy aviators would practice flying in simulated cockpits. It was not until the turn of this century that M&#x00026;S saw application in healthcare. The most recent wars involving the United States and coalition partners have created the need for more training and practice in life-saving procedures on the battlefield and the hospital. Therefore, in the 1960s, simulation was accepted as a successful addition to the preparation of medical&#x000a0;personnel.&#x000a0;</p>
+      </sec>
+      <sec id="article-63844.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>
+<bold>The Need</bold>
+</p>
+        <p>In World War II, the mortality rate of combat wounds was up to 30% but dropped to 24% in the Vietnam War.<xref ref-type="bibr" rid="article-63844.r1">[1]</xref>&#x000a0;However, in the 1990-1991 conflict in the Persian Gulf War, the 24% mortality rate remained.<xref ref-type="bibr" rid="article-63844.r2">[2]</xref>&#x000a0;Then, in 1997, the Tactical Combat Casualty Care (TCCC) program was developed for the Special Operations medical community based&#x000a0;on injury patterns from the prior wars.<xref ref-type="bibr" rid="article-63844.r1">[1]</xref>&#x000a0;This program established pre-hospital trauma-care guidelines for the front lines and reinitiated tourniquets as a front-line technique for hemorrhage management.<xref ref-type="bibr" rid="article-63844.r1">[1]</xref><xref ref-type="bibr" rid="article-63844.r2">[2]</xref><xref ref-type="bibr" rid="article-63844.r3">[3]</xref><xref ref-type="bibr" rid="article-63844.r4">[4]</xref>&#x000a0;Further, there have been reports that 90% of combat-related deaths occur before the war-fighter can reach a Military Treatment Facility, emphasizing the importance of battlefield care.<xref ref-type="bibr" rid="article-63844.r1">[1]</xref>&#x000a0;Similar reports called for more consistent training and implementation of the already practiced TCCC course for medics and line soldiers.<xref ref-type="bibr" rid="article-63844.r1">[1]</xref><xref ref-type="bibr" rid="article-63844.r2">[2]</xref><xref ref-type="bibr" rid="article-63844.r3">[3]</xref><xref ref-type="bibr" rid="article-63844.r4">[4]</xref><xref ref-type="bibr" rid="article-63844.r5">[5]</xref><xref ref-type="bibr" rid="article-63844.r6">[6]</xref>&#x000a0;</p>
+        <p>In 1999, the Army focused on providing better medical care downrange and increased training for combat medics. This expanded training included simulation as a core element.<xref ref-type="bibr" rid="article-63844.r7">[7]</xref>&#x000a0;Analysis of the recent wars in Iraq and Afghanistan, after the inclusion of simulation in training, found that the mortality rate from combat-related wounds dropped to 10%, despite the increase in trauma the new weapons of war bring and that upwards of 25% of deaths were potentially survivable.<xref ref-type="bibr" rid="article-63844.r4">[4]</xref><xref ref-type="bibr" rid="article-63844.r5">[5]</xref>&#x000a0;Despite the improvements in training, a report in 2005 noted no significant change in the number of soldiers dying from preventable deaths, and&#x000a0;the U.S. Army Medical Command released an Operational Needs Statement noting a significant gap in battle-focused skills for Combat Medics.&#x000a0;The concern was that medics all over the country were receiving different training on different equipment; therefore, there was no standardization or sustainment of skills.<xref ref-type="bibr" rid="article-63844.r8">[8]</xref></p>
+      </sec>
+      <sec id="article-63844.s3" sec-type="Medical Decision Making and Leadership Development">
+        <title>Medical Decision Making and Leadership Development</title>
+        <p>
+<bold>The Response</bold>
+</p>
+        <p>In response to this report, the Medical Simulation Training Center (MSTC) program was quickly established in the United States Army in November of 2005 to build, sustain, and standardize the skills of the enlisted Army Combat Medics.<xref ref-type="bibr" rid="article-63844.r8">[8]</xref><xref ref-type="bibr" rid="article-63844.r9">[9]</xref>&#x000a0;This setup employs training lanes to simulate combat injuries and allow for hands-on skills training, which is standardized across installations.<xref ref-type="bibr" rid="article-63844.r8">[8]</xref>&#x000a0;Soldiers learn self-aid skills, buddy-aid skills, and combat lifesaver skills, focusing on the&#x000a0;3 major potentially survivable causes of death chosen based on data from the Vietnam War: extremity hemorrhage, tension pneumothorax, and airway obstruction.<xref ref-type="bibr" rid="article-63844.r3">[3]</xref><xref ref-type="bibr" rid="article-63844.r8">[8]</xref>&#x000a0;The goal was to stop the &#x0201c;preventable deaths&#x0201d; and to decrease the overall 10% mortality that deployed soldiers were still facing at the front lines.</p>
+        <p>Originally, the plan was to have 35 of these centers worldwide, which was later scaled back to 25.<xref ref-type="bibr" rid="article-63844.r10">[10]</xref>&#x000a0;There are currently 21 MSTC facilities in the continental United States (CONUS) and outside the continental United States (OCONUS) to train the 35000 U.S. Army medics and all deploying soldiers.<xref ref-type="bibr" rid="article-63844.r8">[8]</xref>&#x000a0;These facilities teach and reinforce the TCCC curriculum. Medics use engaging and hands-on methods to renew TCCC training while developing and practicing more advanced skills like chest tubes and tracheotomies on simulators in calm and simulated distressed settings.<xref ref-type="bibr" rid="article-63844.r3">[3]</xref><xref ref-type="bibr" rid="article-63844.r8">[8]</xref><xref ref-type="bibr" rid="article-63844.r9">[9]</xref><xref ref-type="bibr" rid="article-63844.r11">[11]</xref>&#x000a0;These facilities also train the combat lifesavers, non-medical soldiers designated by each squad, to be trained in more advanced medical skills <xref ref-type="bibr" rid="article-63844.r9">[9]</xref>. MSTC facilities enabled medics to help train every soldier to use their first aid kits (IFAK) and their components, both for self-aid and potentially to save a fallen comrade's life.<xref ref-type="bibr" rid="article-63844.r3">[3]</xref><xref ref-type="bibr" rid="article-63844.r8">[8]</xref><xref ref-type="bibr" rid="article-63844.r9">[9]</xref><xref ref-type="bibr" rid="article-63844.r11">[11]</xref>&#x000a0;Facilities have grown to incorporate augmented reality, moulage patients, task trainers, live tissue models, and perfused or non-perfused cadavers. The training expanded to include working dog mannequins to help medics learn life-saving techniques for the canines on the front lines.<xref ref-type="bibr" rid="article-63844.r11">[11]</xref><xref ref-type="bibr" rid="article-63844.r12">[12]</xref>&#x000a0;These facilities trained several thousand soldiers in the first 3 to 4 years of practice. Towards the height of the Iraq and Afghanistan conflicts, the MSTCs saw 70000&#x000a0;to 90000 trainees annually, with a peak of over 120,000 soldiers in just 17 MSTCs in 2009. They provided training for everything from Basic Lifesaving (BLS) to Emergency Medical Technician (EMT) recertification training.<xref ref-type="bibr" rid="article-63844.r9">[9]</xref><xref ref-type="bibr" rid="article-63844.r11">[11]</xref>&#x000a0;Since the assimilation of the MSTC programs into medic training, the U.S. Army Medical Department (AMEDD), medical simulation training has been declared a mission-essential imperative for training new providers and reintegrating those from deployment.<xref ref-type="bibr" rid="article-63844.r7">[7]</xref></p>
+        <p>The U.S. Navy has used simulation as a training aid in several contexts. The USNS MERCY and the USNS COMFORT are&#x000a0;2 large hospital ships that perform regular, advanced-phase training to prepare and test the capabilities of the ship and the crew. These drills utilize cut-suit simulators and simulated patients to allow for the practice of personnel movement and at-sea life-saving procedures. The U.S. Navy Medical Department has run simulation drills with live actors and mannequins to practice mass-causality events on many naval vessels (surface ships and submarines) before operational deployments.<xref ref-type="bibr" rid="article-63844.r13">[13]</xref>&#x000a0;The Navy employs a 3-module team, the Expeditionary Resuscitative Surgical System (ERSS), to provide care on board amphibious or other large ship platforms at sea.<xref ref-type="bibr" rid="article-63844.r13">[13]</xref>&#x000a0;This system includes the Expeditionary Trauma Team (ETT), Expeditionary Surgical Team (EST), and the En Route Care Team (ECT).<xref ref-type="bibr" rid="article-63844.r13">[13]</xref>&#x000a0;The ERSS teams are frequently composed of sailors who have not previously worked together; therefore, simulation drills allow them to develop an efficient and effective working relationship to provide the best care during operations. The U.S. Navy has mastered incorporating simulation into their medical training, and other world military forces&#x000a0;are learning from their success. The Royal Navy of Great Britain has sent teams to Norfolk, VA, to investigate the use of simulation training aboard their aircraft carriers. Navy medical corpsmen assigned to the United States Marine Corps (USMC) are trained at the unit level using simulators. The individual medical battalions train independently with task trainers and mannequin simulators in a tactical field environment <xref ref-type="bibr" rid="article-63844.r13">[13]</xref>. Recognizing the importance of service-wide standardization of training, the USMC has begun&#x000a0;funding propositions in the last couple of years for&#x000a0;the unification and standardization of medical training incorporating simulation.<xref ref-type="bibr" rid="article-63844.r13">[13]</xref></p>
+        <p>One of the critical roles U. S. Air Force medical technicians play is air evacuation of critically ill patients. In 2002,&#x000a0;3 Centers for Sustainment of Trauma and Readiness Skills (C-STARS) were established to train better Air Force personnel in the Critical Care Air Transport Teams (CCATT) in Baltimore, St. Louis, and Cincinnati.<xref ref-type="bibr" rid="article-63844.r4">[4]</xref><xref ref-type="bibr" rid="article-63844.r14">[14]</xref>&#x000a0;These were established after the reviews of Operation Desert Storm revealed that 90% of combat-related deaths occur before reaching a hospital.<xref ref-type="bibr" rid="article-63844.r4">[4]</xref><xref ref-type="bibr" rid="article-63844.r14">[14]</xref>&#x000a0;Successful CCATT teams have decreased the rate of prehospital combat-related deaths and have allowed medical personnel to be farther away from the frontlines.<xref ref-type="bibr" rid="article-63844.r14">[14]</xref>&#x000a0;This training program lasts&#x000a0;2 weeks and incorporates simulated war environments with limited visibility and loud background noises while providing medical care.<xref ref-type="bibr" rid="article-63844.r14">[14]</xref>&#x000a0;They utilize mannequin simulators to reenact large injuries and the movement of personnel, along with smaller task trainers, to simulate small procedures and interventions.<xref ref-type="bibr" rid="article-63844.r14">[14]</xref>&#x000a0;More recently, the Air Force has set up the Aeromedical Simulation Training and Education Center (ASTEC), the first to specifically model and train providers to provide medical care in a simulated en-route care environment.<xref ref-type="bibr" rid="article-63844.r14">[14]</xref>&#x000a0;&#x000a0;</p>
+      </sec>
+      <sec id="article-63844.s4" sec-type="Continuing Education">
+        <title>Continuing Education</title>
+        <p>
+<bold>Expansion of Military Healthcare Simulation</bold>
+</p>
+        <p>The MSTC and other military medic training programs did not include physician and nurse training. A new gap was observed in military medicine between the maintenance of skills needed on the battlefield and those needed for hospitalized patients. To address patients' needs admitted to military treatment facilities, the military healthcare system (MHS) began establishing a hospital and school-based simulation centers to enhance clinical training and experience among physicians and nurses.<xref ref-type="bibr" rid="article-63844.r7">[7]</xref>&#x000a0;In 1999, the Uniformed Services University of the Health Sciences (USUHS), a military medical and graduate nursing school, established the first simulation center to enhance medical education and training. This Val G. Hemming simulation center employs live actor simulation, mannequins, task trainers, and virtual reality-based simulation. The center helps train medical students, graduate-level nursing students, and Graduate Medical Education (GME) trainees. The center demonstrates improved outcomes of trainees in published works, too numerous to cite.<xref ref-type="bibr" rid="article-63844.r15">[15]</xref><xref ref-type="bibr" rid="article-63844.r16">[16]</xref><xref ref-type="bibr" rid="article-63844.r17">[17]</xref><xref ref-type="bibr" rid="article-63844.r18">[18]</xref><xref ref-type="bibr" rid="article-63844.r19">[19]</xref>&#x000a0;It remains the largest and most comprehensive simulation center in the MHS.</p>
+        <p>The Charles A. Andersen Simulation Center at Madigan Army Medical Center was established as the first hospital-based simulation center in March 2002.<xref ref-type="bibr" rid="article-63844.r20">[20]</xref>&#x000a0;This facility was initially used for soldiers preparing for deployment. Still, after the success of the MSTCs, it quickly developed into a training center for Obstetrics &#x00026; Gynecology, General Surgery, Anesthesiology, and Otolaryngology health care professionals.<xref ref-type="bibr" rid="article-63844.r20">[20]</xref>&#x000a0;As robotic surgery began to demonstrate advantages for patient safety with surgical advancements, the USUHS and Andersen simulation centers acquired robotics simulators in 2005 to train their surgeons on this new technique.<xref ref-type="bibr" rid="article-63844.r7">[7]</xref><xref ref-type="bibr" rid="article-63844.r21">[21]</xref><xref ref-type="bibr" rid="article-63844.r22">[22]</xref>&#x000a0;Army GME expanded to allow simulation training sites at 10 Army Military Treatment Facilities.<xref ref-type="bibr" rid="article-63844.r7">[7]</xref><xref ref-type="bibr" rid="article-63844.r20">[20]</xref></p>
+        <p>The United States Air Force subsequently acknowledged the need for healthcare simulation within their service and developed the Air Force Medical Modeling and Simulation Training (AFMMAST) in 2008 to establish and coordinate simulation centers worldwide.<xref ref-type="bibr" rid="article-63844.r10">[10]</xref>&#x000a0;The main focus was to train medical staff in battlefield and hospital medicine skills using simulation before deploying to war.<xref ref-type="bibr" rid="article-63844.r10">[10]</xref>&#x000a0;The U.S. Navy Medical Department established the Naval Medical Modeling and Simulation Training (NMMAST) program in 2014 to coordinate the implementation of 12 simulation centers in Navy medical treatment facilities worldwide. This new office worked with existing large hospital simulation centers at Naval Medical Center Portsmouth and Naval Medical Center San Diego to disseminate best practices.<xref ref-type="bibr" rid="article-63844.r7">[7]</xref><xref ref-type="bibr" rid="article-63844.r10">[10]</xref>&#x000a0; In San Diego, the first simulation training events took place on local movie sets to enhance the simulation. These programs focused on developing both in-hospital and field medical skills before deployment.<xref ref-type="bibr" rid="article-63844.r10">[10]</xref>&#x000a0;In Portsmouth, simulation center personnel brought mannequins and task trainers to the pier side to conduct simulated casualty drills on navy ships.</p>
+      </sec>
+      <sec id="article-63844.s5" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Several studies have demonstrated that surgical subspecialists take significant time to return to their perceived skill baseline after coming home after deployments.<xref ref-type="bibr" rid="article-63844.r23">[23]</xref><xref ref-type="bibr" rid="article-63844.r24">[24]</xref>&#x000a0;Further, there has been a lot of effort to maintain skills for military surgeons state-side as there is a concern that on smaller bases, the volume is too low for high-risk patients.<xref ref-type="bibr" rid="article-63844.r25">[25]</xref>&#x000a0;In response, the newly established Defense Health Agency created a central coordinating office for healthcare simulation across all services in 2015. The Department of Defense Medical Modeling and Simulation Office (DMMSO) was charged with getting the Army, Navy, and Air Force simulation efforts to work more cohesively in developing and implementing simulation methods to train, gain, build, and sustain medical skills for deployment readiness and to refresh skills needed for subspecialty skills.<xref ref-type="bibr" rid="article-63844.r10">[10]</xref>&#x000a0;The office also began to standardize the procurement of equipment and operators needed for healthcare simulation. The office was also responsible for setting requirements for healthcare simulation across the entire MHS and standardizing the training of instructors in simulation. Multiple studies have demonstrated the impact of simulation on medical training. Simulation-based learning improves skills for all participants and increases skill retention.[26][27][28] Further, there is evidence that simulation improves skill acquisition and development standardization, which supports the military's goals by adding these training curriculums.[28][29] These studies further validate the MHS's efforts to better care for soldiers, sailors, airmen, and marines.</p>
+      </sec>
+      <sec id="article-63844.s6" sec-type="Pearls and Other Issues">
+        <title>Pearls and Other Issues</title>
+        <p>As the military begins to work towards a unified medical force under the Defense Health Agency, the goals for advancing military medicine continue to require simulation as a critical aspect of training and maintenance of skills. The future of military medical simulation includes working towards remote surgical interventions to allow those on the battlefield's front lines or deployed aboard a ship to receive life-saving surgery from a remote surgeon. These programs allow the military to create the most prepared and skilled force of medics, corpsmen, technicians, nurses, and physicians to aid those in harm's way.</p>
+      </sec>
+      <sec id="article-63844.s7" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>
+<bold>The Future of Military Healthcare Simulation</bold>
+</p>
+        <p>The future of simulation within the military healthcare system is bright. There are many areas in which the military uses simulation methodologies to enhance skills needed to care for service members in battle and themselves and their families when hospitalized in military treatment facilities. Among the areas of active interest are:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>AR/VR: the expanded use of augmented reality (AR) and virtual reality (VR) screen-based simulation to recreate environments of care. At the USUHS Simcenter, an immersive VR theater is being used to train teams of providers in multiple causality situations and aero-medical evacuation of patients. Head-mounted VR displays are being tested in Army field environments to see if this simulation method can help first responders recognize and treat life-threatening hemorrhage and airway emergencies.</p>
+          </list-item>
+          <list-item>
+            <p>Joint Medical Simulation Instructional Methods (JMedSIM): With the increasing emphasis on simulation, there is a pressing need to train more healthcare personnel to deliver healthcare simulation to learners. To that end, the MHS has launched&#x000a0;JMedSIM, a standardized simulation instructor/operator online course that allows simulation instructors to become familiar with effective training methods in healthcare simulation. The goal is for all those who employ simulation for training to be certified through this route.</p>
+          </list-item>
+          <list-item>
+            <p>Graduate education in simulation: There is a need for more advanced education and research in simulation methodology as it applies to operational military medicine. The USUHS&#x000a0;has partnered with the Naval Postgraduate School in Monterey, California, to offer a jointly sponsored certificate program in healthcare simulation. Over 100 personnel have taken these graduate-level courses in the last&#x000a0;6 years, and they are designed to educate the next generation of healthcare simulation professionals. A master' s-level degree in healthcare simulation is now in the final stages of planning and execution.</p>
+          </list-item>
+          <list-item>
+            <p>Specific skills project: The MHS has recognized the need to tailor simulation to the individual skills of the physicians and nurses caring for service members in deployed settings. The Department of Defense&#x000a0;has developed specific knowledge, skill, and attribute (KSA) skillsets for each medical specialty. The KSA is essentially an annual task list and determines how prepared a practitioner is for deployed medical operations. Simulation methods&#x000a0;are implemented where applicable to augment the standard medical practice of the provider in the garrison and meet the KSA goals.</p>
+          </list-item>
+        </list>
+        <p>This&#x000a0;topic&#x000a0;was completed with multiple interviews with those involved with creating, developing, and introducing much of the reviewed systems and curriculums. Special thanks to COL (ret) S. Deering, MAJ G. O&#x02019;Keefe, SGM L. Moore, G. Vallejo, MSG R. Gonzalez, J. Higman, CAPT M. Spooner, LCDR D. Weltch, J. Ruisi, COL (ret) E. Lockrow, B. Roth, and R. Garza.</p>
+      </sec>
+      <sec id="article-63844.s8">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=63844&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=63844">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/63844/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=63844">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-63844.s9">
+        <title>References</title>
+        <ref id="article-63844.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kotwal</surname>
+                <given-names>RS</given-names>
+              </name>
+              <name>
+                <surname>Montgomery</surname>
+                <given-names>HR</given-names>
+              </name>
+              <name>
+                <surname>Kotwal</surname>
+                <given-names>BM</given-names>
+              </name>
+              <name>
+                <surname>Champion</surname>
+                <given-names>HR</given-names>
+              </name>
+              <name>
+                <surname>Butler</surname>
+                <given-names>FK</given-names>
+              </name>
+              <name>
+                <surname>Mabry</surname>
+                <given-names>RL</given-names>
+              </name>
+              <name>
+                <surname>Cain</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Blackbourne</surname>
+                <given-names>LH</given-names>
+              </name>
+              <name>
+                <surname>Mechler</surname>
+                <given-names>KK</given-names>
+              </name>
+              <name>
+                <surname>Holcomb</surname>
+                <given-names>JB</given-names>
+              </name>
+            </person-group>
+            <article-title>Eliminating preventable death on the battlefield.</article-title>
+            <source>Arch Surg</source>
+            <year>2011</year>
+            <month>Dec</month>
+            <volume>146</volume>
+            <issue>12</issue>
+            <fpage>1350</fpage>
+            <page-range>1350-8</page-range>
+            <pub-id pub-id-type="pmid">21844425</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gawande</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Casualties of war--military care for the wounded from Iraq and Afghanistan.</article-title>
+            <source>N Engl J Med</source>
+            <year>2004</year>
+            <month>Dec</month>
+            <day>09</day>
+            <volume>351</volume>
+            <issue>24</issue>
+            <fpage>2471</fpage>
+            <page-range>2471-5</page-range>
+            <pub-id pub-id-type="pmid">15590948</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Blackbourne</surname>
+                <given-names>LH</given-names>
+              </name>
+              <name>
+                <surname>Baer</surname>
+                <given-names>DG</given-names>
+              </name>
+              <name>
+                <surname>Eastridge</surname>
+                <given-names>BJ</given-names>
+              </name>
+              <name>
+                <surname>Kheirabadi</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Bagley</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Kragh</surname>
+                <given-names>JF</given-names>
+              </name>
+              <name>
+                <surname>Cap</surname>
+                <given-names>AP</given-names>
+              </name>
+              <name>
+                <surname>Dubick</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Morrison</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Midwinter</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Butler</surname>
+                <given-names>FK</given-names>
+              </name>
+              <name>
+                <surname>Kotwal</surname>
+                <given-names>RS</given-names>
+              </name>
+              <name>
+                <surname>Holcomb</surname>
+                <given-names>JB</given-names>
+              </name>
+            </person-group>
+            <article-title>Military medical revolution: prehospital combat casualty care.</article-title>
+            <source>J Trauma Acute Care Surg</source>
+            <year>2012</year>
+            <month>Dec</month>
+            <volume>73</volume>
+            <issue>6 Suppl 5</issue>
+            <fpage>S372</fpage>
+            <page-range>S372-7</page-range>
+            <pub-id pub-id-type="pmid">23192058</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Eastridge</surname>
+                <given-names>BJ</given-names>
+              </name>
+              <name>
+                <surname>Mabry</surname>
+                <given-names>RL</given-names>
+              </name>
+              <name>
+                <surname>Seguin</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Cantrell</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Tops</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Uribe</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Mallett</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Zubko</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Oetjen-Gerdes</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Rasmussen</surname>
+                <given-names>TE</given-names>
+              </name>
+              <name>
+                <surname>Butler</surname>
+                <given-names>FK</given-names>
+              </name>
+              <name>
+                <surname>Kotwal</surname>
+                <given-names>RS</given-names>
+              </name>
+              <name>
+                <surname>Holcomb</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Wade</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Champion</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Lawnick</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Moores</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Blackbourne</surname>
+                <given-names>LH</given-names>
+              </name>
+            </person-group>
+            <article-title>Death on the battlefield (2001-2011): implications for the future of combat casualty care.</article-title>
+            <source>J Trauma Acute Care Surg</source>
+            <year>2012</year>
+            <month>Dec</month>
+            <volume>73</volume>
+            <issue>6 Suppl 5</issue>
+            <fpage>S431</fpage>
+            <page-range>S431-7</page-range>
+            <pub-id pub-id-type="pmid">23192066</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kelly</surname>
+                <given-names>JF</given-names>
+              </name>
+              <name>
+                <surname>Ritenour</surname>
+                <given-names>AE</given-names>
+              </name>
+              <name>
+                <surname>McLaughlin</surname>
+                <given-names>DF</given-names>
+              </name>
+              <name>
+                <surname>Bagg</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Apodaca</surname>
+                <given-names>AN</given-names>
+              </name>
+              <name>
+                <surname>Mallak</surname>
+                <given-names>CT</given-names>
+              </name>
+              <name>
+                <surname>Pearse</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Lawnick</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Champion</surname>
+                <given-names>HR</given-names>
+              </name>
+              <name>
+                <surname>Wade</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name>
+                <surname>Holcomb</surname>
+                <given-names>JB</given-names>
+              </name>
+            </person-group>
+            <article-title>Injury severity and causes of death from Operation Iraqi Freedom and Operation Enduring Freedom: 2003-2004 versus 2006.</article-title>
+            <source>J Trauma</source>
+            <year>2008</year>
+            <month>Feb</month>
+            <volume>64</volume>
+            <issue>2 Suppl</issue>
+            <fpage>S21</fpage>
+            <page-range>S21-6; discussion S26-7</page-range>
+            <pub-id pub-id-type="pmid">18376168</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Holcomb</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>McMullin</surname>
+                <given-names>NR</given-names>
+              </name>
+              <name>
+                <surname>Pearse</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Caruso</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Wade</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name>
+                <surname>Oetjen-Gerdes</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Champion</surname>
+                <given-names>HR</given-names>
+              </name>
+              <name>
+                <surname>Lawnick</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Farr</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Rodriguez</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Butler</surname>
+                <given-names>FK</given-names>
+              </name>
+            </person-group>
+            <article-title>Causes of death in U.S. Special Operations Forces in the global war on terrorism: 2001-2004.</article-title>
+            <source>Ann Surg</source>
+            <year>2007</year>
+            <month>Jun</month>
+            <volume>245</volume>
+            <issue>6</issue>
+            <fpage>986</fpage>
+            <page-range>986-91</page-range>
+            <pub-id pub-id-type="pmid">17522526</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Deering</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Sawyer</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Mikita</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Maurer</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Roth</surname>
+                <given-names>BJ</given-names>
+              </name>
+            </person-group>
+            <article-title>The Central Simulation Committee (CSC): a model for centralization and standardization of simulation-based medical education in the U.S. Army healthcare system.</article-title>
+            <source>Mil Med</source>
+            <year>2012</year>
+            <month>Jul</month>
+            <volume>177</volume>
+            <issue>7</issue>
+            <fpage>829</fpage>
+            <page-range>829-35</page-range>
+            <pub-id pub-id-type="pmid">22808890</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>McCarthy</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>US military revamps combat medic training and care.</article-title>
+            <source>Lancet</source>
+            <year>2003</year>
+            <month>Feb</month>
+            <day>08</day>
+            <volume>361</volume>
+            <issue>9356</issue>
+            <fpage>494</fpage>
+            <page-range>494-5</page-range>
+            <pub-id pub-id-type="pmid">12583953</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hemman</surname>
+                <given-names>EA</given-names>
+              </name>
+            </person-group>
+            <article-title>Improving combat medic learning using a personal computer-based virtual training simulator.</article-title>
+            <source>Mil Med</source>
+            <year>2005</year>
+            <month>Sep</month>
+            <volume>170</volume>
+            <issue>9</issue>
+            <fpage>723</fpage>
+            <page-range>723-7</page-range>
+            <pub-id pub-id-type="pmid">16261973</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Linde</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Kunkler</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>The Evolution of Medical Training Simulation in the U.S. Military.</article-title>
+            <source>Stud Health Technol Inform</source>
+            <year>2016</year>
+            <volume>220</volume>
+            <fpage>209</fpage>
+            <page-range>209-14</page-range>
+            <pub-id pub-id-type="pmid">27046580</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sohn</surname>
+                <given-names>VY</given-names>
+              </name>
+              <name>
+                <surname>Miller</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Koeller</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Gibson</surname>
+                <given-names>SO</given-names>
+              </name>
+              <name>
+                <surname>Azarow</surname>
+                <given-names>KS</given-names>
+              </name>
+              <name>
+                <surname>Myers</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Beekley</surname>
+                <given-names>AC</given-names>
+              </name>
+              <name>
+                <surname>Sebesta</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Christensen</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Rush</surname>
+                <given-names>RM</given-names>
+              </name>
+            </person-group>
+            <article-title>From the combat medic to the forward surgical team: the Madigan model for improving trauma readiness of brigade combat teams fighting the Global War on Terror.</article-title>
+            <source>J Surg Res</source>
+            <year>2007</year>
+            <month>Mar</month>
+            <volume>138</volume>
+            <issue>1</issue>
+            <fpage>25</fpage>
+            <page-range>25-31</page-range>
+            <pub-id pub-id-type="pmid">17196987</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Butler</surname>
+                <given-names>FK</given-names>
+              </name>
+            </person-group>
+            <article-title>Leadership lessons learned in Tactical Combat Casualty Care.</article-title>
+            <source>J Trauma Acute Care Surg</source>
+            <year>2017</year>
+            <month>Jun</month>
+            <volume>82</volume>
+            <issue>6S Suppl 1</issue>
+            <fpage>S16</fpage>
+            <page-range>S16-S25</page-range>
+            <pub-id pub-id-type="pmid">28333837</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Brethauer</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Chao</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Chambers</surname>
+                <given-names>LW</given-names>
+              </name>
+              <name>
+                <surname>Green</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Brown</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Rhee</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Bohman</surname>
+                <given-names>HR</given-names>
+              </name>
+            </person-group>
+            <article-title>Invasion vs insurgency: US Navy/Marine Corps forward surgical care during Operation Iraqi Freedom.</article-title>
+            <source>Arch Surg</source>
+            <year>2008</year>
+            <month>Jun</month>
+            <volume>143</volume>
+            <issue>6</issue>
+            <fpage>564</fpage>
+            <page-range>564-9</page-range>
+            <pub-id pub-id-type="pmid">18559749</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Maddry</surname>
+                <given-names>JK</given-names>
+              </name>
+              <name>
+                <surname>Mora</surname>
+                <given-names>AG</given-names>
+              </name>
+              <name>
+                <surname>Savell</surname>
+                <given-names>SC</given-names>
+              </name>
+              <name>
+                <surname>Perez</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Mason</surname>
+                <given-names>PE</given-names>
+              </name>
+              <name>
+                <surname>Aden</surname>
+                <given-names>JK</given-names>
+              </name>
+              <name>
+                <surname>Bebarta</surname>
+                <given-names>VS</given-names>
+              </name>
+            </person-group>
+            <article-title>Impact of Critical Care Air Transport Team (CCATT) ventilator management on combat mortality.</article-title>
+            <source>J Trauma Acute Care Surg</source>
+            <year>2018</year>
+            <month>Jan</month>
+            <volume>84</volume>
+            <issue>1</issue>
+            <fpage>157</fpage>
+            <page-range>157-164</page-range>
+            <pub-id pub-id-type="pmid">28570350</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Goolsby</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Goodwin</surname>
+                <given-names>TL</given-names>
+              </name>
+              <name>
+                <surname>Vest</surname>
+                <given-names>RM</given-names>
+              </name>
+            </person-group>
+            <article-title>Hybrid simulation improves medical student procedural confidence during EM clerkship.</article-title>
+            <source>Mil Med</source>
+            <year>2014</year>
+            <month>Nov</month>
+            <volume>179</volume>
+            <issue>11</issue>
+            <fpage>1223</fpage>
+            <page-range>1223-7</page-range>
+            <pub-id pub-id-type="pmid">25373045</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Deering</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Rowland</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Obstetric emergency simulation.</article-title>
+            <source>Semin Perinatol</source>
+            <year>2013</year>
+            <month>Jun</month>
+            <volume>37</volume>
+            <issue>3</issue>
+            <fpage>179</fpage>
+            <page-range>179-88</page-range>
+            <pub-id pub-id-type="pmid">23721775</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Deering</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Auguste</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Lockrow</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Obstetric simulation for medical student, resident, and fellow education.</article-title>
+            <source>Semin Perinatol</source>
+            <year>2013</year>
+            <month>Jun</month>
+            <volume>37</volume>
+            <issue>3</issue>
+            <fpage>143</fpage>
+            <page-range>143-5</page-range>
+            <pub-id pub-id-type="pmid">23721768</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Calohan</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Pauli</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Combs</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Creel</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Convoy</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Owen</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Using Simulation in a Psychiatric Mental Health Nurse Practitioner Doctoral Program.</article-title>
+            <source>J Prof Nurs</source>
+            <year>2016</year>
+            <season>Nov-Dec</season>
+            <volume>32</volume>
+            <issue>6</issue>
+            <fpage>458</fpage>
+            <page-range>458-462</page-range>
+            <pub-id pub-id-type="pmid">27964816</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Goolsby</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Branting</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Ausman</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Williams</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Ausman</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>David</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Allard</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Systematic Review of Live Tissue Versus Simulation Education for Prehospital Trauma Providers.</article-title>
+            <source>Mil Med</source>
+            <year>2017</year>
+            <month>Sep</month>
+            <volume>182</volume>
+            <issue>9</issue>
+            <fpage>e1824</fpage>
+            <page-range>e1824-e1833</page-range>
+            <pub-id pub-id-type="pmid">28885943</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Deering</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Anderson Simulation Center at Madigan Army Medical Center.</article-title>
+            <source>J Surg Educ</source>
+            <year>2010</year>
+            <season>Nov-Dec</season>
+            <volume>67</volume>
+            <issue>6</issue>
+            <fpage>457</fpage>
+            <page-range>457-60</page-range>
+            <pub-id pub-id-type="pmid">21156309</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Whitehurst</surname>
+                <given-names>SV</given-names>
+              </name>
+              <name>
+                <surname>Lockrow</surname>
+                <given-names>EG</given-names>
+              </name>
+              <name>
+                <surname>Lendvay</surname>
+                <given-names>TS</given-names>
+              </name>
+              <name>
+                <surname>Propst</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Dunlow</surname>
+                <given-names>SG</given-names>
+              </name>
+              <name>
+                <surname>Rosemeyer</surname>
+                <given-names>CJ</given-names>
+              </name>
+              <name>
+                <surname>Gobern</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>White</surname>
+                <given-names>LW</given-names>
+              </name>
+              <name>
+                <surname>Skinner</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Buller</surname>
+                <given-names>JL</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparison of two simulation systems to support robotic-assisted surgical training: a pilot study (Swine model).</article-title>
+            <source>J Minim Invasive Gynecol</source>
+            <year>2015</year>
+            <season>Mar-Apr</season>
+            <volume>22</volume>
+            <issue>3</issue>
+            <fpage>483</fpage>
+            <page-range>483-8</page-range>
+            <pub-id pub-id-type="pmid">25543068</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Macedonia</surname>
+                <given-names>CR</given-names>
+              </name>
+              <name>
+                <surname>Gherman</surname>
+                <given-names>RB</given-names>
+              </name>
+              <name>
+                <surname>Satin</surname>
+                <given-names>AJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Simulation laboratories for training in obstetrics and gynecology.</article-title>
+            <source>Obstet Gynecol</source>
+            <year>2003</year>
+            <month>Aug</month>
+            <volume>102</volume>
+            <issue>2</issue>
+            <fpage>388</fpage>
+            <page-range>388-92</page-range>
+            <pub-id pub-id-type="pmid">12907117</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Deering</surname>
+                <given-names>SH</given-names>
+              </name>
+              <name>
+                <surname>Kavanagh</surname>
+                <given-names>LB</given-names>
+              </name>
+              <name>
+                <surname>Chinn</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>Choi</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Rush</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Haque</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <article-title>Objective Evaluation of the Effects of Deployment on Laparoscopic Skills: The Simulation and Deployment Laparoscopic Skills Study.</article-title>
+            <source>Mil Med</source>
+            <year>2016</year>
+            <month>Sep</month>
+            <volume>181</volume>
+            <issue>9</issue>
+            <fpage>1058</fpage>
+            <page-range>1058-64</page-range>
+            <pub-id pub-id-type="pmid">27612353</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Deering</surname>
+                <given-names>SH</given-names>
+              </name>
+              <name>
+                <surname>Rush</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Lesperance</surname>
+                <given-names>RN</given-names>
+              </name>
+              <name>
+                <surname>Roth</surname>
+                <given-names>BJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Perceived effects of deployments on surgeon and physician skills in the US Army Medical Department.</article-title>
+            <source>Am J Surg</source>
+            <year>2011</year>
+            <month>May</month>
+            <volume>201</volume>
+            <issue>5</issue>
+            <fpage>666</fpage>
+            <page-range>666-72</page-range>
+            <pub-id pub-id-type="pmid">21545919</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63844.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Edwards</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Edwards</surname>
+                <given-names>KD</given-names>
+              </name>
+              <name>
+                <surname>White</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Shepps</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Shackelford</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Saving the Military Surgeon: Maintaining Critical Clinical Skills in a Changing Military and Medical Environment.</article-title>
+            <source>J Am Coll Surg</source>
+            <year>2016</year>
+            <month>Jun</month>
+            <volume>222</volume>
+            <issue>6</issue>
+            <fpage>1258</fpage>
+            <page-range>1258-64</page-range>
+            <pub-id pub-id-type="pmid">27185158</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

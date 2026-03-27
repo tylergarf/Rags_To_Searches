@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-31259" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Volume of Distribution</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Mansoor</surname>
+            <given-names>Asad</given-names>
+          </name>
+          <aff>University of Michigan</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Mahabadi</surname>
+            <given-names>Navid</given-names>
+          </name>
+          <aff>A.T. Still University</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Asad Mansoor declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Navid Mahabadi declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>24</day>
+          <month>7</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-31259.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">The volume of distribution (Vd) is a pharmacokinetic parameter representing an individual drug&#x02019;s propensity to either remain in the plasma or redistribute to other tissue compartments. By definition, Vd is a <italic toggle="yes">proportionality constant</italic> that relates the total amount of drug in the body to the plasma concentration of the drug at a given time.<xref ref-type="bibr" rid="article-31259.r1">[1]</xref><xref ref-type="bibr" rid="article-31259.r2">[2]</xref><xref ref-type="bibr" rid="article-31259.r3">[3]</xref> The following equation can represent Vd:</p>
+        <p>Volume of Distribution (L) = Amount of drug in the body (mg) / Plasma concentration of drug (mg/L)</p>
+        <p>Based on the above equation:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>A drug with a&#x000a0;<bold>high</bold>&#x000a0;<bold>Vd</bold>&#x000a0;has a propensity to leave the plasma and enter the extravascular compartments of the body, meaning that a&#x000a0;<bold>higher dose</bold>&#x000a0;of a drug is required to achieve a given plasma concentration. (High Vd -&#x0003e; More distribution to other tissue)</p>
+          </list-item>
+          <list-item>
+            <p>Conversely, a drug with a&#x000a0;<bold>low</bold>&#x000a0;<bold>Vd</bold>&#x000a0;has a propensity to remain in the plasma meaning a&#x000a0;<bold>lower dose</bold>&#x000a0;of a drug is required to achieve a given plasma concentration. (Low Vd -&#x0003e; Less distribution to other tissue)</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-31259.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>
+<bold>General Principles&#x000a0;Related to Drug Distribution</bold>
+</p>
+        <p>Pharmacokinetics focuses on drug movement throughout the human body via the processes of&#x000a0;<italic toggle="yes">absorption</italic>,&#x000a0;<italic toggle="yes">distribution</italic>, and&#x000a0;<italic toggle="yes">elimination</italic>. Upon administration, a drug moves from the site of administration and gets absorbed into the systemic circulation where it will then gets distributed throughout the body. The process of distribution refers to the movement of a drug between the intravascular (blood/plasma) and extravascular (intracellular &#x00026; extracellular) compartments of the body.&#x000a0;Within each compartment of the body, a drug&#x000a0;exists in equilibrium between a protein-bound or free form. Over time, drugs within the circulation will then be metabolized and excreted from the body by the liver &#x00026; kidneys.<xref ref-type="bibr" rid="article-31259.r1">[1]</xref><xref ref-type="bibr" rid="article-31259.r3">[3]</xref></p>
+        <p>
+<bold>Single vs. Multi-compartment models of Distribution</bold>
+</p>
+        <p>Immediately after administration of an IV bolus, a drug enters the&#x000a0;<bold>&#x0201c;central&#x0201d; compartment,</bold>&#x000a0;which is composed of the plasma, highly perfused organs (liver, kidneys, etc.) and other tissues where drug distribution is instantaneous. Eventually, some drugs may begin to move from the central compartment to the&#x000a0;<bold>&#x0201c;peripheral&#x0201d; compartment</bold>, which is composed of tissues to which drug distributes slower.<xref ref-type="bibr" rid="article-31259.r1">[1]</xref><xref ref-type="bibr" rid="article-31259.r2">[2]</xref><xref ref-type="bibr" rid="article-31259.r3">[3]</xref><xref ref-type="bibr" rid="article-31259.r4">[4]</xref></p>
+        <list list-type="bullet">
+          <list-item>
+            <p><bold>Single compartment model: </bold>Some drugs display pharmacokinetics in which they distribute &#x0201c;instantaneously.&#x0201d; These drugs appear to remain in the central compartment and not distribute to peripheral compartments. Therefore, any measured decline in drug plasma concentration is a result of drug elimination from the body only. These drugs are said to display&#x000a0;<bold><bold>single-compartment models of distribution</bold>&#x000a0;</bold>as they do not move to peripheral compartments. The Vd of these drugs can be represented by a single value, which is the Vd of the central compartment<bold> (<bold>Vc</bold>).</bold><xref ref-type="bibr" rid="article-31259.r2">[2]</xref><xref ref-type="bibr" rid="article-31259.r3">[3]</xref>
+<list list-type="bullet"><list-item><p><bold>Vc</bold> (L) = <bold>Dose administered</bold> (mg) /&#x000a0;<bold>Co</bold> (mg/L)</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+        <p>Drugs that display single compartment distribution kinetics with a straight line graph on plasma vs. time curves. Because the drug is said to distribute instantaneously, the initial plasma concentration of drug at time = 0 (Co) is difficult to measure and is therefore estimated via extrapolation to time = 0 on a plasma concentration vs. time curve.<xref ref-type="bibr" rid="article-31259.r1">[1]</xref><xref ref-type="bibr" rid="article-31259.r2">[2]</xref><xref ref-type="bibr" rid="article-31259.r3">[3]</xref></p>
+        <list list-type="bullet">
+          <list-item>
+            <p><bold><bold>Multi-compartment model:&#x000a0;</bold></bold>Most drugs will exhibit slower distribution kinetics, which involves an early distribution phase followed by a later elimination phase. Drugs that display <bold>multi-compartment models of distribution</bold> will move from the central compartment into peripheral compartments before elimination.<xref ref-type="bibr" rid="article-31259.r1">[1]</xref><xref ref-type="bibr" rid="article-31259.r2">[2]</xref><xref ref-type="bibr" rid="article-31259.r3">[3]</xref><xref ref-type="bibr" rid="article-31259.r4">[4]</xref><xref ref-type="bibr" rid="article-31259.r5">[5]</xref> Phases associated with multi-compartment models of distribution include:
+<list list-type="bullet"><list-item><p><bold><italic toggle="yes">Distribution phase: </italic></bold>following administration&#x000a0;plasma drug concentration will initially decline while the total amount of drug in the body remains the same. This phenomenon will cause a single drug to have <italic toggle="yes">multiple</italic> Vd values, which are each time-dependent.</p></list-item><list-item><p><italic toggle="yes"><bold>Terminal elimination phase</bold></italic>: Following the distribution phase, the drug will be eliminated from the central compartment (by the kidneys/liver) causing changes in both amounts of the drug in the body and plasma drug concentration. Therefore, additional Vd values are calculable during the&#x000a0;<bold><italic toggle="yes">terminal</italic></bold>
+<bold><italic toggle="yes">elimination phase</italic></bold> (Vbeta), which is a Vd value dependent on drug clearance<bold><italic toggle="yes">.</italic></bold></p></list-item><list-item><p><bold><bold><italic toggle="yes">Steady-state:&#x000a0;</italic></bold></bold>Between the distribution &#x00026; elimination phase, there is a transition point known as "steady state." Steady-state represents a period of &#x0201c;dynamic equilibrium&#x0201d; of a drug throughout the body in which the drug has completed distribution between the central &#x00026; peripheral compartments. At steady state, the net flux of drug between the central &#x00026; peripheral compartments is 0. Another value for Vd can be calculated during steady-state (<bold>Vss</bold>). This value is generally the most clinically relevant as it is used to determine the loading dose of a drug.
+<list list-type="bullet"><list-item><p><bold>Vd</bold>&#x000a0;(L) =&#x000a0;<bold>A(t)</bold>&#x000a0;(mg) /&#x000a0;<bold>C(t)</bold>&#x000a0;(mg/L)
+<list list-type="bullet"><list-item><p>A(t) represents the amount of drug in the body at time = t</p></list-item><list-item><p>C(t) represents plasma concentration of the drug at time = t</p></list-item></list>
+</p></list-item></list>
+</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+        <p>Drugs that display multiple compartment distribution kinetics have graphs that are biphasic lines on plasma vs. time curves.</p>
+        <p>
+<bold>Half-life and Volume of Distribution</bold>
+</p>
+        <p>
+<bold>Half-life</bold> (t1/2) refers to the time required for plasma concentration of a drug to decrease by 50%. t1/2 is dependent on the rate constant (k), which is related to Vd &#x00026; clearance (CL).<xref ref-type="bibr" rid="article-31259.r1">[1]</xref><xref ref-type="bibr" rid="article-31259.r2">[2]</xref><xref ref-type="bibr" rid="article-31259.r3">[3]</xref> Half-life can be expressed using the following equation(s):</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<bold>Half-life (hours)&#x000a0;= 0.693 x (Volume of distribution (L) / Clearance (L/hr))</bold>
+</p>
+          </list-item>
+        </list>
+        <p>Only the drug located in the central compartment can be eliminated from the body because the process of elimination is primarily carried out by the liver and kidneys. Drugs with a high Vd will have a large fraction of drug remaining outside of the central compartment. Meanwhile, the fraction of drug in the plasma will be eliminated, causing a shift of equilibrium resulting in drug located in the peripheral compartment to shift into the central compartment. This shift will cause the plasma concentration to remain at a steady-state concentration despite drug removal from the body. This phenomenon causes plasma concentration to decline more slowly during the elimination phase in the setting of a high Vd.<xref ref-type="bibr" rid="article-31259.r1">[1]</xref><xref ref-type="bibr" rid="article-31259.r3">[3]</xref></p>
+        <p>
+<bold>Therefore, </bold>at a constant rate of clearance, a drug with a&#x000a0;<bold>high</bold>&#x000a0;<bold>Vd</bold>&#x000a0;will have a&#x000a0;<italic toggle="yes"><bold>longer</bold></italic>&#x000a0;<bold>elimination</bold>
+<bold>half-life</bold> than a drug with&#x000a0;<italic toggle="yes"><bold>lower</bold></italic><bold>&#x000a0;Vd.&#x000a0;</bold></p>
+        <p>Similar to the different Vd values that exist depending on the pharmacokinetic phase, there are also two half-life values of which it is important to be aware:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>The <bold>distribution half-life</bold> (t1/2a) which represents the amount of time required for the plasma concentration to decline by 50% during the distribution phase.</p>
+          </list-item>
+          <list-item>
+            <p>The&#x000a0;<bold>elimination half-life</bold> (t1/2b) which represents the amount of time required for the plasma concentration to decline by 50% during the elimination phase.<bold>&#x000a0;</bold></p>
+          </list-item>
+        </list>
+        <p>
+<bold>Features&#x000a0;of Drugs affecting the Volume of Distribution</bold>
+</p>
+        <list list-type="order">
+          <list-item>
+            <p><bold>Acid-Base Characteristics</bold>
+<list list-type="bullet"><list-item><p>As previously discussed, drugs may have a propensity to bind proteins throughout the body where they reach a point of equilibrium between a bound &#x00026; unbound phase. Depending on the charge of a drug at physiologic pH, have a drug may tend to bind macromolecules inside or outside the plasma.<xref ref-type="bibr" rid="article-31259.r2">[2]</xref>
+<list list-type="bullet"><list-item><p><bold>Basic</bold> (alkaline) molecules have strong interactions with negatively charged phospholipid head groups located on phospholipid membranes. The extent of this binding is also dependent on the overall lipophilicity of the drug. In general, basic molecules will leave the systemic circulation leading to <bold><italic toggle="yes">higher</italic></bold>
+<bold>Vd</bold> as compared to acidic molecules.</p></list-item><list-item><p><bold>Acidic</bold> molecules have a higher affinity for albumin molecules at lower lipophilicity than neutral or basic molecules. Therefore, acidic drugs are more likely to bind albumin and remain in the plasma leading to <bold><italic toggle="yes">lower</italic> Vd</bold> as compared to more basic molecules.</p></list-item></list>
+</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p><bold>Lipophilicity</bold>
+<list list-type="bullet"><list-item><p>In addition to ionic/charge-related interactions between a drug and macromolecules, hydrophobic interactions also play a similar role. Drugs with higher lipophilicity have a higher lipid membrane permeability and therefore, a higher chance of leaving the plasma and interacting with other hydrophilic residues in the peripheral tissue (e.g., adipose tissue). However, plasma proteins such as albumin have a high affinity for lipophilic drugs in which case, the determinant of the extent of plasma protein binding of two equally lipophilic drugs is the acid/base characteristics as described above.<xref ref-type="bibr" rid="article-31259.r2">[2]</xref> But in general, the following principles apply:
+<list list-type="bullet"><list-item><p><bold>Lipophilic</bold> molecules are more likely to pass through lipid bilayers and therefore more likely to leave the bloodstream and distribute to areas with high lipid density (adipose) and therefore have a&#x000a0;<italic toggle="yes"><bold>higher</bold></italic>
+<bold>Vd.</bold></p></list-item><list-item><p><bold>Hydrophilic </bold>molecules are less likely to pass through lipid bilayers and therefore more likely to remain in the bloodstream and therefore have a&#x000a0;<italic toggle="yes"><bold>lower</bold></italic>
+<bold>Vd.</bold></p></list-item></list>
+</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-31259.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>As previously discussed, multiple values of Vd can be calculated depending on the intrinsic drug kinetics (single vs. multiple compartment models) as well as the phase of drug kinetics following drug administration (distribution phase vs steady state vs terminal elimination phase). However, from the clinical perspective, the <italic toggle="yes">single</italic> most important utility of Vd is <bold>calculating the loading dose of a drug</bold>.<xref ref-type="bibr" rid="article-31259.r1">[1]</xref><xref ref-type="bibr" rid="article-31259.r3">[3]</xref></p>
+        <p>The loading dose is best calculated using the Vd at steady state (Vss) as it is the most representative of the specific drugs pharmacokinetic properties at desired steady-state plasma concentration. Therefore, the loading dose can be calculated using the following equation:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p><bold>Loading dose (mg) = [Cp (mg/L) x Vd (L)] / F</bold>
+<list list-type="bullet"><list-item><p><italic toggle="yes">Cp</italic> represents the desired plasma concentration of drug&#x000a0;</p></list-item><list-item><p><italic toggle="yes">Vd</italic> represents the volume of distribution</p></list-item><list-item><p><italic toggle="yes">F</italic> represents the bioavailability of drug (IV administration = 1)</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+        <p>After administration of a loading dose, additional maintenance doses can be administered to maintain the desired plasma concentration of the drug. Unlike, the loading dose, which is dependent on the drug's Vd, the maintenance dose is dependent on clearance (Cl).<xref ref-type="bibr" rid="article-31259.r3">[3]</xref> Maintenance dosing can be calculated with the following equation:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p><bold>Maintenance dose rate (mg/hr) = [Cp (mg/L) x Cl (L/hr)] / F</bold>
+<list list-type="bullet"><list-item><p><italic toggle="yes">Cp</italic>&#x000a0;represents the desired plasma concentration of drug&#x000a0;</p></list-item><list-item><p><italic toggle="yes">Cl</italic> represents the&#x000a0;clearance rate of drug</p></list-item><list-item><p><italic toggle="yes">F</italic>&#x000a0;represents the bioavailability of drug (IV administration = 1)&#x000a0;&#x000a0;</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+        <p>Key differences between loading doses &#x00026; maintenance doses include:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>The <bold>loading dose</bold> is contingent on the&#x000a0;<bold>volume of distribution</bold> while <bold>maintenance doses</bold> are dependent on<bold> plasma clearance.</bold><xref ref-type="bibr" rid="article-31259.r3">[3]</xref></p>
+          </list-item>
+          <list-item>
+            <p>The <bold>loading dose</bold> is only required for <bold>a few drugs in certain situations</bold> while <bold>maintenance doses</bold> are required for <bold>most drugs</bold> to maintain the steady-state plasma concentration.<xref ref-type="bibr" rid="article-31259.r3">[3]</xref>
+<list list-type="bullet"><list-item><p>Loading doses are usually indicated in clinical scenarios where a drug needs to reach steady-state <italic toggle="yes">rapidly</italic>.
+<list list-type="bullet"><list-item><p>Ex, antiepileptic administration during an active seizure or aspirin loading during a suspected myocardial infarction</p></list-item></list>
+</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p><bold>Loading dose</bold>
+<italic toggle="yes"><bold>rarely</bold></italic> needs to be<bold> modified</bold> while <bold>maintenance doses</bold>
+<italic toggle="yes"><bold>need to be adapted</bold></italic> depending on <bold>various characteristics of the patient.</bold><xref ref-type="bibr" rid="article-31259.r3">[3]</xref>
+<list list-type="bullet"><list-item><p>Because maintenance doses are dependent on drug clearance which is a variable dictated by each individual patient, maintenance doses are often variable as certain patients may take less or more time to clear a drug from the plasma.
+<list list-type="bullet"><list-item><p>E.g., renal failure patients will take longer to eliminate a drug in the urine. Therefore maintenance dose is corrected based on the patient's renal function. In these cases, the loading dose will remain the same, and the maintenance dose will undergo correction (decrease amount of drug per hour or increased time interval between doses).</p></list-item></list>
+</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+        <p>Although drugs have inherent properties that govern the Vd, the patients also represent variables that can alter the apparent Vd. Therefore, the apparent Vd of certain drugs <bold>may vary significantly</bold> between patients depending on each patient&#x02019;s <bold>individual physiology</bold> and/or <bold>pathophysiology</bold>. For example:</p>
+        <list list-type="order">
+          <list-item>
+            <p><bold>Pediatric vs. adult dosing</bold> &#x02013; Body composition changes with aging and therefore, drug distribution will be affected meaning that loading doses will vary between pediatrics and adults.<xref ref-type="bibr" rid="article-31259.r6">[6]</xref></p>
+          </list-item>
+          <list-item>
+            <p><bold>Obesity vs. Normal BMI</bold> &#x02013; &#x000a0;The loading doses of drugs such as anesthetics may be dosed based on different weight scalars such as total body weight vs. ideal bodyweight depending on the pharmacokinetics of specific drugs to prevent over or underdosing.<xref ref-type="bibr" rid="article-31259.r7">[7]</xref><xref ref-type="bibr" rid="article-31259.r8">[8]</xref></p>
+          </list-item>
+          <list-item>
+            <p><bold>Conditions affecting plasma protein concentration</bold> &#x02013; The excess or deficiency of plasma proteins (e.g., albumin) may affect the amount of drug that remains in the plasma and therefore the apparent Vd.<xref ref-type="bibr" rid="article-31259.r1">[1]</xref><xref ref-type="bibr" rid="article-31259.r5">[5]</xref><xref ref-type="bibr" rid="article-31259.r9">[9]</xref></p>
+          </list-item>
+        </list>
+        <p>Understanding volume of distribution is important for both physicians and pharmacologist who prescribe and dose medications. Differentiating pharmacologic agents who have high versus low volume of distributions is essential in appropriately dosing medications for patients. While physicians generally dose medications in low complexity cases, patients in the intensive care unit might need their medications dosed by a pharmacist. Understanding and calculating different models of distribution, the factors that can affect the volume of distribution, loading dose, and maintenance doses can mean the difference between life and death. When dosing medication, it is of the utmost importance to promptly consult an interprofessional group of specialists.</p>
+      </sec>
+      <sec id="article-31259.s4">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=31259&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=31259">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/31259/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=31259">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-31259.s5">
+        <title>References</title>
+        <ref id="article-31259.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Oie</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Drug distribution and binding.</article-title>
+            <source>J Clin Pharmacol</source>
+            <year>1986</year>
+            <season>Nov-Dec</season>
+            <volume>26</volume>
+            <issue>8</issue>
+            <fpage>583</fpage>
+            <page-range>583-6</page-range>
+            <pub-id pub-id-type="pmid">3793947</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31259.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Smith</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Beaumont</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Maurer</surname>
+                <given-names>TS</given-names>
+              </name>
+              <name>
+                <surname>Di</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Volume of Distribution in Drug Design.</article-title>
+            <source>J Med Chem</source>
+            <year>2015</year>
+            <month>Aug</month>
+            <day>13</day>
+            <volume>58</volume>
+            <issue>15</issue>
+            <fpage>5691</fpage>
+            <page-range>5691-8</page-range>
+            <pub-id pub-id-type="pmid">25799158</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31259.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Toutain</surname>
+                <given-names>PL</given-names>
+              </name>
+              <name>
+                <surname>Bousquet-M&#x000e9;lou</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Volumes of distribution.</article-title>
+            <source>J Vet Pharmacol Ther</source>
+            <year>2004</year>
+            <month>Dec</month>
+            <volume>27</volume>
+            <issue>6</issue>
+            <fpage>441</fpage>
+            <page-range>441-53</page-range>
+            <pub-id pub-id-type="pmid">15601439</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31259.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fan</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>de Lannoy</surname>
+                <given-names>IA</given-names>
+              </name>
+            </person-group>
+            <article-title>Pharmacokinetics.</article-title>
+            <source>Biochem Pharmacol</source>
+            <year>2014</year>
+            <month>Jan</month>
+            <day>01</day>
+            <volume>87</volume>
+            <issue>1</issue>
+            <fpage>93</fpage>
+            <page-range>93-120</page-range>
+            <pub-id pub-id-type="pmid">24055064</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31259.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Faed</surname>
+                <given-names>EM</given-names>
+              </name>
+            </person-group>
+            <article-title>Protein binding of drugs in plasma, interstitial fluid and tissues: effect on pharmacokinetics.</article-title>
+            <source>Eur J Clin Pharmacol</source>
+            <year>1981</year>
+            <volume>21</volume>
+            <issue>1</issue>
+            <fpage>77</fpage>
+            <page-range>77-81</page-range>
+            <pub-id pub-id-type="pmid">7333350</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31259.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mahmood</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <article-title>Dosing in children: a critical review of the pharmacokinetic allometric scaling and modelling approaches in paediatric drug development and clinical settings.</article-title>
+            <source>Clin Pharmacokinet</source>
+            <year>2014</year>
+            <month>Apr</month>
+            <volume>53</volume>
+            <issue>4</issue>
+            <fpage>327</fpage>
+            <page-range>327-46</page-range>
+            <pub-id pub-id-type="pmid">24515100</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31259.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Casati</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Putzu</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Anesthesia in the obese patient: pharmacokinetic considerations.</article-title>
+            <source>J Clin Anesth</source>
+            <year>2005</year>
+            <month>Mar</month>
+            <volume>17</volume>
+            <issue>2</issue>
+            <fpage>134</fpage>
+            <page-range>134-45</page-range>
+            <pub-id pub-id-type="pmid">15809132</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31259.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zuckerman</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Greller</surname>
+                <given-names>HA</given-names>
+              </name>
+              <name>
+                <surname>Babu</surname>
+                <given-names>KM</given-names>
+              </name>
+            </person-group>
+            <article-title>A Review of the Toxicologic Implications of Obesity.</article-title>
+            <source>J Med Toxicol</source>
+            <year>2015</year>
+            <month>Sep</month>
+            <volume>11</volume>
+            <issue>3</issue>
+            <fpage>342</fpage>
+            <page-range>342-54</page-range>
+            <pub-id pub-id-type="pmid">26108709</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31259.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Czock</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Keller</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Rasche</surname>
+                <given-names>FM</given-names>
+              </name>
+              <name>
+                <surname>H&#x000e4;ussler</surname>
+                <given-names>U</given-names>
+              </name>
+            </person-group>
+            <article-title>Pharmacokinetics and pharmacodynamics of systemically administered glucocorticoids.</article-title>
+            <source>Clin Pharmacokinet</source>
+            <year>2005</year>
+            <volume>44</volume>
+            <issue>1</issue>
+            <fpage>61</fpage>
+            <page-range>61-98</page-range>
+            <pub-id pub-id-type="pmid">15634032</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

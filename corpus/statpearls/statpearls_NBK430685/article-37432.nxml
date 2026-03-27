@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-37432" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Odds Ratio</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Tenny</surname>
+            <given-names>Steven</given-names>
+          </name>
+          <aff>University of Nebraska Medical Center</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Hoffman</surname>
+            <given-names>Mary R.</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Steven Tenny declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Mary Hoffman declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>22</day>
+          <month>5</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-37432.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>The odds ratio (OR)&#x000a0;is a&#x000a0;measure of how strongly an event is associated with exposure. The odds ratio is a ratio of two sets of odds: the odds of&#x000a0;the event&#x000a0;occurring&#x000a0;in an exposed group versus the odds of the event&#x000a0;occurring&#x000a0;in a non-exposed group.&#x000a0; Odds ratios commonly&#x000a0;are&#x000a0;used to report case-control studies. The odds ratio helps identify how likely an exposure is to lead to a specific event. The larger the odds ratio, the higher odds that the event will occur with exposure. &#x000a0;Odds ratios smaller than one imply the event has fewer odds of happening with the exposure.<xref ref-type="bibr" rid="article-37432.r1">[1]</xref><xref ref-type="bibr" rid="article-37432.r2">[2]</xref><xref ref-type="bibr" rid="article-37432.r3">[3]</xref></p>
+      </sec>
+      <sec id="article-37432.s2" sec-type="Function">
+        <title>Function</title>
+        <p>
+<bold>Odds Ratio = (odds of the event in the exposed group) / (odds of the event in the non-exposed group)</bold>
+</p>
+        <p>If the data is set up in a 2 x 2 table as shown in the figure then the odds ratio is (a/b) / (c/d) = ad/bc. The following is an example to demonstrate calculating the odds ratio (OR).</p>
+        <p>
+<bold>Example 1</bold>
+</p>
+        <p>If we have a hypothetical group of smokers (exposed) and non-smokers (not exposed), then we can&#x000a0;look for the rate of lung cancer (event). &#x000a0;If 17 smokers have lung cancer, 83 smokers do not have lung cancer, one non-smoker has lung cancer, and 99 non-smokers do not have lung cancer, the odds ratio is calculated as follows.&#x000a0;&#x000a0;</p>
+        <p>First, we calculate the odds in the&#x000a0;exposed group.&#x000a0;</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Odds in exposed group = (smokers with lung cancer) / (smokers without lung cancer) = 17/83 = 0.205&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>Next we calculate the odds for the non-exposed group.&#x000a0;</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Odds in not exposed group = (non-smokers with lung cancer) / (non-smokers without lung cancer) = 1/99 = 0.01&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>Finally we can calculate the odds ratio.&#x000a0;</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Odds ratio = (odds in exposed group) / (odds in not exposed group) = 0.205 / 0.01 = 20.5&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>Thus using the odds ratio, this hypothetical group of smokers has 20 times the odds of having lung cancer than non-smokers.&#x000a0; The question then&#x000a0;arises: is this significant?&#x000a0;</p>
+        <p>
+<bold>Odds Ratio Confidence Interval</bold>
+</p>
+        <p>To answer if this finding is significant, the confidence interval is calculated.&#x000a0; The confidence interval gives an expected range for the true odds ratio for the population to fall within.&#x000a0; If estimating the odds of lung cancer in smokers&#x000a0;versus non-smokers&#x000a0;of the general population based on a smaller sample, the true population odds ratio may be different than the odds ratio found in the sample.&#x000a0; In order to&#x000a0;calculate the confidence interval, the alpha, or our level of significance, is specified. An alpha of 0.05 means the confidence interval is 95% (1 &#x02013; alpha) the true odds ratio&#x000a0;of the overall population&#x000a0;is within range. A 95% confidence is traditionally&#x000a0;chosen&#x000a0;in the medical literature (but other confidence intervals can be used). The following&#x000a0;formula is used for a 95% confidence interval (CI).&#x000a0;</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Upper 95% CI = e ^ [ln(OR) + 1.96 sqrt(1/a + 1/b + 1/c + 1/d)]&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Lower 95% CI = e ^ [ln(OR)&#x000a0;-&#x000a0;1.96 sqrt(1/a + 1/b + 1/c + 1/d)]&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>Where&#x000a0;'e'&#x000a0;is the mathematical constant for the natural log,&#x000a0;'ln'&#x000a0;is the natural log,&#x000a0;'OR' is the odds ratio calculated,&#x000a0;'sqrt'&#x000a0;is the square root function and a, b, c and d are the values from the 2 x 2 table.&#x000a0; Calculating the 95% confidence interval for our previous hypothetical population we get:&#x000a0;</p>
+        <p>Upper 95% CI =e ^ [ln(OR) + 1.96 sqrt(1/a + 1/b + 1/c + 1/d)] =e ^ [ln(20.5) + 1.96 sqrt(1/17 + 1/83 + 1/1 + 1/99] =e ^ [3.02 + 1.96 sqrt(1.08)] =e ^ [3.02 + 1.96 (1.04)] =e ^ [3.02 + 2.04] =e ^ [5.06] = 158&#x000a0;</p>
+        <p>Lower 95% CI =</p>
+        <p>e ^ [ln(OR)&#x000a0;-&#x000a0;1.96 sqrt(1/a + 1/b + 1/c + 1/d)] =e ^ [ln(20.5) - 1.96 sqrt(1/17 + 1/83 + 1/1 + 1/99)] =e ^ [3.02 - 1.96 sqrt(1.08)] =e ^ [3.02 - 1.96 (1.04)] =e ^ [3.02 - 2.04] =e ^ [0.98] = 2.7&#x000a0;</p>
+        <p>Thus the odds ratio in this example is 20.5 with a 95%&#x000a0;confidence&#x000a0;interval of [2.7, 158].&#x000a0; (Note: If no rounding is performed when doing the above calculations, the odds ratio is 20.28 with 95% CI of [2.64, 155.6] which is fairly close to the rounded calculations.)</p>
+        <p>
+<bold>Confidence Interval Interpretation</bold>
+</p>
+        <p>If the confidence interval for the odds ratio includes the number 1 then the calculated odds ratio would not be considered statistically&#x000a0;significant. This can be seen from the interpretation of the odds ratio. An odds ratio greater than 1 implies there are greater odds of the event happening in the exposed versus the non-exposed group. An odds ratio of less than 1 implies the odds of the event happening in the exposed group&#x000a0;are less than in the non-exposed group. An odds ratio of exactly 1 means the odds of the event happening are the exact same in the exposed versus the non-exposed group. Thus, if the confidence interval includes 1 (eg, [0.01,&#x000a0;2], [0.99, 1.01], or [0.99, 100] all include one in the confidence interval), then the expected true population odds ratio may be above or below 1, so it is uncertain whether the exposure increases or decreases the odds of the event happening with our specified level of confidence.&#x000a0;<xref ref-type="bibr" rid="article-37432.r1">[1]</xref> &#x000a0;</p>
+      </sec>
+      <sec id="article-37432.s3" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>The odds ratio can be confused with relative risk.&#x000a0; As stated above, the odds ratio is a ratio of 2 odds. As odds of an event are always positive, the odds ratio is always positive and ranges from zero to very large. The relative risk is a ratio of probabilities of the event occurring in all exposed individuals versus the event&#x000a0;occurring&#x000a0;in all non-exposed individuals.&#x000a0;In a 2-by-2 table with cells a, b, c, and d&#x000a0;(see figure), the odds ratio is&#x000a0;odds of the event in the exposure group (a/b) divided by the odds of the event in the control or non-exposure group (c/d). Thus the odds ratio is (a/b) / (c/d) which simplifies to ad/bc.&#x000a0; This is compared to the relative risk which is (a / (a+b)) / (c / (c+d)).&#x000a0; If the disease condition (event) is rare, then the odds ratio and relative risk may be comparable, but the odds ratio will overestimate the risk if the disease is more common.&#x000a0; In such cases, the odds ratio should be avoided, and the relative risk will be a more accurate estimation of risk.&#x000a0;<xref ref-type="bibr" rid="article-37432.r3">[3]</xref>&#x000a0; Commonly, odds ratios will be reported in case-control studies, in which relative risks cannot be calculated.</p>
+        <p>The relative risk for the above hypothetical example of smokers versus non-smokers developing lung cancer is calculated as:&#x000a0;</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Relative Risk = (17/100) / (1/100) = 0.17&#x000a0;/ 0.01 = 17&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>Thus in our example, the odds ratio is 20.5 (smokers have 20 times the odds of having lung cancer than non-smoker); whereas&#x000a0;the relative risk is 17 (smokers have&#x000a0;17 times the relative risk to have lung cancer than non-smokers).</p>
+      </sec>
+      <sec id="article-37432.s4" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>The odds ratio is the ratio of the odds of the event happening in an exposed group versus a non-exposed group. The odds ratio is commonly used to report the strength of&#x000a0;association&#x000a0;between exposure and an event.&#x000a0; The larger the odds ratio, the more likely the event is to be found with exposure. The smaller the odds ratio is than 1, the less likely the event is to be found with exposure. It is important to look at the confidence interval for the odds ratio, and if the odds ratio&#x000a0;confidence interval&#x000a0;includes 1, then the odds ratio did not reach statistical significance.<xref ref-type="bibr" rid="article-37432.r4">[4]</xref></p>
+      </sec>
+      <sec id="article-37432.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=37432&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=37432">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/37432/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=37432">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-37432.s6">
+        <fig id="article-37432.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Case-Control Studies&#x000a0;Odds Ratio. The figure shows a 2x2 table with calculations for the odds ratio and a 95% confidence interval for it. Contributed by S Tenny, MD, MPH, MBA</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="OddsRatio_and_ConfidenceInterval" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-37432.s7">
+        <title>References</title>
+        <ref id="article-37432.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Szumilas</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Explaining odds ratios.</article-title>
+            <source>J Can Acad Child Adolesc Psychiatry</source>
+            <year>2010</year>
+            <month>Aug</month>
+            <volume>19</volume>
+            <issue>3</issue>
+            <fpage>227</fpage>
+            <page-range>227-9</page-range>
+            <pub-id pub-id-type="pmid">20842279</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-37432.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Andrade</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Understanding relative risk, odds ratio, and related terms: as simple as it can get.</article-title>
+            <source>J Clin Psychiatry</source>
+            <year>2015</year>
+            <month>Jul</month>
+            <volume>76</volume>
+            <issue>7</issue>
+            <fpage>e857</fpage>
+            <page-range>e857-61</page-range>
+            <pub-id pub-id-type="pmid">26231012</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-37432.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cummings</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>The relative merits of risk ratios and odds ratios.</article-title>
+            <source>Arch Pediatr Adolesc Med</source>
+            <year>2009</year>
+            <month>May</month>
+            <volume>163</volume>
+            <issue>5</issue>
+            <fpage>438</fpage>
+            <page-range>438-45</page-range>
+            <pub-id pub-id-type="pmid">19414690</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-37432.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Grant</surname>
+                <given-names>RL</given-names>
+              </name>
+            </person-group>
+            <article-title>Converting an odds ratio to a range of plausible relative risks for better communication of research findings.</article-title>
+            <source>BMJ</source>
+            <year>2014</year>
+            <month>Jan</month>
+            <day>24</day>
+            <volume>348</volume>
+            <fpage>f7450</fpage>
+            <pub-id pub-id-type="pmid">24464277</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

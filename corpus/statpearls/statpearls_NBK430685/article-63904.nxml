@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-63904" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Translational Science in Medical Simulation</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Paganotti</surname>
+            <given-names>Lisa</given-names>
+          </name>
+          <aff>Ross University School of Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Chidume</surname>
+            <given-names>Tiffani</given-names>
+          </name>
+          <aff>Auburn University</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Lisa Paganotti declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Tiffani Chidume declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>10</day>
+          <month>7</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-63904.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>This article introduces translational science, research, and the translational spectrum, including how each&#x000a0;concept applies to healthcare simulation. To introduce the topic, this article begins with a description of the problem translational science aims to solve, followed by a brief history of why translational science has become a larger focus of national efforts and research endeavors. In the latter half of the article, the concepts of translational science and research are applied to medical education, specifically in the context of healthcare simulation.</p>
+      </sec>
+      <sec id="article-63904.s2" sec-type="Function">
+        <title>Function</title>
+        <p>In 2001, the Institute of Medicine published Crossing the Quality Chasm, which highlighted the importance of moving basic science research findings into patient care practice.<xref ref-type="bibr" rid="article-63904.r1">[1]</xref>&#x000a0;The idea of engaging in translational science research activities is to ensure the evidence gained is shared with other stakeholders. Stakeholders can use the information to improve the health of patients and the population. While this may seem to be an obvious transition, this is not consistently occurring on a global scale.</p>
+        <p>In 2000, Balas et al. published a report stating that, on average, it takes &#x0201c;seventeen years for research evidence to reach clinical practice.&#x0201d; In addition, &#x0201c;only 14% of new scientific discoveries ever enter day-to-day practice.&#x0201d;<xref ref-type="bibr" rid="article-63904.r2">[2]</xref><xref ref-type="bibr" rid="article-63904.r3">[3]</xref>&#x000a0;How could this be occurring? What is happening to this research between the time of discovery and the patient&#x02019;s bedside? Several reasons contribute to this larger problem. Often, those who create bench research are not in contact with individuals, such as clinicians, who can implement the findings into practice. This speaks to a lack of broad stakeholder engagement in the creation and dissemination of new knowledge.</p>
+        <p>Other times,&#x000a0;when&#x000a0;knowledge is disseminated, it may be difficult to change human behavior or to get individuals to remember to implement new guidelines into daily practice. For instance, newly implemented guidelines that are developed in an academic center may not&#x000a0;reach&#x000a0;clinicians working in a rural hospital,&#x000a0;or they may not have the resources to utilize the data in practice.<xref ref-type="bibr" rid="article-63904.r3">[3]</xref>&#x000a0;Additionally,&#x000a0;the populations used in research studies&#x000a0;may&#x000a0;not represent the&#x000a0;population&#x000a0;visiting&#x000a0;physician&#x02019;s practices.<xref ref-type="bibr" rid="article-63904.r3">[3]</xref>&#x000a0;</p>
+        <p>This situation can occur due to the strict inclusion and exclusion criteria used in the study. When this happens, the study data applies only to the population used in the study and not necessarily to the general population. Moreover, funding sources have not historically supported the resources needed for dissemination and implementation&#x000a0;of&#x000a0;new research findings to be shared widely.<xref ref-type="bibr" rid="article-63904.r3">[3]</xref></p>
+        <p>The Institute of Medicine Crossing the Quality Chasm report helped pave the way for additional infrastructure and funding for translational work. Examples include the National Institutes of Health Clinical and Translational Science Awards that began in 2005 and the development of the National Center for Advancing Translational Science (NCATS).<xref ref-type="bibr" rid="article-63904.r1">[1]</xref>&#x000a0;The work supported and funded by these agencies can include diagnostic tests, drug or other therapeutic intervention, behavior change, and medical procedures.<xref ref-type="bibr" rid="article-63904.r4">[4]</xref>&#x000a0;This work is carried out by the growing field of translational scientists.</p>
+        <p>The NCATS defines translational science as &#x0201c;the process of turning observations in the lab, clinic, and community into interventions that improve the health of individuals and the public.&#x0201d;<xref ref-type="bibr" rid="article-63904.r4">[4]</xref>&#x000a0;To further explore the idea of translational science, there are several phases of research and knowledge dissemination. There has been more of a consensus on the definition of the various phases of the translational spectrum, described as T0 through T4 in recent years.<xref ref-type="bibr" rid="article-63904.r5">[5]</xref>&#x000a0;&#x0201c;T0 involves research such as genome-wide association studies which wrap back around to basic research&#x0201d;.<xref ref-type="bibr" rid="article-63904.r5">[5]</xref>&#x000a0;The T1 phase &#x0201c;involves processes that bring ideas from basic research through early testing in humans.&#x0201d;<xref ref-type="bibr" rid="article-63904.r5">[5]</xref>&#x000a0;The T2 phase involves studying the effectiveness of humans and using that information to shape clinical guidelines.<xref ref-type="bibr" rid="article-63904.r5">[5]</xref>&#x000a0;T3 focuses on the implementation of the research findings and disseminating the research to the necessary stakeholders who can put it into practice and continue to study the results.<xref ref-type="bibr" rid="article-63904.r5">[5]</xref>&#x000a0;T4 is moving from a focus on the individual or group into a more population-based focus. It tests the effectiveness of the intervention on populations.<xref ref-type="bibr" rid="article-63904.r5">[5]</xref>&#x000a0;</p>
+        <p>Engaging in translational science is not a linear process, but rather, it requires a line of thinking that includes considering the upstream and downstream effects of the knowledge or research generated. This is exemplified in the most recent NCATS translational science model, which positions patients in the center and the translational phases in a circle around the patient (National Center for Advancing Translational Sciences, 2020). This new model shows how each stage is built upon and informed by all other stages. It is best to think of it as an iterative process where the starting point can be at any phase and move in any direction among various stakeholders.<xref ref-type="bibr" rid="article-63904.r1">[1]</xref></p>
+      </sec>
+      <sec id="article-63904.s3" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>What does all this have to do with healthcare simulation? To apply the concepts of translational science to healthcare simulation, we must first adjust this continuum for use in medical education. The term 'translational simulation' has been used to describe healthcare simulation activities, which directly improve patient processes and outcomes.<xref ref-type="bibr" rid="article-63904.r6">[6]</xref>&#x000a0;However, this definition should be inclusive of all simulation activities occurring along the translational continuum. In 2017, McGaghie reconceptualized the translational continuum relative to simulation education.<xref ref-type="bibr" rid="article-63904.r7">[7]</xref>&#x000a0;</p>
+        <p>In this context, T1 refers to improving the knowledge, skills, attitudes, and professionalism of teams and individuals in the simulation lab.<xref ref-type="bibr" rid="article-63904.r7">[7]</xref>&#x000a0;T1 simulation research looks most like basic educational research asking questions such as, "Does this curriculum have better learning outcomes than an alternative curriculum in the simulation lab?" T2 simulation research seeks to improve patient care experiences by targeting individuals and teams in the clinic and the patient bedside.<xref ref-type="bibr" rid="article-63904.r7">[7]</xref>&#x000a0;T2 takes the information gained in T1 and determines how it applies to patient care. It could ask, does the education provided in the simulation lab transfer to the bedside? T3 simulation research is aiming to improve patient outcomes by targeting individuals and public health initiatives in the clinic and the broader community.<xref ref-type="bibr" rid="article-63904.r7">[7]</xref>&#x000a0;</p>
+        <p>T3 builds on T2 by taking the knowledge gained about what works and doesn't work in simulation to improve patient care and&#x000a0;applies this knowledge across different contexts. This includes scaling up of successful programs across a hospital system within a city, state, or nationally. McGaghie's reconceptualization could be further expanded to include T4, which may target local, state, or national politicians. The goal of improving patient care through changes in regulation, policy, and funding remains paramount. T4 continues to build upon the T3 knowledge by sharing what works to improve patient care with those who can make policy decisions to&#x000a0;improve the lives of more individuals. Reconceptualizing healthcare simulation concerning a research continuum emphasized its potential contribution to both patient and population health.</p>
+      </sec>
+      <sec id="article-63904.s4" sec-type="Continuing Education">
+        <title>Continuing Education</title>
+        <p>To achieve the goal of bidirectional feedback and a constant focus on translating knowledge, additional capacity building needs to occur, particularly in the area of faculty development. The field of translational science is gaining recognition as more people become aware of its importance. Translational scientists need to share definitions, ideas, and reasons why and how translational research will improve our healthcare systems and population health. Translational scientists are expected to have personality characteristics that allow them to facilitate cross-disciplinary work within a complex healthcare system. These characteristics include being a team player, a boundary crosser, a process innovator, a skilled communicator, a systems thinker, a domain expert, and a rigorous researcher.<xref ref-type="bibr" rid="article-63904.r8">[8]</xref></p>
+        <p>Each of these skills takes time and effort to learn and become proficient. Within the simulation community, these ideas and traits can be taught through formal education, but also through more informal methods such as webinars, conference workshops, discussions across community members, and self-paced online learning. Ideally, building a translational research team that includes individuals who bring together a variety of these skills may also facilitate the process of knowledge translation.</p>
+      </sec>
+      <sec id="article-63904.s5" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Just as knowledge gained from scientific research needs to be applied and implemented into clinical practice, so too does the knowledge from medical simulation activities. Simulation activities should include the collection of data&#x000a0;as well as&#x000a0;information related to&#x000a0;the practice changes needed of clinicians, again with the ultimate goal of improving patient care. Although all areas of the translational spectrum need continued research, a larger focus on the translational nature of research done in the simulation lab can improve the flow of information along the continuum.</p>
+        <p>There needs to be an intentional focus of the training activities beginning with the initial planning of simulation activities. This&#x000a0;should include consideration in the planning phase of how information gained from each simulation will be used to inform stakeholders&#x000a0;of the translational continuum. For example, when preparing a skills session for medical students, the information obtained from the session can be shared with the clinical supervisory staff to inform them of the skills in which the learners&#x000a0;are competent. Then, learners can demonstrate and "do" the skills during patient care in the clinical environment.</p>
+        <p>On the clinical side, when the clinical supervisory staff notices a student who is not able to perform skills adequately, they could be directed back to the simulation lab for additional training. Training, feedback, and competency can be completed at the student level, and a parallel process can be used for practicing healthcare professionals. Through this bi-directional process, more stakeholders are involved to ensure the knowledge is translated into practice.</p>
+      </sec>
+      <sec id="article-63904.s6" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>Just as translational science and research have gained momentum in the recent decade,&#x000a0; the idea of translation in healthcare simulation has advanced also. This article applied the knowledge gained from translational science and research to healthcare simulation, including the translational science and translational simulation educational spectrums.</p>
+        <p>This article provides the rationale for why translational science has become a larger focus in recent years in both the larger scientific community and in healthcare simulation. It is anticipated this trend will continue with the ultimate goal of improving the lives of our patients and populations through a continued focus on translational activities.</p>
+      </sec>
+      <sec id="article-63904.s7">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=63904&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=63904">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/63904/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=63904">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-63904.s8">
+        <title>References</title>
+        <ref id="article-63904.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Drolet</surname>
+                <given-names>BC</given-names>
+              </name>
+              <name>
+                <surname>Lorenzi</surname>
+                <given-names>NM</given-names>
+              </name>
+            </person-group>
+            <article-title>Translational research: understanding the continuum from bench to bedside.</article-title>
+            <source>Transl Res</source>
+            <year>2011</year>
+            <month>Jan</month>
+            <volume>157</volume>
+            <issue>1</issue>
+            <fpage>1</fpage>
+            <page-range>1-5</page-range>
+            <pub-id pub-id-type="pmid">21146144</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63904.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Balas</surname>
+                <given-names>EA</given-names>
+              </name>
+              <name>
+                <surname>Boren</surname>
+                <given-names>SA</given-names>
+              </name>
+            </person-group>
+            <article-title>Managing Clinical Knowledge for Health Care Improvement.</article-title>
+            <source>Yearb Med Inform</source>
+            <year>2000</year>
+            <issue>1</issue>
+            <fpage>65</fpage>
+            <page-range>65-70</page-range>
+            <pub-id pub-id-type="pmid">27699347</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63904.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Westfall</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Mold</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Fagnan</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Practice-based research--"Blue Highways" on the NIH roadmap.</article-title>
+            <source>JAMA</source>
+            <year>2007</year>
+            <month>Jan</month>
+            <day>24</day>
+            <volume>297</volume>
+            <issue>4</issue>
+            <fpage>403</fpage>
+            <page-range>403-6</page-range>
+            <pub-id pub-id-type="pmid">17244837</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63904.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Austin</surname>
+                <given-names>CP</given-names>
+              </name>
+            </person-group>
+            <article-title>Translating translation.</article-title>
+            <source>Nat Rev Drug Discov</source>
+            <year>2018</year>
+            <month>Jul</month>
+            <volume>17</volume>
+            <issue>7</issue>
+            <fpage>455</fpage>
+            <page-range>455-456</page-range>
+            <pub-id pub-id-type="pmid">29674698</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63904.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fort</surname>
+                <given-names>DG</given-names>
+              </name>
+              <name>
+                <surname>Herr</surname>
+                <given-names>TM</given-names>
+              </name>
+              <name>
+                <surname>Shaw</surname>
+                <given-names>PL</given-names>
+              </name>
+              <name>
+                <surname>Gutzman</surname>
+                <given-names>KE</given-names>
+              </name>
+              <name>
+                <surname>Starren</surname>
+                <given-names>JB</given-names>
+              </name>
+            </person-group>
+            <article-title>Mapping the evolving definitions of translational research.</article-title>
+            <source>J Clin Transl Sci</source>
+            <year>2017</year>
+            <month>Feb</month>
+            <volume>1</volume>
+            <issue>1</issue>
+            <fpage>60</fpage>
+            <page-range>60-66</page-range>
+            <pub-id pub-id-type="pmid">28480056</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63904.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Brazil</surname>
+                <given-names>V</given-names>
+              </name>
+            </person-group>
+            <article-title>Translational simulation: not 'where?' but 'why?' A functional view of in situ simulation.</article-title>
+            <source>Adv Simul (Lond)</source>
+            <year>2017</year>
+            <volume>2</volume>
+            <fpage>20</fpage>
+            <pub-id pub-id-type="pmid">29450021</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63904.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>McGaghie</surname>
+                <given-names>WC</given-names>
+              </name>
+            </person-group>
+            <article-title>Medical education research as translational science.</article-title>
+            <source>Sci Transl Med</source>
+            <year>2010</year>
+            <month>Feb</month>
+            <day>17</day>
+            <volume>2</volume>
+            <issue>19</issue>
+            <fpage>19cm8</fpage>
+            <pub-id pub-id-type="pmid">20371485</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63904.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gilliland</surname>
+                <given-names>CT</given-names>
+              </name>
+              <name>
+                <surname>White</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Gee</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Kreeftmeijer-Vegter</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Bietrix</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Ussi</surname>
+                <given-names>AE</given-names>
+              </name>
+              <name>
+                <surname>Hajduch</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kocis</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Chiba</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Hirasawa</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Suematsu</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Bryans</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Newman</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Hall</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Austin</surname>
+                <given-names>CP</given-names>
+              </name>
+            </person-group>
+            <article-title>The Fundamental Characteristics of a Translational Scientist.</article-title>
+            <source>ACS Pharmacol Transl Sci</source>
+            <year>2019</year>
+            <month>Jun</month>
+            <day>14</day>
+            <volume>2</volume>
+            <issue>3</issue>
+            <fpage>213</fpage>
+            <page-range>213-216</page-range>
+            <pub-id pub-id-type="pmid">32259057</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

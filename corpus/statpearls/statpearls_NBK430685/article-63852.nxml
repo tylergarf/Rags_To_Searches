@@ -1,0 +1,1633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-63852" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Quality Improvement in Medical Simulation</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Rider</surname>
+            <given-names>Ashley</given-names>
+          </name>
+          <aff>Stanford</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Schertzer</surname>
+            <given-names>Kimberly</given-names>
+          </name>
+          <aff>Stanford University School of Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Ashley Rider declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Kimberly Schertzer declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>24</day>
+          <month>7</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-63852.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Healthcare quality improvement is a dedication to working towards better performance and patient outcomes in the field of medicine. The U.S. Department of Health and Human Services Health Resources and Services Administration's article "Quality Improvement" from April 2011 defines quality improvement (QI) as "systematic and continuous actions that lead to measurable improvement in healthcare services and the health status of targeted patient groups." (U.S. Department of Health and Human Services Resources and Services Administration, 2011). Over the past two decades, the Institute of Medicine has had significant involvement in driving quality improvement efforts to improve healthcare outcomes for patients and populations. In their 2001 publication, "Crossing the Quality Chiasm: A new Health System for the 21st Century," they describe six core aims including safe, effective, patient-centered, timely, efficient, and equitable patient care, and also put forth strategies for systems redesign to prevent errors and address outcomes (Institute of Medicine, 2001).&#x000a0;</p>
+        <p>To quote one of the founding fathers of healthcare simulation, Dr. David Gaba, "Simulation is a technique&#x02014;not a technology&#x02014;to replace or amplify real experiences with guided experiences that evoke or replicate substantial aspects of the real world in a fully interactive manner."<xref ref-type="bibr" rid="article-63852.r1">[1]</xref>&#x000a0;In healthcare, simulation has long been represented in educational efforts, but it also serves as a tool for quality improvement efforts. Simulation has represented its utility in other lines of work that are safety-focused, such as airline, military, and other industries, due to the possibility of low-frequency emergencies.<xref ref-type="bibr" rid="article-63852.r1">[1]</xref><xref ref-type="bibr" rid="article-63852.r2">[2]</xref> Recently, an international consensus of 22 experts was held to characterize the ability of healthcare simulation to improve patient safety.<xref ref-type="bibr" rid="article-63852.r3">[3]</xref>&#x000a0;Experts agreed on five topics, including technical skills, non-technical skills, assessment, effectiveness, and system probing. Simulation can be used to analyze processes and hazards before events occur. It can also serve as a tool for encouraging a&#x000a0;culture of safety&#x000a0;through norms that are set in a simulated environment.<xref ref-type="bibr" rid="article-63852.r1">[1]</xref>&#x000a0;</p>
+      </sec>
+      <sec id="article-63852.s2" sec-type="Function">
+        <title>Function</title>
+        <p>Healthcare simulation takes many forms. Simulation training may occur in a designated center during protected education time, in actual patient care areas (in-situ), use technology-enhanced programs such as computer-based or virtual reality, involve standardized patients, or use procedural task-trainers. Any of these modalities may serve as a tool for quality improvement.<xref ref-type="bibr" rid="article-63852.r4">[4]</xref>&#x000a0;In-situ simulation, in particular, has been described to most closely mirror the complex system that healthcare providers interact with daily.<xref ref-type="bibr" rid="article-63852.r5">[5]</xref>&#x000a0;Simulation also gives providers the ability to practice a scenario that could conceivably occur in real life without the unintended consequences if an error occurs. The actions performed by team members, provider communication, and resources of the environment can be examined and debriefed with the assistance of a facilitator to guide modifications and prevent actual harm.<xref ref-type="bibr" rid="article-63852.r5">[5]</xref>&#x000a0;When a real patient arrives with a similar set of circumstances, the individual, the team, and the setting have had the necessary preparation.<xref ref-type="bibr" rid="article-63852.r6">[6]</xref></p>
+        <p>Simulation provides a unique &#x0201c;safe sandbox&#x0201d; opportunity to highlight communication issues. Many of the events leading to patient harm are related to communication failures.<xref ref-type="bibr" rid="article-63852.r7">[7]</xref>&#x000a0;In one&#x000a0;evaluation by the Joint Commission of 2455 sentinel events in 2004, 70% of the root causes were related to communication issues (Joint Commission on Accreditation of Healthcare Organizations, 2004). Team performance and relationships are harder to study and not as emphasized in the QI literature, but they can often be the focus of simulation experiences.<xref ref-type="bibr" rid="article-63852.r4">[4]</xref>&#x000a0; Part of this process is recognizing the holes of the swiss cheese model, which are often failures related to human factors and miscommunication.<xref ref-type="bibr" rid="article-63852.r2">[2]</xref><xref ref-type="bibr" rid="article-63852.r8">[8]</xref>&#x000a0;Using simulation to address these potential failures through the plan-do-study-act cycle may have a wide range of outcomes, from the learner experience to improved patient outcomes.<xref ref-type="bibr" rid="article-63852.r4">[4]</xref>&#x000a0;This approach calls for QI and simulation experts to work more closely together to study and address the team communication component of patient outcomes.</p>
+      </sec>
+      <sec id="article-63852.s3" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>
+<bold>&#x000a0;Identifying Latent Safety Threats</bold>
+</p>
+        <p>The concept of latent safety threats (LST) has origins within the aviation industry, in which latent failures were entities that could have a damaging consequence but may lie dormant.<xref ref-type="bibr" rid="article-63852.r9">[9]</xref>&#x000a0;It has been adopted in medicine to mean a threat within the system that could emerge at any point in care and might go unrecognized by the healthcare team.<xref ref-type="bibr" rid="article-63852.r10">[10]</xref><xref ref-type="bibr" rid="article-63852.r2">[2]</xref>&#x000a0;A study performed by Patterson and colleagues used in situ simulation to identify latent safety threats in a pediatric ED. They performed 90 simulations (10 min simulation and 10 min of debriefing) involving 218 healthcare providers over one year. They identified a total of 73 LST, including equipment issues and knowledge gaps. The authors described that setting the expectation that in situ simulations would occur resulted in improvements in operations and safety, and also, the majority of participants found the experience valuable.<xref ref-type="bibr" rid="article-63852.r2">[2]</xref></p>
+        <p>Another study describes the process of using simulation following an adverse event to identify latent safety threats.<xref ref-type="bibr" rid="article-63852.r11">[11]</xref> Those in situ simulations were integrated into the pediatric teaching program. Twenty-one sessions with 98 participants were held using low fidelity mannequins. They identified seven major latent safety threats, including a key medication being out of stock, bag and mask not connected to an oxygen source, and adrenaline not available, to name a few. Minor and colleagues reviewed videotaped simulations and identified 54 errors.<xref ref-type="bibr" rid="article-63852.r12">[12]</xref> These fell into types of error, such as medication, equipment, environment, and training (6). Remarkably, they describe 48% of the errors as &#x0201c;high risk&#x0201d; to an actual patient and 7% as &#x0201c;extreme risk.&#x0201d; They advocate for a multi-disciplinary approach to allow for multiple viewpoints of the exercise.<xref ref-type="bibr" rid="article-63852.r12">[12]</xref>&#x000a0;</p>
+        <p>In another study at a single institution, 49 in situ simulation exercises yielded identification of 56 latent safety threats (LST), for an average of 1.1 per scenario, suggesting that every single simulation had the opportunity to improve the quality of care.<xref ref-type="bibr" rid="article-63852.r13">[13]</xref>&#x000a0;Most of these were related to equipment issues, with teamwork and medication comprising most of the other threats. The authors describe that the intervention was successful and helped to prompt a culture change. Furthermore, the rate of serious safety events decreased from close to three times a year to approximately once per year.&#x000a0; Identifying latent safety threats may be a product of a structured debrief involving an interprofessional team, acting as a catalyst to mitigate potential areas of compromise to patient care.<xref ref-type="bibr" rid="article-63852.r14">[14]</xref></p>
+      </sec>
+      <sec id="article-63852.s4" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Simulation provides a means for improving healthcare readiness, particularly concerning the care of pediatric patients.&#x000a0; The National Pediatric Readiness Project (NPRP) collaborative created a survey to measure pediatric readiness in U.S. EDs.<xref ref-type="bibr" rid="article-63852.r15">[15]</xref><xref ref-type="bibr" rid="article-63852.r16">[16]</xref>&#x000a0;Whitfill and colleagues describe using the Pediatric Readiness Survey (PRS) to evaluate hospitals before and after in situ simulations. These took place in 12 community EDs across the state of Connecticut.<xref ref-type="bibr" rid="article-63852.r15">[15]</xref> The PRS score was 64.0 out of 100 for all hospitals. The score improved 12.9% from the first assessment to the second, but within specific domains of the PRS score, even greater gains were noted (coordination of care 50% and quality improvement activities 79%). This demonstrates the role of simulation as an essential part of the process in ensuring readiness to care for pediatric patients. Barlow (2017) used simulation in a new hospital before opening to identify latent safety threats.<xref ref-type="bibr" rid="article-63852.r17">[17]</xref> In the process, they developed two new tools, the &#x0201c;Simulation-Based Quality Improvement Tool (SQIOT)&#x0201d; and the &#x0201c;Healthcare Failure Modes Effects Analysis (HFMEA).&#x0201d; This allowed them to provide feedback to hospital leaders for system improvements.</p>
+        <p>On an individual level, simulation can improve confidence and competence, making providers more personally ready for the task at hand. In one study, 12 low-fidelity simulations for nursing staff over three months helped improve Mean Clinical Performance scores by 74%.<xref ref-type="bibr" rid="article-63852.r18">[18]</xref>&#x000a0;Mock codes can help improve confidence in nurses responding to medical emergencies.<xref ref-type="bibr" rid="article-63852.r19">[19]</xref>&#x000a0;There was also improvement in performance times from the first to the second year of the program, with a 12% improvement in time to call for help, and a 52% improvement in time to initiate chest compressions.</p>
+        <p>Simulation can also serve as a marker for discrepancies in quality between institutions. A multi-centered prospective simulation study at 30 hospitals compared deviations from best practices of management of hypoglycemic seizure&#x000a0;in 8 pediatric EDs and 22 general EDs. They found that pharmacologic errors were more frequent in general EDs, particularly related to dextrose concentration, dosing, and maintenance dextrose.<xref ref-type="bibr" rid="article-63852.r20">[20]</xref>&#x000a0;Due to the low frequency of these events, the simulation allowed this to be studied in a much more compact time course than had it been studied prospectively for many patients. Discrepancies between hospitals can help identify future-readiness initiatives.</p>
+      </sec>
+      <sec id="article-63852.s5" sec-type="Pearls and Other Issues">
+        <title>Pearls and Other Issues</title>
+        <p>There are many challenges in researching the role of simulation and quality improvement. Those involved in the simulation are a heterogeneous group and may have quite variable outcomes depending on the participants, the setting, and the scenario.<xref ref-type="bibr" rid="article-63852.r4">[4]</xref> When the simulation is studied, there is often not a control group, and it is difficult to pin down the factor that genuinely contributed to patient outcomes.&#x000a0;Also, a given simulation is often only implemented at a single institution or with a single team, which makes it difficult to make general conclusions. Time and resources are always a barrier, particularly for on-shift in situ simulations, which run the risk of being canceled due to departmental demands. There is a need for ongoing research regarding the timing and frequency of simulation to optimize those demands for high impact exercises that do not place a further burden on the system. Also, more research attention is necessary,&#x000a0;looking into the realm of simulation&#x02019;s impact on patient outcomes.</p>
+        <p>Simulation can be viewed as a tool in the greater quality improvement process. Simulation activities are an opportunity to work on communication and team factors. Simulation also can be used to streamline protocols or processes without involving patients. Multidisciplinary simulation exercises in the practice setting can be used to identify latent threats and improve readiness. Finally, there is growing evidence that simulation may be a tool that improves patient outcomes, the ultimate measure of quality. In the future, simulation should be thoughtfully integrated into quality assessments and systems improvements to achieve the highest possible standards for patient care.</p>
+      </sec>
+      <sec id="article-63852.s6" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>
+<bold>Team-Based In-situ simulation</bold>
+</p>
+        <p>In situ simulation (ISS) can improve team performance and highlight the need for changes in systems.<xref ref-type="bibr" rid="article-63852.r21">[21]</xref>&#x000a0;In situ simulation takes place in the clinical setting, encouraging the performance of roles that individuals normally hold,&#x000a0;in the typical setting with the same equipment, and uses a multidisciplinary team approach, all of which are difficult to replicate in a simulation center.<xref ref-type="bibr" rid="article-63852.r21">[21]</xref><xref ref-type="bibr" rid="article-63852.r22">[22]</xref>&#x000a0;It is a chance to work on team skills and improve learning in a controlled environment while still maintaining the challenges presented by context, distractions, and practical difficulties.<xref ref-type="bibr" rid="article-63852.r22">[22]</xref>&#x000a0;Rather than occurring on actual patients, the near-misses can occur during simulated cases and yet still provide a learning opportunity. In a series of unannounced cardiac arrest simulations performed in the UK, 55 team members overall agreed that the sims were a realistic representation of an event and are useful for training and assessment of both technical and non-technical skills.<xref ref-type="bibr" rid="article-63852.r22">[22]</xref>&#x000a0; Two studies of multidisciplinary in situ at trauma centers demonstrated improvements during real trauma resuscitations. One observational study showed improvement in non-technical skills, and a prospective cohort study showed improvements in essential task completion, decreased resuscitation time, and improved teamwork.<xref ref-type="bibr" rid="article-63852.r23">[23]</xref><xref ref-type="bibr" rid="article-63852.r24">[24]</xref>&#x000a0;High-fidelity in situ simulations may be particularly important for critical access hospitals. Even six simulations over a year showed improvement in successive interventions.<xref ref-type="bibr" rid="article-63852.r25">[25]</xref>&#x000a0;In situ is a unique opportunity to collect the actual team in the actual place and improve a constellation of factors to best care for patients.&#x000a0;</p>
+        <p>
+<bold>Streamlining Protocols</bold>
+</p>
+        <p>Healthcare simulation offers an opportunity to streamline protocols to improve patient care. A simulated patient or mannequin can be used as a prop in the workflow to highlight deficiencies. For example, Ajmi and colleagues used simulation to reduce door to needle time in stroke patients.<xref ref-type="bibr" rid="article-63852.r26">[26]</xref> In their study of 650 patients following 26 ISS sessions, the door to needle time decreased from 27 min to 13 minutes. They highlight the role of simulation in improving team performance and identifying the human factors that serve as rate-limiting steps to care.<xref ref-type="bibr" rid="article-63852.r26">[26]</xref> In a study of trauma patients, interprofessional ISS helped decrease the time to CT scan in 67 subsequent trauma resuscitations.<xref ref-type="bibr" rid="article-63852.r27">[27]</xref>&#x000a0;Reduction in time to CT scan went from 23 min to 16 minutes, and the time to complete the secondary survey dropped from 14 min to 6 minutes. In the &#x0201c;Golden Hour&#x0201d; of trauma resuscitation, it is especially important to eliminate unnecessary delays in care and streamline processes.&#x000a0; Another example of simulation used to address processes was a creative study using simulation in preparation for enrolling patients in a large study. Simulation was used in a pediatric ED to inform the pre-clinical trial phase of eligible versus ineligible patients to identify threats to enrollment, patient safety, and adhering to the protocol.<xref ref-type="bibr" rid="article-63852.r28">[28]</xref> After completing ten simulations, they identified common threats to enrollment, such as misunderstanding of eligibility criteria and concerns about the consent process. Protocol adherence issues included detection and response to hypotension, confusion about the administration of the study medication, and calibration of the infusion pump.<xref ref-type="bibr" rid="article-63852.r28">[28]</xref> Simulation can serve as a tool for improving operations that streamline everything from resuscitation algorithms to study protocols.</p>
+        <p>
+<bold>Patient outcomes&#x000a0;</bold>
+</p>
+        <p>It is challenging to link simulation efforts to quality-based patient outcomes. Studying simulation-related patient outcomes is complicated by multiple confounders. One prospective study of in situ to improve arrhythmia detection in the ED increased rates of detection from 5 to 55%.<xref ref-type="bibr" rid="article-63852.r29">[29]</xref>&#x000a0;Another study of a multi-state healthcare system found improved in-hospital cardiac arrests in those who participated more frequently in mock codes (survival rate 42%) versus those with less active mock code activity (survival rate 37%).<xref ref-type="bibr" rid="article-63852.r30">[30]</xref>&#x000a0;The authors relate this to return on investments, claiming 151 lives saved with simulation, or 14 additional mock simulations per 100 beds per life saved. Another study comparing the presence of an ACLS trained provider versus none showed increased rates of return of spontaneous circulation (ROSC) and shorter times to ROSC; with a greater odds ratio of achieving ROSC, the more team members had received training in ACLS.<xref ref-type="bibr" rid="article-63852.r31">[31]</xref>&#x000a0;</p>
+        <p>Outcomes have also been demonstrated in procedural simulation training. A study comparing residents trained using simulation-based education and those without showed that those receiving simulation-based training had fewer needle passes, arterial punctures, catheter adjustments, and overall higher success rates for catheter insertion.<xref ref-type="bibr" rid="article-63852.r32">[32]</xref>&#x000a0;The authors went on to evaluate catheter-related infections over 32 months in the ICU after the training. Residents trained in a simulated setting had and 85% reduction in infections compared to those who were not. The curriculum got disseminated to other institutions, and the authors published a study showing a decrease in infections from 1.29 per 1000 catheter days from 3.82 per 1000 catheter days; this was deemed to be a 74% reduction in the incidence of central-line associated bloodstream infections simply by training the residents.<xref ref-type="bibr" rid="article-63852.r33">[33]</xref>&#x000a0;This intervention and avoidance of complications are credited with significant cost savings on the order of a 7 to 1 return on investment.<xref ref-type="bibr" rid="article-63852.r34">[34]</xref>&#x000a0;A similar reduction in infection rate was noted by other authors who trained participants on sterile technique to central line insertion using a video or simulator and showed that those using a simulator also had a reduction of 70% in the incidence of catheter-related infections.<xref ref-type="bibr" rid="article-63852.r35">[35]</xref>&#x000a0;They suggested that simulation should be implemented for trainees to reduce iatrogenic risk. Studies in the field of OBGYN showed simulation for obstetric emergencies was associated with a reduction in low Apgar scores (less than 6) at 5 minutes, improved neonatal outcomes in patients with shoulder dystocia, and a reduction of neonatal injury.<xref ref-type="bibr" rid="article-63852.r36">[36]</xref><xref ref-type="bibr" rid="article-63852.r37">[37]</xref><xref ref-type="bibr" rid="article-63852.r38">[38]</xref>&#x000a0;A study in general surgery demonstrated that randomization to a mastery learning group who trained to high standards was associated with performing faster extraperitoneal hernia repairs (34 min vs. 48 min), higher performance scores intraoperatively (21.9 vs. 18.3), and fewer intraoperative and postoperative complications.<xref ref-type="bibr" rid="article-63852.r39">[39]</xref>&#x000a0;While these findings of improved patient outcomes seem to be most robust in procedural teaching, its impact across specialties demonstrates the utility of training on a simulator to pre-defined standards.</p>
+      </sec>
+      <sec id="article-63852.s7">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=63852&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=63852">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/63852/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=63852">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-63852.s8">
+        <title>References</title>
+        <ref id="article-63852.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gaba</surname>
+                <given-names>DM</given-names>
+              </name>
+            </person-group>
+            <article-title>The future vision of simulation in health care.</article-title>
+            <source>Qual Saf Health Care</source>
+            <year>2004</year>
+            <month>Oct</month>
+            <volume>13 Suppl 1</volume>
+            <issue>Suppl 1</issue>
+            <fpage>i2</fpage>
+            <page-range>i2-10</page-range>
+            <pub-id pub-id-type="pmid">15465951</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Patterson</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Geis</surname>
+                <given-names>GL</given-names>
+              </name>
+              <name>
+                <surname>Falcone</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>LeMaster</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Wears</surname>
+                <given-names>RL</given-names>
+              </name>
+            </person-group>
+            <article-title>In situ simulation: detection of safety threats and teamwork training in a high risk emergency department.</article-title>
+            <source>BMJ Qual Saf</source>
+            <year>2013</year>
+            <month>Jun</month>
+            <volume>22</volume>
+            <issue>6</issue>
+            <fpage>468</fpage>
+            <page-range>468-77</page-range>
+            <pub-id pub-id-type="pmid">23258390</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sollid</surname>
+                <given-names>SJM</given-names>
+              </name>
+              <name>
+                <surname>Dieckman</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Aase</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>S&#x000f8;reide</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Ringsted</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>&#x000d8;stergaard</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Five Topics Health Care Simulation Can Address to Improve Patient Safety: Results From a Consensus Process.</article-title>
+            <source>J Patient Saf</source>
+            <year>2019</year>
+            <month>Jun</month>
+            <volume>15</volume>
+            <issue>2</issue>
+            <fpage>111</fpage>
+            <page-range>111-120</page-range>
+            <pub-id pub-id-type="pmid">27023646</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Brazil</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Purdy</surname>
+                <given-names>EI</given-names>
+              </name>
+              <name>
+                <surname>Bajaj</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Connecting simulation and quality improvement: how can healthcare simulation really improve patient care?</article-title>
+            <source>BMJ Qual Saf</source>
+            <year>2019</year>
+            <month>Nov</month>
+            <volume>28</volume>
+            <issue>11</issue>
+            <fpage>862</fpage>
+            <page-range>862-865</page-range>
+            <pub-id pub-id-type="pmid">31320498</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Deutsch</surname>
+                <given-names>ES</given-names>
+              </name>
+              <name>
+                <surname>Patterson</surname>
+                <given-names>MD</given-names>
+              </name>
+            </person-group>
+            <article-title>Simulation Saves the Day (and Patient).</article-title>
+            <source>Otolaryngol Clin North Am</source>
+            <year>2019</year>
+            <month>Feb</month>
+            <volume>52</volume>
+            <issue>1</issue>
+            <fpage>115</fpage>
+            <page-range>115-121</page-range>
+            <pub-id pub-id-type="pmid">30249446</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tompkins</surname>
+                <given-names>JJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Use of simulation boot camps to train junior otolaryngology residents: a resident's testimonial.</article-title>
+            <source>JAMA Otolaryngol Head Neck Surg</source>
+            <year>2014</year>
+            <month>May</month>
+            <volume>140</volume>
+            <issue>5</issue>
+            <fpage>1</fpage>
+            <page-range>1-2</page-range>
+            <pub-id pub-id-type="pmid">24676714</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Leonard</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Graham</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Bonacum</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>The human factor: the critical importance of effective teamwork and communication in providing safe care.</article-title>
+            <source>Qual Saf Health Care</source>
+            <year>2004</year>
+            <month>Oct</month>
+            <volume>13 Suppl 1</volume>
+            <issue>Suppl 1</issue>
+            <fpage>i85</fpage>
+            <page-range>i85-90</page-range>
+            <pub-id pub-id-type="pmid">15465961</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Feldman</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>Medical errors and emergency medicine: will the difficult questions be asked, and answered?</article-title>
+            <source>Acad Emerg Med</source>
+            <year>2003</year>
+            <month>Aug</month>
+            <volume>10</volume>
+            <issue>8</issue>
+            <fpage>910</fpage>
+            <page-range>910-1</page-range>
+            <pub-id pub-id-type="pmid">12896899</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Reason</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Human error: models and management.</article-title>
+            <source>BMJ</source>
+            <year>2000</year>
+            <month>Mar</month>
+            <day>18</day>
+            <volume>320</volume>
+            <issue>7237</issue>
+            <fpage>768</fpage>
+            <page-range>768-70</page-range>
+            <pub-id pub-id-type="pmid">10720363</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Alfredsdottir</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Bjornsdottir</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Nursing and patient safety in the operating room.</article-title>
+            <source>J Adv Nurs</source>
+            <year>2008</year>
+            <month>Jan</month>
+            <volume>61</volume>
+            <issue>1</issue>
+            <fpage>29</fpage>
+            <page-range>29-37</page-range>
+            <pub-id pub-id-type="pmid">18173734</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yajamanyam</surname>
+                <given-names>PK</given-names>
+              </name>
+              <name>
+                <surname>Sohi</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>In situ simulation as a quality improvement initiative.</article-title>
+            <source>Arch Dis Child Educ Pract Ed</source>
+            <year>2015</year>
+            <month>Jun</month>
+            <volume>100</volume>
+            <issue>3</issue>
+            <fpage>162</fpage>
+            <page-range>162-3</page-range>
+            <pub-id pub-id-type="pmid">25852214</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Minor</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Green</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Jessula</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Crash testing the dummy: a review of in situ trauma simulation at a Canadian tertiary centre.</article-title>
+            <source>Can J Surg</source>
+            <year>2019</year>
+            <month>Aug</month>
+            <day>01</day>
+            <volume>62</volume>
+            <issue>4</issue>
+            <fpage>243</fpage>
+            <page-range>243-248</page-range>
+            <pub-id pub-id-type="pmid">31348631</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Couto</surname>
+                <given-names>TB</given-names>
+              </name>
+              <name>
+                <surname>Barreto</surname>
+                <given-names>JKS</given-names>
+              </name>
+              <name>
+                <surname>Marcon</surname>
+                <given-names>FC</given-names>
+              </name>
+              <name>
+                <surname>Mafra</surname>
+                <given-names>ACCN</given-names>
+              </name>
+              <name>
+                <surname>Accorsi</surname>
+                <given-names>TAD</given-names>
+              </name>
+            </person-group>
+            <article-title>Detecting latent safety threats in an interprofessional training that combines in situ simulation with task training in an emergency department.</article-title>
+            <source>Adv Simul (Lond)</source>
+            <year>2018</year>
+            <volume>3</volume>
+            <fpage>23</fpage>
+            <pub-id pub-id-type="pmid">30505467</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Greer</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Haischer-Rollo</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Delorey</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Kiser</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Sayles</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Bailey</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Blosser</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Middlebrooks</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Ennen</surname>
+                <given-names>CS</given-names>
+              </name>
+            </person-group>
+            <article-title>In-situ Interprofessional Perinatal Drills: The Impact of a Structured Debrief on Maximizing Training While Sensing Patient Safety Threats.</article-title>
+            <source>Cureus</source>
+            <year>2019</year>
+            <month>Feb</month>
+            <day>19</day>
+            <volume>11</volume>
+            <issue>2</issue>
+            <fpage>e4096</fpage>
+            <pub-id pub-id-type="pmid">31032156</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Whitfill</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Gawel</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Auerbach</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>A Simulation-Based Quality Improvement Initiative Improves Pediatric Readiness in Community Hospitals.</article-title>
+            <source>Pediatr Emerg Care</source>
+            <year>2018</year>
+            <month>Jun</month>
+            <volume>34</volume>
+            <issue>6</issue>
+            <fpage>431</fpage>
+            <page-range>431-435</page-range>
+            <pub-id pub-id-type="pmid">28719479</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gausche-Hill</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ely</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Schmuhl</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Telford</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Remick</surname>
+                <given-names>KE</given-names>
+              </name>
+              <name>
+                <surname>Edgerton</surname>
+                <given-names>EA</given-names>
+              </name>
+              <name>
+                <surname>Olson</surname>
+                <given-names>LM</given-names>
+              </name>
+            </person-group>
+            <article-title>A national assessment of pediatric readiness of emergency departments.</article-title>
+            <source>JAMA Pediatr</source>
+            <year>2015</year>
+            <month>Jun</month>
+            <volume>169</volume>
+            <issue>6</issue>
+            <fpage>527</fpage>
+            <page-range>527-34</page-range>
+            <pub-id pub-id-type="pmid">25867088</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Barlow</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Dickie</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Morse</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Bonney</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Simon</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Documentation framework for healthcare simulation quality improvement activities.</article-title>
+            <source>Adv Simul (Lond)</source>
+            <year>2017</year>
+            <volume>2</volume>
+            <fpage>19</fpage>
+            <pub-id pub-id-type="pmid">29450020</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Saqe-Rockoff</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Ciardiello</surname>
+                <given-names>AV</given-names>
+              </name>
+              <name>
+                <surname>Schubert</surname>
+                <given-names>FD</given-names>
+              </name>
+            </person-group>
+            <article-title>Low-Fidelity, In-Situ Pediatric Resuscitation Simulation Improves RN Competence and Self-Efficacy.</article-title>
+            <source>J Emerg Nurs</source>
+            <year>2019</year>
+            <month>Sep</month>
+            <volume>45</volume>
+            <issue>5</issue>
+            <fpage>538</fpage>
+            <page-range>538-544.e1</page-range>
+            <pub-id pub-id-type="pmid">30987773</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Herbers</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Heaser</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>Implementing an in Situ Mock Code Quality Improvement Program.</article-title>
+            <source>Am J Crit Care</source>
+            <year>2016</year>
+            <month>Sep</month>
+            <volume>25</volume>
+            <issue>5</issue>
+            <fpage>393</fpage>
+            <page-range>393-9</page-range>
+            <pub-id pub-id-type="pmid">27587418</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Walsh</surname>
+                <given-names>BM</given-names>
+              </name>
+              <name>
+                <surname>Gangadharan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Whitfill</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Gawel</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kessler</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Dudas</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Katznelson</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Lavoie</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Tay</surname>
+                <given-names>KY</given-names>
+              </name>
+              <name>
+                <surname>Hamilton</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Brown</surname>
+                <given-names>LL</given-names>
+              </name>
+              <name>
+                <surname>Nadkarni</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Auerbach</surname>
+                <given-names>M</given-names>
+              </name>
+              <collab>INSPIRE ImPACT investigators</collab>
+            </person-group>
+            <article-title>Safety Threats During the Care of Infants with Hypoglycemic Seizures in the Emergency Department: A Multicenter, Simulation-Based Prospective Cohort Study.</article-title>
+            <source>J Emerg Med</source>
+            <year>2017</year>
+            <month>Oct</month>
+            <volume>53</volume>
+            <issue>4</issue>
+            <fpage>467</fpage>
+            <page-range>467-474.e7</page-range>
+            <pub-id pub-id-type="pmid">28843460</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Petrosoniak</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Auerbach</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Wong</surname>
+                <given-names>AH</given-names>
+              </name>
+              <name>
+                <surname>Hicks</surname>
+                <given-names>CM</given-names>
+              </name>
+            </person-group>
+            <article-title>In situ simulation in emergency medicine: Moving beyond the simulation lab.</article-title>
+            <source>Emerg Med Australas</source>
+            <year>2017</year>
+            <month>Feb</month>
+            <volume>29</volume>
+            <issue>1</issue>
+            <fpage>83</fpage>
+            <page-range>83-88</page-range>
+            <pub-id pub-id-type="pmid">27748042</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Walker</surname>
+                <given-names>ST</given-names>
+              </name>
+              <name>
+                <surname>Sevdalis</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>McKay</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Lambden</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Gautama</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Aggarwal</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Vincent</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Unannounced in situ simulations: integrating training and clinical practice.</article-title>
+            <source>BMJ Qual Saf</source>
+            <year>2013</year>
+            <month>Jun</month>
+            <volume>22</volume>
+            <issue>6</issue>
+            <fpage>453</fpage>
+            <page-range>453-8</page-range>
+            <pub-id pub-id-type="pmid">23211281</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Miller</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Crandall</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Washington</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>McLaughlin</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Improving teamwork and communication in trauma care through in situ simulations.</article-title>
+            <source>Acad Emerg Med</source>
+            <year>2012</year>
+            <month>May</month>
+            <volume>19</volume>
+            <issue>5</issue>
+            <fpage>608</fpage>
+            <page-range>608-12</page-range>
+            <pub-id pub-id-type="pmid">22594369</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Steinemann</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Berg</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Skinner</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>DiTulio</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Anzelon</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Terada</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Oliver</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Ho</surname>
+                <given-names>HC</given-names>
+              </name>
+              <name>
+                <surname>Speck</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>In situ, multidisciplinary, simulation-based teamwork training improves early trauma care.</article-title>
+            <source>J Surg Educ</source>
+            <year>2011</year>
+            <season>Nov-Dec</season>
+            <volume>68</volume>
+            <issue>6</issue>
+            <fpage>472</fpage>
+            <page-range>472-7</page-range>
+            <pub-id pub-id-type="pmid">22000533</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Katznelson</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Stevens</surname>
+                <given-names>MW</given-names>
+              </name>
+              <name>
+                <surname>Mills</surname>
+                <given-names>WA</given-names>
+              </name>
+            </person-group>
+            <article-title>Improving Pediatric Preparedness in Critical Access Hospital Emergency Departments: Impact of a Longitudinal In Situ Simulation Program.</article-title>
+            <source>Pediatr Emerg Care</source>
+            <year>2018</year>
+            <month>Jan</month>
+            <volume>34</volume>
+            <issue>1</issue>
+            <fpage>17</fpage>
+            <page-range>17-20</page-range>
+            <pub-id pub-id-type="pmid">29232353</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ajmi</surname>
+                <given-names>SC</given-names>
+              </name>
+              <name>
+                <surname>Advani</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Fjetland</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Kurz</surname>
+                <given-names>KD</given-names>
+              </name>
+              <name>
+                <surname>Lindner</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Qvindesland</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Ersdal</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Goyal</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kval&#x000f8;y</surname>
+                <given-names>JT</given-names>
+              </name>
+              <name>
+                <surname>Kurz</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Reducing door-to-needle times in stroke thrombolysis to 13 min through protocol revision and simulation training: a quality improvement project in a Norwegian stroke centre.</article-title>
+            <source>BMJ Qual Saf</source>
+            <year>2019</year>
+            <month>Nov</month>
+            <volume>28</volume>
+            <issue>11</issue>
+            <fpage>939</fpage>
+            <page-range>939-948</page-range>
+            <pub-id pub-id-type="pmid">31256015</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Long</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Lefebvre</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name>
+                <surname>Masneri</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Mowery</surname>
+                <given-names>NT</given-names>
+              </name>
+              <name>
+                <surname>Chang</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Johnson</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>Carter</surname>
+                <given-names>JE</given-names>
+              </name>
+            </person-group>
+            <article-title>The Golden Opportunity: Multidisciplinary Simulation Training Improves Trauma Team Efficiency.</article-title>
+            <source>J Surg Educ</source>
+            <year>2019</year>
+            <season>Jul-Aug</season>
+            <volume>76</volume>
+            <issue>4</issue>
+            <fpage>1116</fpage>
+            <page-range>1116-1121</page-range>
+            <pub-id pub-id-type="pmid">30711425</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Babcock</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Geis</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Frey</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Robinson</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Kerrey</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>In Situ Simulation to Mitigate Threats to Participation in a Multicenter Clinical Trial in High-Acuity, Low-Frequency Setting.</article-title>
+            <source>Simul Healthc</source>
+            <year>2019</year>
+            <month>Feb</month>
+            <volume>14</volume>
+            <issue>1</issue>
+            <fpage>1</fpage>
+            <page-range>1-9</page-range>
+            <pub-id pub-id-type="pmid">30216275</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kobayashi</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Parchuri</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Gardiner</surname>
+                <given-names>FG</given-names>
+              </name>
+              <name>
+                <surname>Paolucci</surname>
+                <given-names>GA</given-names>
+              </name>
+              <name>
+                <surname>Tomaselli</surname>
+                <given-names>NM</given-names>
+              </name>
+              <name>
+                <surname>Al-Rasheed</surname>
+                <given-names>RS</given-names>
+              </name>
+              <name>
+                <surname>Bertsch</surname>
+                <given-names>KS</given-names>
+              </name>
+              <name>
+                <surname>Devine</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Boss</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Gibbs</surname>
+                <given-names>FJ</given-names>
+              </name>
+              <name>
+                <surname>Goldlust</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Monti</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>O'Hearn</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Portelli</surname>
+                <given-names>DC</given-names>
+              </name>
+              <name>
+                <surname>Siegel</surname>
+                <given-names>NA</given-names>
+              </name>
+              <name>
+                <surname>Hemendinger</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Jay</surname>
+                <given-names>GD</given-names>
+              </name>
+            </person-group>
+            <article-title>Use of in situ simulation and human factors engineering to assess and improve emergency department clinical systems for timely telemetry-based detection of life-threatening arrhythmias.</article-title>
+            <source>BMJ Qual Saf</source>
+            <year>2013</year>
+            <month>Jan</month>
+            <volume>22</volume>
+            <issue>1</issue>
+            <fpage>72</fpage>
+            <page-range>72-83</page-range>
+            <pub-id pub-id-type="pmid">23060389</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Josey</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Smith</surname>
+                <given-names>ML</given-names>
+              </name>
+              <name>
+                <surname>Kayani</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Young</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Kasperski</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Farrer</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Gerkin</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Theodorou</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Raschke</surname>
+                <given-names>RA</given-names>
+              </name>
+            </person-group>
+            <article-title>Hospitals with more-active participation in conducting standardized in-situ mock codes have improved survival after in-hospital cardiopulmonary arrest.</article-title>
+            <source>Resuscitation</source>
+            <year>2018</year>
+            <month>Dec</month>
+            <volume>133</volume>
+            <fpage>47</fpage>
+            <page-range>47-52</page-range>
+            <pub-id pub-id-type="pmid">30261220</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Moretti</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Cesar</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Nusbacher</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kern</surname>
+                <given-names>KB</given-names>
+              </name>
+              <name>
+                <surname>Timerman</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Ramires</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>Advanced cardiac life support training improves long-term survival from in-hospital cardiac arrest.</article-title>
+            <source>Resuscitation</source>
+            <year>2007</year>
+            <month>Mar</month>
+            <volume>72</volume>
+            <issue>3</issue>
+            <fpage>458</fpage>
+            <page-range>458-65</page-range>
+            <pub-id pub-id-type="pmid">17307620</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Barsuk</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>McGaghie</surname>
+                <given-names>WC</given-names>
+              </name>
+              <name>
+                <surname>Cohen</surname>
+                <given-names>ER</given-names>
+              </name>
+              <name>
+                <surname>O'Leary</surname>
+                <given-names>KJ</given-names>
+              </name>
+              <name>
+                <surname>Wayne</surname>
+                <given-names>DB</given-names>
+              </name>
+            </person-group>
+            <article-title>Simulation-based mastery learning reduces complications during central venous catheter insertion in a medical intensive care unit.</article-title>
+            <source>Crit Care Med</source>
+            <year>2009</year>
+            <month>Oct</month>
+            <volume>37</volume>
+            <issue>10</issue>
+            <fpage>2697</fpage>
+            <page-range>2697-701</page-range>
+            <pub-id pub-id-type="pmid">19885989</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Barsuk</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Cohen</surname>
+                <given-names>ER</given-names>
+              </name>
+              <name>
+                <surname>Potts</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Demo</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Gupta</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Feinglass</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>McGaghie</surname>
+                <given-names>WC</given-names>
+              </name>
+              <name>
+                <surname>Wayne</surname>
+                <given-names>DB</given-names>
+              </name>
+            </person-group>
+            <article-title>Dissemination of a simulation-based mastery learning intervention reduces central line-associated bloodstream infections.</article-title>
+            <source>BMJ Qual Saf</source>
+            <year>2014</year>
+            <month>Sep</month>
+            <volume>23</volume>
+            <issue>9</issue>
+            <fpage>749</fpage>
+            <page-range>749-56</page-range>
+            <pub-id pub-id-type="pmid">24632995</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Barsuk</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Cohen</surname>
+                <given-names>ER</given-names>
+              </name>
+              <name>
+                <surname>Feinglass</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Kozmic</surname>
+                <given-names>SE</given-names>
+              </name>
+              <name>
+                <surname>McGaghie</surname>
+                <given-names>WC</given-names>
+              </name>
+              <name>
+                <surname>Ganger</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Wayne</surname>
+                <given-names>DB</given-names>
+              </name>
+            </person-group>
+            <article-title>Cost savings of performing paracentesis procedures at the bedside after simulation-based education.</article-title>
+            <source>Simul Healthc</source>
+            <year>2014</year>
+            <month>Oct</month>
+            <volume>9</volume>
+            <issue>5</issue>
+            <fpage>312</fpage>
+            <page-range>312-8</page-range>
+            <pub-id pub-id-type="pmid">25275720</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Khouli</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Jahnes</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Shapiro</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Rose</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Mathew</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Gohil</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Han</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Sotelo</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Jones</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Aqeel</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Eden</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Fried</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Performance of medical residents in sterile techniques during central vein catheterization: randomized trial of efficacy of simulation-based training.</article-title>
+            <source>Chest</source>
+            <year>2011</year>
+            <month>Jan</month>
+            <volume>139</volume>
+            <issue>1</issue>
+            <fpage>80</fpage>
+            <page-range>80-7</page-range>
+            <pub-id pub-id-type="pmid">20705795</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Draycott</surname>
+                <given-names>TJ</given-names>
+              </name>
+              <name>
+                <surname>Crofts</surname>
+                <given-names>JF</given-names>
+              </name>
+              <name>
+                <surname>Ash</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Wilson</surname>
+                <given-names>LV</given-names>
+              </name>
+              <name>
+                <surname>Yard</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Sibanda</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Whitelaw</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Improving neonatal outcome through practical shoulder dystocia training.</article-title>
+            <source>Obstet Gynecol</source>
+            <year>2008</year>
+            <month>Jul</month>
+            <volume>112</volume>
+            <issue>1</issue>
+            <fpage>14</fpage>
+            <page-range>14-20</page-range>
+            <pub-id pub-id-type="pmid">18591302</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Draycott</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Sibanda</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Owen</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Akande</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Winter</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Reading</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Whitelaw</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Does training in obstetric emergencies improve neonatal outcome?</article-title>
+            <source>BJOG</source>
+            <year>2006</year>
+            <month>Feb</month>
+            <volume>113</volume>
+            <issue>2</issue>
+            <fpage>177</fpage>
+            <page-range>177-82</page-range>
+            <pub-id pub-id-type="pmid">16411995</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cox</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Seymour</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Stefanidis</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Moving the Needle: Simulation's Impact on Patient Outcomes.</article-title>
+            <source>Surg Clin North Am</source>
+            <year>2015</year>
+            <month>Aug</month>
+            <volume>95</volume>
+            <issue>4</issue>
+            <fpage>827</fpage>
+            <page-range>827-38</page-range>
+            <pub-id pub-id-type="pmid">26210974</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-63852.r39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zendejas</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Cook</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Bingener</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Huebner</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Dunn</surname>
+                <given-names>WF</given-names>
+              </name>
+              <name>
+                <surname>Sarr</surname>
+                <given-names>MG</given-names>
+              </name>
+              <name>
+                <surname>Farley</surname>
+                <given-names>DR</given-names>
+              </name>
+            </person-group>
+            <article-title>Simulation-based mastery learning improves patient outcomes in laparoscopic inguinal hernia repair: a randomized controlled trial.</article-title>
+            <source>Ann Surg</source>
+            <year>2011</year>
+            <month>Sep</month>
+            <volume>254</volume>
+            <issue>3</issue>
+            <fpage>502</fpage>
+            <page-range>502-9; discussion 509-11</page-range>
+            <pub-id pub-id-type="pmid">21865947</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

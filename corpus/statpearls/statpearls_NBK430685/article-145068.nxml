@@ -1,0 +1,1783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-145068" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Chromatic Aberration</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Manion</surname>
+            <given-names>Garrett N.</given-names>
+          </name>
+          <aff>Creighton University School of Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Stokkermans</surname>
+            <given-names>Thomas J.</given-names>
+          </name>
+          <aff>University Hospitals of Cleveland</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Garrett Manion declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Thomas Stokkermans declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>2</day>
+          <month>11</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-145068.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Chromatic aberration, also referred to as chromatic distortion, color fringing, and spherochromatism, is a common optical phenomenon that occurs when a lens cannot bring all wavelengths of light to a single converging point. Chromatic aberration manifests as the lens's inability to focus all colors on the same axis, causing noticeable distortions or color mismatches in high-contrast scenarios. This property of light is of significant interest in optometry, ophthalmology, and medical optics, with applications and considerations ranging from lens design to diagnostic procedures.</p>
+      </sec>
+      <sec id="article-145068.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>
+<bold>Optics of Chromatic Aberration</bold>
+</p>
+        <p>Chromatic aberration can be classified into two types: axial (longitudinal) chromatic aberration (ACA) and transverse (lateral) chromatic aberration (TCA).<xref ref-type="bibr" rid="article-145068.r1">[1]</xref> These are often confusingly abbreviated as LCA for both terms. Hence, the utilizations of ACA and TCA will be used in this passage.</p>
+        <p>Axial chromatic aberration (ACA) occurs when different wavelengths of light are focused at different distances along the optical axis.<xref ref-type="bibr" rid="article-145068.r2">[2]</xref> This effect can occur throughout the image and is often specified by optical professionals in diopters.<xref ref-type="bibr" rid="article-145068.r3">[3]</xref> ACA can be reduced by decreasing the aperture of a lens (reducing the f-stop in a photography scenario), which increases the depth of field so that although different wavelengths focus at varying distances, they create a smaller blur circle.<xref ref-type="bibr" rid="article-145068.r4">[4]</xref> In digital sensors, axial CA results in the red and blue planes being defocused, which is relatively difficult to remedy in post-processing.<xref ref-type="bibr" rid="article-145068.r5">[5]</xref></p>
+        <p>Transverse chromatic aberration (TCA) occurs when different wavelengths of light are focused at different positions perpendicular to the optical axis. This results in color fringes along the boundaries separating the image's dark and bright parts. TCA does not occur in the center of the image and increases towards the edge. It is not affected by reducing the f-stop. In digital sensors, TCA results in the red, green, and blue planes having different magnifications and can be corrected by radially scaling the planes so they line up.<xref ref-type="bibr" rid="article-145068.r5">[5]</xref></p>
+        <p>The design of the lens system also significantly impacts the degree of chromatic aberration. For instance, using an achromatic doublet, which combines a positive lens made from a high-dispersion glass and a negative lens made from a low-dispersion glass, can minimize chromatic aberration.<xref ref-type="bibr" rid="article-145068.r6">[6]</xref> Similarly, combining the cornea and the lens somewhat reduces chromatic aberration.<xref ref-type="bibr" rid="article-145068.r7">[7]</xref></p>
+        <p>In early applications of lenses, chromatic aberration was often mitigated by increasing the lens's focal length where possible. For instance, this led to the construction of very long aerial telescopes in the 17th century.<xref ref-type="bibr" rid="article-145068.r8">[8]</xref><xref ref-type="bibr" rid="article-145068.r9">[9]</xref> Modern telescopes and other catoptric and catadioptric systems continue to utilize mirrors, which exhibit no chromatic aberration.<xref ref-type="bibr" rid="article-145068.r10">[10]</xref></p>
+        <p>Understanding and mitigating chromatic aberration is crucial in photography, microscopy, medical optics, optometry, and ophthalmology, as it can significantly affect the quality of images and vision. Various strategies exist to reduce chromatic aberration, including using specialized lens materials and designs and digital post-processing techniques.&#x000a0;&#x000a0;</p>
+        <p>
+<bold>Devices to Mitigate Chromatic Aberration</bold>
+</p>
+        <p>Chromatic aberration, a distortion in the focusing of light due to different colors bending at different angles as they pass through a lens, can degrade image quality in various applications, from photography to microscopy.<xref ref-type="bibr" rid="article-145068.r11">[11]</xref><xref ref-type="bibr" rid="article-145068.r12">[12]</xref> Thus, numerous strategies have been devised to counteract this optical phenomenon. These strategies leverage different lens materials, designs, and devices.</p>
+        <p>
+<bold>Achromatic and Apochromatic Lenses</bold>
+</p>
+        <p>An achromatic lens or achromat is the most common device to reduce chromatic aberration. An achromatic lens is a compound lens made of two or more elements, usually of crown and flint glass, designed to limit the effects of chromatic and spherical aberration.<xref ref-type="bibr" rid="article-145068.r6">[6]</xref> The individual elements are chosen to have differing levels of dispersion. This ensures that light of different wavelengths focuses as closely as possible on a single point, thereby minimizing chromatic aberration across a specific range of wavelengths.<xref ref-type="bibr" rid="article-145068.r13">[13]</xref> This point is known as the circle of least confusion.<xref ref-type="bibr" rid="article-145068.r14">[14]</xref></p>
+        <p>However, even achromatic lenses do not provide perfect correction; they generally focus only two wavelengths&#x02014;red and blue&#x02014;sharply. The degree of correction can be enhanced by combining more than two lenses of different compositions, as in an apochromatic lens or apochromat. These lenses aim to bring three wavelengths&#x02014;red, green, and blue&#x02014;into focus in the same plane. The terms "achromat" and "apochromat" refer to the type of correction (2 or 3 wavelengths correctly focused, respectively), not the degree of correction. Thus, an apochromat made with low-dispersion glass can yield better correction than an achromat made with conventional glass.<xref ref-type="bibr" rid="article-145068.r15">[15]</xref> The true benefit of apochromats is that they focus three wavelengths sharply, and their error in focusing other wavelengths is relatively small.<xref ref-type="bibr" rid="article-145068.r16">[16]</xref></p>
+        <p>
+<bold>Low Dispersion Glass</bold>
+</p>
+        <p>Another approach to mitigate chromatic aberration involves using special glasses with low optical dispersion, such as glasses containing fluorite. These hybridized glasses exhibit a very low level of optical dispersion. Two combined lenses made of these substances can yield a high correction level.<xref ref-type="bibr" rid="article-145068.r17">[17]</xref></p>
+        <p>
+<bold>Diffractive Optical Elements</bold>
+</p>
+        <p>An alternative to achromatic doublets is the use of diffractive optical elements. These elements are essentially flat but can generate arbitrary complex wavefronts. They have negative dispersion characteristics, complementing the positive Abbe numbers of optical glasses and plastics. In the visible spectrum, diffractives have a negative Abbe number of -3.5.<xref ref-type="bibr" rid="article-145068.r18">[18]</xref><xref ref-type="bibr" rid="article-145068.r19">[19]</xref></p>
+        <p>In conclusion, various devices and strategies are available to combat chromatic aberration, each with strengths and weaknesses. The choice of method depends on the application's specific requirements, whether in telescopes, microscopes, cameras, or the human eye.</p>
+        <p>
+<bold>Abbe Number and Dispersion</bold>
+</p>
+        <p>The Abbe number, also known as V-number or constringence, measures a material's dispersion in relation to the refractive index. Dispersion is the variation of a lens's refractive index based on light's wavelength. A higher distribution means that different wavelengths of light will deviate more significantly when passing through the material, causing the various colors to separate and potentially resulting in chromatic aberration.<xref ref-type="bibr" rid="article-145068.r20">[20]</xref></p>
+        <p>The Abbe number is defined as Vd = (nd - 1) / (nf - nc), where nd, nf, and nc represent the refractive indices of the material for the Fraunhofer d-, f-, and c-lines, respectively. These lines correspond to specific wavelengths of light, specifically the yellow (d-line, 589 nm), blue (F-line, 486 nm), and red (C-line, 656 nm) regions of the spectrum.<xref ref-type="bibr" rid="article-145068.r20">[20]</xref></p>
+        <p>Materials with a higher Abbe number have lower dispersion, leading to less chromatic aberration. In contrast, materials with a lower Abbe number exhibit higher dispersion and a greater likelihood of chromatic aberration.<xref ref-type="bibr" rid="article-145068.r21">[21]</xref></p>
+        <p>In practical applications, lens manufacturers must balance the need for a high refractive index (to achieve thinner lenses) against the desire for a high Abbe number (to minimize chromatic aberration). Typically, materials with a high refractive index have a lower Abbe number and vice versa. Selecting lens materials often requires a compromise between these two properties.<xref ref-type="bibr" rid="article-145068.r22">[22]</xref></p>
+        <p>For instance, materials with a higher Abbe number in ophthalmic lenses may be used to reduce chromatic aberration, particularly for individuals with high refractive errors. In such cases, the benefits of reduced color distortion often outweigh the drawbacks of potentially thicker lenses, as further described below. When choosing a spectacle lens material, the Abbe number is taken into account along with other parameters, such as the index of refraction, the density, and the transmission, to determine the lowest weight and thinnest lens while retaining the best optical qualities.<xref ref-type="bibr" rid="article-145068.r18">[18]</xref></p>
+      </sec>
+      <sec id="article-145068.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>
+<bold>Chromatic Aberration in Eyeglass Lenses</bold>
+</p>
+        <p>The refractive index of a lens material measures how much the material can bend or refract light. It's an important parameter in optical science and lens design, influencing the efficiency of a lens in bending light to correct vision. Materials with a higher refractive index bend light more strongly than those with a lower refractive index.<xref ref-type="bibr" rid="article-145068.r23">[23]</xref>&#x000a0;This bending capability is particularly beneficial when crafting lenses for eyeglasses, as it allows for thinner lenses. For example, in cases of high prescription values for severe conditions such as&#x000a0;severe myopia (nearsightedness), using a high-index material can result in a thinner, lighter, and more aesthetically pleasing lens than a lens made of a lower-index material offering the same corrective power.</p>
+        <p>However, this advantage comes with a trade-off.&#x000a0;High-index lens materials typically have a lower Abbe number, indicating greater dispersion, the refractive index variation with wavelength. As discussed in the earlier section on the Abbe number, greater dispersion can lead to more chromatic aberration, causing colored fringes around objects and blurring of the image. While low-index lenses may be thicker and potentially less aesthetically pleasing, they tend to have higher Abbe numbers, thus resulting in less chromatic aberration. This can improve visual comfort for the wearer, especially in situations with bright light or high contrast, which can exacerbate chromatic aberration.<xref ref-type="bibr" rid="article-145068.r20">[20]</xref></p>
+        <p>The selection of lens materials for eyeglasses is a delicate balancing act. On one side is the refractive index, which can influence the thickness and aesthetic qualities of the lens. On the other is the Abbe number, which impacts chromatic aberration and visual comfort. These properties are also relevant for contact lens construction.<xref ref-type="bibr" rid="article-145068.r24">[24]</xref> The best choice of material depends on the wearer's needs, including their prescription, visual requirements, aesthetic preferences, and sensitivity to chromatic aberration.</p>
+        <p>This is especially important when choosing a lens material for someone requiring safety glasses. The two main choices of high-impact resistant plastic are polycarbonate and urethane pre-polymer (Trivex). Polycarbonate and Trivex have indices of refraction of 1.586 and 1.531 and Abbe values of 30 and 43, respectively.&#x000a0;Therefore, the index of refraction difference is small, but the large difference in Abbe value may determine whether to choose Trivex over polycarbonate when correcting higher refractive errors.<xref ref-type="bibr" rid="article-145068.r25">[25]</xref><xref ref-type="bibr" rid="article-145068.r26">[26]</xref><xref ref-type="bibr" rid="article-145068.r25">[25]</xref></p>
+        <p>This relationship among refractive index, lens thickness, Abbe number, and chromatic aberration is a critical aspect of lens design, underlining the intricate nature of crafting eyeglass lenses and the importance of considering multiple factors to ensure optimal visual correction and comfort. Other parameters, such as the density of the lens material, may also play a role in the choice of spectacle lens material.<xref ref-type="bibr" rid="article-145068.r20">[20]</xref></p>
+        <p>
+<bold>Chromatic and Optical Aberrations in Contact Lenses</bold>
+</p>
+        <p>Contact lenses, due to their unique interaction with the eye and the alteration of the light path, can help reduce some aberrations compared to glasses, particularly under high refractive error conditions.</p>
+        <p>Spherical aberration is a form of optical aberration that occurs when light rays passing through a lens at different distances from the optical axis are not brought into focus at the same point. This is because a simple lens has a spherical surface, and light rays that pass through the edges of the lens are refracted more than rays passing through the center.<xref ref-type="bibr" rid="article-145068.r27">[27]</xref> The result is a blurry image with reduced sharpness and contrast. In severe cases, spherical aberration can cause halo-like rings around bright objects.<xref ref-type="bibr" rid="article-145068.r28">[28]</xref> This phenomenon can be particularly noticeable in optical systems such as telescopes, microscopes, and even the human eye when considering high-prescription glasses or certain types of intraocular lenses.<xref ref-type="bibr" rid="article-145068.r29">[29]</xref><xref ref-type="bibr" rid="article-145068.r30">[30]</xref></p>
+        <p>The reduction of spherical aberration in contact lenses is due to their positioning directly on the cornea, maintaining a consistent distance across the entire lens.<xref ref-type="bibr" rid="article-145068.r28">[28]</xref> This contrasts with glasses that sit farther from the eye, with a distance that varies across the lens, especially in high-prescription glasses, potentially increasing spherical aberration.</p>
+        <p>Regarding chromatic aberration, contact lenses and glasses can produce this phenomenon as they bend different light wavelengths by varying amounts. However, chromatic aberration is generally less noticeable with contact lenses because they stay centered over the pupil, moving with gaze. This helps to minimize the chromatic aberration seen when vision is directed away from the optical center of the lens, as the gaze is always run through the optical center of a well-centered contact lens.<xref ref-type="bibr" rid="article-145068.r28">[28]</xref></p>
+        <p>As for astigmatism, contact lenses can correct regular astigmatism as effectively as glasses. Yet, rigid contact lenses have an advantage over glasses in correcting irregular astigmatism. This is because rigid contact lenses create a regular refracting surface that masks the cornea's irregular shape, allowing for a more precise correction.<xref ref-type="bibr" rid="article-145068.r31">[31]</xref></p>
+        <p>In conclusion, it is accurate to suggest that contact lenses can reduce some optical aberrations compared to glasses. In the context of chromatic aberration specifically, opting for a lower dispersion spectacle lens material may be a more effective direct reduction method, making the suggestion of contact lenses potentially less effective but not incorrect.<xref ref-type="bibr" rid="article-145068.r21">[21]</xref> These differences can influence the choice between glasses and contact lenses, which ultimately depends on the patient's circumstances and their provider's professional judgment.</p>
+        <p>
+<bold>Chromatic Aberration in Refractive Surgery</bold>
+</p>
+        <p>Chromatic aberration has significant implications in refractive surgery, which aims to improve visual acuity and reduce dependence on glasses or contact lenses. This optical phenomenon can impact the surgical process and the quality of the patient's postoperative vision, making it a critical consideration in these procedures.</p>
+        <p>Precision is paramount during refractive surgery, with procedures such as LASIK and PRK involving the precise reshaping of the cornea to correct refractive errors like myopia, hyperopia, and astigmatism.<xref ref-type="bibr" rid="article-145068.r32">[32]</xref><xref ref-type="bibr" rid="article-145068.r33">[33]</xref>&#x000a0;Chromatic aberration can impact the surgeon's view and the accuracy of these procedures. The different wavelengths of light refracted by the ocular tissues can result in a blurred surgical field or inaccurate measurements, potentially compromising surgical outcomes.<xref ref-type="bibr" rid="article-145068.r34">[34]</xref></p>
+        <p>Moreover, post-surgical visual quality can be affected by chromatic aberration. As the surgery alters the path of light through the eye, it can exacerbate the dispersion of light and increase the perception of chromatic aberration. Patients may notice this as color fringes around bright objects or a reduced visual contrast, particularly in low-light conditions.<xref ref-type="bibr" rid="article-145068.r35">[35]</xref></p>
+        <p>To mitigate chromatic aberration in refractive surgery, several strategies have been developed. For instance, specific surgical lasers are equipped with sophisticated optical systems that correct for chromatic aberration in the surgical view.<xref ref-type="bibr" rid="article-145068.r36">[36]</xref> Furthermore, advanced surgical planning techniques can account for potential chromatic aberration in the design of the surgical correction, helping to ensure a clear postoperative visual outcome.<xref ref-type="bibr" rid="article-145068.r37">[37]</xref></p>
+        <p>Notably, the impact of chromatic aberration on refractive surgery is a reminder of the complex interplay between optical physics and human vision. By considering and accounting for such phenomena, surgeons can achieve the best possible results for their patients.</p>
+        <p>
+<bold>Chromatic Aberration in Intraocular Lenses</bold>
+</p>
+        <p>The optical qualities and correct placement of intraocular lenses (IOLs) are critical components in cataract surgery, where they replace the eye's natural lens that has become clouded due to cataracts. Like any other optical system, IOLs can be subject to chromatic aberration, which affects the quality of vision post-surgery.</p>
+        <p>Chromatic aberration happens when different light colors get refracted or bent differently as they pass through the IOL, leading to "color fringing" or colored halos around objects. This effect can decrease visual acuity and contrast sensitivity, interfering with everyday tasks such as reading or driving, particularly in low-light conditions.<xref ref-type="bibr" rid="article-145068.r38">[38]</xref></p>
+        <p>The lens's material and design heavily influence the chromatic aberration magnitude in an IOL. The lens's dispersion properties, characterized by the Abbe number, mainly determine chromatic aberration levels.<xref ref-type="bibr" rid="article-145068.r39">[39]</xref> Hence, IOLs with a higher Abbe number have lower dispersion and less chromatic aberration.<xref ref-type="bibr" rid="article-145068.r40">[40]</xref></p>
+        <p>Various IOL designs use different strategies to minimize chromatic aberration. Some IOLs utilize low-dispersion materials or incorporate aspheric designs to counteract chromatic and optical aberrations. Recent advancements have led to the development of "achromatic" or "apochromatic" IOLs, which correct chromatic aberration across various wavelengths. Although it is impossible to eliminate chromatic aberration, these improvements significantly reduce its impact, enhancing vision quality post-cataract surgery.<xref ref-type="bibr" rid="article-145068.r41">[41]</xref></p>
+        <p>Different types of IOLs, including monofocal, multifocal, extended depth of focus (EDOF), and toric lenses, introduce unique considerations concerning chromatic aberration.<xref ref-type="bibr" rid="article-145068.r41">[41]</xref></p>
+        <p>Monofocal IOLs, designed to offer clear vision at a single distance (usually far), provide a good balance between low dispersion and high optical quality across a broad light spectrum but are subject to chromatic aberration.<xref ref-type="bibr" rid="article-145068.r42">[42]</xref></p>
+        <p>Multifocal IOLs provide clear vision at multiple distances (near, intermediate, and far). Their complex design incorporates diffractive and refractive elements and can induce a higher degree of chromatic aberration than monofocal IOLs.<xref ref-type="bibr" rid="article-145068.r43">[43]</xref> As a result, patients with multifocal IOLs may experience more visual disturbances like glare and halos around lights, particularly in dim lighting.</p>
+        <p>EDOF IOLs, similar to multifocal lenses, offer a continuous range of vision from near to far, reducing reliance on reading glasses. Their design, which uses diffractive and refractive principles, can cause a slightly higher chromatic aberration level than monofocal IOLs.<xref ref-type="bibr" rid="article-145068.r44">[44]</xref><xref ref-type="bibr" rid="article-145068.r45">[45]</xref></p>
+        <p>Toric IOLs correct astigmatism and are designed to decrease spherical and cylindrical aberrations. Despite their efficacy in these areas, like all IOLs, toric IOLs are still subject to chromatic aberration.<xref ref-type="bibr" rid="article-145068.r46">[46]</xref></p>
+        <p>Fortunately, modern IOL designs, incorporating lower dispersion materials (higher Abbe number) and aspheric or apochromatic designs, can help minimize chromatic aberration. However, balancing visual performance, refractive correction, and minimizing chromatic and other optical aberrations is a significant consideration in IOL design and selection.<xref ref-type="bibr" rid="article-145068.r40">[40]</xref> Ongoing research continues to develop and refine IOL technologies to improve visual outcomes and patient satisfaction.<xref ref-type="bibr" rid="article-145068.r47">[47]</xref><xref ref-type="bibr" rid="article-145068.r48">[48]</xref><xref ref-type="bibr" rid="article-145068.r47">[47]</xref></p>
+        <p>
+<bold>Chromatic Aberration in Research Applications</bold>
+</p>
+        <p>Chromatic aberration, while primarily discussed in human vision and optics, has significant implications in various research fields. Electron microscopy and astronomy are two areas where the understanding and mitigation of chromatic aberration play an essential role in acquiring high-quality visual information.</p>
+        <p>In electron microscopy, chromatic aberration can be a significant limitation to the images' resolution. Electron microscopes utilize electromagnetic lenses subject to chromatic aberration like light-based systems. The spread of electron velocities (or energies) in the microscope's beam results in a variation in focal lengths, causing chromatic blur. To mitigate this, scientists often employ strategies like chromatic aberration correction, which uses multiple elements to correct for the aberrations introduced by the objective lens.<xref ref-type="bibr" rid="article-145068.r49">[49]</xref> This enables them to capture detailed, high-resolution images of the microscopic world.</p>
+        <p>Similarly, chromatic aberration significantly affects astronomy, particularly in observational astrophysics using telescopes. As in microscopes, telescopes use lenses and mirrors to gather and focus light. Here, chromatic aberration can blur the images of celestial objects as different light colors (wavelengths) are refracted by different amounts.<xref ref-type="bibr" rid="article-145068.r50">[50]</xref> Historically, this was one reason for developing very long focal-length lenses in early telescopes. Modern astronomy mitigates chromatic aberration with the use of mirror-based (catoptric) systems, such as reflector telescopes, which don't suffer from chromatic aberration, and advanced lens systems like apochromats, which significantly correct chromatic aberration.<xref ref-type="bibr" rid="article-145068.r51">[51]</xref></p>
+        <p>In both these research fields, the minimization of chromatic aberration is critical to achieving clear and precise observations. This highlights the broader significance of chromatic aberration beyond its impacts on human vision, extending into scientific research and discovery.</p>
+        <p>Chromatic aberration is a fundamental concept in optics, impacting the design and functionality of optical devices, lens construction, and the execution of refractive surgeries. Its manifestation as color fringing in visual perception challenges attaining optimal visual quality. Techniques to mitigate its effects, from material choice to sophisticated lens design, are integral to advancements in optical technology and ophthalmic care. In an era where visual acuity is paramount, understanding and effectively managing chromatic aberration remains at the forefront of delivering superior visual outcomes and enabling control of the visual pathway in multiple disciplines, such as optical devices and photography. Hence, chromatic aberration is not just an academic concept but a critical practical concern influencing vision in multifaceted ways.</p>
+      </sec>
+      <sec id="article-145068.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>Effective management of chromatic aberration and its impact on visual quality necessitates a comprehensive, multi-disciplinary approach. This team comprises ophthalmologists, optometrists, nurses, ophthalmic technicians, opticians, and vision therapists, all of whom must understand chromatic aberration and its effects on a patient's vision and everyday life.</p>
+        <p>One vital intervention area is patient counseling on lens selection and eyewear design. Opticians, optometrists, and ophthalmologists are critical in guiding patients toward the most suitable lens materials, designs, and eyewear based on their needs. Factors such as the patient's refractive error, lifestyle, and tolerance to chromatic aberration determine the choice between low-index and high-index lenses and eyewear designs that minimize chromatic aberration. High-index lenses, while thinner and lighter, exhibit more chromatic aberration than low-index lenses, a trade-off that patients must understand when selecting. Moreover, by working closely with opticians and optical technicians, healthcare professionals can help patients choose eyewear designs with special materials or coatings, like anti-reflective coating, that can mitigate the effects of chromatic aberration.</p>
+        <p>Counseling on surgical options is integral when considering refractive surgery or intraocular lens (IOL) implantation. Healthcare providers are responsible for informing patients about the potential for chromatic aberration with different types of IOLs, including monofocal, multifocal, EDOF, and toric lenses. Clear and precise communication about these possibilities helps manage patient expectations and improves satisfaction after surgery.</p>
+        <p>Patient education is a crucial component of the management strategy. Nurses and vision therapists can provide vital instruction about chromatic aberration and its potential impacts. Patients experiencing high levels of chromatic aberration may benefit from advice on managing their visual disturbances, including tips on reading under appropriate lighting conditions or avoiding certain low-light situations.</p>
+        <p>Lastly, regular follow-up care is essential to ensuring that the chosen intervention, be it a specific lens, eyewear, or surgery, meets the patient's visual needs and expectations. Patients should be encouraged to report any visual disturbances indicating a potential market for further adjustments.</p>
+        <p>In conclusion, the collaborative approach of the interprofessional team focused on patient education, personalized lens and eyewear selection, surgical options, and follow-up care aims to improve visual quality and enhance patient satisfaction when dealing with chromatic aberration.</p>
+      </sec>
+      <sec id="article-145068.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=145068&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=145068">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/145068/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=145068">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-145068.s6">
+        <title>References</title>
+        <ref id="article-145068.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Roorda</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Cholewiak</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Bhargava</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Ivzan</surname>
+                <given-names>NH</given-names>
+              </name>
+              <name>
+                <surname>LaRocca</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Nankivil</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Banks</surname>
+                <given-names>MS</given-names>
+              </name>
+            </person-group>
+            <article-title>The visual benefits of correcting longitudinal and transverse chromatic aberration.</article-title>
+            <source>J Vis</source>
+            <year>2023</year>
+            <month>Feb</month>
+            <day>01</day>
+            <volume>23</volume>
+            <issue>2</issue>
+            <fpage>3</fpage>
+            <pub-id pub-id-type="pmid">36729421</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mandelman</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Sivak</surname>
+                <given-names>JG</given-names>
+              </name>
+            </person-group>
+            <article-title>Longitudinal chromatic aberration of the vertebrate eye.</article-title>
+            <source>Vision Res</source>
+            <year>1983</year>
+            <volume>23</volume>
+            <issue>12</issue>
+            <fpage>1555</fpage>
+            <page-range>1555-9</page-range>
+            <pub-id pub-id-type="pmid">6666057</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jiang</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Kuchenbecker</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Touch</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Sabesan</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Measuring and compensating for ocular longitudinal chromatic aberration.</article-title>
+            <source>Optica</source>
+            <year>2019</year>
+            <month>Aug</month>
+            <day>20</day>
+            <volume>6</volume>
+            <issue>8</issue>
+            <fpage>981</fpage>
+            <page-range>981-990</page-range>
+            <pub-id pub-id-type="pmid">33614858</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wang</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Milster</surname>
+                <given-names>TD</given-names>
+              </name>
+            </person-group>
+            <article-title>High-harmonic diffractive lens color compensation.</article-title>
+            <source>Appl Opt</source>
+            <year>2021</year>
+            <month>Jul</month>
+            <day>01</day>
+            <volume>60</volume>
+            <issue>19</issue>
+            <fpage>D73</fpage>
+            <page-range>D73-D82</page-range>
+            <pub-id pub-id-type="pmid">34263829</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Korneliussen</surname>
+                <given-names>JT</given-names>
+              </name>
+              <name>
+                <surname>Hirakawa</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Camera processing with chromatic aberration.</article-title>
+            <source>IEEE Trans Image Process</source>
+            <year>2014</year>
+            <month>Oct</month>
+            <volume>23</volume>
+            <issue>10</issue>
+            <fpage>4539</fpage>
+            <page-range>4539-52</page-range>
+            <pub-id pub-id-type="pmid">25163060</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fernandez</surname>
+                <given-names>EJ</given-names>
+              </name>
+              <name>
+                <surname>Artal</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Achromatic doublet intraocular lens for full aberration correction.</article-title>
+            <source>Biomed Opt Express</source>
+            <year>2017</year>
+            <month>May</month>
+            <day>01</day>
+            <volume>8</volume>
+            <issue>5</issue>
+            <fpage>2396</fpage>
+            <page-range>2396-2404</page-range>
+            <pub-id pub-id-type="pmid">28663881</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Negishi</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Ohnuma</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Hirayama</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Noda</surname>
+                <given-names>T</given-names>
+              </name>
+              <collab>Policy-Based Medical Services Network Study Group for Intraocular Lens and Refractive Surgery</collab>
+            </person-group>
+            <article-title>Effect of chromatic aberration on contrast sensitivity in pseudophakic eyes.</article-title>
+            <source>Arch Ophthalmol</source>
+            <year>2001</year>
+            <month>Aug</month>
+            <volume>119</volume>
+            <issue>8</issue>
+            <fpage>1154</fpage>
+            <page-range>1154-8</page-range>
+            <pub-id pub-id-type="pmid">11483082</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Molesini</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Galileo's telescope and the birth of instrumental optics: a review note.</article-title>
+            <source>Appl Opt</source>
+            <year>2010</year>
+            <month>Jun</month>
+            <day>01</day>
+            <volume>49</volume>
+            <issue>16</issue>
+            <fpage>D1</fpage>
+            <page-range>D1-5</page-range>
+            <pub-id pub-id-type="pmid">20517350</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Greco</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Molesini</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Quercioli</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Telescopes of galileo.</article-title>
+            <source>Appl Opt</source>
+            <year>1993</year>
+            <month>Nov</month>
+            <day>01</day>
+            <volume>32</volume>
+            <issue>31</issue>
+            <fpage>6219</fpage>
+            <page-range>6219-26</page-range>
+            <pub-id pub-id-type="pmid">20856453</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Saif</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Chaney</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Greenfield</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Bluth</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Van Gorkom</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Smith</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Bluth</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Feinberg</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Wyant</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>North-Morris</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Keski-Kuha</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Measurement of picometer-scale mirror dynamics.</article-title>
+            <source>Appl Opt</source>
+            <year>2017</year>
+            <month>Aug</month>
+            <day>10</day>
+            <volume>56</volume>
+            <issue>23</issue>
+            <fpage>6457</fpage>
+            <page-range>6457-6465</page-range>
+            <pub-id pub-id-type="pmid">29047935</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cao</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Lu</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Deng</surname>
+                <given-names>Z</given-names>
+              </name>
+            </person-group>
+            <article-title>Chromatic aberration of plane-symmetric optical systems.</article-title>
+            <source>Appl Opt</source>
+            <year>2019</year>
+            <month>Jan</month>
+            <day>10</day>
+            <volume>58</volume>
+            <issue>2</issue>
+            <fpage>227</fpage>
+            <page-range>227-233</page-range>
+            <pub-id pub-id-type="pmid">30645298</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Harris</surname>
+                <given-names>WF</given-names>
+              </name>
+              <name>
+                <surname>Evans</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Chromatic aberration in heterocentric astigmatic systems including the eye.</article-title>
+            <source>Optom Vis Sci</source>
+            <year>2012</year>
+            <month>Nov</month>
+            <volume>89</volume>
+            <issue>11</issue>
+            <fpage>e37</fpage>
+            <page-range>e37-43</page-range>
+            <pub-id pub-id-type="pmid">23096492</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Khorasaninejad</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Aieta</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Kanhaiya</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Kats</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Genevet</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Rousso</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Capasso</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Achromatic Metasurface Lens at Telecommunication Wavelengths.</article-title>
+            <source>Nano Lett</source>
+            <year>2015</year>
+            <month>Aug</month>
+            <day>12</day>
+            <volume>15</volume>
+            <issue>8</issue>
+            <fpage>5358</fpage>
+            <page-range>5358-62</page-range>
+            <pub-id pub-id-type="pmid">26168329</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rodriguez-Vallejo</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Benlloch</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Pons</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Monsoriu</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Furlan</surname>
+                <given-names>WD</given-names>
+              </name>
+            </person-group>
+            <article-title>The effect of fractal contact lenses on peripheral refraction in myopic model eyes.</article-title>
+            <source>Curr Eye Res</source>
+            <year>2014</year>
+            <month>Dec</month>
+            <volume>39</volume>
+            <issue>12</issue>
+            <fpage>1151</fpage>
+            <page-range>1151-60</page-range>
+            <pub-id pub-id-type="pmid">24749733</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sanli</surname>
+                <given-names>UT</given-names>
+              </name>
+              <name>
+                <surname>Rodgers</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Zdora</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Qi</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Garrevoet</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Falch</surname>
+                <given-names>KV</given-names>
+              </name>
+              <name>
+                <surname>M&#x000fc;ller</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>David</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Vila-Comamala</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Apochromatic X-ray focusing.</article-title>
+            <source>Light Sci Appl</source>
+            <year>2023</year>
+            <month>May</month>
+            <day>04</day>
+            <volume>12</volume>
+            <issue>1</issue>
+            <fpage>107</fpage>
+            <pub-id pub-id-type="pmid">37142565</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schmid</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Sterl</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Thiele</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Herkommer</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Giessen</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>3D printed hybrid refractive/diffractive achromat and apochromat for the visible wavelength range.</article-title>
+            <source>Opt Lett</source>
+            <year>2021</year>
+            <month>May</month>
+            <day>15</day>
+            <volume>46</volume>
+            <issue>10</issue>
+            <fpage>2485</fpage>
+            <page-range>2485-2488</page-range>
+            <pub-id pub-id-type="pmid">33988620</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sluder</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Nordberg</surname>
+                <given-names>JJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Microscope basics.</article-title>
+            <source>Methods Cell Biol</source>
+            <year>2013</year>
+            <volume>114</volume>
+            <fpage>1</fpage>
+            <page-range>1-10</page-range>
+            <pub-id pub-id-type="pmid">23931500</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>F&#x000f6;rster</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Stumpf</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Werner</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Hillmer</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Brunner</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Hyperchromatic lens doublets with an extremely small equivalent Abbe number employing diffractive elements and refractive materials with exceptional dispersion properties.</article-title>
+            <source>J Opt Soc Am A Opt Image Sci Vis</source>
+            <year>2022</year>
+            <month>Nov</month>
+            <day>01</day>
+            <volume>39</volume>
+            <issue>11</issue>
+            <fpage>1992</fpage>
+            <page-range>1992-2000</page-range>
+            <pub-id pub-id-type="pmid">36520695</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Liang</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Spires</surname>
+                <given-names>OJ</given-names>
+              </name>
+              <name>
+                <surname>Yin</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Yi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Milster</surname>
+                <given-names>TD</given-names>
+              </name>
+            </person-group>
+            <article-title>Precision glass molding of diffractive optical elements with high surface quality.</article-title>
+            <source>Opt Lett</source>
+            <year>2020</year>
+            <month>Dec</month>
+            <day>01</day>
+            <volume>45</volume>
+            <issue>23</issue>
+            <fpage>6438</fpage>
+            <page-range>6438-6441</page-range>
+            <pub-id pub-id-type="pmid">33258831</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mik&#x00161;</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>&#x00160;mejkal</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Determination of the refractive index and Abbe number of glass of spherical lenses.</article-title>
+            <source>Appl Opt</source>
+            <year>2018</year>
+            <month>Jun</month>
+            <day>10</day>
+            <volume>57</volume>
+            <issue>17</issue>
+            <fpage>4728</fpage>
+            <page-range>4728-4734</page-range>
+            <pub-id pub-id-type="pmid">30118086</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Doroslova&#x0010d;ki</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Guyton</surname>
+                <given-names>DL</given-names>
+              </name>
+            </person-group>
+            <article-title>Photographic simulation of off-axis blurring due to chromatic aberration in spectacle lenses.</article-title>
+            <source>J AAPOS</source>
+            <year>2015</year>
+            <month>Feb</month>
+            <volume>19</volume>
+            <issue>1</issue>
+            <fpage>91</fpage>
+            <page-range>91-3</page-range>
+            <pub-id pub-id-type="pmid">25727601</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Watanabe</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Takayama</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Oyaizu</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Transcending the Trade-off in Refractive Index and Abbe Number for Highly Refractive Polymers: Synergistic Effect of Polarizable Skeletons and Robust Hydrogen Bonds.</article-title>
+            <source>ACS Polym Au</source>
+            <year>2022</year>
+            <month>Dec</month>
+            <day>14</day>
+            <volume>2</volume>
+            <issue>6</issue>
+            <fpage>458</fpage>
+            <page-range>458-466</page-range>
+            <pub-id pub-id-type="pmid">36855676</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kymionis</surname>
+                <given-names>GD</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Petrelli</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Grentzelos</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Hashemi</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Wagni&#x000e8;res</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Intraocular Lens Refractive Index and Its Impact on External Surface Reflections.</article-title>
+            <source>J Refract Surg</source>
+            <year>2021</year>
+            <month>Jun</month>
+            <volume>37</volume>
+            <issue>6</issue>
+            <fpage>398</fpage>
+            <page-range>398-402</page-range>
+            <pub-id pub-id-type="pmid">34170772</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Spychala</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Ehrmann</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Chromatic dispersion of soft contact lens materials.</article-title>
+            <source>Cont Lens Anterior Eye</source>
+            <year>2023</year>
+            <month>Aug</month>
+            <volume>46</volume>
+            <issue>4</issue>
+            <fpage>101864</fpage>
+            <pub-id pub-id-type="pmid">37244801</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kato</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Ikeda</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Hirakawa</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ito</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Correlation of the Abbe Number, the Refractive Index, and Glass Transition Temperature to the Degree of Polymerization of Norbornane in Polycarbonate Polymers.</article-title>
+            <source>Polymers (Basel)</source>
+            <year>2020</year>
+            <month>Oct</month>
+            <day>26</day>
+            <volume>12</volume>
+            <issue>11</issue>
+            <pub-id pub-id-type="pmid">33114697</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bilici</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Kamislioglu</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Altunsoy Guclu</surname>
+                <given-names>EE</given-names>
+              </name>
+            </person-group>
+            <article-title>A Monte Carlo simulation study on the evaluation of radiation protection properties of spectacle lens materials.</article-title>
+            <source>Eur Phys J Plus</source>
+            <year>2023</year>
+            <volume>138</volume>
+            <issue>1</issue>
+            <fpage>80</fpage>
+            <pub-id pub-id-type="pmid">36712549</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mik&#x00161;</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Pokorn&#x000fd;</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Spherical aberration of an optical system and its influence on depth of focus.</article-title>
+            <source>Appl Opt</source>
+            <year>2017</year>
+            <month>Jun</month>
+            <day>10</day>
+            <volume>56</volume>
+            <issue>17</issue>
+            <fpage>5099</fpage>
+            <page-range>5099-5105</page-range>
+            <pub-id pub-id-type="pmid">29047662</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lindskoog Pettersson</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Jark&#x000f6;</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Alvin</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Unsbo</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Brautaset</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Spherical aberration in contact lens wear.</article-title>
+            <source>Cont Lens Anterior Eye</source>
+            <year>2008</year>
+            <month>Aug</month>
+            <volume>31</volume>
+            <issue>4</issue>
+            <fpage>189</fpage>
+            <page-range>189-93</page-range>
+            <pub-id pub-id-type="pmid">18602857</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bimurzaev</surname>
+                <given-names>SB</given-names>
+              </name>
+              <name>
+                <surname>Aldiyarov</surname>
+                <given-names>NU</given-names>
+              </name>
+              <name>
+                <surname>Yakushev</surname>
+                <given-names>EM</given-names>
+              </name>
+            </person-group>
+            <article-title>The objective lens of the electron microscope with correction of spherical and axial chromatic aberrations.</article-title>
+            <source>Microscopy (Oxf)</source>
+            <year>2017</year>
+            <month>Oct</month>
+            <day>01</day>
+            <volume>66</volume>
+            <issue>5</issue>
+            <fpage>356</fpage>
+            <page-range>356-365</page-range>
+            <pub-id pub-id-type="pmid">29016920</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jalie</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Modern spectacle lens design.</article-title>
+            <source>Clin Exp Optom</source>
+            <year>2020</year>
+            <month>Jan</month>
+            <volume>103</volume>
+            <issue>1</issue>
+            <fpage>3</fpage>
+            <page-range>3-10</page-range>
+            <pub-id pub-id-type="pmid">31222837</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Opaci&#x00107;</surname>
+                <given-names>KC</given-names>
+              </name>
+            </person-group>
+            <article-title>Correction of astigmatism with contact lenses.</article-title>
+            <source>Acta Clin Croat</source>
+            <year>2012</year>
+            <month>Jun</month>
+            <volume>51</volume>
+            <issue>2</issue>
+            <fpage>305</fpage>
+            <page-range>305-7</page-range>
+            <pub-id pub-id-type="pmid">23115961</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Shah</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>History and Results; Indications and Contraindications of SMILE Compared With LASIK.</article-title>
+            <source>Asia Pac J Ophthalmol (Phila)</source>
+            <year>2019</year>
+            <season>Sep-Oct</season>
+            <volume>8</volume>
+            <issue>5</issue>
+            <fpage>371</fpage>
+            <page-range>371-376</page-range>
+            <pub-id pub-id-type="pmid">31567264</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wilson</surname>
+                <given-names>SE</given-names>
+              </name>
+            </person-group>
+            <article-title>Biology of keratorefractive surgery- PRK, PTK, LASIK, SMILE, inlays and other refractive procedures.</article-title>
+            <source>Exp Eye Res</source>
+            <year>2020</year>
+            <month>Sep</month>
+            <volume>198</volume>
+            <fpage>108136</fpage>
+            <pub-id pub-id-type="pmid">32653492</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lee</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Jung</surname>
+                <given-names>WJ</given-names>
+              </name>
+              <name>
+                <surname>Park</surname>
+                <given-names>WC</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparison between anterior corneal aberration and ocular aberration in laser refractive surgery.</article-title>
+            <source>Korean J Ophthalmol</source>
+            <year>2008</year>
+            <month>Sep</month>
+            <volume>22</volume>
+            <issue>3</issue>
+            <fpage>164</fpage>
+            <page-range>164-8</page-range>
+            <pub-id pub-id-type="pmid">18784443</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>YL</given-names>
+              </name>
+              <name>
+                <surname>Xu</surname>
+                <given-names>XH</given-names>
+              </name>
+              <name>
+                <surname>Cao</surname>
+                <given-names>LJ</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Corneal curvature, asphericity, and aberrations after transepithelial photorefractive keratectomy and femtosecond laser-assisted <italic>in situ</italic> keratomileusis for myopia: A prospective comparative study.</article-title>
+            <source>Indian J Ophthalmol</source>
+            <year>2020</year>
+            <month>Dec</month>
+            <volume>68</volume>
+            <issue>12</issue>
+            <fpage>2945</fpage>
+            <page-range>2945-2949</page-range>
+            <pub-id pub-id-type="pmid">33229675</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bashir</surname>
+                <given-names>ZS</given-names>
+              </name>
+              <name>
+                <surname>Ali</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Anwar</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Ayub</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Butt</surname>
+                <given-names>NH</given-names>
+              </name>
+            </person-group>
+            <article-title>Femto-lasik: The recent innovation in laser assisted refractive surgery.</article-title>
+            <source>J Pak Med Assoc</source>
+            <year>2017</year>
+            <month>Apr</month>
+            <volume>67</volume>
+            <issue>4</issue>
+            <fpage>609</fpage>
+            <page-range>609-615</page-range>
+            <pub-id pub-id-type="pmid">28420926</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>He</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>He</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Yuan</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Fang</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Zhu</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Han</surname>
+                <given-names>W</given-names>
+              </name>
+            </person-group>
+            <article-title>Evaluation of morphological features: femtosecond-LASIK flap vs. SMILE cap, and the effects on corneal higher-order aberrations.</article-title>
+            <source>Graefes Arch Clin Exp Ophthalmol</source>
+            <year>2022</year>
+            <month>Dec</month>
+            <volume>260</volume>
+            <issue>12</issue>
+            <fpage>3993</fpage>
+            <page-range>3993-4003</page-range>
+            <pub-id pub-id-type="pmid">36166075</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zhao</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Mainster</surname>
+                <given-names>MA</given-names>
+              </name>
+            </person-group>
+            <article-title>The effect of chromatic dispersion on pseudophakic optical performance.</article-title>
+            <source>Br J Ophthalmol</source>
+            <year>2007</year>
+            <month>Sep</month>
+            <volume>91</volume>
+            <issue>9</issue>
+            <fpage>1225</fpage>
+            <page-range>1225-9</page-range>
+            <pub-id pub-id-type="pmid">17475697</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Loicq</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Willet</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Gatinel</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Topography and longitudinal chromatic aberration characterizations of refractive-diffractive multifocal intraocular lenses.</article-title>
+            <source>J Cataract Refract Surg</source>
+            <year>2019</year>
+            <month>Nov</month>
+            <volume>45</volume>
+            <issue>11</issue>
+            <fpage>1650</fpage>
+            <page-range>1650-1659</page-range>
+            <pub-id pub-id-type="pmid">31585856</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bradley</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Xu</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Jaskulski</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Hong</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Brink</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Van Noy</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>The Impact of IOL Abbe Number on Polychromatic Image Quality of Pseudophakic Eyes.</article-title>
+            <source>Clin Ophthalmol</source>
+            <year>2020</year>
+            <volume>14</volume>
+            <fpage>2271</fpage>
+            <page-range>2271-2281</page-range>
+            <pub-id pub-id-type="pmid">32848357</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>&#x00141;abuz</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Papadatou</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Khoramnia</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Auffarth</surname>
+                <given-names>GU</given-names>
+              </name>
+            </person-group>
+            <article-title>Longitudinal Chromatic Aberration and Polychromatic Image Quality Metrics of Intraocular Lenses.</article-title>
+            <source>J Refract Surg</source>
+            <year>2018</year>
+            <month>Dec</month>
+            <day>01</day>
+            <volume>34</volume>
+            <issue>12</issue>
+            <fpage>832</fpage>
+            <page-range>832-838</page-range>
+            <pub-id pub-id-type="pmid">30540366</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Franchini</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Compromise between spherical and chromatic aberration and depth of focus in aspheric intraocular lenses.</article-title>
+            <source>J Cataract Refract Surg</source>
+            <year>2007</year>
+            <month>Mar</month>
+            <volume>33</volume>
+            <issue>3</issue>
+            <fpage>497</fpage>
+            <page-range>497-509</page-range>
+            <pub-id pub-id-type="pmid">17321402</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vinas</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gonzalez-Ramos</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Aissati</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Garz&#x000f3;n</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Poyales</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Dorronsoro</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Marcos</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Longitudinal Chromatic Aberration in Patients Implanted With Trifocal Diffractive Hydrophobic IOLs.</article-title>
+            <source>J Refract Surg</source>
+            <year>2020</year>
+            <month>Dec</month>
+            <day>01</day>
+            <volume>36</volume>
+            <issue>12</issue>
+            <fpage>804</fpage>
+            <page-range>804-810</page-range>
+            <pub-id pub-id-type="pmid">33295992</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mill&#x000e1;n</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Vega</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Extended depth of focus intraocular lens: Chromatic performance.</article-title>
+            <source>Biomed Opt Express</source>
+            <year>2017</year>
+            <month>Sep</month>
+            <day>01</day>
+            <volume>8</volume>
+            <issue>9</issue>
+            <fpage>4294</fpage>
+            <page-range>4294-4309</page-range>
+            <pub-id pub-id-type="pmid">28966865</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Garc&#x000ed;a</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Salv&#x000e1;</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Garc&#x000ed;a-Delpech</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Mart&#x000ed;nez-Espert</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Ferrando</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Montagud-Mart&#x000ed;nez</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Polychromatic Assessment of a Refractive Segmented EDOF Intraocular Lens.</article-title>
+            <source>J Clin Med</source>
+            <year>2022</year>
+            <month>Mar</month>
+            <day>08</day>
+            <volume>11</volume>
+            <issue>6</issue>
+            <pub-id pub-id-type="pmid">35329805</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r46">
+          <label>46</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jung</surname>
+                <given-names>NY</given-names>
+              </name>
+              <name>
+                <surname>Lim</surname>
+                <given-names>DH</given-names>
+              </name>
+              <name>
+                <surname>Hwang</surname>
+                <given-names>SS</given-names>
+              </name>
+              <name>
+                <surname>Hyun</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Chung</surname>
+                <given-names>TY</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparison of clinical outcomes of toric intraocular lens, Precizon vs Tecnis: a single center randomized controlled trial.</article-title>
+            <source>BMC Ophthalmol</source>
+            <year>2018</year>
+            <month>Nov</month>
+            <day>09</day>
+            <volume>18</volume>
+            <issue>1</issue>
+            <fpage>292</fpage>
+            <pub-id pub-id-type="pmid">30413154</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r47">
+          <label>47</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Weeber</surname>
+                <given-names>HA</given-names>
+              </name>
+              <name>
+                <surname>Piers</surname>
+                <given-names>PA</given-names>
+              </name>
+            </person-group>
+            <article-title>Theoretical performance of intraocular lenses correcting both spherical and chromatic aberration.</article-title>
+            <source>J Refract Surg</source>
+            <year>2012</year>
+            <month>Jan</month>
+            <volume>28</volume>
+            <issue>1</issue>
+            <fpage>48</fpage>
+            <page-range>48-52</page-range>
+            <pub-id pub-id-type="pmid">22074466</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r48">
+          <label>48</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rem&#x000f3;n</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Garc&#x000ed;a-Delpech</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Udaondo</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Ferrando</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Monsoriu</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Furlan</surname>
+                <given-names>WD</given-names>
+              </name>
+            </person-group>
+            <article-title>Fractal-structured multifocal intraocular lens.</article-title>
+            <source>PLoS One</source>
+            <year>2018</year>
+            <volume>13</volume>
+            <issue>7</issue>
+            <fpage>e0200197</fpage>
+            <pub-id pub-id-type="pmid">29985935</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r49">
+          <label>49</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rose</surname>
+                <given-names>HH</given-names>
+              </name>
+            </person-group>
+            <article-title>Optics of high-performance electron microscopes.</article-title>
+            <source>Sci Technol Adv Mater</source>
+            <year>2008</year>
+            <month>Jan</month>
+            <volume>9</volume>
+            <issue>1</issue>
+            <fpage>014107</fpage>
+            <pub-id pub-id-type="pmid">27877933</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r50">
+          <label>50</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Iye</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Subaru Telescope -History, active/adaptive optics, instruments, and scientific achievements.</article-title>
+            <source>Proc Jpn Acad Ser B Phys Biol Sci</source>
+            <year>2021</year>
+            <volume>97</volume>
+            <issue>7</issue>
+            <fpage>337</fpage>
+            <page-range>337-370</page-range>
+            <pub-id pub-id-type="pmid">34380914</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-145068.r51">
+          <label>51</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Moretto</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Sebring</surname>
+                <given-names>TA</given-names>
+              </name>
+              <name>
+                <surname>Ray</surname>
+                <given-names>FB</given-names>
+              </name>
+              <name>
+                <surname>Ramsey</surname>
+                <given-names>LW</given-names>
+              </name>
+            </person-group>
+            <article-title>Aplanatic corrector designs for the extremely large telescope.</article-title>
+            <source>Appl Opt</source>
+            <year>2000</year>
+            <month>Jun</month>
+            <day>01</day>
+            <volume>39</volume>
+            <issue>16</issue>
+            <fpage>2805</fpage>
+            <page-range>2805-12</page-range>
+            <pub-id pub-id-type="pmid">18345204</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

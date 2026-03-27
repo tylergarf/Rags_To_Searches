@@ -1,0 +1,1456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-151565" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Quality Improvement Methods (LEAN, PDSA, SIX SIGMA)</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Barr</surname>
+            <given-names>Emily</given-names>
+          </name>
+          <aff>Burrell College of Osteopathic Medicine at New Mexico State University</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Brannan</surname>
+            <given-names>Grace D.</given-names>
+          </name>
+          <aff>GDB Research and Statistical Consulting/McLaren Macomb Hospital</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Emily Barr declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Grace Brannan declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>11</day>
+          <month>1</month>
+          <year>2024</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-151565.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Quality improvement is integral to many sectors, including business, manufacturing, and healthcare. Systematic and structured approaches are used to evaluate performance to improve standards and outcomes. The Institute of Medicine defines quality in healthcare as &#x0201c;the degree to which health services for individuals and populations increase the likelihood of desired health outcomes and are consistent with current professional knowledge.&#x0201d;<xref ref-type="bibr" rid="article-151565.r1">[1]</xref></p>
+        <p>In healthcare, quality improvement methods&#x000a0;are traced back to the 19<sup>th</sup>&#x000a0;century;&#x000a0;2 examples&#x000a0;are the advocacy for handwashing in medical care by an obstetrician, Ignaz Semmelweis, and the&#x000a0;betterment&#x000a0;of living conditions and excessive mortality of soldiers in army hospitals&#x000a0;to nurse Florence Nightingale.<xref ref-type="bibr" rid="article-151565.r1">[1]</xref>&#x000a0;Many quality improvement methods can be applied to&#x000a0;healthcare,&#x000a0;3 of which&#x000a0;include Plan-Do-Study-Act (PDSA), Lean, and Six Sigma. Each method has a unique&#x000a0;goal-oriented outcome that&#x000a0;has been applied to healthcare to streamline and optimize processes.&#x000a0;</p>
+        <p>PDSA is a cyclical quality improvement method often compared to the application of the scientific method, differing from Lean philosophy due to its iterative format.<xref ref-type="bibr" rid="article-151565.r2">[2]</xref>&#x000a0;PDSA was adapted to healthcare in 1996 by statistician Gerald J. Langley and built upon its manufacturing origin in 1986 by&#x000a0;statistician Edwards Deming.<xref ref-type="bibr" rid="article-151565.r2">[2]</xref>&#x000a0;PDSA focuses on&#x000a0;4 stages: plan, do, study, and act.</p>
+        <p>The first stage, plan, begins with identifying a project goal. The next stage, do, is a small-scale implementation of the plan applied to meet the goal. The scope or size is small to enable any pivots to be addressed promptly. The study stage compares predicted data outcomes to achieved data outcomes. The act stage combines data from the prior&#x000a0;3 stages into an improved executed plan. The&#x000a0;4 steps must be thought out and repeated for a refined process. PDSA is not a standalone method but utilizes other quality improvement tools and is a key component of the Model for Improvement.[<xref ref-type="bibr" rid="article-151565.r2">[2]</xref><xref ref-type="bibr" rid="article-151565.r3">[3]</xref><xref ref-type="bibr" rid="article-151565.r4">[4]</xref>&#x000a0;</p>
+        <p>Lean stems from the Toyota Production System (TPS) and focuses on improving quality and productivity through efficient and value-added processes by eliminating&#x000a0;3 items: waste (muda), unevenness or inconsistencies (mura), and overburden or unreasonableness (muri).<xref ref-type="bibr" rid="article-151565.r5">[5]</xref><xref ref-type="bibr" rid="article-151565.r4">[4]</xref><xref ref-type="bibr" rid="article-151565.r6">[6]</xref><xref ref-type="bibr" rid="article-151565.r7">[7]</xref><bold>&#x000a0;</bold>TPS, also called the &#x0201c;Toyota way,&#x0201d; is credited to Japanese engineer Taiichi Ohno. Its origin can be traced back to the Henry Ford assembly line and Toyota Motor Corporation production system in the 1950s, as they tried to increase value-added products or services&#x02014;that is, entities customers were willing to pay for while decreasing extraneous products or services.<xref ref-type="bibr" rid="article-151565.r8">[8]</xref></p>
+        <p>Mura can be corrected by standardization to create dependability and reliability. Muri emphasizes creating a culture of problem-solving instead of blaming. Lean has identified&#x000a0;8 wastes or muda.<xref ref-type="bibr" rid="article-151565.r5">[5]</xref><xref ref-type="bibr" rid="article-151565.r6">[6]</xref>&#x000a0;Defects refer to work that needs modification, alteration, or repair. Overproduction is ordering unnecessary tests.<xref ref-type="bibr" rid="article-151565.r6">[6]</xref>&#x000a0;Waiting can be in the form of waiting for supplies, a turn to use a machine, to be seen by a provider, or for test results, to name a few. Unutilized talent refers to wasted people skills. Transportation may include transporting supplies from one area to another or moving patients from the hospital room to the laboratory for tests. An example of inventory is storing or buying excessive medical supplies, especially if they expire before usage. Unnecessary motion may include wasted movement for providers, caregivers, and patients.<xref ref-type="bibr" rid="article-151565.r6">[6]</xref>&#x000a0;Extra-processing denotes&#x000a0;unnecessary steps or work.</p>
+        <p>5&#x000a0;overarching principles contribute to Lean methodology implementation:<xref ref-type="bibr" rid="article-151565.r9">[9]</xref><xref ref-type="bibr" rid="article-151565.r6">[6]</xref></p>
+        <list list-type="order">
+          <list-item>
+            <p>Identifying the value of&#x000a0;a product or service to the customer, which could be the patient or another department in the hospital.</p>
+          </list-item>
+          <list-item>
+            <p>Value stream mapping&#x000a0;is a visualization method of processes, materials, the flow of information, and resources involved in creating a product or service to identify those that add value and remove those that are wasted.<xref ref-type="bibr" rid="article-151565.r5">[5]</xref><xref ref-type="bibr" rid="article-151565.r10">[10]</xref>]</p>
+          </list-item>
+          <list-item>
+            <p>Creating flow by eliminating barriers.</p>
+          </list-item>
+          <list-item>
+            <p>Establishing pull based on actual customer demand rather than forecasted demand.</p>
+          </list-item>
+          <list-item>
+            <p>Establishing perfection means that in every system, efforts to eliminate waste are continuous and should always strive to meet or exceed customer or patient needs and satisfaction.</p>
+          </list-item>
+        </list>
+        <p>Core to Lean is Kaizen, a focused, team-centric, continuous, and rapid improvement endeavor to implement small changes into systemic, standardized improvement cycles. The understanding of Kaizen is reflected in its etymology, derived from the &#x0201c;Japanese words &#x0201c;kai,&#x0201d; meaning change, and &#x0201c;zen,&#x0201d; meaning good.&#x0201d;<xref ref-type="bibr" rid="article-151565.r11">[11]</xref><xref ref-type="bibr" rid="article-151565.r7">[7]</xref></p>
+        <p>Lean uses different tools to achieve its goals. 5S refers to sorting, setting in order, shining, standardizing, and sustaining elements required to sustain a clean, orderly, and organized workplace.<xref ref-type="bibr" rid="article-151565.r10">[10]</xref>&#x000a0;Just-in-Time (JIT) refers to supplies being available when needed.<xref ref-type="bibr" rid="article-151565.r12">[12]</xref>&#x000a0;This is feasible if there is consistency and uniformity in the system, which allows predictability and control. JIT works in tandem with Kanban or the inventory system, which relies on supplies approval and documentation. A3 is a visual and structured tool that identifies problems and solutions using an A3-sized or 11 x 17 inches paper.<xref ref-type="bibr" rid="article-151565.r13">[13]</xref></p>
+        <p>Like Lean thinking, Six Sigma is a methodology focused on optimizing performance, controlling, and decreasing variability.<xref ref-type="bibr" rid="article-151565.r14">[14]</xref><xref ref-type="bibr" rid="article-151565.r4">[4]</xref>&#x000a0;Six Sigma techniques were&#x000a0;developed in the &#x02019;80s by Motorola.<xref ref-type="bibr" rid="article-151565.r15">[15]</xref>&#x000a0;Six Sigma is derived from a statistical concept of&#x000a0;6 standard deviations from the mean or 3.4 defects per million units.<xref ref-type="bibr" rid="article-151565.r16">[16]</xref>&#x000a0;Six Sigma often focuses on quantitative healthcare analysis to refine delivery efficiency while increasing patient safety.</p>
+        <p>Six Sigma is different from other methodologies in that it is focused on financial outcomes and statistical outcomes and requires management support.<xref ref-type="bibr" rid="article-151565.r15">[15]</xref> Leadership support is needed to set the goals for Six Sigma initiatives and train or hire specific personnel in the form of &#x0201c;Belts&#x0201d; as part of the more formalized quality management structure.<xref ref-type="bibr" rid="article-151565.r17">[17]</xref>&#x000a0;The &#x0201c;Belts&#x0201d; signify training and project involvement levels and usually require certification.<xref ref-type="bibr" rid="article-151565.r17">[17]</xref>&#x000a0;A Master Black Belt is the most experienced, trains the other belts, and is the project consultant. Black Belts leads the execution of the Six Sigma projects. Green Belts leads project implementation under the guidance of Black Belts, and Yellow Belts participates as a member in projects.<xref ref-type="bibr" rid="article-151565.r17">[17]</xref></p>
+        <p>Six Sigma employs&#x000a0;2 methods:<xref ref-type="bibr" rid="article-151565.r17">[17]</xref><xref ref-type="bibr" rid="article-151565.r14">[14]</xref><xref ref-type="bibr" rid="article-151565.r8">[8]</xref><xref ref-type="bibr" rid="article-151565.r4">[4]</xref></p>
+        <list list-type="order">
+          <list-item>
+            <p>DMAIC or Define, Measure, Analyze, Improve, and Control. DMAIC is used for improving current processes.</p>
+          </list-item>
+          <list-item>
+            <p>DMADV or Define, Measure, Analyze, Design, and Verify. DMADV is employed when developing new processes and products.</p>
+          </list-item>
+        </list>
+        <p>Different well-known quality improvement tools are used within the different phases of DMAIC or DMADV. Here are a few examples:<xref ref-type="bibr" rid="article-151565.r18">[18]</xref><xref ref-type="bibr" rid="article-151565.r19">[19]</xref><xref ref-type="bibr" rid="article-151565.r20">[20]</xref><xref ref-type="bibr" rid="article-151565.r21">[21]</xref></p>
+        <list list-type="order">
+          <list-item>
+            <p>Design of Experiments: An approach for projects that utilize a structured method of studying variables and outcomes. It may include randomization, established research approaches such as experimental or quasi-experimental, and statistical data analysis.</p>
+          </list-item>
+          <list-item>
+            <p>Cause and Effect Diagrams or Fishbone or Ishikawa Diagrams: A visualization of factors contributing to a given effect, such as prolonged length of stay.<xref ref-type="bibr" rid="article-151565.r22">[22]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Control Chart: A graph that shows variation in data relative to a mean value and upper and lower limits.</p>
+          </list-item>
+          <list-item>
+            <p>Pareto Chart: Stemming from the 80/20 Pareto principle that 20% of factors cause 80% of the problems, is a bar chart showing the frequencies of factors in descending order from left to right to easily identify the most important factors.<xref ref-type="bibr" rid="article-151565.r22">[22]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Root Cause Analysis (RCA): A multi-step process of identifying problems, reasons for the problem, and corrective actions after an adverse event occurs.</p>
+          </list-item>
+          <list-item>
+            <p>Failure Mode and Effect Analysis (FMEA): A process of identifying possible failure points in a process as a preventive way to address these weaknesses before they cause problems.</p>
+          </list-item>
+        </list>
+        <p>In the early 2000s, the Xerox corporation developed Lean Six Sigma or LSS.<xref ref-type="bibr" rid="article-151565.r8">[8]</xref>&#x000a0;LSS marries Lean and Six Sigma approaches and toolboxes and has been used in different business sectors, including healthcare.<xref ref-type="bibr" rid="article-151565.r8">[8]</xref><xref ref-type="bibr" rid="article-151565.r17">[17]</xref>&#x000a0;Successful LSS implementations usually employ waste reduction first before optimization or variability reduction. The healthcare sector benefits from LSS&#x000a0;because of reduced waste and cost, improved and optimized processes, and enhanced patient satisfaction in one continuous effort.<xref ref-type="bibr" rid="article-151565.r23">[23]</xref><xref ref-type="bibr" rid="article-151565.r24">[24]</xref></p>
+      </sec>
+      <sec id="article-151565.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>Common challenges in Lean methodology include individual resistance to change, discomfort with inter-professional collaboration, and organizational process variations.<xref ref-type="bibr" rid="article-151565.r25">[25]</xref>&#x000a0;Methods to overcome barriers include maintaining&#x000a0;qualified leadership, obtaining feedback, and pursuing&#x000a0;feasible projects.<xref ref-type="bibr" rid="article-151565.r25">[25]</xref>&#x000a0;Adequate rollout from senior leadership can be executed by ensuring key stakeholders formally understand Lean practices.</p>
+        <p>JIT supply chain reduces extra inventory and cost. However, during COVID-19, the lack of supplies, especially personal protective equipment or PPE, exposed the healthcare goal of a slim inventory via reliance on JIT which, during the pandemic, endangered both providers and patients.<xref ref-type="bibr" rid="article-151565.r12">[12]</xref></p>
+        <p>PDSA relies on properly executed, small-scale tests before scaling to larger trials.<xref ref-type="bibr" rid="article-151565.r2">[2]</xref>&#x000a0;This belief lies in an understanding that small-scale projects are likely to harbor more controlled environments, allowing for more agile pivots upon seeing favorable changes. However, a recent systematic review indicated that fewer than 20% of articles used iterative cycles and small-scale tests, which could suggest that larger tests were not optimal.<xref ref-type="bibr" rid="article-151565.r2">[2]</xref>&#x000a0;Another area of concern when enacting a PDSA cycle is pursuing an overzealous, large-scale goal that may lie beyond the method's extent.<xref ref-type="bibr" rid="article-151565.r3">[3]</xref></p>
+        <p>A bigger issue with PDSA implementation is oversimplification, which results in projects not fully adhering to PDSA principles.<xref ref-type="bibr" rid="article-151565.r2">[2]</xref>&#x000a0;This opens the possibility of incorrect PDSA implementation with inadequate mobilization of resources and skills, jeopardizing scientific rigor.<xref ref-type="bibr" rid="article-151565.r2">[2]</xref>&#x000a0;When applying PDSA cycles to healthcare, leadership must ensure&#x000a0;adequate resources, including clinical staff, medical technology, inventory, registries, and funding, are present to integrate PDSA cycles into the workflow.</p>
+        <p>Six Sigma aims to achieve process improvement by decreasing defects and enhancing quality. In healthcare, this often presents as reducing patient harm while increasing patient safety and patient satisfaction. One of the main challenges faced in Six Sigma operations is the cost of hiring a full-time project manager, an in-house expert, or a Six Sigma belt. Another obstacle is the institutional culture, which requires buy-in from all stakeholders for the project's success. This buy-in must last throughout the project duration, which can exceed 24 months in the case of major improvements.<xref ref-type="bibr" rid="article-151565.r26">[26]</xref>&#x000a0;While recognized Six Sigma belt certificates can be obtained and offer credible structure, they are not mandatory for process improvement. Formal Six Sigma programs offer training courses, which, combined with field experience, enable certificates to be sequentially obtained (white belt, yellow belt, green belt, black belt, to master black belt).<xref ref-type="bibr" rid="article-151565.r14">[14]</xref>&#x000a0;There are concerns that Six Sigma is not being properly used to its full potential in healthcare.<xref ref-type="bibr" rid="article-151565.r27">[27]</xref></p>
+        <p>Improving safety culture is critical for long-term quality improvement in healthcare despite challenges in PDSA, Lean, and Six Sigma.</p>
+      </sec>
+      <sec id="article-151565.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Errors and hazards are present, realistic concepts in healthcare. An extrapolated estimate of over 250,000 deaths based on 2013 hospital admissions occurs in the US annually due to medical errors.<xref ref-type="bibr" rid="article-151565.r28">[28]</xref>&#x000a0;Such errors cause losses upwards of $20 billion annually.<xref ref-type="bibr" rid="article-151565.r28">[28]</xref><xref ref-type="bibr" rid="article-151565.r29">[29]</xref>&#x000a0;Excessive wait times and process bottlenecks may lead to delayed diagnoses, treatment, and barriers to appropriate medical triaging.<xref ref-type="bibr" rid="article-151565.r30">[30]</xref><xref ref-type="bibr" rid="article-151565.r31">[31]</xref>&#x000a0;Such outcomes may cause increased patient stress and detrimental effects if delayed reporting is congruent with disease progression, leading to adverse patient outcomes.<xref ref-type="bibr" rid="article-151565.r30">[30]</xref><xref ref-type="bibr" rid="article-151565.r31">[31]</xref></p>
+        <p>Technology in medicine is critical to patient care, allowing centralized team communication, increased patient engagement, and digitized records. Though technological advances such as electronic health records have enabled ease of data acquisition and application of quality improvement functions such as medication allergy alert pop-ups, early rejection and abandonment of technological solutions&#x000a0;are seen in healthcare, potentially linked to&#x000a0;varied&#x000a0;acceptance by users.<xref ref-type="bibr" rid="article-151565.r32">[32]</xref></p>
+        <p>The federal healthcare agency Centers for Medicare and Medicaid Services (CMS) has a reimbursement program in healthcare that draws attention to the clinical significance of quality improvement methods in healthcare.<xref ref-type="bibr" rid="article-151565.r33">[33]</xref><xref ref-type="bibr" rid="article-151565.r34">[34]</xref>&#x000a0;The Medicare Value-Based Purchasing (VBP) program uses direct financial metrics to incentivize performance.<xref ref-type="bibr" rid="article-151565.r33">[33]</xref>&#x000a0;Metrics include adverse events, mortality, and cost reduction.</p>
+        <p>This agency evaluates organizations on quality measures and adjusts reimbursement based on metrics, promoting quality improvement and patient care.<xref ref-type="bibr" rid="article-151565.r34">[34]</xref>&#x000a0;By adopting quality improvement metrics, healthcare organizations can&#x000a0;address&#x000a0;patient safety and satisfaction while being mindful of&#x000a0;long-term&#x000a0;financial and&#x000a0;efficiency goals.</p>
+      </sec>
+      <sec id="article-151565.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>Quality improvement&#x000a0;is&#x000a0;a &#x0201c;combined and unceasing effort of everyone &#x02013; healthcare professionals, patients, and their families, researchers, payers, planners, and educators to make the change that will lead to better patient outcomes, better system performance, and better professional development.&#x0201d;<xref ref-type="bibr" rid="article-151565.r35">[35]</xref></p>
+        <p>Interdisciplinary teams used synonymously with interprofessional teams, represent multiple constituents within healthcare working in conjunction with one another. Interprofessional has historically been used more narrowly, signifying working professionals from different professions, while interdisciplinary has traditionally been used more broadly, encompassing distinct healthcare staff members.<xref ref-type="bibr" rid="article-151565.r36">[36]</xref>&#x000a0;Adopting interdisciplinary teamwork is critical in healthcare to foster collaboration and diversity, strengthening systemic culture and goals.</p>
+        <p>One example of quality improvement methods and interdisciplinary teamwork intervention&#x000a0;is seen in the Swiss Cheese Model, which was first referenced in 1991 and published in 1997 by psychology professor James Reason.<xref ref-type="bibr" rid="article-151565.r37">[37]</xref>&#x000a0;The model compared natural eyes in Swiss cheese to eyes or holes in healthcare systems. Specifically, the holes in healthcare, synonymous with errors, led to adverse events due to an alignment of multiple holes or multiple opportunities for improvement. Each slice of cheese&#x000a0;represents a protective barrier, including policies, technology, and teamwork.<xref ref-type="bibr" rid="article-151565.r38">[38]</xref></p>
+        <p>Though teamwork is needed in healthcare, it may fail without proper communication, which is a leading cause of inadvertent patient harm, including medication errors, treatment delays, and wrong-site surgeries.<xref ref-type="bibr" rid="article-151565.r39">[39]</xref><xref ref-type="bibr" rid="article-151565.r40">[40]</xref>&#x000a0;Factors&#x000a0;influencing communication failure include training differences among health fields, hierarchy, and lack of standardization.<xref ref-type="bibr" rid="article-151565.r39">[39]</xref></p>
+        <p>Without mutual collaboration and discussion based on unique perspectives, quality improvement metrics may be&#x000a0;prone&#x000a0;to fail. By having long-term end goals in mind, such as patient safety, interdisciplinary teamwork can foster quality improvement initiatives. A positive culture of safety does not focus on individual action or error but rather encompasses&#x000a0;organizational accountability fostered by teamwork.<xref ref-type="bibr" rid="article-151565.r41">[41]</xref></p>
+      </sec>
+      <sec id="article-151565.s5" sec-type="Nursing, Allied Health, and Interprofessional Team Monitoring">
+        <title>Nursing, Allied Health, and Interprofessional Team Monitoring</title>
+        <p>Collaborative interaction in healthcare&#x000a0;is seen&#x000a0;in literature to&#x000a0;contribute to improved medical effects.<xref ref-type="bibr" rid="article-151565.r42">[42]</xref>&#x000a0;Once an organization adopts the importance of interprofessional team interventions, proper interprofessional monitoring in systematic observation is implemented. A risk management team often achieves such tracking, a set of systems in place to detect, monitor, and prevent harm stemming from the 2005 Congress Patient Safety and Quality Improvement Act.<xref ref-type="bibr" rid="article-151565.r43">[43]</xref></p>
+        <p>One example of a risk management intervention is an&#x000a0;RCA.<xref ref-type="bibr" rid="article-151565.r20">[20]</xref>&#x000a0;The National Patient Safety Foundation&#x000a0;recommends an RCA comprising diverse team members ranging from physicians and supervisors to ancillary staff and quality improvement experts.<xref ref-type="bibr" rid="article-151565.r43">[43]</xref><xref ref-type="bibr" rid="article-151565.r44">[44]</xref>&#x000a0;Appropriate monitoring can help maximize quality improvement in healthcare, allowing organizations&#x000a0;to effectively utilize quality improvement methods such as LEAN, PDSA, and Six Sigma.</p>
+      </sec>
+      <sec id="article-151565.s6">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=151565&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=151565">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/151565/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=151565">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-151565.s7">
+        <title>References</title>
+        <ref id="article-151565.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Marjoua</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Bozic</surname>
+                <given-names>KJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Brief history of quality movement in US healthcare.</article-title>
+            <source>Curr Rev Musculoskelet Med</source>
+            <year>2012</year>
+            <month>Dec</month>
+            <volume>5</volume>
+            <issue>4</issue>
+            <fpage>265</fpage>
+            <page-range>265-73</page-range>
+            <pub-id pub-id-type="pmid">22961204</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Taylor</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>McNicholas</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Nicolay</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Darzi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Bell</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Reed</surname>
+                <given-names>JE</given-names>
+              </name>
+            </person-group>
+            <article-title>Systematic review of the application of the plan-do-study-act method to improve quality in healthcare.</article-title>
+            <source>BMJ Qual Saf</source>
+            <year>2014</year>
+            <month>Apr</month>
+            <volume>23</volume>
+            <issue>4</issue>
+            <fpage>290</fpage>
+            <page-range>290-8</page-range>
+            <pub-id pub-id-type="pmid">24025320</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Reed</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>Card</surname>
+                <given-names>AJ</given-names>
+              </name>
+            </person-group>
+            <article-title>The problem with Plan-Do-Study-Act cycles.</article-title>
+            <source>BMJ Qual Saf</source>
+            <year>2016</year>
+            <month>Mar</month>
+            <volume>25</volume>
+            <issue>3</issue>
+            <fpage>147</fpage>
+            <page-range>147-52</page-range>
+            <pub-id pub-id-type="pmid">26700542</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Coughlin</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Posencheg</surname>
+                <given-names>MA</given-names>
+              </name>
+            </person-group>
+            <article-title>Common Quality Improvement Methodologies Including the Model for Improvement, Lean, and Six Sigma.</article-title>
+            <source>Clin Perinatol</source>
+            <year>2023</year>
+            <month>Jun</month>
+            <volume>50</volume>
+            <issue>2</issue>
+            <fpage>285</fpage>
+            <page-range>285-306</page-range>
+            <pub-id pub-id-type="pmid">37201982</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r5">
+          <label>5</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Young</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Smith</surname>
+                <given-names>MA</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Standards and Evaluation of Healthcare Quality, Safety, and Person-Centered Care</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2025</year>
+            <month>2</month>
+            <day>24</day>
+            <pub-id pub-id-type="pmid">35015457</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hallam</surname>
+                <given-names>CRA</given-names>
+              </name>
+              <name>
+                <surname>Contreras</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Lean healthcare: scale, scope and sustainability.</article-title>
+            <source>Int J Health Care Qual Assur</source>
+            <year>2018</year>
+            <month>Aug</month>
+            <day>13</day>
+            <volume>31</volume>
+            <issue>7</issue>
+            <fpage>684</fpage>
+            <page-range>684-696</page-range>
+            <pub-id pub-id-type="pmid">30354875</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Aij</surname>
+                <given-names>KH</given-names>
+              </name>
+              <name>
+                <surname>Rapsaniotis</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Leadership requirements for Lean versus servant leadership in health care: a systematic review of the literature.</article-title>
+            <source>J Healthc Leadersh</source>
+            <year>2017</year>
+            <volume>9</volume>
+            <fpage>1</fpage>
+            <page-range>1-14</page-range>
+            <pub-id pub-id-type="pmid">29355240</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ahmed</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Integrating DMAIC approach of Lean Six Sigma and theory of constraints toward quality improvement in healthcare.</article-title>
+            <source>Rev Environ Health</source>
+            <year>2019</year>
+            <month>Dec</month>
+            <day>18</day>
+            <volume>34</volume>
+            <issue>4</issue>
+            <fpage>427</fpage>
+            <page-range>427-434</page-range>
+            <pub-id pub-id-type="pmid">31314742</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Decker</surname>
+                <given-names>WW</given-names>
+              </name>
+              <name>
+                <surname>Stead</surname>
+                <given-names>LG</given-names>
+              </name>
+            </person-group>
+            <article-title>Application of lean thinking in health care: a role in emergency departments globally.</article-title>
+            <source>Int J Emerg Med</source>
+            <year>2008</year>
+            <month>Sep</month>
+            <volume>1</volume>
+            <issue>3</issue>
+            <fpage>161</fpage>
+            <page-range>161-2</page-range>
+            <pub-id pub-id-type="pmid">19384508</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kim</surname>
+                <given-names>CS</given-names>
+              </name>
+              <name>
+                <surname>Spahlinger</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Kin</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Coffey</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Billi</surname>
+                <given-names>JE</given-names>
+              </name>
+            </person-group>
+            <article-title>Implementation of lean thinking: one health system's journey.</article-title>
+            <source>Jt Comm J Qual Patient Saf</source>
+            <year>2009</year>
+            <month>Aug</month>
+            <volume>35</volume>
+            <issue>8</issue>
+            <fpage>406</fpage>
+            <page-range>406-13</page-range>
+            <pub-id pub-id-type="pmid">19719076</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Goyal</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Law</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>An introduction to Kaizen in health care.</article-title>
+            <source>Br J Hosp Med (Lond)</source>
+            <year>2019</year>
+            <month>Mar</month>
+            <day>02</day>
+            <volume>80</volume>
+            <issue>3</issue>
+            <fpage>168</fpage>
+            <page-range>168-169</page-range>
+            <pub-id pub-id-type="pmid">30860922</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Balkhi</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Alshahrani</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Khan</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Just-in-time approach in healthcare inventory management: Does it really work?</article-title>
+            <source>Saudi Pharm J</source>
+            <year>2022</year>
+            <month>Dec</month>
+            <volume>30</volume>
+            <issue>12</issue>
+            <fpage>1830</fpage>
+            <page-range>1830-1835</page-range>
+            <pub-id pub-id-type="pmid">36601508</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Levy</surname>
+                <given-names>KL</given-names>
+              </name>
+              <name>
+                <surname>Grzyb</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Heidemann</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Paliani</surname>
+                <given-names>DB</given-names>
+              </name>
+              <name>
+                <surname>Grondin</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Solomon</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Spranger</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Ellies</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Ratz</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Houchens</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Enhancing Resident Education by Embedding Improvement Specialists Into a Quality and Safety Curriculum.</article-title>
+            <source>J Grad Med Educ</source>
+            <year>2023</year>
+            <month>Jun</month>
+            <volume>15</volume>
+            <issue>3</issue>
+            <fpage>348</fpage>
+            <page-range>348-355</page-range>
+            <pub-id pub-id-type="pmid">37363669</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r14">
+          <label>14</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Ilin</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Bohlen</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Six Sigma Method</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2023</year>
+            <month>1</month>
+            <day>9</day>
+            <pub-id pub-id-type="pmid">36943984</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nandi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Pan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Potumarthi</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Danquah</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>Sarethy</surname>
+                <given-names>IP</given-names>
+              </name>
+            </person-group>
+            <article-title>A Proposal for Six Sigma Integration for Large-Scale Production of Penicillin G and Subsequent Conversion to 6-APA.</article-title>
+            <source>J Anal Methods Chem</source>
+            <year>2014</year>
+            <volume>2014</volume>
+            <fpage>413616</fpage>
+            <pub-id pub-id-type="pmid">25057428</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chassin</surname>
+                <given-names>MR</given-names>
+              </name>
+            </person-group>
+            <article-title>Is health care ready for Six Sigma quality?</article-title>
+            <source>Milbank Q</source>
+            <year>1998</year>
+            <volume>76</volume>
+            <issue>4</issue>
+            <fpage>565</fpage>
+            <page-range>565-91, 510</page-range>
+            <pub-id pub-id-type="pmid">9879303</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Guevarra</surname>
+                <given-names>ALC</given-names>
+              </name>
+              <name>
+                <surname>Prasetyo</surname>
+                <given-names>YT</given-names>
+              </name>
+              <name>
+                <surname>Ong</surname>
+                <given-names>AKS</given-names>
+              </name>
+              <name>
+                <surname>Mari&#x000f1;as</surname>
+                <given-names>KA</given-names>
+              </name>
+            </person-group>
+            <article-title>Employees' preference analysis on lean six sigma program coaching attributes using a conjoint analysis approach.</article-title>
+            <source>Heliyon</source>
+            <year>2023</year>
+            <month>Jul</month>
+            <volume>9</volume>
+            <issue>7</issue>
+            <fpage>e17846</fpage>
+            <pub-id pub-id-type="pmid">37483734</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Best</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Neuhauser</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Joseph Juran: overcoming resistance to organisational change.</article-title>
+            <source>Qual Saf Health Care</source>
+            <year>2006</year>
+            <month>Oct</month>
+            <volume>15</volume>
+            <issue>5</issue>
+            <fpage>380</fpage>
+            <page-range>380-2</page-range>
+            <pub-id pub-id-type="pmid">17074878</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Akifuddin</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Khatoon</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Reduction of Complications of Local Anaesthesia in Dental Healthcare Setups by Application of the Six Sigma Methodology: A Statistical Quality Improvement Technique.</article-title>
+            <source>J Clin Diagn Res</source>
+            <year>2015</year>
+            <month>Dec</month>
+            <volume>9</volume>
+            <issue>12</issue>
+            <fpage>ZC34</fpage>
+            <page-range>ZC34-8</page-range>
+            <pub-id pub-id-type="pmid">26816989</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Karkhanis</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Thompson</surname>
+                <given-names>JM</given-names>
+              </name>
+            </person-group>
+            <article-title>Improving the Effectiveness of Root Cause Analysis in Hospitals.</article-title>
+            <source>Hosp Top</source>
+            <year>2021</year>
+            <season>Jan-Mar</season>
+            <volume>99</volume>
+            <issue>1</issue>
+            <fpage>1</fpage>
+            <page-range>1-14</page-range>
+            <pub-id pub-id-type="pmid">32969765</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Song</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Narasimhan</surname>
+                <given-names>SR</given-names>
+              </name>
+              <name>
+                <surname>Huang</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Jegatheesan</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Increased newborn NICU admission for evaluation of hypoxic-ischemic encephalopathy during COVID-19 pandemic in a public hospital.</article-title>
+            <source>Front Pediatr</source>
+            <year>2023</year>
+            <volume>11</volume>
+            <fpage>1206137</fpage>
+            <pub-id pub-id-type="pmid">37456571</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Saul</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Ketelaar</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Yaish</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Wagner</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Comrie</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Brannan</surname>
+                <given-names>GD</given-names>
+              </name>
+              <name>
+                <surname>Restini</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Balancio</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Assessing Root Causes of First Case On-time Start (FCOTS) Delay in the Orthopedic Department at a Busy Level II Community Teaching Hospital.</article-title>
+            <source>Spartan Med Res J</source>
+            <year>2022</year>
+            <volume>7</volume>
+            <issue>2</issue>
+            <fpage>36719</fpage>
+            <pub-id pub-id-type="pmid">36128021</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zimmermann</surname>
+                <given-names>GDS</given-names>
+              </name>
+              <name>
+                <surname>Siqueira</surname>
+                <given-names>LD</given-names>
+              </name>
+              <name>
+                <surname>Bohomol</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Lean Six Sigma methodology application in health care settings: an integrative review.</article-title>
+            <source>Rev Bras Enferm</source>
+            <year>2020</year>
+            <volume>73</volume>
+            <issue>suppl 5</issue>
+            <fpage>e20190861</fpage>
+            <pub-id pub-id-type="pmid">33338158</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Can&#x000e7;ado</surname>
+                <given-names>TOB</given-names>
+              </name>
+              <name>
+                <surname>Can&#x000e7;ado</surname>
+                <given-names>FB</given-names>
+              </name>
+              <name>
+                <surname>Torres</surname>
+                <given-names>MLA</given-names>
+              </name>
+            </person-group>
+            <article-title>[Lean Six Sigma and anesthesia].</article-title>
+            <source>Braz J Anesthesiol</source>
+            <year>2019</year>
+            <season>Sep-Oct</season>
+            <volume>69</volume>
+            <issue>5</issue>
+            <fpage>502</fpage>
+            <page-range>502-509</page-range>
+            <pub-id pub-id-type="pmid">31522741</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mousavi Isfahani</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Tourani</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Seyedin</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Features and Results of Conducted Studies Using a Lean Management Approach in Emergency Department in Hospital: A Systematic Review.</article-title>
+            <source>Bull Emerg Trauma</source>
+            <year>2019</year>
+            <month>Jan</month>
+            <volume>7</volume>
+            <issue>1</issue>
+            <fpage>9</fpage>
+            <page-range>9-20</page-range>
+            <pub-id pub-id-type="pmid">30719461</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Benedetto</surname>
+                <given-names>AR</given-names>
+              </name>
+            </person-group>
+            <article-title>Six Sigma: not for the faint of heart.</article-title>
+            <source>Radiol Manage</source>
+            <year>2003</year>
+            <season>Mar-Apr</season>
+            <volume>25</volume>
+            <issue>2</issue>
+            <fpage>40</fpage>
+            <page-range>40-53</page-range>
+            <pub-id pub-id-type="pmid">12800564</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>DelliFraine</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>McCaughey</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Langabeer</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Erwin</surname>
+                <given-names>CO</given-names>
+              </name>
+            </person-group>
+            <article-title>The use of six sigma in health care management: are we using it to its full potential?</article-title>
+            <source>Qual Manag Health Care</source>
+            <year>2013</year>
+            <season>Jul-Sep</season>
+            <volume>22</volume>
+            <issue>3</issue>
+            <fpage>210</fpage>
+            <page-range>210-23</page-range>
+            <pub-id pub-id-type="pmid">23807133</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Makary</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Daniel</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Medical error-the third leading cause of death in the US.</article-title>
+            <source>BMJ</source>
+            <year>2016</year>
+            <month>May</month>
+            <day>03</day>
+            <volume>353</volume>
+            <fpage>i2139</fpage>
+            <pub-id pub-id-type="pmid">27143499</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r29">
+          <label>29</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Rodziewicz</surname>
+                <given-names>TL</given-names>
+              </name>
+              <name>
+                <surname>Houseman</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Vaqar</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Hipskind</surname>
+                <given-names>JE</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Medical Error Reduction and Prevention</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2024</year>
+            <month>2</month>
+            <day>12</day>
+            <pub-id pub-id-type="pmid">29763131</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gagliardi</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name>
+                <surname>Yip</surname>
+                <given-names>CYY</given-names>
+              </name>
+              <name>
+                <surname>Irish</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Wright</surname>
+                <given-names>FC</given-names>
+              </name>
+              <name>
+                <surname>Rubin</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Ross</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Green</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Abbey</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>McAndrews</surname>
+                <given-names>MP</given-names>
+              </name>
+              <name>
+                <surname>Stewart</surname>
+                <given-names>DE</given-names>
+              </name>
+            </person-group>
+            <article-title>The psychological burden of waiting for procedures and patient-centred strategies that could support the mental health of wait-listed patients and caregivers during the COVID-19 pandemic: A scoping review.</article-title>
+            <source>Health Expect</source>
+            <year>2021</year>
+            <month>Jun</month>
+            <volume>24</volume>
+            <issue>3</issue>
+            <fpage>978</fpage>
+            <page-range>978-990</page-range>
+            <pub-id pub-id-type="pmid">33769657</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Reichert</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Jacobs</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>The impact of waiting time on patient outcomes: Evidence from early intervention in psychosis services in England.</article-title>
+            <source>Health Econ</source>
+            <year>2018</year>
+            <month>Nov</month>
+            <volume>27</volume>
+            <issue>11</issue>
+            <fpage>1772</fpage>
+            <page-range>1772-1787</page-range>
+            <pub-id pub-id-type="pmid">30014544</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tolf</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Mesterton</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>S&#x000f6;derberg</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Amer-W&#x000e5;hlin</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Mazzocato</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>How can technology support quality improvement? Lessons learned from the adoption of an analytics tool for advanced performance measurement in a hospital unit.</article-title>
+            <source>BMC Health Serv Res</source>
+            <year>2020</year>
+            <month>Sep</month>
+            <day>01</day>
+            <volume>20</volume>
+            <issue>1</issue>
+            <fpage>816</fpage>
+            <pub-id pub-id-type="pmid">32873286</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Carroll</surname>
+                <given-names>NW</given-names>
+              </name>
+              <name>
+                <surname>Clement</surname>
+                <given-names>JP</given-names>
+              </name>
+            </person-group>
+            <article-title>Hospital Performance in the First 6 Years of Medicare's Value-Based Purchasing Program.</article-title>
+            <source>Med Care Res Rev</source>
+            <year>2021</year>
+            <month>Oct</month>
+            <volume>78</volume>
+            <issue>5</issue>
+            <fpage>598</fpage>
+            <page-range>598-606</page-range>
+            <pub-id pub-id-type="pmid">32552539</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Husaini</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Joynt Maddox</surname>
+                <given-names>KE</given-names>
+              </name>
+            </person-group>
+            <article-title>Paying for Performance Improvement in Quality and Outcomes of Cardiovascular Care: Challenges and Prospects.</article-title>
+            <source>Methodist Debakey Cardiovasc J</source>
+            <year>2020</year>
+            <season>Jul-Sep</season>
+            <volume>16</volume>
+            <issue>3</issue>
+            <fpage>225</fpage>
+            <page-range>225-231</page-range>
+            <pub-id pub-id-type="pmid">33133359</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Batalden</surname>
+                <given-names>PB</given-names>
+              </name>
+              <name>
+                <surname>Davidoff</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>What is "quality improvement" and how can it transform healthcare?</article-title>
+            <source>Qual Saf Health Care</source>
+            <year>2007</year>
+            <month>Feb</month>
+            <volume>16</volume>
+            <issue>1</issue>
+            <fpage>2</fpage>
+            <page-range>2-3</page-range>
+            <pub-id pub-id-type="pmid">17301192</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nancarrow</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Booth</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Ariss</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Smith</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Enderby</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Roots</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Ten principles of good interdisciplinary team work.</article-title>
+            <source>Hum Resour Health</source>
+            <year>2013</year>
+            <month>May</month>
+            <day>10</day>
+            <volume>11</volume>
+            <fpage>19</fpage>
+            <pub-id pub-id-type="pmid">23663329</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Perneger</surname>
+                <given-names>TV</given-names>
+              </name>
+            </person-group>
+            <article-title>The Swiss cheese model of safety incidents: are there holes in the metaphor?</article-title>
+            <source>BMC Health Serv Res</source>
+            <year>2005</year>
+            <month>Nov</month>
+            <day>09</day>
+            <volume>5</volume>
+            <fpage>71</fpage>
+            <pub-id pub-id-type="pmid">16280077</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yip</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Farmer</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>High Reliability Organizations--Medication Safety.</article-title>
+            <source>J Med Toxicol</source>
+            <year>2015</year>
+            <month>Jun</month>
+            <volume>11</volume>
+            <issue>2</issue>
+            <fpage>257</fpage>
+            <page-range>257-61</page-range>
+            <pub-id pub-id-type="pmid">25812532</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Leonard</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Graham</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Bonacum</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>The human factor: the critical importance of effective teamwork and communication in providing safe care.</article-title>
+            <source>Qual Saf Health Care</source>
+            <year>2004</year>
+            <month>Oct</month>
+            <volume>13 Suppl 1</volume>
+            <issue>Suppl 1</issue>
+            <fpage>i85</fpage>
+            <page-range>i85-90</page-range>
+            <pub-id pub-id-type="pmid">15465961</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r40">
+          <label>40</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>O&#x02019;Daniel</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Rosenstein</surname>
+                <given-names>AH</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Professional Communication and Team Collaboration</chapter-title>
+            <person-group person-group-type="editor">
+              <name>
+                <surname>Hughes</surname>
+                <given-names>RG</given-names>
+              </name>
+            </person-group>
+            <source>Patient Safety and Quality: An Evidence-Based Handbook for Nurses</source>
+            <publisher-name>Agency for Healthcare Research and Quality (US)</publisher-name>
+            <publisher-loc>Rockville (MD)</publisher-loc>
+            <year>2008</year>
+            <month>04</month>
+            <pub-id pub-id-type="pmid">21328739</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Boysen</surname>
+                <given-names>PG</given-names>
+              </name>
+            </person-group>
+            <article-title>Just culture: a foundation for balanced accountability and patient safety.</article-title>
+            <source>Ochsner J</source>
+            <year>2013</year>
+            <season>Fall</season>
+            <volume>13</volume>
+            <issue>3</issue>
+            <fpage>400</fpage>
+            <page-range>400-6</page-range>
+            <pub-id pub-id-type="pmid">24052772</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kossaify</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Hleihel</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Lahoud</surname>
+                <given-names>JC</given-names>
+              </name>
+            </person-group>
+            <article-title>Team-based efforts to improve quality of care, the fundamental role of ethics, and the responsibility of health managers: monitoring and management strategies to enhance teamwork.</article-title>
+            <source>Public Health</source>
+            <year>2017</year>
+            <month>Dec</month>
+            <volume>153</volume>
+            <fpage>91</fpage>
+            <page-range>91-98</page-range>
+            <pub-id pub-id-type="pmid">28963954</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r43">
+          <label>43</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>McGowan</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Wojahn</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Nicolini</surname>
+                <given-names>JR</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Risk Management Event Evaluation and Responsibilities</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2023</year>
+            <month>8</month>
+            <day>23</day>
+            <pub-id pub-id-type="pmid">32644752</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-151565.r44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Charles</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Hood</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Derosier</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Gosbee</surname>
+                <given-names>JW</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Caird</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Biermann</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Hake</surname>
+                <given-names>ME</given-names>
+              </name>
+            </person-group>
+            <article-title>How to perform a root cause analysis for workup and future prevention of medical errors: a review.</article-title>
+            <source>Patient Saf Surg</source>
+            <year>2016</year>
+            <volume>10</volume>
+            <fpage>20</fpage>
+            <pub-id pub-id-type="pmid">27688807</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

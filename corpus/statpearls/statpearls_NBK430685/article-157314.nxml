@@ -1,0 +1,1510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-157314" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Healthcare Analytics</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Tandon</surname>
+            <given-names>Radhika</given-names>
+          </name>
+          <aff>Rosalind Franklin University of Medicine &#x00026; Science, North Chicago, IL</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Harnden</surname>
+            <given-names>Ashley</given-names>
+          </name>
+          <aff>Des Moines University, College of Osteopathic Medicine Des Moines, IA</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Brannan</surname>
+            <given-names>Grace D.</given-names>
+          </name>
+          <aff>GDB Research and Statistical Consulting/McLaren Macomb Hospital</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Radhika Tandon declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Ashley Harnden declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Grace Brannan declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>27</day>
+          <month>4</month>
+          <year>2025</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-157314.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Healthcare analytics uses quantitative and qualitative methods to systematically collect and analyze medical data from various sources, including electronic health records, medical imaging, insurance claims, patient surveys, wearable devices, genomics, and pharmaceutical data. This approach supports evidence-based and outcome-driven decision-making in clinical practice.<xref ref-type="bibr" rid="article-157314.r1">[1]</xref>&#x000a0;Data analytics in health care identifies patterns, enhances patient care, and improves system efficiency.<xref ref-type="bibr" rid="article-157314.r2">[2]</xref></p>
+        <p>
+<bold>History and Evolution</bold>
+</p>
+        <p>Healthcare analytics has significantly advanced since the 1960s, when electronic health records were first used for administrative functions&#x000a0;such as billing, payroll, and research. Over time, these systems expanded into clinical domains, including admissions, discharges, and laboratory automation.<xref ref-type="bibr" rid="article-157314.r3">[3]</xref><xref ref-type="bibr" rid="article-157314.r4">[4]</xref><xref ref-type="bibr" rid="article-157314.r5">[5]</xref>&#x000a0;A pivotal shift occurred in the 1990s with the Institute of Medicine's advocacy for electronic patient records, an initiative further advanced by the 2009&#x000a0;Health Information Technology for Economic and Clinical Health (HITECH). According to the United States Department of Health and Human Services, health information technology (IT) encompasses the electronic processing, storage, and exchange of health data. Federal initiatives, such as the Crossing the Quality Chasm report, emphasize the&#x000a0;critical role of electronic health records in improving healthcare delivery.<xref ref-type="bibr" rid="article-157314.r6">[6]</xref><xref ref-type="bibr" rid="article-157314.r7">[7]</xref></p>
+        <p>What began as a tool for administrative efficiency has since evolved into a sophisticated system for addressing complex clinical and operational challenges. Today, healthcare analytics supports predictive modeling, enhances patient safety, improves care quality, and drives overall system performance.<xref ref-type="bibr" rid="article-157314.r8">[8]</xref>&#x000a0;Healthcare analytics also helps address socio-technical issues, such as data accuracy, human error, and workflow inefficiencies, highlighting the field's evolution from its foundational role in healthcare administration.<xref ref-type="bibr" rid="article-157314.r9">[9]</xref></p>
+        <p>Healthcare analytics encompasses 5 key types&#x02014;descriptive, diagnostic, predictive, prescriptive, and discovery analytics. These core components are essential for analyzing data and are commonly used in statistical methods and real-time applications through artificial intelligence (AI) and machine learning within health IT systems and electronic health records.<xref ref-type="bibr" rid="article-157314.r8">[8]</xref><xref ref-type="bibr" rid="article-157314.r10">[10]</xref> Each type of analytics serves a distinct role but works together with others. AI and machine learning enable real-time analysis for timely decision-making.</p>
+        <p>
+<bold>Types of Healthcare Analytics</bold>
+</p>
+        <p>Descriptive analytics:&#x000a0;Descriptive analytics reviews historical data to provide an understanding of past or current events to identify meaningful patterns.<xref ref-type="bibr" rid="article-157314.r8">[8]</xref><xref ref-type="bibr" rid="article-157314.r10">[10]</xref>&#x000a0;Although not focused on causation, descriptive analytics helps healthcare organizations gauge overall experiences or outcomes through data visualization and illustration.<xref ref-type="bibr" rid="article-157314.r8">[8]</xref> Descriptive analytics is the first step in addressing and identifying patterns and trends experienced in health care. Examples of&#x000a0;descriptive analytics include cross-sectional analyses that describe a population at a specific time without analyzing cause and effect, graphs that display data, and some aspects of systematic reviews&#x000a0;and meta-analyses that do not include root cause analyses. Healthcare professionals can&#x000a0;use descriptive analytics to analyze processes needing improvement and gain insight into peak timing for common respiratory illnesses and populations&#x000a0;with&#x000a0;high rates of cardiovascular disease.&#x000a0;</p>
+        <p>Diagnostic analytics:&#x000a0;Diagnostic analytics focuses on identifying relationships and patterns. In other words, diagnostic analytics helps determine what happened and what may happen next. Common examples&#x000a0;include demographic data when evaluating readmission rates and genetic factors in patients with cancer.<xref ref-type="bibr" rid="article-157314.r8">[8]</xref> This information provides insights into understanding specific medical conditions and their contributing factors. Diagnostic analytics help elucidate the underlying causes of events and support efforts to prevent their recurrence.<xref ref-type="bibr" rid="article-157314.r8">[8]</xref> For clinicians, diagnostic analytics involves collecting data to develop diagnostic algorithms and clinical practice guidelines. In healthcare administration and public health, it often includes tools such as root cause analysis and the Swiss cheese model to identify underlying factors contributing to errors or system failures.</p>
+        <p>Predictive analytics:&#x000a0;Predictive analytics uses historical data and statistical modeling to forecast future outcomes.<xref ref-type="bibr" rid="article-157314.r8">[8]</xref><xref ref-type="bibr" rid="article-157314.r10">[10]</xref>&#x000a0;Drawing on descriptive analytics insights, predictive analytics identifies patterns and trends to guide decision-making. Predictive analytics supports healthcare providers in delivering proactive care and helps organizations optimize staffing, resource allocation, and overall operational efficiency.</p>
+        <p>Prescriptive analytics:&#x000a0;Prescriptive analytics builds on diagnostic and predictive analytics to recommend specific actions to achieve desired results. Prescriptive analytics analyzes past data in combination with clinical guidelines or algorithms to suggest optimal decisions.<xref ref-type="bibr" rid="article-157314.r8">[8]</xref><xref ref-type="bibr" rid="article-157314.r10">[10]</xref>&#x000a0;This approach supports evidence-based interventions in health care, helping healthcare providers choose the most effective course of action for improved patient care and operational outcomes.</p>
+        <p>Discovery analytics:&#x000a0;Discovery analytics in health care focuses on uncovering previously unknown patterns, relationships, or insights within data. Unlike other analytics that answer specific questions, discovery analytics explores data without predefined hypotheses, often using advanced tools&#x000a0;such as machine learning. This approach can reveal new risk factors, treatment responses, or opportunities for innovation in patient care and public health. Some examples include the discovery of new drugs, biomarkers,&#x000a0;or alternative treatment strategies.<xref ref-type="bibr" rid="article-157314.r8">[8]</xref><xref ref-type="bibr" rid="article-157314.r10">[10]</xref> Discovery analytics assist researchers in identifying the key factors they should focus on for further investigation.</p>
+      </sec>
+      <sec id="article-157314.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>
+<bold>Data Integrity</bold>
+</p>
+        <p>Relying solely on unverified or third-party sources&#x02014;such as non&#x02013;peer&#x02013;reviewed publications or externally obtained data&#x02014;can compromise data integrity due to factors such as collection errors, misinterpretation, language barriers, human mistakes, or electronic interference. To reduce risk and ensure accuracy, healthcare professionals are encouraged to use sound clinical judgment and avoid depending on a single source.<xref ref-type="bibr" rid="article-157314.r1">[1]</xref><xref ref-type="bibr" rid="article-157314.r11">[11]</xref>&#x000a0;Collecting and analyzing their data and critically evaluating outputs from computerized tools are essential for safeguarding patient care and minimizing errors in diagnosis, prediction, and treatment.<xref ref-type="bibr" rid="article-157314.r9">[9]</xref><xref ref-type="bibr" rid="article-157314.r12">[12]</xref></p>
+        <p>
+<bold>Labor and Infrastructure</bold>
+</p>
+        <p>Although&#x000a0;analytics is essential for clinical practice and healthcare operations, its implementation comes with notable costs. Costs may include hiring and training staff to analyze system failures and employing clinicians with advanced skills in health technology to reduce medical errors.<xref ref-type="bibr" rid="article-157314.r13">[13]</xref> Many healthcare organizations cite the costs of conducting studies, implementation, and staff training as significant barriers to adopting analytics. Similarly, clinicians often report that limited time and insufficient training hinder their ability to use new technologies effectively.<xref ref-type="bibr" rid="article-157314.r14">[14]</xref><xref ref-type="bibr" rid="article-157314.r15">[15]</xref>&#x000a0;</p>
+        <p>To ensure data quality and compliance, data collection, storage, retrieval, and analysis must meet established standards and regulatory requirements, including reporting to national or third-party databases.<xref ref-type="bibr" rid="article-157314.r16">[16]</xref>&#x000a0;Although central to healthcare analytics, electronic health records also present challenges such as poor design, implementation difficulties, and usability issues. Strategies such as safety huddles can help address electronic health record-related safety concerns by identifying and resolving technology-related problems in real time.<xref ref-type="bibr" rid="article-157314.r12">[12]</xref></p>
+        <p>
+<bold>Health Policies</bold>
+</p>
+        <p>Executive Order 13642, Making Open and Machine Readable the New Default for Government Information, issued by President Obama in 2013, mandates that United States government agencies make their data open and machine-readable by default. This initiative aims to promote transparency and data sharing. Although these datasets are now publicly accessible, their full integration into preventive healthcare policy is still evolving.<xref ref-type="bibr" rid="article-157314.r17">[17]</xref> Big data analytics holds promise in areas such as improving immunization rates and addressing healthcare access in underserved regions.<xref ref-type="bibr" rid="article-157314.r17">[17]</xref> Globally, although research has explored the role of big data in shaping health policy, stakeholders continue to face challenges related to data security, technological infrastructure, and workforce expertise.<xref ref-type="bibr" rid="article-157314.r18">[18]</xref></p>
+        <p>
+<bold>Ethical and Legal&#x000a0;Considerations</bold>
+</p>
+        <p>Data safety and privacy are critical components of healthcare analytics, particularly when handling patient-identifiable information.<xref ref-type="bibr" rid="article-157314.r19">[19]</xref>&#x000a0;Healthcare organizations are responsible for protecting data against cyberattacks, unauthorized access, and physical loss while complying with local, state, and federal regulations, including the Health Insurance Portability and Accountability Act (HIPAA).<xref ref-type="bibr" rid="article-157314.r13">[13]</xref><xref ref-type="bibr" rid="article-157314.r19">[19]</xref><xref ref-type="bibr" rid="article-157314.r20">[20]</xref><xref ref-type="bibr" rid="article-157314.r21">[21]</xref>&#x000a0;Strict data privacy regulations particularly govern fields such as preventive and precision medicine due to their dependence on sensitive health information.</p>
+        <p>Key concerns&#x000a0;in healthcare data management include data breaches, re-identification of anonymized data, and the use of patient data without explicit consent&#x02014;all raising significant ethical issues related to privacy and autonomy. Best practices such as data minimization, encryption, and controlled access are essential for safeguarding information. Ensuring data quality and accuracy is also vital for informed clinical decisions.</p>
+        <p>Informed consent plays a central role in maintaining patient trust. Clinicians and healthcare organizations must inform patients how their data will be used and allow patients to opt in or out.&#x000a0;Organizations must also be transparent about their data practices and ensure that patients retain control over their personal information. Any person or organization performing data analytics must strictly follow legal and regulatory frameworks, protect data, and navigate complex data ownership, access, and liability issues. Ethical data management thus becomes a cornerstone of responsible healthcare analytics.</p>
+        <p>
+<bold>Physician Autonomy and Integrity</bold>
+</p>
+        <p>IT, clinical decision-making support tools, and guidelines provide cognitive shortcuts for its end-users. A potential challenge is de-skilling through the reduced use of certain skills and algorithmic bias, where historical data may reinforce disparities, leading to unfair outcomes. Systems must allow for transparency and accountability in how algorithms function to promote fairness and allow patients to challenge decisions that affect their care.<xref ref-type="bibr" rid="article-157314.r22">[22]</xref></p>
+        <p>
+<bold>Analytic Methods Used</bold>
+</p>
+        <p>Hardware and software issues can present significant challenges in healthcare analytics.<xref ref-type="bibr" rid="article-157314.r9">[9]</xref>&#x000a0;In addition, selecting appropriate statistical methods&#x02014;such as logistic regression&#x02014;can be complex due to their inherent strengths and limitations. When using machine learning models, the reliability of the output depends heavily on how the models are built and the assumptions made during development.<xref ref-type="bibr" rid="article-157314.r23">[23]</xref> For instance, the nature of the training data&#x02014;whether supervised (labeled) or unsupervised (unlabeled)&#x02014;can significantly impact the model's performance and interpretation.</p>
+        <p>
+<bold>Deployment</bold>
+</p>
+        <p>Implementing electronic health records is a continuous process, even in developed countries. A socio-technical approach is a strategy that emphasizes collaboration among all key stakeholders&#x02014;healthcare users, patients, software developers, and policy-makers&#x02014;to improve electronic health record systems and reduce errors.<xref ref-type="bibr" rid="article-157314.r9">[9]</xref></p>
+        <p>However, low-income developing countries face additional challenges when trying to deploy electronic health records.&#x000a0;A systematic review reveals common barriers, including:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Resistance to change among healthcare staff or institutions</p>
+          </list-item>
+          <list-item>
+            <p>Concerns about data privacy and security</p>
+          </list-item>
+          <list-item>
+            <p>Limited financial and technical resources <xref ref-type="bibr" rid="article-157314.r14">[14]</xref></p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-157314.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Data analytics is a powerful tool in health care, enabling more efficient, informed, and proactive decision-making across clinical and operational settings. This approach&#x000a0;supports a continuous process where issues are identified, described, diagnosed, and addressed using insights from past outcomes. These steps occur sequentially and synchronously, allowing healthcare operations to function smoothly and adapt in real time. As various problems arise&#x02014;whether related to patient care, workflow inefficiencies, or resource management&#x02014;data analytics helps uncover root causes and guide appropriate actions based on the results of similar interventions. This approach supports evidence-based care and improves system performance. For example, analytics can predict patient readmission risks, uncover trends in hospital-acquired infections, optimize staffing based on demand, enhance chronic disease management, and support population health strategies by analyzing social determinants and care patterns. By incorporating analytics into daily practice, healthcare professionals can reduce errors, personalize treatment, and improve both patient outcomes and operational efficiency. The following are examples of clinical applications of data analytics.</p>
+        <p>
+<bold>Descriptive Analytics</bold>
+</p>
+        <p>Descriptive analytics provides baseline information that guides clinical decision-making. This approach&#x000a0;helps healthcare&#x000a0;professionals summarize and organize large amounts of patient data, including medical history, physical exam findings, and treatment outcomes, to better understand the patient's condition.&#x000a0;On a broader scale, electronic health data from multiple institutions contribute to registries, offering generalizable insights into specific conditions such as pediatric heart disease. In addition, data from surveys and retrospective chart reviews support evidence-based practices by identifying trends and informing best practices in patient management.<xref ref-type="bibr" rid="article-157314.r24">[24]</xref><xref ref-type="bibr" rid="article-157314.r25">[25]</xref></p>
+        <p>
+<bold>Diagnostic Analytics</bold>
+</p>
+        <p>Analytics is advancing health care by supporting more personalized and precision medicine. By grouping patients based on biological traits and disease characteristics, diagnostic analytics help target treatments more effectively, leading to improved outcomes.<xref ref-type="bibr" rid="article-157314.r2">[2]</xref> Diagnostic analytics also plays a key role in quality improvement efforts, such as root cause analysis and Plan-Do-Study-Act cycles. In addition, analytics enhances research by uncovering disease mechanisms, such as those involved in early-stage lung adenocarcinoma.<xref ref-type="bibr" rid="article-157314.r26">[26]</xref></p>
+        <p>
+<bold>Predictive Analytics</bold>
+</p>
+        <p>Healthcare teams and researchers use predictive analytics to select relevant factors&#x02014;such as biometric data, genetics, lifestyle, and environmental influences&#x02014;to guide treatment strategies and improve safety in clinical settings.<xref ref-type="bibr" rid="article-157314.r27">[27]</xref><xref ref-type="bibr" rid="article-157314.r28">[28]</xref><xref ref-type="bibr" rid="article-157314.r29">[29]</xref> These insights support the creation of personalized care plans tailored to individual patient needs.</p>
+        <p>Predictive analytics also enables the development of models and scoring systems to assess illness severity, such as the Glasgow Coma Scale for evaluating consciousness in patients who experience trauma and the&#x000a0;National Institutes of Health Stroke Scale for measuring stroke severity.<xref ref-type="bibr" rid="article-157314.r30">[30]</xref><xref ref-type="bibr" rid="article-157314.r31">[31]</xref> In addition, predictive tools help healthcare systems manage rising costs, optimize workloads, and reduce clinical errors.<xref ref-type="bibr" rid="article-157314.r32">[32]</xref>&#x000a0;By forecasting changes in key performance indicators and outcomes, predictive analytics supports the implementation of safety measures&#x02014;such as daily huddles and safety checklists&#x02014;and helps optimize clinical workflows and scheduling based on anticipated patient needs.<xref ref-type="bibr" rid="article-157314.r32">[32]</xref></p>
+        <p>
+<bold>Prescriptive Analytics</bold>
+</p>
+        <p>Computerized clinical decision support systems are increasingly advanced, offering assessment recommendations based on a patient's history and clinical presentation.<xref ref-type="bibr" rid="article-157314.r33">[33]</xref> These systems help automate treatment and practice guidelines, enhancing consistency and efficiency in care.<xref ref-type="bibr" rid="article-157314.r34">[34]</xref><xref ref-type="bibr" rid="article-157314.r35">[35]</xref><xref ref-type="bibr" rid="article-157314.r36">[36]</xref><xref ref-type="bibr" rid="article-157314.r37">[37]</xref><xref ref-type="bibr" rid="article-157314.r38">[38]</xref>&#x000a0;When integrated with computerized order entry systems, they reduce medication errors by cross-referencing patient data with pharmaceutical databases.<xref ref-type="bibr" rid="article-157314.r33">[33]</xref>&#x000a0;In addition, public health officials use predictive analytics to guide decisions on policy changes at the community or national level, supporting broader population health strategies.</p>
+      </sec>
+      <sec id="article-157314.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>Healthcare analytics systematically uses diverse medical data and quantitative and qualitative methods to support evidence-based and outcome-focused decision-making. This discipline&#x000a0;plays a critical role in identifying patterns, improving patient care, optimizing operational efficiency, and supporting preventive and precision medicine. Descriptive analytics identifies trends from past data, whereas diagnostic analytics reveals underlying causes and supports the development of clinical guidelines. Predictive analytics forecasts outcomes to help manage resources and patient risks, and prescriptive analytics recommends specific actions based on past data and algorithms. Discovery analytics uncovers new relationships in data, offering insights that drive innovation and future research.</p>
+        <p>Despite its benefits, implementing analytics involves challenges such as high costs, limited training, and infrastructure demands. In addition, maintaining data integrity is crucial, and healthcare professionals must use sound judgment, collect their own data when possible, and critically assess outputs from digital tools. Ethical and legal concerns must also be addressed, particularly regarding data privacy, consent, and algorithmic bias. Organizations must comply with standards&#x000a0;such as&#x000a0;HIPAA and ensure that patients retain control over their information.</p>
+        <p>Globally, the potential of big data in health policy is growing. However, challenges remain in security, technology access, and workforce readiness, especially in low-income countries where resistance to change, privacy concerns, and limited resources hinder the deployment of electronic health records. Addressing these barriers through collaborative, socio-technical approaches and ongoing evaluation of analytic methods is essential in harnessing the full potential of healthcare analytics. Effective use of data analytics in health care requires a comprehensive blend of skills, strategic approaches, ethical considerations, shared responsibilities, and strong interprofessional collaboration to enhance patient-centered care, safety, outcomes, and team performance. A&#x000a0;team of healthcare professionals, including clinicians, advanced practice providers,&#x000a0;pharmacists, and other healthcare providers, must develop core competencies&#x000a0;such as data literacy, critical thinking, and clinical informatics. These skills enable them to interpret data accurately, apply it to patient care, and recognize trends that support proactive decision-making. The strategic&#x000a0;integration of analytics into clinical workflows involves identifying relevant metrics, aligning data use with quality improvement goals, and leveraging tools such as dashboards or clinical decision support systems. Ensuring data&#x000a0;is actionable and accessible in real-time empowers healthcare teams to personalize treatment plans, predict complications, and provide early intervention.</p>
+        <p>Seamless interprofessional communication is essential for translating data insights into coordinated, high-quality care. Clinicians and advanced practitioners often lead diagnostic and treatment decisions, supported by nurses who provide frontline data monitoring and patient education. Pharmacists play a key role in analyzing medication-related data to prevent adverse drug effects and optimize therapy. IT professionals, quality analysts, and public health experts also contribute by designing systems, evaluating outcomes, and identifying population health trends. Regular team meetings, shared documentation, and collaborative interpretation of analytics enhance decision-making and ensure that care plans are consistent and aligned across disciplines. Data analytics supports more effective care coordination by identifying gaps in care, managing transitions between settings, and tracking patient progress over time. Interdisciplinary collaboration fosters a culture of shared responsibility, where the healthcare team values each professional's expertise in achieving patient-centered outcomes. By utilizing appropriate&#x000a0;skills, ethical practices, strategic planning, and collaborative teamwork, healthcare professionals can deliver safer, more effective, and patient-focused care.</p>
+      </sec>
+      <sec id="article-157314.s5" sec-type="Nursing, Allied Health, and Interprofessional Team Monitoring">
+        <title>Nursing, Allied Health, and Interprofessional Team Monitoring</title>
+        <p>Healthcare teams prioritize&#x000a0;collecting and documenting complete, accurate data,&#x000a0;relying on trustworthy sources to guide clinical decisions. Oversight of compliance and performance involves multiple layers, including individual accountability, specialty-specific professionals, IT teams, security personnel, ethics committees, administrators, and regulatory or public health agencies. This collaborative monitoring ensures data integrity, ethical practice, and adherence to standards.</p>
+      </sec>
+      <sec id="article-157314.s6">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=157314&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=157314">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/157314/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=157314">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-157314.s7">
+        <title>References</title>
+        <ref id="article-157314.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Simpao</surname>
+                <given-names>AF</given-names>
+              </name>
+              <name>
+                <surname>Ahumada</surname>
+                <given-names>LM</given-names>
+              </name>
+              <name>
+                <surname>G&#x000e1;lvez</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Rehman</surname>
+                <given-names>MA</given-names>
+              </name>
+            </person-group>
+            <article-title>A review of analytics and clinical informatics in health care.</article-title>
+            <source>J Med Syst</source>
+            <year>2014</year>
+            <month>Apr</month>
+            <volume>38</volume>
+            <issue>4</issue>
+            <fpage>45</fpage>
+            <pub-id pub-id-type="pmid">24696396</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wu</surname>
+                <given-names>PY</given-names>
+              </name>
+              <name>
+                <surname>Cheng</surname>
+                <given-names>CW</given-names>
+              </name>
+              <name>
+                <surname>Kaddi</surname>
+                <given-names>CD</given-names>
+              </name>
+              <name>
+                <surname>Venugopalan</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Hoffman</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>MD</given-names>
+              </name>
+            </person-group>
+            <article-title>-Omic and Electronic Health Record Big Data Analytics for Precision Medicine.</article-title>
+            <source>IEEE Trans Biomed Eng</source>
+            <year>2017</year>
+            <month>Feb</month>
+            <volume>64</volume>
+            <issue>2</issue>
+            <fpage>263</fpage>
+            <page-range>263-273</page-range>
+            <pub-id pub-id-type="pmid">27740470</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Alderson</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>A review of the National Health Service's computing policy in the 1970s.</article-title>
+            <source>Br J Prev Soc Med</source>
+            <year>1976</year>
+            <month>Mar</month>
+            <volume>30</volume>
+            <issue>1</issue>
+            <fpage>11</fpage>
+            <page-range>11-16</page-range>
+            <pub-id pub-id-type="pmid">779910</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>SCHENTHAL</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>SWEENEY</surname>
+                <given-names>JW</given-names>
+              </name>
+              <name>
+                <surname>NETTLETON</surname>
+                <given-names>W</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical application of large-scale electronic data processing apparatus. I. New concepts in clinical use of the electronic digital computer.</article-title>
+            <source>J Am Med Assoc</source>
+            <year>1960</year>
+            <month>May</month>
+            <day>07</day>
+            <volume>173</volume>
+            <fpage>6</fpage>
+            <page-range>6-11</page-range>
+            <pub-id pub-id-type="pmid">14442625</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>SCHENTHAL</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>SWEENEY</surname>
+                <given-names>JW</given-names>
+              </name>
+              <name>
+                <surname>NETTLETON</surname>
+                <given-names>W</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical application of electronic data processing apparatus. II. New methodology in clinical record storage.</article-title>
+            <source>JAMA</source>
+            <year>1961</year>
+            <month>Oct</month>
+            <day>21</day>
+            <volume>178</volume>
+            <fpage>267</fpage>
+            <page-range>267-70</page-range>
+            <pub-id pub-id-type="pmid">14498238</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r6">
+          <label>6</label>
+          <element-citation publication-type="book">
+            <collab>Institute of Medicine (US) Committee on Quality of Health Care in America</collab>
+            <source>Crossing the Quality Chasm: A New Health System for the 21st Century</source>
+            <publisher-name>National Academies Press (US)</publisher-name>
+            <publisher-loc>Washington (DC)</publisher-loc>
+            <year>2001</year>
+            <pub-id pub-id-type="pmid">25057539</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <article-title>Bio*Medical Informatics and Genomic Medicine: Research and Training.</article-title>
+            <source>J Biomed Inform</source>
+            <year>2007</year>
+            <month>Feb</month>
+            <volume>40</volume>
+            <issue>1</issue>
+            <fpage>1</fpage>
+            <page-range>1-4</page-range>
+            <pub-id pub-id-type="pmid">18239725</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Khalifa</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Health Analytics Types, Functions and Levels: A Review of Literature.</article-title>
+            <source>Stud Health Technol Inform</source>
+            <year>2018</year>
+            <volume>251</volume>
+            <fpage>137</fpage>
+            <page-range>137-140</page-range>
+            <pub-id pub-id-type="pmid">29968621</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sittig</surname>
+                <given-names>DF</given-names>
+              </name>
+              <name>
+                <surname>Singh</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Defining health information technology-related errors: new developments since to err is human.</article-title>
+            <source>Arch Intern Med</source>
+            <year>2011</year>
+            <month>Jul</month>
+            <day>25</day>
+            <volume>171</volume>
+            <issue>14</issue>
+            <fpage>1281</fpage>
+            <page-range>1281-4</page-range>
+            <pub-id pub-id-type="pmid">21788544</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Batko</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>&#x0015a;l&#x00119;zak</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>The use of Big Data Analytics in healthcare.</article-title>
+            <source>J Big Data</source>
+            <year>2022</year>
+            <volume>9</volume>
+            <issue>1</issue>
+            <fpage>3</fpage>
+            <pub-id pub-id-type="pmid">35013701</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lyle</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Weller</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Samuel</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Lucassen</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>Beyond regulatory approaches to ethics: making space for ethical preparedness in healthcare research.</article-title>
+            <source>J Med Ethics</source>
+            <year>2023</year>
+            <month>May</month>
+            <volume>49</volume>
+            <issue>5</issue>
+            <fpage>352</fpage>
+            <page-range>352-356</page-range>
+            <pub-id pub-id-type="pmid">35725300</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Menon</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Singh</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Giardina</surname>
+                <given-names>TD</given-names>
+              </name>
+              <name>
+                <surname>Rayburn</surname>
+                <given-names>WL</given-names>
+              </name>
+              <name>
+                <surname>Davis</surname>
+                <given-names>BP</given-names>
+              </name>
+              <name>
+                <surname>Russo</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name>
+                <surname>Sittig</surname>
+                <given-names>DF</given-names>
+              </name>
+            </person-group>
+            <article-title>Safety huddles to proactively identify and address electronic health record safety.</article-title>
+            <source>J Am Med Inform Assoc</source>
+            <year>2017</year>
+            <month>Mar</month>
+            <day>01</day>
+            <volume>24</volume>
+            <issue>2</issue>
+            <fpage>261</fpage>
+            <page-range>261-267</page-range>
+            <pub-id pub-id-type="pmid">28031286</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Basil</surname>
+                <given-names>NN</given-names>
+              </name>
+              <name>
+                <surname>Ambe</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Ekhator</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Fonkem</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Health Records Database and Inherent Security Concerns: A Review of the Literature.</article-title>
+            <source>Cureus</source>
+            <year>2022</year>
+            <month>Oct</month>
+            <volume>14</volume>
+            <issue>10</issue>
+            <fpage>e30168</fpage>
+            <pub-id pub-id-type="pmid">36397924</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Derecho</surname>
+                <given-names>KC</given-names>
+              </name>
+              <name>
+                <surname>Cafino</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Aquino-Cafino</surname>
+                <given-names>SL</given-names>
+              </name>
+              <name>
+                <surname>Isla</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Esencia</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Lactuan</surname>
+                <given-names>NJ</given-names>
+              </name>
+              <name>
+                <surname>Maranda</surname>
+                <given-names>JAG</given-names>
+              </name>
+              <name>
+                <surname>Velasco</surname>
+                <given-names>LCP</given-names>
+              </name>
+            </person-group>
+            <article-title>Technology adoption of electronic medical records in developing economies: A systematic review on physicians' perspective.</article-title>
+            <source>Digit Health</source>
+            <year>2024</year>
+            <season>Jan-Dec</season>
+            <volume>10</volume>
+            <fpage>20552076231224605</fpage>
+            <pub-id pub-id-type="pmid">38222081</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sanderson</surname>
+                <given-names>BJ</given-names>
+              </name>
+              <name>
+                <surname>Field</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Kocaballi</surname>
+                <given-names>AB</given-names>
+              </name>
+              <name>
+                <surname>Estcourt</surname>
+                <given-names>LJ</given-names>
+              </name>
+              <name>
+                <surname>Magrabi</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Wood</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name>
+                <surname>Coiera</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical decision support versus a paper-based protocol for massive transfusion: Impact on decision outcomes in a simulation study.</article-title>
+            <source>Transfusion</source>
+            <year>2023</year>
+            <month>Dec</month>
+            <volume>63</volume>
+            <issue>12</issue>
+            <fpage>2225</fpage>
+            <page-range>2225-2233</page-range>
+            <pub-id pub-id-type="pmid">37921017</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Stewart</surname>
+                <given-names>JM</given-names>
+              </name>
+            </person-group>
+            <article-title>Abstraction Techniques for the STS National Database.</article-title>
+            <source>J Extra Corpor Technol</source>
+            <year>2016</year>
+            <month>Dec</month>
+            <volume>48</volume>
+            <issue>4</issue>
+            <fpage>201</fpage>
+            <page-range>201-203</page-range>
+            <pub-id pub-id-type="pmid">27994262</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Batarseh</surname>
+                <given-names>FA</given-names>
+              </name>
+              <name>
+                <surname>Ghassib</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Chong</surname>
+                <given-names>DS</given-names>
+              </name>
+              <name>
+                <surname>Su</surname>
+                <given-names>PH</given-names>
+              </name>
+            </person-group>
+            <article-title>Preventive healthcare policies in the US: solutions for disease management using Big Data Analytics.</article-title>
+            <source>J Big Data</source>
+            <year>2020</year>
+            <volume>7</volume>
+            <issue>1</issue>
+            <fpage>38</fpage>
+            <pub-id pub-id-type="pmid">32834926</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chao</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Sarker</surname>
+                <given-names>MNI</given-names>
+              </name>
+              <name>
+                <surname>Ali</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Firdaus</surname>
+                <given-names>RBR</given-names>
+              </name>
+              <name>
+                <surname>Azman</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Shaed</surname>
+                <given-names>MM</given-names>
+              </name>
+            </person-group>
+            <article-title>Big data-driven public health policy making: Potential for the healthcare industry.</article-title>
+            <source>Heliyon</source>
+            <year>2023</year>
+            <month>Sep</month>
+            <volume>9</volume>
+            <issue>9</issue>
+            <fpage>e19681</fpage>
+            <pub-id pub-id-type="pmid">37809720</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Carini</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Seyhan</surname>
+                <given-names>AA</given-names>
+              </name>
+            </person-group>
+            <article-title>Tribulations and future opportunities for artificial intelligence in precision medicine.</article-title>
+            <source>J Transl Med</source>
+            <year>2024</year>
+            <month>Apr</month>
+            <day>30</day>
+            <volume>22</volume>
+            <issue>1</issue>
+            <fpage>411</fpage>
+            <pub-id pub-id-type="pmid">38702711</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kargbo</surname>
+                <given-names>RB</given-names>
+              </name>
+            </person-group>
+            <article-title>Advancements in Predictive Medicine: NLRP3 Inflammasome Inhibitors and AI-Driven Predictive Health Analytics.</article-title>
+            <source>ACS Med Chem Lett</source>
+            <year>2024</year>
+            <month>Mar</month>
+            <day>14</day>
+            <volume>15</volume>
+            <issue>3</issue>
+            <fpage>331</fpage>
+            <page-range>331-333</page-range>
+            <pub-id pub-id-type="pmid">38505847</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Evans</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Meslin</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name>
+                <surname>Kai</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Qureshi</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Precision Medicine-Are We There Yet? A Narrative Review of Precision Medicine's Applicability in Primary Care.</article-title>
+            <source>J Pers Med</source>
+            <year>2024</year>
+            <month>Apr</month>
+            <day>15</day>
+            <volume>14</volume>
+            <issue>4</issue>
+            <pub-id pub-id-type="pmid">38673045</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Polton</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>[Health data].</article-title>
+            <source>Med Sci (Paris)</source>
+            <year>2018</year>
+            <month>May</month>
+            <volume>34</volume>
+            <issue>5</issue>
+            <fpage>449</fpage>
+            <page-range>449-455</page-range>
+            <pub-id pub-id-type="pmid">29900849</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hartman</surname>
+                <given-names>DJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Applications of Artificial Intelligence in Lung Pathology.</article-title>
+            <source>Surg Pathol Clin</source>
+            <year>2024</year>
+            <month>Jun</month>
+            <volume>17</volume>
+            <issue>2</issue>
+            <fpage>321</fpage>
+            <page-range>321-328</page-range>
+            <pub-id pub-id-type="pmid">38692814</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Humbert</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Mauldin</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Saarony</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>A comparative analysis of outpatient nutrition clinic scheduling outcomes based on in-person and telehealth patient care delivery modalities.</article-title>
+            <source>Healthc Anal (N Y)</source>
+            <year>2023</year>
+            <month>Nov</month>
+            <volume>3</volume>
+            <fpage>100163</fpage>
+            <pub-id pub-id-type="pmid">36999092</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Watanabe</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Ohsugi</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Suminaga</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Somei</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kikuyama</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Mori</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Maruo</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Kono</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Kotani</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>An evaluation of the impact of the implementation of the Tele-ICU: a retrospective observational study.</article-title>
+            <source>J Intensive Care</source>
+            <year>2023</year>
+            <month>Mar</month>
+            <day>07</day>
+            <volume>11</volume>
+            <issue>1</issue>
+            <fpage>9</fpage>
+            <pub-id pub-id-type="pmid">36882878</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yoo</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Sinha</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Yang</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Altorki</surname>
+                <given-names>NK</given-names>
+              </name>
+              <name>
+                <surname>Tandon</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Chavez</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Patel</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Sato</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Kong</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Ding</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Schadt</surname>
+                <given-names>EE</given-names>
+              </name>
+              <name>
+                <surname>Watanabe</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Massion</surname>
+                <given-names>PP</given-names>
+              </name>
+              <name>
+                <surname>Borczuk</surname>
+                <given-names>AC</given-names>
+              </name>
+              <name>
+                <surname>Zhu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Powell</surname>
+                <given-names>CA</given-names>
+              </name>
+            </person-group>
+            <article-title>Integrative network analysis of early-stage lung adenocarcinoma identifies aurora kinase inhibition as interceptor of invasion and progression.</article-title>
+            <source>Nat Commun</source>
+            <year>2022</year>
+            <month>Mar</month>
+            <day>24</day>
+            <volume>13</volume>
+            <issue>1</issue>
+            <fpage>1592</fpage>
+            <pub-id pub-id-type="pmid">35332150</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Meese</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Boitet</surname>
+                <given-names>LM</given-names>
+              </name>
+              <name>
+                <surname>Schmidt</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Borkowski</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Sweeney</surname>
+                <given-names>KL</given-names>
+              </name>
+            </person-group>
+            <article-title>Exploring National Trends and Organizational Predictors of Violence and Mistreatment From Patients and Visitors.</article-title>
+            <source>J Healthc Manag</source>
+            <string-date>2024 Jan-Feb 01</string-date>
+            <volume>69</volume>
+            <issue>1</issue>
+            <fpage>29</fpage>
+            <page-range>29-44</page-range>
+            <pub-id pub-id-type="pmid">38055205</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Stone</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Zwiggelaar</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Jones</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Mac Parthal&#x000e1;in</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>A systematic review of the prediction of hospital length of stay: Towards a unified framework.</article-title>
+            <source>PLOS Digit Health</source>
+            <year>2022</year>
+            <month>Apr</month>
+            <volume>1</volume>
+            <issue>4</issue>
+            <fpage>e0000017</fpage>
+            <pub-id pub-id-type="pmid">36812502</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kotta</surname>
+                <given-names>PA</given-names>
+              </name>
+              <name>
+                <surname>Nambi</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Bozkurt</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Biomarkers for Heart Failure Prediction and Prevention.</article-title>
+            <source>J Cardiovasc Dev Dis</source>
+            <year>2023</year>
+            <month>Dec</month>
+            <day>06</day>
+            <volume>10</volume>
+            <issue>12</issue>
+            <pub-id pub-id-type="pmid">38132656</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r30">
+          <label>30</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Lui</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Khan Suheb</surname>
+                <given-names>MZ</given-names>
+              </name>
+              <name>
+                <surname>Patti</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Ischemic Stroke</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2025</year>
+            <month>2</month>
+            <day>21</day>
+            <pub-id pub-id-type="pmid">29763173</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r31">
+          <label>31</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Jain</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Margetis</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Iverson</surname>
+                <given-names>LM</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Glasgow Coma Scale</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2025</year>
+            <month>6</month>
+            <day>23</day>
+            <pub-id pub-id-type="pmid">30020670</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Barbieri</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Neri</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Stuard</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Mari</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Mart&#x000ed;n-Guerrero</surname>
+                <given-names>JD</given-names>
+              </name>
+            </person-group>
+            <article-title>From electronic health records to clinical management systems: how the digital transformation can support healthcare services.</article-title>
+            <source>Clin Kidney J</source>
+            <year>2023</year>
+            <month>Nov</month>
+            <volume>16</volume>
+            <issue>11</issue>
+            <fpage>1878</fpage>
+            <page-range>1878-1884</page-range>
+            <pub-id pub-id-type="pmid">37915897</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sutton</surname>
+                <given-names>RT</given-names>
+              </name>
+              <name>
+                <surname>Pincock</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Baumgart</surname>
+                <given-names>DC</given-names>
+              </name>
+              <name>
+                <surname>Sadowski</surname>
+                <given-names>DC</given-names>
+              </name>
+              <name>
+                <surname>Fedorak</surname>
+                <given-names>RN</given-names>
+              </name>
+              <name>
+                <surname>Kroeker</surname>
+                <given-names>KI</given-names>
+              </name>
+            </person-group>
+            <article-title>An overview of clinical decision support systems: benefits, risks, and strategies for success.</article-title>
+            <source>NPJ Digit Med</source>
+            <year>2020</year>
+            <volume>3</volume>
+            <fpage>17</fpage>
+            <pub-id pub-id-type="pmid">32047862</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Deerenberg</surname>
+                <given-names>EB</given-names>
+              </name>
+              <name>
+                <surname>Harlaar</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Steyerberg</surname>
+                <given-names>EW</given-names>
+              </name>
+              <name>
+                <surname>Lont</surname>
+                <given-names>HE</given-names>
+              </name>
+              <name>
+                <surname>van Doorn</surname>
+                <given-names>HC</given-names>
+              </name>
+              <name>
+                <surname>Heisterkamp</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Wijnhoven</surname>
+                <given-names>BP</given-names>
+              </name>
+              <name>
+                <surname>Schouten</surname>
+                <given-names>WR</given-names>
+              </name>
+              <name>
+                <surname>Cense</surname>
+                <given-names>HA</given-names>
+              </name>
+              <name>
+                <surname>Stockmann</surname>
+                <given-names>HB</given-names>
+              </name>
+              <name>
+                <surname>Berends</surname>
+                <given-names>FJ</given-names>
+              </name>
+              <name>
+                <surname>Dijkhuizen</surname>
+                <given-names>FPH</given-names>
+              </name>
+              <name>
+                <surname>Dwarkasing</surname>
+                <given-names>RS</given-names>
+              </name>
+              <name>
+                <surname>Jairam</surname>
+                <given-names>AP</given-names>
+              </name>
+              <name>
+                <surname>van Ramshorst</surname>
+                <given-names>GH</given-names>
+              </name>
+              <name>
+                <surname>Kleinrensink</surname>
+                <given-names>GJ</given-names>
+              </name>
+              <name>
+                <surname>Jeekel</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Lange</surname>
+                <given-names>JF</given-names>
+              </name>
+            </person-group>
+            <article-title>Small bites versus large bites for closure of abdominal midline incisions (STITCH): a double-blind, multicentre, randomised controlled trial.</article-title>
+            <source>Lancet</source>
+            <year>2015</year>
+            <month>Sep</month>
+            <day>26</day>
+            <volume>386</volume>
+            <issue>10000</issue>
+            <fpage>1254</fpage>
+            <page-range>1254-1260</page-range>
+            <pub-id pub-id-type="pmid">26188742</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Perman</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Elmer</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Maciel</surname>
+                <given-names>CB</given-names>
+              </name>
+              <name>
+                <surname>Uzendu</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>May</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Mumma</surname>
+                <given-names>BE</given-names>
+              </name>
+              <name>
+                <surname>Bartos</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Rodriguez</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Kurz</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Panchal</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name>
+                <surname>Rittenberger</surname>
+                <given-names>JC</given-names>
+              </name>
+              <collab>American Heart Association</collab>
+            </person-group>
+            <article-title>2023 American Heart Association Focused Update on Adult Advanced Cardiovascular Life Support: An Update to the American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care.</article-title>
+            <source>Circulation</source>
+            <year>2024</year>
+            <month>Jan</month>
+            <day>30</day>
+            <volume>149</volume>
+            <issue>5</issue>
+            <fpage>e254</fpage>
+            <page-range>e254-e273</page-range>
+            <pub-id pub-id-type="pmid">38108133</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gao</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Zhou</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Zhou</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Nursing management of cognitive dysfunction in adults with brain injury: Summary of best evidence-practiced strategies.</article-title>
+            <source>J Clin Nurs</source>
+            <year>2024</year>
+            <month>Jul</month>
+            <volume>33</volume>
+            <issue>7</issue>
+            <fpage>2496</fpage>
+            <page-range>2496-2508</page-range>
+            <pub-id pub-id-type="pmid">38366758</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Strawn</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Mills</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Suresh</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Peris</surname>
+                <given-names>TS</given-names>
+              </name>
+              <name>
+                <surname>Walkup</surname>
+                <given-names>JT</given-names>
+              </name>
+              <name>
+                <surname>Croarkin</surname>
+                <given-names>PE</given-names>
+              </name>
+            </person-group>
+            <article-title>Combining selective serotonin reuptake inhibitors and cognitive behavioral therapy in youth with depression and anxiety.</article-title>
+            <source>J Affect Disord</source>
+            <year>2022</year>
+            <month>Feb</month>
+            <day>01</day>
+            <volume>298</volume>
+            <issue>Pt A</issue>
+            <fpage>292</fpage>
+            <page-range>292-300</page-range>
+            <pub-id pub-id-type="pmid">34728290</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-157314.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pries-Heje</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Bundgaard</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Iversen</surname>
+                <given-names>KK</given-names>
+              </name>
+              <name>
+                <surname>Baden</surname>
+                <given-names>LR</given-names>
+              </name>
+              <name>
+                <surname>Woolley</surname>
+                <given-names>AE</given-names>
+              </name>
+            </person-group>
+            <article-title>Infective Endocarditis Antibiotic Prophylaxis: Review of the Evidence and Guidelines.</article-title>
+            <source>Curr Cardiol Rep</source>
+            <year>2023</year>
+            <month>Dec</month>
+            <volume>25</volume>
+            <issue>12</issue>
+            <fpage>1873</fpage>
+            <page-range>1873-1881</page-range>
+            <pub-id pub-id-type="pmid">38117447</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

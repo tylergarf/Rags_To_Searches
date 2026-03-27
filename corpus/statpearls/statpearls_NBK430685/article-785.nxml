@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-785" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Physiology, Starling Relationships</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>LaCombe</surname>
+            <given-names>Philip</given-names>
+          </name>
+          <aff>SUNY Upstate Medical University</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Jose</surname>
+            <given-names>Alvin</given-names>
+          </name>
+          <aff>William Carey College of Osteopathic Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Basit</surname>
+            <given-names>Hajira</given-names>
+          </name>
+          <aff>Apex Healthcare</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Lappin</surname>
+            <given-names>Sarah L.</given-names>
+          </name>
+          <aff>Upstate University Hospital</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Philip LaCombe declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Alvin Jose declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Hajira Basit declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Sarah Lappin declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>4</day>
+          <month>7</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-785.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>The systolic performance of the left ventricle is determined by three factors: preload, afterload, and contractility. The Frank-Starling relationship characterizes the effect of preload, often measured by left ventricular end-diastolic volume (LVEDV) or left ventricular end-diastolic pressure (LVEDP), on systolic function. It is an intrinsic property of the heart by which an increase in left ventricular end-diastolic volume leads to increased ventricular contraction.&#x000a0;This variability means that under normal conditions, the heart can compensate for the increased delivery of blood to the left ventricle by increasing cardiac output. The exact mechanism behind this observation is not fully elucidated, but evidence shows that increasing sarcomere length in cardiomyocytes causes an increase in the active tension generated during contraction. Heart failure results when the ventricle is no longer able to provide adequate contraction for a given&#x000a0;LVEDV. The Frank-Starling relationship is important for understanding the physiology of heart failure and developing new approaches for treating this disease.<xref ref-type="bibr" rid="article-785.r1">[1]</xref><xref ref-type="bibr" rid="article-785.r2">[2]</xref><xref ref-type="bibr" rid="article-785.r3">[3]</xref></p>
+      </sec>
+      <sec id="article-785.s2" sec-type="Cellular Level&#x0000d;&#x0000a;">
+        <title>Cellular Level
+</title>
+        <p>Muscle consists of individual cells known as muscle fibers, which form from bundles of myofibrils. The myofibril is divided&#x000a0;further into individual sarcomeres consisting of thick filaments and thin filaments. The thin filaments contain actin, tropomyosin, and troponin, whereas myosin forms the thick filaments, which is stabilized by a protein called titin. Muscle contraction occurs when myosin forms cross-bridges with actin and utilizes the energy provided by hydrolysis of ATP to generate active tension by pulling on actin. Tropomyosin is complexed with troponin and prevents cross-bridge formation by blocking myosin-binding sites on actin. Troponin consists of three subunits: 1) troponin T, which anchors the complex to tropomyosin, 2) troponin I, which binds to actin and blocks the myosin-binding sites, and&#x000a0;3) troponin C which binds to calcium. When calcium binds to troponin C, the tropomyosin-troponin unit changes its conformation leading to exposure of these binding sites, which allows contraction to occur.<xref ref-type="bibr" rid="article-785.r4">[4]</xref><xref ref-type="bibr" rid="article-785.r5">[5]</xref><xref ref-type="bibr" rid="article-785.r6">[6]</xref><xref ref-type="bibr" rid="article-785.r7">[7]</xref></p>
+      </sec>
+      <sec id="article-785.s3" sec-type="Mechanism">
+        <title>Mechanism</title>
+        <p>The best depiction of the mechanism of the Frank-Starling relationship is the length-tension relationship (image 1) established by Gordon et al. in 1966. Image 1 illustrates that the active tension generated by muscle contraction is a function of the passive tension provided by stretching the myofibrils.<xref ref-type="bibr" rid="article-785.r8">[8]</xref> It is a biphasic curve that depicts an optimal sarcomere length that achieves maximum active tension, and beyond which, a further stretch is less effective. The resting length of the skeletal muscle is near its optimal value, whereas cardiomyocytes at end-diastole are below this point. Increases in preload stretch the ventricular myocytes to a length closer to the optimum value leading to an increase in active tension. It is unclear exactly how changes in sarcomere length alter the strength of contraction. The initial line of thought was that changing the length of sarcomeres influences the overlap between thick and thin filaments, causing different amounts of cross-bridge cycling. Further studies debate these findings by showing that the amount of active tension generated could be changed while the number of cross-bridges remained constant. Decades of research have led to evidence supporting several mechanisms operating simultaneously. These include:</p>
+        <list list-type="order">
+          <list-item>
+            <p>Increasing sarcomere length leads to an increased affinity of troponin for calcium, which facilitates the interaction of actin and myosin.</p>
+          </list-item>
+          <list-item>
+            <p>Stretching the myocytes leads to decreased interfilament lattice spacing, which brings actin and myosin closer together.</p>
+          </list-item>
+          <list-item>
+            <p>Stretch causes titin to reduce lattice space and change cross-bridge orientation.</p>
+          </list-item>
+          <list-item>
+            <p>Calcium-binding to troponin induces conformational changes in the troponin-tropomyosin complex allowing stretch-dependent activation.</p>
+          </list-item>
+          <list-item>
+            <p>Stretching induces cooperativity in which initial cross-bridge formation potentiates further binding leading to increased active tension for any given calcium concentration.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-785.s4" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>The Frank-Starling relationship describes how the left ventricle responds to increased preload under normal conditions. Figure 2 demonstrates this in a graphical representation. The transverse axis represents preload, often measured as LVEDV or LVEDP, and the longitudinal axis is stroke volume. As passive tension due to LVEDV or LVEDP increases, the active contraction is stronger, leading to higher stroke volume and cardiac output.&#x000a0;This increased stroke volume is represented by moving along various points on the green curve and appears similar to the length-tension relationship (image 1). Changes in contractility cause the normal curve to shift up or down, meaning there is a difference in contractility for any given preload. Of note, there is a plateau of the Frank-Starling relationship at higher amounts of preload, which might be due to increases in sarcomere length that exceed the optimal value leading to decreases in the affinity of calcium for troponin. The plateau is also attributable to the use of LVEDP instead of LVEDV in clinical practice because of its ease of measurement. In a healthy heart, LVEDP is strongly correlated with LVEDV. Decreases in compliance, often seen in heart disease, can lead to high LVEDP at lower LVEDV. As a result, there is very little stretching to produce the length-dependent activation observed in the Frank-Starling relationship.</p>
+        <p>The Frank-Starling relationship is essential in understanding the underlying pathophysiology of heart failure.<xref ref-type="bibr" rid="article-785.r9">[9]</xref> Heart failure is divided into diastolic and systolic dysfunction. Diastolic heart failure frequently occurs when the left ventricle has difficulty filling due to changes induced by chronic pressure overload as in hypertension or aortic stenosis. Concentric hypertrophy is an adaptation to the increased wall tension leading to the formation of new sarcomeres in parallel, causing an increase in wall thickness and a decrease in internal chamber size. Under these conditions, there is a decrease in ventricular compliance, which impairs the filling of the left ventricle. Ultimately, the reduction in preload results in a decreased stroke volume according to the principles established by the Frank-Starling relationship, which correlates with a movement towards the left along the green curve in image 2.</p>
+        <p>Systolic heart failure results from a decrease in myocardial contractility, which induces a downward and right-sided shift in the stroke volume-LVEDP curve represented by the red curve.&#x000a0;This change means that there is a reduction of maximal cardiac output for any given preload.&#x000a0; Initially, increases in sympathetic activity help compensate for the decline by increasing contractility and heart rate. Additionally, renal salt and water retention lead&#x000a0;to increased preload, which increases systolic function via the Frank-Starling mechanism. However, the curve continues to shift as contractility is further diminished, eventually overwhelming the compensatory mechanisms.</p>
+      </sec>
+      <sec id="article-785.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=785&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=785">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/785/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=785">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-785.s6">
+        <fig id="article-785.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Frank-Starling relationship and length tension curve Contributed by Chris Beardsley</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Screen__Shot__2017-09-05__at__12.53.11__PM" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-785.s7">
+        <title>References</title>
+        <ref id="article-785.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kuhtz-Buschbeck</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Drake-Holland</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Noble</surname>
+                <given-names>MIM</given-names>
+              </name>
+              <name>
+                <surname>Lohff</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Schaefer</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Rediscovery of Otto Frank's contribution to science.</article-title>
+            <source>J Mol Cell Cardiol</source>
+            <year>2018</year>
+            <month>Jun</month>
+            <volume>119</volume>
+            <fpage>96</fpage>
+            <page-range>96-103</page-range>
+            <pub-id pub-id-type="pmid">29727607</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-785.r2">
+          <label>2</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>LaCombe</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Tariq</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Lappin</surname>
+                <given-names>SL</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Physiology, Afterload Reduction</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2023</year>
+            <month>4</month>
+            <day>24</day>
+            <pub-id pub-id-type="pmid">29630226</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-785.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yoshida</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Kawai</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Minai</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Ogawa</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Ogawa</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Yoshimura</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Associations between Left Ventricular Cavity Size and Cardiac Function and Overload Determined by Natriuretic Peptide Levels and a Covariance Structure Analysis.</article-title>
+            <source>Sci Rep</source>
+            <year>2017</year>
+            <month>May</month>
+            <day>17</day>
+            <volume>7</volume>
+            <issue>1</issue>
+            <fpage>2037</fpage>
+            <pub-id pub-id-type="pmid">28515459</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-785.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bhella</surname>
+                <given-names>PS</given-names>
+              </name>
+              <name>
+                <surname>Hastings</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Fujimoto</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Shibata</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Carrick-Ranson</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Palmer</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Boyd</surname>
+                <given-names>KN</given-names>
+              </name>
+              <name>
+                <surname>Adams-Huet</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Levine</surname>
+                <given-names>BD</given-names>
+              </name>
+            </person-group>
+            <article-title>Impact of lifelong exercise "dose" on left ventricular compliance and distensibility.</article-title>
+            <source>J Am Coll Cardiol</source>
+            <year>2014</year>
+            <month>Sep</month>
+            <day>23</day>
+            <volume>64</volume>
+            <issue>12</issue>
+            <fpage>1257</fpage>
+            <page-range>1257-66</page-range>
+            <pub-id pub-id-type="pmid">25236519</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-785.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Parasuraman</surname>
+                <given-names>SK</given-names>
+              </name>
+              <name>
+                <surname>Loudon</surname>
+                <given-names>BL</given-names>
+              </name>
+              <name>
+                <surname>Lowery</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Cameron</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Singh</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Schwarz</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Gollop</surname>
+                <given-names>ND</given-names>
+              </name>
+              <name>
+                <surname>Rudd</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>McKiddie</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Phillips</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Prasad</surname>
+                <given-names>SK</given-names>
+              </name>
+              <name>
+                <surname>Wilson</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Sen-Chowdhry</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Clark</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Vassiliou</surname>
+                <given-names>VS</given-names>
+              </name>
+              <name>
+                <surname>Dawson</surname>
+                <given-names>DK</given-names>
+              </name>
+              <name>
+                <surname>Frenneaux</surname>
+                <given-names>MP</given-names>
+              </name>
+            </person-group>
+            <article-title>Diastolic Ventricular Interaction in Heart Failure With Preserved Ejection Fraction.</article-title>
+            <source>J Am Heart Assoc</source>
+            <year>2019</year>
+            <month>Apr</month>
+            <day>02</day>
+            <volume>8</volume>
+            <issue>7</issue>
+            <fpage>e010114</fpage>
+            <pub-id pub-id-type="pmid">30922153</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-785.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kumar</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Govindan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Khairallah</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Martin</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Sadayappan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>de Tombe</surname>
+                <given-names>PP</given-names>
+              </name>
+            </person-group>
+            <article-title>Cardiac Myosin-binding Protein C and Troponin-I Phosphorylation Independently Modulate Myofilament Length-dependent Activation.</article-title>
+            <source>J Biol Chem</source>
+            <year>2015</year>
+            <month>Dec</month>
+            <day>04</day>
+            <volume>290</volume>
+            <issue>49</issue>
+            <fpage>29241</fpage>
+            <page-range>29241-9</page-range>
+            <pub-id pub-id-type="pmid">26453301</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-785.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gregory</surname>
+                <given-names>SD</given-names>
+              </name>
+              <name>
+                <surname>Stevens</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Timms</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Pearcy</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Replication of the Frank-Starling response in a mock circulation loop.</article-title>
+            <source>Annu Int Conf IEEE Eng Med Biol Soc</source>
+            <year>2011</year>
+            <volume>2011</volume>
+            <fpage>6825</fpage>
+            <page-range>6825-8</page-range>
+            <pub-id pub-id-type="pmid">22255906</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-785.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pandey</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kraus</surname>
+                <given-names>WE</given-names>
+              </name>
+              <name>
+                <surname>Brubaker</surname>
+                <given-names>PH</given-names>
+              </name>
+              <name>
+                <surname>Kitzman</surname>
+                <given-names>DW</given-names>
+              </name>
+            </person-group>
+            <article-title>Healthy Aging and Cardiovascular&#x000a0;Function: Invasive Hemodynamics During&#x000a0;Rest and Exercise in 104&#x000a0;Healthy&#x000a0;Volunteers.</article-title>
+            <source>JACC Heart Fail</source>
+            <year>2020</year>
+            <month>Feb</month>
+            <volume>8</volume>
+            <issue>2</issue>
+            <fpage>111</fpage>
+            <page-range>111-121</page-range>
+            <pub-id pub-id-type="pmid">31706837</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-785.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Howden</surname>
+                <given-names>EJ</given-names>
+              </name>
+              <name>
+                <surname>Sarma</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lawley</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Opondo</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Cornwell</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Stoller</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Urey</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Adams-Huet</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Levine</surname>
+                <given-names>BD</given-names>
+              </name>
+            </person-group>
+            <article-title>Reversing the Cardiac Effects of Sedentary Aging in Middle Age-A Randomized Controlled Trial: Implications For Heart Failure Prevention.</article-title>
+            <source>Circulation</source>
+            <year>2018</year>
+            <month>Apr</month>
+            <day>10</day>
+            <volume>137</volume>
+            <issue>15</issue>
+            <fpage>1549</fpage>
+            <page-range>1549-1560</page-range>
+            <pub-id pub-id-type="pmid">29311053</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

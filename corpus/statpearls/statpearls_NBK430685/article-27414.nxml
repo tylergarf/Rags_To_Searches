@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-27414" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Biochemistry, Polymerase Chain Reaction</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Ghannam</surname>
+            <given-names>Mousa G.</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Varacallo</surname>
+            <given-names>Matthew A.</given-names>
+          </name>
+          <aff>Penn Highlands Healthcare System</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Mousa Ghannam declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Matthew Varacallo declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>30</day>
+          <month>7</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-27414.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Polymerase chain reaction (PCR) is widely employed in basic science and biomedical research. PCR is a laboratory technique to amplify specific DNA segments for various laboratory and&#x000a0;clinical applications. Building on the work of Panet and Khorana&#x02019;s successful amplification of DNA in-vitro, Mullis and coworkers developed PCR in the early 1980s, having been met with a Nobel prize only a decade later.</p>
+        <p>Allowing for more than the billion-fold amplification of specific target regions, this reaction has become instrumental in many applications, including gene cloning, the diagnosis of infectious diseases, and prenatal screening for deleterious genetic abnormalities.</p>
+      </sec>
+      <sec id="article-27414.s2" sec-type="Fundamentals">
+        <title>Fundamentals</title>
+        <p>The main components of PCR are a template, primers, free nucleotide bases, and the DNA polymerase enzyme. The DNA template contains the specific region of interest for amplification, such as DNA extracted from a piece of hair. Primers, or oligonucleotides, are short single strands complementary to each DNA strand of the target region. Both forward and reverse primers are required, one for each complementary strand of DNA. DNA polymerase is the enzyme that carries out DNA replication. Thermostable analogs of DNA polymerase I, such as Taq polymerase, initially found in a bacterium that grows in hot springs, are a common choice due to their resistance to the heating and cooling cycles necessary for PCR.<xref ref-type="bibr" rid="article-27414.r1">[1]</xref></p>
+        <p>PCR takes advantage of the DNA complementary base pairing, double-stranded structure, and melting temperature of DNA molecules. This process involves cycling through 3 sequential rounds of temperature-dependent reactions: DNA melting (denaturation), annealing, and enzyme-driven DNA replication (elongation). Denaturation begins by heating the reaction to about 95&#x000b0;C, disrupting the hydrogen bonds that hold the two strands of template DNA together. Next, the reaction's temperature is reduced to around 50 to 65&#x000b0;C, depending on the physicochemical variables of the primers, enabling the annealing of complementary base pairs.<xref ref-type="bibr" rid="article-27414.r2">[2]</xref>&#x000a0;</p>
+        <p>The primers, added to the solution in excess, bind to the beginning of the 3' end of each template strand and prevent re-hybridization of the template strand with itself. Lastly, enzyme-driven DNA replication begins by setting the reaction temperature to the point that optimizes DNA polymerase enzyme activity, around 75 to 80&#x000b0;C. At this point, DNA polymerase, which needs double-stranded DNA to begin replication, synthesizes a new DNA strand by assembling free nucleotides in solution in the 5' to 3' direction to produce two complete sets of complementary strands. The newly synthesized DNA is now identical to the template and will be used as such in the progression of PCR cycles.</p>
+        <p>Given that previously synthesized DNA strands serve as templates, DNA amplification using PCR increases exponentially, where the copies of DNA double at the end of each replication step. The exponential replication of the target DNA eventually plateaus around 30 to 40 cycles, mainly due to reagent limitation.&#x000a0;This plateau can also be due to inhibitors of the DNA polymerase enzyme activity found in the sample, self-annealing of the accumulating product, and accumulation of pyrophosphate molecules.<xref ref-type="bibr" rid="article-27414.r3">[3]</xref></p>
+        <p>
+<bold>Real-Time PCR</bold>
+</p>
+        <p>Initially, PCR technology was limited to qualitative and semi-quantitative analysis due to the limitations of nucleic acid quantification. At that time, the DNA product was separated by size via agarose gel electrophoresis to verify if the target gene was amplified successfully. Ethidium bromide, a molecule that fluoresces when bound to dsDNA, was used to estimate the amount of DNA by comparing the intensity of separated bands but was not sensitive enough for rigorous quantitative analysis.</p>
+        <p>Improvements in fluorophore development and instrumentation led to thermocyclers that no longer required measurement of only end-product DNA. This process, known as real-time or quantitative PCR (qPCR), has allowed for detecting dsDNA during amplification. The qPCR thermocyclers can excite fluorophores at specific wavelengths, detect their emission with a photodetector, and record the values. The sensitive collection of numerical values during amplification has strongly enhanced quantitative analytical power.</p>
+        <p>The sensitivity of fluorophores has been an essential aspect of qPCR development. Two main types of fluorophores are used in qPCR: those that bind specifically to a given&#x000a0;target sequence and those that lack specificity in binding. One of the most effective and widely used non-specific markers, SYBR Green, after binding to the minor groove of dsDNA, exhibits a 1000-fold increase in fluorescence compared to being free in solution. However, if even more specificity is desired, a sequence-specific oligonucleotide, or hybridization probe, can be added, which binds to the target gene at some point, following&#x000a0;the primer (after the 3' end). These hybridization probes contain a reporter molecule at the 5' end and a quencher molecule at the 3' end. The quencher molecule effectively&#x000a0;inhibits the reporter from fluorescing while the probe is intact. However, upon contact with DNA polymerase I, the hybridization probe is cleaved, allowing the dye's fluorescence.</p>
+        <p>
+<bold>Reverse-Transcription PCR</bold>&#x000a0;</p>
+        <p>The PCR technology has been creatively expanded, and reverse-transcription PCR (RT-PCR) is one of the most significant advances. Real-time PCR is frequently confused with reverse-transcription PCR, but these are different techniques. In RT-PCR, the DNA amplified is derived from mRNA using reverse-transcriptase enzymes, DNA polymerases expressed by RNA-containing retroviruses, to generate a complementary DNA (cDNA) library. Using primer sequences for genes of interest, traditional PCR methods can be used with the cDNA to study the expression of genes qualitatively. Currently, reverse-transcription PCR is commonly used with real-time PCR, which allows one to quantitatively measure the relative change in gene expression across different samples.</p>
+      </sec>
+      <sec id="article-27414.s3" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>One of the main disadvantages of PCR technology is that PCR reaction is susceptible to contamination. Trace amounts of RNA or DNA contamination in the sample can produce highly&#x000a0;misleading results. Another disadvantage is that the primers designed for PCR require sequence data and, therefore, can only be used to&#x000a0;identify the presence or absence of a known pathogen or gene. Also, sometimes the primers used for PCR can anneal non-specifically to sequences that are similar, but not identical, to the target gene.<xref ref-type="bibr" rid="article-27414.r4">[4]</xref></p>
+        <p>Another potential issue of using PCR is the possibility of primer dimer (PD) formation. PD is a potential by-product and consists of primer molecules that have hybridized with each other due to the strings of complementary bases in the primers. The DNA polymerase amplifies the PD, leading to competition for PCR reagents that could be used to&#x000a0;amplify the target sequences.<xref ref-type="bibr" rid="article-27414.r5">[5]</xref></p>
+      </sec>
+      <sec id="article-27414.s4" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>PCR amplification is an indispensable tool with various applications within medicine. Often,&#x000a0;the process is used to test for the presence of&#x000a0;specific alleles, such as prospective parents screening for genetic carriers. PCR amplification can also be used to diagnose the presence of&#x000a0;disease directly and for mutations in the developing embryo. For example, the first time PCR&#x000a0;was used in this way was for the&#x000a0;diagnosis of sickle cell anemia through the detection of a single gene mutation.<xref ref-type="bibr" rid="article-27414.r6">[6]</xref></p>
+        <p>Additionally, PCR has dramatically&#x000a0;revolutionized the diagnostic potential for infectious diseases; it can rapidly determine the identity of microbes that were traditionally unable to be cultured or that required weeks for growth.<xref ref-type="bibr" rid="article-27414.r7">[7]</xref>&#x000a0;Pathogens routinely detected using PCR include Mycobacterium tuberculosis, human immunodeficiency virus, herpes simplex virus, syphilis, etc. Moreover, qPCR is used to test the qualitative presence of microbes and quantify the bacterial, fungal, and viral loads.<xref ref-type="bibr" rid="article-27414.r8">[8]</xref></p>
+        <p>The sensitivity of diagnostic tools for mutations of oncogenes and tumor suppressor genes has been improved at least 10,000-fold due to PCR, allowing for earlier diagnosis of cancers like leukemia. PCR has also enabled more nuanced and individualized therapies for cancer patients. Additionally, PCR can be used for the tissue typing vital to organ&#x000a0;implantation&#x000a0;and has even been proposed as a replacement for antibody-based tests for blood type. PCR also has clinical applications in prenatal testing for genetic diseases and clinical pathologies. Samples are obtained either via amniocentesis or chorionic villus sampling.<xref ref-type="bibr" rid="article-27414.r9">[9]</xref>&#x000a0;</p>
+        <p>In forensic medicine, short pieces of repeating, highly polymorphic DNA, coined short tandem repeats (STRs), are amplified and used to compare specific gene variations to differentiate individuals.<xref ref-type="bibr" rid="article-27414.r10">[10]</xref>&#x000a0;Primers that are specific to the loci of these STRs are used and amplified using PCR. Various loci contain STRs in the human genome, and the statistical power of this technique is enhanced&#x000a0;by checking multiple sites.</p>
+      </sec>
+      <sec id="article-27414.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=27414&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=27414">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/27414/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=27414">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-27414.s6">
+        <fig id="article-27414.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>1. Steps of traditional PCR process
+2. Non-specific fluorophore detection in qPCR
+3. Specific hybridization probe detection in qPCR Contributed by Mousa Ghannam</p>
+          </caption>
+          <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Figs.mp4" mime-subtype="mp4" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-27414.s7">
+        <title>References</title>
+        <ref id="article-27414.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mullis</surname>
+                <given-names>KB</given-names>
+              </name>
+            </person-group>
+            <article-title>The unusual origin of the polymerase chain reaction.</article-title>
+            <source>Sci Am</source>
+            <year>1990</year>
+            <month>Apr</month>
+            <volume>262</volume>
+            <issue>4</issue>
+            <fpage>56</fpage>
+            <page-range>56-61, 64-5</page-range>
+            <pub-id pub-id-type="pmid">2315679</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-27414.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wittwer</surname>
+                <given-names>CT</given-names>
+              </name>
+              <name>
+                <surname>Herrmann</surname>
+                <given-names>MG</given-names>
+              </name>
+              <name>
+                <surname>Moss</surname>
+                <given-names>AA</given-names>
+              </name>
+              <name>
+                <surname>Rasmussen</surname>
+                <given-names>RP</given-names>
+              </name>
+            </person-group>
+            <article-title>Continuous fluorescence monitoring of rapid cycle DNA amplification. 1997.</article-title>
+            <source>Biotechniques</source>
+            <year>2013</year>
+            <month>Jun</month>
+            <volume>54</volume>
+            <issue>6</issue>
+            <fpage>314</fpage>
+            <page-range>314-20</page-range>
+            <pub-id pub-id-type="pmid">23905170</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-27414.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ishmael</surname>
+                <given-names>FT</given-names>
+              </name>
+              <name>
+                <surname>Stellato</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Principles and applications of polymerase chain reaction: basic science for the practicing physician.</article-title>
+            <source>Ann Allergy Asthma Immunol</source>
+            <year>2008</year>
+            <month>Oct</month>
+            <volume>101</volume>
+            <issue>4</issue>
+            <fpage>437</fpage>
+            <page-range>437-43</page-range>
+            <pub-id pub-id-type="pmid">18939735</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-27414.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Smith</surname>
+                <given-names>CJ</given-names>
+              </name>
+              <name>
+                <surname>Osborn</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>Advantages and limitations of quantitative PCR (Q-PCR)-based approaches in microbial ecology.</article-title>
+            <source>FEMS Microbiol Ecol</source>
+            <year>2009</year>
+            <month>Jan</month>
+            <volume>67</volume>
+            <issue>1</issue>
+            <fpage>6</fpage>
+            <page-range>6-20</page-range>
+            <pub-id pub-id-type="pmid">19120456</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-27414.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Brownie</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Shawcross</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Theaker</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Whitcombe</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Ferrie</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Newton</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Little</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>The elimination of primer-dimer accumulation in PCR.</article-title>
+            <source>Nucleic Acids Res</source>
+            <year>1997</year>
+            <month>Aug</month>
+            <day>15</day>
+            <volume>25</volume>
+            <issue>16</issue>
+            <fpage>3235</fpage>
+            <page-range>3235-41</page-range>
+            <pub-id pub-id-type="pmid">9241236</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-27414.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Saiki</surname>
+                <given-names>RK</given-names>
+              </name>
+              <name>
+                <surname>Scharf</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Faloona</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Mullis</surname>
+                <given-names>KB</given-names>
+              </name>
+              <name>
+                <surname>Horn</surname>
+                <given-names>GT</given-names>
+              </name>
+              <name>
+                <surname>Erlich</surname>
+                <given-names>HA</given-names>
+              </name>
+              <name>
+                <surname>Arnheim</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Enzymatic amplification of beta-globin genomic sequences and restriction site analysis for diagnosis of sickle cell anemia. 1985.</article-title>
+            <source>Biotechnology</source>
+            <year>1992</year>
+            <volume>24</volume>
+            <fpage>476</fpage>
+            <page-range>476-80</page-range>
+            <pub-id pub-id-type="pmid">1422056</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-27414.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mackay</surname>
+                <given-names>IM</given-names>
+              </name>
+            </person-group>
+            <article-title>Real-time PCR in the microbiology laboratory.</article-title>
+            <source>Clin Microbiol Infect</source>
+            <year>2004</year>
+            <month>Mar</month>
+            <volume>10</volume>
+            <issue>3</issue>
+            <fpage>190</fpage>
+            <page-range>190-212</page-range>
+            <pub-id pub-id-type="pmid">15008940</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-27414.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Muldrew</surname>
+                <given-names>KL</given-names>
+              </name>
+            </person-group>
+            <article-title>Molecular diagnostics of infectious diseases.</article-title>
+            <source>Curr Opin Pediatr</source>
+            <year>2009</year>
+            <month>Feb</month>
+            <volume>21</volume>
+            <issue>1</issue>
+            <fpage>102</fpage>
+            <page-range>102-11</page-range>
+            <pub-id pub-id-type="pmid">19242246</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-27414.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Li</surname>
+                <given-names>YQ</given-names>
+              </name>
+              <name>
+                <surname>Tan</surname>
+                <given-names>GJ</given-names>
+              </name>
+              <name>
+                <surname>Zhou</surname>
+                <given-names>YQ</given-names>
+              </name>
+            </person-group>
+            <article-title>Digital PCR and its applications in noninvasive prenatal testing.</article-title>
+            <source>Brief Funct Genomics</source>
+            <year>2022</year>
+            <month>Sep</month>
+            <day>16</day>
+            <volume>21</volume>
+            <issue>5</issue>
+            <fpage>376</fpage>
+            <page-range>376-386</page-range>
+            <pub-id pub-id-type="pmid">35923115</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-27414.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tamaki</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Jeffreys</surname>
+                <given-names>AJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Human tandem repeat sequences in forensic DNA typing.</article-title>
+            <source>Leg Med (Tokyo)</source>
+            <year>2005</year>
+            <month>Jul</month>
+            <volume>7</volume>
+            <issue>4</issue>
+            <fpage>244</fpage>
+            <page-range>244-50</page-range>
+            <pub-id pub-id-type="pmid">15939656</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

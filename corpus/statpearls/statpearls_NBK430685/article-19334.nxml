@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-19334" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Ideal Gas Behavior</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Tenny</surname>
+            <given-names>Kevin M.</given-names>
+          </name>
+          <aff>The Massachusetts Institute of Technology</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Cooper</surname>
+            <given-names>Jeffrey S.</given-names>
+          </name>
+          <aff>University of Nebraska Medical Center</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Kevin Tenny declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Jeffrey Cooper declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>6</day>
+          <month>5</month>
+          <year>2024</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-19334.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>The ideal gas law is an equation demonstrating the relationship between temperature, pressure, and volume for gases (see <bold>Graph.</bold> The Ideal Gas Law). These specific relationships stem from Charles's, Boyle's, and Gay-Lussac's laws. Charles's law identifies the direct proportionality between volume and temperature at constant pressure. Boyle's law identifies the inverse proportionality of pressure and volume at a constant temperature, and Gay-Lussac's law identifies the direct proportionality of pressure and temperature at a constant volume.</p>
+        <p>Collectively, these laws form the ideal gas law equation: <italic toggle="yes">PV</italic>=<italic toggle="yes">nRT</italic></p>
+        <p>where <italic toggle="yes">P</italic> is the pressure, <italic toggle="yes">V</italic> is the volume,&#x000a0;<italic toggle="yes">n</italic> is the number of moles of gas, <italic toggle="yes">R</italic> is the universal gas constant, and <italic toggle="yes">T</italic> is the absolute temperature. The modified version, the Van Der Waals equation, includes&#x000a0;<italic toggle="yes">a&#x000a0;</italic>for intermolecular forces and&#x000a0;<italic toggle="yes">b&#x000a0;</italic>to represent the volume of&#x000a0;1 mole of molecules. As such, this version better quantifies the behavior of real gases. The universal gas constant <italic toggle="yes">R</italic> is a number that satisfies the proportionalities of the pressure-volume-temperature relationship. <italic toggle="yes">R</italic> has different values and units that depend on the&#x000a0;pressure, volume, moles, and temperature specifications. Various values are accepted for <italic toggle="yes">R</italic>&#x000a0;through online databases, or dimensional analysis converts the observed units of pressure, volume, moles, and temperature to match a known R-value. As long as the units for pressure, volume, moles, and temperature are consistent, either approach is&#x000a0;acceptable. The temperature value in the ideal gas law must be in absolute units, either&#x000a0;Rankine (&#x000b0;R) or Kelvin (K),&#x000a0;to prevent the right-hand side of the equation from being zero, which violates the pressure-volume-temperature relationship. The conversion from Fahrenheit (F) or Celsius (C) to absolute temperature units is a simple addition of a fixed value to the Fahrenheit (F) or the Celsius (C) temperature&#x02014;&#x000b0;R=F+459.67 and K=C+273.15.</p>
+        <p>
+<bold>Assumptions of an Ideal Gas</bold>
+</p>
+        <p>For a gas to be ideal, 4 governing assumptions must be true:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>The gas particles have negligible volume compared to the total volume of a gas.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>The gas particles are equally sized and do not have intermolecular forces, such as attraction or repulsion, with other gas particles.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>The gas particles move randomly in agreement with Newton's laws of motion that describe kinetic energy.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>The gas particles have perfect elastic collisions with no energy loss or gain.</p>
+          </list-item>
+        </list>
+        <p>
+<bold>The Behavior of Real Gases</bold>
+</p>
+        <p>In reality, ideal gases do not exist. Any gas particle possesses a volume within the system (a minute amount, but present&#x000a0;nonetheless),&#x000a0;violating the first assumption. In addition, gas particles&#x000a0;are of different sizes; for example, hydrogen gas is significantly smaller&#x000a0;compared to xenon gas. Gas particles in a system&#x000a0;exhibit intermolecular forces with&#x000a0;adjacent gas particles, especially at low temperatures&#x000a0;when the particles&#x000a0;do not move quickly and interact with each other. Although gas particles move randomly, they do not have perfect elastic collisions due to the conservation of energy and momentum within the system.<xref ref-type="bibr" rid="article-19334.r1">[1]</xref><xref ref-type="bibr" rid="article-19334.r2">[2]</xref></p>
+        <p>Although&#x000a0;ideal gases are theoretical constructs, real gases can behave ideally under certain conditions. Real gases behave ideally when subjected to either very low pressures or high temperatures.&#x000a0;The low pressure of a system allows the gas particles to experience less intermolecular forces with other gas particles. Similarly, high-temperature systems allow gas particles to move quickly within the system and exhibit less intermolecular forces. Therefore, real gases can be considered ideal for calculation purposes in either low-pressure or high-temperature systems. Some liquids also exhibit the properties of ideal gases.<xref ref-type="bibr" rid="article-19334.r3">[3]</xref><xref ref-type="bibr" rid="article-19334.r4">[4]</xref></p>
+        <p>
+<bold>Ideal Gas Mixture</bold>
+</p>
+        <p>The ideal gas law also holds for a system containing multiple ideal gases, known as an ideal gas mixture. With multiple ideal gases in a system, these particles are still assumed not to have any intermolecular interactions with one another and to meet all criteria of an ideal gas law independently. An ideal gas mixture partitions the system's total pressure into the partial pressure contributions of each gas particle.</p>
+        <p>Consequently, the&#x000a0;previous ideal gas equation can be rewritten as: <italic toggle="yes">P</italic><sub>i</sub><italic toggle="yes">V</italic>=<italic toggle="yes">n</italic><sub>i</sub><italic toggle="yes">RT</italic></p>
+        <p>where <italic toggle="yes">P</italic><sub>i</sub> is the partial pressure of species i and <italic toggle="yes">n</italic><sub>i</sub> are the moles of species i. Gas mixtures&#x000a0;are ideal for easy calculation at low-pressure or high-temperature conditions. When systems are not at low pressures or high temperatures, the gas particles interact, inhibiting the ideal gas law accuracy. However, other models, such as the Van der Waals equation of state, account for the volume of the gas particles and the intermolecular interactions. A recent take on the Boltzmann model proposes separate equations for mass and momentum and for total energy to account for the volume of gas particles.&#x000a0;These simulations compare ideal gas mixtures to real gas mixtures. Consequently, electrolyte mixtures have been developed in&#x000a0;biotechnology and clinical medicine.<xref ref-type="bibr" rid="article-19334.r5">[5]</xref><xref ref-type="bibr" rid="article-19334.r6">[6]</xref></p>
+      </sec>
+      <sec id="article-19334.s2" sec-type="Function">
+        <title>Function</title>
+        <p>Despite the existence of more rigorous models for gases, the ideal gas law remains versatile in representing other phases and mixtures. Christensen et al performed a study to create calibration mixtures of oxygen, isoflurane, enflurane, and halothane. These gases are commonly used in anesthetics, which require accurate measurements to ensure&#x000a0;patient safety. In this study, Christensen et al compared the ideal gas assumption to more rigorous models to identify the partial pressures of each gas. The ideal gas assumptions had a 0.03% error for the calibration experiment. This study concluded that the error from the ideal gas assumption could be used to tune the calibration of the anesthetics, but the deviation was not appreciable to prevent use on patients.<xref ref-type="bibr" rid="article-19334.r7">[7]</xref><xref ref-type="bibr" rid="article-19334.r8">[8]</xref><xref ref-type="bibr" rid="article-19334.r9">[9]</xref></p>
+        <p>Furthermore, the ideal gas law can be used to model the behavior of certain plasmas and gaseous mixtures. In a study by Oxtoby et al,&#x000a0;they found that ideal gas could model dusty plasma particles. The study suggests that the similarity between dusty plasma and ideal gas behavior is due to the low compression ratios of dusty plasma.&#x000a0;Although more complex models are required, the ideal gas law accurately represents the plasma phase models. Ideal gases have also contributed to the study of surface tension in water. Sega et al proved that the ideal gas contribution to surface tension in water was not trivial but rather finite. Sega et al created a new expression that better represented the ideal gas contribution to surface tension. As a result, the relationship of ideal gases to surface tension&#x000a0;better represents gas-liquid interfaces. The ideal gas law also applies to obtain dimensional limitations about a thermodynamic system in the gas-to-liquid transition.<xref ref-type="bibr" rid="article-19334.r10">[10]</xref><xref ref-type="bibr" rid="article-19334.r11">[11]</xref></p>
+      </sec>
+      <sec id="article-19334.s3" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>The main concern with the ideal gas law is that no true ideal gases exist;&#x000a0;therefore, the application is theoretical. This&#x000a0;limitation is demonstrated by the approach of considering the thermodynamics of an empty box. If all the constraints are set to ideal, then the expected behavior of ideal gases is exhibited. When each parameter of a box is changed, the behavior of real gases is studied.<xref ref-type="bibr" rid="article-19334.r12">[12]</xref>&#x000a0;The ideal gas law does not account for chemical reactions in the gaseous phase, which could change the system's pressure, volume, or temperature. This omission is a significant concern,&#x000a0;particularly because the pressure can rapidly increase in gaseous reactions and quickly become a safety hazard in real systems.&#x000a0;</p>
+        <p>In reality, gases exist in dynamic systems, and some constraints are variable. When considering the circuitry of the cardiovascular system, parallel and perpendicular resistors consisting of capillaries, veins, and arteries complicate the movement of gas and liquid, leading to complex and occasionally sudden changes in pressure or volume. Alternatively, when considering hemodialysis circuitry, the renal system variables must be translated to facilitate continued electrolyte balances within the body. These are&#x000a0;2 areas where pressure, volume, and temperature are extensively compared in real and ideal conditions. Consequently, the Van der Waals equation of state&#x000a0;that considers intermolecular forces and volume is more accurate&#x000a0;when modeling real gas systems.</p>
+        <p>The impact of the size of the system is also under debate, with smaller systems exhibiting more excellent ideal gas behavior&#x000a0;due to a finite degree of freedom compared to large systems.<xref ref-type="bibr" rid="article-19334.r13">[13]</xref> To test the size constraint,&#x000a0;2 small systems were studied separately and in proximity to assess deviations from ideal gas assumptions with inconclusive results.<xref ref-type="bibr" rid="article-19334.r14">[14]</xref> Simulations incorporating&#x000a0;size show deviations&#x000a0;from classical thermodynamics, as demonstrated by the variables of the ideal gas law.<xref ref-type="bibr" rid="article-19334.r15">[15]</xref></p>
+      </sec>
+      <sec id="article-19334.s4" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>
+<bold>Respiratory Physiology</bold>
+</p>
+        <p>As studied by Christensen et al, the ideal gas law can be used to calibrate anesthetic mixtures with a nominal error. In high-altitude environments, the ideal gas law&#x000a0;may be more accurate for monitoring gas flow pressure into patients&#x000a0;compared to&#x000a0;sea-level conditions. If significant temperature&#x000a0;fluctuations occur, the pressure required to deliver oxygen to a patient&#x000a0;could be adjusted. These considerations address the inconsistencies between ideal gas behavior and application to a real system. The variables of the ideal gas law make assumptions concerning the exchange of oxygen and carbon dioxide at the alveolar membrane, especially given the proportion of ventilation (V) to perfusion (Q) at different parts of the lungs, from apices to bases. As such, applying classic thermodynamics requires adjustments, accounting for factors such as alveolar dead space, pathological barriers to ideal gas behavior, and the unpredictability of carbon dioxide and oxygen, given fluctuations in volume or temperature. Assuming maximum exchange is possible at all parts of the lungs could limit the ability to oxygenate a patient. A recent study described this variability as V/Q scatter; the impact of V/Q scatter is&#x000a0;observed&#x000a0;when considering the solubility of anesthetic agents in blood and the distribution difference in different parts of the lungs. In this context, ideal gas behavior is the ideal V/Q ratio based on fixed blood solubility.<xref ref-type="bibr" rid="article-19334.r16">[16]</xref><xref ref-type="bibr" rid="article-19334.r17">[17]</xref>&#x000a0;</p>
+        <p>
+<bold>Applications in&#x000a0;Clinical Practice</bold>
+</p>
+        <p>Many anesthesiology, emergency medicine, critical care, and primary care clinicians utilize gas mixtures for analgesia and sedation. Opioids are a source of substance abuse, and alternatives are being explored. In particular, a fixed nitrous oxide/oxygen mixture has been studied in self-administered delivery, although not yet applicable worldwide.<xref ref-type="bibr" rid="article-19334.r7">[7]</xref>&#x000a0;Mixtures of several anesthetics are utilized pre- and postoperatively.<xref ref-type="bibr" rid="article-19334.r11">[11]</xref>&#x000a0;The context of gas exchange is also pertinent when considering types of postoperative care in managing and returning patients to baseline levels of function. Relating gas behavior to weight and clinical context is important in mechanical ventilation.<xref ref-type="bibr" rid="article-19334.r8">[8]</xref>&#x000a0;In terms of ideal gas behavior, the gas particles interact with real systems, which are dynamic due to the changing parameters of the human body.<xref ref-type="bibr" rid="article-19334.r9">[9]</xref>&#x000a0;This dynamic interaction explains why treating clinicians must consider factors such as tidal volume, respiratory rate, and fraction of oxygen to determine how much gas exchange should occur concerning a patient's clinical status.<xref ref-type="bibr" rid="article-19334.r10">[10]</xref><xref ref-type="bibr" rid="article-19334.r18">[18]</xref>&#x000a0;Alveolar-arterial oxygen difference is typically calculated using an ideal oxygen partial pressure. However, newer methods consider the alveolar steady state or the end-tidal partial pressure, bridging ideal gas behavior to application.<xref ref-type="bibr" rid="article-19334.r19">[19]</xref></p>
+      </sec>
+      <sec id="article-19334.s5" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>Understanding ideal gas behavior is crucial&#x000a0;for healthcare professionals in various contexts. A thorough understanding of ideal gas behavior empowers healthcare providers to navigate intricate scenarios and make informed decisions regarding patient care.&#x000a0;Healthcare professionals with&#x000a0;a nuanced understanding of ideal gas behavior can effectively evaluate realistic representations and discern which variables are fixed and which can be manipulated for experimentation.</p>
+        <p>Although current research is grounded&#x000a0;in theories dating back hundreds of years,&#x000a0;clinicians should remain familiar with the thermodynamic understanding of pressure, volume, and temperature,&#x000a0;especially when delivering medical care in areas such as&#x000a0;ventilation, acid-base status, pain management, or sedation.&#x000a0;Familiarity with the ideal gas formula can prevent medical errors and optimize patient care.</p>
+        <p>Furthermore, several opportunities exist to explore the precise delivery of oxygen and carbon dioxide under changing environmental conditions. These areas are most pertinent to clinicians in anesthesiology and critical care,&#x000a0;where meticulous attention to gas dynamics can significantly impact patient outcomes and overall quality of care.</p>
+      </sec>
+      <sec id="article-19334.s6">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=19334&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=19334">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/19334/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=19334">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-19334.s7">
+        <fig id="article-19334.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>The Ideal Gas Law. These graphs&#x000a0;demonstrate the Ideal Gas Law with 1 molecule of gas to show: (a) the change in pressure and volume at constant temperature, (b) the change in temperature and volume at constant pressure, and (c) the change in pressure and temperature at constant volume. Contributed by KM Tenny</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ideal_gas_behavior" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-19334.s8">
+        <title>References</title>
+        <ref id="article-19334.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Naeiji</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Woo</surname>
+                <given-names>TK</given-names>
+              </name>
+              <name>
+                <surname>Alavi</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Varaminian</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Ohmura</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Interfacial properties of hydrocarbon/water systems predicted by molecular dynamic simulations.</article-title>
+            <source>J Chem Phys</source>
+            <year>2019</year>
+            <month>Mar</month>
+            <day>21</day>
+            <volume>150</volume>
+            <issue>11</issue>
+            <fpage>114703</fpage>
+            <pub-id pub-id-type="pmid">30901995</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19334.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rodenburg</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Paliwal</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>de Jager</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Bolhuis</surname>
+                <given-names>PG</given-names>
+              </name>
+              <name>
+                <surname>Dijkstra</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>van Roij</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Ratchet-induced variations in bulk states of an active ideal gas.</article-title>
+            <source>J Chem Phys</source>
+            <year>2018</year>
+            <month>Nov</month>
+            <day>07</day>
+            <volume>149</volume>
+            <issue>17</issue>
+            <fpage>174910</fpage>
+            <pub-id pub-id-type="pmid">30408988</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19334.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Huang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Widom</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Entropy approximations for simple fluids.</article-title>
+            <source>Phys Rev E</source>
+            <year>2024</year>
+            <month>Mar</month>
+            <volume>109</volume>
+            <issue>3-1</issue>
+            <fpage>034130</fpage>
+            <pub-id pub-id-type="pmid">38632758</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19334.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vacula</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Novotn&#x000fd;</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Critical pressure in liquids due to dynamic choking.</article-title>
+            <source>Phys Rev E</source>
+            <year>2022</year>
+            <month>Apr</month>
+            <volume>105</volume>
+            <issue>4-2</issue>
+            <fpage>045107</fpage>
+            <pub-id pub-id-type="pmid">35590676</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19334.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sawant</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Dorschner</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Karlin</surname>
+                <given-names>IV</given-names>
+              </name>
+            </person-group>
+            <article-title>A lattice Boltzmann model for reactive mixtures.</article-title>
+            <source>Philos Trans A Math Phys Eng Sci</source>
+            <year>2021</year>
+            <month>Oct</month>
+            <day>18</day>
+            <volume>379</volume>
+            <issue>2208</issue>
+            <fpage>20200402</fpage>
+            <pub-id pub-id-type="pmid">34455843</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19334.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mullen</surname>
+                <given-names>JW</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Atkin</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Silvester</surname>
+                <given-names>DS</given-names>
+              </name>
+            </person-group>
+            <article-title>Mixing Ionic Liquids Affects the Kinetics and Thermodynamics of the Oxygen/Superoxide Redox Couple in the Context of Oxygen Sensing.</article-title>
+            <source>ACS Phys Chem Au</source>
+            <year>2022</year>
+            <month>Nov</month>
+            <day>23</day>
+            <volume>2</volume>
+            <issue>6</issue>
+            <fpage>515</fpage>
+            <page-range>515-526</page-range>
+            <pub-id pub-id-type="pmid">36855608</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19334.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gao</surname>
+                <given-names>LL</given-names>
+              </name>
+              <name>
+                <surname>Yang</surname>
+                <given-names>LS</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>YL</given-names>
+              </name>
+              <name>
+                <surname>Feng</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Ma</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Yu</surname>
+                <given-names>YY</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>QH</given-names>
+              </name>
+              <name>
+                <surname>Bao</surname>
+                <given-names>JT</given-names>
+              </name>
+              <name>
+                <surname>Dai</surname>
+                <given-names>YL</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>YX</given-names>
+              </name>
+              <name>
+                <surname>Yu</surname>
+                <given-names>QJ</given-names>
+              </name>
+            </person-group>
+            <article-title>A fixed nitrous oxide/oxygen mixture as an analgesic for trauma patients in emergency department: study protocol for a randomized, controlled trial.</article-title>
+            <source>Trials</source>
+            <year>2018</year>
+            <month>Sep</month>
+            <day>29</day>
+            <volume>19</volume>
+            <issue>1</issue>
+            <fpage>527</fpage>
+            <pub-id pub-id-type="pmid">30268163</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19334.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dongelmans</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Veelo</surname>
+                <given-names>DP</given-names>
+              </name>
+              <name>
+                <surname>Bindels</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Binnekade</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Koppenol</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Koopmans</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Korevaar</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>Kuiper</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Schultz</surname>
+                <given-names>MJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Determinants of tidal volumes with adaptive support ventilation: a multicenter observational study.</article-title>
+            <source>Anesth Analg</source>
+            <year>2008</year>
+            <month>Sep</month>
+            <volume>107</volume>
+            <issue>3</issue>
+            <fpage>932</fpage>
+            <page-range>932-7</page-range>
+            <pub-id pub-id-type="pmid">18713908</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19334.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wrigge</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Uhlig</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Baumgarten</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Menzenbach</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Zinserling</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Ernst</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Dr&#x000f6;mann</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Welz</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Uhlig</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Putensen</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Mechanical ventilation strategies and inflammatory responses to cardiac surgery: a prospective randomized clinical trial.</article-title>
+            <source>Intensive Care Med</source>
+            <year>2005</year>
+            <month>Oct</month>
+            <volume>31</volume>
+            <issue>10</issue>
+            <fpage>1379</fpage>
+            <page-range>1379-87</page-range>
+            <pub-id pub-id-type="pmid">16132888</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19334.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sloan</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Conard</surname>
+                <given-names>PF</given-names>
+              </name>
+              <name>
+                <surname>Karsunky</surname>
+                <given-names>PK</given-names>
+              </name>
+              <name>
+                <surname>Gross</surname>
+                <given-names>JB</given-names>
+              </name>
+            </person-group>
+            <article-title>Sevoflurane versus isoflurane: induction and recovery characteristics with single-breath inhaled inductions of anesthesia.</article-title>
+            <source>Anesth Analg</source>
+            <year>1996</year>
+            <month>Mar</month>
+            <volume>82</volume>
+            <issue>3</issue>
+            <fpage>528</fpage>
+            <page-range>528-32</page-range>
+            <pub-id pub-id-type="pmid">8623956</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19334.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Christensen</surname>
+                <given-names>PL</given-names>
+              </name>
+              <name>
+                <surname>Nielsen</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Kann</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Methods to produce calibration mixtures for anesthetic gas monitors and how to perform volumetric calculations on anesthetic gases.</article-title>
+            <source>J Clin Monit</source>
+            <year>1992</year>
+            <month>Oct</month>
+            <volume>8</volume>
+            <issue>4</issue>
+            <fpage>279</fpage>
+            <page-range>279-84</page-range>
+            <pub-id pub-id-type="pmid">1453187</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19334.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schmitz</surname>
+                <given-names>GJ</given-names>
+              </name>
+              <name>
+                <surname>Te Vrugt</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Haug-Warberg</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Ellingsen</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Needham</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Wittkowski</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Thermodynamics of an Empty Box.</article-title>
+            <source>Entropy (Basel)</source>
+            <year>2023</year>
+            <month>Feb</month>
+            <day>08</day>
+            <volume>25</volume>
+            <issue>2</issue>
+            <pub-id pub-id-type="pmid">36832681</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19334.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Naplekov</surname>
+                <given-names>DM</given-names>
+              </name>
+              <name>
+                <surname>Yanovsky</surname>
+                <given-names>VV</given-names>
+              </name>
+            </person-group>
+            <article-title>Distribution of energy in the ideal gas that lacks equipartition.</article-title>
+            <source>Sci Rep</source>
+            <year>2023</year>
+            <month>Feb</month>
+            <day>28</day>
+            <volume>13</volume>
+            <issue>1</issue>
+            <fpage>3427</fpage>
+            <pub-id pub-id-type="pmid">36854979</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19334.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Corti</surname>
+                <given-names>DS</given-names>
+              </name>
+              <name>
+                <surname>Ohadi</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Fariello</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Uline</surname>
+                <given-names>MJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Microcanonical Thermodynamics of Small Ideal Gas Systems.</article-title>
+            <source>J Phys Chem B</source>
+            <year>2023</year>
+            <month>Apr</month>
+            <day>20</day>
+            <volume>127</volume>
+            <issue>15</issue>
+            <fpage>3431</fpage>
+            <page-range>3431-3442</page-range>
+            <pub-id pub-id-type="pmid">37022190</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19334.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Str&#x000f8;m</surname>
+                <given-names>BA</given-names>
+              </name>
+              <name>
+                <surname>Bedeaux</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Schnell</surname>
+                <given-names>SK</given-names>
+              </name>
+            </person-group>
+            <article-title>Adsorption of an Ideal Gas on a Small Spherical Adsorbent.</article-title>
+            <source>Nanomaterials (Basel)</source>
+            <year>2021</year>
+            <month>Feb</month>
+            <day>09</day>
+            <volume>11</volume>
+            <issue>2</issue>
+            <pub-id pub-id-type="pmid">33572075</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19334.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Peyton</surname>
+                <given-names>PJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Ideal alveolar gas defined by modal gas exchange in ventilation-perfusion distributions.</article-title>
+            <source>J Appl Physiol (1985)</source>
+            <year>2021</year>
+            <month>Dec</month>
+            <day>01</day>
+            <volume>131</volume>
+            <issue>6</issue>
+            <fpage>1831</fpage>
+            <page-range>1831-1838</page-range>
+            <pub-id pub-id-type="pmid">34672764</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19334.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Peyton</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name>
+                <surname>Hendrickx</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Grouls</surname>
+                <given-names>RJE</given-names>
+              </name>
+              <name>
+                <surname>Van Zundert</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>De Wolf</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>End-tidal to Arterial Gradients and Alveolar Deadspace for Anesthetic Agents.</article-title>
+            <source>Anesthesiology</source>
+            <year>2020</year>
+            <month>Sep</month>
+            <volume>133</volume>
+            <issue>3</issue>
+            <fpage>534</fpage>
+            <page-range>534-547</page-range>
+            <pub-id pub-id-type="pmid">32784343</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19334.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Karalapillai</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Weinberg</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Peyton</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Ellard</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Hu</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Pearce</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Tan</surname>
+                <given-names>CO</given-names>
+              </name>
+              <name>
+                <surname>Story</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>O'Donnell</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Hamilton</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Oughton</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Galtieri</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Wilson</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Serpa Neto</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Eastwood</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Bellomo</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Jones</surname>
+                <given-names>DA</given-names>
+              </name>
+            </person-group>
+            <article-title>Effect of Intraoperative Low Tidal Volume vs Conventional Tidal Volume on Postoperative Pulmonary Complications in Patients Undergoing Major Surgery: A Randomized Clinical Trial.</article-title>
+            <source>JAMA</source>
+            <year>2020</year>
+            <month>Sep</month>
+            <day>01</day>
+            <volume>324</volume>
+            <issue>9</issue>
+            <fpage>848</fpage>
+            <page-range>848-858</page-range>
+            <pub-id pub-id-type="pmid">32870298</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-19334.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>West</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Stark</surname>
+                <given-names>PC</given-names>
+              </name>
+              <name>
+                <surname>Prisk</surname>
+                <given-names>GK</given-names>
+              </name>
+            </person-group>
+            <article-title>Measuring the efficiency of pulmonary gas exchange using expired gas instead of arterial blood: comparing the "ideal" Po<sub>2</sub> of Riley with end-tidal Po<sub>2</sub>.</article-title>
+            <source>Am J Physiol Lung Cell Mol Physiol</source>
+            <year>2020</year>
+            <month>Aug</month>
+            <day>01</day>
+            <volume>319</volume>
+            <issue>2</issue>
+            <fpage>L289</fpage>
+            <page-range>L289-L293</page-range>
+            <pub-id pub-id-type="pmid">32491950</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

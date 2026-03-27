@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-20228" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Biochemistry, Cytochrome P450</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Patel</surname>
+            <given-names>Tej</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Rahimi</surname>
+            <given-names>Nader</given-names>
+          </name>
+          <aff>Boston University Medical Campus, Boston, MA</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Cassagnol</surname>
+            <given-names>Manouchkathe</given-names>
+          </name>
+          <aff>St. John's University</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Tej Patel declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Nader Rahimi declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Manouchkathe Cassagnol declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>10</day>
+          <month>1</month>
+          <year>2026</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-20228.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Interindividual variability in drug response remains a major challenge in clinical therapy, with outcomes ranging from treatment failure to serious adverse drug reactions. A significant proportion of this variability arises from differences in drug metabolism, much of which is governed by the cytochrome P450 (CYP) enzyme system. Predominantly expressed in hepatocytes, CYP enzymes catalyze the biotransformation and clearance of a wide array of xenobiotics and potentially toxic compounds. Although these enzymes participate in essential physiological processes, including steroid and hormone synthesis, metabolism of fat-soluble vitamins, and regulation of fatty acids, their most critical impact lies in pharmacokinetics and drug metabolism. A relatively small subset of CYP isoforms accounts for the majority of drug-processing activity, with CYP family enzymes collectively involved in an estimated 80% to 90% of enzymatic drug metabolism.<xref ref-type="bibr" rid="article-20228.r1">[1]</xref>&#x000a0;Because drugs can either influence CYP activity or be influenced by it, unintended interactions may arise, altering therapeutic efficacy or increasing toxicity. Understanding how drugs modulate CYP enzymes and how genetic, environmental, and pharmacological factors shape CYP function is essential for optimizing therapy and ensuring safe, effective clinical outcomes.<xref ref-type="bibr" rid="article-20228.r2">[2]</xref></p>
+      </sec>
+      <sec id="article-20228.s2" sec-type="Fundamentals">
+        <title>Fundamentals</title>
+        <p>CYP enzymes are mixed-function oxidases that require both NADPH (nicotinamide adenine dinucleotide phosphate) and molecular oxygen to carry out their reactions.&#x000a0;These enzymes&#x000a0;participate in numerous biosynthetic pathways, including key steps in the conversion of lanosterol to cholesterol and in the synthesis of steroid hormones. CYP enzymes are also essential for the detoxification of xenobiotics and the metabolism of many therapeutic drugs. CYP represents a large superfamily of membrane-bound hemoprotein isozymes. Although these enzymes are present throughout the body, they are most abundant in the liver, with significant activity also found in the intestines and kidneys. Although humans possess 57 functional CYP genes, the majority of drug metabolism is mediated by a small subset of approximately 6 isoforms (CYP1A2, CYP2C9, CYP2C19, CYP2D6, CYP2E1, and CYP3A4), accounting for an estimated 80% to 90% of reactions.<xref ref-type="bibr" rid="article-20228.r3">[3]</xref>&#x000a0;Because different drugs are processed by different CYP isoforms, identifying which enzymes are involved is critical in both drug development and clinical practice.</p>
+        <p>Understanding CYP induction and inhibition is essential in predicting drug interactions.&#x000a0;Most medications undergo metabolic inactivation before being excreted.&#x000a0;In general, CYP enzymes convert lipophilic substrates into more hydrophilic metabolites to facilitate their elimination.<xref ref-type="bibr" rid="article-20228.r4">[4]</xref> If a drug induces a CYP enzyme, it increases the metabolism of other drugs that use the same pathway, potentially lowering their plasma concentrations below therapeutic levels and leading to treatment failure. Conversely, CYP inhibition slows metabolism, increasing the risk of accumulation, toxicity, and adverse effects of other drugs using the affected pathway. These principles differ in the case of prodrugs, which require metabolic activation. Genetic differences further influence CYP activity. Individuals may be classified as poor, intermediate, extensive, or ultrarapid metabolizers depending on inherited variations in specific CYP genes. These phenotypes can significantly affect drug response and safety, underscoring the importance of personalized dosing and careful therapeutic monitoring.<xref ref-type="bibr" rid="article-20228.r5">[5]</xref><xref ref-type="bibr" rid="article-20228.r6">[6]</xref></p>
+      </sec>
+      <sec id="article-20228.s3" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>CYP enzymes play a central role in the biotransformation of xenobiotics and are widely expressed across multiple organ systems, making them subject to extensive biochemical interactions and highly relevant to pharmacological research. The influence of CYP enzymes&#x000a0;on drug disposition, safety, and efficacy has placed&#x000a0;them at the forefront of drug development, where characterization of CYP-mediated induction, inhibition, and substrate specificity is essential. Certain medications act as potent modulators of CYP activity, necessitating careful clinical monitoring, particularly when multiple agents dependent on the same isoforms are co-administered. Notably, CYP3A4 and CYP2D6 together account for a substantial proportion of clinically relevant drug metabolism, underscoring their importance in predicting and mitigating drug-drug interactions.<xref ref-type="bibr" rid="article-20228.r3">[3]</xref></p>
+        <p>Although the CYP system possesses considerable metabolic capacity&#x02014;due to the ability of individual isoenzymes to accommodate and process multiple substrates at distinct active sites&#x02014;its function may be compromised in the presence of hepatic comorbidities such as cirrhosis or viral hepatitis. Under these conditions, the risk of adverse drug reactions increases. Drug toxicity resulting from CYP inhibition typically manifests as symptoms consistent with overdose, and management often involves withholding the offending agent until plasma concentrations normalize, with antidotal therapy reserved for severe cases. Conversely, treatment failure attributable&#x000a0;to accelerated drug clearance reflects enzyme induction, necessitating dose modification or selection of an alternative therapeutic agent.<xref ref-type="bibr" rid="article-20228.r3">[3]</xref></p>
+        <p>Prodrugs&#x02014;pharmacologically inactive compounds that are metabolized into pharmacologically active drugs after intake&#x02014;introduce an additional layer of complexity, as they require metabolic activation to yield pharmacologically active metabolites. Codeine, which relies on CYP2D6-mediated conversion to morphine, exemplifies this phenomenon. Individuals who are&#x000a0;genetically poor metabolizers exhibit minimal therapeutic response due to insufficient bioactivation, whereas ultrarapid metabolizers generate elevated morphine concentrations that can precipitate life-threatening respiratory depression. These genotype-dependent differences highlight the clinical importance of integrating pharmacogenetic data into therapeutic decision-making.<xref ref-type="bibr" rid="article-20228.r6">[6]</xref></p>
+        <p>The expanding use of herbal supplements further complicates the clinical landscape, given the limited regulatory oversight and incomplete characterization of their pharmacologic effects. Several natural products modulate CYP activity, potentially significantly influencing drug exposure. St. John's Wort is a well-documented inducer of CYP3A4 and can markedly decrease plasma concentrations of co-administered medications. In contrast, grapefruit juice acts as a CYP3A4 inhibitor, elevating drug levels and increasing toxicity risk. Nicotine induces CYP1A2, and both nicotine and caffeine serve as substrates of this isoform, offering a mechanistic basis for the heightened caffeine tolerance observed in individuals with chronic&#x000a0;cigarette use. Such interactions emphasize the need for comprehensive medication and substance use histories that include over-the-counter and herbal products.<xref ref-type="bibr" rid="article-20228.r7">[7]</xref><xref ref-type="bibr" rid="article-20228.r8">[8]</xref></p>
+      </sec>
+      <sec id="article-20228.s4" sec-type="Cellular Level&#x0000d;&#x0000a;">
+        <title>Cellular Level
+</title>
+        <p>Within cells, CYP enzymes are predominantly localized to the endoplasmic reticulum and the inner mitochondrial membrane, where they participate in distinct metabolic pathways. Endoplasmic reticulum&#x02013;associated CYP isoforms primarily catalyze the biotransformation of xenobiotics, including pharmaceutical agents and environmental chemicals. In contrast, mitochondrial CYP enzymes are more directly involved in endogenous metabolic processes such as steroid hormone biosynthesis, cholesterol metabolism, and the regulation of fatty acid oxidation. CYP activity is tightly regulated at the transcriptional level, as demonstrated by the correlation between enzyme abundance and corresponding messenger RNA expression profiles.<xref ref-type="bibr" rid="article-20228.r9">[9]</xref></p>
+        <p>The primary purpose of drug metabolism is to facilitate the safe elimination of exogenous compounds by converting lipophilic substances into more hydrophilic metabolites. Once rendered water-soluble, drugs and their metabolites are efficiently transported to the kidneys for filtration and excretion. Classically, drug metabolism is divided into&#x000a0;3 phases, with phase I reactions&#x02014;mediated largely by the CYP system&#x02014;representing the initial biochemical modifications. These reactions include oxidation, reduction, and hydrolysis, with oxidation serving as the predominant mechanism through which substrates undergo structural transformation.<xref ref-type="bibr" rid="article-20228.r10">[10]</xref><xref ref-type="bibr" rid="article-20228.r11">[11]</xref></p>
+      </sec>
+      <sec id="article-20228.s5" sec-type="Molecular Level&#x0000d;&#x0000a;">
+        <title>Molecular Level
+</title>
+        <p>CYP enzymes are heme-containing monooxygenases, typically composed of approximately 400 to 500 amino acids, and are characterized by a single heme prosthetic group embedded within the active site.<xref ref-type="bibr" rid="article-20228.r12">[12]</xref>&#x000a0;To date, more than 100 distinct CYP structures have been resolved and deposited in the Protein Data Bank. Despite substantial sequence variability among isoforms, CYP enzymes share a conserved tertiary architecture consisting of a predominantly &#x003b1;-helical fold&#x02014;commonly described as containing around 12 major helices&#x02014;supported by several &#x003b2;-sheet regions. This structural framework permits considerable conformational flexibility, enabling the active site to accommodate substrates of diverse sizes and shapes, thereby accounting for the broad substrate specificity characteristic of CYP isoenzymes.<xref ref-type="bibr" rid="article-20228.r12">[12]</xref></p>
+        <p>CYP genetic variation contributes significantly to interindividual differences in drug metabolism. Alleles are broadly classified into normal-function, decreased- or no-function, and increased-function variants, rather than strictly wild type versus variant. Individuals carrying&#x000a0;2 normal-function alleles are typically classified as extensive (normal) metabolizers, whereas those with&#x000a0;2 decreased- or no-function alleles are considered poor metabolizers. Heterozygous individuals with&#x000a0;1 normal and&#x000a0;1 reduced-function allele generally fall into the intermediate metabolizer category. Ultrarapid metabolizers arise from gene duplication or multiplication events, most notably in CYP2D6, resulting in more than&#x000a0;2 active gene copies and subsequently increased enzymatic activity. These pharmacogenomic differences explain why patients may experience distinct therapeutic responses or toxicity risks at standard dosages. More than 350 functional polymorphisms have been identified across the human CYP superfamily, reflecting the extensive genetic diversity that influences drug disposition.<xref ref-type="bibr" rid="article-20228.r6">[6]</xref><xref ref-type="bibr" rid="article-20228.r8">[8]</xref>&#x000a0;</p>
+        <p>Beyond inherited DNA variation, CYP expression is regulated by epigenetic mechanisms and influenced by multiple physiological and environmental factors. Age, sex, hormonal status, infection, inflammation, and exposure to xenobiotics can modulate the expression or activity of specific CYP isoforms. Notably, sex-related differences in CYP expression have been reported; for example, certain CYP enzymes exhibit higher expression in females, providing a potential mechanistic basis for sex-dependent differences in drug metabolism. Although substantial progress has been made in characterizing CYP structure, function, and genetic variability, ongoing molecular research&#x02014;enhanced by insights from the Human Genome Project&#x02014;continues to refine our understanding of how CYP polymorphisms contribute to interindividual variability in drug response.<xref ref-type="bibr" rid="article-20228.r3">[3]</xref> These developments have positioned CYP pharmacogenomics as a central component of precision medicine.</p>
+      </sec>
+      <sec id="article-20228.s6" sec-type="Function">
+        <title>Function</title>
+        <p>CYP enzymes are essential for the metabolism and elimination of drugs. Among the CYP family, CYP2D6 and CYP3A4/5 are particularly notable, participating in the metabolism of approximately 20% and 30% of all clinically used drugs, respectively (see <bold>Image</bold>. Fractional Contribution of Specific CYP Isoforms to the Metabolism of 248 Drugs).<xref ref-type="bibr" rid="article-20228.r12">[12]</xref>&#x000a0;CYP enzymes predominantly mediate phase I biotransformation reactions of xenobiotics, including oxidation, reduction, and hydrolysis. Through these reactions, lipid-soluble compounds are converted into more water-soluble metabolites, facilitating renal or biliary excretion. However, the oxidative processes catalyzed by CYPs can generate reactive intermediates, which may contribute to cellular toxicity, mutagenesis, or carcinogenesis. Consequently, CYP-mediated metabolism can influence both the pharmacokinetics and pharmacodynamics of therapeutic agents.<xref ref-type="bibr" rid="article-20228.r13">[13]</xref></p>
+        <p>Beyond xenobiotic metabolism, CYP enzymes play critical roles in steroidogenesis and the biosynthesis of bile acids, eicosanoids, and fat-soluble vitamins. In endogenous metabolism, multiple CYP isoforms participate in steroidogenesis, converting cholesterol precursors into mineralocorticoids, glucocorticoids, and sex steroids, including androgens and estrogens&#x000a0;(See <bold>Image.</bold> Steroid Biosynthesis Pathway). CYP17A1 catalyzes a key step in the synthesis of mineralocorticoids, whereas CYP21A2 is essential for the production of both mineralocorticoids and glucocorticoids.&#x000a0;These enzymatic pathways underscore the dual significance of CYP enzymes in both xenobiotic metabolism and fundamental physiological processes.<xref ref-type="bibr" rid="article-20228.r13">[13]</xref><xref ref-type="bibr" rid="article-20228.r14">[14]</xref></p>
+      </sec>
+      <sec id="article-20228.s7" sec-type="Mechanism">
+        <title>Mechanism</title>
+        <p>CYP enzymes catalyze a wide array of reactions, with variations determined by the specific isoform and substrate involved. As monooxygenases, their primary function is to insert a single&#x000a0;oxygen atom into&#x000a0;the&#x000a0;substrate, typically resulting in hydroxylation. The catalytic mechanism of CYP enzymes follows a series of coordinated steps:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Active site composition: The CYP active site contains a heme-iron center, with the iron coordinated to the protein via a cysteine thiolate ligand.</p>
+          </list-item>
+          <list-item>
+            <p>Substrate binding: The substrate binds to the heme iron, inducing a conformational change that optimizes enzyme&#x02013;substrate interactions.</p>
+          </list-item>
+          <list-item>
+            <p>Electron transfer: Electrons are transferred from NAD(P)H to the heme iron via associated reductase proteins, reducing the ferric iron (Fe&#x000b3;<sup>+</sup>) to the ferrous state (Fe&#x000b2;<sup>+</sup>).</p>
+          </list-item>
+          <list-item>
+            <p>Oxygen Activation: Molecular oxygen binds to the reduced iron, forming an iron-oxygen complex. A second electron is then delivered, generating a reactive ferric-peroxide intermediate.</p>
+          </list-item>
+          <list-item>
+            <p>Formation of compound I: Protonation of the peroxide intermediate leads to water release and the formation of the highly reactive oxidizing species, P450 compound I (FeO&#x000b3;<sup>+</sup>).</p>
+          </list-item>
+          <list-item>
+            <p>Substrate hydroxylation: Compound I abstracts a hydrogen atom from the substrate and inserts an oxygen atom, producing a hydroxylated metabolite, which is typically more hydrophilic and readily excretable.</p>
+          </list-item>
+        </list>
+        <p>The overall reaction can be summarized as:&#x000a0;</p>
+        <p>O<sub>2</sub> + NAD(P)H + H<sup>+</sup> + RH &#x02192; NAD(P)<sup>+</sup> + H<sub>2</sub>O + ROH</p>
+        <p>Compounds that already possess polar functional groups may bypass phase I metabolism and proceed directly to phase II conjugation reactions, such as glucuronidation, sulfation, or glutathione conjugation, thereby enhancing solubility and facilitating excretion.<xref ref-type="bibr" rid="article-20228.r15">[15]</xref><xref ref-type="bibr" rid="article-20228.r10">[10]</xref><xref ref-type="bibr" rid="article-20228.r6">[6]</xref></p>
+      </sec>
+      <sec id="article-20228.s8" sec-type="Pathophysiology">
+        <title>Pathophysiology</title>
+        <p>Inflammatory states significantly influence CYP enzyme expression and activity. Hepatic diseases such as cirrhosis, characterized by progressive fibrosis and hepatocellular loss, markedly reduce metabolic capacity due to impaired hepatocyte function. The clinical manifestations of cirrhosis are closely linked to these metabolic disturbances. Altered steroid hormone metabolism, partly mediated by disrupted CYP-dependent steroidogenic pathways, contributes to the development of gynecomastia, spider angiomas, and other endocrine abnormalities commonly observed in patients with cirrhosis.<xref ref-type="bibr" rid="article-20228.r16">[16]</xref>&#x000a0;In addition to reduced CYP activity, cirrhosis is associated with diminished hepatic synthesis of plasma proteins, including albumin, which further impacts drug distribution and free drug concentrations.<xref ref-type="bibr" rid="article-20228.r17">[17]</xref></p>
+        <p>Because CYP enzymes are also expressed in the intestinal epithelium, disorders affecting the small or large bowel can alter presystemic metabolism and oral drug bioavailability. Although intestinal CYP enzymes contribute only modestly to overall xenobiotic metabolism compared&#x000a0;to hepatic CYPs, their role in first-pass metabolism and absorption is clinically significant. Disease-related changes or concurrent exposures may therefore reduce or enhance systemic drug levels. Grapefruit juice is a well-known example of such interactions: its flavonoid component, naringin, inhibits intestinal CYP3A4, decreasing enterocyte-mediated metabolism and increasing systemic concentrations of CYP3A4 substrates even at relatively small ingested amounts.<xref ref-type="bibr" rid="article-20228.r6">[6]</xref></p>
+        <p>Infectious and inflammatory conditions further modulate CYP activity through cytokine-mediated downregulation. Interleukins, interferons, tumor necrosis factor, and other inflammatory mediators suppress the transcription and activity of multiple CYP isoforms.<xref ref-type="bibr" rid="article-20228.r3">[3]</xref>&#x000a0;This immune-driven reduction in metabolic capacity underscores the broader role of inflammation in altering pharmacokinetics during both localized and systemic infections.</p>
+      </sec>
+      <sec id="article-20228.s9" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>A comprehensive medication review is essential for all patients undergoing drug therapy to identify potential interactions that may alter CYP enzyme activity. Depending on a compound's pharmacological profile, CYP isoforms may be either induced or inhibited, leading to clinically significant alterations in drug metabolism and clearance. Such interactions can result in drug accumulation and toxicity or, conversely, accelerated clearance and therapeutic failure. Clinicians must also consider the influence of naturally occurring compounds&#x02014;such as grapefruit juice, nicotine-containing products, and St. John's wort&#x02014;which are well-established modulators of CYP function. Additional caution is warranted in patients with hepatic injury or reduced baseline CYP activity, as these conditions amplify the risk of adverse drug reactions.</p>
+        <p>Genetic variation further contributes to interindividual differences in CYP-mediated drug metabolism. Polymorphisms affecting CYP allele function determine an individual's metabolizer phenotype as a poor, intermediate, normal (extensive), or ultrarapid metabolizer, and thereby influence drug response, efficacy, and toxicity. As pharmacogenomics advances, CYP genotyping is anticipated to play an increasingly prominent role in guiding personalized therapeutic strategies and dose optimization. Such approaches offer the potential to predict individual drug responses more accurately and reduce the incidence of adverse effects.</p>
+        <p>A representative selection of common CYP inducers, inhibitors, and substrates for major isoforms is summarized below:</p>
+        <p>
+<bold>CYP1A2</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Inhibitors: Amiodarone, cimetidine, ciprofloxacin, and fluvoxamine</p>
+          </list-item>
+          <list-item>
+            <p>Inducers: Carbamazepine, phenobarbital, rifampin, and tobacco</p>
+          </list-item>
+          <list-item>
+            <p>Substrates: caffeine, clozapine, and theophylline</p>
+          </list-item>
+        </list>
+        <p>
+<bold>CYP2C9</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Inhibitors: Amiodarone, fluconazole, fluoxetine, metronidazole, ritonavir, and trimethoprim/sulfamethoxazole</p>
+          </list-item>
+          <list-item>
+            <p>Inducers: Carbamazepine, phenobarbital, phenytoin, and rifampin</p>
+          </list-item>
+          <list-item>
+            <p>Substrates: carvedilol, celecoxib, glipizide, ibuprofen, irbesartan, losartan, and cannabinoids</p>
+          </list-item>
+        </list>
+        <p>
+<bold>CYP2C19</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Inhibitors: Fluvoxamine, isoniazid, and ritonavir</p>
+          </list-item>
+          <list-item>
+            <p>Inducers: Carbamazepine, phenytoin, and rifampin</p>
+          </list-item>
+          <list-item>
+            <p>Substrates: Omeprazole and phenobarbital</p>
+          </list-item>
+        </list>
+        <p>
+<bold>CYP2D6</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Inhibitors: Bupropion, duloxetine, fluoxetine, paroxetine, quinidine, ritonavir, sertraline, and terbinafine</p>
+          </list-item>
+          <list-item>
+            <p>Inducers: None</p>
+          </list-item>
+          <list-item>
+            <p>Substrates: Amitriptyline, carvedilol, codeine, dextromethorphan, diltiazem, donepezil, haloperidol, metoprolol, nifedipine, ondansetron, oxycodone, propranolol, risperidone, tamoxifen, and tramadol</p>
+          </list-item>
+        </list>
+        <p>
+<bold>CYP2E1</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Inhibitors: None</p>
+          </list-item>
+          <list-item>
+            <p>Inducers: Ethanol, isoniazid, and tobacco</p>
+          </list-item>
+          <list-item>
+            <p>Substrates: Acetaminophen, theophylline, and verapamil</p>
+          </list-item>
+        </list>
+        <p>
+<bold>CYP3A4</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Inhibitors: Amiodarone, amitriptyline, aprepitant, carvedilol, chloramphenicol, cimetidine, ciprofloxacin, clarithromycin, codeine, donepezil, fluvoxamine, haloperidol, imatinib, ketoconazole, metoprolol, paroxetine, risperidone, ritonavir, tramadol, and verapamil</p>
+          </list-item>
+          <list-item>
+            <p>Inducers: Carbamazepine,&#x000a0;griseofulvin, phenobarbital, phenytoin, rifampin, and St. John's wort</p>
+          </list-item>
+          <list-item>
+            <p>Substrates: Alprazolam, amlodipine, buspirone, calcium channel blockers, caffeine, citalopram, clopidogrel, cocaine, cyclosporine, diazepam, erythromycin, estradiol, lidocaine, losartan, many chemotherapeutic drugs, montelukast, quetiapine, sertraline, sildenafil, statins, tacrolimus, warfarin, and zolpidem</p>
+          </list-item>
+        </list>
+        <p>Many agents act simultaneously as substrates, inducers, or inhibitors of a given isoform; to avoid redundancy, each medication is listed only once. In addition to their well-recognized role in xenobiotic metabolism, CYP enzymes participate in biological processes relevant to oncology. Several CYP isoforms involved in the metabolism of&#x000a0;antitumor drugs belong to the CYP1, CYP2, and CYP3 families. CYP1B1, in particular, has been implicated in tumor progression and chemoresistance and has emerged as a potential therapeutic target. Other isoforms under investigation for cancer applications include CYP2J2 in breast cancer and CYP2W1 in colorectal cancer.<xref ref-type="bibr" rid="article-20228.r18">[18]</xref>&#x000a0;</p>
+        <p>CYP enzymes also serve as clinically actionable targets in endocrine and metabolic diseases. Several Food and Drug Administration&#x02013;approved therapeutics inhibit steroidogenic CYP isoforms: aromatase inhibitors (letrozole, anastrozole, exemestane) for estrogen-receptor&#x02013;positive breast cancer; CYP17A1 inhibitors (abiraterone) for prostate cancer; and agents such as osilodrostat and levoketoconazole for Cushing disease. Additional drugs that target CYP5A1 to inhibit thromboxane production and exert antiplatelet effects include picotamide, riogrel, ozagrel, and furegrelate.<xref ref-type="bibr" rid="article-20228.r13">[13]</xref> Moreover, azole antifungals exert their therapeutic activity by inhibiting fungal CYP450 enzymes essential for ergosterol synthesis.<xref ref-type="bibr" rid="article-20228.r19">[19]</xref><xref ref-type="bibr" rid="article-20228.r20">[20]</xref><xref ref-type="bibr" rid="article-20228.r21">[21]</xref></p>
+      </sec>
+      <sec id="article-20228.s10">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=20228&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=20228">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/20228/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=20228">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-20228.s11">
+        <fig id="article-20228.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Fractional Contribution of Specific CYP Isoforms to the Metabolism of 248 Drugs. Zhao M, Ma J, Li M, et al. Cytochrome P450 enzymes and drug metabolism in humans. <italic toggle="yes">Int J Mol Sci.</italic> 2021;22(23):12808. doi: 10.3390/ijms222312808.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-22-12808-g004" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-20228.s12">
+        <fig id="article-20228.image.f2" position="float" orientation="portrait">
+          <caption>
+            <p>Steroid biosynthesis pathway. FF-MAS (follicular fluid meiosis-activating sterol, 14-demethyl-14-dehydrolanosterol), DHEA (dehydroepiandrosterone), and DHT (dihydrotestosterone) Toxicol Res. 2024 Apr 22;40(3):325&#x02013;333. doi: 10.1007/s43188-024-00237-0</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="43188_2024_237_Fig1_HTML" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-20228.s13">
+        <title>References</title>
+        <ref id="article-20228.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rendic</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Guengerich</surname>
+                <given-names>FP</given-names>
+              </name>
+            </person-group>
+            <article-title>Survey of Human Oxidoreductases and Cytochrome P450 Enzymes Involved in the Metabolism of Xenobiotic and Natural Chemicals.</article-title>
+            <source>Chem Res Toxicol</source>
+            <year>2015</year>
+            <month>Jan</month>
+            <day>20</day>
+            <volume>28</volume>
+            <issue>1</issue>
+            <fpage>38</fpage>
+            <page-range>38-42</page-range>
+            <pub-id pub-id-type="pmid">25485457</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20228.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bernhardt</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Cytochromes P450 as versatile biocatalysts.</article-title>
+            <source>J Biotechnol</source>
+            <year>2006</year>
+            <month>Jun</month>
+            <day>25</day>
+            <volume>124</volume>
+            <issue>1</issue>
+            <fpage>128</fpage>
+            <page-range>128-45</page-range>
+            <pub-id pub-id-type="pmid">16516322</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20228.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Stavropoulou</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Pircalabioru</surname>
+                <given-names>GG</given-names>
+              </name>
+              <name>
+                <surname>Bezirtzoglou</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>The Role of Cytochromes P450 in Infection.</article-title>
+            <source>Front Immunol</source>
+            <year>2018</year>
+            <volume>9</volume>
+            <fpage>89</fpage>
+            <pub-id pub-id-type="pmid">29445375</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20228.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nebert</surname>
+                <given-names>DW</given-names>
+              </name>
+              <name>
+                <surname>Russell</surname>
+                <given-names>DW</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical importance of the cytochromes P450.</article-title>
+            <source>Lancet</source>
+            <year>2002</year>
+            <month>Oct</month>
+            <day>12</day>
+            <volume>360</volume>
+            <issue>9340</issue>
+            <fpage>1155</fpage>
+            <page-range>1155-62</page-range>
+            <pub-id pub-id-type="pmid">12387968</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20228.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zahoor</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Rui</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Khan</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Datta</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Giri</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>An emerging potential of metabolomics in multiple sclerosis: a comprehensive overview.</article-title>
+            <source>Cell Mol Life Sci</source>
+            <year>2021</year>
+            <month>Apr</month>
+            <volume>78</volume>
+            <issue>7</issue>
+            <fpage>3181</fpage>
+            <page-range>3181-3203</page-range>
+            <pub-id pub-id-type="pmid">33449145</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20228.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>McDonnell</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Dang</surname>
+                <given-names>CH</given-names>
+              </name>
+            </person-group>
+            <article-title>Basic review of the cytochrome p450 system.</article-title>
+            <source>J Adv Pract Oncol</source>
+            <year>2013</year>
+            <month>Jul</month>
+            <volume>4</volume>
+            <issue>4</issue>
+            <fpage>263</fpage>
+            <page-range>263-8</page-range>
+            <pub-id pub-id-type="pmid">25032007</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20228.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ung</surname>
+                <given-names>YT</given-names>
+              </name>
+              <name>
+                <surname>Ong</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name>
+                <surname>Pan</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>Current High-Throughput Approaches of Screening Modulatory Effects of Xenobiotics on Cytochrome P450 (CYP) Enzymes.</article-title>
+            <source>High Throughput</source>
+            <year>2018</year>
+            <month>Sep</month>
+            <day>29</day>
+            <volume>7</volume>
+            <issue>4</issue>
+            <pub-id pub-id-type="pmid">30274310</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20228.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zanger</surname>
+                <given-names>UM</given-names>
+              </name>
+              <name>
+                <surname>Schwab</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Cytochrome P450 enzymes in drug metabolism: regulation of gene expression, enzyme activities, and impact of genetic variation.</article-title>
+            <source>Pharmacol Ther</source>
+            <year>2013</year>
+            <month>Apr</month>
+            <volume>138</volume>
+            <issue>1</issue>
+            <fpage>103</fpage>
+            <page-range>103-41</page-range>
+            <pub-id pub-id-type="pmid">23333322</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20228.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Manikandan</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Nagini</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Cytochrome P450 Structure, Function and Clinical Significance: A Review.</article-title>
+            <source>Curr Drug Targets</source>
+            <year>2018</year>
+            <volume>19</volume>
+            <issue>1</issue>
+            <fpage>38</fpage>
+            <page-range>38-54</page-range>
+            <pub-id pub-id-type="pmid">28124606</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20228.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Elfaki</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Mir</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Almutairi</surname>
+                <given-names>FM</given-names>
+              </name>
+              <name>
+                <surname>Duhier</surname>
+                <given-names>FMA</given-names>
+              </name>
+            </person-group>
+            <article-title>Cytochrome P450: Polymorphisms and Roles in Cancer, Diabetes and Atherosclerosis.</article-title>
+            <source>Asian Pac J Cancer Prev</source>
+            <year>2018</year>
+            <month>Aug</month>
+            <day>24</day>
+            <volume>19</volume>
+            <issue>8</issue>
+            <fpage>2057</fpage>
+            <page-range>2057-2070</page-range>
+            <pub-id pub-id-type="pmid">30139042</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20228.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Almazroo</surname>
+                <given-names>OA</given-names>
+              </name>
+              <name>
+                <surname>Miah</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>Venkataramanan</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Drug Metabolism in the Liver.</article-title>
+            <source>Clin Liver Dis</source>
+            <year>2017</year>
+            <month>Feb</month>
+            <volume>21</volume>
+            <issue>1</issue>
+            <fpage>1</fpage>
+            <page-range>1-20</page-range>
+            <pub-id pub-id-type="pmid">27842765</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20228.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zhao</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ma</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Jiang</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Zhao</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Huai</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Shen</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>He</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Qin</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Cytochrome P450 Enzymes and Drug Metabolism in Humans.</article-title>
+            <source>Int J Mol Sci</source>
+            <year>2021</year>
+            <month>Nov</month>
+            <day>26</day>
+            <volume>22</volume>
+            <issue>23</issue>
+            <pub-id pub-id-type="pmid">34884615</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20228.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Guengerich</surname>
+                <given-names>FP</given-names>
+              </name>
+            </person-group>
+            <article-title>Roles of cytochrome P450 enzymes in pharmacology and toxicology: Past, present, and future.</article-title>
+            <source>Adv Pharmacol</source>
+            <year>2022</year>
+            <volume>95</volume>
+            <fpage>1</fpage>
+            <page-range>1-47</page-range>
+            <pub-id pub-id-type="pmid">35953152</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20228.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Burris-Hiday</surname>
+                <given-names>SD</given-names>
+              </name>
+              <name>
+                <surname>Scott</surname>
+                <given-names>EE</given-names>
+              </name>
+            </person-group>
+            <article-title>Allosteric modulation of cytochrome P450 enzymes by the NADPH cytochrome P450 reductase FMN-containing domain.</article-title>
+            <source>J Biol Chem</source>
+            <year>2023</year>
+            <month>Sep</month>
+            <volume>299</volume>
+            <issue>9</issue>
+            <fpage>105112</fpage>
+            <pub-id pub-id-type="pmid">37517692</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20228.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Guengerich</surname>
+                <given-names>FP</given-names>
+              </name>
+            </person-group>
+            <article-title>Mechanisms of Cytochrome P450-Catalyzed Oxidations.</article-title>
+            <source>ACS Catal</source>
+            <year>2018</year>
+            <month>Dec</month>
+            <day>07</day>
+            <volume>8</volume>
+            <issue>12</issue>
+            <fpage>10964</fpage>
+            <page-range>10964-10976</page-range>
+            <pub-id pub-id-type="pmid">31105987</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20228.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Baker</surname>
+                <given-names>HW</given-names>
+              </name>
+              <name>
+                <surname>Burger</surname>
+                <given-names>HG</given-names>
+              </name>
+              <name>
+                <surname>de Kretser</surname>
+                <given-names>DM</given-names>
+              </name>
+              <name>
+                <surname>Dulmanis</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Hudson</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>O'Connor</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Paulsen</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Purcell</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Rennie</surname>
+                <given-names>GC</given-names>
+              </name>
+              <name>
+                <surname>Seah</surname>
+                <given-names>CS</given-names>
+              </name>
+              <name>
+                <surname>Taft</surname>
+                <given-names>HP</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>A study of the endocrine manifestations of hepatic cirrhosis.</article-title>
+            <source>Q J Med</source>
+            <year>1976</year>
+            <month>Jan</month>
+            <volume>45</volume>
+            <issue>177</issue>
+            <fpage>145</fpage>
+            <page-range>145-78</page-range>
+            <pub-id pub-id-type="pmid">769039</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20228.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bastien</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Leblond</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Pichette</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Villeneuve</surname>
+                <given-names>JP</given-names>
+              </name>
+            </person-group>
+            <article-title>Differential alteration of cytochrome P450 isoenzymes in two experimental models of cirrhosis.</article-title>
+            <source>Can J Physiol Pharmacol</source>
+            <year>2000</year>
+            <month>Nov</month>
+            <volume>78</volume>
+            <issue>11</issue>
+            <fpage>912</fpage>
+            <page-range>912-9</page-range>
+            <pub-id pub-id-type="pmid">11100940</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20228.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lynch</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Price</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>The effect of cytochrome P450 metabolism on drug response, interactions, and adverse effects.</article-title>
+            <source>Am Fam Physician</source>
+            <year>2007</year>
+            <month>Aug</month>
+            <day>01</day>
+            <volume>76</volume>
+            <issue>3</issue>
+            <fpage>391</fpage>
+            <page-range>391-6</page-range>
+            <pub-id pub-id-type="pmid">17708140</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20228.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Liu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Lu</surname>
+                <given-names>YF</given-names>
+              </name>
+              <name>
+                <surname>Corton</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>Klaassen</surname>
+                <given-names>CD</given-names>
+              </name>
+            </person-group>
+            <article-title>Expression of cytochrome P450 isozyme transcripts and activities in human livers.</article-title>
+            <source>Xenobiotica</source>
+            <year>2021</year>
+            <month>Mar</month>
+            <volume>51</volume>
+            <issue>3</issue>
+            <fpage>279</fpage>
+            <page-range>279-286</page-range>
+            <pub-id pub-id-type="pmid">33350342</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20228.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>He</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Ma</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Xue</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Hu</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Carvedilol serves as a novel CYP1B1 inhibitor, a systematic drug repurposing approach through structure-based virtual screening and experimental verification.</article-title>
+            <source>Eur J Med Chem</source>
+            <year>2020</year>
+            <month>May</month>
+            <day>01</day>
+            <volume>193</volume>
+            <fpage>112235</fpage>
+            <pub-id pub-id-type="pmid">32203789</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20228.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kim</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Jeong</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>YB</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Steroidogenic cytochrome P450 enzymes as drug target.</article-title>
+            <source>Toxicol Res</source>
+            <year>2024</year>
+            <month>Jul</month>
+            <volume>40</volume>
+            <issue>3</issue>
+            <fpage>325</fpage>
+            <page-range>325-333</page-range>
+            <pub-id pub-id-type="pmid">38911541</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

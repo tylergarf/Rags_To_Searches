@@ -1,0 +1,1434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-22897" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Health Insurance Portability and Accountability Act (HIPAA) Compliance</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Edemekong</surname>
+            <given-names>Peter F.</given-names>
+          </name>
+          <aff>University of Texas Medical Branch - Galveston</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Annamaraju</surname>
+            <given-names>Pavan</given-names>
+          </name>
+          <aff>Loma Linda University</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Afzal</surname>
+            <given-names>Muriam</given-names>
+          </name>
+          <aff>Michigan State College of Human Sciences</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Haydel</surname>
+            <given-names>Micelle J.</given-names>
+          </name>
+          <aff>Louisiana State University HSC</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Peter Edemekong declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Pavan Annamaraju declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Muriam Afzal declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Micelle Haydel declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>24</day>
+          <month>11</month>
+          <year>2024</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-22897.s1" sec-type="Continuing Education Activity">
+        <title>Continuing Education Activity</title>
+        <p>The US Health Insurance Portability and Accountability Act (HIPAA), enacted in 1996, was established to safeguard patient privacy and secure health information. HIPAA sets strict standards for managing, transmitting, and storing protected health information. HIPAA applies to healthcare providers, insurers, and other organizations handling patient data, mandating safeguards to prevent unauthorized access or misuse of sensitive information. HIPAA regulations uphold patients' rights to confidentiality and empower them to control the disclosure of their health information, fostering trust in healthcare systems.</p>
+        <p>This activity covers key aspects of HIPAA regulations, including privacy and security rules, breach notification requirements, and practical applications to ensure compliance. This activity also focuses on educating healthcare professionals on their legal and ethical responsibilities regarding patient privacy and data security. This activity underscores the importance of HIPAA in daily healthcare practices, strengthening patient trust and ensuring compliance with legal requirements.</p>
+        <p>
+<bold>Objectives:</bold>
+<list list-type="bullet"><list-item><p>Identify key components of the US Health Insurance Portability and Accountability Act (HIPAA), including privacy, security, and breach notification requirements.</p></list-item><list-item><p>Implement HIPAA-compliant protocols for the transmission, storage, and access of protected health information, ensuring the confidentiality and integrity of patient data.</p></list-item><list-item><p>Select suitable tools and technologies that support HIPAA compliance, particularly in relation to electronic health records and patient data storage.</p></list-item><list-item><p>Collaborate with interdisciplinary healthcare teams to ensure consistent application of HIPAA standards across all levels of patient care and data management.</p></list-item></list>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=22897&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=22897">Access free multiple choice questions on this topic.</ext-link>
+</p>
+      </sec>
+      <sec id="article-22897.s2" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Protected health information (PHI) breaches have affected over 176 million patients in the United States. Most of these breaches resulted from employees' negligence and noncompliance with HIPAA regulations rather than external hacking.<xref ref-type="bibr" rid="article-22897.r1">[1]</xref></p>
+        <p>The US Health Insurance Portability and Accountability Act of 1996 (HIPAA), also known as the Kennedy&#x02013;Kassebaum Act or Kassebaum-Kennedy Act, comprises&#x000a0;5 Titles, as mentioned below.<xref ref-type="bibr" rid="article-22897.r2">[2]</xref><xref ref-type="bibr" rid="article-22897.r3">[3]</xref><xref ref-type="bibr" rid="article-22897.r4">[4]</xref></p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Title I: Protects health insurance coverage for workers and their families during job changes or losses. This Title restricts&#x000a0;new healthcare plans from denying coverage based on&#x000a0;preexisting conditions.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Title II: Addresses healthcare fraud and abuse,&#x000a0;implements medical liability reform, and&#x000a0;promotes administrative simplification by establishing national standards for electronic healthcare transactions and national identifiers for providers, employers, and health insurance plans.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Title III: Provides guidelines for pre-tax medical spending accounts and introduces changes to health insurance laws and deductions for medical insurance.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Title IV: Offers guidelines for group healthcare plans, including modifications to health coverage provisions.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Title V: Regulates company-owned life insurance policies, provides provisions for treating individuals without US citizenship, and repeals financial institution rules related to interest allocation.</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Questions to Consider</bold>
+</p>
+        <p>Why was HIPAA established?</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>The statute aims&#x000a0;to establish confidentiality systems within healthcare facilities and beyond.</p>
+          </list-item>
+          <list-item>
+            <p>The primary goal of HIPAA is to protect the privacy of PHI.</p>
+          </list-item>
+        </list>
+        <p>Whom does HIPAA cover?</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>All individuals working in healthcare facilities or private offices</p>
+          </list-item>
+          <list-item>
+            <p>Students</p>
+          </list-item>
+          <list-item>
+            <p>Non-patient care employees</p>
+          </list-item>
+          <list-item>
+            <p>Healthcare plans (eg, insurance companies)</p>
+          </list-item>
+          <list-item>
+            <p>Billing companies</p>
+          </list-item>
+          <list-item>
+            <p>Electronic medical record companies</p>
+          </list-item>
+        </list>
+        <p>What are the primary goals of HIPAA?</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>To limit the use of&#x000a0;PHI to individuals with a "need to know."</p>
+          </list-item>
+          <list-item>
+            <p>To impose penalties on those who fail to comply with confidentiality regulations.</p>
+          </list-item>
+        </list>
+        <p>What healthcare information is protected?</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Any healthcare information that contains an identifier linking it to a specific patient (eg, name, social security number, telephone number, email address, street address, and other personal identifiers)</p>
+          </list-item>
+        </list>
+        <p>What is the difference between HIPAA privacy rules, use, and disclosure of information?</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Privacy rules: Require patients to give signed consent for the use or disclosure of their personal information</p>
+          </list-item>
+          <list-item>
+            <p>Use: Refers to how information is utilized within a healthcare facility</p>
+          </list-item>
+          <list-item>
+            <p>Disclosure: Refers to how information is shared outside a healthcare facility</p>
+          </list-item>
+        </list>
+        <p>What are the legal exceptions when healthcare professionals can breach confidentiality without permission?</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Gunshot wounds</p>
+          </list-item>
+          <list-item>
+            <p>Stab wounds</p>
+          </list-item>
+          <list-item>
+            <p>Injuries sustained during a criminal act</p>
+          </list-item>
+          <list-item>
+            <p>Abuse of children or older adults</p>
+          </list-item>
+          <list-item>
+            <p>Infectious, communicable, or reportable diseases</p>
+          </list-item>
+        </list>
+        <p>What types of data are protected by HIPAA?</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Written, paper, spoken, or electronic data</p>
+          </list-item>
+          <list-item>
+            <p>Transmission of data within and outside a healthcare facility</p>
+          </list-item>
+          <list-item>
+            <p>Any individual or institution involved with healthcare-related data</p>
+          </list-item>
+          <list-item>
+            <p>Data size is irrelevant.</p>
+          </list-item>
+        </list>
+        <p>(Please see StatPearls' companion resource, "<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/point-of-care/26753">Patient Confidentiality</ext-link>," for more information.)</p>
+        <p>What types of electronic devices must facility security systems protect?</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Both hardware and software</p>
+          </list-item>
+          <list-item>
+            <p>Unauthorized access to healthcare data or devices, including user attempts to change passwords at defined intervals</p>
+          </list-item>
+        </list>
+        <p>What are the qualifications&#x000a0;and responsibilities of a HIPAA security officer?</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>An information technology (IT) background</p>
+          </list-item>
+          <list-item>
+            <p>Document and maintain security policies and procedures</p>
+          </list-item>
+          <list-item>
+            <p>Audit systems</p>
+          </list-item>
+          <list-item>
+            <p>Conduct risk assessments and ensure compliance&#x000a0;with policies and procedures</p>
+          </list-item>
+        </list>
+        <p>What does a security risk assessment entail?</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>It should be conducted at all healthcare facilities.</p>
+          </list-item>
+          <list-item>
+            <p>It involves assessing the risks of virus infections and hacking attempts.</p>
+          </list-item>
+          <list-item>
+            <p>It includes developing safeguards to mitigate identified risks.</p>
+          </list-item>
+        </list>
+        <p>What are physical safeguards?</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>They secure printers, fax machines, and computers.</p>
+          </list-item>
+          <list-item>
+            <p>They help install&#x000a0;locks on computer rooms and record storage areas.</p>
+          </list-item>
+          <list-item>
+            <p>They destroy sensitive information when it is no longer needed.</p>
+          </list-item>
+        </list>
+        <p>What type of employee training for HIPAA is necessary?</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Training should ideally be conducted under the supervision of the security officer.</p>
+          </list-item>
+          <list-item>
+            <p>The level of training and access should correspond to the employee's responsibilities.</p>
+          </list-item>
+          <list-item>
+            <p>Annual HIPAA training, including updates, is mandatory for all employees.</p>
+          </list-item>
+        </list>
+        <p>What type of reminder policies should be in place?</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Email alerts and posters</p>
+          </list-item>
+          <list-item>
+            <p>Log-on and log-off computer notices</p>
+          </list-item>
+        </list>
+        <p>How should a sanctions policy for HIPAA violations be written?</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>The policy should be clear, unambiguous, and written in plain English.</p>
+          </list-item>
+          <list-item>
+            <p>It should apply equally to all employees and contractors.</p>
+          </list-item>
+          <list-item>
+            <p>The sale of information should result in termination.</p>
+          </list-item>
+          <list-item>
+            <p>Repeated offenses should lead to progressively harsher penalties.</p>
+          </list-item>
+        </list>
+        <p>What discussions regarding patient information may be conducted in public locations?</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>None</p>
+          </list-item>
+          <list-item>
+            <p>All conversational information is protected by confidentiality and HIPAA.</p>
+          </list-item>
+          <list-item>
+            <p>Patient information or PHI should not be discussed in public locations.</p>
+          </list-item>
+        </list>
+        <p>How do you protect electronic information?</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Computer screens should be pointed away from public view.</p>
+          </list-item>
+          <list-item>
+            <p>Privacy sliding doors should be used at the reception desk.</p>
+          </list-item>
+          <list-item>
+            <p>PHI should never be left unattended.</p>
+          </list-item>
+          <list-item>
+            <p>Workstations should be logged off when leaving the area.</p>
+          </list-item>
+        </list>
+        <p>How do you ensure password protection?</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>By not sharing passwords</p>
+          </list-item>
+          <list-item>
+            <p>By not writing down passwords</p>
+          </list-item>
+          <list-item>
+            <p>By not verbalizing passwords</p>
+          </list-item>
+          <list-item>
+            <p>By not emailing passwords to others</p>
+          </list-item>
+        </list>
+        <p>How do you select a safe password?</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>One should avoid selecting consecutive digits.</p>
+          </list-item>
+          <list-item>
+            <p>One should not choose information that can be easily guessed.</p>
+          </list-item>
+          <list-item>
+            <p>One should select something memorable but not easily guessed.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-22897.s3" sec-type="Function">
+        <title>Function</title>
+        <p>
+<bold>Functions of HIPAA</bold>
+</p>
+        <p>When enacting HIPAA, Congress established federal standards to&#x000a0;ensure the security of electronic PHI (ePHI), thereby safeguarding the confidentiality, integrity, and availability of health information. This law protects individuals' health information while allowing authorized access for healthcare providers, clearinghouses, and healthcare plans to facilitate continued medical care.<xref ref-type="bibr" rid="article-22897.r5">[5]</xref><xref ref-type="bibr" rid="article-22897.r6">[6]</xref><xref ref-type="bibr" rid="article-22897.r7">[7]</xref></p>
+        <p>As mentioned below, the rise in ePHI exchange has necessitated robust security standards to safeguard sensitive health information while ensuring proper access for healthcare-related entities.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Security standards became essential due to the increasing exchange of PHI between covered and non-covered entities. These standards ensure the availability, integrity, and confidentiality of ePHI. Additionally, state laws with stricter guidelines may overrule federal security guidelines.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>The&#x000a0;Federal Security Rule mandates standards that protect individuals' health information while allowing authorized access by healthcare providers, clearinghouses, and health insurance plans. The Federal Security Rule establishes federal standards to ensure the availability, confidentiality, and integrity of ePHI. In some cases, state laws with stricter requirements may take precedence over these federal standards.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Healthcare providers, plans, and business associates are committed to safeguarding private health information. However, traditional methods, such as securing paper records in locked cabinets, are no longer sufficient in the digital age. Information is increasingly stored and transmitted electronically, so the Federal Security Rule establishes clear national standards to protect ePHI.<xref ref-type="bibr" rid="article-22897.r8">[8]</xref><xref ref-type="bibr" rid="article-22897.r9">[9]</xref></p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-22897.s4" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>There are 5 sections of the HIPAA Act, also referred to as "Titles," as outlined below.<xref ref-type="bibr" rid="article-22897.r10">[10]</xref><xref ref-type="bibr" rid="article-22897.r11">[11]</xref><xref ref-type="bibr" rid="article-22897.r12">[12]</xref><xref ref-type="bibr" rid="article-22897.r13">[13]</xref></p>
+        <p>
+<bold>Title I. Focus on Healthcare Access, Portability, and Renewability</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Regulates the availability of group and individual health insurance policies.&#x000a0;Title I amended the Employee Retirement Income Security Act, the Public Health Service Act, and the Internal Revenue Code.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Requires coverage and limits the restrictions a group healthcare plan can impose on benefits for preexisting conditions. Specifically, group healthcare plans can only deny benefits related to preexisting conditions for up to 12 months after enrollment or 18 months for late enrollment.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Allows individuals to shorten the exclusion period based on the duration of their previous coverage before enrolling in a new plan, taking into account any breaks in coverage.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Includes "creditable coverage," which applies to most group and individual healthcare plans, as well as Medicare and Medicaid.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Defines a "significant break" as any 63 consecutive days without creditable coverage. This also permits premiums based on factors such as body mass index or tobacco use avoidance.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Requires insurers to issue policies without exclusions to individuals leaving group healthcare plans with creditable coverage exceeding 18 months. Title I also mandates insurers to renew individual policies as long as they are offered or provide alternatives to discontinued plans without exclusions as long as the insurer remains in the market, regardless of the individual's health condition.</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Title II. Preventing Healthcare Fraud and Abuse; Administrative Simplification; Medical Liability Reform</bold>
+<bold>
+</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Establishes policies and procedures for maintaining the privacy and security of individually identifiable health information, outlines offenses, and creates civil and criminal penalties for violations.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Introduces programs to control fraud and abuse, along with Administrative Simplification rules.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Requires the Department of Health and Human Services to enhance the efficiency of the healthcare system by establishing standards.</p>
+          </list-item>
+        </list>
+        <p>The Department of Health and Human Services implemented the following 5 rules to enforce Administrative Simplification:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Privacy Rule</p>
+          </list-item>
+          <list-item>
+            <p>Transactions and Code Sets Rule</p>
+          </list-item>
+          <list-item>
+            <p>Security Rule</p>
+          </list-item>
+          <list-item>
+            <p>Unique Identifiers Rule</p>
+          </list-item>
+          <list-item>
+            <p>Enforcement Rule</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Privacy Rule</bold>
+<bold>
+</bold>
+</p>
+        <p>The HIPAA Privacy Rule governs the use and disclosure of PHI by "covered entities," which include healthcare clearinghouses, health insurers, employer-sponsored healthcare plans, and medical providers. Covered entities are required to disclose PHI to an individual upon request within 30 days. Additionally, these entities must provide and disclose PHI as mandated by law enforcement, such as for investigating suspected child abuse.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Covered entities may disclose PHI to law enforcement upon receiving court orders, subpoenas, or administrative requests.</p>
+          </list-item>
+          <list-item>
+            <p>A covered entity may reveal PHI to facilitate treatment, payment, or healthcare operations without requiring the patient's written authorization.</p>
+          </list-item>
+          <list-item>
+            <p>Any other disclosures of PHI require the covered entity to obtain the individual's prior written authorization.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>When a covered entity discloses PHI, it must make a reasonable effort to disclose only the minimum amount of information necessary.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>The Privacy Rule grants individuals the right to request corrections to any inaccurate PHI and requires covered entities to take reasonable steps to ensure the confidentiality of communications with individuals.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>The Privacy Rule requires covered entities to notify individuals of PHI use,&#x000a0;track&#x000a0;disclosures, and document privacy policies and procedures.</p>
+          </list-item>
+        </list>
+        <p>
+<bold>2013 Omnibus Rule update:&#x000a0;</bold>The revised definition of "significant harm" to an individual in breach analysis requires a more comprehensive investigation of covered entities intending to disclose previously unreported breaches. The protection of PHI was extended from indefinite to 50 years after an individual's death. Additionally, the HIPAA Privacy Rule may be waived during a natural disaster.</p>
+        <p>
+<bold>Right to access:&#x000a0;</bold>The Privacy Rule requires medical providers to grant individuals access to their PHI upon written request. Providers must supply a copy of the requested information within 30 days. Afterward, individuals can request the information electronically or as a hard copy.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Individuals have the right to access all health-related information, except psychotherapy notes and information collected by a provider, for legal defense purposes.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Providers may charge a reasonable fee for copying costs, but no charge is allowed when providing data electronically from a certified electronic health record using the "view, download, and transfer" function."</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Individuals may authorize information delivery through encrypted or unencrypted email, media, direct messaging, or other methods. However, they must understand and accept the risks of using unencrypted data transfer methods.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Individuals may request that their PHI be delivered to a third party in writing.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Individuals may request in writing that their provider send PHI to a designated service, such as a Personal Health Record application, to collect or manage their records.</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Relative disclosure:&#x000a0;</bold>Hospitals are prohibited from disclosing information over the phone to relatives of admitted patients. This restriction has hindered efforts to locate missing persons, as seen in incidents like airline crashes, where hospitals are reluctant to reveal the identities of passengers being treated, making it challenging for relatives to find them.</p>
+        <p>
+<bold>Transactions and Code Sets Rule </bold>
+<bold>
+</bold>
+</p>
+        <p>HIPAA was created to improve the efficiency of the healthcare system by standardizing healthcare transactions. Part C of HIPAA, titled "Administrative Simplification," mandates that healthcare plans adopt standardized processes for healthcare transactions. For instance, medical providers seeking reimbursements are required to submit electronic claims that comply with HIPAA standards to receive payment.</p>
+        <p>
+<bold>Security Rule</bold>
+</p>
+        <p>This rule complements the Privacy Rule. While the Privacy Rule pertains to all PHI, the Security Rule is specific to&#x000a0;ePHI. The Security Rule&#x000a0;outlines 3 key security safeguards&#x02014;administrative, physical, and technical.</p>
+        <p>
+<bold>Administrative safeguards:&#x000a0;</bold>Policies&#x000a0;and procedures must clearly outline how the entity will comply with the act. Covered entities are required to adopt written privacy procedures and designate a privacy officer responsible for developing and implementing necessary policies and procedures. These procedures must define the classes of employees with access to ePHI and restrict access to those who need it to perform their job functions. The procedures should cover access authorization and the processes for establishing, modifying, and terminating access. Ongoing training for employees on handling PHI is essential. Additionally, covered entities must back up their data and implement disaster recovery plans. Internal audits are necessary to assess operations and identify potential security violations, with clear instructions for addressing and responding to security breaches.</p>
+        <p>
+<bold>Physical safeguards: </bold>Procedures&#x000a0;must regulate physical access to protected data, including the introduction and removal of hardware and software from the network, ensuring access is limited to authorized individuals. Procedures must also control and monitor access to equipment containing PHI.&#x000a0;Workstations must be arranged to ensure monitor screens are invisible to the public. Additionally, if covered entities employ contractors or agents, they must receive thorough training on handling PHI.</p>
+        <p>
+<bold>Technical safeguards:&#x000a0;</bold>Technical safeguards include controlling access to computer systems and enabling covered entities to protect communications containing ePHI over open networks.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Information systems storing PHI must be safeguarded against unauthorized access.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Data within these systems must not be altered or erased without proper authorization.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Data corroboration methods, such as checksums, double-keying, message authentication, and digital signatures, must be used to ensure data integrity and authenticate communicating entities.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Covered entities must make their HIPAA documentation available to government authorities.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>IT documentation should include detailed records of all configuration settings for network components.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Entities must have documented risk analysis and risk management programs in place.</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Unique Identifiers Rule (National Provider Identifier)</bold>
+</p>
+        <p>HIPAA-covered entities, including healthcare providers engaging in electronic transactions, healthcare clearinghouses, and large healthcare plans, must use the National Provider Identifier (NPI) exclusively to identify healthcare providers in standard transactions.</p>
+        <p>The NPI replaces all other identifiers used by healthcare plans, Medicare, Medicaid, and other government programs. However, NPI does not replace a provider's DEA number, state license, or tax identification number. The NPI consists of 10 digits (which may be alphanumeric), with the last digit serving as a checksum. The NPI is devoid of any embedded intelligence and does not carry additional meaning. NPI is unique and national, never reused, and, with the exception of institutions, a provider typically has only 1 NPI. Institutions may obtain multiple NPIs for different "sub-parts," such as a free-standing surgery or wound care center.&#x000a0;</p>
+        <p>
+<bold>Enforcement Rule</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>This rule imposes civil monetary penalties for violations of HIPAA regulations and establishes procedures for investigations and hearings related to such breaches.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>The US Department of Health and Human Services has investigated over 20,000 cases, often resolving them by requiring changes in privacy practices or corrective actions.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>If noncompliance is determined, entities must implement corrective measures.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Complaints have been investigated against a wide range of organizations, including pharmacy chains, major healthcare centers, insurance groups, hospital networks, and smaller providers.</p>
+          </list-item>
+        </list>
+        <p>The Department of Health and Human Services has identified the following issues, ranked by frequency:</p>
+        <list list-type="order">
+          <list-item>
+            <p>Misuse and improper disclosure of PHI</p>
+          </list-item>
+          <list-item>
+            <p>Lack of protections for health information</p>
+          </list-item>
+          <list-item>
+            <p>Patients denied access to their health information</p>
+          </list-item>
+          <list-item>
+            <p>Use or disclosure of PHI exceeding the minimum necessary</p>
+          </list-item>
+          <list-item>
+            <p>Inadequate safeguards for ePHI</p>
+          </list-item>
+        </list>
+        <p>According to the Department of Health and Human Services, the entities most commonly required to take corrective action are listed below in order of frequency:&#x000a0;</p>
+        <list list-type="order">
+          <list-item>
+            <p>Private practices</p>
+          </list-item>
+          <list-item>
+            <p>Hospitals</p>
+          </list-item>
+          <list-item>
+            <p>Outpatient facilities</p>
+          </list-item>
+          <list-item>
+            <p>Group insurance plans</p>
+          </list-item>
+          <list-item>
+            <p>Pharmacies</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Title III. Tax-Related Health Provisions Governing Medical Savings Accounts </bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Standardizes the allowable pre-tax savings per person in a medical savings account.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Extends medical savings accounts to employees covered by employer-sponsored high-deductible plans for small businesses and self-employed individuals.</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Title IV. Application and Enforcement of Group Health Insurance Requirements</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Specifies conditions for group healthcare plans related to coverage for individuals with preexisting conditions and modifies continuation of coverage requirements.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Clarifies the continuation coverage provisions and includes specific updates to COBRA regulations.</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Title V. Revenue Offset Governing Tax Deductions for Employers</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Establishes provisions for company-owned life insurance, prohibiting tax deductions for interest on loans related to life insurance policies, endowments, or contracts owned by the company.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Repeals the financial institution rules related to interest allocation.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Amends provisions of laws related to individuals who renounce US citizenship or permanent residency, expanding the expatriation tax to apply to those considered to be giving up their US status for tax avoidance purposes.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Publishes the names of former citizens in the public record through the creation of the Quarterly Publication of Individuals Who Have Chosen to Expatriate.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-22897.s5" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>The HIPAA Privacy and Security Rules have substantially transformed the operations of medical institutions and healthcare providers. Their complex legal requirements, severe civil and financial penalties, and increased paperwork and implementation costs have significantly influenced healthcare practices. Comprehensive training in HIPAA is essential for all healthcare professionals to understand the potential risks and actions that could result in violations.<xref ref-type="bibr" rid="article-22897.r14">[14]</xref><xref ref-type="bibr" rid="article-22897.r15">[15]</xref></p>
+        <p>
+<bold>Clinical Care Effects</bold>
+</p>
+        <p>HIPAA, combined with its severe penalties for violations, may cause medical centers and practices to withhold life-saving information from individuals who have a right to it and urgently need it. According to the HIPAA Privacy Rule, the US Government Accountability Office found that healthcare providers were often "uncertain about their legal privacy responsibilities" and tended to take an overly cautious approach to disclosing information. The solution lies in educating all healthcare professionals and support staff to ensure they understand when&#x000a0;PHI can be legally shared.</p>
+        <p>
+<bold>Education and Training Effects</bold>
+</p>
+        <p>Education and training are essential for healthcare providers and students to implement the HIPAA Privacy and Security Rules effectively. Practical training and education should describe the regulatory background and purpose of HIPAA and provide a comprehensive review of its principles and key provisions.</p>
+        <p>
+<bold>Research Effects</bold>
+</p>
+        <p>HIPAA restrictions on research have affected the ability to perform chart-based retrospective studies, making it more challenging to evaluate patients prospectively for follow-up.<xref ref-type="bibr" rid="article-22897.r11">[11]</xref><xref ref-type="bibr" rid="article-22897.r16">[16]</xref></p>
+        <list list-type="bullet">
+          <list-item>
+            <p>The HIPAA Privacy Rule has led to a 95% decrease in the completion of follow-up surveys by patients being monitored long-term.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Recruitment of patients for cancer studies has resulted in a 70% decrease in patient accrual, a tripling of the time spent on recruitment, and an increase in mean recruitment costs.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>The legal language required for research studies has become extensive due to the need to protect participants' health information. While such information is crucial, the lengthy legal sections can make these complex documents less user-friendly for those required to read and sign them.</p>
+          </list-item>
+        </list>
+        <p>Many researchers believe that HIPAA privacy laws negatively impact the cost and quality of medical research.<xref ref-type="bibr" rid="article-22897.r7">[7]</xref></p>
+        <p>
+<bold>Costs</bold>
+</p>
+        <p>The HIPAA Privacy and Security Acts mandate that all medical centers and practices comply with their provisions. The costs associated with developing and updating systems, increasing paperwork, and dedicating time to staff education have significantly impacted the finances of medical centers and practices, especially as reimbursements from insurance companies and Medicare have decreased. Ultimately, the potential costs of violating the statutes are so substantial that institutions must allocate scarce resources to ensure compliance and to educate employees on the statutory rules.</p>
+        <p>
+<bold>Clinical Conclusions</bold>
+</p>
+        <p>HIPAA presents a significant risk of violations that almost any medical professional can inadvertently commit. Staff with limited education and understanding are particularly prone to breaching these rules during routine tasks. At the same time, a small number of violations involve personal gain or curiosity; most result from momentary lapses that lead to costly mistakes. Simple errors, such as writing an incorrect address, phone number, or email on a form or inadvertently disclosing protected information aloud, can put a practice at risk. HIPAA education and training are essential, as is the design and maintenance of systems that minimize human errors and ensure compliance.<xref ref-type="bibr" rid="article-22897.r17">[17]</xref><xref ref-type="bibr" rid="article-22897.r18">[18]</xref><xref ref-type="bibr" rid="article-22897.r19">[19]</xref></p>
+      </sec>
+      <sec id="article-22897.s6" sec-type="Other Issues">
+        <title>Other Issues</title>
+        <p>
+<bold>Violations of HIPAA</bold>
+</p>
+        <p>
+<bold>Civil violations</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>An individual who unknowingly violates HIPAA is subject to a $100 fine per violation, with an annual maximum of $25,000 for repeated violations.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>For a violation due to reasonable cause and not willful neglect, the penalty is $1000 per violation, with an annual maximum of $100,000 for repeated offenses.&#x000a0;</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>For violations due to willful neglect that are corrected within the required period, the penalty is $10,000 per violation, with an annual maximum of $250,000 for repeated violations.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>For a HIPAA violation due to willful neglect that is not corrected, the penalty is $50,000 per violation, with an annual maximum of $1,000,000, $50,000, or $1.5 million per violation.</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Criminal violations</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>For covered entities and specified individuals who willfully and knowingly obtain or disclose individually identifiable health information, the penalty is up to $50,000, with imprisonment for up to 1 year.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>The penalty for offenses committed under false pretenses is up to $100,000, with imprisonment for up to 5 years.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>For offenses committed with the intent to sell, transfer, or use individually identifiable health information for commercial advantage, personal gain, or malicious harm, the penalty is up to $250,000, with imprisonment for up to 10 years.</p>
+          </list-item>
+        </list>
+        <p>The US Department of Health and Human Services&#x02014;Office for Civil Rights has received over 100,000 complaints of HIPAA violations, many of which have resulted in civil and criminal prosecutions.</p>
+        <p>Examples of HIPAA violations and breaches include:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Hospital staff disclosed a patient's HIV testing results in a waiting room, prompting a requirement for regular HIPAA training for staff and repositioning of computer monitors to ensure privacy.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>An office manager accidentally faxed confidential medical records to an employer instead of a urologist's office, resulting in a stern warning letter and mandatory HIPAA training for all employees.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>A surgeon was terminated after illegally accessing the personal records of celebrities, fined $2,000, and sentenced to 4 months in jail.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>A private practice lost an unencrypted flash drive containing PHI, resulting in a $150,000 fine and the requirement to implement a corrective action plan.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>A private physician had their license suspended for submitting a patient's bill to collection agencies with CPT codes that revealed the patient's diagnosis.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Texas hospital employees received an 18-month jail term for the wrongful disclosure of private patient medical information.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>A Walgreens pharmacist violated HIPAA by sharing confidential information about a customer who had dated her husband, resulting in a $1.4 million HIPAA award.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Virginia employees were terminated for accessing medical files without a legitimate medical need.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>An employee was terminated&#x000a0;for inadvertently disclosing a pregnancy test result aloud in the back office of a medical clinic.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>A sales executive was fined $10,000 for filling out prior authorization forms and placing them in patient charts.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Six doctors and 13 employees were terminated&#x000a0;at UCLA for viewing Britney Spears's medical records without a legitimate reason.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>A cardiac monitor vendor was fined $2.5 million when a laptop containing hundreds of patient medical records was stolen from a car.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>An employee was terminated&#x000a0;at the Washington State Medical Center for improperly accessing over 600 confidential patient health records.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>A hospital employee posted on Facebook about a patient's death, stating, "She should have worn her seatbelt."</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>A hospital was fined $2.2 million for allowing an ABC film crew to film two patients without their consent.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>A cardiology group was fined $200,000 for posting surgical and clinical appointments on a publicly accessible internet calendar.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Tricare Management of Virginia exposed the confidential data of nearly 5 million individuals.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Cignet Health of Maryland was fined $4.3 million for ignoring patient requests to obtain copies of their records and for disregarding federal officials' inquiries.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>A Virginia physician was prosecuted for sharing patient information with an employer under false pretenses.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-22897.s7" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>The HIPAA underscores the importance of protecting patient privacy and ensuring secure handling of protected health information. Despite its critical role in safeguarding healthcare data, clinicians and healthcare teams face challenges in fully understanding and consistently applying HIPAA regulations. These challenges stem from evolving technologies, intricate privacy requirements, and inadequate training on secure data practices. This gap has resulted in widespread breaches affecting millions of patients, primarily due to negligence or unintentional noncompliance. Interprofessional education and collaboration are essential to address these issues and enhance outcomes, safety, and team performance.</p>
+        <p>To improve compliance, healthcare teams must adopt a multifaceted approach. Physicians, advanced practitioners, nurses, pharmacists, and support staff need robust training in HIPAA principles, including secure data transmission, mobile device protocols, and breach prevention. Effective care coordination requires the development of comprehensive systems to minimize errors, such as inadvertent disclosures or mishandling of PHI. Responsibilities include regular risk assessments by IT professionals, continuous audits, and the establishment of clear policies on access and data use. By fostering open communication across disciplines, teams can share insights on best practices, ensure accountability, and reinforce a culture of compliance.</p>
+        <p>Patient-centered care is enhanced when all team members understand the legal and ethical parameters of PHI use. Collaborative strategies, such as secure communication platforms and shared training modules, can ensure that healthcare providers act consistently in accordance with HIPAA while maintaining efficient workflows. In research contexts, streamlined processes for PHI management can mitigate the regulatory burden and improve patient recruitment while safeguarding privacy. Through interprofessional efforts and targeted education, healthcare teams can effectively navigate HIPAA&#x02019;s complexities, reduce violations, and prioritize patient trust and safety.</p>
+      </sec>
+      <sec id="article-22897.s8">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=22897&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=22897">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/22897/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=22897">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-22897.s9">
+        <title>References</title>
+        <ref id="article-22897.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kessler</surname>
+                <given-names>SR</given-names>
+              </name>
+              <name>
+                <surname>Pindek</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Kleinman</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Andel</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Spector</surname>
+                <given-names>PE</given-names>
+              </name>
+            </person-group>
+            <article-title>Information security climate and the assessment of information security risk among healthcare employees.</article-title>
+            <source>Health Informatics J</source>
+            <year>2020</year>
+            <month>Mar</month>
+            <volume>26</volume>
+            <issue>1</issue>
+            <fpage>461</fpage>
+            <page-range>461-473</page-range>
+            <pub-id pub-id-type="pmid">30866704</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22897.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mermelstein</surname>
+                <given-names>HT</given-names>
+              </name>
+              <name>
+                <surname>Wallack</surname>
+                <given-names>JJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Confidentiality in the age of HIPAA: a challenge for psychosomatic medicine.</article-title>
+            <source>Psychosomatics</source>
+            <year>2008</year>
+            <season>Mar-Apr</season>
+            <volume>49</volume>
+            <issue>2</issue>
+            <fpage>97</fpage>
+            <page-range>97-103</page-range>
+            <pub-id pub-id-type="pmid">18354061</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22897.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Iyiewuare</surname>
+                <given-names>PO</given-names>
+              </name>
+              <name>
+                <surname>Coulter</surname>
+                <given-names>ID</given-names>
+              </name>
+              <name>
+                <surname>Whitley</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Herman</surname>
+                <given-names>PM</given-names>
+              </name>
+            </person-group>
+            <article-title>Researching the Appropriateness of Care in the Complementary and Integrative Health Professions Part 2: What Every Researcher and Practitioner Should Know About the Health Insurance Portability and Accountability Act and Practice-based Research in the United States.</article-title>
+            <source>J Manipulative Physiol Ther</source>
+            <year>2018</year>
+            <season>Nov-Dec</season>
+            <volume>41</volume>
+            <issue>9</issue>
+            <fpage>807</fpage>
+            <page-range>807-813</page-range>
+            <pub-id pub-id-type="pmid">30755332</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22897.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Liu</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Sutton</surname>
+                <given-names>PR</given-names>
+              </name>
+              <name>
+                <surname>McKenna</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Sinanan</surname>
+                <given-names>MN</given-names>
+              </name>
+              <name>
+                <surname>Fellner</surname>
+                <given-names>BJ</given-names>
+              </name>
+              <name>
+                <surname>Leu</surname>
+                <given-names>MG</given-names>
+              </name>
+              <name>
+                <surname>Ewell</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Evaluation of Secure Messaging Applications for a Health Care System: A Case Study.</article-title>
+            <source>Appl Clin Inform</source>
+            <year>2019</year>
+            <month>Jan</month>
+            <volume>10</volume>
+            <issue>1</issue>
+            <fpage>140</fpage>
+            <page-range>140-150</page-range>
+            <pub-id pub-id-type="pmid">30812040</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22897.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Berry</surname>
+                <given-names>MD</given-names>
+              </name>
+              <collab>Thomson Reuters Accelus.</collab>
+            </person-group>
+            <article-title>Healthcare Reform. Enforcement and Compliance.</article-title>
+            <source>Issue Brief Health Policy Track Serv</source>
+            <year>2018</year>
+            <month>Dec</month>
+            <day>24</day>
+            <volume>2018</volume>
+            <fpage>1</fpage>
+            <page-range>1-38</page-range>
+            <pub-id pub-id-type="pmid">30681783</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22897.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Berry</surname>
+                <given-names>MD</given-names>
+              </name>
+              <collab>Thomson Reuters Accelus.</collab>
+            </person-group>
+            <article-title>Business of Health. Business of Healthcare.</article-title>
+            <source>Issue Brief Health Policy Track Serv</source>
+            <year>2018</year>
+            <month>Dec</month>
+            <day>24</day>
+            <volume>2018</volume>
+            <fpage>1</fpage>
+            <page-range>1-60</page-range>
+            <pub-id pub-id-type="pmid">30681304</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22897.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kels</surname>
+                <given-names>CG</given-names>
+              </name>
+              <name>
+                <surname>Kels</surname>
+                <given-names>LH</given-names>
+              </name>
+            </person-group>
+            <article-title>Potential Harms of HIPAA.</article-title>
+            <source>JAMA</source>
+            <year>2018</year>
+            <month>Dec</month>
+            <day>11</day>
+            <volume>320</volume>
+            <issue>22</issue>
+            <fpage>2378</fpage>
+            <page-range>2378-2379</page-range>
+            <pub-id pub-id-type="pmid">30535213</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22897.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lam</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Simpson</surname>
+                <given-names>BK</given-names>
+              </name>
+              <name>
+                <surname>Lau</surname>
+                <given-names>FH</given-names>
+              </name>
+            </person-group>
+            <article-title>Health Insurance Portability and Accountability Act Noncompliance in Patient Photograph Management in Plastic Surgery.</article-title>
+            <source>Ann Plast Surg</source>
+            <year>2019</year>
+            <month>May</month>
+            <volume>82</volume>
+            <issue>5</issue>
+            <fpage>486</fpage>
+            <page-range>486-492</page-range>
+            <pub-id pub-id-type="pmid">30648996</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22897.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Reynolds</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Stack</surname>
+                <given-names>LB</given-names>
+              </name>
+              <name>
+                <surname>Bonfield</surname>
+                <given-names>CM</given-names>
+              </name>
+            </person-group>
+            <article-title>Medical photography with a mobile phone: useful techniques, and what neurosurgeons need to know about HIPAA compliance.</article-title>
+            <source>J Neurosurg</source>
+            <year>2020</year>
+            <month>Jan</month>
+            <day>01</day>
+            <volume>132</volume>
+            <issue>1</issue>
+            <fpage>260</fpage>
+            <page-range>260-264</page-range>
+            <pub-id pub-id-type="pmid">30611147</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22897.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mattioli</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Security Incidents Targeting Your Medical Practice.</article-title>
+            <source>MD Advis</source>
+            <year>2018</year>
+            <season>Summer</season>
+            <volume>11</volume>
+            <issue>2</issue>
+            <fpage>4</fpage>
+            <page-range>4-10</page-range>
+            <pub-id pub-id-type="pmid">30570893</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22897.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Baker</surname>
+                <given-names>FX</given-names>
+              </name>
+              <name>
+                <surname>Merz</surname>
+                <given-names>JF</given-names>
+              </name>
+            </person-group>
+            <article-title>What gives them the right? Legal privilege and waivers of consent for research.</article-title>
+            <source>Clin Trials</source>
+            <year>2018</year>
+            <month>Dec</month>
+            <volume>15</volume>
+            <issue>6</issue>
+            <fpage>579</fpage>
+            <page-range>579-586</page-range>
+            <pub-id pub-id-type="pmid">30280910</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22897.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sims</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Hodges Shaw</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gilbertson</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Storch</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Halterman</surname>
+                <given-names>MW</given-names>
+              </name>
+            </person-group>
+            <article-title>Legal and ethical issues surrounding the use of crowdsourcing among healthcare providers.</article-title>
+            <source>Health Informatics J</source>
+            <year>2019</year>
+            <month>Dec</month>
+            <volume>25</volume>
+            <issue>4</issue>
+            <fpage>1618</fpage>
+            <page-range>1618-1630</page-range>
+            <pub-id pub-id-type="pmid">30192688</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22897.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kloss</surname>
+                <given-names>LL</given-names>
+              </name>
+              <name>
+                <surname>Brodnik</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Rinehart-Thompson</surname>
+                <given-names>LA</given-names>
+              </name>
+            </person-group>
+            <article-title>Access and Disclosure of Personal Health Information: A Challenging Privacy Landscape in 2016-2018.</article-title>
+            <source>Yearb Med Inform</source>
+            <year>2018</year>
+            <month>Aug</month>
+            <volume>27</volume>
+            <issue>1</issue>
+            <fpage>60</fpage>
+            <page-range>60-66</page-range>
+            <pub-id pub-id-type="pmid">30157506</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22897.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bradley</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>HIPAA compliance efforts.</article-title>
+            <source>Pediatr Emerg Care</source>
+            <year>2004</year>
+            <month>Jan</month>
+            <volume>20</volume>
+            <issue>1</issue>
+            <fpage>68</fpage>
+            <page-range>68-70</page-range>
+            <pub-id pub-id-type="pmid">14716172</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22897.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Butler</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Top HITECH-HIPPA compliance obstacles emerge.</article-title>
+            <source>J AHIMA</source>
+            <year>2014</year>
+            <month>Apr</month>
+            <volume>85</volume>
+            <issue>4</issue>
+            <fpage>20</fpage>
+            <page-range>20-4; quiz 25</page-range>
+            <pub-id pub-id-type="pmid">24834549</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22897.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Roberts</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>Fisher</surname>
+                <given-names>DM</given-names>
+              </name>
+              <name>
+                <surname>Parker</surname>
+                <given-names>LE</given-names>
+              </name>
+              <name>
+                <surname>Darnell</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Sugarman</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Carrithers</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Weinfurt</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Jurkovich</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Zatzick</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Ethical and Regulatory Concerns in Pragmatic Clinical Trial Monitoring and Oversight.</article-title>
+            <source>Ethics Hum Res</source>
+            <year>2020</year>
+            <month>Sep</month>
+            <volume>42</volume>
+            <issue>5</issue>
+            <fpage>29</fpage>
+            <page-range>29-37</page-range>
+            <pub-id pub-id-type="pmid">32937035</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22897.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>White</surname>
+                <given-names>JM</given-names>
+              </name>
+            </person-group>
+            <article-title>HIPPA compliance for vendors and suppliers.</article-title>
+            <source>J Healthc Prot Manage</source>
+            <year>2014</year>
+            <volume>30</volume>
+            <issue>1</issue>
+            <fpage>91</fpage>
+            <page-range>91-7</page-range>
+            <pub-id pub-id-type="pmid">24707761</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22897.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>McMahon</surname>
+                <given-names>EB</given-names>
+              </name>
+              <name>
+                <surname>Lee-Huber</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>HIPPA privacy regulations: practical information for physicians.</article-title>
+            <source>Pain Physician</source>
+            <year>2001</year>
+            <month>Jul</month>
+            <volume>4</volume>
+            <issue>3</issue>
+            <fpage>280</fpage>
+            <page-range>280-4</page-range>
+            <pub-id pub-id-type="pmid">16900255</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-22897.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bilimoria</surname>
+                <given-names>NM</given-names>
+              </name>
+            </person-group>
+            <article-title>HIPPA security rule compliance for physicians: better late than never.</article-title>
+            <source>J Med Pract Manage</source>
+            <year>2005</year>
+            <season>Jul-Aug</season>
+            <volume>21</volume>
+            <issue>1</issue>
+            <fpage>39</fpage>
+            <page-range>39-42</page-range>
+            <pub-id pub-id-type="pmid">16206804</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

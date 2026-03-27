@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-28187" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Radiation Therapy</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Maani</surname>
+            <given-names>Elizabeth V.</given-names>
+          </name>
+          <aff>UT Health San Antonio / South Texas VA</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Maani</surname>
+            <given-names>Christopher V.</given-names>
+          </name>
+          <aff>US Army; USUHS; BAMC; UTHSCSA; UIW</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Elizabeth Maani declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Christopher Maani declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>24</day>
+          <month>10</month>
+          <year>2022</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-28187.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Radiation therapy is the use of directed X-rays or subatomic particles primarily for cancer management in both curative and palliative settings. It can be delivered either externally or internally. External beam radiation, also known as &#x0201c;teletherapy,&#x0201d; is most common and involves a radioactive source outside of the patient, with the energy focused and shaped to the target of interest. Brachytherapy, in contrast, refers to the practice of placing naturally occurring radioactive sources that decay over time and produce high doses of radiation in a focal area. Examples include intracavitary procedures (such as tandem and ovoid placement for cervical cancer), interstitial radioactive seed placement (commonly used for prostate cancer), or placement overlying a cutaneous tumor.</p>
+        <p>Treatment was traditionally administered with naturally occurring radioactive elements that give off photons during the decay process. However, in the modern era, these are typically generated by machines called linear accelerators, which accelerate a stream of electrons toward a target, producing photons resulting from the atomic interactions occurring within that target. These photons are directed toward the patient through a mobile gantry, and motorized&#x000a0;collimators are used to shape the radiation beam as it exits the gantry head.</p>
+        <p>
+<bold>Physical and Biological Principles of Radiation</bold>
+</p>
+        <p>The most common form of ionizing radiation used in clinical practice is the photon. However, electrons are also&#x000a0;commonly used for increasing the radiation dose to the skin when needed. More exotic particles such as protons, carbon ions, or neutrons can be utilized for certain diagnoses or tumor locations but are available only in specialized centers. Each type of radiation possesses unique physical characteristics which dictate the type of&#x000a0;interactions that will occur as it travels through the patient&#x02019;s body.&#x000a0;This, in turn,&#x000a0;determines how and where the dose is deposited in the tissue, and knowledge of these patterns can be manipulated to limit&#x000a0;the dose to normal structures and thereby&#x000a0;improve the therapeutic window.</p>
+        <p>The therapeutic window in radiation also relies on differences in DNA interactions in a cancer cell versus those in a normal cell. Double-stranded DNA breaks caused by radiation result in a mitotic catastrophe where cell division is fatally interrupted; mitotic catastrophe is the main form of cell death induced by ionizing radiation.<xref ref-type="bibr" rid="article-28187.r1">[1]</xref>&#x000a0;Hence, the radiosensitivity of a cell line depends on its rate of cell division. In general, poorly differentiated tumor cells are more radiosensitive because a greater proportion of their cell population is dividing&#x000a0;at any given time.&#x000a0;This also applies to rapidly deviding normal tissue cells such as those of the gastrointestinal mucosa and explains why reactions such as mucositis and diarrhea can be common. The reliance of radiation effect on the cell cycle phase underlies one of the four basic tenets of radiation biology that dictate the success of a particular regimen: the redistribution of cells within the cell cycle, repair of DNA damage, repopulation of cells, and re-oxygenation of hypoxic areas within the tumor.<xref ref-type="bibr" rid="article-28187.r2">[2]</xref></p>
+        <p>Radiation takes advantage of cancer cells because these cells usually have impaired DNA repair mechanisms, in contrast to normal cells, which can rapidly repair double-stranded breaks. Therefore, a fractionated approach, i.e., splitting the total radiation dose over multiple daily treatments, is typically used, such that DNA damage in normal cells is repaired between treatments, while damage to cancer cells accumulates over time, causing preferential cancer cell death.&#x000a0; Both the dose per fraction and the total dose affect tumor and normal tissue response. In general, the lower the daily dose of radiation, the less likely it is to cause toxicity, but only specific cell lines (such as myeloma or lymphoma) are susceptible to these relatively low daily doses.&#x000a0;Therefore, a balance needs to be achieved between daily doses low enough to spare normal tissue but high enough to cause cancer cell death. For many cancers, a&#x000a0;dose of 180 to 200&#x000a0;cGy&#x000a0;per day&#x000a0;is used.<xref ref-type="bibr" rid="article-28187.r3">[3]</xref></p>
+      </sec>
+      <sec id="article-28187.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>
+<bold>Radiation Field Design</bold>
+</p>
+        <p>Target delineation is a crucial skill in creating radiation fields. Traditionally, bony anatomical landmarks were utilized to create &#x0201c;ports,&#x0201d; resulting in large volumes of normal tissue radiated to target the high-risk areas within. This limited the maximum doses achievable with acceptable toxicity. Since many histologies require high doses of radiation for effective cell kill, this approach reduced radiation&#x02019;s potential for a cancer cure. Over time, however, the ability to deliver more conformal treatments has dramatically improved, with the advent of&#x000a0;CT-based target delineation, dynamic multi-leaf collimators that can reshape the field while radiation is delivered from multiple angles, and computer-generated inverse radiation planning (intensity-modulated radiation therapy [IMRT]) to create complex radiation dose distributions that target the tumor while sparing normal tissue.</p>
+        <p>The margin for error is now typically on the order of millimeters, allowing providers to&#x000a0;drastically&#x000a0;reduce&#x000a0;the normal tissue volume radiated. But to take full advantage of modern machine capabilities, the prescribing radiation oncologist must be able to&#x000a0;accurately&#x000a0;delineate&#x000a0;the gross disease and predict pathways of spread. Therefore, it is critical to use clinical and diagnostic information, along with the planning images which are CT-based. Conceptually, a visible tumor is delineated as the gross tumor volume or GTV. A CTV or clinical target volume is then generated to target areas at risk for microscopic spread, typically with a geometric expansion which is then anatomically modified to respect local boundaries to spread. For example, a primary tumor (GTV) in the lung with spiculated borders may have a surrounding area of about 1 cm at risk for microscopic spread (CTV) but will not spread outside the parenchyma. Therefore a 1 cm expansion is drawn from the gross disease in all directions, but carved off the chest wall or bone. In radiation sites such as the lung with expected internal motion affecting the&#x000a0;position of the target, an ITV or internal target volume is generated, encompassing the extent of that internal motion as identified on 4-dimensional CT, ensuring target coverage at all times during treatment delivery, even while it is moving. Finally, a planning target volume or PTV is added to account for expected uncertainties in a daily setup, typically between 5 to 10 mm depending on the institution and type of immobilization.<xref ref-type="bibr" rid="article-28187.r4">[4]</xref>&#x000a0;</p>
+        <p>Given small margins for error, good immobilization is the foundation of quality radiation therapy. Great care is taken in the patient&#x02019;s initial planning stages to ensure that the treatment position will be reproducible daily. A combination of small, permanent tattoos as well as semi-permanent markers or paint is used to help align the patient accurately every day. Some form of position verification is utilized for each course: at least once every five fractions, but ideally performed daily for targets expected to have a significant internal variation or treated with a high degree of conformality. Image verification may be bone or soft-tissue-based.&#x000a0;</p>
+        <p>
+<bold>Logistics of Radiation Therapy</bold>
+</p>
+        <p>Fractionating radiation therapy means that a treatment course usually takes several weeks, but course length can be modified&#x000a0;based on patient and disease requirements. Palliative regimens typically run anywhere from 1 to 10 fractions, with the choice depending on the type of&#x000a0;tumor and goal of treatment, as well as logistics such as difficulty with travel for daily sessions. On the other hand, curative courses of radiation are more standardized and typically take 6 to 8 weeks. Of note, however, hypofractionation&#x000a0;(short course of high-dose radiation) is becoming&#x000a0;an increasingly common technique where the goal of&#x000a0;radiation is the ablation of a small area of targeted tissue&#x000a0;rather than differential cell death within the target. This strategy is used to treat small targets with rapid dose falloff, sparing nearby critical structures. Examples of this strategy include stereotactic body radiotherapy for lung cancer (usually 3 to 5 treatments) and stereotactic radiosurgery for brain metastases (one fraction).<xref ref-type="bibr" rid="article-28187.r5">[5]</xref></p>
+      </sec>
+      <sec id="article-28187.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Along with systemic therapy and surgical procedures, radiation forms part of the backbone of definitive oncologic care.&#x000a0;Radiation is conceptually considered a loco-regional approach to cancer management, in contrast to surgery (generally&#x000a0;a local strategy focused on removing gross disease) and systemic therapy (typically designed to control metastatic spread).&#x000a0; The highest doses are delivered to gross disease, while more moderate doses are used for potential areas of spread near the primary tumor, as well as areas at risk for lymphatic spread regionally. Therefore, a thorough understanding of the anatomy of the affected region, as well as patterns of spread for particular histologies, is critical for the design of radiation fields.</p>
+        <p>Radiation therapy can also be utilized to palliate symptoms related to local tumor progression, such as pain, obstruction, bleeding, or compression. Short courses can be rapidly effective with low toxicity profiles and are therefore well-suited to the goals of hospice and palliative care, potentially improving quality of life even at the very&#x000a0;end stages of illness.&#x000a0; Several benign conditions such as heterotopic ossification, trigeminal neuralgia,&#x000a0;and keloids can also&#x000a0;be treated with radiation.</p>
+        <p>As technology rapidly advances, more and more applications and strategies are being explored in radiation, allowing for increased precision and better tolerability. However, while technology has evolved drastically, the heart of this field has remained the same for over 100 years. Since the discovery of x-rays and their effect on cancer, the goal of radiation has been maximizing tumor control while minimizing toxicity, seeking both cure and comfort for the cancer patient.</p>
+      </sec>
+      <sec id="article-28187.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>All personnel involved in administering radiation therapy must&#x000a0;possess knowledge of the anatomy of the area being treated, the physics of the treatment, and how to care for patients in the periprocedural realm. This includes radiation techs, oncology nurses, and of course, the treating clinicians, with oncology specialists leading the way. As this field advances, it will undoubtedly require all interprofessional team members to be involved in patient care, openly sharing information, and rising staff will play a significant role in both administering therapies as well as post-procedural care, leading to improved patient outcomes. [Level 5]</p>
+      </sec>
+      <sec id="article-28187.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=28187&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=28187">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/28187/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=28187">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-28187.s6">
+        <title>References</title>
+        <ref id="article-28187.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Maier</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Hartmann</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Wenz</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Herskind</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Cellular Pathways in Response to Ionizing Radiation and Their Targetability for Tumor Radiosensitization.</article-title>
+            <source>Int J Mol Sci</source>
+            <year>2016</year>
+            <month>Jan</month>
+            <day>14</day>
+            <volume>17</volume>
+            <issue>1</issue>
+            <pub-id pub-id-type="pmid">26784176</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28187.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wheldon</surname>
+                <given-names>TE</given-names>
+              </name>
+              <name>
+                <surname>O'Donoghue</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>The radiobiology of targeted radiotherapy.</article-title>
+            <source>Int J Radiat Biol</source>
+            <year>1990</year>
+            <month>Jul</month>
+            <volume>58</volume>
+            <issue>1</issue>
+            <fpage>1</fpage>
+            <page-range>1-21</page-range>
+            <pub-id pub-id-type="pmid">1973428</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28187.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Abbott</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name>
+                <surname>Falzone</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Lenzo</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Vallis</surname>
+                <given-names>KA</given-names>
+              </name>
+            </person-group>
+            <article-title>Combining External Beam Radiation and Radionuclide Therapies: Rationale, Radiobiology, Results and Roadblocks.</article-title>
+            <source>Clin Oncol (R Coll Radiol)</source>
+            <year>2021</year>
+            <month>Nov</month>
+            <volume>33</volume>
+            <issue>11</issue>
+            <fpage>735</fpage>
+            <page-range>735-743</page-range>
+            <pub-id pub-id-type="pmid">34544640</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28187.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gr&#x000e9;goire</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Mackie</surname>
+                <given-names>TR</given-names>
+              </name>
+            </person-group>
+            <article-title>State of the art on dose prescription, reporting and recording in Intensity-Modulated Radiation Therapy (ICRU report No. 83).</article-title>
+            <source>Cancer Radiother</source>
+            <year>2011</year>
+            <month>Oct</month>
+            <volume>15</volume>
+            <issue>6-7</issue>
+            <fpage>555</fpage>
+            <page-range>555-9</page-range>
+            <pub-id pub-id-type="pmid">21802333</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-28187.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Weintraub</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Salter</surname>
+                <given-names>BJ</given-names>
+              </name>
+              <name>
+                <surname>Chevalier</surname>
+                <given-names>CL</given-names>
+              </name>
+              <name>
+                <surname>Ransdell</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Human factor associations with safety events in radiation therapy.</article-title>
+            <source>J Appl Clin Med Phys</source>
+            <year>2021</year>
+            <month>Oct</month>
+            <volume>22</volume>
+            <issue>10</issue>
+            <fpage>288</fpage>
+            <page-range>288-294</page-range>
+            <pub-id pub-id-type="pmid">34505353</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

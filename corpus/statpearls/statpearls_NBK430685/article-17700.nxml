@@ -1,0 +1,1584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-17700" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Antimicrobial Susceptibility Testing</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Bayot</surname>
+            <given-names>Marlon L.</given-names>
+          </name>
+          <aff>Adventist University of the Philippines-College of Medicine; Coach MLB Consulting</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Bragg</surname>
+            <given-names>Bradley N.</given-names>
+          </name>
+          <aff>Mayo Clinic Florida</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Marlon Bayot declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Bradley Bragg declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>27</day>
+          <month>5</month>
+          <year>2024</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-17700.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>The majority of infectious diseases are bacterial in origin. With the discovery of laboratory methods to grow these microorganisms using an appropriate growth medium known as &#x0201c;culture,&#x0201d; determining the sensitivity and resistance of specific pathogens to a wide range of antimicrobial agents&#x000a0;is necessary so clinicians can immediately institute proper treatment regimens.<xref ref-type="bibr" rid="article-17700.r1">[1]</xref>&#x000a0;Antimicrobial susceptibility testing is a laboratory procedure performed by medical technologists (clinical laboratory scientists) to identify which antimicrobial regimen is effective for individual patients. On a larger scale,&#x000a0;the testing aids in evaluating treatment services provided by hospitals, clinics, and national programs to control and prevent infectious diseases. Recently, researchers have had to implement continuous surveillance activities for resistance patterns due to the mutations in bacterial deoxyribonucleic acid.<xref ref-type="bibr" rid="article-17700.r2">[2]</xref><xref ref-type="bibr" rid="article-17700.r3">[3]</xref></p>
+        <p>Clinical laboratories currently employ several methods depending on their laboratory test menu. These approaches include the disk diffusion and minimum inhibitory concentration (MIC) methods. Commercial systems&#x000a0;are also available across health centers and hospital facilities, utilizing phenotypic and genotypic characterization of bacterial resistance.<xref ref-type="bibr" rid="article-17700.r4">[4]</xref>&#x000a0;While routine antimicrobial susceptibility testing for gram-positive (eg,&#x000a0;<italic toggle="yes">Staphylococcus aureus</italic>) and gram-negative bacteria (eg,&#x000a0;<italic toggle="yes">Pseudomonas&#x000a0;aeruginosa</italic>) are commonly available in peripheral laboratories, drug susceptibility testing for&#x000a0;<italic toggle="yes">Mycobacterium tuberculosis&#x000a0;</italic>is&#x000a0;usually carried out within more complex facilities like reference laboratories. Despite the differences in the techniques for susceptibility tests, all laboratories&#x000a0;are critical in each step of the sampling and testing process so that test results&#x000a0;are&#x000a0;obtained&#x000a0;with consistently high levels of accuracy and reliability.<xref ref-type="bibr" rid="article-17700.r5">[5]</xref></p>
+      </sec>
+      <sec id="article-17700.s2" sec-type="Specimen Collection">
+        <title>Specimen Collection</title>
+        <p>Specimen requirements for routine susceptibility testing using the disk diffusion method and&#x000a0;MIC method are similar to the guidelines for collecting samples for bacterial culture since a certain number of well-isolated colonies (usually 3 to 5) grown from a culture is necessary to prepare a suspension of inoculum. The usual culture and sensitivity test specimens are blood, urine, cerebrospinal fluid, sputum, wound, stool, and other body fluids and discharge.<xref ref-type="bibr" rid="article-17700.r6">[6]</xref></p>
+        <p>Special susceptibility tests via commercial systems may not always require bacterial colonies from culture because&#x000a0;they can detect resistance to antimicrobial drugs by employing molecular techniques. An example&#x000a0;is the Xpert MTB/Rif assay, which directly determines sensitivity or resistance to rifampicin from sputum specimens.<xref ref-type="bibr" rid="article-17700.r7">[7]</xref></p>
+      </sec>
+      <sec id="article-17700.s3" sec-type="Procedures">
+        <title>Procedures</title>
+        <p>Both disk diffusion and MIC methods employ the phenotypic identification of susceptibility and, therefore, require the following process:</p>
+        <list list-type="order">
+          <list-item>
+            <p>Preparation of a standardized inoculum from a bacterial culture:
+<list list-type="bullet"><list-item><p>Choosing well-isolated colonies</p></list-item><list-item><p>Creating a bacterial suspension (inoculum)</p></list-item><list-item><p>Standardizing the bacterial suspension using McFarland standards</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Dilution of bacterial suspension (only for the MIC method)</p>
+          </list-item>
+          <list-item>
+            <p>Inoculation of bacterial suspension to one of the following:
+<list list-type="bullet"><list-item><p>A particular growth medium (eg, Mueller Hinton Agar, MHA for disk diffusion)</p></list-item><list-item><p>A MIC panel</p></list-item></list>
+</p>
+          </list-item>
+          <list-item>
+            <p>Addition of antimicrobial disks (only for disk diffusion)</p>
+          </list-item>
+          <list-item>
+            <p>Incubation of plates (disk diffusion) or panels for MIC&#x000a0;&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Measuring the zone of inhibition or reading the MIC panel</p>
+          </list-item>
+          <list-item>
+            <p>Interpretation of antimicrobial susce&#x000ad;ptibility testing results&#x000a0;<xref ref-type="bibr" rid="article-17700.r5">[5]</xref></p>
+          </list-item>
+        </list>
+        <p>Commercial systems have their laboratory procedures according to the manufacturer&#x02019;s guidelines. Generally, the direct colony suspension method&#x000a0;is used&#x000a0;for preparing inoculum from colonies grown within 18 to 24 hours, while the growth method can be used by incubating the inoculated broth (with fast-growing bacteria) within 2 to 6 hours. The usual McFarland standard for the turbidity of the inoculum is 0.5.<xref ref-type="bibr" rid="article-17700.r8">[8]</xref></p>
+        <p>Dilution of bacterial suspension (commonly 1:20) for MIC must occur within 15 minutes after making the standard inoculum. Saline can be used as a diluent for a small amount of inoculum to create a concentration of 5 x 10 colony-forming units (CFU)/milliliter. As the inoculum is carefully poured over the panel tray and transferred to the panel prongs, the final concentration&#x000a0;is expected&#x000a0;to be relatively the same. Before inoculating the bacterial suspension into the growth medium, ensure the inoculum is not excessive.&#x000a0;This check&#x000a0;is accomplished&#x000a0;by pressing the swab on the sides of the bacterial suspension tube before inoculating to the&#x000a0;Mueller-Hinton agar plate. Inoculate the Mueller-Hinton agar plate with the swab by starting from the top and carefully swabbing from side to side down to the bottom. This step is&#x000a0;performed&#x000a0;3&#x000a0;times after each plate rotation (usually 60&#x000b0;) to cover the whole plate.</p>
+        <p>The MIC method delivers the inoculum to each well via panel prongs. These panel prongs containing inoculum must be pressed on all sides and at the center, ensuring that the right volume of bacterial suspension transfers to each well, which is approximately 0.1 milliliters.<xref ref-type="bibr" rid="article-17700.r9">[9]</xref>&#x000a0;The addition of antimicrobial disks on inoculated Mueller-Hinton agar plates can be&#x000a0;completed manually using sterile forceps, placing each disk within equal distances from other disks. An example of a recommendation states that a 150-millimeter diameter plate&#x000a0;is best applied&#x000a0;with only 12 antimicrobial disks. Each disk&#x000a0;is pressed towards the surface of the agar to ensure that disk displacement will not occur during incubation.<xref ref-type="bibr" rid="article-17700.r10">[10]</xref></p>
+        <p>Incubation of the inoculated Mueller-Hinton agar plates with disks must take place considering the type of pathogen. Commonly, non-fastidious pathogens are incubated at 35 &#x000b0;C for about 16 to 18 hours at ambient temperature.&#x000a0; Other organisms require longer times (eg, 24 hours).<xref ref-type="bibr" rid="article-17700.r11">[11]</xref>&#x000a0;Fastidious pathogens such as&#x000a0;<italic toggle="yes">Haemophilus</italic>&#x000a0;and&#x000a0;<italic toggle="yes">Neisseria</italic>&#x000a0;<italic toggle="yes">spp</italic>&#x000a0;require 16 to 18 and 20 to 24 hours, respectively.<xref ref-type="bibr" rid="article-17700.r5">[5]</xref>&#x000a0;The inoculated panel&#x000a0;is incubated using the MIC method with the same temperature and incubation time requirements. Additionally, panels are recommended by a plastic seal or in a plastic bag to prevent the panels from dehydration since each well contains a relatively&#x000a0;minimal amount of bacterial suspension.<xref ref-type="bibr" rid="article-17700.r12">[12]</xref></p>
+        <p>Integral to susceptibility testing is the implementation of a robust quality assurance program.&#x000a0;Quality assurance ensures that testing conditions and test systems performance are acceptable, limits variance in operator performance, and helps identify random errors. For susceptibility testing, measures&#x000a0;are in place to ensure that media and reagents are of good quality, equipment&#x000a0;is serviced&#x000a0;correctly, staff is competent at performing testing, routine&#x000a0;quality control (QC)&#x000a0;testing is within acceptable limits, and patient results&#x000a0;are reviewed&#x000a0;before&#x000a0;finalization.<xref ref-type="bibr" rid="article-17700.r13">[13]</xref></p>
+        <p>QC strains&#x000a0;are used&#x000a0;for QC testing. These isolates&#x000a0;have disk zones or MIC ranges established across several laboratories.&#x000a0;These isolates&#x000a0;are tested&#x000a0;periodically (daily or weekly) to ensure that testing conditions, media, and reagents are acceptable.&#x000a0;Results that are out of the acceptable QC range (ie, zones or MICs outside the acceptable range) may result from identifiable errors (eg, issues with the QC strain or supplies) or random.<xref ref-type="bibr" rid="article-17700.r14">[14]</xref></p>
+        <p>A random error of up to 5% is acce&#x000ad;ptable. If encountere&#x000ad;d, laboratories should promptly redo quality control testing.&#x000a0;When the error is resolve&#x000ad;d, regular testing can resume&#x000ad;. However, persiste&#x000ad;nt errors require imme&#x000ad;diate action to identify the root cause&#x000ad;, and patient results should not be re&#x000ad;ported until resolved, which may involve&#x000ad; testing new quality control strains, evaluating additional mate&#x000ad;rials, or consulting with commercial antimicrobial susceptibility te&#x000ad;sting equipment manufacturers. Laboratories may ne&#x000ad;ed to switch to alternative te&#x000ad;sting methods until the issue is fixe&#x000ad;d.<xref ref-type="bibr" rid="article-17700.r10">[10]</xref></p>
+        <p>Accurate antimicrobial susce&#x000ad;ptibility testing is crucial, and staff competency plays a vital role&#x000ad;.<xref ref-type="bibr" rid="article-17700.r15">[15]</xref>&#x000a0;Technologists should demonstrate proficie&#x000ad;ncy in performing and interpreting the testing, ide&#x000ad;ntifying and confirming atypical results, reporting appropriate age&#x000ad;nts according to guidelines, notifying rele&#x000ad;vant parties about unusual findings, and consulting clinicians for specialized te&#x000ad;sting requests.<xref ref-type="bibr" rid="article-17700.r16">[16]</xref></p>
+        <p>Revie&#x000ad;wing the antimicrobial susce&#x000ad;ptibility testing profile for eve&#x000ad;ry organism tested before&#x000ad; reporting is essential. QC te&#x000ad;sting cannot guarantee the&#x000ad; accuracy of each result for a patient&#x02019;s isolate&#x000ad;. Potential errors include mixe&#x000ad;d cultures, bacterial misidentification, and issue&#x000ad;s with specific antimicrobial agent-organism combinations.<xref ref-type="bibr" rid="article-17700.r17">[17]</xref>&#x000a0;The laboratory technologist or director should review antimicrobial susceptibility testing results to ensure the following: bacterial identification and testing results correlate,&#x000a0;appropriate drugs&#x000a0;are reported, results of agents within the&#x000a0;same&#x000a0;class correlate, and results are consistent with previous results.<xref ref-type="bibr" rid="article-17700.r18">[18]</xref></p>
+        <p>Laboratories that pe&#x000ad;rform antimicrobial susceptibility testing must participate in proficie&#x000ad;ncy testing programs. These programs asse&#x000ad;ss the accuracy and consistency of testing me&#x000ad;thods. Proficiency testing helps pre&#x000ad;vent errors and ensure&#x000ad;s high-quality results, which is crucial given the global issue&#x000ad; of antimicrobial resistance.<xref ref-type="bibr" rid="article-17700.r19">[19]</xref>&#x000a0;By comparing results with othe&#x000ad;r labs and following guidelines from organizations like the Clinical and Laboratory Standards Institute (CLSI) and European Committee on Antimicrobial Susceptibility Testing (EUCAST), proficie&#x000ad;ncy testing programs maintain quality assurance standards, safeguarding patie&#x000ad;nt care and reducing the&#x000ad; risk of incorrect antimicrobial susceptibility test findings.<xref ref-type="bibr" rid="article-17700.r20">[20]</xref>&#x000a0;Participation in the&#x000ad;se programs is mandated by the Centers for Medicare &#x00026; Medicaid Services (CMS) under Clinical Laboratory Improvement Amendments (CLIA) re&#x000ad;gulations.</p>
+      </sec>
+      <sec id="article-17700.s4" sec-type="Indications">
+        <title>Indications</title>
+        <p>Susceptibility testing for antimicrobials is necessary for patients who raise suspicion of infection based on history and physical exam. Antibacterial agents are then used to detect sensitivity or resistance from bacteria. Although this review aims primarily towards susceptibility testing for bacterial pathogens, antifungal susceptibility tests also exist to address fungal infection (eg,&#x000a0;<italic toggle="yes">Candida</italic>,&#x000a0;<italic toggle="yes">Aspergillus</italic>&#x000a0;spp). Furthermore, antiviral susceptibility tests are also available (eg, influenza)&#x000a0;via molecular technologies, including sequencing analysis such as Sanger and pyrosequencing methods.<xref ref-type="bibr" rid="article-17700.r21">[21]</xref></p>
+      </sec>
+      <sec id="article-17700.s5" sec-type="Potential Diagnosis">
+        <title>Potential Diagnosis</title>
+        <p>A unique impact of antimicrobial susceptibility testing on patient care is identifying the specific diagnosis and targeting the particular etiologic agent causing the disease.&#x000a0;No&#x000a0;2&#x000a0;patients&#x000a0;have the same care plan, especially if they have the same signs and symptoms but different treatment regimens because the same causative organism can have different resistance patterns.<xref ref-type="bibr" rid="article-17700.r22">[22]</xref>&#x000a0;For example,&#x000a0;2&#x000a0;patients may present with an ordinary strain of&#x000a0;<italic toggle="yes">Staphylococcus aureus</italic>&#x000a0;vs&#x000a0;methicillin-resistant&#x000a0;<italic toggle="yes">Staphylococcus aureus</italic>&#x000a0;(MRSA).&#x000a0;Another&#x000a0;common occurrence&#x000a0;is in patients with drug-susceptible and drug-resistant tuberculosis.</p>
+      </sec>
+      <sec id="article-17700.s6" sec-type="Normal and Critical Findings">
+        <title>Normal and Critical Findings</title>
+        <p>Antimicrobial susceptibility testing results&#x000a0;are reported&#x000a0;using interpretive criteria called clinical breakpoints. Essentially, a clinical breakpoint represents a value (such as MIC or zone diameter) that helps differentiate between organisms inhibited effectively or killed by a given antimicrobial, administered according to standard dosing (classified as susceptible), and those expected to be unaffected or resistant.<xref ref-type="bibr" rid="article-17700.r23">[23]</xref>&#x000a0;</p>
+        <p>For disk diffusion, the zone of inhibition&#x000a0;is measured&#x000a0;using a dedicated caliper that correctly measures the diameter by the edges of the inhibition zone. Reading each set of wells for an antibiotic drug is for MIC panels. MIC determination is by either&#x000a0;a clear&#x000a0;or slight whiteness on the well. The results of the inhibition zones and MIC breakpoints&#x000a0;are reported&#x000a0;using either the terms &#x0201c;susceptible&#x0201d; or &#x0201c;resistant&#x0201d; based on the set cut-off range for zone diameter in the nearest whole millimeter and microgram per milliliter, respectively.&#x000a0;</p>
+        <p>MIC results depend on the interaction between the antimicrobial agent and the organism and test conditions. These conditions include pH and ion concentrations of testing media, the temperature at which the test system&#x000a0;is incubated, the incubation atmosphere, the number of organisms used in testing, and the length of time the system incubates. The CLSI and the EUCAST developed expert-approved guidelines on breakpoints for reporting the results of these methods.<xref ref-type="bibr" rid="article-17700.r5">[5]</xref><xref ref-type="bibr" rid="article-17700.r24">[24]</xref></p>
+      </sec>
+      <sec id="article-17700.s7" sec-type="Interfering Factors">
+        <title>Interfering Factors</title>
+        <p>Several factors affect the result of the susceptibility testing, which covers the whole sampling, testing, and reporting procedures. Any deviation from the standard antimicrobial susceptibility testing procedure can significantly impact succeeding areas of laboratory workflow, which could later affect patient diagnosis, treatment, and management. The laboratory workflow support systems require strict monitoring, and laboratory personnel should be well-trained and competent&#x000a0;to perform the procedure.<xref ref-type="bibr" rid="article-17700.r25">[25]</xref></p>
+        <p>For instance, poor specimen quality is the first sign leading to an erroneous result. A perfectly carried out inoculation to the Mueller-Hinton agar plate using mixed colonies yields unsatisfactory results. Poor standardization of bacterial suspension and a &#x0201c;longer depth of agar&#x0201d; could yield misleading endpoints. Supervision for laboratory staff is necessary to prevent wasting time and resources.<xref ref-type="bibr" rid="article-17700.r26">[26]</xref></p>
+        <p>Purchasing poor-quality MIC panels can lead to &#x0201c;dehydrated wells&#x0201d; or &#x0201c;mixed wells.&#x0201d;&#x000a0;Completing the procedure without personal protective equipment can increase the incidence of laboratory-acquired infections.<xref ref-type="bibr" rid="article-17700.r27">[27]</xref>&#x000a0;Inadequacy and lack of supplies will extend turn-around time, decreasing laboratory productivity and delaying patient therapy.<xref ref-type="bibr" rid="article-17700.r28">[28]</xref>&#x000a0;Completing the testing&#x000a0;for&#x000a0;antibiotics&#x000a0;that do not align with the hospital&#x02019;s formulary makes laboratory service available&#x000a0;yet ineffective.<xref ref-type="bibr" rid="article-17700.r29">[29]</xref></p>
+      </sec>
+      <sec id="article-17700.s8" sec-type="Complications">
+        <title>Complications</title>
+        <p>Inconsistencies in the antimicrobial susceptibility testing results must&#x000a0;be investigated.&#x000a0;No results&#x000a0;should be released when quality control measures are&#x000a0;unsatisfactory.&#x000a0;Releasing inaccurate drug susceptibility or resistance results can inflict more harm to the patients, leading to severe clinical conditions and poor prognosis. A consequence of delivering false results can&#x000a0;lead to inappropriate treatment plans&#x000a0;that might cause further mutations to infectious organisms, exposing the patients and the community to a higher risk.<xref ref-type="bibr" rid="article-17700.r30">[30]</xref></p>
+      </sec>
+      <sec id="article-17700.s9" sec-type="Patient Safety and Education">
+        <title>Patient Safety and Education</title>
+        <p>Patients should be informed about antimicrobial susceptibility testing, indications, requirements, and clinical use for managing cases.<xref ref-type="bibr" rid="article-17700.r31">[31]</xref>&#x000a0;Clinicians are encouraged to disseminate correct information about the test. However, the antimicrobial susceptibility testing results must be interpreted between the patient and the&#x000a0;treating clinician to facilitate compliance with the prescribed medications and prevent self-medication.<xref ref-type="bibr" rid="article-17700.r32">[32]</xref>&#x000a0;With&#x000a0;the rise of antimicrobial resistance, testing requires an emphasis on medical, laboratory, and nursing staff, patients and their family members, and the whole community, leading to a unified approach.<xref ref-type="bibr" rid="article-17700.r33">[33]</xref></p>
+      </sec>
+      <sec id="article-17700.s10" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>When&#x000a0;antimicrobial susceptibility results&#x000a0;are available,&#x000a0;clinicians can develop treatment regimens for each patient. Prescribed medications of appropriate antibiotics need individualization for each patient diagnosed with an infectious disease. Resistance to primary drugs requires more antimicrobial stewardship, including prudent use of second-line drugs.<xref ref-type="bibr" rid="article-17700.r22">[22]</xref></p>
+      </sec>
+      <sec id="article-17700.s11">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=17700&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=17700">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/17700/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=17700">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-17700.s12">
+        <title>References</title>
+        <ref id="article-17700.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lagier</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>Edouard</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Pagnier</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Mediannikov</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Drancourt</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Raoult</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Current and past strategies for bacterial culture in clinical microbiology.</article-title>
+            <source>Clin Microbiol Rev</source>
+            <year>2015</year>
+            <month>Jan</month>
+            <volume>28</volume>
+            <issue>1</issue>
+            <fpage>208</fpage>
+            <page-range>208-36</page-range>
+            <pub-id pub-id-type="pmid">25567228</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sawatzky</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Dillon</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Allen</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Lefebvre</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Hoang</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Tyrrell</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Van Caeseele</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Levett</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Martin</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <article-title>Quality Assurance for Antimicrobial Susceptibility Testing of Neisseria gonorrhoeae in Canada, 2003 to 2012.</article-title>
+            <source>J Clin Microbiol</source>
+            <year>2015</year>
+            <month>Nov</month>
+            <volume>53</volume>
+            <issue>11</issue>
+            <fpage>3646</fpage>
+            <page-range>3646-9</page-range>
+            <pub-id pub-id-type="pmid">26338862</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Graham</surname>
+                <given-names>DR</given-names>
+              </name>
+              <name>
+                <surname>Dixon</surname>
+                <given-names>RE</given-names>
+              </name>
+              <name>
+                <surname>Hughes</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Thornsberry</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Disk diffusion antimicrobial susceptibility testing for clinical and epidemiologic purposes.</article-title>
+            <source>Am J Infect Control</source>
+            <year>1985</year>
+            <month>Dec</month>
+            <volume>13</volume>
+            <issue>6</issue>
+            <fpage>241</fpage>
+            <page-range>241-9</page-range>
+            <pub-id pub-id-type="pmid">3936382</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Humphries</surname>
+                <given-names>RM</given-names>
+              </name>
+            </person-group>
+            <article-title>Update on Susceptibility Testing: Genotypic and Phenotypic Methods.</article-title>
+            <source>Clin Lab Med</source>
+            <year>2020</year>
+            <month>Dec</month>
+            <volume>40</volume>
+            <issue>4</issue>
+            <fpage>433</fpage>
+            <page-range>433-446</page-range>
+            <pub-id pub-id-type="pmid">33121613</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gajic</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Kabic</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Kekic</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Jovicevic</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Milenkovic</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Mitic Culafic</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Trudic</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Ranin</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Opavski</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Antimicrobial Susceptibility Testing: A Comprehensive Review of Currently Used Methods.</article-title>
+            <source>Antibiotics (Basel)</source>
+            <year>2022</year>
+            <month>Mar</month>
+            <day>23</day>
+            <volume>11</volume>
+            <issue>4</issue>
+            <pub-id pub-id-type="pmid">35453179</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Coorevits</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Boelens</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Claeys</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Direct susceptibility testing by disk diffusion on clinical samples: a rapid and accurate tool for antibiotic stewardship.</article-title>
+            <source>Eur J Clin Microbiol Infect Dis</source>
+            <year>2015</year>
+            <month>Jun</month>
+            <volume>34</volume>
+            <issue>6</issue>
+            <fpage>1207</fpage>
+            <page-range>1207-12</page-range>
+            <pub-id pub-id-type="pmid">25698312</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Xie</surname>
+                <given-names>YL</given-names>
+              </name>
+              <name>
+                <surname>Chakravorty</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Armstrong</surname>
+                <given-names>DT</given-names>
+              </name>
+              <name>
+                <surname>Hall</surname>
+                <given-names>SL</given-names>
+              </name>
+              <name>
+                <surname>Via</surname>
+                <given-names>LE</given-names>
+              </name>
+              <name>
+                <surname>Song</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Yuan</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Mo</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Zhu</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Xu</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Gao</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Smith</surname>
+                <given-names>LE</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>RY</given-names>
+              </name>
+              <name>
+                <surname>Joh</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Cho</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Ruan</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Liang</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Dharan</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Cho</surname>
+                <given-names>SN</given-names>
+              </name>
+              <name>
+                <surname>Barry</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name>
+                <surname>Ellner</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Dorman</surname>
+                <given-names>SE</given-names>
+              </name>
+              <name>
+                <surname>Alland</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Evaluation of a Rapid Molecular Drug-Susceptibility Test for Tuberculosis.</article-title>
+            <source>N Engl J Med</source>
+            <year>2017</year>
+            <month>Sep</month>
+            <day>14</day>
+            <volume>377</volume>
+            <issue>11</issue>
+            <fpage>1043</fpage>
+            <page-range>1043-1054</page-range>
+            <pub-id pub-id-type="pmid">28902596</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Balouiri</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Sadiki</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ibnsouda</surname>
+                <given-names>SK</given-names>
+              </name>
+            </person-group>
+            <article-title>Methods for <italic>in vitro</italic> evaluating antimicrobial activity: A review.</article-title>
+            <source>J Pharm Anal</source>
+            <year>2016</year>
+            <month>Apr</month>
+            <volume>6</volume>
+            <issue>2</issue>
+            <fpage>71</fpage>
+            <page-range>71-79</page-range>
+            <pub-id pub-id-type="pmid">29403965</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kowalska-Krochmal</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Dudek-Wicher</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>The Minimum Inhibitory Concentration of Antibiotics: Methods, Interpretation, Clinical Relevance.</article-title>
+            <source>Pathogens</source>
+            <year>2021</year>
+            <month>Feb</month>
+            <day>04</day>
+            <volume>10</volume>
+            <issue>2</issue>
+            <pub-id pub-id-type="pmid">33557078</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nassar</surname>
+                <given-names>MSM</given-names>
+              </name>
+              <name>
+                <surname>Hazzah</surname>
+                <given-names>WA</given-names>
+              </name>
+              <name>
+                <surname>Bakr</surname>
+                <given-names>WMK</given-names>
+              </name>
+            </person-group>
+            <article-title>Evaluation of antibiotic susceptibility test results: how guilty a laboratory could be?</article-title>
+            <source>J Egypt Public Health Assoc</source>
+            <year>2019</year>
+            <volume>94</volume>
+            <issue>1</issue>
+            <fpage>4</fpage>
+            <pub-id pub-id-type="pmid">30686832</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Salam</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Al-Amin</surname>
+                <given-names>MY</given-names>
+              </name>
+              <name>
+                <surname>Pawar</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Akhter</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Lucy</surname>
+                <given-names>IB</given-names>
+              </name>
+            </person-group>
+            <article-title>Conventional methods and future trends in antimicrobial susceptibility testing.</article-title>
+            <source>Saudi J Biol Sci</source>
+            <year>2023</year>
+            <month>Mar</month>
+            <volume>30</volume>
+            <issue>3</issue>
+            <fpage>103582</fpage>
+            <pub-id pub-id-type="pmid">36852413</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Andrews</surname>
+                <given-names>JM</given-names>
+              </name>
+            </person-group>
+            <article-title>Determination of minimum inhibitory concentrations.</article-title>
+            <source>J Antimicrob Chemother</source>
+            <year>2001</year>
+            <month>Jul</month>
+            <volume>48 Suppl 1</volume>
+            <fpage>5</fpage>
+            <page-range>5-16</page-range>
+            <pub-id pub-id-type="pmid">11420333</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>King</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Brown</surname>
+                <given-names>DF</given-names>
+              </name>
+            </person-group>
+            <article-title>Quality assurance of antimicrobial susceptibility testing by disc diffusion.</article-title>
+            <source>J Antimicrob Chemother</source>
+            <year>2001</year>
+            <month>Jul</month>
+            <volume>48 Suppl 1</volume>
+            <fpage>71</fpage>
+            <page-range>71-6</page-range>
+            <pub-id pub-id-type="pmid">11420339</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hong</surname>
+                <given-names>SK</given-names>
+              </name>
+              <name>
+                <surname>Choi</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <name>
+                <surname>Shin</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Pinto</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Shin</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Hong</surname>
+                <given-names>SG</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>YA</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Song</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>SH</given-names>
+              </name>
+              <name>
+                <surname>Yong</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Chong</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>Establishing quality control ranges for antimicrobial susceptibility testing of Escherichia coli, Pseudomonas aeruginosa, and Staphylococcus aureus: a cornerstone to develop reference strains for Korean clinical microbiology laboratories.</article-title>
+            <source>Ann Lab Med</source>
+            <year>2015</year>
+            <month>Nov</month>
+            <volume>35</volume>
+            <issue>6</issue>
+            <fpage>635</fpage>
+            <page-range>635-8</page-range>
+            <pub-id pub-id-type="pmid">26354353</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sharp</surname>
+                <given-names>SE</given-names>
+              </name>
+              <name>
+                <surname>Elder</surname>
+                <given-names>BL</given-names>
+              </name>
+            </person-group>
+            <article-title>Competency assessment in the clinical microbiology laboratory.</article-title>
+            <source>Clin Microbiol Rev</source>
+            <year>2004</year>
+            <month>Jul</month>
+            <volume>17</volume>
+            <issue>3</issue>
+            <fpage>681</fpage>
+            <page-range>681-94, table of contents</page-range>
+            <pub-id pub-id-type="pmid">15258098</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Desjardins</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Fleming</surname>
+                <given-names>CA</given-names>
+              </name>
+            </person-group>
+            <article-title>Competency assessment of microbiology medical laboratory technologists in Ontario, Canada.</article-title>
+            <source>J Clin Microbiol</source>
+            <year>2014</year>
+            <month>Aug</month>
+            <volume>52</volume>
+            <issue>8</issue>
+            <fpage>2940</fpage>
+            <page-range>2940-5</page-range>
+            <pub-id pub-id-type="pmid">24899030</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Henderson</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Bursle</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Stewart</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Harris</surname>
+                <given-names>PNA</given-names>
+              </name>
+              <name>
+                <surname>Paterson</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Chatfield</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Paul</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Dickstein</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Rodriguez-Ba&#x000f1;o</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Turnidge</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Kahlmeter</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>A systematic review of antimicrobial susceptibility testing as a tool in clinical trials assessing antimicrobials against infections due to gram-negative pathogens.</article-title>
+            <source>Clin Microbiol Infect</source>
+            <year>2021</year>
+            <month>Dec</month>
+            <volume>27</volume>
+            <issue>12</issue>
+            <fpage>1746</fpage>
+            <page-range>1746-1753</page-range>
+            <pub-id pub-id-type="pmid">33813125</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wu</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Lutgring</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>McDonald</surname>
+                <given-names>LC</given-names>
+              </name>
+              <name>
+                <surname>Webb</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Fields</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Blum</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Mojica</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Edwards</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Soe</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Pollock</surname>
+                <given-names>DA</given-names>
+              </name>
+            </person-group>
+            <article-title>Selective and Cascade Reporting of Antimicrobial Susceptibility Testing Results and Its Impact on Antimicrobial Resistance Surveillance-National Healthcare Safety Network, April 2020 to March 2021.</article-title>
+            <source>Microbiol Spectr</source>
+            <year>2023</year>
+            <month>Jan</month>
+            <day>31</day>
+            <volume>11</volume>
+            <issue>2</issue>
+            <fpage>e0164622</fpage>
+            <pub-id pub-id-type="pmid">36719248</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chaitram</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Jevitt</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Lary</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Tenover</surname>
+                <given-names>FC</given-names>
+              </name>
+              <collab>WHO Antimicrobial Resistancce Group</collab>
+            </person-group>
+            <article-title>The World Health Organization's External Quality Assurance System Proficiency Testing Program has improved the accuracy of antimicrobial susceptibility testing and reporting among participating laboratories using NCCLS methods.</article-title>
+            <source>J Clin Microbiol</source>
+            <year>2003</year>
+            <month>Jun</month>
+            <volume>41</volume>
+            <issue>6</issue>
+            <fpage>2372</fpage>
+            <page-range>2372-7</page-range>
+            <pub-id pub-id-type="pmid">12791851</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wattal</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Oberoi</surname>
+                <given-names>JK</given-names>
+              </name>
+              <name>
+                <surname>Goel</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Datta</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Raveendran</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Prasad</surname>
+                <given-names>KJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Experience of Indian association of medical microbiology external quality assurance scheme centre, New Delhi: Challenges and quality assessment of clinical microbiology laboratories.</article-title>
+            <source>Indian J Med Microbiol</source>
+            <year>2019</year>
+            <season>Apr-Jun</season>
+            <volume>37</volume>
+            <issue>2</issue>
+            <fpage>163</fpage>
+            <page-range>163-172</page-range>
+            <pub-id pub-id-type="pmid">31745015</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Santos</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Barros</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Hamdan</surname>
+                <given-names>JS</given-names>
+              </name>
+            </person-group>
+            <article-title>Establishing a method of inoculum preparation for susceptibility testing of Trichophyton rubrum and Trichophyton mentagrophytes.</article-title>
+            <source>J Clin Microbiol</source>
+            <year>2006</year>
+            <month>Jan</month>
+            <volume>44</volume>
+            <issue>1</issue>
+            <fpage>98</fpage>
+            <page-range>98-101</page-range>
+            <pub-id pub-id-type="pmid">16390955</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Leekha</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Terrell</surname>
+                <given-names>CL</given-names>
+              </name>
+              <name>
+                <surname>Edson</surname>
+                <given-names>RS</given-names>
+              </name>
+            </person-group>
+            <article-title>General principles of antimicrobial therapy.</article-title>
+            <source>Mayo Clin Proc</source>
+            <year>2011</year>
+            <month>Feb</month>
+            <volume>86</volume>
+            <issue>2</issue>
+            <fpage>156</fpage>
+            <page-range>156-67</page-range>
+            <pub-id pub-id-type="pmid">21282489</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Turnidge</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Paterson</surname>
+                <given-names>DL</given-names>
+              </name>
+            </person-group>
+            <article-title>Setting and revising antibacterial susceptibility breakpoints.</article-title>
+            <source>Clin Microbiol Rev</source>
+            <year>2007</year>
+            <month>Jul</month>
+            <volume>20</volume>
+            <issue>3</issue>
+            <fpage>391</fpage>
+            <page-range>391-408, table of contents</page-range>
+            <pub-id pub-id-type="pmid">17630331</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kassim</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Omuse</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Premji</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Revathi</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparison of Clinical Laboratory Standards Institute and European Committee on Antimicrobial Susceptibility Testing guidelines for the interpretation of antibiotic susceptibility at a University teaching hospital in Nairobi, Kenya: a cross-sectional study.</article-title>
+            <source>Ann Clin Microbiol Antimicrob</source>
+            <year>2016</year>
+            <month>Apr</month>
+            <day>11</day>
+            <volume>15</volume>
+            <fpage>21</fpage>
+            <pub-id pub-id-type="pmid">27068515</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Diekema</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Raney</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Herwaldt</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Doern</surname>
+                <given-names>GV</given-names>
+              </name>
+              <name>
+                <surname>Tenover</surname>
+                <given-names>FC</given-names>
+              </name>
+            </person-group>
+            <article-title>Accuracy and appropriateness of antimicrobial susceptibility test reporting for bacteria isolated from blood cultures.</article-title>
+            <source>J Clin Microbiol</source>
+            <year>2004</year>
+            <month>May</month>
+            <volume>42</volume>
+            <issue>5</issue>
+            <fpage>2258</fpage>
+            <page-range>2258-60</page-range>
+            <pub-id pub-id-type="pmid">15131206</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wu</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Zheng</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Yu</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Fan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>X</given-names>
+              </name>
+            </person-group>
+            <article-title>The Sample Error Pre-Antimicrobial Susceptibility Testing and Its Influencing Factors from the Perspective of Hospital Management: A Cross-Sectional Study.</article-title>
+            <source>Antibiotics (Basel)</source>
+            <year>2022</year>
+            <month>Nov</month>
+            <day>28</day>
+            <volume>11</volume>
+            <issue>12</issue>
+            <pub-id pub-id-type="pmid">36551371</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rojo-Molinero</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Alados</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>de la Pedrosa</surname>
+                <given-names>EG</given-names>
+              </name>
+              <name>
+                <surname>Leiva</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>P&#x000e9;rez</surname>
+                <given-names>JL</given-names>
+              </name>
+            </person-group>
+            <article-title>[Safety in the Microbiology laboratory].</article-title>
+            <source>Enferm Infecc Microbiol Clin</source>
+            <year>2015</year>
+            <season>Jun-Jul</season>
+            <volume>33</volume>
+            <issue>6</issue>
+            <fpage>404</fpage>
+            <page-range>404-10</page-range>
+            <pub-id pub-id-type="pmid">25444041</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Liu</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Liao</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Zheng</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Wen</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Fu</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Fan</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Yang</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Hu</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Jiang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Guo</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Cai</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Guo</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Guo</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Lu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Zhou</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Blood culture quality and turnaround time of clinical microbiology laboratories in Chinese Teaching Hospitals: A multicenter study.</article-title>
+            <source>J Clin Lab Anal</source>
+            <year>2024</year>
+            <month>Jan</month>
+            <volume>38</volume>
+            <issue>1-2</issue>
+            <fpage>e25008</fpage>
+            <pub-id pub-id-type="pmid">38235610</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kim</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Kang</surname>
+                <given-names>CK</given-names>
+              </name>
+              <name>
+                <surname>Jun</surname>
+                <given-names>KI</given-names>
+              </name>
+              <name>
+                <surname>Yoo</surname>
+                <given-names>SH</given-names>
+              </name>
+              <name>
+                <surname>Chun</surname>
+                <given-names>JY</given-names>
+              </name>
+              <name>
+                <surname>Jung</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>YJ</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>DY</given-names>
+              </name>
+              <name>
+                <surname>Jo</surname>
+                <given-names>HB</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>DY</given-names>
+              </name>
+              <name>
+                <surname>Koh</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Shin</surname>
+                <given-names>DY</given-names>
+              </name>
+              <name>
+                <surname>Hong</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>NJ</given-names>
+              </name>
+              <name>
+                <surname>Yoon</surname>
+                <given-names>SS</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>TS</given-names>
+              </name>
+              <name>
+                <surname>Park</surname>
+                <given-names>WB</given-names>
+              </name>
+              <name>
+                <surname>Oh</surname>
+                <given-names>MD</given-names>
+              </name>
+            </person-group>
+            <article-title>Enhanced antimicrobial stewardship based on rapid phenotypic antimicrobial susceptibility testing for bacteraemia in patients with haematological malignancies: a randomized controlled trial.</article-title>
+            <source>Clin Microbiol Infect</source>
+            <year>2021</year>
+            <month>Jan</month>
+            <volume>27</volume>
+            <issue>1</issue>
+            <fpage>69</fpage>
+            <page-range>69-75</page-range>
+            <pub-id pub-id-type="pmid">32272171</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zaman</surname>
+                <given-names>SB</given-names>
+              </name>
+              <name>
+                <surname>Hussain</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Nye</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Mehta</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Mamun</surname>
+                <given-names>KT</given-names>
+              </name>
+              <name>
+                <surname>Hossain</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>A Review on Antibiotic Resistance: Alarm Bells are Ringing.</article-title>
+            <source>Cureus</source>
+            <year>2017</year>
+            <month>Jun</month>
+            <day>28</day>
+            <volume>9</volume>
+            <issue>6</issue>
+            <fpage>e1403</fpage>
+            <pub-id pub-id-type="pmid">28852600</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ventola</surname>
+                <given-names>CL</given-names>
+              </name>
+            </person-group>
+            <article-title>The antibiotic resistance crisis: part 1: causes and threats.</article-title>
+            <source>P T</source>
+            <year>2015</year>
+            <month>Apr</month>
+            <volume>40</volume>
+            <issue>4</issue>
+            <fpage>277</fpage>
+            <page-range>277-83</page-range>
+            <pub-id pub-id-type="pmid">25859123</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Aslam</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Arshad</surname>
+                <given-names>MI</given-names>
+              </name>
+              <name>
+                <surname>Khurshid</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Muzammil</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Rasool</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Nisar</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Alvi</surname>
+                <given-names>RF</given-names>
+              </name>
+              <name>
+                <surname>Aslam</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Qamar</surname>
+                <given-names>MU</given-names>
+              </name>
+              <name>
+                <surname>Salamat</surname>
+                <given-names>MKF</given-names>
+              </name>
+              <name>
+                <surname>Baloch</surname>
+                <given-names>Z</given-names>
+              </name>
+            </person-group>
+            <article-title>Antibiotic resistance: a rundown of a global crisis.</article-title>
+            <source>Infect Drug Resist</source>
+            <year>2018</year>
+            <volume>11</volume>
+            <fpage>1645</fpage>
+            <page-range>1645-1658</page-range>
+            <pub-id pub-id-type="pmid">30349322</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-17700.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rather</surname>
+                <given-names>IA</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>BC</given-names>
+              </name>
+              <name>
+                <surname>Bajpai</surname>
+                <given-names>VK</given-names>
+              </name>
+              <name>
+                <surname>Park</surname>
+                <given-names>YH</given-names>
+              </name>
+            </person-group>
+            <article-title>Self-medication and antibiotic resistance: Crisis, current challenges, and prevention.</article-title>
+            <source>Saudi J Biol Sci</source>
+            <year>2017</year>
+            <month>May</month>
+            <volume>24</volume>
+            <issue>4</issue>
+            <fpage>808</fpage>
+            <page-range>808-812</page-range>
+            <pub-id pub-id-type="pmid">28490950</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

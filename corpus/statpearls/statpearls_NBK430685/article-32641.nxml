@@ -1,0 +1,1447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-32641" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Tumor-Suppressor Genes</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Joyce</surname>
+            <given-names>Catherine</given-names>
+          </name>
+          <aff>University of Kansas School of Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Rayi</surname>
+            <given-names>Appaji</given-names>
+          </name>
+          <aff>Charleston Area Medical Center</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Kasi</surname>
+            <given-names>Anup</given-names>
+          </name>
+          <aff>University of Kansas</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Catherine Joyce declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Appaji Rayi declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Anup Kasi declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>28</day>
+          <month>8</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-32641.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Tumor suppressor genes are important genes that act within the genome to regulate several cellular functions. These genes can be broadly classified based on their role in cell growth/cell cycle progression, cell proliferation, DNA repair mechanisms, and other crucial cellular signaling functions such as the apoptosis induction. Without functional tumor suppressor genes, there is a high risk of dysregulated cell growth that is a well-known mechanism for the development of cancers.&#x000a0;<xref ref-type="bibr" rid="article-32641.r1">[1]</xref>&#x000a0;Loss of function mutations in tumor suppressor genes has been identified in many types of&#x000a0;cancers, including ovarian, lung, colorectal, head and neck, pancreatic, uterine, breast, and bladder cancer.<xref ref-type="bibr" rid="article-32641.r2">[2]</xref><xref ref-type="bibr" rid="article-32641.r3">[3]</xref><xref ref-type="bibr" rid="article-32641.r4">[4]</xref><xref ref-type="bibr" rid="article-32641.r5">[5]</xref><xref ref-type="bibr" rid="article-32641.r6">[6]</xref>&#x000a0;There are even familial cancer syndromes associated with the loss of function germline mutations of specific tumor suppressor genes like Li-Fraumeni syndrome&#x000a0;with&#x000a0;the loss of TP53.<xref ref-type="bibr" rid="article-32641.r7">[7]</xref>&#x000a0;Extensive research is underway to understand these genes and their relationship to cancers to&#x000a0;facilitate the development of novel targets for specific cancer types.</p>
+      </sec>
+      <sec id="article-32641.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>Most of our current knowledge of tumor suppressor genes originates from the initial studies of the retinoblastoma (<italic toggle="yes">RB</italic>) gene; this was the first tumor suppressor gene discovered, and mutations in&#x000a0;<italic toggle="yes">RB </italic>cause&#x000a0;childhood retinoblastoma. This disease is an inherited condition caused by an inactivating mutation in the&#x000a0;<italic toggle="yes">RB1</italic>&#x000a0;gene that causes a 10,000-fold increased risk of developing retinoblastoma (often in both eyes) as compared to the general population. These patients are also at increased risk of developing osteosarcoma and other sarcomas. Interestingly, about 60% of retinoblastomas occur sporadically (almost always in one eye), and these patients are not at increased risk for other forms of cancer.<xref ref-type="bibr" rid="article-32641.r8">[8]</xref>&#x000a0;To explain this dichotomy, Knudson proposed a &#x0201c;two-hit&#x0201d; hypothesis:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>In the inherited form of retinoblastoma, children inherit one mutated<italic toggle="yes">&#x000a0;RB</italic>&#x000a0;allele (germ-line mutation), and the other copy is normal. Retinoblastoma develops when the normal retinoblastoma (<italic toggle="yes">RB)</italic>&#x000a0;allele undergoes a spontaneous somatic mutation; this is the &#x0201c;second hit.&#x0201d;</p>
+          </list-item>
+          <list-item>
+            <p>In sporadic cases of retinoblastoma, both normal&#x000a0;<italic toggle="yes">RB</italic>&#x000a0;alleles must undergo a somatic mutation in the same cell. The probability of this is low, which explains why retinoblastoma is uncommon in the general population. In both cases, the resulting two hits lead to the development of retinoblastoma.<xref ref-type="bibr" rid="article-32641.r9">[9]</xref></p>
+          </list-item>
+        </list>
+        <p>Based on these original observations, there are three important properties of classic tumor suppressor genes (TSGs):</p>
+        <list list-type="order">
+          <list-item>
+            <p>Classic tumor suppressor genes (TSGs) are recessive at the cellular level, with inactivation of both alleles typically found in tumors.</p>
+          </list-item>
+          <list-item>
+            <p>Inheritance of a solitary mutant allele increases tumor susceptibility because only a single additional inactivating event is necessary for complete loss of gene function.</p>
+          </list-item>
+          <list-item>
+            <p>The same gene is often inactivated in sporadic cancers.<xref ref-type="bibr" rid="article-32641.r1">[1]</xref></p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-32641.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>
+<bold>Mechanism&#x000a0;</bold>
+</p>
+        <p>Tumor suppressor genes can be broadly divided into five types functionally <xref ref-type="bibr" rid="article-32641.r10">[10]</xref>:</p>
+        <list list-type="order">
+          <list-item>
+            <p>Genes that encode intracellular proteins that are crucial in controlling the progression of cell cycle stages - (e.g., pRB and p16)<xref ref-type="bibr" rid="article-32641.r11">[11]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Genes that encode receptors or signal transducers which orchestrate signals that inhibit cell proliferation [e.g., adenomatous polyposis coli (APC) and transforming growth factor (TGF)-&#x003b2;]<xref ref-type="bibr" rid="article-32641.r12">[12]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Genes that encode the checkpoint-control proteins, which are useful in triggering cell cycle arrest in case of DNA damage or chromosomal defects [e.g., p16, p14, and breast cancer type 1 susceptibility protein (BRCA1)]<xref ref-type="bibr" rid="article-32641.r13">[13]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Genes that encode proteins useful for the induction of apoptosis (e.g., p53)<xref ref-type="bibr" rid="article-32641.r14">[14]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Genes that encode proteins involved in the repair of DNA [e.g., DNA mismatch repair protein 2 (MSH2) and p53]<xref ref-type="bibr" rid="article-32641.r15">[15]</xref></p>
+          </list-item>
+        </list>
+        <p>Many tumor suppressor genes have been the object of studies, and there are likely many more that have yet to be discovered. The mechanisms of each tumor suppressor gene and its protein products are complex and interrelated to other cell signaling pathways, but some better-known mechanisms appear below.</p>
+        <p>
+<bold>
+<italic toggle="yes">Retinoblastoma (RB):&#x000a0;</italic>
+</bold>
+<italic toggle="yes">RB</italic> gene, also called &#x02018;Governor of the Cell Cycle,&#x02019; encodes the RB protein that, when hypophosphorylated, binds and inhibits E2F transcriptions factors.<xref ref-type="bibr" rid="article-32641.r16">[16]</xref>&#x000a0;These transcription factors regulate genes that are essential for cells to pass from G1 to the S phase of the cell cycle. Typical growth factor signaling causes RB hyperphosphorylation and inactivation, thus causing cell cycle progression.<xref ref-type="bibr" rid="article-32641.r8">[8]</xref>&#x000a0;A variety of mechanisms like loss-of-function mutations affecting RB, CDK4, and cyclin D gene amplification, cyclin-dependent kinase inhibitors loss (p16/INK4a), and inhibition of RB by the binding of viral oncoproteins (E7 protein of HPV) can revoke the antiproliferative effect of RB in cancers.<xref ref-type="bibr" rid="article-32641.r17">[17]</xref></p>
+        <p>
+<bold>
+<italic toggle="yes">TP53&#x000a0;Tumor Suppressor Gene:&#x000a0;</italic>
+</bold>The&#x000a0;<italic toggle="yes">TP53&#x000a0;</italic>tumor suppressor gene is also known as the &#x0201c;guardian of the genome&#x0201d; as it serves to monitor for cellular stress like anoxia, identify DNA damage, or inappropriate signaling by mutated oncoproteins.<xref ref-type="bibr" rid="article-32641.r18">[18]</xref><xref ref-type="bibr" rid="article-32641.r19">[19]</xref>&#x000a0;The&#x000a0;<italic toggle="yes">TP53&#x000a0;</italic>gene encodes for the p53 protein, which controls the expression of proteins and their activity in cell cycle arrest, cellular senescence, DNA repair, and apoptosis. Loss of p53 can cause continued cell replication despite DNA damage and failure to activate programmed cell death.<xref ref-type="bibr" rid="article-32641.r20">[20]</xref>&#x000a0;The DNA damage is perceived by complexes comprising kinases of the ATM/ATR family.<xref ref-type="bibr" rid="article-32641.r21">[21]</xref>&#x000a0;These kinases phosphorylate p53, releasing it from inhibitors such as MDM2. The active p53 upregulated the expressions of important proteins like cyclin-dependent kinase inhibitor p21, which causes G1-S checkpoint arrest of the cell cycle. In instances where the DNA damage is not repairable, p53 induces events like activating the&#x000a0;<italic toggle="yes">BAX</italic>&#x000a0;gene, which encodes a pro-apoptotic protein that finally lead to cellular apoptosis or senescence. It also works to inhibit the&#x000a0;<italic toggle="yes">BCL2</italic>&#x000a0;anti-apoptotic gene and stimulates the release of cytochrome c from the mitochondria. Cytochrome c activates caspases within the cell responsible for its eventual degradation. Similar to RB, p53 can be inactivated by viral oncoproteins like the E6 protein of HPV, thus revoking the antiproliferative and other important cellular effects. Most of the cancers demonstrate a biallelic loss-of-function mutation in TP53. Uncommon patients with Li-Fraumeni syndrome have a very high incidence of a wide variety of cancers like breast cancer, soft-tissue, and bone sarcomas, and brain tumors since they inherit one defective copy of TP53.<xref ref-type="bibr" rid="article-32641.r22">[22]</xref><xref ref-type="bibr" rid="article-32641.r23">[23]</xref><xref ref-type="bibr" rid="article-32641.r5">[5]</xref></p>
+        <p>
+<bold>
+<italic toggle="yes">Phosphatase and Tensin Homolog&#x000a0;</italic>(<italic toggle="yes">PTEN</italic>)<italic toggle="yes">&#x000a0;Gene:&#x000a0;</italic></bold>
+<italic toggle="yes">PTEN</italic> gene encodes a lipid phosphatase that negatively regulates the phosphoinositide-3-kinase (PI3K)-AKT and the target of mTOR signaling pathways. These pathways are vital for cell proliferation, cell cycle progression, and apoptosis.<xref ref-type="bibr" rid="article-32641.r24">[24]</xref>&#x000a0;The PTEN protein also functions to keep migration, adhesion, and angiogenesis in check. It also plays a role in the overall stabilization of the genome. A biallelic loss-of-function is common in diverse cancers. Cowden syndrome is an autosomal dominant disorder resulting from germline loss-of-function mutations of this gene and correlates with a higher risk of breast and endometrial cancer</p>
+        <p>
+<bold>
+<italic toggle="yes">CDH1 (E-cadherin):&#x000a0;</italic>
+</bold>Normal cells stop proliferating once they come into contact with neighboring cells, which helps to maintain the structure and architecture of the tissue, referred to as contact inhibition. Mediation of cell-to-cell contact in many tissues is the function&#x000a0;of a group of proteins called cadherins.<xref ref-type="bibr" rid="article-32641.r25">[25]</xref>&#x000a0;E-cadherin (epithelial cadherin) regulates contact inhibition by binding to a key component of the WNT signaling pathway, &#x000df;-catenin. This binding prevents E-cadherin from translocating to the nucleus of the cell, stopping it from activating transcription of pro-growth target genes.<xref ref-type="bibr" rid="article-32641.r26">[26]</xref>&#x000a0;Overall, this interaction regulates the morphology and organization of epithelial cell linings. Autosomal dominant familial gastric carcinoma is associated with a germline loss-of-function in this gene. <xref ref-type="bibr" rid="article-32641.r27">[27]</xref></p>
+        <p>
+<bold>
+<italic toggle="yes">NF1 and NF2: </italic>
+</bold>NF1 gene encodes for neurofibromin 1, which is a GTPase that functions as a negative regulator of RAS. A germline loss of function mutation of this gene causes Neurofibromatosis type 1, an autosomal dominant disorder associated with the formation of neurofibromas, brain tumors like optic gliomas, and malignant nerve sheath tumors peripherally.<xref ref-type="bibr" rid="article-32641.r28">[28]</xref><xref ref-type="bibr" rid="article-32641.r29">[29]</xref>&#x000a0;NF2 encodes neurofibromin 2 (also known as merlin), which is a cytoskeletal protein associated with contact inhibition. Loss of function mutations of this gene leads to neurofibromatosis type 2, which is also an autosomal dominant disorder associated with an increased risk of bilateral schwannomas among other tumors.<xref ref-type="bibr" rid="article-32641.r30">[30]</xref></p>
+        <p>
+<bold>
+<italic toggle="yes">BRCA 1, BRCA 2, PARP-1:&#x000a0;</italic>
+</bold>
+<italic toggle="yes">BRCA1&#x000a0;and&#x000a0;BRCA2</italic>&#x000a0;are tumor suppressor genes that encode proteins involved in the repair of DNA double-strand breaks through the homologous recombination repair pathway.<xref ref-type="bibr" rid="article-32641.r31">[31]</xref><bold>&#x000a0;</bold><italic toggle="yes">PARP-1</italic>&#x000a0;encodes a protein that assists with the repair of single-stranded breaks in the DNA. Without functional proteins that repair DNA, the cell cycle continues to pass along defective and mutated genetic material that leads to aberrant daughter cells.&#x000a0;</p>
+        <p>
+<bold>
+<italic toggle="yes">APC: &#x000a0;</italic>
+</bold>The&#x000a0;<italic toggle="yes">APC</italic>&#x000a0;gene encodes a tumor suppressor protein that negatively regulates the WNT signaling pathway. This regulation leads to enhancement of the formation of a complex that degrades &#x003b2;-catenin that is involved in the regulation and co-ordination of cell-cell adhesion and gene transcription.<xref ref-type="bibr" rid="article-32641.r32">[32]</xref><xref ref-type="bibr" rid="article-32641.r33">[33]</xref>&#x000a0;The APC mutation is present in familial adenomatous polyposis, an autosomal dominant disorder where thousands of colonic polyps develop with early onset of colon carcinoma. The tumor development is associated with a loss of a single normal APC allele.</p>
+        <p>
+<bold>
+<italic toggle="yes">CDKN2A:&#x000a0;</italic>
+</bold>This complex encodes two tumor suppressor proteins, p16/INK4a, and ARF, which augments RB function and stabilizes p53, respectively.<xref ref-type="bibr" rid="article-32641.r34">[34]</xref>&#x000a0;Loss-of-function germline mutations in this gene occur in autosomal dominant familial melanoma. A biallelic loss-of-function presents in multiple cancers including melanomas, leukemias, and carcinomas.</p>
+        <p>
+<bold>
+<italic toggle="yes">WT1:&#x000a0;</italic>
+</bold>
+<italic toggle="yes">WT1</italic> gene encodes for transcription factors required for normal genitourinary tissue development. Wilms tumor, pediatric kidney cancer, is associated with a germline loss-of-function mutation in this gene. Sporadic Wilms tumor also correlates with similar <italic toggle="yes">WT1</italic> mutations.<xref ref-type="bibr" rid="article-32641.r35">[35]</xref></p>
+        <p>
+<bold>
+<italic toggle="yes">PTCH1:&#x000a0;</italic>
+</bold>
+<italic toggle="yes">PTCH1</italic> tumor suppressor gene encodes protein patched homolog 1 that negatively regulated the hedgehog signaling pathway.<xref ref-type="bibr" rid="article-32641.r36">[36]</xref><xref ref-type="bibr" rid="article-32641.r37">[37]</xref>&#x000a0;Gorlin syndrome is an autosomal dominant disorder that correlates with a germline loss-of-function mutation in this gene and has a high risk of developing basal cell carcinoma and medulloblastoma. Sporadic cases of basal cell carcinoma and medulloblastomas are frequently associated with acquired biallelic loss-of-function <italic toggle="yes">PTCH1 </italic>mutations.<xref ref-type="bibr" rid="article-32641.r36">[36]</xref></p>
+        <p>
+<bold>
+<italic toggle="yes">VHL:&#x000a0;</italic>
+</bold>
+<italic toggle="yes">VHL</italic> gene encodes a component of a ubiquitin ligase, which is involved in the degradation of hypoxia-induced factors (HIFs). These are transcription factors that alter the expression of genes in response to hypoxia. Von Hippel-Lindau syndrome, an autosomal dominant disorder, is associated with loss-of-function germline mutations of this gene and poses a high risk of developing renal cell carcinoma and pheochromocytoma.<xref ref-type="bibr" rid="article-32641.r38">[38]</xref><xref ref-type="bibr" rid="article-32641.r39">[39]</xref></p>
+        <p>
+<bold>Points to Remember</bold>
+</p>
+        <p>Tumor suppressor genes function to either repress or inhibit the cell cycle or promote apoptosis. The more specific functions of tumor suppressor proteins fall into several categories, including<xref ref-type="bibr" rid="article-32641.r1">[1]</xref><xref ref-type="bibr" rid="article-32641.r21">[21]</xref>:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Inhibition of mitogenic signaling pathways</p>
+          </list-item>
+          <list-item>
+            <p>Inhibition of cell cycle progression</p>
+          </list-item>
+          <list-item>
+            <p>Inhibition of &#x0201c;pro-growth&#x0201d; programs of metabolism and angiogenesis</p>
+          </list-item>
+          <list-item>
+            <p>Inhibition of invasion and metastasis</p>
+          </list-item>
+          <list-item>
+            <p>Stabilization of the genome</p>
+          </list-item>
+          <list-item>
+            <p>DNA repair factors</p>
+          </list-item>
+          <list-item>
+            <p>Induction of apoptosis</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-32641.s4">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=32641&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=32641">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/32641/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=32641">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-32641.s5">
+        <title>References</title>
+        <ref id="article-32641.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sherr</surname>
+                <given-names>CJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Principles of tumor suppression.</article-title>
+            <source>Cell</source>
+            <year>2004</year>
+            <month>Jan</month>
+            <day>23</day>
+            <volume>116</volume>
+            <issue>2</issue>
+            <fpage>235</fpage>
+            <page-range>235-46</page-range>
+            <pub-id pub-id-type="pmid">14744434</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Osada</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Takahashi</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Genetic alterations of multiple tumor suppressors and oncogenes in the carcinogenesis and progression of lung cancer.</article-title>
+            <source>Oncogene</source>
+            <year>2002</year>
+            <month>Oct</month>
+            <day>21</day>
+            <volume>21</volume>
+            <issue>48</issue>
+            <fpage>7421</fpage>
+            <page-range>7421-34</page-range>
+            <pub-id pub-id-type="pmid">12379883</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kotsopoulos</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title><italic>BRCA</italic> Mutations and Breast Cancer Prevention.</article-title>
+            <source>Cancers (Basel)</source>
+            <year>2018</year>
+            <month>Dec</month>
+            <day>19</day>
+            <volume>10</volume>
+            <issue>12</issue>
+            <pub-id pub-id-type="pmid">30572612</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Toss</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Tomasello</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Razzaboni</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Contu</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Grandi</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Cagnacci</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Schilder</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Cortesi</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Hereditary ovarian cancer: not only BRCA 1 and 2 genes.</article-title>
+            <source>Biomed Res Int</source>
+            <year>2015</year>
+            <volume>2015</volume>
+            <fpage>341723</fpage>
+            <pub-id pub-id-type="pmid">26075229</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r5">
+          <label>5</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Karsonovich</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Gasalberti</surname>
+                <given-names>DP</given-names>
+              </name>
+              <name>
+                <surname>Rayi</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Low-Grade Gliomas</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2025</year>
+            <month>12</month>
+            <day>13</day>
+            <pub-id pub-id-type="pmid">32809503</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Krug</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Ganser</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Koeffler</surname>
+                <given-names>HP</given-names>
+              </name>
+            </person-group>
+            <article-title>Tumor suppressor genes in normal and malignant hematopoiesis.</article-title>
+            <source>Oncogene</source>
+            <year>2002</year>
+            <month>May</month>
+            <day>13</day>
+            <volume>21</volume>
+            <issue>21</issue>
+            <fpage>3475</fpage>
+            <page-range>3475-95</page-range>
+            <pub-id pub-id-type="pmid">12032783</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Varley</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Evans</surname>
+                <given-names>DG</given-names>
+              </name>
+              <name>
+                <surname>Birch</surname>
+                <given-names>JM</given-names>
+              </name>
+            </person-group>
+            <article-title>Li-Fraumeni syndrome--a molecular and clinical review.</article-title>
+            <source>Br J Cancer</source>
+            <year>1997</year>
+            <volume>76</volume>
+            <issue>1</issue>
+            <fpage>1</fpage>
+            <page-range>1-14</page-range>
+            <pub-id pub-id-type="pmid">9218725</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Manning</surname>
+                <given-names>AL</given-names>
+              </name>
+              <name>
+                <surname>Dyson</surname>
+                <given-names>NJ</given-names>
+              </name>
+            </person-group>
+            <article-title>RB: mitotic implications of a tumour suppressor.</article-title>
+            <source>Nat Rev Cancer</source>
+            <year>2012</year>
+            <month>Feb</month>
+            <day>09</day>
+            <volume>12</volume>
+            <issue>3</issue>
+            <fpage>220</fpage>
+            <page-range>220-6</page-range>
+            <pub-id pub-id-type="pmid">22318235</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Knudson</surname>
+                <given-names>AG</given-names>
+              </name>
+            </person-group>
+            <article-title>Hereditary cancer, oncogenes, and antioncogenes.</article-title>
+            <source>Cancer Res</source>
+            <year>1985</year>
+            <month>Apr</month>
+            <volume>45</volume>
+            <issue>4</issue>
+            <fpage>1437</fpage>
+            <page-range>1437-43</page-range>
+            <pub-id pub-id-type="pmid">2983882</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wang</surname>
+                <given-names>LH</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>CF</given-names>
+              </name>
+              <name>
+                <surname>Rajasekaran</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Shin</surname>
+                <given-names>YK</given-names>
+              </name>
+            </person-group>
+            <article-title>Loss of Tumor Suppressor Gene Function in Human Cancer: An Overview.</article-title>
+            <source>Cell Physiol Biochem</source>
+            <year>2018</year>
+            <volume>51</volume>
+            <issue>6</issue>
+            <fpage>2647</fpage>
+            <page-range>2647-2693</page-range>
+            <pub-id pub-id-type="pmid">30562755</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Leiderman</surname>
+                <given-names>YI</given-names>
+              </name>
+              <name>
+                <surname>Kiss</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Mukai</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Molecular genetics of RB1--the retinoblastoma gene.</article-title>
+            <source>Semin Ophthalmol</source>
+            <year>2007</year>
+            <season>Oct-Dec</season>
+            <volume>22</volume>
+            <issue>4</issue>
+            <fpage>247</fpage>
+            <page-range>247-54</page-range>
+            <pub-id pub-id-type="pmid">18097988</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Smith</surname>
+                <given-names>AL</given-names>
+              </name>
+              <name>
+                <surname>Robin</surname>
+                <given-names>TP</given-names>
+              </name>
+              <name>
+                <surname>Ford</surname>
+                <given-names>HL</given-names>
+              </name>
+            </person-group>
+            <article-title>Molecular pathways: targeting the TGF-&#x003b2; pathway for cancer therapy.</article-title>
+            <source>Clin Cancer Res</source>
+            <year>2012</year>
+            <month>Sep</month>
+            <day>01</day>
+            <volume>18</volume>
+            <issue>17</issue>
+            <fpage>4514</fpage>
+            <page-range>4514-21</page-range>
+            <pub-id pub-id-type="pmid">22711703</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Savage</surname>
+                <given-names>KI</given-names>
+              </name>
+              <name>
+                <surname>Harkin</surname>
+                <given-names>DP</given-names>
+              </name>
+            </person-group>
+            <article-title>BRCA1, a 'complex' protein involved in the maintenance of genomic stability.</article-title>
+            <source>FEBS J</source>
+            <year>2015</year>
+            <month>Feb</month>
+            <volume>282</volume>
+            <issue>4</issue>
+            <fpage>630</fpage>
+            <page-range>630-46</page-range>
+            <pub-id pub-id-type="pmid">25400280</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nayak</surname>
+                <given-names>SK</given-names>
+              </name>
+              <name>
+                <surname>Panesar</surname>
+                <given-names>PS</given-names>
+              </name>
+              <name>
+                <surname>Kumar</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>p53-Induced apoptosis and inhibitors of p53.</article-title>
+            <source>Curr Med Chem</source>
+            <year>2009</year>
+            <volume>16</volume>
+            <issue>21</issue>
+            <fpage>2627</fpage>
+            <page-range>2627-40</page-range>
+            <pub-id pub-id-type="pmid">19601800</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rahman</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Scott</surname>
+                <given-names>RH</given-names>
+              </name>
+            </person-group>
+            <article-title>Cancer genes associated with phenotypes in monoallelic and biallelic mutation carriers: new lessons from old players.</article-title>
+            <source>Hum Mol Genet</source>
+            <year>2007</year>
+            <month>Apr</month>
+            <day>15</day>
+            <volume>16 Spec No 1</volume>
+            <fpage>R60</fpage>
+            <page-range>R60-6</page-range>
+            <pub-id pub-id-type="pmid">17613548</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Huang</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Ingber</surname>
+                <given-names>DE</given-names>
+              </name>
+            </person-group>
+            <article-title>The structural and mechanical complexity of cell-growth control.</article-title>
+            <source>Nat Cell Biol</source>
+            <year>1999</year>
+            <month>Sep</month>
+            <volume>1</volume>
+            <issue>5</issue>
+            <fpage>E131</fpage>
+            <page-range>E131-8</page-range>
+            <pub-id pub-id-type="pmid">10559956</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Javanmard</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Moein</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Esghaei</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Naseripour</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Monavari</surname>
+                <given-names>SH</given-names>
+              </name>
+              <name>
+                <surname>Bokharaei-Salim</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Sadeghipour</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Molecular evidence of human papillomaviruses in the retinoblastoma tumor.</article-title>
+            <source>Virusdisease</source>
+            <year>2019</year>
+            <month>Sep</month>
+            <volume>30</volume>
+            <issue>3</issue>
+            <fpage>360</fpage>
+            <page-range>360-366</page-range>
+            <pub-id pub-id-type="pmid">31803802</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Toufektchan</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Toledo</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>The Guardian of the Genome Revisited: p53 Downregulates Genes Required for Telomere Maintenance, DNA Repair, and Centromere Structure.</article-title>
+            <source>Cancers (Basel)</source>
+            <year>2018</year>
+            <month>May</month>
+            <day>06</day>
+            <volume>10</volume>
+            <issue>5</issue>
+            <pub-id pub-id-type="pmid">29734785</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hofseth</surname>
+                <given-names>LJ</given-names>
+              </name>
+              <name>
+                <surname>Hussain</surname>
+                <given-names>SP</given-names>
+              </name>
+              <name>
+                <surname>Harris</surname>
+                <given-names>CC</given-names>
+              </name>
+            </person-group>
+            <article-title>p53: 25 years after its discovery.</article-title>
+            <source>Trends Pharmacol Sci</source>
+            <year>2004</year>
+            <month>Apr</month>
+            <volume>25</volume>
+            <issue>4</issue>
+            <fpage>177</fpage>
+            <page-range>177-81</page-range>
+            <pub-id pub-id-type="pmid">15116721</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Goh</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Coffill</surname>
+                <given-names>CR</given-names>
+              </name>
+              <name>
+                <surname>Lane</surname>
+                <given-names>DP</given-names>
+              </name>
+            </person-group>
+            <article-title>The role of mutant p53 in human cancer.</article-title>
+            <source>J Pathol</source>
+            <year>2011</year>
+            <month>Jan</month>
+            <volume>223</volume>
+            <issue>2</issue>
+            <fpage>116</fpage>
+            <page-range>116-26</page-range>
+            <pub-id pub-id-type="pmid">21125670</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r21">
+          <label>21</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Rayi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Hozayen</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Chromosome Instability Syndromes</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2022</year>
+            <month>9</month>
+            <day>19</day>
+            <pub-id pub-id-type="pmid">30725883</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Malkin</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Li-fraumeni syndrome.</article-title>
+            <source>Genes Cancer</source>
+            <year>2011</year>
+            <month>Apr</month>
+            <volume>2</volume>
+            <issue>4</issue>
+            <fpage>475</fpage>
+            <page-range>475-84</page-range>
+            <pub-id pub-id-type="pmid">21779515</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kratz</surname>
+                <given-names>CP</given-names>
+              </name>
+              <name>
+                <surname>Achatz</surname>
+                <given-names>MI</given-names>
+              </name>
+              <name>
+                <surname>Brugi&#x000e8;res</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Frebourg</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Garber</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>Greer</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Hansford</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Janeway</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Kohlmann</surname>
+                <given-names>WK</given-names>
+              </name>
+              <name>
+                <surname>McGee</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Mullighan</surname>
+                <given-names>CG</given-names>
+              </name>
+              <name>
+                <surname>Onel</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Pajtler</surname>
+                <given-names>KW</given-names>
+              </name>
+              <name>
+                <surname>Pfister</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Savage</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Schiffman</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Schneider</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Strong</surname>
+                <given-names>LC</given-names>
+              </name>
+              <name>
+                <surname>Evans</surname>
+                <given-names>DGR</given-names>
+              </name>
+              <name>
+                <surname>Wasserman</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Villani</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Malkin</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Cancer Screening Recommendations for Individuals with Li-Fraumeni Syndrome.</article-title>
+            <source>Clin Cancer Res</source>
+            <year>2017</year>
+            <month>Jun</month>
+            <day>01</day>
+            <volume>23</volume>
+            <issue>11</issue>
+            <fpage>e38</fpage>
+            <page-range>e38-e45</page-range>
+            <pub-id pub-id-type="pmid">28572266</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Stambolic</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Suzuki</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>de la Pompa</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Brothers</surname>
+                <given-names>GM</given-names>
+              </name>
+              <name>
+                <surname>Mirtsos</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Sasaki</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Ruland</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Penninger</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Siderovski</surname>
+                <given-names>DP</given-names>
+              </name>
+              <name>
+                <surname>Mak</surname>
+                <given-names>TW</given-names>
+              </name>
+            </person-group>
+            <article-title>Negative regulation of PKB/Akt-dependent cell survival by the tumor suppressor PTEN.</article-title>
+            <source>Cell</source>
+            <year>1998</year>
+            <month>Oct</month>
+            <day>02</day>
+            <volume>95</volume>
+            <issue>1</issue>
+            <fpage>29</fpage>
+            <page-range>29-39</page-range>
+            <pub-id pub-id-type="pmid">9778245</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>van Roy</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Berx</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>The cell-cell adhesion molecule E-cadherin.</article-title>
+            <source>Cell Mol Life Sci</source>
+            <year>2008</year>
+            <month>Nov</month>
+            <volume>65</volume>
+            <issue>23</issue>
+            <fpage>3756</fpage>
+            <page-range>3756-88</page-range>
+            <pub-id pub-id-type="pmid">18726070</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Liu</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Chu</surname>
+                <given-names>KM</given-names>
+              </name>
+            </person-group>
+            <article-title>E-cadherin and gastric cancer: cause, consequence, and applications.</article-title>
+            <source>Biomed Res Int</source>
+            <year>2014</year>
+            <volume>2014</volume>
+            <fpage>637308</fpage>
+            <pub-id pub-id-type="pmid">25184143</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pharoah</surname>
+                <given-names>PD</given-names>
+              </name>
+              <name>
+                <surname>Guilford</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Caldas</surname>
+                <given-names>C</given-names>
+              </name>
+              <collab>International Gastric Cancer Linkage Consortium</collab>
+            </person-group>
+            <article-title>Incidence of gastric cancer and breast cancer in CDH1 (E-cadherin) mutation carriers from hereditary diffuse gastric cancer families.</article-title>
+            <source>Gastroenterology</source>
+            <year>2001</year>
+            <month>Dec</month>
+            <volume>121</volume>
+            <issue>6</issue>
+            <fpage>1348</fpage>
+            <page-range>1348-53</page-range>
+            <pub-id pub-id-type="pmid">11729114</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Shen</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Harper</surname>
+                <given-names>PS</given-names>
+              </name>
+              <name>
+                <surname>Upadhyaya</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Molecular genetics of neurofibromatosis type 1 (NF1).</article-title>
+            <source>J Med Genet</source>
+            <year>1996</year>
+            <month>Jan</month>
+            <volume>33</volume>
+            <issue>1</issue>
+            <fpage>2</fpage>
+            <page-range>2-17</page-range>
+            <pub-id pub-id-type="pmid">8825042</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Campian</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Gutmann</surname>
+                <given-names>DH</given-names>
+              </name>
+            </person-group>
+            <article-title>CNS Tumors in Neurofibromatosis.</article-title>
+            <source>J Clin Oncol</source>
+            <year>2017</year>
+            <month>Jul</month>
+            <day>20</day>
+            <volume>35</volume>
+            <issue>21</issue>
+            <fpage>2378</fpage>
+            <page-range>2378-2385</page-range>
+            <pub-id pub-id-type="pmid">28640700</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Morrison</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Sherman</surname>
+                <given-names>LS</given-names>
+              </name>
+              <name>
+                <surname>Legg</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Banine</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Isacke</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Haipek</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Gutmann</surname>
+                <given-names>DH</given-names>
+              </name>
+              <name>
+                <surname>Ponta</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Herrlich</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>The NF2 tumor suppressor gene product, merlin, mediates contact inhibition of growth through interactions with CD44.</article-title>
+            <source>Genes Dev</source>
+            <year>2001</year>
+            <month>Apr</month>
+            <day>15</day>
+            <volume>15</volume>
+            <issue>8</issue>
+            <fpage>968</fpage>
+            <page-range>968-80</page-range>
+            <pub-id pub-id-type="pmid">11316791</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Roy</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Chun</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Powell</surname>
+                <given-names>SN</given-names>
+              </name>
+            </person-group>
+            <article-title>BRCA1 and BRCA2: different roles in a common pathway of genome protection.</article-title>
+            <source>Nat Rev Cancer</source>
+            <year>2011</year>
+            <month>Dec</month>
+            <day>23</day>
+            <volume>12</volume>
+            <issue>1</issue>
+            <fpage>68</fpage>
+            <page-range>68-78</page-range>
+            <pub-id pub-id-type="pmid">22193408</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fearnhead</surname>
+                <given-names>NS</given-names>
+              </name>
+              <name>
+                <surname>Britton</surname>
+                <given-names>MP</given-names>
+              </name>
+              <name>
+                <surname>Bodmer</surname>
+                <given-names>WF</given-names>
+              </name>
+            </person-group>
+            <article-title>The ABC of APC.</article-title>
+            <source>Hum Mol Genet</source>
+            <year>2001</year>
+            <month>Apr</month>
+            <volume>10</volume>
+            <issue>7</issue>
+            <fpage>721</fpage>
+            <page-range>721-33</page-range>
+            <pub-id pub-id-type="pmid">11257105</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Aoki</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Taketo</surname>
+                <given-names>MM</given-names>
+              </name>
+            </person-group>
+            <article-title>Adenomatous polyposis coli (APC): a multi-functional tumor suppressor gene.</article-title>
+            <source>J Cell Sci</source>
+            <year>2007</year>
+            <month>Oct</month>
+            <day>01</day>
+            <volume>120</volume>
+            <issue>Pt 19</issue>
+            <fpage>3327</fpage>
+            <page-range>3327-35</page-range>
+            <pub-id pub-id-type="pmid">17881494</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zhao</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Choi</surname>
+                <given-names>BY</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Bode</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Dong</surname>
+                <given-names>Z</given-names>
+              </name>
+            </person-group>
+            <article-title>Implications of Genetic and Epigenetic Alterations of CDKN2A (p16(INK4a)) in Cancer.</article-title>
+            <source>EBioMedicine</source>
+            <year>2016</year>
+            <month>Jun</month>
+            <volume>8</volume>
+            <fpage>30</fpage>
+            <page-range>30-39</page-range>
+            <pub-id pub-id-type="pmid">27428416</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yang</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Han</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Suarez Saiz</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Minden</surname>
+                <given-names>MD</given-names>
+              </name>
+            </person-group>
+            <article-title>A tumor suppressor and oncogene: the WT1 story.</article-title>
+            <source>Leukemia</source>
+            <year>2007</year>
+            <month>May</month>
+            <volume>21</volume>
+            <issue>5</issue>
+            <fpage>868</fpage>
+            <page-range>868-76</page-range>
+            <pub-id pub-id-type="pmid">17361230</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lo Muzio</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Nevoid basal cell carcinoma syndrome (Gorlin syndrome).</article-title>
+            <source>Orphanet J Rare Dis</source>
+            <year>2008</year>
+            <month>Nov</month>
+            <day>25</day>
+            <volume>3</volume>
+            <fpage>32</fpage>
+            <pub-id pub-id-type="pmid">19032739</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Dong</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Sun</surname>
+                <given-names>LS</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>TJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Mechanisms of inactivation of PTCH1 gene in nevoid basal cell carcinoma syndrome: modification of the two-hit hypothesis.</article-title>
+            <source>Clin Cancer Res</source>
+            <year>2010</year>
+            <month>Jan</month>
+            <day>15</day>
+            <volume>16</volume>
+            <issue>2</issue>
+            <fpage>442</fpage>
+            <page-range>442-50</page-range>
+            <pub-id pub-id-type="pmid">20068110</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Neumann</surname>
+                <given-names>HP</given-names>
+              </name>
+              <name>
+                <surname>Wiestler</surname>
+                <given-names>OD</given-names>
+              </name>
+            </person-group>
+            <article-title>Clustering of features of von Hippel-Lindau syndrome: evidence for a complex genetic locus.</article-title>
+            <source>Lancet</source>
+            <year>1991</year>
+            <month>May</month>
+            <day>04</day>
+            <volume>337</volume>
+            <issue>8749</issue>
+            <fpage>1052</fpage>
+            <page-range>1052-4</page-range>
+            <pub-id pub-id-type="pmid">1673491</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-32641.r39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ganeshan</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Menias</surname>
+                <given-names>CO</given-names>
+              </name>
+              <name>
+                <surname>Pickhardt</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name>
+                <surname>Sandrasegaran</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Lubner</surname>
+                <given-names>MG</given-names>
+              </name>
+              <name>
+                <surname>Ramalingam</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Bhalla</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Tumors in von Hippel-Lindau Syndrome: From Head to Toe-Comprehensive State-of-the-Art Review.</article-title>
+            <source>Radiographics</source>
+            <year>2018</year>
+            <season>May-Jun</season>
+            <volume>38</volume>
+            <issue>3</issue>
+            <fpage>982</fpage>
+            <pub-id pub-id-type="pmid">29757728</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

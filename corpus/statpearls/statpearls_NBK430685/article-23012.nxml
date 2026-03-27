@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-23012" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Hounsfield Unit</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>DenOtter</surname>
+            <given-names>Tami D.</given-names>
+          </name>
+          <aff>Creighton University</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Schubert</surname>
+            <given-names>Johanna</given-names>
+          </name>
+          <aff>Creighton University</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Tami DenOtter declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Johanna Schubert declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>6</day>
+          <month>3</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-23012.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">The Hounsfield unit (HU) is a relative quantitative measurement of radio density used by radiologists in the interpretation of computed tomography (CT) images. The absorption/attenuation coefficient of radiation within a tissue is used during CT reconstruction to produce a grayscale image. The physical density of tissue is proportional to the absorption/attenuation of the X-ray beam. The Hounsfield unit, also referred to as the CT unit, is then calculated based on a linear transformation of the baseline linear attenuation coefficient of the X-ray beam, where distilled water (at standard temperature and pressure) is arbitrarily defined to be zero Hounsfield Units and air defined as -1000 HU. The upper limits can reach up to 1000 for bones, 2000 for dense bones like the cochlea, and more than 3000 for metals like steel or silver. The linear transformation produces a Hounsfield scale that displays as gray tones. More dense tissue, with greater X-ray beam absorption, has positive values and appears bright; less dense tissue, with less X-ray beam absorption, has negative values and appears dark. The Hounsfield unit was named after Sir Godfrey Hounsfield, recipient of the Nobel Prize in Physiology or Medicine in 1979, for his part in the invention of CT, as it had immediate recognition as a revolutionary diagnostic instrument.<xref ref-type="bibr" rid="article-23012.r1">[1]</xref><xref ref-type="bibr" rid="article-23012.r2">[2]</xref><xref ref-type="bibr" rid="article-23012.r3">[3]</xref></p>
+      </sec>
+      <sec id="article-23012.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>This linear transformation of the original linear attenuation makes the Hounsfield scale a relative scale, rather than absolute. Different X-ray beam energies will result in different tissue absorption and hence, different HUs. Early studies showed the HU to be dependent on the various CT parameters.<xref ref-type="bibr" rid="article-23012.r4">[4]</xref> The type of reconstructing algorithm, design of the CT, and X-ray kilovoltage, were the most important factors identified. These factors need standardization to help make the HU a reliable diagnostic measurement tool.<xref ref-type="bibr" rid="article-23012.r5">[5]</xref></p>
+        <p>CT artifacts can affect Hounsfield unit measurements.&#x000a0; One of the most encountered CT artifacts, beam-hardening artifact, affects the measurement of radiodensity.&#x000a0;Polychromatic energies comprise the conventional CT X-ray. High-density tissue selectively absorbs X-rays of lower energy, thus altering the X-ray beam. This absorption, in turn, can alter the X-ray beam absorption in the center of high-density tissue&#x000a0;and results in a change in the HU, leading to falsely lowered HU measurements and appears less dense, or darker, on CT images.&#x000a0;Modern CT machines can correct this artifact in the reconstruction process.</p>
+        <p>Continued advancements in CT as a diagnostic tool have led to different CT designs. Different CT designs, in turn, can alter&#x000a0;the HU. For example, cone-beam computed tomography (CBCT), used mainly in dentistry, cannot show the actual HU similar to conventional CT but does show a strong correlation.<xref ref-type="bibr" rid="article-23012.r6">[6]</xref> Dual-energy CT (DECT) uses X-ray beams of two different energies for deriving additional information to produce both anatomic and functional information.<xref ref-type="bibr" rid="article-23012.r7">[7]</xref>&#x000a0;Given the dependence of the HU on energy, the use of HU as a quantitative diagnostic parameter is limited in DECT.&#x000a0; The same is true for reduced energy protocols used in CT imaging today.<xref ref-type="bibr" rid="article-23012.r8">[8]</xref></p>
+        <p>Lastly, one should remember that the visualization of images on a CT has as its basis differences in tissue density and radiodensity. In the case of foreign body evaluation on CT imaging, if the foreign body has a similar physical density to the tissue that it is embedded in, it will have similar HU and will be hard to detect by visually CT. The radiologic evaluation of a wooden foreign body is complicated, given the varied appearance of wood and changes within the wood. There is documentation showing that a wooden foreign body demonstrates increasing HU over time.<xref ref-type="bibr" rid="article-23012.r9">[9]</xref></p>
+        <p>HU for fat is around -50, cerebrospinal fluid +15, white matter +25, grey matter +40, and blood +30-45.</p>
+      </sec>
+      <sec id="article-23012.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>The use of the HU to measure tissue density has aided radiologists in the interpretation of images and diagnosis of disease. Its use is identified in different specialties of medicine.</p>
+        <p>The following are some of the uses of HU that have been identified in the literature:</p>
+        <list list-type="order">
+          <list-item>
+            <p>In diagnosing fatty liver<xref ref-type="bibr" rid="article-23012.r10">[10]</xref></p>
+          </list-item>
+          <list-item>
+            <p>As&#x000a0;a quantitative measurement in the evaluation of solitary pulmonary nodules and thyroid nodules<xref ref-type="bibr" rid="article-23012.r11">[11]</xref></p>
+          </list-item>
+          <list-item>
+            <p>To determine bone mineral density<xref ref-type="bibr" rid="article-23012.r12">[12]</xref><xref ref-type="bibr" rid="article-23012.r13">[13]</xref>&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>To estimate bone quality before spinal instrumentation,<xref ref-type="bibr" rid="article-23012.r14">[14]</xref>&#x000a0;predicting pedicle screw loosening<xref ref-type="bibr" rid="article-23012.r15">[15]</xref>&#x000a0;and in degenerative lumbar scoliosis<xref ref-type="bibr" rid="article-23012.r16">[16]</xref></p>
+          </list-item>
+          <list-item>
+            <p>HU&#x000a0;of paraspinal muscles have helped identify patients at risk for sarcopenia<xref ref-type="bibr" rid="article-23012.r17">[17]</xref></p>
+          </list-item>
+          <list-item>
+            <p>In the characterization of bile duct lesions<xref ref-type="bibr" rid="article-23012.r18">[18]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Predictor of growth in meningiomas<xref ref-type="bibr" rid="article-23012.r19">[19]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Predictor of spontaneous expulsion of lower ureteric stone<xref ref-type="bibr" rid="article-23012.r20">[20]</xref>&#x000a0;and in differentiating pyonephrosis from hydronephrosis<xref ref-type="bibr" rid="article-23012.r21">[21]</xref></p>
+          </list-item>
+          <list-item>
+            <p>HU of interpeduncular cistern hematomas can predict symptomatic vasospasms<xref ref-type="bibr" rid="article-23012.r22">[22]</xref></p>
+          </list-item>
+          <list-item>
+            <p>In the differential diagnosis of odontogenic cysts<xref ref-type="bibr" rid="article-23012.r23">[23]</xref></p>
+          </list-item>
+          <list-item>
+            <p>In predicting outcomes of intracerebral hemorrhage by measuring the HU in the perihematomal edema<xref ref-type="bibr" rid="article-23012.r24">[24]</xref></p>
+          </list-item>
+          <list-item>
+            <p>In identifying tandem occlusion in acute ischemic stroke<xref ref-type="bibr" rid="article-23012.r25">[25]</xref></p>
+          </list-item>
+          <list-item>
+            <p>In the diagnosis of acute venous thrombosis in the pediatric population<xref ref-type="bibr" rid="article-23012.r26">[26]</xref></p>
+          </list-item>
+        </list>
+        <p>With continued further advancements in technology, researchers are studying semi-automated measurements of tissue to aid the radiologist in the evaluation and diagnosis of disease. Semi-automated HU measurements of solitary pulmonary nodules have shown to be an accurate approach to determining malignant from benign solitary pulmonary nodules.<xref ref-type="bibr" rid="article-23012.r27">[27]</xref>&#x000a0;Other semi-automated measurements of HU are likely to aid in the evaluation of CT images and become part of the landscape of clinical practice in the near future.</p>
+      </sec>
+      <sec id="article-23012.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>Proper communication should be there between the radiologist, surgeon, and physician with regard to imaging. Subtle findings may need the radiologist to measure the Housfiled unit of the lesion and let the medical or surgical team know if indicated.</p>
+      </sec>
+      <sec id="article-23012.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=23012&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=23012">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/23012/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=23012">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-23012.s6">
+        <title>References</title>
+        <ref id="article-23012.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Raju</surname>
+                <given-names>TN</given-names>
+              </name>
+            </person-group>
+            <article-title>The Nobel chronicles. 1979: Allan MacLeod Cormack (b 1924); and Sir Godfrey Newbold Hounsfield (b 1919).</article-title>
+            <source>Lancet</source>
+            <year>1999</year>
+            <month>Nov</month>
+            <day>06</day>
+            <volume>354</volume>
+            <issue>9190</issue>
+            <fpage>1653</fpage>
+            <pub-id pub-id-type="pmid">10560712</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mahesh</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Search for isotropic resolution in CT from conventional through multiple-row detector.</article-title>
+            <source>Radiographics</source>
+            <year>2002</year>
+            <season>Jul-Aug</season>
+            <volume>22</volume>
+            <issue>4</issue>
+            <fpage>949</fpage>
+            <page-range>949-62</page-range>
+            <pub-id pub-id-type="pmid">12110725</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hounsfield</surname>
+                <given-names>GN</given-names>
+              </name>
+            </person-group>
+            <article-title>Computed medical imaging. Nobel lecture, Decemberr 8, 1979.</article-title>
+            <source>J Comput Assist Tomogr</source>
+            <year>1980</year>
+            <month>Oct</month>
+            <volume>4</volume>
+            <issue>5</issue>
+            <fpage>665</fpage>
+            <page-range>665-74</page-range>
+            <pub-id pub-id-type="pmid">6997341</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Levi</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Gray</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>McCullough</surname>
+                <given-names>EC</given-names>
+              </name>
+              <name>
+                <surname>Hattery</surname>
+                <given-names>RR</given-names>
+              </name>
+            </person-group>
+            <article-title>The unreliability of CT numbers as absolute values.</article-title>
+            <source>AJR Am J Roentgenol</source>
+            <year>1982</year>
+            <month>Sep</month>
+            <volume>139</volume>
+            <issue>3</issue>
+            <fpage>443</fpage>
+            <page-range>443-7</page-range>
+            <pub-id pub-id-type="pmid">6981306</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zerhouni</surname>
+                <given-names>EA</given-names>
+              </name>
+              <name>
+                <surname>Spivey</surname>
+                <given-names>JF</given-names>
+              </name>
+              <name>
+                <surname>Morgan</surname>
+                <given-names>RH</given-names>
+              </name>
+              <name>
+                <surname>Leo</surname>
+                <given-names>FP</given-names>
+              </name>
+              <name>
+                <surname>Stitik</surname>
+                <given-names>FP</given-names>
+              </name>
+              <name>
+                <surname>Siegelman</surname>
+                <given-names>SS</given-names>
+              </name>
+            </person-group>
+            <article-title>Factors influencing quantitative CT measurements of solitary pulmonary nodules.</article-title>
+            <source>J Comput Assist Tomogr</source>
+            <year>1982</year>
+            <month>Dec</month>
+            <volume>6</volume>
+            <issue>6</issue>
+            <fpage>1075</fpage>
+            <page-range>1075-87</page-range>
+            <pub-id pub-id-type="pmid">7174924</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Razi</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Niknami</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Alavi Ghazani</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Relationship between Hounsfield Unit in CT Scan and Gray Scale in CBCT.</article-title>
+            <source>J Dent Res Dent Clin Dent Prospects</source>
+            <year>2014</year>
+            <season>Spring</season>
+            <volume>8</volume>
+            <issue>2</issue>
+            <fpage>107</fpage>
+            <page-range>107-10</page-range>
+            <pub-id pub-id-type="pmid">25093055</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Aran</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Daftari Besheli</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Karcaaltincaba</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gupta</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Flores</surname>
+                <given-names>EJ</given-names>
+              </name>
+              <name>
+                <surname>Abujudeh</surname>
+                <given-names>HH</given-names>
+              </name>
+            </person-group>
+            <article-title>Applications of dual-energy CT in emergency radiology.</article-title>
+            <source>AJR Am J Roentgenol</source>
+            <year>2014</year>
+            <month>Apr</month>
+            <volume>202</volume>
+            <issue>4</issue>
+            <fpage>W314</fpage>
+            <page-range>W314-24</page-range>
+            <pub-id pub-id-type="pmid">24660729</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bolus</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Morgan</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Berland</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Effective use of the Hounsfield unit in the age of variable energy CT.</article-title>
+            <source>Abdom Radiol (NY)</source>
+            <year>2017</year>
+            <month>Mar</month>
+            <volume>42</volume>
+            <issue>3</issue>
+            <fpage>766</fpage>
+            <page-range>766-771</page-range>
+            <pub-id pub-id-type="pmid">28132073</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Natung</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Shullai</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Lynser</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Tripathy</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>A challenging case of a large intraorbital foreign body perforating the nasal septum in a child.</article-title>
+            <source>Indian J Ophthalmol</source>
+            <year>2018</year>
+            <month>Oct</month>
+            <volume>66</volume>
+            <issue>10</issue>
+            <fpage>1511</fpage>
+            <page-range>1511-1513</page-range>
+            <pub-id pub-id-type="pmid">30249858</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zeb</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Nasir</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Katz</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Larijani</surname>
+                <given-names>VN</given-names>
+              </name>
+              <name>
+                <surname>Budoff</surname>
+                <given-names>MJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Computed tomography scans in the evaluation of fatty liver disease in a population based study: the multi-ethnic study of atherosclerosis.</article-title>
+            <source>Acad Radiol</source>
+            <year>2012</year>
+            <month>Jul</month>
+            <volume>19</volume>
+            <issue>7</issue>
+            <fpage>811</fpage>
+            <page-range>811-8</page-range>
+            <pub-id pub-id-type="pmid">22521729</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wei</surname>
+                <given-names>PY</given-names>
+              </name>
+              <name>
+                <surname>Jiang</surname>
+                <given-names>ND</given-names>
+              </name>
+              <name>
+                <surname>Xiang</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Xu</surname>
+                <given-names>CK</given-names>
+              </name>
+              <name>
+                <surname>Ding</surname>
+                <given-names>JW</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>HB</given-names>
+              </name>
+              <name>
+                <surname>Luo</surname>
+                <given-names>DC</given-names>
+              </name>
+              <name>
+                <surname>Han</surname>
+                <given-names>ZJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Hounsfield Unit Values in ACR TI-RADS 4-5 Thyroid Nodules with Coarse Calcifications: An Important Imaging Feature Helpful for Diagnosis.</article-title>
+            <source>Cancer Manag Res</source>
+            <year>2020</year>
+            <volume>12</volume>
+            <fpage>2711</fpage>
+            <page-range>2711-2717</page-range>
+            <pub-id pub-id-type="pmid">32368148</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Scheyerer</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Ullrich</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Osterhoff</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Spiegl</surname>
+                <given-names>UA</given-names>
+              </name>
+              <name>
+                <surname>Schnake</surname>
+                <given-names>KJ</given-names>
+              </name>
+              <collab>Arbeitsgruppe Osteoporotische Frakturen der Sektion Wirbels&#x000e4;ule der Deutschen Gesellschaft f&#x000fc;r Orthop&#x000e4;die und Unfallchirurgie</collab>
+            </person-group>
+            <article-title>[Hounsfield units as a&#x000a0;measure of bone density-applications in spine surgery].</article-title>
+            <source>Unfallchirurg</source>
+            <year>2019</year>
+            <month>Aug</month>
+            <volume>122</volume>
+            <issue>8</issue>
+            <fpage>654</fpage>
+            <page-range>654-661</page-range>
+            <pub-id pub-id-type="pmid">31053924</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Narayanan</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Cai</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Xi</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Maalouf</surname>
+                <given-names>NM</given-names>
+              </name>
+              <name>
+                <surname>Rubin</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Chhabra</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>CT bone density analysis of low-impact proximal femur fractures using Hounsfield units.</article-title>
+            <source>Clin Imaging</source>
+            <year>2019</year>
+            <season>Sep-Oct</season>
+            <volume>57</volume>
+            <fpage>15</fpage>
+            <page-range>15-20</page-range>
+            <pub-id pub-id-type="pmid">31102777</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zaidi</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Danisa</surname>
+                <given-names>OA</given-names>
+              </name>
+              <name>
+                <surname>Cheng</surname>
+                <given-names>W</given-names>
+              </name>
+            </person-group>
+            <article-title>Measurement Techniques and Utility of Hounsfield Unit Values for Assessment of Bone Quality Prior to Spinal Instrumentation: A Review of Current Literature.</article-title>
+            <source>Spine (Phila Pa 1976)</source>
+            <year>2019</year>
+            <month>Feb</month>
+            <day>15</day>
+            <volume>44</volume>
+            <issue>4</issue>
+            <fpage>E239</fpage>
+            <page-range>E239-E244</page-range>
+            <pub-id pub-id-type="pmid">30063528</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zou</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Muheremu</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Sun</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Zhong</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Jiang</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>W</given-names>
+              </name>
+            </person-group>
+            <article-title>Computed tomography Hounsfield unit-based prediction of pedicle screw loosening after surgery for degenerative lumbar spine disease.</article-title>
+            <source>J Neurosurg Spine</source>
+            <year>2020</year>
+            <month>May</month>
+            <day>01</day>
+            <volume>32</volume>
+            <issue>5</issue>
+            <fpage>716</fpage>
+            <page-range>716-721</page-range>
+            <pub-id pub-id-type="pmid">31899883</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wang</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Zou</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Sun</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Ding</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>W</given-names>
+              </name>
+            </person-group>
+            <article-title>Hounsfield Unit for Assessing Vertebral Bone Quality and Asymmetrical Vertebral Degeneration in Degenerative Lumbar Scoliosis.</article-title>
+            <source>Spine (Phila Pa 1976)</source>
+            <year>2020</year>
+            <month>Nov</month>
+            <day>15</day>
+            <volume>45</volume>
+            <issue>22</issue>
+            <fpage>1559</fpage>
+            <page-range>1559-1566</page-range>
+            <pub-id pub-id-type="pmid">32756284</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Barnard</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Tan</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Roller</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Chiles</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Weaver</surname>
+                <given-names>AA</given-names>
+              </name>
+              <name>
+                <surname>Boutin</surname>
+                <given-names>RD</given-names>
+              </name>
+              <name>
+                <surname>Kritchevsky</surname>
+                <given-names>SB</given-names>
+              </name>
+              <name>
+                <surname>Lenchik</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Machine Learning for Automatic Paraspinous Muscle Area and Attenuation Measures on Low-Dose Chest CT Scans.</article-title>
+            <source>Acad Radiol</source>
+            <year>2019</year>
+            <month>Dec</month>
+            <volume>26</volume>
+            <issue>12</issue>
+            <fpage>1686</fpage>
+            <page-range>1686-1694</page-range>
+            <pub-id pub-id-type="pmid">31326311</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Batur</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kerimoglu</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Ataseven</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Hounsfield unit density in the characterisation of bile duct lesions.</article-title>
+            <source>Pol J Radiol</source>
+            <year>2019</year>
+            <volume>84</volume>
+            <fpage>e397</fpage>
+            <page-range>e397-e401</page-range>
+            <pub-id pub-id-type="pmid">31969956</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nakasu</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Onishi</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Kitahara</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Oowaki</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Matsumura</surname>
+                <given-names>KI</given-names>
+              </name>
+            </person-group>
+            <article-title>CT Hounsfield Unit Is a Good Predictor of Growth in Meningiomas.</article-title>
+            <source>Neurol Med Chir (Tokyo)</source>
+            <year>2019</year>
+            <month>Feb</month>
+            <day>15</day>
+            <volume>59</volume>
+            <issue>2</issue>
+            <fpage>54</fpage>
+            <page-range>54-62</page-range>
+            <pub-id pub-id-type="pmid">30686812</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bokka</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Jain</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Hounsfield unit and its correlation with spontaneous expulsion of lower ureteric stone.</article-title>
+            <source>Ther Adv Urol</source>
+            <year>2019</year>
+            <season>Jan-Dec</season>
+            <volume>11</volume>
+            <fpage>1756287219887661</fpage>
+            <pub-id pub-id-type="pmid">31832102</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Boeri</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Fulgheri</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Palmisano</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Lievore</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Lorusso</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Ripa</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>D'Amico</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Spinelli</surname>
+                <given-names>MG</given-names>
+              </name>
+              <name>
+                <surname>Salonia</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Carrafiello</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Montanari</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Hounsfield unit attenuation value can differentiate pyonephrosis from hydronephrosis and predict septic complications in patients with obstructive uropathy.</article-title>
+            <source>Sci Rep</source>
+            <year>2020</year>
+            <month>Oct</month>
+            <day>29</day>
+            <volume>10</volume>
+            <issue>1</issue>
+            <fpage>18546</fpage>
+            <pub-id pub-id-type="pmid">33122830</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ishihara</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Oka</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Kawano</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Shinoyama</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Nishimoto</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Kudomi</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Suzuki</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Hounsfield Unit Value of Interpeduncular Cistern Hematomas Can Predict Symptomatic Vasospasm.</article-title>
+            <source>Stroke</source>
+            <year>2020</year>
+            <month>Jan</month>
+            <volume>51</volume>
+            <issue>1</issue>
+            <fpage>143</fpage>
+            <page-range>143-148</page-range>
+            <pub-id pub-id-type="pmid">31694506</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Uehara</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Hisatomi</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Munhoz</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Kawazu</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Yanagi</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Okada</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Takeshita</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Saito</surname>
+                <given-names>EA</given-names>
+              </name>
+              <name>
+                <surname>Asaumi</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Assessment of Hounsfield unit in the differential diagnosis of odontogenic cysts.</article-title>
+            <source>Dentomaxillofac Radiol</source>
+            <year>2021</year>
+            <month>Feb</month>
+            <day>01</day>
+            <volume>50</volume>
+            <issue>2</issue>
+            <fpage>20200188</fpage>
+            <pub-id pub-id-type="pmid">32783633</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Huan</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Tan</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Tang</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Huang</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Cheng</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>The Hounsfield Unit of Perihematomal Edema Is Associated With Poor Clinical Outcomes in Intracerebral Hemorrhage.</article-title>
+            <source>World Neurosurg</source>
+            <year>2021</year>
+            <month>Feb</month>
+            <volume>146</volume>
+            <fpage>e829</fpage>
+            <page-range>e829-e836</page-range>
+            <pub-id pub-id-type="pmid">33189917</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>M&#x000fc;hl-Benninghaus</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Dressler</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Hau&#x000df;mann</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Simgen</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Reith</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Yilmaz</surname>
+                <given-names>U</given-names>
+              </name>
+            </person-group>
+            <article-title>Utility of Hounsfield unit in the diagnosis of tandem occlusion in acute ischemic stroke.</article-title>
+            <source>Neurol Sci</source>
+            <year>2021</year>
+            <month>Jun</month>
+            <volume>42</volume>
+            <issue>6</issue>
+            <fpage>2391</fpage>
+            <page-range>2391-2396</page-range>
+            <pub-id pub-id-type="pmid">33052575</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>de la Vega Muns</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Quencer</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Ezuddin</surname>
+                <given-names>NS</given-names>
+              </name>
+              <name>
+                <surname>Saigal</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Utility of Hounsfield unit and hematocrit values in the diagnosis of acute venous sinus thrombosis in unenhanced brain CTs in the pediatric population.</article-title>
+            <source>Pediatr Radiol</source>
+            <year>2019</year>
+            <month>Feb</month>
+            <volume>49</volume>
+            <issue>2</issue>
+            <fpage>234</fpage>
+            <page-range>234-239</page-range>
+            <pub-id pub-id-type="pmid">30327829</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23012.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Choi</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Gil</surname>
+                <given-names>BM</given-names>
+              </name>
+              <name>
+                <surname>Chung</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Yoo</surname>
+                <given-names>WJ</given-names>
+              </name>
+              <name>
+                <surname>Jung</surname>
+                <given-names>NY</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>YH</given-names>
+              </name>
+              <name>
+                <surname>Kwon</surname>
+                <given-names>SS</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparing attenuations of malignant and benign solitary pulmonary nodule using semi-automated region of interest selection on contrast-enhanced CT.</article-title>
+            <source>J Thorac Dis</source>
+            <year>2019</year>
+            <month>Jun</month>
+            <volume>11</volume>
+            <issue>6</issue>
+            <fpage>2392</fpage>
+            <page-range>2392-2401</page-range>
+            <pub-id pub-id-type="pmid">31372276</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

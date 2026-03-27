@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-83768" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Aerospace Operational Mishap Forensic Considerations</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Vargas</surname>
+            <given-names>Matthew J.</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Clemente Fuentes</surname>
+            <given-names>Roselyn W.</given-names>
+          </name>
+          <aff>USUHS</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Salzman</surname>
+            <given-names>Sandra M.</given-names>
+          </name>
+          <aff>USAF</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Matthew Vargas declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Roselyn Clemente Fuentes declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Sandra Salzman declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>14</day>
+          <month>11</month>
+          <year>2022</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-83768.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>In the U.S., aviation mishaps continue to plague the military, commercial, and general aviation communities. According to the United States Air Force (USAF) Safety Center public data, there were 22 class-A mishaps involving more than 2 million dollars, loss of life, permanent disability, or loss of aircraft in 1,590,977 flight hours. In the fiscal year 2018, this accounted for&#x000a0;1 mishap, approximately every 72317 flight hours. In commercial and general aviation, it was reported in 2002 that up to 80% of mishaps and human factors were responsible.<xref ref-type="bibr" rid="article-83768.r1">[1]</xref> The USAF Safety Center and the National Transportation Safety Board (NTSB) are the U.S. agencies that have determined to reduce this rate. Then-Secretary of Defense Donald Rumsfeld challenged the military in 2003 to reduce by 50% the number of mishaps over the next&#x000a0;2 years. The following year, the former Chief of Staff of the USAF stated that the Air Force&#x02019;s goal was to eventually get to a zero percent mishap rate. Why do we investigate aircraft mishaps? Since the first known aircraft mishap with Orville Wright and Lt. Thomas Selfridge in 1908, our goal in investigating the circumstances of accidents has been to improve flight safety. Now, teams include a human performance specialist or medical officer to work in conjunction with a maintenance officer, an airframe pilot, a forensics expert, and a senior investigator to preserve and gather evidence, investigate injuries and fatalities, and determine why things happened the way they did to develop steps toward improving the safety of flight for the future of aviation. We must continue to look at each mishap investigation for evidence to improve survivability in the future as we strive toward the goals previously identified.&#x000a0;</p>
+      </sec>
+      <sec id="article-83768.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>Per the NTSB's public website, the response is tailored through &#x0201c;Go-Teams&#x0201d; of&#x000a0;3 to over a dozen members depending on the location and severity of the mishap investigation. NTSB Go Teams are on call 24/7 and include a human performance member who works to establish the human factors involved in the mishap they are responding to.&#x000a0;The FAA Investigator-in-Charge collects information after an accident or incident and has 30 days to report findings through the Air Traffic Quality Assurance system,&#x000a0;to the Aviation Data Systems Branch, and finally to the FAA Accident/Incident Database System Source per the AVP-100 publication. In the US Air Force (USAF), the response is staged. Local aviator teams, geographically closest to the mishap are convened as an Initial Safety Board (ISB) in the initial&#x000a0;5 days to determine what happened; the Safety Investigation Board for the following 30 days determines why the mishap occurred, and upon completion of the SIB report, an Accident Investigation Board could be convened with 30 days to complete recommendations for who is responsible for the mishap.&#x000a0;</p>
+        <p>Once a mishap occurs, the forensics specialist is typically the responding flight physician or flight surgeon (FS), ISB flight surgeon, or local emergency medical services. To ensure scene safety, he or she must coordinate with law enforcement, fire, emergency medical services, bioenvironmental crews, Explosive Ordnance Disposal, or local government. After an accident, several hazardous materials, such as fuel, pressurized systems, and hydraulic containers, may be under extreme pressure and heat. They may also have damaged containment systems and pose a danger to the rescue crew<xref ref-type="bibr" rid="article-83768.r2">[2]</xref>; thus, they need to clear the area to allow emergency medical care members to proceed. Immediate medical care may be necessary if survivors have thorough documentation of injuries at the treatment facilities.<xref ref-type="bibr" rid="article-83768.r3">[3]</xref> When survivors are safely extricated, treated, and have left the scene, the medical investigation turns to those who perished in the mishap. Care must be taken to preserve evidence; this can be accomplished by tagging human remains and photographing the position and circumstances in which they are found. This approach may provide clues about equipment failure, the source of injury, or why the mishap occurred so that it can be improved. Witness interviews are the most perishable clues as the witnesses may be transient, and the interviewee may not be available after the day of the incident. Seventy-two hour and 7-day histories must be taken from next of kin and surviving crew members to determine if factors such as fatigue, illness, life stressors, or substances&#x000a0;may have played a role in the accident.<xref ref-type="bibr" rid="article-83768.r4">[4]</xref><xref ref-type="bibr" rid="article-83768.r5">[5]</xref></p>
+        <p>Military crews work with the flight surgeon, and civilians must work with local law enforcement (per&#x000a0;14 CFR section 91.17) to obtain drug and alcohol testing&#x000a0;following the applicable military or FAA and DOT instructions.<xref ref-type="bibr" rid="article-83768.r6">[6]</xref>&#x000a0; For military investigations, specimens include 14 mL of blood in 2 sodium fluoride (gray-top) tubes, 7 mL in 2 sodium EDTA (purple-top) tubes, and 50&#x000a0;to 70 mL of urine from each crew member. Sample collection should occur immediately as the metabolism of ingested substances continues. The testing that is typically accomplished is looking for the presence of volatile compounds such as ethanol and its breakdown products, drugs of abuse, and synthetic compounds such as spice, as discussed in the U.S. Department of Transportation FAA Aircraft Accident and Incident Notification, Investigation, and Reporting Order 8020.11D and the&#x000a0;Armed Forces Medical Examiners System (AFMES) Division of Forensic toxicology&#x02019;s &#x0201c;Guidelines for collecting and shipment of toxicology specimens&#x0201d; from 2015. If the mishap caused fatalities, work with the local qualified medical examiner (civilian) or the Armed Forces Medical Examiner (military) to guide moving/examining human remains. Consider examining and photographing all aircrew flight equipment for evidence of the system's effective or ineffective use and performance. Reference FAA Order 8020.11D - Aircraft Accident and Incident Notification, Investigation, and Reporting, AFI 91-204, AFMAN 91-223.&#x000a0;</p>
+        <p>Importantly, part of interviewing surviving crew and maintainers who serviced the aircraft in the recent past are the 72-hour, 7-day, and 3-month histories.<xref ref-type="bibr" rid="article-83768.r7">[7]</xref> All members should be separated and not allowed to communicate with each other until these interviews are completed to reduce the risk of contaminating the memory of events.<xref ref-type="bibr" rid="article-83768.r8">[8]</xref> These are formal documents that are obtained by medical personnel. These start with a statement of privilege or non-privilege for a military mishap, which can only be extended by the board president or investigating officer. The document then includes the work/rest data over the last 72 hours, the details of the crew member&#x02019;s&#x000a0;2 most recent flights, and the medications they have taken, including dosages and times taken.<xref ref-type="bibr" rid="article-83768.r9">[9]</xref> It then asks the member to discuss details regarding normal and abnormal actions taken the day of the mishap, including a sleep diary, food and drink diary, medications taken, alcohol, caffeine, tobacco consumed, and exertion the 12 hours before the accident.<xref ref-type="bibr" rid="article-83768.r10">[10]</xref> The same details are asked of the day before the accident, 2, and 3 days before. The 7-day history asks the member to recall specific and notable life events over the previous week, although it is less detailed than the 72-hour history. Lifestyle information regarding general habits and the involvement of crew members is finally gathered to identify major stressors in the last&#x000a0;3 months by circling major events from a list. These data points are then collected by the medical personnel and kept at the previously discussed level of confidentiality. They factor in the final report generated by the investigation board. These are not part of the medical record and should not be placed in the electronic medical record in any way. Privileged reports are not&#x000a0;accessible by the Accident Investigation Board and generally are not used to establish blame, guilt, or punishment. Suppose the discovered finding is egregious or violates the law. In that case, one&#x000a0;may discuss with the Safety Investigation Board President whether to seek counsel from the Base Legal Office before proceeding with the next steps. These steps are generally followed&#x000a0;in civilian accident investigations as outlined in FAA 8020.11D and 49 CFR 831, Accident/Incident Investigation Procedures.&#x000a0;</p>
+        <p>An Initial Safety Board&#x000a0;is convened, generally taking over where the initial responding flight physician or&#x000a0;flight surgeon has left off and must complete data collection within&#x000a0;5 days of the event. This medical officer finishes photographing the area and continues conducting interviews, including air traffic control, involved aircraft maintainers, and next-of-kin. Reference AFI 91-204. The FAA equivalent to this would be convening the Event Response Team, who would work with the Office of Aerospace Medicine Civil Aerospace Medical Institute to conduct the abovementioned interviews and investigations as laid out in FAA Order 8020.11D.&#x000a0;Jurisdiction over human remains is determined with help from the Office of the Armed Forces Medical Examiner (military) or the local office of the coroner or medical examiner. In exclusive federal jurisdiction, 10 USC 1471 gives the Armed Forces Medical Examiner System, now the Office of the Armed Forces Medical Examiner (OAFME) jurisdiction. Otherwise, the primary jurisdiction belongs to the local ME/Coroner. In concurrent jurisdiction, primary jurisdiction usually falls with the local authority, and secondary jurisdiction usually rests with OAFME. Generally, commercial and general aviation mishaps are investigated under the jurisdiction of the NTSB. Reference AFI 91-202 and the NTSB&#x02019;s Major Investigations Manual from 2002.&#x000a0;The collection of remains may be completed by the local medical examiner in civilian investigations or the ISB flight surgeon, SIB Medical Officer, or with assistance from the AFMES in military investigations, depending on the location of the mishap. Higher-speed mishaps subject the human body to high G forces, which could lead to the fragmentation of human remains, which may complicate recovery. In this case, the remains should be marked individually, and procedures handled with close communication with the OAFME. This is not likely to occur with civilian aircraft except for accidents, including near-vertical impact with the ground at freefall speeds.</p>
+        <p>Autopsies and imaging are performed on all military members killed in aircraft mishaps and should be performed on all deceased civilian aviators.<xref ref-type="bibr" rid="article-83768.r11">[11]</xref> Many important questions can and likely&#x000a0;are answered by the autopsy.<xref ref-type="bibr" rid="article-83768.r12">[12]</xref> These include the identity of the deceased (possibly through dental imprints and comparison to records, DNA if needed), the cause of death (immediate, the manner of death, the nature of death, and sequence of likely events leading to death), and other contributing factors to the state of health of the crewmember.<xref ref-type="bibr" rid="article-83768.r13">[13]</xref>&#x000a0;Once remains are recovered and a proper autopsy is pending, the flight surgeon or human performance specialist continues to gather data on all possible contributing factors to the event. This can be simplified using the acronym CREEP, which stands for container, restraints, environment, energy absorption, and post-crash factors that may have contributed to the injuries or fatalities in the event.<xref ref-type="bibr" rid="article-83768.r14">[14]</xref><xref ref-type="bibr" rid="article-83768.r15">[15]</xref> It is essential to establish whether the container (aircraft cockpit, passenger bay, etc) could preserve life by maintaining its shape or absorbing impact forces.<xref ref-type="bibr" rid="article-83768.r16">[16]</xref> Documentation should show whether restraints were worn and, if they were, whether they protected the mishap crew from injury.<xref ref-type="bibr" rid="article-83768.r13">[13]</xref> Environmental factors, including weather, time of day or night, glare, illusion, etc, merit consideration,&#x000a0;as well as how the crash energy was absorbed or dissipated by aircrew flight equipment, seats, crumple zones, etc.<xref ref-type="bibr" rid="article-83768.r17">[17]</xref><xref ref-type="bibr" rid="article-83768.r18">[18]</xref> Finally, whether the post-crash environment was survivable for the conscious or unconscious crew member is an important factor.<xref ref-type="bibr" rid="article-83768.r19">[19]</xref><xref ref-type="bibr" rid="article-83768.r20">[20]</xref><xref ref-type="bibr" rid="article-83768.r21">[21]</xref></p>
+        <p>The Formal Aviation Safety Report&#x000a0;is published by the Safety Investigation Board and uploaded into the appropriate overarching system, either a secure military system or published&#x000a0;publicly on the NTSB website. Human factors considered contributory to the mishap are usually published using a tiered approach. The categories of those human factors are organizational influences, supervision, preconditions, and individual acts. The ideal report identifies not only the individual pilot or crew member&#x02019;s situational responses but may also identify an unsafe condition, aircraft weakness, culture issue, or organizational policies or culture that led up to the mishap. The identified factor(s) are addressed across the fleet, organization, or system to ensure that no other aircraft or crew member encounters a similar situation without adequate training, equipment, or precautions to prevent a bad outcome.&#x000a0;</p>
+      </sec>
+      <sec id="article-83768.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Despite improvements in nearly every aspect of flight, from aircraft engineering to advancements in control systems and improved aircrew training, there continue to be mishaps involving human factors that contribute to the loss of aircraft and life, indicating we have more to learn. Close coordination with authorities and sensitivity to families brings experience to the investigation and preserves the dignity of the deceased, as well as of the surviving aircrew and families. The job of the human factors specialist, whether military or civilian, continues to be pivotal in investigating these incidents and contributing to the effort to prevent future losses.&#x000a0;</p>
+      </sec>
+      <sec id="article-83768.s4">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=83768&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=83768">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/83768/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=83768">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-83768.s5">
+        <title>References</title>
+        <ref id="article-83768.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Li</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Baker</surname>
+                <given-names>SP</given-names>
+              </name>
+              <name>
+                <surname>Lamb</surname>
+                <given-names>MW</given-names>
+              </name>
+              <name>
+                <surname>Grabowski</surname>
+                <given-names>JG</given-names>
+              </name>
+              <name>
+                <surname>Rebok</surname>
+                <given-names>GW</given-names>
+              </name>
+            </person-group>
+            <article-title>Human factors in aviation crashes involving older pilots.</article-title>
+            <source>Aviat Space Environ Med</source>
+            <year>2002</year>
+            <month>Feb</month>
+            <volume>73</volume>
+            <issue>2</issue>
+            <fpage>134</fpage>
+            <page-range>134-8</page-range>
+            <pub-id pub-id-type="pmid">11846182</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83768.r2">
+          <label>2</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Salzman</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Clemente Fuentes</surname>
+                <given-names>RW</given-names>
+              </name>
+            </person-group>
+            <chapter-title>EMS National Incident Management System</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2023</year>
+            <month>8</month>
+            <day>8</day>
+            <pub-id pub-id-type="pmid">31869174</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83768.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vela</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Wertz</surname>
+                <given-names>CI</given-names>
+              </name>
+              <name>
+                <surname>Onstott</surname>
+                <given-names>KL</given-names>
+              </name>
+              <name>
+                <surname>Wertz</surname>
+                <given-names>JR</given-names>
+              </name>
+            </person-group>
+            <article-title>Trauma Imaging: A Literature Review.</article-title>
+            <source>Radiol Technol</source>
+            <year>2017</year>
+            <month>Jan</month>
+            <volume>88</volume>
+            <issue>3</issue>
+            <fpage>263</fpage>
+            <page-range>263-276</page-range>
+            <pub-id pub-id-type="pmid">28298577</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83768.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>DiGiorgio</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Wittenberg</surname>
+                <given-names>BA</given-names>
+              </name>
+              <name>
+                <surname>Crutcher</surname>
+                <given-names>CL</given-names>
+              </name>
+              <name>
+                <surname>Kennamer</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Greene</surname>
+                <given-names>CS</given-names>
+              </name>
+              <name>
+                <surname>Velander</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Wilson</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Tender</surname>
+                <given-names>GC</given-names>
+              </name>
+              <name>
+                <surname>Culicchia</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Hunt</surname>
+                <given-names>JP</given-names>
+              </name>
+            </person-group>
+            <article-title>The Impact of Drug and Alcohol Intoxication on Glasgow Coma Scale Assessment in Patients with Traumatic Brain Injury.</article-title>
+            <source>World Neurosurg</source>
+            <year>2020</year>
+            <month>Mar</month>
+            <volume>135</volume>
+            <fpage>e664</fpage>
+            <page-range>e664-e670</page-range>
+            <pub-id pub-id-type="pmid">31881342</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83768.r5">
+          <label>5</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Clemente Fuentes</surname>
+                <given-names>RW</given-names>
+              </name>
+              <name>
+                <surname>Kohn</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Cunningham</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Salzman</surname>
+                <given-names>SM</given-names>
+              </name>
+            </person-group>
+            <chapter-title>EMS Flight Safety Decisions</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2025</year>
+            <month>3</month>
+            <day>28</day>
+            <pub-id pub-id-type="pmid">31869167</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83768.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Smith</surname>
+                <given-names>MP</given-names>
+              </name>
+              <name>
+                <surname>Bluth</surname>
+                <given-names>MH</given-names>
+              </name>
+            </person-group>
+            <article-title>Forensic Toxicology: An Introduction.</article-title>
+            <source>Clin Lab Med</source>
+            <year>2016</year>
+            <month>Dec</month>
+            <volume>36</volume>
+            <issue>4</issue>
+            <fpage>753</fpage>
+            <page-range>753-759</page-range>
+            <pub-id pub-id-type="pmid">27842791</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83768.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Shields</surname>
+                <given-names>GS</given-names>
+              </name>
+              <name>
+                <surname>Sazma</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>McCullough</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Yonelinas</surname>
+                <given-names>AP</given-names>
+              </name>
+            </person-group>
+            <article-title>The effects of acute stress on episodic memory: A meta-analysis and integrative review.</article-title>
+            <source>Psychol Bull</source>
+            <year>2017</year>
+            <month>Jun</month>
+            <volume>143</volume>
+            <issue>6</issue>
+            <fpage>636</fpage>
+            <page-range>636-675</page-range>
+            <pub-id pub-id-type="pmid">28368148</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83768.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bancroft</surname>
+                <given-names>TD</given-names>
+              </name>
+              <name>
+                <surname>Jones</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Ensor</surname>
+                <given-names>TM</given-names>
+              </name>
+              <name>
+                <surname>Hockley</surname>
+                <given-names>WE</given-names>
+              </name>
+              <name>
+                <surname>Servos</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Overwriting and intrusion in short-term memory.</article-title>
+            <source>Mem Cognit</source>
+            <year>2016</year>
+            <month>Apr</month>
+            <volume>44</volume>
+            <issue>3</issue>
+            <fpage>435</fpage>
+            <page-range>435-43</page-range>
+            <pub-id pub-id-type="pmid">26637338</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83768.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>S&#x000f6;rbo</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Eiving</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Theodorsson</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Rydenhag</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Jonsdottir</surname>
+                <given-names>IH</given-names>
+              </name>
+            </person-group>
+            <article-title>Pre-traumatic conditions can influence cortisol levels before and after a brain injury.</article-title>
+            <source>Acta Neurol Scand</source>
+            <year>2020</year>
+            <month>Apr</month>
+            <volume>141</volume>
+            <issue>4</issue>
+            <fpage>342</fpage>
+            <page-range>342-350</page-range>
+            <pub-id pub-id-type="pmid">31879940</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83768.r10">
+          <label>10</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Scott</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Salzman</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Clemente Fuentes</surname>
+                <given-names>RW</given-names>
+              </name>
+            </person-group>
+            <chapter-title>EMS Flight Stressors and Corrective Action</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2025</year>
+            <month>4</month>
+            <day>6</day>
+            <pub-id pub-id-type="pmid">31751104</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83768.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jalalzadeh</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Giannakopoulos</surname>
+                <given-names>GF</given-names>
+              </name>
+              <name>
+                <surname>Berger</surname>
+                <given-names>FH</given-names>
+              </name>
+              <name>
+                <surname>Fronczek</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>van de Goot</surname>
+                <given-names>FRW</given-names>
+              </name>
+              <name>
+                <surname>Reijnders</surname>
+                <given-names>UJ</given-names>
+              </name>
+              <name>
+                <surname>Zuidema</surname>
+                <given-names>WP</given-names>
+              </name>
+            </person-group>
+            <article-title>Post-mortem imaging compared with autopsy in trauma victims--A systematic review.</article-title>
+            <source>Forensic Sci Int</source>
+            <year>2015</year>
+            <month>Dec</month>
+            <volume>257</volume>
+            <fpage>29</fpage>
+            <page-range>29-48</page-range>
+            <pub-id pub-id-type="pmid">26284976</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83768.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Reed</surname>
+                <given-names>MP</given-names>
+              </name>
+              <name>
+                <surname>Ebert</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Jones</surname>
+                <given-names>MLH</given-names>
+              </name>
+              <name>
+                <surname>Park</surname>
+                <given-names>BD</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparison across vehicles of passenger head kinematics in abrupt vehicle maneuvers.</article-title>
+            <source>Traffic Inj Prev</source>
+            <year>2019</year>
+            <volume>20</volume>
+            <issue>sup2</issue>
+            <fpage>S128</fpage>
+            <page-range>S128-S132</page-range>
+            <pub-id pub-id-type="pmid">31800326</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83768.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tang</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Zheng</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Hu</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>A numerical investigation of factors affecting lumbar spine injuries in frontal crashes.</article-title>
+            <source>Accid Anal Prev</source>
+            <year>2020</year>
+            <month>Mar</month>
+            <volume>136</volume>
+            <fpage>105400</fpage>
+            <pub-id pub-id-type="pmid">31869694</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83768.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rooks</surname>
+                <given-names>TF</given-names>
+              </name>
+              <name>
+                <surname>Chancey</surname>
+                <given-names>VC</given-names>
+              </name>
+              <name>
+                <surname>Brozoski</surname>
+                <given-names>FT</given-names>
+              </name>
+              <name>
+                <surname>Salzar</surname>
+                <given-names>RS</given-names>
+              </name>
+              <name>
+                <surname>Pintar</surname>
+                <given-names>FA</given-names>
+              </name>
+              <name>
+                <surname>Yoganandan</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Development of an injury risk curve for pelvic fracture in vertical loading environments.</article-title>
+            <source>Traffic Inj Prev</source>
+            <year>2018</year>
+            <volume>19</volume>
+            <issue>sup2</issue>
+            <fpage>S178</fpage>
+            <page-range>S178-S181</page-range>
+            <pub-id pub-id-type="pmid">30841808</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83768.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Li</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Jiang</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Cui</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Lu</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>The Effects of Curtain Airbag on Occupant Kinematics and Injury Index in Rollover Crash.</article-title>
+            <source>Appl Bionics Biomech</source>
+            <year>2018</year>
+            <volume>2018</volume>
+            <fpage>4980413</fpage>
+            <pub-id pub-id-type="pmid">29765463</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83768.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Xu</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Sheng</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Liang</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Ding</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Development and Validation of Dummies and Human Models Used in Crash Test.</article-title>
+            <source>Appl Bionics Biomech</source>
+            <year>2018</year>
+            <volume>2018</volume>
+            <fpage>3832850</fpage>
+            <pub-id pub-id-type="pmid">30538770</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83768.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Frantis</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Petru</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>The Giant Hand Illusion Experienced on a Simulator.</article-title>
+            <source>Aerosp Med Hum Perform</source>
+            <year>2018</year>
+            <month>Jun</month>
+            <day>01</day>
+            <volume>89</volume>
+            <issue>6</issue>
+            <fpage>557</fpage>
+            <page-range>557-562</page-range>
+            <pub-id pub-id-type="pmid">29789090</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83768.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Redelmeier</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Raza</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Optical illusions and life-threatening traffic crashes: A perspective on aerial perspective.</article-title>
+            <source>Med Hypotheses</source>
+            <year>2018</year>
+            <month>May</month>
+            <volume>114</volume>
+            <fpage>23</fpage>
+            <page-range>23-27</page-range>
+            <pub-id pub-id-type="pmid">29602457</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83768.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gildea</surname>
+                <given-names>KM</given-names>
+              </name>
+              <name>
+                <surname>Hileman</surname>
+                <given-names>CR</given-names>
+              </name>
+              <name>
+                <surname>Rogers</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Salazar</surname>
+                <given-names>GJ</given-names>
+              </name>
+              <name>
+                <surname>Paskoff</surname>
+                <given-names>LN</given-names>
+              </name>
+            </person-group>
+            <article-title>The Use of a Poisson Regression to Evaluate Antihistamines and Fatal Aircraft Mishaps in Instrument Meteorological Conditions.</article-title>
+            <source>Aerosp Med Hum Perform</source>
+            <year>2018</year>
+            <month>Apr</month>
+            <day>01</day>
+            <volume>89</volume>
+            <issue>4</issue>
+            <fpage>389</fpage>
+            <page-range>389-395</page-range>
+            <pub-id pub-id-type="pmid">29562970</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83768.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>S&#x000e1;nchez-Tena</surname>
+                <given-names>M&#x000c1;</given-names>
+              </name>
+              <name>
+                <surname>Alvarez-Peregrina</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Valbuena-Iglesias</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Palomera</surname>
+                <given-names>PR</given-names>
+              </name>
+            </person-group>
+            <article-title>Optical Illusions and Spatial Disorientation in Aviation Pilots.</article-title>
+            <source>J Med Syst</source>
+            <year>2018</year>
+            <month>Mar</month>
+            <day>19</day>
+            <volume>42</volume>
+            <issue>5</issue>
+            <fpage>79</fpage>
+            <pub-id pub-id-type="pmid">29557053</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-83768.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Redelmeier</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Raza</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Life-threatening motor vehicle crashes in bright sunlight.</article-title>
+            <source>Medicine (Baltimore)</source>
+            <year>2017</year>
+            <month>Jan</month>
+            <volume>96</volume>
+            <issue>1</issue>
+            <fpage>e5710</fpage>
+            <pub-id pub-id-type="pmid">28072708</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

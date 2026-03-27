@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-34516" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Median</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Tenny</surname>
+            <given-names>Steven</given-names>
+          </name>
+          <aff>University of Nebraska Medical Center</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Hoffman</surname>
+            <given-names>Mary R.</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Steven Tenny declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Mary Hoffman declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>19</day>
+          <month>9</month>
+          <year>2022</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-34516.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">The median is the middle value in a set of numbers and is equivalent to the 50th percentile.&#x000a0;In&#x000a0;other words, the median is the midpoint of a set of numbers, with half of the values less than the median and half above it.<xref ref-type="bibr" rid="article-34516.r1">[1]</xref><xref ref-type="bibr" rid="article-34516.r2">[2]</xref><xref ref-type="bibr" rid="article-34516.r3">[3]</xref><xref ref-type="bibr" rid="article-34516.r4">[4]</xref></p>
+        <p>A short example will help clarify this point. In the set of 7 numbers (8, 6, 9, 5, 8, 23, 4), the median is found by first sorting the numbers from lowest to highest (in ascending order). The sorted set becomes (4, 5, 6, 8, 8, 9, 23). The median is the middle number. As there are 7 numbers in the set, the fourth value, '8', is the median. Notably, the median differs from the mean.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>The mean is the "average" of the values in the set, calculated as follows: (4+5+6+8+8+9+23)/7 = 63/7 = 9</p>
+          </list-item>
+        </list>
+        <p>What should be done if the set contains an even number of values? In this case, the median is the average of the 2 middle numbers. To illustrate this principle, the second set of numbers (7, 3, 10, 2, 9, 2, 1, 4) should be considered. After arranging the set of numbers in ascending order, we get (1, 2, 2, 3, 4, 7, 9, 10). As the second set of numbers has 8 numbers, the 2 middle values are 3 and 4.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>The median is the average of these 2 numbers, which is&#x000a0;calculated as follows: (3+4)/2 = 3.5</p>
+          </list-item>
+        </list>
+        <p>Notably, the median of 3.5 is different from the mean, or average, of the set of numbers, which is 4.75.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>This is calculated as follows: (1+2+2+3+4+7+9+10)/8 = 38/8 = 4.75</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-34516.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>A set of numbers containing a total of <italic toggle="yes">n</italic>&#x000a0;members is considered. After sorting the set (in either ascending or descending order), the median can be calculated as follows:<xref ref-type="bibr" rid="article-34516.r1">[1]</xref><xref ref-type="bibr" rid="article-34516.r2">[2]</xref></p>
+        <list list-type="bullet">
+          <list-item>
+            <p>For sets with an odd&#x000a0;number of members, where&#x000a0;<italic toggle="yes">n</italic> is odd:
+<list list-type="bullet"><list-item><p>Median = Value of the ([<italic toggle="yes">n</italic>+1]/2)th&#x000a0;item in the sorted set.</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>For sets with an even&#x000a0;number of members, where <italic toggle="yes">n</italic> is even:
+<list list-type="bullet"><list-item><p>Median = (Value of the [<italic toggle="yes">n</italic>/2]th&#x000a0;item + value of the [<italic toggle="yes">n</italic>/2 + 1]th&#x000a0;item)/2 in the sorted set.</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+        <p>The simple sets from above can be used to work through examples for both cases.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>For a set where <italic toggle="yes">n</italic> is odd, we can consider the first set (8, 6, 9, 5, 8, 23, 4).
+<list list-type="bullet"><list-item><p>After sorting, the set becomes (4, 5, 6, 8, 8, 9, 23).</p></list-item><list-item><p>In this set, <italic toggle="yes">n</italic> = 7.</p></list-item><list-item><p>The median is calculated as follows:
+<list list-type="bullet"><list-item><p>Value of&#x000a0;the ([<italic toggle="yes">n</italic>+1]/2)th&#x000a0;item in the sorted set =&#x000a0;([7+1]/2)th&#x000a0;item in sorted set =&#x000a0;([8]/2)th&#x000a0;item in sorted set = 4.</p></list-item><list-item><p>Thus, the median is the value of the 4th item in the sorted set, which is 8.</p></list-item></list>
+</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>For a set where <italic toggle="yes">n</italic> is even, we can consider the second set (7, 3, 10, 2, 9, 2, 1, 4).
+<list list-type="bullet"><list-item><p>After sorting, the set becomes&#x000a0;(1, 2, 2, 3, 4, 7, 9, 10).</p></list-item><list-item><p>In this set, <italic toggle="yes">n</italic> = 8.</p></list-item><list-item><p>The median&#x000a0;is calculated as follows:
+<list list-type="bullet"><list-item><p>Value&#x000a0;of the ([<italic toggle="yes">n</italic>/2]th&#x000a0;item + [<italic toggle="yes">n</italic>/2 + 1]th&#x000a0;item)/2 in the sorted set = ([8/2]th&#x000a0;item + [8/2 + 1]th&#x000a0;item)/2 in the sorted set = Value of the (4th&#x000a0;item + 5th&#x000a0;item)/2 in the sorted set = Value of (3 + 4)/2 = Value of (7)/2.</p></list-item><list-item><p>Thus, the median is = 3.5.</p></list-item></list>
+</p></list-item></list>
+</p>
+          </list-item>
+        </list>
+        <p>The most common mistake is failing to distinguish between the mean, median, and mode. The mean, or "average," of a set of numbers is calculated by adding all the numbers and then dividing by the number of items in the set.<xref ref-type="bibr" rid="article-34516.r1">[1]</xref></p>
+        <p>The median, which is the focus of this discussion, is calculated as described in the function section above.</p>
+        <p>The mode is the most frequent value in a set or the value that appears the most often. In the dataset (4, 5, 6, 8, 8, 9, 23), the number 8 occurs twice, which is more frequent than any other number, making 8 the mode. A dataset can have more than 1 mode or no mode at all. The dataset (2, 3, 3, 5, 5, 7, 7) has 3 modes&#x02014;3, 5, and 7. Each of these numbers appears twice, which is more frequent than 2, which occurs only once. This dataset is considered trimodal.</p>
+        <p>If a dataset has 2 modes, it is called bimodal. If a dataset has more than 3 modes,&#x000a0;it is considered multimodal. For instance, in the dataset (6, 7, 8, 9), no number appears more frequently than the others, so there is no mode.</p>
+        <p>Median, mode, and mean are similar when the dataset follows a relatively normal (bell-curve) distribution but can differ significantly in other types of distributions (please refer to the "Clinical Significance" section for examples).</p>
+      </sec>
+      <sec id="article-34516.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>The median is frequently reported in the scientific literature for a good reason. In science and medicine, researchers often focus on the time until a specific event occurs, such as the decay time of a radioisotope or the survival time of a patient with a particular cancer. Starting with 11 radioisotopes with decay times of (1, 1, 1, 2, 4, 5, 5, 5, 6, 11, 41) seconds, one can calculate both the median and the mean within 1 minute. The median, which is the middle value of the set, is 5 seconds, while the mean is 7.45 seconds.</p>
+        <p>If the dataset (1, 1, 1, 2, 4, 5, 5, 5, 6, 11, 41) represents survival in years for patients with a specific cancer, the median might be more useful. The median can be determined once the sixth patient has died, as this indicates that half of the patients have died and half are still alive. In contrast, calculating the mean requires knowing the total survival time for all patients, which means waiting until the 41-year mark for the final patient to die. Waiting for the event to occur for all patients to calculate the mean becomes a lengthy process, making the median a more practical and timely measure.</p>
+        <p>A second notable characteristic of the median over the mean is its resistance to outliers or extreme values. For instance, in the dataset (1, 1, 1, 2, 4, 5, 5, 5, 6, 11, 41), the value 41 significantly skews the mean, which is 7.45. By removing this outlier, the revised dataset (1, 1, 1, 2, 4, 5, 5, 5, 6, 11) yields a median of 4.5 and a mean of 4.1. The median decreased by only 10% (from 5 to 4.5), whereas the mean dropped by 45% (from 7.45 to 4.1) after removing the outlier. Thus, the median may be a better indicator of&#x000a0;the realistic middle of the data center of the data compared to the mean in skewed datasets. Skewed data includes any dataset with outliers or values at either the extremely high or extremely low end of the dataset.</p>
+        <p>Considering the dataset (1, 1, 1, 2, 4, 5, 5, 5, 6, 11, 41) for survival years of cancer patients, it may be more realistic to report a median survival of 5 years, indicating that half of the patients did not survive beyond 5 years. In contrast, reporting a mean survival of 7.45 years suggests that, on average, the 11 patients lived 7.45 years, while only 2 patients lived longer than this mean.&#x000a0;Notably, only 2 patients lived longer than this mean. While the 41-year survival might be an appealing outlier, it may not provide a realistic picture of the overall data.</p>
+      </sec>
+      <sec id="article-34516.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>Although the median provides a measure of the middle of the data, it may not always be&#x000a0;the most appropriate metric. In some cases, the mean may be a more desirable attribute, as statistical analysis with the mean can be more robust and simpler to compute.</p>
+        <p>In cases where neither the median nor the mean adequately represents the middle of the data, alternative measures may be needed. Both the median and mean are most effective when the data exhibits a single prominent peak (unimodal distribution). However, in datasets with multiple prominent peaks (such as bimodal, trimodal, or multimodal distributions), the median may not offer the most accurate representation.</p>
+        <p>Let us&#x000a0;imagine a curve&#x000a0;resembling 2 hills on either side of a valley, with a bump on the left side of the data&#x000a0;for small values and a second bump on the right side for large values (a bimodal dataset). The median may be located in the valley if it represents the middle value. However, in this case, the median may not provide the most useful information, such as the locations of the peaks and data clusters.</p>
+      </sec>
+      <sec id="article-34516.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=34516&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=34516">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/34516/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=34516">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-34516.s6">
+        <title>References</title>
+        <ref id="article-34516.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Whitley</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Ball</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistics review 1: presenting and summarising data.</article-title>
+            <source>Crit Care</source>
+            <year>2002</year>
+            <month>Feb</month>
+            <volume>6</volume>
+            <issue>1</issue>
+            <fpage>66</fpage>
+            <page-range>66-71</page-range>
+            <pub-id pub-id-type="pmid">11940268</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34516.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vetter</surname>
+                <given-names>TR</given-names>
+              </name>
+            </person-group>
+            <article-title>Descriptive Statistics: Reporting the Answers to the 5 Basic Questions of Who, What, Why, When, Where, and a Sixth, So What?</article-title>
+            <source>Anesth Analg</source>
+            <year>2017</year>
+            <month>Nov</month>
+            <volume>125</volume>
+            <issue>5</issue>
+            <fpage>1797</fpage>
+            <page-range>1797-1802</page-range>
+            <pub-id pub-id-type="pmid">28891910</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34516.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wissing</surname>
+                <given-names>DR</given-names>
+              </name>
+              <name>
+                <surname>Timm</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistics for the nonstatistician: Part I.</article-title>
+            <source>South Med J</source>
+            <year>2012</year>
+            <month>Mar</month>
+            <volume>105</volume>
+            <issue>3</issue>
+            <fpage>126</fpage>
+            <page-range>126-30</page-range>
+            <pub-id pub-id-type="pmid">22392207</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-34516.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hou</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Carden</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistics for the nonstatistician: Part II.</article-title>
+            <source>South Med J</source>
+            <year>2012</year>
+            <month>Mar</month>
+            <volume>105</volume>
+            <issue>3</issue>
+            <fpage>131</fpage>
+            <page-range>131-5</page-range>
+            <pub-id pub-id-type="pmid">22392208</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

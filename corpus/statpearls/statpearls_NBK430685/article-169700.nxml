@@ -1,0 +1,3987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-169700" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Immune Checkpoint Inhibitor&#x02013;Associated Acute Kidney Injury</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Pirovano</surname>
+            <given-names>Marta</given-names>
+          </name>
+          <aff>Division of Nephrology and Dialysis, Fatebenefratelli e Oftalmico Hospital</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Hanna</surname>
+            <given-names>Paul</given-names>
+          </name>
+          <aff>Medical College of Wisconsin, Milwaukee, WI</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Hassanein</surname>
+            <given-names>Mohamed</given-names>
+          </name>
+          <aff>Kidney and Urology Center</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Gupta</surname>
+            <given-names>Shruti</given-names>
+          </name>
+          <aff>Brigham and Women's Hospital</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Marta Pirovano declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Paul Hanna declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Mohamed Hassanein declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Shruti Gupta declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>17</day>
+          <month>1</month>
+          <year>2025</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-169700.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Immune checkpoint inhibitors (ICIs), which target the cytotoxic T-lymphocyte&#x02013;associated antigen 4 (CTLA-4), programmed death-1 (PD-1), programmed death&#x02013;ligand-1 (PD-L1), and lymphocyte activation gene-3 (<italic toggle="yes">LAG-3</italic>) pathways, have revolutionized cancer treatment. In 2011, the Food and Drug Administration (FDA) approved ipilimumab (the first ICI) for the treatment of advanced melanoma.&#x000a0;Since then, the number of approved ICIs and their indications have increased exponentially, demonstrating the extraordinary potential of these drugs in treating&#x000a0;various tumors. Currently, 11 ICIs are approved for nearly 20 types of cancer, including melanoma, lung cancer, renal cell carcinoma, and endometrial cancer, with indications continuing to expand over time.<xref ref-type="bibr" rid="article-169700.r1">[1]</xref></p>
+        <p>Although ICIs have improved the prognosis of many cancers, they are associated with a broad spectrum of adverse events known as immune-related adverse events (irAEs), which arise from increased autoimmunity.<xref ref-type="bibr" rid="article-169700.r2">[2]</xref>&#x000a0;One of the&#x000a0;notable irAEs is ICI-associated acute kidney injury (ICI-AKI), which most often presents as acute interstitial nephritis (ICI-AIN) on histopathology. ICI-AKI can have significant consequences, including kidney failure, interruption or discontinuation of lifesaving immunotherapy, prolonged immunosuppression, and increased mortality.<xref ref-type="bibr" rid="article-169700.r3">[3]</xref><xref ref-type="bibr" rid="article-169700.r4">[4]</xref>&#x000a0;Unlike adverse effects associated with conventional chemotherapy and radiation treatments, irAEs often have a prolonged course and delayed onset, necessitating long-term monitoring for these effects.</p>
+      </sec>
+      <sec id="article-169700.s2" sec-type="Etiology">
+        <title>Etiology</title>
+        <p>The role of the immune system in cancer pathogenesis has been recognized since the late 19th century when inactivated bacteria were found to influence tumor progression. Currently, several antineoplastic immunotherapies are available, including ICIs, tumor vaccines, cellular immunotherapies, and immunomodulatory drugs targeting T cells. Although chemotherapy and radiation remain the cornerstone of cancer treatment, ICIs have become the first-line therapy for various tumors.<xref ref-type="bibr" rid="article-169700.r5">[5]</xref></p>
+        <p>Immune checkpoints downregulate the immune system, which is important for&#x000a0;maintaining self-tolerance and preventing autoimmunity. ICIs release the physiological regulatory "brakes" on the immune system, which lead to widespread T-cell activation&#x000a0;and an intensified immune response that can result in kidney inflammation and damage.<xref ref-type="bibr" rid="article-169700.r6">[6]</xref><xref ref-type="bibr" rid="article-169700.r7">[7]</xref><xref ref-type="bibr" rid="article-169700.r8">[8]</xref>&#x000a0;The development of autoantibodies and the formation of immune complexes are considered primary mechanisms contributing to kidney injury during ICI therapy.<xref ref-type="bibr" rid="article-169700.r9">[9]</xref>&#x000a0;Moreover, molecular mimicry between antigens on tumor cells and renal tubular cells may further contribute to the onset of AKI.<xref ref-type="bibr" rid="article-169700.r10">[10]</xref></p>
+        <p>T cells, which are considered the essential components of cellular immunity, secrete inflammatory cytokines and can be suppressed by tumor cells, enabling the latter to evade immune detection. The primary immune checkpoints targeted for treatment include CTLA-4, PD-1, PD-L1, and <italic toggle="yes">LAG-3</italic>.&#x000a0;Additional checkpoints under investigation include T-cell immunoglobulin and mucin domain-containing protein 3 (TIM-3), CD47, T-cell immunoglobulin and ITIM domain protein (TIGIT), and V-domain immunoglobulin suppressor of T-cell activation (VISTA).<xref ref-type="bibr" rid="article-169700.r5">[5]</xref></p>
+        <p>The mechanisms underlying the pathology of ICI-associated adverse events are&#x000a0;believed to involve T-cell infiltration, autoantibody production, and the activity of inflammatory cytokines, such as interleukins (ILs). ICIs inhibit peripheral T-cell tolerance and alter the homeostatic balance of T-cell populations. Increased effector memory CD4+ T cells have been associated with a higher incidence of irAEs, accompanied by a downregulation of T regulatory cell function.&#x000a0;In addition to alterations in T cells, ICI treatment leads to an increase in autoreactive B cells. Research has shown that patients who were autoantibody-negative before ICI therapy may develop autoantibodies, such as anti-thyroperoxidase and anti-thyroglobulin antibodies, following treatment.<xref ref-type="bibr" rid="article-169700.r5">[5]</xref><xref ref-type="bibr" rid="article-169700.r11">[11]</xref><xref ref-type="bibr" rid="article-169700.r12">[12]</xref></p>
+        <p>ICIs leverage natural inhibition pathways to enhance T-cell activation and improve T-cell surveillance against malignant cells. Their clinical applications span various malignancies, including urothelial carcinoma, renal cell carcinoma, hepatocellular carcinoma, gastric cancer, squamous cell carcinoma, melanoma, non&#x02013;small cell lung cancer, colorectal cancer, and Hodgkin lymphoma.<xref ref-type="bibr" rid="article-169700.r13">[13]</xref></p>
+        <table-wrap id="article-169700.table0" position="float" orientation="portrait">
+          <caption>
+            <title>Table.&#x000a0;Clinical Indications for Immune Checkpoint Inhibitors Targeting Various Inhibition Pathways.</title>
+          </caption>
+          <table style="width: 800px;" border="1" cellspacing="1" cellpadding="2">
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">
+<bold>Location of Inhibition</bold>
+</td>
+                <td rowspan="1" colspan="1">
+<bold>Drug</bold>
+</td>
+                <td rowspan="1" colspan="1">
+<bold>Indications</bold>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">CTLA-4</td>
+                <td rowspan="1" colspan="1">Ipilimumab</td>
+                <td rowspan="1" colspan="1">Advanced multiple myeloma, advanced colorectal cancer, non&#x02013;small cell lung cancer, and Hodgkin lymphoma</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">
+<italic toggle="yes">LAG-3</italic>
+</td>
+                <td rowspan="1" colspan="1">Relatlimab</td>
+                <td rowspan="1" colspan="1">Metastatic multiple myeloma</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">PD-1</td>
+                <td rowspan="1" colspan="1">Nivolumab</td>
+                <td rowspan="1" colspan="1">Head and neck squamous cell carcinoma, non&#x02013;small cell lung cancer, gastric cancer, esophageal squamous cell carcinoma, colorectal cancer, hepatocellular carcinoma, renal cell carcinoma, multiple myeloma, Hodgkin lymphoma, and skin cancer</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">&#x000a0;</td>
+                <td rowspan="1" colspan="1">Pembrolizumab</td>
+                <td rowspan="1" colspan="1">Head and neck squamous cell carcinoma, non&#x02013;small cell lung cancer, gastric cancer, esophageal squamous cell carcinoma, colorectal cancer, hepatocellular carcinoma, renal cell carcinoma, multiple myeloma, triple-negative breast cancer, and skin cancer</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">&#x000a0;</td>
+                <td rowspan="1" colspan="1">Cemiplimab</td>
+                <td rowspan="1" colspan="1">Skin cancer and non&#x02013;small cell lung cancer</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">&#x000a0;</td>
+                <td rowspan="1" colspan="1">Sintilimab</td>
+                <td rowspan="1" colspan="1">Non&#x02013;small cell lung cancer, hepatocellular carcinoma, and Hodgkin lymphoma</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">&#x000a0;</td>
+                <td rowspan="1" colspan="1">Camrelizumab</td>
+                <td rowspan="1" colspan="1">Non&#x02013;small cell lung cancer, hepatocellular carcinoma, Hodgkin lymphoma, esophageal squamous cell carcinoma, and head and neck squamous cell carcinoma</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">&#x000a0;</td>
+                <td rowspan="1" colspan="1">Dostarlimab</td>
+                <td rowspan="1" colspan="1">Uterine corpus endometrial carcinoma</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">PD-L1</td>
+                <td rowspan="1" colspan="1">Durvalumab</td>
+                <td rowspan="1" colspan="1">Non&#x02013;small cell lung cancer, small cell lung cancer, and bladder urothelial carcinoma</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">&#x000a0;</td>
+                <td rowspan="1" colspan="1">Atezolizumab</td>
+                <td rowspan="1" colspan="1">Non&#x02013;small cell lung cancer, small cell lung cancer, bladder urothelial carcinoma, hepatocellular carcinoma, triple-negative breast cancer, and skin cancer</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">&#x000a0;</td>
+                <td rowspan="1" colspan="1">Avelumab</td>
+                <td rowspan="1" colspan="1">Renal cell carcinoma, bladder urothelial carcinoma, and skin cancer</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <p>Reference for the Table.<xref ref-type="bibr" rid="article-169700.r5">[5]</xref></p>
+      </sec>
+      <sec id="article-169700.s3" sec-type="Epidemiology">
+        <title>Epidemiology</title>
+        <p>Among&#x000a0;patients treated with ICIs, 15% to 20% may develop AKI during treatment.<xref ref-type="bibr" rid="article-169700.r14">[14]</xref><xref ref-type="bibr" rid="article-169700.r15">[15]</xref><xref ref-type="bibr" rid="article-169700.r16">[16]</xref>&#x000a0;However,&#x000a0;the incidence of ICI-AKI, where AKI is directly attributed to the ICI, is estimated to be between 2% and 5%.<xref ref-type="bibr" rid="article-169700.r16">[16]</xref><xref ref-type="bibr" rid="article-169700.r17">[17]</xref><xref ref-type="bibr" rid="article-169700.r18">[18]</xref>&#x000a0;The incidence of AKI from other causes in patients receiving ICI therapy appears to be approximately 15%.<xref ref-type="bibr" rid="article-169700.r14">[14]</xref><xref ref-type="bibr" rid="article-169700.r16">[16]</xref><xref ref-type="bibr" rid="article-169700.r19">[19]</xref>&#x000a0;The&#x000a0;incidence of ICI-AKI may be underestimated due to the lack of standardized definitions for AKI and the limited number of biopsy-proven cases.<xref ref-type="bibr" rid="article-169700.r20">[20]</xref>&#x000a0;Given the increasing use of ICIs, the absolute number of patients with ICI-AKI is anticipated to rise as well.<xref ref-type="bibr" rid="article-169700.r20">[20]</xref></p>
+      </sec>
+      <sec id="article-169700.s4" sec-type="Pathophysiology">
+        <title>Pathophysiology</title>
+        <p>As mentioned above, ICIs release the inhibition of T-cell self-tolerance, leading to irAEs. These events have been reported in 90% of patients treated with anti-CTLA-4 and 70% of patients treated with anti-PD-1 or PD-L1. Although these adverse events vary in severity, the most common include skin itching or rash. The second most frequent irAEs involve gastrointestinal disturbance, usually presenting as diarrhea or colitis. The third most common irAEs affect the endocrine system, including thyroid dysfunction (both hypothyroidism and hyperthyroidism), pituitary inflammation, and adrenal insufficiency.</p>
+        <p>Other common manifestations include musculoskeletal toxicity (such as mild joint or muscle pain) and ocular toxicity (such as mild dry eye syndrome and uveitis). Nephritis, myocarditis, neurotoxicity (including encephalitis and myasthenia gravis), myositis, and hematological toxicity are less common but can have potentially&#x000a0;serious consequences. Notably, myocarditis carries a mortality rate of 40%. CTLA-4 inhibitors are more likely to cause colitis and rash, while PD-1 or PD-L1 inhibitors are more commonly associated with pneumonia and thyroid dysfunction. AKI is not considered particularly common with any ICI.<xref ref-type="bibr" rid="article-169700.r5">[5]</xref></p>
+        <p>Studies have identified several risk factors for ICI-AKI, including lower baseline estimated glomerular filtration rate (eGFR), combination ICI therapy, and preexisting or concurrent extrarenal irAEs.<xref ref-type="bibr" rid="article-169700.r21">[21]</xref><xref ref-type="bibr" rid="article-169700.r22">[22]</xref><xref ref-type="bibr" rid="article-169700.r23">[23]</xref>&#x000a0;One of the strongest risk factors for ICI-AKI is proton pump inhibitor (PPI) use. PPIs may act as haptens, binding to tubulointerstitial proteins in the kidney and forming antigen-antibody complexes that activate the immune system.<xref ref-type="bibr" rid="article-169700.r14">[14]</xref><xref ref-type="bibr" rid="article-169700.r24">[24]</xref><xref ref-type="bibr" rid="article-169700.r25">[25]</xref>&#x000a0;Further mechanistic studies are needed to better understand the interplay between PPIs and ICI-AKI (see&#x000a0;<bold>Image.</bold>&#x000a0;Mechanisms of Acute Kidney Injury Associated With the Combined Use of Proton Pump Inhibitor and Immune Checkpoint Inhibitors).</p>
+      </sec>
+      <sec id="article-169700.s5" sec-type="Histopathology">
+        <title>Histopathology</title>
+        <p>ICI-AIN is the most common histological finding in biopsied patients with ICI-AKI, occurring in 80% to 90% of patients.<xref ref-type="bibr" rid="article-169700.r4">[4]</xref><xref ref-type="bibr" rid="article-169700.r10">[10]</xref><xref ref-type="bibr" rid="article-169700.r17">[17]</xref>&#x000a0;Histopathological examination typically reveals a lymphocyte-predominant infiltrate, often with occasional eosinophils. In some patients, neutrophils or plasma cell-rich infiltrates may also be observed (see <bold>Image</bold><bold>.</bold>&#x000a0;Histopathology of Immune Checkpoint Inhibitor&#x02013;Associated Interstitial Nephritis).<xref ref-type="bibr" rid="article-169700.r26">[26]</xref></p>
+        <p>In 10% to 20% of cases with biopsy-proven ICI-AKI, other lesions are observed, including acute tubular necrosis (the second most common lesion reported) or glomerular diseases, with or without concomitant AIN.<xref ref-type="bibr" rid="article-169700.r27">[27]</xref>&#x000a0;Examples of other histopathological lesions include podocytopathies such as minimal change disease, focal segmental glomerulosclerosis, and membranous nephropathy. Additionally, C3 glomerulopathy, immunoglobulin A nephropathy, thrombotic microangiopathy, and pauci-immune glomerulonephritis have also been reported.<xref ref-type="bibr" rid="article-169700.r10">[10]</xref><xref ref-type="bibr" rid="article-169700.r16">[16]</xref><xref ref-type="bibr" rid="article-169700.r28">[28]</xref></p>
+      </sec>
+      <sec id="article-169700.s6" sec-type="History and Physical">
+        <title>History and Physical</title>
+        <p>No clinical features are sensitive or specific enough for diagnosing ICI-AKI. Differentiating ICI-AKI from non-ICI&#x02013;related AKI can be difficult without a kidney biopsy, and only 30% to 40% of suspected cases of ICI-AKI undergo biopsy.<xref ref-type="bibr" rid="article-169700.r4">[4]</xref>&#x000a0;A thorough history, including exposure to an ICI, is essential, although the timing of onset can vary. In a large multicenter study, patients with ICI-AKI had a median onset of 16 weeks after starting ICI therapy. However, ICI-AKI occurred after 1 year in 11% of patients, and some cases arose months after discontinuing ICIs.<xref ref-type="bibr" rid="article-169700.r4">[4]</xref>&#x000a0;</p>
+        <p>More than half of patients with ICI-AKI experience extrarenal irAEs involving other organs. Some of these extrarenal irAEs present with associated symptoms and physical findings.</p>
+        <p>
+<bold>Dermatological Manifestations</bold>
+</p>
+        <p>As noted in the <bold>Etiology</bold> section, the most common irAE is a rash, with maculopapular rash and lichenoid dermatitis being the most frequent types. Vitiligo is more commonly seen in melanoma patients. Less common adverse events include psoriasiform skin disorders, bullous disorders, and severe cutaneous reactions such as Stevens-Johnson syndrome and toxic epidermal necrolysis.<xref ref-type="bibr" rid="article-169700.r5">[5]</xref><xref ref-type="bibr" rid="article-169700.r29">[29]</xref>&#x000a0;A study found that 43% of patients with ICI-AKI developed a rash.<xref ref-type="bibr" rid="article-169700.r17">[17]</xref></p>
+        <p>
+<bold>Gastrointestinal Complaints</bold>
+</p>
+        <p>Gastrointestinal symptoms are the next most common complaints, with lower gastrointestinal symptoms occurring more frequently than upper&#x000a0;gastrointestinal issues. Subjective complaints may include abdominal pain, cramps, anorexia, nausea, and vomiting. Diarrhea and enteritis are common, with diarrhea affecting up to 14% of patients.<xref ref-type="bibr" rid="article-169700.r5">[5]</xref>&#x000a0;The incidence of gastrointestinal symptoms is higher when ICIs are coadministered.<xref ref-type="bibr" rid="article-169700.r30">[30]</xref><xref ref-type="bibr" rid="article-169700.r31">[31]</xref><xref ref-type="bibr" rid="article-169700.r32">[32]</xref></p>
+        <p>Other subjective complaints may include confusion, neck stiffness, neuropathic pain, cough, shortness of breath, chest pain, oliguria, hematuria, frothy urine, and lower extremity swelling. Physical findings may include altered mental status, abnormal cardiopulmonary examination, organomegaly, and lower extremity edema.</p>
+      </sec>
+      <sec id="article-169700.s7" sec-type="Evaluation">
+        <title>Evaluation</title>
+        <p>As previously mentioned, no clinical features are sensitive or specific for diagnosing ICI-AKI. Although laboratory findings may support the diagnosis of ICI-AKI, they also lack sensitivity or specificity. For instance, in a multicenter study, eosinophilia was observed in only 16.5% of patients with ICI-AKI, while 58% had pyuria. Another study found sterile pyuria in approximately half of patients with ICI-AKI.<xref ref-type="bibr" rid="article-169700.r13">[13]</xref>&#x000a0;Hematuria&#x000a0;and nephrotic-range proteinuria in patients with atypical presentations may warrant a biopsy to rule out alternative pathologies, such as glomerulonephritis (see <bold>Image.</bold>&#x000a0;Algorithm for Evaluating and Managing Suspected Immune Checkpoint Inhibitor&#x02013;Associated Acute Kidney Injury).</p>
+        <p>Several research studies are currently underway to identify noninvasive markers that can differentiate ICI-AKI from non&#x02013;ICI-AKI. Urinary biomarkers such as tumor necrosis factor-alpha (TNF-&#x003b1;), CXCL-9, retinol-binding protein, and PD-1 have been proposed as potential indicators but require validation on a larger scale.<xref ref-type="bibr" rid="article-169700.r33">[33]</xref>&#x000a0;Soluble IL-2 receptor (a&#x000a0;blood-based biomarker) has been shown to be elevated in the peripheral blood of patients with ICI-AIN compared to hemodynamic AKI controls, as well as ICI-treated patients without AKI.<xref ref-type="bibr" rid="article-169700.r34">[34]</xref></p>
+        <p>Additionally, radiological studies, such as F18 fluorodeoxyglucose (FDG)&#x000a0;positron emission tomography (PET) combined with a computed tomography (CT) scan (or PET-CT), have demonstrated utility in diagnosing irAEs such as colitis and thyroiditis, as reported in case studies and series.<xref ref-type="bibr" rid="article-169700.r35">[35]</xref><xref ref-type="bibr" rid="article-169700.r36">[36]</xref>&#x000a0;These imaging modalities may also aid in diagnosing ICI-AKI. A retrospective study found that patients with ICI-AKI exhibited a significant increase in mean standardized uptake value on F18-FDG PET-CT from baseline to the time of AKI compared to 2 control groups&#x02014;patients with hemodynamic AKI and those with non&#x02013;ICI-related nephritis.<xref ref-type="bibr" rid="article-169700.r37">[37]</xref> Larger prospective studies are required to validate these findings. Ongoing research on blood, urine, and radiological markers aims to identify reliable indicators of ICI-AKI, reducing the need for kidney biopsies, especially in patients with relative contraindications such as therapeutic anticoagulation, a solitary kidney, or frailty.</p>
+      </sec>
+      <sec id="article-169700.s8" sec-type="Treatment / Management">
+        <title>Treatment / Management</title>
+        <p>When treating patients with suspected ICI-AKI, the initial step involves ruling out alternative causes of AKI and discontinuing all medications associated with AIN, including PPIs. In most cases, a kidney biopsy should be performed unless the diagnosis is evident (such as exposure to PPIs along with concurrent or recent extrarenal irAEs) or contraindications to biopsy are present.<xref ref-type="bibr" rid="article-169700.r38">[38]</xref>&#x000a0;ICIs&#x000a0;should be temporarily withheld in patients with more severe AKI.<xref ref-type="bibr" rid="article-169700.r39">[39]</xref>&#x000a0;For patients with stage 2 AKI or higher and a strong clinical suspicion of ICI-AKI, corticosteroid therapy should be initiated even while awaiting kidney biopsy, as early corticosteroid use (eg, within 3 days of ICI-AKI onset) is associated with improved kidney recovery rates. The typical dosage is prednisone at 1 mg/kg daily.<xref ref-type="bibr" rid="article-169700.r4">[4]</xref><xref ref-type="bibr" rid="article-169700.r40">[40]</xref></p>
+        <p>The optimal duration of corticosteroid treatment remains a subject of debate. National Comprehensive Cancer Network guidelines recommend tapering corticosteroids slowly over 6 to 8 weeks to reduce the risk of recurrent ICI-AKI. However, 2 retrospective studies suggest that a shorter duration of corticosteroid therapy (eg, 3-4 weeks) may result in similar rates of recurrent ICI-AKI or mortality.<xref ref-type="bibr" rid="article-169700.r41">[41]</xref><xref ref-type="bibr" rid="article-169700.r41">[41]</xref>&#x000a0;These&#x000a0;findings require confirmation through randomized clinical trials. A study reported a median time to renal recovery of 7 weeks.<xref ref-type="bibr" rid="article-169700.r17">[17]</xref></p>
+        <p>While ICI-AIN is generally responsive to corticosteroids, some patients may not tolerate these medications, and others may experience steroid-refractory or recurrent ICI-AKI during treatment. This has led to growing interest in investigating second-line immunosuppressive agents for managing ICI-AKI.</p>
+        <p>The American Society of Clinical Oncology and the European League Against Rheumatism recommend using the TNF-&#x003b1; inhibitor infliximab, the CD20 inhibitor rituximab, and the IL-6 receptor inhibitor tocilizumab as preferred biological agents for managing steroid-refractory irAEs.<xref ref-type="bibr" rid="article-169700.r5">[5]</xref> Notably, TNF-&#x003b1; expression has been observed in kidney biopsy tissue from patients with ICI-AIN.<xref ref-type="bibr" rid="article-169700.r42">[42]</xref><xref ref-type="bibr" rid="article-169700.r43">[43]</xref>&#x000a0;Infliximab has also been successfully used to treat other irAEs, including colitis, hepatitis, and pneumonitis.<xref ref-type="bibr" rid="article-169700.r44">[44]</xref>&#x000a0;Other agents, such as mycophenolate mofetil and azathioprine, have shown some success in treating ICI-AKI.<xref ref-type="bibr" rid="article-169700.r4">[4]</xref><xref ref-type="bibr" rid="article-169700.r44">[44]</xref>&#x000a0;However, further data are needed to support the use of these second-line agents, either as initial therapies for ICI-AKI or for the treatment of relapsing or refractory cases.</p>
+        <p>The optimal management of glomerular lesions in patients receiving ICI therapy is unclear. A multidisciplinary approach is recommended, with treatment tailored to the specific type of glomerular disease present. Case reports suggest that patients with podocytopathies may respond to corticosteroids alone; however, additional immunosuppression (eg, rituximab and cyclophosphamide) may be necessary, depending on the lesion type and the patient's response to steroids.<xref ref-type="bibr" rid="article-169700.r45">[45]</xref><xref ref-type="bibr" rid="article-169700.r46">[46]</xref><xref ref-type="bibr" rid="article-169700.r47">[47]</xref></p>
+      </sec>
+      <sec id="article-169700.s9" sec-type="Differential Diagnosis">
+        <title>Differential Diagnosis</title>
+        <p>As&#x000a0;AKI is common in patients with cancer, the differential diagnoses are extensive and&#x000a0;include:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Hemodynamically mediated AKI</p>
+          </list-item>
+          <list-item>
+            <p>Nephrotoxicity from other chemotherapeutic agents, such as cisplatin or pemetrexed</p>
+          </list-item>
+          <list-item>
+            <p>Nephrotoxicity from antibiotics or other medications</p>
+          </list-item>
+          <list-item>
+            <p>Hypovolemia<xref ref-type="bibr" rid="article-169700.r48">[48]</xref><xref ref-type="bibr" rid="article-169700.r49">[49]</xref><xref ref-type="bibr" rid="article-169700.r50">[50]</xref></p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-169700.s10" sec-type="Prognosis">
+        <title>Prognosis</title>
+        <p>Definitions of partial and complete renal recovery vary across studies; however, renal recovery is overall common in patients with ICI-AKI, occurring in up to 67% of cases.<xref ref-type="bibr" rid="article-169700.r4">[4]</xref>&#x000a0;Early corticosteroid use is associated with a greater likelihood of renal recovery, while more severe AKI correlates with lower odds of recovery.<xref ref-type="bibr" rid="article-169700.r4">[4]</xref><xref ref-type="bibr" rid="article-169700.r40">[40]</xref>&#x000a0;Lack of renal recovery is associated with higher mortality compared to partial or complete kidney recovery.<xref ref-type="bibr" rid="article-169700.r17">[17]</xref> Patients who develop AKI are more likely to progress to chronic kidney disease (CKD) and face a higher risk of eGFR decline over time, which may affect eligibility for future therapies. Given the implications of ICI-AKI, including its association with increased mortality, it is essential to diligently monitor and proactively manage AKI when it occurs.<xref ref-type="bibr" rid="article-169700.r4">[4]</xref><xref ref-type="bibr" rid="article-169700.r51">[51]</xref></p>
+        <p>An important consideration is the decision to rechallenge with ICIs following ICI-AKI. The risks and benefits of rechallenge must be carefully weighed through multidisciplinary discussions.<xref ref-type="bibr" rid="article-169700.r52">[52]</xref>&#x000a0;Factors to consider include the severity of AKI, histopathology, and response to immunosuppression, as well as cancer-related factors such as the burden of metastatic disease, disease progression, whether the ICI was used for curative or palliative intent, prior response to ICIs, and the occurrence of other serious irAEs. Most patients rechallenged with ICIs after ICI-AKI do not experience recurrence. The rates of recurrent ICI-AKI range from 15% to 25%, indicating that the majority of patients can safely undergo rechallenge.<xref ref-type="bibr" rid="article-169700.r4">[4]</xref><xref ref-type="bibr" rid="article-169700.r17">[17]</xref>&#x000a0;</p>
+        <p>Approximately half of patients who experience recurrent ICI-AKI will respond to immunosuppression. For those rechallenged after ICI-AKI, strict avoidance of AIN-associated medications, such as PPIs, may be beneficial. Rechallenge is typically considered only after corticosteroids have been tapered to less than 10 mg/d in prednisone equivalents.&#x000a0;Some experts recommend rechallenging with low doses of corticosteroids, although limited data exist to support this approach.<xref ref-type="bibr" rid="article-169700.r4">[4]</xref>&#x000a0;Patients rechallenged with ICIs should undergo frequent laboratory monitoring to detect signs of recurrent ICI-AKI.</p>
+      </sec>
+      <sec id="article-169700.s11" sec-type="Complications">
+        <title>Complications</title>
+        <p>ICI-AKI is associated with significant morbidity and mortality, and it can result in the discontinuation of potentially life-saving therapy, CKD, and increased mortality.<xref ref-type="bibr" rid="article-169700.r51">[51]</xref>&#x000a0;Additionally, patients with ICI-AKI are at risk for adverse effects from high-dose corticosteroids, including hyperglycemia, infections, insomnia, and loss of bone density.</p>
+        <p>Patients with a history of kidney transplants who are treated with ICIs are particularly at risk for kidney rejection. This rejection is typically T-cell mediated and occurs within weeks, unlike the delayed AIN often seen with native kidneys. This is frequently associated with significant graft loss.<xref ref-type="bibr" rid="article-169700.r53">[53]</xref>&#x000a0;In addition, the immunosuppression required to prevent transplant rejection can inhibit the actions of ICI inhibitors.<xref ref-type="bibr" rid="article-169700.r39">[39]</xref><xref ref-type="bibr" rid="article-169700.r54">[54]</xref><xref ref-type="bibr" rid="article-169700.r55">[55]</xref>&#x000a0;Recent studies suggest that the use of mammalian target of rapamycin (mTOR) inhibitors may help reduce the risk of rejection in these patients.<xref ref-type="bibr" rid="article-169700.r53">[53]</xref><xref ref-type="bibr" rid="article-169700.r54">[54]</xref><xref ref-type="bibr" rid="article-169700.r56">[56]</xref></p>
+      </sec>
+      <sec id="article-169700.s12" sec-type="Deterrence and Patient Education">
+        <title>Deterrence and Patient Education</title>
+        <p>During ICI treatment, minimizing the use of medications known to contribute to AIN, such as PPIs,&#x000a0;nonsteroidal anti-inflammatory drugs (NSAIDs), and certain antibiotics, is essential. This precaution is particularly important during episodes of ICI-AKI and after recovery, as ICI-AKI can recur. Educating patients about avoiding these medications is crucial for reducing the risk of recurrence and preserving kidney function.<xref ref-type="bibr" rid="article-169700.r4">[4]</xref><xref ref-type="bibr" rid="article-169700.r14">[14]</xref><xref ref-type="bibr" rid="article-169700.r16">[16]</xref></p>
+      </sec>
+      <sec id="article-169700.s13" sec-type="Pearls and Other Issues">
+        <title>Pearls and Other Issues</title>
+        <p>Key facts to keep in mind regarding&#x000a0;ICI-AKI include:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>ICIs exert anticancer activity by enhancing T-cell activity. However, this also leads to increased autoimmunity and damage to multiple organs, resulting in irAEs.</p>
+          </list-item>
+          <list-item>
+            <p>AKI occurs due to these mechanisms and is usually responsive to steroids.</p>
+          </list-item>
+          <list-item>
+            <p>Patients at higher risk for AKI are those taking PPIs, NSAIDs, and antibiotics.</p>
+          </list-item>
+          <list-item>
+            <p>If patients do not respond to steroids, infliximab, rituximab, and tocilizumab are the preferred agents.</p>
+          </list-item>
+          <list-item>
+            <p>About 67% of patients will achieve full recovery, while up to 15% may experience no renal recovery.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-169700.s14" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>The effective management of ICI-AKI requires a coordinated and interprofessional approach to optimize patient outcomes. Given the complexity and potential severity of ICI-AKI, it is essential for the healthcare team&#x02014;including oncologists, nephrologists, advanced practitioners, nurses, pharmacists, and other specialists&#x02014;to collaborate and work closely throughout the patient's treatment journey.&#x000a0;A multidisciplinary approach begins with the early identification of patients at risk for ICI-AKI, including comprehensive assessments such as baseline kidney function evaluation and continuous monitoring during treatment. Accurate diagnosis is crucial and may necessitate a kidney biopsy to differentiate ICI-AKI from other causes of AKI. The nephrologist's expertise ensures that appropriate diagnostic procedures are conducted and treatment plans are customized to the patient's specific condition.</p>
+        <p>Once ICI-AKI is diagnosed, the healthcare team must collaborate to implement an effective treatment strategy. This typically involves holding ICIs and initiating corticosteroids, with input from oncologists, pharmacists, and the patient to manage corticosteroid doses and monitor for adverse effects. In cases of refractory ICI-AKI, introducing alternative therapies such as infliximab requires careful consideration and coordination among healthcare team members to ensure both patient safety and treatment efficacy. Interprofessional communication is vital in this process, enabling seamless information exchange and collaborative decision-making. Regular team meetings and discussions help update the treatment plan based on the patient's response and any emerging complications.</p>
+        <p>Nurses play a crucial role in monitoring patient progress, managing adverse effects, and educating patients and their families about the importance of medication adherence and the potential need for treatment adjustments. In special populations, such as kidney transplant recipients and patients with preexisting autoimmune diseases, the healthcare team must exercise extra caution. Tailored management strategies and ongoing research are essential to optimize outcomes for these patients, with each team member contributing their expertise to the care plan. Ethical considerations and patient-centered care should guide all decision-making, ensuring that patients are fully informed and their preferences are respected. By adopting a collaborative approach and utilizing the unique skills of each healthcare professional, the team can enhance patient safety, improve clinical outcomes, and maximize the therapeutic benefits of ICIs while minimizing kidney complications.</p>
+      </sec>
+      <sec id="article-169700.s15">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=169700&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=169700">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/169700/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=169700">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-169700.s16">
+        <fig id="article-169700.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Histopathology of Immune Checkpoint Inhibitor&#x02013;Associated Interstitial Nephritis. Image A shows hematoxylin and eosin stain, &#x000d7;200 magnification, demonstrating focal tubulointerstitial inflammation. Image B shows hematoxylin and eosin stain, &#x000d7;600 magnification, highlighting eosinophil-rich interstitial inflammation (arrow). Contributed by C Dernell, MDMedical College of Wisconsin, Department of Pathology</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Picture__1" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-169700.s17">
+        <fig id="article-169700.image.f2" position="float" orientation="portrait">
+          <caption>
+            <p>Algorithm for Evaluating and Managing Suspected Immune Checkpoint Inhibitor&#x02013;Associated Acute Kidney Injury. The image is a flowchart illustrating the steps for evaluating and managing suspected ICI-AKI, including clinical assessment, diagnostic approaches, and treatment strategies. Abbreviations: AIN, Acute interstitial nephritis; AKI, Acute kidney injury; ATN, Acute tubular necrosis; ATIN, Acute tubulointerstitial nephritis; GCs, Glucocorticoids; GN, Glomerulonephritis; ICI, Immune checkpoint inhibitor; IL, interleukin; IR, Interventional radiology; irAEs, Immune-related adverse events; PPI, Proton pump inhibitor. Contributed by P Hanna, MD, S Gupta, MD, and M Pirovano, MBBS</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Flowchart__1" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-169700.s18">
+        <fig id="article-169700.image.f3" position="float" orientation="portrait">
+          <caption>
+            <p>Mechanisms of Acute Kidney Injury Associated With the Combined Use of Proton Pump Inhibitors and Immune Checkpoint Inhibitors. Abbreviations: AKI, Acute kidney injury; ATIN, Acute tubulointerstitial nephritis; CKD, Chronic kidney disease; eGFR, Estimated glomerular filtration rate; PPI, Proton pump inhibitor. Contributed by P Hanna, MD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Hyperactive__TCell__copy__2" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-169700.s19">
+        <title>References</title>
+        <ref id="article-169700.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Qin</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Xu</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Yi</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Yu</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Luo</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Novel immune checkpoint targets: moving beyond PD-1 and CTLA-4.</article-title>
+            <source>Mol Cancer</source>
+            <year>2019</year>
+            <month>Nov</month>
+            <day>06</day>
+            <volume>18</volume>
+            <issue>1</issue>
+            <fpage>155</fpage>
+            <pub-id pub-id-type="pmid">31690319</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Postow</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Sidlow</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Hellmann</surname>
+                <given-names>MD</given-names>
+              </name>
+            </person-group>
+            <article-title>Immune-Related Adverse Events Associated with Immune Checkpoint Blockade.</article-title>
+            <source>N Engl J Med</source>
+            <year>2018</year>
+            <month>Jan</month>
+            <day>11</day>
+            <volume>378</volume>
+            <issue>2</issue>
+            <fpage>158</fpage>
+            <page-range>158-168</page-range>
+            <pub-id pub-id-type="pmid">29320654</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Meraz-Munoz</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Langote</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>D Jhaveri</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Izzedine</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Gudsoorkar</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Acute Kidney Injury in the Patient with Cancer.</article-title>
+            <source>Diagnostics (Basel)</source>
+            <year>2021</year>
+            <month>Mar</month>
+            <day>29</day>
+            <volume>11</volume>
+            <issue>4</issue>
+            <pub-id pub-id-type="pmid">33805529</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gupta</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Short</surname>
+                <given-names>SAP</given-names>
+              </name>
+              <name>
+                <surname>Sise</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Prosek</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Madhavan</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Soler</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Ostermann</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Herrmann</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Abudayyeh</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Anand</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Glezerman</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Motwani</surname>
+                <given-names>SS</given-names>
+              </name>
+              <name>
+                <surname>Murakami</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Wanchoo</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Ortiz-Melo</surname>
+                <given-names>DI</given-names>
+              </name>
+              <name>
+                <surname>Rashidi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Sprangers</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Aggarwal</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Malik</surname>
+                <given-names>AB</given-names>
+              </name>
+              <name>
+                <surname>Loew</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Carlos</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Chang</surname>
+                <given-names>WT</given-names>
+              </name>
+              <name>
+                <surname>Beckerman</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Mithani</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Shah</surname>
+                <given-names>CV</given-names>
+              </name>
+              <name>
+                <surname>Renaghan</surname>
+                <given-names>AD</given-names>
+              </name>
+              <name>
+                <surname>Seigneux</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Campedel</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Kitchlu</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Shin</surname>
+                <given-names>DS</given-names>
+              </name>
+              <name>
+                <surname>Rangarajan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Deshpande</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Coppock</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Eijgelsheim</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Seethapathy</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Strohbehn</surname>
+                <given-names>IA</given-names>
+              </name>
+              <name>
+                <surname>Owen</surname>
+                <given-names>DH</given-names>
+              </name>
+              <name>
+                <surname>Husain</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Garcia-Carro</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Bermejo</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lumlertgul</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Seylanova</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Flanders</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Isik</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Mamlouk</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Lin</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Garcia</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Kaghazchi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Khanin</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Kansal</surname>
+                <given-names>SK</given-names>
+              </name>
+              <name>
+                <surname>Wauters</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Chandra</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Schmidt-Ott</surname>
+                <given-names>KM</given-names>
+              </name>
+              <name>
+                <surname>Hsu</surname>
+                <given-names>RK</given-names>
+              </name>
+              <name>
+                <surname>Tio</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Sarvode Mothi</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Singh</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Schrag</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Jhaveri</surname>
+                <given-names>KD</given-names>
+              </name>
+              <name>
+                <surname>Reynolds</surname>
+                <given-names>KL</given-names>
+              </name>
+              <name>
+                <surname>Cortazar</surname>
+                <given-names>FB</given-names>
+              </name>
+              <name>
+                <surname>Leaf</surname>
+                <given-names>DE</given-names>
+              </name>
+              <collab>ICPi-AKI Consortium Investigators</collab>
+            </person-group>
+            <article-title>Acute kidney injury in patients treated with immune checkpoint inhibitors.</article-title>
+            <source>J Immunother Cancer</source>
+            <year>2021</year>
+            <month>Oct</month>
+            <volume>9</volume>
+            <issue>10</issue>
+            <pub-id pub-id-type="pmid">34625513</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yin</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Han</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Zheng</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Tong</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Bai</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Bian</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>Immune-related adverse events of immune checkpoint inhibitors: a review.</article-title>
+            <source>Front Immunol</source>
+            <year>2023</year>
+            <volume>14</volume>
+            <fpage>1167975</fpage>
+            <pub-id pub-id-type="pmid">37304306</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Benfaremo</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Manfredi</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Luchetti</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Gabrielli</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Musculoskeletal and Rheumatic Diseases Induced by Immune Checkpoint Inhibitors: A Review of the Literature.</article-title>
+            <source>Curr Drug Saf</source>
+            <year>2018</year>
+            <volume>13</volume>
+            <issue>3</issue>
+            <fpage>150</fpage>
+            <page-range>150-164</page-range>
+            <pub-id pub-id-type="pmid">29745339</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jenkins</surname>
+                <given-names>RW</given-names>
+              </name>
+              <name>
+                <surname>Barbie</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Flaherty</surname>
+                <given-names>KT</given-names>
+              </name>
+            </person-group>
+            <article-title>Mechanisms of resistance to immune checkpoint inhibitors.</article-title>
+            <source>Br J Cancer</source>
+            <year>2018</year>
+            <month>Jan</month>
+            <volume>118</volume>
+            <issue>1</issue>
+            <fpage>9</fpage>
+            <page-range>9-16</page-range>
+            <pub-id pub-id-type="pmid">29319049</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Perazella</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Shirali</surname>
+                <given-names>AC</given-names>
+              </name>
+            </person-group>
+            <article-title>Immune checkpoint inhibitor nephrotoxicity: what do we know and what should we do?</article-title>
+            <source>Kidney Int</source>
+            <year>2020</year>
+            <month>Jan</month>
+            <volume>97</volume>
+            <issue>1</issue>
+            <fpage>62</fpage>
+            <page-range>62-74</page-range>
+            <pub-id pub-id-type="pmid">31685311</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sprangers</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Leaf</surname>
+                <given-names>DE</given-names>
+              </name>
+              <name>
+                <surname>Porta</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Soler</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Perazella</surname>
+                <given-names>MA</given-names>
+              </name>
+            </person-group>
+            <article-title>Diagnosis and management of immune checkpoint inhibitor-associated acute kidney injury.</article-title>
+            <source>Nat Rev Nephrol</source>
+            <year>2022</year>
+            <month>Dec</month>
+            <volume>18</volume>
+            <issue>12</issue>
+            <fpage>794</fpage>
+            <page-range>794-805</page-range>
+            <pub-id pub-id-type="pmid">36168055</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cortazar</surname>
+                <given-names>FB</given-names>
+              </name>
+              <name>
+                <surname>Marrone</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Troxell</surname>
+                <given-names>ML</given-names>
+              </name>
+              <name>
+                <surname>Ralto</surname>
+                <given-names>KM</given-names>
+              </name>
+              <name>
+                <surname>Hoenig</surname>
+                <given-names>MP</given-names>
+              </name>
+              <name>
+                <surname>Brahmer</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Le</surname>
+                <given-names>DT</given-names>
+              </name>
+              <name>
+                <surname>Lipson</surname>
+                <given-names>EJ</given-names>
+              </name>
+              <name>
+                <surname>Glezerman</surname>
+                <given-names>IG</given-names>
+              </name>
+              <name>
+                <surname>Wolchok</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Cornell</surname>
+                <given-names>LD</given-names>
+              </name>
+              <name>
+                <surname>Feldman</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Stokes</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name>
+                <surname>Zapata</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Hodi</surname>
+                <given-names>FS</given-names>
+              </name>
+              <name>
+                <surname>Ott</surname>
+                <given-names>PA</given-names>
+              </name>
+              <name>
+                <surname>Yamashita</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Leaf</surname>
+                <given-names>DE</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinicopathological features of acute kidney injury associated with immune checkpoint inhibitors.</article-title>
+            <source>Kidney Int</source>
+            <year>2016</year>
+            <month>Sep</month>
+            <volume>90</volume>
+            <issue>3</issue>
+            <fpage>638</fpage>
+            <page-range>638-47</page-range>
+            <pub-id pub-id-type="pmid">27282937</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>de Moel</surname>
+                <given-names>EC</given-names>
+              </name>
+              <name>
+                <surname>Rozeman</surname>
+                <given-names>EA</given-names>
+              </name>
+              <name>
+                <surname>Kapiteijn</surname>
+                <given-names>EH</given-names>
+              </name>
+              <name>
+                <surname>Verdegaal</surname>
+                <given-names>EME</given-names>
+              </name>
+              <name>
+                <surname>Grummels</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Bakker</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Huizinga</surname>
+                <given-names>TWJ</given-names>
+              </name>
+              <name>
+                <surname>Haanen</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Toes</surname>
+                <given-names>REM</given-names>
+              </name>
+              <name>
+                <surname>van der Woude</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Autoantibody Development under Treatment with Immune-Checkpoint Inhibitors.</article-title>
+            <source>Cancer Immunol Res</source>
+            <year>2019</year>
+            <month>Jan</month>
+            <volume>7</volume>
+            <issue>1</issue>
+            <fpage>6</fpage>
+            <page-range>6-11</page-range>
+            <pub-id pub-id-type="pmid">30425107</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lozano</surname>
+                <given-names>AX</given-names>
+              </name>
+              <name>
+                <surname>Chaudhuri</surname>
+                <given-names>AA</given-names>
+              </name>
+              <name>
+                <surname>Nene</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Bacchiocchi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Earland</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Vesely</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Usmani</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Turner</surname>
+                <given-names>BE</given-names>
+              </name>
+              <name>
+                <surname>Steen</surname>
+                <given-names>CB</given-names>
+              </name>
+              <name>
+                <surname>Luca</surname>
+                <given-names>BA</given-names>
+              </name>
+              <name>
+                <surname>Badri</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Gulati</surname>
+                <given-names>GS</given-names>
+              </name>
+              <name>
+                <surname>Vahid</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name>
+                <surname>Khameneh</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Harris</surname>
+                <given-names>PK</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>DY</given-names>
+              </name>
+              <name>
+                <surname>Dhodapkar</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Sznol</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Halaban</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Newman</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>T cell characteristics associated with toxicity to immune checkpoint blockade in patients with melanoma.</article-title>
+            <source>Nat Med</source>
+            <year>2022</year>
+            <month>Feb</month>
+            <volume>28</volume>
+            <issue>2</issue>
+            <fpage>353</fpage>
+            <page-range>353-362</page-range>
+            <pub-id pub-id-type="pmid">35027754</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gupta</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Cortazar</surname>
+                <given-names>FB</given-names>
+              </name>
+              <name>
+                <surname>Riella</surname>
+                <given-names>LV</given-names>
+              </name>
+              <name>
+                <surname>Leaf</surname>
+                <given-names>DE</given-names>
+              </name>
+            </person-group>
+            <article-title>Immune Checkpoint Inhibitor Nephrotoxicity: Update 2020.</article-title>
+            <source>Kidney360</source>
+            <year>2020</year>
+            <month>Feb</month>
+            <day>27</day>
+            <volume>1</volume>
+            <issue>2</issue>
+            <fpage>130</fpage>
+            <page-range>130-140</page-range>
+            <pub-id pub-id-type="pmid">35372904</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Seethapathy</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Zhao</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Chute</surname>
+                <given-names>DF</given-names>
+              </name>
+              <name>
+                <surname>Zubiri</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Oppong</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Strohbehn</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Cortazar</surname>
+                <given-names>FB</given-names>
+              </name>
+              <name>
+                <surname>Leaf</surname>
+                <given-names>DE</given-names>
+              </name>
+              <name>
+                <surname>Mooradian</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Villani</surname>
+                <given-names>AC</given-names>
+              </name>
+              <name>
+                <surname>Sullivan</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Reynolds</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Sise</surname>
+                <given-names>ME</given-names>
+              </name>
+            </person-group>
+            <article-title>The Incidence, Causes, and Risk Factors of Acute Kidney Injury in Patients Receiving Immune Checkpoint Inhibitors.</article-title>
+            <source>Clin J Am Soc Nephrol</source>
+            <year>2019</year>
+            <month>Dec</month>
+            <day>06</day>
+            <volume>14</volume>
+            <issue>12</issue>
+            <fpage>1692</fpage>
+            <page-range>1692-1700</page-range>
+            <pub-id pub-id-type="pmid">31672794</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Koks</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Ocak</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Suelmann</surname>
+                <given-names>BBM</given-names>
+              </name>
+              <name>
+                <surname>Hulsbergen-Veelken</surname>
+                <given-names>CAR</given-names>
+              </name>
+              <name>
+                <surname>Haitjema</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Vianen</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Verhaar</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Kaasjager</surname>
+                <given-names>KAH</given-names>
+              </name>
+              <name>
+                <surname>Khairoun</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Immune checkpoint inhibitor-associated acute kidney injury and mortality: An observational study.</article-title>
+            <source>PLoS One</source>
+            <year>2021</year>
+            <volume>16</volume>
+            <issue>6</issue>
+            <fpage>e0252978</fpage>
+            <pub-id pub-id-type="pmid">34101756</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Meraz-Mu&#x000f1;oz</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Amir</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Ng</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Avila-Casado</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Ragobar</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Chan</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Wald</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Kitchlu</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Acute kidney injury associated with immune checkpoint inhibitor therapy: incidence, risk factors and outcomes.</article-title>
+            <source>J Immunother Cancer</source>
+            <year>2020</year>
+            <month>Jun</month>
+            <volume>8</volume>
+            <issue>1</issue>
+            <pub-id pub-id-type="pmid">32601079</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cortazar</surname>
+                <given-names>FB</given-names>
+              </name>
+              <name>
+                <surname>Kibbelaar</surname>
+                <given-names>ZA</given-names>
+              </name>
+              <name>
+                <surname>Glezerman</surname>
+                <given-names>IG</given-names>
+              </name>
+              <name>
+                <surname>Abudayyeh</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Mamlouk</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Motwani</surname>
+                <given-names>SS</given-names>
+              </name>
+              <name>
+                <surname>Murakami</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Herrmann</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Manohar</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Shirali</surname>
+                <given-names>AC</given-names>
+              </name>
+              <name>
+                <surname>Kitchlu</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Shirazian</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Assal</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Vijayan</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Renaghan</surname>
+                <given-names>AD</given-names>
+              </name>
+              <name>
+                <surname>Ortiz-Melo</surname>
+                <given-names>DI</given-names>
+              </name>
+              <name>
+                <surname>Rangarajan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Malik</surname>
+                <given-names>AB</given-names>
+              </name>
+              <name>
+                <surname>Hogan</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Dinh</surname>
+                <given-names>AR</given-names>
+              </name>
+              <name>
+                <surname>Shin</surname>
+                <given-names>DS</given-names>
+              </name>
+              <name>
+                <surname>Marrone</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Mithani</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Johnson</surname>
+                <given-names>DB</given-names>
+              </name>
+              <name>
+                <surname>Hosseini</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Uprety</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Sharma</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Gupta</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Reynolds</surname>
+                <given-names>KL</given-names>
+              </name>
+              <name>
+                <surname>Sise</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Leaf</surname>
+                <given-names>DE</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical Features and Outcomes of Immune Checkpoint Inhibitor-Associated AKI: A Multicenter Study.</article-title>
+            <source>J Am Soc Nephrol</source>
+            <year>2020</year>
+            <month>Feb</month>
+            <volume>31</volume>
+            <issue>2</issue>
+            <fpage>435</fpage>
+            <page-range>435-446</page-range>
+            <pub-id pub-id-type="pmid">31896554</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Manohar</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Ghamrawi</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Chengappa</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Goksu</surname>
+                <given-names>BNB</given-names>
+              </name>
+              <name>
+                <surname>Kottschade</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Finnes</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Dronca</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Leventakos</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Herrmann</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Herrmann</surname>
+                <given-names>SM</given-names>
+              </name>
+            </person-group>
+            <article-title>Acute Interstitial Nephritis and Checkpoint Inhibitor Therapy: Single Center Experience of Management and Drug Rechallenge.</article-title>
+            <source>Kidney360</source>
+            <year>2020</year>
+            <month>Jan</month>
+            <day>30</day>
+            <volume>1</volume>
+            <issue>1</issue>
+            <fpage>16</fpage>
+            <page-range>16-24</page-range>
+            <pub-id pub-id-type="pmid">35372854</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Isik</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Alexander</surname>
+                <given-names>MP</given-names>
+              </name>
+              <name>
+                <surname>Manohar</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Vaughan</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Kottschade</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Markovic</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lieske</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Kukla</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Leung</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Herrmann</surname>
+                <given-names>SM</given-names>
+              </name>
+            </person-group>
+            <article-title>Biomarkers, Clinical Features, and Rechallenge for Immune Checkpoint Inhibitor Renal Immune-Related Adverse Events.</article-title>
+            <source>Kidney Int Rep</source>
+            <year>2021</year>
+            <month>Apr</month>
+            <volume>6</volume>
+            <issue>4</issue>
+            <fpage>1022</fpage>
+            <page-range>1022-1031</page-range>
+            <pub-id pub-id-type="pmid">33912752</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Franzin</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Netti</surname>
+                <given-names>GS</given-names>
+              </name>
+              <name>
+                <surname>Spadaccino</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Porta</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Gesualdo</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Stallone</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Castellano</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Ranieri</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>The Use of Immune Checkpoint Inhibitors in Oncology and the Occurrence of AKI: Where Do We Stand?</article-title>
+            <source>Front Immunol</source>
+            <year>2020</year>
+            <volume>11</volume>
+            <fpage>574271</fpage>
+            <pub-id pub-id-type="pmid">33162990</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Liu</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Wei</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Yang</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Yi</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Pu</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Yin</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Na</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Fu</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Zhao</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>Incidence and risk factors of acute kidney injury in cancer patients treated with immune checkpoint inhibitors: a systematic review and meta-analysis.</article-title>
+            <source>Front Immunol</source>
+            <year>2023</year>
+            <volume>14</volume>
+            <fpage>1173952</fpage>
+            <pub-id pub-id-type="pmid">37313406</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Abdelrahim</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Mamlouk</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Lin</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Lin</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Page</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Abdel-Wahab</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Swan</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Selamet</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Yee</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Diab</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Suki</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Abudayyeh</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Incidence, predictors, and survival impact of acute kidney injury in patients with melanoma treated with immune checkpoint inhibitors: a 10-year single-institution analysis.</article-title>
+            <source>Oncoimmunology</source>
+            <year>2021</year>
+            <month>May</month>
+            <day>23</day>
+            <volume>10</volume>
+            <issue>1</issue>
+            <fpage>1927313</fpage>
+            <pub-id pub-id-type="pmid">34104543</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sorah</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Rose</surname>
+                <given-names>TL</given-names>
+              </name>
+              <name>
+                <surname>Radhakrishna</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Derebail</surname>
+                <given-names>VK</given-names>
+              </name>
+              <name>
+                <surname>Milowsky</surname>
+                <given-names>MI</given-names>
+              </name>
+            </person-group>
+            <article-title>Incidence and Prediction of Immune Checkpoint Inhibitor-related Nephrotoxicity.</article-title>
+            <source>J Immunother</source>
+            <year>2021</year>
+            <month>Apr</month>
+            <day>01</day>
+            <volume>44</volume>
+            <issue>3</issue>
+            <fpage>127</fpage>
+            <page-range>127-131</page-range>
+            <pub-id pub-id-type="pmid">32925564</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mohan</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Krisanapan</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Tangpanithandee</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Thongprayoon</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Kanduri</surname>
+                <given-names>SR</given-names>
+              </name>
+              <name>
+                <surname>Cheungpasitporn</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Herrmann</surname>
+                <given-names>SM</given-names>
+              </name>
+            </person-group>
+            <article-title>Association of Proton Pump Inhibitor Use and Immune Checkpoint Inhibitor-Mediated Acute Kidney Injury: A Meta-Analysis and a Review of Related Outcomes.</article-title>
+            <source>Am J Nephrol</source>
+            <year>2024</year>
+            <volume>55</volume>
+            <issue>4</issue>
+            <fpage>439</fpage>
+            <page-range>439-449</page-range>
+            <pub-id pub-id-type="pmid">38471492</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ikuta</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Nakagawa</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Momo</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Yonezawa</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Itohara</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Sato</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Imai</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Nakagawa</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Matsubara</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Association of proton pump inhibitors and concomitant drugs with risk of acute kidney injury: a nested case-control study.</article-title>
+            <source>BMJ Open</source>
+            <year>2021</year>
+            <month>Feb</month>
+            <day>15</day>
+            <volume>11</volume>
+            <issue>2</issue>
+            <fpage>e041543</fpage>
+            <pub-id pub-id-type="pmid">33589451</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Perazella</surname>
+                <given-names>MA</given-names>
+              </name>
+            </person-group>
+            <article-title>Drug-induced acute kidney injury: diverse mechanisms of tubular injury.</article-title>
+            <source>Curr Opin Crit Care</source>
+            <year>2019</year>
+            <month>Dec</month>
+            <volume>25</volume>
+            <issue>6</issue>
+            <fpage>550</fpage>
+            <page-range>550-557</page-range>
+            <pub-id pub-id-type="pmid">31483318</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kitchlu</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Jhaveri</surname>
+                <given-names>KD</given-names>
+              </name>
+              <name>
+                <surname>Wadhwani</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Deshpande</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Harel</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Kishibe</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Henriksen</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Wanchoo</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>A Systematic Review of Immune Checkpoint Inhibitor-Associated Glomerular Disease.</article-title>
+            <source>Kidney Int Rep</source>
+            <year>2021</year>
+            <month>Jan</month>
+            <volume>6</volume>
+            <issue>1</issue>
+            <fpage>66</fpage>
+            <page-range>66-77</page-range>
+            <pub-id pub-id-type="pmid">33426386</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mamlouk</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Selamet</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Machado</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Abdelrahim</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Glass</surname>
+                <given-names>WF</given-names>
+              </name>
+              <name>
+                <surname>Tchakarov</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Gaber</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Lahoti</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Workeneh</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lin</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Abdel-Wahab</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Tayar</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Lu</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Suarez-Almazor</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Tannir</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Yee</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Diab</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Abudayyeh</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Nephrotoxicity of immune checkpoint inhibitors beyond tubulointerstitial nephritis: single-center experience.</article-title>
+            <source>J Immunother Cancer</source>
+            <year>2019</year>
+            <month>Jan</month>
+            <day>06</day>
+            <volume>7</volume>
+            <issue>1</issue>
+            <fpage>2</fpage>
+            <pub-id pub-id-type="pmid">30612580</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Quach</surname>
+                <given-names>HT</given-names>
+              </name>
+              <name>
+                <surname>Johnson</surname>
+                <given-names>DB</given-names>
+              </name>
+              <name>
+                <surname>LeBoeuf</surname>
+                <given-names>NR</given-names>
+              </name>
+              <name>
+                <surname>Zwerner</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Dewan</surname>
+                <given-names>AK</given-names>
+              </name>
+            </person-group>
+            <article-title>Cutaneous adverse events caused by immune checkpoint inhibitors.</article-title>
+            <source>J Am Acad Dermatol</source>
+            <year>2021</year>
+            <month>Oct</month>
+            <volume>85</volume>
+            <issue>4</issue>
+            <fpage>956</fpage>
+            <page-range>956-966</page-range>
+            <pub-id pub-id-type="pmid">34332798</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Takada</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Hamatake</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kohashi</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Shimamatsu</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Hirai</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Ohmori</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Tagawa</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Mori</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Limb arteriolar vasculitis induced by pembrolizumab plus chemotherapy in a patient with lung cancer.</article-title>
+            <source>Int Cancer Conf J</source>
+            <year>2021</year>
+            <month>Jan</month>
+            <volume>10</volume>
+            <issue>1</issue>
+            <fpage>83</fpage>
+            <page-range>83-86</page-range>
+            <pub-id pub-id-type="pmid">33489708</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yang</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Gou</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Lan</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Shao</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Hu</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Xue</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Tislelizumab induced dual organs dysfunction in a patient with advanced esophageal squamous cell carcinoma: a case report.</article-title>
+            <source>Front Oncol</source>
+            <year>2024</year>
+            <volume>14</volume>
+            <fpage>1347896</fpage>
+            <pub-id pub-id-type="pmid">38549923</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bergqvist</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Hertervig</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Gedeon</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Kopljar</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Griph</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Kinhult</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Carneiro</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Marsal</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Vedolizumab treatment for immune checkpoint inhibitor-induced enterocolitis.</article-title>
+            <source>Cancer Immunol Immunother</source>
+            <year>2017</year>
+            <month>May</month>
+            <volume>66</volume>
+            <issue>5</issue>
+            <fpage>581</fpage>
+            <page-range>581-592</page-range>
+            <pub-id pub-id-type="pmid">28204866</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Moledina</surname>
+                <given-names>DG</given-names>
+              </name>
+              <name>
+                <surname>Obeid</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Smith</surname>
+                <given-names>RN</given-names>
+              </name>
+              <name>
+                <surname>Rosales</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Sise</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Moeckel</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Kashgarian</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kuperman</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Campbell</surname>
+                <given-names>KN</given-names>
+              </name>
+              <name>
+                <surname>Lefferts</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Meliambro</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Bitzer</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Perazella</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Luciano</surname>
+                <given-names>RL</given-names>
+              </name>
+              <name>
+                <surname>Pober</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Cantley</surname>
+                <given-names>LG</given-names>
+              </name>
+              <name>
+                <surname>Colvin</surname>
+                <given-names>RB</given-names>
+              </name>
+              <name>
+                <surname>Wilson</surname>
+                <given-names>FP</given-names>
+              </name>
+              <name>
+                <surname>Parikh</surname>
+                <given-names>CR</given-names>
+              </name>
+            </person-group>
+            <article-title>Identification and validation of urinary CXCL9 as a biomarker for diagnosis of acute interstitial nephritis.</article-title>
+            <source>J Clin Invest</source>
+            <year>2024</year>
+            <month>Mar</month>
+            <day>15</day>
+            <volume>134</volume>
+            <issue>6</issue>
+            <pub-id pub-id-type="pmid">38488004</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sise</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Seethapathy</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Moreno</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Harden</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Smith</surname>
+                <given-names>RN</given-names>
+              </name>
+              <name>
+                <surname>Rosales</surname>
+                <given-names>IA</given-names>
+              </name>
+              <name>
+                <surname>Colvin</surname>
+                <given-names>RB</given-names>
+              </name>
+              <name>
+                <surname>Chute</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Cornell</surname>
+                <given-names>LD</given-names>
+              </name>
+              <name>
+                <surname>Herrmann</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Fadden</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Sullivan</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Yang</surname>
+                <given-names>NJ</given-names>
+              </name>
+              <name>
+                <surname>Barmettler</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Wells</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Gupta</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Villani</surname>
+                <given-names>AC</given-names>
+              </name>
+              <name>
+                <surname>Reynolds</surname>
+                <given-names>KL</given-names>
+              </name>
+              <name>
+                <surname>Farmer</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Soluble and cell-based markers of immune checkpoint inhibitor-associated nephritis.</article-title>
+            <source>J Immunother Cancer</source>
+            <year>2023</year>
+            <month>Jan</month>
+            <volume>11</volume>
+            <issue>1</issue>
+            <pub-id pub-id-type="pmid">36657813</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schierz</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Sarikaya</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Wollina</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Unger</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Sarikaya</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Immune Checkpoint Inhibitor-Related Adverse Effects and <sup>18</sup>F-FDG PET/CT Findings.</article-title>
+            <source>J Nucl Med Technol</source>
+            <year>2021</year>
+            <month>Dec</month>
+            <volume>49</volume>
+            <issue>4</issue>
+            <fpage>324</fpage>
+            <page-range>324-329</page-range>
+            <pub-id pub-id-type="pmid">34330805</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Liu</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>The Place of FDG PET/CT in Renal Cell Carcinoma: Value and Limitations.</article-title>
+            <source>Front Oncol</source>
+            <year>2016</year>
+            <volume>6</volume>
+            <fpage>201</fpage>
+            <pub-id pub-id-type="pmid">27656421</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gupta</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Green-Lingren</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Bhimaniya</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Krokhmal</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Jacene</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Ostermann</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Chicklore</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Sprangers</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Deroose</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name>
+                <surname>Herrmann</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Wells</surname>
+                <given-names>SL</given-names>
+              </name>
+              <name>
+                <surname>Kaunfer</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Ortega</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Garc&#x000ed;a-Carro</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Bold</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>KL</given-names>
+              </name>
+              <name>
+                <surname>Sise</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Heidari</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Pak</surname>
+                <given-names>WLW</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Beckerman</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Eshet</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Hsu</surname>
+                <given-names>RK</given-names>
+              </name>
+              <name>
+                <surname>Hernandez Pampaloni</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Rashidi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Avril</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Donley</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Mithani</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Kuker</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Awiwi</surname>
+                <given-names>MO</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>MX</given-names>
+              </name>
+              <name>
+                <surname>Shah</surname>
+                <given-names>SI</given-names>
+              </name>
+              <name>
+                <surname>Weintraub</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Schoder</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Chowdhury</surname>
+                <given-names>RB</given-names>
+              </name>
+              <name>
+                <surname>Seethapathy</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Reynolds</surname>
+                <given-names>KL</given-names>
+              </name>
+              <name>
+                <surname>Soler</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Abudayyeh</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Glezerman</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Leaf</surname>
+                <given-names>DE</given-names>
+              </name>
+            </person-group>
+            <article-title>F18-FDG PET imaging as a diagnostic tool for immune checkpoint inhibitor-associated acute kidney injury.</article-title>
+            <source>J Clin Invest</source>
+            <year>2024</year>
+            <month>Aug</month>
+            <day>08</day>
+            <volume>134</volume>
+            <issue>18</issue>
+            <pub-id pub-id-type="pmid">39115940</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Miao</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Sise</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Herrmann</surname>
+                <given-names>SM</given-names>
+              </name>
+            </person-group>
+            <article-title>Immune checkpoint inhibitor related nephrotoxicity: Advances in clinicopathologic features, noninvasive approaches, and therapeutic strategy and rechallenge.</article-title>
+            <source>Front Nephrol</source>
+            <year>2022</year>
+            <volume>2</volume>
+            <fpage>1017921</fpage>
+            <pub-id pub-id-type="pmid">37674988</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Herrmann</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Perazella</surname>
+                <given-names>MA</given-names>
+              </name>
+            </person-group>
+            <article-title>Immune Checkpoint Inhibitors and Immune-Related Adverse Renal Events.</article-title>
+            <source>Kidney Int Rep</source>
+            <year>2020</year>
+            <month>Aug</month>
+            <volume>5</volume>
+            <issue>8</issue>
+            <fpage>1139</fpage>
+            <page-range>1139-1148</page-range>
+            <pub-id pub-id-type="pmid">32775813</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Abudayyeh</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Suo</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Lin</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Mamlouk</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Abdel-Wahab</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Tchakarov</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Pathologic Predictors of Response to Treatment of Immune Checkpoint Inhibitor-Induced Kidney Injury.</article-title>
+            <source>Cancers (Basel)</source>
+            <year>2022</year>
+            <month>Oct</month>
+            <day>27</day>
+            <volume>14</volume>
+            <issue>21</issue>
+            <pub-id pub-id-type="pmid">36358686</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gupta</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Garcia-Carro</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Prosek</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Glezerman</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Herrmann</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Garcia</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Abudayyeh</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Lumlertgul</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Malik</surname>
+                <given-names>AB</given-names>
+              </name>
+              <name>
+                <surname>Loew</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Beckerman</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Renaghan</surname>
+                <given-names>AD</given-names>
+              </name>
+              <name>
+                <surname>Carlos</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Rashidi</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Mithani</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Deshpande</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Rangarajan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Shah</surname>
+                <given-names>CV</given-names>
+              </name>
+              <name>
+                <surname>Seigneux</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Campedel</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Kitchlu</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Shin</surname>
+                <given-names>DS</given-names>
+              </name>
+              <name>
+                <surname>Coppock</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Ortiz-Melo</surname>
+                <given-names>DI</given-names>
+              </name>
+              <name>
+                <surname>Sprangers</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Aggarwal</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Benesova</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Wanchoo</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Murakami</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Cortazar</surname>
+                <given-names>FB</given-names>
+              </name>
+              <name>
+                <surname>Reynolds</surname>
+                <given-names>KL</given-names>
+              </name>
+              <name>
+                <surname>Sise</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Soler</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Leaf</surname>
+                <given-names>DE</given-names>
+              </name>
+              <collab>ICPi-AKI Consortium Investigators</collab>
+            </person-group>
+            <article-title>Shorter versus longer corticosteroid duration and recurrent immune checkpoint inhibitor-associated AKI.</article-title>
+            <source>J Immunother Cancer</source>
+            <year>2022</year>
+            <month>Sep</month>
+            <volume>10</volume>
+            <issue>9</issue>
+            <pub-id pub-id-type="pmid">36137651</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Montfort</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Filleron</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Virazels</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Dufau</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Milh&#x000e8;s</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Pag&#x000e8;s</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Olivier</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Ayyoub</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Mounier</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Lusque</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Brayer</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Delord</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Andrieu-Abadie</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Levade</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Colacios</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>S&#x000e9;gui</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Meyer</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Combining Nivolumab and Ipilimumab with Infliximab or Certolizumab in Patients with Advanced Melanoma: First Results of a Phase Ib Clinical Trial.</article-title>
+            <source>Clin Cancer Res</source>
+            <year>2021</year>
+            <month>Feb</month>
+            <day>15</day>
+            <volume>27</volume>
+            <issue>4</issue>
+            <fpage>1037</fpage>
+            <page-range>1037-1047</page-range>
+            <pub-id pub-id-type="pmid">33272982</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lin</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Mamlouk</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Selamet</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Tchakarov</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Glass</surname>
+                <given-names>WF</given-names>
+              </name>
+              <name>
+                <surname>Sheth</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Layman</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Dadu</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Abdelwahab</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Abdelrahim</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Diab</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Yee</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Abudayyeh</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Infliximab for the treatment of patients with checkpoint inhibitor-associated acute tubular interstitial nephritis.</article-title>
+            <source>Oncoimmunology</source>
+            <year>2021</year>
+            <month>Feb</month>
+            <day>02</day>
+            <volume>10</volume>
+            <issue>1</issue>
+            <fpage>1877415</fpage>
+            <pub-id pub-id-type="pmid">33643693</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Daetwyler</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Wallrabenstein</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>K&#x000f6;nig</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Cappelli</surname>
+                <given-names>LC</given-names>
+              </name>
+              <name>
+                <surname>Naidoo</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Zippelius</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>L&#x000e4;ubli</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Corticosteroid-resistant immune-related adverse events: a systematic review.</article-title>
+            <source>J Immunother Cancer</source>
+            <year>2024</year>
+            <month>Jan</month>
+            <day>17</day>
+            <volume>12</volume>
+            <issue>1</issue>
+            <pub-id pub-id-type="pmid">38233099</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Damsky</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Jilaveanu</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Turner</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Perry</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Zito</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Tomayko</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Leventhal</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Herold</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Meffre</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Bosenberg</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kluger</surname>
+                <given-names>HM</given-names>
+              </name>
+            </person-group>
+            <article-title>B cell depletion or absence does not impede anti-tumor activity of PD-1 inhibitors.</article-title>
+            <source>J Immunother Cancer</source>
+            <year>2019</year>
+            <month>Jun</month>
+            <day>14</day>
+            <volume>7</volume>
+            <issue>1</issue>
+            <fpage>153</fpage>
+            <pub-id pub-id-type="pmid">31200747</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r46">
+          <label>46</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>N&#x000e9;el</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Bucchia</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>N&#x000e9;el</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Tilly</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Caristan</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Yap</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Rimbert</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Bruneau</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Cadoux</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Agard</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Hourmant</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Godmer</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Brouard</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Bressollette</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Hamidou</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Josien</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Fakhouri</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Degauque</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Dampening of CD8+ T Cell Response by B Cell Depletion Therapy in Antineutrophil Cytoplasmic Antibody-Associated Vasculitis.</article-title>
+            <source>Arthritis Rheumatol</source>
+            <year>2019</year>
+            <month>Apr</month>
+            <volume>71</volume>
+            <issue>4</issue>
+            <fpage>641</fpage>
+            <page-range>641-650</page-range>
+            <pub-id pub-id-type="pmid">30375745</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r47">
+          <label>47</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mamlouk</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Lin</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Abdelrahim</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Tchakarov</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Glass</surname>
+                <given-names>WF</given-names>
+              </name>
+              <name>
+                <surname>Selamet</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Buni</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Abdel-Wahab</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Abudayyeh</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Checkpoint inhibitor-related renal vasculitis and use of rituximab.</article-title>
+            <source>J Immunother Cancer</source>
+            <year>2020</year>
+            <month>Jul</month>
+            <volume>8</volume>
+            <issue>2</issue>
+            <pub-id pub-id-type="pmid">32718987</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r48">
+          <label>48</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Haanen</surname>
+                <given-names>JBAG</given-names>
+              </name>
+              <name>
+                <surname>Carbonnel</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Robert</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Kerr</surname>
+                <given-names>KM</given-names>
+              </name>
+              <name>
+                <surname>Peters</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Larkin</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Jordan</surname>
+                <given-names>K</given-names>
+              </name>
+              <collab>ESMO Guidelines Committee</collab>
+            </person-group>
+            <article-title>Management of toxicities from immunotherapy: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up.</article-title>
+            <source>Ann Oncol</source>
+            <year>2017</year>
+            <month>Jul</month>
+            <day>01</day>
+            <volume>28</volume>
+            <issue>suppl_4</issue>
+            <fpage>iv119</fpage>
+            <page-range>iv119-iv142</page-range>
+            <pub-id pub-id-type="pmid">28881921</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r49">
+          <label>49</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Puzanov</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Diab</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Abdallah</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Bingham</surname>
+                <given-names>CO</given-names>
+              </name>
+              <name>
+                <surname>Brogdon</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Dadu</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Hamad</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lacouture</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>LeBoeuf</surname>
+                <given-names>NR</given-names>
+              </name>
+              <name>
+                <surname>Lenihan</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Onofrei</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Shannon</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Sharma</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Silk</surname>
+                <given-names>AW</given-names>
+              </name>
+              <name>
+                <surname>Skondra</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Suarez-Almazor</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Wiley</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Kaufman</surname>
+                <given-names>HL</given-names>
+              </name>
+              <name>
+                <surname>Ernstoff</surname>
+                <given-names>MS</given-names>
+              </name>
+              <collab>Society for Immunotherapy of Cancer Toxicity Management Working Group</collab>
+            </person-group>
+            <article-title>Managing toxicities associated with immune checkpoint inhibitors: consensus recommendations from the Society for Immunotherapy of Cancer (SITC) Toxicity Management Working Group.</article-title>
+            <source>J Immunother Cancer</source>
+            <year>2017</year>
+            <month>Nov</month>
+            <day>21</day>
+            <volume>5</volume>
+            <issue>1</issue>
+            <fpage>95</fpage>
+            <pub-id pub-id-type="pmid">29162153</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r50">
+          <label>50</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Brahmer</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Abu-Sbeih</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Ascierto</surname>
+                <given-names>PA</given-names>
+              </name>
+              <name>
+                <surname>Brufsky</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Cappelli</surname>
+                <given-names>LC</given-names>
+              </name>
+              <name>
+                <surname>Cortazar</surname>
+                <given-names>FB</given-names>
+              </name>
+              <name>
+                <surname>Gerber</surname>
+                <given-names>DE</given-names>
+              </name>
+              <name>
+                <surname>Hamad</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Hansen</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Johnson</surname>
+                <given-names>DB</given-names>
+              </name>
+              <name>
+                <surname>Lacouture</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Masters</surname>
+                <given-names>GA</given-names>
+              </name>
+              <name>
+                <surname>Naidoo</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Nanni</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Perales</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Puzanov</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Santomasso</surname>
+                <given-names>BD</given-names>
+              </name>
+              <name>
+                <surname>Shanbhag</surname>
+                <given-names>SP</given-names>
+              </name>
+              <name>
+                <surname>Sharma</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Skondra</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Sosman</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Turner</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ernstoff</surname>
+                <given-names>MS</given-names>
+              </name>
+            </person-group>
+            <article-title>Society for Immunotherapy of Cancer (SITC) clinical practice guideline on immune checkpoint inhibitor-related adverse events.</article-title>
+            <source>J Immunother Cancer</source>
+            <year>2021</year>
+            <month>Jun</month>
+            <volume>9</volume>
+            <issue>6</issue>
+            <pub-id pub-id-type="pmid">34172516</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r51">
+          <label>51</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Garc&#x000ed;a-Carro</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Bolufer</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Bury</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Casta&#x000f1;eda</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Mu&#x000f1;oz</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Felip</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Lorente</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Carreras</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Gabaldon</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Agraz</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Ser&#x000f3;n</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Soler</surname>
+                <given-names>MJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Acute kidney injury as a risk factor for mortality in oncological patients receiving checkpoint inhibitors.</article-title>
+            <source>Nephrol Dial Transplant</source>
+            <year>2022</year>
+            <month>Apr</month>
+            <day>25</day>
+            <volume>37</volume>
+            <issue>5</issue>
+            <fpage>887</fpage>
+            <page-range>887-894</page-range>
+            <pub-id pub-id-type="pmid">33547795</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r52">
+          <label>52</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Herrmann</surname>
+                <given-names>SM</given-names>
+              </name>
+            </person-group>
+            <article-title>Is Rechallenge Appropriate in Patients that Develop Immune Checkpoint Inhibitor-Associated AKI?: PRO.</article-title>
+            <source>Kidney360</source>
+            <year>2022</year>
+            <month>May</month>
+            <day>26</day>
+            <volume>3</volume>
+            <issue>5</issue>
+            <fpage>799</fpage>
+            <page-range>799-802</page-range>
+            <pub-id pub-id-type="pmid">36128487</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r53">
+          <label>53</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Murakami</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Mulvaney</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Danesh</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Abudayyeh</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Diab</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Abdel-Wahab</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Abdelrahim</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Khairallah</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Shirazian</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Kukla</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Owoyemi</surname>
+                <given-names>IO</given-names>
+              </name>
+              <name>
+                <surname>Alhamad</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Husami</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Menon</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Santeusanio</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Blosser</surname>
+                <given-names>CD</given-names>
+              </name>
+              <name>
+                <surname>Zuniga</surname>
+                <given-names>SC</given-names>
+              </name>
+              <name>
+                <surname>Soler</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Moreso</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Mithani</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Ortiz-Melo</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Jaimes</surname>
+                <given-names>EA</given-names>
+              </name>
+              <name>
+                <surname>Gutgarts</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Lum</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Danovitch</surname>
+                <given-names>GM</given-names>
+              </name>
+              <name>
+                <surname>Cardarelli</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Drews</surname>
+                <given-names>RE</given-names>
+              </name>
+              <name>
+                <surname>Bassil</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Swank</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Westphal</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Mannon</surname>
+                <given-names>RB</given-names>
+              </name>
+              <name>
+                <surname>Shirai</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Kitchlu</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Ong</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Machado</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Mothi</surname>
+                <given-names>SS</given-names>
+              </name>
+              <name>
+                <surname>Ott</surname>
+                <given-names>PA</given-names>
+              </name>
+              <name>
+                <surname>Rahma</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Hodi</surname>
+                <given-names>FS</given-names>
+              </name>
+              <name>
+                <surname>Sise</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Gupta</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Leaf</surname>
+                <given-names>DE</given-names>
+              </name>
+              <name>
+                <surname>Devoe</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name>
+                <surname>Wanchoo</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Nair</surname>
+                <given-names>VV</given-names>
+              </name>
+              <name>
+                <surname>Schmults</surname>
+                <given-names>CD</given-names>
+              </name>
+              <name>
+                <surname>Hanna</surname>
+                <given-names>GJ</given-names>
+              </name>
+              <name>
+                <surname>Sprangers</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Riella</surname>
+                <given-names>LV</given-names>
+              </name>
+              <name>
+                <surname>Jhaveri</surname>
+                <given-names>KD</given-names>
+              </name>
+              <collab>Immune Checkpoint Inhibitors in Solid Organ Transplant Consortium</collab>
+            </person-group>
+            <article-title>A multi-center study on safety and efficacy of immune checkpoint inhibitors in cancer patients with kidney transplant.</article-title>
+            <source>Kidney Int</source>
+            <year>2021</year>
+            <month>Jul</month>
+            <volume>100</volume>
+            <issue>1</issue>
+            <fpage>196</fpage>
+            <page-range>196-205</page-range>
+            <pub-id pub-id-type="pmid">33359528</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r54">
+          <label>54</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Carroll</surname>
+                <given-names>RP</given-names>
+              </name>
+              <name>
+                <surname>Boyer</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gebski</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Hockley</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Johnston</surname>
+                <given-names>JK</given-names>
+              </name>
+              <name>
+                <surname>Kireta</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Tan</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Taylor</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Wyburn</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Zalcberg</surname>
+                <given-names>JR</given-names>
+              </name>
+            </person-group>
+            <article-title>Immune checkpoint inhibitors in kidney transplant recipients: a multicentre, single-arm, phase 1 study.</article-title>
+            <source>Lancet Oncol</source>
+            <year>2022</year>
+            <month>Aug</month>
+            <volume>23</volume>
+            <issue>8</issue>
+            <fpage>1078</fpage>
+            <page-range>1078-1086</page-range>
+            <pub-id pub-id-type="pmid">35809595</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r55">
+          <label>55</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Manohar</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Thongprayoon</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Cheungpasitporn</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Markovic</surname>
+                <given-names>SN</given-names>
+              </name>
+              <name>
+                <surname>Herrmann</surname>
+                <given-names>SM</given-names>
+              </name>
+            </person-group>
+            <article-title>Systematic Review of the Safety of Immune Checkpoint Inhibitors Among Kidney Transplant Patients.</article-title>
+            <source>Kidney Int Rep</source>
+            <year>2020</year>
+            <month>Feb</month>
+            <volume>5</volume>
+            <issue>2</issue>
+            <fpage>149</fpage>
+            <page-range>149-158</page-range>
+            <pub-id pub-id-type="pmid">32043028</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-169700.r56">
+          <label>56</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hanna</surname>
+                <given-names>GJ</given-names>
+              </name>
+              <name>
+                <surname>Dharanesswaran</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Giobbie-Hurder</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Harran</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Liao</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Pai</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Tchekmedyian</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Ruiz</surname>
+                <given-names>ES</given-names>
+              </name>
+              <name>
+                <surname>Waldman</surname>
+                <given-names>AH</given-names>
+              </name>
+              <name>
+                <surname>Schmults</surname>
+                <given-names>CD</given-names>
+              </name>
+              <name>
+                <surname>Riella</surname>
+                <given-names>LV</given-names>
+              </name>
+              <name>
+                <surname>Lizotte</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Paweletz</surname>
+                <given-names>CP</given-names>
+              </name>
+              <name>
+                <surname>Chandraker</surname>
+                <given-names>AK</given-names>
+              </name>
+              <name>
+                <surname>Murakami</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Silk</surname>
+                <given-names>AW</given-names>
+              </name>
+            </person-group>
+            <article-title>Cemiplimab for Kidney Transplant Recipients With Advanced Cutaneous Squamous Cell Carcinoma.</article-title>
+            <source>J Clin Oncol</source>
+            <year>2024</year>
+            <month>Mar</month>
+            <day>20</day>
+            <volume>42</volume>
+            <issue>9</issue>
+            <fpage>1021</fpage>
+            <page-range>1021-1030</page-range>
+            <pub-id pub-id-type="pmid">38252908</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

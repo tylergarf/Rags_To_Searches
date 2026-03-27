@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-29465" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Statistics</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Bayot</surname>
+            <given-names>Marlon L.</given-names>
+          </name>
+          <aff>Adventist University of the Philippines-College of Medicine; Coach MLB Consulting</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Abdelgawad</surname>
+            <given-names>Ibrahim</given-names>
+          </name>
+          <aff>AinShams University, Cairo Egypt</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Marlon Bayot declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Ibrahim Abdelgawad declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>1</day>
+          <month>5</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-29465.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">Statistics, as a science, is the scientific process of acquisition and management of a given set of data. In the medical field and other life sciences, the term &#x0201c;biostatistics&#x0201d; is often used instead to emphasize its application to medicine and health. Statistics is used to provide information on the given health situation and guide healthcare professionals in the decision-making process, whether as part of the research study or as part of clinical work.</p>
+        <p>The application of statistics undergoes a series of steps creating a cycle of scientific activities. Usually, it begins with the acquisition of health data. This&#x000a0;collection of data involves gathering health-related information through the use of data collection tools (e.g., survey questionnaires) to accurately acquire details pertinent to a given study. Collecting data directly from the respondents is termed as primary sources of data. If the researcher wants to use a given set of data that were collected beyond the scope of the study (e.g., vital statistics and health statistics), then these are termed as secondary sources of data. Before moving on to the next step of the process, the accuracy and reliability of the data collection must be confirmed since any alterations or misinformation during this process would inevitably affect the analysis and interpretation of data on hand.</p>
+        <p>Data management, on the other hand, employs the organization and analysis of health data. Data can be organized in numerous ways, so every researcher should only use methods depending on the specific goal of the study. For example, if the statistical data must&#x000a0;be interpreted as individual units, it can be organized in the form of a raw data or data series (e.g., arranged in arrays or alphabetical order). This is usually done in studies having a small population (e.g., case studies, case series).&#x000a0; Otherwise, if the data needs to be described using frequency distribution, it can be organized either as discrete or continuous data series using frequency tables. This&#x000a0;collection process&#x000a0;is frequently used in studies with a larger study population. It is important to note that the best method of organizing statistical data primarily depends on the type of variable (e.g., qualitative or quantitative) and its level of measurement (e.g., nominal, ordinal, interval, ratio). Arriving at all possible data organizations may not be necessary if, and only if, this will give the best information to the researchers about the objectives of the study.</p>
+        <p>The use of appropriate methods to organize data will lead to its accurate analysis. In descriptive data analysis, the use of narratives, tables, graphs, and charts can be sufficient to describe the study variables. In the inferential analysis, the researcher needs to either estimate specific clinical or health parameters or perform hypothesis testing. Several versions of data analysis software are available for use according to the type of research work.<xref ref-type="bibr" rid="article-29465.r1">[1]</xref></p>
+        <p>Eventually, accurate and reliable interpretation follows&#x000a0;from properly conducted data analysis. This step focuses on generating correct information based on the findings while relating it to the context of the topic under study. The current&#x000a0;generation of discoveries, conclusions, and hypotheses will make future researchers capable of studying its underlying issues and restarting the statistical process, creating a continuous cycle of collecting, organizing, analyzing, and interpreting data.</p>
+      </sec>
+      <sec id="article-29465.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>There are some issues with statistics as applied in the healthcare setting. Most of these issues are encountered from research studies, both from community and clinical researches. These include, but not limited to, the following points enumerated below:</p>
+        <p>Data collection</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>The integrity of the data collection<xref ref-type="bibr" rid="article-29465.r2">[2]</xref>&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Data collection about &#x0201c;dying patients&#x0201d;<xref ref-type="bibr" rid="article-29465.r3">[3]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Advantages and disadvantages of data collection approaches<xref ref-type="bibr" rid="article-29465.r4">[4]</xref><xref ref-type="bibr" rid="article-29465.r5">[5]</xref>&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Researcher-participant partnership<xref ref-type="bibr" rid="article-29465.r6">[6]</xref></p>
+          </list-item>
+        </list>
+        <p>Data organization (and presentation)</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Use of relational database<xref ref-type="bibr" rid="article-29465.r7">[7]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Creation of frequency distribution: from tabulation to graphical representation<xref ref-type="bibr" rid="article-29465.r8">[8]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Type of charts based on the data analysis method<xref ref-type="bibr" rid="article-29465.r9">[9]</xref></p>
+          </list-item>
+        </list>
+        <p>Data analysis</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Statistical analysis of small area health studies<xref ref-type="bibr" rid="article-29465.r10">[10]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Misconceptions about data analysis and statistics<xref ref-type="bibr" rid="article-29465.r11">[11]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Limitation of data and its measurement in studying health disparities<xref ref-type="bibr" rid="article-29465.r12">[12]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Ethical issues on the use of secondary data analysis<xref ref-type="bibr" rid="article-29465.r13">[13]</xref></p>
+          </list-item>
+        </list>
+        <p>Data interpretation</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>The interpretation of p-values<xref ref-type="bibr" rid="article-29465.r14">[14]</xref><xref ref-type="bibr" rid="article-29465.r15">[15]</xref>&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Steps to data summarization<xref ref-type="bibr" rid="article-29465.r16">[16]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Differences in the application of clinical and statistical significance<xref ref-type="bibr" rid="article-29465.r17">[17]</xref><xref ref-type="bibr" rid="article-29465.r18">[18]</xref>&#x000a0;</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-29465.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Although this is not a definite part of the statistical process according to previous and current references on the topic, the "utilization of data in the healthcare setting" can still be an additional part of an overall process.&#x000a0; The use of relevant statistical findings and conclusions is vital in the decision-making process of both internal and external health stakeholders.</p>
+        <p>Just as there is a data analysis plan made before any study is implemented, a careful plan is required on how statistical results shall be shared with the appropriate audience. Graphical presentation as used in descriptive studies can effectively aid in the understanding of both technical and non-technical staff. The introduction of statistical output in presenting the results to the stakeholders may not always be beneficial at all times. Instead, the meaning and relevance of the statistical test and the practical application of its conclusion should be given more emphasis. Determining the recipients of the statistical findings will help in defining the method of disseminating specific statistical information.<xref ref-type="bibr" rid="article-29465.r19">[19]</xref></p>
+        <p>Generally, the importance of statistics as a tool for the execution of health research and the development of new knowledge and understanding in the healthcare practice has already been proven both in the past and in contemporary situations. While statistics carry its specific&#x000a0;language, like medicine, science, and other technical areas, each healthcare professional in clinics, hospitals, laboratories, and health industries must&#x000a0;understand the basic concepts of statistics. It must always be emphasized that the application of statistics in health and medicine is meant to help the healthcare team to have a deeper understanding of health-related variables and events, and not to confuse them in any other way, for instance, due to the misuse and abuse of statistics<xref ref-type="bibr" rid="article-29465.r20">[20]</xref>, which could, indirectly yet clinically, impact patient outcomes in the future.</p>
+      </sec>
+      <sec id="article-29465.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>All interprofessional healthcare team members need to possess at least a baseline understanding of statistics pertaining to the evaluation of raw healthcare data and studies. This knowledge is essential to updating care regimens and making medical decisions. As new data comes available, it is incumbent on all healthcare team members to incorporate these new findings into tangible action to benefit patients, leading to better outcomes. [Level 5]</p>
+      </sec>
+      <sec id="article-29465.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=29465&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=29465">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/29465/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=29465">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-29465.s6">
+        <title>References</title>
+        <ref id="article-29465.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ali</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Bhaskar</surname>
+                <given-names>SB</given-names>
+              </name>
+            </person-group>
+            <article-title>Basic statistical tools in research and data analysis.</article-title>
+            <source>Indian J Anaesth</source>
+            <year>2016</year>
+            <month>Sep</month>
+            <volume>60</volume>
+            <issue>9</issue>
+            <fpage>662</fpage>
+            <page-range>662-669</page-range>
+            <pub-id pub-id-type="pmid">27729694</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29465.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Moody</surname>
+                <given-names>LE</given-names>
+              </name>
+              <name>
+                <surname>McMillan</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Maintaining data integrity in randomized clinical trials.</article-title>
+            <source>Nurs Res</source>
+            <year>2002</year>
+            <season>Mar-Apr</season>
+            <volume>51</volume>
+            <issue>2</issue>
+            <fpage>129</fpage>
+            <page-range>129-33</page-range>
+            <pub-id pub-id-type="pmid">11984384</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29465.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fowler</surname>
+                <given-names>FJ</given-names>
+              </name>
+              <name>
+                <surname>Coppola</surname>
+                <given-names>KM</given-names>
+              </name>
+              <name>
+                <surname>Teno</surname>
+                <given-names>JM</given-names>
+              </name>
+            </person-group>
+            <article-title>Methodological challenges for measuring quality of care at the end of life.</article-title>
+            <source>J Pain Symptom Manage</source>
+            <year>1999</year>
+            <month>Feb</month>
+            <volume>17</volume>
+            <issue>2</issue>
+            <fpage>114</fpage>
+            <page-range>114-9</page-range>
+            <pub-id pub-id-type="pmid">10069151</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29465.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Saczynski</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>McManus</surname>
+                <given-names>DD</given-names>
+              </name>
+              <name>
+                <surname>Goldberg</surname>
+                <given-names>RJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Commonly used data-collection approaches in clinical research.</article-title>
+            <source>Am J Med</source>
+            <year>2013</year>
+            <month>Nov</month>
+            <volume>126</volume>
+            <issue>11</issue>
+            <fpage>946</fpage>
+            <page-range>946-50</page-range>
+            <pub-id pub-id-type="pmid">24050485</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29465.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sarkies</surname>
+                <given-names>MN</given-names>
+              </name>
+              <name>
+                <surname>Bowles</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Skinner</surname>
+                <given-names>EH</given-names>
+              </name>
+              <name>
+                <surname>Mitchell</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Haas</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Ho</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Salter</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>May</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Markham</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>O'Brien</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Plumb</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Haines</surname>
+                <given-names>TP</given-names>
+              </name>
+            </person-group>
+            <article-title>Data collection methods in health services research: hospital length of stay and discharge destination.</article-title>
+            <source>Appl Clin Inform</source>
+            <year>2015</year>
+            <volume>6</volume>
+            <issue>1</issue>
+            <fpage>96</fpage>
+            <page-range>96-109</page-range>
+            <pub-id pub-id-type="pmid">25848416</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29465.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Holden</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>McDougald Scott</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Hoonakker</surname>
+                <given-names>PL</given-names>
+              </name>
+              <name>
+                <surname>Hundt</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Carayon</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Data collection challenges in community settings: insights from two field studies of patients with chronic disease.</article-title>
+            <source>Qual Life Res</source>
+            <year>2015</year>
+            <month>May</month>
+            <volume>24</volume>
+            <issue>5</issue>
+            <fpage>1043</fpage>
+            <page-range>1043-55</page-range>
+            <pub-id pub-id-type="pmid">25154464</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29465.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sestoft</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Organizing research data.</article-title>
+            <source>Acta Vet Scand</source>
+            <year>2011</year>
+            <volume>53 Suppl 1</volume>
+            <issue>Suppl 1</issue>
+            <fpage>S2</fpage>
+            <pub-id pub-id-type="pmid">21999359</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29465.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Manikandan</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Frequency distribution.</article-title>
+            <source>J Pharmacol Pharmacother</source>
+            <year>2011</year>
+            <month>Jan</month>
+            <volume>2</volume>
+            <issue>1</issue>
+            <fpage>54</fpage>
+            <page-range>54-6</page-range>
+            <pub-id pub-id-type="pmid">21701652</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29465.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>In</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistical data presentation.</article-title>
+            <source>Korean J Anesthesiol</source>
+            <year>2017</year>
+            <month>Jun</month>
+            <volume>70</volume>
+            <issue>3</issue>
+            <fpage>267</fpage>
+            <page-range>267-276</page-range>
+            <pub-id pub-id-type="pmid">28580077</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29465.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wakefield</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Elliott</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Issues in the statistical analysis of small area health data.</article-title>
+            <source>Stat Med</source>
+            <year>1999</year>
+            <month>Sep</month>
+            <day>15-30</day>
+            <volume>18</volume>
+            <issue>17-18</issue>
+            <fpage>2377</fpage>
+            <page-range>2377-99</page-range>
+            <pub-id pub-id-type="pmid">10474147</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29465.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Motulsky</surname>
+                <given-names>HJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Common misconceptions about data analysis and statistics.</article-title>
+            <source>Br J Pharmacol</source>
+            <year>2015</year>
+            <month>Apr</month>
+            <volume>172</volume>
+            <issue>8</issue>
+            <fpage>2126</fpage>
+            <page-range>2126-32</page-range>
+            <pub-id pub-id-type="pmid">25134425</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29465.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bilheimer</surname>
+                <given-names>LT</given-names>
+              </name>
+              <name>
+                <surname>Klein</surname>
+                <given-names>RJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Data and measurement issues in the analysis of health disparities.</article-title>
+            <source>Health Serv Res</source>
+            <year>2010</year>
+            <month>Oct</month>
+            <volume>45</volume>
+            <issue>5 Pt 2</issue>
+            <fpage>1489</fpage>
+            <page-range>1489-507</page-range>
+            <pub-id pub-id-type="pmid">21054368</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29465.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tripathy</surname>
+                <given-names>JP</given-names>
+              </name>
+            </person-group>
+            <article-title>Secondary Data Analysis: Ethical Issues and Challenges.</article-title>
+            <source>Iran J Public Health</source>
+            <year>2013</year>
+            <month>Dec</month>
+            <volume>42</volume>
+            <issue>12</issue>
+            <fpage>1478</fpage>
+            <page-range>1478-9</page-range>
+            <pub-id pub-id-type="pmid">26060652</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29465.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nahm</surname>
+                <given-names>FS</given-names>
+              </name>
+            </person-group>
+            <article-title>What the <italic>P</italic> values really tell us.</article-title>
+            <source>Korean J Pain</source>
+            <year>2017</year>
+            <month>Oct</month>
+            <volume>30</volume>
+            <issue>4</issue>
+            <fpage>241</fpage>
+            <page-range>241-242</page-range>
+            <pub-id pub-id-type="pmid">29123617</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29465.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tanha</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Mohammadi</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Janani</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>P-value: What is and what is not.</article-title>
+            <source>Med J Islam Repub Iran</source>
+            <year>2017</year>
+            <volume>31</volume>
+            <fpage>65</fpage>
+            <pub-id pub-id-type="pmid">29445694</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29465.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yan</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Robert</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistical methods and common problems in medical or biomedical science research.</article-title>
+            <source>Int J Physiol Pathophysiol Pharmacol</source>
+            <year>2017</year>
+            <volume>9</volume>
+            <issue>5</issue>
+            <fpage>157</fpage>
+            <page-range>157-163</page-range>
+            <pub-id pub-id-type="pmid">29209453</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29465.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ferrill</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Brown</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Kyle</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical versus statistical significance: interpreting P values and confidence intervals related to measures of association to guide decision making.</article-title>
+            <source>J Pharm Pract</source>
+            <year>2010</year>
+            <month>Aug</month>
+            <volume>23</volume>
+            <issue>4</issue>
+            <fpage>344</fpage>
+            <page-range>344-51</page-range>
+            <pub-id pub-id-type="pmid">21507834</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29465.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>West</surname>
+                <given-names>CP</given-names>
+              </name>
+              <name>
+                <surname>Dupras</surname>
+                <given-names>DM</given-names>
+              </name>
+            </person-group>
+            <article-title>5 ways statistics can fool you--tips for practicing clinicians.</article-title>
+            <source>Vaccine</source>
+            <year>2013</year>
+            <month>Mar</month>
+            <day>15</day>
+            <volume>31</volume>
+            <issue>12</issue>
+            <fpage>1550</fpage>
+            <page-range>1550-2</page-range>
+            <pub-id pub-id-type="pmid">23246309</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29465.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kass</surname>
+                <given-names>RE</given-names>
+              </name>
+              <name>
+                <surname>Caffo</surname>
+                <given-names>BS</given-names>
+              </name>
+              <name>
+                <surname>Davidian</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Meng</surname>
+                <given-names>XL</given-names>
+              </name>
+              <name>
+                <surname>Yu</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Reid</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Ten Simple Rules for Effective Statistical Practice.</article-title>
+            <source>PLoS Comput Biol</source>
+            <year>2016</year>
+            <month>Jun</month>
+            <volume>12</volume>
+            <issue>6</issue>
+            <fpage>e1004961</fpage>
+            <pub-id pub-id-type="pmid">27281180</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-29465.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Thiese</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Arnold</surname>
+                <given-names>ZC</given-names>
+              </name>
+              <name>
+                <surname>Walker</surname>
+                <given-names>SD</given-names>
+              </name>
+            </person-group>
+            <article-title>The misuse and abuse of statistics in biomedical research.</article-title>
+            <source>Biochem Med (Zagreb)</source>
+            <year>2015</year>
+            <volume>25</volume>
+            <issue>1</issue>
+            <fpage>5</fpage>
+            <page-range>5-11</page-range>
+            <pub-id pub-id-type="pmid">25672462</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

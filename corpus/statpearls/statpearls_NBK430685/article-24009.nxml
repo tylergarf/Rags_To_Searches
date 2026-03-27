@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-24009" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Lambda Waves</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Cascella</surname>
+            <given-names>Marco</given-names>
+          </name>
+          <aff>Istituto Nazionale Tumori - IRCCS - Fondazione Pascale, Via Mariano Semmola 80100, Napoli. Italy</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Mudgal</surname>
+            <given-names>Mayuri</given-names>
+          </name>
+          <aff>Camden Clark Medical Center</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Bandyopadhyay</surname>
+            <given-names>Susanta</given-names>
+          </name>
+          <aff>University of Missouri-Columbia</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Marco Cascella declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Mayuri Mudgal declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Susanta Bandyopadhyay declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>13</day>
+          <month>2</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-24009.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">The electroencephalographic (EEG) signal is a bioelectric potential related to brain activity&#x000a0;recorded on the scalp with electrodes and appropriate instrumentation. The system for measuring brain bioelectric potentials has the function of capturing the weak electrical signal on the scalp, amplifying it, processing it (including digitization), and finally, registering it. Increasingly complex processing of the raw signal (eg, processed EEG through Fourier analysis or Joint Time-Frequency Analysis, JTFA, and dedicated algorithms) enables the use of the signal in various fields of application, such as general anesthesia and research purposes (eg, neuroscience and cognitive psychology).<xref ref-type="bibr" rid="article-24009.r1">[1]</xref><xref ref-type="bibr" rid="article-24009.r2">[2]</xref><xref ref-type="bibr" rid="article-24009.r3">[3]</xref></p>
+        <p>Essentially, this signal is generated by pyramidal cells located in the upper layers of the&#x000a0;cerebral cortex. EEG represents the expression of synaptic processes (pre- and postsynaptic electrical potentials), dendritic potentials, and probably&#x000a0;also neuroglia potentials. The mathematical law describing the conduction of electric potential from pyramidal neurons to the detection surface is known as the Poisson equation. This law relates the surface distribution of potential to the charge&#x000a0;underlying it and the permittivity of the tissue mass. Because pyramidal cells behave like dipole sources, they produce&#x000a0;the so-called "dipolar fields"; the total field generated results from the linear&#x000a0;combination of the potential fields that each source produces individually.&#x000a0;The presence of a dipole of this type requires a significant population&#x000a0;of depolarized neurons in unison to produce external potential. This&#x000a0;phenomenon is defined as local synchrony. The role of local synchrony in&#x000a0;EEG rhythm generation is so intense that less than 5 percent of pyramidal cells&#x000a0;can be responsible for over 90 percent of the energy&#x000a0;of the EEG signal.</p>
+        <p>Moreover, the vast majority of pyramidal cells operate asynchronously (external potentials cancel each other out); if the pyramidal cells begin to polarize in unison, the effect becomes visible and can be recorded on the EEG. In other words, groups of neurons can produce measurable potentials in the form of&#x000a0;EEG signals. These signals are distinct in terms of rhythm (or band) due to differences in amplitude (in microvolts) and frequency (in cycles per second, or hertz, Hz).</p>
+        <p>As electrodes are not in direct contact with the signal generator (conduction volume phenomenon), brain activity, even localized, can&#x000a0;appear widely dispersed on the scalp, and any brain event can be reflected&#x000a0;in more than&#x000a0;1 site on the scalp. As a general rule, 50 percent of the&#x000a0;signal recorded by a sensor positioned on the leather arises from the brain tissue&#x000a0;immediately below that sensor, while the remaining signal is received from other locations, primarily from adjacent sites. Consequently, the EEG represents an exam that has poor localization ability. However, technological advances, such as high-density EEG, have allowed more localization information to be obtained from the EEG.</p>
+        <p>The cerebral cortex contains tens of billions of neurons organized into&#x000a0;functional groups; these groups are interconnected through a complex series&#x000a0;of connections between cortical regions and subcortical brain structures. During the normal brain function, these networks are subjected to&#x000a0;rhythmic activity at frequencies ranging from 1 to 100 Hz and more. Although the underlying neuronal activity proceeds at a frequency of thousands of Hz, the measurable external potentials are all in the EEG range.&#x000a0;These groups of cortical neurons undergo cycles of activity in which they get&#x000a0;sequentially recruited.&#x000a0;These potential fluctuations are characterizable in terms of spectral content or characteristics in the time domain. Indeed, this coordinated activity is characterized by rhythmic waves that are discernible in specific positions and are evident under particular conditions (for example, during sleep) or after stimulation (hyperventilation, light stimulation, sleep deprivation, evoked potentials). This cyclical pattern of activity produces an&#x000a0;identifiable rhythm of growth and decline, which exhibits a temporal trend of the order of seconds and shows significant variability.&#x000a0;</p>
+        <p>A neurophysiological process that conditions the recorded electrical activity involves the activation of repetitive cyclical patterns, encompassing the thalamus and subcortical regions, as well as different cortical regions. Thalamo-cortical reverberation activities give rise to the alpha rhythm (8 to 12 Hz, 50 microV) and the slow beta rhythm (12 to 15 Hz, 10 to 20 microV), which is associated with alertness, concentration, and intentions to remain immobile. In contrast, the low-frequency theta rhythm&#x000a0;(4 to 7 Hz, 20 to 100-microV.) is an expression of the reverberation between the cortex and the subthalamic nuclei. Cortico-cortical reverberations are the basis of the genesis of beta waves (15 to 20 Hz) commonly associated with thinking&#x000a0;conscious and intentional. Furthermore, high beta waves (typically 20-30 Hz) are characteristic of anxious states and agitation. Gamma waves are fast waves (35 to 45 Hz) that are difficult to record due to their very small amplitude. They are&#x000a0;present in moments of maximum physical and mental performance, as well as profound&#x000a0;concentration.</p>
+        <p>All this cyclical-repetitive activity is&#x000a0;evident in the EEG, whose characteristic pattern reveals the general state of&#x000a0;activation and deactivation of the areas&#x000a0;at the origin of the measured surface potentials.&#x000a0;A classic example is the alpha rhythm. It is a rhythm of the rest of the visual system (inactivation rhythm), which is maximal posteriorly and increases when the eyes close, exhibiting a typical increasing and decreasing trend. All these&#x000a0;characteristics stem from the fact that the thalamocortical reverberation at the base of the alpha rhythm involves the optical pathways and the primary visual cortex, thereby relaxing the visual system. Therefore, during alpha periods, an individual is typically aware but relaxed. Normal&#x000a0;EEG of an awake subject shows an alpha rhythm of 8-12 Hz, which increases and decreases on the occipital and parietal lobes and beta waves at the frontal level, interspersed with theta waves.&#x000a0;During sleep, both beta waves and delta and theta waves are present&#x000a0;(theta in non-REM sleep).</p>
+        <p>The length of the cycles also varies according to the bands. Alpha bursts typically last from 100 to 500 milliseconds, while the gamma rhythm usually consists of very short bursts, from 20 to 50&#x000a0;milliseconds. In this context, the digital filtering of the signal is of fundamental importance. In addition to frequency and amplitude, the characteristics of waves include their shape and trend.&#x000a0;For example, the "mu" rhythm can occupy the alpha rhythm band, although compared to this latter, it does not have a sinusoidal aspect; it is maximum centrally and does not exhibit characteristic growth and degrowth.&#x000a0;Again, another aspect to consider is the different expressions of a specific rhythm between the&#x000a0;2 hemispheres. For example, in healthy individuals, the left frontal alpha is typically between 10% and 15%&#x000a0;lower than the controlateral; this asymmetry seems to be important for normal&#x000a0;mood control.</p>
+      </sec>
+      <sec id="article-24009.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>In addition to the physiological findings, the EEG analysis can highlight several findings, such as excessive slowdowns identified with the presence of slow delta waves (polyphasic and monophasic shapes) of 1&#x000a0;to 4 Hz, 50&#x000a0;to 350 microV occurring in the depression of the state of consciousness (eg, general anesthesia), in encephalopathy and dementia, and a wide range of wave patterns.&#x000a0;Some of these waves are nonspecific (eg, sharp epileptiform waves); others are diagnostic, such as the continuous spike-wave pattern with a frequency of 1.5 to 2.5 spikes/sec in Landau Kleffner syndrome or periodic sharp waves at 1 Hz in Creutzfeldt-Jakob disease.<xref ref-type="bibr" rid="article-24009.r4">[4]</xref><xref ref-type="bibr" rid="article-24009.r5">[5]</xref></p>
+        <p>In the context of physiological findings, apart from the mu rhythm and certain delta waves, other waveforms have been illustrated, including&#x000a0;K complex (large-amplitude delta frequency waves), V waves (sharp waves that occur during sleep), positive occipital sharp transients of sleep (POSTS), and lambda waves (LWs). These latter are&#x000a0;of bi- or tri-phasic morphology, with the predominant positive component preceded and followed by a negative component, and appear on the occipital regions in awake subjects during visual exploration. They are usually detected as a response to moving an object in the visual field. The main component is generally positive. The amplitude varies but is generally less than 50 microV, whereas the duration is 200 to 300 msec, except in children aged 1 to 3 years, when it can be up to 400 msec. LWs decrease significantly or disappear; when the eyes are closed, the lighting decreases, and a white sheet is presented. This data is crucial because, in the suspicion of an epileptic correlate, the disappearance of the waves replacing a geometric multicolor image with a blank surface clearly indicates the finding of non-pathologic LWs.</p>
+        <p>Because LWs are&#x000a0;sharp waves, they can be&#x000a0;misinterpreted as&#x000a0;pathological epileptiform findings, especially when they are present unilaterally, which is rare. However, LWs do not have correlations to epilepsy or other pathological conditions. Although LWs do not exhibit pathological features, it is appropriate to characterize their features and distinguish them from those of POSTS. While LWs and POSTS are both&#x000a0;normal EEG patterns and have many similarities in morphology and location, LWs occur in wakefulness and as an evoked response, whereas POSTS appears&#x000a0;typically&#x000a0;during physiologic sleep. Yet, POSTS, also termed "lambdoid waves," are usually monophasic. In a recent investigation, the authors found a significant association between LWs and POSTS, and in turn, suggested that both normal EEG findings&#x000a0;share a common occipital generator.<xref ref-type="bibr" rid="article-24009.r6">[6]</xref>&#x000a0;&#x000a0;</p>
+      </sec>
+      <sec id="article-24009.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>The so-called occipital generator systems comprise different groups of specialized neurons located within the occipital lobe and involved in the functioning of the visual system. In EEG terms, the functioning of the occipital generators&#x000a0;is expressed&#x000a0;through the production of different waveforms, including alpha rhythms, photic driving response, POSTS, and LWs.</p>
+        <p>In particular, LWs are&#x000a0;positive transient waves with a&#x000a0;triangular appearance. Notably, they are symmetric and appear in the occipital region when the individual is awake and fixates on a uniform surface. The appearance has also been demonstrated when the subject watches TV.<xref ref-type="bibr" rid="article-24009.r7">[7]</xref>&#x000a0;They are also elicited&#x000a0;through saccadic visual exploration, in which rapid movements (saccadic movements) between fixations are used to explore the visual environment towards peripheral stimuli of interest.<xref ref-type="bibr" rid="article-24009.r8">[8]</xref>&#x000a0;Most likely, LWs are more frequent in children.<xref ref-type="bibr" rid="article-24009.r9">[9]</xref>&#x000a0;The prevalence of LWs between 3&#x000a0;to 12 years is up to 80%,&#x000a0;but they do not occur before the age of 1.&#x000a0;Concerning features, an investigation conducted to evaluate the correlation between different products of occipital generators, Tatum et al found a mean amplitude of 17.69 microV and a duration of 118.7 ms. They also proved a significant (p=0.001) association between LWs during scanning eye movements.<xref ref-type="bibr" rid="article-24009.r10">[10]</xref></p>
+        <p>Considering the clinical data published so far, the clinical significance of LWs could be to demonstrate the physiological functioning of the saccadic visual exploration processes. In other words, as LWs&#x000a0;are probably related to an oculomotor visual integration mechanism, the failure to demonstrate LWs could be indicative&#x000a0;of a specific dysfunction involving particular areas of the visual cortex. Clinically, the subject experiences difficulties in visually fixing what is of interest to him, while the EEG finding is the reduced or non-appearance of the LWs.</p>
+      </sec>
+      <sec id="article-24009.s4">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=24009&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=24009">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/24009/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=24009">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-24009.s5">
+        <title>References</title>
+        <ref id="article-24009.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cascella</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Bimonte</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Muzio</surname>
+                <given-names>MR</given-names>
+              </name>
+            </person-group>
+            <article-title>Towards a better understanding of anesthesia emergence mechanisms: Research and clinical implications.</article-title>
+            <source>World J Methodol</source>
+            <year>2018</year>
+            <month>Oct</month>
+            <day>12</day>
+            <volume>8</volume>
+            <issue>2</issue>
+            <fpage>9</fpage>
+            <page-range>9-16</page-range>
+            <pub-id pub-id-type="pmid">30345225</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24009.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cascella</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Mechanisms underlying brain monitoring during anesthesia: limitations, possible improvements, and perspectives.</article-title>
+            <source>Korean J Anesthesiol</source>
+            <year>2016</year>
+            <month>Apr</month>
+            <volume>69</volume>
+            <issue>2</issue>
+            <fpage>113</fpage>
+            <page-range>113-20</page-range>
+            <pub-id pub-id-type="pmid">27066200</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24009.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Canette</surname>
+                <given-names>LH</given-names>
+              </name>
+              <name>
+                <surname>Fiveash</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Krzonowski</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Corneyllie</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Lalitte</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Thompson</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Trainor</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Bedoin</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Tillmann</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Regular rhythmic primes boost P600 in grammatical error processing in dyslexic adults and matched controls.</article-title>
+            <source>Neuropsychologia</source>
+            <year>2020</year>
+            <month>Feb</month>
+            <day>17</day>
+            <volume>138</volume>
+            <fpage>107324</fpage>
+            <pub-id pub-id-type="pmid">31877312</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24009.r4">
+          <label>4</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Muzio</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name>
+                <surname>Cascella</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Al Khalili</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Landau-Kleffner Syndrome</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2023</year>
+            <month>7</month>
+            <day>3</day>
+            <pub-id pub-id-type="pmid">31613525</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24009.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kwon</surname>
+                <given-names>GT</given-names>
+              </name>
+              <name>
+                <surname>Kwon</surname>
+                <given-names>MS</given-names>
+              </name>
+            </person-group>
+            <article-title>Diagnostic challenge of rapidly progressing sporadic Creutzfeldt-Jakob disease.</article-title>
+            <source>BMJ Case Rep</source>
+            <year>2019</year>
+            <month>Sep</month>
+            <day>24</day>
+            <volume>12</volume>
+            <issue>9</issue>
+            <pub-id pub-id-type="pmid">31551319</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24009.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Amin</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Sullivan</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Trudeau</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Benbadis</surname>
+                <given-names>SR</given-names>
+              </name>
+            </person-group>
+            <article-title>Association Between Positive Occipital Sharp Transients of Sleep and Lambda Waves.</article-title>
+            <source>Clin EEG Neurosci</source>
+            <year>2019</year>
+            <month>May</month>
+            <volume>50</volume>
+            <issue>3</issue>
+            <fpage>219</fpage>
+            <page-range>219-221</page-range>
+            <pub-id pub-id-type="pmid">30428706</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24009.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Alvarez</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Maeder-Ingvar</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Rossetti</surname>
+                <given-names>AO</given-names>
+              </name>
+            </person-group>
+            <article-title>Watching television: a previously unrecognized powerful trigger of &#x003bb; waves.</article-title>
+            <source>J Clin Neurophysiol</source>
+            <year>2011</year>
+            <month>Aug</month>
+            <volume>28</volume>
+            <issue>4</issue>
+            <fpage>400</fpage>
+            <page-range>400-3</page-range>
+            <pub-id pub-id-type="pmid">21811131</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24009.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schiller</surname>
+                <given-names>PH</given-names>
+              </name>
+              <name>
+                <surname>Tehovnik</surname>
+                <given-names>EJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Neural mechanisms underlying target selection with saccadic eye movements.</article-title>
+            <source>Prog Brain Res</source>
+            <year>2005</year>
+            <volume>149</volume>
+            <fpage>157</fpage>
+            <page-range>157-71</page-range>
+            <pub-id pub-id-type="pmid">16226583</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24009.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Shih</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Thompson</surname>
+                <given-names>SW</given-names>
+              </name>
+            </person-group>
+            <article-title>Lambda waves: incidence and relationship to photic driving.</article-title>
+            <source>Brain Topogr</source>
+            <year>1998</year>
+            <season>Summer</season>
+            <volume>10</volume>
+            <issue>4</issue>
+            <fpage>265</fpage>
+            <page-range>265-72</page-range>
+            <pub-id pub-id-type="pmid">9672225</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-24009.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tatum</surname>
+                <given-names>WO</given-names>
+              </name>
+              <name>
+                <surname>Ly</surname>
+                <given-names>RC</given-names>
+              </name>
+              <name>
+                <surname>Sluzewska-Niedzwiedz</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Shih</surname>
+                <given-names>JJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Lambda waves and occipital generators.</article-title>
+            <source>Clin EEG Neurosci</source>
+            <year>2013</year>
+            <month>Oct</month>
+            <volume>44</volume>
+            <issue>4</issue>
+            <fpage>307</fpage>
+            <page-range>307-12</page-range>
+            <pub-id pub-id-type="pmid">23545245</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

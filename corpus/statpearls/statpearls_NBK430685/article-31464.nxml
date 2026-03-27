@@ -1,0 +1,2128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-31464" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Physiology, Zero- and First-Order Kinetics</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Denault</surname>
+            <given-names>Deanna</given-names>
+          </name>
+          <aff>MGH Institute of Health Professions</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Patel</surname>
+            <given-names>Preeti</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Ashurst</surname>
+            <given-names>John V.</given-names>
+          </name>
+          <aff>Kingman Regional Medical Center</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Deanna Denault declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Preeti Patel declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>John Ashurst declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>10</day>
+          <month>1</month>
+          <year>2026</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-31464.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>The study of drug elimination kinetics has been a cornerstone of pharmacology since the early to mid-20th century, when researchers first recognized that certain drugs do not follow proportional elimination patterns at high concentrations.<xref ref-type="bibr" rid="article-31464.r1">[1]</xref> Early experiments with alcohol, salicylates, and barbiturates demonstrated that high doses can saturate the body's elimination systems, producing nonlinear removal. For example, alcohol is metabolized primarily by hepatic alcohol dehydrogenase, which becomes saturated even at moderate blood alcohol levels, resulting in a constant elimination rate independent of plasma concentration. Similarly, salicylates follow first-order elimination at low doses but transition to zero-order kinetics at higher doses, leading to accumulation and potential toxicity.&#x000a0;These findings laid the groundwork for modern pharmacokinetics, which classifies drugs based on how their elimination rates are influenced by plasma concentration. These core principles remain essential for safely prescribing medications such as antibiotics, chemotherapeutics, anticoagulants, sedatives, and anticonvulsants.<xref ref-type="bibr" rid="article-31464.r2">[2]</xref>&#x000a0;</p>
+        <p>Among the pioneers of quantitative pharmacokinetics, Erik M P Widmark&#x000a0;provided one of the first mathematical descriptions of ethanol absorption, distribution, and elimination, demonstrating that ethanol elimination becomes capacity-limited at higher concentrations. Observations that aspirin, phenobarbital, and other barbiturates also exhibit saturable metabolism further prompted the development of predictive models for plasma concentrations and dosing. Over time, these studies evolved into frameworks describing first-, zero-, and mixed-order kinetics, enabling clinicians to anticipate drug behavior and accurately individualize therapy.<xref ref-type="bibr" rid="article-31464.r3">[3]</xref></p>
+        <p>Elimination kinetics describe how the body removes drugs over time. In first-order kinetics, the rate of elimination is proportional to plasma concentration, meaning a constant fraction of the drug is metabolized or excreted per unit time. This phenomenon produces an exponential decline in drug levels, with the half-life remaining constant regardless of dose.<xref ref-type="bibr" rid="article-31464.r4">[4]</xref> In zero-order kinetics, elimination occurs at a constant rate independent of plasma concentration, typically when metabolic or excretory pathways are saturated. In such cases, the time required to reduce plasma concentration by half depends on the starting concentration, making dosing predictions more complex. Recognizing these differences is essential in clinical decision-making, as the type of elimination kinetics influences therapeutic effectiveness, the risk of toxic accumulation, and dosing adjustments in special populations.<xref ref-type="bibr" rid="article-31464.r5">[5]</xref></p>
+        <p>For simplicity, this discussion applies a one-compartment model, treating the human body as a single homogeneous system for drug distribution and elimination.<xref ref-type="bibr" rid="article-31464.r6">[6]</xref>&#x000a0;Although most drugs follow first-order kinetics at therapeutic concentrations, some shift to zero-order kinetics at higher concentrations or under certain physiological conditions. Understanding these transitions is critical for predicting drug behavior, avoiding toxicity, and optimizing therapy.</p>
+      </sec>
+      <sec id="article-31464.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>Understanding how a substance is eliminated is critical for safe medication administration and the management of toxic exposures. In poisoning or overdose scenarios, identifying elimination kinetics&#x000a0;enables early intervention, predicts toxic accumulation, and&#x000a0;dictates&#x000a0;therapeutic options, including activated charcoal, hemodialysis, or antidote administration. For instance, in methanol ingestion, toxicity results primarily from metabolites such as formic acid. Because methanol elimination is zero-order (at higher doses), the elapsed time since ingestion, rather than the total dose ingested, determines the urgency of interventions such as ethanol or fomepizole therapy, which competitively inhibit metabolism and prevent the formation of toxic metabolites.<xref ref-type="bibr" rid="article-31464.r6">[6]</xref><xref ref-type="bibr" rid="article-31464.r7">[7]</xref></p>
+        <p>Drugs following zero-order kinetics are eliminated at a constant amount per unit time, whereas those following first-order kinetics are cleared proportionally to plasma concentration. Failure to recognize these patterns can lead to inappropriate dosing or unexpected toxicity. Phenytoin exemplifies this risk, as its saturable hepatic metabolism means that small increases in dose can result in disproportionately high plasma concentrations, potentially causing neurologic toxicity even when doses appear therapeutic. Similarly, large doses of salicylates in adults can overwhelm metabolic pathways, producing severe acid-base disturbances, hyperventilation, and neurological effects. Other substances, including ethanol, theophylline, and certain chemotherapeutic agents, also display nonlinear kinetics under specific circumstances, highlighting the importance of clinician awareness.<xref ref-type="bibr" rid="article-31464.r8">[8]</xref></p>
+        <p>Even when the ingested substance is unknown, serial plasma or blood measurements can help characterize elimination patterns. Clinicians must also consider patient-specific factors, including age, liver and kidney function, comorbid conditions, and concomitant medications, all of which can alter drug kinetics and increase the risk of adverse effects.</p>
+      </sec>
+      <sec id="article-31464.s3" sec-type="Cellular Level&#x0000d;&#x0000a;">
+        <title>Cellular Level
+</title>
+        <p>Drug elimination at the cellular level reflects the interplay between physiological capacity and enzymatic machinery. Hepatocytes, the primary liver cells, metabolize drugs through phase I and II reactions. Phase I enzymes, mainly cytochrome P450 (CYP) isoforms, introduce polar functional groups via oxidation, reduction, or hydrolysis. These reactions often follow first-order kinetics under normal concentrations, as the rate of metabolism is proportional to substrate availability. Phase II enzymes, such as UDP-glucuronyltransferases, sulfotransferases, and glutathione S-transferases, conjugate metabolites, increasing water solubility for renal excretion. When substrate concentrations exceed enzymatic capacity, the system becomes saturated, producing zero-order kinetics, in which a constant amount of drug is metabolized per unit time regardless of plasma concentration.<xref ref-type="bibr" rid="article-31464.r9">[9]</xref></p>
+        <p>In the renal tubular epithelium, drugs and metabolites are cleared through glomerular filtration, passive diffusion, and active secretion via organic anion and cation transporters. Most drugs at therapeutic levels follow first-order kinetics because transporter capacity is not exceeded: higher plasma concentrations lead to proportionally faster elimination. However, drugs dependent on saturable transporters, such as specific antivirals, aminoglycosides, and high-dose methotrexate, can transition to zero-order kinetics when transporter capacity is maximized.<xref ref-type="bibr" rid="article-31464.r10">[10]</xref></p>
+        <p>Cellular cofactors such as NADPH, UDP-glucuronic acid, and glutathione are essential for enzymatic reactions. Depletion of these cofactors can further limit metabolic capacity, effectively reducing the elimination rate. Drug-drug interactions at the cellular level, such as competitive inhibition of enzymes or transporters, can reduce clearance and shift first-order processes toward zero-order kinetics.<xref ref-type="bibr" rid="article-31464.r11">[11]</xref></p>
+        <p>Genetic variability and disease states further influence cellular elimination.<xref ref-type="bibr" rid="article-31464.r12">[12]</xref> Polymorphisms in CYP isoenzymes or renal transporters produce interindividual differences in drug clearance and susceptibility to toxicity. Pathological conditions such as hepatic fibrosis, cholestasis, or acute tubular necrosis impair cellular machinery, reducing elimination efficiency and altering expected kinetic patterns.<xref ref-type="bibr" rid="article-31464.r13">[13]</xref><xref ref-type="bibr" rid="article-31464.r14">[14]</xref></p>
+        <p>By connecting cellular function to systemic pharmacokinetics, zero- and first-order kinetics are revealed as direct outcomes of physiological capacity and enzymatic or transporter activity. Understanding these mechanisms is crucial for predicting drug behavior, optimizing dosing, and anticipating transitions between kinetic patterns. Drugs exhibiting zero-order kinetics, such as phenytoin and theophylline, require therapeutic drug monitoring (TDM) because plasma concentrations&#x000a0;are not predictable from dose alone, making TDM essential for safe dosing adjustments.<xref ref-type="bibr" rid="article-31464.r15">[15]</xref><xref ref-type="bibr" rid="article-31464.r16">[16]</xref> Routine antimicrobial TDM in critically ill patients is required, even when drugs have different kinetics, because critical illness alters drug absorption, distribution, metabolism, and elimination, leading to unpredictable plasma concentrations and increasing the risk of treatment failure or toxicity.<xref ref-type="bibr" rid="article-31464.r17">[17]</xref><xref ref-type="bibr" rid="article-31464.r16">[16]</xref><xref ref-type="bibr" rid="article-31464.r18">[18]</xref></p>
+      </sec>
+      <sec id="article-31464.s4" sec-type="Organ Systems Involved">
+        <title>Organ Systems Involved</title>
+        <p>Drug elimination relies primarily on the liver and kidneys. The liver metabolizes drugs through phase I (oxidation, reduction, hydrolysis) and phase II (conjugation with glucuronide, sulfate, or glutathione) reactions, converting lipophilic substances into water-soluble metabolites suitable for renal excretion. Saturation of these pathways can shift elimination from first- to zero-order kinetics, particularly for drugs&#x000a0;such as phenytoin or high-dose aspirin. Hepatic enzyme activity is influenced by genetic polymorphisms, medication-prompted&#x000a0;induction or inhibition, and disease states, all of which can dramatically affect elimination rates.<xref ref-type="bibr" rid="article-31464.r19">[19]</xref></p>
+        <p>In the kidneys,&#x000a0;drugs and metabolites are processed through glomerular filtration, tubular secretion, and tubular reabsorption, which together determine the extent of urinary excretion. Impaired renal function prolongs drug half-life, especially for&#x000a0;substances that are excreted unchanged, such as aminoglycosides or lithium. Other organs contribute modestly to elimination; for example, the lungs exhale volatile anesthetics, and minor amounts of other substances are excreted in sweat or saliva.<xref ref-type="bibr" rid="article-31464.r20">[20]</xref>&#x000a0;Some drugs are&#x000a0;cleared via biliary excretion into the small intestine and are subsequently&#x000a0;eliminated&#x000a0;in feces. Rifampin and ceftriaxone are notable examples that can have important clinical consequences; at high doses, ceftriaxone&#x000a0;may precipitate in the gallbladder&#x000a0;and form biliary sludge, which can cause cholecystitis or biliary colic, particularly in neonates or with prolonged therapy.<xref ref-type="bibr" rid="article-31464.r21">[21]</xref><xref ref-type="bibr" rid="article-31464.r22">[22]</xref></p>
+        <p>Overall, drug elimination is governed by the combined processes of metabolism and excretion. Enzyme activity, renal function, transporter saturation, and drug interactions determine whether a drug follows first- or zero-order kinetics.<xref ref-type="bibr" rid="article-31464.r23">[23]</xref> Clinicians must consider these organ-level contributions when predicting drug behavior, designing dosing schedules, and preventing toxicity.</p>
+      </sec>
+      <sec id="article-31464.s5" sec-type="Function">
+        <title>Function</title>
+        <p>The principal difference between zero- and first-order kinetics lies in how elimination rates are impacted&#x000a0;by plasma concentration. In zero-order kinetics, a fixed amount of drug is eliminated per unit time, producing a linear decline in plasma concentration. A helpful analogy is a fixed-size pipe draining water from a tank: no matter how much water is present, the pipe can remove only a set volume per minute. Time, not concentration, limits the rate of elimination.</p>
+        <p>In contrast, first-order kinetics involve the elimination of a constant fraction of the drug per unit of time, leading to exponential decay. This mechanism is comparable to a pipe with unlimited capacity: the more water there is in the tank, the faster it flows out;&#x000a0;here, plasma concentration is the limiting factor.</p>
+        <p>First-order elimination can transition to zero-order when metabolic or excretory systems become saturated. Drugs such as theophylline, phenytoin, and ethanol exemplify this principle. Monitoring plasma levels and adjusting dosing are essential in such cases to prevent toxicity.<xref ref-type="bibr" rid="article-31464.r24">[24]</xref><xref ref-type="bibr" rid="article-31464.r10">[10]</xref></p>
+      </sec>
+      <sec id="article-31464.s6" sec-type="Mechanism">
+        <title>Mechanism</title>
+        <p>Both zero- and first-order kinetics are derived from the same general equation&#x000a0;(see&#x000a0;<bold>Image.</bold> Zero- and First-Order Elimination and Equations). In the kinetic order elimination equation,&#x000a0;&#x00394;[drug] represents the change in plasma drug concentration over time, n represents the order of elimination (1 for first-order, 0 for zero-order), and &#x02212;Kc is a constant.</p>
+        <p>When n = 1 (first-order), the rate of change in plasma concentration is proportional to the amount of drug present, meaning the initial concentration is the rate-limiting factor. When n = 0 (zero-order), the change in plasma concentration is constant, equal to &#x02212;Kc, so the rate-limiting factor is time.</p>
+        <p>These principles are evident in the 2 graphical representations within the image. In Graph 1 (zero-order kinetics), the amount of drug eliminated over a set time is constant regardless of plasma concentration, producing a linear slope. In Graph 2 (first-order kinetics), the amount eliminated depends on the concentration, resulting in an exponential curve: higher plasma concentrations lead to greater amounts eliminated over the same period.</p>
+        <p>Mathematical modeling of these kinetics allows clinicians to calculate half-life, clearance, and dosing regimens tailored to individual patients. For drugs that transition from first- to zero-order kinetics, Michaelis-Menten kinetics can be applied to predict saturation points and optimize safe dosing.<xref ref-type="bibr" rid="article-31464.r25">[25]</xref><xref ref-type="bibr" rid="article-31464.r26">[26]</xref><xref ref-type="bibr" rid="article-31464.r27">[27]</xref></p>
+        <p>To better understand elimination kinetics, it is essential to&#x000a0;review the fundamentals of pharmacokinetics. The equations are given below.</p>
+        <p>
+<bold>Zero-Order Kinetics</bold>
+</p>
+        <p>
+<bold>Plasma concentration:</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>C = C0 &#x02212; (k0 &#x000d7; t)</p>
+          </list-item>
+        </list>
+        <p>C = concentration at time t; C0 = initial concentration; k0 = zero-order rate constant; t = time.</p>
+        <p>
+<bold>Elimination rate (dC/dt):</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>dC/dt = &#x02212;k0</p>
+          </list-item>
+        </list>
+        <p>The rate of change remains constant, regardless of plasma concentration.</p>
+        <p>
+<bold>Zero-order rate constant:</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>k0 = &#x02212;(dC/dt)</p>
+          </list-item>
+        </list>
+        <p>Units:&#x000a0;mg/L/h, mg/kg/h, or other units of amount per time (NOT reciprocal time).</p>
+        <p>
+<bold>Half-life:</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>t&#x000bd; = C0 / (2 &#x000d7; k0)</p>
+          </list-item>
+        </list>
+        <p>Half-life is variable and&#x000a0;depends on initial concentration (NOT a constant).</p>
+        <p>
+<bold>Clearance:</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>CL = k0 / C</p>
+          </list-item>
+        </list>
+        <p>Apparent clearance decreases as concentration increases (inverse relationship).</p>
+        <p>
+<bold>Steady-state (continuous infusion):</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Css = R0 / k0</p>
+          </list-item>
+        </list>
+        <p>R0 = infusion rate; exhibits a nonlinear dose-response relationship.</p>
+        <p>
+<bold>Time to complete elimination:</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>t (total) = C0 / k0</p>
+          </list-item>
+        </list>
+        <p>Time needed to eliminate all drugs from the body.</p>
+        <p>
+<bold>Michaelis-Menten equation (enzyme saturation model):</bold>
+</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>V = (Vmax &#x000d7; C) / (Km + C)</p>
+          </list-item>
+        </list>
+        <p>V = enzyme reaction velocity (rate of drug elimination)</p>
+        <p>Vmax = maximum velocity (maximum elimination capacity when the enzyme is 100% saturated)</p>
+        <p>C = substrate concentration (plasma drug concentration)</p>
+        <p>Km = Michaelis constant (Km = concentration at which V = &#x000bd; Vmax)</p>
+        <p>Most drug-metabolizing enzymes follow classic Michaelis-Menten kinetics, producing a hyperbolic curve where reaction velocity rises with substrate concentration until saturation. In some cases, enzymes exhibit sigmoidal kinetics due to allosteric inhibition, in which substrate binding at one site affects activity at other sites.</p>
+        <table-wrap id="article-31464.table0" position="float" orientation="portrait">
+          <caption>
+            <title>Table 1.&#x000a0;Relationship Between Drug Concentration and Elimination Kinetics</title>
+          </caption>
+          <table style="width: 672px; border-color: black;" border="1" cellspacing="1" cellpadding="4">
+            <tbody>
+              <tr style="height: 38.6667px;">
+                <td style="width: 150.156px; height: 38.6667px;" rowspan="1" colspan="1">
+<bold>Drug Concentration (C) versus Km</bold>
+</td>
+                <td style="width: 158.844px; height: 38.6667px;" rowspan="1" colspan="1">
+<bold>Kinetic Order</bold>
+</td>
+                <td style="width: 286px; height: 38.6667px;" rowspan="1" colspan="1">
+<bold>Characteristics</bold>
+</td>
+              </tr>
+              <tr style="height: 15px;">
+                <td style="width: 150.156px; height: 15px;" rowspan="1" colspan="1">C &#x000ab; Km</td>
+                <td style="width: 158.844px; height: 15px;" rowspan="1" colspan="1">First-order</td>
+                <td style="width: 286px; height: 15px;" rowspan="1" colspan="1">Rate &#x0221d; concentration: constant CL, constant t&#x000bd;</td>
+              </tr>
+              <tr style="height: 13px;">
+                <td style="width: 150.156px; height: 13px;" rowspan="1" colspan="1">C &#x02248; Km</td>
+                <td style="width: 158.844px; height: 13px;" rowspan="1" colspan="1">Mixed/nonlinear</td>
+                <td style="width: 286px; height: 13px;" rowspan="1" colspan="1">Increasing sensitivity to dose changes</td>
+              </tr>
+              <tr style="height: 14px;">
+                <td style="width: 150.156px; height: 14px;" rowspan="1" colspan="1">C &#x000bb; Km</td>
+                <td style="width: 158.844px; height: 14px;" rowspan="1" colspan="1">Zero-order</td>
+                <td style="width: 286px; height: 14px;" rowspan="1" colspan="1">Constant amount eliminated per time: CL &#x02193; as C &#x02191;</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <table-wrap id="article-31464.table1" position="float" orientation="portrait">
+          <caption>
+            <title>Table 2. Examples of Drugs Exhibiting Mixed-Order (Nonlinear)</title>
+          </caption>
+          <table style="width: 800px;" border="1" cellspacing="1" cellpadding="5">
+            <tbody>
+              <tr style="height: 26.6667px;">
+                <td style="width: 69px; height: 26.6667px;" rowspan="1" colspan="1">
+<bold>Drug</bold>
+</td>
+                <td style="width: 177.698px; height: 26.6667px;" rowspan="1" colspan="1">
+<bold>Km / Metabolic Characteristics</bold>
+</td>
+                <td style="width: 119.302px; height: 26.6667px;" rowspan="1" colspan="1">
+<bold>Kinetic Behavior</bold>
+</td>
+                <td style="width: 158px; height: 26.6667px;" rowspan="1" colspan="1">
+<bold>Clinical Implications</bold>
+</td>
+              </tr>
+              <tr style="height: 40px;">
+                <td style="width: 69px; height: 40px;" rowspan="1" colspan="1">Phenytoin</td>
+                <td style="width: 177.698px; height: 40px;" rowspan="1" colspan="1">Km = Concentration where metabolism is half-maximal; close to therapeutic levels, so elimination saturates easily</td>
+                <td style="width: 119.302px; height: 40px;" rowspan="1" colspan="1">First-order at low doses; zero-order near/above therapeutic levels</td>
+                <td style="width: 158px; height: 40px;" rowspan="1" colspan="1">Small dose changes &#x02192; large plasma level changes; narrow therapeutic window; toxicity risk</td>
+              </tr>
+              <tr style="height: 40px;">
+                <td style="width: 69px; height: 40px;" rowspan="1" colspan="1">Ethanol</td>
+                <td style="width: 177.698px; height: 40px;" rowspan="1" colspan="1">Km is very high, so enzyme saturation occurs at low plasma concentrations, resulting in a near-constant elimination rate</td>
+                <td style="width: 119.302px; height: 40px;" rowspan="1" colspan="1">Almost purely zero-order due to enzyme saturation at typical intake</td>
+                <td style="width: 158px; height: 40px;" rowspan="1" colspan="1">Constant elimination rate; risk of accumulation with overdose</td>
+              </tr>
+              <tr style="height: 26px;">
+                <td style="width: 69px; height: 26px;" rowspan="1" colspan="1">Theophylline</td>
+                <td style="width: 177.698px; height: 26px;" rowspan="1" colspan="1">Km is near therapeutic levels,&#x000a0;so elimination saturates at high concentrations</td>
+                <td style="width: 119.302px; height: 26px;" rowspan="1" colspan="1">First-order at low doses; zero-order at toxic levels</td>
+                <td style="width: 158px; height: 26px;" rowspan="1" colspan="1">Toxicity risk rises steeply above the therapeutic range</td>
+              </tr>
+              <tr style="height: 26px;">
+                <td style="width: 69px; height: 26px;" rowspan="1" colspan="1">Salicylates</td>
+                <td style="width: 177.698px; height: 26px;" rowspan="1" colspan="1">Km is much higher than analgesic doses, but saturates at anti-inflammatory or toxic doses</td>
+                <td style="width: 119.302px; height: 26px;" rowspan="1" colspan="1">First-order at low doses; zero-order at high/overdose levels</td>
+                <td style="width: 158px; height: 26px;" rowspan="1" colspan="1">Prolonged toxicity due to saturation of elimination pathways</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <p>As the administered dose or plasma concentration increases, drug elimination may shift from first-order to mixed-order and eventually to zero-order kinetics as metabolic enzymes or transport pathways become progressively saturated.</p>
+        <table-wrap id="article-31464.table2" position="float" orientation="portrait">
+          <caption>
+            <title>Table 3.&#x000a0;Comparison of Zero- and First-Order Pharmacokinetics</title>
+          </caption>
+          <table style="border-color: black; width: 705.694px;" border="black">
+            <tbody>
+              <tr>
+                <td style="width: 175px;" rowspan="1" colspan="1">
+<p><bold>Pharmcokinetics</bold></p>
+</td>
+                <td style="width: 178px;" rowspan="1" colspan="1">
+<p><bold>Zero-Order Kinetics</bold></p>
+</td>
+                <td style="width: 330.694px;" rowspan="1" colspan="1">
+<p><bold>First-Order Kinetics</bold></p>
+</td>
+              </tr>
+              <tr>
+                <td style="width: 175px;" rowspan="1" colspan="1">
+<p>Initial&#x000a0;concentration (Co)</p>
+</td>
+                <td style="width: 178px;" rowspan="1" colspan="1">
+<p>50 mg/L</p>
+</td>
+                <td style="width: 330.694px;" rowspan="1" colspan="1">
+<p>50 mg/L</p>
+</td>
+              </tr>
+              <tr>
+                <td style="width: 175px;" rowspan="1" colspan="1">
+<p>Rate constant</p>
+</td>
+                <td style="width: 178px;" rowspan="1" colspan="1">
+<p>k0 = 5 mg/L/h</p>
+</td>
+                <td style="width: 330.694px;" rowspan="1" colspan="1">
+<p>k1 = 0.15 (h<sup>&#x02212;1</sup>)</p>
+</td>
+              </tr>
+              <tr>
+                <td style="width: 175px;" rowspan="1" colspan="1">
+<p>Units of rate constant</p>
+</td>
+                <td style="width: 178px;" rowspan="1" colspan="1">
+<p>Amount/time (mg/L/h)</p>
+</td>
+                <td style="width: 330.694px;" rowspan="1" colspan="1">
+<p>Reciprocal time (h<sup>&#x02212;1</sup>)</p>
+</td>
+              </tr>
+              <tr>
+                <td style="width: 175px;" rowspan="1" colspan="1">
+<p>Elimination rate (at t=0)</p>
+</td>
+                <td style="width: 178px;" rowspan="1" colspan="1">
+<p>Constant: 5 mg/L/h</p>
+</td>
+                <td style="width: 330.694px;" rowspan="1" colspan="1">
+<p>dC/dt = 0.15 &#x000d7; 50 = 7.5 mg/L/h</p>
+</td>
+              </tr>
+              <tr>
+                <td style="width: 175px;" rowspan="1" colspan="1">
+<p>Elimination rate behavior</p>
+</td>
+                <td style="width: 178px;" rowspan="1" colspan="1">
+<p>Constant</p>
+<p>Independent of concentration</p>
+</td>
+                <td style="width: 330.694px;" rowspan="1" colspan="1">
+<p>Propotional to C</p>
+<p>Changes with concentration</p>
+</td>
+              </tr>
+              <tr>
+                <td style="width: 175px;" rowspan="1" colspan="1">
+<p>Half-life (t&#x000bd;)</p>
+</td>
+                <td style="width: 178px;" rowspan="1" colspan="1">
+<p>At C0 = 50: t&#x000bd; = 5 h</p>
+<p>Variable</p>
+</td>
+                <td style="width: 330.694px;" rowspan="1" colspan="1">
+<p>0.693&#x000a0;/ 0.15 = 4.6 h</p>
+<p>Constant</p>
+</td>
+              </tr>
+              <tr>
+                <td style="width: 175px;" rowspan="1" colspan="1">
+<p>Half-life</p>
+</td>
+                <td style="width: 178px;" rowspan="1" colspan="1">
+<p>Depends on initial concentration</p>
+<p>Changes with dose</p>
+</td>
+                <td style="width: 330.694px;" rowspan="1" colspan="1">
+<p>Independent of dose or C</p>
+<p>Constant 4.6 h</p>
+</td>
+              </tr>
+              <tr>
+                <td style="width: 175px;" rowspan="1" colspan="1">
+<p>Clearance at Co</p>
+</td>
+                <td style="width: 178px;" rowspan="1" colspan="1">
+<p>CL = 5&#x000a0;/ 50 = 0.1 L/h</p>
+<p>Variable</p>
+</td>
+                <td style="width: 330.694px;" rowspan="1" colspan="1">
+<p>CL = 0.15 &#x000d7; Vd</p>
+<p>CONSTANT</p>
+</td>
+              </tr>
+              <tr>
+                <td style="width: 175px;" rowspan="1" colspan="1">
+<p>Clearance behavior</p>
+</td>
+                <td style="width: 178px;" rowspan="1" colspan="1">
+<p>DECREASES as C increases</p>
+<p>Inverse relationship: CL = k0/C</p>
+</td>
+                <td style="width: 330.694px;" rowspan="1" colspan="1">
+<p>Independent of C</p>
+<p>Fixed property: CL = k1 &#x000d7; Vd</p>
+</td>
+              </tr>
+              <tr>
+                <td style="width: 175px;" rowspan="1" colspan="1">
+<p>Total elimination time</p>
+</td>
+                <td style="width: 178px;" rowspan="1" colspan="1">
+<p>50&#x000a0;/ 5 = 10 h</p>
+</td>
+                <td style="width: 330.694px;" rowspan="1" colspan="1">
+<p>Theoretically infinite. At 5 t&#x000bd; (23 h): 97% eliminated</p>
+</td>
+              </tr>
+              <tr>
+                <td style="width: 175px;" rowspan="1" colspan="1">
+<p>Curve shape</p>
+</td>
+                <td style="width: 178px;" rowspan="1" colspan="1">
+<p>Linear (straight line)</p>
+</td>
+                <td style="width: 330.694px;" rowspan="1" colspan="1">
+<p>Exponential (curved line)</p>
+</td>
+              </tr>
+              <tr>
+                <td style="width: 175px;" rowspan="1" colspan="1">
+<p>Dose-response relationship</p>
+</td>
+                <td style="width: 178px;" rowspan="1" colspan="1">
+<p>Nonlinear - disproportional</p>
+</td>
+                <td style="width: 330.694px;" rowspan="1" colspan="1">
+<p>Linear- proportional</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <p>The pharmacokinetics calculations above correspond to the&#x000a0;<bold>Image.</bold>&#x000a0;First- versus Zero-Order Kinetics. The red line indicates zero-order kinetics, whereas the blue line represents first-order kinetics. The calculations and concept are given in the table above for side-by-side comparison.</p>
+        <table-wrap id="article-31464.table3" position="float" orientation="portrait">
+          <caption>
+            <title>Table 4.&#x000a0;Rapid Overview of Zero- and First-Order Kinetics</title>
+          </caption>
+          <table style="border-color: black; float: left; width: 671px;" border="black">
+            <tbody>
+              <tr style="height: 35px;">
+                <td style="height: 35px; width: 174px;" rowspan="1" colspan="1">
+<p><bold>Pharmacokinetics</bold></p>
+</td>
+                <td style="height: 35px; width: 233.917px;" rowspan="1" colspan="1">
+<p><bold><bold>Zero-Order&#x000a0;Kinetics</bold></bold></p>
+</td>
+                <td style="height: 35px; width: 239.083px;" rowspan="1" colspan="1">
+<p><bold>First-Order Kinetics</bold></p>
+</td>
+              </tr>
+              <tr style="height: 35px;">
+                <td style="height: 35px; width: 174px;" rowspan="1" colspan="1">
+<p>Elimination rate</p>
+</td>
+                <td style="height: 35px; width: 233.917px;" rowspan="1" colspan="1">
+<p>Constant amount&#x000a0;eliminated per unit time, regardless of concentration</p>
+</td>
+                <td style="height: 35px; width: 239.083px;" rowspan="1" colspan="1">
+<p>Constant proportion&#x000a0;(or fraction) eliminated per unit time, proportional to concentration</p>
+</td>
+              </tr>
+              <tr style="height: 35px;">
+                <td style="height: 35px; width: 174px;" rowspan="1" colspan="1">
+<p>Half-life</p>
+</td>
+                <td style="height: 35px; width: 233.917px;" rowspan="1" colspan="1">
+<p>Variable (&#x02191; with C)</p>
+</td>
+                <td style="height: 35px; width: 239.083px;" rowspan="1" colspan="1">
+<p>Constant</p>
+</td>
+              </tr>
+              <tr style="height: 35px;">
+                <td style="height: 35px; width: 174px;" rowspan="1" colspan="1">
+<p>Clearance</p>
+</td>
+                <td style="height: 35px; width: 233.917px;" rowspan="1" colspan="1">
+<p>Variable (&#x02193; with C)</p>
+</td>
+                <td style="height: 35px; width: 239.083px;" rowspan="1" colspan="1">
+<p>Constant</p>
+</td>
+              </tr>
+              <tr style="height: 35px;">
+                <td style="height: 35px; width: 174px;" rowspan="1" colspan="1">
+<p>Dose-response</p>
+</td>
+                <td style="height: 35px; width: 233.917px;" rowspan="1" colspan="1">
+<p>Nonlinear</p>
+</td>
+                <td style="height: 35px; width: 239.083px;" rowspan="1" colspan="1">
+<p>Linear</p>
+</td>
+              </tr>
+              <tr style="height: 35px;">
+                <td style="height: 35px; width: 174px;" rowspan="1" colspan="1">
+<p>Therapeutic index</p>
+</td>
+                <td style="height: 35px; width: 233.917px;" rowspan="1" colspan="1">
+<p>Narrow (toxicity risk)</p>
+</td>
+                <td style="height: 35px; width: 239.083px;" rowspan="1" colspan="1">
+<p>Wider (more predictable)</p>
+</td>
+              </tr>
+              <tr style="height: 35.5555px;">
+                <td style="height: 35.5555px; width: 174px;" rowspan="1" colspan="1">
+<p>Clinical examples</p>
+</td>
+                <td style="height: 35.5555px; width: 233.917px;" rowspan="1" colspan="1">
+<p>Phenytoin, alcohol, and salicylates (at high doses)</p>
+</td>
+                <td style="height: 35.5555px; width: 239.083px;" rowspan="1" colspan="1">
+<p>Most other drugs</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+      <sec id="article-31464.s7" sec-type="Pathophysiology">
+        <title>Pathophysiology</title>
+        <p>Pathophysiological conditions can shift drug kinetics from first-order toward zero-order or mixed-order. Hepatic diseases such as cirrhosis, fibrosis, or cholestasis reduce CYP-mediated metabolism, leading to the accumulation of hepatically metabolized drugs such as phenytoin, theophylline, and acetaminophen. In these disease states, saturable enzymes can reach capacity at lower concentrations, producing zero-order kinetics.<xref ref-type="bibr" rid="article-31464.r28">[28]</xref><xref ref-type="bibr" rid="article-31464.r29">[29]</xref></p>
+        <p>Renal pathology also alters drug clearance. Acute tubular necrosis, glomerulonephritis, or chronic kidney disease can reduce filtration, secretion, or reabsorption efficiency, prolonging the half-life of renally eliminated drugs such as aminoglycosides, digoxin, and lithium. Saturation of remaining transporters may induce nonlinear elimination, thereby compounding the risk of toxicity.<xref ref-type="bibr" rid="article-31464.r30">[30]</xref></p>
+        <p>Genetic polymorphisms in CYP enzymes or renal transporters produce interindividual variability in clearance. For instance, CYP2C9 or CYP2C19 variants reduce the metabolism of certain drugs, predisposing patients to toxicity. When combined with organ impairment, these variations can shift elimination from predictable first-order kinetics to nonlinear or zero-order kinetics.</p>
+        <p>Systemic factors, such as hypoperfusion, inflammation, and sepsis, can further&#x000a0;impair hepatic metabolism and renal elimination, causing commonly first-order drugs to behave unpredictably. For this reason, frequent plasma monitoring and individualized dosing are essential in critically ill patients.<xref ref-type="bibr" rid="article-31464.r31">[31]</xref></p>
+      </sec>
+      <sec id="article-31464.s8" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Understanding elimination kinetics is vital for patient care, dosing strategies, and toxicity prevention. Most drugs follow first-order kinetics. For example, beta-lactam antibiotics exhibit predictable exponential decay, allowing clinicians to anticipate plasma concentrations and adjust doses safely. However, drugs with zero-order kinetics, such as ethanol, salicylates, phenytoin, methanol, and theophylline, can accumulate rapidly even at moderate doses. Zero-order elimination also dictates&#x000a0;therapeutic options; in methanol poisoning, early intervention depends on the elapsed time rather than the total dose.</p>
+        <p>High-dose chemotherapy protocols, such as ICE (ifosfamide, carboplatin, and etoposide), illustrate practical applications of elimination kinetics: early plasma monitoring identifies patients at risk of renal toxicity before conventional markers, such as serum creatinine, rise. Similarly, theophylline therapy requires careful monitoring to prevent underdosing or toxicity.<xref ref-type="bibr" rid="article-31464.r32">[32]</xref><xref ref-type="bibr" rid="article-31464.r33">[33]</xref><xref ref-type="bibr" rid="article-31464.r34">[34]</xref><xref ref-type="bibr" rid="article-31464.r35">[35]</xref><xref ref-type="bibr" rid="article-31464.r25">[25]</xref>&#x000a0;Digoxin also has a narrow therapeutic index, especially in renal impairment, so therapeutic drug monitoring may be required to prevent toxicity.<xref ref-type="bibr" rid="article-31464.r36">[36]</xref><xref ref-type="bibr" rid="article-31464.r37">[37]</xref><xref ref-type="bibr" rid="article-31464.r38">[38]</xref></p>
+        <p>Recognizing transitions between kinetic patterns enables individualized therapy, minimizes adverse effects, and optimizes outcomes.<xref ref-type="bibr" rid="article-31464.r39">[39]</xref><xref ref-type="bibr" rid="article-31464.r40">[40]</xref>&#x000a0;Integrating knowledge of elimination kinetics into clinical practice improves medication safety, predicts toxic accumulation, adjusts for organ impairment, and supports effective management of high-risk drugs. These principles exemplify the intersection of physiology and pharmacology in modern medicine.</p>
+      </sec>
+      <sec id="article-31464.s9">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=31464&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=31464">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/31464/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=31464">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-31464.s10">
+        <fig id="article-31464.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Zero- and First-Order Elimination and Equations. The graph depicts zero- and first-order elimination and equations.&#x000a0; Contributed by C Borowy, DO</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Zero__and__First__Order__Kinetics__Media__File" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-31464.s11">
+        <fig id="article-31464.image.f2" position="float" orientation="portrait">
+          <caption>
+            <p>First- versus Zero-Order Kinetics. The red line indicates zero-order kinetics, whereas the blue line represents first-order kinetics. The calculations and concept are given in the table above for side-by-side comparison. Contributed by P Patel,&#x000a0;PharmD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Plasma__Concentration__copy" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-31464.s12">
+        <title>References</title>
+        <ref id="article-31464.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Heath</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Colburn</surname>
+                <given-names>WA</given-names>
+              </name>
+            </person-group>
+            <article-title>An evolution of drug development and clinical pharmacology during the 20th century.</article-title>
+            <source>J Clin Pharmacol</source>
+            <year>2000</year>
+            <month>Sep</month>
+            <volume>40</volume>
+            <issue>9</issue>
+            <fpage>918</fpage>
+            <page-range>918-29</page-range>
+            <pub-id pub-id-type="pmid">10975064</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jones</surname>
+                <given-names>AW</given-names>
+              </name>
+            </person-group>
+            <article-title>Pharmacokinetics of Ethanol - Issues of Forensic Importance.</article-title>
+            <source>Forensic Sci Rev</source>
+            <year>2011</year>
+            <month>Jul</month>
+            <volume>23</volume>
+            <issue>2</issue>
+            <fpage>91</fpage>
+            <page-range>91-136</page-range>
+            <pub-id pub-id-type="pmid">26231237</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Andr&#x000e9;asson</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Jones</surname>
+                <given-names>AW</given-names>
+              </name>
+            </person-group>
+            <article-title>The life and work of Erik M. P. Widmark.</article-title>
+            <source>Am J Forensic Med Pathol</source>
+            <year>1996</year>
+            <month>Sep</month>
+            <volume>17</volume>
+            <issue>3</issue>
+            <fpage>177</fpage>
+            <page-range>177-90</page-range>
+            <pub-id pub-id-type="pmid">8870865</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Li</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Koomen</surname>
+                <given-names>JV</given-names>
+              </name>
+              <name>
+                <surname>Eleveld</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>van den Berg</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Vos</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>de Keijzer</surname>
+                <given-names>IN</given-names>
+              </name>
+              <name>
+                <surname>Struys</surname>
+                <given-names>MMRF</given-names>
+              </name>
+              <name>
+                <surname>Colin</surname>
+                <given-names>PJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Population Pharmacokinetic Modelling of Norepinephrine in Healthy Volunteers Prior to and During General Anesthesia.</article-title>
+            <source>Clin Pharmacokinet</source>
+            <year>2024</year>
+            <month>Nov</month>
+            <volume>63</volume>
+            <issue>11</issue>
+            <fpage>1597</fpage>
+            <page-range>1597-1608</page-range>
+            <pub-id pub-id-type="pmid">39465453</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Maafi</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Maafi</surname>
+                <given-names>W</given-names>
+              </name>
+            </person-group>
+            <article-title>&#x00424;-order kinetics of photoreversible-drug reactions.</article-title>
+            <source>Int J Pharm</source>
+            <year>2014</year>
+            <month>Aug</month>
+            <day>25</day>
+            <volume>471</volume>
+            <issue>1-2</issue>
+            <fpage>536</fpage>
+            <page-range>536-43</page-range>
+            <pub-id pub-id-type="pmid">24857881</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hughes</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Aronson</surname>
+                <given-names>JK</given-names>
+              </name>
+            </person-group>
+            <article-title>A systematic review and empirical analysis of the relation between dose and duration of drug action.</article-title>
+            <source>J Clin Pharmacol</source>
+            <year>2010</year>
+            <month>Jan</month>
+            <volume>50</volume>
+            <issue>1</issue>
+            <fpage>17</fpage>
+            <page-range>17-26</page-range>
+            <pub-id pub-id-type="pmid">19797537</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>McMartin</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Brent</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Analysis of Fomepizole Elimination in Methanol- and Ethylene Glycol-Poisoned Patients.</article-title>
+            <source>J Med Toxicol</source>
+            <year>2022</year>
+            <month>Jan</month>
+            <volume>18</volume>
+            <issue>1</issue>
+            <fpage>19</fpage>
+            <page-range>19-29</page-range>
+            <pub-id pub-id-type="pmid">34697779</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Liliopoulos</surname>
+                <given-names>SG</given-names>
+              </name>
+              <name>
+                <surname>Stavrakakis</surname>
+                <given-names>GS</given-names>
+              </name>
+              <name>
+                <surname>Dimas</surname>
+                <given-names>KS</given-names>
+              </name>
+            </person-group>
+            <article-title>Linear and Non-Linear Optimal Control Methods to Determine the Best Chemotherapy Schedule for Most Effectively Inhibiting Tumor Growth.</article-title>
+            <source>Biomedicines</source>
+            <year>2025</year>
+            <month>Jan</month>
+            <day>28</day>
+            <volume>13</volume>
+            <issue>2</issue>
+            <pub-id pub-id-type="pmid">40002728</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Korzekwa</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Enzyme kinetics of oxidative metabolism: cytochromes P450.</article-title>
+            <source>Methods Mol Biol</source>
+            <year>2014</year>
+            <volume>1113</volume>
+            <fpage>149</fpage>
+            <page-range>149-66</page-range>
+            <pub-id pub-id-type="pmid">24523112</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lee</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>RB</given-names>
+              </name>
+            </person-group>
+            <article-title>Transporters and renal drug elimination.</article-title>
+            <source>Annu Rev Pharmacol Toxicol</source>
+            <year>2004</year>
+            <volume>44</volume>
+            <fpage>137</fpage>
+            <page-range>137-66</page-range>
+            <pub-id pub-id-type="pmid">14744242</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>&#x00141;apczuk-Roma&#x00144;ska</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Dro&#x0017a;dzik</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Oswald</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Dro&#x0017a;dzik</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Kidney Drug Transporters in Pharmacotherapy.</article-title>
+            <source>Int J Mol Sci</source>
+            <year>2023</year>
+            <month>Feb</month>
+            <day>02</day>
+            <volume>24</volume>
+            <issue>3</issue>
+            <pub-id pub-id-type="pmid">36769175</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bousman</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Stevenson</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Ramsey</surname>
+                <given-names>LB</given-names>
+              </name>
+              <name>
+                <surname>Sangkuhl</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Hicks</surname>
+                <given-names>JK</given-names>
+              </name>
+              <name>
+                <surname>Strawn</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Singh</surname>
+                <given-names>AB</given-names>
+              </name>
+              <name>
+                <surname>Rua&#x000f1;o</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Mueller</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Tsermpini</surname>
+                <given-names>EE</given-names>
+              </name>
+              <name>
+                <surname>Brown</surname>
+                <given-names>JT</given-names>
+              </name>
+              <name>
+                <surname>Bell</surname>
+                <given-names>GC</given-names>
+              </name>
+              <name>
+                <surname>Leeder</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Gaedigk</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Scott</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Klein</surname>
+                <given-names>TE</given-names>
+              </name>
+              <name>
+                <surname>Caudle</surname>
+                <given-names>KE</given-names>
+              </name>
+              <name>
+                <surname>Bishop</surname>
+                <given-names>JR</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical Pharmacogenetics Implementation Consortium (CPIC) Guideline for CYP2D6, CYP2C19, CYP2B6, SLC6A4, and HTR2A Genotypes and Serotonin Reuptake Inhibitor Antidepressants.</article-title>
+            <source>Clin Pharmacol Ther</source>
+            <year>2023</year>
+            <month>Jul</month>
+            <volume>114</volume>
+            <issue>1</issue>
+            <fpage>51</fpage>
+            <page-range>51-68</page-range>
+            <pub-id pub-id-type="pmid">37032427</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ingelman-Sundberg</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Sim</surname>
+                <given-names>SC</given-names>
+              </name>
+              <name>
+                <surname>Gomez</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Rodriguez-Antona</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Influence of cytochrome P450 polymorphisms on drug therapies: pharmacogenetic, pharmacoepigenetic and clinical aspects.</article-title>
+            <source>Pharmacol Ther</source>
+            <year>2007</year>
+            <month>Dec</month>
+            <volume>116</volume>
+            <issue>3</issue>
+            <fpage>496</fpage>
+            <page-range>496-526</page-range>
+            <pub-id pub-id-type="pmid">18001838</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ali</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Hanna</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Alziny</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Mahmoud</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Borham</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Mustafa</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Abdelnaser</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>The impact of the exposome on cytochrome P450-mediated drug metabolism.</article-title>
+            <source>Front Pharmacol</source>
+            <year>2025</year>
+            <volume>16</volume>
+            <fpage>1639646</fpage>
+            <pub-id pub-id-type="pmid">41158125</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lin</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Huang</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Xing</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Dai</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Zheng</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>Determination of Theophylline Across Biological, Environmental and Food Matrices Using Liquid-Phase Microextraction Coupled with LC-MS/MS.</article-title>
+            <source>Molecules</source>
+            <year>2025</year>
+            <month>Sep</month>
+            <day>18</day>
+            <volume>30</volume>
+            <issue>18</issue>
+            <pub-id pub-id-type="pmid">41011689</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ried</surname>
+                <given-names>LD</given-names>
+              </name>
+              <name>
+                <surname>Horn</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>McKenna</surname>
+                <given-names>DA</given-names>
+              </name>
+            </person-group>
+            <article-title>Therapeutic drug monitoring reduces toxic drug reactions: a meta-analysis.</article-title>
+            <source>Ther Drug Monit</source>
+            <year>1990</year>
+            <month>Jan</month>
+            <volume>12</volume>
+            <issue>1</issue>
+            <fpage>72</fpage>
+            <page-range>72-8</page-range>
+            <pub-id pub-id-type="pmid">2137650</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Geremia</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Di Bella</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lovecchio</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Angelini</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>D'Avolio</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Luzzati</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Mearelli</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Principe</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Oliva</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>'Real-life' approach to applying PK/PD principles in infectious diseases clinical practice without access to prompt TDM.</article-title>
+            <source>Expert Rev Anti Infect Ther</source>
+            <year>2025</year>
+            <season>Feb-Apr</season>
+            <volume>23</volume>
+            <issue>2-4</issue>
+            <fpage>119</fpage>
+            <page-range>119-134</page-range>
+            <pub-id pub-id-type="pmid">39746901</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Galfo</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Tiseo</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Riccardi</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Falcone</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Therapeutic drug monitoring of antibiotics for methicillin-resistant Staphylococcus aureus infections: an updated narrative review for clinicians.</article-title>
+            <source>Clin Microbiol Infect</source>
+            <year>2025</year>
+            <month>Feb</month>
+            <volume>31</volume>
+            <issue>2</issue>
+            <fpage>194</fpage>
+            <page-range>194-200</page-range>
+            <pub-id pub-id-type="pmid">39209264</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sheng</surname>
+                <given-names>YJ</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>He</surname>
+                <given-names>HY</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Zou</surname>
+                <given-names>YS</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Zhong</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Huang</surname>
+                <given-names>YM</given-names>
+              </name>
+              <name>
+                <surname>Deng</surname>
+                <given-names>CL</given-names>
+              </name>
+            </person-group>
+            <article-title>The association between CYP2E1 polymorphisms and hepatotoxicity due to anti-tuberculosis drugs: a meta-analysis.</article-title>
+            <source>Infect Genet Evol</source>
+            <year>2014</year>
+            <month>Jun</month>
+            <volume>24</volume>
+            <fpage>34</fpage>
+            <page-range>34-40</page-range>
+            <pub-id pub-id-type="pmid">24607341</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schaefer</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Piper</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Geyer</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Schneemann</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Neukirchen</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Thevis</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kienbaum</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Xenon elimination kinetics following brief exposure.</article-title>
+            <source>Drug Test Anal</source>
+            <year>2017</year>
+            <month>May</month>
+            <volume>9</volume>
+            <issue>5</issue>
+            <fpage>666</fpage>
+            <page-range>666-670</page-range>
+            <pub-id pub-id-type="pmid">27341380</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bilal</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ullah</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Jaehde</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Trueck</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Zaremba</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Wachall</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Wargenau</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Scheidel</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Wiesen</surname>
+                <given-names>MHJ</given-names>
+              </name>
+              <name>
+                <surname>Gazzaz</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>B&#x000fc;sker</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Fuhr</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Taubert</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Dokos</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Assessment of body mass-related covariates for rifampicin pharmacokinetics in healthy Caucasian volunteers.</article-title>
+            <source>Eur J Clin Pharmacol</source>
+            <year>2024</year>
+            <month>Sep</month>
+            <volume>80</volume>
+            <issue>9</issue>
+            <fpage>1271</fpage>
+            <page-range>1271-1283</page-range>
+            <pub-id pub-id-type="pmid">38722350</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yaseen</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Alam</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Zawiah</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Suleiman</surname>
+                <given-names>AK</given-names>
+              </name>
+              <name>
+                <surname>Khan</surname>
+                <given-names>AH</given-names>
+              </name>
+            </person-group>
+            <article-title>Ceftriaxone-induced cholelithiasis in pediatrics: pooled frequency, symptoms, and associated factors - systematic review and meta-analysis.</article-title>
+            <source>Ital J Pediatr</source>
+            <year>2025</year>
+            <month>Oct</month>
+            <day>10</day>
+            <volume>51</volume>
+            <issue>1</issue>
+            <fpage>284</fpage>
+            <pub-id pub-id-type="pmid">41074174</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Shahzad</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Alasmari</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Zamir</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Rasool</surname>
+                <given-names>MF</given-names>
+              </name>
+              <name>
+                <surname>Alqahtani</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical pharmacokinetics of metronidazole: a systematic review and meta-analysis.</article-title>
+            <source>Antimicrob Agents Chemother</source>
+            <year>2025</year>
+            <month>Sep</month>
+            <day>03</day>
+            <volume>69</volume>
+            <issue>9</issue>
+            <fpage>e0190424</fpage>
+            <pub-id pub-id-type="pmid">40741956</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pedersen</surname>
+                <given-names>MG</given-names>
+              </name>
+              <name>
+                <surname>Bersani</surname>
+                <given-names>AM</given-names>
+              </name>
+            </person-group>
+            <article-title>Introducing total substrates simplifies theoretical analysis at non-negligible enzyme concentrations: pseudo first-order kinetics and the loss of zero-order ultrasensitivity.</article-title>
+            <source>J Math Biol</source>
+            <year>2010</year>
+            <month>Feb</month>
+            <volume>60</volume>
+            <issue>2</issue>
+            <fpage>267</fpage>
+            <page-range>267-83</page-range>
+            <pub-id pub-id-type="pmid">19333602</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lakota</surname>
+                <given-names>EA</given-names>
+              </name>
+              <name>
+                <surname>Ong</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Flanagan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Rubino</surname>
+                <given-names>CM</given-names>
+              </name>
+            </person-group>
+            <article-title>Population Pharmacokinetic Analyses for Rezafungin (CD101) Efficacy Using Phase 1 Data.</article-title>
+            <source>Antimicrob Agents Chemother</source>
+            <year>2018</year>
+            <month>Jun</month>
+            <volume>62</volume>
+            <issue>6</issue>
+            <pub-id pub-id-type="pmid">29555631</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wang</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Huang</surname>
+                <given-names>ZX</given-names>
+              </name>
+              <name>
+                <surname>Miao</surname>
+                <given-names>HF</given-names>
+              </name>
+              <name>
+                <surname>Ruan</surname>
+                <given-names>WQ</given-names>
+              </name>
+              <name>
+                <surname>Ji</surname>
+                <given-names>XP</given-names>
+              </name>
+              <name>
+                <surname>Sun</surname>
+                <given-names>FB</given-names>
+              </name>
+              <name>
+                <surname>Zhao</surname>
+                <given-names>MX</given-names>
+              </name>
+              <name>
+                <surname>Ren</surname>
+                <given-names>HY</given-names>
+              </name>
+            </person-group>
+            <article-title>Insights into influencing factor, degradation mechanism and potential toxicity involved in aqueous ozonation of oxcarbazepine (CHEM46939R1).</article-title>
+            <source>Chemosphere</source>
+            <year>2018</year>
+            <month>Jun</month>
+            <volume>201</volume>
+            <fpage>189</fpage>
+            <page-range>189-196</page-range>
+            <pub-id pub-id-type="pmid">29524819</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pippenger</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name>
+                <surname>Lesser</surname>
+                <given-names>RP</given-names>
+              </name>
+            </person-group>
+            <article-title>An overview of therapeutic drug monitoring principles.</article-title>
+            <source>Cleve Clin Q</source>
+            <year>1984</year>
+            <season>Summer</season>
+            <volume>51</volume>
+            <issue>2</issue>
+            <fpage>241</fpage>
+            <page-range>241-54</page-range>
+            <pub-id pub-id-type="pmid">6467587</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Morgan</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Smallwood</surname>
+                <given-names>RA</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical significance of pharmacokinetic models of hepatic elimination.</article-title>
+            <source>Clin Pharmacokinet</source>
+            <year>1990</year>
+            <month>Jan</month>
+            <volume>18</volume>
+            <issue>1</issue>
+            <fpage>61</fpage>
+            <page-range>61-76</page-range>
+            <pub-id pub-id-type="pmid">2178850</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sahre</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Guinn</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Ramamoorthy</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Mehta</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Seo</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Mehta</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gobburu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Madabushi</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Assessing Pharmacokinetics in Liver Disease: Challenges and Future Considerations for Classification of Hepatic Dysfunction and Use of In Silico Methods.</article-title>
+            <source>J Clin Pharmacol</source>
+            <year>2023</year>
+            <month>Jul</month>
+            <volume>63</volume>
+            <issue>7</issue>
+            <fpage>755</fpage>
+            <page-range>755-758</page-range>
+            <pub-id pub-id-type="pmid">36905192</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dreisbach</surname>
+                <given-names>AW</given-names>
+              </name>
+              <name>
+                <surname>Lertora</surname>
+                <given-names>JJ</given-names>
+              </name>
+            </person-group>
+            <article-title>The effect of chronic renal failure on drug metabolism and transport.</article-title>
+            <source>Expert Opin Drug Metab Toxicol</source>
+            <year>2008</year>
+            <month>Aug</month>
+            <volume>4</volume>
+            <issue>8</issue>
+            <fpage>1065</fpage>
+            <page-range>1065-74</page-range>
+            <pub-id pub-id-type="pmid">18680441</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Charlton</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Thompson</surname>
+                <given-names>JP</given-names>
+              </name>
+            </person-group>
+            <article-title>Pharmacokinetics in sepsis.</article-title>
+            <source>BJA Educ</source>
+            <year>2019</year>
+            <month>Jan</month>
+            <volume>19</volume>
+            <issue>1</issue>
+            <fpage>7</fpage>
+            <page-range>7-13</page-range>
+            <pub-id pub-id-type="pmid">33456848</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Holt</surname>
+                <given-names>NR</given-names>
+              </name>
+              <name>
+                <surname>Nickson</surname>
+                <given-names>CP</given-names>
+              </name>
+            </person-group>
+            <article-title>Severe methanol poisoning with neurological sequelae: implications for diagnosis and management.</article-title>
+            <source>Intern Med J</source>
+            <year>2018</year>
+            <month>Mar</month>
+            <volume>48</volume>
+            <issue>3</issue>
+            <fpage>335</fpage>
+            <page-range>335-339</page-range>
+            <pub-id pub-id-type="pmid">29512320</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>McMartin</surname>
+                <given-names>KE</given-names>
+              </name>
+              <name>
+                <surname>Sebastian</surname>
+                <given-names>CS</given-names>
+              </name>
+              <name>
+                <surname>Dies</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Jacobsen</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Kinetics and metabolism of fomepizole in healthy humans.</article-title>
+            <source>Clin Toxicol (Phila)</source>
+            <year>2012</year>
+            <month>Jun</month>
+            <volume>50</volume>
+            <issue>5</issue>
+            <fpage>375</fpage>
+            <page-range>375-83</page-range>
+            <pub-id pub-id-type="pmid">22554311</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Butts</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Secrest</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Berger</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Nonlinear theophylline pharmacokinetics. A preventable cause of iatrogenic theophylline toxic reactions.</article-title>
+            <source>Arch Intern Med</source>
+            <year>1991</year>
+            <month>Oct</month>
+            <volume>151</volume>
+            <issue>10</issue>
+            <fpage>2073</fpage>
+            <page-range>2073-7</page-range>
+            <pub-id pub-id-type="pmid">1929697</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wright</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>Elias</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Tretyakov</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Holden</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Andersen</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Wheeler</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Schwartz</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Antman</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Rosowsky</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Frel</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>High-dose ifosfamide, carboplatin, and etoposide pharmacokinetics: correlation of plasma drug levels with renal toxicity.</article-title>
+            <source>Cancer Chemother Pharmacol</source>
+            <year>1995</year>
+            <volume>36</volume>
+            <issue>4</issue>
+            <fpage>345</fpage>
+            <page-range>345-51</page-range>
+            <pub-id pub-id-type="pmid">7628055</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Larsson</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Hamberg</surname>
+                <given-names>AK</given-names>
+              </name>
+              <name>
+                <surname>Cedernaes</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Hallberg</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Karlqvist</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Karlsson</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>New Monitoring Recommendations for Digoxin During the Last Decade Are Associated With Decreased Serum Digoxin Concentrations in Patient Samples.</article-title>
+            <source>Basic Clin Pharmacol Toxicol</source>
+            <year>2025</year>
+            <month>Aug</month>
+            <volume>137</volume>
+            <issue>2</issue>
+            <fpage>e70083</fpage>
+            <pub-id pub-id-type="pmid">40662290</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bavendiek</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Gro&#x000df;hennig</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Schwab</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Berliner</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Rieth</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Maier</surname>
+                <given-names>LS</given-names>
+              </name>
+              <name>
+                <surname>Gaspar</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Thomas</surname>
+                <given-names>NH</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Schallhorn</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Angelini</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Soltani</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Rathje</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Sandu</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Geller</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Hambrecht</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Zdravkovic</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Philipp</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Kosevic</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Nickenig</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Scheiber</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Winkler</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Becher</surname>
+                <given-names>PM</given-names>
+              </name>
+              <name>
+                <surname>Lurz</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>H&#x000fc;lsmann</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Wiesner</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Schr&#x000f6;der</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Neuhaus</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Seltmann</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>von der Leyen</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Veltmann</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>St&#x000f6;rk</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>B&#x000f6;hm</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Koch</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Bauersachs</surname>
+                <given-names>J</given-names>
+              </name>
+              <collab>DIGIT-HF Study Group</collab>
+            </person-group>
+            <article-title>Digitoxin in Patients with Heart Failure and Reduced Ejection Fraction.</article-title>
+            <source>N Engl J Med</source>
+            <year>2025</year>
+            <month>Sep</month>
+            <day>25</day>
+            <volume>393</volume>
+            <issue>12</issue>
+            <fpage>1155</fpage>
+            <page-range>1155-1165</page-range>
+            <pub-id pub-id-type="pmid">40879434</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gazzaniga</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Menichelli</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Scaglione</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Farcomeni</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Pani</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Pastori</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Effect of digoxin on all-cause and cardiovascular mortality in patients with atrial fibrillation with and without heart failure: an umbrella review of systematic reviews and 12 meta-analyses.</article-title>
+            <source>Eur J Clin Pharmacol</source>
+            <year>2023</year>
+            <month>Apr</month>
+            <volume>79</volume>
+            <issue>4</issue>
+            <fpage>473</fpage>
+            <page-range>473-483</page-range>
+            <pub-id pub-id-type="pmid">36872367</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Iisalo</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical pharmacokinetics of digoxin.</article-title>
+            <source>Clin Pharmacokinet</source>
+            <year>1977</year>
+            <season>Jan-Feb</season>
+            <volume>2</volume>
+            <issue>1</issue>
+            <fpage>1</fpage>
+            <page-range>1-16</page-range>
+            <pub-id pub-id-type="pmid">322907</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-31464.r40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Veiga</surname>
+                <given-names>RP</given-names>
+              </name>
+              <name>
+                <surname>Paiva</surname>
+                <given-names>JA</given-names>
+              </name>
+            </person-group>
+            <article-title>Pharmacokinetics-pharmacodynamics issues relevant for the clinical use of beta-lactam antibiotics in critically ill patients.</article-title>
+            <source>Crit Care</source>
+            <year>2018</year>
+            <month>Sep</month>
+            <day>24</day>
+            <volume>22</volume>
+            <issue>1</issue>
+            <fpage>233</fpage>
+            <pub-id pub-id-type="pmid">30244674</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

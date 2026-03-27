@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-20964" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Electric Potential and Capacitance</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Tenny</surname>
+            <given-names>Kevin M.</given-names>
+          </name>
+          <aff>The Massachusetts Institute of Technology</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Hanna</surname>
+            <given-names>Andrew</given-names>
+          </name>
+          <aff>UCLA</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Kevin Tenny declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Andrew Hanna declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>6</day>
+          <month>5</month>
+          <year>2024</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-20964.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">
+<bold>The Concept of Charge</bold>
+</p>
+        <p>Electric potential and capacitance originate from the concept of charge. The charge&#x000a0;is determined by comparing the number of protons and electrons present in a material.&#x000a0;A net positive charge indicates more protons than electrons. Conversely, a net negative charge denotes more electrons than protons. An equal number of protons and electrons indicates a neutral charge. Materials with charge also exhibit electrical forces&#x02014;opposite charges attract (for example, positive and negative) and similar charges repel (for example, positive and positive or negative and negative). The unit of measurement for the charge is a coulomb (C). Protons and electrons have a charge of +1 or +1.602&#x000d7;10<sup>&#x02212;19</sup>&#x000a0;coulombs and &#x02212;1 or &#x02212;1.602&#x000d7;10<sup>&#x02212;19</sup>&#x000a0;coulombs, respectively. These charge values are considered the elementary charge because the accumulation of microscopic electrons and protons determines the macroscopic charge of the material. This concept is pertinent when considering polymers comprised of several materials whose compositions are studied under an electric field.<xref ref-type="bibr" rid="article-20964.r1">[1]</xref><xref ref-type="bibr" rid="article-20964.r2">[2]</xref></p>
+        <p>
+<bold>Electric Potential: The Ability to Work on Charge</bold>
+</p>
+        <p>The work done on moving charges is the electric potential. As the name suggests, electric potential measures the change in the potential energy of a specific charge. The unit for electric potential&#x000a0;is joules per coulomb (J/C), which measures the amount of work per charge. The J/C unit is commonly called a volt (V) and is the ubiquitous unit for electric potential. The concept of electric potential is often compared to that of gravitational potential energy. The higher an object is from the ground, the more gravitational potential energy it has. Similarly, the farther an object is from a charge, the more the electric potential is available. The electric potential from a specific charge is known as a point charge and can be measured explicitly.</p>
+        <p>The equation to determine the electric potential from a specific point charge is: <italic toggle="yes">V</italic>=<italic toggle="yes">&#x003ba;</italic>&#x000b7;<italic toggle="yes">q</italic>/(<italic toggle="yes">r</italic>&#x000b7;<italic toggle="yes">r</italic>)</p>
+        <p>where <italic toggle="yes">V</italic> is the electric potential (V); <italic toggle="yes">&#x003ba;</italic> is a constant measuring the inverse of the free space permittivity,&#x000a0;often denoted as 8.99 E 9 N (m&#x000b7;m)/(C&#x000b7;C); <italic toggle="yes">q</italic> is the charge of the point (C); and <italic toggle="yes">r</italic> is the distance from the point charge (m), which is squared. Dimensional analysis is often required to ensure that all the units used in the equation are consistent. The electric potential is inversely related to the square of the distance from the point charge, suggesting that the farther an object is from the point charge, the more quickly the electric potential decays. In addition, if the electric potential is measured at various points around the object, a curve can be generated around the object where each point has the same potential. If&#x000a0;2 objects containing charges are placed next to each other, the attractive or repulsive force is present. This phenomenon is commonly represented by lines originating from the positively charged source with an arrow pointing to and terminating at the negatively charged source to denote the movement of charge.<xref ref-type="bibr" rid="article-20964.r3">[3]</xref></p>
+        <p>
+<bold>Capacitance: The Ability to Store Charge</bold>
+</p>
+        <p>Although&#x000a0;electric potential measures the ability to perform work on a charge, capacitance measures the ability to store charge. The unit of measurement for capacitance is coulomb per voltage (C/V), representing the amount of charge present per voltage applied. The farad (F) is the standard unit for capacitance commonly used instead of C/V. A capacitor is used to hold capacitance and is created when&#x000a0;2 plates are parallel, with each end connected to opposite charge sources. Each charge fills&#x000a0;1 of the parallel plates, generating an electric field between the 2 plates. The capacitor can then discharge the charges between the&#x000a0;2 plates when connected.</p>
+        <p>The equation to determine the capacitance is:&#x000a0;<italic toggle="yes">C</italic>=(<italic toggle="yes">&#x003ba;&#x000b7;&#x003b5;<sub>0</sub>&#x000b7;A</italic>)/<italic toggle="yes">d</italic></p>
+        <p>where<bold>&#x000a0;</bold><italic toggle="yes">C</italic> is the capacitance (F), &#x003b5;<sub>0</sub> is the permittivity of free space (8.85 E &#x02212;12 F/m), <italic toggle="yes">&#x003ba;</italic> is the relative permittivity of the dielectric material between the plates, <italic toggle="yes">A</italic> is the geometric area of both plates (m&#x000b7;m), and <italic toggle="yes">d</italic> is the distance between the&#x000a0;2 plates (m). The capacitance is inversely proportional to the distance; therefore, the greater the separation between the&#x000a0;2 plates, the smaller the capacitance available. In addition, the &#x003ba;-value is determined by the material between the parallel plates and is directly proportional to the capacitance; consequently, most capacitors have a solid material to improve capacitance.<xref ref-type="bibr" rid="article-20964.r4">[4]</xref><xref ref-type="bibr" rid="article-20964.r5">[5]</xref><xref ref-type="bibr" rid="article-20964.r6">[6]</xref></p>
+      </sec>
+      <sec id="article-20964.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>These principles enable the design process when considering electrical potential and capacitance theories. However, several issues arise in the trial and error of selecting materials that adhere to theory and in reproducing the results, which are rooted in current research.</p>
+        <p>
+<bold>From Theory to&#x000a0;Application</bold>
+</p>
+        <p>Electric potential and capacitance have many applications in power generation and energy storage. Every electrical appliance relies on the charge, electric potential, and capacitance function effectively. In a study by Roy et al, aspects of electric potential and capacitance were investigated concerning photogenerated electrical energy to enhance energy storage devices. In this work, Roy et al studied the capacitance of storage cells because capacitors are temporary batteries that hold a charge. However, capacitance is just one aspect of circuitry required to create effective electrical devices. Other aspects, such as current and resistance,&#x000a0;are also integral for continuous electrical circuitry.&#x000a0;Understanding a system's electric potential can create novel materials. Electrochemical engineering heavily relies on the accuracy of electric potential in fuel cells and batteries to maintain power distribution. By harnessing&#x000a0;electric potential, for example, polymerization leads to discoveries such as bone regeneration or polymer interfaces to manufacture novel devices.<xref ref-type="bibr" rid="article-20964.r7">[7]</xref><xref ref-type="bibr" rid="article-20964.r8">[8]</xref><xref ref-type="bibr" rid="article-20964.r9">[9]</xref><xref ref-type="bibr" rid="article-20964.r10">[10]</xref></p>
+        <p>
+<bold>From Application to Reproduction</bold>
+</p>
+        <p>The main concern with electric potential is&#x000a0;the rigor with multiple-point charges. The electric potential can be a hindrance in many electrochemical-based studies. For example, water electrolysis occurs at 1.23 V, meaning that if more than 1.23 V is applied to a water system, the water molecules split into hydrogen and oxygen. Other molecules have voltage thresholds that must be considered when applying a voltage to a system. Another critical concern involves selecting the proper material for a capacitor.&#x000a0;If a material exhibits excessive capacitance, it can lead to the destruction of the electrical application upon discharge.&#x000a0;Conversely, insufficient capacitance renders the application ineffective. If the material is not sustainable, the capacitors may discharge, impacting economic value.&#x000a0;When considering biocompatibility, these challenges represent any human-machine interface, such as irritation to human skin, resistance to environmental fluctuations, and durability to bodily secretions.<xref ref-type="bibr" rid="article-20964.r11">[11]</xref><xref ref-type="bibr" rid="article-20964.r12">[12]</xref><xref ref-type="bibr" rid="article-20964.r13">[13]</xref></p>
+      </sec>
+      <sec id="article-20964.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>
+<bold>Biological Applications</bold>
+</p>
+        <p>Electric potential is found in the human brain, where human neurons have an average voltage of 70 mV. Capacitance is found biologically in the plasma&#x000a0;membrane and differentiates multiple stem cell lineages, measured by electrophoresis. In electrochemistry, a similar environment is described as an electric double layer, where ions group together based on the internal and external net charges. Based on biophysics, the electrical potential energy facilitates work within the human body.<xref ref-type="bibr" rid="article-20964.r6">[6]</xref><xref ref-type="bibr" rid="article-20964.r14">[14]</xref><xref ref-type="bibr" rid="article-20964.r15">[15]</xref></p>
+        <p>
+<bold>Technological Applications</bold>
+</p>
+        <p>A few technological applications<bold>&#x000a0;</bold>are highlighted below.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Electrical biosensors: These sensors are employed to detect biomarkers&#x000a0;in bodily fluids using techniques such as capacitive sensing.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Defibrillators:&#x000a0;Capacitors within defibrillators are temporary batteries capable of discharging rapidly compared to regular batteries, which is imperative when a patient undergoes cardiac arrest.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Electrorheological suspensions: This insulating fluid contains electroresponsive particles. These particles&#x000a0;find&#x000a0;wide applications in devices such as dampers, shock absorbers, and tactile displays, exhibited by several&#x000a0;polymers under study.</p>
+          </list-item>
+        </list>
+        <list list-type="bullet">
+          <list-item>
+            <p>Supercapacitors: These devices provide high-fidelity energy storage currently utilized in electronic wearables.<xref ref-type="bibr" rid="article-20964.r4">[4]</xref><xref ref-type="bibr" rid="article-20964.r9">[9]</xref><xref ref-type="bibr" rid="article-20964.r13">[13]</xref><xref ref-type="bibr" rid="article-20964.r16">[16]</xref></p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-20964.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>Healthcare professionals often encounter devices that operate based on electrical potential, ranging from diagnostic equipment to therapeutic tools. While the direct application of capacitance might not always seem pertinent to their daily clinical routines, understanding the relationship between electrical potential and capacitance is essential. This familiarity contributes significantly to ensuring electrical safety in medical settings. Moreover, grasping these concepts enables healthcare professionals to connect principles of electric potential and capacitance with fundamental physiological processes, thus enhancing their comprehension of clinical medicine.</p>
+        <p>Innovations in biotechnology are continuously shaping the landscape of modern healthcare, and clinicians involved in such advancements must possess a solid understanding of electrical principles. Whether they are designing new medical devices or exploring novel treatment modalities, knowledge of electric potential and capacitance provides a valuable foundation. Additionally, healthcare professionals engaged in research benefit greatly from these concepts.</p>
+        <p>Further research is imperative to explore the full potential of electric potential and capacitance in diagnostic and therapeutic applications. Currently, promising areas of study include the utilization of these concepts in urinalysis and hemodialysis. By expanding our understanding and leveraging these principles effectively,&#x000a0;clinicians&#x000a0;can unlock innovative approaches to diagnosis and treatment, ultimately improving patient care and outcomes in clinical practice.<xref ref-type="bibr" rid="article-20964.r17">[17]</xref><xref ref-type="bibr" rid="article-20964.r18">[18]</xref></p>
+      </sec>
+      <sec id="article-20964.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=20964&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=20964">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/20964/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=20964">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-20964.s6">
+        <title>References</title>
+        <ref id="article-20964.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Balzer</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>ZG</given-names>
+              </name>
+            </person-group>
+            <article-title>Electroresponse of weak polyelectrolyte brushes.</article-title>
+            <source>Eur Phys J E Soft Matter</source>
+            <year>2023</year>
+            <month>Sep</month>
+            <day>14</day>
+            <volume>46</volume>
+            <issue>9</issue>
+            <fpage>82</fpage>
+            <pub-id pub-id-type="pmid">37707751</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20964.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gallegos</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Ong</surname>
+                <given-names>GMC</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Ising density functional theory for weak polyelectrolytes with strong coupling of ionization and intrachain correlations.</article-title>
+            <source>J Chem Phys</source>
+            <year>2021</year>
+            <month>Dec</month>
+            <day>28</day>
+            <volume>155</volume>
+            <issue>24</issue>
+            <fpage>241102</fpage>
+            <pub-id pub-id-type="pmid">34972389</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20964.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Komorek</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Jachimska</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Brand</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <article-title>Adsorption of lysozyme on gold surfaces in the presence of an external electric potential.</article-title>
+            <source>Bioelectrochemistry</source>
+            <year>2021</year>
+            <month>Dec</month>
+            <volume>142</volume>
+            <fpage>107946</fpage>
+            <pub-id pub-id-type="pmid">34507162</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20964.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lu</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Han</surname>
+                <given-names>WJ</given-names>
+              </name>
+              <name>
+                <surname>Choi</surname>
+                <given-names>HJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Smart and Functional Conducting Polymers: Application to Electrorheological Fluids.</article-title>
+            <source>Molecules</source>
+            <year>2018</year>
+            <month>Nov</month>
+            <day>02</day>
+            <volume>23</volume>
+            <issue>11</issue>
+            <pub-id pub-id-type="pmid">30400169</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20964.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dubal</surname>
+                <given-names>DP</given-names>
+              </name>
+              <name>
+                <surname>Chodankar</surname>
+                <given-names>NR</given-names>
+              </name>
+              <name>
+                <surname>Kim</surname>
+                <given-names>DH</given-names>
+              </name>
+              <name>
+                <surname>Gomez-Romero</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Towards flexible solid-state supercapacitors for smart and wearable electronics.</article-title>
+            <source>Chem Soc Rev</source>
+            <year>2018</year>
+            <month>Mar</month>
+            <day>21</day>
+            <volume>47</volume>
+            <issue>6</issue>
+            <fpage>2065</fpage>
+            <page-range>2065-2129</page-range>
+            <pub-id pub-id-type="pmid">29399689</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20964.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Adams</surname>
+                <given-names>TNG</given-names>
+              </name>
+              <name>
+                <surname>Jiang</surname>
+                <given-names>AYL</given-names>
+              </name>
+              <name>
+                <surname>Vyas</surname>
+                <given-names>PD</given-names>
+              </name>
+              <name>
+                <surname>Flanagan</surname>
+                <given-names>LA</given-names>
+              </name>
+            </person-group>
+            <article-title>Separation of neural stem cells by whole cell membrane capacitance using dielectrophoresis.</article-title>
+            <source>Methods</source>
+            <year>2018</year>
+            <month>Jan</month>
+            <day>15</day>
+            <volume>133</volume>
+            <fpage>91</fpage>
+            <page-range>91-103</page-range>
+            <pub-id pub-id-type="pmid">28864355</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20964.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ike</surname>
+                <given-names>IS</given-names>
+              </name>
+              <name>
+                <surname>Sigalas</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Iyuke</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Understanding performance limitation and suppression of leakage current or self-discharge in electrochemical capacitors: a review.</article-title>
+            <source>Phys Chem Chem Phys</source>
+            <year>2016</year>
+            <month>Jan</month>
+            <day>14</day>
+            <volume>18</volume>
+            <issue>2</issue>
+            <fpage>661</fpage>
+            <page-range>661-80</page-range>
+            <pub-id pub-id-type="pmid">26659405</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20964.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kim</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Leverage</surname>
+                <given-names>WT</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>White</surname>
+                <given-names>IM</given-names>
+              </name>
+              <name>
+                <surname>Bentley</surname>
+                <given-names>WE</given-names>
+              </name>
+              <name>
+                <surname>Payne</surname>
+                <given-names>GF</given-names>
+              </name>
+            </person-group>
+            <article-title>Redox-capacitor to connect electrochemistry to redox-biology.</article-title>
+            <source>Analyst</source>
+            <year>2014</year>
+            <month>Jan</month>
+            <day>07</day>
+            <volume>139</volume>
+            <issue>1</issue>
+            <fpage>32</fpage>
+            <page-range>32-43</page-range>
+            <pub-id pub-id-type="pmid">24175311</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20964.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tsouti</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Boutopoulos</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Zergioti</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Chatzandroulis</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Capacitive microsystems for biological sensing.</article-title>
+            <source>Biosens Bioelectron</source>
+            <year>2011</year>
+            <month>Sep</month>
+            <day>15</day>
+            <volume>27</volume>
+            <issue>1</issue>
+            <fpage>1</fpage>
+            <page-range>1-11</page-range>
+            <pub-id pub-id-type="pmid">21752630</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20964.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Demir</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Searles</surname>
+                <given-names>DJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Investigation of the Ionic Liquid Graphene Electric Double Layer in Supercapacitors Using Constant Potential Simulations.</article-title>
+            <source>Nanomaterials (Basel)</source>
+            <year>2020</year>
+            <month>Nov</month>
+            <day>01</day>
+            <volume>10</volume>
+            <issue>11</issue>
+            <pub-id pub-id-type="pmid">33139670</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20964.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jesudason</surname>
+                <given-names>CG</given-names>
+              </name>
+            </person-group>
+            <article-title>Broad considerations concerning electrochemical electrodes in primarily fluid environments.</article-title>
+            <source>Int J Mol Sci</source>
+            <year>2009</year>
+            <month>May</month>
+            <day>18</day>
+            <volume>10</volume>
+            <issue>5</issue>
+            <fpage>2203</fpage>
+            <page-range>2203-2251</page-range>
+            <pub-id pub-id-type="pmid">19564949</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20964.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gajewski</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>B&#x000e9;guin</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Hydrogel-Polymer Electrolyte for Electrochemical Capacitors with High Volumetric Energy and Life Span.</article-title>
+            <source>ChemSusChem</source>
+            <year>2020</year>
+            <month>Apr</month>
+            <day>07</day>
+            <volume>13</volume>
+            <issue>7</issue>
+            <fpage>1876</fpage>
+            <page-range>1876-1881</page-range>
+            <pub-id pub-id-type="pmid">31999882</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20964.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gao</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Song</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Zhao</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Lu</surname>
+                <given-names>Q</given-names>
+              </name>
+            </person-group>
+            <article-title>Electric Double Layer Based Epidermal Electronics for Healthcare and Human-Machine Interface.</article-title>
+            <source>Biosensors (Basel)</source>
+            <year>2023</year>
+            <month>Aug</month>
+            <day>03</day>
+            <volume>13</volume>
+            <issue>8</issue>
+            <pub-id pub-id-type="pmid">37622873</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20964.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Khairalla</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Brand</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <article-title>Membrane Potentials Trigger Molecular-Scale Rearrangements in the Outer Membrane of Gram-Negative Bacteria.</article-title>
+            <source>Langmuir</source>
+            <year>2022</year>
+            <month>Jan</month>
+            <day>11</day>
+            <volume>38</volume>
+            <issue>1</issue>
+            <fpage>446</fpage>
+            <page-range>446-457</page-range>
+            <pub-id pub-id-type="pmid">34963050</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20964.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wu</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Understanding the Electric Double-Layer Structure, Capacitance, and Charging Dynamics.</article-title>
+            <source>Chem Rev</source>
+            <year>2022</year>
+            <month>Jun</month>
+            <day>22</day>
+            <volume>122</volume>
+            <issue>12</issue>
+            <fpage>10821</fpage>
+            <page-range>10821-10859</page-range>
+            <pub-id pub-id-type="pmid">35594506</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20964.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Irnich</surname>
+                <given-names>W</given-names>
+              </name>
+            </person-group>
+            <article-title>From defibrillation theory to clinical implications.</article-title>
+            <source>Pacing Clin Electrophysiol</source>
+            <year>2010</year>
+            <month>Jul</month>
+            <volume>33</volume>
+            <issue>7</issue>
+            <fpage>814</fpage>
+            <page-range>814-25</page-range>
+            <pub-id pub-id-type="pmid">20025700</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20964.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mi&#x00161;kinis</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Ramonas</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Gurevi&#x0010d;ien&#x00117;</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Razumien&#x00117;</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Dagys</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ratautas</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Capacitance-Based Biosensor for the Measurement of Total Loss of L-Amino Acids in Human Serum during Hemodialysis.</article-title>
+            <source>ACS Sens</source>
+            <year>2022</year>
+            <month>Nov</month>
+            <day>25</day>
+            <volume>7</volume>
+            <issue>11</issue>
+            <fpage>3352</fpage>
+            <page-range>3352-3359</page-range>
+            <pub-id pub-id-type="pmid">36268654</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-20964.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Slettengren</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Linnros</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>van der Linden</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Silicone Oil Decreases Biofilm Formation in a Capacitance-Based Automatic Urine Measurement System.</article-title>
+            <source>Sensors (Basel)</source>
+            <year>2021</year>
+            <month>Jan</month>
+            <day>10</day>
+            <volume>21</volume>
+            <issue>2</issue>
+            <pub-id pub-id-type="pmid">33435177</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

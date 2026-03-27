@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-18315" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>McNemar And Mann-Whitney U Tests</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Sundjaja</surname>
+            <given-names>Joshua Henrina</given-names>
+          </name>
+          <aff>Atma Jaya Catholic University</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Shrestha</surname>
+            <given-names>Rijen</given-names>
+          </name>
+          <aff>Department of Anthropology, Panjab University, Chandigarh, India</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Krishan</surname>
+            <given-names>Kewal</given-names>
+          </name>
+          <aff>Department of Anthropology (UGC Centre of Advanced Study), Panjab University, Chandigarh, India</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Joshua Henrina Sundjaja declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Rijen Shrestha declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Kewal Krishan declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>17</day>
+          <month>7</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-18315.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">All good research is based on a meticulous and well-designed question in the form of a hypothesis. To test this hypothesis, one must conduct an experiment with strict guidelines to obtain robust results. The results are then tested using statistics to examine its significance and conclude if a new treatment/ diagnostic modalities/biomarker is a better alternative to prevalent practice. Thus, statistical tests are an important component of research, especially in the fields of medicine.&#x000a0;</p>
+        <p>Historically, statistical testing has been a grueling and labor-intensive process. Thanks to modernization and the use of computers, statistical analysis can now be accomplished through many commercially available programs, such as the Statistical Program for Social Sciences (SPSS) or Software for Statistics and Data Science (STATA).</p>
+        <p>Conventionally, statistical tests divide into two major groups, parametric and non-parametric. The prerequisite of using a parametric analysis is that the data tested assumes a normal (Gaussian) distribution. If the data is not in a normal distribution, non-parametric tests are used. There are many non-parametric tests analogous to parametric tests in continuous variables,&#x000a0;namely&#x000a0;Mann-Whitney <italic toggle="yes">U</italic> test and independent t-test, Wilcoxon signed-rank test, and paired t-test, Kruskal Wali's&#x000a0;test and Analysis of Variance (ANOVA), and Spearman rank correlation coefficient and Pearson product-moment coefficient.<xref ref-type="bibr" rid="article-18315.r1">[1]</xref></p>
+        <p>
+<bold>McNemar test</bold>
+</p>
+        <p>For nominal variables, in the form of a 2 x 2 table, three types of statistical tests can be used. The first one is the&#x000a0;Fisher's exact test. The preconditions for its use are&#x000a0;binary data and unpaired samples. The second one is the McNemar test, which requires binary data as in Fisher's exact, albeit with paired samples. The third one is the Chi-squared test, requiring a sample size of more than 60 subjects, with more than five counts in each cell. The Chi-squared test can also be useful for a contingency table of more than 2 x 2, i.e., 3 x 3, 4 x 4, and so on.<xref ref-type="bibr" rid="article-18315.r2">[2]</xref></p>
+        <p>The McNemar test is a non-parametric test used to analyze paired nominal data. It&#x000a0;is a test on a 2 x 2 contingency table and checks the marginal homogeneity of two dichotomous variables. The test requires one nominal variable with two categories (dichotomous) and one independent variable with two dependent groups. Also, the two groups in the dependent variable must be mutually exclusive, i.e., cannot be in more than one group. The minimal sample size required for the McNemar test is at least ten discordant pairs. The formula for calculating the Chi-squared value for McNemar test appears in Image 1, where b is the false positive count, and c is the false negative count.</p>
+        <p>If the&#x000a0;Chi-squared&#x000a0;value is significant, the null hypothesis is rejected, meaning there is a substantial difference in the marginal proportions of the tests, i.e., the newer treatment/ diagnostic modalities/biomarker is a better alternative to prevalent practice.</p>
+        <p>It should be noted that if the sum of discordant pairs (b+c) is small (&#x0003c;25), even if the total sample size is large, the statistical power of the McNemar test is low. Thus, in research studies with small sample size, and the sum of discordant pairs is less than 25, the exact binomial test can be used. Alternatively, Edwards's continuity correction&#x000a0;is another option.<xref ref-type="bibr" rid="article-18315.r3">[3]</xref>&#x000a0;Nevertheless, the use of an exact test in&#x000a0;studies with few subjects will produce unnecessary large&#x000a0;<italic toggle="yes">p&#x000a0;</italic>values with poor power.</p>
+        <p>Therefore, others developed a more precise approach to deal with this situation. The McNemar mid-<italic toggle="yes">p&#x000a0;</italic>test considerably improves the statistical&#x000a0;significance&#x000a0;without violating the nominal level. Furthermore, if small but frequent violations at the nominal level are acceptable, then the McNemar asymptotic test, is the most powerful test that for this purpose.<xref ref-type="bibr" rid="article-18315.r4">[4]</xref>&#x000a0;</p>
+        <p>
+<bold>Mann Whitney <italic toggle="yes">U</italic> test</bold>
+</p>
+        <p>Mann Whitney <italic toggle="yes">U</italic> test or Wilcoxon Rank-Sum test, on the other hand, is an analog of the parametric Student's t-test. It compares the means between two independent groups with the assumption that the data is not in a normal distribution. Therefore, it is useful for numerical/continuous variables. For example, if researchers want to compare two different groups' age or height (continuous variables),&#x000a0;in a study with&#x000a0;non-normally distributed data, then the Mann Whitney U test can be used.</p>
+      </sec>
+      <sec id="article-18315.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>There are several issues of concern regarding the use of the McNemar test and the Mann-Whitney <italic toggle="yes">U</italic> test, explained as follows:</p>
+        <p>1. McNemar test compares paired categorical data.&#x000a0;However, it can not be used to measure an agreement because the McNemar test compares the overall proportion. For example, if a researcher is comparing the test results of subjects examined by two different persons, and the proportion of subjects who pass the test between these populations are the same, this cannot be concluded as evidence of an agreement.<xref ref-type="bibr" rid="article-18315.r5">[5]</xref>&#x000a0;&#x000a0;</p>
+        <p>2. Mann-Whitney <italic toggle="yes">U</italic> test is a common test for comparing the median between two non normally distributed groups. However, researchers often forget the assumption that the data is derived from independent random samples from two distinct populations but with the same shape (distribution). Thus, when conducting this test, aside from reporting the <italic toggle="yes">p-value</italic>,&#x000a0;the spread, and the shape of the data should be described, as it may&#x000a0;relate to clinically significant&#x000a0;and relevant findings.<xref ref-type="bibr" rid="article-18315.r6">[6]</xref>&#x000a0;Also, the signs of skewness and variance of heterogeneity need investigation, and accordingly, if these factors existed, the&#x000a0;Welch <italic toggle="yes">U</italic> test should be used.<xref ref-type="bibr" rid="article-18315.r7">[7]</xref></p>
+      </sec>
+      <sec id="article-18315.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Basic statistical knowledge is imperative for every researcher working in the Life sciences. Research findings require examination using fundamentally correct statistical analysis to maintain the external validity of studies, which is important if we want to extrapolate our results to the general population. Unfortunately, statistical errors are not uncommon.&#x000a0;Based on a study that assesses statistical errors and methodological pitfalls in dissertations needed for a Medical Doctorate (MD) degree at the National Cancer Institute, Cairo, statistical tests were appropriate in only 13 out of a total of 62 studies&#x000a0;(24.5%).<xref ref-type="bibr" rid="article-18315.r8">[8]</xref> Therefore, the aid of a biostatistician or an expert in public health should be available to assist researchers/students.</p>
+      </sec>
+      <sec id="article-18315.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>Research findings should have excellent external validity, i.e., where the results extrapolate to the general population. Equally important is the robustness of the methods used, especially statistical analysis. Biostatistics should be an integral part of the curriculum at all levels of the university. The assistance of a biostatistician or a public health expert can be instrumental in choosing the appropriate design for the study, the analytical tools to be used, and the usefulness of the results. The inclusion of a statistician in the research team also develops a multi-disciplinary approach and can lead to better outcomes for the research.</p>
+      </sec>
+      <sec id="article-18315.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=18315&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=18315">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/18315/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=18315">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-18315.s6">
+        <fig id="article-18315.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Formula for calculating Chi-squared for McNemar Test Contributed from the Public Domain</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="McNemar__test" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-18315.s7">
+        <title>References</title>
+        <ref id="article-18315.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Winters</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Winters</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Amedee</surname>
+                <given-names>RG</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistics: a brief overview.</article-title>
+            <source>Ochsner J</source>
+            <year>2010</year>
+            <season>Fall</season>
+            <volume>10</volume>
+            <issue>3</issue>
+            <fpage>213</fpage>
+            <page-range>213-6</page-range>
+            <pub-id pub-id-type="pmid">21603381</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18315.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>du Prel</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>R&#x000f6;hrig</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Hommel</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Blettner</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Choosing statistical tests: part 12 of a series on evaluation of scientific publications.</article-title>
+            <source>Dtsch Arztebl Int</source>
+            <year>2010</year>
+            <month>May</month>
+            <volume>107</volume>
+            <issue>19</issue>
+            <fpage>343</fpage>
+            <page-range>343-8</page-range>
+            <pub-id pub-id-type="pmid">20532129</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18315.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hazra</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Gogtay</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Biostatistics Series Module 4: Comparing Groups - Categorical Variables.</article-title>
+            <source>Indian J Dermatol</source>
+            <year>2016</year>
+            <season>Jul-Aug</season>
+            <volume>61</volume>
+            <issue>4</issue>
+            <fpage>385</fpage>
+            <page-range>385-92</page-range>
+            <pub-id pub-id-type="pmid">27512183</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18315.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fagerland</surname>
+                <given-names>MW</given-names>
+              </name>
+              <name>
+                <surname>Lydersen</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Laake</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>The McNemar test for binary matched-pairs data: mid-p and asymptotic are better than exact conditional.</article-title>
+            <source>BMC Med Res Methodol</source>
+            <year>2013</year>
+            <month>Jul</month>
+            <day>13</day>
+            <volume>13</volume>
+            <fpage>91</fpage>
+            <pub-id pub-id-type="pmid">23848987</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18315.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ranganathan</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Pramesh</surname>
+                <given-names>CS</given-names>
+              </name>
+              <name>
+                <surname>Aggarwal</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>Common pitfalls in statistical analysis: Measures of agreement.</article-title>
+            <source>Perspect Clin Res</source>
+            <year>2017</year>
+            <season>Oct-Dec</season>
+            <volume>8</volume>
+            <issue>4</issue>
+            <fpage>187</fpage>
+            <page-range>187-191</page-range>
+            <pub-id pub-id-type="pmid">29109937</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18315.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hart</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Mann-Whitney test is not just a test of medians: differences in spread can be important.</article-title>
+            <source>BMJ</source>
+            <year>2001</year>
+            <month>Aug</month>
+            <day>18</day>
+            <volume>323</volume>
+            <issue>7309</issue>
+            <fpage>391</fpage>
+            <page-range>391-3</page-range>
+            <pub-id pub-id-type="pmid">11509435</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18315.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Fagerland</surname>
+                <given-names>MW</given-names>
+              </name>
+              <name>
+                <surname>Sandvik</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>The Wilcoxon-Mann-Whitney test under scrutiny.</article-title>
+            <source>Stat Med</source>
+            <year>2009</year>
+            <month>May</month>
+            <day>01</day>
+            <volume>28</volume>
+            <issue>10</issue>
+            <fpage>1487</fpage>
+            <page-range>1487-97</page-range>
+            <pub-id pub-id-type="pmid">19247980</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18315.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Allam</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Noaman</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>Moneer</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Elattar</surname>
+                <given-names>IA</given-names>
+              </name>
+            </person-group>
+            <article-title>Assessment of Statistical Methodologies and Pitfalls of Dissertations Carried Out at National Cancer Institute, Cairo University.</article-title>
+            <source>Asian Pac J Cancer Prev</source>
+            <year>2017</year>
+            <month>Jan</month>
+            <day>01</day>
+            <volume>18</volume>
+            <issue>1</issue>
+            <fpage>231</fpage>
+            <page-range>231-237</page-range>
+            <pub-id pub-id-type="pmid">28240524</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

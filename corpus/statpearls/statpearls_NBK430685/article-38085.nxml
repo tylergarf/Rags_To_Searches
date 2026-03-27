@@ -1,0 +1,2702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-38085" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Thromboelastography</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Shaydakov</surname>
+            <given-names>Maxim E.</given-names>
+          </name>
+          <aff>Central Michigan University</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Sigmon</surname>
+            <given-names>David F.</given-names>
+          </name>
+          <aff>University of Pennsylvania</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Blebea</surname>
+            <given-names>John</given-names>
+          </name>
+          <aff>Central Michigan University</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Maxim Shaydakov declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>David Sigmon declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>John Blebea declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>10</day>
+          <month>4</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-38085.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Maintaining blood in a liquid state is essential for homeostasis, as it ensures&#x000a0;the delivery of sufficient oxygen and nutrients to tissues while removing carbon dioxide and other waste products. Conversely, the ability of blood to convert from a liquid to a solid state&#x02014;that is coagulate&#x02014;underlies the mechanism that protects the body from life-threatening exsanguination. This process of thrombosis is normally a localized event at the site of vascular injury while the remaining circulating blood remains in a liquid state. Thrombosis is a dynamic process that includes associated thrombolysis to maintain or restore blood flow through vessels once an injury has been sealed. These unique properties of blood are largely determined by a complex and active balance between pro-coagulation factors, anticoagulants, and fibrinolysis. Two major pathological conditions are commonly associated with the disequilibrium of this intricate system&#x02014;bleeding and vessel thrombosis.</p>
+        <p>Major bleeding is a serious medical complication that may be caused by external trauma, surgery, invasive procedures, or an underlying medical condition such as aneurysm rupture or peptic ulcer disease. According to the World Health Organization, injuries are responsible for 5.8 million deaths per year worldwide, with the associated bleeding responsible for about 30% to 40% of these deaths.<xref ref-type="bibr" rid="article-38085.r1">[1]</xref>&#x000a0;Several congenital disorders, such as Von Willebrand disease and hemophilia A or B, associated with&#x000a0;coagulation factor deficiencies may cause significant bleeding even from minor injuries.&#x000a0;In addition, prescribed anticoagulants and antiplatelet agents can induce a coagulopathic state, potentially leading to excessive bleeding associated with trauma or medical procedures. Acute blood loss can lead to coagulopathy due to the depletion&#x000a0;of coagulation factors. Predictably, trauma-related coagulopathy has been associated with significantly higher mortality.<xref ref-type="bibr" rid="article-38085.r2">[2]</xref>&#x000a0;Patients with ongoing or expected major bleeding benefit from an accurate assessment of the functional state of the hemostatic system to provide optimal care, providing cost-effective replacement of only the necessary blood components.</p>
+        <p>Venous thromboembolism is another common and serious condition associated with abnormal blood coagulation. In these cases, systemic hypercoagulability shifts the body's homeostatic mechanisms toward a prothrombotic state. However, in many cases, a definitive cause for venous thromboembolism may be unclear. Routine coagulation testing has not been shown to predict such events, and even a detailed hypercoagulability investigation fails to identify an underlying disorder. Many individuals take anticoagulants and antiplatelet agents regularly, which impacts the accuracy of the results of many laboratory coagulation studies.<xref ref-type="bibr" rid="article-38085.r3">[3]</xref><xref ref-type="bibr" rid="article-38085.r4">[4]</xref> An accurate and cost-effective method to monitor antithrombotic activity could help&#x000a0;maintain an acceptable risk-benefit ratio in such patients. Inadequate anticoagulation or antiplatelet therapy can lead to devastating thromboembolic conditions.</p>
+        <p>Several commonly used&#x000a0;blood tests&#x000a0;assess blood coagulation. These tests include prothrombin time (PT), international normalized ratio (INR), activated partial thromboplastin time (aPTT), platelet count, fibrinogen concentration, D-dimer levels, activated clotting time, and whole blood bleeding time. These tests are&#x000a0;typically used to diagnose coagulopathy and a possible prothrombotic state, monitor anticoagulation therapy, and assist in treating bleeding episodes. More specific factor analyses, such as Factor V, proteins C and S, anti-thrombin III, anticardiolipin antibodies, and prothrombin gene mutation, are useful but not as readily available in emergency clinical situations. Despite their effectiveness for specific clinical applications, such as anticoagulation monitoring, traditional diagnostic tests have notable limitations. One of the primary drawbacks in the context of acute major bleeding is their prolonged turnaround time. Moreover, these tests fail to provide a comprehensive assessment of hemostasis, as they do not evaluate certain factors, such as Factor XIII; platelet function; or fibrinolytic activity. Platelet concentration, easily measured as part of a complete blood count, does not necessarily&#x000a0;reflect their function, especially in the presence of elements known to affect platelet reactivity, such as nonsteroidal anti-inflammatory drugs, antiplatelet agents, uremia, malignancy, or alcohol intake. Bleeding time has a low sensitivity and high inconsistency in detecting platelet disorders.<xref ref-type="bibr" rid="article-38085.r5">[5]</xref> Delayed or inadequate diagnosis of coagulopathy in a bleeding patient may lead to an excessive and improperly balanced transfusion of scarce blood components with increased morbidity, treatment costs, and mortality.<xref ref-type="bibr" rid="article-38085.r6">[6]</xref></p>
+        <p>Thromboelastography (TEG) is a promising diagnostic modality that offers several advantages compared to other tests mentioned above. TEG was developed in 1948 by Dr Hellmut Hartert at the University of Heidelberg.<xref ref-type="bibr" rid="article-38085.r7">[7]</xref> The first reported clinical application of the test occurred during the Vietnam War in an attempt&#x000a0;to guide transfusions of blood components in injured soldiers.<xref ref-type="bibr" rid="article-38085.r8">[8]</xref> In the 1980s, TEG was found to be beneficial in liver transplant patients, and in the 1990s, it was&#x000a0;demonstrated to be useful in cardiac surgery.<xref ref-type="bibr" rid="article-38085.r9">[9]</xref><xref ref-type="bibr" rid="article-38085.r10">[10]</xref>&#x000a0;Since then, TEG has become increasingly used as growing evidence supports its clinical efficacy. A PubMed search using the keywords TEG and thromboelastometry results in approximately 6000 publications, highlighting its expanding role in medical practice.</p>
+        <p>This article outlines the general principles of TEG, including its methodology, normal values, current evidence, clinical applications, limitations, and future research directions.</p>
+      </sec>
+      <sec id="article-38085.s2" sec-type="Pathophysiology">
+        <title>Pathophysiology</title>
+        <p>TEG is a noninvasive test that quantitatively measures the ability of whole blood to form a clot. The principle of this <italic toggle="yes">in vitro&#x000a0;</italic>test is to detect and quantify dynamic changes in the viscoelastic properties of a blood sample during clotting under low shear stress. The test is performed in a specially designed system called a thromboelastograph. The system consists of 2 chambers simultaneously examining a blood sample in duplicate to reduce the risk of sampling and measurement errors. Each chamber consists of a platform with a disposable cup where a blood sample is placed and a detection pin suspended in its center. The cup oscillates around the detection pin in a limited arc of &#x000b1;4&#x000b0; 45&#x02032; 5&#x02033;. Induced pin movement is recorded, and changes are measured as a function of time. Initially, there is little movement of the pin since liquid blood possesses minimal viscosity, and the oscillations of the cup are not transmitted to the pin.</p>
+        <p>As the blood coagulates, it begins to adhere to both the cup and the pin, and movement of the cup induces motion on the pin. These gradually increasing viscoelastic mechanical properties of the blood reflect the developing three-dimensional fibrin mesh and platelet components of the clot. The greater the viscoelasticity of the clot, the higher the amplitude of the pin motion. As fibrinolysis starts, the fibrin-platelet structure begins to dissolve gradually, and the clot loses its contact with the detection pin, which has less induced motion. The thromboelastogram is a graphical image of the recorded amplitude of movement of the pin as a function of time. Analytical software measures and quantifies these changes (see <bold>Figure.&#x000a0;</bold>Theombelastography Tables). Therefore, TEG measures the functional ability of the blood to make a hemostatic plug. A newer version replaces the cup rotation method with a resonance technique wherein the blood sample is subjected to vibration, and the vertical movement of the blood meniscus is measured under light-emitting diode illumination. The system uses pre-measured cartridges that do not require pipetting and allows the simultaneous performance of 4 blood tests.</p>
+      </sec>
+      <sec id="article-38085.s3" sec-type="Specimen Requirements and Procedure">
+        <title>Specimen Requirements and Procedure</title>
+        <p>The blood sample is collected through venipuncture in a plastic vial containing 3.2% buffered sodium citrate with a citrate-to-blood ratio of 1:9. The vial is inverted several times to mix the blood and citrate. Maintaining this citrate-blood ratio is crucial for test accuracy. Citrate binds calcium, an important cofactor of coagulation, preventing the blood from clotting before the beginning of the test. A clotted specimen, reflecting a vial overfilled with blood, cannot be used. For TEG testing, the collected non-clotted samples are considered stable and usable for up to 2 hours at room temperature. Non-citrated whole blood (native blood TEG or NATEM) can also be tested, but it must be used immediately. The test and reagents used are at room temperature. A volume of 340 uL of citrated blood is pipetted to the study cup, recalcified by adding 20 uL of 0.2 M calcium chloride and then activated with a kaolin-cephalin reagent. Cephalins or phosphatidylethanolamines, a class of phospholipids commonly present in membranes of human cells, are an essential cofactor of the coagulation cascade, enabling the assembly of tenase and prothrombinase complexes on the surface of platelets that are&#x000a0;critical for thrombin generation. Kaolin is a mineral primarily composed of hydrated aluminum silicate, a negatively charged molecule that can initiate the intrinsic coagulation pathway by activating Factor XII. Precise proportioning of the blood and kaolin-cephalin reagent is essential for accurate and reproducible TEG results.<xref ref-type="bibr" rid="article-38085.r11">[11]</xref> Non-activated TEG is also possible, but the lack of activators significantly prolongs clotting time and the testing process, which is undesirable in a clinical emergency.</p>
+        <p>Several modifications of the classic TEG assay have been developed to improve its diagnostic value. Rapid TEG (r-TEG) uses tissue factor instead of the kaolin-cephalin reagent to activate blood coagulation. Because the tissue factor triggers the extrinsic coagulation pathway, which involves a smaller number of coagulation factors, the test can be performed faster compared to conventional TEG. r-TEG can be completed within 15 minutes and thus helps manage massive transfusions in trauma patients.<xref ref-type="bibr" rid="article-38085.r12">[12]</xref><xref ref-type="bibr" rid="article-38085.r13">[13]</xref> The TEG platelet mapping assay was developed to predict the inhibitory effect of antiplatelet agents, such as aspirin and clopidogrel,&#x000a0;by evaluating platelet aggregation in the presence of adenosine diphosphate or arachidonic acid. TEG with added heparinase measures the effect of heparin reversal on blood coagulation. Rotational thromboelastography, also known as rotational thromboelastometry&#x000a0;(RoTEM),&#x000a0;uses an oscillating pin that rotates &#x000b1;4&#x000b0; 45&#x02032; 6&#x02033; while maintaining the cup in a stable position.&#x000a0;In this assay, different activator reagents are used to investigate specific components of the coagulation pathway<bold> (Table 1).</bold></p>
+      </sec>
+      <sec id="article-38085.s4" sec-type="Results, Reporting, and Critical Findings&#x0000d;&#x0000a;">
+        <title>Results, Reporting, and Critical Findings
+</title>
+        <p>A normal thromboelastogram is schematically represented in<bold> Figure 1.</bold> Prompt qualitative analysis of the TEG tracing can be performed during the test. The quantitative analysis of TEG includes measuring the 5 parameters listed and described in<bold> Table 1.</bold> The manufacturer has also suggested a coagulation index to assess the overall coagulation status. The coagulation index (CI) for whole blood may be calculated&#x000a0;as follows:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>CI = &#x02212;0.2454R+ 0.0184K + 0.1655MA &#x02212; 0.0241a &#x02212; 5.0220</p>
+          </list-item>
+        </list>
+        <p>Normal values of the coagulation index lie within &#x02212;3.0 and +3.0, which is&#x000a0;3 standard deviations from the mean of zero. A hypercoagulable state is defined as a CI greater than +3.0, and coagulopathy as a CI less than &#x02212;3.0. Previous studies demonstrated a significantly elevated CI in the postoperative period after general surgery and in cancer patients, suggesting a prothrombotic state.<xref ref-type="bibr" rid="article-38085.r14">[14]</xref><xref ref-type="bibr" rid="article-38085.r15">[15]</xref> However, this index is not widely used, and its clinical usefulness is not yet validated. Other parameters derived from the thromboelastogram include<bold>&#x000a0;</bold>projected maximal amplitude; time to maximal amplitude; the G parameter, such as shear elastic modulus strength or clot strength; and a thrombodynamic potential index.&#x000a0;Although these variables provide additional insights, they are rarely utilized in routine clinical practice due to their complexity and limited practical application.</p>
+        <p>Normal TEG values are summarized in <bold>Table 2</bold>, although some patient-related factors may affect these values. Elderly patients tend towards more pro-coagulable TEG results, suggesting a need to correct these reference values in<bold> older individuals</bold>.<xref ref-type="bibr" rid="article-38085.r16">[16]</xref> In some circumstances, such as in patients undergoing cardiac surgery and liver transplantation, specific reference values are less important because the principal application of TEG is to compare the patient's baseline to changes during the intraoperative and postoperative periods. In other clinical scenarios, such as trauma or postoperative bleeding, reference values are important for interpreting the results, as no baseline data are available. There is also some variability in testing results. A study involving 118 healthy volunteers revealed at least one abnormal parameter in 19% of specimens and a coagulopathy (defined as at least 2 abnormal parameters) in 9%, leading to a calculated specificity of 81%.<xref ref-type="bibr" rid="article-38085.r17">[17]</xref> A larger prospective trial encompassing a more diverse group of patients&#x000a0;helps establish&#x000a0;analyzer- and reagent-specific reference values in selected patient subgroups.</p>
+        <p>Deviation of each TEG parameter from the reference values suggests specific disturbances of hemostasis and coagulation.</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Prolonged R time suggests a quantitative or qualitative deficiency of coagulation factors that may be corrected by fresh frozen plasma transfusion, prothrombin complex, or anticoagulant reversal.</p>
+          </list-item>
+          <list-item>
+            <p>Prolonged K time or decreased alpha-angle suggests fibrinogen deficiency, which may be corrected using cryoprecipitate or lyophilized fibrinogen concentrate.</p>
+          </list-item>
+          <list-item>
+            <p>Low&#x000a0;maximum amplitude indicates a quantitative or functional deficiency of platelets and could be corrected by platelet concentrate transfusion or desmopressin.</p>
+          </list-item>
+          <list-item>
+            <p>Increased LY value implies activated fibrinolysis that may be treated by fibrinolysis inhibitors (aminocaproic or tranexamic acid).</p>
+          </list-item>
+        </list>
+        <p>The opposite changes in TEG parameters suggest a prothrombotic state. This interpretive approach represents a convenient but rather simplified perspective on disturbances of blood coagulation. However, it is important to remember that these TEG parameters are interrelated due to the complex nature of hemostasis.</p>
+        <p>A different nomenclature is used for RoTEM assays to define the same TEG parameters&#x02014;clotting time (CT) instead of R, clot formation time (CFT) instead of K, maximum clot firmness (MCF) instead of MA, and CL instead of LY.&#x000a0;Reference values for RoTEM have been established in a multicenter study involving 500 healthy volunteers.<xref ref-type="bibr" rid="article-38085.r18">[18]</xref> Depending on the specific TEG analyzer (TEG versus RoTEM) and the reagents used, differing results may be obtained from the same blood sample, potentially affecting clinical decision-making.<xref ref-type="bibr" rid="article-38085.r19">[19]</xref><xref ref-type="bibr" rid="article-38085.r20">[20]</xref> Some of these differences remain poorly understood. For example, NATEM may be more sensitive to hyperfibrinolysis compared to INTEM and EXTEM.<xref ref-type="bibr" rid="article-38085.r21">[21]</xref> A systematic review of&#x000a0;4 clinical trials comparing TEG and RoTEM found clinically significant differences between the 2 tests with a lack of comparability of the results.<xref ref-type="bibr" rid="article-38085.r22">[22]</xref> A recent systematic review did not discover a sufficient number of well-designed studies to&#x000a0;compare the results of TEG and RoTEM in healthy individuals.<xref ref-type="bibr" rid="article-38085.r23">[23]</xref> Hence, the results of different modifications of TEG and RoTEM cannot be considered interchangeable until head-to-head prospective comparative studies are performed.</p>
+      </sec>
+      <sec id="article-38085.s5" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>The main advantage of TEG testing is its potential to deliver immediate goal-oriented and individualized care to a bleeding patient:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Global assessment of blood coagulability, including coagulation cascade, platelet function, and fibrinolysis</p>
+          </list-item>
+          <list-item>
+            <p>Rapid real-time bedside test with a simple methodology (point-of-care testing)</p>
+          </list-item>
+          <list-item>
+            <p>Diagnosis of coagulopathic bleeding</p>
+          </list-item>
+          <list-item>
+            <p>Guide transfusion therapy and decrease the use of blood products</p>
+          </list-item>
+          <list-item>
+            <p>Detect dynamic changes in blood coagulation during resuscitation</p>
+          </list-item>
+          <list-item>
+            <p>Predict the clinical efficacy of therapeutic agents affecting blood coagulability</p>
+          </list-item>
+        </list>
+        <p>TEG has convincingly demonstrated its utility in improving outcomes in cardiac surgery. A meta-analysis of 17 randomized controlled trials showed that TEG decreases blood product transfusions and surgical re-exploration due to postoperative bleeding in cardiac surgery patients.<xref ref-type="bibr" rid="article-38085.r24">[24]</xref> These effects were associated with a lower incidence of acute kidney injury and thromboembolic events. Another systematic review of 17 randomized controlled trials involving 1493 patients, mainly elective on-pump cardiac surgery, revealed that TEG/RoTEM decreases transfusion of blood components and reduces overall mortality.<xref ref-type="bibr" rid="article-38085.r25">[25]</xref>&#x000a0;However, the quality of the included studies was considered low.<xref ref-type="bibr" rid="article-38085.r25">[25]</xref> A recent randomized controlled trial found that intraoperative correction of coagulopathy guided by EXTEM and FIBTEM can reduce postoperative bleeding, blood transfusions, and duration of critical care in pediatric cardiac surgery patients.<xref ref-type="bibr" rid="article-38085.r26">[26]</xref> TEG is also a more cost-effective method compared to standard coagulation tests in diagnosing coagulopathy in cardiac surgery.<xref ref-type="bibr" rid="article-38085.r27">[27]</xref></p>
+        <p>There is conflicting evidence regarding the usefulness of TEGs in trauma patients. A recent Cochrane database systematic review found insufficient data to compare the accuracy of TEG and RoTEM versus PT/INR in diagnosing trauma-induced coagulopathy.<xref ref-type="bibr" rid="article-38085.r28">[28]</xref> The review concluded that these tests are still in the clinical research phase. However, whether PT/INR can be considered a good reference standard to diagnose coagulopathy is questionable. In major trauma, r-TEG is better in predicting the need for transfusion of fresh frozen plasma, red blood cells, and platelets compared to conventional coagulation tests of PT, aPTT, INR, platelet count, and fibrinogen.<xref ref-type="bibr" rid="article-38085.r29">[29]</xref>&#x000a0;Based on another large systematic review, although with evidence limited to cohort studies with a moderate-to-high risk of bias, TEG/RoTEM can diagnose coagulopathy and may predict blood components transfusion and mortality in trauma patients.<xref ref-type="bibr" rid="article-38085.r30">[30]</xref> Another review of 13 cohort studies involving only RoTEM in 2835 adult trauma patients reached similar conclusions.<xref ref-type="bibr" rid="article-38085.r31">[31]</xref> However, there was no improvement in patient morbidity or mortality.<xref ref-type="bibr" rid="article-38085.r30">[30]</xref> Another Cochrane database systematic review of 9 randomized controlled trials involving<bold>&#x000a0;</bold>776 participants, mainly cardiac surgery patients, found a decreased amount of bleeding when TEG or RoTEM was used but also without a decrease in morbidity or mortality.<xref ref-type="bibr" rid="article-38085.r22">[22]</xref> This inability of TEG/RoTEM testing to significantly reduce mortality may become a barrier to widespread clinical use. However, it is essential to realize that overall mortality in hospitalized patients with bleeding is relatively low,&#x000a0;necessitating large clinical trials to detect a statistically significant impact of TEG on mortality. Furthermore, these patients are often complex cases, and the overall treatment strategy, rather than diagnostic testing, plays a significant role in affecting overall morbidity and mortality.</p>
+        <p>There is expanding evidence of using different TEG and RoTEM assays in other additional clinical scenarios. A small randomized controlled trial has demonstrated the ability of TEG to better guide anticoagulation during ECMO compared to aPTT, reducing the dose of heparin.<xref ref-type="bibr" rid="article-38085.r32">[32]</xref> TEG platelet mapping can detect platelet inhibition caused by clopidogrel and aspirin in surgical patients.<xref ref-type="bibr" rid="article-38085.r33">[33]</xref> A novel TEG-based scoring system has been suggested to diagnose disseminated intravascular coagulation.<xref ref-type="bibr" rid="article-38085.r34">[34]</xref> TEG may detect possible coagulopathy in patients with intracranial bleeding and hematoma enlargement.<xref ref-type="bibr" rid="article-38085.r35">[35]</xref>&#x000a0;TEG may also be useful for patients with liver disease, as conventional coagulation tests often show abnormalities in these individuals. At the same time, TEG/RoTEM results are normal in many patients despite an abnormal INR or platelet count due to adjustments in the hemostatic system or rebalanced hemostasis.<xref ref-type="bibr" rid="article-38085.r36">[36]</xref> Thus, TEG/RoTEM may provide a better insight into the risk of bleeding in patients with liver disease compared to conventional coagulation tests.<xref ref-type="bibr" rid="article-38085.r37">[37]</xref> EXTEM has been found helpful in detecting intraoperative coagulopathy in liver transplant patients.<xref ref-type="bibr" rid="article-38085.r38">[38]</xref> There are other clinical situations when TEG has demonstrated potential benefits, but listing all of them is beyond the scope of&#x000a0;this review.</p>
+        <p>
+<bold>Clinical Guidelines</bold>
+</p>
+        <p>The NICE guidelines recommend TEG for detecting, managing, and monitoring hemostasis in cardiac surgery patients. Other clinical guidelines do not strongly recommend TEG for use in&#x000a0;other settings due to the lack of high-quality evidence. The recently updated guidelines from the European Society of Anesthesiology recommended viscoelastic hemostatic assays (TEG/RoTEM) to guide the management of perioperative bleeding and severe peripartum hemorrhages, albeit with a low level of evidence.<xref ref-type="bibr" rid="article-38085.r39">[39]</xref></p>
+        <p>
+<bold>Limitations</bold>
+</p>
+        <p>An ideal test on blood coagulation does not yet exist. TEG measures blood coagulation&#x000a0;<italic toggle="yes">in vitro,&#x000a0;</italic>with or without an additional activator. A tissue factor, an essential component of the coagulation cascade, cannot be quantified <italic toggle="yes">in vitro</italic>. Furthermore, blood coagulation is the only component of complex processes such as clinical thrombosis and bleeding. Blood coagulation also depends on the size of the injured vessel, blood flow characteristics, and local vessel wall biology, which determines the quantity and functional activity of the membrane-bound pro- and anticoagulation factors. In other words, there are significant aspects of coagulation that are not components of the blood. An abnormal TEG in a patient without clinically relevant bleeding does not require transfusion of blood components. A single test or patient-related factor rarely guides the decision to transfuse blood components or initiate&#x000a0;or correct antithrombotic therapy.</p>
+        <p>TEG has a sensitivity and specificity that may vary significantly in different populations. Patients&#x000a0;on anticoagulants and antiplatelet agents are a major concern in the trauma setting. Warfarin is a commonly prescribed medication associated&#x000a0;with increased mortality in trauma patients.<xref ref-type="bibr" rid="article-38085.r40">[40]</xref><xref ref-type="bibr" rid="article-38085.r41">[41]</xref>&#x000a0;In about half of patients on warfarin, R-time may be normal in both TEG and r-TEG tests, with a poor correlation between TEG and INR.<xref ref-type="bibr" rid="article-38085.r11">[11]</xref> Such findings are a good example of how TEG may miss a clinically significant coagulopathic state. Hence, INR is still the gold standard for monitoring warfarin therapy. Several important blood tests also cannot be currently replaced by TEG, such as P2Y12 platelet function assay to guide clopidogrel therapy, D-Dimer to exclude venous thromboembolism in low-risk outpatients, and advanced thrombophilia diagnostic tests.</p>
+        <p>
+<bold>Future Directions: Guiding Anticoagulation and Antiplatelet Therapy</bold>
+</p>
+        <p>Anticoagulation therapy is a field where TEG may become more applicable pending future clinical studies. Up to one-third of patients on warfarin therapy may have subtherapeutic anticoagulation at some point during treatment.<xref ref-type="bibr" rid="article-38085.r42">[42]</xref> One of the advantages of direct oral anticoagulants is that there is no requirement to monitor anticoagulation therapy. However, they may be problematic in certain groups of patients, such as those with renal failure, liver failure, pregnancy, extremes of body weight, high bleeding risk, thrombosis progression, or recurrence on anticoagulation.<xref ref-type="bibr" rid="article-38085.r43">[43]</xref> High plasma concentration of direct oral anticoagulants has been associated with higher bleeding risk.<xref ref-type="bibr" rid="article-38085.r44">[44]</xref><xref ref-type="bibr" rid="article-38085.r45">[45]</xref> In these situations, TEG may provide the ability to adjust the level of anticoagulation during the same office visit.&#x000a0;As TEG activates an intrinsic coagulation pathway with kaolin, it is sensitive to heparin and low-molecular-weight heparin therapy (R time).&#x000a0;An interesting case of an emergent heparin reversal under TEG control in a patient with intracranial bleeding has been reported.<xref ref-type="bibr" rid="article-38085.r46">[46]</xref></p>
+        <p>Predicting platelet inhibition by antiplatelet agents, such as aspirin, clopidogrel, abciximab, eptifibatide, or tirofiban, is another promising avenue for TEG application. Most antiplatelet agents are used with a standard dose despite several known issues associated with this approach. For example, up to 25% of patients with ST-segment elevation myocardial infarction&#x000a0;may be resistant to clopidogrel, increasing the risk of recurrent cardiovascular events.<xref ref-type="bibr" rid="article-38085.r47">[47]</xref> Aspirin resistance has been associated with increased myocardial infarction, stroke, or death in patients with cardiovascular disease.<xref ref-type="bibr" rid="article-38085.r48">[48]</xref> Hence, there is significant variability in individual response to antiplatelet therapy. Available evidence does not support the use of usual laboratory testing to guide the dose of aspirin or clopidogrel.<xref ref-type="bibr" rid="article-38085.r49">[49]</xref> Future studies may determine whether TEG can measure the effect of antiplatelet therapy, detect hyporesponsiveness, and predict the risk of bleeding or thromboembolic complications.</p>
+        <p>A novel concept of individualized health care applies to anticoagulation and antiplatelet therapy monitoring. Using a standard dose of the same medications to treat patients with different medical conditions and comorbidities may not be ideal. The potential of TEG to improve the quality of antithrombotic therapy is a promising avenue for experimental and clinical research.</p>
+        <p>
+<bold>Future Directions: Prevention of Venous Thromboembolism</bold>
+</p>
+        <p>Another potential application of TEG is to improve the diagnosis, prevention, and treatment of patients with venous thromboembolism. The most appropriate evidence-based practice to prevent venous thromboembolism is to stratify patients based on the venous thromboembolism risk using one of the risk prediction models elaborated for surgical and medical patients. These models do not incorporate conventional blood coagulation tests, as they do not predict venous thromboembolism. Several initial reports suggest that TEG may be a useful tool to help with risk stratification. TEG may have a venous thromboembolism predictive value in critically ill patients, gynecological oncology patients, and individuals with prostate cancer.<xref ref-type="bibr" rid="article-38085.r50">[50]</xref><xref ref-type="bibr" rid="article-38085.r51">[51]</xref><xref ref-type="bibr" rid="article-38085.r52">[52]</xref><xref ref-type="bibr" rid="article-38085.r53">[53]</xref>&#x000a0;A large prospective cohort involving adult trauma patients revealed a 2-fold higher risk of venous thromboembolism in patients with hypercoagulable TEG parameters on arrival to the trauma bay.<xref ref-type="bibr" rid="article-38085.r54">[54]</xref> However, other reports did not find TEG valuable in predicting venous thromboembolism in selected patients, such as those undergoing orthopedic surgery.<xref ref-type="bibr" rid="article-38085.r55">[55]</xref></p>
+        <p>Despite appropriate prophylaxis, venous thromboembolism is still a frequent concern in hospitalized patients. In a study, the R time of TEG was significantly shorter in critically ill patients on low-molecular-weight heparin prophylaxis who develop DVT compared to patients who do not.<xref ref-type="bibr" rid="article-38085.r56">[56]</xref> Thus, TEG may help predict venous thromboembolism that occurs despite standard pharmacological prophylaxis.</p>
+      </sec>
+      <sec id="article-38085.s6" sec-type="Quality Control and Lab Safety&#x0000d;&#x0000a;">
+        <title>Quality Control and Lab Safety
+</title>
+        <p>TEG/RoTEM testing requires skilled personnel to ensure accurate results, as test precision can vary significantly depending on the operator's expertise.<xref ref-type="bibr" rid="article-38085.r57">[57]</xref> To address this, regular external quality assessments and proficiency testing are recommended to maintain consistency and reliability.<xref ref-type="bibr" rid="article-38085.r57">[57]</xref> For optimal utilization, users should adhere to the guidelines outlined in the manufacturer's manual.</p>
+      </sec>
+      <sec id="article-38085.s7" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>A&#x000a0;team of healthcare professionals, including&#x000a0;clinicians, specialists, advanced practice providers, pharmacists, and other healthcare providers, collaboratively participate in patient care. These&#x000a0;members&#x000a0;should be well-versed in TEG and its applications in diagnosing and guiding interventions.&#x000a0;Familiarity with TEG enables these team members to interpret its diagnostic insights effectively and contribute to therapeutic decision-making. By understanding the implications of TEG results, they can provide informed recommendations, optimize care plans, and improve overall patient outcomes.</p>
+        <p>Enhancing team collaboration around TEG usage ensures that diagnostic information is seamlessly integrated into patient care strategies. For example, clinicians can use TEG to identify coagulopathies, whereas pharmacists can guide appropriate anticoagulant or hemostatic agent selection. Nurses and advanced practice providers can assist in monitoring patient responses and adjusting interventions as needed. Such a collaborative approach reinforces the critical role of interprofessional teams in delivering goal-directed, individualized care, ultimately leading to better clinical outcomes in settings where hemostatic control is crucial.</p>
+      </sec>
+      <sec id="article-38085.s8">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=38085&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=38085">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/38085/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=38085">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-38085.s9">
+        <fig id="article-38085.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Subtypes of Rotational Thromboelastometry. Contributed by M Shaydakov, MD, PhD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Subtypes__of__Rotational__Thromboelastometry" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-38085.s10">
+        <fig id="article-38085.image.f2" position="float" orientation="portrait">
+          <caption>
+            <p>Thromboelastography Parameters With Normal Values. Contributed by M Shaydakov, MD, PhD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Thromboelastography__Parameters__With__Normal__Values" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-38085.s11">
+        <title>References</title>
+        <ref id="article-38085.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sobrino</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Shafi</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Timing and causes of death after injuries.</article-title>
+            <source>Proc (Bayl Univ Med Cent)</source>
+            <year>2013</year>
+            <month>Apr</month>
+            <volume>26</volume>
+            <issue>2</issue>
+            <fpage>120</fpage>
+            <page-range>120-3</page-range>
+            <pub-id pub-id-type="pmid">23543966</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Brohi</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Singh</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Heron</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Coats</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Acute traumatic coagulopathy.</article-title>
+            <source>J Trauma</source>
+            <year>2003</year>
+            <month>Jun</month>
+            <volume>54</volume>
+            <issue>6</issue>
+            <fpage>1127</fpage>
+            <page-range>1127-30</page-range>
+            <pub-id pub-id-type="pmid">12813333</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Barnes</surname>
+                <given-names>GD</given-names>
+              </name>
+              <name>
+                <surname>Lucas</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Alexander</surname>
+                <given-names>GC</given-names>
+              </name>
+              <name>
+                <surname>Goldberger</surname>
+                <given-names>ZD</given-names>
+              </name>
+            </person-group>
+            <article-title>National Trends in Ambulatory Oral Anticoagulant Use.</article-title>
+            <source>Am J Med</source>
+            <year>2015</year>
+            <month>Dec</month>
+            <volume>128</volume>
+            <issue>12</issue>
+            <fpage>1300</fpage>
+            <page-range>1300-5.e2</page-range>
+            <pub-id pub-id-type="pmid">26144101</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Luepker</surname>
+                <given-names>RV</given-names>
+              </name>
+              <name>
+                <surname>Steffen</surname>
+                <given-names>LM</given-names>
+              </name>
+              <name>
+                <surname>Duval</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Zantek</surname>
+                <given-names>ND</given-names>
+              </name>
+              <name>
+                <surname>Zhou</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Hirsch</surname>
+                <given-names>AT</given-names>
+              </name>
+            </person-group>
+            <article-title>Population Trends in Aspirin Use for Cardiovascular Disease Prevention 1980-2009: The Minnesota Heart Survey.</article-title>
+            <source>J Am Heart Assoc</source>
+            <year>2015</year>
+            <month>Dec</month>
+            <day>23</day>
+            <volume>4</volume>
+            <issue>12</issue>
+            <pub-id pub-id-type="pmid">26702085</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rodgers</surname>
+                <given-names>RP</given-names>
+              </name>
+              <name>
+                <surname>Levin</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>A critical reappraisal of the bleeding time.</article-title>
+            <source>Semin Thromb Hemost</source>
+            <year>1990</year>
+            <month>Jan</month>
+            <volume>16</volume>
+            <issue>1</issue>
+            <fpage>1</fpage>
+            <page-range>1-20</page-range>
+            <pub-id pub-id-type="pmid">2406907</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Johnson</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Scott</surname>
+                <given-names>AV</given-names>
+              </name>
+              <name>
+                <surname>Barodka</surname>
+                <given-names>VM</given-names>
+              </name>
+              <name>
+                <surname>Park</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Wasey</surname>
+                <given-names>JO</given-names>
+              </name>
+              <name>
+                <surname>Ness</surname>
+                <given-names>PM</given-names>
+              </name>
+              <name>
+                <surname>Gniadek</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Frank</surname>
+                <given-names>SM</given-names>
+              </name>
+            </person-group>
+            <article-title>Morbidity and Mortality after High-dose Transfusion.</article-title>
+            <source>Anesthesiology</source>
+            <year>2016</year>
+            <month>Feb</month>
+            <volume>124</volume>
+            <issue>2</issue>
+            <fpage>387</fpage>
+            <page-range>387-95</page-range>
+            <pub-id pub-id-type="pmid">26569167</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>HARTERT</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>[Blood clotting studies with Thrombus stressography; a new Investigation procedure].</article-title>
+            <source>Klin Wochenschr</source>
+            <year>1948</year>
+            <month>Oct</month>
+            <day>01</day>
+            <volume>26</volume>
+            <issue>37-38</issue>
+            <fpage>577</fpage>
+            <page-range>577-83</page-range>
+            <pub-id pub-id-type="pmid">18101974</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Walsh</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Fritz</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Hake</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Son</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Greve</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Jbara</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Chitta</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Fritz</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Miller</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Bader</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>McCollester</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Binz</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Liew-Spilger</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Thomas</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Crepinsek</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Shariff</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Ploplis</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Castellino</surname>
+                <given-names>FJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Targeted Thromboelastographic (TEG) Blood Component and Pharmacologic Hemostatic Therapy in Traumatic and Acquired Coagulopathy.</article-title>
+            <source>Curr Drug Targets</source>
+            <year>2016</year>
+            <volume>17</volume>
+            <issue>8</issue>
+            <fpage>954</fpage>
+            <page-range>954-70</page-range>
+            <pub-id pub-id-type="pmid">26960340</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kang</surname>
+                <given-names>YG</given-names>
+              </name>
+              <name>
+                <surname>Martin</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Marquez</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Lewis</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Bontempo</surname>
+                <given-names>FA</given-names>
+              </name>
+              <name>
+                <surname>Shaw</surname>
+                <given-names>BW</given-names>
+              </name>
+              <name>
+                <surname>Starzl</surname>
+                <given-names>TE</given-names>
+              </name>
+              <name>
+                <surname>Winter</surname>
+                <given-names>PM</given-names>
+              </name>
+            </person-group>
+            <article-title>Intraoperative changes in blood coagulation and thrombelastographic monitoring in liver transplantation.</article-title>
+            <source>Anesth Analg</source>
+            <year>1985</year>
+            <month>Sep</month>
+            <volume>64</volume>
+            <issue>9</issue>
+            <fpage>888</fpage>
+            <page-range>888-96</page-range>
+            <pub-id pub-id-type="pmid">3896028</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Shore-Lesserson</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Manspeizer</surname>
+                <given-names>HE</given-names>
+              </name>
+              <name>
+                <surname>DePerio</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Francis</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Vela-Cantos</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Ergin</surname>
+                <given-names>MA</given-names>
+              </name>
+            </person-group>
+            <article-title>Thromboelastography-guided transfusion algorithm reduces transfusions in complex cardiac surgery.</article-title>
+            <source>Anesth Analg</source>
+            <year>1999</year>
+            <month>Feb</month>
+            <volume>88</volume>
+            <issue>2</issue>
+            <fpage>312</fpage>
+            <page-range>312-9</page-range>
+            <pub-id pub-id-type="pmid">9972747</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Quarterman</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Shaw</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Johnson</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Agarwal</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Intra- and inter-centre standardisation of thromboelastography (TEG&#x000ae;).</article-title>
+            <source>Anaesthesia</source>
+            <year>2014</year>
+            <month>Aug</month>
+            <volume>69</volume>
+            <issue>8</issue>
+            <fpage>883</fpage>
+            <page-range>883-90</page-range>
+            <pub-id pub-id-type="pmid">24841452</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cotton</surname>
+                <given-names>BA</given-names>
+              </name>
+              <name>
+                <surname>Faz</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Hatch</surname>
+                <given-names>QM</given-names>
+              </name>
+              <name>
+                <surname>Radwan</surname>
+                <given-names>ZA</given-names>
+              </name>
+              <name>
+                <surname>Podbielski</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Wade</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Kozar</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Holcomb</surname>
+                <given-names>JB</given-names>
+              </name>
+            </person-group>
+            <article-title>Rapid thrombelastography delivers real-time results that predict transfusion within 1 hour of admission.</article-title>
+            <source>J Trauma</source>
+            <year>2011</year>
+            <month>Aug</month>
+            <volume>71</volume>
+            <issue>2</issue>
+            <fpage>407</fpage>
+            <page-range>407-14; discussion 414-7</page-range>
+            <pub-id pub-id-type="pmid">21825945</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Pezold</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Moore</surname>
+                <given-names>EE</given-names>
+              </name>
+              <name>
+                <surname>Wohlauer</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Sauaia</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Gonzalez</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Banerjee</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Silliman</surname>
+                <given-names>CC</given-names>
+              </name>
+            </person-group>
+            <article-title>Viscoelastic clot strength predicts coagulation-related mortality within 15 minutes.</article-title>
+            <source>Surgery</source>
+            <year>2012</year>
+            <month>Jan</month>
+            <volume>151</volume>
+            <issue>1</issue>
+            <fpage>48</fpage>
+            <page-range>48-54</page-range>
+            <pub-id pub-id-type="pmid">21899867</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Caprini</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Zuckerman</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Cohen</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Vagher</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Lipp</surname>
+                <given-names>V</given-names>
+              </name>
+            </person-group>
+            <article-title>The identification of accelerated coagulability.</article-title>
+            <source>Thromb Res</source>
+            <year>1976</year>
+            <month>Aug</month>
+            <volume>9</volume>
+            <issue>2</issue>
+            <fpage>167</fpage>
+            <page-range>167-80</page-range>
+            <pub-id pub-id-type="pmid">788222</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Caprini</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Arcelus</surname>
+                <given-names>JI</given-names>
+              </name>
+              <name>
+                <surname>Laubach</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Size</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Hoffman</surname>
+                <given-names>KN</given-names>
+              </name>
+              <name>
+                <surname>Coats</surname>
+                <given-names>RW</given-names>
+              </name>
+              <name>
+                <surname>Blattner</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Postoperative hypercoagulability and deep-vein thrombosis after laparoscopic cholecystectomy.</article-title>
+            <source>Surg Endosc</source>
+            <year>1995</year>
+            <month>Mar</month>
+            <volume>9</volume>
+            <issue>3</issue>
+            <fpage>304</fpage>
+            <page-range>304-9</page-range>
+            <pub-id pub-id-type="pmid">7597604</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ng</surname>
+                <given-names>KF</given-names>
+              </name>
+            </person-group>
+            <article-title>Changes in thrombelastograph variables associated with aging.</article-title>
+            <source>Anesth Analg</source>
+            <year>2004</year>
+            <month>Aug</month>
+            <volume>99</volume>
+            <issue>2</issue>
+            <fpage>449</fpage>
+            <page-range>449-54, table of contents</page-range>
+            <pub-id pub-id-type="pmid">15271723</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Scarpelini</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Rhind</surname>
+                <given-names>SG</given-names>
+              </name>
+              <name>
+                <surname>Nascimento</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Tien</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Shek</surname>
+                <given-names>PN</given-names>
+              </name>
+              <name>
+                <surname>Peng</surname>
+                <given-names>HT</given-names>
+              </name>
+              <name>
+                <surname>Huang</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Pinto</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Speers</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Reis</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Rizoli</surname>
+                <given-names>SB</given-names>
+              </name>
+            </person-group>
+            <article-title>Normal range values for thromboelastography in healthy adult volunteers.</article-title>
+            <source>Braz J Med Biol Res</source>
+            <year>2009</year>
+            <month>Dec</month>
+            <volume>42</volume>
+            <issue>12</issue>
+            <fpage>1210</fpage>
+            <page-range>1210-7</page-range>
+            <pub-id pub-id-type="pmid">19882085</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lang</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Bauters</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Braun</surname>
+                <given-names>SL</given-names>
+              </name>
+              <name>
+                <surname>P&#x000f6;tzsch</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>von Pape</surname>
+                <given-names>KW</given-names>
+              </name>
+              <name>
+                <surname>Kolde</surname>
+                <given-names>HJ</given-names>
+              </name>
+              <name>
+                <surname>Lakner</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Multi-centre investigation on reference ranges for ROTEM thromboelastometry.</article-title>
+            <source>Blood Coagul Fibrinolysis</source>
+            <year>2005</year>
+            <month>Jun</month>
+            <volume>16</volume>
+            <issue>4</issue>
+            <fpage>301</fpage>
+            <page-range>301-10</page-range>
+            <pub-id pub-id-type="pmid">15870552</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Coakley</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Reddy</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Mackie</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Mallett</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Transfusion triggers in orthotopic liver transplantation: a comparison of the thromboelastometry analyzer, the thromboelastogram, and conventional coagulation tests.</article-title>
+            <source>J Cardiothorac Vasc Anesth</source>
+            <year>2006</year>
+            <month>Aug</month>
+            <volume>20</volume>
+            <issue>4</issue>
+            <fpage>548</fpage>
+            <page-range>548-53</page-range>
+            <pub-id pub-id-type="pmid">16884987</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nielsen</surname>
+                <given-names>VG</given-names>
+              </name>
+            </person-group>
+            <article-title>A comparison of the Thrombelastograph and the ROTEM.</article-title>
+            <source>Blood Coagul Fibrinolysis</source>
+            <year>2007</year>
+            <month>Apr</month>
+            <volume>18</volume>
+            <issue>3</issue>
+            <fpage>247</fpage>
+            <page-range>247-52</page-range>
+            <pub-id pub-id-type="pmid">17413761</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Durila</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Nonactivated thromboelastometry able to detect fibrinolysis in contrast to activated methods (EXTEM, INTEM) in a bleeding patient.</article-title>
+            <source>Blood Coagul Fibrinolysis</source>
+            <year>2016</year>
+            <month>Oct</month>
+            <volume>27</volume>
+            <issue>7</issue>
+            <fpage>828</fpage>
+            <page-range>828-830</page-range>
+            <pub-id pub-id-type="pmid">26656899</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wikkels&#x000f8;</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Wetterslev</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>M&#x000f8;ller</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Afshari</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Thromboelastography (TEG) or thromboelastometry (ROTEM) to monitor haemostatic treatment versus usual care in adults or children with bleeding.</article-title>
+            <source>Cochrane Database Syst Rev</source>
+            <year>2016</year>
+            <month>Aug</month>
+            <day>22</day>
+            <volume>2016</volume>
+            <issue>8</issue>
+            <fpage>CD007871</fpage>
+            <pub-id pub-id-type="pmid">27552162</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Adler</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ivic</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Bodmer</surname>
+                <given-names>NS</given-names>
+              </name>
+              <name>
+                <surname>Ten Cate</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Bachmann</surname>
+                <given-names>LM</given-names>
+              </name>
+              <name>
+                <surname>Wuillemin</surname>
+                <given-names>WA</given-names>
+              </name>
+              <name>
+                <surname>Nagler</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Thromboelastometry and Thrombelastography Analysis under Normal Physiological Conditions - Systematic Review.</article-title>
+            <source>Transfus Med Hemother</source>
+            <year>2017</year>
+            <month>Apr</month>
+            <volume>44</volume>
+            <issue>2</issue>
+            <fpage>78</fpage>
+            <page-range>78-83</page-range>
+            <pub-id pub-id-type="pmid">28503123</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Deppe</surname>
+                <given-names>AC</given-names>
+              </name>
+              <name>
+                <surname>Weber</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Zimmermann</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Kuhn</surname>
+                <given-names>EW</given-names>
+              </name>
+              <name>
+                <surname>Slottosch</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Liakopoulos</surname>
+                <given-names>OJ</given-names>
+              </name>
+              <name>
+                <surname>Choi</surname>
+                <given-names>YH</given-names>
+              </name>
+              <name>
+                <surname>Wahlers</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Point-of-care thromboelastography/thromboelastometry-based coagulation management in cardiac surgery: a meta-analysis of&#x000a0;8332 patients.</article-title>
+            <source>J Surg Res</source>
+            <year>2016</year>
+            <month>Jun</month>
+            <day>15</day>
+            <volume>203</volume>
+            <issue>2</issue>
+            <fpage>424</fpage>
+            <page-range>424-33</page-range>
+            <pub-id pub-id-type="pmid">27363652</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wikkels&#x000f8;</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Wetterslev</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>M&#x000f8;ller</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Afshari</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Thromboelastography (TEG) or rotational thromboelastometry (ROTEM) to monitor haemostatic treatment in bleeding patients: a systematic review with meta-analysis and trial sequential analysis.</article-title>
+            <source>Anaesthesia</source>
+            <year>2017</year>
+            <month>Apr</month>
+            <volume>72</volume>
+            <issue>4</issue>
+            <fpage>519</fpage>
+            <page-range>519-531</page-range>
+            <pub-id pub-id-type="pmid">28052313</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Nakayama</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Nakajima</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Tanaka</surname>
+                <given-names>KA</given-names>
+              </name>
+              <name>
+                <surname>Sessler</surname>
+                <given-names>DI</given-names>
+              </name>
+              <name>
+                <surname>Maeda</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Iida</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Ogawa</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Mizobe</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Thromboelastometry-guided intraoperative haemostatic management reduces bleeding and red cell transfusion after paediatric cardiac surgery.</article-title>
+            <source>Br J Anaesth</source>
+            <year>2015</year>
+            <month>Jan</month>
+            <volume>114</volume>
+            <issue>1</issue>
+            <fpage>91</fpage>
+            <page-range>91-102</page-range>
+            <pub-id pub-id-type="pmid">25303988</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Whiting</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Al</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Westwood</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ramos</surname>
+                <given-names>IC</given-names>
+              </name>
+              <name>
+                <surname>Ryder</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Armstrong</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Misso</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Ross</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Severens</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Kleijnen</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Viscoelastic point-of-care testing to assist with the diagnosis, management and monitoring of haemostasis: a systematic review and cost-effectiveness analysis.</article-title>
+            <source>Health Technol Assess</source>
+            <year>2015</year>
+            <month>Jul</month>
+            <volume>19</volume>
+            <issue>58</issue>
+            <fpage>1</fpage>
+            <page-range>1-228, v-vi</page-range>
+            <pub-id pub-id-type="pmid">26215747</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hunt</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Stanworth</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Curry</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Woolley</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Cooper</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Ukoumunne</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Zhelev</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Hyde</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Thromboelastography (TEG) and rotational thromboelastometry (ROTEM) for trauma induced coagulopathy in adult trauma patients with bleeding.</article-title>
+            <source>Cochrane Database Syst Rev</source>
+            <year>2015</year>
+            <month>Feb</month>
+            <day>16</day>
+            <volume>2015</volume>
+            <issue>2</issue>
+            <fpage>CD010438</fpage>
+            <pub-id pub-id-type="pmid">25686465</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Holcomb</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Minei</surname>
+                <given-names>KM</given-names>
+              </name>
+              <name>
+                <surname>Scerbo</surname>
+                <given-names>ML</given-names>
+              </name>
+              <name>
+                <surname>Radwan</surname>
+                <given-names>ZA</given-names>
+              </name>
+              <name>
+                <surname>Wade</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name>
+                <surname>Kozar</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Gill</surname>
+                <given-names>BS</given-names>
+              </name>
+              <name>
+                <surname>Albarado</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>McNutt</surname>
+                <given-names>MK</given-names>
+              </name>
+              <name>
+                <surname>Khan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Adams</surname>
+                <given-names>PR</given-names>
+              </name>
+              <name>
+                <surname>McCarthy</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Cotton</surname>
+                <given-names>BA</given-names>
+              </name>
+            </person-group>
+            <article-title>Admission rapid thrombelastography can replace conventional coagulation tests in the emergency department: experience with 1974 consecutive trauma patients.</article-title>
+            <source>Ann Surg</source>
+            <year>2012</year>
+            <month>Sep</month>
+            <volume>256</volume>
+            <issue>3</issue>
+            <fpage>476</fpage>
+            <page-range>476-86</page-range>
+            <pub-id pub-id-type="pmid">22868371</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Da Luz</surname>
+                <given-names>LT</given-names>
+              </name>
+              <name>
+                <surname>Nascimento</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Shankarakutty</surname>
+                <given-names>AK</given-names>
+              </name>
+              <name>
+                <surname>Rizoli</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Adhikari</surname>
+                <given-names>NK</given-names>
+              </name>
+            </person-group>
+            <article-title>Effect of thromboelastography (TEG&#x000ae;) and rotational thromboelastometry (ROTEM&#x000ae;) on diagnosis of coagulopathy, transfusion guidance and mortality in trauma: descriptive systematic review.</article-title>
+            <source>Crit Care</source>
+            <year>2014</year>
+            <month>Sep</month>
+            <day>27</day>
+            <volume>18</volume>
+            <issue>5</issue>
+            <fpage>518</fpage>
+            <pub-id pub-id-type="pmid">25261079</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Veigas</surname>
+                <given-names>PV</given-names>
+              </name>
+              <name>
+                <surname>Callum</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Rizoli</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Nascimento</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>da Luz</surname>
+                <given-names>LT</given-names>
+              </name>
+            </person-group>
+            <article-title>A systematic review on the rotational thrombelastometry (ROTEM&#x000ae;) values for the diagnosis of coagulopathy, prediction and guidance of blood transfusion and prediction of mortality in trauma patients.</article-title>
+            <source>Scand J Trauma Resusc Emerg Med</source>
+            <year>2016</year>
+            <month>Oct</month>
+            <day>03</day>
+            <volume>24</volume>
+            <issue>1</issue>
+            <fpage>114</fpage>
+            <pub-id pub-id-type="pmid">27716278</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Panigada</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>E Iapichino</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Brioni</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Panarello</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Protti</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Grasselli</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Occhipinti</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Novembrino</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Consonni</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Arcadipane</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Gattinoni</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Pesenti</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Thromboelastography-based anticoagulation management during extracorporeal membrane oxygenation: a safety and feasibility pilot study.</article-title>
+            <source>Ann Intensive Care</source>
+            <year>2018</year>
+            <month>Jan</month>
+            <day>16</day>
+            <volume>8</volume>
+            <issue>1</issue>
+            <fpage>7</fpage>
+            <pub-id pub-id-type="pmid">29340875</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Collyer</surname>
+                <given-names>TC</given-names>
+              </name>
+              <name>
+                <surname>Gray</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Sandhu</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Berridge</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Lyons</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Assessment of platelet inhibition secondary to clopidogrel and aspirin therapy in preoperative acute surgical patients measured by Thrombelastography Platelet Mapping.</article-title>
+            <source>Br J Anaesth</source>
+            <year>2009</year>
+            <month>Apr</month>
+            <volume>102</volume>
+            <issue>4</issue>
+            <fpage>492</fpage>
+            <page-range>492-8</page-range>
+            <pub-id pub-id-type="pmid">19286767</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sharma</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Saxena</surname>
+                <given-names>R</given-names>
+              </name>
+            </person-group>
+            <article-title>A novel thromboelastographic score to identify overt disseminated intravascular coagulation resulting in a hypocoagulable state.</article-title>
+            <source>Am J Clin Pathol</source>
+            <year>2010</year>
+            <month>Jul</month>
+            <volume>134</volume>
+            <issue>1</issue>
+            <fpage>97</fpage>
+            <page-range>97-102</page-range>
+            <pub-id pub-id-type="pmid">20551273</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kawano-Castillo</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Ward</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Elliott</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Wetzel</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Hassler</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>McDonald</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Parker</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Archeval-Lao</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Tremont</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Cai</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Pivalizza</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Rahbar</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Grotta</surname>
+                <given-names>JC</given-names>
+              </name>
+            </person-group>
+            <article-title>Thrombelastography detects possible coagulation disturbance in patients with intracerebral hemorrhage with hematoma enlargement.</article-title>
+            <source>Stroke</source>
+            <year>2014</year>
+            <month>Mar</month>
+            <volume>45</volume>
+            <issue>3</issue>
+            <fpage>683</fpage>
+            <page-range>683-8</page-range>
+            <pub-id pub-id-type="pmid">24425123</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lisman</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Porte</surname>
+                <given-names>RJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Rebalanced hemostasis in patients with liver disease: evidence and clinical consequences.</article-title>
+            <source>Blood</source>
+            <year>2010</year>
+            <month>Aug</month>
+            <day>12</day>
+            <volume>116</volume>
+            <issue>6</issue>
+            <fpage>878</fpage>
+            <page-range>878-85</page-range>
+            <pub-id pub-id-type="pmid">20400681</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mallett</surname>
+                <given-names>SV</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical Utility of Viscoelastic Tests of Coagulation (TEG/ROTEM) in Patients with Liver Disease and during Liver Transplantation.</article-title>
+            <source>Semin Thromb Hemost</source>
+            <year>2015</year>
+            <month>Jul</month>
+            <volume>41</volume>
+            <issue>5</issue>
+            <fpage>527</fpage>
+            <page-range>527-37</page-range>
+            <pub-id pub-id-type="pmid">26049072</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Roullet</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Pillot</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Freyburger</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Biais</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Quinart</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Rault</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Revel</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Sztark</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Rotation thromboelastometry detects thrombocytopenia and hypofibrinogenaemia during orthotopic liver transplantation.</article-title>
+            <source>Br J Anaesth</source>
+            <year>2010</year>
+            <month>Apr</month>
+            <volume>104</volume>
+            <issue>4</issue>
+            <fpage>422</fpage>
+            <page-range>422-8</page-range>
+            <pub-id pub-id-type="pmid">20185519</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kozek-Langenecker</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Ahmed</surname>
+                <given-names>AB</given-names>
+              </name>
+              <name>
+                <surname>Afshari</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Albaladejo</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Aldecoa</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Barauskas</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>De Robertis</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Faraoni</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Filipescu</surname>
+                <given-names>DC</given-names>
+              </name>
+              <name>
+                <surname>Fries</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Haas</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Jacob</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Lanc&#x000e9;</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Pitarch</surname>
+                <given-names>JVL</given-names>
+              </name>
+              <name>
+                <surname>Mallett</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Meier</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Molnar</surname>
+                <given-names>ZL</given-names>
+              </name>
+              <name>
+                <surname>Rahe-Meyer</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Samama</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name>
+                <surname>Stensballe</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Van der Linden</surname>
+                <given-names>PJF</given-names>
+              </name>
+              <name>
+                <surname>Wikkels&#x000f8;</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Wouters</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Wyffels</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Zacharowski</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Management of severe perioperative bleeding: guidelines from the European Society of Anaesthesiology: First update 2016.</article-title>
+            <source>Eur J Anaesthesiol</source>
+            <year>2017</year>
+            <month>Jun</month>
+            <volume>34</volume>
+            <issue>6</issue>
+            <fpage>332</fpage>
+            <page-range>332-395</page-range>
+            <pub-id pub-id-type="pmid">28459785</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wysowski</surname>
+                <given-names>DK</given-names>
+              </name>
+              <name>
+                <surname>Nourjah</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Swartz</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Bleeding complications with warfarin use: a prevalent adverse effect resulting in regulatory action.</article-title>
+            <source>Arch Intern Med</source>
+            <year>2007</year>
+            <month>Jul</month>
+            <day>09</day>
+            <volume>167</volume>
+            <issue>13</issue>
+            <fpage>1414</fpage>
+            <page-range>1414-9</page-range>
+            <pub-id pub-id-type="pmid">17620536</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dossett</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Riesel</surname>
+                <given-names>JN</given-names>
+              </name>
+              <name>
+                <surname>Griffin</surname>
+                <given-names>MR</given-names>
+              </name>
+              <name>
+                <surname>Cotton</surname>
+                <given-names>BA</given-names>
+              </name>
+            </person-group>
+            <article-title>Prevalence and implications of preinjury warfarin use: an analysis of the National Trauma Databank.</article-title>
+            <source>Arch Surg</source>
+            <year>2011</year>
+            <month>May</month>
+            <volume>146</volume>
+            <issue>5</issue>
+            <fpage>565</fpage>
+            <page-range>565-70</page-range>
+            <pub-id pub-id-type="pmid">21242422</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rose</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Ozonoff</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Grant</surname>
+                <given-names>RW</given-names>
+              </name>
+              <name>
+                <surname>Henault</surname>
+                <given-names>LE</given-names>
+              </name>
+              <name>
+                <surname>Hylek</surname>
+                <given-names>EM</given-names>
+              </name>
+            </person-group>
+            <article-title>Epidemiology of subtherapeutic anticoagulation in the United States.</article-title>
+            <source>Circ Cardiovasc Qual Outcomes</source>
+            <year>2009</year>
+            <month>Nov</month>
+            <volume>2</volume>
+            <issue>6</issue>
+            <fpage>591</fpage>
+            <page-range>591-7</page-range>
+            <pub-id pub-id-type="pmid">20031897</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Favaloro</surname>
+                <given-names>EJ</given-names>
+              </name>
+              <name>
+                <surname>Lippi</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Laboratory testing in the era of direct or non-vitamin K antagonist oral anticoagulants: a practical guide to measuring their activity and avoiding diagnostic errors.</article-title>
+            <source>Semin Thromb Hemost</source>
+            <year>2015</year>
+            <month>Mar</month>
+            <volume>41</volume>
+            <issue>2</issue>
+            <fpage>208</fpage>
+            <page-range>208-27</page-range>
+            <pub-id pub-id-type="pmid">25703514</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Connolly</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <name>
+                <surname>Ezekowitz</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Yusuf</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Eikelboom</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Oldgren</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Parekh</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Pogue</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Reilly</surname>
+                <given-names>PA</given-names>
+              </name>
+              <name>
+                <surname>Themeles</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Varrone</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Alings</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Xavier</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Zhu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Diaz</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Lewis</surname>
+                <given-names>BS</given-names>
+              </name>
+              <name>
+                <surname>Darius</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Diener</surname>
+                <given-names>HC</given-names>
+              </name>
+              <name>
+                <surname>Joyner</surname>
+                <given-names>CD</given-names>
+              </name>
+              <name>
+                <surname>Wallentin</surname>
+                <given-names>L</given-names>
+              </name>
+              <collab>RE-LY Steering Committee and Investigators</collab>
+            </person-group>
+            <article-title>Dabigatran versus warfarin in patients with atrial fibrillation.</article-title>
+            <source>N Engl J Med</source>
+            <year>2009</year>
+            <month>Sep</month>
+            <day>17</day>
+            <volume>361</volume>
+            <issue>12</issue>
+            <fpage>1139</fpage>
+            <page-range>1139-51</page-range>
+            <pub-id pub-id-type="pmid">19717844</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Giugliano</surname>
+                <given-names>RP</given-names>
+              </name>
+              <name>
+                <surname>Ruff</surname>
+                <given-names>CT</given-names>
+              </name>
+              <name>
+                <surname>Braunwald</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Murphy</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Wiviott</surname>
+                <given-names>SD</given-names>
+              </name>
+              <name>
+                <surname>Halperin</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Waldo</surname>
+                <given-names>AL</given-names>
+              </name>
+              <name>
+                <surname>Ezekowitz</surname>
+                <given-names>MD</given-names>
+              </name>
+              <name>
+                <surname>Weitz</surname>
+                <given-names>JI</given-names>
+              </name>
+              <name>
+                <surname>&#x00160;pinar</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Ruzyllo</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Ruda</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Koretsune</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Betcher</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Shi</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Grip</surname>
+                <given-names>LT</given-names>
+              </name>
+              <name>
+                <surname>Patel</surname>
+                <given-names>SP</given-names>
+              </name>
+              <name>
+                <surname>Patel</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Hanyok</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Mercuri</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Antman</surname>
+                <given-names>EM</given-names>
+              </name>
+              <collab>ENGAGE AF-TIMI 48 Investigators</collab>
+            </person-group>
+            <article-title>Edoxaban versus warfarin in patients with atrial fibrillation.</article-title>
+            <source>N Engl J Med</source>
+            <year>2013</year>
+            <month>Nov</month>
+            <day>28</day>
+            <volume>369</volume>
+            <issue>22</issue>
+            <fpage>2093</fpage>
+            <page-range>2093-104</page-range>
+            <pub-id pub-id-type="pmid">24251359</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r46">
+          <label>46</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Figueiredo</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Vigu&#x000e9;</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Benhamou</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Duranteau</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Emergency reversal of heparin overdose in a neurosurgical patient guided by thromboelastography.</article-title>
+            <source>Br J Anaesth</source>
+            <year>2013</year>
+            <month>Aug</month>
+            <volume>111</volume>
+            <issue>2</issue>
+            <fpage>303</fpage>
+            <page-range>303-4</page-range>
+            <pub-id pub-id-type="pmid">23858079</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r47">
+          <label>47</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Matetzky</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Shenkman</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Guetta</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Shechter</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Beinart</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Goldenberg</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Novikov</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Pres</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Savion</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Varon</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Hod</surname>
+                <given-names>H</given-names>
+              </name>
+            </person-group>
+            <article-title>Clopidogrel resistance is associated with increased risk of recurrent atherothrombotic events in patients with acute myocardial infarction.</article-title>
+            <source>Circulation</source>
+            <year>2004</year>
+            <month>Jun</month>
+            <day>29</day>
+            <volume>109</volume>
+            <issue>25</issue>
+            <fpage>3171</fpage>
+            <page-range>3171-5</page-range>
+            <pub-id pub-id-type="pmid">15184279</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r48">
+          <label>48</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gum</surname>
+                <given-names>PA</given-names>
+              </name>
+              <name>
+                <surname>Kottke-Marchant</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Welsh</surname>
+                <given-names>PA</given-names>
+              </name>
+              <name>
+                <surname>White</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Topol</surname>
+                <given-names>EJ</given-names>
+              </name>
+            </person-group>
+            <article-title>A prospective, blinded determination of the natural history of aspirin resistance among stable patients with cardiovascular disease.</article-title>
+            <source>J Am Coll Cardiol</source>
+            <year>2003</year>
+            <month>Mar</month>
+            <day>19</day>
+            <volume>41</volume>
+            <issue>6</issue>
+            <fpage>961</fpage>
+            <page-range>961-5</page-range>
+            <pub-id pub-id-type="pmid">12651041</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r49">
+          <label>49</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Michelson</surname>
+                <given-names>AD</given-names>
+              </name>
+              <name>
+                <surname>Bhatt</surname>
+                <given-names>DL</given-names>
+              </name>
+            </person-group>
+            <article-title>How I use laboratory monitoring of antiplatelet therapy.</article-title>
+            <source>Blood</source>
+            <year>2017</year>
+            <month>Aug</month>
+            <day>10</day>
+            <volume>130</volume>
+            <issue>6</issue>
+            <fpage>713</fpage>
+            <page-range>713-721</page-range>
+            <pub-id pub-id-type="pmid">28600334</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r50">
+          <label>50</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kashuk</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Moore</surname>
+                <given-names>EE</given-names>
+              </name>
+              <name>
+                <surname>Sabel</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Barnett</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Haenel</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Le</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Pezold</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Lawrence</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Biffl</surname>
+                <given-names>WL</given-names>
+              </name>
+              <name>
+                <surname>Cothren</surname>
+                <given-names>CC</given-names>
+              </name>
+              <name>
+                <surname>Johnson</surname>
+                <given-names>JL</given-names>
+              </name>
+            </person-group>
+            <article-title>Rapid thrombelastography (r-TEG) identifies hypercoagulability and predicts thromboembolic events in surgical patients.</article-title>
+            <source>Surgery</source>
+            <year>2009</year>
+            <month>Oct</month>
+            <volume>146</volume>
+            <issue>4</issue>
+            <fpage>764</fpage>
+            <page-range>764-72; discussion 772-4</page-range>
+            <pub-id pub-id-type="pmid">19789037</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r51">
+          <label>51</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tartamella</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Vassallo</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Berlot</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Grassi</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Testa</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Thromboelastographic predictors of venous thromboembolic events in critically ill patients: are we missing something?</article-title>
+            <source>Blood Coagul Fibrinolysis</source>
+            <year>2016</year>
+            <month>Oct</month>
+            <volume>27</volume>
+            <issue>7</issue>
+            <fpage>804</fpage>
+            <page-range>804-811</page-range>
+            <pub-id pub-id-type="pmid">26895213</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r52">
+          <label>52</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Liu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Lu</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Ye</surname>
+                <given-names>X</given-names>
+              </name>
+            </person-group>
+            <article-title>Thrombelastography coagulation index may be a predictor of venous thromboembolism in gynecological oncology patients.</article-title>
+            <source>J Obstet Gynaecol Res</source>
+            <year>2017</year>
+            <month>Jan</month>
+            <volume>43</volume>
+            <issue>1</issue>
+            <fpage>202</fpage>
+            <page-range>202-210</page-range>
+            <pub-id pub-id-type="pmid">27762468</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r53">
+          <label>53</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Toukh</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Siemens</surname>
+                <given-names>DR</given-names>
+              </name>
+              <name>
+                <surname>Black</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Robb</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Leveridge</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Graham</surname>
+                <given-names>CH</given-names>
+              </name>
+              <name>
+                <surname>Othman</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Thromboelastography identifies hypercoagulablilty and predicts thromboembolic complications in patients with prostate cancer.</article-title>
+            <source>Thromb Res</source>
+            <year>2014</year>
+            <month>Jan</month>
+            <volume>133</volume>
+            <issue>1</issue>
+            <fpage>88</fpage>
+            <page-range>88-95</page-range>
+            <pub-id pub-id-type="pmid">24246296</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r54">
+          <label>54</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Brill</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Badiee</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Zander</surname>
+                <given-names>AL</given-names>
+              </name>
+              <name>
+                <surname>Wallace</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Lewis</surname>
+                <given-names>PR</given-names>
+              </name>
+              <name>
+                <surname>Sise</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Bansal</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Shackford</surname>
+                <given-names>SR</given-names>
+              </name>
+            </person-group>
+            <article-title>The rate of deep vein thrombosis doubles in trauma patients with hypercoagulable thromboelastography.</article-title>
+            <source>J Trauma Acute Care Surg</source>
+            <year>2017</year>
+            <month>Sep</month>
+            <volume>83</volume>
+            <issue>3</issue>
+            <fpage>413</fpage>
+            <page-range>413-419</page-range>
+            <pub-id pub-id-type="pmid">28598908</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r55">
+          <label>55</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Parameswaran</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Krishnamoorthy</surname>
+                <given-names>VP</given-names>
+              </name>
+              <name>
+                <surname>Oommen</surname>
+                <given-names>AT</given-names>
+              </name>
+              <name>
+                <surname>Jasper</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Korula</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Nair</surname>
+                <given-names>SC</given-names>
+              </name>
+              <name>
+                <surname>Poonnoose</surname>
+                <given-names>PM</given-names>
+              </name>
+            </person-group>
+            <article-title>Is pre-operative assessment of coagulation profile with Thrombelastography (TEG) useful in predicting venous thromboembolism (VTE) following orthopaedic surgery?</article-title>
+            <source>J Clin Orthop Trauma</source>
+            <year>2016</year>
+            <season>Oct-Dec</season>
+            <volume>7</volume>
+            <issue>Suppl 2</issue>
+            <fpage>225</fpage>
+            <page-range>225-229</page-range>
+            <pub-id pub-id-type="pmid">28053389</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r56">
+          <label>56</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Van</surname>
+                <given-names>PY</given-names>
+              </name>
+              <name>
+                <surname>Cho</surname>
+                <given-names>SD</given-names>
+              </name>
+              <name>
+                <surname>Underwood</surname>
+                <given-names>SJ</given-names>
+              </name>
+              <name>
+                <surname>Morris</surname>
+                <given-names>MS</given-names>
+              </name>
+              <name>
+                <surname>Watters</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Schreiber</surname>
+                <given-names>MA</given-names>
+              </name>
+            </person-group>
+            <article-title>Thrombelastography versus AntiFactor Xa levels in the assessment of prophylactic-dose enoxaparin in critically ill patients.</article-title>
+            <source>J Trauma</source>
+            <year>2009</year>
+            <month>Jun</month>
+            <volume>66</volume>
+            <issue>6</issue>
+            <fpage>1509</fpage>
+            <page-range>1509-15; discussion 1515-7</page-range>
+            <pub-id pub-id-type="pmid">19509608</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-38085.r57">
+          <label>57</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kitchen</surname>
+                <given-names>DP</given-names>
+              </name>
+              <name>
+                <surname>Kitchen</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Jennings</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Woods</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Walker</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <article-title>Quality assurance and quality control of thrombelastography and rotational Thromboelastometry: the UK NEQAS for blood coagulation experience.</article-title>
+            <source>Semin Thromb Hemost</source>
+            <year>2010</year>
+            <month>Oct</month>
+            <volume>36</volume>
+            <issue>7</issue>
+            <fpage>757</fpage>
+            <page-range>757-63</page-range>
+            <pub-id pub-id-type="pmid">20978996</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

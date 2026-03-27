@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-95893" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Types of Variables and Commonly Used Statistical Designs</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Shreffler</surname>
+            <given-names>Jacob</given-names>
+          </name>
+          <aff>University of Louisville School of Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Huecker</surname>
+            <given-names>Martin R.</given-names>
+          </name>
+          <aff>University of Louisville</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Jacob Shreffler declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Martin Huecker declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>6</day>
+          <month>3</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-95893.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">An appropriate statistical design is a critical factor in drawing inferences from any research or scientific study.<xref ref-type="bibr" rid="article-95893.r1">[1]</xref>&#x000a0;Numerous statistical designs are now feasible due to advances in data analysis software.<xref ref-type="bibr" rid="article-95893.r1">[1]</xref>&#x000a0;Healthcare providers must possess some statistical knowledge to interpret new studies and provide up-to-date patient care. We present an overview of variable types and common design patterns to facilitate understanding.<xref ref-type="bibr" rid="article-95893.r2">[2]</xref></p>
+      </sec>
+      <sec id="article-95893.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>Individuals who attempt to conduct research and choose an inappropriate design may select a flawed test and draw erroneous conclusions. This decision could lead to work being rejected for publication or (worse) lead to erroneous clinical decision-making, resulting in unsafe practice.<xref ref-type="bibr" rid="article-95893.r1">[1]</xref>&#x000a0;By understanding variable types and selecting tests appropriate to the data, individuals can draw sound conclusions and support their work for an application.<xref ref-type="bibr" rid="article-95893.r3">[3]</xref></p>
+        <p>
+<bold>Variables</bold>
+</p>
+        <p>To determine which statistical design is appropriate for the data and research plan, one must first examine the scales of each measurement.<xref ref-type="bibr" rid="article-95893.r4">[4]</xref>&#x000a0;Multiple variable types determine the appropriate design.</p>
+        <p>Ordinal data (also sometimes referred to as discrete) provide ranks and thus degrees of difference between measurements.<xref ref-type="bibr" rid="article-95893.r5">[5]</xref>&#x000a0;Likert items can serve as ordinal variables, but the Likert scale, the result of adding all the times, can be treated as a continuous variable.<xref ref-type="bibr" rid="article-95893.r6">[6]</xref>&#x000a0;For example, on a 20-item scale with each item ranging from 1 to 5, the item itself can be an ordinal variable, whereas if you add up all items, it could result in a range from 20&#x000a0;to 100. A general guideline for determining if a variable is ordinal vs continuous: if the variable has more than&#x000a0;10 options, it can be treated as a continuous variable.<xref ref-type="bibr" rid="article-95893.r7">[7]</xref>&#x000a0;The following examples are ordinal variables:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Likert items</p>
+          </list-item>
+          <list-item>
+            <p>Cancer stages</p>
+          </list-item>
+          <list-item>
+            <p>Residency Year</p>
+          </list-item>
+        </list>
+        <p>
+<bold>Nominal, Categorical, Dichotomous, Binary</bold>
+</p>
+        <p>Other variable types use interchangeable terms. Nominal and categorical variables describe samples in groups based on counts that fall within each category, have no quantitative relationships, and cannot be ranked.<xref ref-type="bibr" rid="article-95893.r8">[8]</xref>&#x000a0;Examples of these variables include:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Service (ie, emergency, internal medicine, and psychiatry)</p>
+          </list-item>
+          <list-item>
+            <p>Ethnicity</p>
+          </list-item>
+          <list-item>
+            <p>Mode of Arrival (ambulance, helicopter, car)</p>
+          </list-item>
+        </list>
+        <p>A dichotomous or a binary variable is in the same family as nominal/categorical, but this type has only&#x000a0;2 options. Binary logistic regression, discussed below, has 2 options for the outcome of interest in the analysis. Often used as (yes/no), examples of dichotomous or binary variables would be:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Alive (yes vs no)</p>
+          </list-item>
+          <list-item>
+            <p>Insurance (yes vs no)</p>
+          </list-item>
+          <list-item>
+            <p>Readmitted (yes vs no)</p>
+          </list-item>
+        </list>
+        <p>With this overview of variable types, commonly used statistical designs for different measurement scales are presented. Importantly, before selecting a statistical test, individuals should perform exploratory data analysis to ensure data integrity and consider type I and type II errors, as well as power. Furthermore, investigators should ensure that appropriate statistical assumptions are met.<xref ref-type="bibr" rid="article-95893.r9">[9]</xref><xref ref-type="bibr" rid="article-95893.r10">[10]</xref>&#x000a0;For example, parametric tests, including those discussed below (t-tests, analysis of variance (ANOVA), correlation, and regression), require that the data follow a normal distribution and that the variances within each group be similar.<xref ref-type="bibr" rid="article-95893.r6">[6]</xref><xref ref-type="bibr" rid="article-95893.r11">[11]</xref>&#x000a0;After addressing issues identified through exploratory data analysis and reducing the risk of type I and type II errors, a statistical test can be selected. Below is a brief introduction to the most commonly used statistical designs, with examples of each. An example of&#x000a0;1 research focus, with each statistical design type discussed, is provided in Table 1 to illustrate commonly used designs.&#x000a0;</p>
+        <p>
+<bold>Commonly Used Statistical Designs</bold>
+</p>
+        <p>
+<bold>Independent Samples T-test</bold>
+</p>
+        <p>An independent samples t-test allows a comparison of&#x000a0;2 groups of subjects on&#x000a0;1 (continuous) variable. Examples in biomedical research include comparing treatment outcomes with control-group results and examining differences in males vs females.</p>
+        <p>Example: Does adherence to the ketogenic diet (yes/no;&#x000a0;2 groups) have a differential effect on total sleep time (minutes; continuous)?</p>
+        <p>
+<bold>Paired T-test</bold>
+</p>
+        <p>A paired t-test analyzes a single sample, measuring the same variable on&#x000a0;2 occasions; this is often useful in intervention and educational research.</p>
+        <p>Example<italic toggle="yes">:&#x000a0;</italic>Does participating in a research curriculum (one group with intervention) improve resident performance on a test to measure research competence (continuous)?</p>
+        <p>
+<bold>One-Way Analysis of Variance (ANOVA)</bold>
+</p>
+        <p>Analysis of variance (ANOVA), an extension of the t-test, tests differences among more than&#x000a0;2 groups (independent variables) using a dependent variable.<xref ref-type="bibr" rid="article-95893.r11">[11]</xref>&#x000a0;ANOVA is preferable to conducting multiple t-tests as it reduces the likelihood of committing a Type I error.</p>
+        <p>Example: Are there differences in length of stay in the hospital (continuous) based on the mode of arrival (car, ambulance, helicopter,&#x000a0;3 groups)?</p>
+        <p>
+<bold>Repeated Measures ANOVA</bold>
+</p>
+        <p>Another procedure commonly used when data for individuals are repeated (repeatedly measured) is repeated-measures ANOVA.<xref ref-type="bibr" rid="article-95893.r1">[1]</xref>&#x000a0;In these studies, multiple measurements of the dependent variable are collected from the study participants.<xref ref-type="bibr" rid="article-95893.r11">[11]</xref>&#x000a0;A within-subjects repeated measures ANOVA determines effects based on the treatment variable alone, whereas mixed ANOVAs allow both between-group effects and within-subjects to be considered.</p>
+        <p>Within-Subjects Example: How does ketamine affect mean arterial pressure (continuous variable) over time (repeated measurement)?</p>
+        <p>Mixed Example: Does mean arterial pressure (continuous) differ between males and females (2 groups; mixed) on ketamine throughout a surgical procedure (over time; repeated measurement)?<bold>&#x000a0;</bold></p>
+        <p>
+<bold>Nonparametric Tests</bold>
+</p>
+        <p>Nonparametric tests, such as the Mann-Whitney U test (2 groups; nonparametric t-test), Kruskal Wallis test (multiple groups; nonparametric ANOVA), Spearman&#x02019;s rho (nonparametric correlation coefficient) can be used when data are ordinal or lack normality.<xref ref-type="bibr" rid="article-95893.r3">[3]</xref><xref ref-type="bibr" rid="article-95893.r5">[5]</xref>&#x000a0;Not requiring normality means these tests can analyze skewed data; they require fewer assumptions.<xref ref-type="bibr" rid="article-95893.r11">[11]</xref></p>
+        <p>Example: Is there a relationship between insurance status (2 groups) and cancer stage (ordinal)?<bold>&#x000a0;</bold></p>
+        <p>
+<bold>Chi-square</bold>
+</p>
+        <p>A Chi-square test determines the effect of relationships between categorical variables, which determines frequencies and proportions into which these variables fall.<xref ref-type="bibr" rid="article-95893.r11">[11]</xref>&#x000a0;As with other tests discussed, variants and extensions of the chi-square test (eg, Fisher&#x02019;s exact test, the McNemar test) may be suitable depending on the variables.<xref ref-type="bibr" rid="article-95893.r8">[8]</xref></p>
+        <p>Example: Is there a relationship between individuals with methamphetamine in their system (yes vs no; dichotomous) and gender (male or female; dichotomous)?</p>
+        <p>
+<bold>Correlation</bold>
+</p>
+        <p>Correlations (used interchangeably with &#x02018;associations&#x02019;) signal patterns in data between variables.<xref ref-type="bibr" rid="article-95893.r1">[1]</xref>&#x000a0;A positive association occurs if values in&#x000a0;1 variable increase as values in another also increase. A negative association occurs when&#x000a0;1 variable decreases as the other increases. A correlation coefficient, expressed as <italic toggle="yes">r,&#x000a0;</italic>describes the strength of the relationship: a value of 0 means no relationship, and the relationship strengthens as r approaches 1 (positive relationship) or -1 (negative association).<xref ref-type="bibr" rid="article-95893.r5">[5]</xref></p>
+        <p>Example: Is there a relationship between age (continuous) and satisfaction with life survey scores (continuous)?</p>
+        <p>
+<bold>Linear Regression</bold>
+</p>
+        <p>Regression allows researchers to quantify the strength of relationships between a dependent variable and independent variables and yields a predictive equation.<xref ref-type="bibr" rid="article-95893.r11">[11]</xref>&#x000a0;A large number of variables are usable in regression methods.</p>
+        <p>Example: Which admission to the hospital metrics (multiple continuous) best predict the total length of stay (minutes; continuous)?</p>
+        <p>
+<bold>Binary Logistic Regression</bold>
+</p>
+        <p>This type of regression, which aims to predict an outcome, is appropriate when the dependent variable is binary (yes/no; cured/not cured).<xref ref-type="bibr" rid="article-95893.r12">[12]</xref></p>
+        <p>Example: Which panel results (multiple of continuous, ordinal, categorical, dichotomous) best predict whether or not an individual&#x000a0;has a positive blood culture (dichotomous/binary)?</p>
+        <p>The table provides&#x000a0;additional examples of commonly used statistical designs by presenting 1 research focus and discussing each type of statistical design (see&#x000a0;<bold>Table.</bold>&#x000a0;Types of Variables and Statistical Designs).</p>
+      </sec>
+      <sec id="article-95893.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Although numerous other statistical designs and extensions of the methods covered in this&#x000a0;topic exist, the above information provides a starting point for healthcare providers to become familiar with variables and commonly used designs. Researchers should examine variable types before selecting statistical tests to obtain relevant measures and valid study results.<xref ref-type="bibr" rid="article-95893.r6">[6]</xref>&#x000a0;There is a recommendation to consult a statistician to ensure appropriate use of the statistical design, given the variables, and that the assumptions are met.<xref ref-type="bibr" rid="article-95893.r1">[1]</xref>&#x000a0;With the variety of statistical software available, investigators must a priori understand the type of statistical tests when designing a study.<xref ref-type="bibr" rid="article-95893.r13">[13]</xref>&#x000a0;All providers must interpret and critically appraise journal publications to make evidence-based clinical decisions, and this is enhanced by a limited yet sound understanding of variables and commonly used study designs.<xref ref-type="bibr" rid="article-95893.r14">[14]</xref></p>
+      </sec>
+      <sec id="article-95893.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>All interprofessional healthcare team members need to be familiar with study design and the variables used in studies to accurately evaluate new data and studies as they are published, and apply the latest data to patient care&#x000a0;and drive optimal outcomes.</p>
+      </sec>
+      <sec id="article-95893.s5">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=95893&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=95893">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/95893/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=95893">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-95893.s6">
+        <fig id="article-95893.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Types of Variables and Statistical Designs.&#x000a0; Contributed by M Huecker, MD, and J Shreffler, PhD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Variables__and__Statistical__Designs__Table__1" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-95893.s7">
+        <title>References</title>
+        <ref id="article-95893.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cassidy</surname>
+                <given-names>LD</given-names>
+              </name>
+            </person-group>
+            <article-title>Basic concepts of statistical analysis for surgical research.</article-title>
+            <source>J Surg Res</source>
+            <year>2005</year>
+            <month>Oct</month>
+            <volume>128</volume>
+            <issue>2</issue>
+            <fpage>199</fpage>
+            <page-range>199-206</page-range>
+            <pub-id pub-id-type="pmid">16140341</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95893.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Scales</surname>
+                <given-names>CD</given-names>
+              </name>
+              <name>
+                <surname>Peterson</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Dahm</surname>
+                <given-names>P</given-names>
+              </name>
+            </person-group>
+            <article-title>Interpreting statistics in the urological literature.</article-title>
+            <source>J Urol</source>
+            <year>2006</year>
+            <month>Nov</month>
+            <volume>176</volume>
+            <issue>5</issue>
+            <fpage>1938</fpage>
+            <page-range>1938-45</page-range>
+            <pub-id pub-id-type="pmid">17070214</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95893.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Oliver</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Mahon</surname>
+                <given-names>SM</given-names>
+              </name>
+            </person-group>
+            <article-title>Reading a research article part II: parametric and nonparametric statistics.</article-title>
+            <source>Clin J Oncol Nurs</source>
+            <year>2005</year>
+            <month>Apr</month>
+            <volume>9</volume>
+            <issue>2</issue>
+            <fpage>238</fpage>
+            <page-range>238-40</page-range>
+            <pub-id pub-id-type="pmid">15853166</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95893.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>McCrum-Gardner</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Which is the correct statistical test to use?</article-title>
+            <source>Br J Oral Maxillofac Surg</source>
+            <year>2008</year>
+            <month>Jan</month>
+            <volume>46</volume>
+            <issue>1</issue>
+            <fpage>38</fpage>
+            <page-range>38-41</page-range>
+            <pub-id pub-id-type="pmid">17961892</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95893.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Neideen</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Brasel</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Understanding statistical tests.</article-title>
+            <source>J Surg Educ</source>
+            <year>2007</year>
+            <season>Mar-Apr</season>
+            <volume>64</volume>
+            <issue>2</issue>
+            <fpage>93</fpage>
+            <page-range>93-6</page-range>
+            <pub-id pub-id-type="pmid">17462209</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95893.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mayya</surname>
+                <given-names>SS</given-names>
+              </name>
+              <name>
+                <surname>Monteiro</surname>
+                <given-names>AD</given-names>
+              </name>
+              <name>
+                <surname>Ganapathy</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Types of biological variables.</article-title>
+            <source>J Thorac Dis</source>
+            <year>2017</year>
+            <month>Jun</month>
+            <volume>9</volume>
+            <issue>6</issue>
+            <fpage>1730</fpage>
+            <page-range>1730-1733</page-range>
+            <pub-id pub-id-type="pmid">28740689</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95893.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mishra</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Pandey</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name>
+                <surname>Singh</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Gupta</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Scales of measurement and presentation of statistical data.</article-title>
+            <source>Ann Card Anaesth</source>
+            <year>2018</year>
+            <season>Oct-Dec</season>
+            <volume>21</volume>
+            <issue>4</issue>
+            <fpage>419</fpage>
+            <page-range>419-422</page-range>
+            <pub-id pub-id-type="pmid">30333338</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95893.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Taub</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name>
+                <surname>Westheimer</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Biostatistics.</article-title>
+            <source>Plast Reconstr Surg</source>
+            <year>2009</year>
+            <month>Aug</month>
+            <volume>124</volume>
+            <issue>2</issue>
+            <fpage>200e</fpage>
+            <page-range>200e-208e</page-range>
+            <pub-id pub-id-type="pmid">19644245</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95893.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Oliver</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Mahon</surname>
+                <given-names>SM</given-names>
+              </name>
+            </person-group>
+            <article-title>Reading a research article part I: Types of variables.</article-title>
+            <source>Clin J Oncol Nurs</source>
+            <year>2005</year>
+            <month>Feb</month>
+            <volume>9</volume>
+            <issue>1</issue>
+            <fpage>110</fpage>
+            <page-range>110-2</page-range>
+            <pub-id pub-id-type="pmid">15751506</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95893.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Chew</surname>
+                <given-names>BH</given-names>
+              </name>
+            </person-group>
+            <article-title>Planning and Conducting Clinical Research: The Whole Process.</article-title>
+            <source>Cureus</source>
+            <year>2019</year>
+            <month>Feb</month>
+            <day>20</day>
+            <volume>11</volume>
+            <issue>2</issue>
+            <fpage>e4112</fpage>
+            <pub-id pub-id-type="pmid">31058006</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95893.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Giuliano</surname>
+                <given-names>KK</given-names>
+              </name>
+              <name>
+                <surname>Polanowicz</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Interpretation and use of statistics in nursing research.</article-title>
+            <source>AACN Adv Crit Care</source>
+            <year>2008</year>
+            <season>Apr-Jun</season>
+            <volume>19</volume>
+            <issue>2</issue>
+            <fpage>211</fpage>
+            <page-range>211-22</page-range>
+            <pub-id pub-id-type="pmid">18560290</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95893.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Jupiter</surname>
+                <given-names>DC</given-names>
+              </name>
+            </person-group>
+            <article-title>A variety of variables.</article-title>
+            <source>J Foot Ankle Surg</source>
+            <year>2014</year>
+            <season>Jan-Feb</season>
+            <volume>53</volume>
+            <issue>1</issue>
+            <fpage>124</fpage>
+            <page-range>124-5</page-range>
+            <pub-id pub-id-type="pmid">23790408</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95893.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>De Muth</surname>
+                <given-names>JE</given-names>
+              </name>
+            </person-group>
+            <article-title>Preparing for the first meeting with a statistician.</article-title>
+            <source>Am J Health Syst Pharm</source>
+            <year>2008</year>
+            <month>Dec</month>
+            <day>15</day>
+            <volume>65</volume>
+            <issue>24</issue>
+            <fpage>2358</fpage>
+            <page-range>2358-66</page-range>
+            <pub-id pub-id-type="pmid">19052282</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-95893.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rickard</surname>
+                <given-names>CM</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistics for clinical nursing practice: an introduction.</article-title>
+            <source>Aust Crit Care</source>
+            <year>2008</year>
+            <month>Nov</month>
+            <volume>21</volume>
+            <issue>4</issue>
+            <fpage>216</fpage>
+            <page-range>216-9</page-range>
+            <pub-id pub-id-type="pmid">18926715</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

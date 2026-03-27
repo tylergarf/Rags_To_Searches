@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-18323" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>T Test</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Wadhwa</surname>
+            <given-names>Raoul R.</given-names>
+          </name>
+          <aff>Cleveland Clinic Lerner College of Med</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Marappa-Ganeshan</surname>
+            <given-names>Raghavendra</given-names>
+          </name>
+          <aff>NHS Health Education England</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Raoul Wadhwa declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Raghavendra Marappa-Ganeshan declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>16</day>
+          <month>1</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-18323.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">William Sealy Gosset first described the t-test in 1908, when he published his article under the pseudonym 'student' while working for a brewery.<xref ref-type="bibr" rid="article-18323.r1">[1]</xref>&#x000a0;In simple terms, a Student's t-test is a ratio that quantifies how significant the difference is between the 'means' of&#x000a0;2 groups while considering their variance or distribution.</p>
+      </sec>
+      <sec id="article-18323.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>Selecting appropriate statistical tests is a critical step in conducting research.<xref ref-type="bibr" rid="article-18323.r2">[2]</xref>&#x000a0;Therefore, there are&#x000a0;3 forms of Student&#x02019;s t-test about which physicians, particularly physician-scientists, need to be aware: (1) 1-sample t-test, (2) 2-sample t-test, and (3) 2-sample paired t-test. The 1-sample t-test evaluates a single list of numbers to test the hypothesis that a statistic of that set is equal to a chosen value, for instance, to test the hypothesis that the mean of the set of numbers is equal to zero. For example, consider the following question: what is the average serum sodium concentration in adults? Currently, 140 mEq/L is an approximate center of a reference range of 135 to 145 mEq/L; thus, the null hypothesis is that the average serum sodium concentration in adults equals 140 mEq/L.</p>
+        <p>If you believe these numbers are wrong (alternate hypothesis) or want to test the original hypothesis, you could collect blood from a set of subjects, measure the sodium concentration in each sample, and then take the mean of this set. If the mean is 140.1 mEq/L, you probably do not have convincing evidence that the above numbers are faulty (since 140 and 140.1 are&#x000a0;fairly close). Thus, you would fail to reject the null hypothesis. However, if your sample has a mean of 70 mEq/L,&#x000a0;this could be preliminary evidence (assuming rigorous methodology) and could end up rejecting the null hypothesis. The decision-making process would be trickier if the sample's mean were 134 or 150 mEq/L. The t-test can reduce subjective influence when testing a null hypothesis. Before testing a hypothesis, researchers should choose the alpha and beta values of the test. Loosely, the alpha parameter determines the threshold for false-positive results (eg, if the mean serum sodium concentration is 140 mEq/L, but the t-test rejects the original hypothesis in favor of your new hypothesis). The beta parameter determines the threshold for false-negative results (eg, if the true mean serum sodium concentration is 200 mEq/L, but the t-test fails to reject the old hypothesis). Methods of alpha and beta selection are outside this&#x000a0;topic's scope.</p>
+        <p>While the 1-sample t-test allows you to test the statistic of a single set of numbers against a specific numeric value, the 2-sample t-test allows testing the values of a statistic between&#x000a0;2 groups. In this case, a research question could be: do children and adults have the same mean serum sodium concentration? Testing this hypothesis would require sampling&#x000a0;2 groups, a group of adults and a group of children, and comparing the mean serum sodium concentrations between these&#x000a0;2 groups in a manner analogous to the 1-sample t-test described above. The paired t-test is used in scenarios where measurements from the&#x000a0;2 groups have a link to one another. In the example above concerning the mean serum sodium concentration of children and adults, the implicit assumption was that all the measurements would be completed at&#x000a0;1 point in time in a set of children and a distinct set of adults. However, it would also be possible to measure serum sodium concentrations in a set of children, wait a few years until they are adults, and then measure the serum sodium concentrations again. Here, each adult's sodium concentration corresponds to exactly&#x000a0;1 child's sodium concentration. A paired 2-sample t-test can be used to capture the dependence of measurements between the&#x000a0;2 groups.</p>
+        <p>These variations of the student's t-test use observed or collected data to calculate a test statistic, which can then be used to calculate a p-value. Often misinterpreted, the p-value is equal to the probability of collecting data that is at least as extreme as the observed data in the study, assuming that the null hypothesis is true.<xref ref-type="bibr" rid="article-18323.r3">[3]</xref>&#x000a0;Examples best illustrate this concept, as in the article's questions. Often, a threshold value is set before the study (equal to the alpha mentioned above); if the resulting p-value is below the preset threshold, there is sufficient evidence to reject the null hypothesis.</p>
+        <p>In the above scenarios, before using any form of the t-test, one must ensure that the assumptions for the test have been met. This article does not list or explain these assumptions in detail. Please follow the guidance of a trained statistician when designing research studies and conducting data analysis.</p>
+      </sec>
+      <sec id="article-18323.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Given the rate of research progress, disease management (medical or surgical) continuously evolves. To follow the framework of evidence-based medicine, physicians must be able to read and critically evaluate primary literature.<xref ref-type="bibr" rid="article-18323.r4">[4]</xref><xref ref-type="bibr" rid="article-18323.r5">[5]</xref>&#x000a0;The ability to do this successfully requires at least a basic foundation of knowledge in statistics, including common biases (eg, nonresponse bias), standard study designs (eg, randomized controlled trials), and common statistical pitfalls researchers face (eg, statistically significant results that are not clinically significant).<xref ref-type="bibr" rid="article-18323.r6">[6]</xref><xref ref-type="bibr" rid="article-18323.r7">[7]</xref> Understanding a student&#x02019;s t-test is a start for clinicians gaining this necessary foundation of knowledge.</p>
+      </sec>
+      <sec id="article-18323.s4">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=18323&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=18323">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/18323/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=18323">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-18323.s5">
+        <title>References</title>
+        <ref id="article-18323.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Drummond</surname>
+                <given-names>GB</given-names>
+              </name>
+              <name>
+                <surname>Tom</surname>
+                <given-names>BD</given-names>
+              </name>
+            </person-group>
+            <article-title>Statistics, probability, significance, likelihood: words mean what we define them to mean.</article-title>
+            <source>J Physiol</source>
+            <year>2011</year>
+            <month>Aug</month>
+            <day>15</day>
+            <volume>589</volume>
+            <issue>Pt 16</issue>
+            <fpage>3901</fpage>
+            <page-range>3901-4</page-range>
+            <pub-id pub-id-type="pmid">21844004</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18323.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Beath</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Jones</surname>
+                <given-names>MP</given-names>
+              </name>
+            </person-group>
+            <article-title>Guided by the research design: choosing the right statistical test.</article-title>
+            <source>Med J Aust</source>
+            <year>2018</year>
+            <month>Mar</month>
+            <day>05</day>
+            <volume>208</volume>
+            <issue>4</issue>
+            <fpage>163</fpage>
+            <page-range>163-165</page-range>
+            <pub-id pub-id-type="pmid">29490219</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18323.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Andrade</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>The <italic>P</italic> Value and Statistical Significance: Misunderstandings, Explanations, Challenges, and Alternatives.</article-title>
+            <source>Indian J Psychol Med</source>
+            <year>2019</year>
+            <season>May-Jun</season>
+            <volume>41</volume>
+            <issue>3</issue>
+            <fpage>210</fpage>
+            <page-range>210-215</page-range>
+            <pub-id pub-id-type="pmid">31142921</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18323.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ioannidis</surname>
+                <given-names>JP</given-names>
+              </name>
+            </person-group>
+            <article-title>Why Most Clinical Research Is Not Useful.</article-title>
+            <source>PLoS Med</source>
+            <year>2016</year>
+            <month>Jun</month>
+            <volume>13</volume>
+            <issue>6</issue>
+            <fpage>e1002049</fpage>
+            <pub-id pub-id-type="pmid">27328301</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18323.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ioannidis</surname>
+                <given-names>JP</given-names>
+              </name>
+            </person-group>
+            <article-title>Why most published research findings are false.</article-title>
+            <source>PLoS Med</source>
+            <year>2005</year>
+            <month>Aug</month>
+            <volume>2</volume>
+            <issue>8</issue>
+            <fpage>e124</fpage>
+            <pub-id pub-id-type="pmid">16060722</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18323.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Amrhein</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Greenland</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>McShane</surname>
+                <given-names>B</given-names>
+              </name>
+            </person-group>
+            <article-title>Scientists rise up against statistical significance.</article-title>
+            <source>Nature</source>
+            <year>2019</year>
+            <month>Mar</month>
+            <volume>567</volume>
+            <issue>7748</issue>
+            <fpage>305</fpage>
+            <page-range>305-307</page-range>
+            <pub-id pub-id-type="pmid">30894741</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-18323.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lang</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Twenty statistical errors even you can find in biomedical research articles.</article-title>
+            <source>Croat Med J</source>
+            <year>2004</year>
+            <month>Aug</month>
+            <volume>45</volume>
+            <issue>4</issue>
+            <fpage>361</fpage>
+            <page-range>361-70</page-range>
+            <pub-id pub-id-type="pmid">15311405</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

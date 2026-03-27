@@ -1,0 +1,1557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-23565" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Insulin Pump</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Yao</surname>
+            <given-names>Phil Y.</given-names>
+          </name>
+          <aff>Seattle Childrens</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Ahsun</surname>
+            <given-names>Sana</given-names>
+          </name>
+          <aff>Einstein Healthcare Network</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Anastasopoulou</surname>
+            <given-names>Catherine</given-names>
+          </name>
+          <aff>Jefferson Einstein Medical Center</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Tadi</surname>
+            <given-names>Prasanna</given-names>
+          </name>
+          <aff>Asram Medical College, Eluru, India</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Phil Yao declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Sana Ahsun declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Catherine Anastasopoulou declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Prasanna Tadi declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>28</day>
+          <month>8</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-23565.s1" sec-type="Definition/Introduction">
+        <title>Definition/Introduction</title>
+        <p content-type="pubmed-excerpt">The prevalence of diabetes has increased&#x000a0;fourfold in the last&#x000a0;three to four decades. It currently affects more than 500 million people in the world. Of these, 90% of this is type 2 diabetes. Although oral medications can also manage type 2 diabetes, a&#x000a0;significant percentage of these people require insulin for proper glycemic control. Type 1 diabetes is solely insulin-dependent and involves a substantial portion of young kids &#x0003c; 18 years of age, posing a&#x000a0;considerable challenge to their management.<xref ref-type="bibr" rid="article-23565.r1">[1]</xref><xref ref-type="bibr" rid="article-23565.r2">[2]</xref></p>
+        <p>Insulin delivery has evolved remarkably over the last century. In the early 20th century, the first type 1 diabetic was treated with insulin, which served as a lifesaving measure for this patient.<xref ref-type="bibr" rid="article-23565.r3">[3]</xref> Later on, advancements in insulin production led to the development of human insulin by the end of the 20th century. Currently, we have many insulin preparations available, including short-acting, ultra short-acting, long-acting, ultra long-acting, intermediate-acting, and mixed preparations.<xref ref-type="bibr" rid="article-23565.r3">[3]</xref>&#x000a0;The insulin analogs have been prepared through genetic engineering and are very similar to human insulin. The development of insulin pens has&#x000a0;tremendously improved insulin delivery in terms of ease and accuracy.&#x000a0;&#x000a0;</p>
+        <p>Late in the 20th century, a continuous subcutaneous insulin infusion (CSII) delivery system was developed, which is currently commonly known as an insulin pump. The first insulin pump was about the size of an Army backpack. The closed-loop pumps were designed to deliver insulin and dextrose as needed as a computerized algorithm calculated the&#x000a0;dosing through the real-time measurement of blood glucose since the blood glucose analyzer was inside the insulin pump. But the&#x000a0;size and the complexity of those devices limited their use, and they were solely used for research purposes. The next generation devices had&#x000a0;an open-loop insulin delivery, which was delivered intravenously at a preset rate and boluses at 15 times the set rate. But recurrent infections and phlebitis also limited the use of these sets of insulin pumps. In 1976 the first commercial insulin pump was developed that was called&#x000a0;blue brick and was later termed the Auto Syringe. It was designed by Kamen. Complications, including hyperglycemia, diabetic ketoacidosis, and infection at the injection site, were common with early pumps causing the limited acceptance of this technology until the 1990s.</p>
+        <p>Newer and more refined technology has now revolutionized insulin pumps in terms of their ease of use and the quality of care, resulting in improved&#x000a0;glycemic control. There has been growing popularity of these devices, and insulin pumps are now becoming the mainstay of treatment for insulin-dependent diabetes. Recent studies report population disparity in the access to insulin pumps even when medical insurance plans cover the cost.<xref ref-type="bibr" rid="article-23565.r4">[4]</xref></p>
+        <p>Insulin pumps are devices that continuously deliver short-acting insulin at a predetermined or auto-adjusted rate per hour.&#x000a0;</p>
+        <p>
+<bold>Insulin Pump Parts</bold>
+</p>
+        <list list-type="order">
+          <list-item>
+            <p>The pump itself</p>
+          </list-item>
+          <list-item>
+            <p>Infusion set</p>
+          </list-item>
+          <list-item>
+            <p>Sensor and transmitter in sensor-augmented insulin pumps</p>
+          </list-item>
+        </list>
+        <p>For most devices, the pump and infusion set are separate, connected by thin plastic tubing, but some devices combine both into one called the tubeless pump. The infusion set is attached to the patient with a cannula placed in the subcutaneous tissue and secured with adhesive. Infusion sets are typically placed into the upper arm, abdomen, lower back, or upper thigh. The pump contains the reservoir and the battery. The reservoir is changed every two to three days. The reservoir typically holds a two to three-day supply of rapid-acting insulin analog depending on the patient's total daily insulin needs. It requires replacement after all the insulin is used up in the reservoir. Battery requirements vary from device to device; some contain a rechargeable lithium battery&#x000a0;that uses a cable, whereas others require a standard alkaline battery. Pumps should always be on if there is a functioning battery. Often the pump will be in standby mode to conserve battery. From the home screen of the insulin pump, there will be options to review basal insulin settings and the history of delivered insulin boluses. Additionally, there will be settings for priming the device for changing infusion sets and insulin reservoirs. Returning to an active home screen requires a specific series of button presses that vary depending on the device.</p>
+        <p>
+<bold>Insulin type used:</bold> This is usually rapid-acting insulin-like lispro, aspart, or glulisine, but also any kind of rapid-acting insulin can be used in an insulin pump.<xref ref-type="bibr" rid="article-23565.r5">[5]</xref>&#x000a0;In some cases with uncontrolled diabetes and a total daily dose (TDD) of over 100 Units of insulin, U-500 concentrated regular insulin can also be used in the insulin pump. This reduces the frequency at which the reservoir has to be changed.&#x000a0;<xref ref-type="bibr" rid="article-23565.r6">[6]</xref></p>
+        <p>
+<bold>Insulin Delivery</bold>
+</p>
+        <p>Basal: Insulin is continuously delivered at a preset rate or an auto-adjusted rate for a basal supply lasting 24 hours.</p>
+        <p>Mealtime Bolus: Insulin is also delivered at the time of meals as a mealtime bolus. Bolus is calculated based on the number of carbs entered by the patient. The insulin to carb ratio (ICR) has to be entered into the pump beforehand by the patient or their clinician and is calculated by the formula: ICR: 450/TDD. ICR reflects the number of grams of carbs covered by one unit of insulin. With insulin pumps, there is the option for different bolus profiles, including dual wave, short extended, and long extended boluses, which will be discussed below.<xref ref-type="bibr" rid="article-23565.r7">[7]</xref></p>
+        <p>The patient also gets a correction bolus along with the mealtime bolus insulin, and the correction is calculated based on the insulin sensitivity factor (ISF). ISF shows how much the blood glucose is lowered by 1 unit of insulin. ISF is calculated by the formula: 1700/TDD.&#x000a0;</p>
+        <p>There are currently&#x000a0;two different modes in which the insulin pumps can be used:</p>
+        <list list-type="order">
+          <list-item>
+            <p>Auto mode: In this mode, the pump is usually connected to or communicates to a continuous glucose monitoring device (CGM). Preset algorithms will change the basal rate of insulin delivery and adjust it based on blood glucose. There is a basal IQ and also a control IQ as some examples of the auto mode. There are also temporary basal rates in situations with higher or lower insulin requirements. The rate is adjusted based on the ISF.</p>
+          </list-item>
+          <list-item>
+            <p>Manual Mode: In this mode, the user, or the physician, can set a predetermined basal rate based on the total daily dose of insulin needed by that patient. The rates can be adjusted and have to be entered manually.&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>The hybrid closed-loop system is the first generation of automated insulin delivery, which dynamically modulates basal insulin delivery but still requires the users to administer boluses.&#x000a0;</p>
+        <p>Some newer modalities will come to market, like fully automated multi-hormonal closed-loop systems.<xref ref-type="bibr" rid="article-23565.r8">[8]</xref></p>
+        <p>Automated adjustment of bolus calculators is available to improve glycemic control and postprandial spikes.<xref ref-type="bibr" rid="article-23565.r9">[9]</xref></p>
+        <p>Insulin pump treatment is associated with improved glycemic control and decreased number of daily injections. Although the data does not document a clear difference in glycemic control in young children, there is increased user satisfaction among the parents of the kids with the use of insulin pumps.<xref ref-type="bibr" rid="article-23565.r10">[10]</xref></p>
+        <p>There is also a feature that allows for a dual wave bolus, which involves a usual pre-meal insulin bolus followed by&#x000a0;an extended bolus delivered evenly over many hours as programmed by the patient. The study comparing the normal bolus delivery with the dual wave bolus showed improved glycemic control in patients receiving the dual wave bolus, and it prevented prolonged postprandial hyperglycemic excursions.<xref ref-type="bibr" rid="article-23565.r11">[11]</xref></p>
+        <p>Duration of insulin action: This is the time rapid-acting insulin will take to control blood glucose. Duration of insulin action is a decline in bolus activity by 20&#x000a0;to 25% each hour. As a result, a certain percentage of insulin is still available at the end of 3&#x000a0;to 4 hours. In general, the greater the bolus amount of insulin is, the higher the amount of insulin is available at the end of that time.<xref ref-type="bibr" rid="article-23565.r12">[12]</xref>&#x000a0;Insulin on board is a term used to describe the amount of insulin available after a bolus is delivered for the next 3&#x000a0;to 5 hours as determined by the preset insulin action time in the insulin pump.&#x000a0;</p>
+        <p>There are also features associated with hypoglycemia suspension of the pumps used in auto mode with the sensor-augmented version. This function is referred to as threshold suspend (TS), or low glucose suspends (LGS).<xref ref-type="bibr" rid="article-23565.r13">[13]</xref> There is a 40&#x000a0;to 50% decrease in the rate of hypoglycemia without any significant increase in HbA1c. Another technology known as predictive low glucose suspend (PLGS) will suspend the insulin delivery almost 30 minutes before hypoglycemia is expected to occur.</p>
+      </sec>
+      <sec id="article-23565.s2" sec-type="Issues of Concern">
+        <title>Issues of Concern</title>
+        <p>Infusion site infection, erythema, induration, tenderness to palpation, or signs of fluid leakage from the infusion site are some of the commonest problems that can arise. They are all indications for removal and the need for a new site to be&#x000a0;chosen at a different location.<xref ref-type="bibr" rid="article-23565.r14">[14]</xref></p>
+        <p>Hyperglycemia: Insulin analogs are rapid-acting, with the onset of action within 15 minutes, peaking in approximately 60 minutes, and lasting less than five hours after injection. In patients on a continuous subcutaneous insulin infusion, hyperglycemia secondary to disruption in insulin delivery must be on the differential.</p>
+        <p>The clinician should always check the infusion site during the physical exam. The easiest way to evaluate is to deliver an insulin bolus via the pump and recheck blood glucose. If blood glucose remains elevated despite insulin bolus, the tubing or infusion set is likely compromised and requires replacement.<xref ref-type="bibr" rid="article-23565.r15">[15]</xref> If the patient is unable to replace&#x000a0;the unit,&#x000a0;then restarting multiple daily injections with long and short-acting insulins should be considered. The daily requirement of long-acting insulin can be calculated from the patient's total daily needs&#x000a0;of their&#x000a0;basal rate.</p>
+        <p>Diabetic ketoacidosis (DKA): Since insulin analogs remain active for a relatively short duration, the risk for diabetic ketoacidosis is a concern as these patients do not have long-acting insulin in their system. Studies comparing the incidence of DKA in patients treated with continuous subcutaneous insulin infusion versus multiple daily injections have demonstrated lower rates of DKA in patients on a continuous subcutaneous insulin infusion.<xref ref-type="bibr" rid="article-23565.r16">[16]</xref></p>
+        <p>In rare case reports, the insulin pump site change has been associated with hypoglycemia after being injected with an unsolicited insulin bolus.<xref ref-type="bibr" rid="article-23565.r17">[17]</xref>&#x000a0;In those reported cases, the events were preceded by the pump site change, and an alarm followed, indicating that a high dose of insulin bolus was delivered without the user's appropriate bolus instructions, resulting in hypoglycemia.&#x000a0;It is essential to be aware of this possible complication when using insulin pumps.&#x000a0;</p>
+      </sec>
+      <sec id="article-23565.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>An initial randomized study by DeVries compared the efficacy of continuous subcutaneous insulin infusion to multiple daily injections with NPH and regular insulin and demonstrated a reduction in the hemoglobin A1c of 0.84% at 16 weeks.<xref ref-type="bibr" rid="article-23565.r18">[18]</xref>&#x000a0;</p>
+        <p>A larger clinical trial called the 5-Nations trial performed in 11 European centers reported a hemoglobin A1c decrease of 0.22% with a lower incidence of hypoglycemic events and higher user perception of satisfaction when comparing continuous subcutaneous insulin infusion to multiple daily injections using NPH.<xref ref-type="bibr" rid="article-23565.r19">[19]</xref><xref ref-type="bibr" rid="article-23565.r20">[20]</xref></p>
+        <p>Hypoglycemia: Continuous subcutaneous insulin infusion is associated with lower hemoglobin A1c levels, so there are concerns for an increased risk of hypoglycemia. Studies have shown that event rates of severe hypoglycemia and hypoglycemic coma were significantly lower with continuous subcutaneous insulin infusion versus multiple daily injections.<xref ref-type="bibr" rid="article-23565.r16">[16]</xref></p>
+        <p>There has been a reported decrease in blood glucose variability in the users of insulin pumps, as described in various studies.<xref ref-type="bibr" rid="article-23565.r21">[21]</xref> Preliminary studies have suggested that blood glucose variability is the underlying pathophysiologic mechanism leading to diabetic complications, including nephropathy, retinopathy, coronary artery disease, and cognitive decline, although more research is needed to establish causation.<xref ref-type="bibr" rid="article-23565.r22">[22]</xref></p>
+        <p>Clinical indications for insulin pump therapy:</p>
+        <list list-type="order">
+          <list-item>
+            <p>All patients with type 1 diabetes.<xref ref-type="bibr" rid="article-23565.r23">[23]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Patients with type 1 diabetes are difficult to manage due to frequent hypoglycemia.</p>
+          </list-item>
+          <list-item>
+            <p>Patients with type 2 diabetes&#x000a0;who do not meet glycemic targets despite multiple daily insulin injections (MDI) and extensive lifestyle changes.<xref ref-type="bibr" rid="article-23565.r24">[24]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Individuals suffering from gastroparesis will benefit from insulin pumps' extended bolus delivery feature.<xref ref-type="bibr" rid="article-23565.r25">[25]</xref>&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Pregnancy<xref ref-type="bibr" rid="article-23565.r26">[26]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Variable schedule or shift workers.<xref ref-type="bibr" rid="article-23565.r25">[25]</xref></p>
+          </list-item>
+          <list-item>
+            <p>Patients requiring small doses of insulin-like, for example, the pediatric diabetic population.<xref ref-type="bibr" rid="article-23565.r27">[27]</xref></p>
+          </list-item>
+        </list>
+        <p>Ideal candidates for insulin pump therapy:</p>
+        <list list-type="order">
+          <list-item>
+            <p>Willingness to wear the insulin pump and the sensor.&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Motivation and interest in pump education.</p>
+          </list-item>
+          <list-item>
+            <p>Good vision and ability to operate the pump and make necessary adjustments.&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Knowledge of carb counting.</p>
+          </list-item>
+          <list-item>
+            <p>Ability to calculate the insulin bolus from the device.&#x000a0;</p>
+          </list-item>
+        </list>
+        <p>Insulin pump technology will continue to develop rapidly, improving the quality of life for patients with diabetes. It will be challenging for healthcare professionals to stay abreast of every advancement, but a basic understanding of insulin pump delivery can help avoid common complications and improve outcomes.</p>
+      </sec>
+      <sec id="article-23565.s4" sec-type="Nursing, Allied Health, and Interprofessional Team Interventions">
+        <title>Nursing, Allied Health, and Interprofessional Team Interventions</title>
+        <p>The interprofessional team must maintain strong communication during the transition of care so that all involved in managing the patient's health problems are aware that the patient is on insulin pump therapy. The patient or a certified pump specialist should make adjustments to the pump settings, including but not limited to insulin boluses, temporary basal settings, and other changes to basal rates. Persistent hyperglycemia, problems with infusion sites, or removal of the device should be rapidly communicated with the physician.</p>
+        <p>In most hospitals, there is a system where the patients can continue to use their insulin pumps as inpatients.<xref ref-type="bibr" rid="article-23565.r28">[28]</xref> Still, the patients should be able to consent to and be willing and able to manage their insulin pump on their own as the hospital personnel is usually not trained in managing insulin pumps, so ultimately it would be the patient's responsibility to handle all pump's changes for optimal blood glucose control. In all settings, the healthcare staff has the right to suspend the pump and start the patient on a conventional regimen if they consider this to be in the best interest of the patient, such as in situations of anesthesia, any critical change in patient's mental and health status and when the patient is not fully awake to be able to manage the insulin pump independently.&#x000a0;</p>
+      </sec>
+      <sec id="article-23565.s5" sec-type="Nursing, Allied Health, and Interprofessional Team Monitoring">
+        <title>Nursing, Allied Health, and Interprofessional Team Monitoring</title>
+        <p>The nursing staff must maintain a log of the blood glucose levels and basal rates on the insulin pump. That usually happens with the help of the patient reporting all glucose levels, especially if the patient is on CGM.<xref ref-type="bibr" rid="article-23565.r29">[29]</xref> The individual requirements may vary from hospital to hospital. Still, most of the time, there is a need to maintain some paperwork showing that the patient consented and can manage the pump independently.<xref ref-type="bibr" rid="article-23565.r30">[30]</xref></p>
+      </sec>
+      <sec id="article-23565.s6">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=23565&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=23565">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/23565/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=23565">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <ref-list id="article-23565.s7">
+        <title>References</title>
+        <ref id="article-23565.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bratke</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Margeirsdottir</surname>
+                <given-names>HD</given-names>
+              </name>
+              <name>
+                <surname>Assmus</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Nj&#x000f8;lstad</surname>
+                <given-names>PR</given-names>
+              </name>
+              <name>
+                <surname>Skrivarhaug</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Does Current Diabetes Technology Improve Metabolic Control? A Cross-Sectional Study on the Use of Insulin Pumps and Continuous Glucose Monitoring Devices in a Nationwide Pediatric Population.</article-title>
+            <source>Diabetes Ther</source>
+            <year>2021</year>
+            <month>Sep</month>
+            <volume>12</volume>
+            <issue>9</issue>
+            <fpage>2571</fpage>
+            <page-range>2571-2583</page-range>
+            <pub-id pub-id-type="pmid">34389930</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Marks</surname>
+                <given-names>BE</given-names>
+              </name>
+              <name>
+                <surname>Wolfsdorf</surname>
+                <given-names>JI</given-names>
+              </name>
+              <name>
+                <surname>Waldman</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Stafford</surname>
+                <given-names>DE</given-names>
+              </name>
+              <name>
+                <surname>Garvey</surname>
+                <given-names>KC</given-names>
+              </name>
+            </person-group>
+            <article-title>Pediatric Endocrinology Trainees' Education and Knowledge About Insulin Pumps and Continuous Glucose Monitors.</article-title>
+            <source>Diabetes Technol Ther</source>
+            <year>2019</year>
+            <month>Mar</month>
+            <volume>21</volume>
+            <issue>3</issue>
+            <fpage>105</fpage>
+            <page-range>105-109</page-range>
+            <pub-id pub-id-type="pmid">30681363</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Sebastian</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Co</surname>
+                <given-names>EL</given-names>
+              </name>
+              <name>
+                <surname>Mehendale</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Hameed</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Insulin analogs in the treatment of type II diabetes and future perspectives.</article-title>
+            <source>Dis Mon</source>
+            <year>2023</year>
+            <month>Mar</month>
+            <volume>69</volume>
+            <issue>3</issue>
+            <fpage>101417</fpage>
+            <pub-id pub-id-type="pmid">35487767</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tremblay</surname>
+                <given-names>ES</given-names>
+              </name>
+            </person-group>
+            <article-title>Persistent Socioeconomic Disparities in Insulin Pump Uptake Despite Universal Health Coverage-Nonmonetary Drivers in Insulin Pump Use.</article-title>
+            <source>JAMA Netw Open</source>
+            <year>2022</year>
+            <month>May</month>
+            <day>02</day>
+            <volume>5</volume>
+            <issue>5</issue>
+            <fpage>e2210471</fpage>
+            <pub-id pub-id-type="pmid">35507348</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Lane</surname>
+                <given-names>WS</given-names>
+              </name>
+              <name>
+                <surname>Weinrib</surname>
+                <given-names>SL</given-names>
+              </name>
+              <name>
+                <surname>Lawrence</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Lane</surname>
+                <given-names>BC</given-names>
+              </name>
+              <name>
+                <surname>Jarrett</surname>
+                <given-names>RT</given-names>
+              </name>
+            </person-group>
+            <article-title>Basal Insulin Degludec and Glycemic Control Compared to Aspart Via Insulin Pump in Type 1 Diabetes (BIGLEAP): A Single-Center, Open-Label, Randomized, Crossover Trial.</article-title>
+            <source>Endocr Pract</source>
+            <year>2022</year>
+            <month>Feb</month>
+            <volume>28</volume>
+            <issue>2</issue>
+            <fpage>165</fpage>
+            <page-range>165-172</page-range>
+            <pub-id pub-id-type="pmid">34763071</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Deberles</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Morello</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Hardouin</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Amadou</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Benhamou</surname>
+                <given-names>PY</given-names>
+              </name>
+              <name>
+                <surname>Pr&#x000e9;vost</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Schaepelynck</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Chaillous</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Joubert</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Reznik</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>The switch from rapid-acting to concentrated regular insulin improves glucose control in type 2 diabetes patients on pump therapy: A cohort survey.</article-title>
+            <source>Diabetes Metab</source>
+            <year>2022</year>
+            <month>May</month>
+            <volume>48</volume>
+            <issue>3</issue>
+            <fpage>101300</fpage>
+            <pub-id pub-id-type="pmid">34728340</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kamecke</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Waldenmaier</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Haug</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Ziegler</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Freckmann</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Establishing Methods to Determine Clinically Relevant Bolus and Basal Rate Delivery Accuracy of Insulin Pumps.</article-title>
+            <source>J Diabetes Sci Technol</source>
+            <year>2019</year>
+            <month>Jan</month>
+            <volume>13</volume>
+            <issue>1</issue>
+            <fpage>60</fpage>
+            <page-range>60-67</page-range>
+            <pub-id pub-id-type="pmid">30003823</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Weaver</surname>
+                <given-names>KW</given-names>
+              </name>
+              <name>
+                <surname>Hirsch</surname>
+                <given-names>IB</given-names>
+              </name>
+            </person-group>
+            <article-title>The Hybrid Closed-Loop System: Evolution and Practical Applications.</article-title>
+            <source>Diabetes Technol Ther</source>
+            <year>2018</year>
+            <month>Jun</month>
+            <volume>20</volume>
+            <issue>S2</issue>
+            <fpage>S216</fpage>
+            <page-range>S216-S223</page-range>
+            <pub-id pub-id-type="pmid">29873517</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Herrero</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Pesl</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Bondia</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Reddy</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Oliver</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Georgiou</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Toumazou</surname>
+                <given-names>C</given-names>
+              </name>
+            </person-group>
+            <article-title>Method for automatic adjustment of an insulin bolus calculator: in silico robustness evaluation under intra-day variability.</article-title>
+            <source>Comput Methods Programs Biomed</source>
+            <year>2015</year>
+            <month>Apr</month>
+            <volume>119</volume>
+            <issue>1</issue>
+            <fpage>1</fpage>
+            <page-range>1-8</page-range>
+            <pub-id pub-id-type="pmid">25733405</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Cummins</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Royle</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Snaith</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Greene</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Robertson</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>McIntyre</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Waugh</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Clinical effectiveness and cost-effectiveness of continuous subcutaneous insulin infusion for diabetes: systematic review and economic evaluation.</article-title>
+            <source>Health Technol Assess</source>
+            <year>2010</year>
+            <month>Feb</month>
+            <volume>14</volume>
+            <issue>11</issue>
+            <fpage>iii</fpage>
+            <page-range>iii-iv, xi-xvi, 1-181</page-range>
+            <pub-id pub-id-type="pmid">20223123</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Metwally</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Cheung</surname>
+                <given-names>TO</given-names>
+              </name>
+              <name>
+                <surname>Smith</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Bell</surname>
+                <given-names>KJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Insulin pump dosing strategies for meals varying in fat, protein or glycaemic index or grazing-style meals in type 1 diabetes: A systematic review.</article-title>
+            <source>Diabetes Res Clin Pract</source>
+            <year>2021</year>
+            <month>Feb</month>
+            <volume>172</volume>
+            <fpage>108516</fpage>
+            <pub-id pub-id-type="pmid">33096184</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rosales</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>De Battista</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Veh&#x000ed;</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Garelli</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Open-loop glucose control: Automatic IOB-based super-bolus feature for commercial insulin pumps.</article-title>
+            <source>Comput Methods Programs Biomed</source>
+            <year>2018</year>
+            <month>Jun</month>
+            <volume>159</volume>
+            <fpage>145</fpage>
+            <page-range>145-158</page-range>
+            <pub-id pub-id-type="pmid">29650309</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Grassi</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Onetto</surname>
+                <given-names>MT</given-names>
+              </name>
+              <name>
+                <surname>Zapata</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Jofr&#x000e9;</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Echeverr&#x000ed;a</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Lower versus standard sucrose dose for treating hypoglycemia in patients with type 1 diabetes mellitus in therapy with predictive low glucose suspend (PLGS) augmented insulin pumps: A randomized crossover trial in Santiago, Chile.</article-title>
+            <source>Diabetes Metab Syndr</source>
+            <year>2021</year>
+            <season>May-Jun</season>
+            <volume>15</volume>
+            <issue>3</issue>
+            <fpage>695</fpage>
+            <page-range>695-701</page-range>
+            <pub-id pub-id-type="pmid">33813244</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Berg</surname>
+                <given-names>AK</given-names>
+              </name>
+              <name>
+                <surname>N&#x000f8;rgaard</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Thyssen</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Zachariae</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Hommel</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Rytter</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Svensson</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Skin Problems Associated with Insulin Pumps and Sensors in Adults with Type 1 Diabetes: A Cross-Sectional Study.</article-title>
+            <source>Diabetes Technol Ther</source>
+            <year>2018</year>
+            <month>Jul</month>
+            <volume>20</volume>
+            <issue>7</issue>
+            <fpage>475</fpage>
+            <page-range>475-482</page-range>
+            <pub-id pub-id-type="pmid">29893593</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Dogan</surname>
+                <given-names>ADA</given-names>
+              </name>
+              <name>
+                <surname>J&#x000f8;rgensen</surname>
+                <given-names>UL</given-names>
+              </name>
+              <name>
+                <surname>Gjessing</surname>
+                <given-names>HJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Diabetic Ketoacidosis Among Patients Treated With Continuous Subcutaneous Insulin Infusion.</article-title>
+            <source>J Diabetes Sci Technol</source>
+            <year>2017</year>
+            <month>May</month>
+            <volume>11</volume>
+            <issue>3</issue>
+            <fpage>631</fpage>
+            <page-range>631-632</page-range>
+            <pub-id pub-id-type="pmid">27595713</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Karges</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Schwandt</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Heidtmann</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Kordonouri</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Binder</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Schierloh</surname>
+                <given-names>U</given-names>
+              </name>
+              <name>
+                <surname>Boettcher</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Kapellen</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Rosenbauer</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Holl</surname>
+                <given-names>RW</given-names>
+              </name>
+            </person-group>
+            <article-title>Association of Insulin Pump Therapy vs Insulin Injection Therapy With Severe Hypoglycemia, Ketoacidosis, and Glycemic Control Among Children, Adolescents, and Young Adults With Type 1 Diabetes.</article-title>
+            <source>JAMA</source>
+            <year>2017</year>
+            <month>Oct</month>
+            <day>10</day>
+            <volume>318</volume>
+            <issue>14</issue>
+            <fpage>1358</fpage>
+            <page-range>1358-1366</page-range>
+            <pub-id pub-id-type="pmid">29049584</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Faulds</surname>
+                <given-names>ER</given-names>
+              </name>
+              <name>
+                <surname>Wyne</surname>
+                <given-names>KL</given-names>
+              </name>
+              <name>
+                <surname>Buschur</surname>
+                <given-names>EO</given-names>
+              </name>
+              <name>
+                <surname>McDaniel</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Dungan</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>Insulin Pump Malfunction During Hospitalization: Two Case Reports.</article-title>
+            <source>Diabetes Technol Ther</source>
+            <year>2016</year>
+            <month>Jun</month>
+            <volume>18</volume>
+            <issue>6</issue>
+            <fpage>399</fpage>
+            <page-range>399-403</page-range>
+            <pub-id pub-id-type="pmid">27027151</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>DeVries</surname>
+                <given-names>JH</given-names>
+              </name>
+              <name>
+                <surname>Snoek</surname>
+                <given-names>FJ</given-names>
+              </name>
+              <name>
+                <surname>Kostense</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name>
+                <surname>Masurel</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Heine</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <collab>Dutch Insulin Pump Study Group</collab>
+            </person-group>
+            <article-title>A randomized trial of continuous subcutaneous insulin infusion and intensive injection therapy in type 1 diabetes for patients with long-standing poor glycemic control.</article-title>
+            <source>Diabetes Care</source>
+            <year>2002</year>
+            <month>Nov</month>
+            <volume>25</volume>
+            <issue>11</issue>
+            <fpage>2074</fpage>
+            <page-range>2074-80</page-range>
+            <pub-id pub-id-type="pmid">12401759</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hoogma</surname>
+                <given-names>RP</given-names>
+              </name>
+              <name>
+                <surname>Hammond</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name>
+                <surname>Gomis</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Kerr</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Bruttomesso</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Bouter</surname>
+                <given-names>KP</given-names>
+              </name>
+              <name>
+                <surname>Wiefels</surname>
+                <given-names>KJ</given-names>
+              </name>
+              <name>
+                <surname>de la Calle</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Schweitzer</surname>
+                <given-names>DH</given-names>
+              </name>
+              <name>
+                <surname>Pfohl</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Torlone</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Krinelke</surname>
+                <given-names>LG</given-names>
+              </name>
+              <name>
+                <surname>Bolli</surname>
+                <given-names>GB</given-names>
+              </name>
+              <collab>5-Nations Study Group</collab>
+            </person-group>
+            <article-title>Comparison of the effects of continuous subcutaneous insulin infusion (CSII) and NPH-based multiple daily insulin injections (MDI) on glycaemic control and quality of life: results of the 5-nations trial.</article-title>
+            <source>Diabet Med</source>
+            <year>2006</year>
+            <month>Feb</month>
+            <volume>23</volume>
+            <issue>2</issue>
+            <fpage>141</fpage>
+            <page-range>141-7</page-range>
+            <pub-id pub-id-type="pmid">16433711</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>McAuley</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Vogrin</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Paldus</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Trawley</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>de Bock</surname>
+                <given-names>MI</given-names>
+              </name>
+              <name>
+                <surname>Abraham</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name>
+                <surname>Bach</surname>
+                <given-names>LA</given-names>
+              </name>
+              <name>
+                <surname>Burt</surname>
+                <given-names>MG</given-names>
+              </name>
+              <name>
+                <surname>Cohen</surname>
+                <given-names>ND</given-names>
+              </name>
+              <name>
+                <surname>Colman</surname>
+                <given-names>PG</given-names>
+              </name>
+              <name>
+                <surname>Davis</surname>
+                <given-names>EA</given-names>
+              </name>
+              <name>
+                <surname>Hendrieckx</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Holmes-Walker</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Jenkins</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Kaye</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Keech</surname>
+                <given-names>AC</given-names>
+              </name>
+              <name>
+                <surname>Kumareswaran</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>MacIsaac</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>McCallum</surname>
+                <given-names>RW</given-names>
+              </name>
+              <name>
+                <surname>Sims</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name>
+                <surname>Speight</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Stranks</surname>
+                <given-names>SN</given-names>
+              </name>
+              <name>
+                <surname>Sundararajan</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Ward</surname>
+                <given-names>GM</given-names>
+              </name>
+              <name>
+                <surname>Jones</surname>
+                <given-names>TW</given-names>
+              </name>
+              <name>
+                <surname>O'Neal</surname>
+                <given-names>DN</given-names>
+              </name>
+              <collab>Australian JDRF Closed-Loop Research Group</collab>
+            </person-group>
+            <article-title>Less Nocturnal Hypoglycemia but Equivalent Time in Range Among Adults with Type 1 Diabetes Using Insulin Pumps Versus Multiple Daily Injections.</article-title>
+            <source>Diabetes Technol Ther</source>
+            <year>2021</year>
+            <month>Jun</month>
+            <volume>23</volume>
+            <issue>6</issue>
+            <fpage>460</fpage>
+            <page-range>460-466</page-range>
+            <pub-id pub-id-type="pmid">33351699</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Petrelli</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Cangelosi</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Scuri</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Pantanetti</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Lavorgna</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Faldetta</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>De Carolis</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Rocchi</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Debernardi</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Florescu</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Nittari</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Sagaro</surname>
+                <given-names>GG</given-names>
+              </name>
+              <name>
+                <surname>Garda</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Nguyen</surname>
+                <given-names>CTT</given-names>
+              </name>
+              <name>
+                <surname>Grappasonni</surname>
+                <given-names>I</given-names>
+              </name>
+            </person-group>
+            <article-title>Diabetes and technology: A pilot study on the management of patients with insulin pumps during the COVID-19 pandemic.</article-title>
+            <source>Diabetes Res Clin Pract</source>
+            <year>2020</year>
+            <month>Nov</month>
+            <volume>169</volume>
+            <fpage>108481</fpage>
+            <pub-id pub-id-type="pmid">33002544</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>ZY</given-names>
+              </name>
+              <name>
+                <surname>Miao</surname>
+                <given-names>LF</given-names>
+              </name>
+              <name>
+                <surname>Qian</surname>
+                <given-names>LL</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Qi</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>YM</given-names>
+              </name>
+              <name>
+                <surname>Dang</surname>
+                <given-names>SP</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>RX</given-names>
+              </name>
+            </person-group>
+            <article-title>Molecular Mechanisms of Glucose Fluctuations on Diabetic Complications.</article-title>
+            <source>Front Endocrinol (Lausanne)</source>
+            <year>2019</year>
+            <volume>10</volume>
+            <fpage>640</fpage>
+            <pub-id pub-id-type="pmid">31620092</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Leng</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Tian</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Xiao</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Xuan</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Yang</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Chen</surname>
+                <given-names>Z</given-names>
+              </name>
+            </person-group>
+            <article-title>Cost-effectiveness analysis of continuous subcutaneous insulin infusion versus multiple daily insulin for treatment of children with type 1 diabetes.</article-title>
+            <source>Postgrad Med</source>
+            <year>2022</year>
+            <month>Aug</month>
+            <volume>134</volume>
+            <issue>6</issue>
+            <fpage>627</fpage>
+            <page-range>627-634</page-range>
+            <pub-id pub-id-type="pmid">35695267</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Li</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Xiao</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Yu</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Yan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>Effect of intensive insulin therapy on first-phase insulin secretion in newly diagnosed type 2 diabetic patients with a family history of the disease.</article-title>
+            <source>Exp Ther Med</source>
+            <year>2015</year>
+            <month>Feb</month>
+            <volume>9</volume>
+            <issue>2</issue>
+            <fpage>612</fpage>
+            <page-range>612-618</page-range>
+            <pub-id pub-id-type="pmid">25574243</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Morros-Gonz&#x000e1;lez</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>G&#x000f3;mez</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Henao Carrillo</surname>
+                <given-names>DC</given-names>
+              </name>
+              <name>
+                <surname>Ursida</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Serrano</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Rond&#x000f3;n Sep&#x000fa;lveda</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Mu&#x000f1;oz Velandia</surname>
+                <given-names>OM</given-names>
+              </name>
+            </person-group>
+            <article-title>Efficacy and safety of sensor augmented insulin pump therapy with low-glucose suspend feature in older adults: A retrospective study in Bogota, Colombia.</article-title>
+            <source>Diabetes Metab Syndr</source>
+            <year>2021</year>
+            <season>May-Jun</season>
+            <volume>15</volume>
+            <issue>3</issue>
+            <fpage>649</fpage>
+            <page-range>649-653</page-range>
+            <pub-id pub-id-type="pmid">33813236</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>O'Malley</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Ozaslan</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Levy</surname>
+                <given-names>CJ</given-names>
+              </name>
+              <name>
+                <surname>Castorino</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Desjardins</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Levister</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>McCrady-Spitzer</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Church</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Kaur</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Reid</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Kremers</surname>
+                <given-names>WK</given-names>
+              </name>
+              <name>
+                <surname>Doyle</surname>
+                <given-names>FJ</given-names>
+              </name>
+              <name>
+                <surname>Trinidad</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Rosenn</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Pinsker</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>Kudva</surname>
+                <given-names>YC</given-names>
+              </name>
+              <name>
+                <surname>Dassau</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Longitudinal Observation of Insulin Use and Glucose Sensor Metrics in Pregnant Women with Type 1 Diabetes Using Continuous Glucose Monitors and Insulin Pumps: The LOIS-P Study.</article-title>
+            <source>Diabetes Technol Ther</source>
+            <year>2021</year>
+            <month>Dec</month>
+            <volume>23</volume>
+            <issue>12</issue>
+            <fpage>807</fpage>
+            <page-range>807-817</page-range>
+            <pub-id pub-id-type="pmid">34270347</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Alemzadeh</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Palma-Sisto</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Holzum</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Parton</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Kicher</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Continuous subcutaneous insulin infusion attenuated glycemic instability in preschool children with type 1 diabetes mellitus.</article-title>
+            <source>Diabetes Technol Ther</source>
+            <year>2007</year>
+            <month>Aug</month>
+            <volume>9</volume>
+            <issue>4</issue>
+            <fpage>339</fpage>
+            <page-range>339-47</page-range>
+            <pub-id pub-id-type="pmid">17705689</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Umpierrez</surname>
+                <given-names>GE</given-names>
+              </name>
+              <name>
+                <surname>Klonoff</surname>
+                <given-names>DC</given-names>
+              </name>
+            </person-group>
+            <article-title>Diabetes Technology Update: Use of Insulin Pumps and Continuous Glucose Monitoring in the Hospital.</article-title>
+            <source>Diabetes Care</source>
+            <year>2018</year>
+            <month>Aug</month>
+            <volume>41</volume>
+            <issue>8</issue>
+            <fpage>1579</fpage>
+            <page-range>1579-1589</page-range>
+            <pub-id pub-id-type="pmid">29936424</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Vettoretti</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Facchinetti</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Combining continuous glucose monitoring and insulin pumps to automatically tune the basal insulin infusion in diabetes therapy: a review.</article-title>
+            <source>Biomed Eng Online</source>
+            <year>2019</year>
+            <month>Mar</month>
+            <day>29</day>
+            <volume>18</volume>
+            <issue>1</issue>
+            <fpage>37</fpage>
+            <pub-id pub-id-type="pmid">30922295</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-23565.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yeh</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Yeung</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Mendelsohn Curanaj</surname>
+                <given-names>FA</given-names>
+              </name>
+            </person-group>
+            <article-title>Managing Patients with Insulin Pumps and Continuous Glucose Monitors in the Hospital: to Wear or Not to Wear.</article-title>
+            <source>Curr Diab Rep</source>
+            <year>2021</year>
+            <month>Jan</month>
+            <day>15</day>
+            <volume>21</volume>
+            <issue>2</issue>
+            <fpage>7</fpage>
+            <pub-id pub-id-type="pmid">33449214</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

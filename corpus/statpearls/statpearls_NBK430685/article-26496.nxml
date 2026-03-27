@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-26496" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Physiology, Oxyhemoglobin Dissociation Curve</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Kaufman</surname>
+            <given-names>Daniel P.</given-names>
+          </name>
+          <aff>SUNY Upstate Medical University</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Kandle</surname>
+            <given-names>Patricia F.</given-names>
+          </name>
+          <aff>St. George's University</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Murray</surname>
+            <given-names>Ian V.</given-names>
+          </name>
+          <aff>Texas A&#x00026;M University</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Dhamoon</surname>
+            <given-names>Amit S.</given-names>
+          </name>
+          <aff>SUNY Upstate Medical University</aff>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Daniel Kaufman declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Patricia Kandle declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Ian Murray declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Amit Dhamoon declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>31</day>
+          <month>7</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-26496.s1" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Oxygen is primarily transported throughout the body in red blood cells, attached to hemoglobin molecules. Oxygen is also dissolved directly in the bloodstream, but this dissolved fraction contributes little to the total amount of oxygen carried in the bloodstream. Henry&#x02019;s Law states that the dissolved fraction is proportional to the atmospheric pO2, but the solubility of oxygen is so low that only 3ml O2/L of blood is dissolved at atmospheric oxygen tension. Hemoglobin carries 98% of the oxygen in the blood in the protein-bound form, approximately 197 ml/L. It is important to differentiate between pO2 (mm Hg, the dissolved fraction), oxygen saturation (% of hemoglobin occupied), and O2 content (expressed as a volume percentage). Arterial oxygen content is approximately 20 g/dL, the venous oxygen content is 15 g/dL, and dissolved oxygen contributes 0.1 g/dL in each case (but is continuously replenished from the hemoglobin bound pool).<xref ref-type="bibr" rid="article-26496.r1">[1]</xref><xref ref-type="bibr" rid="article-26496.r2">[2]</xref><xref ref-type="bibr" rid="article-26496.r3">[3]</xref></p>
+      </sec>
+      <sec id="article-26496.s2" sec-type="Mechanism">
+        <title>Mechanism</title>
+        <p>Oxygen saturation, often measured with a pulse oximeter, has become part of routine vital sign measurement in the clinical setting. This measurement, although clinically useful, does not always reflect the oxygen content of blood. For example, if a patient is anemic (low hemoglobin), but breathing well (normal pO2), then oxygen saturation may be close to 100%, but total oxygen content may be low. Oxygen is bound to hemoglobin, a tetramer of 2 alpha and 2 beta subunits. Each subunit can carry one molecule of oxygen, and a complete hemoglobin tetramer can carry four molecules. In the completely unbound state, hemoglobin predominates in the T (tense) form. The T form requires a higher pO2 to bind an oxygen atom, like that found in the oxygen-rich pulmonary capillary beds. The subsequent oxygen molecules can bind to hemoglobin more favorably. This is because binding oxygen-binding induces a conformational change in the other subunits towards the R (relaxed) form. This interaction between the hemoglobin subunits is termed cooperativity. The R form does not require a high pO2 to allow oxygen binding. By the time blood exits the pulmonary circulation, hemoglobin is 100% saturated with oxygen (four molecules bound). In normal lungs, hemoglobin molecules become close to 100% saturated with oxygen long before the end of the capillary bed, about a third of the way along. This allows effective oxygenation of the blood fully even during times of increased oxygen consumption (heavy exercise). Entering the systemic circulation, oxygen-rich hemoglobin is in the R form. At the lower pO2 in the peripheral tissues, oxygen begins to unbind. With less oxygen bound, and at a lower pO2, the T state becomes more favorable, which facilitates unloading oxygen atoms two through four. Throughout the bloodstream, at different pO2 levels, there is a continuum between the T state (unloading, requiring high O2 to bind) and the R state (loading, requiring low O2 to unbind). At rest, most of the oxygen-binding sites on hemoglobin are occupied. Of note, myoglobin, as a single subunit oxygen-carrying protein, does not exhibit cooperativity. It behaves like a single T state hemoglobin. This helps pull oxygen into skeletal muscle.<xref ref-type="bibr" rid="article-26496.r4">[4]</xref><xref ref-type="bibr" rid="article-26496.r5">[5]</xref><xref ref-type="bibr" rid="article-26496.r6">[6]</xref><xref ref-type="bibr" rid="article-26496.r7">[7]</xref></p>
+        <p>Plotting oxygen tension (x) vs saturation (y) reveals a sigmoid curve that describes visually how oxygen binds to hemoglobin. At higher oxygen tension, for example&#x000a0;during pulmonary circulation, the oxygen dissociation curve plateaus. At lower oxygen tension, the slope of the oxygen dissociation curve is steeper.</p>
+      </sec>
+      <sec id="article-26496.s3" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>Several physiologic factors can shift the oxygen dissociation curve either to the left or the right. A rightward shift favors unloading oxygen compared to the original curve at the same oxygen tension. Conversely, oxygen loading is favored with a leftward shift with the oxygen dissociation curve. Increases in carbon dioxide tension, decreased pH (acidity), increased 2,3-DPG, and increases in temperature shift the curve rightward. This is helpful in delivering oxygen to metabolically active tissues, which metabolize oxygen and glucose to CO2 and organic acids. The relationship between acidity, CO2, and hemoglobin O2 affinity is called the Bohr effect. An increase in CO2 will decrease the pH and induce oxygen unloading. in a high acid state, the rate of glycolysis is decreased thus the activity of 2,3-BPG phosphatase is induced and 2,3 BPG concentration is decreased. 2,3 BPG binds specifically to deoxy Hb in the central cavity thus stabilizing t deoxygenated state of Hb and decreasing O2 affinity. Temperature is the easiest relationship to understand. At higher temperatures, unloading is favored because increased thermal energy favors previously unfavorable reactions. Interestingly, increased CO2 and decreased pH are also potent stimuli for vasodilation, enhancing O2 delivery to metabolically active tissues.<xref ref-type="bibr" rid="article-26496.r8">[8]</xref><xref ref-type="bibr" rid="article-26496.r9">[9]</xref></p>
+        <p>Fetal HgB (alpha2gamma2) introduces a leftward shift of the curve, favoring O2 binding to hemoglobin at lower oxygen tension. This is favorable in the womb, to allow the growing fetus to pull O2 from the maternal circulation. In the treatment of sickle cell disease, treatment with hydroxyurea has been shown to increase levels of circulating fetal hemoglobin. These patients will have higher oxygen tension, which favors the O2 bound form, which helps prevent the hemoglobin from sickling and causing an acute crisis.</p>
+        <p>The dissociation curve also undergoes a leftward shift in carbon monoxide poisoning. CO has a 240-fold greater affinity for hemoglobin than oxygen and will displace oxygen. This favors retention of O2 (keeping hemoglobin in the tense state) on hemoglobin at peripheral tissues. Despite a greater proportion of saturated hemoglobin molecules, total O2 content is decreased because of the high affinity of CO for hemoglobin.</p>
+        <p>At high elevations, oxygen binding and delivery are more complicated. Initially, with decreased atmospheric O2 tension, the unloading of oxygen at peripheral tissues is favored. This is because, given a sufficiently low atmospheric pO2, loading, carriage of oxygen, and unloading all take place on the sloped section. This also induces hyperventilation and transient respiratory alkalosis. This mild hypoxia leads to acidosis, increased 2,3 DPG, and a rightward shift (see above), usually on day 2 or 3. Chronic hypoxia (weeks) leads to increased erythropoietin released by the kidney, an increase in hematocrit, and a rise in O2 content back to normal (but potentially at a lower saturation).</p>
+        <p>As discussed, drops in pH promote oxygen unloading, but the venous blood is not appreciably more acidic than arterial blood due to the Haldane effect. Deoxygenation in the periphery promotes carbaminohemoglobin (CO2-Hgb) formation, binding up of H+, and release of bicarbonate. This allows for effective buffering between the arterial and venous ends of the circulation, and for efficient carriage of a significant portion of the CO2 pool. The fewer oxygen atoms bound, the more H+ can be accommodated, and bicarbonate can be produced.</p>
+      </sec>
+      <sec id="article-26496.s4">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=26496&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=26496">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/26496/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=26496">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-26496.s5">
+        <fig id="article-26496.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Oxygen Dissociation Curve. The body maintains adequate oxygenation of tissues in the setting of decreased partial pressure (PO) or increased demand for oxygen; these changes are often expressed as shifts in the oxygen dissociation curve, representing the percentage of hemoglobin saturated with oxygen at varying levels of PO. Contributed by D Kaufman</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="oxygen__dissociation__curve" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-26496.s6">
+        <title>References</title>
+        <ref id="article-26496.r1">
+          <label>1</label>
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Patel</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Jose</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Mohiuddin</surname>
+                <given-names>SS</given-names>
+              </name>
+            </person-group>
+            <chapter-title>Physiology, Oxygen Transport And Carbon Dioxide Dissociation Curve</chapter-title>
+            <source>StatPearls [Internet]</source>
+            <publisher-name>StatPearls Publishing</publisher-name>
+            <publisher-loc>Treasure Island (FL)</publisher-loc>
+            <year>2023</year>
+            <month>3</month>
+            <day>27</day>
+            <pub-id pub-id-type="pmid">30969637</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26496.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Svedenkrans</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Stoecklin</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Jones</surname>
+                <given-names>JG</given-names>
+              </name>
+              <name>
+                <surname>Doherty</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Pillow</surname>
+                <given-names>JJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Physiology and Predictors of Impaired Gas Exchange in Infants with Bronchopulmonary Dysplasia.</article-title>
+            <source>Am J Respir Crit Care Med</source>
+            <year>2019</year>
+            <month>Aug</month>
+            <day>15</day>
+            <volume>200</volume>
+            <issue>4</issue>
+            <fpage>471</fpage>
+            <page-range>471-480</page-range>
+            <pub-id pub-id-type="pmid">30789787</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26496.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Goldberg</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Heitner</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Mimouni</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Joseph</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Bromiker</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Picard</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>The influence of reducing fever on blood oxygen saturation in children.</article-title>
+            <source>Eur J Pediatr</source>
+            <year>2018</year>
+            <month>Jan</month>
+            <volume>177</volume>
+            <issue>1</issue>
+            <fpage>95</fpage>
+            <page-range>95-99</page-range>
+            <pub-id pub-id-type="pmid">29101451</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26496.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Geng</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Dufu</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Hutchaleelaha</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Xu</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name>
+                <surname>Patel</surname>
+                <given-names>MP</given-names>
+              </name>
+              <name>
+                <surname>Vlahakis</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Lehrer-Graiwer</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Oksenberg</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Increased hemoglobin-oxygen affinity ameliorates bleomycin-induced hypoxemia and pulmonary fibrosis.</article-title>
+            <source>Physiol Rep</source>
+            <year>2016</year>
+            <month>Sep</month>
+            <volume>4</volume>
+            <issue>17</issue>
+            <pub-id pub-id-type="pmid">27624688</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26496.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Urbano</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Mohsenin</surname>
+                <given-names>V</given-names>
+              </name>
+            </person-group>
+            <article-title>Chronic obstructive pulmonary disease and sleep: the interaction.</article-title>
+            <source>Panminerva Med</source>
+            <year>2006</year>
+            <month>Dec</month>
+            <volume>48</volume>
+            <issue>4</issue>
+            <fpage>223</fpage>
+            <page-range>223-30</page-range>
+            <pub-id pub-id-type="pmid">17215794</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26496.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Griffin</surname>
+                <given-names>DA</given-names>
+              </name>
+            </person-group>
+            <article-title>Blood gas strategies and management during pediatric cardiopulmonary bypass.</article-title>
+            <source>ASAIO J</source>
+            <year>2005</year>
+            <season>Sep-Oct</season>
+            <volume>51</volume>
+            <issue>5</issue>
+            <fpage>657</fpage>
+            <page-range>657-8</page-range>
+            <pub-id pub-id-type="pmid">16322734</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26496.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Matej&#x000e1;k</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Kulh&#x000e1;nek</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Matou&#x00161;ek</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Adair-based hemoglobin equilibrium with oxygen, carbon dioxide and hydrogen ion activity.</article-title>
+            <source>Scand J Clin Lab Invest</source>
+            <year>2015</year>
+            <month>Apr</month>
+            <volume>75</volume>
+            <issue>2</issue>
+            <fpage>113</fpage>
+            <page-range>113-20</page-range>
+            <pub-id pub-id-type="pmid">25594800</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26496.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Scott</surname>
+                <given-names>AV</given-names>
+              </name>
+              <name>
+                <surname>Nagababu</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Johnson</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Kebaish</surname>
+                <given-names>KM</given-names>
+              </name>
+              <name>
+                <surname>Lipsitz</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Dwyer</surname>
+                <given-names>IM</given-names>
+              </name>
+              <name>
+                <surname>Zuckerberg</surname>
+                <given-names>GS</given-names>
+              </name>
+              <name>
+                <surname>Barodka</surname>
+                <given-names>VM</given-names>
+              </name>
+              <name>
+                <surname>Berkowitz</surname>
+                <given-names>DE</given-names>
+              </name>
+              <name>
+                <surname>Frank</surname>
+                <given-names>SM</given-names>
+              </name>
+            </person-group>
+            <article-title>2,3-Diphosphoglycerate Concentrations in Autologous Salvaged Versus Stored Red Blood Cells and in Surgical Patients After Transfusion.</article-title>
+            <source>Anesth Analg</source>
+            <year>2016</year>
+            <month>Mar</month>
+            <volume>122</volume>
+            <issue>3</issue>
+            <fpage>616</fpage>
+            <page-range>616-623</page-range>
+            <pub-id pub-id-type="pmid">26891388</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-26496.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Duffin</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Fisher</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Unknown in vivo factors influencing the oxygen dissociation curve?</article-title>
+            <source>Respir Physiol Neurobiol</source>
+            <year>2013</year>
+            <month>Aug</month>
+            <day>01</day>
+            <volume>188</volume>
+            <issue>1</issue>
+            <fpage>81</fpage>
+            <pub-id pub-id-type="pmid">23712211</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>

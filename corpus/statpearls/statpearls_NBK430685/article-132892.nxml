@@ -1,0 +1,3758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book-part-wrapper PUBLIC "-//NLM//DTD BITS Book Interchange DTD v2.0 20151225//EN" "http://jats.nlm.nih.gov/extensions/bits/2.0/BITS-book2.dtd">
+<book-part-wrapper id="article-132892" content-type="chapter" dtd-version="2.0">
+  <book-meta>
+    <book-id book-id-type="pmcid">statpearls</book-id>
+    <book-title-group>
+      <book-title>StatPearls</book-title>
+    </book-title-group>
+    <pub-date publication-format="electronic" date-type="pubr">
+      <month>01</month>
+      <year>2026</year>
+    </pub-date>
+    <publisher>
+      <publisher-name>StatPearls Publishing</publisher-name>
+      <publisher-loc>Treasure Island (FL)</publisher-loc>
+    </publisher>
+    <permissions>
+      <copyright-statement>Copyright &#x000a9; 2026, StatPearls Publishing LLC</copyright-statement>
+      <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <license-p>
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+(<ext-link xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>), which permits others to distribute the work, provided that the article is not altered or used commercially. You are not required to obtain permission to distribute this article, provided that you credit the author and journal.
+</license-p>
+      </license>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>books-source-type</meta-name>
+        <meta-value>Database</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+    <notes notes-type="disclaimer">
+      <p>The intent of StatPearls review books and articles is to identify knowledge deficits and assist you in the learning process. Review books and articles are not intended to be a source of the knowledge base of medicine. The authors and editors do not warrant the information is complete or accurate. The reader is encouraged to verify content and questions in several references. All drug indications and dosages should be verified before administration.</p>
+      <p>The authors and editors would like to extend special thanks to Erin Hughes and Gerson Rubio for their editorial support.</p>
+    </notes>
+  </book-meta>
+  <book-part book-part-type="chapter">
+    <book-part-meta>
+      <title-group>
+        <title>Mechanical Ventilation and Extracorporeal Membrane Oxygenation Considerations in COVID-19</title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Sinha</surname>
+            <given-names>Ankur</given-names>
+          </name>
+          <aff>Parkview Regional Medical Center</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Deshwal</surname>
+            <given-names>Himanshu</given-names>
+          </name>
+          <aff>New York University Grossman School of Medicine</aff>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="western">
+            <surname>Vashisht</surname>
+            <given-names>Rishik</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Ankur Sinha declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Himanshu Deshwal declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+        <fn fn-type="COI-statement">
+          <p>
+<bold>Disclosure: </bold>Rishik Vashisht declares no relevant financial relationships with ineligible companies.</p>
+        </fn>
+      </author-notes>
+      <pub-history>
+        <date date-type="updated">
+          <day>12</day>
+          <month>6</month>
+          <year>2023</year>
+        </date>
+      </pub-history>
+    </book-part-meta>
+    <body>
+      <sec id="article-132892.s1" sec-type="Continuing Education Activity">
+        <title>Continuing Education Activity</title>
+        <p>The World Health Organization (WHO) declared COVID-19 a global pandemic on March 11, 2020. Due to its high virulence, the virus has wreaked havoc on countries worldwide, with an overwhelming number of infections following outbreaks. This has led to a near-collapse of the healthcare infrastructure in some countries. With the advent of a better understanding of the disease process, efficient goal-directed management of severe COVID-19 with acute respiratory failure needing mechanical ventilation (IMV) with or without extracorporeal membrane oxygenation (ECMO) has become the need of the hour. This activity illustrates the evaluation and management of severe COVID-19 requiring IMV with or without ECMO and explains the role of the interprofessional team in managing patients with this condition.</p>
+        <p>
+<bold>Objectives:</bold>
+<list list-type="bullet"><list-item><p>Describe the pathophysiology of respiratory failure leading to mechanical ventilation is severe COVID19.</p></list-item><list-item><p>Identify the indications for mechanical ventilation as well as the indication for ECMO.</p></list-item><list-item><p>Explain the most common adverse events associated with invasive mechanical ventilation and ECMO.</p></list-item><list-item><p>Summarize the key management principles used by the interprofessional team that are essential while caring for mechanically ventilated COVID-19 patients with or without ECMO.</p></list-item></list>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=132892&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=132892">Access free multiple choice questions on this topic.</ext-link>
+</p>
+      </sec>
+      <sec id="article-132892.s2" sec-type="pubmed-excerpt">
+        <title>Introduction</title>
+        <p>Coronavirus disease 2019 (COVID-19) has led to a global pandemic with nearly 158 million cases worldwide and 3.3 million deaths. Due to its easy transmissibility and high virulence, it has caused an overwhelming number of infections leading to a near-collapse of the healthcare infrastructure in some countries. In this review, we will focus on cases of Severe COVID-19 requiring mechanical ventilation, as well as advanced rescue therapy in the form of extracorporeal membrane oxygenation (ECMO).</p>
+      </sec>
+      <sec id="article-132892.s3" sec-type="Anatomy and Physiology">
+        <title>Anatomy and Physiology</title>
+        <p>The SARS-CoV-2 virus is a single-stranded RNA virus belonging to the Betacoronavirus genus and consists of four major structural proteins identified in the pathogenesis of COVID-19 disease.<xref ref-type="bibr" rid="article-132892.r1">[1]</xref>&#x000a0;The spike protein (S) is considered the main structural protein that protrudes from the viral surface and gives it a &#x0201c;corona-like" appearance. The S protein binds to the angiotensin-converting enzyme 2 (ACE 2) receptors of the human cells leading to endocytosis of the virus. Other proteins include the membrane (M) protein, envelope (E) protein, and nucleocapsid (N) protein that plays a significant role in infectivity and viral replication.<xref ref-type="bibr" rid="article-132892.r2">[2]</xref>&#x000a0;The ACE 2 receptors are expressed highly in the nasal, pharyngeal, and bronchial mucosa and are the primary source of entry for the virus.<xref ref-type="bibr" rid="article-132892.r3">[3]</xref>&#x000a0;Other mucosal surfaces such as the gastrointestinal tract, kidneys, and conjunctiva also express ACE 2 receptors and have been found to be affected by the SARS-CoV-2 virus.</p>
+        <p>Initially, the virus is able to evade the immune system with continued viral replication intracellularly and may cause direct cellular injury. Eventually, the innate and adaptive immune system recognizes the S-protein and leads to an overt immune response and release of pro-inflammatory cytokines such as IL-6, IL-1&#x003b2;, and TNF-&#x003b1; that may potentiate lung injury and diffuse alveolar damage. A maladaptive immune response with severe lymphopenia and release of interferon-gamma (IFN-&#x003b3;) induced protein 10 and granulocyte-macrophage colony-stimulating factor (GM-CSF) has also been associated with severe COVID-19 and mortality.<xref ref-type="bibr" rid="article-132892.r4">[4]</xref>&#x000a0;Severe microangiopathy and thrombosis have also been identified in severe COVID-19 ARDS that may lead to increased dead space ventilation. Autopsy reports have demonstrated severe diffuse alveolar damage and platelet-rich thrombi in the pulmonary vasculature.<xref ref-type="bibr" rid="article-132892.r5">[5]</xref>&#x000a0;</p>
+        <p>In severe COVID-19 ARDS, sustained lung injury and inflammation lead to the release of profibrotic markers such as TGF-b, leading to accelerated pulmonary fibrosis.<xref ref-type="bibr" rid="article-132892.r6">[6]</xref>&#x000a0;Due to the involvement of the pulmonary microvasculature, two different clinical phenotypes of COVID-19 ARDS were proposed. L-phenotype was proposed to be associated with low elastance (high compliance), low lung weight, and low ventilation-perfusion matching due to loss of hypoxic vasoconstriction, whereas an H-phenotype was associated with high elastance (low compliance) and high lung weight similar to classic ARDS.<xref ref-type="bibr" rid="article-132892.r7">[7]</xref>&#x000a0;However, this has been challenged in other case series, suggesting that it may represent a spectrum of disease, and COVID-19 ARDS behaves similarly to classic ARDS, which is defined by Berlin criteria, summarized in Figure 1.<xref ref-type="bibr" rid="article-132892.r8">[8]</xref></p>
+      </sec>
+      <sec id="article-132892.s4" sec-type="Indications">
+        <title>Indications</title>
+        <p>
+<bold>Mechanical Ventilation</bold>
+</p>
+        <p>The indications of mechanical ventilation in severe COVID-19 are:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Failure to oxygenate or rapidly to worsen hypoxemia despite maximal oxygen support through non-invasive oxygen devices like high flow nasal cannula (HFNC) or non-invasive positive pressure ventilation (NIPV) like BiPAP or CPAP</p>
+          </list-item>
+          <list-item>
+            <p>Inability to protect airway due to altered mental status and/or increased secretion burden</p>
+          </list-item>
+          <list-item>
+            <p>Severe hemodynamic instability&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Failure to ventilate&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Cardiac arrest requiring advanced CPR</p>
+          </list-item>
+        </list>
+        <p>Figure 2 depicts the indications of invasive mechanical ventilation in patients with severe COVID-19.</p>
+        <p>HFNC is an oxygen delivery device that can deliver warm, humidified oxygen at higher flows (20-60 liters per minute) with a precise and high fraction of inspired oxygen (FiO2). The HFNC device is capable of dead space washout in the upper respiratory reservoirs and allows for delivery of a higher flow of oxygen to meet the patient flow demand, thus assisting in reducing patient efforts and providing comfort. The higher flow is also associated with some positive end-expiratory pressure (PEEP) that allows alveolar recruitment and reduction in work of breathing. The FLORALI study had demonstrated a decreased 90-day mortality and decrease in the rate of intubation in the severe ARDS group compared to conventional oxygen therapy and the NIPV group.<xref ref-type="bibr" rid="article-132892.r9">[9]</xref>&#x000a0;Subsequently, a meta-analysis of 9 randomized control trials also reduced the need for IMV in the HFNC group compared to conventional oxygen therapy.<xref ref-type="bibr" rid="article-132892.r10">[10]</xref>&#x000a0;</p>
+        <p>The key to using HFNC lies in closer monitoring and interval clinical assessment for the resolution of work of breathing and hypoxemia. Persistent and strong inspiratory efforts despite HFNC may lead to significantly high transpulmonary pressures and patient self-inflicted lung injury (P-SILI), and worsening ARDS.<xref ref-type="bibr" rid="article-132892.r11">[11]</xref>&#x000a0;In clinical practice, the ROX index, defined as the ratio of pulse oximetry SpO2/FiO2 to respiratory rate (RR), is commonly used to assess HFNC failure and a potential need for IMV. A ROX index of greater than 4.88 at 12 hours predicts HFNC success and lower risk of IMV. However, it should be monitored closely as a ROX index &#x0003c;2.84 at 2 hours or &#x0003c;3.47 at 6 hours is associated with an increased risk of IMV.<xref ref-type="bibr" rid="article-132892.r12">[12]</xref>&#x000a0;Choosing between HFNC and NIPV can be challenging in COVID-19 patients. The HENIVOT randomized control trial found no difference in ventilator-free days between either group.<xref ref-type="bibr" rid="article-132892.r13">[13]</xref></p>
+        <p>NIPV can be utilized on a case-by-case basis depending on the co-existence of hypercapnia or cardiogenic pulmonary edema. The LUNG SAFE study had demonstrated higher ICU mortality in severe ARDS in patients receiving NIPV. However, it must be noted that the NIPV group received lower PEEP, and hypoxemia was corrected mainly by increasing FiO2.<xref ref-type="bibr" rid="article-132892.r14">[14]</xref>&#x000a0;NIPV can be used to escalate non-invasive respiratory support in patients who appear to be failing conventional therapy or have higher work of breathing. The primary purpose is to decrease strong inspiratory efforts and provide patient comfort. If a patient is placed on NIPV, an intensive care unit (ICU) admission is recommended for closer monitoring. Certain clinical parameters such as HACOR score (heart rate, acidosis, consciousness, oxygenation, and respiratory rate) can be used with good accuracy to predict NIPV failure.<xref ref-type="bibr" rid="article-132892.r15">[15]</xref>&#x000a0;</p>
+        <p>A HACOR score above 5 at 2, 6, 12, 24, and 48 hours can predict NIPV failure with a specificity above 90%.&#x000a0;Ideally, an initial higher HACOR score that does not improve with NIPV should prompt early endotracheal intubation and IMV as it has been associated with lower mortality.<xref ref-type="bibr" rid="article-132892.r15">[15]</xref>&#x000a0;The utility of non-invasive respiratory support should be tailored based on patient needs, and further clinical investigation is needed to assess true benefits in COVID-19 ARDS. A large randomized control trial (RECOVERY RS) is underway to compare HFNC and NIPV with conventional oxygen therapy in COVID-19 ARDS.<xref ref-type="bibr" rid="article-132892.r16">[16]</xref></p>
+        <p>In patients failing HFNC or NIPV based on clinical risk assessment scores and parameters, endotracheal intubation should be promptly considered.</p>
+        <p>
+<bold>Extracorporeal Membrane Oxygenation (ECMO)</bold>
+</p>
+        <p>Extracorporeal life support (ECLS) is a modality of life support comprising venovenous (VV) and veno-arterial (VA) extracorporeal membrane oxygenation (ECMO). VV ECMO primarily provides respiratory support, whereas VA ECMO provides both cardiac and respiratory support. VV-ECMO facilitates gas exchange in patients with respiratory failure experiencing refractory hypoxemia or severe hypercapnia while lowering the intensity of mechanical ventilation, minimizing barotrauma and atelectrauma.</p>
+        <p>ECMO evolved from cardiopulmonary bypass in the 1970s and intrigued the medicine world. However, interest was stymied after the two negative randomized controlled trials for the use of ECMO in respiratory failure.<xref ref-type="bibr" rid="article-132892.r17">[17]</xref><xref ref-type="bibr" rid="article-132892.r18">[18]</xref>&#x000a0;Since then, the understanding of ECMO physiology and technology has grown by leaps and bounds with newer circuits and configurations, thus lessening the complications.<xref ref-type="bibr" rid="article-132892.r19">[19]</xref><xref ref-type="bibr" rid="article-132892.r20">[20]</xref><xref ref-type="bibr" rid="article-132892.r19">[19]</xref>&#x000a0;The use of ECMO was largely limited to few centers until its reemergence during the H1N1 pandemic. Since then, there has an exponential increase in the deployment of ECMO all across the globe. The studies on ECMO have been marred by significant heterogeneity of mechanical ventilation in the control arm and significant cross-overs from the control arm to the interventional arm.</p>
+        <p>The Conventional ventilatory support versus Extracorporeal membrane oxygenation for Severe Acute Respiratory failure (CESAR) trial&#x000a0;showed that patients who received ECMO had significantly higher survival at 6 months compared to the control arm (63% vs. 47%; p=0.03). The ECMO to rescue lung injury in severe ARDS (EOLIA) trial&#x000a0;randomized 249 patients with severe ARDS (PF &#x0003c;50 mmHg &#x0003e;3 hours or PF &#x0003c;80 mmHg for &#x0003e;6 hours) to receive early ECMO or conventional low tidal-low pressure IMV. The mortality in the ECMO arm was lower. However, it did not reach statistical significance (35% vs. 46%, RR 0.76 95%CI 0.55 to 1.04; P=0.09). The trial was stopped early after an interim analysis did not show a significant improvement in mortality by day 60, which was widely criticized as there was a trend towards improved mortality.<xref ref-type="bibr" rid="article-132892.r20">[20]</xref><xref ref-type="bibr" rid="article-132892.r21">[21]</xref>&#x000a0;</p>
+        <p>A high percentage of crossover of sicker patients from the control to the treatment group could have swayed the outcomes as well. A systematic review and meta-analysis of two randomized controlled trials and three observational studies with matching techniques (N=773) showed that 60-day mortality was significantly lower in the VV-ECMO group than in the control group (34% vs. 47%; RR 0&#x000b7;73 [95% CI 0&#x000b7;58&#x02013;0&#x000b7;92]; p=0&#x000b7;008). As authors of the above metanalysis point, the results of these studies should be interpreted keeping in mind the availability of ECMO and the expertise of a center in managing these patients.<xref ref-type="bibr" rid="article-132892.r17">[17]</xref></p>
+        <p>With ever-growing support for ECMO in the pre-COVID era, one would have expected ECMO to be on the forefront as a rescue strategy for COVID-19 patients with refractory hypoxemia. However, the initial case series portrayed a bleak picture for the use of ECMO due to reportedly higher mortality.<xref ref-type="bibr" rid="article-132892.r21">[21]</xref>&#x000a0;Early on in Italy, only 2% of the total COVID-19 ICU patients received ECMO, with a mortality of around 63%.<xref ref-type="bibr" rid="article-132892.r22">[22]</xref>&#x000a0;Despite the negative reports, early management guidelines for managing COVID-19 respiratory failure by the Society of Critical Care Medicine recommended using ECMO when conventional management failed.<xref ref-type="bibr" rid="article-132892.r23">[23]</xref>&#x000a0;Interim guidance from the ELSO leaders also suggested using ECMO in an experienced center as soon as the indications are met.<xref ref-type="bibr" rid="article-132892.r24">[24]</xref>&#x000a0;According to ELSO.org, in patients with ECMO initiated at least 90 days ago, the current in-hospital mortality is 49%.</p>
+        <p>The indications of ECMO are summarized in Figure 3.</p>
+      </sec>
+      <sec id="article-132892.s5" sec-type="Contraindications">
+        <title>Contraindications</title>
+        <p>Invasive mechanical ventilation can be prevented in patients who demonstrate a good response to non-invasive respiratory support with HFNC or NIPV. In addition, care should be tailored to the patient&#x02019;s preference and goals of care. A compassionate and informative discussion with the patient and their family members should be considered if the need for endotracheal intubation is anticipated shortly. All benefits and risks should be discussed and assessed.</p>
+        <p>Endotracheal intubation is contraindicated in patients who have clearly expressed their wishes not to be intubated or resuscitated in case of clinical deterioration (do not intubate/DNI or do not resuscitate/DNR) it may not align with the patient&#x02019;s goals of care.</p>
+        <p>For ECMO, there are a few absolute contraindications and some relative ones. The relative contraindications can change according to the hospital policies and could also reflect ongoing surges. Figure 4 depicts the absolute and relative contraindications of ECMO.</p>
+      </sec>
+      <sec id="article-132892.s6" sec-type="Equipment">
+        <title>Equipment</title>
+        <p>A sudden&#x000a0;surge in COVID-19 ARDS patients led to the conversion of regular hospital wards into negative pressure-capable intensive care units.<xref ref-type="bibr" rid="article-132892.r25">[25]</xref>&#x000a0;The high ICU load and demands have been associated with excess mortality, and all efforts should be directed to improve efficiency, patient flow, and triaging.<xref ref-type="bibr" rid="article-132892.r26">[26]</xref>&#x000a0;These units should have a central and continuous supply of medical-grade oxygen capable of handling high flow oxygen delivery devices and mechanical ventilators.</p>
+        <p>The ICUs should have dedicated stations with segregated equipment for endotracheal intubation with appropriate protocols in place. The intubation equipment box should be equipped with proper personal protective equipment (PPE), including gloves, gown, an N-95 mask, and face shield to protect the intubating team from exposure. Based on availability, a Powered Air Purifying Respirator (PAPR) should be considered, as endotracheal intubation is inherently a high-risk procedure with the potential for significant aerosolization.</p>
+        <p>COVID-19 airway management and intubation should be carried out by skilled operators, and all efforts should be made to allow for high first-pass intubation. The use of video laryngoscopy-assisted devices for intubation is encouraged as these devices allow the operator to be at a safer distance from the patient's oropharynx compared to direct laryngoscopy. Operators need regular orientation regarding the placement of such specialized equipment in the intensive care unit. The use of a clear plexiglass shield or an &#x0201c;intubating box&#x0201d; has been described to allow for minimizing aerosolization during intubation; whether that leads to less aerosol exposure is unclear.</p>
+        <p>Healthcare personnel should use proper personal protective equipment (PPE), including gloves, gowns, an N-95 mask, and face shields to protect themselves from exposure. Over the course of the pandemic, the importance of conserving PPE and preventing unwarranted exposure to healthcare staff has been stressed. Simple measures like extension tubing can be used to connect infusion pumps to patients while keeping the pumps outside the patient room. A similar strategy can be used in extension cables for ventilator screens, which allows for the placement of ventilator screens outside the patient room. This allows for routine adjustments to the ventilator settings without entering the patient room.</p>
+        <p>Special grommets have been designed for the door in ICU rooms allowing for the cables and extension tubing. They can be utilized for the safe passage of wires while maintaining negative pressure and avoiding expulsion of air from the room into the hallways. Figure 5 depicts an example of an easily available grommet that can be placed on the ICU doors. The high-efficiency particulate filters (HEPA) should be applied to each room with an intubated patient to minimize the diffusion of viral particles and decrease the risk of intra-hospital transmission of COVID-19. Ideally, the HEPA filters should be assessed daily and changed if needed.</p>
+        <p>ECMO requires specialized equipment and 1:1 trained nurses with experience in handling patients on ECMO. Constant monitoring of the equipment with communication with the intensivist and perfusionist is key to the safe management of ECMO. Extra supplies of ECMO tubing, membrane lungs, cannulas, and a spare circuit should be in close proximity should an emergency arise to change the equipment.</p>
+      </sec>
+      <sec id="article-132892.s7" sec-type="Personnel">
+        <title>Personnel</title>
+        <p>A multi-disciplinary team-based approach is highly effective in patients who are mechanically ventilated or are on ECMO. The team members include but are not limited to:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Physicians (intensivist/surgeon)</p>
+          </list-item>
+          <list-item>
+            <p>Consulting providers</p>
+          </list-item>
+          <list-item>
+            <p>Advance practice providers&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Critical care trained nurse</p>
+          </list-item>
+          <list-item>
+            <p>Respiratory therapist&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Perfusionist&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Critical care pharmacist&#x000a0;</p>
+          </list-item>
+          <list-item>
+            <p>Physical/occupational therapist</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec id="article-132892.s8" sec-type="Preparation">
+        <title>Preparation</title>
+        <p>To prepare for endotracheal intubation and IMV, closed-loop communication between team members is required. A time-out should be conducted to review patient details, consent, and anticipated approach to intubation unless a life-threatening emergency. A respiratory therapist, intensivist, nurse, and ICU pharmacist should be a part of the team. An appropriate pre-oxygenation method should be discussed. High flow devices such as HFNC, non-rebreather mask, and in some instances, NIPV can be considered for pre-oxygenation to minimize intra-procedure hypoxemia as there is a high risk of sudden de-recruitment and hypoxemia after neuromuscular blockade during induction.</p>
+        <p>The induction method, such as rapid sequence intubation, should be reviewed along with pre-existing allergies, prior intubations, and contraindication to each medication. In most hospitals, video laryngoscopy has been recommended for intubation to minimize aerosolization and improve efficiency.<xref ref-type="bibr" rid="article-132892.r27">[27]</xref>&#x000a0;Ideally, full muscle relaxation with neuromuscular blockade should be considered to minimize coughing and improve first-pass success.<xref ref-type="bibr" rid="article-132892.r28">[28]</xref>&#x000a0;Endotracheal intubation should be attempted by the most experienced provider to minimize complications and aerosolization.</p>
+      </sec>
+      <sec id="article-132892.s9" sec-type="Technique or Treatment">
+        <title>Technique or Treatment</title>
+        <p>
+<bold>Mechanical Ventilation</bold>
+</p>
+        <p>Following intubation, known techniques with proven benefits over the years should be instituted to allow for the best outcomes. Berlin et al. summarize the ventilation strategy in mechanically ventilated patients with COVID-19 with an approach to prioritize lung-protective ventilation (LPV).<xref ref-type="bibr" rid="article-132892.r29">[29]</xref>&#x000a0;This strategy aims at preventing ventilator-induced injury by 3 key elements &#x02013; avoiding alveolar overdistension, preventing oxygen-mediated damage by preventing hyperoxia, and avoiding cyclical alveolar collapse. These strategies have been developed over decades of rigorous randomized control trials on ARDS management.</p>
+        <p>
+<bold>Avoiding Alveolar Overdistension</bold>
+</p>
+        <p>Alveolar overdistension is one of the commonest forms of ventilator-mediated injury. Since alveolar distension is directly related to the amount of tidal volume applied and depends on the lung compliance at a given time, it is important to follow a low tidal volume approach. In COVID-19 ARDS, there is a significant amount of damage to the lung due to direct viral injury, alveolar leakage and edema, and atelectasis. This leads to a reduction of the aerated lung volume, and a low tidal volume strategy can prove extremely beneficial.</p>
+        <p>The Acute Respiratory Syndrome network (ARDSnet) conducted a landmark trial in the management of ARDS, which showed mortality benefits using low tidal volume ventilation. The trial compared ventilation with a lower tidal volume, which involved an initial tidal volume of 6 ml per kilogram of predicted body weight and a plateau pressure of 30 cm of water with traditional ventilation treatment, which involved an initial tidal volume of 12 ml per kilogram of predicted body weight and a plateau pressure of less than 50 cm of water. This trial was stopped early due to lower mortality in the&#x000a0;LTV group. The plateau pressure is defined as the airway pressure measured in a mechanically ventilated patient after a 0.5-second pause at the end of inspiration. This is a proven surrogate for measuring overdistension, and several studies recommend a plateau pressure threshold of 30 cm of water or lower to avoid overdistension.<xref ref-type="bibr" rid="article-132892.r30">[30]</xref></p>
+        <p>
+<bold>Preventing Hyperoxia and Avoiding Cyclical Alveolar Collapse</bold>
+</p>
+        <p>It is now well known that lungs inflicted with ARDS have a heterogenous disposition with areas of collapse interspersed between areas of aeration. There are swings of collapse and opening of lung segments leading to damage via a phenomenon described as atelectrauma. The open lung concept was described by Lachmann while also postulating that areas of atelectasis or collapsed lung are interspersed with areas of the healthy lung. In order to maintain aeration and avoid this atelectrauma, positive end-expiratory pressure (PEEP) is applied, leading to continued patency of the airway following expiration. Kacmarek and colleagues performed a randomized controlled trial comparing a low PEEP approach as used by the ARDSnet group to a high PEEP open lung approach in a randomized controlled trial.<xref ref-type="bibr" rid="article-132892.r31">[31]</xref>&#x000a0;</p>
+        <p>The open lung approach showed improved oxygenation and driving pressures without any detrimental effects on mortality, ventilator-free days, or barotrauma. However, their findings need to be demonstrated in a larger randomized controlled trial. Care should be practiced using a high PEEP strategy as it can lead to potential overdistension and result in VILI. Driving pressures are easy surrogates of lung compliance that can be calculated at the patient&#x02019;s bedside. The calculation is Driving Pressure = (Plateau pressure &#x02013; PEEP).&#x000a0; Studies have shown that driving pressure is possibly a better surrogate for lung distension and overdistension.<xref ref-type="bibr" rid="article-132892.r32">[32]</xref>&#x000a0;Lung recruitment with the application of PEEP results in a decrease in the driving pressures, easily calculated at the bedside. If the application of a higher PEEP leads to overdistension, it will lead to an increased driving pressure. This points towards a need for a low PEEP approach.</p>
+        <p>Hyperoxia is a known cause of lung damage with free radical-mediated injury as well as from absorptive atelectasis. The fraction of nitrogen in inspired air is important in maintaining the patency of smaller airways. Nitrogen is inert with negligible absorption via the alveoli at normal atmospheric pressure. When the fraction of nitrogen is replaced with oxygen, a freely absorbed gas, the smaller airway collapse due to a phenomenon called absorptive atelectasis. Hence frequent arterial blood gas measurements to maintain the lowest amount of FiO2 to maintain a PaO2 of 55-80 mm Hg is recommended.<xref ref-type="bibr" rid="article-132892.r33">[33]</xref></p>
+        <p>
+<bold>Prone Positioning</bold>
+</p>
+        <p>Prone positioning has been used to improve oxygenation in severe ARDS. The improvement in oxygenation is postulated to be due to improvement in ventilation and perfusion matching, a better distribution of aeration, improvement of chest wall mechanics, and better secretion clearance.<xref ref-type="bibr" rid="article-132892.r34">[34]</xref>&#x000a0;The PROSEVA trial found a reduction in mortality of 17% in the patients who were prone compared to the control group.<xref ref-type="bibr" rid="article-132892.r35">[35]</xref>&#x000a0;Patients in the PROSEVA trail were randomized early in the course of ARDS and were universally treated with low tidal volume ventilation (6 ml/kg of predicted body weight). A retrospective cohort study performed on patients with COVID-19 demonstrated the mortality benefit of prone positioning in this subset of ARDS patients.<xref ref-type="bibr" rid="article-132892.r36">[36]</xref></p>
+        <p>Following are the criteria for proning:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p>Mechanical ventilation for ARDS for less than 36 hours</p>
+          </list-item>
+          <list-item>
+            <p>Severe ARDS is defined as a PaO: FiO&#x000a0;ratio of &#x0003c;150 mm Hg, with a FiO&#x000a0;of &#x02265;0.6, a PEEP of &#x02265;5 cm of water.</p>
+          </list-item>
+        </list>
+        <p>The patients should be proned for at least 16 hours.&#x000a0;Care should be taken during the process of proning, as accidental extubation can lead to de-recruitment leading to ensuing lung injury.&#x000a0; Criteria for&#x000a0;successful proning include improved oxygenation with a PaO2:FiO2 ratio of&#x000a0; &#x02265;150 mm Hg with a PEEP of &#x02264;10 cm of water and a FiO&#x000a0;of &#x02264;0.6. Of note, these measurements should be made at least 4 hours after unproning. On the other hand, a significant worsening of oxygenation by more than 20% decrease in the PaO2:FiO2 ratio, hemodynamic instability, impending collapse, cardiopulmonary arrest are indications of immediately abandoning proning.</p>
+        <p>
+<bold>Neuromuscular Blockade</bold>
+</p>
+        <p>Neuromuscular blocking agents (NMB) can help abolish patient-ventilator dys-synchrony, and their utility has been evaluated and studied in the past decade. The use of NMB&#x02019;s has shown improvement in oxygenation&#x000a0;and reduce inflammatory biomarkers. However, the consensus on an improvement in mortality remains divided. While a randomized controlled trial in 2010 showed an improvement in mortality, a larger RCT in 2019 did not demonstrate any mortality benefit.<xref ref-type="bibr" rid="article-132892.r37">[37]</xref><xref ref-type="bibr" rid="article-132892.r38">[38]</xref><xref ref-type="bibr" rid="article-132892.r39">[39]</xref><xref ref-type="bibr" rid="article-132892.r40">[40]</xref>&#x000a0;</p>
+        <p>In the context of COVID-19 ARDS, boluses of NMB&#x02019;s are suggested to abolish episodes of asynchrony with ventilator in comparison to continuous infusions.<xref ref-type="bibr" rid="article-132892.r23">[23]</xref>&#x000a0;However, if boluses of NMB agents are not abolishing the patient-ventilator dyssynchrony, NMB drip should be utilized. Every attempt should be made to come off the drips as soon as possible.</p>
+        <p>
+<bold>ECMO</bold>
+</p>
+        <p>If the indication of starting ECMO is met, prompt consultation with the ECMO team should be sought. When a decision to proceed with cannulation for ECMO has been made, the patient should ideally be moved to the pertinent ICU involved and experienced in dealing with patients on ECMO. ELSO guidelines recommended a two catheter strategy with the draining cannula in the femoral vein positioned just 1-2 cms below the cavo-atrial junction and the return cannula either placed in the internal jugular vein near the superior cavoatrial junction or contralateral femoral vein. Dual-lumen catheters should be avoided as they require specialized settings like fluoroscopic guidance or echocardiographic guidance, leading to longer cannulation times and are more prone to mispositioning, requiring specialized image guidance like TEE or fluoroscopy for repositioning.<xref ref-type="bibr" rid="article-132892.r41">[41]</xref>&#x000a0;A dual-lumen atrio-pulmonary catheter can be used with an oxygenator if skills and expertise are available in patients with right ventricular dysfunction.<xref ref-type="bibr" rid="article-132892.r42">[42]</xref></p>
+        <p>The flows on the ECMO machine should be adjusted in order to capture at least 60% of the cardiac output to achieve adequate oxyhemoglobin saturation of &#x0003e;88%.<xref ref-type="bibr" rid="article-132892.r43">[43]</xref>&#x000a0;Larger drainage cannulas (23 Fr-29Fr) should be used to provide full oxygenation support. Re-circulation should be minimized by adequately spaced femoral-jugular cannulas or properly placed dual-lumen cannulas. Sometimes, hemodynamics permitting, beta-blockers can be used to decrease heart rate to decrease the native cardiac output, thereby increasing the fraction of the captured cardiac output. The main goal of ECMO is to provide adequate gas exchange while minimizing the VILI. Mechanical ventilation strategy during ECMO has been a subject of debate, and no large randomized control trials have been conducted. However, the current expert consensus suggests the following ventilator settings in ARDS, based on the best available data.<xref ref-type="bibr" rid="article-132892.r32">[32]</xref><xref ref-type="bibr" rid="article-132892.r44">[44]</xref>&#x000a0;</p>
+        <p>The goal of these ventilator settings is to reduce the driving pressure, which has been correlated strongly to mortality and decrease the energy transferred to the lungs by the ventilator, also called mechanical power.<xref ref-type="bibr" rid="article-132892.r45">[45]</xref><xref ref-type="bibr" rid="article-132892.r46">[46]</xref>&#x000a0;There is currently no data to suggest that we should deviate from general practice in COVID-19 patients. The ventilator settings suggested for patients on ECMO are depicted in figure 6. Prone positioning is feasible in COVID-19 ECMO patients&#x000a0;and should be attempted according to the local hospital practices and guidelines. Propensity-matched analysis in a multicenter cohort study showed improved oxygenation and mortality in patients who were prone while on ECMO.<xref ref-type="bibr" rid="article-132892.r47">[47]</xref>&#x000a0;All patients should be anticoagulated with unfractionated heparin or bivalirudin unless limited by coagulopathy and bleeding episodes. An attempt should be made to limit the use of sedation as much as possible, focusing on engagement in physical therapy.</p>
+        <p>Weaning from ECMO remains a challenge and needs to be timed appropriately to avoid the deleterious effects of prolonged ECMO. Ideally, the weaning strategy should be decided before cannulation if the patient&#x02019;s native lung function doesn&#x02019;t recover. If transplantation services are not available at the ECMO performing institution, prior engagement with the transplant centers is encouraged. Establishing futility in the absence of other organ dysfunction can be challenging, and decisions to terminate ECMO support should be carefully discussed. Discontinuation /prolonged continuation of ECMO can pose ethical dilemmas and challenges; early involvement of the ethics team and palliative medicine is highly encouraged.<xref ref-type="bibr" rid="article-132892.r48">[48]</xref>&#x000a0;</p>
+        <p>In conclusion, VV-ECMO should be offered to patients with COVID-19 respiratory failure who have failed conventional therapies. However, ECMO is resource-intensive, and imitation should be done carefully based on the local case surges and capacity of the healthcare system.</p>
+      </sec>
+      <sec id="article-132892.s10" sec-type="Complications">
+        <title>Complications</title>
+        <p>With the application of positive pressure to the airway, excessive airway pressures can lead to barotrauma. While the effects of barotrauma are complex and adversely affects survival, an immediate concern is the causation of a pneumothorax. A pneumothorax can lead to a further increase in airway pressures, collapse of aerated portions of the lung leading to worsening oxygenation, and the formation of a tension pneumothorax leading to hemodynamic compromise. Figure 7 depicts a pneumothorax in a patient on mechanical ventilation. An unexplained drop in blood pressure or oxygen saturation should be evaluated at the bedside.</p>
+        <p>While an emergent chest X-ray is being arranged, a bedside sonogram can help diagnose a pneumothorax. Under normal circumstances, in the absence of a pneumothorax or a large pleural effusion, the lung and the chest wall interface can be well visualized on a sonogram. This interface is unique because a shimmering movement is noted with the lung moving against the chest wall; this is known as lung sliding. Providers can be trained to detect a pneumothorax with relative ease, and treatment can be started promptly. In the absence of lung sliding, steps can be taken to relieve the pneumothorax even when the chest X-ray is awaited. In case of hemodynamic instability due to a tension pneumothorax, a needle thoracostomy performed using a large-bore needle (14&#x000a0;to 16 gauge) in the second intercostal space in the midclavicular line can be lifesaving.</p>
+        <p>Once the patient has been stabilized, a more definitive approach like a pig-tailed catheter can be pursued. If a pig-tailed catheter is unable to drain the pneumothorax, a wide bore chest tube with a surgical approach can be used. It is best if these procedures are performed by experienced physicians to ensure patient comfort and minimize iatrogenic injury. Figures 8 and 9 show the placement of a wide bore chest tube for a large pneumothorax. A water seal should be applied with suction to ensure reinflation of the lung. Bubbling in the water seal denotes a persistent air leak, and the chest tubes should not be removed unless the air leak is resolved. If the air leak persists beyond 24-48 hours, a possible bronchopleural fistula should be considered, and thoracic surgery should be consulted to aid in managing the pneumothorax. Figure 10 depicts a broncho-pleural fistula leading to a persistent pneumothorax despite the placement of 2 chest tubes.&#x000a0;</p>
+        <p>With an endotracheal tube, there is an added benefit of efficient airway clearance with suction. However, these suction catheters can cause damage to the airway and lead to hemoptysis. Ideally, respiratory therapists should perform suction, as this leads to efficient suction, with minimal trauma and aerosolization. If the suction trauma persists, we can switch to softer catheters with a smaller bore; however, the operator should be mindful of aerosolization associated with breaking the ventilator circuit. Ventilator-associated pneumonia should be considered in patients with fevers and evidence of sepsis. Secretions should be cultured and empiric antibiotics should be started to cover nosocomial infections endemic to the region.</p>
+        <p>ECMO has significant adverse effects, and its use should be limited to carefully selected patients after an interprofessional discussion. Life-threatening bleeding has been associated with the use of ECMO due to the need for anticoagulation and platelet dysfunction.<xref ref-type="bibr" rid="article-132892.r49">[49]</xref>&#x000a0;Bleeding can occur at the cannula insertion site, tracheostomy site, gastrointestinal tract, intracranial bleeding, and body cavities. Daily monitoring of hematological indices is warranted for catching a hemorrhagic episode early. Near-infrared spectroscopy (NIRS) is used to measure cerebral perfusion, and a sudden drop in saturation noted on NIRS can point towards an acute cerebral injury vs. regional hypoperfusion.<xref ref-type="bibr" rid="article-132892.r50">[50]</xref>&#x000a0;</p>
+        <p>Thromboembolism remains a significant complication of ECMO. Deep venous thrombosis can be seen in a majority of patients on ECMO, and pulmonary embolism can be life-threatening. The ECMO circuit should be checked frequently between shifts to look for signs of thrombosis. Figure 11 depicts an ECMO oxygenator with a significant clot.&#x000a0;The placement of ECMO catheters requires constant monitoring; if the catheters are too close, there may be recirculation of blood between the two catheters leading to suboptimal systemic oxygen delivery. Figure 12 depicts 2 ECMO catheters in close proximity leading to recirculation.</p>
+      </sec>
+      <sec id="article-132892.s11" sec-type="Clinical Significance">
+        <title>Clinical Significance</title>
+        <p>The use of a protocolized approach in the management of ARDS with COVID-19 has been discussed in detail from the start of the pandemic. Initially, with an overwhelming number of cases in some centers, due to a shortage of equipment and staffing, a uniform approach to every case of COVID-19 remained difficult. The fluidity of the changing guidelines and discordance in the recommendations across borders led to confusion among healthcare professionals. Over the last year, a better understanding of the disease process and improvement in the quality of evidence have provided better guidelines as more evidence comes to light regarding the use of mechanical ventilation when indicated and the benefits of avoiding delays, a thorough understanding of the disease process and management protocols are pivotal to reaping the mortality benefits of available therapies.</p>
+        <p>Following the admission of a patient with moderate to severe COVID-19 ARDS, the physiology of the disease should warrant the use of medications aimed at the innate and adaptive immune system that leads to an overt immune response and release of pro-inflammatory cytokines such as IL-6, IL-1&#x003b2;, and TNF-&#x003b1; that may potentiate lung injury and diffuse alveolar damage. Medications like corticosteroids and Baricitinib can be utilized to avoid worsening and decrease oxygen requirements. The parameters of ARDS severity as defined by the Berlin criterion should be utilized to gauge the severity of the disease.</p>
+        <p>When a patient has failed noninvasive therapy and meets the criteria for mechanical ventilation, efforts should be made to ensure the team's safety and ensure a high first-pass intubation rate. The healthcare team should have set defined goals and should do their part in aiding in patient care. Once the patient has been intubated, the measures that have shown to improve mortality, like low tidal volume ventilation, should narrate the ventilator management at every step. Prone positioning should be utilized, and appropriate steps should be taken to ensure the safe delivery of care while proning patients. The neuromuscular blockade should be utilized when needed, and the goal of care should be only to attain patient-ventilator synchrony. When the patient improves, sedation and paralysis vacation with a gradual withdrawal of mechanical support can help rehabilitate the patient back to health sooner.</p>
+        <p>Unfortunately, if the patient has not responded to mechanical ventilation, all efforts should involve the ECMO team for an early evaluation.&#x000a0;Measures should occur to facilitate the successful implantation of ECMO, and for example, the right internal jugular vein should be avoided as a site for central line placement to allow for a smooth ECMO catheter cannulation if needed. Small efforts anticipating the possible steps ahead differentiate an expert center from others. Dissipating knowledge ensures an expert center level of care at the grassroots level in the communities. This will help provide excellent care and bring down the unacceptably high mortality associated with COVID-19 ARDS.</p>
+      </sec>
+      <sec id="article-132892.s12" sec-type="Enhancing Healthcare Team Outcomes ">
+        <title>Enhancing Healthcare Team Outcomes </title>
+        <p>Highly trained healthcare personnel with clearly defined roles and shift schedules in a COVID-19 ICU can improve workflow and efficiency.<xref ref-type="bibr" rid="article-132892.r51">[51]</xref>&#x000a0;An intensivist, ICU-trained nurses, post-graduate trainees such as medical residents, critical care medicine fellows, and advanced nurse practitioners can be divided into several smaller teams to divide the patient load and provide proper care.<xref ref-type="bibr" rid="article-132892.r52">[52]</xref>&#x000a0;</p>
+        <p>A pyramid-like approach has been tried and tested during the pandemic with a trained intensivist guiding multiple teams of mid-level physicians/physicians of other specialties, allowing for wider coverage of patients by the intensivist. Figure 13 depicts the pyramid-like approach that allows for maximal ICU physician coverage. The respiratory therapists form an integral part of the team and should be involved in each patient's care on mechanical ventilation. They should also be a part of the rapid response team in the hospital to facilitate the transition from regular nursing floors to ICU in case of emergencies. Dialysis nurses should be readily available as acute kidney injury has been reported in up to 25% of critically ill COVID-19 patients.<xref ref-type="bibr" rid="article-132892.r53">[53]</xref>&#x000a0;When the ICU load is high, a separate procedure team, including an intensivist or anesthesiologist and house staff physicians or advanced nurse practitioners, should be requested to assist with procedures such as central lines, arterial lines, endotracheal intubation, and ECMO cannulation.</p>
+        <p>Since many COVID-19 ARDS patients require prone positioning early in the course of intubation, a safe and effective method for proning is required. A proning team should consist of a respiratory therapist, nurses and can include additional staff to provide much-needed hands during the meticulous procedure. Care should be taken to use padding and pressure preventive dressing on pressure points such as shoulders, nipples, groin, knees, and feet. Palliative care specialists should also be available to assist with advanced care planning and end-of-life care discussions.<xref ref-type="bibr" rid="article-132892.r54">[54]</xref>&#x000a0;ECMO requires specialized equipment and 1:1 trained nurses with experience in handling patients on ECMO. Constant monitoring of the equipment with communication with the intensivist and perfusionist is key to the safe management of ECMO.</p>
+      </sec>
+      <sec id="article-132892.s13">
+        <title>Review Questions</title>
+        <list list-type="bullet">
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/account/trialuserreg/?articleid=132892&#x00026;utm_source=pubmed&#x00026;utm_campaign=reviews&#x00026;utm_content=132892">Access free multiple choice questions on this topic.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://mdsearchlight.com/therapeutics/mechanical-ventilation-and-extracorporeal-membrane-oxygenation-considerations-in-covid-19-mechanical-ventilation-ecmo/?utm_source=pubmedlink&#x00026;utm_campaign=MDS&#x00026;utm_content=132892">Click here for a simplified version.</ext-link>
+</p>
+          </list-item>
+          <list-item>
+            <p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.statpearls.com/articlelibrary/commentarticle/132892/?utm_source=pubmed&#x00026;utm_campaign=comments&#x00026;utm_content=132892">Comment on this article.</ext-link>
+</p>
+          </list-item>
+        </list>
+      </sec>
+    </body>
+    <back>
+      <floats-group id="article-132892.s14">
+        <fig id="article-132892.image.f1" position="float" orientation="portrait">
+          <caption>
+            <p>Figure 1: Depicting the Berlin Criteria for ARDS diagnosis and severity. Contributed by Ankur Sinha MD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Screen__Shot__2021-05-31__at__11.30.16__PM" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-132892.s15">
+        <fig id="article-132892.image.f2" position="float" orientation="portrait">
+          <caption>
+            <p>Figure 2: Depicting the indications of intubation and mechanical ventilation in patients with COVID-19 ARDS Contributed by Ankur Sinha MD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Screen__Shot__2021-06-01__at__12.35.35__AM" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-132892.s16">
+        <fig id="article-132892.image.f3" position="float" orientation="portrait">
+          <caption>
+            <p>Figure 3: Indications of ECMO in COVID-19 ARDS Contributed by Ankur Sinha MD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Screen__Shot__2021-05-31__at__11.30.02__PM" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-132892.s17">
+        <fig id="article-132892.image.f4" position="float" orientation="portrait">
+          <caption>
+            <p>Figure 4: Depicting the contraindications of ECMO Contributed by Ankur Sinha MD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Screen__Shot__2021-05-31__at__11.29.51__PM" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <floats-group id="article-132892.s18">
+        <fig id="article-132892.image.f5" position="float" orientation="portrait">
+          <caption>
+            <p>Figure 5: Depicting a grommet that allows safe passage of tubing and wires across ICU room doors. Contributed by Ankur Sinha MD</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="Screen__Shot__2021-06-01__at__12.47.12__AM" position="float" orientation="portrait"/>
+        </fig>
+      </floats-group>
+      <ref-list id="article-132892.s19">
+        <title>References</title>
+        <ref id="article-132892.r1">
+          <label>1</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hu</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Guo</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Zhou</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Shi</surname>
+                <given-names>ZL</given-names>
+              </name>
+            </person-group>
+            <article-title>Characteristics of SARS-CoV-2 and COVID-19.</article-title>
+            <source>Nat Rev Microbiol</source>
+            <year>2021</year>
+            <month>Mar</month>
+            <volume>19</volume>
+            <issue>3</issue>
+            <fpage>141</fpage>
+            <page-range>141-154</page-range>
+            <pub-id pub-id-type="pmid">33024307</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r2">
+          <label>2</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Shang</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Ye</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Shi</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Wan</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Luo</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Aihara</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Geng</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Auerbach</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Li</surname>
+                <given-names>F</given-names>
+              </name>
+            </person-group>
+            <article-title>Structural basis of receptor recognition by SARS-CoV-2.</article-title>
+            <source>Nature</source>
+            <year>2020</year>
+            <month>May</month>
+            <volume>581</volume>
+            <issue>7807</issue>
+            <fpage>221</fpage>
+            <page-range>221-224</page-range>
+            <pub-id pub-id-type="pmid">32225175</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r3">
+          <label>3</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wang</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Wu</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Niu</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Song</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Zhang</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Lu</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Qiao</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Hu</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Yuen</surname>
+                <given-names>KY</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>Q</given-names>
+              </name>
+              <name>
+                <surname>Zhou</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Yan</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Qi</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Structural and Functional Basis of SARS-CoV-2 Entry by Using Human ACE2.</article-title>
+            <source>Cell</source>
+            <year>2020</year>
+            <month>May</month>
+            <day>14</day>
+            <volume>181</volume>
+            <issue>4</issue>
+            <fpage>894</fpage>
+            <page-range>894-904.e9</page-range>
+            <pub-id pub-id-type="pmid">32275855</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r4">
+          <label>4</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Hue</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Beldi-Ferchiou</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Bendib</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Surenaud</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Fourati</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Frapard</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Rivoal</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Razazi</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Carteaux</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Delfau-Larue</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Mekontso-Dessap</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Audureau</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>de Prost</surname>
+                <given-names>N</given-names>
+              </name>
+            </person-group>
+            <article-title>Uncontrolled Innate and Impaired Adaptive Immune Responses in Patients with COVID-19 Acute Respiratory Distress Syndrome.</article-title>
+            <source>Am J Respir Crit Care Med</source>
+            <year>2020</year>
+            <month>Dec</month>
+            <day>01</day>
+            <volume>202</volume>
+            <issue>11</issue>
+            <fpage>1509</fpage>
+            <page-range>1509-1519</page-range>
+            <pub-id pub-id-type="pmid">32866033</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r5">
+          <label>5</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Wichmann</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Sperhake</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>L&#x000fc;tgehetmann</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Steurer</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Edler</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Heinemann</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Heinrich</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Mushumba</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Kniep</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Schr&#x000f6;der</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Burdelski</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>de Heer</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Nierhaus</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Frings</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Pfefferle</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Becker</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Bredereke-Wiedling</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>de Weerth</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Paschen</surname>
+                <given-names>HR</given-names>
+              </name>
+              <name>
+                <surname>Sheikhzadeh-Eggers</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Stang</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Schmiedel</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Bokemeyer</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Addo</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Aepfelbacher</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>P&#x000fc;schel</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Kluge</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Autopsy Findings and Venous Thromboembolism in Patients With COVID-19: A Prospective Cohort Study.</article-title>
+            <source>Ann Intern Med</source>
+            <year>2020</year>
+            <month>Aug</month>
+            <day>18</day>
+            <volume>173</volume>
+            <issue>4</issue>
+            <fpage>268</fpage>
+            <page-range>268-277</page-range>
+            <pub-id pub-id-type="pmid">32374815</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r6">
+          <label>6</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ojo</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Balogun</surname>
+                <given-names>SA</given-names>
+              </name>
+              <name>
+                <surname>Williams</surname>
+                <given-names>OT</given-names>
+              </name>
+              <name>
+                <surname>Ojo</surname>
+                <given-names>OS</given-names>
+              </name>
+            </person-group>
+            <article-title>Pulmonary Fibrosis in COVID-19 Survivors: Predictive Factors and Risk Reduction Strategies.</article-title>
+            <source>Pulm Med</source>
+            <year>2020</year>
+            <volume>2020</volume>
+            <fpage>6175964</fpage>
+            <pub-id pub-id-type="pmid">32850151</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r7">
+          <label>7</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gattinoni</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Coppola</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Cressoni</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Busana</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Rossi</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Chiumello</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>COVID-19 Does Not Lead to a "Typical" Acute Respiratory Distress Syndrome.</article-title>
+            <source>Am J Respir Crit Care Med</source>
+            <year>2020</year>
+            <month>May</month>
+            <day>15</day>
+            <volume>201</volume>
+            <issue>10</issue>
+            <fpage>1299</fpage>
+            <page-range>1299-1300</page-range>
+            <pub-id pub-id-type="pmid">32228035</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r8">
+          <label>8</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Haudebourg</surname>
+                <given-names>AF</given-names>
+              </name>
+              <name>
+                <surname>Perier</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Tuffet</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>de Prost</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Razazi</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Mekontso Dessap</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Carteaux</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Respiratory Mechanics of COVID-19- versus Non-COVID-19-associated Acute Respiratory Distress Syndrome.</article-title>
+            <source>Am J Respir Crit Care Med</source>
+            <year>2020</year>
+            <month>Jul</month>
+            <day>15</day>
+            <volume>202</volume>
+            <issue>2</issue>
+            <fpage>287</fpage>
+            <page-range>287-290</page-range>
+            <pub-id pub-id-type="pmid">32479162</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r9">
+          <label>9</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Frat</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Thille</surname>
+                <given-names>AW</given-names>
+              </name>
+              <name>
+                <surname>Mercat</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Girault</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Ragot</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Perbet</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Prat</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Boulain</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Morawiec</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Cottereau</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Devaquet</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Nseir</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Razazi</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Mira</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Argaud</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Chakarian</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>Ricard</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Wittebole</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Chevalier</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Herbland</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Fartoukh</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Constantin</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Tonnelier</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Pierrot</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Mathonnet</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>B&#x000e9;duneau</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Del&#x000e9;tage-M&#x000e9;treau</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Richard</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>Brochard</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Robert</surname>
+                <given-names>R</given-names>
+              </name>
+              <collab>FLORALI Study Group</collab>
+              <collab>REVA Network</collab>
+            </person-group>
+            <article-title>High-flow oxygen through nasal cannula in acute hypoxemic respiratory failure.</article-title>
+            <source>N Engl J Med</source>
+            <year>2015</year>
+            <month>Jun</month>
+            <day>04</day>
+            <volume>372</volume>
+            <issue>23</issue>
+            <fpage>2185</fpage>
+            <page-range>2185-96</page-range>
+            <pub-id pub-id-type="pmid">25981908</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r10">
+          <label>10</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rochwerg</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Granton</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Wang</surname>
+                <given-names>DX</given-names>
+              </name>
+              <name>
+                <surname>Helviz</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Einav</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Frat</surname>
+                <given-names>JP</given-names>
+              </name>
+              <name>
+                <surname>Mekontso-Dessap</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Schreiber</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Azoulay</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Mercat</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Demoule</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Lemiale</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Pesenti</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Riviello</surname>
+                <given-names>ED</given-names>
+              </name>
+              <name>
+                <surname>Mauri</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Mancebo</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Brochard</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Burns</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>High flow nasal cannula compared with conventional oxygen therapy for acute hypoxemic respiratory failure: a systematic review and meta-analysis.</article-title>
+            <source>Intensive Care Med</source>
+            <year>2019</year>
+            <month>May</month>
+            <volume>45</volume>
+            <issue>5</issue>
+            <fpage>563</fpage>
+            <page-range>563-572</page-range>
+            <pub-id pub-id-type="pmid">30888444</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r11">
+          <label>11</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Yoshida</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Uchiyama</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Fujino</surname>
+                <given-names>Y</given-names>
+              </name>
+            </person-group>
+            <article-title>The role of spontaneous effort during mechanical ventilation: normal lung versus injured lung.</article-title>
+            <source>J Intensive Care</source>
+            <year>2015</year>
+            <volume>3</volume>
+            <fpage>18</fpage>
+            <pub-id pub-id-type="pmid">27408729</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r12">
+          <label>12</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Roca</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Messika</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Caralt</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Garc&#x000ed;a-de-Acilu</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Sztrymf</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Ricard</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Masclans</surname>
+                <given-names>JR</given-names>
+              </name>
+            </person-group>
+            <article-title>Predicting success of high-flow nasal cannula in pneumonia patients with hypoxemic respiratory failure: The utility of the ROX index.</article-title>
+            <source>J Crit Care</source>
+            <year>2016</year>
+            <month>Oct</month>
+            <volume>35</volume>
+            <fpage>200</fpage>
+            <page-range>200-5</page-range>
+            <pub-id pub-id-type="pmid">27481760</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r13">
+          <label>13</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Grieco</surname>
+                <given-names>DL</given-names>
+              </name>
+              <name>
+                <surname>Menga</surname>
+                <given-names>LS</given-names>
+              </name>
+              <name>
+                <surname>Cesarano</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ros&#x000e0;</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Spadaro</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Bitondo</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Montomoli</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Fal&#x000f2;</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Tonetti</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Cutuli</surname>
+                <given-names>SL</given-names>
+              </name>
+              <name>
+                <surname>Pintaudi</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Tanzarella</surname>
+                <given-names>ES</given-names>
+              </name>
+              <name>
+                <surname>Piervincenzi</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Bongiovanni</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Dell'Anna</surname>
+                <given-names>AM</given-names>
+              </name>
+              <name>
+                <surname>Delle Cese</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Berardi</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Carelli</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Bocci</surname>
+                <given-names>MG</given-names>
+              </name>
+              <name>
+                <surname>Montini</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Bello</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Natalini</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>De Pascale</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Velardo</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Volta</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Ranieri</surname>
+                <given-names>VM</given-names>
+              </name>
+              <name>
+                <surname>Conti</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Maggiore</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Antonelli</surname>
+                <given-names>M</given-names>
+              </name>
+              <collab>COVID-ICU Gemelli Study Group</collab>
+            </person-group>
+            <article-title>Effect of Helmet Noninvasive Ventilation vs High-Flow Nasal Oxygen on Days Free of Respiratory Support in Patients With COVID-19 and Moderate to Severe Hypoxemic Respiratory Failure: The HENIVOT Randomized Clinical Trial.</article-title>
+            <source>JAMA</source>
+            <year>2021</year>
+            <month>May</month>
+            <day>04</day>
+            <volume>325</volume>
+            <issue>17</issue>
+            <fpage>1731</fpage>
+            <page-range>1731-1743</page-range>
+            <pub-id pub-id-type="pmid">33764378</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r14">
+          <label>14</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bellani</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Laffey</surname>
+                <given-names>JG</given-names>
+              </name>
+              <name>
+                <surname>Pham</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Madotto</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Fan</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Brochard</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Esteban</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Gattinoni</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Bumbasirevic</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Piquilloud</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>van Haren</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Larsson</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>McAuley</surname>
+                <given-names>DF</given-names>
+              </name>
+              <name>
+                <surname>Bauer</surname>
+                <given-names>PR</given-names>
+              </name>
+              <name>
+                <surname>Arabi</surname>
+                <given-names>YM</given-names>
+              </name>
+              <name>
+                <surname>Ranieri</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Antonelli</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Rubenfeld</surname>
+                <given-names>GD</given-names>
+              </name>
+              <name>
+                <surname>Thompson</surname>
+                <given-names>BT</given-names>
+              </name>
+              <name>
+                <surname>Wrigge</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Slutsky</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Pesenti</surname>
+                <given-names>A</given-names>
+              </name>
+              <collab>LUNG SAFE Investigators</collab>
+              <collab>ESICM Trials Group</collab>
+            </person-group>
+            <article-title>Noninvasive Ventilation of Patients with Acute Respiratory Distress Syndrome. Insights from the LUNG SAFE Study.</article-title>
+            <source>Am J Respir Crit Care Med</source>
+            <year>2017</year>
+            <month>Jan</month>
+            <day>01</day>
+            <volume>195</volume>
+            <issue>1</issue>
+            <fpage>67</fpage>
+            <page-range>67-77</page-range>
+            <pub-id pub-id-type="pmid">27753501</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r15">
+          <label>15</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Duan</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Han</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Bai</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Zhou</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Huang</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Assessment of heart rate, acidosis, consciousness, oxygenation, and respiratory rate to predict noninvasive ventilation failure in hypoxemic patients.</article-title>
+            <source>Intensive Care Med</source>
+            <year>2017</year>
+            <month>Feb</month>
+            <volume>43</volume>
+            <issue>2</issue>
+            <fpage>192</fpage>
+            <page-range>192-199</page-range>
+            <pub-id pub-id-type="pmid">27812731</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r16">
+          <label>16</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Perkins</surname>
+                <given-names>GD</given-names>
+              </name>
+              <name>
+                <surname>Couper</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Connolly</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Baillie</surname>
+                <given-names>JK</given-names>
+              </name>
+              <name>
+                <surname>Bradley</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Dark</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>De Soyza</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Gorman</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Gray</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Hamilton</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Hart</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Ji</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Lall</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>McGowan</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Regan</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Simonds</surname>
+                <given-names>AK</given-names>
+              </name>
+              <name>
+                <surname>Skilton</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Stallard</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Stimpson</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Yeung</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>McAuley</surname>
+                <given-names>DF</given-names>
+              </name>
+            </person-group>
+            <article-title>RECOVERY- Respiratory Support: Respiratory Strategies for patients with suspected or proven COVID-19 respiratory failure; Continuous Positive Airway Pressure, High-flow Nasal Oxygen, and standard care: A structured summary of a study protocol for a randomised controlled trial.</article-title>
+            <source>Trials</source>
+            <year>2020</year>
+            <month>Jul</month>
+            <day>29</day>
+            <volume>21</volume>
+            <issue>1</issue>
+            <fpage>687</fpage>
+            <pub-id pub-id-type="pmid">32727624</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r17">
+          <label>17</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Munshi</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Walkey</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Goligher</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Pham</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Uleryk</surname>
+                <given-names>EM</given-names>
+              </name>
+              <name>
+                <surname>Fan</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Venovenous extracorporeal membrane oxygenation for acute respiratory distress syndrome: a systematic review and meta-analysis.</article-title>
+            <source>Lancet Respir Med</source>
+            <year>2019</year>
+            <month>Feb</month>
+            <volume>7</volume>
+            <issue>2</issue>
+            <fpage>163</fpage>
+            <page-range>163-172</page-range>
+            <pub-id pub-id-type="pmid">30642776</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r18">
+          <label>18</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zapol</surname>
+                <given-names>WM</given-names>
+              </name>
+              <name>
+                <surname>Snider</surname>
+                <given-names>MT</given-names>
+              </name>
+              <name>
+                <surname>Hill</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Fallat</surname>
+                <given-names>RJ</given-names>
+              </name>
+              <name>
+                <surname>Bartlett</surname>
+                <given-names>RH</given-names>
+              </name>
+              <name>
+                <surname>Edmunds</surname>
+                <given-names>LH</given-names>
+              </name>
+              <name>
+                <surname>Morris</surname>
+                <given-names>AH</given-names>
+              </name>
+              <name>
+                <surname>Peirce</surname>
+                <given-names>EC</given-names>
+              </name>
+              <name>
+                <surname>Thomas</surname>
+                <given-names>AN</given-names>
+              </name>
+              <name>
+                <surname>Proctor</surname>
+                <given-names>HJ</given-names>
+              </name>
+              <name>
+                <surname>Drinker</surname>
+                <given-names>PA</given-names>
+              </name>
+              <name>
+                <surname>Pratt</surname>
+                <given-names>PC</given-names>
+              </name>
+              <name>
+                <surname>Bagniewski</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Miller</surname>
+                <given-names>RG</given-names>
+              </name>
+            </person-group>
+            <article-title>Extracorporeal membrane oxygenation in severe acute respiratory failure. A randomized prospective study.</article-title>
+            <source>JAMA</source>
+            <year>1979</year>
+            <month>Nov</month>
+            <day>16</day>
+            <volume>242</volume>
+            <issue>20</issue>
+            <fpage>2193</fpage>
+            <page-range>2193-6</page-range>
+            <pub-id pub-id-type="pmid">490805</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r19">
+          <label>19</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Brodie</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>The Evolution of Extracorporeal Membrane Oxygenation for Adult Respiratory Failure.</article-title>
+            <source>Ann Am Thorac Soc</source>
+            <year>2018</year>
+            <month>Feb</month>
+            <volume>15</volume>
+            <issue>Suppl 1</issue>
+            <fpage>S57</fpage>
+            <page-range>S57-S60</page-range>
+            <pub-id pub-id-type="pmid">29461889</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r20">
+          <label>20</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Peek</surname>
+                <given-names>GJ</given-names>
+              </name>
+              <name>
+                <surname>Mugford</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Tiruvoipati</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Wilson</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Allen</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Thalanany</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Hibbert</surname>
+                <given-names>CL</given-names>
+              </name>
+              <name>
+                <surname>Truesdale</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Clemens</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Cooper</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Firmin</surname>
+                <given-names>RK</given-names>
+              </name>
+              <name>
+                <surname>Elbourne</surname>
+                <given-names>D</given-names>
+              </name>
+              <collab>CESAR trial collaboration</collab>
+            </person-group>
+            <article-title>Efficacy and economic assessment of conventional ventilatory support versus extracorporeal membrane oxygenation for severe adult respiratory failure (CESAR): a multicentre randomised controlled trial.</article-title>
+            <source>Lancet</source>
+            <year>2009</year>
+            <month>Oct</month>
+            <day>17</day>
+            <volume>374</volume>
+            <issue>9698</issue>
+            <fpage>1351</fpage>
+            <page-range>1351-63</page-range>
+            <pub-id pub-id-type="pmid">19762075</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r21">
+          <label>21</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Harrington</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Drazen</surname>
+                <given-names>JM</given-names>
+              </name>
+            </person-group>
+            <article-title>Learning from a Trial Stopped by a Data and Safety Monitoring Board.</article-title>
+            <source>N Engl J Med</source>
+            <year>2018</year>
+            <month>May</month>
+            <day>24</day>
+            <volume>378</volume>
+            <issue>21</issue>
+            <fpage>2031</fpage>
+            <page-range>2031-2032</page-range>
+            <pub-id pub-id-type="pmid">29791830</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r22">
+          <label>22</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Grasselli</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Greco</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Zanella</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Albano</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Antonelli</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Bellani</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Bonanomi</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Cabrini</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Carlesso</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Castelli</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Cattaneo</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Cereda</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Colombo</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Coluccello</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Crescini</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Forastieri Molinari</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Foti</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Fumagalli</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Iotti</surname>
+                <given-names>GA</given-names>
+              </name>
+              <name>
+                <surname>Langer</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Latronico</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Lorini</surname>
+                <given-names>FL</given-names>
+              </name>
+              <name>
+                <surname>Mojoli</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Natalini</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Pessina</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name>
+                <surname>Ranieri</surname>
+                <given-names>VM</given-names>
+              </name>
+              <name>
+                <surname>Rech</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Scudeller</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Rosano</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Storti</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Thompson</surname>
+                <given-names>BT</given-names>
+              </name>
+              <name>
+                <surname>Tirani</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Villani</surname>
+                <given-names>PG</given-names>
+              </name>
+              <name>
+                <surname>Pesenti</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Cecconi</surname>
+                <given-names>M</given-names>
+              </name>
+              <collab>COVID-19 Lombardy ICU Network</collab>
+            </person-group>
+            <article-title>Risk Factors Associated With Mortality Among Patients With COVID-19 in Intensive Care Units in Lombardy, Italy.</article-title>
+            <source>JAMA Intern Med</source>
+            <year>2020</year>
+            <month>Oct</month>
+            <day>01</day>
+            <volume>180</volume>
+            <issue>10</issue>
+            <fpage>1345</fpage>
+            <page-range>1345-1355</page-range>
+            <pub-id pub-id-type="pmid">32667669</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r23">
+          <label>23</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Alhazzani</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>M&#x000f8;ller</surname>
+                <given-names>MH</given-names>
+              </name>
+              <name>
+                <surname>Arabi</surname>
+                <given-names>YM</given-names>
+              </name>
+              <name>
+                <surname>Loeb</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gong</surname>
+                <given-names>MN</given-names>
+              </name>
+              <name>
+                <surname>Fan</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Oczkowski</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Levy</surname>
+                <given-names>MM</given-names>
+              </name>
+              <name>
+                <surname>Derde</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Dzierba</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Du</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Aboodi</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Wunsch</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Cecconi</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Koh</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Chertow</surname>
+                <given-names>DS</given-names>
+              </name>
+              <name>
+                <surname>Maitland</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Alshamsi</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Belley-Cote</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Greco</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Laundy</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Morgan</surname>
+                <given-names>JS</given-names>
+              </name>
+              <name>
+                <surname>Kesecioglu</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>McGeer</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Mermel</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Mammen</surname>
+                <given-names>MJ</given-names>
+              </name>
+              <name>
+                <surname>Alexander</surname>
+                <given-names>PE</given-names>
+              </name>
+              <name>
+                <surname>Arrington</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Centofanti</surname>
+                <given-names>JE</given-names>
+              </name>
+              <name>
+                <surname>Citerio</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Baw</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Memish</surname>
+                <given-names>ZA</given-names>
+              </name>
+              <name>
+                <surname>Hammond</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Hayden</surname>
+                <given-names>FG</given-names>
+              </name>
+              <name>
+                <surname>Evans</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Rhodes</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Surviving Sepsis Campaign: guidelines on the management of critically ill adults with Coronavirus Disease 2019 (COVID-19).</article-title>
+            <source>Intensive Care Med</source>
+            <year>2020</year>
+            <month>May</month>
+            <volume>46</volume>
+            <issue>5</issue>
+            <fpage>854</fpage>
+            <page-range>854-887</page-range>
+            <pub-id pub-id-type="pmid">32222812</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r24">
+          <label>24</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Bartlett</surname>
+                <given-names>RH</given-names>
+              </name>
+              <name>
+                <surname>Ogino</surname>
+                <given-names>MT</given-names>
+              </name>
+              <name>
+                <surname>Brodie</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>McMullan</surname>
+                <given-names>DM</given-names>
+              </name>
+              <name>
+                <surname>Lorusso</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>MacLaren</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Stead</surname>
+                <given-names>CM</given-names>
+              </name>
+              <name>
+                <surname>Rycus</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Fraser</surname>
+                <given-names>JF</given-names>
+              </name>
+              <name>
+                <surname>Belohlavek</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Salazar</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Mehta</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Raman</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Paden</surname>
+                <given-names>ML</given-names>
+              </name>
+            </person-group>
+            <article-title>Initial ELSO Guidance Document: ECMO for COVID-19 Patients with Severe Cardiopulmonary Failure.</article-title>
+            <source>ASAIO J</source>
+            <year>2020</year>
+            <month>May</month>
+            <volume>66</volume>
+            <issue>5</issue>
+            <fpage>472</fpage>
+            <page-range>472-474</page-range>
+            <pub-id pub-id-type="pmid">32243267</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r25">
+          <label>25</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Ritter</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ott</surname>
+                <given-names>DVM</given-names>
+              </name>
+              <name>
+                <surname>Paul</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Haynes</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Ritter</surname>
+                <given-names>K</given-names>
+              </name>
+            </person-group>
+            <article-title>COVID-19: a simple statistical model for predicting intensive care unit load in exponential phases of the disease.</article-title>
+            <source>Sci Rep</source>
+            <year>2021</year>
+            <month>Mar</month>
+            <day>03</day>
+            <volume>11</volume>
+            <issue>1</issue>
+            <fpage>5018</fpage>
+            <pub-id pub-id-type="pmid">33658593</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r26">
+          <label>26</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Rubinson</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Intensive Care Unit Strain and Mortality Risk Among Critically Ill Patients With COVID-19-There Is No "Me" in COVID.</article-title>
+            <source>JAMA Netw Open</source>
+            <year>2021</year>
+            <month>Jan</month>
+            <day>04</day>
+            <volume>4</volume>
+            <issue>1</issue>
+            <fpage>e2035041</fpage>
+            <pub-id pub-id-type="pmid">33464314</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r27">
+          <label>27</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Zeidan</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Bamadhaj</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Al-Faraidy</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Ali</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Videolaryngoscopy Intubation in Patients with COVID-19: How to Minimize Risk of Aerosolization?</article-title>
+            <source>Anesthesiology</source>
+            <year>2020</year>
+            <month>Aug</month>
+            <volume>133</volume>
+            <issue>2</issue>
+            <fpage>481</fpage>
+            <page-range>481-483</page-range>
+            <pub-id pub-id-type="pmid">32427641</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r28">
+          <label>28</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Foley</surname>
+                <given-names>LJ</given-names>
+              </name>
+              <name>
+                <surname>Urdaneta</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Berkow</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Aziz</surname>
+                <given-names>MF</given-names>
+              </name>
+              <name>
+                <surname>Baker</surname>
+                <given-names>PA</given-names>
+              </name>
+              <name>
+                <surname>Jagannathan</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Rosenblatt</surname>
+                <given-names>W</given-names>
+              </name>
+              <name>
+                <surname>Straker</surname>
+                <given-names>TM</given-names>
+              </name>
+              <name>
+                <surname>Wong</surname>
+                <given-names>DT</given-names>
+              </name>
+              <name>
+                <surname>Hagberg</surname>
+                <given-names>CA</given-names>
+              </name>
+            </person-group>
+            <article-title>Difficult Airway Management in Adult Coronavirus Disease 2019 Patients: Statement by the Society of Airway Management.</article-title>
+            <source>Anesth Analg</source>
+            <year>2021</year>
+            <month>Oct</month>
+            <day>01</day>
+            <volume>133</volume>
+            <issue>4</issue>
+            <fpage>876</fpage>
+            <page-range>876-890</page-range>
+            <pub-id pub-id-type="pmid">33711004</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r29">
+          <label>29</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Berlin</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Gulick</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Martinez</surname>
+                <given-names>FJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Severe Covid-19.</article-title>
+            <source>N Engl J Med</source>
+            <year>2020</year>
+            <month>Dec</month>
+            <day>17</day>
+            <volume>383</volume>
+            <issue>25</issue>
+            <fpage>2451</fpage>
+            <page-range>2451-2460</page-range>
+            <pub-id pub-id-type="pmid">32412710</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r30">
+          <label>30</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <collab>Acute Respiratory Distress Syndrome Network</collab>
+              <name>
+                <surname>Brower</surname>
+                <given-names>RG</given-names>
+              </name>
+              <name>
+                <surname>Matthay</surname>
+                <given-names>MA</given-names>
+              </name>
+              <name>
+                <surname>Morris</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Schoenfeld</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Thompson</surname>
+                <given-names>BT</given-names>
+              </name>
+              <name>
+                <surname>Wheeler</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Ventilation with lower tidal volumes as compared with traditional tidal volumes for acute lung injury and the acute respiratory distress syndrome.</article-title>
+            <source>N Engl J Med</source>
+            <year>2000</year>
+            <month>May</month>
+            <day>04</day>
+            <volume>342</volume>
+            <issue>18</issue>
+            <fpage>1301</fpage>
+            <page-range>1301-8</page-range>
+            <pub-id pub-id-type="pmid">10793162</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r31">
+          <label>31</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kacmarek</surname>
+                <given-names>RM</given-names>
+              </name>
+              <name>
+                <surname>Villar</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Sulemanji</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Montiel</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Ferrando</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Blanco</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Koh</surname>
+                <given-names>Y</given-names>
+              </name>
+              <name>
+                <surname>Soler</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Mart&#x000ed;nez</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Hern&#x000e1;ndez</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Tucci</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Borges</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Lubillo</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Santos</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Araujo</surname>
+                <given-names>JB</given-names>
+              </name>
+              <name>
+                <surname>Amato</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name>
+                <surname>Su&#x000e1;rez-Sipmann</surname>
+                <given-names>F</given-names>
+              </name>
+              <collab>Open Lung Approach Network</collab>
+            </person-group>
+            <article-title>Open Lung Approach for the Acute Respiratory Distress Syndrome: A Pilot, Randomized Controlled Trial.</article-title>
+            <source>Crit Care Med</source>
+            <year>2016</year>
+            <month>Jan</month>
+            <volume>44</volume>
+            <issue>1</issue>
+            <fpage>32</fpage>
+            <page-range>32-42</page-range>
+            <pub-id pub-id-type="pmid">26672923</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r32">
+          <label>32</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Amato</surname>
+                <given-names>MB</given-names>
+              </name>
+              <name>
+                <surname>Meade</surname>
+                <given-names>MO</given-names>
+              </name>
+              <name>
+                <surname>Slutsky</surname>
+                <given-names>AS</given-names>
+              </name>
+              <name>
+                <surname>Brochard</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Costa</surname>
+                <given-names>EL</given-names>
+              </name>
+              <name>
+                <surname>Schoenfeld</surname>
+                <given-names>DA</given-names>
+              </name>
+              <name>
+                <surname>Stewart</surname>
+                <given-names>TE</given-names>
+              </name>
+              <name>
+                <surname>Briel</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Talmor</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Mercat</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Richard</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>Carvalho</surname>
+                <given-names>CR</given-names>
+              </name>
+              <name>
+                <surname>Brower</surname>
+                <given-names>RG</given-names>
+              </name>
+            </person-group>
+            <article-title>Driving pressure and survival in the acute respiratory distress syndrome.</article-title>
+            <source>N Engl J Med</source>
+            <year>2015</year>
+            <month>Feb</month>
+            <day>19</day>
+            <volume>372</volume>
+            <issue>8</issue>
+            <fpage>747</fpage>
+            <page-range>747-55</page-range>
+            <pub-id pub-id-type="pmid">25693014</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r33">
+          <label>33</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Aggarwal</surname>
+                <given-names>NR</given-names>
+              </name>
+              <name>
+                <surname>Brower</surname>
+                <given-names>RG</given-names>
+              </name>
+            </person-group>
+            <article-title>Targeting normoxemia in acute respiratory distress syndrome may cause worse short-term outcomes because of oxygen toxicity.</article-title>
+            <source>Ann Am Thorac Soc</source>
+            <year>2014</year>
+            <month>Nov</month>
+            <volume>11</volume>
+            <issue>9</issue>
+            <fpage>1449</fpage>
+            <page-range>1449-53</page-range>
+            <pub-id pub-id-type="pmid">25314313</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r34">
+          <label>34</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Douglas</surname>
+                <given-names>WW</given-names>
+              </name>
+              <name>
+                <surname>Rehder</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Beynen</surname>
+                <given-names>FM</given-names>
+              </name>
+              <name>
+                <surname>Sessler</surname>
+                <given-names>AD</given-names>
+              </name>
+              <name>
+                <surname>Marsh</surname>
+                <given-names>HM</given-names>
+              </name>
+            </person-group>
+            <article-title>Improved oxygenation in patients with acute respiratory failure: the prone position.</article-title>
+            <source>Am Rev Respir Dis</source>
+            <year>1977</year>
+            <month>Apr</month>
+            <volume>115</volume>
+            <issue>4</issue>
+            <fpage>559</fpage>
+            <page-range>559-66</page-range>
+            <pub-id pub-id-type="pmid">322557</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r35">
+          <label>35</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gu&#x000e9;rin</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Reignier</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Richard</surname>
+                <given-names>JC</given-names>
+              </name>
+              <name>
+                <surname>Beuret</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Gacouin</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Boulain</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Mercier</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Badet</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Mercat</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Baudin</surname>
+                <given-names>O</given-names>
+              </name>
+              <name>
+                <surname>Clavel</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Chatellier</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Jaber</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Rosselli</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Mancebo</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Sirodot</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Hilbert</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Bengler</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Richecoeur</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Gainnier</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Bayle</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Bourdin</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Leray</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Girard</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Baboi</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Ayzac</surname>
+                <given-names>L</given-names>
+              </name>
+              <collab>PROSEVA Study Group</collab>
+            </person-group>
+            <article-title>Prone positioning in severe acute respiratory distress syndrome.</article-title>
+            <source>N Engl J Med</source>
+            <year>2013</year>
+            <month>Jun</month>
+            <day>06</day>
+            <volume>368</volume>
+            <issue>23</issue>
+            <fpage>2159</fpage>
+            <page-range>2159-68</page-range>
+            <pub-id pub-id-type="pmid">23688302</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r36">
+          <label>36</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Shelhamer</surname>
+                <given-names>MC</given-names>
+              </name>
+              <name>
+                <surname>Wesson</surname>
+                <given-names>PD</given-names>
+              </name>
+              <name>
+                <surname>Solari</surname>
+                <given-names>IL</given-names>
+              </name>
+              <name>
+                <surname>Jensen</surname>
+                <given-names>DL</given-names>
+              </name>
+              <name>
+                <surname>Steele</surname>
+                <given-names>WA</given-names>
+              </name>
+              <name>
+                <surname>Dimitrov</surname>
+                <given-names>VG</given-names>
+              </name>
+              <name>
+                <surname>Kelly</surname>
+                <given-names>JD</given-names>
+              </name>
+              <name>
+                <surname>Aziz</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Gutierrez</surname>
+                <given-names>VP</given-names>
+              </name>
+              <name>
+                <surname>Vittinghoff</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Chung</surname>
+                <given-names>KK</given-names>
+              </name>
+              <name>
+                <surname>Menon</surname>
+                <given-names>VP</given-names>
+              </name>
+              <name>
+                <surname>Ambris</surname>
+                <given-names>HA</given-names>
+              </name>
+              <name>
+                <surname>Baxi</surname>
+                <given-names>SM</given-names>
+              </name>
+            </person-group>
+            <article-title>Prone Positioning in Moderate to Severe Acute Respiratory Distress Syndrome Due to COVID-19: A Cohort Study and Analysis of Physiology.</article-title>
+            <source>J Intensive Care Med</source>
+            <year>2021</year>
+            <month>Feb</month>
+            <volume>36</volume>
+            <issue>2</issue>
+            <fpage>241</fpage>
+            <page-range>241-252</page-range>
+            <pub-id pub-id-type="pmid">33380236</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r37">
+          <label>37</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gainnier</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Roch</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Forel</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Thirion</surname>
+                <given-names>X</given-names>
+              </name>
+              <name>
+                <surname>Arnal</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Donati</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Papazian</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Effect of neuromuscular blocking agents on gas exchange in patients presenting with acute respiratory distress syndrome.</article-title>
+            <source>Crit Care Med</source>
+            <year>2004</year>
+            <month>Jan</month>
+            <volume>32</volume>
+            <issue>1</issue>
+            <fpage>113</fpage>
+            <page-range>113-9</page-range>
+            <pub-id pub-id-type="pmid">14707568</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r38">
+          <label>38</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Forel</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Roch</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Marin</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Michelet</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Demory</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Blache</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Perrin</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Gainnier</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Bongrand</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Papazian</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Neuromuscular blocking agents decrease inflammatory response in patients presenting with acute respiratory distress syndrome.</article-title>
+            <source>Crit Care Med</source>
+            <year>2006</year>
+            <month>Nov</month>
+            <volume>34</volume>
+            <issue>11</issue>
+            <fpage>2749</fpage>
+            <page-range>2749-57</page-range>
+            <pub-id pub-id-type="pmid">16932229</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r39">
+          <label>39</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Papazian</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Forel</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Gacouin</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Penot-Ragon</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Perrin</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Loundou</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Jaber</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Arnal</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Perez</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Seghboyan</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Constantin</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Courant</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Lefrant</surname>
+                <given-names>JY</given-names>
+              </name>
+              <name>
+                <surname>Gu&#x000e9;rin</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Prat</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Morange</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Roch</surname>
+                <given-names>A</given-names>
+              </name>
+              <collab>ACURASYS Study Investigators</collab>
+            </person-group>
+            <article-title>Neuromuscular blockers in early acute respiratory distress syndrome.</article-title>
+            <source>N Engl J Med</source>
+            <year>2010</year>
+            <month>Sep</month>
+            <day>16</day>
+            <volume>363</volume>
+            <issue>12</issue>
+            <fpage>1107</fpage>
+            <page-range>1107-16</page-range>
+            <pub-id pub-id-type="pmid">20843245</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r40">
+          <label>40</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <collab>National Heart, Lung, and Blood Institute PETAL Clinical Trials Network</collab>
+              <name>
+                <surname>Moss</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Huang</surname>
+                <given-names>DT</given-names>
+              </name>
+              <name>
+                <surname>Brower</surname>
+                <given-names>RG</given-names>
+              </name>
+              <name>
+                <surname>Ferguson</surname>
+                <given-names>ND</given-names>
+              </name>
+              <name>
+                <surname>Ginde</surname>
+                <given-names>AA</given-names>
+              </name>
+              <name>
+                <surname>Gong</surname>
+                <given-names>MN</given-names>
+              </name>
+              <name>
+                <surname>Grissom</surname>
+                <given-names>CK</given-names>
+              </name>
+              <name>
+                <surname>Gundel</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Hayden</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Hite</surname>
+                <given-names>RD</given-names>
+              </name>
+              <name>
+                <surname>Hou</surname>
+                <given-names>PC</given-names>
+              </name>
+              <name>
+                <surname>Hough</surname>
+                <given-names>CL</given-names>
+              </name>
+              <name>
+                <surname>Iwashyna</surname>
+                <given-names>TJ</given-names>
+              </name>
+              <name>
+                <surname>Khan</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Liu</surname>
+                <given-names>KD</given-names>
+              </name>
+              <name>
+                <surname>Talmor</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Thompson</surname>
+                <given-names>BT</given-names>
+              </name>
+              <name>
+                <surname>Ulysse</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Yealy</surname>
+                <given-names>DM</given-names>
+              </name>
+              <name>
+                <surname>Angus</surname>
+                <given-names>DC</given-names>
+              </name>
+            </person-group>
+            <article-title>Early Neuromuscular Blockade in the Acute Respiratory Distress Syndrome.</article-title>
+            <source>N Engl J Med</source>
+            <year>2019</year>
+            <month>May</month>
+            <day>23</day>
+            <volume>380</volume>
+            <issue>21</issue>
+            <fpage>1997</fpage>
+            <page-range>1997-2008</page-range>
+            <pub-id pub-id-type="pmid">31112383</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r41">
+          <label>41</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Kuhl</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Michels</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Pfister</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Wendt</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Langebartels</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Wahlers</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Comparison of the Avalon Dual-Lumen Cannula with Conventional Cannulation Technique for Venovenous Extracorporeal Membrane Oxygenation.</article-title>
+            <source>Thorac Cardiovasc Surg</source>
+            <year>2015</year>
+            <month>Dec</month>
+            <volume>63</volume>
+            <issue>8</issue>
+            <fpage>653</fpage>
+            <page-range>653-62</page-range>
+            <pub-id pub-id-type="pmid">25959306</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r42">
+          <label>42</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mustafa</surname>
+                <given-names>AK</given-names>
+              </name>
+              <name>
+                <surname>Alexander</surname>
+                <given-names>PJ</given-names>
+              </name>
+              <name>
+                <surname>Joshi</surname>
+                <given-names>DJ</given-names>
+              </name>
+              <name>
+                <surname>Tabachnick</surname>
+                <given-names>DR</given-names>
+              </name>
+              <name>
+                <surname>Cross</surname>
+                <given-names>CA</given-names>
+              </name>
+              <name>
+                <surname>Pappas</surname>
+                <given-names>PS</given-names>
+              </name>
+              <name>
+                <surname>Tatooles</surname>
+                <given-names>AJ</given-names>
+              </name>
+            </person-group>
+            <article-title>Extracorporeal Membrane Oxygenation for Patients With COVID-19 in Severe Respiratory Failure.</article-title>
+            <source>JAMA Surg</source>
+            <year>2020</year>
+            <month>Oct</month>
+            <day>01</day>
+            <volume>155</volume>
+            <issue>10</issue>
+            <fpage>990</fpage>
+            <page-range>990-992</page-range>
+            <pub-id pub-id-type="pmid">32780089</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r43">
+          <label>43</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schmidt</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Tachon</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Devilliers</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Muller</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Hekimian</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Br&#x000e9;chot</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Merceron</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Luyt</surname>
+                <given-names>CE</given-names>
+              </name>
+              <name>
+                <surname>Trouillet</surname>
+                <given-names>JL</given-names>
+              </name>
+              <name>
+                <surname>Chastre</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Leprince</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Combes</surname>
+                <given-names>A</given-names>
+              </name>
+            </person-group>
+            <article-title>Blood oxygenation and decarboxylation determinants during venovenous ECMO for respiratory failure in adults.</article-title>
+            <source>Intensive Care Med</source>
+            <year>2013</year>
+            <month>May</month>
+            <volume>39</volume>
+            <issue>5</issue>
+            <fpage>838</fpage>
+            <page-range>838-46</page-range>
+            <pub-id pub-id-type="pmid">23291732</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r44">
+          <label>44</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Abrams</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Schmidt</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Pham</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Beitler</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Fan</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Goligher</surname>
+                <given-names>EC</given-names>
+              </name>
+              <name>
+                <surname>McNamee</surname>
+                <given-names>JJ</given-names>
+              </name>
+              <name>
+                <surname>Patroniti</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Wilcox</surname>
+                <given-names>ME</given-names>
+              </name>
+              <name>
+                <surname>Combes</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Ferguson</surname>
+                <given-names>ND</given-names>
+              </name>
+              <name>
+                <surname>McAuley</surname>
+                <given-names>DF</given-names>
+              </name>
+              <name>
+                <surname>Pesenti</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Quintel</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Fraser</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Hodgson</surname>
+                <given-names>CL</given-names>
+              </name>
+              <name>
+                <surname>Hough</surname>
+                <given-names>CL</given-names>
+              </name>
+              <name>
+                <surname>Mercat</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Mueller</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Pellegrino</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Ranieri</surname>
+                <given-names>VM</given-names>
+              </name>
+              <name>
+                <surname>Rowan</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Shekar</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Brochard</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Brodie</surname>
+                <given-names>D</given-names>
+              </name>
+            </person-group>
+            <article-title>Mechanical Ventilation for Acute Respiratory Distress Syndrome during Extracorporeal Life Support. Research and Practice.</article-title>
+            <source>Am J Respir Crit Care Med</source>
+            <year>2020</year>
+            <month>Mar</month>
+            <day>01</day>
+            <volume>201</volume>
+            <issue>5</issue>
+            <fpage>514</fpage>
+            <page-range>514-525</page-range>
+            <pub-id pub-id-type="pmid">31726013</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r45">
+          <label>45</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Aoyama</surname>
+                <given-names>H</given-names>
+              </name>
+              <name>
+                <surname>Pettenuzzo</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Aoyama</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Pinto</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Englesakis</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Fan</surname>
+                <given-names>E</given-names>
+              </name>
+            </person-group>
+            <article-title>Association of Driving Pressure With Mortality Among Ventilated Patients With Acute Respiratory Distress Syndrome: A Systematic Review and Meta-Analysis.</article-title>
+            <source>Crit Care Med</source>
+            <year>2018</year>
+            <month>Feb</month>
+            <volume>46</volume>
+            <issue>2</issue>
+            <fpage>300</fpage>
+            <page-range>300-306</page-range>
+            <pub-id pub-id-type="pmid">29135500</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r46">
+          <label>46</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tonetti</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Vasques</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Rapetti</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Maiolo</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Collino</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Romitti</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Camporota</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Cressoni</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Cadringher</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Quintel</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Gattinoni</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Driving pressure and mechanical power: new targets for VILI prevention.</article-title>
+            <source>Ann Transl Med</source>
+            <year>2017</year>
+            <month>Jul</month>
+            <volume>5</volume>
+            <issue>14</issue>
+            <fpage>286</fpage>
+            <pub-id pub-id-type="pmid">28828361</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r47">
+          <label>47</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Schmidt</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Hajage</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Lebreton</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Monsel</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Voiriot</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Levy</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Baron</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Beurton</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Chommeloux</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Meng</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Nemlaghi</surname>
+                <given-names>S</given-names>
+              </name>
+              <name>
+                <surname>Bay</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Leprince</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Demoule</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Guidet</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Constantin</surname>
+                <given-names>JM</given-names>
+              </name>
+              <name>
+                <surname>Fartoukh</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Dres</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Combes</surname>
+                <given-names>A</given-names>
+              </name>
+              <collab>Groupe de Recherche Clinique en REanimation et Soins intensifs du Patient en Insuffisance Respiratoire aiguE (GRC-RESPIRE) Sorbonne Universit&#x000e9;</collab>
+              <collab>Paris-Sorbonne ECMO-COVID investigators</collab>
+            </person-group>
+            <article-title>Extracorporeal membrane oxygenation for severe acute respiratory distress syndrome associated with COVID-19: a retrospective cohort study.</article-title>
+            <source>Lancet Respir Med</source>
+            <year>2020</year>
+            <month>Nov</month>
+            <volume>8</volume>
+            <issue>11</issue>
+            <fpage>1121</fpage>
+            <page-range>1121-1131</page-range>
+            <pub-id pub-id-type="pmid">32798468</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r48">
+          <label>48</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Makdisi</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Makdisi</surname>
+                <given-names>G</given-names>
+              </name>
+            </person-group>
+            <article-title>Ethical challenges in extra corporeal membrane oxygenation use.</article-title>
+            <source>Ann Palliat Med</source>
+            <year>2017</year>
+            <month>Dec</month>
+            <volume>6</volume>
+            <issue>Suppl 2</issue>
+            <fpage>S128</fpage>
+            <page-range>S128-S131</page-range>
+            <pub-id pub-id-type="pmid">28595436</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r49">
+          <label>49</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Mazzeffi</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Greenwood</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Tanaka</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Menaker</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Rector</surname>
+                <given-names>R</given-names>
+              </name>
+              <name>
+                <surname>Herr</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Kon</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Lee</surname>
+                <given-names>J</given-names>
+              </name>
+              <name>
+                <surname>Griffith</surname>
+                <given-names>B</given-names>
+              </name>
+              <name>
+                <surname>Rajagopal</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Pham</surname>
+                <given-names>S</given-names>
+              </name>
+            </person-group>
+            <article-title>Bleeding, Transfusion, and Mortality on Extracorporeal Life Support: ECLS Working Group&#x000a0;on Thrombosis and Hemostasis.</article-title>
+            <source>Ann Thorac Surg</source>
+            <year>2016</year>
+            <month>Feb</month>
+            <volume>101</volume>
+            <issue>2</issue>
+            <fpage>682</fpage>
+            <page-range>682-9</page-range>
+            <pub-id pub-id-type="pmid">26443879</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r50">
+          <label>50</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Khan</surname>
+                <given-names>I</given-names>
+              </name>
+              <name>
+                <surname>Rehan</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Parikh</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Zammit</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Badjatia</surname>
+                <given-names>N</given-names>
+              </name>
+              <name>
+                <surname>Herr</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Kon</surname>
+                <given-names>Z</given-names>
+              </name>
+              <name>
+                <surname>Hogue</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Mazzeffi</surname>
+                <given-names>M</given-names>
+              </name>
+            </person-group>
+            <article-title>Regional Cerebral Oximetry as an Indicator of Acute Brain Injury in Adults Undergoing Veno-Arterial Extracorporeal Membrane Oxygenation-A Prospective Pilot Study.</article-title>
+            <source>Front Neurol</source>
+            <year>2018</year>
+            <volume>9</volume>
+            <fpage>993</fpage>
+            <pub-id pub-id-type="pmid">30532730</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r51">
+          <label>51</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Anderson</surname>
+                <given-names>BR</given-names>
+              </name>
+              <name>
+                <surname>Ivascu</surname>
+                <given-names>NS</given-names>
+              </name>
+              <name>
+                <surname>Brodie</surname>
+                <given-names>D</given-names>
+              </name>
+              <name>
+                <surname>Weingarten</surname>
+                <given-names>JA</given-names>
+              </name>
+              <name>
+                <surname>Manoach</surname>
+                <given-names>SM</given-names>
+              </name>
+              <name>
+                <surname>Smith</surname>
+                <given-names>AJ</given-names>
+              </name>
+              <name>
+                <surname>Millerman</surname>
+                <given-names>K</given-names>
+              </name>
+              <name>
+                <surname>Yip</surname>
+                <given-names>NH</given-names>
+              </name>
+              <name>
+                <surname>Su</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Kleinschmidt</surname>
+                <given-names>C</given-names>
+              </name>
+              <name>
+                <surname>Khusid</surname>
+                <given-names>F</given-names>
+              </name>
+              <name>
+                <surname>Olson</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Hochman</surname>
+                <given-names>BR</given-names>
+              </name>
+              <name>
+                <surname>Hill</surname>
+                <given-names>LL</given-names>
+              </name>
+              <name>
+                <surname>Burkart</surname>
+                <given-names>KM</given-names>
+              </name>
+            </person-group>
+            <article-title>Breaking Silos: The Team-Based Approach to Coronavirus Disease 2019 Pandemic Staffing.</article-title>
+            <source>Crit Care Explor</source>
+            <year>2020</year>
+            <month>Nov</month>
+            <volume>2</volume>
+            <issue>11</issue>
+            <fpage>e0265</fpage>
+            <pub-id pub-id-type="pmid">33163970</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r52">
+          <label>52</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Tang</surname>
+                <given-names>L</given-names>
+              </name>
+              <name>
+                <surname>Zhao</surname>
+                <given-names>XM</given-names>
+              </name>
+              <name>
+                <surname>Yu</surname>
+                <given-names>XY</given-names>
+              </name>
+            </person-group>
+            <article-title>Team management in critical care units for patients with COVID-19: an experience from Hunan Province, China.</article-title>
+            <source>Crit Care</source>
+            <year>2020</year>
+            <month>Jun</month>
+            <day>06</day>
+            <volume>24</volume>
+            <issue>1</issue>
+            <fpage>304</fpage>
+            <pub-id pub-id-type="pmid">32505189</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r53">
+          <label>53</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Gabarre</surname>
+                <given-names>P</given-names>
+              </name>
+              <name>
+                <surname>Dumas</surname>
+                <given-names>G</given-names>
+              </name>
+              <name>
+                <surname>Dupont</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Darmon</surname>
+                <given-names>M</given-names>
+              </name>
+              <name>
+                <surname>Azoulay</surname>
+                <given-names>E</given-names>
+              </name>
+              <name>
+                <surname>Zafrani</surname>
+                <given-names>L</given-names>
+              </name>
+            </person-group>
+            <article-title>Acute kidney injury in critically ill patients with COVID-19.</article-title>
+            <source>Intensive Care Med</source>
+            <year>2020</year>
+            <month>Jul</month>
+            <volume>46</volume>
+            <issue>7</issue>
+            <fpage>1339</fpage>
+            <page-range>1339-1348</page-range>
+            <pub-id pub-id-type="pmid">32533197</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="article-132892.r54">
+          <label>54</label>
+          <element-citation publication-type="journal">
+            <person-group>
+              <name>
+                <surname>Aslakson</surname>
+                <given-names>RA</given-names>
+              </name>
+              <name>
+                <surname>Curtis</surname>
+                <given-names>JR</given-names>
+              </name>
+              <name>
+                <surname>Nelson</surname>
+                <given-names>JE</given-names>
+              </name>
+            </person-group>
+            <article-title>The changing role of palliative care in the ICU.</article-title>
+            <source>Crit Care Med</source>
+            <year>2014</year>
+            <month>Nov</month>
+            <volume>42</volume>
+            <issue>11</issue>
+            <fpage>2418</fpage>
+            <page-range>2418-28</page-range>
+            <pub-id pub-id-type="pmid">25167087</pub-id>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </book-part>
+</book-part-wrapper>
