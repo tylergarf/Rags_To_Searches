@@ -4,3 +4,6 @@ We implement our own IR system from scratch that supports our custom implemented
 
 # Link to book format corpus is derived from.
 https://www.ncbi.nlm.nih.gov/books/NBK430685/
+
+# Link to dataset
+https://www.kaggle.com/datasets/thedevastator/medmcqa-medical-mcq-dataset
