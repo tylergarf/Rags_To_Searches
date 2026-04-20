@@ -198,15 +198,33 @@ def load_model(model_name: str, load_in_4bit: bool, load_in_8bit: bool):
         tokenizer.pad_token = tokenizer.eos_token
 
     quant_config = None
-    if load_in_4bit:
-        quant_config = BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_compute_dtype=torch.bfloat16,
-            bnb_4bit_use_double_quant=True,
-            bnb_4bit_quant_type="nf4",
-        )
-    elif load_in_8bit:
-        quant_config = BitsAndBytesConfig(load_in_8bit=True)
+    if load_in_4bit or load_in_8bit:
+        bnb_ok = False
+        try:
+            import bitsandbytes  # noqa: F401
+            # transformers also does its own check – probe it now
+            from transformers.quantizers.quantizers_utils import is_bitsandbytes_available
+            bnb_ok = is_bitsandbytes_available()
+        except Exception:
+            try:
+                from transformers.utils import is_bitsandbytes_available
+                bnb_ok = is_bitsandbytes_available()
+            except Exception:
+                bnb_ok = False
+
+        if bnb_ok:
+            if load_in_4bit:
+                quant_config = BitsAndBytesConfig(
+                    load_in_4bit=True,
+                    bnb_4bit_compute_dtype=torch.bfloat16,
+                    bnb_4bit_use_double_quant=True,
+                    bnb_4bit_quant_type="nf4",
+                )
+            else:
+                quant_config = BitsAndBytesConfig(load_in_8bit=True)
+        else:
+            print("WARNING: bitsandbytes not functional – falling back to full bf16 (use smaller --batch-size)")
+            load_in_4bit = load_in_8bit = False
 
     dtype = torch.bfloat16 if torch.cuda.is_available() else torch.float32
     print(f"Loading model: {model_name}  (dtype={dtype}, 4bit={load_in_4bit}, 8bit={load_in_8bit})")
@@ -214,7 +232,7 @@ def load_model(model_name: str, load_in_4bit: bool, load_in_8bit: bool):
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
         quantization_config=quant_config,
-        torch_dtype=None if quant_config else dtype,
+        dtype=None if quant_config else dtype,
         device_map="auto",
         trust_remote_code=False,
     )
@@ -239,15 +257,27 @@ def build_chat_prompt(
     context_passages: list[str] | None = None,
 ) -> str:
     system = SYSTEM_PROMPT_RAG if context_passages else SYSTEM_PROMPT_BASE
-    messages = [
-        {"role": "system", "content": system},
-        {"role": "user", "content": build_user_message(row, context_passages)},
-    ]
+    user_msg = build_user_message(row, context_passages)
+
     if hasattr(tokenizer, "apply_chat_template") and tokenizer.chat_template:
-        return tokenizer.apply_chat_template(
-            messages, tokenize=False, add_generation_prompt=True
-        )
-    return f"[INST] <<SYS>>\n{system}\n<</SYS>>\n\n{build_user_message(row, context_passages)} [/INST]"
+        # Try with a system role first; fall back to merging into user msg
+        # for models (e.g. Mistral) whose template doesn't support system.
+        try:
+            return tokenizer.apply_chat_template(
+                [
+                    {"role": "system", "content": system},
+                    {"role": "user", "content": user_msg},
+                ],
+                tokenize=False,
+                add_generation_prompt=True,
+            )
+        except Exception:
+            return tokenizer.apply_chat_template(
+                [{"role": "user", "content": f"{system}\n\n{user_msg}"}],
+                tokenize=False,
+                add_generation_prompt=True,
+            )
+    return f"[INST] <<SYS>>\n{system}\n<</SYS>>\n\n{user_msg} [/INST]"
 
 
 def run_batch(tokenizer, model, prompts: list[str], max_new_tokens: int = 8) -> list[str]:
@@ -421,7 +451,7 @@ def main():
             for (_, row), raw, ctx in zip(batch.iterrows(), raw_outputs, contexts):
                 predicted = extract_letter(raw)
                 gt = ground_truth_letter(row["cop"])
-                record = {
+                csv_record = {
                     "id": row["id"],
                     "question": row["question"],
                     "ground_truth": gt,
@@ -430,8 +460,21 @@ def main():
                     "correct": predicted == gt,
                     "rag_context": " ||| ".join(ctx) if ctx else "",
                 }
-                writer.writerow(record)
-                results.append(record)
+                writer.writerow(csv_record)
+                # Richer record for the JSON dump
+                results.append({
+                    "id": row["id"],
+                    "question": row["question"],
+                    "options": {
+                        "A": row["opa"], "B": row["opb"],
+                        "C": row["opc"], "D": row["opd"],
+                    },
+                    "ground_truth": gt,
+                    "predicted": predicted,
+                    "raw_output": raw.strip(),
+                    "correct": predicted == gt,
+                    "rag_context": ctx if ctx else [],
+                })
 
         fout.flush()
 
@@ -463,8 +506,15 @@ def main():
     summary_path = output_path.with_suffix(".summary.json")
     with open(summary_path, "w") as f:
         json.dump(summary, f, indent=2)
+
+    # Per-question detail JSON (question, answer, RAG context)
+    detail_path = output_path.with_suffix(".detail.json")
+    with open(detail_path, "w") as f:
+        json.dump({"meta": summary, "questions": results}, f, indent=2, ensure_ascii=False)
+
     print(f"\nResults saved to : {output_path}")
     print(f"Summary saved to : {summary_path}")
+    print(f"Detail saved to  : {detail_path}")
 
 
 if __name__ == "__main__":

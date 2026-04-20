@@ -1,34 +1,40 @@
 # Rags_To_Searches
-We implement our own IR system from scratch that supports our custom implemented RAG pipeline to a local LLAMA model.
 
+Custom IR + RAG pipeline for local LLMs, evaluated on medical MCQs.
 
-# Link to book format corpus is derived from.
-https://www.ncbi.nlm.nih.gov/books/NBK430685/
+- **Corpus**: [StatPearls](https://www.ncbi.nlm.nih.gov/books/NBK430685/)
+- **Dataset**: [MedMCQA](https://www.kaggle.com/datasets/thedevastator/medmcqa-medical-mcq-dataset)
 
-# Link to dataset
-https://www.kaggle.com/datasets/thedevastator/medmcqa-medical-mcq-dataset
+## Method
 
-# Local LLM Evaluation (`eval_local_llm.py`)
+`eval_local_llm.py` runs a local HuggingFace LLM on MedMCQA. With `--rag` it retrieves top-k StatPearls chunks per question via `all-MiniLM-L6-v2` + FAISS and injects them into the prompt.
 
-Evaluates local HuggingFace models on the MedMCQ dataset (`data/50k.csv`).
-Supports optional semantic RAG retrieval from the StatPearls corpus via sentence-transformers + FAISS.
-
-```
-python eval_local_llm.py --model <hf-model-id> [--rag] [--limit N]
+```bash
+python eval_local_llm.py --model <hf-id> [--rag] [--limit N] [--embeddings-cache idx.faiss]
 ```
 
-## Benchmark Results — 1000 samples, MedMCQ
+## Main Result (1000 questions)
 
-| Model                              | RAG | Accuracy | Correct / 1000 | Speed    |
-|------------------------------------|-----|----------|----------------|----------|
-| SmolLM2-135M-Instruct              | No  | 28.10%   | 281            | 44.7 q/s |
-| SmolLM2-135M-Instruct              | Yes | 25.00%   | 250            | 7.79 q/s |
-| SmolLM2-1.7B-Instruct              | No  | 38.20%   | 382            | 7.09 q/s |
-| SmolLM2-1.7B-Instruct              | Yes | 41.70%   | 417            | 1.83 q/s |
-| Llama-3.2-1B                       | No  | 29.20%   | 292            | 13.72 q/s |
-| Llama-3.2-1B                       | Yes | 14.90%   | 149            | 2.91 q/s |
+To isolate retrieval vs. fine-tuning, all conditions share the same base architecture: **BioMistral-7B is fine-tuned directly from Mistral-7B-Instruct-v0.1 on PubMed Central**, so the comparison is apples-to-apples.
 
-**Key observations:**
-- RAG helps SmolLM2-1.7B (+3.5%) but hurts the smaller 135M and Llama-1B models — larger models better utilise retrieved context
-- RAG significantly reduces throughput (3–5× slower) due to encoding overhead
-- Random chance baseline is 25% (4-choice MCQ)
+| Condition | Model | Accuracy |
+|---|---|---|
+| Base LLM | Mistral-7B-Instruct-v0.1 | 45.9% |
+| Base + RAG | Mistral-7B-Instruct-v0.1 | **51.4%** |
+| Medical fine-tune | BioMistral-7B | 49.9% |
+
+**Our RAG system beats the medical fine-tune of the same base model** - +5.5pp from retrieval vs +4.0pp from fine-tuning. A small off-the-shelf retrieval system substitutes for (and exceeds) expensive domain pre-training.
+
+The gap is small though - StatPearls is broad but doesn't perfectly match MedMCQA's syllabus (Indian medical exams). A better-aligned corpus would likely widen it. RAG also costs ~20% throughput due to longer prompts.
+
+## Smaller models (1000 questions)
+
+Earlier sweep on small models to establish where RAG starts paying off:
+
+| Model | No RAG | + RAG |
+|---|---|---|
+| SmolLM2-135M (general, tiny) | 28.1% | 25.0% |
+| SmolLM2-1.7B (general, small) | 38.2% | **41.7%** |
+| Llama-3.2-1B (base, no instruct) | 29.2% | 14.9% |
+
+Tiny models get *confused* by injected passages rather than helped. RAG only works once the model is (a) large enough to handle long context (~1.7B+) and (b) instruction-tuned to follow "use the references below" directives. Llama-1B's drop from 29% → 15% is a clean example - the base (non-instruct) model treats RAG context as more text to continue rather than as reference material. Random baseline = 25%.
