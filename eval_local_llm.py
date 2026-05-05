@@ -19,6 +19,10 @@ python eval_local_llm.py --rag --top-k 5 --corpus-dir corpus/statpearls/chunk
 # Pre-build and cache the corpus embeddings (reused on every subsequent run)
 python eval_local_llm.py --rag --embeddings-cache corpus_index.faiss
 
+# RAG + context summarisation: the LLM first summarises the retrieved
+# passages WITHOUT seeing the question, then answers using the summary.
+python eval_local_llm.py --rag --summarize --embeddings-cache corpus_index.faiss
+
 # 4-bit quantisation for large models
 python eval_local_llm.py --model mistralai/Mistral-7B-Instruct-v0.3 --load-in-4bit --rag
 
@@ -30,6 +34,7 @@ import argparse
 import csv
 import json
 import os
+import re
 import time
 from pathlib import Path
 
@@ -42,7 +47,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 # ---------------------------------------------------------------------------
 # Defaults
 # ---------------------------------------------------------------------------
-DEFAULT_MODEL = "microsoft/Phi-3.5-mini-instruct"
+DEFAULT_MODEL = "mistralai/Mistral-7B-Instruct-v0.1"
 DEFAULT_DATA = "data/50k.csv"
 DEFAULT_OUTPUT = "results_local_llm.csv"
 DEFAULT_BATCH = 16
@@ -154,21 +159,91 @@ SYSTEM_PROMPT_RAG = (
     "Do not add any explanation."
 )
 
+# Prompt used when --summarize is on. The model is shown ONLY the retrieved
+# passages (never the question) and asked to produce a compact, faithful
+# summary that will later be used as the sole context when answering.
+SYSTEM_PROMPT_SUMMARIZE = (
+    "You are a medical knowledge summariser. You will be given several "
+    "reference passages. Produce a concise, factual summary of the medical "
+    "information they contain. Preserve specific facts (drug names, dosages, "
+    "mechanisms, diagnostic criteria, anatomical details, numbers). Do NOT "
+    "invent information that is not in the passages. Output the summary only, "
+    "with no preamble."
+)
 
-def build_user_message(row: pd.Series, context_passages: list[str] | None = None) -> str:
+# Prompts for chain-of-thought (--cot). The model is allowed to reason for
+# several sentences before emitting the final letter on a clearly-marked line.
+SYSTEM_PROMPT_BASE_COT = (
+    "You are a medical expert answering multiple-choice questions. "
+    "Think step by step about the question and each option, then on the "
+    "FINAL line of your response write exactly: 'Answer: X' "
+    "where X is one of A, B, C, or D."
+)
+
+SYSTEM_PROMPT_RAG_COT = (
+    "You are a medical expert answering multiple-choice questions. "
+    "Use the reference passages below to reason step by step about the "
+    "question and each option, then on the FINAL line of your response "
+    "write exactly: 'Answer: X' where X is one of A, B, C, or D."
+)
+
+# Prompt for HyDE-style query expansion (--query-expand). The LLM produces a
+# short hypothetical answer passage which is then embedded and used (with the
+# original question) as the retrieval query.
+SYSTEM_PROMPT_HYDE = (
+    "You are a medical expert. Given a multiple-choice question, write a "
+    "concise (2-4 sentence) factual passage that explains the relevant "
+    "medical concepts and would help answer it. Include specific terminology, "
+    "mechanisms, drug names, anatomical or diagnostic details as appropriate. "
+    "Do NOT refuse and do NOT say you are uncertain — write your best-guess "
+    "factual passage. Output the passage only, no preamble."
+)
+
+
+def build_user_message(
+    row: pd.Series,
+    context_passages: list[str] | None = None,
+    cot: bool = False,
+) -> str:
     parts = []
     if context_passages:
         ctx = "\n\n".join(f"[{i+1}] {p}" for i, p in enumerate(context_passages))
         parts.append(f"Reference passages:\n{ctx}\n")
+    suffix = (
+        "Reason step by step, then on the final line write 'Answer: X':"
+        if cot
+        else "Answer:"
+    )
     parts.append(
         f"Question: {row['question']}\n\n"
         f"A. {row['opa']}\n"
         f"B. {row['opb']}\n"
         f"C. {row['opc']}\n"
         f"D. {row['opd']}\n\n"
-        "Answer:"
+        f"{suffix}"
     )
     return "\n".join(parts)
+
+
+def build_summarize_user_message(context_passages: list[str]) -> str:
+    """User message for the summarisation step – contains ONLY the passages."""
+    ctx = "\n\n".join(f"[{i+1}] {p}" for i, p in enumerate(context_passages))
+    return (
+        f"Reference passages:\n{ctx}\n\n"
+        "Summary:"
+    )
+
+
+def build_hyde_user_message(row: pd.Series) -> str:
+    """User message for the HyDE step – question + options, asks for a passage."""
+    return (
+        f"Question: {row['question']}\n\n"
+        f"A. {row['opa']}\n"
+        f"B. {row['opb']}\n"
+        f"C. {row['opc']}\n"
+        f"D. {row['opd']}\n\n"
+        "Passage:"
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -186,6 +261,33 @@ def extract_letter(text: str) -> str:
         if ch in "ABCD":
             return ch
     return ""
+
+
+# Patterns ordered from most-specific to least-specific. Used by the CoT
+# extractor where the model's response will contain reasoning text that may
+# include stray letters before the final answer.
+_COT_ANSWER_PATTERNS = [
+    re.compile(r"final\s+answer\s*[:\-]?\s*\(?([ABCD])\)?", re.IGNORECASE),
+    re.compile(r"answer\s+is\s*\(?([ABCD])\)?", re.IGNORECASE),
+    re.compile(r"answer\s*[:\-]\s*\(?([ABCD])\)?", re.IGNORECASE),
+]
+
+
+def extract_letter_cot(text: str) -> str:
+    """Extract A/B/C/D from a chain-of-thought response.
+
+    Looks for explicit "answer: X" / "answer is X" / "final answer: X"
+    patterns, then falls back to the LAST standalone A/B/C/D in the
+    response (the one the model emitted at the end of its reasoning).
+    """
+    if not text:
+        return ""
+    for pat in _COT_ANSWER_PATTERNS:
+        m = pat.search(text)
+        if m:
+            return m.group(1).upper()
+    matches = re.findall(r"\b([ABCD])\b", text.upper())
+    return matches[-1] if matches else ""
 
 
 # ---------------------------------------------------------------------------
@@ -226,16 +328,33 @@ def load_model(model_name: str, load_in_4bit: bool, load_in_8bit: bool):
             print("WARNING: bitsandbytes not functional – falling back to full bf16 (use smaller --batch-size)")
             load_in_4bit = load_in_8bit = False
 
-    dtype = torch.bfloat16 if torch.cuda.is_available() else torch.float32
+    # Pick the fastest dtype the GPU can natively run.
+    # bf16 needs Ampere or newer (compute capability >= 8.0).
+    # V100 (cc 7.0) has no bf16 tensor cores -> bf16 falls back to slow
+    # software emulation. Use fp16 there instead.
+    if torch.cuda.is_available():
+        cc_major, _ = torch.cuda.get_device_capability(0)
+        dtype = torch.bfloat16 if cc_major >= 8 else torch.float16
+    else:
+        dtype = torch.float32
     print(f"Loading model: {model_name}  (dtype={dtype}, 4bit={load_in_4bit}, 8bit={load_in_8bit})")
 
-    model = AutoModelForCausalLM.from_pretrained(
-        model_name,
-        quantization_config=quant_config,
-        dtype=None if quant_config else dtype,
-        device_map="auto",
-        trust_remote_code=False,
-    )
+    # `dtype` was renamed from `torch_dtype` in newer transformers releases.
+    # Use whichever kwarg the installed version accepts so the script works
+    # on both old and new transformers.
+    import inspect
+    from_pretrained_params = inspect.signature(
+        AutoModelForCausalLM.from_pretrained
+    ).parameters
+    dtype_kw = "dtype" if "dtype" in from_pretrained_params else "torch_dtype"
+
+    model_kwargs = {
+        "quantization_config": quant_config,
+        "device_map": "auto",
+        "trust_remote_code": False,
+        dtype_kw: None if quant_config else dtype,
+    }
+    model = AutoModelForCausalLM.from_pretrained(model_name, **model_kwargs)
     model.eval()
 
     device = next(model.parameters()).device
@@ -251,14 +370,8 @@ def load_model(model_name: str, load_in_4bit: bool, load_in_8bit: bool):
 # ---------------------------------------------------------------------------
 # Batched inference
 # ---------------------------------------------------------------------------
-def build_chat_prompt(
-    tokenizer,
-    row: pd.Series,
-    context_passages: list[str] | None = None,
-) -> str:
-    system = SYSTEM_PROMPT_RAG if context_passages else SYSTEM_PROMPT_BASE
-    user_msg = build_user_message(row, context_passages)
-
+def _render_chat(tokenizer, system: str, user_msg: str) -> str:
+    """Apply the tokenizer's chat template, falling back gracefully."""
     if hasattr(tokenizer, "apply_chat_template") and tokenizer.chat_template:
         # Try with a system role first; fall back to merging into user msg
         # for models (e.g. Mistral) whose template doesn't support system.
@@ -280,9 +393,38 @@ def build_chat_prompt(
     return f"[INST] <<SYS>>\n{system}\n<</SYS>>\n\n{user_msg} [/INST]"
 
 
-def run_batch(tokenizer, model, prompts: list[str], max_new_tokens: int = 8) -> list[str]:
-    # RAG prompts are longer – allow up to 2048 input tokens
-    max_input = 2048
+def build_chat_prompt(
+    tokenizer,
+    row: pd.Series,
+    context_passages: list[str] | None = None,
+    cot: bool = False,
+) -> str:
+    if cot:
+        system = SYSTEM_PROMPT_RAG_COT if context_passages else SYSTEM_PROMPT_BASE_COT
+    else:
+        system = SYSTEM_PROMPT_RAG if context_passages else SYSTEM_PROMPT_BASE
+    user_msg = build_user_message(row, context_passages, cot=cot)
+    return _render_chat(tokenizer, system, user_msg)
+
+
+def build_summarize_prompt(tokenizer, context_passages: list[str]) -> str:
+    """Chat prompt for summarising retrieved passages without the question."""
+    user_msg = build_summarize_user_message(context_passages)
+    return _render_chat(tokenizer, SYSTEM_PROMPT_SUMMARIZE, user_msg)
+
+
+def build_hyde_prompt(tokenizer, row: pd.Series) -> str:
+    """Chat prompt for HyDE-style query expansion (no retrieved context)."""
+    return _render_chat(tokenizer, SYSTEM_PROMPT_HYDE, build_hyde_user_message(row))
+
+
+def run_batch(
+    tokenizer,
+    model,
+    prompts: list[str],
+    max_new_tokens: int = 8,
+    max_input: int = 2048,
+) -> list[str]:
     inputs = tokenizer(
         prompts,
         return_tensors="pt",
@@ -309,13 +451,17 @@ def run_batch(tokenizer, model, prompts: list[str], max_new_tokens: int = 8) -> 
 # ---------------------------------------------------------------------------
 # Benchmark report
 # ---------------------------------------------------------------------------
-def print_report(df_results: pd.DataFrame, rag: bool) -> None:
+def print_report(df_results: pd.DataFrame, rag: bool, summarize: bool = False) -> None:
     total = len(df_results)
     correct = (df_results["predicted"] == df_results["ground_truth"]).sum()
     accuracy = correct / total if total else 0.0
 
+    if rag:
+        rag_label = "RAG=ON+SUMMARIZE" if summarize else "RAG=ON"
+    else:
+        rag_label = "RAG=OFF"
     print("\n" + "=" * 60)
-    print(f"BENCHMARK RESULTS  (RAG={'ON' if rag else 'OFF'})")
+    print(f"BENCHMARK RESULTS  ({rag_label})")
     print("=" * 60)
     print(f"Total questions  : {total}")
     print(f"Correct          : {correct}")
@@ -358,6 +504,15 @@ def parse_args():
                         help="Skip rows already present in --output")
     parser.add_argument("--max-new-tokens", type=int, default=8)
 
+    # Chain-of-thought arguments
+    cot_grp = parser.add_argument_group("Chain-of-thought")
+    cot_grp.add_argument("--cot", action="store_true",
+                         help="Allow the model to reason step by step before "
+                              "emitting the final letter (uses --cot-max-tokens "
+                              "instead of --max-new-tokens for generation).")
+    cot_grp.add_argument("--cot-max-tokens", type=int, default=256,
+                         help="Max new tokens when --cot is set (default: 256).")
+
     # RAG arguments
     rag = parser.add_argument_group("RAG (semantic retrieval)")
     rag.add_argument("--rag", action="store_true",
@@ -371,6 +526,19 @@ def parse_args():
     rag.add_argument("--embeddings-cache", default=None,
                      help="Path to save/load the FAISS index (e.g. corpus_index.faiss). "
                           "Saves significant time on repeated runs.")
+    rag.add_argument("--summarize", action="store_true",
+                     help="Before answering, ask the LLM to summarise the retrieved "
+                          "passages WITHOUT seeing the question, then use the summary "
+                          "as the sole context. Requires --rag.")
+    rag.add_argument("--summary-max-tokens", type=int, default=256,
+                     help="Max new tokens for the summarisation step (default: 256).")
+    rag.add_argument("--query-expand", action="store_true",
+                     help="HyDE-style query expansion: ask the LLM to write a "
+                          "hypothetical answer passage for the question, then "
+                          "retrieve using (question + hypothetical) as the "
+                          "embedding query. Requires --rag.")
+    rag.add_argument("--hyde-max-tokens", type=int, default=150,
+                     help="Max new tokens for the HyDE generation step (default: 150).")
     return parser.parse_args()
 
 
@@ -379,6 +547,11 @@ def parse_args():
 # ---------------------------------------------------------------------------
 def main():
     args = parse_args()
+
+    if args.summarize and not args.rag:
+        raise SystemExit("--summarize requires --rag (it summarises retrieved passages).")
+    if args.query_expand and not args.rag:
+        raise SystemExit("--query-expand requires --rag (it improves the retrieval query).")
 
     # ---- Load dataset -------------------------------------------------------
     print(f"Loading dataset: {args.data}")
@@ -418,9 +591,13 @@ def main():
     write_header = not (args.resume and output_path.exists())
 
     fieldnames = ["id", "question", "ground_truth", "predicted", "raw_output",
-                  "correct", "rag_context"]
+                  "correct", "rag_context", "rag_summary", "hyde_query"]
     results = []
     start_time = time.time()
+
+    # Letter extractor depends on whether the model is allowed to reason.
+    letter_extractor = extract_letter_cot if args.cot else extract_letter
+    answer_max_tokens = args.cot_max_tokens if args.cot else args.max_new_tokens
 
     with open(output_path, "a", newline="", encoding="utf-8") as fout:
         writer = csv.DictWriter(fout, fieldnames=fieldnames)
@@ -434,22 +611,74 @@ def main():
         ):
             batch = df.iloc[batch_start : batch_start + args.batch_size]
 
+            # ---- Optional HyDE query expansion -------------------------------
+            # The model writes a hypothetical answer passage; we then retrieve
+            # using (question + hypothetical) as the embedding query.
+            hyde_texts: list[str] = ["" for _ in range(len(batch))]
+            if args.query_expand:
+                hyde_prompts = [
+                    build_hyde_prompt(tokenizer, row) for _, row in batch.iterrows()
+                ]
+                hyde_outputs = run_batch(
+                    tokenizer,
+                    model,
+                    hyde_prompts,
+                    max_new_tokens=args.hyde_max_tokens,
+                )
+                hyde_texts = [s.strip() for s in hyde_outputs]
+
             # Retrieve context for each row (fast – CPU only)
             contexts: list[list[str] | None] = []
-            for _, row in batch.iterrows():
+            for (_, row), hyde in zip(batch.iterrows(), hyde_texts):
                 if retriever:
-                    contexts.append(retriever.retrieve(row["question"]))
+                    if hyde:
+                        query = f"{row['question']}\n\n{hyde}"
+                    else:
+                        query = row["question"]
+                    contexts.append(retriever.retrieve(query))
                 else:
                     contexts.append(None)
 
-            prompts = [
-                build_chat_prompt(tokenizer, row, ctx)
-                for (_, row), ctx in zip(batch.iterrows(), contexts)
-            ]
-            raw_outputs = run_batch(tokenizer, model, prompts, args.max_new_tokens)
+            # ---- Optional summarisation pass ---------------------------------
+            # The model sees ONLY the retrieved passages (never the question)
+            # and produces a compact summary that replaces the raw passages
+            # when answering the actual MCQ.
+            summaries: list[str | None] = [None] * len(contexts)
+            if args.summarize:
+                sum_indices = [i for i, ctx in enumerate(contexts) if ctx]
+                if sum_indices:
+                    sum_prompts = [
+                        build_summarize_prompt(tokenizer, contexts[i])
+                        for i in sum_indices
+                    ]
+                    sum_outputs = run_batch(
+                        tokenizer,
+                        model,
+                        sum_prompts,
+                        max_new_tokens=args.summary_max_tokens,
+                    )
+                    for i, summary in zip(sum_indices, sum_outputs):
+                        summaries[i] = summary.strip()
 
-            for (_, row), raw, ctx in zip(batch.iterrows(), raw_outputs, contexts):
-                predicted = extract_letter(raw)
+            # Context actually fed to the answering prompt: a single-passage
+            # list containing the summary when --summarize, else the raw chunks.
+            answer_contexts: list[list[str] | None] = []
+            for ctx, summary in zip(contexts, summaries):
+                if args.summarize and summary:
+                    answer_contexts.append([summary])
+                else:
+                    answer_contexts.append(ctx)
+
+            prompts = [
+                build_chat_prompt(tokenizer, row, ans_ctx, cot=args.cot)
+                for (_, row), ans_ctx in zip(batch.iterrows(), answer_contexts)
+            ]
+            raw_outputs = run_batch(tokenizer, model, prompts, answer_max_tokens)
+
+            for (_, row), raw, ctx, summary, hyde in zip(
+                batch.iterrows(), raw_outputs, contexts, summaries, hyde_texts
+            ):
+                predicted = letter_extractor(raw)
                 gt = ground_truth_letter(row["cop"])
                 csv_record = {
                     "id": row["id"],
@@ -459,6 +688,8 @@ def main():
                     "raw_output": raw.strip(),
                     "correct": predicted == gt,
                     "rag_context": " ||| ".join(ctx) if ctx else "",
+                    "rag_summary": summary or "",
+                    "hyde_query": hyde or "",
                 }
                 writer.writerow(csv_record)
                 # Richer record for the JSON dump
@@ -474,6 +705,8 @@ def main():
                     "raw_output": raw.strip(),
                     "correct": predicted == gt,
                     "rag_context": ctx if ctx else [],
+                    "rag_summary": summary or "",
+                    "hyde_query": hyde or "",
                 })
 
         fout.flush()
@@ -489,7 +722,7 @@ def main():
         if "subject_name" in df.columns else {}
     )
     results_df["subject_name"] = results_df["id"].map(id_to_subject)
-    print_report(results_df, rag=args.rag)
+    print_report(results_df, rag=args.rag, summarize=args.summarize)
 
     summary = {
         "model": args.model,
@@ -497,6 +730,12 @@ def main():
         "rag": args.rag,
         "rag_embedder": args.embedder if args.rag else None,
         "rag_top_k": args.top_k if args.rag else None,
+        "summarize": args.summarize,
+        "summary_max_tokens": args.summary_max_tokens if args.summarize else None,
+        "cot": args.cot,
+        "cot_max_tokens": args.cot_max_tokens if args.cot else None,
+        "query_expand": args.query_expand,
+        "hyde_max_tokens": args.hyde_max_tokens if args.query_expand else None,
         "total": len(results_df),
         "correct": int((results_df["predicted"] == results_df["ground_truth"]).sum()),
         "accuracy": float((results_df["predicted"] == results_df["ground_truth"]).mean()),
