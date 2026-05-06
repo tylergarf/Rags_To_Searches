@@ -3,7 +3,7 @@ set -e
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
 # Save HuggingFace model downloads to the group directory (more disk space)
-export HF_HOME=/groups/clairemcwhite/ahmad_workspace/hf_cache
+export HF_HOME= "PATH_TO_HOME"
 export TRANSFORMERS_CACHE=$HF_HOME
 mkdir -p $HF_HOME
 
