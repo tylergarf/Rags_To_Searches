@@ -38,3 +38,4 @@ Earlier sweep on small models to establish where RAG starts paying off:
 | Llama-3.2-1B (base, no instruct) | 29.2% | 14.9% |
 
 Tiny models get *confused* by injected passages rather than helped. RAG only works once the model is (a) large enough to handle long context (~1.7B+) and (b) instruction-tuned to follow "use the references below" directives. Llama-1B's drop from 29% → 15% is a clean example - the base (non-instruct) model treats RAG context as more text to continue rather than as reference material. Random baseline = 25%.
+
