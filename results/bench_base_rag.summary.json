@@ -1,0 +1,12 @@
+{
+  "model": "mistralai/Mistral-7B-Instruct-v0.1",
+  "data": "data/50k.csv",
+  "rag": true,
+  "rag_embedder": "all-MiniLM-L6-v2",
+  "rag_top_k": 3,
+  "total": 1000,
+  "correct": 514,
+  "accuracy": 0.514,
+  "elapsed_s": 1695.5,
+  "questions_per_sec": 0.59
+}
